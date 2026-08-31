@@ -335,3 +335,32 @@ footer a:hover{color:var(--cloud)}
   html{scroll-behavior:auto}
   .btn,.fcard,.acard{transition:none}
 }
+
+/* ---------- makale imzası ---------- */
+.byline{display:flex;align-items:center;gap:12px;margin-top:18px}
+.byline-av{flex:none;width:38px;height:38px;border-radius:50%;background:var(--ind-600);color:#fff;
+  display:flex;align-items:center;justify-content:center;font:700 13px/1 var(--ui);letter-spacing:.02em}
+.byline-av.lg{width:52px;height:52px;font-size:17px}
+.byline-t{display:flex;flex-direction:column;font:500 13.5px/1.35 var(--ui);color:var(--midnight)}
+.byline-t span{font:400 12px/1.4 var(--ui);color:var(--s500)}
+.authorbox{display:flex;gap:16px;align-items:flex-start;margin-top:48px;padding:22px;
+  background:var(--cloud);border:1px solid var(--s200);border-radius:16px}
+.ab-name{font:700 15px/1.3 var(--ui);color:var(--midnight);margin:0}
+.ab-role{font:500 12.5px/1.4 var(--ui);color:var(--ind-700);margin:3px 0 0}
+.ab-bio{font:400 13.5px/1.65 var(--ui);color:var(--s600);margin:9px 0 0}
+@media(max-width:520px){.authorbox{flex-direction:column;gap:12px}}
+
+/* ---------- insights kategori filtresi ---------- */
+.chip[data-cat]{cursor:pointer;background:var(--white);font:inherit;transition:background .14s,border-color .14s,color .14s}
+.chip[data-cat]:hover{border-color:var(--ind-400)}
+.chip[data-cat].on{background:var(--ind-600);border-color:var(--ind-600);color:#fff}
+.chip[data-cat]:focus-visible{outline:2px solid var(--ind-600);outline-offset:2px}
+.ins-empty{margin:34px 0 0;font:500 15px/1.6 var(--ui);color:var(--s500);text-align:center}
+
+/* ---------- dar telefonlarda üst bar (≤430px): CTA menüye taşınır ---------- */
+@media(max-width:430px){
+  .wrap{padding:0 18px}
+  .nav .actions .btn{display:none}   /* "Demo Talep Et" mobil menüde zaten var */
+  .nav .actions{gap:6px}
+  .menu-btn{width:40px;height:40px}
+}
