@@ -160,3 +160,78 @@
     });
   }
 })();
+
+/* ============================================================================
+   v2.1 eki — Kaynaklar (Insights) kategori filtresi
+   Sorun: liste sayfasındaki kategori çipleri düz <span> idi, tıklanamıyordu.
+   Davranış: çipe dokun → yalnız o kategorinin kartları; aynı çipe tekrar dokun →
+   filtre temizlenir. Henüz içeriği olmayan kategoride nazik bir "yolda" notu.
+   İlerlemeli iyileştirme: yalnız /insights/ liste sayfalarında ve beklenen
+   yapı (grid3 + .acard + .chip) bulunduğunda çalışır; aksi hâlde hiçbir şey yapmaz.
+   ========================================================================== */
+(function () {
+  "use strict";
+  var doc = document, root = doc.documentElement;
+  if (!/\/insights\/?(index\.html)?$/.test(location.pathname)) return;
+  var grid = doc.querySelector(".grid3");
+  if (!grid) return;
+  var kartlar = [].slice.call(grid.querySelectorAll("a.acard"));
+  var cipler = [].slice.call(doc.querySelectorAll(".truststrip .chip"));
+  if (kartlar.length < 2 || cipler.length < 3) return;
+  var track = window.novaTrack || function () {};
+  var EN = (root.lang || "tr").indexOf("en") === 0;
+
+  /* "Öğretmen rehberleri" (çip) ↔ "Öğretmen rehberi" (kart üst yazısı) eşleşsin diye normalizasyon */
+  function anahtar(s) {
+    return (s || "").toLocaleLowerCase(EN ? "en" : "tr").replace(/\s+/g, " ").trim()
+      .replace(/rehberleri$/, "rehberi").replace(/guides$/, "guide")
+      .replace(/güncellemeleri$/, "güncellemesi").replace(/updates$/, "update");
+  }
+  function eslesir(a, b) { return a === b || a.indexOf(b) === 0 || b.indexOf(a) === 0; }
+  var kartAnahtari = kartlar.map(function (k) {
+    var e = k.querySelector(".eyebrow");
+    return anahtar(e ? e.textContent : "");
+  });
+
+  var bosNot = doc.createElement("p");
+  bosNot.style.cssText = "grid-column:1/-1;margin:0;padding:22px 4px;color:#64748B;font-size:15px;display:none";
+  grid.appendChild(bosNot);
+
+  var aktif = null;
+  function uygula() {
+    var gorunen = 0;
+    kartlar.forEach(function (k, i) {
+      var goster = !aktif || eslesir(kartAnahtari[i], aktif);
+      k.style.display = goster ? "" : "none";
+      if (goster) gorunen++;
+    });
+    if (aktif && gorunen === 0) {
+      bosNot.textContent = EN
+        ? "The first pieces in this category are on the way — new content is added regularly."
+        : "Bu kategorideki ilk içerikler yolda — düzenli olarak yeni içerik ekleniyor.";
+      bosNot.style.display = "block";
+    } else { bosNot.style.display = "none"; }
+    cipler.forEach(function (c) {
+      var on = !!aktif && eslesir(anahtar(c.textContent), aktif);
+      c.setAttribute("aria-pressed", on ? "true" : "false");
+      c.style.background = on ? "#4F46E5" : "";
+      c.style.borderColor = on ? "#4F46E5" : "";
+      c.style.color = on ? "#fff" : "";
+      c.style.opacity = !aktif || on ? "1" : ".55";
+    });
+  }
+  cipler.forEach(function (c) {
+    c.setAttribute("role", "button");
+    c.setAttribute("tabindex", "0");
+    c.setAttribute("aria-pressed", "false");
+    c.style.cursor = "pointer";
+    function sec() {
+      var a = anahtar(c.textContent);
+      aktif = aktif === a ? null : a;
+      uygula();
+      track("insights_filter", { label: c.textContent.trim(), active: aktif ? 1 : 0 });
+    }
+    c.addEventListener("click", sec);
+    c.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sec(); } });
+  });
+})();
