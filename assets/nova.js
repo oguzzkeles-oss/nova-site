@@ -78,7 +78,7 @@
   }
 
   /* ---------- formlar (demo & iletişim) ---------- */
-  var FORM_ENDPOINT = ""; /* Boşsa: yerelde doğrula + başarı ekranı göster (backend/Formspree bağlanınca URL yazın) */
+  var FORM_ENDPOINT = "https://formspree.io/f/xqpkeqzy"; /* Formspree — gönderiler kayıtlı e-postaya düşer */
   [].slice.call(doc.querySelectorAll("form[data-nova-form]")).forEach(function (form) {
     var kind = form.getAttribute("data-nova-form");
     function setErr(field, msg) {
@@ -111,7 +111,9 @@
       if (FORM_ENDPOINT) {
         var data = {};
         [].slice.call(form.elements).forEach(function (f) { if (f.name && !f.closest(".hp")) data[f.name] = f.value; });
-        fetch(FORM_ENDPOINT, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) })
+        data._subject = kind === "demo" ? "NOVA ECE — Demo talebi" : "NOVA ECE — İletişim mesajı";
+        if (data.eposta) data._replyto = data.eposta;
+        fetch(FORM_ENDPOINT, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify(data) })
           .then(done).catch(function () { done(); });
       } else { setTimeout(done, 450); }
     });
