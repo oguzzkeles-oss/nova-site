@@ -89,7 +89,124 @@
       <div class="mrow"><span class="n">Deniz · üçlü örüntü kurdu</span><span class="badge b-mint">Bilişsel</span></div>
       <div class="mrow"><span class="n">Aras · makasla düz kesti</span><span class="badge b-star">Fiziksel</span></div>
       <div class="mrow"><span class="n">Zeynep · duygusunu sözle ifade etti</span><span class="badge b-sky">Sos. Duygusal</span></div></div>
-  </div></div></div></div></section><section><div class="wrap"><div class="sec-head rv"><h2>NOVA ECE ile bir öğretmen günü</h2></div><div class="tl rv" style="max-width:640px"><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">09:00</span><p>Sabah çemberi planı hazır — dünkü gözlemlerden önerilen duygu kartları etkinliğiyle.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">10:40</span><p>Blok köşesinde iki gözlem: 10 saniyede kayıt, alanlar otomatik önerildi.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">13:30</span><p>Uyku saatinde YZ, dönem raporu taslağını çıkardı; iki cümleyi düzenleyip onayladınız.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">15:45</span><p>Bugün kartı tek dokunuşla velilere gitti — mesaj kutusu sakin.</p></div></div><div class="note-line rv" style="margin-top:30px">“Evrakı biz taşıyalım; siz çocuklarla kalın.”</div></div></section><section class="cta-sec" id="cta">
+  </div></div></div></div></section><section><div class="wrap"><div class="sec-head rv"><h2>NOVA ECE ile bir öğretmen günü</h2></div><div class="tl rv" style="max-width:640px"><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">09:00</span><p>Sabah çemberi planı hazır — dünkü gözlemlerden önerilen duygu kartları etkinliğiyle.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">10:40</span><p>Blok köşesinde iki gözlem: 10 saniyede kayıt, alanlar otomatik önerildi.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">13:30</span><p>Uyku saatinde YZ, dönem raporu taslağını çıkardı; iki cümleyi düzenleyip onayladınız.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">15:45</span><p>Bugün kartı tek dokunuşla velilere gitti — mesaj kutusu sakin.</p></div></div><div class="note-line rv" style="margin-top:30px">“Evrakı biz taşıyalım; siz çocuklarla kalın.”</div></div></section><!-- ============================================================================
+     NOVA Teacher — "ayrı ürün" bölümü  ·  TÜRKÇE
+     ----------------------------------------------------------------------------
+     NEREYE:  /teachers/ sayfası.
+              "Evrakı biz taşıyalım; siz çocuklarla kalın." alıntısından SONRA,
+              en alttaki "Çocukların gelişim yolculuğuna birlikte başlayalım"
+              CTA bölümünden ÖNCE.
+              Yani <section class="cta-sec"> satırının hemen üstüne yapıştırın.
+
+     NOTLAR:  · Üstündeki bölüm zaten beyaz zeminliyse, aşağıdaki
+                <section class="alt" ...> içindeki  class="alt"  ifadesini silin.
+              · <style> bloğu bir kez yeterlidir; sayfada başka yere daha
+                kopyalarsanız ikinci <style>'ı silin.
+              · Bütün sınıf adları sitenizin kendi nova.css'inden gelir;
+                yalnızca "nt-" ile başlayanlar bu bölüme özeldir.
+============================================================================ -->
+
+<style>
+/* NOVA Teacher bölümü — sitenin token'larını kullanır, kendi sınıf öneki: nt- */
+.nt-ikili{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;align-items:stretch}
+.nt-kart{background:var(--white);border:1px solid var(--s200);border-radius:18px;box-shadow:var(--sh-sm);
+         padding:26px;display:flex;flex-direction:column;gap:14px}
+.nt-kart--vurgu{border-color:var(--ind-100);box-shadow:var(--sh-md);position:relative}
+.nt-kart--vurgu::before{content:"";position:absolute;inset:-1px -1px auto -1px;height:4px;
+                        border-radius:18px 18px 0 0;background:var(--aurora)}
+.nt-rozet{align-self:flex-start;display:inline-flex;align-items:center;gap:7px;border-radius:999px;
+          padding:6px 13px;font:600 11.5px/1.3 var(--ui);letter-spacing:.07em;text-transform:uppercase}
+.nt-rozet--ece{background:var(--s100);color:var(--s600)}
+.nt-rozet--teacher{background:var(--ind-50);color:var(--ind-700)}
+.nt-kart h3{font:800 20px/1.25 var(--disp);letter-spacing:-.015em}
+.nt-kart p{font:400 14.5px/1.65 var(--ui);color:var(--s600)}
+.nt-liste{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-direction:column;gap:9px}
+.nt-liste li{font:400 14px/1.5 var(--ui);color:var(--s700);padding-left:22px;position:relative}
+.nt-liste li::before{content:"";position:absolute;left:0;top:7px;width:8px;height:8px;border-radius:50%;
+                     background:var(--s300)}
+.nt-kart--vurgu .nt-liste li::before{background:var(--ind-500)}
+.nt-etiketler{display:flex;flex-wrap:wrap;gap:8px;margin-top:2px}
+.nt-etiket{font:500 12.5px/1.3 var(--ui);color:var(--s600);border:1px solid var(--s200);
+           background:var(--cloud);border-radius:999px;padding:7px 13px}
+.nt-eylem{margin-top:auto;padding-top:8px;display:flex;flex-wrap:wrap;gap:12px}
+.nt-not{margin-left:auto;margin-right:auto}
+@media(max-width:520px){.nt-kart{padding:22px}.nt-eylem .btn{width:100%}}
+</style>
+
+<section class="alt" id="nova-teacher" data-view-event="nova_teacher_section_view">
+  <div class="wrap">
+
+    <div class="sec-head center rv">
+      <span class="eyebrow">Ayrı bir ürün</span>
+      <h2>Kurumunuz NOVA ECE kullanmıyor mu?</h2>
+      <p class="lead">
+        NOVA Teacher, öğretmenin <strong>kendi</strong> uygulamasıdır. Kurumunuzun bir sistem
+        kullanıp kullanmadığından bağımsız çalışır: kurum hesabı, yönetici paneli ve veli girişi
+        yoktur; kayıtlarınız kendi cihazınızda kalır.
+      </p>
+    </div>
+
+    <div class="nt-ikili rv">
+
+      <div class="nt-kart">
+        <span class="nt-rozet nt-rozet--ece">Kurumla birlikte</span>
+        <h3>NOVA ECE Teacher</h3>
+        <p>
+          Öğretmen modülü, kurumsal platformun parçasıdır. Sınıf, veli iletişimi ve yönetici
+          görünürlüğü tek sistemde birleşir; kayıt bir kez girilir, gerekli yere kendiliğinden akar.
+        </p>
+        <ul class="nt-liste">
+          <li>Veliyle doğrudan iletişim ve paylaşım</li>
+          <li>Yönetici raporlaması ve kurum arşivi</li>
+          <li>Sınıf, çocuk ve devam kayıtları kurumla ortak</li>
+        </ul>
+        <div class="nt-eylem">
+          <a class="btn sec" href="https://oguzzkeles-oss.github.io/nova-demo/#/giris"
+             target="_blank" rel="noopener"
+             data-track="demo_click" data-track-label="NOVA ECE demo — teachers">
+            NOVA ECE demosunu açın
+          </a>
+        </div>
+      </div>
+
+      <div class="nt-kart nt-kart--vurgu">
+        <span class="nt-rozet nt-rozet--teacher">Tek başına</span>
+        <h3>NOVA Teacher</h3>
+        <p>
+          Planı, gözlemi, belgesi ve etkinlik havuzuyla öğretmenin günlük mesleki çalışma alanı.
+          Kimseye hesap açtırmaz, kimseden onay beklemez; ne yazdığınız yalnız sizde kalır.
+        </p>
+        <ul class="nt-liste">
+          <li>Günlük (EK-4) ve aylık (EK-3) plan, denge kontrolü</li>
+          <li>Sınıf defteri, anekdot kaydı ve gelişim raporu</li>
+          <li>Etkinlik havuzu, parmak oyunları, çocuk şarkıları</li>
+          <li>Yapay zekâ ile arama ve MEB 2024 formatında etkinlik tasarımı</li>
+        </ul>
+        <div class="nt-etiketler">
+          <span class="nt-etiket">MEB 2024 · öğrenme çıktısı</span>
+          <span class="nt-etiket">Word ve PDF çıktı</span>
+          <span class="nt-etiket">Çevrimdışı çalışır</span>
+        </div>
+        <div class="nt-eylem">
+          <a class="btn pri" href="https://oguzzkeles-oss.github.io/nova-demo/Ogretmen/"
+             target="_blank" rel="noopener"
+             data-track="demo_click" data-track-label="NOVA Teacher demo — teachers">
+            NOVA Teacher demosunu açın
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="note-line nt-not rv">
+      Demo kurgusal bir okulun verileriyle açılır; kayıt ya da kurulum gerekmez. Denerken
+      yazdıklarınız yalnızca kendi tarayıcınızda kalır, hiçbir yere gönderilmez.
+    </div>
+
+  </div>
+</section>
+<!-- ===== NOVA Teacher bölümü sonu ===== -->
+<section class="cta-sec" id="cta">
   <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:.5" viewBox="0 0 1400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
     <g fill="#F8FAFC" opacity=".5"><circle cx="180" cy="110" r="1.5" class="tw"/><circle cx="1220" cy="120" r="1.5" class="tw2"/><circle cx="300" cy="380" r="1.4" class="tw3"/><circle cx="1120" cy="360" r="1.3" class="tw"/></g>
     <path d="M700 64 Q703.4 94.6 734 98 Q703.4 101.4 700 132 Q696.6 101.4 666 98 Q696.6 94.6 700 64 Z" fill="#FBBF24" class="tw2"/>
