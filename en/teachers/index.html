@@ -89,7 +89,126 @@
       <div class="mrow"><span class="n">Deniz · built a 3-part pattern</span><span class="badge b-mint">Cognitive</span></div>
       <div class="mrow"><span class="n">Aras · cut straight with scissors</span><span class="badge b-star">Physical</span></div>
       <div class="mrow"><span class="n">Zeynep · voiced her feelings</span><span class="badge b-sky">Soc.-Emotional</span></div></div>
-  </div></div></div></div></section><section><div class="wrap"><div class="sec-head rv"><h2>A teacher’s day with NOVA ECE</h2></div><div class="tl rv" style="max-width:640px"><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">09:00</span><p>Morning circle plan ready — with an emotions-cards activity suggested from yesterday’s observations.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">10:40</span><p>Two observations at the block corner: recorded in 10 seconds, domains auto-suggested.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">13:30</span><p>During nap time, AI drafted the term report; you edited two sentences and approved.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">15:45</span><p>The Today card went to families in one tap — the inbox stays calm.</p></div></div><div class="note-line rv" style="margin-top:30px">“Let us carry the paperwork; you stay with the children.”</div></div></section><section class="cta-sec" id="cta">
+  </div></div></div></div></section><section><div class="wrap"><div class="sec-head rv"><h2>A teacher’s day with NOVA ECE</h2></div><div class="tl rv" style="max-width:640px"><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">09:00</span><p>Morning circle plan ready — with an emotions-cards activity suggested from yesterday’s observations.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">10:40</span><p>Two observations at the block corner: recorded in 10 seconds, domains auto-suggested.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">13:30</span><p>During nap time, AI drafted the term report; you edited two sentences and approved.</p></div><div class="tl-ev ev"><span class="dot"><span class="in"></span></span><span class="yr tabular">15:45</span><p>The Today card went to families in one tap — the inbox stays calm.</p></div></div><div class="note-line rv" style="margin-top:30px">“Let us carry the paperwork; you stay with the children.”</div></div></section><!-- ============================================================================
+     NOVA Teacher — "separate product" section  ·  ENGLISH
+     ----------------------------------------------------------------------------
+     WHERE:  /en/teachers/ page.
+             AFTER the pull-quote "Let us carry the paperwork; you stay with the
+             children." and BEFORE the final CTA section
+             ("Let's begin the journey to every child's light.").
+             In other words: paste directly above <section class="cta-sec">.
+
+     NOTES:  · If the section above is already white, delete  class="alt"  from
+               the <section> tag below.
+             · The <style> block is needed once per page; if you paste this
+               snippet twice, delete the second <style>.
+             · Every class name comes from your own nova.css — only the ones
+               prefixed with "nt-" belong to this section.
+============================================================================ -->
+
+<style>
+/* NOVA Teacher section — uses the site's own tokens; own prefix: nt- */
+.nt-ikili{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;align-items:stretch}
+.nt-kart{background:var(--white);border:1px solid var(--s200);border-radius:18px;box-shadow:var(--sh-sm);
+         padding:26px;display:flex;flex-direction:column;gap:14px}
+.nt-kart--vurgu{border-color:var(--ind-100);box-shadow:var(--sh-md);position:relative}
+.nt-kart--vurgu::before{content:"";position:absolute;inset:-1px -1px auto -1px;height:4px;
+                        border-radius:18px 18px 0 0;background:var(--aurora)}
+.nt-rozet{align-self:flex-start;display:inline-flex;align-items:center;gap:7px;border-radius:999px;
+          padding:6px 13px;font:600 11.5px/1.3 var(--ui);letter-spacing:.07em;text-transform:uppercase}
+.nt-rozet--ece{background:var(--s100);color:var(--s600)}
+.nt-rozet--teacher{background:var(--ind-50);color:var(--ind-700)}
+.nt-kart h3{font:800 20px/1.25 var(--disp);letter-spacing:-.015em}
+.nt-kart p{font:400 14.5px/1.65 var(--ui);color:var(--s600)}
+.nt-liste{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-direction:column;gap:9px}
+.nt-liste li{font:400 14px/1.5 var(--ui);color:var(--s700);padding-left:22px;position:relative}
+.nt-liste li::before{content:"";position:absolute;left:0;top:7px;width:8px;height:8px;border-radius:50%;
+                     background:var(--s300)}
+.nt-kart--vurgu .nt-liste li::before{background:var(--ind-500)}
+.nt-etiketler{display:flex;flex-wrap:wrap;gap:8px;margin-top:2px}
+.nt-etiket{font:500 12.5px/1.3 var(--ui);color:var(--s600);border:1px solid var(--s200);
+           background:var(--cloud);border-radius:999px;padding:7px 13px}
+.nt-eylem{margin-top:auto;padding-top:8px;display:flex;flex-wrap:wrap;gap:12px}
+.nt-not{margin-left:auto;margin-right:auto}
+@media(max-width:520px){.nt-kart{padding:22px}.nt-eylem .btn{width:100%}}
+</style>
+
+<section class="alt" id="nova-teacher" data-view-event="nova_teacher_section_view">
+  <div class="wrap">
+
+    <div class="sec-head center rv">
+      <span class="eyebrow">A separate product</span>
+      <h2>Your school doesn't use NOVA ECE?</h2>
+      <p class="lead">
+        NOVA Teacher is the teacher's <strong>own</strong> app. It works whether or not your school
+        runs a system: there is no institutional account, no administrator panel and no parent
+        login — your records stay on your own device.
+      </p>
+    </div>
+
+    <div class="nt-ikili rv">
+
+      <div class="nt-kart">
+        <span class="nt-rozet nt-rozet--ece">With your school</span>
+        <h3>NOVA ECE Teacher</h3>
+        <p>
+          The teacher module is part of the institutional platform. Classroom work, family
+          communication and administrator visibility live in one system: a record is entered once
+          and reaches wherever it is needed.
+        </p>
+        <ul class="nt-liste">
+          <li>Direct communication and sharing with families</li>
+          <li>Administrator reporting and school-wide archive</li>
+          <li>Class, child and attendance records shared with the school</li>
+        </ul>
+        <div class="nt-eylem">
+          <a class="btn sec" href="https://oguzzkeles-oss.github.io/nova-demo/#/giris"
+             target="_blank" rel="noopener"
+             data-track="demo_click" data-track-label="NOVA ECE demo — teachers EN">
+            Open the NOVA ECE demo
+          </a>
+        </div>
+      </div>
+
+      <div class="nt-kart nt-kart--vurgu">
+        <span class="nt-rozet nt-rozet--teacher">On your own</span>
+        <h3>NOVA Teacher</h3>
+        <p>
+          A teacher's daily professional workspace: plans, observations, documents and an activity
+          pool. It asks no one to open an account and waits for no one's approval — what you write
+          stays with you.
+        </p>
+        <ul class="nt-liste">
+          <li>Daily and monthly plans in the ministry format, with balance checks</li>
+          <li>Class journal, anecdotal records and development reports</li>
+          <li>Activity pool, finger plays and children's songs</li>
+          <li>AI search and activity design in the MoNE 2024 format</li>
+        </ul>
+        <div class="nt-etiketler">
+          <span class="nt-etiket">MoNE 2024 · learning outcomes</span>
+          <span class="nt-etiket">Word and PDF output</span>
+          <span class="nt-etiket">Works offline</span>
+        </div>
+        <div class="nt-eylem">
+          <a class="btn pri" href="https://oguzzkeles-oss.github.io/nova-demo/Ogretmen/"
+             target="_blank" rel="noopener"
+             data-track="demo_click" data-track-label="NOVA Teacher demo — teachers EN">
+            Open the NOVA Teacher demo
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="note-line nt-not rv">
+      The demo opens with data from a fictional school; no sign-up or installation is needed.
+      Anything you type while trying it stays in your own browser and is sent nowhere.
+    </div>
+
+  </div>
+</section>
+<!-- ===== end of NOVA Teacher section ===== -->
+<section class="cta-sec" id="cta">
   <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:.5" viewBox="0 0 1400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
     <g fill="#F8FAFC" opacity=".5"><circle cx="180" cy="110" r="1.5" class="tw"/><circle cx="1220" cy="120" r="1.5" class="tw2"/><circle cx="300" cy="380" r="1.4" class="tw3"/><circle cx="1120" cy="360" r="1.3" class="tw"/></g>
     <path d="M700 64 Q703.4 94.6 734 98 Q703.4 101.4 700 132 Q696.6 101.4 666 98 Q696.6 94.6 700 64 Z" fill="#FBBF24" class="tw2"/>
