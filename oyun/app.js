@@ -15353,7 +15353,7 @@ const AIM={},AIPACK={};
     im.setAttribute("x",x1);im.setAttribute("y",y1);im.setAttribute("width",w);im.setAttribute("height",h);im.setAttribute("preserveAspectRatio","xMidYMax meet");host.appendChild(im)}
   function skin(el,sc){if(!el||!sc||!AIM._ortak)return;const bg=bgOf(sc);if(!bg)return;el.classList.add("ai");
     const img=el.querySelector("img.L-bg");img.src=U(`ai/oyun/bg-${bg}.webp`);Object.assign(img.style,{objectFit:"cover"});
-    el.querySelectorAll(".L-fgc [data-pk]").forEach(g=>{const k=g.dataset.pk;if(!g.dataset.pv&&hasSp(k)&&!g.querySelector("[data-pk]"))spriteInto(g,`ai/sprite/${k}.webp`);else g.classList.add("aikeep")});
+    el.querySelectorAll(".L-fgc [data-pk]").forEach(g=>{const k=g.dataset.pk;if(k==="tree"&&!g.querySelector("[data-hit]"))return;/* dekor ağacı: arka planda zaten ağaç var */if(!g.dataset.pv&&hasSp(k)&&!g.querySelector("[data-pk]"))spriteInto(g,`ai/sprite/${k}.webp`);else g.classList.add("aikeep")});
     el.querySelectorAll(".L-fgc .cm[data-k]").forEach(g=>{const k=g.dataset.k;if(!g.dataset.pv&&hasSp("c-"+k))spriteInto(g,`ai/sprite/c-${k}.webp`);else g.classList.add("aikeep")})}
   ready.then(()=>{if(typeof renderGames==="function"&&document.querySelector("#games [data-game]"))renderGames()});
   const grr=GAME.renderRound;GAME.renderRound=function(){const r=grr.apply(this,arguments);try{skin(document.querySelector("#game #art .scene"),this.cur&&this.cur.sc)}catch(e){console.warn(e)}return r};
@@ -15374,7 +15374,7 @@ const AIM={},AIPACK={};
    Masal: kitaplık + okuyucu; oyun rafının yerinde Oyun uygulamasına bağlantı. Oyun: yalnız oyun rafı; masal uygulamasına bağlantı.
    ===================================================================== */
 const APP=document.documentElement.dataset.app||"masal";
-const OYUN_URL=LINK('/oyun/','https://novaece.com/oyun/'),MASAL_URL=LINK('/masal/','https://novaece.com/masal/');
+const OYUN_URL=LINK('/oyun/','https://claude.ai/artifact/F78F21YY6SQ4BcGMrTpi6W'),MASAL_URL=LINK('/masal/','https://claude.ai/artifact/HpvhvYR4r28dQJNzGJwvpP');
 (function(){
   const promo=()=>{const en=S.lang==="en";
     return APP==="masal"
