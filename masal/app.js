@@ -13931,7 +13931,8 @@ function sarkiAc(id){const k=SARKI[id],S0=(typeof SARKI_SOZ!=="undefined"&&SARKI
   <div class="sk-bar"><button class="btn primary big" data-sk="oynat">⏳ Yükleniyor…</button><button class="tbtn" data-sk="kar" aria-pressed="false">🎤 Yalnız müzik</button></div><div class="sk-prog"><i id="sk-p"></i></div></div>`;
   SRK.d=S0?S0.d:0;SRK.g=S0?S0.g:1;SRK.kar=false;SRK.pos=0;SRK.buf=null;SRK.satir=S0?S0.satir:[];let n=0;
   document.getElementById("sk-lyr").innerHTML=SRK.satir.map((l,i)=>`<p data-l="${i}">${l.w.map(w=>`<span class="skw" data-n="${n++}">${esc(w[0])}</span>`).join(" ")}</p>`).join("");
-  const yuk=SRK.yuk=AU.load(`audio/sarki/${k.dosya}.mp3`).then(b=>{if(SRK.yuk!==yuk)return;SRK.buf=b;if(b&&!SRK.d)SRK.d=b.duration;const x=document.querySelector('[data-sk="oynat"]');if(x)x.textContent=b?"▶ Söyle":"Şarkı yüklenemedi"})}
+  const yuk=SRK.yuk=AU.load(`audio/sarki/${k.dosya}.mp3`).then(b=>{if(SRK.yuk!==yuk)return;SRK.buf=b;if(b&&!SRK.d)SRK.d=b.duration;const x=document.querySelector('[data-sk="oynat"]');if(x)x.textContent=b?"▶ Söyle":"Şarkı yüklenemedi";
+    const kb=document.querySelector('[data-sk="kar"]');if(kb&&b&&b.duration<SRK.d+SRK.g+1)kb.hidden=true/* önizleme paketi: yalnız vokalli kısım */})}
 const sarkiSimdi=()=>SRK.on?AU.ctx.currentTime-SRK.t0:SRK.pos;
 function sarkiCal(){if(!SRK.buf||SRK.on)return;if(AU.ctx.state!=="running")AU.ctx.resume().catch(()=>{});if(SRK.pos>=SRK.d-.05)SRK.pos=0;
   const src=AU.ctx.createBufferSource();src.buffer=SRK.buf;src.connect(AU.ctx.destination);src.start(0,(SRK.kar?SRK.d+SRK.g:0)+SRK.pos,SRK.d-SRK.pos);
