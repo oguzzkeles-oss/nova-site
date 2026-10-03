@@ -1,0 +1,1921 @@
+{
+ "id": "030-hece-hece-zipzip",
+ "n": 30,
+ "title": "Hece Hece Zıpzıp",
+ "age": "48-60",
+ "area": "Türkçe",
+ "theme": "Sözcükleri hecelerine ayırma",
+ "values": [
+  "D3 Çalışkanlık"
+ ],
+ "sdb": "SDB1.3 Kendine Uyarlama (Öz Yansıtma)",
+ "min": 5,
+ "blurb": "Tavşan Zıpzıp sözcükleri hece hece zıplayarak söyler: Zıp-zıp, iki zıplama! Zıplayamayan Tosbi önce yanlış sayar, sonra heceleri kendi yoluyla, adım adım saymayı bulur.",
+ "codes": {
+  "maarif": [
+   "TAEOB.3 Ses bilgisel farkındalık becerileri gösterebilme: sözcüklerin hecelerden oluştuğunu fark eder (orta güven)",
+   "MAB.1 Ritmik ve algısal sayabilme: ileriye doğru birer ritmik sayar; nesne/varlık miktarını sayarak belirler (48-60 ay: 1-10)",
+   "TADB.3 Dinledikleri/izledikleri materyalleri çözümleyebilme: dinlediklerini/izlediklerini oluş sırasına göre söyler",
+   "E1.3 Azim ve Kararlılık",
+   "SDB1.3 Kendine Uyarlama (Öz Yansıtma)",
+   "D3 Çalışkanlık"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zipzip": "hayvan-kiz",
+  "tosbi": "hayvan-erkek",
+  "vrak": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "zipzip": "Zıpzıp (tavşan)",
+  "tosbi": "Tosbi (kaplumbağa)",
+  "vrak": "Vrak (kurbağa)"
+ },
+ "pages": [
+  {
+   "text": "Tavşan Zıpzıp'ın bir oyunu vardı: hece zıplaması! Sözcükleri hece hece, yani parça parça söylerdi. Her hecede bir kez zıplardı. “Zıp… zıp!” Hop, hop! İki hece, iki zıplama. Kaplumbağa Tosbi onu hayranlıkla izlerdi.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 345,
+      "y": 46,
+      "hit": "gunes"
+     },
+     {
+      "k": "zipzip",
+      "x": 140,
+      "y": 226,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "zipzip"
+     },
+     {
+      "k": "tosbi",
+      "x": 298,
+      "y": 230,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "tosbi",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 42,
+      "y": 216,
+      "s": 1.1,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 72,
+      "y": 236,
+      "s": 0.38
+     },
+     {
+      "k": "flower",
+      "x": 368,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 215,
+      "y": 238,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Zıp… zıp! Hop, hop! İki zıplama!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "tosbi": {
+     "say": "Ne güzel bir oyun bu!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "zipzip",
+    "Zıpzıp'a dokun!"
+   ],
+   "ask": "Zıpzıp adını söylerken kaç kez zıpladı? Hadi sen de “Zıp… zıp!” deyip iki kez zıpla!"
+  },
+  {
+   "text": "Göletten kurbağa Vrak çıktı. “Benim adımı da zıpla!” Zıpzıp zıpladı: “Vrak!” Hop! Tek zıplama. Sonra Vrak taştan taşa sıçradı: “Kur… ba… ğa!” Kaç zıplama?",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "tosbi",
+      "x": 70,
+      "y": 230,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "stand"
+     },
+     {
+      "k": "zipzip",
+      "x": 300,
+      "y": 214,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "zipzip",
+      "flip": true
+     },
+     {
+      "k": "kurbaga",
+      "x": 362,
+      "y": 226,
+      "s": 1.5,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "vrak"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 150,
+      "y": 234,
+      "s": 1.8,
+      "v": 2,
+      "hit": "t1"
+     },
+     {
+      "k": "tas",
+      "x": 225,
+      "y": 234,
+      "s": 1.8,
+      "v": 2,
+      "hit": "t2"
+     },
+     {
+      "k": "tas",
+      "x": 300,
+      "y": 234,
+      "s": 1.8,
+      "v": 2,
+      "hit": "t3"
+     },
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 238,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "vrak": {
+     "say": "Vrak! Benim adımı da zıpla!",
+     "voice": "vrak",
+     "anim": "jump",
+     "fx": "ribbit"
+    },
+    "zipzip": {
+     "say": "Vrak! Hop! Tek zıplama!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "t1",
+     "t2",
+     "t3"
+    ],
+    "done": "Kur-ba-ğa: üç hece, üç zıplama!",
+    "msg": "Üç hece!"
+   },
+   "hint": [
+    "t1",
+    "Taşları say: kur-ba-ğa!"
+   ],
+   "ask": "“Vrak” kaç zıplama, “kurbağa” kaç zıplama? Hangisi daha uzun bir sözcük?"
+  },
+  {
+   "text": "Sıra Tosbi'deydi. Zıplamaya çalıştı: “Hıh! Hıııh!” Kabuğu kıpırdamadı bile. Hızlıca söyledi: “Kurbağa! Bir!” Ama “kurbağa” tek parça değildi ki! Tosbi'nin canı sıkıldı. Yanakları ısındı, başını kabuğuna çekti.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "kurbaga",
+      "x": 66,
+      "y": 228,
+      "s": 1.9,
+      "mood": "surprised",
+      "pose": "sit",
+      "hit": "vrak"
+     },
+     {
+      "k": "tosbi",
+      "x": 200,
+      "y": 232,
+      "s": 1.5,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "tosbi"
+     },
+     {
+      "k": "zipzip",
+      "x": 335,
+      "y": 222,
+      "s": 0.7,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "zipzip"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 238,
+      "s": 0.3
+     },
+     {
+      "k": "flower",
+      "x": 34,
+      "y": 238,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "tosbi": {
+     "say": "Ben zıplayamıyorum ki…",
+     "voice": "tosbi",
+     "anim": "wiggle",
+     "fx": "pop",
+     "fn": "hide"
+    },
+    "zipzip": {
+     "say": "Kur-ba-ğa: üç hece var, Tosbi.",
+     "voice": "zipzip",
+     "anim": "boing",
+     "fx": "boing"
+    },
+    "vrak": {
+     "say": "Vrak tek hece, kurbağa üç!",
+     "voice": "vrak",
+     "anim": "wiggle",
+     "fx": "ribbit"
+    }
+   },
+   "predict": {
+    "q": "Sence Tosbi şimdi ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Bir daha dener",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "lake": true,
+       "cast": [
+        {
+         "k": "tosbi",
+         "x": 150,
+         "y": 230,
+         "s": 1.3,
+         "mood": "happy",
+         "pose": "walk"
+        }
+       ],
+       "props": [
+        {
+         "k": "tas",
+         "x": 262,
+         "y": 230,
+         "s": 2.2,
+         "v": 2
+        },
+        {
+         "k": "tas",
+         "x": 322,
+         "y": 230,
+         "s": 2.2,
+         "v": 2
+        }
+       ]
+      }
+     },
+     {
+      "l": "Yardım ister",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "lake": true,
+       "cast": [
+        {
+         "k": "tosbi",
+         "x": 150,
+         "y": 230,
+         "s": 1.2,
+         "mood": "happy",
+         "pose": "stand"
+        },
+        {
+         "k": "zipzip",
+         "x": 280,
+         "y": 224,
+         "s": 0.75,
+         "mood": "happy",
+         "pose": "stand",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "heart",
+         "x": 214,
+         "y": 120,
+         "s": 1
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "tosbi",
+    "Tosbi'ye dokun!"
+   ],
+   "ask": "Tosbi nasıl hissediyor? Sen bir şeyi ilk seferde yapamayınca ne hissedersin, ne yaparsın?"
+  },
+  {
+   "text": "Tosbi başını yavaşça çıkardı. “Zıpzıp, bana yardım eder misin?” Zıpzıp yanına geldi. “Birlikte deneyelim!” Tosbi derin nefes aldı. “Ben zıplayamam ama adım atarım! Kuuur… baaa… ğaaa…” Her hecede bir adım!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "zipzip",
+      "x": 56,
+      "y": 224,
+      "s": 0.75,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "zipzip"
+     },
+     {
+      "k": "tosbi",
+      "x": 140,
+      "y": 232,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "tosbi"
+     },
+     {
+      "k": "kurbaga",
+      "x": 350,
+      "y": 226,
+      "s": 1.5,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "vrak"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 286,
+      "y": 238,
+      "s": 0.28
+     },
+     {
+      "k": "flower",
+      "x": 380,
+      "y": 236,
+      "s": 0.3
+     },
+     {
+      "k": "flower",
+      "x": 28,
+      "y": 236,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Yavaş yavaş Tosbi, sen yaparsın!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "vrak": {
+     "say": "Vrak! Hadi Tosbi!",
+     "voice": "vrak",
+     "anim": "jump",
+     "fx": "ribbit"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "tosbi",
+    "steps": 3,
+    "step": 30,
+    "say": "Tıp!",
+    "done": "Kur-ba-ğa! Üç adım, üç hece!",
+    "msg": "Üç hece!"
+   },
+   "hint": [
+    "tosbi",
+    "Her hecede Tosbi'ye dokun!"
+   ],
+   "ask": "Hadi Tosbi gibi çok yavaş söyleyelim: kuuur… baaa… ğaaa… Kaç hece duydun?"
+  },
+  {
+   "text": "Vrak heyecanla vrakladı: “Şimdi en uzun sözcük: kaplumbağa!” Tosbi'nin gözleri parladı. Üç arkadaş taşların başına dizildi. Sen de alkışla! Kap… lum… ba… ğa!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 52,
+      "y": 44
+     },
+     {
+      "k": "zipzip",
+      "x": 38,
+      "y": 222,
+      "s": 0.72,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "zipzip"
+     },
+     {
+      "k": "tosbi",
+      "x": 98,
+      "y": 234,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "tosbi"
+     },
+     {
+      "k": "kurbaga",
+      "x": 372,
+      "y": 208,
+      "s": 1.35,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "vrak"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 182,
+      "y": 236,
+      "s": 1.7,
+      "v": 2,
+      "hit": "t1"
+     },
+     {
+      "k": "tas",
+      "x": 234,
+      "y": 232,
+      "s": 1.7,
+      "v": 2,
+      "hit": "t2"
+     },
+     {
+      "k": "tas",
+      "x": 286,
+      "y": 228,
+      "s": 1.7,
+      "v": 2,
+      "hit": "t3"
+     },
+     {
+      "k": "tas",
+      "x": 338,
+      "y": 224,
+      "s": 1.7,
+      "v": 2,
+      "hit": "t4"
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Kap-lum-ba-ğa! Hop hop hop hop!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "tosbi": {
+     "say": "Bu benim sözcüğüm!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "chime",
+     "hearts": true
+    },
+    "vrak": {
+     "say": "Vrak vrak! Ben de sıçrıyorum!",
+     "voice": "vrak",
+     "anim": "jump",
+     "fx": "ribbit"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "t1",
+     "t2",
+     "t3",
+     "t4"
+    ],
+    "done": "Kap-lum-ba-ğa: dört hece! Bravo!",
+    "msg": "Dört hece!"
+   },
+   "hint": [
+    "t1",
+    "Alkışla, taşlara dokun!"
+   ],
+   "ask": "Hadi birlikte alkışlayalım: kap-lum-ba-ğa! Sen de uzun bir sözcük söyler misin?",
+   "cues": [
+    {
+     "w": 18,
+     "fx": "alkis"
+    }
+   ]
+  },
+  {
+   "text": "Akşam oldu. Üç arkadaş göletin kıyısında yan yana dinlendi. Tosbi gülümsedi: “Zıpzıp zıplayarak sayar, Vrak sıçrayarak. Ben de adım adım!” Zıpzıp güldü. “Hop hop, vrak vrak, tıp tıp… Hepsi hece hece!”",
+   "scene": {
+    "set": "cayir",
+    "time": "sunset",
+    "season": "spring",
+    "lake": true,
+    "cast": [
+     {
+      "k": "zipzip",
+      "x": 100,
+      "y": 226,
+      "s": 0.74,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "zipzip"
+     },
+     {
+      "k": "tosbi",
+      "x": 210,
+      "y": 234,
+      "s": 1.25,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "tosbi"
+     },
+     {
+      "k": "kurbaga",
+      "x": 322,
+      "y": 228,
+      "s": 2.0,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "vrak"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 38,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "heart",
+      "x": 210,
+      "y": 120,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Zıp-zıp: iki hece!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "tosbi": {
+     "say": "Tos-bi: iki hece!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "chime",
+     "hearts": true
+    },
+    "vrak": {
+     "say": "Vrak: tek hece!",
+     "voice": "vrak",
+     "anim": "jump",
+     "fx": "ribbit"
+    }
+   },
+   "hint": [
+    "tosbi",
+    "Arkadaşlara dokun!"
+   ],
+   "ask": "Senin adın kaç hece? Alkışlayarak, zıplayarak ya da adım atarak söyle!"
+  }
+ ],
+ "order": [
+  0,
+  2,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "TAEOB.3 Ses bilgisel farkındalık becerileri gösterebilme (orta güven) — süreç bileşeni: sözcüklerin hecelerden oluştuğunu fark eder. “Vrak” (1), “Zıp-zıp” (2), “kur-ba-ğa” (3) ve “kap-lum-ba-ğa” (4) sözcüklerini zıplayarak, adım atarak ve alkışlayarak hecelerine ayırır; kısa ve uzun sözcükleri karşılaştırır.",
+   "MAB.1 Ritmik ve algısal sayabilme — süreç bileşenleri: ileriye doğru birer ritmik sayar; nesne/varlık miktarını sayarak belirler. Hece taşlarına tek tek dokunarak zıplama, adım ve alkış sayısını söyler (en çok 4).",
+   "TADB.3 Dinledikleri/izledikleri materyalleri çözümleyebilme — dinlediklerini/izlediklerini oluş sırasına göre söyler: masal sonunda üç resmi olayların sırasına göre dizer.",
+   "SDB1.3 Kendine Uyarlama (Öz Yansıtma) ve E1.3 Azim ve Kararlılık: Tosbi gibi “Ben neyi yapabilirim?” diye düşünür; bir yol olmayınca vazgeçmeden kendine uygun başka bir yol dener. Değer: D3 Çalışkanlık — yanlış saydıktan sonra yeniden çalışır, sonunda başarır."
+  ],
+  "once": [
+   "Kapaktaki tavşanı gösterin: “Bu Zıpzıp. Adını söylerken iki kez zıplıyor. Neden olabilir?”",
+   "Elinizi çenenizin altına koyup “Zıp-zıp” deyin: Çeneniz kaç kez açıldı? Her açılış bir hece. Çocukla birlikte kendi adınızla deneyin."
+  ],
+  "sirasi": [
+   "1. sayfada Zıpzıp'la birlikte “Zıp… zıp!” deyip iki kez hafifçe zıplayın ya da iki kez alkışlayın.",
+   "2. sayfada taşlara dokunmadan önce “kur… ba… ğa” diye yavaşça söyleyin; çocuk her hecede bir taşa dokunsun. Sonra “Vrak” deyin: Kaç zıplama? Kısa ve uzun sözcüğü karşılaştırın.",
+   "3. sayfada Tosbi'nin yanlış saymasına gülmeyin. “Hızlı söyleyince parçaları duymak zor” deyin; yanlışın öğrenmenin bir parçası olduğunu gösterin. Tahmin sorusunda iki cevabı da kabul edin.",
+   "4. sayfada Tosbi önce yardım istiyor; bunun da bir çözüm yolu olduğunu vurgulayın. Sonra Tosbi gibi çok yavaş söyleyin ve her hecede bir adım atın: kuuur… baaa… ğaaa.",
+   "5. sayfada önce birlikte alkışlayın, sonra çocuk her hecede bir taşa dokunsun. İkinci turda çocuk söylesin, siz alkışlayın; ara sıra bilerek yanlış sayın, çocuk sizi düzeltsin."
+  ],
+  "sonra": [
+   "Tosbi'nin canı neden sıkıldı? Sonra ne yaptı?",
+   "“Vrak” kaç hece, “kaplumbağa” kaç hece? Hangisi daha uzun?",
+   "Zıpzıp zıplayarak, Tosbi adım atarak saydı. Sen hangi yolla saymayı seversin?",
+   "Masaldaki üç resmi sıraya dizin: önce ne oldu, sonra ne oldu, en son ne oldu?"
+  ],
+  "sinif": {
+   "ad": "Hece Taşları",
+   "sure": "20 dk",
+   "materyal": "Yere yapıştırılmış 4 renkli kâğıt “taş” (ya da minder, çember), hayvan resimli kartlar (tavşan, kurbağa, kaplumbağa, kedi, arı, kelebek), bir tef ya da davul",
+   "adim": [
+    "Çember olun; her çocuk adını alkışlayarak hecelerine ayırsın (Zey-nep, A-li, Can). Sınıf hep birlikte tekrar etsin; tek alkışlık adları da kutlayın.",
+    "Öğretmen bir hayvan kartı gösterir, çocuklar sözcüğü yavaşça söyler. Bir çocuk her hecede bir taşa zıplar ya da adım atar; sınıf taşları sayar.",
+    "Hareketi çocuk seçer: zıplama, adım, alkış ya da tef vuruşu. Hepsi aynı değerdedir; tekerlekli sandalye kullanan bir arkadaş taşlara tekerleriyle gelebilir ya da tefe vurabilir.",
+    "Kapanışta “En uzun sözcüğü kim bulacak?” oyununu oynayın; önerilen sözcükleri birlikte alkışlayıp hecelerini sayın."
+   ]
+  },
+  "evSoru": [
+   "Zıpzıp adını söylerken kaç kez zıpladı?",
+   "Tosbi zıplayamayınca ne yaptı?",
+   "Senin adın kaç hece? Birlikte alkışlayalım mı?"
+  ],
+  "evEtk": {
+   "ad": "Sofrada hece alkışı",
+   "d": "Yemekte sofradaki yiyeceklerin adlarını sırayla alkışlayarak söyleyin: “su” tek alkış, “ek-mek” iki alkış, “ma-kar-na” üç alkış. Kimi zaman siz yanlış sayın; çocuğunuz sizi düzeltsin ve birlikte yavaşça yeniden deneyin."
+  },
+  "aileNotu": "Bugün “Hece Hece Zıpzıp” masalını okuduk. Tavşan Zıpzıp sözcükleri hece hece zıplayarak söyledi; zıplayamayan kaplumbağa Tosbi önce yanlış saydı, sonra heceleri adım adım saymanın kendi yolunu buldu. Çocuklarımız sözcüklerin parçalardan (hecelerden) oluştuğunu fark etmeyi ve heceleri ritmik saymayı denedi. Evde adları, yiyecekleri ya da oyuncakları alkışlayarak hecelerine ayırabilir; çocuğunuz yanlış sayarsa gülümseyip birlikte yavaşça yeniden deneyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/030-hece-hece-zipzip.mp3",
+  "hash": "ce136447",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 18951,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2589,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      4049,
+      7
+     ],
+     [
+      4850,
+      8
+     ],
+     [
+      5189,
+      9
+     ],
+     [
+      5850,
+      10
+     ],
+     [
+      6249,
+      11
+     ],
+     [
+      6689,
+      12
+     ],
+     [
+      7149,
+      13
+     ],
+     [
+      8169,
+      14
+     ],
+     [
+      8409,
+      15
+     ],
+     [
+      8890,
+      16
+     ],
+     [
+      9129,
+      17
+     ],
+     [
+      9430,
+      18
+     ],
+     [
+      10609,
+      19
+     ],
+     [
+      11390,
+      20
+     ],
+     [
+      12089,
+      21
+     ],
+     [
+      12729,
+      22
+     ],
+     [
+      13409,
+      23
+     ],
+     [
+      13749,
+      24
+     ],
+     [
+      14489,
+      25
+     ],
+     [
+      14789,
+      26
+     ],
+     [
+      15769,
+      27
+     ],
+     [
+      16549,
+      28
+     ],
+     [
+      17110,
+      29
+     ],
+     [
+      17370,
+      30
+     ],
+     [
+      18209,
+      31
+     ]
+    ]
+   },
+   "p0h-zipzip": {
+    "s": 19251,
+    "d": 3507,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      645,
+      1
+     ],
+     [
+      1250,
+      2
+     ],
+     [
+      1691,
+      3
+     ],
+     [
+      2297,
+      4
+     ],
+     [
+      2779,
+      5
+     ]
+    ]
+   },
+   "p0h-tosbi": {
+    "s": 23059,
+    "d": 1403,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1089,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24762,
+    "d": 14200,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3229,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      4569,
+      9
+     ],
+     [
+      5569,
+      10
+     ],
+     [
+      6410,
+      11
+     ],
+     [
+      7069,
+      12
+     ],
+     [
+      7370,
+      13
+     ],
+     [
+      8329,
+      14
+     ],
+     [
+      8690,
+      15
+     ],
+     [
+      9049,
+      16
+     ],
+     [
+      9589,
+      17
+     ],
+     [
+      9949,
+      18
+     ],
+     [
+      11129,
+      19
+     ],
+     [
+      11890,
+      20
+     ],
+     [
+      12669,
+      21
+     ],
+     [
+      13169,
+      22
+     ],
+     [
+      13529,
+      23
+     ]
+    ]
+   },
+   "p1h-vrak": {
+    "s": 39263,
+    "d": 1949,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1430,
+      4
+     ]
+    ]
+   },
+   "p1h-zipzip": {
+    "s": 41512,
+    "d": 1915,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 43727,
+    "d": 3167,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1170,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      2170,
+      3
+     ],
+     [
+      2489,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 47194,
+    "d": 17823,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1649,
+      2
+     ],
+     [
+      2289,
+      3
+     ],
+     [
+      3329,
+      4
+     ],
+     [
+      4069,
+      5
+     ],
+     [
+      5049,
+      6
+     ],
+     [
+      5509,
+      7
+     ],
+     [
+      6289,
+      8
+     ],
+     [
+      6930,
+      9
+     ],
+     [
+      7529,
+      10
+     ],
+     [
+      8549,
+      11
+     ],
+     [
+      9529,
+      12
+     ],
+     [
+      10310,
+      13
+     ],
+     [
+      10609,
+      14
+     ],
+     [
+      11169,
+      15
+     ],
+     [
+      11430,
+      16
+     ],
+     [
+      11850,
+      17
+     ],
+     [
+      12310,
+      18
+     ],
+     [
+      12909,
+      19
+     ],
+     [
+      13549,
+      20
+     ],
+     [
+      13890,
+      21
+     ],
+     [
+      14829,
+      22
+     ],
+     [
+      15489,
+      23
+     ],
+     [
+      16289,
+      24
+     ],
+     [
+      16709,
+      25
+     ],
+     [
+      17309,
+      26
+     ]
+    ]
+   },
+   "p2h-tosbi": {
+    "s": 65318,
+    "d": 1499,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1069,
+      2
+     ]
+    ]
+   },
+   "p2h-zipzip": {
+    "s": 67117,
+    "d": 2744,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      935,
+      1
+     ],
+     [
+      1226,
+      2
+     ],
+     [
+      1733,
+      3
+     ],
+     [
+      2197,
+      4
+     ]
+    ]
+   },
+   "p2h-vrak": {
+    "s": 70161,
+    "d": 1733,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1389,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 72195,
+    "d": 1995,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1349,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 74491,
+    "d": 2478,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 77269,
+    "d": 18370,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2469,
+      4
+     ],
+     [
+      3469,
+      5
+     ],
+     [
+      3789,
+      6
+     ],
+     [
+      4229,
+      7
+     ],
+     [
+      4569,
+      8
+     ],
+     [
+      5469,
+      9
+     ],
+     [
+      5969,
+      10
+     ],
+     [
+      6410,
+      11
+     ],
+     [
+      7329,
+      12
+     ],
+     [
+      7870,
+      13
+     ],
+     [
+      8969,
+      14
+     ],
+     [
+      9430,
+      15
+     ],
+     [
+      9749,
+      16
+     ],
+     [
+      10209,
+      17
+     ],
+     [
+      10969,
+      18
+     ],
+     [
+      11230,
+      19
+     ],
+     [
+      12069,
+      20
+     ],
+     [
+      12350,
+      21
+     ],
+     [
+      12649,
+      22
+     ],
+     [
+      13369,
+      23
+     ],
+     [
+      14409,
+      24
+     ],
+     [
+      15549,
+      25
+     ],
+     [
+      16709,
+      26
+     ],
+     [
+      17009,
+      27
+     ],
+     [
+      17530,
+      28
+     ],
+     [
+      17889,
+      29
+     ]
+    ]
+   },
+   "p3h-zipzip": {
+    "s": 95940,
+    "d": 2699,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1809,
+      4
+     ]
+    ]
+   },
+   "p3h-vrak": {
+    "s": 98940,
+    "d": 1723,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      673,
+      1
+     ],
+     [
+      1178,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 100963,
+    "d": 2498,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1969,
+      4
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 103761,
+    "d": 423,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4": {
+    "s": 104484,
+    "d": 13176,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3069,
+      6
+     ],
+     [
+      3889,
+      7
+     ],
+     [
+      4890,
+      8
+     ],
+     [
+      5529,
+      9
+     ],
+     [
+      6069,
+      10
+     ],
+     [
+      7069,
+      11
+     ],
+     [
+      7329,
+      12
+     ],
+     [
+      7870,
+      13
+     ],
+     [
+      8409,
+      14
+     ],
+     [
+      8810,
+      15
+     ],
+     [
+      9649,
+      16
+     ],
+     [
+      9909,
+      17
+     ],
+     [
+      10069,
+      18
+     ],
+     [
+      10969,
+      19
+     ],
+     [
+      11629,
+      20
+     ],
+     [
+      12310,
+      21
+     ],
+     [
+      12673,
+      22
+     ]
+    ]
+   },
+   "p4h-zipzip": {
+    "s": 117961,
+    "d": 2292,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1199,
+      1
+     ],
+     [
+      1462,
+      2
+     ],
+     [
+      1725,
+      3
+     ],
+     [
+      1988,
+      4
+     ]
+    ]
+   },
+   "p4h-tosbi": {
+    "s": 120554,
+    "d": 1193,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      409,
+      2
+     ]
+    ]
+   },
+   "p4h-vrak": {
+    "s": 122047,
+    "d": 1588,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      930,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 123935,
+    "d": 3192,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1369,
+      1
+     ],
+     [
+      1709,
+      2
+     ],
+     [
+      2430,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 127428,
+    "d": 17319,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2370,
+      5
+     ],
+     [
+      3049,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      4629,
+      9
+     ],
+     [
+      5109,
+      10
+     ],
+     [
+      6229,
+      11
+     ],
+     [
+      6769,
+      12
+     ],
+     [
+      7489,
+      13
+     ],
+     [
+      8169,
+      14
+     ],
+     [
+      8609,
+      15
+     ],
+     [
+      9690,
+      16
+     ],
+     [
+      9969,
+      17
+     ],
+     [
+      10129,
+      18
+     ],
+     [
+      10430,
+      19
+     ],
+     [
+      11189,
+      20
+     ],
+     [
+      11749,
+      21
+     ],
+     [
+      12469,
+      22
+     ],
+     [
+      12789,
+      23
+     ],
+     [
+      13350,
+      24
+     ],
+     [
+      13810,
+      25
+     ],
+     [
+      14469,
+      26
+     ],
+     [
+      14850,
+      27
+     ],
+     [
+      15569,
+      28
+     ],
+     [
+      16389,
+      29
+     ],
+     [
+      16789,
+      30
+     ]
+    ]
+   },
+   "p5h-zipzip": {
+    "s": 145047,
+    "d": 1603,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1050,
+      2
+     ]
+    ]
+   },
+   "p5h-tosbi": {
+    "s": 146950,
+    "d": 1628,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      661,
+      1
+     ],
+     [
+      1124,
+      2
+     ]
+    ]
+   },
+   "p5h-vrak": {
+    "s": 148879,
+    "d": 1236,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      464,
+      1
+     ],
+     [
+      731,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

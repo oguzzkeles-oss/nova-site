@@ -1,0 +1,1735 @@
+{
+ "id": "026-vrakin-sesi",
+ "lang": "en",
+ "title": "Croak's Great Big Voice",
+ "theme": "Adjusting your voice to the place",
+ "blurb": "Croak the frog has a great big voice, and his song is loud, loud, loud! But one midday, when the sleeping ducklings wake up, Croak discovers the tiny side of his voice.",
+ "voiceNames": {
+  "vrak": "Croak (frog)",
+  "anneordek": "Mama Duck",
+  "yavrular": "The ducklings",
+  "cik": "Chirp (sparrow)"
+ },
+ "pages": [
+  {
+   "text": "In the pond lived Croak the frog. Croak had a great big voice. Every morning he sang: “CROOOAK! Good morning, pond!” Even the fish jumped!",
+   "hits": {
+    "vrak": {
+     "say": "CROOOAK! Good morning, pond!"
+    },
+    "anneordek": {
+     "say": "Quack quack! Good morning, Croak!"
+    },
+    "cik": {
+     "say": "Chirp chirp! What a loud voice!"
+    }
+   },
+   "hint": "Touch Croak!",
+   "ask": "What is Croak's voice like? Can you say “CROOOAK!” like Croak?"
+  },
+  {
+   "text": "At midday, the ducklings were sleeping. Croak didn't know. He came hopping and bouncing along: “CROOOAK!” Three ducklings woke up. “Peep peep peep!” they whimpered.",
+   "hits": {
+    "y": {
+     "say": "Peep peep! You woke us up!"
+    },
+    "anneordek": {
+     "say": "Shhh… My babies were sleeping."
+    },
+    "vrak": {
+     "say": "Oh no! What happened?"
+    }
+   },
+   "hint": "Touch the ducklings!",
+   "ask": "Why did the ducklings wake up? How would you feel if you heard a very loud noise while you were sleeping?"
+  },
+  {
+   "text": "Croak felt very sorry. His cheeks went warm, his eyes filled with tears. Mama Duck spoke softly: “Your voice is lovely. But the ducklings need their sleep.”",
+   "hits": {
+    "vrak": {
+     "say": "I only wanted to sing…"
+    },
+    "anneordek": {
+     "say": "Your voice is lovely. But the ducklings need their sleep."
+    },
+    "y": {
+     "say": "Peep… We're sleepy."
+    }
+   },
+   "predict": {
+    "q": "What do you think Croak will do?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Whisper"
+     },
+     {
+      "l": "Go far away"
+     }
+    ]
+   },
+   "hint": "Touch Croak!",
+   "ask": "How is Croak feeling? Look at his face. What happens in your body when you feel sad?"
+  },
+  {
+   "text": "Croak took a deep breath. He came close to the ducklings. A tiny voice… “croak…” “I'm sorry. Sleep well.” Then he counted the ducklings in a whisper.",
+   "hits": {
+    "vrak": {
+     "say": "Shhh… Sleep snug and sound."
+    },
+    "anneordek": {
+     "say": "Thank you, Croak."
+    }
+   },
+   "mech": {
+    "done": "One… two… three… Shhh! They slept snug and sound.",
+    "msg": "One… two… three… Shhh!"
+   },
+   "hint": "Count the ducklings with your finger!",
+   "ask": "Let's whisper like Croak: “Shhh, go to sleep.” What is a whisper like?"
+  },
+  {
+   "text": "But Croak had a great big song inside him. Quietly, he hopped away. Hop… hop… hop… On the log, Chirp the sparrow was waiting.",
+   "hits": {
+    "cik": {
+     "say": "Chirp chirp! Sing your great big song here!"
+    }
+   },
+   "mech": {
+    "say": "Hop! Quietly…",
+    "done": "Croak got far away. Great big voice… CROOOAK!",
+    "msg": "He got far away!"
+   },
+   "hint": "Touch Croak, hop hop!",
+   "ask": "Why did Croak want to sing his song far away? Where do you sing in a great big voice?"
+  },
+  {
+   "text": "Croak thought: “Tiny voice at the nest. Great big voice on the log.” Pillow, book, ball, balloon… Which goes where?",
+   "hits": {
+    "vrak": {
+     "say": "Tiny voice at the nest, great big voice on the log!"
+    },
+    "cik": {
+     "say": "Chirp chirp! This is the singing place!"
+    },
+    "yuva": {
+     "say": "Shhh… Sleeping here."
+    },
+    "kutuk": {
+     "say": "CROOOAK! Playing here!"
+    }
+   },
+   "mech": {
+    "done": "Tiny voice for sleeping, great big voice for playing!",
+    "msg": "All in the right place!"
+   },
+   "hint": "Pick one, then touch its place!",
+   "ask": "Why did you put the pillow at the nest? What is your voice like when you play ball?"
+  },
+  {
+   "text": "When the ducklings woke up, they ran to the meadow. They all sang together: “CROOOAK! PEEP PEEP!” Now Croak had two voices. One great big, one tiny. And both were lovely.",
+   "hits": {
+    "vrak": {
+     "say": "Great big voice in the meadow, tiny voice at the nest!"
+    },
+    "y": {
+     "say": "PEEP PEEP! We'll sing too!"
+    },
+    "anneordek": {
+     "say": "What a lovely song, Croak!"
+    },
+    "cik": {
+     "say": "Chirp chirp! Again, again!"
+    }
+   },
+   "hint": "Sing with Croak!",
+   "ask": "Where do you use your great big voice? When do you use your tiny voice?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.4 Reflecting their views on the materials they listen to or watch and on the listening/viewing setting: says their feelings and thoughts about the story; notices and names things in the setting that disturb them (the noise level) (“The great big voice woke the ducklings up.”).",
+   "TAKB.1 Managing the speaking process: begins and ends a conversation with suitable greeting expressions (“Good morning, pond!”, “Sleep well.”).",
+   "E2.1 Empathy: reads the feelings of the woken ducklings and of sad Croak from their faces, and names them.",
+   "SDB1.2 Self-Regulation: adjusts their behaviour to the setting in a way such as taking a deep breath and lowering their voice.",
+   "D14 Respect: respects other people's need to rest; lowers their voice when someone is sleeping and apologises. (D5 Sensitivity, unverified, secondary value.)"
+  ],
+  "once": [
+   "Point to the frog on the cover: “This frog is called Croak. What do you think his voice is like?”",
+   "Try the two voices together: first a great big “CROAK!”, then a tiny whisper, “croak…”. Talk about the difference.",
+   "Ask: “How do we talk when someone at home is sleeping?” and listen to the answers."
+  ],
+  "sirasi": [
+   "On page 1, touch Croak and say “CROOOAK!” all together. Even the fish jumped; what a loud voice! Meet Chirp the sparrow too.",
+   "Pause on page 2: “Why did the ducklings wake up?” Let the child say what they think about noise.",
+   "In the prediction on page 3, both options are good ideas. Ask: “What would you do?”",
+   "On page 4, whisper as you count the ducklings with a finger: “One… two… three… Shhh!”",
+   "On page 5, as Croak hops, say “hop, hop, hop” quietly on tiptoe; when he arrives, a great big “CROOOAK!”",
+   "On page 6, before choosing each object, ask: “Is this for sleeping or for playing? Tiny voice or great big voice?”",
+   "On page 7, first join in the song with a great big voice, then repeat the same song with a tiny voice."
+  ],
+  "sonra": [
+   "Why did the ducklings wake up? What did Croak do so that they went back to sleep?",
+   "What were Croak's two voices? Where do you use your great big voice?",
+   "Which sounds bother you? What can you say when something bothers you?",
+   "Put the story in order with the pictures: the ducklings wake up, Croak whispers, everyone sings together."
+  ],
+  "sinif": {
+   "ad": "Great Big Voice, Tiny Voice",
+   "sure": "15 min",
+   "materyal": "Two picture cards without words (an open meadow and a bird's nest), a pillow",
+   "adim": [
+    "Sit in a circle. When the meadow card goes up, say “CROAK!” in a great big voice; when the nest card goes up, whisper “croak…”.",
+    "Sing “Old MacDonald Had a Farm” first in a great big voice, then in a tiny voice. Say “quack quack” in the duck part.",
+    "The “sleeping duckling” game: one child rests their head on the pillow. The others come on tiptoe and whisper: “Sleep well.” Then swap turns.",
+    "Where in the classroom do we use a great big voice, and where a tiny voice? Decide together for the garden, the rest area and the book corner."
+   ]
+  },
+  "evSoru": [
+   "Why did Croak's voice wake the ducklings up?",
+   "What happened when Croak said sorry?",
+   "Where in our home is the great big voice, and where is the tiny voice?"
+  ],
+  "evEtk": {
+   "ad": "Sound map at home",
+   "d": "Walk around the home together. Stop in each room and ask: “Great big voice here, or tiny voice?” Sing a great big “CROAK!” song on the balcony or in the park; when someone is sleeping, whisper “sleep well”. When your child adjusts their voice, tell them you noticed: “You whispered, and your brother or sister slept well.”"
+  },
+  "aileNotu": "Today we read “Croak's Great Big Voice.” Croak the frog's great big voice woke up the sleeping ducklings; Croak took a deep breath and found out how to whisper, and how to sing his song in the meadow instead. At home you can play the “great big voice, tiny voice” game. Instead of hushing your child's loud voice, show them a suitable place for it, and tell them you noticed when they adjust it."
+ },
+ "audio": {
+  "file": "audio/en/026-vrakin-sesi.mp3",
+  "hash": "23ca74ff",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10625,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1649,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3150,
+      9
+     ],
+     [
+      3309,
+      10
+     ],
+     [
+      3729,
+      11
+     ],
+     [
+      3969,
+      12
+     ],
+     [
+      4810,
+      13
+     ],
+     [
+      5109,
+      14
+     ],
+     [
+      5469,
+      15
+     ],
+     [
+      5669,
+      16
+     ],
+     [
+      6390,
+      17
+     ],
+     [
+      7469,
+      18
+     ],
+     [
+      7789,
+      19
+     ],
+     [
+      8249,
+      20
+     ],
+     [
+      9310,
+      21
+     ],
+     [
+      9549,
+      22
+     ],
+     [
+      9749,
+      23
+     ],
+     [
+      10109,
+      24
+     ]
+    ]
+   },
+   "p0h-vrak": {
+    "s": 10925,
+    "d": 2361,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      804,
+      1
+     ],
+     [
+      1154,
+      2
+     ],
+     [
+      1971,
+      3
+     ]
+    ]
+   },
+   "p0h-anneordek": {
+    "s": 13587,
+    "d": 2149,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   },
+   "p0h-cik": {
+    "s": 16037,
+    "d": 2825,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      386,
+      1
+     ],
+     [
+      1143,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1835,
+      4
+     ],
+     [
+      2182,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19162,
+    "d": 11217,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      2869,
+      7
+     ],
+     [
+      3129,
+      8
+     ],
+     [
+      3889,
+      9
+     ],
+     [
+      4029,
+      10
+     ],
+     [
+      4310,
+      11
+     ],
+     [
+      4769,
+      12
+     ],
+     [
+      4969,
+      13
+     ],
+     [
+      5410,
+      14
+     ],
+     [
+      6129,
+      15
+     ],
+     [
+      7629,
+      16
+     ],
+     [
+      7930,
+      17
+     ],
+     [
+      8449,
+      18
+     ],
+     [
+      8709,
+      19
+     ],
+     [
+      9230,
+      20
+     ],
+     [
+      9529,
+      21
+     ],
+     [
+      9810,
+      22
+     ],
+     [
+      10469,
+      23
+     ],
+     [
+      10669,
+      24
+     ]
+    ]
+   },
+   "p1h-y": {
+    "s": 30679,
+    "d": 2283,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p1h-anneordek": {
+    "s": 33263,
+    "d": 2555,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      1969,
+      4
+     ]
+    ]
+   },
+   "p1h-vrak": {
+    "s": 36118,
+    "d": 2096,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 38514,
+    "d": 12064,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2910,
+      6
+     ],
+     [
+      3170,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      4589,
+      10
+     ],
+     [
+      4930,
+      11
+     ],
+     [
+      5149,
+      12
+     ],
+     [
+      6309,
+      13
+     ],
+     [
+      6609,
+      14
+     ],
+     [
+      6949,
+      15
+     ],
+     [
+      7309,
+      16
+     ],
+     [
+      8369,
+      17
+     ],
+     [
+      8609,
+      18
+     ],
+     [
+      9029,
+      19
+     ],
+     [
+      9310,
+      20
+     ],
+     [
+      10289,
+      21
+     ],
+     [
+      10449,
+      22
+     ],
+     [
+      10569,
+      23
+     ],
+     [
+      11109,
+      24
+     ],
+     [
+      11289,
+      25
+     ],
+     [
+      11529,
+      26
+     ]
+    ]
+   },
+   "p2h-vrak": {
+    "s": 50879,
+    "d": 1714,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1109,
+      4
+     ]
+    ]
+   },
+   "p2h-anneordek": {
+    "s": 52893,
+    "d": 3822,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3309,
+      9
+     ]
+    ]
+   },
+   "p2h-y": {
+    "s": 57016,
+    "d": 2204,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1069,
+      1
+     ],
+     [
+      1389,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 59521,
+    "d": 1600,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      369,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      989,
+      5
+     ],
+     [
+      1189,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 61421,
+    "d": 2353,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 64074,
+    "d": 11306,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      2829,
+      8
+     ],
+     [
+      2949,
+      9
+     ],
+     [
+      3049,
+      10
+     ],
+     [
+      4209,
+      11
+     ],
+     [
+      4330,
+      12
+     ],
+     [
+      4789,
+      13
+     ],
+     [
+      5729,
+      14
+     ],
+     [
+      6809,
+      15
+     ],
+     [
+      7009,
+      16
+     ],
+     [
+      7849,
+      17
+     ],
+     [
+      8129,
+      18
+     ],
+     [
+      9009,
+      19
+     ],
+     [
+      9350,
+      20
+     ],
+     [
+      9549,
+      21
+     ],
+     [
+      9909,
+      22
+     ],
+     [
+      10029,
+      23
+     ],
+     [
+      10549,
+      24
+     ],
+     [
+      10669,
+      25
+     ],
+     [
+      10749,
+      26
+     ]
+    ]
+   },
+   "p3h-vrak": {
+    "s": 75681,
+    "d": 3193,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1509,
+      1
+     ],
+     [
+      1849,
+      2
+     ],
+     [
+      2370,
+      3
+     ],
+     [
+      2529,
+      4
+     ]
+    ]
+   },
+   "p3h-anneordek": {
+    "s": 79175,
+    "d": 1330,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      729,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 80806,
+    "d": 6189,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1969,
+      2
+     ],
+     [
+      3029,
+      3
+     ],
+     [
+      4049,
+      4
+     ],
+     [
+      4290,
+      5
+     ],
+     [
+      4769,
+      6
+     ],
+     [
+      5350,
+      7
+     ],
+     [
+      5569,
+      8
+     ]
+    ]
+   },
+   "p4": {
+    "s": 87295,
+    "d": 10436,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      869,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1649,
+      6
+     ],
+     [
+      2009,
+      7
+     ],
+     [
+      2430,
+      8
+     ],
+     [
+      3269,
+      9
+     ],
+     [
+      4029,
+      10
+     ],
+     [
+      4249,
+      11
+     ],
+     [
+      4569,
+      12
+     ],
+     [
+      5469,
+      13
+     ],
+     [
+      6229,
+      14
+     ],
+     [
+      6969,
+      15
+     ],
+     [
+      7910,
+      16
+     ],
+     [
+      8029,
+      17
+     ],
+     [
+      8169,
+      18
+     ],
+     [
+      8810,
+      19
+     ],
+     [
+      9109,
+      20
+     ],
+     [
+      9249,
+      21
+     ],
+     [
+      9730,
+      22
+     ],
+     [
+      9930,
+      23
+     ]
+    ]
+   },
+   "p4h-cik": {
+    "s": 98031,
+    "d": 3205,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      354,
+      1
+     ],
+     [
+      1042,
+      2
+     ],
+     [
+      1357,
+      3
+     ],
+     [
+      1672,
+      4
+     ],
+     [
+      1987,
+      5
+     ],
+     [
+      2302,
+      6
+     ],
+     [
+      2616,
+      7
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 101537,
+    "d": 4897,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3769,
+      7
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 106735,
+    "d": 1704,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      930,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 108739,
+    "d": 9668,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      3189,
+      7
+     ],
+     [
+      3569,
+      8
+     ],
+     [
+      3849,
+      9
+     ],
+     [
+      4209,
+      10
+     ],
+     [
+      4310,
+      11
+     ],
+     [
+      4469,
+      12
+     ],
+     [
+      5430,
+      13
+     ],
+     [
+      6209,
+      14
+     ],
+     [
+      6930,
+      15
+     ],
+     [
+      7589,
+      16
+     ],
+     [
+      8690,
+      17
+     ],
+     [
+      8930,
+      18
+     ],
+     [
+      9209,
+      19
+     ]
+    ]
+   },
+   "p5h-vrak": {
+    "s": 118708,
+    "d": 3937,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      526,
+      1
+     ],
+     [
+      1012,
+      2
+     ],
+     [
+      1291,
+      3
+     ],
+     [
+      1570,
+      4
+     ],
+     [
+      2015,
+      5
+     ],
+     [
+      2294,
+      6
+     ],
+     [
+      2573,
+      7
+     ],
+     [
+      3059,
+      8
+     ],
+     [
+      3338,
+      9
+     ],
+     [
+      3617,
+      10
+     ]
+    ]
+   },
+   "p5h-cik": {
+    "s": 122946,
+    "d": 2539,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      294,
+      1
+     ],
+     [
+      850,
+      2
+     ],
+     [
+      1104,
+      3
+     ],
+     [
+      1359,
+      4
+     ],
+     [
+      1613,
+      5
+     ],
+     [
+      2056,
+      6
+     ]
+    ]
+   },
+   "p5h-yuva": {
+    "s": 125786,
+    "d": 2320,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1170,
+      1
+     ],
+     [
+      1809,
+      2
+     ]
+    ]
+   },
+   "p5h-kutuk": {
+    "s": 128406,
+    "d": 2076,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      925,
+      1
+     ],
+     [
+      1330,
+      2
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 130783,
+    "d": 3894,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3209,
+      8
+     ]
+    ]
+   },
+   "p6": {
+    "s": 134978,
+    "d": 12386,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1290,
+      5
+     ],
+     [
+      1589,
+      6
+     ],
+     [
+      1869,
+      7
+     ],
+     [
+      1989,
+      8
+     ],
+     [
+      2110,
+      9
+     ],
+     [
+      2869,
+      10
+     ],
+     [
+      3170,
+      11
+     ],
+     [
+      3469,
+      12
+     ],
+     [
+      3789,
+      13
+     ],
+     [
+      4569,
+      14
+     ],
+     [
+      5410,
+      15
+     ],
+     [
+      5709,
+      16
+     ],
+     [
+      6529,
+      17
+     ],
+     [
+      6910,
+      18
+     ],
+     [
+      7229,
+      19
+     ],
+     [
+      7449,
+      20
+     ],
+     [
+      7709,
+      21
+     ],
+     [
+      8730,
+      22
+     ],
+     [
+      8930,
+      23
+     ],
+     [
+      9209,
+      24
+     ],
+     [
+      9850,
+      25
+     ],
+     [
+      10049,
+      26
+     ],
+     [
+      10850,
+      27
+     ],
+     [
+      11129,
+      28
+     ],
+     [
+      11509,
+      29
+     ],
+     [
+      11810,
+      30
+     ]
+    ]
+   },
+   "p6h-vrak": {
+    "s": 147664,
+    "d": 3781,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2609,
+      7
+     ],
+     [
+      2930,
+      8
+     ],
+     [
+      3049,
+      9
+     ],
+     [
+      3209,
+      10
+     ]
+    ]
+   },
+   "p6h-y": {
+    "s": 151746,
+    "d": 2090,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1489,
+      4
+     ]
+    ]
+   },
+   "p6h-anneordek": {
+    "s": 154137,
+    "d": 2357,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1649,
+      4
+     ]
+    ]
+   },
+   "p6h-cik": {
+    "s": 156794,
+    "d": 2497,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1829,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,2042 @@
+{
+ "id": "047-bayram-sabahi-dedemlere",
+ "lang": "en",
+ "title": "Bayram Morning at Grandpa's",
+ "theme": "Bayram traditions, respect for elders and taking turns to speak",
+ "blurb": "On Bayram morning, Zeynep has so much to tell her grandpa! She kisses hands, serves the treats herself and remembers who likes what. Then she waits her turn and listens to Grandpa's story of Bayram in the village when he was a boy.",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "dede": "Grandpa (Zeynep's grandpa)",
+  "nine": "Grandma (Zeynep's grandma)",
+  "anne": "Mum (Zeynep's mum)",
+  "kucukdede": "Grandpa as a boy",
+  "komsu": "The lady next door (in Grandpa's village)"
+ },
+ "pages": [
+  {
+   "text": "Bayram morning, the holiday morning! Zeynep put on her Bayram dress. She twirled round and round. So excited! She and Mum set off for Grandpa and Grandma's house. In her hand was a bunch of bright flowers. “I have things to tell Grandpa: my dress, my flowers, and…”",
+   "hits": {
+    "zeynep": {
+     "say": "Come on, Mum, come on! Grandpa and Grandma are waiting!"
+    },
+    "anne": {
+     "say": "I'm coming, my little Bayram bird!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "Why is Zeynep so excited? Who do you visit at Bayram?"
+  },
+  {
+   "text": "Grandpa opened the door. “Welcome, my little peanut!” Zeynep kissed Grandpa's hand and touched it to her forehead. She held the flowers out to Grandma. “Happy Bayram, Grandma dear!” Grandma hugged her tight.",
+   "hits": {
+    "dede": {
+     "say": "Happy Bayram, my little peanut!"
+    },
+    "nine": {
+     "say": "Welcome, my lamb! What lovely flowers!"
+    },
+    "zeynep": {
+     "say": "Happy Bayram, Grandma dear!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "How do you greet your grown-ups at Bayram?"
+  },
+  {
+   "text": "Grandpa brought three plates from the kitchen: watermelon, grapes, banana. “Oh, a slice of watermelon would be lovely in this heat!” he said. “Will you serve everyone, Zeynep?” What a big job! Who likes what?",
+   "hits": {
+    "dede": {
+     "say": "Oh, a slice of watermelon would be lovely in this heat!"
+    },
+    "zeynep": {
+     "say": "Me? Of course, Grandpa dear!"
+    }
+   },
+   "predict": {
+    "q": "Which plate do you think Grandpa likes?",
+    "res": "What did Grandpa say? Let's see!",
+    "opts": [
+     {
+      "l": "The watermelon"
+     },
+     {
+      "l": "The grapes"
+     }
+    ]
+   },
+   "hint": "Touch Grandpa!",
+   "ask": "Do you know who likes what in your family? What does your mum like best?"
+  },
+  {
+   "text": "“Grandpa loves watermelon!” Watermelon for Grandpa. “Grandma likes grapes.” Grapes for Grandma. “And Mum likes banana!” One plate, one person. One for everyone! Grandma laughed: “And the Bayram sweets are for Zeynep!”",
+   "hits": {
+    "dede": {
+     "say": "Watermelon? Thank you, well done!"
+    },
+    "nine": {
+     "say": "Grapes, my favourite!"
+    },
+    "anne": {
+     "say": "Banana? Thank you, my little Bayram bird!"
+    },
+    "zeynep": {
+     "say": "Here you are, enjoy!"
+    }
+   },
+   "mech": {
+    "done": "One plate, one person. One for everyone!",
+    "msg": "A plate for everyone!"
+   },
+   "hint": "Give the plate to the one who likes it!",
+   "ask": "When guests come, what do you offer them? Who do you offer it to first?"
+  },
+  {
+   "text": "Grandpa began: “When I was little…” Zeynep's tongue was itching to talk! She very nearly interrupted him. Whoops! She took a deep breath. She waited. She listened.",
+   "hits": {
+    "dede": {
+     "say": "When I was little…"
+    },
+    "zeynep": {
+     "say": "Deep breath… Grandpa first, then me."
+    },
+    "nine": {
+     "say": "Let's listen."
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "When you want to say something but someone else is talking, what do you do?"
+  },
+  {
+   "text": "Grandpa smiled: “Once, I was as little as you. In the village, on Bayram morning, the drum would play: boom tak, boom tak! We went from door to door. At every door, a sweet and a smile!”",
+   "hits": {
+    "kucukdede": {
+     "say": "Happy Bayram to you!"
+    },
+    "komsu": {
+     "say": "Come here, little one, take your sweet!"
+    }
+   },
+   "mech": {
+    "say": "Step by step, door to door!",
+    "done": "The lady next door held out a sweet. Yum!",
+    "msg": "He reached the door!"
+   },
+   "hint": "Make little Grandpa walk!",
+   "ask": "What did Grandpa do at Bayram when he was little? What's the same as your Bayram, and what's different?"
+  },
+  {
+   "text": "Then it was Zeynep's turn. She looked into Grandpa's eyes and told him: “Grandpa, look! I have a dress that twirls round and round!” Grandpa listened with all his heart. Everyone laughed together. Grandma said, “Bayram is Bayram when we're all together!”",
+   "hits": {
+    "dede": {
+     "say": "What a lovely dress! Tell me all about it, my little peanut."
+    },
+    "zeynep": {
+     "say": "Next year, shall we go door to door together, Grandpa?"
+    },
+    "nine": {
+     "say": "And here are your flowers, look!"
+    },
+    "anne": {
+     "say": "Happy Bayram to us all!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "How do you think Zeynep felt when they listened to her? Who would you most like to share Bayram with?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "OB5 Cultural Literacy: recognises Bayram traditions (wearing new Bayram clothes, kissing elders' hands and touching them to the forehead, saying “Happy Bayram”, offering treats, going from door to door to exchange greetings) from the pictures in the story and compares them with their own family's Bayram.",
+   "TAKB.1 Managing the speaking process: starts a conversation with suitable greetings and good wishes (“Welcome”, “Happy Bayram”); waits their turn without interrupting while Grandpa speaks, and when it is their turn, looks into the listener's eyes while speaking.",
+   "SBAB5 Social Participation: joins in getting together with family elders and in a shared task such as serving treats; matches the plates one to one (one person–one plate) so that everyone gets a share.",
+   "SBAB4 Perceiving Change and Continuity: says what is the same and what is different between Bayram in Grandpa's childhood and Bayram today.",
+   "SDB2.1 Communication: notices their excitement and names it; takes a deep breath and waits to speak, tells their story when it is their turn, and notices that being listened to feels good.",
+   "D14 Respect and D15 Love: shows respect and love for elders through greetings, hand-kissing, offering treats and listening."
+  ],
+  "once": [
+   "Look at the cover picture: “Where might Zeynep be going? What is in her hand? Why is she dressed up?”",
+   "Ask: “What comes to mind when you hear Bayram?”; explain the words Bayram clothes, Bayram greetings, treats, hand-kissing.",
+   "Every family's Bayram may be a little different; some visit their elders, some exchange greetings by phone or video call. Treat all of them as valuable.",
+   "There may be children who have lost a grandparent or who celebrate Bayram differently; every family's Bayram is its own. Listen to what the children tell with curiosity, without comparing."
+  ],
+  "sirasi": [
+   "On page 1, look at Zeynep's face and her steps: “How is she feeling? How can you tell?” (excitement).",
+   "On page 2, act out kissing a hand and touching it to the forehead together, slowly; practise saying “Welcome” and “Happy Bayram” to elders.",
+   "On page 3, have them guess and ask for their reason: “Why do you think so? What did Grandpa say?”",
+   "On page 4, the child touches the plate first, then the person who likes that food; say “One plate, one person” with rhythm.",
+   "On page 5, take a deep breath in through the nose with Zeynep and let it out slowly; whisper the sentence “Grandpa first, then me.”",
+   "On page 6, explain “Grandpa as a boy”: “Grandpa was once a child like you.” Tap your knees to “boom tak, boom tak”; have them count a step at each touch.",
+   "On page 7: “How did Zeynep feel when they listened to her? How do you feel when people listen to you?”"
+  ],
+  "sonra": [
+   "What happened first in the story, and what happened next? Let's put three pictures in order: the greetings, the treats, Grandpa's memory.",
+   "What did Zeynep do to wait her turn? What can you do when you are impatient to tell something?",
+   "What is the same and what is different between Bayram in Grandpa's childhood and Zeynep's Bayram?",
+   "Do you know who likes what in your family? What would you like to offer one of your elders?"
+  ],
+  "sinif": {
+   "ad": "Bayram Table and Talking Stone",
+   "sure": "20 min",
+   "materyal": "Toy plates, food made of paper or play dough, a small “talking stone” (a soft ball or a stone), family photos (optional)",
+   "adim": [
+    "Sit in a circle; a few children take the roles of elders (grandpa, grandma, mum, dad), a few are guests.",
+    "When the guests arrive, act out the Bayram greetings with “Welcome” and “Happy Bayram”; instead of kissing hands, a handshake or a hug can also be chosen.",
+    "The “server” child gives one plate to each person; when everyone has a plate, count together: “One plate, one person, one for everyone!”",
+    "Pass the talking stone around: whoever holds the stone tells what their family does at Bayram, the others listen; anyone who wants to speak takes a deep breath and waits.",
+    "Finally, draw a picture of “Grandpa's Bayram–my Bayram”; talk about what is the same and what is different."
+   ]
+  },
+  "evSoru": [
+   "What did Zeynep do first when she got to Grandpa and Grandma's?",
+   "Which plate did Grandpa like? What about Grandma, and Mum?",
+   "What did Zeynep do when she was impatient to tell her story?"
+  ],
+  "evEtk": {
+   "ad": "My Elder's Bayram",
+   "d": "Together, ask one of your elders (a grandpa, a grandma, a neighbour or a relative far away on the phone): “What was Bayram like when you were little?” Your child listens without interrupting, then tells about their own Bayram when it is their turn. Draw a picture of what you heard and hang it on the fridge."
+  },
+  "aileNotu": "Today we read “Bayram Morning at Grandpa's.” Zeynep visited her grandpa and grandma at Bayram; she exchanged greetings, served the treats herself and remembered who likes what. Although she had so much to tell, she took a deep breath, waited her turn and listened to Grandpa's story of Bayram in the village when he was a boy. At home you can look at Bayram photos together, and when your child waits their turn and listens, you can tell them you noticed (“You waited your turn, and then you told it so nicely!”). If your child doesn't want to kiss hands or hug, don't force it; waving and saying “Happy Bayram” is a Bayram greeting too."
+ },
+ "audio": {
+  "file": "audio/en/047-bayram-sabahi-dedemlere.mp3",
+  "hash": "a19ba818",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 18354,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2989,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      3969,
+      9
+     ],
+     [
+      4430,
+      10
+     ],
+     [
+      5109,
+      11
+     ],
+     [
+      5330,
+      12
+     ],
+     [
+      5930,
+      13
+     ],
+     [
+      6329,
+      14
+     ],
+     [
+      6509,
+      15
+     ],
+     [
+      7209,
+      16
+     ],
+     [
+      7489,
+      17
+     ],
+     [
+      8650,
+      18
+     ],
+     [
+      8850,
+      19
+     ],
+     [
+      8989,
+      20
+     ],
+     [
+      9310,
+      21
+     ],
+     [
+      9509,
+      22
+     ],
+     [
+      9690,
+      23
+     ],
+     [
+      9869,
+      24
+     ],
+     [
+      10289,
+      25
+     ],
+     [
+      10409,
+      26
+     ],
+     [
+      10850,
+      27
+     ],
+     [
+      11529,
+      28
+     ],
+     [
+      11649,
+      29
+     ],
+     [
+      11829,
+      30
+     ],
+     [
+      12230,
+      31
+     ],
+     [
+      12390,
+      32
+     ],
+     [
+      12529,
+      33
+     ],
+     [
+      12810,
+      34
+     ],
+     [
+      12989,
+      35
+     ],
+     [
+      13329,
+      36
+     ],
+     [
+      14430,
+      37
+     ],
+     [
+      14529,
+      38
+     ],
+     [
+      14709,
+      39
+     ],
+     [
+      14969,
+      40
+     ],
+     [
+      15089,
+      41
+     ],
+     [
+      15289,
+      42
+     ],
+     [
+      16169,
+      43
+     ],
+     [
+      16350,
+      44
+     ],
+     [
+      16950,
+      45
+     ],
+     [
+      17149,
+      46
+     ],
+     [
+      17681,
+      47
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 18654,
+    "d": 4248,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      3329,
+      8
+     ],
+     [
+      3469,
+      9
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 23202,
+    "d": 2153,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1629,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 25655,
+    "d": 12707,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2749,
+      7
+     ],
+     [
+      3749,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      4509,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5370,
+      12
+     ],
+     [
+      5529,
+      13
+     ],
+     [
+      5870,
+      14
+     ],
+     [
+      5969,
+      15
+     ],
+     [
+      6109,
+      16
+     ],
+     [
+      6269,
+      17
+     ],
+     [
+      7109,
+      18
+     ],
+     [
+      7289,
+      19
+     ],
+     [
+      7489,
+      20
+     ],
+     [
+      7609,
+      21
+     ],
+     [
+      8029,
+      22
+     ],
+     [
+      8190,
+      23
+     ],
+     [
+      8289,
+      24
+     ],
+     [
+      9150,
+      25
+     ],
+     [
+      9489,
+      26
+     ],
+     [
+      9969,
+      27
+     ],
+     [
+      10369,
+      28
+     ],
+     [
+      11169,
+      29
+     ],
+     [
+      11669,
+      30
+     ],
+     [
+      11989,
+      31
+     ],
+     [
+      12169,
+      32
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 38663,
+    "d": 2292,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1629,
+      4
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 41256,
+    "d": 3481,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2609,
+      5
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 45038,
+    "d": 2176,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      575,
+      1
+     ],
+     [
+      1293,
+      2
+     ],
+     [
+      1828,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 47514,
+    "d": 14169,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      1749,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      3430,
+      8
+     ],
+     [
+      4109,
+      9
+     ],
+     [
+      5149,
+      10
+     ],
+     [
+      5709,
+      11
+     ],
+     [
+      5830,
+      12
+     ],
+     [
+      6229,
+      13
+     ],
+     [
+      6430,
+      14
+     ],
+     [
+      7009,
+      15
+     ],
+     [
+      7169,
+      16
+     ],
+     [
+      7410,
+      17
+     ],
+     [
+      7849,
+      18
+     ],
+     [
+      7949,
+      19
+     ],
+     [
+      8169,
+      20
+     ],
+     [
+      8730,
+      21
+     ],
+     [
+      8909,
+      22
+     ],
+     [
+      9529,
+      23
+     ],
+     [
+      9709,
+      24
+     ],
+     [
+      9869,
+      25
+     ],
+     [
+      10169,
+      26
+     ],
+     [
+      10609,
+      27
+     ],
+     [
+      11489,
+      28
+     ],
+     [
+      11749,
+      29
+     ],
+     [
+      11969,
+      30
+     ],
+     [
+      12289,
+      31
+     ],
+     [
+      13249,
+      32
+     ],
+     [
+      13430,
+      33
+     ],
+     [
+      13729,
+      34
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 61984,
+    "d": 3969,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      2650,
+      7
+     ],
+     [
+      3150,
+      8
+     ],
+     [
+      3269,
+      9
+     ],
+     [
+      3509,
+      10
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 66254,
+    "d": 2480,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      674,
+      1
+     ],
+     [
+      965,
+      2
+     ],
+     [
+      1643,
+      3
+     ],
+     [
+      2149,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 69034,
+    "d": 2095,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      644,
+      3
+     ],
+     [
+      829,
+      4
+     ],
+     [
+      1030,
+      5
+     ],
+     [
+      1509,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 71429,
+    "d": 2194,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1749,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 73924,
+    "d": 15981,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      2309,
+      3
+     ],
+     [
+      2910,
+      4
+     ],
+     [
+      3089,
+      5
+     ],
+     [
+      4169,
+      6
+     ],
+     [
+      4629,
+      7
+     ],
+     [
+      4930,
+      8
+     ],
+     [
+      5809,
+      9
+     ],
+     [
+      6169,
+      10
+     ],
+     [
+      6309,
+      11
+     ],
+     [
+      7209,
+      12
+     ],
+     [
+      7430,
+      13
+     ],
+     [
+      7829,
+      14
+     ],
+     [
+      8129,
+      15
+     ],
+     [
+      9209,
+      16
+     ],
+     [
+      9390,
+      17
+     ],
+     [
+      10109,
+      18
+     ],
+     [
+      10289,
+      19
+     ],
+     [
+      11149,
+      20
+     ],
+     [
+      11329,
+      21
+     ],
+     [
+      11529,
+      22
+     ],
+     [
+      12589,
+      23
+     ],
+     [
+      13069,
+      24
+     ],
+     [
+      13770,
+      25
+     ],
+     [
+      13989,
+      26
+     ],
+     [
+      14129,
+      27
+     ],
+     [
+      14629,
+      28
+     ],
+     [
+      15009,
+      29
+     ],
+     [
+      15169,
+      30
+     ],
+     [
+      15569,
+      31
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 90205,
+    "d": 3107,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      1129,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      2089,
+      3
+     ],
+     [
+      2489,
+      4
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 93613,
+    "d": 2027,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1189,
+      2
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 95941,
+    "d": 3333,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2709,
+      6
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 99574,
+    "d": 1739,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      463,
+      1
+     ],
+     [
+      707,
+      2
+     ],
+     [
+      1275,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 101614,
+    "d": 3154,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      2189,
+      4
+     ],
+     [
+      2370,
+      5
+     ],
+     [
+      2549,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 105068,
+    "d": 12672,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      3969,
+      8
+     ],
+     [
+      4330,
+      9
+     ],
+     [
+      4729,
+      10
+     ],
+     [
+      4890,
+      11
+     ],
+     [
+      5749,
+      12
+     ],
+     [
+      6029,
+      13
+     ],
+     [
+      6410,
+      14
+     ],
+     [
+      6809,
+      15
+     ],
+     [
+      7349,
+      16
+     ],
+     [
+      7949,
+      17
+     ],
+     [
+      9029,
+      18
+     ],
+     [
+      9190,
+      19
+     ],
+     [
+      9390,
+      20
+     ],
+     [
+      9529,
+      21
+     ],
+     [
+      9789,
+      22
+     ],
+     [
+      10730,
+      23
+     ],
+     [
+      10930,
+      24
+     ],
+     [
+      11869,
+      25
+     ],
+     [
+      12109,
+      26
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 118041,
+    "d": 1233,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      283,
+      1
+     ],
+     [
+      526,
+      2
+     ],
+     [
+      769,
+      3
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 119574,
+    "d": 3156,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      2569,
+      4
+     ],
+     [
+      2849,
+      5
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 123030,
+    "d": 812,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 124143,
+    "d": 13416,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1609,
+      2
+     ],
+     [
+      2229,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      3029,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      3949,
+      9
+     ],
+     [
+      4049,
+      10
+     ],
+     [
+      4169,
+      11
+     ],
+     [
+      4769,
+      12
+     ],
+     [
+      4930,
+      13
+     ],
+     [
+      5350,
+      14
+     ],
+     [
+      5910,
+      15
+     ],
+     [
+      6049,
+      16
+     ],
+     [
+      6350,
+      17
+     ],
+     [
+      6529,
+      18
+     ],
+     [
+      7289,
+      19
+     ],
+     [
+      7589,
+      20
+     ],
+     [
+      8109,
+      21
+     ],
+     [
+      8409,
+      22
+     ],
+     [
+      9169,
+      23
+     ],
+     [
+      9329,
+      24
+     ],
+     [
+      9549,
+      25
+     ],
+     [
+      9810,
+      26
+     ],
+     [
+      10109,
+      27
+     ],
+     [
+      10249,
+      28
+     ],
+     [
+      10909,
+      29
+     ],
+     [
+      11129,
+      30
+     ],
+     [
+      11409,
+      31
+     ],
+     [
+      11930,
+      32
+     ],
+     [
+      12109,
+      33
+     ],
+     [
+      12609,
+      34
+     ],
+     [
+      12770,
+      35
+     ],
+     [
+      12869,
+      36
+     ]
+    ]
+   },
+   "p5h-kucukdede": {
+    "s": 137859,
+    "d": 1551,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p5h-komsu": {
+    "s": 139711,
+    "d": 2556,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      1989,
+      6
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 142567,
+    "d": 3264,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1449,
+      6
+     ],
+     [
+      1589,
+      7
+     ],
+     [
+      2509,
+      8
+     ]
+    ]
+   },
+   "p5ms": {
+    "s": 146132,
+    "d": 2352,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p6": {
+    "s": 148784,
+    "d": 16527,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2390,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3509,
+      10
+     ],
+     [
+      3650,
+      11
+     ],
+     [
+      3910,
+      12
+     ],
+     [
+      4489,
+      13
+     ],
+     [
+      5129,
+      14
+     ],
+     [
+      5850,
+      15
+     ],
+     [
+      5949,
+      16
+     ],
+     [
+      6109,
+      17
+     ],
+     [
+      6209,
+      18
+     ],
+     [
+      6549,
+      19
+     ],
+     [
+      6709,
+      20
+     ],
+     [
+      7189,
+      21
+     ],
+     [
+      7509,
+      22
+     ],
+     [
+      7669,
+      23
+     ],
+     [
+      8589,
+      24
+     ],
+     [
+      9109,
+      25
+     ],
+     [
+      9529,
+      26
+     ],
+     [
+      9829,
+      27
+     ],
+     [
+      10089,
+      28
+     ],
+     [
+      10289,
+      29
+     ],
+     [
+      11149,
+      30
+     ],
+     [
+      11629,
+      31
+     ],
+     [
+      11949,
+      32
+     ],
+     [
+      12890,
+      33
+     ],
+     [
+      13329,
+      34
+     ],
+     [
+      13969,
+      35
+     ],
+     [
+      14509,
+      36
+     ],
+     [
+      14749,
+      37
+     ],
+     [
+      15249,
+      38
+     ],
+     [
+      15409,
+      39
+     ],
+     [
+      15669,
+      40
+     ],
+     [
+      15890,
+      41
+     ]
+    ]
+   },
+   "p6h-dede": {
+    "s": 165611,
+    "d": 4156,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2609,
+      7
+     ],
+     [
+      2969,
+      8
+     ],
+     [
+      3150,
+      9
+     ],
+     [
+      3309,
+      10
+     ],
+     [
+      3589,
+      11
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 170068,
+    "d": 3512,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      295,
+      1
+     ],
+     [
+      703,
+      2
+     ],
+     [
+      959,
+      3
+     ],
+     [
+      1215,
+      4
+     ],
+     [
+      1471,
+      5
+     ],
+     [
+      1727,
+      6
+     ],
+     [
+      1983,
+      7
+     ],
+     [
+      2239,
+      8
+     ],
+     [
+      3026,
+      9
+     ]
+    ]
+   },
+   "p6h-nine": {
+    "s": 173880,
+    "d": 2098,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      529,
+      3
+     ],
+     [
+      729,
+      4
+     ],
+     [
+      1529,
+      5
+     ]
+    ]
+   },
+   "p6h-anne": {
+    "s": 176278,
+    "d": 2048,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1509,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

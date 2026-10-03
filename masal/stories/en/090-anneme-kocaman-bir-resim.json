@@ -1,0 +1,1459 @@
+{
+ "id": "090-anneme-kocaman-bir-resim",
+ "lang": "en",
+ "title": "A Great Big Picture for Mum",
+ "theme": "Showing love with pictures and words",
+ "blurb": "Deniz secretly makes a great big picture with her dad for Mother's Day. Mum very nearly sees it! At last Deniz hands over the picture and tells her mum, in her own words, why she loves her.",
+ "voiceNames": {
+  "deniz": "Deniz",
+  "baba": "Dad",
+  "anne": "Mum"
+ },
+ "pages": [
+  {
+   "text": "Saturday evening. Tomorrow is Mother's Day! Deniz spoke in a whisper. “Let's make Mum a great big picture!” Dad winked: “Shhh! It's a secret.”",
+   "hits": {
+    "deniz": {
+     "say": "A great big picture for Mum!"
+    },
+    "baba": {
+     "say": "Shhh! It's a secret."
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "Why do you think Deniz and her dad are whispering?"
+  },
+  {
+   "text": "Where are the paints? Deniz looked under the sofa. Dad looked in the bookcase. “Found them!” she said. One box of paints, one brush, two boxes of pencils.",
+   "hits": {
+    "deniz": {
+     "say": "Found them! Under the sofa!"
+    },
+    "baba": {
+     "say": "Let's look in the bookcase!"
+    }
+   },
+   "mech": {
+    "done": "One palette, two boxes of pencils. We're ready!",
+    "msg": "You found them all!"
+   },
+   "hint": "Find the paints!",
+   "ask": "What else do you need to make a picture?"
+  },
+  {
+   "text": "They leaned the great big paper against the sofa. Deniz took the brush. Splat, splat, splat! She painted the flowers bright red. And a big yellow sun!",
+   "hits": {
+    "deniz": {
+     "say": "Splat, splat, splat!"
+    },
+    "baba": {
+     "say": "What lovely flowers!"
+    }
+   },
+   "mech": {
+    "done": "The flowers are bright red!",
+    "msg": "You painted the flowers!"
+   },
+   "hint": "Paint the flowers!",
+   "ask": "What did Deniz put in the picture? What would you draw?"
+  },
+  {
+   "text": "Suddenly, footsteps: tap tap, tap tap! “Uh-oh, Mum's coming!” said Dad. What about the picture?",
+   "hits": {
+    "baba": {
+     "say": "Uh-oh, Mum's coming!"
+    },
+    "deniz": {
+     "say": "Tap tap, tap tap!"
+    }
+   },
+   "predict": {
+    "q": "Where do you think they'll hide the picture?",
+    "res": "Let's find out!",
+    "opts": [
+     {
+      "l": "Behind the sofa"
+     },
+     {
+      "l": "Behind Dad"
+     }
+    ]
+   },
+   "hint": "Touch Dad!",
+   "ask": "Whose footsteps are those? What do you think will happen now?"
+  },
+  {
+   "text": "Dad stood right in front of the picture. Deniz stood next to him. Mum asked: “What's going on in here?” “Nooothing!” they said. Tee-hee-hee! Mum smiled and went to water her flowers.",
+   "hits": {
+    "anne": {
+     "say": "What's going on in here?"
+    },
+    "baba": {
+     "say": "Nooothing!"
+    },
+    "deniz": {
+     "say": "Nooothing! Tee-hee-hee!"
+    }
+   },
+   "hint": "Touch Mum!",
+   "ask": "Why did they say “Nooothing!”? Have you ever made a surprise for someone?",
+   "cues": [
+    {
+     "w": 23,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "As soon as Mum had gone, they got back to work. Dad cut out paper hearts. Deniz stuck the hearts onto the picture. One, two, three, four, five!",
+   "hits": {
+    "deniz": {
+     "say": "One more heart!"
+    },
+    "baba": {
+     "say": "Hearts ready!"
+    }
+   },
+   "mech": {
+    "done": "Five hearts! The picture is full of colour.",
+    "msg": "Five hearts stuck on!"
+   },
+   "hint": "Stick the hearts on the picture!",
+   "ask": "How many hearts did she stick on? What would you stick on the picture?"
+  },
+  {
+   "text": "On Sunday morning, Deniz held out the picture: “For you, Mummy. I love you, because you read me stories.” Mum was so happy. “So that was the ‘nooothing’!” She hugged her tight.",
+   "hits": {
+    "deniz": {
+     "say": "I love you, Mummy!"
+    },
+    "anne": {
+     "say": "So that was the “nooothing”!"
+    },
+    "baba": {
+     "say": "Surpriiise!"
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "If you said “I love you, because…” to someone you love, how would you finish it?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.4 Carrying out an art activity (unverified): Deniz decides what to make (“a great big picture”), chooses the materials she needs (palette, pencils, paper hearts), paints the flowers and finishes the picture.",
+   "TAKB.1 Managing the speaking process: Deniz talks about something she cares about; looking her mum in the eye, she says in her own sentence why she loves her.",
+   "E3.3 Creativity: Designs a gift of her own with flowers, a sun and hearts.",
+   "SDB2.1 Communication: Expresses her feelings both in a picture and in words, using the pattern “I love you, because…”.",
+   "D15 Love: Shows love with a gift made with care and a warm hug."
+  ],
+  "once": [
+   "Point to the great big picture on the cover: “Who might this picture be for?”",
+   "Talk about it: “What is a surprise? Is it easy to keep a surprise secret?”",
+   "Some children may not have their mother with them; also use the phrase “a grown-up we love”."
+  ],
+  "sirasi": [
+   "On page 1, say “Shhh!” and put a finger to your lips; whisper together.",
+   "On page 2, let the child find the paints; ask “What's under the sofa?”",
+   "On page 3, say “splat, splat, splat!” together as the child touches the flowers.",
+   "For the prediction on page 4, say that both answers are good hiding ideas.",
+   "On page 6, count the hearts together with a finger: one, two, three, four, five."
+  ],
+  "sonra": [
+   "Remember together: “What did Deniz say to her mum? Why did she love her?”",
+   "Ask your child to finish the sentence “I love you, because…” for someone they love.",
+   "Talk about it: “How did Mum feel when she saw the picture? What did her face look like?”"
+  ],
+  "sinif": {
+   "ad": "A Great Big Love Picture",
+   "sure": "20 min",
+   "materyal": "Large kraft paper or card, finger paint or pastels, pre-cut paper hearts, glue",
+   "adim": [
+    "Remember the story: what did Deniz draw, and what did she stick on?",
+    "In small groups, the children make a picture for a grown-up they love on a great big sheet of paper.",
+    "Each child chooses their own paper heart and sticks it on the picture.",
+    "At circle time, each child shows their picture and finishes the sentence “I made this picture for ..., because ...”; everyone looks at the speaker and waits for their turn. A child who prefers to can just show their picture.",
+    "The pictures go home; the children's sentences are written down for the families."
+   ]
+  },
+  "evSoru": [
+   "What did Deniz and her dad make in secret?",
+   "Where did they hide the picture when Mum came in?",
+   "Why did Deniz love her mum?"
+  ],
+  "evEtk": {
+   "ad": "An I-Love-You-Because Card",
+   "d": "Make a picture with your child for a grown-up in the family they love. Have your child say “I love you, because…”, and write it on the back of the paper exactly as they say it. Give the card to that person together."
+  },
+  "aileNotu": "Today we read “A Great Big Picture for Mum.” Deniz secretly made a picture with her dad for Mother's Day and told her mum, in her own words, why she loves her. At home, listen to your child's “I love you, because…” sentence; whatever answer they give, welcome it with joy. It can be another loved grown-up instead of Mum; what matters is expressing the feeling in pictures and words."
+ },
+ "audio": {
+  "file": "audio/en/090-anneme-kocaman-bir-resim.mp3",
+  "hash": "acd05872",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11051,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      2089,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      3549,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4290,
+      8
+     ],
+     [
+      4410,
+      9
+     ],
+     [
+      4489,
+      10
+     ],
+     [
+      5410,
+      11
+     ],
+     [
+      5709,
+      12
+     ],
+     [
+      5949,
+      13
+     ],
+     [
+      6249,
+      14
+     ],
+     [
+      6410,
+      15
+     ],
+     [
+      6890,
+      16
+     ],
+     [
+      7169,
+      17
+     ],
+     [
+      8190,
+      18
+     ],
+     [
+      8509,
+      19
+     ],
+     [
+      9430,
+      20
+     ],
+     [
+      10049,
+      21
+     ],
+     [
+      10249,
+      22
+     ],
+     [
+      10409,
+      23
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 11351,
+    "d": 2611,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2110,
+      5
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 14262,
+    "d": 1800,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 16362,
+    "d": 10859,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      490,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2529,
+      7
+     ],
+     [
+      2670,
+      8
+     ],
+     [
+      3609,
+      9
+     ],
+     [
+      3910,
+      10
+     ],
+     [
+      4129,
+      11
+     ],
+     [
+      4209,
+      12
+     ],
+     [
+      4310,
+      13
+     ],
+     [
+      5310,
+      14
+     ],
+     [
+      5569,
+      15
+     ],
+     [
+      6109,
+      16
+     ],
+     [
+      6309,
+      17
+     ],
+     [
+      7189,
+      18
+     ],
+     [
+      7349,
+      19
+     ],
+     [
+      7629,
+      20
+     ],
+     [
+      7749,
+      21
+     ],
+     [
+      8549,
+      22
+     ],
+     [
+      8730,
+      23
+     ],
+     [
+      9489,
+      24
+     ],
+     [
+      9690,
+      25
+     ],
+     [
+      10089,
+      26
+     ],
+     [
+      10209,
+      27
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 27522,
+    "d": 2089,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1449,
+      4
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 29911,
+    "d": 1434,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      649,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 31645,
+    "d": 3216,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      2789,
+      7
+     ]
+    ]
+   },
+   "p2": {
+    "s": 35162,
+    "d": 10668,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1249,
+      5
+     ],
+     [
+      1649,
+      6
+     ],
+     [
+      1969,
+      7
+     ],
+     [
+      2110,
+      8
+     ],
+     [
+      3029,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      3629,
+      11
+     ],
+     [
+      3749,
+      12
+     ],
+     [
+      4529,
+      13
+     ],
+     [
+      5049,
+      14
+     ],
+     [
+      5529,
+      15
+     ],
+     [
+      6469,
+      16
+     ],
+     [
+      6689,
+      17
+     ],
+     [
+      7029,
+      18
+     ],
+     [
+      7149,
+      19
+     ],
+     [
+      7749,
+      20
+     ],
+     [
+      8209,
+      21
+     ],
+     [
+      8869,
+      22
+     ],
+     [
+      9049,
+      23
+     ],
+     [
+      9230,
+      24
+     ],
+     [
+      9609,
+      25
+     ],
+     [
+      10069,
+      26
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 46131,
+    "d": 1814,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1030,
+      2
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 48245,
+    "d": 1665,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 50210,
+    "d": 2003,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1410,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 52514,
+    "d": 7561,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1889,
+      2
+     ],
+     [
+      2130,
+      3
+     ],
+     [
+      2630,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3709,
+      6
+     ],
+     [
+      4350,
+      7
+     ],
+     [
+      4689,
+      8
+     ],
+     [
+      5370,
+      9
+     ],
+     [
+      5609,
+      10
+     ],
+     [
+      6449,
+      11
+     ],
+     [
+      6629,
+      12
+     ],
+     [
+      6829,
+      13
+     ],
+     [
+      6930,
+      14
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 60376,
+    "d": 1558,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1089,
+      2
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 62234,
+    "d": 1611,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1209,
+      3
+     ]
+    ]
+   },
+   "p3q": {
+    "s": 64146,
+    "d": 1849,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      569,
+      4
+     ],
+     [
+      849,
+      5
+     ],
+     [
+      1069,
+      6
+     ],
+     [
+      1209,
+      7
+     ]
+    ]
+   },
+   "p3r": {
+    "s": 66295,
+    "d": 1035,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      610,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 67631,
+    "d": 12349,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      1349,
+      6
+     ],
+     [
+      1469,
+      7
+     ],
+     [
+      2370,
+      8
+     ],
+     [
+      2789,
+      9
+     ],
+     [
+      3029,
+      10
+     ],
+     [
+      3269,
+      11
+     ],
+     [
+      3390,
+      12
+     ],
+     [
+      4109,
+      13
+     ],
+     [
+      4410,
+      14
+     ],
+     [
+      5089,
+      15
+     ],
+     [
+      5350,
+      16
+     ],
+     [
+      5629,
+      17
+     ],
+     [
+      5789,
+      18
+     ],
+     [
+      5930,
+      19
+     ],
+     [
+      6729,
+      20
+     ],
+     [
+      7930,
+      21
+     ],
+     [
+      8169,
+      22
+     ],
+     [
+      8730,
+      23
+     ],
+     [
+      9890,
+      24
+     ],
+     [
+      10190,
+      25
+     ],
+     [
+      10730,
+      26
+     ],
+     [
+      10890,
+      27
+     ],
+     [
+      11109,
+      28
+     ],
+     [
+      11249,
+      29
+     ],
+     [
+      11529,
+      30
+     ],
+     [
+      11689,
+      31
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 80280,
+    "d": 1424,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      949,
+      4
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 82004,
+    "d": 1188,
+    "w": [
+     [
+      120,
+      0
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 83493,
+    "d": 2193,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1183,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 85986,
+    "d": 10572,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      729,
+      4
+     ],
+     [
+      909,
+      5
+     ],
+     [
+      1449,
+      6
+     ],
+     [
+      1629,
+      7
+     ],
+     [
+      1829,
+      8
+     ],
+     [
+      2029,
+      9
+     ],
+     [
+      2170,
+      10
+     ],
+     [
+      2969,
+      11
+     ],
+     [
+      3289,
+      12
+     ],
+     [
+      3489,
+      13
+     ],
+     [
+      3689,
+      14
+     ],
+     [
+      4029,
+      15
+     ],
+     [
+      4830,
+      16
+     ],
+     [
+      5249,
+      17
+     ],
+     [
+      5549,
+      18
+     ],
+     [
+      5669,
+      19
+     ],
+     [
+      6009,
+      20
+     ],
+     [
+      6229,
+      21
+     ],
+     [
+      6350,
+      22
+     ],
+     [
+      7329,
+      23
+     ],
+     [
+      7930,
+      24
+     ],
+     [
+      8629,
+      25
+     ],
+     [
+      9350,
+      26
+     ],
+     [
+      9989,
+      27
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 96858,
+    "d": 1344,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      530,
+      1
+     ],
+     [
+      1021,
+      2
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 98502,
+    "d": 1074,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 99876,
+    "d": 3324,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      2749,
+      7
+     ]
+    ]
+   },
+   "p6": {
+    "s": 103500,
+    "d": 12431,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2049,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3449,
+      10
+     ],
+     [
+      4269,
+      11
+     ],
+     [
+      4469,
+      12
+     ],
+     [
+      4769,
+      13
+     ],
+     [
+      5189,
+      14
+     ],
+     [
+      5489,
+      15
+     ],
+     [
+      5649,
+      16
+     ],
+     [
+      5850,
+      17
+     ],
+     [
+      6029,
+      18
+     ],
+     [
+      7169,
+      19
+     ],
+     [
+      7469,
+      20
+     ],
+     [
+      7769,
+      21
+     ],
+     [
+      8109,
+      22
+     ],
+     [
+      8989,
+      23
+     ],
+     [
+      9350,
+      24
+     ],
+     [
+      9690,
+      25
+     ],
+     [
+      9909,
+      26
+     ],
+     [
+      10089,
+      27
+     ],
+     [
+      11169,
+      28
+     ],
+     [
+      11409,
+      29
+     ],
+     [
+      11730,
+      30
+     ],
+     [
+      11930,
+      31
+     ]
+    ]
+   },
+   "p6h-deniz": {
+    "s": 116232,
+    "d": 1333,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      246,
+      1
+     ],
+     [
+      605,
+      2
+     ],
+     [
+      933,
+      3
+     ]
+    ]
+   },
+   "p6h-anne": {
+    "s": 117865,
+    "d": 2027,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1170,
+      4
+     ]
+    ]
+   },
+   "p6h-baba": {
+    "s": 120193,
+    "d": 1391,
+    "w": [
+     [
+      49,
+      0
+     ]
+    ]
+   }
+  }
+ }
+}

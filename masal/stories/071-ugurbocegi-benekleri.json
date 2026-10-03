@@ -1,0 +1,2265 @@
+{
+ "id": "071-ugurbocegi-benekleri",
+ "n": 71,
+ "title": "Uğur Böceğinin Benek Oyunu",
+ "age": "60-72",
+ "area": "Matematik",
+ "theme": "Parça-bütün: beşin saklanan ve görünen parçaları",
+ "values": [
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB1.1 Kendini Tanıma",
+ "min": 5,
+ "blurb": "Uğur böceği Benek saymayı çok sever. Kelebek Pırpır'la beş kara benek taşıyla saklambaç oynarlar: Üç taş görünüyorsa, çalının arkasında kaç taş saklanmıştır?",
+ "codes": {
+  "maarif": [
+   "MAB.1 Ritmik ve algısal sayabilme: 1-20 arasında ileriye doğru birer ritmik sayar; 1-5 arasındaki nesnelerin miktarını bir bakışta söyler; nesne/varlık miktarını sayarak belirler",
+   "MAB.4 Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme — MAB.4.b Nesneleri, olguları ve olayları karşılaştırır (görünen ve saklanan parçaları bütünle karşılaştırır)",
+   "SDB1.1 Kendini Tanıma (Öz Farkındalık)",
+   "E3.5 Açık Fikirlilik",
+   "D4 Dostluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "benek": "hayvan-kiz",
+  "pirpir": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "benek": "Benek (uğur böceği)",
+  "pirpir": "Pırpır (kelebek)"
+ },
+ "pages": [
+  {
+   "text": "Çayırda güneş doğdu. Uğur böceği Benek gerindi, beneklerini saydı: “Bir, iki, üç, dört, beş, altı, yedi! Ben Benek'im! Yedi beneğim var, saymaya bayılırım!” Pır pır! Kelebek Pırpır geldi. “Günaydın, Benek! Oyun oynayalım mı?”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ugurbocegi",
+      "x": 180,
+      "y": 232,
+      "s": 2.2,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "benek"
+     },
+     {
+      "k": "kelebek",
+      "x": 296,
+      "y": 118,
+      "s": 2.2,
+      "hit": "pirpir",
+      "flip": true
+     },
+     {
+      "k": "gunes",
+      "x": 350,
+      "y": 48,
+      "hit": "gunes"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 88,
+      "y": 228,
+      "s": 2.0,
+      "color": "#FFFFFF",
+      "hit": "papatya"
+     },
+     {
+      "k": "flower",
+      "x": 376,
+      "y": 210,
+      "s": 0.9,
+      "color": "#F7A8C8"
+     },
+     {
+      "k": "flower",
+      "x": 340,
+      "y": 216,
+      "s": 0.7,
+      "color": "#FFD34E"
+     },
+     {
+      "k": "cali",
+      "x": 36,
+      "y": 200,
+      "s": 0.9,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "benek": {
+     "say": "Ben Benek! Saymaya bayılırım!",
+     "voice": "benek",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "pirpir": {
+     "say": "Günaydın Benek! Oyun oynayalım mı?",
+     "voice": "pirpir",
+     "anim": "spinme",
+     "fx": "whoosh"
+    },
+    "papatya": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "benek",
+    "Benek'e dokun!"
+   ],
+   "ask": "Benek sabah ilk iş ne yaptı? Sen sabah uyanınca ilk ne yaparsın?"
+  },
+  {
+   "text": "Pırpır bir çalının dibinde kara, yusyuvarlak taşlar buldu. “Bak, Benek, tıpkı senin beneklerin! Bunlar bizim benek taşlarımız olsun.” Benek taşları tek tek saydı. Kaç benek taşı vardı? Tam beş!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ugurbocegi",
+      "x": 92,
+      "y": 232,
+      "s": 1.8,
+      "mood": "surprised",
+      "pose": "walk",
+      "hit": "benek"
+     },
+     {
+      "k": "kelebek",
+      "x": 318,
+      "y": 150,
+      "s": 2.1,
+      "hit": "pirpir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 350,
+      "y": 212,
+      "s": 1.4,
+      "flowers": true
+     },
+     {
+      "k": "tas",
+      "x": 172,
+      "y": 226,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "t1"
+     },
+     {
+      "k": "tas",
+      "x": 214,
+      "y": 236,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "t2"
+     },
+     {
+      "k": "tas",
+      "x": 256,
+      "y": 224,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "t3"
+     },
+     {
+      "k": "tas",
+      "x": 298,
+      "y": 234,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "t4"
+     },
+     {
+      "k": "tas",
+      "x": 236,
+      "y": 206,
+      "s": 1.2,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "t5"
+     },
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 204,
+      "s": 0.8,
+      "color": "#FFFFFF"
+     },
+     {
+      "k": "flower",
+      "x": 380,
+      "y": 200,
+      "s": 0.8,
+      "color": "#F7A8C8"
+     }
+    ]
+   },
+   "hits": {
+    "benek": {
+     "say": "Tıpkı benim beneklerim gibi!",
+     "voice": "benek",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "pirpir": {
+     "say": "Bunlar bizim benek taşlarımız!",
+     "voice": "pirpir",
+     "anim": "spinme",
+     "fx": "whoosh"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "t1",
+     "t2",
+     "t3",
+     "t4",
+     "t5"
+    ],
+    "done": "Beş benek taşı var!",
+    "msg": "Beş taş!"
+   },
+   "hint": [
+    "t1",
+    "Taşları tek tek say!"
+   ],
+   "ask": "Taşlar neye benziyor? Senin çevrende benekli neler var?"
+  },
+  {
+   "text": "“Gözlerini kapat!” dedi Pırpır. Benek gözlerini sımsıkı yumdu. Hışır hışır! Pırpır bazı taşları çalının arkasına sakladı. Benek gözlerini açtı. Yalnız üç taş vardı! Antenleri kıpır kıpır kıpırdadı. Öteki taşlar neredeydi? Benek çok merak etti.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ugurbocegi",
+      "x": 100,
+      "y": 230,
+      "s": 2.0,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "benek"
+     },
+     {
+      "k": "kelebek",
+      "x": 262,
+      "y": 140,
+      "s": 2.2,
+      "hit": "pirpir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 318,
+      "y": 222,
+      "s": 1.8,
+      "hit": "cali"
+     },
+     {
+      "k": "tas",
+      "x": 176,
+      "y": 232,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "s1"
+     },
+     {
+      "k": "tas",
+      "x": 218,
+      "y": 236,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "s2"
+     },
+     {
+      "k": "tas",
+      "x": 200,
+      "y": 212,
+      "s": 1.2,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "s3"
+     },
+     {
+      "k": "flower",
+      "x": 380,
+      "y": 198,
+      "s": 0.8,
+      "color": "#FFD34E"
+     },
+     {
+      "k": "cali",
+      "x": 36,
+      "y": 198,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "benek": {
+     "say": "Kaç taş saklandı acaba?",
+     "voice": "benek",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "pirpir": {
+     "say": "Bil bakalım, kaç tane?",
+     "voice": "pirpir",
+     "anim": "spinme",
+     "fx": "whoosh"
+    },
+    "cali": {
+     "anim": "wiggle",
+     "fx": "scrub"
+    },
+    "s": {
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence çalının arkasında kaç taş saklandı?",
+    "res": "Üç ve iki mi, üç ve üç mü? Hadi sayalım!",
+    "opts": [
+     {
+      "l": "İki taş",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "ugurbocegi",
+         "x": 96,
+         "y": 232,
+         "s": 2.0,
+         "mood": "think",
+         "pose": "stand",
+         "hit": "benek"
+        },
+        {
+         "k": "kelebek",
+         "x": 262,
+         "y": 140,
+         "s": 2.0,
+         "hit": "pirpir",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "cali",
+         "x": 318,
+         "y": 224,
+         "s": 1.8
+        },
+        {
+         "k": "tas",
+         "x": 300,
+         "y": 220,
+         "s": 1.2,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true,
+         "peek": true
+        },
+        {
+         "k": "tas",
+         "x": 336,
+         "y": 220,
+         "s": 1.2,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true,
+         "peek": true
+        },
+        {
+         "k": "tas",
+         "x": 176,
+         "y": 232,
+         "s": 1.3,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true
+        },
+        {
+         "k": "tas",
+         "x": 218,
+         "y": 236,
+         "s": 1.3,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true
+        },
+        {
+         "k": "tas",
+         "x": 200,
+         "y": 212,
+         "s": 1.2,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true
+        }
+       ]
+      }
+     },
+     {
+      "l": "Üç taş",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "ugurbocegi",
+         "x": 96,
+         "y": 232,
+         "s": 2.0,
+         "mood": "think",
+         "pose": "stand",
+         "hit": "benek"
+        },
+        {
+         "k": "kelebek",
+         "x": 262,
+         "y": 140,
+         "s": 2.0,
+         "hit": "pirpir",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "cali",
+         "x": 318,
+         "y": 224,
+         "s": 1.8
+        },
+        {
+         "k": "tas",
+         "x": 300,
+         "y": 220,
+         "s": 1.2,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true,
+         "peek": true
+        },
+        {
+         "k": "tas",
+         "x": 336,
+         "y": 220,
+         "s": 1.2,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true,
+         "peek": true
+        },
+        {
+         "k": "tas",
+         "x": 318,
+         "y": 214,
+         "s": 1.2,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true,
+         "peek": true
+        },
+        {
+         "k": "tas",
+         "x": 176,
+         "y": 232,
+         "s": 1.3,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true
+        },
+        {
+         "k": "tas",
+         "x": 218,
+         "y": 236,
+         "s": 1.3,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true
+        },
+        {
+         "k": "tas",
+         "x": 200,
+         "y": 212,
+         "s": 1.2,
+         "v": 2,
+         "color": "#2E2638",
+         "grass": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "benek",
+    "Benek'e dokun!"
+   ],
+   "ask": "Benek ne hissediyor? Sen merak edince ne yaparsın?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Benek taşlara baktı. “Üç taş burada!” dedi. Sonra bacaklarını tek tek kaldırdı: “Dört, beş!” İki bacağı havada kaldı. “Demek iki taş saklandı!” Hadi, çalının arkasına bak. Gerçekten iki mi?",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ugurbocegi",
+      "x": 96,
+      "y": 232,
+      "s": 2.1,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "benek"
+     },
+     {
+      "k": "kelebek",
+      "x": 250,
+      "y": 118,
+      "s": 2.0,
+      "hit": "pirpir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 262,
+      "y": 224,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "h1",
+      "peek": true
+     },
+     {
+      "k": "tas",
+      "x": 374,
+      "y": 224,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "h2",
+      "peek": true
+     },
+     {
+      "k": "cali",
+      "x": 318,
+      "y": 226,
+      "s": 1.8
+     },
+     {
+      "k": "tas",
+      "x": 176,
+      "y": 234,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true
+     },
+     {
+      "k": "tas",
+      "x": 218,
+      "y": 230,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true
+     },
+     {
+      "k": "tas",
+      "x": 198,
+      "y": 212,
+      "s": 1.2,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true
+     },
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 200,
+      "s": 0.8,
+      "color": "#F7A8C8"
+     }
+    ]
+   },
+   "hits": {
+    "benek": {
+     "say": "Üç burada. Dört, beş!",
+     "voice": "benek",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "pirpir": {
+     "say": "Bakalım bilecek misin?",
+     "voice": "pirpir",
+     "anim": "spinme",
+     "fx": "whoosh"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "h1",
+     "h2"
+    ],
+    "done": "Üç ve iki, hepsi beş!",
+    "msg": "İki taş buldun!"
+   },
+   "hint": [
+    "h1",
+    "Çalının arkasına bak!"
+   ],
+   "ask": "Benek saklanan taşları nasıl buldu? Sen olsan nasıl sayardın?"
+  },
+  {
+   "text": "“Şimdi sıra bende!” dedi Benek. Pırpır kanatlarıyla gözlerini kapadı: “Bir, iki, üç…” Benek dört taşı papatyanın arkasına taşıdı. Tıkır tıkır! Bir taş dışarıda kaldı. “…Dokuz, on! Önüm arkam sağım solum sobe!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ugurbocegi",
+      "x": 112,
+      "y": 234,
+      "s": 2.0,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "benek"
+     },
+     {
+      "k": "kelebek",
+      "x": 236,
+      "y": 82,
+      "s": 1.9,
+      "hit": "pirpir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 384,
+      "y": 204,
+      "s": 1.0
+     },
+     {
+      "k": "flower",
+      "x": 330,
+      "y": 232,
+      "s": 2.4,
+      "color": "#FFFFFF"
+     },
+     {
+      "k": "tas",
+      "x": 190,
+      "y": 226,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "k1"
+     },
+     {
+      "k": "tas",
+      "x": 224,
+      "y": 236,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "k2"
+     },
+     {
+      "k": "tas",
+      "x": 258,
+      "y": 222,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "k3"
+     },
+     {
+      "k": "tas",
+      "x": 290,
+      "y": 236,
+      "s": 1.3,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "k4"
+     },
+     {
+      "k": "tas",
+      "x": 50,
+      "y": 230,
+      "s": 1.2,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true
+     }
+    ]
+   },
+   "hits": {
+    "benek": {
+     "say": "Şimdi sıra bende!",
+     "voice": "benek",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "pirpir": {
+     "say": "Bir, iki, üç… Gözüm kapalı!",
+     "voice": "pirpir",
+     "anim": "spinme",
+     "fx": "whoosh"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "k1",
+     "k2",
+     "k3",
+     "k4"
+    ],
+    "to": [
+     330,
+     226
+    ],
+    "done": "Dört taş saklandı, bir taş dışarıda!",
+    "msg": "Dört taşı sakladın!"
+   },
+   "hint": [
+    "k1",
+    "Dört taşı papatyaya taşı!"
+   ],
+   "ask": "Benek kaç taş sakladı? Dışarıda kaç taş kaldı?"
+  },
+  {
+   "text": "Pırpır tek taşı gördü. “Hmm… On taş mı saklandı?” Benek gülümsedi: “Bacaklarınla say!” Pırpır saydı: “Bir burada… İki, üç, dört, beş!” Dört bacağı havada kaldı. Papatyanın arkasına baktı. Tam dört taş! “Yarın yine oynayalım mı?” diye sordu Pırpır.",
+   "scene": {
+    "set": "cayir",
+    "time": "sunset",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ugurbocegi",
+      "x": 100,
+      "y": 234,
+      "s": 2.1,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "benek"
+     },
+     {
+      "k": "kelebek",
+      "x": 236,
+      "y": 140,
+      "s": 2.4,
+      "hit": "pirpir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 292,
+      "y": 222,
+      "s": 1.2,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "g1",
+      "peek": true
+     },
+     {
+      "k": "tas",
+      "x": 320,
+      "y": 218,
+      "s": 1.2,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "g2",
+      "peek": true
+     },
+     {
+      "k": "tas",
+      "x": 346,
+      "y": 220,
+      "s": 1.2,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "g3",
+      "peek": true
+     },
+     {
+      "k": "tas",
+      "x": 372,
+      "y": 224,
+      "s": 1.2,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "g4",
+      "peek": true
+     },
+     {
+      "k": "flower",
+      "x": 330,
+      "y": 232,
+      "s": 2.4,
+      "color": "#FFFFFF",
+      "hit": "papatya"
+     },
+     {
+      "k": "tas",
+      "x": 218,
+      "y": 238,
+      "s": 1.4,
+      "v": 2,
+      "color": "#2E2638",
+      "grass": true,
+      "hit": "tas"
+     },
+     {
+      "k": "flower",
+      "x": 36,
+      "y": 206,
+      "s": 0.9,
+      "color": "#FFD34E"
+     },
+     {
+      "k": "flower",
+      "x": 64,
+      "y": 214,
+      "s": 0.7,
+      "color": "#F7A8C8"
+     }
+    ]
+   },
+   "hits": {
+    "benek": {
+     "say": "Bacaklarınla say, Pırpır!",
+     "voice": "benek",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "pirpir": {
+     "say": "Bir burada… İki, üç, dört, beş!",
+     "voice": "pirpir",
+     "anim": "spinme",
+     "fx": "whoosh"
+    },
+    "papatya": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "tas": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "g": {
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "g1",
+    "Papatyanın arkasına bak!"
+   ],
+   "ask": "Beş taştan biri görünüyorsa kaçı saklanmıştır? Pırpır zorlanınca Benek ne yaptı?",
+   "mech": {
+    "type": "find",
+    "keys": [
+     "g1",
+     "g2",
+     "g3",
+     "g4"
+    ],
+    "done": "Bir ve dört, hepsi beş!",
+    "msg": "Dört taş buldun!"
+   }
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.1 Ritmik ve algısal sayabilme — 1-20 arasında ileriye doğru birer ritmik sayar; nesne/varlık miktarını sayarak belirler; 1-5 arasındaki nesnelerin miktarını bir bakışta söyler: Benek'in yedi beneğini ve beş benek taşını tek tek sayar, Pırpır'la birlikte “bir, iki… on!” diye ritmik sayar, üç taşı bir bakışta söyler.",
+   "MAB.4 Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme — MAB.4.b Nesneleri, olguları ve olayları karşılaştırır: Görünen taşları (3, 1) bütünle (5) karşılaştırıp saklanan parçanın kaç olduğunu çıkarır (3 ve 2, 1 ve 4); “üstüne sayma” stratejisini kullanır.",
+   "SDB1.1 Kendini Tanıma (Öz Farkındalık) — Benek gibi kendini tanıtır (“Ben Benek'im! Yedi beneğim var, saymaya bayılırım!”); merakın bedende nasıl hissedildiğini (antenler kıpır kıpır) fark eder, duygusunu adlandırır.",
+   "E3.5 Açık Fikirlilik — Tahmin sayfasında farklı tahminleri dinler; ilk tahmini (“On taş mı?”) bırakıp yeni bir yolu (bacaklarla/parmaklarla üstüne sayma) dener ve sonucu bakarak sınar.",
+   "D4 Dostluk — Sırayla saklama ve bulma oyununda arkadaşı zorlanınca cevabı söylemek yerine yol gösterir (“Bacaklarınla say!”); oyunu yarın yeniden oynamayı önerir."
+  ],
+  "once": [
+   "Kapaktaki uğur böceğini gösterin: “Bu Benek. Sırtında kaç benek var sence? Uğur böceklerini nerede görürüz?”",
+   "Avucunuzda beş küçük nesne (düğme, fasulye) tutun; birkaçını kapatıp “Kaçı saklandı?” diye kısa bir deneme oyunu oynayın."
+  ],
+  "sirasi": [
+   "1. sayfada Benek'in yedi beneğini birlikte, ritmik sayın; Benek'in kendini nasıl tanıttığını gösterin ve “Sen neyi saymayı seversin?” diye sorun.",
+   "2. sayfada taşlara tek tek dokunurken parmağınızla gösterin; son söylenen sayının “kaç tane” olduğunu vurgulayın: “Beş!”",
+   "3. sayfada Benek'in antenlerini gösterin: “Merak edince Benek'in antenleri kıpır kıpır. Senin neyin kıpırdar?” Tahminde iki cevabı da kabul edin, “Neden öyle düşündün?” diye sorun.",
+   "4. sayfada Benek gibi parmakla üstüne sayın: “Üç burada… dört, beş!” Kalkan iki parmağı gösterip “Saklanan iki” deyin.",
+   "5. sayfada Pırpır'la birlikte yüksek sesle ondan sayın, sonunda hep birlikte “Önüm arkam sağım solum sobe!” deyin; sonra dışarıda kaç taş kaldığını sorun.",
+   "6. sayfada cevabı hemen söylemeyin; çocuğunuzun parmaklarıyla bulmasını bekleyin, sonra papatyanın arkasındaki taşlara dokunarak tahmini birlikte kontrol edin. Kapanışta: “Akşam olunca benek taşlarını çalının dibine geri koydular.”"
+  ],
+  "sonra": [
+   "Beş taştan üçü görünüyordu. Kaçı saklanmıştı? Nasıl buldun?",
+   "Benek kendini nasıl tanıttı? Sen kendini tanıtırken ne söylersin?",
+   "Pırpır zorlanınca Benek ne yaptı? Sen bir arkadaşın zorlandığında ne yaparsın?",
+   "Oyun bitince benek taşları nereye gitmeli? Doğadaki taşları neden yerinde bırakırız?"
+  ],
+  "sinif": {
+   "ad": "Benek Saklambacı",
+   "sure": "15-20 dk",
+   "materyal": "Her ikili için 5 siyah düğme ya da sınıfta boyanmış çakıl (ağza alınmayacak büyüklükte; doğadan toplanmaz), bir kâğıt yaprak ya da bardak, kırmızı kartondan uğur böceği gövdesi",
+   "adim": [
+    "Çocuklar ikili olur; her ikiliye beş “benek” ve bir kâğıt yaprak verin. Önce benekleri birlikte sayıp uğur böceği kartonunun üstüne dizsinler.",
+    "Biri gözlerini kapatıp ondan sayarken diğeri bazı benekleri yaprağın altına saklasın; açan çocuk görünenleri sayıp saklananları tahmin etsin, sonra yaprağı kaldırıp kontrol etsin.",
+    "Roller değişsin. Sonunda çemberde “Beşi kaç farklı biçimde sakladık?” diye konuşun; 4 ve 1, 3 ve 2 gibi parçaları tahtaya noktalarla çizin."
+   ]
+  },
+  "evSoru": [
+   "Benek'in kaç beneği vardı?",
+   "Pırpır'ın bulduğu kara taşlar neye benziyordu?",
+   "Saklanan taşları bulmak için Benek hangi yolu gösterdi?"
+  ],
+  "evEtk": {
+   "ad": "Avuçta saklambaç",
+   "d": "Beş küçük nesneyi (fasulye, düğme) iki avucunuza paylaştırın, bir avucu açın. Çocuğunuz görünenleri sayıp kapalı avuçta kaç tane olduğunu tahmin etsin, sonra birlikte açıp bakın. Sonra rolleri değiştirin; parmakla üstüne saymayı teşvik edin."
+  },
+  "aileNotu": "Bugün “Uğur Böceğinin Benek Oyunu” masalını okuduk. Uğur böceği Benek ve kelebek Pırpır, beş kara taşın bir kısmını saklayıp kaç tanesinin saklandığını buluyor, sonra bakıp tahminlerini kontrol ediyor. Bu oyun, bir sayının parçalardan oluştuğunu (3 ve 2, 1 ve 4 = 5) fark etmeyi ve “üstüne sayma”yı destekler. Evde düğme ya da fasulyeyle avuçta saklambaç oynayabilir; oyun bitince doğadaki taşların yerinde kaldığını birlikte konuşabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/071-ugurbocegi-benekleri.mp3",
+  "hash": "e83e96ac",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 18885,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3789,
+      7
+     ],
+     [
+      4509,
+      8
+     ],
+     [
+      5390,
+      9
+     ],
+     [
+      6089,
+      10
+     ],
+     [
+      6870,
+      11
+     ],
+     [
+      7469,
+      12
+     ],
+     [
+      8169,
+      13
+     ],
+     [
+      8909,
+      14
+     ],
+     [
+      9489,
+      15
+     ],
+     [
+      10249,
+      16
+     ],
+     [
+      10569,
+      17
+     ],
+     [
+      11350,
+      18
+     ],
+     [
+      11609,
+      19
+     ],
+     [
+      12049,
+      20
+     ],
+     [
+      12489,
+      21
+     ],
+     [
+      13109,
+      22
+     ],
+     [
+      14089,
+      23
+     ],
+     [
+      14350,
+      24
+     ],
+     [
+      15089,
+      25
+     ],
+     [
+      15569,
+      26
+     ],
+     [
+      15989,
+      27
+     ],
+     [
+      16709,
+      28
+     ],
+     [
+      17209,
+      29
+     ],
+     [
+      17889,
+      30
+     ],
+     [
+      18149,
+      31
+     ],
+     [
+      18629,
+      32
+     ]
+    ]
+   },
+   "p0h-benek": {
+    "s": 19185,
+    "d": 2652,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1849,
+      3
+     ]
+    ]
+   },
+   "p0h-pirpir": {
+    "s": 22138,
+    "d": 2304,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24743,
+    "d": 13940,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      4350,
+      8
+     ],
+     [
+      4649,
+      9
+     ],
+     [
+      5249,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      5850,
+      12
+     ],
+     [
+      6789,
+      13
+     ],
+     [
+      7129,
+      14
+     ],
+     [
+      7410,
+      15
+     ],
+     [
+      7709,
+      16
+     ],
+     [
+      8329,
+      17
+     ],
+     [
+      9029,
+      18
+     ],
+     [
+      9369,
+      19
+     ],
+     [
+      9989,
+      20
+     ],
+     [
+      10270,
+      21
+     ],
+     [
+      10529,
+      22
+     ],
+     [
+      11270,
+      23
+     ],
+     [
+      11549,
+      24
+     ],
+     [
+      11850,
+      25
+     ],
+     [
+      12129,
+      26
+     ],
+     [
+      12890,
+      27
+     ],
+     [
+      13329,
+      28
+     ]
+    ]
+   },
+   "p1h-benek": {
+    "s": 38983,
+    "d": 1776,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p1h-pirpir": {
+    "s": 41060,
+    "d": 1987,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 43348,
+    "d": 1485,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      296,
+      1
+     ],
+     [
+      742,
+      2
+     ],
+     [
+      1188,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 45134,
+    "d": 18681,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2529,
+      4
+     ],
+     [
+      2989,
+      5
+     ],
+     [
+      3650,
+      6
+     ],
+     [
+      4249,
+      7
+     ],
+     [
+      4949,
+      8
+     ],
+     [
+      5410,
+      9
+     ],
+     [
+      6289,
+      10
+     ],
+     [
+      6870,
+      11
+     ],
+     [
+      7209,
+      12
+     ],
+     [
+      7749,
+      13
+     ],
+     [
+      8249,
+      14
+     ],
+     [
+      8770,
+      15
+     ],
+     [
+      9669,
+      16
+     ],
+     [
+      10029,
+      17
+     ],
+     [
+      10609,
+      18
+     ],
+     [
+      11350,
+      19
+     ],
+     [
+      11829,
+      20
+     ],
+     [
+      12029,
+      21
+     ],
+     [
+      12329,
+      22
+     ],
+     [
+      13149,
+      23
+     ],
+     [
+      13709,
+      24
+     ],
+     [
+      14129,
+      25
+     ],
+     [
+      14449,
+      26
+     ],
+     [
+      15469,
+      27
+     ],
+     [
+      15789,
+      28
+     ],
+     [
+      16229,
+      29
+     ],
+     [
+      17289,
+      30
+     ],
+     [
+      17649,
+      31
+     ],
+     [
+      17909,
+      32
+     ],
+     [
+      18289,
+      33
+     ]
+    ]
+   },
+   "p2h-benek": {
+    "s": 64115,
+    "d": 1733,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p2h-pirpir": {
+    "s": 66149,
+    "d": 1687,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 68136,
+    "d": 3162,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2449,
+      5
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 71599,
+    "d": 3346,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      1809,
+      6
+     ],
+     [
+      2049,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      2829,
+      9
+     ]
+    ]
+   },
+   "p3": {
+    "s": 75245,
+    "d": 14929,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3689,
+      7
+     ],
+     [
+      4149,
+      8
+     ],
+     [
+      4910,
+      9
+     ],
+     [
+      5209,
+      10
+     ],
+     [
+      5430,
+      11
+     ],
+     [
+      6430,
+      12
+     ],
+     [
+      7349,
+      13
+     ],
+     [
+      8150,
+      14
+     ],
+     [
+      8350,
+      15
+     ],
+     [
+      8789,
+      16
+     ],
+     [
+      9190,
+      17
+     ],
+     [
+      9930,
+      18
+     ],
+     [
+      10350,
+      19
+     ],
+     [
+      10549,
+      20
+     ],
+     [
+      10829,
+      21
+     ],
+     [
+      11829,
+      22
+     ],
+     [
+      12350,
+      23
+     ],
+     [
+      12789,
+      24
+     ],
+     [
+      13270,
+      25
+     ],
+     [
+      13789,
+      26
+     ],
+     [
+      14430,
+      27
+     ],
+     [
+      14669,
+      28
+     ]
+    ]
+   },
+   "p3h-benek": {
+    "s": 90474,
+    "d": 2889,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      426,
+      1
+     ],
+     [
+      1845,
+      2
+     ],
+     [
+      2462,
+      3
+     ]
+    ]
+   },
+   "p3h-pirpir": {
+    "s": 93664,
+    "d": 1322,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      869,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 95286,
+    "d": 2383,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 97970,
+    "d": 17836,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2849,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      5049,
+      9
+     ],
+     [
+      5949,
+      10
+     ],
+     [
+      6930,
+      11
+     ],
+     [
+      7769,
+      12
+     ],
+     [
+      8209,
+      13
+     ],
+     [
+      8469,
+      14
+     ],
+     [
+      8869,
+      15
+     ],
+     [
+      9529,
+      16
+     ],
+     [
+      10049,
+      17
+     ],
+     [
+      10770,
+      18
+     ],
+     [
+      11270,
+      19
+     ],
+     [
+      12049,
+      20
+     ],
+     [
+      12189,
+      21
+     ],
+     [
+      12509,
+      22
+     ],
+     [
+      13009,
+      23
+     ],
+     [
+      13770,
+      24
+     ],
+     [
+      14709,
+      25
+     ],
+     [
+      15449,
+      26
+     ],
+     [
+      15869,
+      27
+     ],
+     [
+      16370,
+      28
+     ],
+     [
+      16870,
+      29
+     ],
+     [
+      17389,
+      30
+     ]
+    ]
+   },
+   "p4h-benek": {
+    "s": 116106,
+    "d": 1316,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      452,
+      1
+     ],
+     [
+      864,
+      2
+     ]
+    ]
+   },
+   "p4h-pirpir": {
+    "s": 117723,
+    "d": 3284,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1709,
+      2
+     ],
+     [
+      2390,
+      3
+     ],
+     [
+      2709,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 121307,
+    "d": 2710,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2089,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 124317,
+    "d": 20337,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3410,
+      7
+     ],
+     [
+      3529,
+      8
+     ],
+     [
+      4629,
+      9
+     ],
+     [
+      4989,
+      10
+     ],
+     [
+      5930,
+      11
+     ],
+     [
+      6689,
+      12
+     ],
+     [
+      7329,
+      13
+     ],
+     [
+      7789,
+      14
+     ],
+     [
+      8629,
+      15
+     ],
+     [
+      8869,
+      16
+     ],
+     [
+      9709,
+      17
+     ],
+     [
+      10549,
+      18
+     ],
+     [
+      11169,
+      19
+     ],
+     [
+      11829,
+      20
+     ],
+     [
+      12629,
+      21
+     ],
+     [
+      12909,
+      22
+     ],
+     [
+      13329,
+      23
+     ],
+     [
+      13729,
+      24
+     ],
+     [
+      14469,
+      25
+     ],
+     [
+      15069,
+      26
+     ],
+     [
+      15549,
+      27
+     ],
+     [
+      16270,
+      28
+     ],
+     [
+      16649,
+      29
+     ],
+     [
+      16969,
+      30
+     ],
+     [
+      17690,
+      31
+     ],
+     [
+      17989,
+      32
+     ],
+     [
+      18209,
+      33
+     ],
+     [
+      18729,
+      34
+     ],
+     [
+      19129,
+      35
+     ],
+     [
+      19409,
+      36
+     ],
+     [
+      19789,
+      37
+     ]
+    ]
+   },
+   "p5h-benek": {
+    "s": 144955,
+    "d": 1853,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1329,
+      2
+     ]
+    ]
+   },
+   "p5h-pirpir": {
+    "s": 147108,
+    "d": 4379,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      2269,
+      3
+     ],
+     [
+      2969,
+      4
+     ],
+     [
+      3769,
+      5
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 151788,
+    "d": 2351,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1749,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

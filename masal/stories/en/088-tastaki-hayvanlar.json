@@ -1,0 +1,1513 @@
+{
+ "id": "088-tastaki-hayvanlar",
+ "lang": "en",
+ "title": "The Animals in the Stones",
+ "theme": "Nature art in the sand",
+ "blurb": "On the beach, Ali finds stones and shells that look like a turtle and a fish; he wants to take them all home. When Mum says “This is where they belong,” Ali has an idea: he makes a great big fish on the sand out of stones, and leaves it on the shore.",
+ "voiceNames": {
+  "ali": "Ali",
+  "anne": "Mum (Ali's mum)"
+ },
+ "pages": [
+  {
+   "text": "Summer came. Ali and his mum were at the seaside. Hushhh, hushhh, the waves rolled in. Something sparkled in the sand. Ali bent down: “Stones! Shells!”",
+   "hits": {
+    "ali": {
+     "say": "Stones! Shells!"
+    },
+    "anne": {
+     "say": "What a lovely morning!"
+    }
+   },
+   "mech": {
+    "done": "A stone, a shell, another stone!",
+    "msg": "You found them all!"
+   },
+   "hint": "Find the stones in the sand!",
+   "ask": "Have you ever found an interesting stone at the sea or in the park? What did it look like?"
+  },
+  {
+   "text": "Ali looked at the stone. Humped back, tiny head. “A turtle!” And the shell? “A fish tail!” “Mum, can we take them home?”",
+   "hits": {
+    "kabuk": {
+     "say": "A fish tail!"
+    },
+    "ali": {
+     "say": "Mum, can we take them home?"
+    },
+    "anne": {
+     "say": "Hmm, let's think about it."
+    },
+    "kaplumbaga": {
+     "say": "A turtle!"
+    }
+   },
+   "hint": "Touch the turtle stone!",
+   "ask": "What does this stone remind you of? What does the shell look like?"
+  },
+  {
+   "text": "Mum smiled. “The stones and shells stay on the shore. This is where they belong.” Ali felt sad, his lip wobbled. “But I love them so much!” He breathed in deep. Then his eyes lit up!",
+   "hits": {
+    "ali": {
+     "say": "But I love them so much!"
+    },
+    "anne": {
+     "say": "I know, my darling. They're beautiful, aren't they?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Ali's idea was?",
+    "res": "Good guess! Let's see.",
+    "opts": [
+     {
+      "l": "Making a picture in the sand with stones"
+     },
+     {
+      "l": "Building a sandcastle and decorating it"
+     }
+    ]
+   },
+   "hint": "Touch Ali!",
+   "ask": "Why was Ali sad? What do you do when you feel sad? Come on, let's take a deep breath too."
+  },
+  {
+   "text": "“I'll draw in the sand!” said Ali. He drew a great big fish with his finger. He carried the stones one by one. Click! Click! Click! Click! Click!",
+   "hits": {
+    "ali": {
+     "say": "I'll draw in the sand!"
+    },
+    "anne": {
+     "say": "What a lovely idea!"
+    }
+   },
+   "mech": {
+    "done": "Five stones made the fish's body!",
+    "msg": "The stones are in place!"
+   },
+   "hint": "Carry the stones to the fish!",
+   "ask": "How many stones did Ali carry? Let's count: click, click… Where would you make your fish?",
+   "cues": [
+    {
+     "w": 23,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Ali put down a round black stone. “This will be the eye!” He put down two shells like fans. “These are the tail!” The stone fish is ready! Ali clapped his hands: clap clap!",
+   "hits": {
+    "ali": {
+     "say": "The stone fish is ready!"
+    },
+    "goz": {
+     "say": "This will be the eye!"
+    },
+    "k": {
+     "say": "These are the tail!"
+    }
+   },
+   "mech": {
+    "done": "First the eye, then the tail. The fish is ready!",
+    "msg": "You did it in order!"
+   },
+   "hint": "Touch the eye first!",
+   "ask": "What did Ali make the fish's eye with? What would you make the tail with?"
+  },
+  {
+   "text": "The sun was setting. Mum asked: “Is your fish happy?” “Very happy! The turtle is next to him!” said Ali. The stones stayed on the shore. “Goodbye, stone fish!”",
+   "hits": {
+    "ali": {
+     "say": "Goodbye, stone fish!"
+    },
+    "anne": {
+     "say": "Is your fish happy?"
+    },
+    "balik": {
+     "say": "Very happy! The turtle is right beside me!"
+    },
+    "kaplumbaga": {
+     "say": "And the turtle is beside him!"
+    }
+   },
+   "hint": "Touch the stone fish!",
+   "ask": "How does Ali's stone fish make you feel? What would you make on the sand?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.2 (learning outcome) · Using objects of different sizes and qualities effectively — grasps objects of different sizes; creates original products using various objects (HSAB.2.ç): grasps and arranges large and small stones, pointed and round shells to form the shape of a fish.",
+   "SNAB.2 (learning outcome) · Examining a work of art — expresses feelings and thoughts about the work and explains the reasons (SNAB.2.g): Ali answers his mum's question “Is your fish happy?” by looking at his work and gives a reason (“Very happy! The turtle is next to him!”); the child looks at the stone fish and at their own work and says how they feel.",
+   "SNAB.4 (learning outcome; wording unverified) · Carrying out an art activity — process components: decides on the type of art activity, chooses the materials needed, makes a two- or three-dimensional design with modelling materials: Ali chooses stones and shells on the beach and designs a great big fish on the sand; in class, the child makes their own floor picture with natural materials.",
+   "skill: SNAB4 Artistic Practice · OB9 Art Literacy · E1.1 Curiosity — looks at shapes in nature with an artist's eye (“This stone looks like a turtle!”).",
+   "SDB2.1 Communication · Values: D7 Aesthetics, D5 Sensitivity — Ali puts his wish and his sadness into words (“But I love them so much!”) and listens to his mum; notices the beauty of nature and takes care of the shore by leaving the stones and shells where they are."
+  ],
+  "once": [
+   "Show the cover: ask “What might Ali be looking for in the sand?”; listen to the guesses.",
+   "Show a photo or two of stones or shells: “Which animal does this stone remind you of?”",
+   "Open a short chat: “Have you ever found something beautiful at the sea, in the park or in the forest? What did you do?”"
+  ],
+  "sirasi": [
+   "On page 1, make the sound of the waves together in a whisper, “Hushhh, hushhh”; let the child find the stones in the sand.",
+   "On page 2, point to the stone's “humped back”, its “tiny head” and the shell's “tail” with your finger: “What does it look like to you?”",
+   "On page 3, look at Ali's face: “How is he feeling? Why did his lip wobble?” Breathe in deeply through the nose and out through the mouth together. Praise both ideas in the prediction question.",
+   "On page 4, say “Click!” together for each stone and count: one, two, three, four, five.",
+   "On page 5, show the order “first the eye, then the tail” with your finger. On page 6, find the turtle stone; wave goodbye to the stone fish together with Ali."
+  ],
+  "sonra": [
+   "Why didn't Ali take the stones home? What happened when the stones stayed on the shore?",
+   "What did Ali do when he was sad? What do you do when you're sad?",
+   "Which part of the stone fish did you like most? Why?"
+  ],
+  "sinif": {
+   "ad": "Stone Animals Exhibition",
+   "sure": "20 min",
+   "materyal": "Work outside in the school garden, or use the ready materials in the classroom nature corner: large pebbles, leaves, pine cones (too big to swallow); kraft paper or a sand tray for the base; a camera or tablet (for the teacher)",
+   "adim": [
+    "Put the materials in the middle. The children pick up a stone and turn it over, asking “What does this look like?”; accept every idea.",
+    "Each child or pair arranges the materials on the paper or the sand to make an animal (no glue; arranging is enough).",
+    "The teacher takes a photo of each work. The children take turns describing their work: “What's its name? How does it feel? Why?”",
+    "At the end, take the works apart together and put the materials back in the nature corner or where you got them: “We keep the photo, the stones stay where they belong.”"
+   ]
+  },
+  "evSoru": [
+   "Which animals did the stones Ali found in the sand look like?",
+   "What were the stone fish's eye and tail made of?",
+   "Which animal would you like to make with stones?"
+  ],
+  "evEtk": {
+   "ad": "A Stone Animal on a Walk",
+   "d": "Go for a walk in the park, the garden or on the beach with an adult. Arrange a little animal right there with the stones, leaves and twigs you find on the ground; don't collect them, use them where they are. Let your child give the work a name and say how it makes them feel. If you like, take a photo and take its “picture” home; the materials stay where they are."
+  },
+  "aileNotu": "Today we read “The Animals in the Stones”. On the beach, Ali finds stones that look like a turtle and a fish, and wants to take them all home. When his mum says the stones should stay on the shore, Ali is sad at first, then takes a deep breath, makes a great big fish on the sand out of the stones and leaves it there. On your walks, you can make little works of art with natural materials on the spot with your child, take a photo of the work and leave the materials where they are."
+ },
+ "audio": {
+  "file": "audio/en/088-tastaki-hayvanlar.mp3",
+  "hash": "16fe2916",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12532,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2390,
+      8
+     ],
+     [
+      2529,
+      9
+     ],
+     [
+      3589,
+      10
+     ],
+     [
+      4830,
+      11
+     ],
+     [
+      5469,
+      12
+     ],
+     [
+      5669,
+      13
+     ],
+     [
+      6169,
+      14
+     ],
+     [
+      6549,
+      15
+     ],
+     [
+      7269,
+      16
+     ],
+     [
+      7729,
+      17
+     ],
+     [
+      8289,
+      18
+     ],
+     [
+      8390,
+      19
+     ],
+     [
+      8529,
+      20
+     ],
+     [
+      9449,
+      21
+     ],
+     [
+      9730,
+      22
+     ],
+     [
+      9989,
+      23
+     ],
+     [
+      10829,
+      24
+     ],
+     [
+      11789,
+      25
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 12832,
+    "d": 1990,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1209,
+      1
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 15123,
+    "d": 1816,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      319,
+      1
+     ],
+     [
+      598,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 17239,
+    "d": 3016,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2489,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20556,
+    "d": 9404,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2930,
+      7
+     ],
+     [
+      3410,
+      8
+     ],
+     [
+      4229,
+      9
+     ],
+     [
+      4370,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5449,
+      12
+     ],
+     [
+      5609,
+      13
+     ],
+     [
+      6390,
+      14
+     ],
+     [
+      6569,
+      15
+     ],
+     [
+      6890,
+      16
+     ],
+     [
+      7769,
+      17
+     ],
+     [
+      8289,
+      18
+     ],
+     [
+      8449,
+      19
+     ],
+     [
+      8609,
+      20
+     ],
+     [
+      8770,
+      21
+     ],
+     [
+      8969,
+      22
+     ]
+    ]
+   },
+   "p1h-kabuk": {
+    "s": 30260,
+    "d": 1099,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      550,
+      2
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 31660,
+    "d": 1774,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      374,
+      1
+     ],
+     [
+      583,
+      2
+     ],
+     [
+      793,
+      3
+     ],
+     [
+      1158,
+      4
+     ],
+     [
+      1368,
+      5
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 33735,
+    "d": 2097,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1749,
+      4
+     ]
+    ]
+   },
+   "p1h-kaplumbaga": {
+    "s": 36132,
+    "d": 837,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      316,
+      1
+     ]
+    ]
+   },
+   "p2": {
+    "s": 37269,
+    "d": 13983,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      2829,
+      7
+     ],
+     [
+      2930,
+      8
+     ],
+     [
+      3069,
+      9
+     ],
+     [
+      3849,
+      10
+     ],
+     [
+      4049,
+      11
+     ],
+     [
+      4169,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      4509,
+      14
+     ],
+     [
+      5569,
+      15
+     ],
+     [
+      5890,
+      16
+     ],
+     [
+      6229,
+      17
+     ],
+     [
+      7009,
+      18
+     ],
+     [
+      7249,
+      19
+     ],
+     [
+      7549,
+      20
+     ],
+     [
+      8449,
+      21
+     ],
+     [
+      8629,
+      22
+     ],
+     [
+      8850,
+      23
+     ],
+     [
+      9109,
+      24
+     ],
+     [
+      9409,
+      25
+     ],
+     [
+      9770,
+      26
+     ],
+     [
+      10730,
+      27
+     ],
+     [
+      10909,
+      28
+     ],
+     [
+      11390,
+      29
+     ],
+     [
+      11649,
+      30
+     ],
+     [
+      12469,
+      31
+     ],
+     [
+      12869,
+      32
+     ],
+     [
+      13169,
+      33
+     ],
+     [
+      13469,
+      34
+     ],
+     [
+      13669,
+      35
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 51552,
+    "d": 2210,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      355,
+      1
+     ],
+     [
+      671,
+      2
+     ],
+     [
+      1222,
+      3
+     ],
+     [
+      1538,
+      4
+     ],
+     [
+      1854,
+      5
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 54063,
+    "d": 3588,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      3069,
+      6
+     ],
+     [
+      3269,
+      7
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 57951,
+    "d": 2033,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      1089,
+      5
+     ],
+     [
+      1469,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 60285,
+    "d": 1822,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 62407,
+    "d": 10103,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      490,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      1609,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2529,
+      8
+     ],
+     [
+      2789,
+      9
+     ],
+     [
+      2949,
+      10
+     ],
+     [
+      3369,
+      11
+     ],
+     [
+      3689,
+      12
+     ],
+     [
+      4009,
+      13
+     ],
+     [
+      4149,
+      14
+     ],
+     [
+      4330,
+      15
+     ],
+     [
+      5169,
+      16
+     ],
+     [
+      5330,
+      17
+     ],
+     [
+      5649,
+      18
+     ],
+     [
+      5789,
+      19
+     ],
+     [
+      6350,
+      20
+     ],
+     [
+      6569,
+      21
+     ],
+     [
+      6870,
+      22
+     ],
+     [
+      7509,
+      23
+     ],
+     [
+      8069,
+      24
+     ],
+     [
+      8629,
+      25
+     ],
+     [
+      9169,
+      26
+     ],
+     [
+      9669,
+      27
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 72810,
+    "d": 1393,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      729,
+      4
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 74504,
+    "d": 1613,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      930,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 76418,
+    "d": 2254,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1749,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 78972,
+    "d": 12756,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      969,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1729,
+      6
+     ],
+     [
+      2689,
+      7
+     ],
+     [
+      2949,
+      8
+     ],
+     [
+      3150,
+      9
+     ],
+     [
+      3269,
+      10
+     ],
+     [
+      3509,
+      11
+     ],
+     [
+      4310,
+      12
+     ],
+     [
+      4469,
+      13
+     ],
+     [
+      4669,
+      14
+     ],
+     [
+      4969,
+      15
+     ],
+     [
+      5269,
+      16
+     ],
+     [
+      5709,
+      17
+     ],
+     [
+      5910,
+      18
+     ],
+     [
+      6850,
+      19
+     ],
+     [
+      7209,
+      20
+     ],
+     [
+      7349,
+      21
+     ],
+     [
+      7469,
+      22
+     ],
+     [
+      8350,
+      23
+     ],
+     [
+      8569,
+      24
+     ],
+     [
+      8969,
+      25
+     ],
+     [
+      9329,
+      26
+     ],
+     [
+      9669,
+      27
+     ],
+     [
+      10469,
+      28
+     ],
+     [
+      10810,
+      29
+     ],
+     [
+      11189,
+      30
+     ],
+     [
+      11350,
+      31
+     ],
+     [
+      11748,
+      32
+     ],
+     [
+      12182,
+      33
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 92028,
+    "d": 1764,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      299,
+      1
+     ],
+     [
+      752,
+      2
+     ],
+     [
+      1011,
+      3
+     ],
+     [
+      1271,
+      4
+     ]
+    ]
+   },
+   "p4h-goz": {
+    "s": 94092,
+    "d": 1507,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      325,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      896,
+      3
+     ],
+     [
+      1181,
+      4
+     ]
+    ]
+   },
+   "p4h-k": {
+    "s": 95900,
+    "d": 1340,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      749,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 97541,
+    "d": 3455,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      2930,
+      9
+     ]
+    ]
+   },
+   "p5": {
+    "s": 101296,
+    "d": 11546,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      2809,
+      7
+     ],
+     [
+      3049,
+      8
+     ],
+     [
+      3349,
+      9
+     ],
+     [
+      4290,
+      10
+     ],
+     [
+      4709,
+      11
+     ],
+     [
+      5449,
+      12
+     ],
+     [
+      5589,
+      13
+     ],
+     [
+      5949,
+      14
+     ],
+     [
+      6109,
+      15
+     ],
+     [
+      6350,
+      16
+     ],
+     [
+      6489,
+      17
+     ],
+     [
+      7009,
+      18
+     ],
+     [
+      7269,
+      19
+     ],
+     [
+      8129,
+      20
+     ],
+     [
+      8270,
+      21
+     ],
+     [
+      8770,
+      22
+     ],
+     [
+      9089,
+      23
+     ],
+     [
+      9190,
+      24
+     ],
+     [
+      9329,
+      25
+     ],
+     [
+      10169,
+      26
+     ],
+     [
+      10669,
+      27
+     ],
+     [
+      11009,
+      28
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 113143,
+    "d": 1467,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 114911,
+    "d": 1190,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      670,
+      3
+     ]
+    ]
+   },
+   "p5h-balik": {
+    "s": 116401,
+    "d": 3233,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2390,
+      6
+     ],
+     [
+      2849,
+      7
+     ]
+    ]
+   },
+   "p5h-kaplumbaga": {
+    "s": 119934,
+    "d": 1898,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      969,
+      4
+     ],
+     [
+      1489,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

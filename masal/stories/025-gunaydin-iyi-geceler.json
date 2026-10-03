@@ -1,0 +1,2440 @@
+{
+ "id": "025-gunaydin-iyi-geceler",
+ "n": 25,
+ "title": "Günaydın, İyi Geceler",
+ "age": "36-48",
+ "area": "Türkçe",
+ "theme": "Zamana uygun selamlaşma",
+ "values": [
+  "D14 Saygı",
+  "D15 Sevgi"
+ ],
+ "sdb": "SDB2.1 İletişim",
+ "min": 4,
+ "blurb": "Ali sabah uykulu uykulu komşusu Nazlı Nine'ye “İyi geceler!” deyiverir ve utanır. Dedesinin sırrıyla gün boyunca doğru selamı bulur: Gökyüzüne bak, selamı bul!",
+ "codes": {
+  "maarif": [
+   "TAKB.1 Konuşma sürecini yönetebilme",
+   "SAB.1 Günlük hayatta zaman kavramını yerinde kullanabilme",
+   "beceri: SBAB1 Zamanı Algılama ve Kronolojik Düşünme",
+   "E2.4 Güven",
+   "SDB2.1 İletişim",
+   "D14 Saygı"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ali": "cocuk-erkek",
+  "dede": "dede",
+  "nine": "nine",
+  "nur": "ogretmen",
+  "aylin": "doktor",
+  "boncuk": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "ali": "Ali",
+  "dede": "Dede (Ali'nin dedesi)",
+  "nine": "Nazlı Nine (komşu)",
+  "nur": "Nur Öğretmen",
+  "aylin": "Doktor Aylin (komşu)",
+  "boncuk": "Boncuk (Ali'nin köpeği)"
+ },
+ "pages": [
+  {
+   "text": "Sabah oldu, güneş doğdu. Ali'nin gözleri hâlâ uykuluydu. Dedesi ve köpeği Boncuk'la sokağa çıktı. “Günaydın, Ali!” dedi Nazlı Nine. Ali'nin ağzından çıkıverdi: “İyi geceler!”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 372,
+      "y": 100,
+      "hit": "gunes",
+      "s": 0.9
+     },
+     {
+      "k": "dede",
+      "x": 70,
+      "y": 232,
+      "s": 1,
+      "mood": "surprised",
+      "pose": "walk",
+      "hit": "dede"
+     },
+     {
+      "k": "ali",
+      "x": 168,
+      "y": 235,
+      "s": 1,
+      "mood": "sleep",
+      "pose": "wave",
+      "hit": "ali"
+     },
+     {
+      "k": "kopek",
+      "x": 236,
+      "y": 237,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "boncuk"
+     },
+     {
+      "k": "nine",
+      "x": 322,
+      "y": 229,
+      "s": 1,
+      "mood": "surprised",
+      "pose": "hold",
+      "scarf": true,
+      "hold": "sulama-kabi",
+      "holdS": 0.6,
+      "holdO": {
+       "state": "off"
+      },
+      "flip": true,
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "potFlower",
+      "x": 372,
+      "y": 233,
+      "s": 0.7
+     }
+    ]
+   },
+   "hits": {
+    "gunes": {
+     "say": "Güneş yeni doğdu, alçakta. Günaydın zamanı!",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "İyi geceler Nazlı Nine!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "nine": {
+     "say": "Günaydın Ali! Günaydın Boncuk!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "dede": {
+     "say": "Günaydın Nazlı Hanım!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "boncuk": {
+     "say": "Hav! Sabah da hav, akşam da hav!",
+     "voice": "boncuk",
+     "anim": "jump",
+     "fx": "woof"
+    }
+   },
+   "hint": [
+    "gunes",
+    "Güneşe dokun!"
+   ],
+   "ask": "Ali neden karıştırdı? Sabah biriyle karşılaşınca ne deriz?"
+  },
+  {
+   "text": "“İyi geceler mi?” dedi Nine. “Ben daha yeni uyandım!” Ali utandı, yanakları ısındı. Dedesinin arkasına saklandı. Nine gülümsedi: “Günaydın, Boncuk! Günaydın, Ali!”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 192,
+      "y": 236,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "dede"
+     },
+     {
+      "k": "ali",
+      "x": 150,
+      "y": 226,
+      "s": 0.95,
+      "mood": "shy",
+      "pose": "hug",
+      "hit": "ali"
+     },
+     {
+      "k": "kopek",
+      "x": 262,
+      "y": 237,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "boncuk"
+     },
+     {
+      "k": "nine",
+      "x": 322,
+      "y": 229,
+      "s": 1,
+      "mood": "happy",
+      "pose": "hold",
+      "scarf": true,
+      "hold": "sulama-kabi",
+      "holdS": 0.6,
+      "holdO": {
+       "state": "off"
+      },
+      "flip": true,
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "potFlower",
+      "x": 372,
+      "y": 233,
+      "s": 0.7
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Karıştırdım… Yanaklarım ısındı.",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "nine": {
+     "say": "Olur öyle yavrum. Günaydın!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "dede": {
+     "say": "Utanmak olur, Ali'm. Ben buradayım.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "boncuk": {
+     "say": "Hav! Hav!",
+     "voice": "boncuk",
+     "anim": "jump",
+     "fx": "woof"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Ali neden saklandı? Sen utanınca ne yaparsın?"
+  },
+  {
+   "text": "Öğlen pazara gittiler. Birden Nur Öğretmen göründü! Ali'nin kalbi küt küt attı. Dede fısıldadı: “Gökyüzüne bak, selamı bul!”",
+   "scene": {
+    "set": "pazar",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 208,
+      "y": 24,
+      "hit": "gunes"
+     },
+     {
+      "k": "ogretmen",
+      "x": 318,
+      "y": 214,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "walk",
+      "flip": true,
+      "hit": "nur"
+     },
+     {
+      "k": "dede",
+      "x": 92,
+      "y": 232,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "dede"
+     },
+     {
+      "k": "ali",
+      "x": 176,
+      "y": 235,
+      "s": 1.05,
+      "mood": "scared",
+      "pose": "stand",
+      "hit": "ali"
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "gunes": {
+     "say": "Güneş tam tepede. İyi günler zamanı!",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "Ya yine karıştırırsam?",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "dede": {
+     "say": "Gökyüzüne bak, selamı bul!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "nur": {
+     "say": "Aa, pazarda kimleri görüyorum!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence Ali ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Gökyüzüne bakar",
+      "scene": {
+       "set": "pazar",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "gunes",
+         "x": 262,
+         "y": 26
+        },
+        {
+         "k": "ali",
+         "x": 186,
+         "y": 235,
+         "s": 1.15,
+         "mood": "surprised",
+         "pose": "point"
+        }
+       ],
+       "props": []
+      }
+     },
+     {
+      "l": "Dedesine sarılır",
+      "scene": {
+       "set": "pazar",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "dede",
+         "x": 168,
+         "y": 232,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "hug"
+        },
+        {
+         "k": "ali",
+         "x": 222,
+         "y": 235,
+         "s": 1.05,
+         "mood": "shy",
+         "pose": "hug",
+         "flip": true
+        }
+       ],
+       "props": []
+      }
+     }
+    ]
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Ali'nin kalbi neden küt küt attı? Dedesinin sırrı ne demek olabilir?",
+   "cues": [
+    {
+     "w": 9,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ali önce dedesine sarıldı. Sonra gökyüzüne baktı: Güneş tam tepede! Bir adım, iki adım, üç adım. Öğretmeninin gözlerine bakıp gülümsedi: “İyi günler, öğretmenim!”",
+   "scene": {
+    "set": "pazar",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 208,
+      "y": 24,
+      "hit": "gunes"
+     },
+     {
+      "k": "dede",
+      "x": 90,
+      "y": 232,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "dede"
+     },
+     {
+      "k": "ali",
+      "x": 140,
+      "y": 234,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "ali"
+     },
+     {
+      "k": "ogretmen",
+      "x": 312,
+      "y": 228,
+      "s": 1,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "basket",
+      "holdS": 0.5,
+      "flip": true,
+      "hit": "nur"
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "gunes": {
+     "say": "Güneş tam tepede. İyi günler zamanı!",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "nur": {
+     "say": "İyi günler Ali! Pazara mı geldin?",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "dede": {
+     "say": "Adım adım, işte böyle!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ali": {
+     "say": "İyi günler öğretmenim!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "ali",
+    "steps": 3,
+    "step": 34,
+    "say": "Adım!",
+    "done": "“İyi günler Ali!” dedi Nur Öğretmen.",
+    "msg": "Selam verdin!"
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun, yürüsün!"
+   ],
+   "ask": "Ali selam vermeden önce ne yaptı? Sen öğretmenini görünce ne dersin?"
+  },
+  {
+   "text": "Akşam oldu, güneş battı. Doktor Aylin işten dönüyordu. Bu kez Ali saklanmadı. Kocaman gülümsedi, selamı ilk o verdi: “İyi akşamlar!”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "doktor",
+      "x": 98,
+      "y": 230,
+      "s": 1,
+      "mood": "happy",
+      "pose": "hold",
+      "female": true,
+      "hold": "doktor-cantasi",
+      "holdS": 0.5,
+      "hit": "aylin"
+     },
+     {
+      "k": "ali",
+      "x": 212,
+      "y": 235,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "wave",
+      "flip": true,
+      "hit": "ali"
+     },
+     {
+      "k": "kopek",
+      "x": 274,
+      "y": 237,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "wave",
+      "flip": true,
+      "hit": "boncuk"
+     },
+     {
+      "k": "dede",
+      "x": 342,
+      "y": 229,
+      "s": 1,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true,
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "fener",
+      "x": 48,
+      "y": 234,
+      "s": 1.2,
+      "state": "on",
+      "kind": "metal",
+      "hit": "fener"
+     }
+    ]
+   },
+   "hits": {
+    "fener": {
+     "say": "Fenerler yandı. İyi akşamlar zamanı!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "aylin": {
+     "say": "İyi akşamlar Ali! Boncuk'a da iyi akşamlar!",
+     "voice": "aylin",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "İyi akşamlar Doktor Aylin!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "dede": {
+     "say": "Hoş geldin Aylin Hanım!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "boncuk": {
+     "say": "Hav hav! Akşam da hav!",
+     "voice": "boncuk",
+     "anim": "jump",
+     "fx": "woof"
+    }
+   },
+   "hint": [
+    "aylin",
+    "Doktor Aylin'e dokun!"
+   ],
+   "ask": "Akşam olduğunu nereden anladın? Akşam biriyle karşılaşınca ne deriz?"
+  },
+  {
+   "text": "Eve dönünce Dede sordu: “Bugün kime ne dedin?” Ali gözlerini kapadı. Doğan güneş, tepedeki güneş, batan güneş… Hepsini hatırladı! Sen de yardım et!",
+   "scene": {
+    "set": "cayir",
+    "time": "sunset",
+    "weather": "sun",
+    "trees": false,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 62,
+      "y": 134,
+      "hit": "sabah",
+      "s": 0.7
+     },
+     {
+      "k": "gunes",
+      "x": 208,
+      "y": 30,
+      "hit": "ogle",
+      "s": 1.1
+     },
+     {
+      "k": "ali",
+      "x": 38,
+      "y": 236,
+      "s": 0.85,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "ali"
+     },
+     {
+      "k": "ogretmen",
+      "x": 138,
+      "y": 230,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "nur"
+     },
+     {
+      "k": "doktor",
+      "x": 214,
+      "y": 232,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "hold",
+      "female": true,
+      "hold": "doktor-cantasi",
+      "holdS": 0.5,
+      "hit": "aylin"
+     },
+     {
+      "k": "nine",
+      "x": 302,
+      "y": 230,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "wave",
+      "scarf": true,
+      "flip": true,
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "fener",
+      "x": 368,
+      "y": 234,
+      "s": 1.2,
+      "state": "on",
+      "kind": "metal",
+      "hit": "aksam"
+     }
+    ]
+   },
+   "hits": {
+    "sabah": {
+     "say": "Güneş doğuyor: Günaydın!",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "ogle": {
+     "say": "Güneş tam tepede: İyi günler!",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "aksam": {
+     "say": "Fenerler yandı: İyi akşamlar!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "nine": {
+     "say": "Günaydın Ali!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "nur": {
+     "say": "İyi günler Ali!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "aylin": {
+     "say": "İyi akşamlar Ali!",
+     "voice": "aylin",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ali": {
+     "say": "Sabah, öğle, akşam… Hatırlıyorum!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "sabah",
+      "nine"
+     ],
+     [
+      "ogle",
+      "nur"
+     ],
+     [
+      "aksam",
+      "aylin"
+     ]
+    ],
+    "done": "Her saate bir selam!",
+    "msg": "Selamları buldun!"
+   },
+   "hint": [
+    "sabah",
+    "Önce gökyüzüne dokun!"
+   ],
+   "ask": "Sabah kime ne dedi? Öğlen? Akşam? Sen bugün kime selam verdin?"
+  },
+  {
+   "text": "Gece oldu, ay çıktı. Ali yıldızları saydı: bir, iki, üç. “İyi geceler, yıldızlar! İyi geceler, Dede!” Uykulu uykulu mırıldandı: “Yarın… Günaydın, Nazlı Nine!”",
+   "scene": {
+    "set": "oda-gece",
+    "cast": [
+     {
+      "k": "ay",
+      "x": 146,
+      "y": 116,
+      "s": 0.8,
+      "hit": "ay"
+     },
+     {
+      "k": "dede",
+      "x": 232,
+      "y": 232,
+      "s": 1,
+      "mood": "happy",
+      "pose": "hug",
+      "hit": "dede"
+     },
+     {
+      "k": "ali",
+      "x": 305,
+      "y": 192,
+      "z": 300,
+      "s": 0.85,
+      "mood": "calm",
+      "pose": "lie",
+      "flip": true,
+      "hit": "ali"
+     },
+     {
+      "k": "kopek",
+      "x": 100,
+      "y": 232,
+      "s": 0.8,
+      "mood": "sleep",
+      "pose": "lie",
+      "hit": "boncuk"
+     }
+    ],
+    "props": [
+     {
+      "k": "bed",
+      "x": 305,
+      "y": 222,
+      "s": 0.9
+     },
+     {
+      "k": "star",
+      "x": 52,
+      "y": 48,
+      "r": 6,
+      "s": 2.2,
+      "hit": "y1"
+     },
+     {
+      "k": "star",
+      "x": 124,
+      "y": 40,
+      "r": 6,
+      "s": 2.2,
+      "hit": "y2"
+     },
+     {
+      "k": "star",
+      "x": 158,
+      "y": 68,
+      "r": 6,
+      "s": 2.2,
+      "hit": "y3"
+     }
+    ],
+    "moon": false
+   },
+   "hits": {
+    "ay": {
+     "say": "Ay çıktı. İyi geceler zamanı!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "lullaby"
+    },
+    "dede": {
+     "say": "İyi geceler Ali'm. Tatlı rüyalar.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "lullaby"
+    },
+    "ali": {
+     "say": "Yarın… Günaydın Nazlı Nine!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "boncuk": {
+     "say": "Haav… hav.",
+     "voice": "boncuk",
+     "anim": "wiggle",
+     "fx": "lullaby"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "y1",
+     "y2",
+     "y3"
+    ],
+    "done": "Bir, iki, üç… İyi geceler yıldızlar!",
+    "msg": "Hepsine iyi geceler!"
+   },
+   "hint": [
+    "y1",
+    "Yıldızları say!"
+   ],
+   "ask": "Sen uyumadan önce kime iyi geceler dersin? Yarın sabah ilk kime günaydın diyeceksin?"
+  }
+ ],
+ "order": [
+  0,
+  3,
+  6
+ ],
+ "guide": {
+  "kazanim": [
+   "TAKB.1 Konuşma sürecini yönetebilme: Konuşmaya uygun selamlama ifadeleriyle başlar ve bitirir; göz teması kurar. Ali öğretmeninin gözlerine bakarak “İyi günler!” der, günü “İyi geceler!” diyerek kapatır.",
+   "SAB.1 Günlük hayatta zaman kavramını yerinde kullanabilme (SAB.1.a Sabah, öğle, akşam ve gece yapılanları anlatır): Sabah köpek gezdirme, öğlen pazar, akşam eve dönüş, gece uyku; gökyüzü ipuçlarıyla (sabah alçaktaki güneş, öğlen tepedeki güneş, akşam yanan fenerler, gece ay) zamana uygun selamı seçer. Programdaki örnek uygulamayla örtüşür: gece-gündüz görselleri incelenir ve zamana uygun selamlaşma yapılır.",
+   "beceri: SBAB1 Zamanı Algılama ve Kronolojik Düşünme: Günün bölümlerini önce-sonra sırasına koyar (masal sonu sıralama oyunu: sabah, öğle, gece).",
+   "E2.4 Güven: Utandığı bir anın ardından adım adım cesaretlenir; akşam selamı ilk veren kendisi olur.",
+   "SDB2.1 İletişim ve D14 Saygı: Komşularını, öğretmenini ve ailesini uygun sözlerle selamlayarak saygı ve yakınlık gösterir."
+  ],
+  "once": [
+   "Başlığı okuyun: “Günaydın, İyi Geceler.” Sorun: “Bu iki sözü aynı anda söyler miyiz? Hangisini ne zaman söyleriz?”",
+   "Pencereden ya da bir resimden gökyüzüne bakın: “Şimdi sabah mı, öğle mi, akşam mı, gece mi? Nereden anladın?”",
+   "“Sabah uyanınca ne deriz? Yatarken ne deriz?” diye sorun; cevapları düzeltmeden dinleyin."
+  ],
+  "sirasi": [
+   "1. sayfanın sonunda, Ali “İyi geceler!” deyince durun. Çocukların tepkisini bekleyin, gülmelerine izin verin: “Sabah böyle mi deriz?”",
+   "2. sayfada Ali'nin duygusunu adlandırın: “Ali utandı, yanakları ısındı. Sen utanınca bedeninde ne olur?” Nine'nin ve Dedenin nazik sözlerine dokunun.",
+   "3. sayfada tahmin sorusunda iki seçeneğin de iyi fikir olduğunu söyleyin. Dedenin sırrını birlikte tekrar edin: “Gökyüzüne bak, selamı bul!”",
+   "1. ve 3. sayfadaki güneşi karşılaştırın: Sabah güneş alçakta, öğlen tam tepede.",
+   "4. sayfada Ali'nin adımlarını birlikte sayın. Selamdan önce “gözlerine bak, gülümse” hareketini çocukla karşılıklı yapın.",
+   "6. sayfada çocuk her gökyüzü ipucunu doğru kişiyle eşleştirsin; her eşte selamı birlikte yüksek sesle söyleyin.",
+   "Son sayfada yıldızları parmakla tek tek sayın ve fısıltıyla “iyi geceler” deyin.",
+   "Son sayfada ‘İyi geceler’in yatarken ve ayrılırken söylendiğini, gün içinde her saatte ‘Merhaba’ da diyebileceğimizi söyleyin.",
+   "Çekingen çocukları selam vermeye zorlamayın. El sallamak, gülümsemek ve göz göze gelmek de selamdır; cesaret adım adım gelir."
+  ],
+  "sonra": [
+   "Ali sabah Nazlı Nine'ye ne dedi? Sonra neden utandı?",
+   "Dedenin sırrı neydi? Güneş alçaktayken, tam tepedeyken, fenerler yanınca ve ay çıkınca ne deriz?",
+   "Ali akşam neden selamı ilk veren oldu? Ona ne yardım etti?"
+  ],
+  "sinif": {
+   "ad": "Gökyüzüne Bak, Selamı Bul",
+   "sure": "15 dk",
+   "materyal": "Dört büyük gökyüzü kartı (doğan güneş, tepedeki güneş, batan güneş ve yanan fener, ay ve yıldızlar); günün dört anını gösteren etkinlik resimleri (uyanma, öğle yemeği, eve dönüş, yatma); ip ve mandallar",
+   "adim": [
+    "Gökyüzü kartlarını çemberin ortasına koyun ve tekerlemeyi öğretin: “Güneş doğdu: Günaydın! Güneş tepede: İyi günler! Güneş battı: İyi akşamlar! Ay çıktı: İyi geceler!”",
+    "Bir kart kaldırın. Çocuklar yanındaki arkadaşının gözlerine bakıp gülümseyerek o saatin selamını söylesin; arkadaşı aynı selamla karşılık versin.",
+    "Etkinlik resimlerini karıştırın. Çocuklar önce-sonra sırasına göre ipe assın ve her resim için doğru selamı söylesin.",
+    "Değerlendirme çemberinde sorun: “Bugün kime hangi selamı verdin? Utandığında ne yapabilirsin?” Çekingen çocuklara el sallama seçeneği sunun."
+   ]
+  },
+  "evSoru": [
+   "Bu sabah evde ilk kime günaydın dedin?",
+   "Gökyüzüne bakınca hangi selamı vereceğimizi nasıl anlarız?",
+   "Ali utanınca ne yaptı? Sen utanınca ne yaparsın?"
+  ],
+  "evEtk": {
+   "ad": "Pencereden selam",
+   "d": "Bir gün boyunca dört kez (sabah, öğle, akşam, gece) çocuğunuzla pencereden gökyüzüne bakın. Güneşin ya da ayın nerede olduğunu konuşun, sonra evdekilere o saatin selamını verin. Gece yatmadan önce pencereden aya, yıldızlara ve evdekilere birlikte “İyi geceler” deyin."
+  },
+  "aileNotu": "Bugün “Günaydın, İyi Geceler” masalını okuduk. Ali sabah uykulu uykulu komşusuna “İyi geceler!” der ve utanır; dedesinin “Gökyüzüne bak, selamı bul!” sırrıyla gün boyunca doğru selamı bulur ve cesaretlenir. Masal zamana uygun selamlaşmayı, göz teması kurmayı ve sabah-öğle-akşam-gece kavramlarını destekliyor. Evde çocuğunuzu selam vermeye zorlamak yerine siz örnek olun; el sallamak ve gülümsemek de güzel bir başlangıçtır. “Merhaba” günün her saatinde söylenebilir; “İyi geceler” ise çoğunlukla gece vedalaşırken ya da yatarken söylenir."
+ },
+ "audio": {
+  "file": "audio/025-gunaydin-iyi-geceler.mp3",
+  "hash": "990ac0a3",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14747,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      2910,
+      5
+     ],
+     [
+      3449,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4890,
+      8
+     ],
+     [
+      5350,
+      9
+     ],
+     [
+      5529,
+      10
+     ],
+     [
+      6009,
+      11
+     ],
+     [
+      6629,
+      12
+     ],
+     [
+      7129,
+      13
+     ],
+     [
+      8009,
+      14
+     ],
+     [
+      9029,
+      15
+     ],
+     [
+      9669,
+      16
+     ],
+     [
+      9989,
+      17
+     ],
+     [
+      10430,
+      18
+     ],
+     [
+      11209,
+      19
+     ],
+     [
+      11749,
+      20
+     ],
+     [
+      12409,
+      21
+     ],
+     [
+      13689,
+      22
+     ],
+     [
+      13930,
+      23
+     ]
+    ]
+   },
+   "p0h-gunes": {
+    "s": 15047,
+    "d": 3473,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2829,
+      5
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 18821,
+    "d": 1568,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      376,
+      1
+     ],
+     [
+      855,
+      2
+     ],
+     [
+      1191,
+      3
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 20690,
+    "d": 2245,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      597,
+      1
+     ],
+     [
+      1255,
+      2
+     ],
+     [
+      1813,
+      3
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 23236,
+    "d": 1404,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      590,
+      1
+     ],
+     [
+      977,
+      2
+     ]
+    ]
+   },
+   "p0h-boncuk": {
+    "s": 24941,
+    "d": 2386,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      531,
+      1
+     ],
+     [
+      922,
+      2
+     ],
+     [
+      1147,
+      3
+     ],
+     [
+      1505,
+      4
+     ],
+     [
+      1896,
+      5
+     ],
+     [
+      2121,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 27627,
+    "d": 14611,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      3049,
+      7
+     ],
+     [
+      3329,
+      8
+     ],
+     [
+      4569,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      5709,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      7229,
+      13
+     ],
+     [
+      7910,
+      14
+     ],
+     [
+      8509,
+      15
+     ],
+     [
+      9589,
+      16
+     ],
+     [
+      9909,
+      17
+     ],
+     [
+      11109,
+      18
+     ],
+     [
+      12149,
+      19
+     ],
+     [
+      13089,
+      20
+     ],
+     [
+      14169,
+      21
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 42539,
+    "d": 3130,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1329,
+      1
+     ],
+     [
+      2269,
+      2
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 45969,
+    "d": 1989,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 48259,
+    "d": 2120,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1449,
+      4
+     ]
+    ]
+   },
+   "p1h-boncuk": {
+    "s": 50680,
+    "d": 700,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      465,
+      1
+     ]
+    ]
+   },
+   "p2": {
+    "s": 51680,
+    "d": 9748,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      3089,
+      6
+     ],
+     [
+      4009,
+      7
+     ],
+     [
+      4449,
+      8
+     ],
+     [
+      4890,
+      9
+     ],
+     [
+      5149,
+      10
+     ],
+     [
+      5449,
+      11
+     ],
+     [
+      6189,
+      12
+     ],
+     [
+      6509,
+      13
+     ],
+     [
+      7589,
+      14
+     ],
+     [
+      8289,
+      15
+     ],
+     [
+      8869,
+      16
+     ],
+     [
+      9469,
+      17
+     ]
+    ]
+   },
+   "p2h-gunes": {
+    "s": 61728,
+    "d": 3548,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      2170,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2869,
+      5
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 65576,
+    "d": 1783,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      550,
+      2
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 67660,
+    "d": 1572,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p2h-nur": {
+    "s": 69532,
+    "d": 1628,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1069,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 71461,
+    "d": 1423,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      869,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 73185,
+    "d": 2419,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 75904,
+    "d": 13089,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      2609,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4430,
+      8
+     ],
+     [
+      4729,
+      9
+     ],
+     [
+      5569,
+      10
+     ],
+     [
+      5809,
+      11
+     ],
+     [
+      6410,
+      12
+     ],
+     [
+      6729,
+      13
+     ],
+     [
+      7370,
+      14
+     ],
+     [
+      7609,
+      15
+     ],
+     [
+      8270,
+      16
+     ],
+     [
+      9069,
+      17
+     ],
+     [
+      9669,
+      18
+     ],
+     [
+      10049,
+      19
+     ],
+     [
+      11230,
+      20
+     ],
+     [
+      11489,
+      21
+     ],
+     [
+      12270,
+      22
+     ]
+    ]
+   },
+   "p3h-gunes": {
+    "s": 89294,
+    "d": 3284,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2569,
+      5
+     ]
+    ]
+   },
+   "p3h-nur": {
+    "s": 92878,
+    "d": 1782,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1290,
+      5
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 94961,
+    "d": 1505,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 96766,
+    "d": 1533,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      709,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 98600,
+    "d": 2466,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 101366,
+    "d": 547,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4": {
+    "s": 102214,
+    "d": 11276,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3749,
+      7
+     ],
+     [
+      4810,
+      8
+     ],
+     [
+      4969,
+      9
+     ],
+     [
+      5249,
+      10
+     ],
+     [
+      5509,
+      11
+     ],
+     [
+      6689,
+      12
+     ],
+     [
+      7269,
+      13
+     ],
+     [
+      8310,
+      14
+     ],
+     [
+      8869,
+      15
+     ],
+     [
+      9109,
+      16
+     ],
+     [
+      9230,
+      17
+     ],
+     [
+      10109,
+      18
+     ],
+     [
+      10409,
+      19
+     ]
+    ]
+   },
+   "p4h-fener": {
+    "s": 113791,
+    "d": 3229,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2549,
+      4
+     ]
+    ]
+   },
+   "p4h-aylin": {
+    "s": 117321,
+    "d": 3207,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2170,
+      6
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 120829,
+    "d": 1848,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 122977,
+    "d": 1464,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p4h-boncuk": {
+    "s": 124741,
+    "d": 1606,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      260,
+      1
+     ],
+     [
+      741,
+      2
+     ],
+     [
+      1125,
+      3
+     ],
+     [
+      1345,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 126648,
+    "d": 12029,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      2910,
+      7
+     ],
+     [
+      3749,
+      8
+     ],
+     [
+      3969,
+      9
+     ],
+     [
+      4589,
+      10
+     ],
+     [
+      5430,
+      11
+     ],
+     [
+      5890,
+      12
+     ],
+     [
+      6589,
+      13
+     ],
+     [
+      7209,
+      14
+     ],
+     [
+      7969,
+      15
+     ],
+     [
+      8469,
+      16
+     ],
+     [
+      9289,
+      17
+     ],
+     [
+      9810,
+      18
+     ],
+     [
+      10770,
+      19
+     ],
+     [
+      11089,
+      20
+     ],
+     [
+      11249,
+      21
+     ],
+     [
+      11749,
+      22
+     ]
+    ]
+   },
+   "p5h-sabah": {
+    "s": 138978,
+    "d": 2158,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1389,
+      2
+     ]
+    ]
+   },
+   "p5h-ogle": {
+    "s": 141437,
+    "d": 2500,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1790,
+      4
+     ]
+    ]
+   },
+   "p5h-aksam": {
+    "s": 144238,
+    "d": 2611,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      1790,
+      3
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 147149,
+    "d": 920,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 148370,
+    "d": 1109,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      629,
+      2
+     ]
+    ]
+   },
+   "p5h-aylin": {
+    "s": 149780,
+    "d": 1392,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      423,
+      1
+     ],
+     [
+      968,
+      2
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 151473,
+    "d": 3350,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      2110,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 155123,
+    "d": 1684,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      297,
+      1
+     ],
+     [
+      937,
+      2
+     ],
+     [
+      1195,
+      3
+     ]
+    ]
+   },
+   "p6": {
+    "s": 157107,
+    "d": 15980,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      3069,
+      6
+     ],
+     [
+      3910,
+      7
+     ],
+     [
+      4569,
+      8
+     ],
+     [
+      5390,
+      9
+     ],
+     [
+      6169,
+      10
+     ],
+     [
+      6370,
+      11
+     ],
+     [
+      7289,
+      12
+     ],
+     [
+      8430,
+      13
+     ],
+     [
+      8690,
+      14
+     ],
+     [
+      9549,
+      15
+     ],
+     [
+      10289,
+      16
+     ],
+     [
+      10829,
+      17
+     ],
+     [
+      11270,
+      18
+     ],
+     [
+      12489,
+      19
+     ],
+     [
+      13329,
+      20
+     ],
+     [
+      14469,
+      21
+     ],
+     [
+      15449,
+      22
+     ]
+    ]
+   },
+   "p6h-ay": {
+    "s": 173387,
+    "d": 2488,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1869,
+      4
+     ]
+    ]
+   },
+   "p6h-dede": {
+    "s": 176176,
+    "d": 2072,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1329,
+      4
+     ]
+    ]
+   },
+   "p6h-ali": {
+    "s": 178549,
+    "d": 2689,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      898,
+      1
+     ],
+     [
+      1627,
+      2
+     ],
+     [
+      2138,
+      3
+     ]
+    ]
+   },
+   "p6h-boncuk": {
+    "s": 181539,
+    "d": 1064,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      773,
+      1
+     ]
+    ]
+   },
+   "p6m": {
+    "s": 182903,
+    "d": 3897,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      2189,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      3049,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

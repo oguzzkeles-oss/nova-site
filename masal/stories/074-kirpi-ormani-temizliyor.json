@@ -1,0 +1,1783 @@
+{
+ "id": "074-kirpi-ormani-temizliyor",
+ "n": 74,
+ "title": "Kirpi Ormanı Temizliyor",
+ "age": "36-48",
+ "area": "Fen",
+ "theme": "Çevreyi temiz tutma",
+ "values": [
+  "D18 Temizlik",
+  "D16 Sorumluluk"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 4,
+ "blurb": "Kirpi Diken'in burnu, piknikten kalan bir tenekeye çarpar: tonk! Diken, Püskül ve Tarçın beş çöpü tek tek sayar, birlikte sarı kutuya taşır ve orman yeniden mis gibi olur.",
+ "codes": {
+  "maarif": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme",
+   "MAB.1 Ritmik ve algısal sayabilme",
+   "OB8 Sürdürülebilirlik Okuryazarlığı",
+   "SDB2.2 İş Birliği",
+   "D18 Temizlik",
+   "D16 Sorumluluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "diken": "kucuk-hayvan",
+  "puskul": "hayvan-kiz",
+  "tarcin": "hayvan-erkek"
+ },
+ "voiceNames": {
+  "diken": "Diken (kirpi)",
+  "puskul": "Püskül (sincap)",
+  "tarcin": "Tarçın (tilki)"
+ },
+ "pages": [
+  {
+   "text": "Akşamüstü oldu. Kirpi Diken yürüyüşe çıktı. Tıpış tıpış, tıpış tıpış! Birden burnu bir şeye çarptı. Tonk! “Aaa, bu ne?”",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 60,
+      "y": 48,
+      "s": 1,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "gunes"
+     },
+     {
+      "k": "kirpi",
+      "x": 112,
+      "y": 228,
+      "s": 2.0,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "diken"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 318,
+      "y": 196,
+      "s": 1.9
+     },
+     {
+      "k": "cali",
+      "x": 40,
+      "y": 204,
+      "s": 1.3
+     },
+     {
+      "k": "poset",
+      "x": 204,
+      "y": 234,
+      "s": 1.2,
+      "hit": "p1"
+     },
+     {
+      "k": "flower",
+      "x": 370,
+      "y": 232,
+      "s": 0.7
+     },
+     {
+      "k": "cop-sise",
+      "x": 250,
+      "y": 236,
+      "s": 1.8,
+      "hit": "s1",
+      "type": "plastik"
+     },
+     {
+      "k": "cop-kutu",
+      "x": 170,
+      "y": 226,
+      "s": 2.0,
+      "hit": "t1",
+      "color": "#E4574F"
+     },
+     {
+      "k": "cop-sise",
+      "x": 320,
+      "y": 236,
+      "s": 1.8,
+      "hit": "s2",
+      "type": "plastik"
+     }
+    ]
+   },
+   "hits": {
+    "diken": {
+     "say": "Aaa, bu ne?",
+     "voice": "diken",
+     "anim": "jump",
+     "fx": "kirpi"
+    },
+    "s": {
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "t": {
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "p": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "diken",
+    "Diken'e dokun!"
+   ],
+   "ask": "Diken'in burnu neye çarptı sence? Ormanda teneke ne arıyor?"
+  },
+  {
+   "text": "Diken dikkatle baktı. “Yolda şişeler, çalının dibinde tenekeler!” Dün burada piknik vardı. Çöpler yerde kalmıştı. Hadi, sen de say!",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kirpi",
+      "x": 200,
+      "y": 232,
+      "s": 1.6,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "diken",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 44,
+      "y": 192,
+      "s": 1.2
+     },
+     {
+      "k": "cali",
+      "x": 318,
+      "y": 202,
+      "s": 1.5
+     },
+     {
+      "k": "cop-sise",
+      "x": 64,
+      "y": 234,
+      "s": 1.8,
+      "hit": "s1",
+      "type": "plastik"
+     },
+     {
+      "k": "cop-sise",
+      "x": 112,
+      "y": 214,
+      "s": 1.8,
+      "hit": "s2",
+      "type": "plastik"
+     },
+     {
+      "k": "poset",
+      "x": 136,
+      "y": 236,
+      "s": 1.6,
+      "hit": "p1"
+     },
+     {
+      "k": "cop-kutu",
+      "x": 282,
+      "y": 226,
+      "s": 2.0,
+      "hit": "t1",
+      "color": "#3E9BE0"
+     },
+     {
+      "k": "cop-kutu",
+      "x": 352,
+      "y": 228,
+      "s": 2.0,
+      "hit": "t2",
+      "color": "#E4574F"
+     }
+    ]
+   },
+   "hits": {
+    "diken": {
+     "say": "Hmm, ne çok çöp var!",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "sniff"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "s1",
+     "s2",
+     "p1",
+     "t1",
+     "t2"
+    ],
+    "done": "Bir, iki, üç, dört, beş! Beş çöp!",
+    "msg": "Beş çöp!"
+   },
+   "hint": [
+    "s1",
+    "Çöpleri tek tek say!"
+   ],
+   "ask": "Çöpleri nerede görüyorsun? Kaç tane saydın?"
+  },
+  {
+   "text": "Sincap Püskül ile tilki Tarçın geldi. “Yolumuz çöp dolu!” dedi Püskül. Diken üzüldü, dikenleri indi. Derin bir nefes aldı. “Bana yardım eder misiniz?”",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kirpi",
+      "x": 104,
+      "y": 230,
+      "s": 1.9,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "diken"
+     },
+     {
+      "k": "sincap",
+      "x": 232,
+      "y": 226,
+      "s": 1.35,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "puskul",
+      "flip": true
+     },
+     {
+      "k": "tilki",
+      "x": 332,
+      "y": 212,
+      "s": 1.05,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "tarcin",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 30,
+      "y": 206,
+      "s": 1.1
+     },
+     {
+      "k": "cop-sise",
+      "x": 172,
+      "y": 234,
+      "s": 1.8,
+      "hit": "s1",
+      "type": "plastik"
+     },
+     {
+      "k": "cop-kutu",
+      "x": 178,
+      "y": 204,
+      "s": 2.0,
+      "hit": "t1",
+      "color": "#E4574F"
+     },
+     {
+      "k": "poset",
+      "x": 34,
+      "y": 236,
+      "s": 1.2,
+      "hit": "p1"
+     }
+    ]
+   },
+   "hits": {
+    "diken": {
+     "say": "Bana yardım eder misiniz?",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "kirpi"
+    },
+    "puskul": {
+     "say": "Yolumuz çöp dolu!",
+     "voice": "puskul",
+     "anim": "jump",
+     "fx": "sincap"
+    },
+    "tarcin": {
+     "say": "Patim tenekeye takılır!",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "tilki"
+    },
+    "s": {
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "t": {
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "p": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    }
+   },
+   "predict": {
+    "q": "Sence üç arkadaş ne yapacak?",
+    "res": "Güzel tahmin! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Çöpleri toplarlar",
+      "scene": {
+       "set": "orman",
+       "time": "day",
+       "season": "summer",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "kirpi",
+         "x": 96,
+         "y": 230,
+         "s": 1.8,
+         "mood": "happy",
+         "pose": "walk"
+        },
+        {
+         "k": "sincap",
+         "x": 196,
+         "y": 222,
+         "s": 1.3,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "cop-sise",
+         "holdS": 1.0
+        },
+        {
+         "k": "tilki",
+         "x": 300,
+         "y": 214,
+         "s": 1.15,
+         "mood": "laugh",
+         "pose": "hold",
+         "flip": true,
+         "hold": "cop-kutu",
+         "holdS": 1.2
+        }
+       ],
+       "props": [
+        {
+         "k": "cop-sise",
+         "x": 146,
+         "y": 236,
+         "s": 1.8,
+         "type": "plastik"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Çöp kutusu ararlar",
+      "scene": {
+       "set": "orman",
+       "time": "day",
+       "season": "summer",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "kirpi",
+         "x": 80,
+         "y": 230,
+         "s": 1.8,
+         "mood": "think",
+         "pose": "stand"
+        },
+        {
+         "k": "sincap",
+         "x": 160,
+         "y": 220,
+         "s": 1.3,
+         "mood": "think",
+         "pose": "wave"
+        },
+        {
+         "k": "tilki",
+         "x": 252,
+         "y": 212,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "stand"
+        }
+       ],
+       "props": [
+        {
+         "k": "geri-donusum",
+         "x": 340,
+         "y": 214,
+         "s": 1.2,
+         "type": "plastik"
+        },
+        {
+         "k": "qmark",
+         "x": 340,
+         "y": 120,
+         "s": 1
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "diken",
+    "Diken'e dokun!"
+   ],
+   "ask": "Diken üzülünce ne yaptı? Sen üzülünce kimden yardım istersin?"
+  },
+  {
+   "text": "Yolun ucunda sarı bir çöp kutusu vardı. Püskül şişeleri itti. Tarçın tenekeleri taşıdı. Diken de bir şişeyi burnuyla yuvarladı: tıp tıp! Tangır tungur!",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kirpi",
+      "x": 66,
+      "y": 232,
+      "s": 1.6,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "diken"
+     },
+     {
+      "k": "sincap",
+      "x": 150,
+      "y": 210,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "puskul"
+     },
+     {
+      "k": "tilki",
+      "x": 288,
+      "y": 190,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "geri-donusum",
+      "x": 346,
+      "y": 228,
+      "s": 1.5,
+      "hit": "kutu",
+      "type": "plastik"
+     },
+     {
+      "k": "cop-sise",
+      "x": 126,
+      "y": 236,
+      "s": 1.8,
+      "hit": "s1",
+      "type": "plastik"
+     },
+     {
+      "k": "cop-kutu",
+      "x": 196,
+      "y": 222,
+      "s": 2.0,
+      "hit": "t1",
+      "color": "#3E9BE0"
+     },
+     {
+      "k": "cop-sise",
+      "x": 214,
+      "y": 236,
+      "s": 1.8,
+      "hit": "s2",
+      "type": "plastik"
+     },
+     {
+      "k": "cop-kutu",
+      "x": 252,
+      "y": 226,
+      "s": 2.0,
+      "hit": "t2",
+      "color": "#E4574F"
+     },
+     {
+      "k": "poset",
+      "x": 300,
+      "y": 234,
+      "s": 1.5,
+      "hit": "p1"
+     }
+    ]
+   },
+   "hits": {
+    "diken": {
+     "say": "Tıp tıp, yuvarla!",
+     "voice": "diken",
+     "anim": "jump",
+     "fx": "kirpi"
+    },
+    "puskul": {
+     "say": "Hadi, hep birlikte!",
+     "voice": "puskul",
+     "anim": "jump",
+     "fx": "sincap"
+    },
+    "tarcin": {
+     "say": "Ben de taşırım!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "tilki"
+    },
+    "kutu": {
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "s1",
+     "s2",
+     "t1",
+     "p1",
+     "t2"
+    ],
+    "to": [
+     346,
+     168
+    ],
+    "done": "Beşi de kutuda! Tangır tungur!",
+    "msg": "Hepsi kutuda!"
+   },
+   "hint": [
+    "s1",
+    "Çöpleri kutuya at!"
+   ],
+   "ask": "Üç arkadaş işi nasıl paylaştı? Sen olsan hangisini taşırdın?"
+  },
+  {
+   "text": "Yol açıldı! Diken yürüdü. Adım, adım, bir adım daha. Tıpış tıpış! Bir serçe şakıdı: cik cik! Artık kimsenin patisi takılmazdı.",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kirpi",
+      "x": 64,
+      "y": 208,
+      "s": 1.3,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "diken"
+     },
+     {
+      "k": "sincap",
+      "x": 330,
+      "y": 224,
+      "s": 1.3,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "puskul",
+      "flip": true
+     },
+     {
+      "k": "kus",
+      "x": 210,
+      "y": 96,
+      "s": 1.4,
+      "mood": "happy",
+      "pose": "fly",
+      "hit": "kus"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 370,
+      "y": 194,
+      "s": 1.4
+     },
+     {
+      "k": "cali",
+      "x": 284,
+      "y": 196,
+      "s": 1.0,
+      "flowers": true
+     },
+     {
+      "k": "geri-donusum",
+      "x": 226,
+      "y": 188,
+      "s": 0.7,
+      "type": "plastik"
+     }
+    ]
+   },
+   "hits": {
+    "diken": {
+     "say": "Adım, adım!",
+     "voice": "diken",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "puskul": {
+     "say": "Yaşasın, yol açıldı!",
+     "voice": "puskul",
+     "anim": "jump",
+     "fx": "sincap"
+    },
+    "kus": {
+     "anim": "boing",
+     "fx": "tweet"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "diken",
+    "steps": 3,
+    "step": 34,
+    "say": "Tıpış tıpış!",
+    "done": "Diken yolun sonuna vardı!",
+    "msg": "Yol açık!"
+   },
+   "hint": [
+    "diken",
+    "Diken'i yürüt!"
+   ],
+   "ask": "Yol temizlenince Diken nasıl hissetti? Hayvanlar için çöp neden tehlikeli olabilir?"
+  },
+  {
+   "text": "Üç arkadaş çimenlere oturdu. Kelebekler uçtu. Diken gururlandı, dikenleri parladı. “Oh, orman mis gibi!” dedi. Püskül güldü: “Birlikte ne güzel temizledik!”",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "sincap",
+      "x": 112,
+      "y": 224,
+      "s": 1.35,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "puskul"
+     },
+     {
+      "k": "kirpi",
+      "x": 206,
+      "y": 232,
+      "s": 2.0,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "diken"
+     },
+     {
+      "k": "tilki",
+      "x": 298,
+      "y": 218,
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "tarcin",
+      "flip": true
+     },
+     {
+      "k": "kelebek",
+      "x": 150,
+      "y": 120,
+      "s": 1.3,
+      "hit": "k1"
+     },
+     {
+      "k": "kelebek",
+      "x": 300,
+      "y": 96,
+      "s": 1.1,
+      "hit": "k2"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 28,
+      "y": 238,
+      "s": 0.7,
+      "hit": "f1"
+     },
+     {
+      "k": "flower",
+      "x": 374,
+      "y": 238,
+      "s": 0.7,
+      "hit": "f2"
+     },
+     {
+      "k": "tree",
+      "x": 250,
+      "y": 190,
+      "s": 1.3
+     }
+    ]
+   },
+   "hits": {
+    "diken": {
+     "say": "Oh, orman mis gibi!",
+     "voice": "diken",
+     "anim": "jump",
+     "fx": "kirpi"
+    },
+    "puskul": {
+     "say": "Birlikte ne güzel temizledik!",
+     "voice": "puskul",
+     "anim": "wiggle",
+     "fx": "sincap"
+    },
+    "tarcin": {
+     "say": "Çöpler çöp kutusuna!",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "tilki"
+    },
+    "f": {
+     "fn": "dance",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "k": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "diken",
+    "Diken'e dokun!"
+   ],
+   "ask": "Sen hiç bir yeri birlikte temizledin mi? Temizlik bitince nasıl hissettin?"
+  }
+ ],
+ "order": [
+  0,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 · Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme: Diken gibi ormana “dikkatle bakar”, doğada olmaması gereken şişe ve tenekeleri fark edip nerede olduklarını söyler (“Yolda şişeler, çalının dibinde tenekeler!”).",
+   "MAB.1 · Ritmik ve algısal sayabilme (36-48 ay: 1-5): çöpleri tek tek dokunarak “bir, iki, üç, dört, beş” diye sayar ve son sayının miktarı gösterdiğini söyler (“Beş çöp!”).",
+   "OB8 Sürdürülebilirlik Okuryazarlığı: çöpün doğaya ve hayvanlara zarar verdiğini, çöpün yerinin çöp kutusu olduğunu fark eder; ormanı, parkı ve sınıfı temiz tutmaya katılır.",
+   "SDB2.2 İş Birliği: üç arkadaş gibi ortak bir işi paylaşır (biri iter, biri taşır, biri yuvarlar) ve görevi birlikte tamamlar; gerektiğinde “Bana yardım eder misiniz?” diye yardım ister.",
+   "D18 Temizlik · D16 Sorumluluk: yaşadığı çevreyi temiz tutmayı kendi işi olarak görür."
+  ],
+  "once": [
+   "Kapaktaki ormanı birlikte inceleyin: “Burada neler var? Ormanda neler olmamalı?”",
+   "Temiz, boş bir plastik şişe gösterin: “Bu şişe ormanda kalsa ne olur?” Cevapları not edin, masaldan sonra yeniden bakın.",
+   "Kirpi ve sincabın nerede yaşadığını kısaca konuşun: “Orman onların evi.”"
+  ],
+  "sirasi": [
+   "Yansıma sözcükleri (tıpış tıpış, tonk, tangır tungur, cik cik) çocukla birlikte söyleyin, tempoyu elle tutun.",
+   "Sayma oyununda çocuğun her çöpe TEK dokunuş yapmasına ve her dokunuşta bir sayı söylemesine eşlik edin. Son sayıyı vurgulayın: “Beş çöp!”",
+   "Diken üzüldüğünde bedeninde ne oldu (dikenleri indi) ve ne yaptı (derin nefes, yardım istemek) diye sorun; birlikte bir derin nefes alın.",
+   "Tahmin sayfasında iki seçeneğin de iyi bir fikir olduğunu söyleyin; “Neden öyle düşündün?” diye sorun."
+  ],
+  "sonra": [
+   "Sıralama oyunuyla olayları hatırlayın: Diken'in burnu tenekeye çarpar → üç arkadaş çöpleri kutuya taşır → temiz ormanda dinlenirler.",
+   "“Kim ne yaptı?” diye sorun: Püskül itti, Tarçın taşıdı, Diken yuvarladı. Sınıfta birlikte yaptığınız işlere örnek bulun.",
+   "Tarçın'ın “Patim tenekeye takılır!” sözünü hatırlayın: Kirpi gibi küçük hayvanlar bazen kutuların içine sıkışabilir; bu yüzden çöp, çöp kutusuna gider.",
+   "Güvenlik notunu konuşun: Gerçek hayatta çöpü yalnız bir büyükle ve eldivenle toplarız. Kırık cam, iğne ya da keskin bir şey görünce dokunmayız, bir büyüğe söyleriz. Sonra ellerimizi sabunla yıkarız.",
+   "Hayvanlara uzaktan bakılacağını, yabani hayvanlara dokunulmayacağını hatırlatın."
+  ],
+  "sinif": {
+   "ad": "Beş Çöp, Bir Kutu",
+   "sure": "15 dk",
+   "materyal": "Temiz atıklar (boş plastik şişe, yıkanmış içecek kutusu, buruşuk kâğıt) toplam 5 tane; sarı bir kutu ya da karton; çocuk eldivenleri; yeşil bir örtü (orman)",
+   "adim": [
+    "Yeşil örtüyü yere serin, “Bu bizim ormanımız.” deyin. Temiz atıkları örtünün üstüne ve kenarlarına saklayın.",
+    "Çocuklar eldivenlerini taksın. “Dedektif gözleri” ile ormana dikkatle baksınlar ve gördükleri atığı parmakla göstersinler.",
+    "Hep birlikte, her atığa dokunarak “bir, iki, üç, dört, beş” diye sayın.",
+    "Üçer kişilik gruplar kurun: biri gösterir, biri taşır, biri kutuya atar. Her atıkta “Tangır tungur!” deyin.",
+    "Bitince örtüye birlikte bakın: “Ormanımız şimdi nasıl? Sen nasıl hissediyorsun?” Ardından eller sabunla yıkanır."
+   ]
+  },
+  "evSoru": [
+   "Diken'in burnu neye çarptı?",
+   "Üç arkadaş kaç çöp topladı?",
+   "Sen bugün evde neyi yerine koydun?"
+  ],
+  "evEtk": {
+   "ad": "Piknik Sonrası Kontrol",
+   "d": "Bir sonraki park ya da piknik dönüşünde çocuğunuzla birlikte oturduğunuz yere “dedektif gözleriyle” bakın. Kendi çöplerinizi birlikte sayıp poşete koyun ve çöp kutusuna atın. Başkasının çöplerine ve keskin nesnelere yalnız yetişkin, eldivenle dokunur."
+  },
+  "aileNotu": "Bugün “Kirpi Ormanı Temizliyor” masalını okuduk. Kirpi Diken, piknikten kalan çöpleri fark etti; arkadaşlarından yardım istedi ve birlikte beş çöpü sayıp çöp kutusuna taşıdılar. Masal; dikkatle gözlem yapma, 5'e kadar sayma, iş birliği ve çevreyi temiz tutma ile ilişkilendirilmiştir. Evde “Kaç tane?” diye birlikte sayarak ve dışarıda kendi çöpünüzü birlikte toplayarak masalı sürdürebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/074-kirpi-ormani-temizliyor.mp3",
+  "hash": "2b8bd383",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10219,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3449,
+      6
+     ],
+     [
+      3930,
+      7
+     ],
+     [
+      4569,
+      8
+     ],
+     [
+      5069,
+      9
+     ],
+     [
+      5989,
+      10
+     ],
+     [
+      6609,
+      11
+     ],
+     [
+      6930,
+      12
+     ],
+     [
+      7049,
+      13
+     ],
+     [
+      7309,
+      14
+     ],
+     [
+      8150,
+      15
+     ],
+     [
+      9049,
+      16
+     ],
+     [
+      9629,
+      17
+     ],
+     [
+      9810,
+      18
+     ]
+    ]
+   },
+   "p0h-diken": {
+    "s": 10519,
+    "d": 1321,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      791,
+      1
+     ],
+     [
+      1036,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 12141,
+    "d": 9482,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      3189,
+      5
+     ],
+     [
+      3650,
+      6
+     ],
+     [
+      4029,
+      7
+     ],
+     [
+      5189,
+      8
+     ],
+     [
+      5390,
+      9
+     ],
+     [
+      5669,
+      10
+     ],
+     [
+      6069,
+      11
+     ],
+     [
+      6749,
+      12
+     ],
+     [
+      7169,
+      13
+     ],
+     [
+      7509,
+      14
+     ],
+     [
+      8350,
+      15
+     ],
+     [
+      8810,
+      16
+     ],
+     [
+      9029,
+      17
+     ],
+     [
+      9169,
+      18
+     ]
+    ]
+   },
+   "p1h-diken": {
+    "s": 21923,
+    "d": 2002,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      587,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1274,
+      3
+     ],
+     [
+      1618,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 24225,
+    "d": 4403,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      2170,
+      3
+     ],
+     [
+      2890,
+      4
+     ],
+     [
+      3709,
+      5
+     ],
+     [
+      4009,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 28929,
+    "d": 11377,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3449,
+      7
+     ],
+     [
+      3769,
+      8
+     ],
+     [
+      4410,
+      9
+     ],
+     [
+      4669,
+      10
+     ],
+     [
+      5509,
+      11
+     ],
+     [
+      5949,
+      12
+     ],
+     [
+      6809,
+      13
+     ],
+     [
+      7449,
+      14
+     ],
+     [
+      8150,
+      15
+     ],
+     [
+      8549,
+      16
+     ],
+     [
+      8749,
+      17
+     ],
+     [
+      9150,
+      18
+     ],
+     [
+      9890,
+      19
+     ],
+     [
+      10129,
+      20
+     ],
+     [
+      10469,
+      21
+     ],
+     [
+      10730,
+      22
+     ]
+    ]
+   },
+   "p2h-diken": {
+    "s": 40607,
+    "d": 1499,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      809,
+      3
+     ]
+    ]
+   },
+   "p2h-puskul": {
+    "s": 42407,
+    "d": 1477,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      949,
+      2
+     ]
+    ]
+   },
+   "p2h-tarcin": {
+    "s": 44184,
+    "d": 1515,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      909,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 46000,
+    "d": 2000,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1410,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 48301,
+    "d": 1971,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1469,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 50572,
+    "d": 11079,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      2069,
+      6
+     ],
+     [
+      2869,
+      7
+     ],
+     [
+      3269,
+      8
+     ],
+     [
+      3829,
+      9
+     ],
+     [
+      4549,
+      10
+     ],
+     [
+      4989,
+      11
+     ],
+     [
+      5589,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      6769,
+      14
+     ],
+     [
+      6969,
+      15
+     ],
+     [
+      7169,
+      16
+     ],
+     [
+      7609,
+      17
+     ],
+     [
+      8109,
+      18
+     ],
+     [
+      9089,
+      19
+     ],
+     [
+      9449,
+      20
+     ],
+     [
+      10029,
+      21
+     ],
+     [
+      10509,
+      22
+     ]
+    ]
+   },
+   "p3h-diken": {
+    "s": 61951,
+    "d": 1879,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      394,
+      1
+     ],
+     [
+      959,
+      2
+     ]
+    ]
+   },
+   "p3h-puskul": {
+    "s": 64131,
+    "d": 1473,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      789,
+      2
+     ]
+    ]
+   },
+   "p3h-tarcin": {
+    "s": 65904,
+    "d": 969,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      369,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 67174,
+    "d": 2317,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1790,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 69791,
+    "d": 10730,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2469,
+      4
+     ],
+     [
+      3089,
+      5
+     ],
+     [
+      3769,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4269,
+      8
+     ],
+     [
+      4890,
+      9
+     ],
+     [
+      5310,
+      10
+     ],
+     [
+      6149,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      6729,
+      13
+     ],
+     [
+      7449,
+      14
+     ],
+     [
+      7769,
+      15
+     ],
+     [
+      8469,
+      16
+     ],
+     [
+      8890,
+      17
+     ],
+     [
+      9449,
+      18
+     ],
+     [
+      9850,
+      19
+     ]
+    ]
+   },
+   "p4h-diken": {
+    "s": 80821,
+    "d": 1433,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      814,
+      1
+     ]
+    ]
+   },
+   "p4h-puskul": {
+    "s": 82555,
+    "d": 1958,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      920,
+      1
+     ],
+     [
+      1207,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 84814,
+    "d": 1708,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 86822,
+    "d": 1160,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      580,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 88282,
+    "d": 12633,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      3009,
+      5
+     ],
+     [
+      3829,
+      6
+     ],
+     [
+      4249,
+      7
+     ],
+     [
+      5269,
+      8
+     ],
+     [
+      5890,
+      9
+     ],
+     [
+      6829,
+      10
+     ],
+     [
+      7489,
+      11
+     ],
+     [
+      8089,
+      12
+     ],
+     [
+      8449,
+      13
+     ],
+     [
+      9109,
+      14
+     ],
+     [
+      9749,
+      15
+     ],
+     [
+      10230,
+      16
+     ],
+     [
+      10989,
+      17
+     ],
+     [
+      11469,
+      18
+     ],
+     [
+      11589,
+      19
+     ],
+     [
+      11930,
+      20
+     ]
+    ]
+   },
+   "p5h-diken": {
+    "s": 101216,
+    "d": 2216,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1769,
+      3
+     ]
+    ]
+   },
+   "p5h-puskul": {
+    "s": 103733,
+    "d": 1850,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 105883,
+    "d": 1480,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      829,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1428 @@
+{
+ "id": "038-kendim-giyinirim",
+ "n": 38,
+ "title": "Kendim Giyinirim!",
+ "age": "36-48",
+ "area": "Hareket ve Sağlık",
+ "theme": "Kendi kendine giyinme",
+ "values": [
+  "D11 Özgürlük"
+ ],
+ "sdb": "SDB1.1 Kendini Tanıma",
+ "min": 4,
+ "blurb": "Lapa lapa kar yağıyor! Ali kendi kendine giyinmek ister ama eldivenleri en başta takınca hiçbir şeyi tutamaz. Derin bir nefes alır, sırayı kendisi bulur ve kendi seçtiği mor bereyle karda yürür.",
+ "codes": {
+  "maarif": [
+   "HSAB.2 Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme (HSAB.2.a Farklı büyüklükteki nesneleri kavrar; HSAB.2.c Farklı boyutlardaki nesneleri kullanır)",
+   "TADB.3 Dinlediklerini oluş sırasına göre söyler",
+   "MAB.1 Ritmik ve algısal sayabilme (1-5 arası nesnelerin miktarını söyler)",
+   "SDB1.1 Kendini Tanıma (Öz Farkındalık)",
+   "SDB1.2 Kendini Düzenleme (Öz Düzenleme)",
+   "E1.2 Bağımsızlık",
+   "E1.5 Kendine Güvenme (Öz Güven)",
+   "D11 Özgürlük"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ali": "cocuk-erkek",
+  "anne": "anne"
+ },
+ "voiceNames": {
+  "ali": "Ali",
+  "anne": "Anne"
+ },
+ "pages": [
+  {
+   "text": "Ali pencereye koştu. Lapa lapa kar yağıyor! “Dışarı çıkalım!” diye zıpladı. Hop, hop! Annesi, “Önce giyinelim,” dedi. Ali göğsünü kabarttı: “Ben kendim giyinirim!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "snow",
+    "windowHit": "pencere",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 196,
+      "y": 228,
+      "s": 1.25,
+      "mood": "laugh",
+      "pose": "point",
+      "flip": true,
+      "hit": "ali"
+     },
+     {
+      "k": "anne",
+      "x": 322,
+      "y": 214,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "anne",
+      "flip": true
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "pencere": {
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "ali": {
+     "say": "Ben kendim giyinirim!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Önce giyinelim, sonra kar!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "pencere",
+    "Pencereye dokun!"
+   ],
+   "ask": "Kar yağınca sen dışarıda ne yapmak istersin?"
+  },
+  {
+   "text": "Ali montunu giydi. Sonra eldivenleri taktı. Pofuduk, sıcacık! Çizmeyi çekti. Fırt, kaydı! Fermuarı tuttu. Pıt, o da kaydı! “Eyvah, parmaklarım nerede?”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "snow",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 150,
+      "y": 230,
+      "s": 1.75,
+      "mood": "surprised",
+      "pose": "sit",
+      "hold": "eldiven",
+      "coat": "#3E7BD6",
+      "hit": "ali"
+     },
+     {
+      "k": "anne",
+      "x": 292,
+      "y": 196,
+      "s": 0.92,
+      "mood": "calm",
+      "pose": "seat",
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "cizme",
+      "x": 262,
+      "y": 236,
+      "s": 2.0,
+      "hit": "cizme"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Eyvah, parmaklarım nerede?",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "cizme": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    },
+    "anne": {
+     "say": "Zorlanırsan söyle, buradayım.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Ali neden çizmeyi tutamıyor? Eldivenle neler zor olur?",
+   "cues": [
+    {
+     "w": 12,
+     "fx": "fermuar"
+    }
+   ]
+  },
+  {
+   "text": "“Giyinemiyorum!” Ali bunaldı, sonra kızdı. Yanakları ısındı. Ayaklarını yere vurdu: pat, pat! Annesi yanına oturdu. Birlikte derin nefes aldılar. Hıııh, puuuf!",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "snow",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 168,
+      "y": 230,
+      "s": 1.3,
+      "mood": "angry",
+      "pose": "hold",
+      "hold": "eldiven",
+      "coat": "#3E7BD6",
+      "hit": "ali"
+     },
+     {
+      "k": "anne",
+      "x": 262,
+      "y": 226,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "anne",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "cizme",
+      "x": 70,
+      "y": 234,
+      "s": 1.6
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Hıııh… puuuf.",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "anne": {
+     "say": "Birlikte nefes alalım.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "predict": {
+    "q": "Sence Ali şimdi ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Eldivenleri çıkarır",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "snow",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 190,
+         "y": 228,
+         "s": 1.3,
+         "mood": "happy",
+         "pose": "open",
+         "coat": "#3E7BD6"
+        }
+       ],
+       "props": [
+        {
+         "k": "eldiven",
+         "x": 110,
+         "y": 234,
+         "s": 1.7
+        },
+        {
+         "k": "sparkle",
+         "x": 236,
+         "y": 128
+        }
+       ]
+      }
+     },
+     {
+      "l": "Annesine sorar",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "snow",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 150,
+         "y": 230,
+         "s": 1.3,
+         "mood": "think",
+         "pose": "hold",
+         "hold": "eldiven",
+         "coat": "#3E7BD6"
+        },
+        {
+         "k": "anne",
+         "x": 262,
+         "y": 226,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "sit",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "qmark",
+         "x": 150,
+         "y": 70
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "ali",
+    "Ali'yle nefes al!"
+   ],
+   "ask": "Sen kızınca bedeninde ne olur? Hadi, birlikte derin nefes alalım."
+  },
+  {
+   "text": "Ali eldivenleri çıkardı. Oh, parmaklar özgür! Kanepede bereler vardı. Hangisini seçecek? Önce sayalım!",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "snow",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 108,
+      "y": 230,
+      "s": 1.25,
+      "mood": "happy",
+      "pose": "point",
+      "coat": "#3E7BD6",
+      "hit": "ali"
+     },
+     {
+      "k": "anne",
+      "x": 356,
+      "y": 218,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "eldiven",
+      "x": 44,
+      "y": 236,
+      "s": 1.4
+     },
+     {
+      "k": "bere",
+      "x": 210,
+      "y": 160,
+      "s": 1.15,
+      "color": "#E4574F",
+      "hit": "b1",
+      "lbl": "Kırmızı bere"
+     },
+     {
+      "k": "bere",
+      "x": 251,
+      "y": 160,
+      "s": 1.15,
+      "color": "#4F8FD8",
+      "hit": "b2",
+      "lbl": "Mavi bere"
+     },
+     {
+      "k": "bere",
+      "x": 292,
+      "y": 160,
+      "s": 1.15,
+      "color": "#8E5BC8",
+      "pom": "#F6C742",
+      "hit": "b3",
+      "lbl": "Mor bere"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Oh, parmaklarım burada!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "anne": {
+     "say": "Hangisini istersen, sen seç.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "b1",
+     "b2",
+     "b3"
+    ],
+    "done": "Üç bere! Ali ponponlu moru seçti.",
+    "msg": "Üç bereyi saydın!"
+   },
+   "hint": [
+    "b1",
+    "Bereleri tek tek say!"
+   ],
+   "ask": "Sen hangi bereyi seçerdin? Neden?"
+  },
+  {
+   "text": "Ali düşündü: “Önce hangisi?” Önce çizme, cup cup! Fermuar, zırt! Sonra mor bere, hop! En son eldiven, pofuduk!",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "snow",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 200,
+      "y": 228,
+      "s": 1.3,
+      "mood": "think",
+      "pose": "stand",
+      "coat": "#3E7BD6",
+      "hit": "ali"
+     }
+    ],
+    "props": [
+     {
+      "k": "cizme",
+      "x": 318,
+      "y": 234,
+      "s": 1.7,
+      "hit": "cizme"
+     },
+     {
+      "k": "bere",
+      "x": 280,
+      "y": 160,
+      "s": 1.25,
+      "color": "#8E5BC8",
+      "pom": "#F6C742",
+      "hit": "bere"
+     },
+     {
+      "k": "eldiven",
+      "x": 92,
+      "y": 158,
+      "s": 1.5,
+      "hit": "eldiven"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Önce hangisi? Hımm…",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "cizme",
+     "bere",
+     "eldiven"
+    ],
+    "done": "Sırayla, tek tek. Ali hazır!",
+    "msg": "Sırayla giyindin!"
+   },
+   "hint": [
+    "cizme",
+    "Önce çizmeye dokun!"
+   ],
+   "ask": "Sen giyinirken önce neyi giyersin? En son neyi?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "fermuar"
+    }
+   ]
+  },
+  {
+   "text": "Kırt, kırt, kırt! Ali karda yürüdü. Burnu buz gibi, içi sıcacık. Ali kendiyle gurur duydu. Kardan adama seslendi: “Bak, kendim giyindim!”",
+   "scene": {
+    "set": "cayir",
+    "season": "winter",
+    "weather": "snow",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 168,
+      "y": 228,
+      "s": 1.3,
+      "mood": "laugh",
+      "pose": "hold",
+      "coat": "#3E7BD6",
+      "shoes": "#F6C742",
+      "sneaker": false,
+      "hit": "ali",
+      "hold": "eldiven",
+      "holdS": 1.0
+     },
+     {
+      "k": "anne",
+      "x": 56,
+      "y": 212,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "stand",
+      "coat": "#C8574A",
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "bere",
+      "x": 169,
+      "y": 124,
+      "s": 1.45,
+      "color": "#8E5BC8",
+      "pom": "#F6C742",
+      "z": 900
+     },
+     {
+      "k": "cizme",
+      "x": 171,
+      "y": 231,
+      "s": 0.95,
+      "z": 900
+     },
+     {
+      "k": "kardan-adam",
+      "x": 302,
+      "y": 224,
+      "s": 1.35,
+      "pose": "wave",
+      "mood": "happy",
+      "color": "#E4574F",
+      "hit": "kardan"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Bak, kendim giyindim!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "anne": {
+     "say": "Sırayı kendin buldun!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "kardan": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Sen kendi başına neleri giyebiliyorsun? Hangisi hâlâ zor?",
+   "cues": [
+    {
+     "w": 0,
+     "fx": "kar-adim"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  4,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.2 Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme: Mont, çizme, bere ve eldiven gibi farklı büyüklükteki giysileri kavrar ve kullanır (HSAB.2.a, HSAB.2.c); eldivenle tutmanın neden zorlaştığını fark eder.",
+   "TADB.3 Dinlediklerini oluş sırasına göre söyler: Giyinme adımlarını masaldaki sırayla (önce mont, sonra çizme, sonra bere, en son eldiven) uygular ve anlatır.",
+   "MAB.1 Ritmik ve algısal sayabilme: 1-5 arasındaki nesnelerin miktarını söyler (kanepedeki üç bere).",
+   "SDB1.1 Kendini Tanıma (Öz Farkındalık): Bunalma ve kızgınlık duygusunu adlandırır, bedende nasıl hissedildiğini (yanakların ısınması, ayakları yere vurma) fark eder.",
+   "SDB1.2 Kendini Düzenleme (Öz Düzenleme): Zorlandığında derin nefes alarak sakinleşir, sonra sorunu çözmek için yeniden dener.",
+   "E1.2 Bağımsızlık ve E1.5 Kendine Güvenme (Öz Güven): Giyinmeyi kendi başına dener, zorlanınca yeniden dener ve başardığında kendiyle gurur duyar. D11 Özgürlük: Kendi beresini kendisi seçer; seçiminin saygı gördüğünü yaşar."
+  ],
+  "once": [
+   "İlk sayfadaki pencereyi gösterin: “Dışarıda ne oluyor? Karda dışarı çıkmak için neler giyeriz?”",
+   "Gerçek bir eldiven getirin. Çocuk eldivenle bir kalemi ya da bir fermuarı tutmayı denesin: “Kolay mı, zor mu?”",
+   "“Kendim yaparım!” dediğiniz bir şeyi paylaşın; çocuk da kendi başına yapabildiği bir şeyi söylesin."
+  ],
+  "sirasi": [
+   "1. sayfada “Hop hop!” derken birlikte zıplayın.",
+   "2. sayfada “Parmaklarım nerede?” diye sorun; çocuk parmaklarını yumruk yapıp saklasın, sonra açsın.",
+   "3. sayfada Ali'nin kızgın yüzünü birlikte taklit edin, sonra “Hıııh, puuuf” diye iki kez nefes alın. Tahmin sorusunu çocuğa bırakın; iki seçenek de doğru.",
+   "5. sayfada sırayı çocuğa söyletin: “Önce…, sonra…, en son…”"
+  ],
+  "sonra": [
+   "Ali neden çizmeyi ve fermuarı tutamadı? Sorunu nasıl çözdü?",
+   "Ali kızınca bedeninde ne oldu? Sakinleşmek için ne yaptı?",
+   "Ali hangi bereyi seçti? Sen hangisini seçerdin?"
+  ],
+  "sinif": {
+   "ad": "Giyinme Treni",
+   "sure": "20 dk",
+   "materyal": "Çocukların kendi montları, çizmeleri (botları), bere ve eldivenleri; giysi resimli sıra kartları (yazısız); bir sepet",
+   "adim": [
+    "Çocuklar eldiven takıp bir bereyi almayı ya da fermuar çekmeyi denesin; ne olduğunu anlatsınlar.",
+    "Resimli kartları masaldaki sırayla dizin: önce mont, sonra çizme, sonra bere, en son eldiven.",
+    "“Giyinme Treni” oyunu: Çocuklar sıra olur. Her biri kartlardaki sırayla bir giysiyi giyer, “Çuf çuf, sıra sende!” der ve sırayı arkadaşına verir.",
+    "Zorlanan çocuğa önce “Nasıl denedin?” diye sorun, sonra “Yardım ister misin?” deyin. Treni bitiren herkes “Kendim giyindim!” diye bir zafer pozu versin."
+   ]
+  },
+  "evSoru": [
+   "Sen kendi başına neleri giyebiliyorsun?",
+   "Giyinirken en çok neyi zor buluyorsun? Nasıl kolaylaşır?",
+   "Ali kızınca nasıl sakinleşti? Sen de dener misin?"
+  ],
+  "evEtk": {
+   "ad": "Kendim Seçtim, Kendim Giydim",
+   "d": "Akşamdan ertesi günün giysileri için çocuğunuza iki seçenek sunun, son kararı ona bırakın. Seçtiği giysileri giyiliş sırasına göre yere dizin. Sabah çocuğunuz sırayı kendisi izlesin; siz yalnızca “Sıradaki ne?” diye sorun. Dışarı çıkarken eldivenin en sona kaldığını birlikte hatırlayın."
+  },
+  "aileNotu": "Bugün “Kendim Giyinirim!” masalını okuduk. Ali karda dışarı çıkmak için kendi başına giyinmek istedi; eldivenleri en başta takınca hiçbir şeyi tutamadı, kızdı, derin nefes aldı ve sırayı kendisi buldu. Bu yaşta çocuklar giyinmeyi deneyerek öğrenir; yavaş geçen bir sabah bu öğrenmenin parçasıdır. Evde iki seçenek sunup seçimi çocuğunuza bırakın, sabırla bekleyin ve çabasını fark edin: “Sırayı kendin buldun!”"
+ },
+ "audio": {
+  "file": "audio/038-kendim-giyinirim.mp3",
+  "hash": "54f2581a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13802,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      4949,
+      9
+     ],
+     [
+      5269,
+      10
+     ],
+     [
+      6149,
+      11
+     ],
+     [
+      6729,
+      12
+     ],
+     [
+      7469,
+      13
+     ],
+     [
+      8390,
+      14
+     ],
+     [
+      8749,
+      15
+     ],
+     [
+      9709,
+      16
+     ],
+     [
+      10449,
+      17
+     ],
+     [
+      10669,
+      18
+     ],
+     [
+      11209,
+      19
+     ],
+     [
+      12230,
+      20
+     ],
+     [
+      12569,
+      21
+     ],
+     [
+      13089,
+      22
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 14102,
+    "d": 1595,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      849,
+      2
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 15997,
+    "d": 1539,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1109,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17836,
+    "d": 13891,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2829,
+      5
+     ],
+     [
+      3670,
+      6
+     ],
+     [
+      4509,
+      7
+     ],
+     [
+      5410,
+      8
+     ],
+     [
+      5989,
+      9
+     ],
+     [
+      6749,
+      10
+     ],
+     [
+      7449,
+      11
+     ],
+     [
+      8310,
+      12
+     ],
+     [
+      9029,
+      13
+     ],
+     [
+      9789,
+      14
+     ],
+     [
+      10449,
+      15
+     ],
+     [
+      10569,
+      16
+     ],
+     [
+      10770,
+      17
+     ],
+     [
+      11689,
+      18
+     ],
+     [
+      12430,
+      19
+     ],
+     [
+      13310,
+      20
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 32028,
+    "d": 1795,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1369,
+      2
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 34124,
+    "d": 1621,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 36045,
+    "d": 14058,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1449,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      2609,
+      3
+     ],
+     [
+      3029,
+      4
+     ],
+     [
+      3849,
+      5
+     ],
+     [
+      4549,
+      6
+     ],
+     [
+      5469,
+      7
+     ],
+     [
+      6149,
+      8
+     ],
+     [
+      6449,
+      9
+     ],
+     [
+      7129,
+      10
+     ],
+     [
+      7789,
+      11
+     ],
+     [
+      8509,
+      12
+     ],
+     [
+      8989,
+      13
+     ],
+     [
+      9430,
+      14
+     ],
+     [
+      10270,
+      15
+     ],
+     [
+      10850,
+      16
+     ],
+     [
+      11189,
+      17
+     ],
+     [
+      11649,
+      18
+     ],
+     [
+      12449,
+      19
+     ],
+     [
+      13183,
+      20
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 50404,
+    "d": 2961,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1758,
+      1
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 53665,
+    "d": 1297,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      769,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 55263,
+    "d": 1913,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1290,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 57476,
+    "d": 2519,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1949,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 60296,
+    "d": 8773,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      2229,
+      3
+     ],
+     [
+      2650,
+      4
+     ],
+     [
+      3390,
+      5
+     ],
+     [
+      4109,
+      6
+     ],
+     [
+      4729,
+      7
+     ],
+     [
+      5289,
+      8
+     ],
+     [
+      6069,
+      9
+     ],
+     [
+      6769,
+      10
+     ],
+     [
+      7769,
+      11
+     ],
+     [
+      8150,
+      12
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 69369,
+    "d": 1893,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      435,
+      1
+     ],
+     [
+      1236,
+      2
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 71563,
+    "d": 1799,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 73662,
+    "d": 2764,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2170,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 76726,
+    "d": 11262,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2749,
+      4
+     ],
+     [
+      3150,
+      5
+     ],
+     [
+      4029,
+      6
+     ],
+     [
+      4330,
+      7
+     ],
+     [
+      5029,
+      8
+     ],
+     [
+      6069,
+      9
+     ],
+     [
+      6890,
+      10
+     ],
+     [
+      7370,
+      11
+     ],
+     [
+      7669,
+      12
+     ],
+     [
+      8369,
+      13
+     ],
+     [
+      9150,
+      14
+     ],
+     [
+      9369,
+      15
+     ],
+     [
+      9629,
+      16
+     ],
+     [
+      10489,
+      17
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 88289,
+    "d": 1658,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      468,
+      1
+     ],
+     [
+      1371,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 90248,
+    "d": 2907,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      932,
+      1
+     ],
+     [
+      1222,
+      2
+     ],
+     [
+      1856,
+      3
+     ],
+     [
+      2361,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 93455,
+    "d": 12788,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      2289,
+      3
+     ],
+     [
+      2549,
+      4
+     ],
+     [
+      3029,
+      5
+     ],
+     [
+      3829,
+      6
+     ],
+     [
+      4189,
+      7
+     ],
+     [
+      4489,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      5509,
+      10
+     ],
+     [
+      6569,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7529,
+      13
+     ],
+     [
+      7890,
+      14
+     ],
+     [
+      8669,
+      15
+     ],
+     [
+      9190,
+      16
+     ],
+     [
+      9589,
+      17
+     ],
+     [
+      10730,
+      18
+     ],
+     [
+      11430,
+      19
+     ],
+     [
+      11989,
+      20
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 106543,
+    "d": 1765,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      501,
+      1
+     ],
+     [
+      1005,
+      2
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 108609,
+    "d": 1490,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      989,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1585 @@
+{
+ "id": "020-kule-yikilinca",
+ "n": 20,
+ "title": "Kule Yıkılınca",
+ "age": "36-48",
+ "area": "Sosyal",
+ "theme": "Öfke ve sabır",
+ "values": [
+  "D12 Sabır"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 4,
+ "blurb": "Zeynep'in kocaman kulesini minik kardeşi Ekin bir dokunuşla yıkar. Zeynep çok kızar; babasıyla nefes alıp sakinleşir ve kuleyi kardeşiyle yeniden kurar.",
+ "codes": {
+  "maarif": [
+   "TADB.4 Dinlediği hikâyeye ilişkin duygu ve düşüncelerini söyler",
+   "E1.3 Azim ve Kararlılık",
+   "SDB1.2 Kendini Düzenleme",
+   "D12 Sabır"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "ekin": "bebek",
+  "baba": "baba"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "ekin": "Ekin (bebek kardeş)",
+  "baba": "Baba"
+ },
+ "pages": [
+  {
+   "text": "Tak! Bir blok. Tak! Bir blok daha. Zeynep'in kulesi uzadı, uzadı. “Tavana kadar!” Minik kardeşi Ekin kocaman gözlerle baktı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 118,
+      "y": 230,
+      "s": 1.08,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "bloklar",
+      "holdO": {
+       "n": 1,
+       "k0": 4
+      },
+      "holdS": 1.5,
+      "hit": "zeynep"
+     },
+     {
+      "k": "bebek",
+      "x": 318,
+      "y": 226,
+      "s": 1.0,
+      "mood": "surprised",
+      "pose": "sit",
+      "flip": true,
+      "hit": "ekin"
+     }
+    ],
+    "props": [
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 0,
+      "x": 214,
+      "y": 232.0,
+      "s": 1.8,
+      "z": 272,
+      "hit": "b1"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 1,
+      "x": 214,
+      "y": 208.6,
+      "s": 1.8,
+      "z": 273,
+      "hit": "b2"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 2,
+      "x": 214,
+      "y": 185.2,
+      "s": 1.8,
+      "z": 274,
+      "hit": "b3"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 3,
+      "x": 214,
+      "y": 161.8,
+      "s": 1.8,
+      "z": 275,
+      "hit": "b4"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 368,
+      "y": 232,
+      "s": 0.9,
+      "color": "#4F8FD8"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Kulem tavana kadar uzayacak!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "b": {
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "ekin": {
+     "say": "Aaa! Kule!",
+     "voice": "ekin",
+     "anim": "boing",
+     "fx": "bebek"
+    }
+   },
+   "hint": [
+    "b4",
+    "Kuleye dokun!"
+   ],
+   "ask": "Sen bloklarla neler yaparsın? Senin kulen ne kadar uzun olur?"
+  },
+  {
+   "text": "Emekleye emekleye Ekin kuleye geldi. Pıt! Minik eliyle dokundu. Kule sallandı, sallandı… Pat! Küt! Takır tukur! Kule yıkıldı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 86,
+      "y": 228,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "open",
+      "hit": "zeynep"
+     },
+     {
+      "k": "bebek",
+      "x": 262,
+      "y": 224,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "crawl",
+      "flip": true,
+      "hit": "ekin"
+     }
+    ],
+    "props": [
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 0,
+      "x": 160,
+      "y": 234,
+      "s": 1.7,
+      "hit": "d1"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 1,
+      "x": 196,
+      "y": 212,
+      "s": 1.7,
+      "hit": "d2"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 2,
+      "x": 330,
+      "y": 234,
+      "s": 1.7,
+      "hit": "d3"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 3,
+      "x": 352,
+      "y": 210,
+      "s": 1.7,
+      "hit": "d4"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 4,
+      "x": 208,
+      "y": 236,
+      "s": 1.7,
+      "hit": "d5"
+     }
+    ]
+   },
+   "hits": {
+    "d": {
+     "anim": "jump",
+     "fx": "thump"
+    },
+    "ekin": {
+     "say": "Hi hi hi! Pat!",
+     "voice": "ekin",
+     "anim": "jump",
+     "fx": "bebek"
+    },
+    "zeynep": {
+     "say": "Eyvah! Kulem!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "d1",
+    "Bloklara dokun!"
+   ],
+   "ask": "Sence Ekin kuleye neden dokundu? Ne yapmak istemiş olabilir?",
+   "cues": [
+    {
+     "w": 13,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep çok kızdı! Yanakları kıpkırmızı oldu. Kalbi güm güm attı. Ayağını yere vurdu. “Kulemi yıktın!” diye bağırdı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 150,
+      "y": 236,
+      "s": 1.4,
+      "mood": "angry",
+      "pose": "stand",
+      "hit": "zeynep"
+     },
+     {
+      "k": "bebek",
+      "x": 318,
+      "y": 222,
+      "s": 0.9,
+      "mood": "surprised",
+      "pose": "sit",
+      "flip": true,
+      "hit": "ekin"
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 204,
+      "y": 158,
+      "s": 0.8,
+      "hit": "kalp"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 0,
+      "x": 250,
+      "y": 234,
+      "s": 1.6
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 2,
+      "x": 372,
+      "y": 230,
+      "s": 1.6
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 3,
+      "x": 60,
+      "y": 214,
+      "s": 1.5
+     }
+    ]
+   },
+   "hits": {
+    "kalp": {
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "zeynep": {
+     "say": "Çok kızdım!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "drum"
+    },
+    "ekin": {
+     "say": "Abla?",
+     "voice": "ekin",
+     "anim": "wiggle",
+     "fx": "bebek"
+    }
+   },
+   "predict": {
+    "q": "Sence Zeynep şimdi ne yapacak?",
+    "res": "İkisi de olabilir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Babasını çağırır",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 140,
+         "y": 230,
+         "s": 1.1,
+         "mood": "sad",
+         "pose": "point"
+        },
+        {
+         "k": "baba",
+         "x": 290,
+         "y": 226,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "walk",
+         "flip": true
+        }
+       ]
+      }
+     },
+     {
+      "l": "Derin bir nefes alır",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 200,
+         "y": 232,
+         "s": 1.3,
+         "mood": "calm",
+         "pose": "stand"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "kalp",
+    "Kalbine dokun, dinle!"
+   ],
+   "ask": "Sen kızınca bedeninde neler olur? Yüzün, ellerin, kalbin nasıl olur?"
+  },
+  {
+   "text": "Baba geldi, yanına oturdu. “Kızmak olur, kızım. Gel, birlikte nefes alalım. Elim çiçek, parmağım mum olsun. Çiçeği kokla… Mumu üfle…”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "baba",
+      "x": 112,
+      "y": 232,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "baba"
+     },
+     {
+      "k": "zeynep",
+      "x": 200,
+      "y": 230,
+      "s": 1.08,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "x": 320,
+      "y": 234,
+      "s": 1.3,
+      "cloth": true
+     },
+     {
+      "k": "tohum",
+      "stage": 3,
+      "pot": true,
+      "face": false,
+      "s": 0.62,
+      "color": "#EE6F9C",
+      "potColor": "#D9774A",
+      "x": 296,
+      "y": 180,
+      "hit": "cicek"
+     },
+     {
+      "k": "ring",
+      "x": 200,
+      "y": 176,
+      "r": 52
+     }
+    ]
+   },
+   "mech": {
+    "type": "breathe",
+    "flower": "cicek",
+    "candle": "baba",
+    "who": "zeynep",
+    "times": 3,
+    "done": "Oh! Zeynep şimdi daha sakin."
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Hımm… Püüüf!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "blow"
+    }
+   },
+   "hint": [
+    "cicek",
+    "Önce çiçeği kokla!"
+   ],
+   "ask": "Hadi birlikte deneyelim: çiçeği kokla… parmak mumunu üfle… Üç kez. Şimdi nasıl hissediyorsun?"
+  },
+  {
+   "text": "Zeynep'in içi rahatladı. Ekin'e baktı. Ekin de oynamak istiyordu! “Ekin, gel! Bir blok sen, bir blok ben!” Tak, tak… Kule yine uzadı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 116,
+      "y": 232,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "zeynep"
+     },
+     {
+      "k": "bebek",
+      "x": 292,
+      "y": 230,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "sit",
+      "flip": true,
+      "hit": "ekin"
+     }
+    ],
+    "props": [
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 0,
+      "x": 204,
+      "y": 234.0,
+      "s": 1.8,
+      "z": 274,
+      "hit": "b1"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 1,
+      "x": 204,
+      "y": 210.6,
+      "s": 1.8,
+      "z": 275,
+      "hit": "b2"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 2,
+      "x": 204,
+      "y": 187.2,
+      "s": 1.8,
+      "z": 276,
+      "hit": "b3"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 3,
+      "x": 204,
+      "y": 163.8,
+      "s": 1.8,
+      "z": 277,
+      "hit": "b4"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 4,
+      "x": 204,
+      "y": 140.4,
+      "s": 1.8,
+      "z": 278,
+      "hit": "b5"
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "b1",
+     "b2",
+     "b3",
+     "b4",
+     "b5"
+    ],
+    "done": "Beş blok! Kule yine kocaman oldu."
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Bir blok sen, bir blok ben!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ekin": {
+     "say": "Ben! Ben!",
+     "voice": "ekin",
+     "anim": "jump",
+     "fx": "bebek"
+    }
+   },
+   "hint": [
+    "b1",
+    "Blokları say: tek tek dokun!"
+   ],
+   "ask": "Sen de kardeşinle ya da arkadaşınla sırayla oynar mısın? Nasıl?"
+  },
+  {
+   "text": "Zeynep fısıldadı: “Hadi Ekin, şimdi sen yık!” Bir! İki! Üç! Pat! İkisi de kıkır kıkır güldü. Zeynep bir blok aldı: “Yine yaparız. Tavana kadar!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "baba",
+      "x": 330,
+      "y": 210,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "baba"
+     },
+     {
+      "k": "zeynep",
+      "x": 168,
+      "y": 230,
+      "s": 1.08,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "bloklar",
+      "holdO": {
+       "n": 1,
+       "k0": 2
+      },
+      "holdS": 1.5,
+      "hit": "zeynep"
+     },
+     {
+      "k": "bebek",
+      "x": 270,
+      "y": 228,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "sit",
+      "flip": true,
+      "hit": "ekin"
+     }
+    ],
+    "props": [
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 0,
+      "x": 196,
+      "y": 236,
+      "s": 1.7,
+      "hit": "d1"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 1,
+      "x": 210,
+      "y": 212,
+      "s": 1.7,
+      "hit": "d2"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 3,
+      "x": 300,
+      "y": 236,
+      "s": 1.7,
+      "hit": "d3"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 4,
+      "x": 60,
+      "y": 214,
+      "s": 1.7,
+      "hit": "d4"
+     },
+     {
+      "k": "bloklar",
+      "n": 1,
+      "k0": 5,
+      "x": 360,
+      "y": 234,
+      "s": 1.7,
+      "hit": "d5"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Yine yaparız. Tavana kadar!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "ekin": {
+     "say": "Hi hi! Abla!",
+     "voice": "ekin",
+     "anim": "jump",
+     "fx": "bebek"
+    },
+    "baba": {
+     "say": "Ne güzel oynuyorsunuz!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "d": {
+     "anim": "jump",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Kule yine yıkıldı ama bu kez kimse kızmadı. Neden olabilir?",
+   "cues": [
+    {
+     "w": 13,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.4 — Dinlediği/izlediği hikâyeye ilişkin duygu ve düşüncelerini söyler: Zeynep'in öfkesini, Ekin'in şaşkınlığını ve sondaki kahkahayı kendi sözleriyle anlatır.",
+   "SDB1.2 Kendini Düzenleme — Öfkelendiğinde bedenindeki işaretleri (kızaran yanak, güm güm atan kalp, yere vuran ayak) fark eder ve nefesle sakinleşmeyi dener.",
+   "E1.3 Azim ve Kararlılık — Yıkılan kuleyi vazgeçmeden yeniden kurar: “Yine yaparız!”",
+   "D12 Sabır — Kardeşiyle sıra alarak (“bir blok sen, bir blok ben”) birlikte oynar."
+  ],
+  "once": [
+   "Kapaktaki kuleyi göster: “Bu kule yıkılırsa Zeynep ne hisseder?” diye sor.",
+   "“Kızgın yüz nasıl olur?” deyip birlikte kızgın, sonra sakin bir yüz yapın."
+  ],
+  "sirasi": [
+   "3. sayfada kalbe dokunun; kızınca bedende neler olduğunu (yanaklar, eller, kalp) konuşun. Tahmin sorusunda iki cevabı da kabul edin.",
+   "4. sayfada nefes oyununu hep birlikte üç kez yapın: burundan çiçeği kokla, ağızdan babanın parmak mumunu üfle. Gerçek mum yakmayın.",
+   "5. sayfada Zeynep'in Ekin'in de oynamak istediğini fark ettiğini konuşun; kulenin bloklarını alttan üste birlikte sayın: bir, iki, üç, dört, beş."
+  ],
+  "sonra": [
+   "Zeynep ne zaman kızdı? Sonra nasıl sakinleşti?",
+   "Sence Ekin kuleye neden dokundu? Ne yapmak istemiş olabilir?",
+   "Kule sonda yine yıkıldı. Bu kez neden kimse kızmadı?"
+  ],
+  "sinif": {
+   "ad": "Kule Kur, Nefes Al",
+   "sure": "20 dk",
+   "materyal": "Tahta ya da plastik bloklar, kızgın–sakin–mutlu yüz kartları",
+   "adim": [
+    "Küçük gruplar beş bloklu kuleler kursun; blokları birlikte sayın.",
+    "Öğretmen kendi kulesini yavaşça devirsin. Çocuklar “Kule yıkılınca ne hissedersin?” sorusuna yüz kartıyla cevap versin ve nedenini söylesin.",
+    "Hep birlikte üç kez “çiçeği kokla, mumu üfle” nefesini yapın. Sonra ikili olup “bir blok sen, bir blok ben” diyerek kuleyi sırayla yeniden kurun."
+   ]
+  },
+  "evSoru": [
+   "Zeynep neden kızdı?",
+   "Baba Zeynep'e nasıl yardım etti?",
+   "Sen kızınca bedeninde neler olur? Sonra ne yaparsın?"
+  ],
+  "evEtk": {
+   "ad": "Parmak mum nefesi",
+   "d": "Gerçek mum yakmadan, işaret parmağınızı mum gibi kaldırın. Burnunuzdan çiçek koklar gibi nefes alın, ağzınızdan parmak mumu yavaşça üfleyin. Sakin bir anda birlikte üç kez deneyin; kızgın anlarda hatırlatmak kolaylaşır."
+  },
+  "aileNotu": "Bugün “Kule Yıkılınca” masalını okuduk. Zeynep, minik kardeşi kulesini yıkınca çok kızıyor; babasıyla nefes alarak sakinleşiyor ve kuleyi kardeşiyle sırayla yeniden kuruyor. Evde çocuğunuzun kızgınlığını adlandırıp kabul edebilirsiniz: “Kulen yıkıldı, çok kızdın.” “Çiçeği kokla, mumu üfle” nefesini gerçek mum yakmadan, parmağınızı mum yaparak birlikte deneyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/020-kule-yikilinca.mp3",
+  "hash": "880247af",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12120,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2890,
+      4
+     ],
+     [
+      3170,
+      5
+     ],
+     [
+      3569,
+      6
+     ],
+     [
+      4209,
+      7
+     ],
+     [
+      4870,
+      8
+     ],
+     [
+      5850,
+      9
+     ],
+     [
+      6870,
+      10
+     ],
+     [
+      7930,
+      11
+     ],
+     [
+      8430,
+      12
+     ],
+     [
+      9169,
+      13
+     ],
+     [
+      9509,
+      14
+     ],
+     [
+      10129,
+      15
+     ],
+     [
+      10449,
+      16
+     ],
+     [
+      11009,
+      17
+     ],
+     [
+      11649,
+      18
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 12420,
+    "d": 2247,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      450,
+      1
+     ],
+     [
+      1036,
+      2
+     ],
+     [
+      1446,
+      3
+     ]
+    ]
+   },
+   "p0h-ekin": {
+    "s": 14968,
+    "d": 445,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      287,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 15713,
+    "d": 11075,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      3029,
+      5
+     ],
+     [
+      3749,
+      6
+     ],
+     [
+      4109,
+      7
+     ],
+     [
+      4529,
+      8
+     ],
+     [
+      5410,
+      9
+     ],
+     [
+      5789,
+      10
+     ],
+     [
+      6709,
+      11
+     ],
+     [
+      7729,
+      12
+     ],
+     [
+      8369,
+      13
+     ],
+     [
+      9029,
+      14
+     ],
+     [
+      9390,
+      15
+     ],
+     [
+      10089,
+      16
+     ],
+     [
+      10449,
+      17
+     ]
+    ]
+   },
+   "p1h-ekin": {
+    "s": 27088,
+    "d": 1129,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      242,
+      1
+     ],
+     [
+      444,
+      2
+     ],
+     [
+      886,
+      3
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 28518,
+    "d": 1123,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      693,
+      1
+     ]
+    ]
+   },
+   "p2": {
+    "s": 29942,
+    "d": 9070,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2849,
+      5
+     ],
+     [
+      3549,
+      6
+     ],
+     [
+      4009,
+      7
+     ],
+     [
+      4290,
+      8
+     ],
+     [
+      4529,
+      9
+     ],
+     [
+      5310,
+      10
+     ],
+     [
+      5830,
+      11
+     ],
+     [
+      6109,
+      12
+     ],
+     [
+      6949,
+      13
+     ],
+     [
+      7390,
+      14
+     ],
+     [
+      8190,
+      15
+     ],
+     [
+      8469,
+      16
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 39312,
+    "d": 1044,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ]
+    ]
+   },
+   "p2h-ekin": {
+    "s": 40656,
+    "d": 569,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 41526,
+    "d": 1969,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      417,
+      1
+     ],
+     [
+      795,
+      2
+     ],
+     [
+      1173,
+      3
+     ],
+     [
+      1390,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 43796,
+    "d": 2223,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 46320,
+    "d": 11671,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3189,
+      6
+     ],
+     [
+      3969,
+      7
+     ],
+     [
+      4629,
+      8
+     ],
+     [
+      5169,
+      9
+     ],
+     [
+      5549,
+      10
+     ],
+     [
+      6309,
+      11
+     ],
+     [
+      6669,
+      12
+     ],
+     [
+      7449,
+      13
+     ],
+     [
+      8109,
+      14
+     ],
+     [
+      8430,
+      15
+     ],
+     [
+      9190,
+      16
+     ],
+     [
+      9690,
+      17
+     ],
+     [
+      10609,
+      18
+     ],
+     [
+      11109,
+      19
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 58291,
+    "d": 1410,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      662,
+      1
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 60001,
+    "d": 2567,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1930,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 62869,
+    "d": 11011,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1889,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      3069,
+      5
+     ],
+     [
+      3349,
+      6
+     ],
+     [
+      3489,
+      7
+     ],
+     [
+      3989,
+      8
+     ],
+     [
+      5029,
+      9
+     ],
+     [
+      5669,
+      10
+     ],
+     [
+      6249,
+      11
+     ],
+     [
+      6449,
+      12
+     ],
+     [
+      6809,
+      13
+     ],
+     [
+      7309,
+      14
+     ],
+     [
+      7509,
+      15
+     ],
+     [
+      7890,
+      16
+     ],
+     [
+      8589,
+      17
+     ],
+     [
+      9209,
+      18
+     ],
+     [
+      9869,
+      19
+     ],
+     [
+      10190,
+      20
+     ],
+     [
+      10509,
+      21
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 74180,
+    "d": 2124,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      350,
+      1
+     ],
+     [
+      660,
+      2
+     ],
+     [
+      1153,
+      3
+     ],
+     [
+      1463,
+      4
+     ],
+     [
+      1773,
+      5
+     ]
+    ]
+   },
+   "p4h-ekin": {
+    "s": 76604,
+    "d": 1024,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      687,
+      1
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 77929,
+    "d": 2515,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      2089,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 80744,
+    "d": 13558,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      1889,
+      3
+     ],
+     [
+      2489,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3969,
+      7
+     ],
+     [
+      4709,
+      8
+     ],
+     [
+      5589,
+      9
+     ],
+     [
+      6249,
+      10
+     ],
+     [
+      7009,
+      11
+     ],
+     [
+      7449,
+      12
+     ],
+     [
+      7629,
+      13
+     ],
+     [
+      8009,
+      14
+     ],
+     [
+      8390,
+      15
+     ],
+     [
+      9209,
+      16
+     ],
+     [
+      9730,
+      17
+     ],
+     [
+      9949,
+      18
+     ],
+     [
+      10369,
+      19
+     ],
+     [
+      11189,
+      20
+     ],
+     [
+      11489,
+      21
+     ],
+     [
+      12449,
+      22
+     ],
+     [
+      12930,
+      23
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 94603,
+    "d": 2038,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1550,
+      3
+     ]
+    ]
+   },
+   "p5h-ekin": {
+    "s": 96941,
+    "d": 856,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      197,
+      1
+     ],
+     [
+      541,
+      2
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 98097,
+    "d": 1309,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      490,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

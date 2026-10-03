@@ -1,0 +1,1907 @@
+{
+ "id": "042-ay-neden-degisiyor",
+ "lang": "en",
+ "title": "Why Does the Moon Change?",
+ "theme": "Phases of the moon and watching the sky",
+ "blurb": "One evening Ela sees a thin little crescent in the sky and thinks someone has taken a bite out of the moon. With Hoot the owl, she watches the moon every evening for two weeks and draws it in her notebook; on a cloudy evening she learns to wait, and in the end she discovers from her own drawings that the moon is always round.",
+ "voiceNames": {
+  "ela": "Ela",
+  "huhu": "Hoot (owl)"
+ },
+ "pages": [
+  {
+   "text": "The sun set. The sky turned deep blue. Ela went out into the garden. In the west, over the trees, hung a thin little moon, just like a smile! Hoot the owl flapped on his branch: “Hoo-hoo! That's called a crescent, Ela.”",
+   "hits": {
+    "ay": {
+     "say": "A thin, shiny little crescent."
+    },
+    "ela": {
+     "say": "The moon is smiling!"
+    },
+    "huhu": {
+     "say": "Hoo-hoo! That's called a crescent."
+    }
+   },
+   "hint": "Touch the moon!",
+   "ask": "Have you ever seen a thin moon like this? What did it remind you of?"
+  },
+  {
+   "text": "Ela scratched her head. “Where is the rest of the moon? Did someone take a bite?” Hoot laughed: “Hoo-hoo! Nobody took a bite. Let's look at the moon every evening and draw it.” Ela grabbed her notebook.",
+   "hits": {
+    "ela": {
+     "say": "Did someone bite the moon?"
+    },
+    "huhu": {
+     "say": "Hoo-hoo! Let's look every evening!"
+    },
+    "ay": {
+     "say": "A thin crescent."
+    }
+   },
+   "predict": {
+    "q": "How do you think the moon will look tomorrow evening?",
+    "res": "Good guess! Let's look every evening and see.",
+    "opts": [
+     {
+      "l": "A bit fuller"
+     },
+     {
+      "l": "It disappears"
+     }
+    ]
+   },
+   "hint": "Touch Ela!",
+   "ask": "Where do you think the rest of the moon could have gone?"
+  },
+  {
+   "text": "Every evening Ela looked at the moon from her window and drew it in her notebook. One, two, three, four, five evenings went by. Each evening the moon looked a little bit fuller! “The moon is growing,” said Ela, “but so slowly!”",
+   "hits": {
+    "ela": {
+     "say": "The moon is growing, but so slowly!"
+    },
+    "huhu": {
+     "say": "Patience, Ela. A little each evening."
+    }
+   },
+   "mech": {
+    "done": "Five evenings! The moon looked fuller every evening.",
+    "msg": "You counted five evenings!"
+   },
+   "hint": "Count the evenings!",
+   "ask": "Why does Ela draw what she sees? What would you like to watch every day?"
+  },
+  {
+   "text": "One evening the sky filled with clouds. The moon was nowhere to be seen! Ela was sad. Her shoulders drooped. “Has the moon disappeared?” Hoot spoke in a soft, soft voice: “Take a deep breath. Let's wait.” Whoooo! The wind blew and pushed the clouds away. Look, what's behind the cloud?",
+   "hits": {
+    "ela": {
+     "say": "I'll breathe, and I'll wait."
+    },
+    "huhu": {
+     "say": "A deep breath. Let's wait."
+    },
+    "ay": {
+     "say": "Peekaboo! Here I am."
+    }
+   },
+   "mech": {
+    "done": "There's the moon! It was behind the cloud.",
+    "msg": "You found the moon!"
+   },
+   "hint": "Look behind the cloud!",
+   "ask": "What did Ela do when she felt sad? What do you do when waiting is hard?",
+   "cues": [
+    {
+     "w": 37,
+     "fx": "ruzgar"
+    }
+   ]
+  },
+  {
+   "text": "For almost two weeks, Ela watched the moon. Then one evening, over the trees in the east, a huge round moon rose up. “Full moon!” shouted Ela. She hopped, hop, hop! Hoot spread his wings: “Hoo-hoo! It was worth the wait, wasn't it?”",
+   "hits": {
+    "dolunay": {
+     "say": "Huge, round and shiny!"
+    },
+    "ela": {
+     "say": "Full moon! Full moon!"
+    },
+    "huhu": {
+     "say": "Hoo-hoo! Worth the wait!"
+    }
+   },
+   "hint": "Touch the full moon!",
+   "ask": "How did the moon change from a thin crescent to a full moon? Have you ever waited a long time for something?"
+  },
+  {
+   "text": "Ela opened her notebook. Thin moon, fuller moon, full moon! “The moon never disappeared,” said Ela. “It was there all along! Nobody took a bite!” Hoot laughed: “Hoo-hoo! The moon is round like a ball. The sun lights it up. Sometimes we see a little of its bright side, sometimes all of it.”",
+   "hits": {
+    "ela": {
+     "say": "Nobody took a bite! I'll look again tomorrow!"
+    },
+    "huhu": {
+     "say": "The moon is always round, Ela."
+    },
+    "top": {
+     "say": "The light shines on one side of the ball."
+    }
+   },
+   "hint": "Touch the ball!",
+   "ask": "If you looked out of the window tonight, how would the moon look? Shall we look together?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 Making scientific observations of science-related events, phenomena and situations in everyday life: watches the Moon every evening for two weeks and draws what they see in a notebook; looking at their drawings, notices that the moon looks different in a regular pattern from crescent to full moon.",
+   "E3.8 Asking Questions: asks curious questions such as “Where is the rest of the moon?” and looks for the answer through observation.",
+   "SDB1.3 Adapting and D12 Patience: when the plan changes on a cloudy evening, adapts to the situation by saying “We couldn't see it today, we'll look again tomorrow.” Meanwhile notices their sadness and calms down by breathing (also linked to SDB1.2 Self-Regulation)."
+  ],
+  "once": [
+   "Show the cover and ask: “Does the moon always look the same? What shapes have you seen the moon in?”",
+   "Ask the children to draw a crescent and a full moon in the air with their fingers."
+  ],
+  "sirasi": [
+   "Pause at the prediction question on page 2; note the children's guesses on the board or on paper and compare them at the end of the story.",
+   "On page 3, count the evenings together by touching the cards; ask “What did Ela see each evening?” Ela says “The moon is growing”: ask “Do you think the moon is really growing?” and leave the answer for the last page.",
+   "On page 4, take a deep breath together with Ela: in through the nose, slowly out through the mouth. Then look for the moon behind the cloud together.",
+   "On the last page, shine a light on a ball from the side to show Ela's discovery: the ball is always round, and we see more or less of the lit side depending on where we look from."
+  ],
+  "sonra": [
+   "Have them put the moons in order: “Which moons were in Ela's notebook? Which came first, which came next?”",
+   "With the question “How did Ela feel when the clouds covered the moon, and what did she do?”, talk about ways to cope while waiting.",
+   "In the ordering game at the end of the story, build the sequence together: crescent → growing moon → full moon."
+  ],
+  "sinif": {
+   "ad": "The Class Moon Diary",
+   "sure": "15 min (plus 2 min a day for two weeks)",
+   "materyal": "A white ball or an orange, a torch, a room that can be darkened, large paper, yellow and dark blue pastels",
+   "adim": [
+    "Darken the room. Put the light (the Sun) on a fixed table; do not shine it in the children's eyes. One child sits in the middle (the observer on Earth). The teacher slowly moves the ball (the Moon) around the observer. The children take turns sitting in the middle and looking.",
+    "The child in the middle says that the lit side of the ball sometimes looks thin, sometimes half, sometimes full.",
+    "Draw fourteen boxes on the large paper. Families watch the moon in the evening and draw what the child describes; fill in the box together each morning in class. Draw a cloud in the box for cloudy evenings.",
+    "After two weeks, look at the drawings and talk: “How did the moon change?” Compare with the guesses made on the first day."
+   ]
+  },
+  "evSoru": [
+   "What did Ela think when she first saw the moon?",
+   "How did Ela feel when the clouds covered the moon? What do you do while you wait?",
+   "Does the moon really shrink and grow, or do we just see it differently?"
+  ],
+  "evEtk": {
+   "ad": "Evening Moon Watch",
+   "d": "When the moon appears as a new crescent (you can check a calendar), look to the west after sunset. For two weeks, watch the moon together from the window for a few minutes every evening and stick the moon your child draws into a notebook. On cloudy evenings, practise waiting together by saying “We couldn't see it today, we'll look again tomorrow.”"
+  },
+  "aileNotu": "Today we read “Why Does the Moon Change?” Ela watched and drew the moon for two weeks and discovered that it looks a little fuller every evening, from a thin crescent to a full moon; on a cloudy evening she also practised breathing and waiting. Looking at the moon together from the window in the evenings and having your child draw what they see supports their observation skills and patience. The moon is always round; we sometimes see a little of the side lit by the Sun, and sometimes all of it."
+ },
+ "audio": {
+  "file": "audio/en/042-ay-neden-degisiyor.mp3",
+  "hash": "0977d939",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15882,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      3769,
+      8
+     ],
+     [
+      4049,
+      9
+     ],
+     [
+      4249,
+      10
+     ],
+     [
+      4410,
+      11
+     ],
+     [
+      4629,
+      12
+     ],
+     [
+      4749,
+      13
+     ],
+     [
+      5589,
+      14
+     ],
+     [
+      5689,
+      15
+     ],
+     [
+      5830,
+      16
+     ],
+     [
+      6410,
+      17
+     ],
+     [
+      6649,
+      18
+     ],
+     [
+      6789,
+      19
+     ],
+     [
+      7370,
+      20
+     ],
+     [
+      7569,
+      21
+     ],
+     [
+      7729,
+      22
+     ],
+     [
+      8069,
+      23
+     ],
+     [
+      8350,
+      24
+     ],
+     [
+      9049,
+      25
+     ],
+     [
+      9329,
+      26
+     ],
+     [
+      9489,
+      27
+     ],
+     [
+      9609,
+      28
+     ],
+     [
+      10649,
+      29
+     ],
+     [
+      10890,
+      30
+     ],
+     [
+      11089,
+      31
+     ],
+     [
+      11430,
+      32
+     ],
+     [
+      11810,
+      33
+     ],
+     [
+      11930,
+      34
+     ],
+     [
+      12109,
+      35
+     ],
+     [
+      12909,
+      36
+     ],
+     [
+      14209,
+      37
+     ],
+     [
+      14489,
+      38
+     ],
+     [
+      14729,
+      39
+     ],
+     [
+      14850,
+      40
+     ],
+     [
+      15469,
+      41
+     ]
+    ]
+   },
+   "p0h-ay": {
+    "s": 16182,
+    "d": 2301,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 18783,
+    "d": 1617,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p0h-huhu": {
+    "s": 20701,
+    "d": 3068,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1389,
+      1
+     ],
+     [
+      1749,
+      2
+     ],
+     [
+      2209,
+      3
+     ],
+     [
+      2349,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24070,
+    "d": 13376,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      2509,
+      7
+     ],
+     [
+      2789,
+      8
+     ],
+     [
+      2890,
+      9
+     ],
+     [
+      3009,
+      10
+     ],
+     [
+      3689,
+      11
+     ],
+     [
+      3910,
+      12
+     ],
+     [
+      4209,
+      13
+     ],
+     [
+      4390,
+      14
+     ],
+     [
+      4509,
+      15
+     ],
+     [
+      5390,
+      16
+     ],
+     [
+      5749,
+      17
+     ],
+     [
+      6529,
+      18
+     ],
+     [
+      7689,
+      19
+     ],
+     [
+      8169,
+      20
+     ],
+     [
+      8369,
+      21
+     ],
+     [
+      8469,
+      22
+     ],
+     [
+      9230,
+      23
+     ],
+     [
+      9469,
+      24
+     ],
+     [
+      9629,
+      25
+     ],
+     [
+      9709,
+      26
+     ],
+     [
+      9829,
+      27
+     ],
+     [
+      10169,
+      28
+     ],
+     [
+      10529,
+      29
+     ],
+     [
+      10930,
+      30
+     ],
+     [
+      11069,
+      31
+     ],
+     [
+      11390,
+      32
+     ],
+     [
+      12129,
+      33
+     ],
+     [
+      12329,
+      34
+     ],
+     [
+      12689,
+      35
+     ],
+     [
+      12829,
+      36
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 37746,
+    "d": 1659,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1229,
+      4
+     ]
+    ]
+   },
+   "p1h-huhu": {
+    "s": 39706,
+    "d": 3031,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1269,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2410,
+      4
+     ]
+    ]
+   },
+   "p1h-ay": {
+    "s": 43037,
+    "d": 1343,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      589,
+      2
+     ]
+    ]
+   },
+   "p1q": {
+    "s": 44681,
+    "d": 2430,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      809,
+      5
+     ],
+     [
+      1089,
+      6
+     ],
+     [
+      1269,
+      7
+     ],
+     [
+      1469,
+      8
+     ],
+     [
+      1889,
+      9
+     ]
+    ]
+   },
+   "p1r": {
+    "s": 47411,
+    "d": 2892,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2489,
+      7
+     ]
+    ]
+   },
+   "p2": {
+    "s": 50604,
+    "d": 16288,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1729,
+      6
+     ],
+     [
+      2029,
+      7
+     ],
+     [
+      2229,
+      8
+     ],
+     [
+      2390,
+      9
+     ],
+     [
+      2910,
+      10
+     ],
+     [
+      3069,
+      11
+     ],
+     [
+      3349,
+      12
+     ],
+     [
+      3469,
+      13
+     ],
+     [
+      3589,
+      14
+     ],
+     [
+      3729,
+      15
+     ],
+     [
+      4870,
+      16
+     ],
+     [
+      5430,
+      17
+     ],
+     [
+      6169,
+      18
+     ],
+     [
+      6850,
+      19
+     ],
+     [
+      7589,
+      20
+     ],
+     [
+      8049,
+      21
+     ],
+     [
+      8489,
+      22
+     ],
+     [
+      8690,
+      23
+     ],
+     [
+      9469,
+      24
+     ],
+     [
+      9789,
+      25
+     ],
+     [
+      10230,
+      26
+     ],
+     [
+      10369,
+      27
+     ],
+     [
+      10629,
+      28
+     ],
+     [
+      10890,
+      29
+     ],
+     [
+      11009,
+      30
+     ],
+     [
+      11270,
+      31
+     ],
+     [
+      11489,
+      32
+     ],
+     [
+      12430,
+      33
+     ],
+     [
+      12589,
+      34
+     ],
+     [
+      12850,
+      35
+     ],
+     [
+      13029,
+      36
+     ],
+     [
+      13930,
+      37
+     ],
+     [
+      14209,
+      38
+     ],
+     [
+      14749,
+      39
+     ],
+     [
+      15029,
+      40
+     ],
+     [
+      15390,
+      41
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 67192,
+    "d": 3246,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2449,
+      6
+     ]
+    ]
+   },
+   "p2h-huhu": {
+    "s": 70739,
+    "d": 2974,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2469,
+      5
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 74013,
+    "d": 4080,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1809,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2569,
+      5
+     ],
+     [
+      3089,
+      6
+     ],
+     [
+      3489,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 78393,
+    "d": 22542,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2049,
+      6
+     ],
+     [
+      3049,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      3469,
+      9
+     ],
+     [
+      3729,
+      10
+     ],
+     [
+      4149,
+      11
+     ],
+     [
+      4249,
+      12
+     ],
+     [
+      4449,
+      13
+     ],
+     [
+      5469,
+      14
+     ],
+     [
+      5769,
+      15
+     ],
+     [
+      6009,
+      16
+     ],
+     [
+      6870,
+      17
+     ],
+     [
+      7069,
+      18
+     ],
+     [
+      7629,
+      19
+     ],
+     [
+      8669,
+      20
+     ],
+     [
+      8869,
+      21
+     ],
+     [
+      9009,
+      22
+     ],
+     [
+      9310,
+      23
+     ],
+     [
+      10589,
+      24
+     ],
+     [
+      10909,
+      25
+     ],
+     [
+      11350,
+      26
+     ],
+     [
+      11469,
+      27
+     ],
+     [
+      11649,
+      28
+     ],
+     [
+      12289,
+      29
+     ],
+     [
+      12689,
+      30
+     ],
+     [
+      13669,
+      31
+     ],
+     [
+      13909,
+      32
+     ],
+     [
+      14029,
+      33
+     ],
+     [
+      14329,
+      34
+     ],
+     [
+      15209,
+      35
+     ],
+     [
+      15489,
+      36
+     ],
+     [
+      16409,
+      37
+     ],
+     [
+      17930,
+      38
+     ],
+     [
+      18089,
+      39
+     ],
+     [
+      18430,
+      40
+     ],
+     [
+      18950,
+      41
+     ],
+     [
+      19169,
+      42
+     ],
+     [
+      19509,
+      43
+     ],
+     [
+      19629,
+      44
+     ],
+     [
+      19989,
+      45
+     ],
+     [
+      20789,
+      46
+     ],
+     [
+      21409,
+      47
+     ],
+     [
+      21649,
+      48
+     ],
+     [
+      21930,
+      49
+     ],
+     [
+      22030,
+      50
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 101236,
+    "d": 2223,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1729,
+      4
+     ]
+    ]
+   },
+   "p3h-huhu": {
+    "s": 103759,
+    "d": 2357,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1889,
+      4
+     ]
+    ]
+   },
+   "p3h-ay": {
+    "s": 106417,
+    "d": 1777,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 108494,
+    "d": 2512,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      1809,
+      6
+     ],
+     [
+      1930,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 111306,
+    "d": 18069,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      2489,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      4029,
+      9
+     ],
+     [
+      4189,
+      10
+     ],
+     [
+      4830,
+      11
+     ],
+     [
+      5069,
+      12
+     ],
+     [
+      5189,
+      13
+     ],
+     [
+      5549,
+      14
+     ],
+     [
+      5629,
+      15
+     ],
+     [
+      5809,
+      16
+     ],
+     [
+      6350,
+      17
+     ],
+     [
+      6549,
+      18
+     ],
+     [
+      7169,
+      19
+     ],
+     [
+      7649,
+      20
+     ],
+     [
+      8009,
+      21
+     ],
+     [
+      8310,
+      22
+     ],
+     [
+      8969,
+      23
+     ],
+     [
+      9310,
+      24
+     ],
+     [
+      10190,
+      25
+     ],
+     [
+      10629,
+      26
+     ],
+     [
+      11310,
+      27
+     ],
+     [
+      11549,
+      28
+     ],
+     [
+      12189,
+      29
+     ],
+     [
+      12589,
+      30
+     ],
+     [
+      13270,
+      31
+     ],
+     [
+      13629,
+      32
+     ],
+     [
+      13969,
+      33
+     ],
+     [
+      14149,
+      34
+     ],
+     [
+      14930,
+      35
+     ],
+     [
+      16289,
+      36
+     ],
+     [
+      16409,
+      37
+     ],
+     [
+      16629,
+      38
+     ],
+     [
+      16909,
+      39
+     ],
+     [
+      17089,
+      40
+     ],
+     [
+      17469,
+      41
+     ],
+     [
+      17809,
+      42
+     ]
+    ]
+   },
+   "p4h-dolunay": {
+    "s": 129676,
+    "d": 2483,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      1030,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      1829,
+      3
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 132459,
+    "d": 2127,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1609,
+      3
+     ]
+    ]
+   },
+   "p4h-huhu": {
+    "s": 134887,
+    "d": 2568,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1449,
+      1
+     ],
+     [
+      1849,
+      2
+     ],
+     [
+      2049,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 137755,
+    "d": 21497,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2930,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      4269,
+      8
+     ],
+     [
+      4609,
+      9
+     ],
+     [
+      5529,
+      10
+     ],
+     [
+      5729,
+      11
+     ],
+     [
+      6129,
+      12
+     ],
+     [
+      6469,
+      13
+     ],
+     [
+      7489,
+      14
+     ],
+     [
+      7870,
+      15
+     ],
+     [
+      8430,
+      16
+     ],
+     [
+      8529,
+      17
+     ],
+     [
+      8709,
+      18
+     ],
+     [
+      8969,
+      19
+     ],
+     [
+      9190,
+      20
+     ],
+     [
+      10129,
+      21
+     ],
+     [
+      10569,
+      22
+     ],
+     [
+      10770,
+      23
+     ],
+     [
+      10869,
+      24
+     ],
+     [
+      11730,
+      25
+     ],
+     [
+      12129,
+      26
+     ],
+     [
+      12890,
+      27
+     ],
+     [
+      14109,
+      28
+     ],
+     [
+      14270,
+      29
+     ],
+     [
+      14609,
+      30
+     ],
+     [
+      14869,
+      31
+     ],
+     [
+      15310,
+      32
+     ],
+     [
+      15509,
+      33
+     ],
+     [
+      15629,
+      34
+     ],
+     [
+      16370,
+      35
+     ],
+     [
+      16589,
+      36
+     ],
+     [
+      16930,
+      37
+     ],
+     [
+      17209,
+      38
+     ],
+     [
+      17329,
+      39
+     ],
+     [
+      17930,
+      40
+     ],
+     [
+      18509,
+      41
+     ],
+     [
+      18690,
+      42
+     ],
+     [
+      18869,
+      43
+     ],
+     [
+      18969,
+      44
+     ],
+     [
+      19229,
+      45
+     ],
+     [
+      19329,
+      46
+     ],
+     [
+      19489,
+      47
+     ],
+     [
+      19789,
+      48
+     ],
+     [
+      20409,
+      49
+     ],
+     [
+      20969,
+      50
+     ],
+     [
+      21149,
+      51
+     ],
+     [
+      21270,
+      52
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 159553,
+    "d": 3318,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      867,
+      2
+     ],
+     [
+      1104,
+      3
+     ],
+     [
+      1799,
+      4
+     ],
+     [
+      2037,
+      5
+     ],
+     [
+      2274,
+      6
+     ],
+     [
+      2688,
+      7
+     ]
+    ]
+   },
+   "p5h-huhu": {
+    "s": 163171,
+    "d": 2569,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2150,
+      5
+     ]
+    ]
+   },
+   "p5h-top": {
+    "s": 166041,
+    "d": 2270,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1629,
+      6
+     ],
+     [
+      1729,
+      7
+     ],
+     [
+      1829,
+      8
+     ]
+    ]
+   }
+  }
+ }
+}

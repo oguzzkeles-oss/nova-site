@@ -1,0 +1,1616 @@
+{
+ "id": "024-zit-kardesler-hizli-yavas",
+ "n": 24,
+ "title": "Islak mı, Kuru mu?",
+ "age": "36-48",
+ "area": "Türkçe",
+ "theme": "Zıt kavramlar ve farklı tercihlere saygı",
+ "values": [
+  "D14 Saygı"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 4,
+ "blurb": "Kurbağa Yeşim ıslak birikintilere bayılır, kuzu Yumak ise kupkuru kalmak ister. Biri ıslak, biri kuru iki arkadaş birlikte nasıl oynayacak?",
+ "codes": {
+  "maarif": [
+   "TADB.2 Dinledikleri/izledikleri materyaller ile ilgili yeni anlamlar oluşturabilme",
+   "MAB.4 Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme (MAB.4.b Nesneleri, olguları ve olayları karşılaştırır)",
+   "E3.5 Açık Fikirlilik",
+   "SDB2.3 Sosyal Farkındalık",
+   "D14 Saygı"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "yesim": "hayvan-kiz",
+  "yumak": "kucuk-hayvan",
+  "badi": "hayvan-erkek"
+ },
+ "voiceNames": {
+  "yesim": "Yeşim (kurbağa)",
+  "yumak": "Yumak (kuzu)",
+  "badi": "Badi (ördek)"
+ },
+ "pages": [
+  {
+   "text": "Pıt pıt pıt! Çiftlikte yağmur yağıyordu. Kurbağa Yeşim birikintiye atladı. Şap! “Islak ne güzel!” dedi. Kuzu Yumak ahırdan baktı.",
+   "scene": {
+    "set": "ciftlik",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "kuzu",
+      "x": 72,
+      "y": 192,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "yumak"
+     },
+     {
+      "k": "kurbaga",
+      "x": 238,
+      "y": 228,
+      "s": 1.8,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "yesim"
+     },
+     {
+      "k": "ordek",
+      "x": 352,
+      "y": 210,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "badi",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "birikinti",
+      "x": 238,
+      "y": 228,
+      "s": 1.2,
+      "w": 1.4,
+      "hit": "su"
+     }
+    ]
+   },
+   "hits": {
+    "yesim": {
+     "say": "Şap şap! Islak ne güzel!",
+     "voice": "yesim",
+     "anim": "jump",
+     "fx": "splash"
+    },
+    "yumak": {
+     "say": "Mee! Ben Yumak. Ben kuruyum!",
+     "voice": "yumak",
+     "anim": "boing",
+     "fx": "baa"
+    },
+    "badi": {
+     "say": "Vak vak! Ben Badi!",
+     "voice": "badi",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "su": {
+     "anim": "wiggle",
+     "fx": "splash"
+    }
+   },
+   "hint": [
+    "yesim",
+    "Yeşim'e dokun!"
+   ],
+   "ask": "Yağmur yağınca sen ne yaparsın? Dışarı mı çıkarsın, içeride mi kalırsın?"
+  },
+  {
+   "text": "Yeşim seslendi: “Gel, Yumak, birlikte zıplayalım!” Yumak titredi: “Brr! Su soğuk. Ben kuru kalayım.”",
+   "scene": {
+    "set": "ciftlik",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "kuzu",
+      "x": 74,
+      "y": 193,
+      "s": 1.15,
+      "mood": "shy",
+      "pose": "stand",
+      "hit": "yumak"
+     },
+     {
+      "k": "kurbaga",
+      "x": 190,
+      "y": 224,
+      "s": 1.7,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "yesim",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "birikinti",
+      "x": 200,
+      "y": 224,
+      "s": 1.2,
+      "w": 1.4,
+      "hit": "su"
+     }
+    ]
+   },
+   "hits": {
+    "yesim": {
+     "say": "Gel! Şap şap, çok güzel!",
+     "voice": "yesim",
+     "anim": "jump",
+     "fx": "splash"
+    },
+    "yumak": {
+     "say": "Brr! Yünüm ıslanır, üşürüm.",
+     "voice": "yumak",
+     "anim": "wiggle",
+     "fx": "baa"
+    },
+    "su": {
+     "anim": "wiggle",
+     "fx": "splash"
+    }
+   },
+   "hint": [
+    "yumak",
+    "Yumak'a dokun!"
+   ],
+   "ask": "Yumak neden dışarı çıkmak istemiyor?"
+  },
+  {
+   "text": "“Islak daha güzel!” dedi Yeşim. “Hayır, kuru daha güzel!” dedi Yumak. İkisi de kızdı. Yeşim yanaklarını şişirdi. Yumak ayağını yere vurdu: tak tak!",
+   "scene": {
+    "set": "ciftlik",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "kuzu",
+      "x": 120,
+      "y": 206,
+      "s": 1.2,
+      "mood": "angry",
+      "pose": "stand",
+      "hit": "yumak"
+     },
+     {
+      "k": "kurbaga",
+      "x": 215,
+      "y": 228,
+      "s": 1.7,
+      "mood": "angry",
+      "pose": "sit",
+      "hit": "yesim",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "birikinti",
+      "x": 225,
+      "y": 228,
+      "s": 1.1,
+      "w": 1.2
+     }
+    ]
+   },
+   "hits": {
+    "yesim": {
+     "say": "Hımf! Islak daha güzel!",
+     "voice": "yesim",
+     "anim": "wiggle",
+     "fx": "ribbit"
+    },
+    "yumak": {
+     "say": "Hıh! Kuru daha güzel!",
+     "voice": "yumak",
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "predict": {
+    "q": "Sence Yeşim şimdi ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Şemsiye getirir",
+      "scene": {
+       "set": "ciftlik",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "kuzu",
+         "x": 74,
+         "y": 193,
+         "s": 1.0,
+         "mood": "surprised",
+         "pose": "stand"
+        },
+        {
+         "k": "kurbaga",
+         "x": 236,
+         "y": 228,
+         "s": 2.2,
+         "mood": "happy",
+         "pose": "wave",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "semsiye",
+         "x": 172,
+         "y": 200,
+         "s": 1.1,
+         "state": "off",
+         "lean": true
+        }
+       ]
+      }
+     },
+     {
+      "l": "Ahıra gelir",
+      "scene": {
+       "set": "ciftlik",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "kuzu",
+         "x": 88,
+         "y": 193,
+         "s": 0.95,
+         "mood": "laugh",
+         "pose": "stand"
+        },
+        {
+         "k": "kurbaga",
+         "x": 44,
+         "y": 197,
+         "s": 1.4,
+         "mood": "laugh",
+         "pose": "wave"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "yesim",
+    "Yeşim'e dokun!"
+   ],
+   "ask": "Yeşim ile Yumak neden kızdı? Sen kızınca ne yaparsın?"
+  },
+  {
+   "text": "İkisi de derin bir nefes aldı. Yeşim ahırın yanında bir şemsiye gördü. Ama kapalı! Yeşim şemsiyeyi açtı. “Yumak, bununla kuru kalırsın!”",
+   "scene": {
+    "set": "ciftlik",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "kuzu",
+      "x": 72,
+      "y": 193,
+      "s": 1.15,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "yumak"
+     },
+     {
+      "k": "kurbaga",
+      "x": 215,
+      "y": 226,
+      "s": 1.7,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "yesim",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "semsiye",
+      "x": 165,
+      "y": 206,
+      "s": 1.15,
+      "state": "off",
+      "lean": true,
+      "hit": "semsiye"
+     },
+     {
+      "k": "birikinti",
+      "x": 300,
+      "y": 230,
+      "s": 1.1,
+      "w": 1.2
+     }
+    ]
+   },
+   "hits": {
+    "yesim": {
+     "say": "Al Yumak, senin için!",
+     "voice": "yesim",
+     "anim": "jump",
+     "fx": "ribbit"
+    },
+    "yumak": {
+     "say": "Şemsiye mi? Ne güzel fikir!",
+     "voice": "yumak",
+     "anim": "boing",
+     "fx": "baa"
+    }
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "semsiye"
+    ],
+    "done": "Pat! Şemsiye açıldı. Şimdi açık!",
+    "msg": "Kapalıydı, şimdi açık!"
+   },
+   "hint": [
+    "semsiye",
+    "Şemsiyeye dokun, açılsın!"
+   ],
+   "ask": "Yeşim, Yumak'a nasıl yardım etti? Sen arkadaşına nasıl yardım edersin?"
+  },
+  {
+   "text": "Yumak açık şemsiyeyle dışarı çıktı: kupkuru! Yeşim birikintiye zıpladı: şap! Yumak saydı: “Bir, iki, üç, zıpla!” Ördek Badi güldü: “Vak! Biri kuru, biri ıslak!”",
+   "scene": {
+    "set": "ciftlik",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "kuzu",
+      "x": 110,
+      "y": 222,
+      "s": 1.25,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "yumak"
+     },
+     {
+      "k": "kurbaga",
+      "x": 225,
+      "y": 230,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "yesim"
+     },
+     {
+      "k": "ordek",
+      "x": 350,
+      "y": 222,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "badi",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "semsiye",
+      "x": 118,
+      "y": 200,
+      "s": 1.3,
+      "state": "on",
+      "hit": "acik"
+     },
+     {
+      "k": "birikinti",
+      "x": 225,
+      "y": 230,
+      "s": 1.3,
+      "w": 1.5
+     },
+     {
+      "k": "semsiye",
+      "x": 318,
+      "y": 224,
+      "s": 0.95,
+      "state": "off",
+      "lean": true,
+      "color": "#3E7BD6",
+      "hit": "kapali"
+     }
+    ]
+   },
+   "hits": {
+    "badi": {
+     "say": "Vak! Şemsiyem kapalı. Ördekler ıslanmaz ki!",
+     "voice": "badi",
+     "anim": "wiggle",
+     "fx": "quack"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "yumak",
+      "yesim"
+     ],
+     [
+      "acik",
+      "kapali"
+     ]
+    ],
+    "done": "Kuru ile ıslak, açık ile kapalı!",
+    "msg": "Eşleri buldun!"
+   },
+   "hint": [
+    "yumak",
+    "Kuruyu ıslakla eşleştir!"
+   ],
+   "ask": "Sen şemsiyeyle mi oynamak isterdin, birikintide mi? Neden?"
+  },
+  {
+   "text": "Yağmur durdu, güneş çıktı. Yumak sıcak güneşte ısındı. Yeşim soğuk suda serinledi. Biri kuru sever, biri ıslak. Ama oyunları hep ortak!",
+   "scene": {
+    "set": "ciftlik",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 300,
+      "y": 46,
+      "hit": "gunes"
+     },
+     {
+      "k": "kurbaga",
+      "x": 150,
+      "y": 230,
+      "s": 1.8,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "yesim"
+     },
+     {
+      "k": "kuzu",
+      "x": 262,
+      "y": 222,
+      "s": 1.3,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "yumak",
+      "flip": true
+     },
+     {
+      "k": "ordek",
+      "x": 352,
+      "y": 210,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "swim",
+      "hit": "badi",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "birikinti",
+      "x": 150,
+      "y": 230,
+      "s": 1.3,
+      "w": 1.6,
+      "hit": "su"
+     },
+     {
+      "k": "semsiye",
+      "x": 60,
+      "y": 234,
+      "s": 0.75,
+      "state": "on",
+      "lay": true
+     }
+    ]
+   },
+   "hits": {
+    "yumak": {
+     "say": "Oh, sıcacık! Ben kuru severim.",
+     "voice": "yumak",
+     "anim": "jump",
+     "fx": "baa",
+     "hearts": true
+    },
+    "yesim": {
+     "say": "Oh, serin serin! Ben ıslak severim.",
+     "voice": "yesim",
+     "anim": "jump",
+     "fx": "splash",
+     "hearts": true
+    },
+    "badi": {
+     "say": "Vak! Ben ikisini de severim!",
+     "voice": "badi",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "gunes": {
+     "say": "Sıcak güneş!",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "su": {
+     "say": "Soğuk su, serin su!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "splash"
+    }
+   },
+   "hint": [
+    "yesim",
+    "Arkadaşlara dokun!"
+   ],
+   "ask": "Sen ıslak mı seversin, kuru mu? Arkadaşın hangisini sever?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.2 (öğrenme çıktısı): Dinledikleri/izledikleri şiir, hikâye, tekerleme gibi materyaller ile ilgili yeni anlamlar oluşturabilme; materyallere ilişkin çıkarım yapar, materyallerdeki bilgilerle günlük hayatı arasında ilişki kurar (süreç bileşenleri). Çocuk, Yumak'ın neden ahırdan çıkmadığını ve Yeşim'in neden şemsiye bulduğunu çıkarır; kendi yağmurlu gün tercihlerini anlatır.",
+   "MAB.4 (öğrenme çıktısı): Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme; MAB.4.b Nesneleri, olguları ve olayları karşılaştırır (süreç bileşeni). Çocuk açık ve kapalı şemsiyeyi, kupkuru Yumak ile sırılsıklam Yeşim'i karşılaştırıp zıt eşlerini bulur.",
+   "E3.5 Açık Fikirlilik (eğilim) ve SDB2.3 Sosyal Farkındalık (sosyal-duygusal öğrenme becerisi): Arkadaşının kendisinden farklı bir şeyi sevebileceğini fark eder; farklı tercihleri dinler ve ikisinin de mutlu olacağı bir oyun yolu arar.",
+   "D14 Saygı (değer): Yeşim'in Yumak'ı zorlamadan ona şemsiye bulması, Yumak'ın da şemsiyesiyle dışarı çıkıp Yeşim'in birikinti zıplamasına “Bir, iki, üç, zıpla!” diye sayarak katılması üzerinden farklı tercihlere iki yönlü saygıyı ve ortak oyunu görür."
+  ],
+  "once": [
+   "Pencereden bakın ya da bir yağmur resmi gösterin: “Yağmurda dışarı çıkmak mı hoşuna gider, içeride kalmak mı?” Her cevabı kabul edin.",
+   "Bir peçeteyi ıslatın, birini kuru bırakın. Çocuk ikisine de dokunsun; birlikte “ıslak” ve “kuru” deyin."
+  ],
+  "sirasi": [
+   "1. sayfada “pıt pıt pıt” ve “şap!” seslerini parmaklarınızla ve avucunuzla birlikte yapın.",
+   "2. ve 3. sayfada duyguları adlandırın: “Yumak üşüdü, titredi. Sonra ikisi de kızdı.” Yeşim'in yanak şişirmesini ve Yumak'ın ayak vurmasını birlikte taklit edin.",
+   "3. sayfadaki tahmin sorusunda her cevabı kabul edin; “Başka ne yapabilirler?” diye sorun.",
+   "4. sayfada önce derin bir nefes alın. Sonra “Şemsiye kapalı” deyin; çocuk dokununca birlikte “Şimdi açık!” diye söyleyin.",
+   "5. sayfada Yumak'la birlikte “Bir, iki, üç, zıpla!” diye sayın. Eşleştirmeden önce sorun: “Kim kuru? Kim ıslak?” Çocuk eşleri bulunca zıt sözcükleri yüksek sesle tekrar edin.",
+   "6. sayfada güneşe ve birikintiye dokunup “sıcak” ve “soğuk” deyin; sonra kapanış tekerlemesini (“Biri kuru sever, biri ıslak. Ama oyunları hep ortak!”) birlikte söyleyin."
+  ],
+  "sonra": [
+   "Yeşim neyi severdi, Yumak neyi severdi? Badi hangisini severdi?",
+   "Yeşim, Yumak'ı zorlamak yerine ne yaptı? Yumak da Yeşim'in oyununa nasıl katıldı?",
+   "Senin sevdiğin ama arkadaşının sevmediği bir şey var mı? Birlikte nasıl oynarsınız?"
+  ],
+  "sinif": {
+   "ad": "Zıt Kardeşler Oyunu",
+   "sure": "15 dk",
+   "materyal": "Bir çocuk şemsiyesi, ıslak ve kuru birer sünger, ılık ve serin su dolu iki kap (öğretmen hazırlar), zıt eş resim kartları (açık–kapalı kapı, ıslak–kuru çorap, sıcak çorba–soğuk ayran)",
+   "adim": [
+    "Çocuklar çember olur. Öğretmen şemsiyeyi açıp kapatır; çocuklar hep birlikte “Açık!”, “Kapalı!” diye söyler.",
+    "Süngerler ve su kapları elden ele dolaşır. Çocuklar dokunup “ıslak–kuru”, “sıcak–soğuk” der.",
+    "Resim kartları yere karışık konur. Her çocuk bir kart seçer, zıt eşini bulur ve iki sözcüğü söyler.",
+    "Kapanışta her çocuk “Ben ... severim.” der. Arkadaşı “Sen ... seversin, ben de ... severim.” diye karşılık verir; kimse “Olmaz!” demez."
+   ]
+  },
+  "evSoru": [
+   "Yumak neden şemsiyenin altına girdi?",
+   "Yeşim neden birikintiyi seviyordu?",
+   "Evde kim sıcak çorba sever, kim soğuk ayran?"
+  ],
+  "evEtk": {
+   "ad": "Evde Zıt Avı",
+   "d": "Evde birlikte zıt eşler arayın: açık–kapalı kapı, ıslak–kuru havlu, ılık–serin musluk suyu. Her eşi bulunca el çırpıp iki sözcüğü söyleyin. Sonra her aile bireyi sırayla “Ben ... severim” desin; diğerleri “Olmaz!” demeden dinlesin."
+  },
+  "aileNotu": "Bugün “Islak mı, Kuru mu?” masalını okuduk. Kurbağa Yeşim ıslak birikintileri, kuzu Yumak ise kuru kalmayı seviyordu; önce tartıştılar, sonra bir şemsiyeyle ikisinin de mutlu olduğu ortak bir oyun buldular. Çocuklarımız ıslak–kuru, sıcak–soğuk, açık–kapalı gibi zıt sözcükleri eşleştirdi ve farklı tercihlere saygıyı konuştu. Evde birlikte zıt avı yapabilir, her aile bireyinin neyi sevdiğini dinleyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/024-zit-kardesler-hizli-yavas.mp3",
+  "hash": "83426a63",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11029,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      3410,
+      6
+     ],
+     [
+      3969,
+      7
+     ],
+     [
+      4330,
+      8
+     ],
+     [
+      5089,
+      9
+     ],
+     [
+      6029,
+      10
+     ],
+     [
+      6949,
+      11
+     ],
+     [
+      7469,
+      12
+     ],
+     [
+      7629,
+      13
+     ],
+     [
+      8350,
+      14
+     ],
+     [
+      9049,
+      15
+     ],
+     [
+      9409,
+      16
+     ],
+     [
+      9989,
+      17
+     ],
+     [
+      10549,
+      18
+     ]
+    ]
+   },
+   "p0h-yesim": {
+    "s": 11329,
+    "d": 2033,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p0h-yumak": {
+    "s": 13663,
+    "d": 2338,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1689,
+      4
+     ]
+    ]
+   },
+   "p0h-badi": {
+    "s": 16302,
+    "d": 1412,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      889,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18014,
+    "d": 9126,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      2249,
+      3
+     ],
+     [
+      2989,
+      4
+     ],
+     [
+      3549,
+      5
+     ],
+     [
+      4410,
+      6
+     ],
+     [
+      4810,
+      7
+     ],
+     [
+      5870,
+      8
+     ],
+     [
+      6549,
+      9
+     ],
+     [
+      6789,
+      10
+     ],
+     [
+      7549,
+      11
+     ],
+     [
+      8190,
+      12
+     ],
+     [
+      8489,
+      13
+     ]
+    ]
+   },
+   "p1h-yesim": {
+    "s": 27441,
+    "d": 1759,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      527,
+      1
+     ],
+     [
+      751,
+      2
+     ],
+     [
+      1106,
+      3
+     ],
+     [
+      1330,
+      4
+     ]
+    ]
+   },
+   "p1h-yumak": {
+    "s": 29500,
+    "d": 2165,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 31966,
+    "d": 12737,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3650,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4310,
+      8
+     ],
+     [
+      5029,
+      9
+     ],
+     [
+      5330,
+      10
+     ],
+     [
+      6269,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      6890,
+      13
+     ],
+     [
+      7910,
+      14
+     ],
+     [
+      8289,
+      15
+     ],
+     [
+      9009,
+      16
+     ],
+     [
+      10029,
+      17
+     ],
+     [
+      10649,
+      18
+     ],
+     [
+      11189,
+      19
+     ],
+     [
+      11489,
+      20
+     ],
+     [
+      12029,
+      21
+     ],
+     [
+      12329,
+      22
+     ]
+    ]
+   },
+   "p2h-yesim": {
+    "s": 45004,
+    "d": 1717,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      522,
+      1
+     ],
+     [
+      907,
+      2
+     ],
+     [
+      1292,
+      3
+     ]
+    ]
+   },
+   "p2h-yumak": {
+    "s": 47021,
+    "d": 1541,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 48863,
+    "d": 1924,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1290,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 51087,
+    "d": 2387,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1849,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 53775,
+    "d": 10987,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      3009,
+      8
+     ],
+     [
+      3469,
+      9
+     ],
+     [
+      3729,
+      10
+     ],
+     [
+      4390,
+      11
+     ],
+     [
+      5269,
+      12
+     ],
+     [
+      5529,
+      13
+     ],
+     [
+      6390,
+      14
+     ],
+     [
+      6789,
+      15
+     ],
+     [
+      7609,
+      16
+     ],
+     [
+      8529,
+      17
+     ],
+     [
+      9369,
+      18
+     ],
+     [
+      9890,
+      19
+     ],
+     [
+      10190,
+      20
+     ]
+    ]
+   },
+   "p3h-yesim": {
+    "s": 65062,
+    "d": 1991,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      320,
+      1
+     ],
+     [
+      974,
+      2
+     ],
+     [
+      1462,
+      3
+     ]
+    ]
+   },
+   "p3h-yumak": {
+    "s": 67353,
+    "d": 1703,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1329,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 69357,
+    "d": 2862,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2349,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 72519,
+    "d": 14768,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2749,
+      5
+     ],
+     [
+      3729,
+      6
+     ],
+     [
+      4089,
+      7
+     ],
+     [
+      4810,
+      8
+     ],
+     [
+      5629,
+      9
+     ],
+     [
+      6289,
+      10
+     ],
+     [
+      6689,
+      11
+     ],
+     [
+      7529,
+      12
+     ],
+     [
+      7930,
+      13
+     ],
+     [
+      8629,
+      14
+     ],
+     [
+      9270,
+      15
+     ],
+     [
+      10169,
+      16
+     ],
+     [
+      10609,
+      17
+     ],
+     [
+      11069,
+      18
+     ],
+     [
+      11969,
+      19
+     ],
+     [
+      12749,
+      20
+     ],
+     [
+      13069,
+      21
+     ],
+     [
+      13749,
+      22
+     ],
+     [
+      14149,
+      23
+     ]
+    ]
+   },
+   "p4h-badi": {
+    "s": 87588,
+    "d": 3931,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      2089,
+      3
+     ],
+     [
+      2709,
+      4
+     ],
+     [
+      3289,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 91819,
+    "d": 2677,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 94797,
+    "d": 11756,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2509,
+      4
+     ],
+     [
+      2969,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      4009,
+      7
+     ],
+     [
+      4949,
+      8
+     ],
+     [
+      5449,
+      9
+     ],
+     [
+      5830,
+      10
+     ],
+     [
+      6169,
+      11
+     ],
+     [
+      7209,
+      12
+     ],
+     [
+      7549,
+      13
+     ],
+     [
+      7870,
+      14
+     ],
+     [
+      8650,
+      15
+     ],
+     [
+      9029,
+      16
+     ],
+     [
+      9969,
+      17
+     ],
+     [
+      10289,
+      18
+     ],
+     [
+      10890,
+      19
+     ],
+     [
+      11169,
+      20
+     ]
+    ]
+   },
+   "p5h-yumak": {
+    "s": 106853,
+    "d": 2259,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1709,
+      4
+     ]
+    ]
+   },
+   "p5h-yesim": {
+    "s": 109413,
+    "d": 2541,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1989,
+      5
+     ]
+    ]
+   },
+   "p5h-badi": {
+    "s": 112255,
+    "d": 1919,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1150,
+      4
+     ]
+    ]
+   },
+   "p5h-gunes": {
+    "s": 114474,
+    "d": 1117,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ]
+    ]
+   },
+   "p5h-su": {
+    "s": 115891,
+    "d": 1628,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

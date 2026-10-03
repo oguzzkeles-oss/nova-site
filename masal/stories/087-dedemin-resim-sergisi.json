@@ -1,0 +1,2064 @@
+{
+ "id": "087-dedemin-resim-sergisi",
+ "n": 87,
+ "title": "Ninemin Resim Sergisi",
+ "age": "48-60",
+ "area": "Sanat",
+ "theme": "Sanat eserine ve sanatçıya saygı; esere ilişkin duyguları ifade etme",
+ "values": [
+  "D14 Saygı"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 5,
+ "blurb": "Zeynep'in ninesi resimlerini salona asıp evde bir sergi açar; ilk ziyaretçi Zeynep'tir. Ninesinin çekindiğini fark eden Zeynep resimlere yavaş yavaş bakar; hangisinin bakarak, hangisinin hayal ederek yapıldığını bulur ve her resmin ona ne hissettirdiğini nedeniyle anlatır.",
+ "codes": {
+  "maarif": [
+   "SNAB.2 Sanat eseri inceleyebilme (SNAB.2.g: eserle ilgili duygu ve düşüncelerini ifade eder)",
+   "SNAB.3 Sanat eserlerine ve sanatçılara değer verebilme",
+   "OB9 Sanat Okuryazarlığı",
+   "SDB2.3 Sosyal Farkındalık",
+   "D14 Saygı"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "nine": "nine",
+  "karamel": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "nine": "Nine (Zeynep'in ninesi, ressam)",
+  "karamel": "Karamel (kedi)"
+ },
+ "pages": [
+  {
+   "text": "Zeynep'in ninesi resim yapmayı çok sever. Bugün salonun duvarına resimlerini astı. Bir, iki, üç! “Evde sergi açtım,” dedi. “İlk ziyaretçim sen ol, Zeynep!” Kedi Karamel mırladı: mırrr.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 120,
+      "y": 214,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "open",
+      "turn": 0.4,
+      "hit": "nine"
+     },
+     {
+      "k": "zeynep",
+      "x": 300,
+      "y": 226,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "clap",
+      "turn": -0.4,
+      "hit": "zeynep"
+     },
+     {
+      "k": "kedi",
+      "x": 372,
+      "y": 222,
+      "s": 0.75,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "hit": "karamel"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "x": 198,
+      "y": 84,
+      "s": 1.0,
+      "theme": "sun",
+      "frame": "#E4574F",
+      "hit": "r1"
+     },
+     {
+      "k": "resim",
+      "x": 255,
+      "y": 84,
+      "s": 1.0,
+      "theme": "house",
+      "frame": "#4F8FD8",
+      "hit": "r2"
+     },
+     {
+      "k": "resim",
+      "x": 312,
+      "y": 84,
+      "s": 1.0,
+      "theme": "family",
+      "frame": "#F2B632",
+      "hit": "r3"
+     },
+     {
+      "k": "palet",
+      "x": 52,
+      "y": 232,
+      "s": 1.0
+     },
+     {
+      "k": "boya-kalemi",
+      "x": 210,
+      "y": 234,
+      "s": 0.9
+     }
+    ],
+    "lamp": false
+   },
+   "hits": {
+    "nine": {
+     "say": "Hoş geldin, ilk ziyaretçim!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Yaşasın, evde sergi var!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "karamel": {
+     "say": "Mırrr… mırrr…",
+     "voice": "karamel",
+     "anim": "wiggle",
+     "fx": "meow"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "r1",
+     "r2",
+     "r3"
+    ],
+    "done": "Bir, iki, üç! Ninenin sergisi hazır.",
+    "msg": "Resimleri saydın!"
+   },
+   "hint": [
+    "r1",
+    "Ninenin resimlerini say!"
+   ],
+   "ask": "Sen hiç bir sergi gezdin mi? Orada neler gördün?"
+  },
+  {
+   "text": "Zeynep hâlâ alkışlıyordu: şak şak şak! Ama Nine birden sessizleşti. Yanakları kızardı, parmaklarını ovuşturdu. “Ya resimlerimi beğenmezsen?” dedi usulca. Zeynep ninesine dikkatle baktı. Nine biraz utanmıştı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 350,
+      "y": 214,
+      "s": 1.0,
+      "mood": "shy",
+      "pose": "stand",
+      "turn": -0.4,
+      "hit": "nine"
+     },
+     {
+      "k": "zeynep",
+      "x": 200,
+      "y": 226,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "clap",
+      "turn": 0.5,
+      "hit": "zeynep"
+     },
+     {
+      "k": "kedi",
+      "x": 70,
+      "y": 230,
+      "s": 0.7,
+      "mood": "calm",
+      "pose": "lie",
+      "hit": "karamel"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "x": 198,
+      "y": 84,
+      "s": 1.0,
+      "theme": "sun",
+      "frame": "#E4574F"
+     },
+     {
+      "k": "resim",
+      "x": 255,
+      "y": 84,
+      "s": 1.0,
+      "theme": "house",
+      "frame": "#4F8FD8"
+     },
+     {
+      "k": "resim",
+      "x": 312,
+      "y": 84,
+      "s": 1.0,
+      "theme": "family",
+      "frame": "#F2B632"
+     },
+     {
+      "k": "palet",
+      "x": 280,
+      "y": 234,
+      "s": 0.9
+     }
+    ],
+    "lamp": false
+   },
+   "hits": {
+    "nine": {
+     "say": "Ya resimlerimi beğenmezsen?",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "zeynep": {
+     "say": "Ninem neden birden sustu?",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "boing"
+    },
+    "karamel": {
+     "say": "Mırrr?",
+     "voice": "karamel",
+     "anim": "wiggle",
+     "fx": "meow"
+    }
+   },
+   "hint": [
+    "nine",
+    "Nineye dokun!"
+   ],
+   "ask": "Nine ne hissediyor? Sen bunu nereden anladın?",
+   "cues": [
+    {
+     "w": 2,
+     "fx": "alkis"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep ninesinin elini tuttu. “Resimlerine yavaş yavaş bakacağım,” dedi. Karamel patisini resme uzattı. “Karamel, resme gözle bakılır!” dedi Zeynep. Karamel gözlerini kocaman açtı. Nine gülümsedi. Zeynep merak etti: Nine bu resimleri nasıl yapmıştı?",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 150,
+      "y": 228,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "hug",
+      "turn": 0.5,
+      "hit": "zeynep"
+     },
+     {
+      "k": "nine",
+      "x": 222,
+      "y": 218,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "hug",
+      "turn": -0.4,
+      "hit": "nine"
+     },
+     {
+      "k": "kedi",
+      "x": 292,
+      "y": 158,
+      "s": 0.7,
+      "mood": "surprised",
+      "pose": "wave",
+      "flip": true,
+      "hit": "karamel"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "x": 198,
+      "y": 84,
+      "s": 1.0,
+      "theme": "sun",
+      "frame": "#E4574F"
+     },
+     {
+      "k": "resim",
+      "x": 255,
+      "y": 84,
+      "s": 1.0,
+      "theme": "house",
+      "frame": "#4F8FD8"
+     },
+     {
+      "k": "resim",
+      "x": 312,
+      "y": 84,
+      "s": 1.0,
+      "theme": "family",
+      "frame": "#F2B632"
+     },
+     {
+      "k": "palet",
+      "x": 64,
+      "y": 232,
+      "s": 0.9
+     },
+     {
+      "k": "boya-kalemi",
+      "x": 352,
+      "y": 232,
+      "s": 0.9
+     }
+    ],
+    "lamp": false
+   },
+   "hits": {
+    "nine": {
+     "say": "Ne güzel bakıyorsun, canım.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Yavaş yavaş bakacağım.",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "karamel": {
+     "say": "Miyav! Gözlerimle bakıyorum!",
+     "voice": "karamel",
+     "anim": "wiggle",
+     "fx": "meow"
+    }
+   },
+   "predict": {
+    "q": "Sence Nine resimlerini nasıl yaptı?",
+    "res": "İkisi de olur! Ressam hem bakar, hem hayal eder.",
+    "opts": [
+     {
+      "l": "Evdekilere bakarak",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "nine",
+         "x": 170,
+         "y": 222,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "hold",
+         "hold": "palet",
+         "turn": -0.5,
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "potFlower",
+         "x": 70,
+         "y": 220,
+         "s": 1.2
+        },
+        {
+         "k": "resim",
+         "x": 260,
+         "y": 228,
+         "s": 1.2,
+         "theme": "sun",
+         "frame": "#E4574F"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Hayal ederek",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "nine",
+         "x": 240,
+         "y": 158,
+         "s": 0.85,
+         "mood": "think",
+         "pose": "sit"
+        }
+       ],
+       "props": [
+        {
+         "k": "cloud",
+         "x": 150,
+         "y": 70
+        },
+        {
+         "k": "sparkle",
+         "x": 300,
+         "y": 90
+        },
+        {
+         "k": "palet",
+         "x": 160,
+         "y": 230,
+         "s": 1.0
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Bir resme nasıl bakılır? Sen resim yaparken neye bakarsın?"
+  },
+  {
+   "text": "Zeynep resimlere tek tek baktı. İlkinde güneş ve çiçekler vardı. Aaa, saksıdaki çiçekler! Sonuncusunda el ele bir aile. Aaa, biziz! “Ya ortadaki ev?” Nine göz kırptı: “Onu hayal ettim.”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 250,
+      "y": 228,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "point",
+      "turn": -0.4,
+      "hit": "zeynep"
+     },
+     {
+      "k": "nine",
+      "x": 350,
+      "y": 214,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "stand",
+      "turn": -0.3,
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "x": 198,
+      "y": 84,
+      "s": 1.0,
+      "theme": "sun",
+      "frame": "#E4574F",
+      "hit": "r1"
+     },
+     {
+      "k": "resim",
+      "x": 255,
+      "y": 84,
+      "s": 1.0,
+      "theme": "house",
+      "frame": "#4F8FD8",
+      "hit": "r2"
+     },
+     {
+      "k": "resim",
+      "x": 312,
+      "y": 84,
+      "s": 1.0,
+      "theme": "family",
+      "frame": "#F2B632",
+      "hit": "r3"
+     },
+     {
+      "k": "flower",
+      "x": 78,
+      "y": 138,
+      "s": 0.5,
+      "color": "#EE6F9C",
+      "hit": "cicek"
+     }
+    ],
+    "lamp": false
+   },
+   "hits": {
+    "nine": {
+     "say": "Kimine bakarak, kimini hayal ederek!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Bu resimde biz varız!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "r2": {
+     "say": "Bu evi hayal ederek çizdim.",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "r1",
+      "cicek"
+     ],
+     [
+      "r3",
+      "zeynep"
+     ]
+    ],
+    "done": "Çiçekler de biz de resimdeyiz!",
+    "msg": "Buldun, aynısı!"
+   },
+   "hint": [
+    "r1",
+    "Çiçeğin resmini bul!"
+   ],
+   "ask": "Nine çiçek resmini nasıl yaptı? Sen neye bakarak resim yapmak isterdin?"
+  },
+  {
+   "text": "Zeynep her resmin önünde durdu. Güneşli resim onu neşelendirdi. “Çünkü sıcacık!” Evin resmi onu sakinleştirdi. “Çünkü huzurlu.” Son resim içini ısıttı. “Çünkü biziz!” Nine dinledi, dinledi.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 168,
+      "y": 224,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "zeynep"
+     },
+     {
+      "k": "nine",
+      "x": 70,
+      "y": 210,
+      "s": 0.9,
+      "mood": "calm",
+      "pose": "stand",
+      "turn": 0.5,
+      "hit": "nine"
+     },
+     {
+      "k": "kedi",
+      "x": 318,
+      "y": 234,
+      "s": 0.85,
+      "mood": "calm",
+      "pose": "sit",
+      "flip": true,
+      "hit": "karamel"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "x": 198,
+      "y": 84,
+      "s": 1.0,
+      "theme": "sun",
+      "frame": "#E4574F",
+      "hit": "r1"
+     },
+     {
+      "k": "resim",
+      "x": 255,
+      "y": 84,
+      "s": 1.0,
+      "theme": "house",
+      "frame": "#4F8FD8",
+      "hit": "r2"
+     },
+     {
+      "k": "resim",
+      "x": 312,
+      "y": 84,
+      "s": 1.0,
+      "theme": "family",
+      "frame": "#F2B632",
+      "hit": "r3"
+     }
+    ],
+    "lamp": false
+   },
+   "hits": {
+    "r1": {
+     "say": "Beni neşelendirdi, çünkü sıcacık!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "r2": {
+     "say": "Beni sakinleştirdi, çünkü huzurlu.",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "r3": {
+     "say": "İçimi ısıttı, çünkü biziz!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "nine": {
+     "say": "Seni dinlemek çok güzel.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Her resim bana başka şey söylüyor.",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "karamel": {
+     "say": "Mırrr, mırrr.",
+     "voice": "karamel",
+     "anim": "wiggle",
+     "fx": "meow"
+    }
+   },
+   "hint": [
+    "r1",
+    "Resimlere dokun!"
+   ],
+   "ask": "Bu resimlerden hangisi seni nasıl hissettirdi? Neden?"
+  },
+  {
+   "text": "Nine'nin gözleri parladı. “Resimlerime ne güzel baktın,” dedi. “Beni de dinledin.” Sonra paleti Zeynep'e uzattı. “Sıradaki sergi senin!” Karamel mırladı: mırrr. Salonda artık iki ressam vardı.",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 86,
+      "y": 214,
+      "s": 0.98,
+      "mood": "laugh",
+      "pose": "open",
+      "turn": 0.4,
+      "hit": "nine"
+     },
+     {
+      "k": "zeynep",
+      "x": 196,
+      "y": 228,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "palet",
+      "turn": -0.3,
+      "hit": "zeynep"
+     },
+     {
+      "k": "kedi",
+      "x": 320,
+      "y": 228,
+      "s": 0.75,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "hit": "karamel"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "x": 198,
+      "y": 84,
+      "s": 1.0,
+      "theme": "sun",
+      "frame": "#E4574F"
+     },
+     {
+      "k": "resim",
+      "x": 255,
+      "y": 84,
+      "s": 1.0,
+      "theme": "house",
+      "frame": "#4F8FD8"
+     },
+     {
+      "k": "resim",
+      "x": 312,
+      "y": 84,
+      "s": 1.0,
+      "theme": "family",
+      "frame": "#F2B632"
+     },
+     {
+      "k": "boya-kalemi",
+      "x": 262,
+      "y": 234,
+      "s": 1.0,
+      "hit": "kalem"
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Sıradaki sergi senin!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "İlk resmim Karamel olsun!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "karamel": {
+     "say": "Mırrr! Miyav!",
+     "voice": "karamel",
+     "anim": "jump",
+     "fx": "meow"
+    },
+    "kalem": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Sen bir sergi açsan neler asardın? İlk ziyaretçin kim olurdu?"
+  }
+ ],
+ "order": [
+  0,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.2 — Sanat eseri inceleyebilme: Ninenin resimlerine tek tek bakar, eserin konusunu kendi yaşantısıyla ilişkilendirir (saksıdaki çiçekler, kendi ailesi) ve eserle ilgili duygu ve düşüncelerini ifade edip nedenini açıklar (SNAB.2.g: “Beni neşelendirdi, çünkü sıcacık!”).",
+   "SNAB.3 — Sanat eserlerine ve sanatçılara değer verebilme: Eserlerin nasıl yapıldığına ilişkin tahmin yürütür ve bunu doğrular (çiçekler ile aile bakarak, ev hayal ederek çizilmiş); evdeki sergiyi ziyaret eder, eserlere gözle bakar ve ressam ninesinin emeğini takdir eder.",
+   "OB9 Sanat Okuryazarlığı — Sergi, ressam, ziyaretçi, palet gibi kavramları tanır; bir resimde neyin anlatıldığını “okur”.",
+   "SDB2.3 Sosyal Farkındalık — Ninesinin kızaran yanaklarından ve sessizleşmesinden çekindiğini fark eder, ona göre davranır (elini tutar, yavaşça ve dikkatle bakar, onu dinler).",
+   "D14 Saygı — Başkasının emeğine ve eserine saygıyı gösterir: eserlere dokunmadan bakar, sanatçıyı dinler, görüşünü nazikçe söyler."
+  ],
+  "once": [
+   "Evden ya da sınıftan bir resim, fotoğraf veya kartpostal gösterin: “Bu resimde ne görüyorsun? Sana ne hissettiriyor?”",
+   "Kapak sayfasında sorun: “Sergi ne demek? Bir sergiyi gezerken nasıl davranırız?”"
+  ],
+  "sirasi": [
+   "1. sayfada resimleri birlikte sayın: bir, iki, üç. “Nine neden sergi açmış olabilir?”",
+   "2. sayfada durun: “Ninenin yanakları kızardı, parmaklarını ovuşturdu. Ne hissediyor olabilir?” Çocuğun cevabını adlandırın: “Evet, biraz utanmış, çekinmiş.”",
+   "3. sayfadaki tahminde iki cevabı da kabul edin; 4. sayfada birlikte bulun: çiçekler ve aile bakarak, ev hayal ederek çizilmiş.",
+   "5. sayfada her resme dokunmadan önce çocuğa sorun: “Bu resim sana ne hissettirdi? Neden?” Sonra Zeynep'in cevabını dinleyip karşılaştırın."
+  ],
+  "sonra": [
+   "Ninenin sergisinde hangi resimler vardı?",
+   "Nine neden sessizleşti? Zeynep ona nasıl davrandı?",
+   "Sen hangi resmi en çok sevdin? Neden?"
+  ],
+  "sinif": {
+   "ad": "Sınıf Sergisi: Resmimin Aslı",
+   "sure": "25 dk",
+   "materyal": "Resim kâğıtları, pastel boyalar, bant ya da mandal, ip; sınıftan birkaç gerçek nesne (saksı çiçeği, oyuncak, meyve)",
+   "adim": [
+    "Masaya birkaç gerçek nesne koyun; her çocuk birine bakarak ya da hayal ederek resim yapsın.",
+    "Resimleri duvara ya da ipe asın, sınıfı sergi salonuna çevirin. Çocuklar sırayla “ressam” ve “ziyaretçi” olsun; ziyaretçiler ellerini arkada tutup yavaşça gezsin.",
+    "Ziyaretçiler bir resmin önünde durup “Bu resim beni … hissettirdi, çünkü …” cümlesini tamamlasın; ressam da resmini neye bakarak ya da ne hayal ederek yaptığını anlatsın."
+   ]
+  },
+  "evSoru": [
+   "Ninenin ilk ziyaretçisi kimdi?",
+   "Zeynep ninesinin utandığını nereden anladı?",
+   "Sen bir resme bakınca ne hissedersin?"
+  ],
+  "evEtk": {
+   "ad": "Evde küçük sergi",
+   "d": "Çocuğunuzun ya da ailenizin resimlerini bir duvara, buzdolabına ya da ipe mandalla asın. Çocuğunuzu ilk ziyaretçi yapın; her resmin önünde durup “Bu resim sana ne hissettirdi, neden?” diye sorun. Sonra rolleri değişin: o ressam olsun, siz ziyaretçi."
+  },
+  "aileNotu": "Bugün “Ninemin Resim Sergisi” masalını okuduk. Zeynep'in ressam ninesi resimlerini salona asıp evde bir sergi açtı. Zeynep, ninesinin çekindiğini fark etti; resimlere yavaş yavaş baktı, hangisinin bakarak hangisinin hayal ederek yapıldığını buldu ve her resmin ona ne hissettirdiğini nedeniyle anlattı. Evde siz de küçük bir sergi açabilir, çocuğunuzla resimlere bakıp duygularınızı paylaşabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/087-dedemin-resim-sergisi.mp3",
+  "hash": "30b01dba",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14541,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3769,
+      8
+     ],
+     [
+      4229,
+      9
+     ],
+     [
+      4890,
+      10
+     ],
+     [
+      5689,
+      11
+     ],
+     [
+      6449,
+      12
+     ],
+     [
+      7209,
+      13
+     ],
+     [
+      7969,
+      14
+     ],
+     [
+      8310,
+      15
+     ],
+     [
+      8730,
+      16
+     ],
+     [
+      9350,
+      17
+     ],
+     [
+      10049,
+      18
+     ],
+     [
+      10249,
+      19
+     ],
+     [
+      10909,
+      20
+     ],
+     [
+      11149,
+      21
+     ],
+     [
+      11289,
+      22
+     ],
+     [
+      12149,
+      23
+     ],
+     [
+      12409,
+      24
+     ],
+     [
+      12969,
+      25
+     ],
+     [
+      13685,
+      26
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 14841,
+    "d": 1917,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      283,
+      1
+     ],
+     [
+      850,
+      2
+     ],
+     [
+      1093,
+      3
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 17058,
+    "d": 2290,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1889,
+      3
+     ]
+    ]
+   },
+   "p0h-karamel": {
+    "s": 19649,
+    "d": 2564,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1744,
+      1
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 22513,
+    "d": 3585,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      2049,
+      3
+     ],
+     [
+      2489,
+      4
+     ],
+     [
+      3029,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 26399,
+    "d": 16454,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      2249,
+      3
+     ],
+     [
+      2549,
+      4
+     ],
+     [
+      2829,
+      5
+     ],
+     [
+      3589,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4249,
+      8
+     ],
+     [
+      4709,
+      9
+     ],
+     [
+      5930,
+      10
+     ],
+     [
+      6489,
+      11
+     ],
+     [
+      7349,
+      12
+     ],
+     [
+      8069,
+      13
+     ],
+     [
+      9190,
+      14
+     ],
+     [
+      9329,
+      15
+     ],
+     [
+      9969,
+      16
+     ],
+     [
+      11129,
+      17
+     ],
+     [
+      11409,
+      18
+     ],
+     [
+      12430,
+      19
+     ],
+     [
+      12969,
+      20
+     ],
+     [
+      13489,
+      21
+     ],
+     [
+      14029,
+      22
+     ],
+     [
+      14890,
+      23
+     ],
+     [
+      15350,
+      24
+     ],
+     [
+      15669,
+      25
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 43153,
+    "d": 1740,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      869,
+      2
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 45194,
+    "d": 2032,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p1h-karamel": {
+    "s": 47526,
+    "d": 711,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 48538,
+    "d": 18486,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      3049,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4569,
+      8
+     ],
+     [
+      5229,
+      9
+     ],
+     [
+      5689,
+      10
+     ],
+     [
+      6249,
+      11
+     ],
+     [
+      6649,
+      12
+     ],
+     [
+      7489,
+      13
+     ],
+     [
+      8329,
+      14
+     ],
+     [
+      8749,
+      15
+     ],
+     [
+      9150,
+      16
+     ],
+     [
+      9890,
+      17
+     ],
+     [
+      10149,
+      18
+     ],
+     [
+      10949,
+      19
+     ],
+     [
+      11529,
+      20
+     ],
+     [
+      12189,
+      21
+     ],
+     [
+      12810,
+      22
+     ],
+     [
+      13529,
+      23
+     ],
+     [
+      13829,
+      24
+     ],
+     [
+      14850,
+      25
+     ],
+     [
+      15249,
+      26
+     ],
+     [
+      15669,
+      27
+     ],
+     [
+      16409,
+      28
+     ],
+     [
+      16729,
+      29
+     ],
+     [
+      16850,
+      30
+     ],
+     [
+      17450,
+      31
+     ],
+     [
+      17789,
+      32
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 67324,
+    "d": 1821,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 69446,
+    "d": 1566,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      425,
+      1
+     ],
+     [
+      811,
+      2
+     ]
+    ]
+   },
+   "p2h-karamel": {
+    "s": 71312,
+    "d": 2326,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1569,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 73939,
+    "d": 2572,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2029,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 76811,
+    "d": 3850,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      2989,
+      7
+     ],
+     [
+      3410,
+      8
+     ]
+    ]
+   },
+   "p3": {
+    "s": 80961,
+    "d": 14679,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2589,
+      5
+     ],
+     [
+      3189,
+      6
+     ],
+     [
+      3589,
+      7
+     ],
+     [
+      3729,
+      8
+     ],
+     [
+      4350,
+      9
+     ],
+     [
+      5109,
+      10
+     ],
+     [
+      5529,
+      11
+     ],
+     [
+      6109,
+      12
+     ],
+     [
+      7049,
+      13
+     ],
+     [
+      8069,
+      14
+     ],
+     [
+      8209,
+      15
+     ],
+     [
+      8409,
+      16
+     ],
+     [
+      8609,
+      17
+     ],
+     [
+      9350,
+      18
+     ],
+     [
+      9730,
+      19
+     ],
+     [
+      10749,
+      20
+     ],
+     [
+      10949,
+      21
+     ],
+     [
+      11529,
+      22
+     ],
+     [
+      12169,
+      23
+     ],
+     [
+      12489,
+      24
+     ],
+     [
+      12770,
+      25
+     ],
+     [
+      13609,
+      26
+     ],
+     [
+      13829,
+      27
+     ],
+     [
+      14249,
+      28
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 95940,
+    "d": 2797,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2249,
+      4
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 99038,
+    "d": 1660,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      293,
+      1
+     ],
+     [
+      924,
+      2
+     ],
+     [
+      1177,
+      3
+     ]
+    ]
+   },
+   "p3h-r2": {
+    "s": 100998,
+    "d": 1837,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1309,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 103136,
+    "d": 2506,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 105942,
+    "d": 15771,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2930,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4830,
+      9
+     ],
+     [
+      5310,
+      10
+     ],
+     [
+      6390,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      7249,
+      13
+     ],
+     [
+      7449,
+      14
+     ],
+     [
+      8850,
+      15
+     ],
+     [
+      9249,
+      16
+     ],
+     [
+      10270,
+      17
+     ],
+     [
+      10549,
+      18
+     ],
+     [
+      11069,
+      19
+     ],
+     [
+      11430,
+      20
+     ],
+     [
+      12270,
+      21
+     ],
+     [
+      12729,
+      22
+     ],
+     [
+      13689,
+      23
+     ],
+     [
+      14149,
+      24
+     ],
+     [
+      15149,
+      25
+     ]
+    ]
+   },
+   "p4h-r1": {
+    "s": 122014,
+    "d": 3031,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      528,
+      1
+     ],
+     [
+      1806,
+      2
+     ],
+     [
+      2294,
+      3
+     ]
+    ]
+   },
+   "p4h-r2": {
+    "s": 125345,
+    "d": 3067,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1949,
+      2
+     ],
+     [
+      2370,
+      3
+     ]
+    ]
+   },
+   "p4h-r3": {
+    "s": 128713,
+    "d": 2675,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      752,
+      1
+     ],
+     [
+      1635,
+      2
+     ],
+     [
+      2135,
+      3
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 131688,
+    "d": 1572,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1069,
+      3
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 133561,
+    "d": 2383,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1769,
+      5
+     ]
+    ]
+   },
+   "p4h-karamel": {
+    "s": 136245,
+    "d": 2004,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1221,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 138550,
+    "d": 14455,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2589,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      3089,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4489,
+      8
+     ],
+     [
+      4729,
+      9
+     ],
+     [
+      4870,
+      10
+     ],
+     [
+      5809,
+      11
+     ],
+     [
+      6329,
+      12
+     ],
+     [
+      6729,
+      13
+     ],
+     [
+      7209,
+      14
+     ],
+     [
+      8069,
+      15
+     ],
+     [
+      8569,
+      16
+     ],
+     [
+      8949,
+      17
+     ],
+     [
+      9669,
+      18
+     ],
+     [
+      10209,
+      19
+     ],
+     [
+      11184,
+      20
+     ],
+     [
+      12230,
+      21
+     ],
+     [
+      12770,
+      22
+     ],
+     [
+      13270,
+      23
+     ],
+     [
+      13489,
+      24
+     ],
+     [
+      13949,
+      25
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 153305,
+    "d": 1383,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 154989,
+    "d": 1924,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p5h-karamel": {
+    "s": 157214,
+    "d": 1849,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1024,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1513 @@
+{
+ "id": "099-cuf-cuf-tekerleme-treni",
+ "lang": "en",
+ "title": "Butter to Sell, Honey to Sell",
+ "theme": "A traditional circle game: walking in rhythm to a song and being ‘it’ together",
+ "blurb": "Ali, Deniz and Elif play their grandpas' game in the park: Butter to sell, honey to sell! Deniz is sad when she is always ‘it’. Then Elif has a lovely idea.",
+ "voiceNames": {
+  "ali": "Ali",
+  "deniz": "Deniz",
+  "elif": "Elif"
+ },
+ "pages": [
+  {
+   "text": "Three friends in the park: Ali, Deniz, Elif. “Let's play Butter to Sell!” said Ali. “Grandpa taught me!” Quick, a circle on the grass!",
+   "hits": {
+    "ali": {
+     "say": "My grandpa taught me this game!"
+    },
+    "deniz": {
+     "say": "Let's make a circle, a circle!"
+    },
+    "elif": {
+     "say": "I'm in! Let's start!"
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "Which game do you play with your friends in the park? Who taught you?"
+  },
+  {
+   "text": "Deniz was it. In her hand, a lacy hanky. Round the circle she went, pit-a-pat, pit-a-pat. All together, the song began: “Butter to sell, honey to sell!”",
+   "hits": {
+    "deniz": {
+     "say": "Butter to sell, honey to sell!"
+    },
+    "ali": {
+     "say": "Clap clap! Clap clap!"
+    },
+    "elif": {
+     "say": "Clap clap! I'm not looking behind me!"
+    }
+   },
+   "mech": {
+    "done": "Pit-a-pat, all the way round the circle!",
+    "msg": "You walked to the song!"
+   },
+   "hint": "Walk with Deniz!",
+   "ask": "Come on, you say it too: “Butter to sell, honey to sell!” Shall we walk fast or slow?"
+  },
+  {
+   "text": "The song ended. Shhh! Nobody looked behind. Deniz quietly put the hanky down on the grass. But behind whom?",
+   "hits": {
+    "deniz": {
+     "say": "Shhh! Nobody look!"
+    },
+    "ali": {
+     "say": "I'm not looking behind me, promise!"
+    },
+    "elif": {
+     "say": "My heart's going pitter patter!"
+    }
+   },
+   "predict": {
+    "q": "Who do you think the hanky is behind?",
+    "res": "Let's find out!",
+    "opts": [
+     {
+      "l": "Behind Ali"
+     },
+     {
+      "l": "Behind Elif"
+     }
+    ]
+   },
+   "hint": "Touch Deniz!",
+   "ask": "Who do you think Deniz left the hanky behind? Why do you think that?"
+  },
+  {
+   "text": "“Ali, look behind you!” laughed Elif. Ali turned round. Where's the hanky? Ali grabbed the hanky. Run, run, run!",
+   "hits": {
+    "ali": {
+     "say": "Huh? Where's the hanky?"
+    },
+    "elif": {
+     "say": "Ali, look behind you!"
+    },
+    "deniz": {
+     "say": "Run, run! You can't catch me!"
+    }
+   },
+   "mech": {
+    "done": "You found it! Go on, Ali, run, run!",
+    "msg": "You found the hanky!"
+   },
+   "hint": "Find the hanky!",
+   "ask": "Where was the hanky? In front of Ali, or behind him?"
+  },
+  {
+   "text": "Ali caught Deniz. Deniz was it again! Her lip wobbled, her shoulders drooped. “I'm always it, always all on my own!” she said. Elif clapped her hands: “Shall we be it together?”",
+   "hits": {
+    "deniz": {
+     "say": "I always go round all on my own…"
+    },
+    "ali": {
+     "say": "Are you sad, Deniz?"
+    },
+    "elif": {
+     "say": "Shall we be it together?"
+    }
+   },
+   "mech": {
+    "done": "Deniz's face lit up!",
+    "msg": "You understood Deniz!"
+   },
+   "hint": "How is Deniz feeling?",
+   "ask": "Why was Deniz sad? What does your face look like when you're sad? Show me!"
+  },
+  {
+   "text": "Deniz and Elif went round side by side. “Butter to sell, honey to sell!” Down went the hanky. “Ali, look behind you!” they laughed. Ali grabbed the hanky: “Who'll be it with me?”",
+   "hits": {
+    "elif": {
+     "say": "Butter to sell, honey to sell!"
+    },
+    "deniz": {
+     "say": "Being it together is lovely!"
+    },
+    "ali": {
+     "say": "Found it! Who'll be it with me?"
+    }
+   },
+   "mech": {
+    "done": "Song, hanky, look behind you! Hooray!",
+    "msg": "You played the game in order!"
+   },
+   "hint": "Start the song first!",
+   "ask": "What happened first in the game, and what happened next? Who would you like to be it with?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MSB2 Musical Singing (field skill): Sings the game song “Butter to sell, honey to sell” with clear pronunciation, joining in with the group (MSB learning outcome: pronounces the lyrics correctly — unverified).",
+   "MHB4 Musical Movement (field skill): Walks pit-a-pat around the circle in time with the song; shows fast and slow tempo through movement (MHB learning outcome: shows differences in tempo through movement or dance — unverified).",
+   "OB5 Cultural Literacy: Recognises a traditional children's game learnt from grown-ups and plays it by its rules.",
+   "SDB2.2 Cooperation and D4 Friendship: Notices that a friend is sad and suggests a solution that shares being ‘it’."
+  ],
+  "once": [
+   "Look at the children on the cover: “What do you think they're playing in the park?”",
+   "Say “Butter to sell, honey to sell” together, clapping along. Ask whether anyone in your family knows this game.",
+   "Child-friendly words: “Butter to sell, honey to sell, / Master's away, I sell as well… / Look behind you, look behind you!”"
+  ],
+  "sirasi": [
+   "On page 2, sing the song as Deniz walks; one step, one “pat”, for every touch.",
+   "On page 3, listen to the child's reason for their prediction; don't say right or wrong.",
+   "On page 5, look at Deniz's face together: lip wobbling, shoulders drooping. Touch Deniz, Ali and Elif in turn; ask “How would you feel if you were them?”"
+  ],
+  "sonra": [
+   "Count the order of the game on your fingers: first the song, then the hanky, then “Look behind you!”",
+   "Why was Deniz sad, and what made her smile? How did Elif's idea help Deniz?",
+   "Who else could be it together? Find a rule that makes the game more fun for everyone."
+  ],
+  "sinif": {
+   "ad": "Butter to Sell in the Circle",
+   "sure": "15 min",
+   "materyal": "A soft, lacy hanky, a wide space (a circle wide enough for wheelchairs and walkers to pass comfortably)",
+   "adim": [
+    "The children make a circle on the floor or on chairs and look straight ahead.",
+    "The child who is it (or two children who are it, hand in hand) walks around the outside of the circle in rhythm, singing the song; the teacher sets a slow tempo, then a fast one, with the tambourine.",
+    "When the song ends, the hanky is dropped behind someone; everyone says “Look behind you!”",
+    "The child who finds the hanky gets up and walks one round with the one who is it; nobody leaves the game, and being it is not a punishment (fast walking is safer than running).",
+    "At the end of the game, ask: “How did you feel when you were it? What changed when two of you were it?”"
+   ]
+  },
+  "evSoru": [
+   "Why was Deniz sad?",
+   "What did Elif suggest?",
+   "Which old game would you like to play with your mum, your dad or your grandpa?"
+  ],
+  "evEtk": {
+   "ad": "The Grown-Ups' Game",
+   "d": "Learn a circle game or a rhyme from a grown-up at home that they played as a child. Play “Butter to sell, honey to sell” together in the living room with a hanky; sing one round slowly and one round fast."
+  },
+  "aileNotu": "Today we read “Butter to Sell, Honey to Sell.” Ali, Deniz and Elif played the traditional circle game they learnt from their grandparents in the park. Deniz was sad when she was always it; Elif suggested being it together. At home you can play this game with a hanky, and tell your child about the games of your own childhood."
+ },
+ "audio": {
+  "file": "audio/en/099-cuf-cuf-tekerleme-treni.mp3",
+  "hash": "b4530a84",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 9890,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      3229,
+      7
+     ],
+     [
+      4189,
+      8
+     ],
+     [
+      4449,
+      9
+     ],
+     [
+      4709,
+      10
+     ],
+     [
+      4989,
+      11
+     ],
+     [
+      5269,
+      12
+     ],
+     [
+      5830,
+      13
+     ],
+     [
+      6069,
+      14
+     ],
+     [
+      6709,
+      15
+     ],
+     [
+      7189,
+      16
+     ],
+     [
+      7430,
+      17
+     ],
+     [
+      8049,
+      18
+     ],
+     [
+      8609,
+      19
+     ],
+     [
+      8749,
+      20
+     ],
+     [
+      9109,
+      21
+     ],
+     [
+      9209,
+      22
+     ],
+     [
+      9310,
+      23
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 10190,
+    "d": 1775,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      266,
+      1
+     ],
+     [
+      660,
+      2
+     ],
+     [
+      887,
+      3
+     ],
+     [
+      1114,
+      4
+     ],
+     [
+      1340,
+      5
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 12266,
+    "d": 2451,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1749,
+      5
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 15017,
+    "d": 2001,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      410,
+      1
+     ],
+     [
+      1220,
+      2
+     ],
+     [
+      1590,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17319,
+    "d": 11534,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      2489,
+      7
+     ],
+     [
+      2869,
+      8
+     ],
+     [
+      3889,
+      9
+     ],
+     [
+      4169,
+      10
+     ],
+     [
+      4290,
+      11
+     ],
+     [
+      4649,
+      12
+     ],
+     [
+      4850,
+      13
+     ],
+     [
+      5410,
+      14
+     ],
+     [
+      6129,
+      15
+     ],
+     [
+      7269,
+      16
+     ],
+     [
+      7449,
+      17
+     ],
+     [
+      7969,
+      18
+     ],
+     [
+      8129,
+      19
+     ],
+     [
+      8430,
+      20
+     ],
+     [
+      9409,
+      21
+     ],
+     [
+      9709,
+      22
+     ],
+     [
+      9869,
+      23
+     ],
+     [
+      10569,
+      24
+     ],
+     [
+      10869,
+      25
+     ],
+     [
+      11049,
+      26
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 29154,
+    "d": 2431,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1654,
+      4
+     ],
+     [
+      1969,
+      5
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 31885,
+    "d": 1977,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 34162,
+    "d": 2856,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2529,
+      6
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 37318,
+    "d": 2460,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      1889,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 40079,
+    "d": 8242,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2569,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4269,
+      8
+     ],
+     [
+      4789,
+      9
+     ],
+     [
+      4969,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5469,
+      12
+     ],
+     [
+      5709,
+      13
+     ],
+     [
+      5789,
+      14
+     ],
+     [
+      5890,
+      15
+     ],
+     [
+      6829,
+      16
+     ],
+     [
+      7249,
+      17
+     ],
+     [
+      7729,
+      18
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 48621,
+    "d": 1638,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      640,
+      1
+     ],
+     [
+      1323,
+      2
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 50560,
+    "d": 2320,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      274,
+      1
+     ],
+     [
+      508,
+      2
+     ],
+     [
+      916,
+      3
+     ],
+     [
+      1324,
+      4
+     ],
+     [
+      1698,
+      5
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 53180,
+    "d": 2230,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1529,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 55710,
+    "d": 2032,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      789,
+      5
+     ],
+     [
+      1209,
+      6
+     ],
+     [
+      1369,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 58043,
+    "d": 990,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      569,
+      2
+     ]
+    ]
+   },
+   "p3": {
+    "s": 59333,
+    "d": 8954,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      3189,
+      6
+     ],
+     [
+      3489,
+      7
+     ],
+     [
+      3809,
+      8
+     ],
+     [
+      4589,
+      9
+     ],
+     [
+      4870,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5969,
+      12
+     ],
+     [
+      6269,
+      13
+     ],
+     [
+      6649,
+      14
+     ],
+     [
+      6769,
+      15
+     ],
+     [
+      7549,
+      16
+     ],
+     [
+      8029,
+      17
+     ],
+     [
+      8430,
+      18
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 68588,
+    "d": 1738,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 70627,
+    "d": 1772,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1410,
+      3
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 72699,
+    "d": 2712,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      578,
+      1
+     ],
+     [
+      1318,
+      2
+     ],
+     [
+      1656,
+      3
+     ],
+     [
+      1995,
+      4
+     ],
+     [
+      2333,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 75712,
+    "d": 3230,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2650,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 79243,
+    "d": 13516,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      3529,
+      8
+     ],
+     [
+      3869,
+      9
+     ],
+     [
+      4589,
+      10
+     ],
+     [
+      4810,
+      11
+     ],
+     [
+      5310,
+      12
+     ],
+     [
+      6189,
+      13
+     ],
+     [
+      6529,
+      14
+     ],
+     [
+      7149,
+      15
+     ],
+     [
+      7749,
+      16
+     ],
+     [
+      8230,
+      17
+     ],
+     [
+      8449,
+      18
+     ],
+     [
+      8569,
+      19
+     ],
+     [
+      8890,
+      20
+     ],
+     [
+      9609,
+      21
+     ],
+     [
+      9829,
+      22
+     ],
+     [
+      10629,
+      23
+     ],
+     [
+      10989,
+      24
+     ],
+     [
+      11350,
+      25
+     ],
+     [
+      11489,
+      26
+     ],
+     [
+      12289,
+      27
+     ],
+     [
+      12509,
+      28
+     ],
+     [
+      12689,
+      29
+     ],
+     [
+      12829,
+      30
+     ],
+     [
+      12969,
+      31
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 93060,
+    "d": 2701,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2049,
+      6
+     ],
+     [
+      2309,
+      7
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 96061,
+    "d": 1612,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 97974,
+    "d": 1548,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      266,
+      1
+     ],
+     [
+      492,
+      2
+     ],
+     [
+      719,
+      3
+     ],
+     [
+      945,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 99822,
+    "d": 1800,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 101923,
+    "d": 12416,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1849,
+      6
+     ],
+     [
+      2089,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3209,
+      9
+     ],
+     [
+      3369,
+      10
+     ],
+     [
+      4069,
+      11
+     ],
+     [
+      4430,
+      12
+     ],
+     [
+      4589,
+      13
+     ],
+     [
+      5609,
+      14
+     ],
+     [
+      5969,
+      15
+     ],
+     [
+      6169,
+      16
+     ],
+     [
+      6289,
+      17
+     ],
+     [
+      7129,
+      18
+     ],
+     [
+      7609,
+      19
+     ],
+     [
+      7829,
+      20
+     ],
+     [
+      8249,
+      21
+     ],
+     [
+      8730,
+      22
+     ],
+     [
+      8949,
+      23
+     ],
+     [
+      9810,
+      24
+     ],
+     [
+      10129,
+      25
+     ],
+     [
+      10469,
+      26
+     ],
+     [
+      10589,
+      27
+     ],
+     [
+      11329,
+      28
+     ],
+     [
+      11629,
+      29
+     ],
+     [
+      11770,
+      30
+     ],
+     [
+      11909,
+      31
+     ],
+     [
+      12109,
+      32
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 114639,
+    "d": 2421,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      544,
+      1
+     ],
+     [
+      834,
+      2
+     ],
+     [
+      1296,
+      3
+     ],
+     [
+      1801,
+      4
+     ],
+     [
+      2091,
+      5
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 117361,
+    "d": 2216,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 119877,
+    "d": 1922,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1589,
+      6
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 122099,
+    "d": 3409,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2489,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

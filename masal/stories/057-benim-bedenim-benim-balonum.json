@@ -1,0 +1,1886 @@
+{
+ "id": "057-benim-bedenim-benim-balonum",
+ "n": 57,
+ "title": "Benim Bedenim, Benim Sesim",
+ "age": "48-60",
+ "area": "Hareket ve Sağlık",
+ "theme": "Beden güvenliği: izin, hayır deme, güvenilen büyüğe anlatma",
+ "values": [
+  "D8 Mahremiyet",
+  "D14 Saygı"
+ ],
+ "sdb": "SDB1.1 Kendini Tanıma",
+ "min": 5,
+ "blurb": "Biri Zeynep'i gıdıklar, “Dur!” dediği hâlde durmaz ve “Kimseye söyleme!” der. Ama Zeynep bilir: dokunuşla ilgili sır saklanmaz.",
+ "codes": {
+  "maarif": [
+   "HSAB.11 Tehlike ve kaza durumlarına karşı kendini koruyabilme (tehlikeli davranış ve durumlardan kaçınır; tehlike durumunda ne yapacağını bilir)",
+   "SDB1.1 Kendini Tanıma",
+   "E1.5 Kendine Güvenme (Öz Güven)",
+   "D8 Mahremiyet",
+   "D14 Saygı"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "anne": "anne",
+  "baba": "baba",
+  "ogretmen": "ogretmen",
+  "deniz": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "anne": "Anne",
+  "baba": "Baba",
+  "ogretmen": "Öğretmen",
+  "deniz": "Deniz"
+ },
+ "pages": [
+  {
+   "text": "Sabah Zeynep pijamasıyla salona koştu. Annesi kollarını açtı. “Sana sarılabilir miyim?” Zeynep güldü. “Evet!” Sıkı sıkı, sımsıkı sarıldılar. “Bedenin senin,” dedi annesi. “Hep önce sorarım.”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 176,
+      "y": 232,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "hug",
+      "hit": "zeynep"
+     },
+     {
+      "k": "anne",
+      "x": 212,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "hug",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 70,
+      "y": 234,
+      "s": 1.3,
+      "color": "#E4574F",
+      "hit": "pamuk"
+     },
+     {
+      "k": "yastik",
+      "x": 330,
+      "y": 234,
+      "s": 1.2,
+      "color": "#F2A7C3"
+     },
+     {
+      "k": "heart",
+      "x": 196,
+      "y": 70
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Evet! Sarılalım!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Sana sarılabilir miyim?",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "pamuk": {
+     "anim": "wiggle",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "anne",
+    "Anneye dokun!"
+   ],
+   "ask": "Sen kimlere sarılmayı seversin? Sarılmadan önce sorar mısın?"
+  },
+  {
+   "text": "O akşam Zeynep hiç konuşmadı. Oyuncağı Pamuk'u yanına aldı. Bugün okul bahçesinde büyük bir çocuk onu gıdıklamıştı. “Dur!” demişti Zeynep. Çocuk durmamıştı. Bir de “Kimseye söyleme!” demişti.",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 206,
+      "y": 234,
+      "s": 1.25,
+      "mood": "sad",
+      "pose": "sit",
+      "turn": 0.3,
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 262,
+      "y": 236,
+      "s": 1.2,
+      "color": "#E4574F",
+      "hit": "pamuk"
+     },
+     {
+      "k": "yastik",
+      "x": 110,
+      "y": 234,
+      "s": 1.2,
+      "color": "#F2A7C3"
+     },
+     {
+      "k": "kitap",
+      "x": 330,
+      "y": 236,
+      "s": 1.2,
+      "color": "#4F8FD8"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Hiç konuşasım yok.",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "pamuk": {
+     "anim": "boing",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Zeynep neden suskun olabilir? Biri “Dur!” deyince ne yapmalıyız?"
+  },
+  {
+   "text": "Zeynep'in kalbi küt küt attı. Karnı düğüm düğüm oldu. Büyük çocuk “Kimseye söyleme!” demişti. Ama Zeynep'in içi sıkışıyordu. Pamuk'a sımsıkı sarıldı. Sonra ayağa kalktı. “Güvendiğim bir büyüğe anlatacağım!”",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 150,
+      "y": 232,
+      "s": 1.3,
+      "mood": "think",
+      "pose": "hug",
+      "hold": "oyuncak-ayi",
+      "holdO": {
+       "color": "#E4574F"
+      },
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "qmark",
+      "x": 150,
+      "y": 64
+     },
+     {
+      "k": "yastik",
+      "x": 300,
+      "y": 234,
+      "s": 1.2,
+      "color": "#F2A7C3"
+     },
+     {
+      "k": "kitap",
+      "x": 344,
+      "y": 236,
+      "s": 1.2,
+      "color": "#4F8FD8"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "İçim sıkışıyor. Anlatacağım!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "boing"
+    }
+   },
+   "predict": {
+    "q": "Sence Zeynep kime anlatacak?",
+    "res": "İkisi de doğru! Güvendiğin bir büyüğe anlatırsın. Hadi görelim.",
+    "opts": [
+     {
+      "l": "Annesine",
+      "scene": {
+       "set": "salon",
+       "time": "evening",
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 150,
+         "y": 232,
+         "s": 1.15,
+         "mood": "calm",
+         "pose": "walk"
+        },
+        {
+         "k": "anne",
+         "x": 290,
+         "y": 228,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "open",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "heart",
+         "x": 220,
+         "y": 80
+        }
+       ]
+      }
+     },
+     {
+      "l": "Öğretmenine",
+      "scene": {
+       "set": "sinif",
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 120,
+         "y": 230,
+         "s": 1.15,
+         "mood": "calm",
+         "pose": "walk"
+        },
+        {
+         "k": "ogretmen",
+         "x": 300,
+         "y": 228,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "open",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "heart",
+         "x": 210,
+         "y": 128
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Sen içinde bir düğüm olunca kime anlatırsın?",
+   "cues": [
+    {
+     "w": 2,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep annesine koştu, her şeyi anlattı. Annesi eğildi, dikkatle dinledi. “Anlattığın için teşekkür ederim. Senin suçun değil. Dokunuşla ilgili sır saklanmaz.” Zeynep'in karnındaki düğüm çözüldü. Ohh!",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 246,
+      "y": 232,
+      "s": 1.15,
+      "mood": "shy",
+      "pose": "stand",
+      "turn": -0.6,
+      "hit": "zeynep"
+     },
+     {
+      "k": "anne",
+      "x": 150,
+      "y": 232,
+      "s": 1.0,
+      "mood": "shy",
+      "pose": "hug",
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 330,
+      "y": 234,
+      "s": 1.2,
+      "color": "#E4574F",
+      "hit": "pamuk"
+     },
+     {
+      "k": "heart",
+      "x": 204,
+      "y": 84,
+      "hit": "kalp"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Anne, sana bir şey anlatacağım.",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "anne": {
+     "say": "Senin suçun değil, canım.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "kalp": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    },
+    "pamuk": {
+     "anim": "wiggle",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "zeynep",
+     "anne",
+     "kalp"
+    ],
+    "done": "Anlattı, dinlendi, içi rahatladı!",
+    "msg": "Sırayla yaptın: anlat, dinle, rahatla!"
+   },
+   "hint": [
+    "zeynep",
+    "Önce Zeynep anlatsın!"
+   ],
+   "ask": "Annesi Zeynep'e ne dedi? Zeynep anlatınca ne hissetti?"
+  },
+  {
+   "text": "Babası da geldi. Annesi bir oyun buldu. “Mayonun örttüğü yerler özeldir. Biri izinsiz dokunursa ne yaparız?” Zeynep güçlü bir sesle söyledi: “Hayır!” Sonra hemen uzaklaştı. Babasına gitti, anlattı.",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "curtains": "closed",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 52,
+      "y": 228,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "anne"
+     },
+     {
+      "k": "zeynep",
+      "x": 116,
+      "y": 232,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "zeynep"
+     },
+     {
+      "k": "baba",
+      "x": 334,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "open",
+      "flip": true,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 190,
+      "y": 200,
+      "s": 1.1,
+      "color": "#F2A7C3"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Hayır!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "baba": {
+     "say": "Anlattığın için sağ ol!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "anne": {
+     "say": "Biri izinsiz dokunursa?",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "zeynep",
+    "steps": 4,
+    "step": 46,
+    "say": "Adım, adım!",
+    "done": "Hayır de, uzaklaş, anlat!",
+    "msg": "Babasına ulaştı!"
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun, yürüsün!"
+   ],
+   "ask": "“Hayır!” derken sesin nasıl çıkar? Birlikte güçlü bir “Hayır!” diyelim mi?"
+  },
+  {
+   "text": "Ertesi gün annesi öğretmenle konuştu. Öğretmen, “İyi ki anlattınız, ben ilgileneceğim,” dedi. Sınıfta güven eli yaptılar. Beş kalp, beş güvenilen büyük. Zeynep saydı: annem, babam, öğretmenim, ninem, dedem!",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 74,
+      "y": 230,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "open",
+      "hit": "zeynep"
+     },
+     {
+      "k": "ogretmen",
+      "x": 346,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "flip": true,
+      "hit": "ogretmen"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "x": 150,
+      "y": 234,
+      "s": 1.2,
+      "color": "#F27A9B",
+      "hit": "h1"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "x": 188,
+      "y": 220,
+      "s": 1.2,
+      "color": "#F2A03D",
+      "hit": "h2"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "x": 226,
+      "y": 212,
+      "s": 1.2,
+      "color": "#E4574F",
+      "hit": "h3"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "x": 264,
+      "y": 220,
+      "s": 1.2,
+      "color": "#8E5BC8",
+      "hit": "h4"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "x": 302,
+      "y": 234,
+      "s": 1.2,
+      "color": "#3E9A8E",
+      "hit": "h5"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Beş güvenli büyüğüm var!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ogretmen": {
+     "say": "İyi ki anlattınız!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "h": {
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "h1",
+     "h2",
+     "h3",
+     "h4",
+     "h5"
+    ],
+    "done": "Beş parmak, beş güvenli büyük!",
+    "msg": "Güven elin hazır!"
+   },
+   "hint": [
+    "h1",
+    "Kalpleri say!"
+   ],
+   "ask": "Senin güven elinde kimler var? Parmaklarınla sayalım mı?"
+  },
+  {
+   "text": "Okuldan sonra parkta Zeynep, Deniz'e sordu. “Sarılabilir miyim?” Deniz gülümsedi. “Hayır, ama el çakalım!” Zeynep de gülümsedi. “Tamam!” Çak! “Benim bedenim benim, senin bedenin senin!” dediler.",
+   "scene": {
+    "set": "oyun-parki",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 176,
+      "y": 230,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "wave",
+      "turn": 0.6,
+      "hit": "zeynep"
+     },
+     {
+      "k": "deniz",
+      "x": 244,
+      "y": 230,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "wave",
+      "turn": 0.6,
+      "flip": true,
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 330,
+      "y": 230,
+      "s": 1.3,
+      "color": "#E8483F",
+      "hit": "top"
+     },
+     {
+      "k": "heart",
+      "x": 212,
+      "y": 66
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Sarılabilir miyim?",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Hayır, ama el çakalım!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "click"
+    },
+    "top": {
+     "anim": "boing",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Deniz “Hayır” deyince Zeynep ne yaptı? Sen arkadaşına nasıl izin sorarsın?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  6
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.11 Tehlike ve kaza durumlarına karşı kendini koruyabilme (tehlikeli davranış ve durumlardan kaçınır; tehlike durumunda ne yapacağını bilir): İstemediği ya da izinsiz bir dokunuşta “Hayır!” der, uzaklaşır ve güvendiği bir büyüğe anlatır; mayonun örttüğü yerlerin özel olduğunu söyler.",
+   "SDB1.1 Kendini Tanıma ve E1.5 Kendine Güvenme: Kalp çarpıntısı, karın sıkışması gibi beden sinyallerini fark eder; bedeninin kendisine ait olduğunu bilir ve kendinden emin bir sesle “Hayır” der.",
+   "D8 Mahremiyet ve D14 Saygı: Sarılmadan önce izin ister; arkadaşının “Hayır”ına saygı gösterir ve başka bir selamlaşma yolu önerir."
+  ],
+  "once": [
+   "Kapağı gösterin: “Zeynep ne yapıyor olabilir? Sen sevdiklerine nasıl merhaba dersin: sarılarak mı, el sallayarak mı, el çakarak mı?”",
+   "Bedenimizin bize ait olduğunu, sarılmak ya da öpmek için önce izin istediğimizi konuşun. “İzin” kelimesini bir oyunla deneyin: “Elini tutabilir miyim?”",
+   "Sakin ve olumlu bir ses tonu kullanın; bu masal korkutmak için değil, çocuğun kendini güçlü hissetmesi içindir."
+  ],
+  "sirasi": [
+   "2. sayfada Zeynep'in yüzüne bakın: “Nasıl hissediyor? Neden olabilir?” Zeynep'in “Dur!” dediğini, bunun doğru olduğunu vurgulayın.",
+   "3. sayfada beden sinyallerini birlikte gösterin: “Kalbi küt küt, karnı düğüm düğüm.” Tahminde iki seçeneğin de doğru olduğunu söyleyin: anne de öğretmen de güvenilen büyüktür.",
+   "4. sayfada annenin sözlerini tekrar edin: “Senin suçun değil. Dokunuşla ilgili sır saklanmaz.” 5. sayfada çocukla birlikte güçlü bir “Hayır!” deyip üç adım yürüyün."
+  ],
+  "sonra": [
+   "Olayları sırayla anlattırın: “Önce ne oldu? Zeynep ne hissetti? Kime anlattı? Büyükler ne yaptı?”",
+   "Kuralı el hareketleriyle tekrarlayın: avuç öne “Hayır!”, iki adım geri “Uzaklaş!”, el ağza “Anlat!”",
+   "Sır ile sürpriz farkını konuşun: sürpriz (doğum günü hediyesi) sonunda herkesin öğrendiği mutlu bir şeydir; dokunuşla ilgili sır ise hiç saklanmaz, hemen anlatılır.",
+   "Çocuk bir şey anlatırsa: Sakin kalın, “Bana anlattığın için teşekkür ederim, senin suçun değil” deyin; ayrıntı için sorguya çekmeyin, yönlendirici soru sormayın, sır tutma sözü vermeyin. Durumu okul idaresi ve rehberlik servisiyle paylaşın.",
+   "Her çocuğun güven eli farklıdır; en az bir kişi aile dışından (öğretmen gibi) olsun."
+  ],
+  "sinif": {
+   "ad": "Güven Elim",
+   "sure": "20 dk",
+   "materyal": "Renkli kartonlar, boya kalemleri, makas (öğretmen kullanır), her çocuk için beş küçük kalp çıkartması",
+   "adim": [
+    "Masalı hatırlayın; “Hayır de, uzaklaş, anlat” kuralını el hareketleriyle birlikte söyleyin.",
+    "Her çocuğun elini kartona çizin. Çocuk her parmağa güvendiği bir büyüğün resmini çizer ya da kalp çıkartması yapıştırırken o kişinin adını söyler.",
+    "“İzin oyunu”: Çocuklar ikişer eşleşir; biri “Sarılabilir miyim?” diye sorar, diğeri “Evet” ya da “Hayır, ama el çakalım!” der. Her iki cevap da alkışlanır; rolleri değiştirin.",
+    "Güven ellerini panoya asın; kapanışta her çocuk “Benim bedenim benim!” der."
+   ]
+  },
+  "evSoru": [
+   "Zeynep'e “Kimseye söyleme” denmişti. Yine de neden anlattı?",
+   "Annesi Zeynep'e ne dedi? “Senin suçun …” nasıl devam ediyordu?",
+   "Senin güven elinde kimler var? Bir şey içini sıkarsa kime gidersin?"
+  ],
+  "evEtk": {
+   "ad": "Evimizin İzin Oyunu",
+   "d": "Bir hafta boyunca aile içinde sarılmadan, gıdıklamadan ya da öpmeden önce “İzin var mı?” diye sorun. Çocuğunuz “Hayır” derse gülümseyerek kabul edin ve başka bir selamlaşma önerin (el çakma, el sallama). Oyun sırasında “Dur” denildiğinde herkesin hemen durduğunu birlikte uygulayın."
+  },
+  "aileNotu": "Bugün “Benim Bedenim, Benim Sesim” masalını okuduk. Zeynep, istemediği bir gıdıklama sonrası içi sıkışınca annesine anlatır; annesi “Senin suçun değil, dokunuşla ilgili sır saklanmaz” der. Çocuğunuzla bedeninin kendisine ait olduğunu, mayonun örttüğü yerlerin özel olduğunu ve “Hayır de, uzaklaş, güvendiğin bir büyüğe anlat” kuralını sakin bir sesle konuşabilirsiniz. Çocuğunuz size bir şey anlattığında kızmadan dinlemeniz ve “İyi ki anlattın” demeniz en güçlü korumadır. Akrabalara sarılmayı ya da öpmeyi zorlamamak da bu öğrenmeyi destekler. Çocuğunuz size bir şey anlatırsa sakin kalın, “Bana anlattığın için teşekkür ederim, senin suçun değil” deyin; ayrıntı için sorguya çekmeyin, yönlendirici soru sormayın, sır tutma sözü vermeyin. Destek için ALO 183 Sosyal Destek Hattı'nı arayabilirsiniz. Her çocuğun güven eli farklıdır; en az bir kişi aile dışından olsun."
+ },
+ "audio": {
+  "file": "audio/057-benim-bedenim-benim-balonum.mp3",
+  "hash": "7d156e7a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14546,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2949,
+      5
+     ],
+     [
+      3369,
+      6
+     ],
+     [
+      3910,
+      7
+     ],
+     [
+      4689,
+      8
+     ],
+     [
+      4989,
+      9
+     ],
+     [
+      5609,
+      10
+     ],
+     [
+      6269,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      7430,
+      13
+     ],
+     [
+      8430,
+      14
+     ],
+     [
+      8810,
+      15
+     ],
+     [
+      9350,
+      16
+     ],
+     [
+      10009,
+      17
+     ],
+     [
+      11069,
+      18
+     ],
+     [
+      11609,
+      19
+     ],
+     [
+      12289,
+      20
+     ],
+     [
+      12569,
+      21
+     ],
+     [
+      13409,
+      22
+     ],
+     [
+      13729,
+      23
+     ],
+     [
+      14029,
+      24
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 14846,
+    "d": 1939,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      924,
+      1
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 17086,
+    "d": 1404,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      989,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18791,
+    "d": 13812,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      3170,
+      6
+     ],
+     [
+      3589,
+      7
+     ],
+     [
+      3989,
+      8
+     ],
+     [
+      4709,
+      9
+     ],
+     [
+      5029,
+      10
+     ],
+     [
+      5289,
+      11
+     ],
+     [
+      5989,
+      12
+     ],
+     [
+      6269,
+      13
+     ],
+     [
+      6410,
+      14
+     ],
+     [
+      6769,
+      15
+     ],
+     [
+      6969,
+      16
+     ],
+     [
+      8150,
+      17
+     ],
+     [
+      8730,
+      18
+     ],
+     [
+      9209,
+      19
+     ],
+     [
+      9989,
+      20
+     ],
+     [
+      10310,
+      21
+     ],
+     [
+      11350,
+      22
+     ],
+     [
+      11469,
+      23
+     ],
+     [
+      11909,
+      24
+     ],
+     [
+      12469,
+      25
+     ],
+     [
+      13209,
+      26
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 32903,
+    "d": 1435,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      969,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 34639,
+    "d": 14959,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3189,
+      7
+     ],
+     [
+      3529,
+      8
+     ],
+     [
+      4310,
+      9
+     ],
+     [
+      4609,
+      10
+     ],
+     [
+      5289,
+      11
+     ],
+     [
+      5809,
+      12
+     ],
+     [
+      6569,
+      13
+     ],
+     [
+      7469,
+      14
+     ],
+     [
+      7890,
+      15
+     ],
+     [
+      8409,
+      16
+     ],
+     [
+      8650,
+      17
+     ],
+     [
+      9810,
+      18
+     ],
+     [
+      10289,
+      19
+     ],
+     [
+      10869,
+      20
+     ],
+     [
+      11749,
+      21
+     ],
+     [
+      12149,
+      22
+     ],
+     [
+      12449,
+      23
+     ],
+     [
+      13209,
+      24
+     ],
+     [
+      13770,
+      25
+     ],
+     [
+      13890,
+      26
+     ],
+     [
+      14289,
+      27
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 49898,
+    "d": 2597,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      473,
+      1
+     ],
+     [
+      1570,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 52796,
+    "d": 2002,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 55098,
+    "d": 4177,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      3489,
+      7
+     ],
+     [
+      3709,
+      8
+     ]
+    ]
+   },
+   "p3": {
+    "s": 59576,
+    "d": 15353,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      3910,
+      7
+     ],
+     [
+      4649,
+      8
+     ],
+     [
+      5249,
+      9
+     ],
+     [
+      6209,
+      10
+     ],
+     [
+      6749,
+      11
+     ],
+     [
+      6989,
+      12
+     ],
+     [
+      7489,
+      13
+     ],
+     [
+      8190,
+      14
+     ],
+     [
+      8489,
+      15
+     ],
+     [
+      8869,
+      16
+     ],
+     [
+      9609,
+      17
+     ],
+     [
+      10209,
+      18
+     ],
+     [
+      10589,
+      19
+     ],
+     [
+      10789,
+      20
+     ],
+     [
+      11989,
+      21
+     ],
+     [
+      12509,
+      22
+     ],
+     [
+      13129,
+      23
+     ],
+     [
+      13469,
+      24
+     ],
+     [
+      14341,
+      25
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 75229,
+    "d": 2059,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1309,
+      4
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 77588,
+    "d": 1743,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 79632,
+    "d": 3059,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1030,
+      1
+     ],
+     [
+      2110,
+      2
+     ],
+     [
+      2349,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 82991,
+    "d": 14541,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2349,
+      6
+     ],
+     [
+      3170,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      4069,
+      9
+     ],
+     [
+      4549,
+      10
+     ],
+     [
+      5449,
+      11
+     ],
+     [
+      5709,
+      12
+     ],
+     [
+      6169,
+      13
+     ],
+     [
+      6709,
+      14
+     ],
+     [
+      6850,
+      15
+     ],
+     [
+      7890,
+      16
+     ],
+     [
+      8350,
+      17
+     ],
+     [
+      8709,
+      18
+     ],
+     [
+      8850,
+      19
+     ],
+     [
+      9230,
+      20
+     ],
+     [
+      10029,
+      21
+     ],
+     [
+      10969,
+      22
+     ],
+     [
+      11369,
+      23
+     ],
+     [
+      11749,
+      24
+     ],
+     [
+      12789,
+      25
+     ],
+     [
+      13289,
+      26
+     ],
+     [
+      13930,
+      27
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 97832,
+    "d": 706,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 98839,
+    "d": 1359,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1044,
+      3
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 100499,
+    "d": 1707,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 102507,
+    "d": 2424,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1790,
+      3
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 105231,
+    "d": 1394,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      792,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 106926,
+    "d": 16005,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3749,
+      6
+     ],
+     [
+      3889,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4910,
+      9
+     ],
+     [
+      5129,
+      10
+     ],
+     [
+      6049,
+      11
+     ],
+     [
+      6769,
+      12
+     ],
+     [
+      7249,
+      13
+     ],
+     [
+      7569,
+      14
+     ],
+     [
+      7749,
+      15
+     ],
+     [
+      8629,
+      16
+     ],
+     [
+      8909,
+      17
+     ],
+     [
+      9549,
+      18
+     ],
+     [
+      9850,
+      19
+     ],
+     [
+      10469,
+      20
+     ],
+     [
+      11289,
+      21
+     ],
+     [
+      11689,
+      22
+     ],
+     [
+      12509,
+      23
+     ],
+     [
+      13209,
+      24
+     ],
+     [
+      13949,
+      25
+     ],
+     [
+      14909,
+      26
+     ],
+     [
+      15489,
+      27
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 123232,
+    "d": 1859,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 125391,
+    "d": 1202,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      349,
+      2
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 126894,
+    "d": 2428,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1909,
+      4
+     ]
+    ]
+   },
+   "p6": {
+    "s": 129623,
+    "d": 13902,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3889,
+      7
+     ],
+     [
+      4529,
+      8
+     ],
+     [
+      4890,
+      9
+     ],
+     [
+      5830,
+      10
+     ],
+     [
+      6469,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      6890,
+      13
+     ],
+     [
+      7609,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8109,
+      16
+     ],
+     [
+      8909,
+      17
+     ],
+     [
+      9549,
+      18
+     ],
+     [
+      10369,
+      19
+     ],
+     [
+      10709,
+      20
+     ],
+     [
+      11169,
+      21
+     ],
+     [
+      11810,
+      22
+     ],
+     [
+      12169,
+      23
+     ],
+     [
+      12689,
+      24
+     ],
+     [
+      13310,
+      25
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 143825,
+    "d": 1115,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      759,
+      1
+     ]
+    ]
+   },
+   "p6h-deniz": {
+    "s": 145241,
+    "d": 2075,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1469,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

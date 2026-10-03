@@ -1,0 +1,2126 @@
+{
+ "id": "069-sinifin-en-sevdigi-meyve",
+ "lang": "en",
+ "title": "The Class's Favourite Fruit",
+ "theme": "Collecting data and deciding fairly with an object graph",
+ "blurb": "The class can take just one kind of fruit on the picnic: watermelon, grapes or bananas? When everyone shouts at once, Elif has an idea: everyone picks one fruit, we line them up on the board, and we count!",
+ "voiceNames": {
+  "nur": "Miss Nur",
+  "ali": "Ali",
+  "elif": "Elif",
+  "defne": "Defne"
+ },
+ "pages": [
+  {
+   "text": "Miss Nur had good news: “On Friday we're going on a picnic!” Clap clap clap! The class clapped. Miss Nur asked: “Our basket is small, there's room for just one kind of fruit. Which shall it be?” “Watermelon!” said Ali. “Grapes!” said Elif. Defne called from the back: “Bananas!”",
+   "hits": {
+    "nur": {
+     "say": "On Friday we're going on a picnic!"
+    },
+    "ali": {
+     "say": "Watermelon! Huge and bright red!"
+    },
+    "elif": {
+     "say": "Grapes! Little and sweet, sweet, sweet!"
+    },
+    "muz": {
+     "say": "Bananas! Bananas!"
+    }
+   },
+   "hint": "Touch the teacher!",
+   "ask": "Which fruit would you like to take on a picnic? Why?",
+   "cues": [
+    {
+     "w": 17,
+     "fx": "alkis"
+    }
+   ]
+  },
+  {
+   "text": "Everyone said their own fruit. The voices grew louder and louder. “Watermelon!” “Grapes!” “Bananas!” The class buzzed like a beehive. Ali stopped. “Does the loudest shouter win?” Elif put up her hand. “I've got an idea! Everyone picks one fruit. Then we count!”",
+   "hits": {
+    "defne": {
+     "say": "Bananas! Bananas! Bananas!"
+    },
+    "ali": {
+     "say": "My ears are ringing!"
+    },
+    "elif": {
+     "say": "I've got an idea! Let's count!"
+    }
+   },
+   "hint": "Listen to Elif's idea!",
+   "ask": "What happened when everyone shouted? What other ways are there to make a decision?"
+  },
+  {
+   "text": "Miss Nur divided the board into three. Everyone chose a paper fruit. Ali, Elif and Defne stuck up the first ones: watermelon, grapes, banana. Ali showed his watermelon. “Watermelon will win for sure!” Elif smiled. “We'll see when we count.”",
+   "hits": {
+    "ali": {
+     "say": "Watermelon will win for sure!"
+    },
+    "elif": {
+     "say": "We'll see when we count!"
+    },
+    "nur": {
+     "say": "Every fruit in its own column!"
+    }
+   },
+   "predict": {
+    "q": "Which column do you think will be the tallest?",
+    "res": "Good guess! Let's put the fruits in place.",
+    "opts": [
+     {
+      "l": "Watermelon"
+     },
+     {
+      "l": "Grapes"
+     }
+    ]
+   },
+   "hint": "Touch the teacher!",
+   "ask": "Why does Ali think watermelon will win? What is your guess?"
+  },
+  {
+   "text": "The children got up one by one. Everyone stuck their fruit in its own column. Rustle, click! Rustle, click! Slowly the columns grew taller. Three grapes were left. You put them up!",
+   "hits": {
+    "ali": {
+     "say": "Watermelon goes in the watermelon column!"
+    },
+    "elif": {
+     "say": "Grapes go next to the grapes!"
+    }
+   },
+   "mech": {
+    "done": "Everyone's fruit is in its own column!",
+    "msg": "The graph is ready!"
+   },
+   "hint": "Put the fruit in its column!",
+   "ask": "Why did we put the fruits in separate columns instead of all mixed up?",
+   "cues": [
+    {
+     "w": 15,
+     "fx": "yaprak"
+    },
+    {
+     "w": 16,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Now it's counting time! The watermelon column has four fruits. The banana column has two. And the grape column? Ali pointed his finger. Elif counted along with him: one, two, three, four, five!",
+   "hits": {
+    "ali": {
+     "say": "One, two, three…"
+    },
+    "elif": {
+     "say": "Let's count together!"
+    },
+    "nur": {
+     "say": "Which column is the tallest?"
+    }
+   },
+   "mech": {
+    "done": "Five grapes! The grape column is the tallest.",
+    "msg": "Five grapes!"
+   },
+   "hint": "Count the grapes!",
+   "ask": "Which column is the tallest, and which is the shortest? How many more are in the grape column than the watermelon column?"
+  },
+  {
+   "text": "Ali's shoulders drooped. His throat went tight. “Watermelon lost…” Miss Nur came over. “You're a bit sad, aren't you?” Ali nodded. He took a deep breath and let it out slowly. Then he looked at the columns. “But my watermelon was counted too. Everyone's was counted.”",
+   "hits": {
+    "ali": {
+     "say": "Watermelon lost… But mine was counted too."
+    },
+    "nur": {
+     "say": "It's okay to feel sad. Shall we take a breath?"
+    },
+    "elif": {
+     "say": "Watermelon was lovely too."
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "How did Ali feel? What do you do when things don't go the way you wanted?"
+  },
+  {
+   "text": "On Friday there was a picnic in the meadow. The sun was warm. Elif handed Ali a bunch of grapes. Ali popped a grape into his mouth. Mmm! “As sweet as watermelon!” Then he put up his hand. “Shall we vote again for the next picnic?” “Yesss!”",
+   "hits": {
+    "ali": {
+     "say": "As sweet as watermelon!"
+    },
+    "elif": {
+     "say": "Here, a bunch for you too!"
+    },
+    "nur": {
+     "say": "Everyone's voice was counted!"
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "What would you like to decide together in your class? How would you vote?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.4 Making inferences about mathematical facts, events and objects — MAB.4.b Compares objects, facts and events: compares the watermelon, grape and banana columns in the object graph; names the tallest and the shortest column.",
+   "OB7 Data Literacy and KB2.6 Gathering Information: collects every child's choice in the class, places them in columns and makes a decision by looking at the graph.",
+   "MAB.1 Counting rhythmically and by sight: finds how many objects are in a column by counting them one by one (60–72 months: 1–20).",
+   "KB2.12 Predicting from existing knowledge/data: predicts which column will be the tallest, and checks the prediction by counting.",
+   "SDB3.3 Responsible Decision-making and D1 Justice: experiences a decision made not by whoever shouts loudest but by counting everyone's choice; when things don't go their way, names the feeling and calms down with a breath."
+  ],
+  "once": [
+   "Show the cover and ask: 'Why might the fruits on the wall be lined up in rows?'",
+   "Put three fruits, real or in pictures, on the table: 'If we could take only one on the picnic, which would you choose?'",
+   "Information for the teacher: in an object graph, each object shows one person's choice; if the objects are the same size and evenly spaced, the columns can be compared correctly.",
+   "The column's label is the picture underneath it; only the fruits the children stuck up are counted."
+  ],
+  "sirasi": [
+   "On page 2, make the voices grow louder together, then soften your voice for Elif's idea; let the children feel the difference.",
+   "On page 3, say that both options are good guesses for the prediction question; note the prediction on the board.",
+   "On page 4, let the child move each fruit to its own column; ask 'Why here?'",
+   "On page 5, count the grapes one by one with a finger, without rushing; then count the watermelon and banana columns too.",
+   "On page 6, name Ali's feeling and take a deep breath together."
+  ],
+  "sonra": [
+   "What happened when the class couldn't decide? What idea did Elif come up with?",
+   "Which column was the tallest? Which column was the shortest? How could you tell?",
+   "How did Ali feel when his fruit wasn't chosen? How did he calm himself down?"
+  ],
+  "sinif": {
+   "ad": "Our class fruit graph",
+   "sure": "20 min",
+   "materyal": "Three columns drawn on card, a small fruit picture under each column (outside the column, below the baseline), paper fruits of the same size cut out for every child, tape or sticky putty",
+   "adim": [
+    "Show the children the three fruits; everyone quietly chooses one and takes its paper fruit.",
+    "The children get up in turn and stick their fruit in its own column, starting from the bottom and leaving no gaps.",
+    "Count the columns together; under each column, draw that many dots or tally marks.",
+    "Look at the graph and ask: 'Which was chosen most? Which least? How shall we make our decision?'",
+    "Talk in the reflection circle: 'How did you feel when your choice wasn't picked? Why is this way fair?'"
+   ]
+  },
+  "evSoru": [
+   "What is everyone's favourite fruit at home? Guess first, then ask!",
+   "How can we find out what everyone thinks when we make a decision?",
+   "How do you calm yourself down when things don't go your way?"
+  ],
+  "evEtk": {
+   "ad": "Breakfast vote",
+   "d": "Pick two or three options for the weekend breakfast (for example cheese, olives, honey). Each family member takes a peg or a button and puts it in the bowl in front of their choice. Your child counts the buttons and announces the result; the winning option comes to the table that day, and the other waits until next week. Note: for young children, cut grapes into halves or quarters."
+  },
+  "aileNotu": "Today we read 'The Class's Favourite Fruit.' The class couldn't decide which fruit to take on the picnic; Elif suggested that everyone pick one fruit and line them up on the board, and the children made their first object graph. The story supports counting, comparing and making decisions by looking at data. Ali was sad when his fruit wasn't chosen; he took a breath and saw that the decision was fair. At home, you can make small family decisions together by 'voting and counting.' For young children, cut grapes into halves or quarters."
+ },
+ "audio": {
+  "file": "audio/en/069-sinifin-en-sevdigi-meyve.mp3",
+  "hash": "9771a2b7",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 20057,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2729,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3209,
+      9
+     ],
+     [
+      3349,
+      10
+     ],
+     [
+      3430,
+      11
+     ],
+     [
+      4290,
+      12
+     ],
+     [
+      4649,
+      13
+     ],
+     [
+      4969,
+      14
+     ],
+     [
+      5769,
+      15
+     ],
+     [
+      5910,
+      16
+     ],
+     [
+      6350,
+      17
+     ],
+     [
+      7329,
+      18
+     ],
+     [
+      7549,
+      19
+     ],
+     [
+      7870,
+      20
+     ],
+     [
+      8609,
+      21
+     ],
+     [
+      8770,
+      22
+     ],
+     [
+      9190,
+      23
+     ],
+     [
+      9369,
+      24
+     ],
+     [
+      10049,
+      25
+     ],
+     [
+      10350,
+      26
+     ],
+     [
+      10569,
+      27
+     ],
+     [
+      10730,
+      28
+     ],
+     [
+      11129,
+      29
+     ],
+     [
+      11329,
+      30
+     ],
+     [
+      11609,
+      31
+     ],
+     [
+      11730,
+      32
+     ],
+     [
+      12469,
+      33
+     ],
+     [
+      12669,
+      34
+     ],
+     [
+      12909,
+      35
+     ],
+     [
+      13009,
+      36
+     ],
+     [
+      13729,
+      37
+     ],
+     [
+      14729,
+      38
+     ],
+     [
+      15009,
+      39
+     ],
+     [
+      15689,
+      40
+     ],
+     [
+      16509,
+      41
+     ],
+     [
+      16829,
+      42
+     ],
+     [
+      17569,
+      43
+     ],
+     [
+      18030,
+      44
+     ],
+     [
+      18289,
+      45
+     ],
+     [
+      18450,
+      46
+     ],
+     [
+      18569,
+      47
+     ],
+     [
+      19169,
+      48
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 20357,
+    "d": 2258,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1589,
+      6
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 22915,
+    "d": 2995,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      1170,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2509,
+      4
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 26211,
+    "d": 4187,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2650,
+      4
+     ],
+     [
+      3430,
+      5
+     ]
+    ]
+   },
+   "p0h-muz": {
+    "s": 30698,
+    "d": 1984,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1175,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 32983,
+    "d": 19233,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2609,
+      7
+     ],
+     [
+      2949,
+      8
+     ],
+     [
+      3509,
+      9
+     ],
+     [
+      3749,
+      10
+     ],
+     [
+      4669,
+      11
+     ],
+     [
+      5709,
+      12
+     ],
+     [
+      6489,
+      13
+     ],
+     [
+      7749,
+      14
+     ],
+     [
+      7910,
+      15
+     ],
+     [
+      8409,
+      16
+     ],
+     [
+      8810,
+      17
+     ],
+     [
+      8989,
+      18
+     ],
+     [
+      9129,
+      19
+     ],
+     [
+      10369,
+      20
+     ],
+     [
+      10709,
+      21
+     ],
+     [
+      11629,
+      22
+     ],
+     [
+      11909,
+      23
+     ],
+     [
+      12149,
+      24
+     ],
+     [
+      12569,
+      25
+     ],
+     [
+      12969,
+      26
+     ],
+     [
+      13789,
+      27
+     ],
+     [
+      14149,
+      28
+     ],
+     [
+      14310,
+      29
+     ],
+     [
+      14449,
+      30
+     ],
+     [
+      14589,
+      31
+     ],
+     [
+      15350,
+      32
+     ],
+     [
+      15529,
+      33
+     ],
+     [
+      15709,
+      34
+     ],
+     [
+      15850,
+      35
+     ],
+     [
+      16629,
+      36
+     ],
+     [
+      17049,
+      37
+     ],
+     [
+      17469,
+      38
+     ],
+     [
+      17690,
+      39
+     ],
+     [
+      18270,
+      40
+     ],
+     [
+      18569,
+      41
+     ],
+     [
+      18749,
+      42
+     ]
+    ]
+   },
+   "p1h-defne": {
+    "s": 52516,
+    "d": 3289,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1238,
+      1
+     ],
+     [
+      2437,
+      2
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 56106,
+    "d": 1645,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 58052,
+    "d": 2503,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1809,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 60855,
+    "d": 17119,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1709,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      3009,
+      8
+     ],
+     [
+      3390,
+      9
+     ],
+     [
+      3469,
+      10
+     ],
+     [
+      3829,
+      11
+     ],
+     [
+      4669,
+      12
+     ],
+     [
+      5189,
+      13
+     ],
+     [
+      5589,
+      14
+     ],
+     [
+      5749,
+      15
+     ],
+     [
+      6289,
+      16
+     ],
+     [
+      6549,
+      17
+     ],
+     [
+      6689,
+      18
+     ],
+     [
+      6809,
+      19
+     ],
+     [
+      7149,
+      20
+     ],
+     [
+      7870,
+      21
+     ],
+     [
+      8709,
+      22
+     ],
+     [
+      9329,
+      23
+     ],
+     [
+      10409,
+      24
+     ],
+     [
+      10730,
+      25
+     ],
+     [
+      11009,
+      26
+     ],
+     [
+      11189,
+      27
+     ],
+     [
+      12209,
+      28
+     ],
+     [
+      12789,
+      29
+     ],
+     [
+      13009,
+      30
+     ],
+     [
+      13270,
+      31
+     ],
+     [
+      13589,
+      32
+     ],
+     [
+      14489,
+      33
+     ],
+     [
+      14829,
+      34
+     ],
+     [
+      15709,
+      35
+     ],
+     [
+      16049,
+      36
+     ],
+     [
+      16249,
+      37
+     ],
+     [
+      16430,
+      38
+     ],
+     [
+      16610,
+      39
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 78274,
+    "d": 2220,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      905,
+      1
+     ],
+     [
+      1174,
+      2
+     ],
+     [
+      1443,
+      3
+     ],
+     [
+      1712,
+      4
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 80794,
+    "d": 1559,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      949,
+      4
+     ]
+    ]
+   },
+   "p2h-nur": {
+    "s": 82654,
+    "d": 2084,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1449,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 85038,
+    "d": 2350,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      1410,
+      6
+     ],
+     [
+      1529,
+      7
+     ],
+     [
+      1649,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 87689,
+    "d": 2584,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1609,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2049,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 90574,
+    "d": 12909,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      1569,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      3029,
+      9
+     ],
+     [
+      3209,
+      10
+     ],
+     [
+      3529,
+      11
+     ],
+     [
+      3650,
+      12
+     ],
+     [
+      3849,
+      13
+     ],
+     [
+      4069,
+      14
+     ],
+     [
+      4989,
+      15
+     ],
+     [
+      5529,
+      16
+     ],
+     [
+      6350,
+      17
+     ],
+     [
+      6870,
+      18
+     ],
+     [
+      7809,
+      19
+     ],
+     [
+      8509,
+      20
+     ],
+     [
+      8650,
+      21
+     ],
+     [
+      9150,
+      22
+     ],
+     [
+      9409,
+      23
+     ],
+     [
+      10409,
+      24
+     ],
+     [
+      10709,
+      25
+     ],
+     [
+      11069,
+      26
+     ],
+     [
+      11249,
+      27
+     ],
+     [
+      11989,
+      28
+     ],
+     [
+      12209,
+      29
+     ],
+     [
+      12369,
+      30
+     ],
+     [
+      12569,
+      31
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 103783,
+    "d": 2548,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      750,
+      1
+     ],
+     [
+      971,
+      2
+     ],
+     [
+      1192,
+      3
+     ],
+     [
+      1412,
+      4
+     ],
+     [
+      2123,
+      5
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 106632,
+    "d": 2051,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1489,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 108984,
+    "d": 2246,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      1589,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 111530,
+    "d": 14624,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      2989,
+      7
+     ],
+     [
+      3269,
+      8
+     ],
+     [
+      3549,
+      9
+     ],
+     [
+      4310,
+      10
+     ],
+     [
+      4430,
+      11
+     ],
+     [
+      4810,
+      12
+     ],
+     [
+      5169,
+      13
+     ],
+     [
+      5410,
+      14
+     ],
+     [
+      6149,
+      15
+     ],
+     [
+      6329,
+      16
+     ],
+     [
+      6449,
+      17
+     ],
+     [
+      6709,
+      18
+     ],
+     [
+      7589,
+      19
+     ],
+     [
+      7910,
+      20
+     ],
+     [
+      8289,
+      21
+     ],
+     [
+      8469,
+      22
+     ],
+     [
+      9310,
+      23
+     ],
+     [
+      9669,
+      24
+     ],
+     [
+      10029,
+      25
+     ],
+     [
+      10329,
+      26
+     ],
+     [
+      10509,
+      27
+     ],
+     [
+      11350,
+      28
+     ],
+     [
+      11949,
+      29
+     ],
+     [
+      12649,
+      30
+     ],
+     [
+      13350,
+      31
+     ],
+     [
+      14029,
+      32
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 126454,
+    "d": 2339,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1790,
+      2
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 129094,
+    "d": 1385,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      622,
+      2
+     ]
+    ]
+   },
+   "p4h-nur": {
+    "s": 130779,
+    "d": 1932,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1170,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 133012,
+    "d": 3110,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      2430,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 136422,
+    "d": 19276,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2609,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4709,
+      8
+     ],
+     [
+      5809,
+      9
+     ],
+     [
+      6069,
+      10
+     ],
+     [
+      6370,
+      11
+     ],
+     [
+      6609,
+      12
+     ],
+     [
+      7449,
+      13
+     ],
+     [
+      7669,
+      14
+     ],
+     [
+      7729,
+      15
+     ],
+     [
+      8029,
+      16
+     ],
+     [
+      8489,
+      17
+     ],
+     [
+      8730,
+      18
+     ],
+     [
+      9529,
+      19
+     ],
+     [
+      9850,
+      20
+     ],
+     [
+      10730,
+      21
+     ],
+     [
+      10869,
+      22
+     ],
+     [
+      11069,
+      23
+     ],
+     [
+      11189,
+      24
+     ],
+     [
+      11449,
+      25
+     ],
+     [
+      11930,
+      26
+     ],
+     [
+      12109,
+      27
+     ],
+     [
+      12289,
+      28
+     ],
+     [
+      12430,
+      29
+     ],
+     [
+      12669,
+      30
+     ],
+     [
+      13729,
+      31
+     ],
+     [
+      14069,
+      32
+     ],
+     [
+      14249,
+      33
+     ],
+     [
+      14469,
+      34
+     ],
+     [
+      14549,
+      35
+     ],
+     [
+      14669,
+      36
+     ],
+     [
+      15709,
+      37
+     ],
+     [
+      15909,
+      38
+     ],
+     [
+      16129,
+      39
+     ],
+     [
+      16669,
+      40
+     ],
+     [
+      16829,
+      41
+     ],
+     [
+      17209,
+      42
+     ],
+     [
+      18030,
+      43
+     ],
+     [
+      18569,
+      44
+     ],
+     [
+      18749,
+      45
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 155999,
+    "d": 3297,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      911,
+      1
+     ],
+     [
+      1503,
+      2
+     ],
+     [
+      1773,
+      3
+     ],
+     [
+      2244,
+      4
+     ],
+     [
+      2515,
+      5
+     ],
+     [
+      2986,
+      6
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 159597,
+    "d": 3367,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      2849,
+      9
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 163265,
+    "d": 2189,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1689,
+      3
+     ]
+    ]
+   },
+   "p6": {
+    "s": 165754,
+    "d": 16639,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1089,
+      5
+     ],
+     [
+      1509,
+      6
+     ],
+     [
+      1589,
+      7
+     ],
+     [
+      1709,
+      8
+     ],
+     [
+      2489,
+      9
+     ],
+     [
+      2709,
+      10
+     ],
+     [
+      3029,
+      11
+     ],
+     [
+      3269,
+      12
+     ],
+     [
+      4269,
+      13
+     ],
+     [
+      4569,
+      14
+     ],
+     [
+      5029,
+      15
+     ],
+     [
+      5269,
+      16
+     ],
+     [
+      5410,
+      17
+     ],
+     [
+      5689,
+      18
+     ],
+     [
+      5830,
+      19
+     ],
+     [
+      6749,
+      20
+     ],
+     [
+      7029,
+      21
+     ],
+     [
+      7329,
+      22
+     ],
+     [
+      7410,
+      23
+     ],
+     [
+      7689,
+      24
+     ],
+     [
+      7910,
+      25
+     ],
+     [
+      8089,
+      26
+     ],
+     [
+      9369,
+      27
+     ],
+     [
+      9890,
+      28
+     ],
+     [
+      10129,
+      29
+     ],
+     [
+      10529,
+      30
+     ],
+     [
+      10770,
+      31
+     ],
+     [
+      11989,
+      32
+     ],
+     [
+      12329,
+      33
+     ],
+     [
+      12489,
+      34
+     ],
+     [
+      12669,
+      35
+     ],
+     [
+      12789,
+      36
+     ],
+     [
+      12930,
+      37
+     ],
+     [
+      13709,
+      38
+     ],
+     [
+      13890,
+      39
+     ],
+     [
+      14049,
+      40
+     ],
+     [
+      14270,
+      41
+     ],
+     [
+      14549,
+      42
+     ],
+     [
+      14669,
+      43
+     ],
+     [
+      14789,
+      44
+     ],
+     [
+      15029,
+      45
+     ],
+     [
+      15850,
+      46
+     ]
+    ]
+   },
+   "p6h-ali": {
+    "s": 182694,
+    "d": 2022,
+    "w": [
+     [
+      119,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1030,
+      3
+     ]
+    ]
+   },
+   "p6h-elif": {
+    "s": 185016,
+    "d": 1966,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1489,
+      5
+     ]
+    ]
+   },
+   "p6h-nur": {
+    "s": 187283,
+    "d": 2120,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

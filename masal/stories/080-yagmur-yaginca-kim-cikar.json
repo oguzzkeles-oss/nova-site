@@ -1,0 +1,1823 @@
+{
+ "id": "080-yagmur-yaginca-kim-cikar",
+ "n": 80,
+ "title": "Yağmur Yağınca Kim Çıkar?",
+ "age": "36-48",
+ "area": "Fen",
+ "theme": "Yağmurda canlıları gözlemleme ve merhamet",
+ "values": [
+  "D9 Merhamet"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 4,
+ "blurb": "Bahar yağmuru pıt pıt yağınca Ela dedesiyle çayıra çıkar. Taşların arkasında kimler saklanıyor? Taş yolun ortasındaki minik salyangoz Kıvrık'ı Ela, ona dokunmadan, taze bir yaprakla çimenlere çağırır.",
+ "codes": {
+  "maarif": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme",
+   "MAB.1 Ritmik ve algısal sayabilme (36-48 ay: 1-5)",
+   "E1.1 Merak",
+   "SDB2.3 Sosyal Farkındalık",
+   "D9 Merhamet"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ela": "cocuk-kiz",
+  "dede": "dede",
+  "kivrik": "kucuk-hayvan",
+  "virvir": "hayvan-erkek",
+  "salyangoz": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "ela": "Ela",
+  "dede": "Dede",
+  "kivrik": "Kıvrık (minik salyangoz)",
+  "virvir": "Vırvır (kurbağa)",
+  "salyangoz": "Salyangozlar"
+ },
+ "pages": [
+  {
+   "text": "Pıt pıt pıt! Bahar yağmuru başladı. Ela kırmızı şemsiyesini açtı. Dedesiyle çayıra çıktı. “Dede, yağmur yağınca kim çıkar?”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 150,
+      "y": 228,
+      "s": 1.15,
+      "pose": "hold",
+      "hold": "semsiye",
+      "mood": "laugh",
+      "hit": "ela"
+     },
+     {
+      "k": "dede",
+      "x": 255,
+      "y": 222,
+      "s": 1.0,
+      "pose": "point",
+      "mood": "happy",
+      "flip": true,
+      "hit": "dede",
+      "cane": true
+     }
+    ],
+    "props": [
+     {
+      "k": "birikinti",
+      "x": 320,
+      "y": 232,
+      "w": 1.2,
+      "hit": "birikinti"
+     },
+     {
+      "k": "flower",
+      "x": 50,
+      "y": 214,
+      "s": 0.8
+     },
+     {
+      "k": "tas",
+      "x": 370,
+      "y": 206,
+      "s": 2.2,
+      "v": 0,
+      "moss": true
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Dede, yağmur yağınca kim çıkar?",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "drip"
+    },
+    "dede": {
+     "say": "Hadi, birlikte bakalım!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "birikinti": {
+     "anim": "wiggle",
+     "fx": "splash"
+    }
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Sence yağmur yağınca kimler dışarı çıkar?"
+  },
+  {
+   "text": "Ela eğildi. Taşın arkasına baktı. Bir salyangoz! Mantarın yanında bir tane daha! Çalının dibinden bir ses geldi: “Vırak!” Kurbağa Vırvır'dı!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "rain",
+    "trees": false,
+    "cast": [
+     {
+      "k": "ela",
+      "x": 70,
+      "y": 232,
+      "s": 1.05,
+      "pose": "crawl",
+      "mood": "surprised",
+      "hit": "ela"
+     },
+     {
+      "k": "salyangoz",
+      "x": 172,
+      "y": 212,
+      "s": 1.3,
+      "pose": "wave",
+      "mood": "shy",
+      "hit": "s1"
+     },
+     {
+      "k": "salyangoz",
+      "x": 292,
+      "y": 230,
+      "s": 1.2,
+      "pose": "stand",
+      "mood": "happy",
+      "color": "#B98A5A",
+      "hit": "s2"
+     },
+     {
+      "k": "kurbaga",
+      "x": 338,
+      "y": 222,
+      "s": 1.4,
+      "pose": "sit",
+      "mood": "happy",
+      "hit": "virvir"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 150,
+      "y": 222,
+      "s": 3.0,
+      "v": 0,
+      "moss": true
+     },
+     {
+      "k": "mantar",
+      "x": 240,
+      "y": 234,
+      "s": 2.2,
+      "n": 2
+     },
+     {
+      "k": "cali",
+      "x": 330,
+      "y": 214,
+      "s": 1.9,
+      "flowers": true
+     },
+     {
+      "k": "cali",
+      "x": 366,
+      "y": 234,
+      "s": 1.3
+     },
+     {
+      "k": "semsiye",
+      "x": 40,
+      "y": 236,
+      "s": 0.5,
+      "lay": true
+     }
+    ]
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "s1",
+     "s2",
+     "virvir"
+    ],
+    "done": "İki salyangoz, bir kurbağa çıkmış!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Salyangozlar ıslak havayı çok sever!",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "s": {
+     "say": "Yağmur ne güzel! Islak hava iyi!",
+     "voice": "salyangoz",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "virvir": {
+     "say": "Vırak! Vırak!",
+     "voice": "virvir",
+     "anim": "jump",
+     "fx": "ribbit"
+    }
+   },
+   "hint": [
+    "s1",
+    "Taşın arkasına bak!"
+   ],
+   "ask": "Sence salyangozlar neden yağmuru sever?"
+  },
+  {
+   "text": "Taş yolun ortasında minik bir salyangoz vardı. Ela ona Kıvrık dedi. Kıvrık yavaş yavaş gidiyordu. Ela telaşlandı, kalbi küt küt attı. “Ya biri basarsa?”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 80,
+      "y": 230,
+      "s": 1.15,
+      "pose": "hold",
+      "mood": "scared",
+      "hit": "ela",
+      "hold": "semsiye"
+     },
+     {
+      "k": "salyangoz",
+      "x": 226,
+      "y": 226,
+      "s": 1.1,
+      "pose": "walk",
+      "mood": "calm",
+      "trail": true,
+      "hit": "kivrik",
+      "color": "#F4D03F"
+     },
+     {
+      "k": "dede",
+      "x": 350,
+      "y": 214,
+      "s": 0.85,
+      "pose": "stand",
+      "mood": "think",
+      "flip": true,
+      "cane": true,
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 150,
+      "y": 226,
+      "s": 2.6,
+      "v": 2,
+      "grass": false
+     },
+     {
+      "k": "tas",
+      "x": 222,
+      "y": 222,
+      "s": 2.9,
+      "v": 2,
+      "grass": false
+     },
+     {
+      "k": "tas",
+      "x": 294,
+      "y": 218,
+      "s": 2.6,
+      "v": 2,
+      "grass": false
+     },
+     {
+      "k": "flower",
+      "x": 36,
+      "y": 208,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "kivrik": {
+     "say": "Yavaş yavaş gidiyorum.",
+     "voice": "kivrik",
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "ela": {
+     "say": "Ya biri basarsa?",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "boing"
+    },
+    "dede": {
+     "say": "Sence ne yapabiliriz, Ela?",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence Ela ne yapacak?",
+    "res": "İkisi de nazik fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Yaprak koyar",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "ela",
+         "x": 320,
+         "y": 232,
+         "s": 1.2,
+         "pose": "crawl",
+         "mood": "happy",
+         "flip": true
+        },
+        {
+         "k": "salyangoz",
+         "x": 150,
+         "y": 228,
+         "s": 1.2,
+         "pose": "walk",
+         "mood": "happy",
+         "color": "#F4D03F"
+        }
+       ],
+       "props": [
+        {
+         "k": "tas",
+         "x": 130,
+         "y": 224,
+         "s": 2.8,
+         "v": 2,
+         "grass": false
+        },
+        {
+         "k": "yaprak",
+         "x": 255,
+         "y": 234,
+         "s": 2.2,
+         "color": "green"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Dedesini çağırır",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "ela",
+         "x": 120,
+         "y": 230,
+         "s": 1.15,
+         "pose": "wave",
+         "mood": "think"
+        },
+        {
+         "k": "dede",
+         "x": 250,
+         "y": 226,
+         "s": 1.05,
+         "pose": "walk",
+         "mood": "happy",
+         "flip": true,
+         "cane": true
+        },
+        {
+         "k": "salyangoz",
+         "x": 185,
+         "y": 234,
+         "s": 1.05,
+         "pose": "stand",
+         "mood": "calm",
+         "color": "#F4D03F"
+        }
+       ],
+       "props": []
+      }
+     }
+    ]
+   },
+   "hint": [
+    "kivrik",
+    "Kıvrık'a dokun!"
+   ],
+   "ask": "Ela neden telaşlandı? Sen olsan ne yapardın?",
+   "cues": [
+    {
+     "w": 18,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ela Kıvrık'a dokunmadı. Çimenlere taze bir yaprak koydu. “Gel, Kıvrık, yavaş yavaş.” Kıvrık kaydı, kaydı… Ve işte, çimendeydi!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "salyangoz",
+      "x": 130,
+      "y": 230,
+      "s": 1.3,
+      "pose": "walk",
+      "mood": "happy",
+      "trail": true,
+      "hit": "kivrik",
+      "color": "#F4D03F"
+     },
+     {
+      "k": "ela",
+      "x": 345,
+      "y": 232,
+      "s": 1.2,
+      "pose": "crawl",
+      "mood": "calm",
+      "flip": true,
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 62,
+      "y": 228,
+      "s": 2.6,
+      "v": 2,
+      "grass": false
+     },
+     {
+      "k": "tas",
+      "x": 124,
+      "y": 228,
+      "s": 2.8,
+      "v": 2,
+      "grass": false
+     },
+     {
+      "k": "tas",
+      "x": 186,
+      "y": 228,
+      "s": 2.6,
+      "v": 2,
+      "grass": false
+     },
+     {
+      "k": "yaprak",
+      "x": 252,
+      "y": 234,
+      "s": 2.2,
+      "color": "green",
+      "hit": "yaprak"
+     },
+     {
+      "k": "semsiye",
+      "x": 292,
+      "y": 204,
+      "s": 0.45,
+      "lay": true
+     }
+    ]
+   },
+   "mech": {
+    "type": "walk",
+    "key": "kivrik",
+    "steps": 3,
+    "step": 38,
+    "say": "Kay, kay, Kıvrık!",
+    "done": "Kıvrık çimene vardı!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Gel Kıvrık, yavaş yavaş.",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "kivrik": {
+     "say": "Geliyorum, geliyorum!",
+     "voice": "kivrik",
+     "anim": "wiggle",
+     "fx": "step"
+    },
+    "yaprak": {
+     "say": "Mmm, taze yaprak!",
+     "voice": "kivrik",
+     "anim": "wiggle",
+     "fx": "yaprak"
+    }
+   },
+   "hint": [
+    "kivrik",
+    "Kıvrık'a dokun, yürüsün!"
+   ],
+   "ask": "Ela neden Kıvrık'a eliyle dokunmadı? Kıvrık yaprağa neden gitti?"
+  },
+  {
+   "text": "Kıvrık yaprağı buldu. Hırt hırt, kemirdi! Çimenlerde kimler vardı? Bir, iki, üç, dört yağmur arkadaşı!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "rain",
+    "trees": false,
+    "cast": [
+     {
+      "k": "ela",
+      "x": 60,
+      "y": 232,
+      "s": 1.1,
+      "pose": "point",
+      "mood": "happy",
+      "hit": "ela"
+     },
+     {
+      "k": "salyangoz",
+      "x": 150,
+      "y": 234,
+      "s": 1.05,
+      "pose": "stand",
+      "mood": "laugh",
+      "hit": "kivrik",
+      "color": "#F4D03F"
+     },
+     {
+      "k": "salyangoz",
+      "x": 230,
+      "y": 214,
+      "s": 1.3,
+      "pose": "stand",
+      "mood": "happy",
+      "hit": "s1"
+     },
+     {
+      "k": "salyangoz",
+      "x": 290,
+      "y": 234,
+      "s": 1.35,
+      "pose": "walk",
+      "mood": "happy",
+      "color": "#B98A5A",
+      "hit": "s2"
+     },
+     {
+      "k": "kurbaga",
+      "x": 360,
+      "y": 222,
+      "s": 1.7,
+      "pose": "wave",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "virvir"
+     }
+    ],
+    "props": [
+     {
+      "k": "yaprak",
+      "x": 192,
+      "y": 226,
+      "s": 3.0,
+      "color": "green"
+     },
+     {
+      "k": "flower",
+      "x": 215,
+      "y": 200,
+      "s": 0.9
+     },
+     {
+      "k": "flower",
+      "x": 262,
+      "y": 202,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "x": 330,
+      "y": 200,
+      "s": 0.85
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "kivrik",
+     "s1",
+     "s2",
+     "virvir"
+    ],
+    "done": "Dört yağmur arkadaşı, hepsi çimende!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Hepsi burada, çimenlerde!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "kivrik": {
+     "say": "Hırt hırt! Ne lezzetli!",
+     "voice": "kivrik",
+     "anim": "wiggle",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "kivrik",
+    "Arkadaşları tek tek say!"
+   ],
+   "ask": "Sen de say: Kaç salyangoz, kaç kurbağa var?"
+  },
+  {
+   "text": "Yağmur dindi, güneş açtı. Gökte bir gökkuşağı belirdi. Vırvır “Vırak!” dedi. Kıvrık dokunaçlarını salladı. Ela'nın içi sıcacık oldu. “Yağmur yağınca kim çıkar? Ben de çıkarım!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 145,
+      "y": 230,
+      "s": 1.15,
+      "pose": "wave",
+      "mood": "laugh",
+      "hit": "ela"
+     },
+     {
+      "k": "dede",
+      "x": 72,
+      "y": 222,
+      "s": 0.95,
+      "pose": "clap",
+      "mood": "happy",
+      "cane": true,
+      "hit": "dede"
+     },
+     {
+      "k": "salyangoz",
+      "x": 235,
+      "y": 230,
+      "s": 1.1,
+      "pose": "wave",
+      "mood": "happy",
+      "hit": "kivrik",
+      "color": "#F4D03F"
+     },
+     {
+      "k": "kurbaga",
+      "x": 330,
+      "y": 226,
+      "s": 1.8,
+      "pose": "jump",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "virvir"
+     }
+    ],
+    "props": [
+     {
+      "k": "rainbow",
+      "x": 200,
+      "y": 78,
+      "hit": "rainbow",
+      "r": 150
+     },
+     {
+      "k": "flower",
+      "x": 285,
+      "y": 212,
+      "s": 0.9
+     },
+     {
+      "k": "flower",
+      "x": 190,
+      "y": 214,
+      "s": 0.8
+     }
+    ],
+    "trees": false
+   },
+   "hits": {
+    "ela": {
+     "say": "Yağmur yağınca ben de çıkarım!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "dede": {
+     "say": "Kıvrık'a çok nazik davrandın.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "kivrik": {
+     "say": "Teşekkürler, Ela!",
+     "voice": "kivrik",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "virvir": {
+     "say": "Vırak! Vırak!",
+     "voice": "virvir",
+     "anim": "jump",
+     "fx": "ribbit"
+    },
+    "rainbow": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "virvir",
+    "Vırvır'a dokun!"
+   ],
+   "ask": "Ela Kıvrık'a yardım edince ne hissetti? Sen hiç küçük bir canlıya yardım ettin mi?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme: Yağmur yağınca çayırda neyin değiştiğini gözlemler; taşın arkasına, mantarın ve çalının dibine bakarak salyangoz ve kurbağayı bulur, yavaş hareketini, kabuğunu ve ıslak zemini fark eder.",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme: Resimlerdeki ipuçlarından (yağmur damlaları, taş yol, yaprak, gökkuşağı) olayları anlamlandırır, tahmin sayfasında Ela'nın ne yapacağını görsellerden yola çıkarak tahmin eder ve kendi yaşamıyla ilişkilendirir.",
+   "MAB.1 Ritmik ve algısal sayabilme: Çimendeki yağmur arkadaşlarını dokunarak birer birer sayar, 1-4 arasındaki varlık miktarını sayarak belirler (36-48 ay için 1-5 aralığı).",
+   "E1.1 Merak: “Yağmur yağınca kim çıkar?” sorusunun peşine düşer, saklanma yerlerini sorgular ve arar.",
+   "SDB2.3 Sosyal Farkındalık ve D9 Merhamet: Yolun ortasındaki küçük canlının tehlikede olabileceğini fark eder; ona dokunmadan, yavaş ve nazik bir yolla (çimenlere taze bir yaprak koyup çağırarak) yardım etmeyi gözlemler."
+  ],
+  "once": [
+   "Pencereden ya da bir yağmur videosundan birlikte yağmuru izleyin: “Yağmur yağınca sokakta, bahçede ne değişir?”",
+   "Kapağa bakın: “Bu masalda yağmur yağınca dışarı çıkan canlılar var. Sence kimler olabilir?” Tahminleri not alın.",
+   "Salyangoz, kabuk, anten, kurbağa, birikinti, gökkuşağı sözcüklerini resimle tanıtın."
+  ],
+  "sirasi": [
+   "1. sayfada yağmur sesini birlikte taklit edin: “Pıt pıt pıt!” Çocuk birikintiye dokunup şap şap sesini dinlesin.",
+   "2. sayfada çocuk taşın arkasına, mantarın ve çalının dibine kendisi baksın. “Nerede buldun?” diye sorup “arkasında, dibinde” sözcüklerini kullanın. Salyangozun ve kurbağanın derisi nemli kalmalıdır. Kuru havada taşların, yaprakların altında saklanırlar; yağmur yağınca dışarı çıkarlar.",
+   "3. sayfada Ela'nın yüzünü inceleyin: “Nasıl hissediyor? Nereden anladın?” Tahmin seçiminden sonra iki seçeneğin de nazik olduğunu söyleyin.",
+   "4. sayfada sesinizi yavaşlatın, “Gel Kıvrık, yavaş yavaş” deyin. Ela'nın salyangoza neden eliyle dokunmadığını konuşun: canlıların bedeni narindir, uzaktan ve dokunmadan yardım ederiz. Salyangozların yaprak yediğini, bu yüzden yaprağa gittiğini anlatın.",
+   "5. sayfada çocuk her canlıya tek tek dokunarak saysın; son söylediği sayıyı birlikte tekrar edin. 6. sayfada gökkuşağını ve Ela'nın duygusunu konuşun."
+  ],
+  "sonra": [
+   "Masalda önce ne oldu, sonra ne oldu? Üç resmi sıraya koyalım: aramak, yaprak koymak, çimende saymak.",
+   "Yağmur yağınca kimler dışarı çıktı? Nerelerde saklanıyorlardı?",
+   "Ela Kıvrık'ı yolun ortasında görünce ne hissetti? Sonra ne hissetti?",
+   "Sen bir karınca, uğur böceği ya da salyangoz görsen ona nasıl nazik davranırsın?"
+  ],
+  "sinif": {
+   "ad": "Yağmur Arkadaşlarını Bul",
+   "sure": "15 dk",
+   "materyal": "Kâğıttan ya da oyun hamurundan 3-4 salyangoz ve kurbağa, taş/yastık/kutu gibi saklanma yerleri, büyük yeşil bir kâğıt yaprak, yeşil bir örtü (çimen)",
+   "adim": [
+    "Çocuklar parmaklarıyla masaya pıt pıt vurarak yağmur sesi çıkarsın.",
+    "Öğretmen canlıları yastığın, kutunun, taşın arkasına saklar; “Yağmur yağınca kim çıkar?” diye sorar.",
+    "Çocuklar sırayla arar, bulduğu yeri “Taşın arkasında!” gibi söyler.",
+    "Bir salyangozu “yolun ortasına” koyun; çocuklar ona dokunmadan, kâğıt yaprağı yeşil örtüye koyup “Gel, yavaş yavaş” diyerek çağırsın; öğretmen salyangozu yavaşça yaprağa kaydırsın.",
+    "Örtüdeki yağmur arkadaşlarını birlikte, dokunarak sayın."
+   ]
+  },
+  "evSoru": [
+   "Yağmur yağınca kimler dışarı çıktı?",
+   "Ela, Kıvrık'a nasıl yardım etti? Neden ona dokunmadı?",
+   "Sen yağmurlu bir günde dışarıda neler görmek istersin?"
+  ],
+  "evEtk": {
+   "ad": "Yağmurdan Sonra Gözlem Yürüyüşü",
+   "d": "Yağmur dindikten sonra çizme ve şemsiyeyle bahçeye ya da parka çıkın. Birikintileri, ıslak yaprakları, salyangoz ya da solucan gibi canlıları uzaktan gözlemleyin; onlara dokunmadan “Nerede? Ne yapıyor?” diye konuşun. Eve dönünce ellerinizi yıkayın ve gördüklerinizi birlikte resmedin."
+  },
+  "aileNotu": "Bugün “Yağmur Yağınca Kim Çıkar?” masalını okuduk. Ela, bahar yağmurunda dedesiyle çayırda taşların arkasına bakıp salyangozları ve bir kurbağayı buldu; taş yolun ortasında kalan minik Kıvrık'a dokunmadan, çimenlere taze bir yaprak koyup onu güvenli yere çağırdı. Masal doğayı merakla gözlemlemeyi, dörde kadar saymayı ve küçük canlılara nazik davranmayı destekliyor. Yağmurdan sonra birlikte kısa bir gözlem yürüyüşü yapıp canlıları uzaktan izleyebilir, eve dönünce ellerinizi yıkayabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/080-yagmur-yaginca-kim-cikar.mp3",
+  "hash": "100117bc",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 9827,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      3390,
+      6
+     ],
+     [
+      3789,
+      7
+     ],
+     [
+      4249,
+      8
+     ],
+     [
+      5009,
+      9
+     ],
+     [
+      5669,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      6689,
+      12
+     ],
+     [
+      7509,
+      13
+     ],
+     [
+      8230,
+      14
+     ],
+     [
+      8609,
+      15
+     ],
+     [
+      9029,
+      16
+     ],
+     [
+      9270,
+      17
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 10127,
+    "d": 2661,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      687,
+      1
+     ],
+     [
+      1171,
+      2
+     ],
+     [
+      1860,
+      3
+     ],
+     [
+      2137,
+      4
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 13089,
+    "d": 1398,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 14788,
+    "d": 10646,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      4129,
+      7
+     ],
+     [
+      4609,
+      8
+     ],
+     [
+      4969,
+      9
+     ],
+     [
+      5109,
+      10
+     ],
+     [
+      5430,
+      11
+     ],
+     [
+      6149,
+      12
+     ],
+     [
+      6589,
+      13
+     ],
+     [
+      7129,
+      14
+     ],
+     [
+      7289,
+      15
+     ],
+     [
+      7569,
+      16
+     ],
+     [
+      8289,
+      17
+     ],
+     [
+      9289,
+      18
+     ],
+     [
+      9810,
+      19
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 25734,
+    "d": 2657,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1069,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2170,
+      4
+     ]
+    ]
+   },
+   "p1h-s": {
+    "s": 28691,
+    "d": 2720,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2309,
+      5
+     ]
+    ]
+   },
+   "p1h-virvir": {
+    "s": 31712,
+    "d": 1538,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      954,
+      1
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 33550,
+    "d": 2541,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1869,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 36391,
+    "d": 12122,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      3489,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4290,
+      9
+     ],
+     [
+      4890,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      6109,
+      12
+     ],
+     [
+      6549,
+      13
+     ],
+     [
+      6930,
+      14
+     ],
+     [
+      7969,
+      15
+     ],
+     [
+      8270,
+      16
+     ],
+     [
+      9329,
+      17
+     ],
+     [
+      9770,
+      18
+     ],
+     [
+      10029,
+      19
+     ],
+     [
+      10270,
+      20
+     ],
+     [
+      11049,
+      21
+     ],
+     [
+      11189,
+      22
+     ],
+     [
+      11409,
+      23
+     ]
+    ]
+   },
+   "p2h-kivrik": {
+    "s": 48814,
+    "d": 1537,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 50651,
+    "d": 1291,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      271,
+      1
+     ],
+     [
+      675,
+      2
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 52242,
+    "d": 1444,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      302,
+      1
+     ],
+     [
+      453,
+      2
+     ],
+     [
+      1141,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 53987,
+    "d": 1623,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1009,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 55911,
+    "d": 2422,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1949,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 58633,
+    "d": 10742,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2489,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      4269,
+      8
+     ],
+     [
+      4529,
+      9
+     ],
+     [
+      5209,
+      10
+     ],
+     [
+      5609,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      6870,
+      13
+     ],
+     [
+      7849,
+      14
+     ],
+     [
+      9009,
+      15
+     ],
+     [
+      9190,
+      16
+     ],
+     [
+      9829,
+      17
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 69676,
+    "d": 2161,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      345,
+      1
+     ],
+     [
+      1057,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p3h-kivrik": {
+    "s": 72138,
+    "d": 1803,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      974,
+      1
+     ]
+    ]
+   },
+   "p3h-yaprak": {
+    "s": 74241,
+    "d": 2009,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      645,
+      1
+     ],
+     [
+      1307,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 76550,
+    "d": 1480,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      869,
+      2
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 78331,
+    "d": 1865,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      617,
+      1
+     ],
+     [
+      1194,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 80496,
+    "d": 8739,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      3449,
+      6
+     ],
+     [
+      4149,
+      7
+     ],
+     [
+      4629,
+      8
+     ],
+     [
+      5529,
+      9
+     ],
+     [
+      6129,
+      10
+     ],
+     [
+      6809,
+      11
+     ],
+     [
+      7249,
+      12
+     ],
+     [
+      7609,
+      13
+     ],
+     [
+      8029,
+      14
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 89536,
+    "d": 2326,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      526,
+      1
+     ],
+     [
+      1385,
+      2
+     ]
+    ]
+   },
+   "p4h-kivrik": {
+    "s": 92163,
+    "d": 2216,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1249,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 94679,
+    "d": 2728,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2049,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 97707,
+    "d": 13475,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2469,
+      4
+     ],
+     [
+      2829,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3629,
+      7
+     ],
+     [
+      4589,
+      8
+     ],
+     [
+      5330,
+      9
+     ],
+     [
+      6069,
+      10
+     ],
+     [
+      6709,
+      11
+     ],
+     [
+      7109,
+      12
+     ],
+     [
+      7930,
+      13
+     ],
+     [
+      8789,
+      14
+     ],
+     [
+      9289,
+      15
+     ],
+     [
+      9589,
+      16
+     ],
+     [
+      10149,
+      17
+     ],
+     [
+      10850,
+      18
+     ],
+     [
+      11270,
+      19
+     ],
+     [
+      11689,
+      20
+     ],
+     [
+      11909,
+      21
+     ],
+     [
+      12629,
+      22
+     ],
+     [
+      12850,
+      23
+     ],
+     [
+      12989,
+      24
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 111482,
+    "d": 2061,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1529,
+      4
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 113844,
+    "d": 1863,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      614,
+      1
+     ],
+     [
+      845,
+      2
+     ],
+     [
+      1248,
+      3
+     ]
+    ]
+   },
+   "p5h-kivrik": {
+    "s": 116007,
+    "d": 1359,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      869,
+      1
+     ]
+    ]
+   },
+   "p5h-virvir": {
+    "s": 117666,
+    "d": 1562,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      969,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

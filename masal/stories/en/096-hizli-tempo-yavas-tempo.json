@@ -1,0 +1,1688 @@
+{
+ "id": "096-hizli-tempo-yavas-tempo",
+ "lang": "en",
+ "title": "When the Music Stops, Stop!",
+ "theme": "Fast and slow tempo and being able to stop (statue dance)",
+ "blurb": "It's statue dance time in class: when the music plays, you dance; when the music stops, you're a statue! Zeynep's feet just won't stop. Can's magic word makes saying “Stop!” easier.",
+ "voiceNames": {
+  "nur": "Miss Nur",
+  "can": "Can",
+  "zeynep": "Zeynep"
+ },
+ "pages": [
+  {
+   "text": "Music time! Miss Nur shook her tambourine: jingle jingle! “When the music plays, dance. When the music stops, be a statue!” Can and Zeynep clapped. “Hooray, the statue game!”",
+   "hits": {
+    "nur": {
+     "say": "When the music stops, be a statue!"
+    },
+    "can": {
+     "say": "Hooray, the statue game!"
+    },
+    "zeynep": {
+     "say": "I love dancing!"
+    }
+   },
+   "hint": "Touch the teacher!",
+   "ask": "Have you ever played the statue dance? How did you play it?"
+  },
+  {
+   "text": "Jingle jingle, fast, fast! Zeynep spun, jumped and hopped. Suddenly the tambourine stopped. Can froze into a statue at once. But Zeynep's feet didn't stop: pitter patter, pitter patter! Zeynep got cross. Her cheeks went hot. “My feet won't listen to me!”",
+   "hits": {
+    "zeynep": {
+     "say": "My feet won't listen to me!"
+    },
+    "can": {
+     "say": "I'm a statue! I'm not moving."
+    },
+    "nur": {
+     "say": "The music stopped! Statue time!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "Why did Zeynep get cross? What happened to her cheeks when she got cross?"
+  },
+  {
+   "text": "Zeynep flopped down on the carpet and hung her head. Can came over. “My feet get wriggly too,” he said. “I've got a magic word: First say ‘Stop!’ Then take a deep breath. Hhhhh!”",
+   "hits": {
+    "zeynep": {
+     "say": "Oh, this game is so hard!"
+    },
+    "can": {
+     "say": "First say “Stop!”, then take a breath."
+    }
+   },
+   "predict": {
+    "q": "What do you think Zeynep will do when the music stops again?",
+    "res": "Let's see if it works!",
+    "opts": [
+     {
+      "l": "Says ‘Stop!’ and becomes a tree"
+     },
+     {
+      "l": "Takes a breath and becomes a cat"
+     }
+    ]
+   },
+   "hint": "Touch Can!",
+   "ask": "Have your feet ever refused to stop? What did you do then?"
+  },
+  {
+   "text": "New round! The tambourine went jingle jingle: they jumped fast, fast! The drum went boom… boom… they glided slowly, slowly. Suddenly the music stopped. Zeynep said “Stop!” Hhhhh, she took a breath. She became a great big tree!",
+   "hits": {
+    "can": {
+     "say": "Slowly, slowly… I'm gliding!"
+    },
+    "zeynep": {
+     "say": "Stop! Hhhhh… I'm a tree!"
+    },
+    "nur": {
+     "say": "Fast or slow? Listen!"
+    }
+   },
+   "mech": {
+    "done": "Fast, slow, stop! Zeynep became a tree!",
+    "msg": "Fast, slow, stop!"
+   },
+   "hint": "Touch the tambourine first!",
+   "ask": "How do you dance when the tambourine plays fast? And when the drum plays slowly?"
+  },
+  {
+   "text": "Now very fast! Jingle jingle, jingle jingle! The tambourine stopped. Hop! Zeynep was a tree, Can was a cat. Miss Nur became a statue too. But her nose tickled: ah-choo! Everyone burst out laughing.",
+   "hits": {
+    "can": {
+     "say": "Shhh! I'm a cat that doesn't move."
+    },
+    "zeynep": {
+     "say": "I'm a tree, with great big branches!"
+    },
+    "nur": {
+     "say": "Ah… ah… Ah-choo!"
+    }
+   },
+   "mech": {
+    "done": "One, two, three statues! Ah-choo!",
+    "msg": "You counted three statues!"
+   },
+   "hint": "Count the statues!",
+   "ask": "If you were a statue, what would you be? Show me!",
+   "cues": [
+    {
+     "w": 29,
+     "fx": "hapsu"
+    },
+    {
+     "w": 33,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "The round was over. Zeynep smiled a great big smile and puffed out her chest. “My feet listened to me!” She hugged Can. “Thank you, your magic word worked!” she said. Can laughed: “Dancing together is such fun!” Jingle jingle!",
+   "hits": {
+    "can": {
+     "say": "Dancing together is such fun!"
+    },
+    "zeynep": {
+     "say": "My feet listened to me!"
+    },
+    "nur": {
+     "say": "Bravo! Fast, slow and stop!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "How did Zeynep feel? Has a friend ever helped you?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "skill: MHB4 Musical Movement (unverified) — Shows differences in tempo in the rhythms that accompany movement and dance through movement or dance: dances fast when the tambourine jingles fast, slowly when the drum goes boom boom slowly; stops when the music stops.",
+   "HSAB.3 (unverified) — Performing rhythmic skills from gymnastics, dance and movement activities; sub-outcome: moves in different ways according to rhythm and tempo. In the statue dance, the child tries different ways of freezing, such as a tree or a cat.",
+   "SDB1.2 Self-Regulation — Uses a strategy to stop moving on purpose: says “Stop!” to herself, takes a deep breath, then becomes a statue. Puts her anger into words (“My feet won't listen to me!”).",
+   "E2.5 Playfulness and D4 Friendship — Can shares a moment he found hard himself and offers his friend a magic word; Zeynep says thank you, and they carry on the game together."
+  ],
+  "once": [
+   "Point to the tambourine and the drum on the first page: “Which one goes jingle jingle, and which one goes boom boom?”",
+   "Does anyone know the “statue dance” game? Remember the rules together."
+  ],
+  "sirasi": [
+   "Stop on page 2 and ask: “What's happening in Zeynep's body? What do you feel when you get cross?”",
+   "Ask the prediction question on page 3; both answers are positive, the child chooses how Zeynep will stop.",
+   "On page 4, move fast, fast with the children when the tambourine plays, and glide slowly, slowly when the drum plays; become statues when the music stops."
+  ],
+  "sonra": [
+   "What was Can's magic word? “First say Stop!, then take a breath.” Try it together.",
+   "How did Zeynep's feelings change through the story? (cross → sad → calm → proud)",
+   "Why did everyone laugh when Miss Nur sneezed? Why can being a statue be hard?"
+  ],
+  "sinif": {
+   "ad": "Fast-Slow-Stop Statue Dance",
+   "sure": "15 min",
+   "materyal": "Tambourine, drum (or a table and a wooden spoon if you have none), a wide empty space",
+   "adim": [
+    "Explain that we move fast when the tambourine plays fast and slowly when the drum plays slowly, and try it a few times.",
+    "When the music stops, everyone whispers “Stop!” to themselves, takes a deep breath and becomes a statue (a tree, a cat, an aeroplane…).",
+    "Nobody is out in this game; a child who moves laughs and becomes a statue again. Let the children take turns playing the tambourine and choosing the tempo too.",
+    "At the end, sit in a circle and ask: “When was stopping easy, and when was it hard? What helped you?”"
+   ]
+  },
+  "evSoru": [
+   "Why didn't Zeynep's feet stop?",
+   "What magic word did Can tell Zeynep?",
+   "If you were a statue, what would you be?"
+  ],
+  "evEtk": {
+   "ad": "Kitchen Statue Dance",
+   "d": "Put on a song at home, or keep a rhythm with a saucepan lid. Play fast sometimes and slowly sometimes; when you stop the music, everyone says “Stop!”, takes a breath and becomes a statue. Give your child a turn too: let them be in charge of the music."
+  },
+  "aileNotu": "Today we read “When the Music Stops, Stop!” Zeynep just can't stop in the statue dance and gets cross; her friend Can teaches her his magic word: “First say Stop!, then take a breath.” The story supports showing fast and slow tempo through movement and being able to stop on purpose (self-regulation) through play. If someone moves when you play the statue dance at home, laugh and try again; the aim is not to win but to discover stopping together."
+ },
+ "audio": {
+  "file": "audio/en/096-hizli-tempo-yavas-tempo.mp3",
+  "hash": "8177628a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13294,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      3769,
+      8
+     ],
+     [
+      4769,
+      9
+     ],
+     [
+      4930,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5449,
+      12
+     ],
+     [
+      6129,
+      13
+     ],
+     [
+      6890,
+      14
+     ],
+     [
+      7049,
+      15
+     ],
+     [
+      7149,
+      16
+     ],
+     [
+      7489,
+      17
+     ],
+     [
+      8230,
+      18
+     ],
+     [
+      8390,
+      19
+     ],
+     [
+      8509,
+      20
+     ],
+     [
+      9529,
+      21
+     ],
+     [
+      9890,
+      22
+     ],
+     [
+      10029,
+      23
+     ],
+     [
+      10489,
+      24
+     ],
+     [
+      11329,
+      25
+     ],
+     [
+      12069,
+      26
+     ],
+     [
+      12270,
+      27
+     ],
+     [
+      12770,
+      28
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 13594,
+    "d": 2559,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1849,
+      6
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 16453,
+    "d": 2189,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1629,
+      3
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 18943,
+    "d": 1684,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      397,
+      1
+     ],
+     [
+      1020,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20927,
+    "d": 18609,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3449,
+      6
+     ],
+     [
+      3910,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      5069,
+      9
+     ],
+     [
+      5529,
+      10
+     ],
+     [
+      5669,
+      11
+     ],
+     [
+      6249,
+      12
+     ],
+     [
+      7209,
+      13
+     ],
+     [
+      7669,
+      14
+     ],
+     [
+      8109,
+      15
+     ],
+     [
+      8329,
+      16
+     ],
+     [
+      8469,
+      17
+     ],
+     [
+      8969,
+      18
+     ],
+     [
+      9209,
+      19
+     ],
+     [
+      9989,
+      20
+     ],
+     [
+      10209,
+      21
+     ],
+     [
+      10690,
+      22
+     ],
+     [
+      10969,
+      23
+     ],
+     [
+      11289,
+      24
+     ],
+     [
+      11969,
+      25
+     ],
+     [
+      12270,
+      26
+     ],
+     [
+      12689,
+      27
+     ],
+     [
+      12969,
+      28
+     ],
+     [
+      13909,
+      29
+     ],
+     [
+      14310,
+      30
+     ],
+     [
+      14549,
+      31
+     ],
+     [
+      15350,
+      32
+     ],
+     [
+      15569,
+      33
+     ],
+     [
+      15930,
+      34
+     ],
+     [
+      16190,
+      35
+     ],
+     [
+      16909,
+      36
+     ],
+     [
+      17190,
+      37
+     ],
+     [
+      17450,
+      38
+     ],
+     [
+      17729,
+      39
+     ],
+     [
+      18089,
+      40
+     ],
+     [
+      18229,
+      41
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 39836,
+    "d": 1928,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      314,
+      1
+     ],
+     [
+      588,
+      2
+     ],
+     [
+      862,
+      3
+     ],
+     [
+      1339,
+      4
+     ],
+     [
+      1613,
+      5
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 42065,
+    "d": 2474,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p1h-nur": {
+    "s": 44839,
+    "d": 2497,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1889,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 47636,
+    "d": 13586,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      1889,
+      6
+     ],
+     [
+      2110,
+      7
+     ],
+     [
+      2349,
+      8
+     ],
+     [
+      2529,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      3769,
+      11
+     ],
+     [
+      4009,
+      12
+     ],
+     [
+      4830,
+      13
+     ],
+     [
+      5049,
+      14
+     ],
+     [
+      5310,
+      15
+     ],
+     [
+      5529,
+      16
+     ],
+     [
+      5930,
+      17
+     ],
+     [
+      6549,
+      18
+     ],
+     [
+      6729,
+      19
+     ],
+     [
+      7449,
+      20
+     ],
+     [
+      7629,
+      21
+     ],
+     [
+      7789,
+      22
+     ],
+     [
+      7870,
+      23
+     ],
+     [
+      8249,
+      24
+     ],
+     [
+      9009,
+      25
+     ],
+     [
+      9409,
+      26
+     ],
+     [
+      9909,
+      27
+     ],
+     [
+      10709,
+      28
+     ],
+     [
+      11109,
+      29
+     ],
+     [
+      11329,
+      30
+     ],
+     [
+      11489,
+      31
+     ],
+     [
+      11770,
+      32
+     ],
+     [
+      12608,
+      33
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 61523,
+    "d": 2420,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1729,
+      5
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 64243,
+    "d": 3412,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2569,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      2869,
+      6
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 67956,
+    "d": 2991,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      989,
+      5
+     ],
+     [
+      1229,
+      6
+     ],
+     [
+      1509,
+      7
+     ],
+     [
+      1670,
+      8
+     ],
+     [
+      1790,
+      9
+     ],
+     [
+      2170,
+      10
+     ],
+     [
+      2509,
+      11
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 71247,
+    "d": 1279,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      279,
+      1
+     ],
+     [
+      519,
+      2
+     ],
+     [
+      759,
+      3
+     ],
+     [
+      999,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 72826,
+    "d": 19802,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      3449,
+      7
+     ],
+     [
+      3629,
+      8
+     ],
+     [
+      4029,
+      9
+     ],
+     [
+      4609,
+      10
+     ],
+     [
+      5489,
+      11
+     ],
+     [
+      5649,
+      12
+     ],
+     [
+      6029,
+      13
+     ],
+     [
+      6390,
+      14
+     ],
+     [
+      7169,
+      15
+     ],
+     [
+      8049,
+      16
+     ],
+     [
+      8249,
+      17
+     ],
+     [
+      8810,
+      18
+     ],
+     [
+      9810,
+      19
+     ],
+     [
+      11069,
+      20
+     ],
+     [
+      11529,
+      21
+     ],
+     [
+      11669,
+      22
+     ],
+     [
+      12049,
+      23
+     ],
+     [
+      12909,
+      24
+     ],
+     [
+      13310,
+      25
+     ],
+     [
+      13829,
+      26
+     ],
+     [
+      14855,
+      27
+     ],
+     [
+      15950,
+      28
+     ],
+     [
+      16129,
+      29
+     ],
+     [
+      16329,
+      30
+     ],
+     [
+      16409,
+      31
+     ],
+     [
+      17329,
+      32
+     ],
+     [
+      17549,
+      33
+     ],
+     [
+      18049,
+      34
+     ],
+     [
+      18229,
+      35
+     ],
+     [
+      18809,
+      36
+     ],
+     [
+      19129,
+      37
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 92929,
+    "d": 3983,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1178,
+      1
+     ],
+     [
+      2605,
+      2
+     ],
+     [
+      3093,
+      3
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 97212,
+    "d": 2726,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      824,
+      1
+     ],
+     [
+      1608,
+      2
+     ],
+     [
+      1967,
+      3
+     ],
+     [
+      2326,
+      4
+     ]
+    ]
+   },
+   "p3h-nur": {
+    "s": 100239,
+    "d": 2519,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1949,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 103059,
+    "d": 4229,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      2609,
+      3
+     ],
+     [
+      3150,
+      4
+     ],
+     [
+      3509,
+      5
+     ],
+     [
+      3609,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 107588,
+    "d": 15376,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      3449,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4249,
+      9
+     ],
+     [
+      5129,
+      10
+     ],
+     [
+      5969,
+      11
+     ],
+     [
+      6390,
+      12
+     ],
+     [
+      6569,
+      13
+     ],
+     [
+      6649,
+      14
+     ],
+     [
+      7390,
+      15
+     ],
+     [
+      7789,
+      16
+     ],
+     [
+      7949,
+      17
+     ],
+     [
+      8049,
+      18
+     ],
+     [
+      8810,
+      19
+     ],
+     [
+      9069,
+      20
+     ],
+     [
+      9390,
+      21
+     ],
+     [
+      9709,
+      22
+     ],
+     [
+      9810,
+      23
+     ],
+     [
+      10270,
+      24
+     ],
+     [
+      10969,
+      25
+     ],
+     [
+      11129,
+      26
+     ],
+     [
+      11329,
+      27
+     ],
+     [
+      11649,
+      28
+     ],
+     [
+      12430,
+      29
+     ],
+     [
+      13529,
+      30
+     ],
+     [
+      14189,
+      31
+     ],
+     [
+      14589,
+      32
+     ],
+     [
+      14789,
+      33
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 123265,
+    "d": 2751,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      2170,
+      6
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 126316,
+    "d": 3331,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      820,
+      2
+     ],
+     [
+      1441,
+      3
+     ],
+     [
+      1831,
+      4
+     ],
+     [
+      2221,
+      5
+     ],
+     [
+      2611,
+      6
+     ]
+    ]
+   },
+   "p4h-nur": {
+    "s": 129948,
+    "d": 2649,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      958,
+      1
+     ],
+     [
+      1877,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 132897,
+    "d": 3428,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2518,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 136626,
+    "d": 16877,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2430,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      2949,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3650,
+      10
+     ],
+     [
+      3889,
+      11
+     ],
+     [
+      4229,
+      12
+     ],
+     [
+      4390,
+      13
+     ],
+     [
+      4549,
+      14
+     ],
+     [
+      5350,
+      15
+     ],
+     [
+      5689,
+      16
+     ],
+     [
+      6129,
+      17
+     ],
+     [
+      6549,
+      18
+     ],
+     [
+      6709,
+      19
+     ],
+     [
+      7430,
+      20
+     ],
+     [
+      7689,
+      21
+     ],
+     [
+      8329,
+      22
+     ],
+     [
+      8810,
+      23
+     ],
+     [
+      9209,
+      24
+     ],
+     [
+      9690,
+      25
+     ],
+     [
+      9930,
+      26
+     ],
+     [
+      10310,
+      27
+     ],
+     [
+      10649,
+      28
+     ],
+     [
+      11350,
+      29
+     ],
+     [
+      11549,
+      30
+     ],
+     [
+      12469,
+      31
+     ],
+     [
+      12629,
+      32
+     ],
+     [
+      13390,
+      33
+     ],
+     [
+      13869,
+      34
+     ],
+     [
+      14329,
+      35
+     ],
+     [
+      14589,
+      36
+     ],
+     [
+      14969,
+      37
+     ],
+     [
+      15810,
+      38
+     ],
+     [
+      16289,
+      39
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 153803,
+    "d": 2254,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      563,
+      1
+     ],
+     [
+      1310,
+      2
+     ],
+     [
+      1611,
+      3
+     ],
+     [
+      1912,
+      4
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 156358,
+    "d": 1900,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1629,
+      4
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 158559,
+    "d": 3560,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1189,
+      1
+     ],
+     [
+      2009,
+      2
+     ],
+     [
+      2689,
+      3
+     ],
+     [
+      2969,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

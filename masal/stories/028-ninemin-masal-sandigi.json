@@ -1,0 +1,2417 @@
+{
+ "id": "028-ninemin-masal-sandigi",
+ "n": 28,
+ "title": "Ninemin Masal Sandığı",
+ "age": "60-72",
+ "area": "Türkçe",
+ "theme": "Masal anlatma ve aile bağı",
+ "values": [
+  "D2 Aile Bütünlüğü",
+  "D15 Sevgi"
+ ],
+ "sdb": "SDB2.1 İletişim",
+ "min": 6,
+ "blurb": "Uykusu kaçan Zeynep'e ninesi, eski masal sandığından çıkan bir fener, bir zil ve bir atkıyla karlı bir köyün masalını anlatır. Ama masalın sonunu söylemek Zeynep'e kalır!",
+ "codes": {
+  "maarif": [
+   "TADB.3 Dinlediklerini/izlediklerini çözümleyebilme (olayların parçalarını belirler; dinlediklerini oluş sırasına göre söyler)",
+   "TAKB.2 Konuşma sürecinin içeriğini oluşturabilme (konuşacağı konu ile ön bilgileri/günlük yaşamı arasında bağlantı kurar)",
+   "OB5 Kültür Okuryazarlığı",
+   "E3.3 Yaratıcılık",
+   "SDB2.1 İletişim",
+   "D2 Aile Bütünlüğü",
+   "D15 Sevgi"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "nine": "nine",
+  "kiz": "cocuk-kiz",
+  "dede": "dede",
+  "kuzu": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "nine": "Nine",
+  "kiz": "Masaldaki küçük kız",
+  "dede": "Masaldaki dede",
+  "kuzu": "Kuzu"
+ },
+ "pages": [
+  {
+   "text": "Bir kış gecesi Zeynep ninesinde kalıyordu. Ama uykusu kaçmıştı. Bir sağa döndü, bir sola. “Nine, bana masal anlatır mısın?” Nine yatağın altından eski bir sandık çekti. Gıcııırt! “Bu benim masal sandığım!”",
+   "scene": {
+    "set": "oda-gece",
+    "moonHit": "ay",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 318,
+      "y": 196,
+      "s": 1.0,
+      "pose": "sit",
+      "mood": "surprised",
+      "hit": "zeynep",
+      "z": 400,
+      "flip": true
+     },
+     {
+      "k": "nine",
+      "x": 150,
+      "y": 228,
+      "s": 1.05,
+      "pose": "point",
+      "mood": "happy",
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "bed",
+      "x": 318,
+      "y": 222,
+      "s": 0.9
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 372,
+      "y": 194,
+      "s": 0.8,
+      "z": 300,
+      "hit": "ayi",
+      "lbl": "Oyuncak ayı"
+     },
+     {
+      "k": "oyuncak-kutusu",
+      "x": 246,
+      "y": 238,
+      "s": 1.2,
+      "state": "off",
+      "color": "#8A5A34",
+      "hit": "sandik",
+      "lbl": "Masal sandığı"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Uykum kaçtı! Bana masal anlatır mısın?",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "Gel bakalım, sandığımı açalım!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "sandik": {
+     "say": "Gıcııırt!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "ayi": {
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ay": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "sandik",
+    "Sandığa dokun!"
+   ],
+   "ask": "Sence Nine'nin sandığında neler vardır?"
+  },
+  {
+   "text": "Sandığın kapağı açıldı. Mmm, mis gibi lavanta kokusu! Nine gülümsedi: “Bu gecenin masalı üç eşyada saklı. Biri ışık verir, biri çın çın öter, biri de sıcacık ısıtır. Bul bakalım!” Zeynep eğildi, baktı, baktı…",
+   "scene": {
+    "set": "oda-gece",
+    "moonHit": "ay",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 318,
+      "y": 226,
+      "s": 1.14,
+      "pose": "crawl",
+      "mood": "surprised",
+      "hit": "zeynep",
+      "flip": true
+     },
+     {
+      "k": "nine",
+      "x": 64,
+      "y": 230,
+      "s": 1.05,
+      "pose": "wave",
+      "mood": "happy",
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-kutusu",
+      "x": 190,
+      "y": 236,
+      "s": 2.4,
+      "state": "off",
+      "color": "#8A5A34",
+      "hit": "sandik",
+      "lbl": "Masal sandığı"
+     },
+     {
+      "k": "fener",
+      "x": 168,
+      "y": 178,
+      "s": 0.85,
+      "state": "off",
+      "peek": true,
+      "hit": "fener",
+      "lbl": "Fener",
+      "z": 700
+     },
+     {
+      "k": "zil",
+      "x": 236,
+      "y": 176,
+      "s": 0.85,
+      "peek": true,
+      "hit": "zil",
+      "lbl": "Zil",
+      "z": 701
+     },
+     {
+      "k": "atki",
+      "x": 212,
+      "y": 196,
+      "s": 1.35,
+      "color": "#D8433B",
+      "peek": true,
+      "hit": "atki",
+      "lbl": "Atkı",
+      "z": 710
+     },
+     {
+      "k": "kitap",
+      "x": 182,
+      "y": 186,
+      "s": 1.15,
+      "color": "#4E8A5A",
+      "z": 720
+     },
+     {
+      "k": "bere",
+      "x": 226,
+      "y": 188,
+      "s": 1.0,
+      "color": "#E0A030",
+      "z": 721
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Vay! Burası bir hazine sandığı!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "Biri ışık verir, biri çın çın öter, biri de ısıtır!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "sandik": {
+     "say": "Mmm, mis gibi lavanta!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "sniff"
+    },
+    "ay": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "fener",
+     "zil",
+     "atki"
+    ],
+    "done": "Bir fener, bir zil, bir de atkı!",
+    "msg": "Üç eşyayı da buldun!"
+   },
+   "hint": [
+    "fener",
+    "Işık veren hangisi?"
+   ],
+   "ask": "Senin evinde eski, özel bir eşya var mı? Kimden kalmış, hikâyesi ne?"
+  },
+  {
+   "text": "Nine feneri kaldırdı: “Bir varmış, bir yokmuş. Evvel zaman içinde, kalbur saman içinde… Karlı bir köyde küçük bir kız varmış. Bir akşam kızın kuzusu kaybolmuş! Kız çok korkmuş, kalbi güm güm atmış.” Zeynep yastığına sımsıkı sarıldı.",
+   "scene": {
+    "set": "oda-gece",
+    "moonHit": "ay",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 150,
+      "y": 226,
+      "s": 1.05,
+      "pose": "wave",
+      "mood": "happy",
+      "hit": "nine",
+      "hold": "fener",
+      "holdS": 0.7,
+      "holdMode": "up",
+      "holdO": {
+       "state": "off"
+      }
+     },
+     {
+      "k": "zeynep",
+      "x": 300,
+      "y": 230,
+      "s": 1.12,
+      "pose": "hug",
+      "hold": "yastik",
+      "holdS": 1.0,
+      "holdO": {
+       "color": "#F4B8C8"
+      },
+      "mood": "scared",
+      "hit": "zeynep",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "bed",
+      "x": 318,
+      "y": 222,
+      "s": 0.9
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 362,
+      "y": 194,
+      "s": 0.8,
+      "z": 300,
+      "hit": "ayi",
+      "lbl": "Oyuncak ayı"
+     },
+     {
+      "k": "oyuncak-kutusu",
+      "x": 55,
+      "y": 236,
+      "s": 1.1,
+      "state": "off",
+      "color": "#8A5A34"
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Bir varmış, bir yokmuş…",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Eyvah! Kuzu nerede?",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "ayi": {
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ay": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "predict": {
+    "q": "Sence kuzucuk nereye gitmiş?",
+    "res": "Güzel tahmin! Hadi, masalı dinleyelim.",
+    "opts": [
+     {
+      "l": "Çalının arkasında",
+      "scene": {
+       "set": "cayir",
+       "season": "winter",
+       "time": "night",
+       "weather": "snow",
+       "trees": false,
+       "cast": [
+        {
+         "k": "kuzu",
+         "x": 246,
+         "y": 212,
+         "s": 1.05,
+         "mood": "surprised",
+         "pose": "stand"
+        },
+        {
+         "k": "ay",
+         "x": 340,
+         "y": 50,
+         "s": 0.9,
+         "mood": "happy"
+        }
+       ],
+       "props": [
+        {
+         "k": "cali",
+         "x": 196,
+         "y": 222,
+         "s": 1.7,
+         "season": "winter"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Ağacın altında",
+      "scene": {
+       "set": "cayir",
+       "season": "winter",
+       "time": "night",
+       "weather": "snow",
+       "trees": false,
+       "cast": [
+        {
+         "k": "kuzu",
+         "x": 200,
+         "y": 226,
+         "s": 1.1,
+         "mood": "shy",
+         "pose": "sit"
+        },
+        {
+         "k": "ay",
+         "x": 60,
+         "y": 50,
+         "s": 0.9,
+         "mood": "happy"
+        }
+       ],
+       "props": [
+        {
+         "k": "tree",
+         "x": 232,
+         "y": 214,
+         "s": 1.6,
+         "season": "winter"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "nine",
+    "Nine'ye dokun, dinle!"
+   ],
+   "ask": "Kuzu kaybolunca küçük kız ne hissetti? Sen hiç bir şeyini kaybettin mi?"
+  },
+  {
+   "text": "Kızın dedesi elini tutmuş: “Birlikte buluruz.” Feneri yakmış. Karda gıcır gıcır, adım adım yürümüşler. Kız zilini çalmış: çın çın! Çalının dibinden bir ses: “Meee!” Kuzu tir tir titriyormuş. Kız atkısını kuzuya sarmış.",
+   "scene": {
+    "set": "cayir",
+    "season": "winter",
+    "time": "night",
+    "weather": "snow",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 88,
+      "y": 224,
+      "s": 1.0,
+      "pose": "walk",
+      "mood": "happy",
+      "hit": "dede",
+      "hold": "fener",
+      "holdS": 0.6,
+      "holdO": {
+       "state": "on"
+      }
+     },
+     {
+      "k": "cocuk",
+      "look": 3,
+      "hair": "braids",
+      "hairC": "koyu",
+      "top": "#3F7FBF",
+      "topType": "sweater",
+      "x": 190,
+      "y": 228,
+      "s": 1.0,
+      "pose": "wave",
+      "mood": "surprised",
+      "hit": "kiz",
+      "hold": "zil",
+      "holdS": 0.5,
+      "holdMode": "up",
+      "lbl": "Küçük kız"
+     },
+     {
+      "k": "kuzu",
+      "x": 305,
+      "y": 226,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "kuzu",
+      "flip": true
+     },
+     {
+      "k": "ay",
+      "x": 350,
+      "y": 46,
+      "s": 0.9,
+      "mood": "happy",
+      "hit": "ay"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 352,
+      "y": 214,
+      "s": 1.5,
+      "season": "winter"
+     },
+     {
+      "k": "atki",
+      "x": 300,
+      "y": 200,
+      "s": 1.2,
+      "color": "#D8433B",
+      "z": 300
+     }
+    ]
+   },
+   "hits": {
+    "kiz": {
+     "say": "Çın çın! Neredesin kuzucuğum?",
+     "voice": "kiz",
+     "anim": "jump",
+     "fx": "bell"
+    },
+    "kuzu": {
+     "say": "Meee… oh, sıcacık!",
+     "voice": "kuzu",
+     "anim": "jump",
+     "fx": "baa"
+    },
+    "dede": {
+     "say": "Korkma, birlikte buluruz.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ay": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "kiz",
+    "Kıza dokun, zili çal!"
+   ],
+   "ask": "Kız kuzusunu nasıl buldu? Sence zilin sesi neden işe yaradı?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "kar-adim"
+    }
+   ]
+  },
+  {
+   "text": "Nine birden sustu. Sonra şakacıktan horladı: “Horrr, fiuuu!” Zeynep kıkır kıkır güldü: “Nine, uyuma! Masal bitmedi!” Nine tek gözünü açtı: “Önce masalı sırala. Sonunu da sen söyle!”",
+   "scene": {
+    "set": "oda-gece",
+    "moonHit": "ay",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 330,
+      "y": 226,
+      "s": 1.05,
+      "pose": "sit",
+      "mood": "sleep",
+      "hit": "nine",
+      "flip": true
+     },
+     {
+      "k": "zeynep",
+      "x": 70,
+      "y": 228,
+      "s": 1.12,
+      "pose": "clap",
+      "mood": "laugh",
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "zil",
+      "x": 142,
+      "y": 232,
+      "s": 0.85,
+      "hit": "zil",
+      "lbl": "Zil"
+     },
+     {
+      "k": "atki",
+      "x": 206,
+      "y": 230,
+      "s": 1.6,
+      "color": "#D8433B",
+      "hit": "atki",
+      "lbl": "Atkı"
+     },
+     {
+      "k": "fener",
+      "x": 264,
+      "y": 232,
+      "s": 0.85,
+      "state": "off",
+      "hit": "fener",
+      "lbl": "Fener"
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Horrr… fiuuu…",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "lullaby"
+    },
+    "zeynep": {
+     "say": "Nine, uyuma! Masal bitmedi!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "ay": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "fener",
+     "zil",
+     "atki"
+    ],
+    "done": "Önce fener, sonra zil, en son atkı!",
+    "msg": "Masal sıraya dizildi!"
+   },
+   "hint": [
+    "fener",
+    "Önce hangisi? Sırala!"
+   ],
+   "ask": "Masalda önce ne oldu, sonra ne oldu, en son ne oldu?",
+   "cues": [
+    {
+     "w": 5,
+     "fx": "horul"
+    },
+    {
+     "w": 9,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep eşyaları sıraladı: “Önce fener, sonra zil, en son atkı!” Ardından masalı bitirdi: “Kuzu ısınmış, ‘Meee!’ diye teşekkür etmiş. Hep birlikte eve dönüp sıcak süt içmişler!” Nine atkıyı Zeynep'e verdi. Zeynep'in gözleri kocaman oldu. “O kız sen miydin, Nine?” Nine göz kırptı: “Ta kendisi!”",
+   "scene": {
+    "set": "oda-gece",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 100,
+      "y": 232,
+      "s": 1.35,
+      "pose": "stand",
+      "mood": "laugh",
+      "hit": "nine"
+     },
+     {
+      "k": "zeynep",
+      "x": 258,
+      "y": 233,
+      "s": 1.5,
+      "pose": "hug",
+      "hold": "atki",
+      "holdS": 1.45,
+      "holdO": {
+       "color": "#D8433B"
+      },
+      "mood": "surprised",
+      "hit": "zeynep",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "bed",
+      "x": 330,
+      "y": 222,
+      "s": 0.9
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 376,
+      "y": 194,
+      "s": 0.8,
+      "z": 300,
+      "hit": "ayi",
+      "lbl": "Oyuncak ayı"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "O kız sen miydin, Nine?",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "twinkle",
+     "spark": true
+    },
+    "nine": {
+     "say": "Ta kendisi! O küçük kız bendim.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime",
+     "hearts": true
+    },
+    "ayi": {
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "nine",
+    "Nine'ye dokun!"
+   ],
+   "ask": "Zeynep, masaldaki kızın Nine olduğunu nasıl anladı? Sen ne zaman fark ettin?"
+  },
+  {
+   "text": "Zeynep oyuncak ayısını sandığa koydu. “Yarın gece bu ayının masalını ben anlatacağım!” Sonra fısıldadı: “Gökten üç elma düşmüş. Biri bana, biri sana, biri de masalı dinleyene!” Ay gülümsedi. Zeynep mışıl mışıl uyudu.",
+   "scene": {
+    "set": "oda-gece",
+    "moonHit": "ay",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 336,
+      "y": 176,
+      "s": 0.95,
+      "pose": "lie",
+      "mood": "sleep",
+      "hit": "zeynep",
+      "z": 400
+     },
+     {
+      "k": "nine",
+      "x": 200,
+      "y": 230,
+      "s": 1.02,
+      "pose": "stand",
+      "mood": "calm",
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "bed",
+      "x": 318,
+      "y": 222,
+      "s": 0.9
+     },
+     {
+      "k": "oyuncak-kutusu",
+      "x": 70,
+      "y": 236,
+      "s": 1.2,
+      "state": "off",
+      "color": "#8A5A34"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 70,
+      "y": 210,
+      "s": 0.75,
+      "z": 500,
+      "hit": "ayi",
+      "lbl": "Oyuncak ayı"
+     },
+     {
+      "k": "apple",
+      "x": 96,
+      "y": 78,
+      "s": 1.0,
+      "hit": "e1",
+      "lbl": "Elma"
+     },
+     {
+      "k": "apple",
+      "x": 130,
+      "y": 96,
+      "s": 1.0,
+      "hit": "e2",
+      "lbl": "Elma"
+     },
+     {
+      "k": "apple",
+      "x": 160,
+      "y": 74,
+      "s": 1.0,
+      "hit": "e3",
+      "lbl": "Elma"
+     },
+     {
+      "k": "zzz",
+      "x": 372,
+      "y": 130
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Bir varmış, bir yokmuş…",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "lullaby"
+    },
+    "nine": {
+     "say": "İyi geceler, masalcı kızım.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "lullaby",
+     "hearts": true
+    },
+    "ayi": {
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ay": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "e1",
+     "e2",
+     "e3"
+    ],
+    "done": "Biri bana, biri sana, biri de dinleyene!",
+    "msg": "Üç elma, üç masal dinleyicisi!"
+   },
+   "hint": [
+    "e1",
+    "Elmaları yavaşça say."
+   ],
+   "ask": "Senin masal sandığında hangi eşyan olurdu? Onun masalını anlatır mısın?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.3 Dinlediklerini/izlediklerini çözümleyebilme (öğrenme çıktısı); süreç bileşenleri: olayların parçalarını belirler (kuzu kaybolur, fenerle aranır, zille çağrılır, atkıyla ısıtılır) ve dinlediklerini oluş sırasına göre söyler (5. sayfadaki fener-zil-atkı sıralaması ve masal sonu sıralama oyunu).",
+   "TAKB.2 Konuşma sürecinin içeriğini oluşturabilme (öğrenme çıktısı); süreç bileşeni: konuşacağı konu ile ön bilgileri/günlük yaşamı arasında bağlantı kurar (kendi evindeki eski bir eşyanın ya da oyuncağının masalını anlatır, dinlediği masala kendi sonunu ekler).",
+   "OB5 Kültür Okuryazarlığı: Geleneksel masal tekerlemelerini (“Bir varmış, bir yokmuş”, “Evvel zaman içinde, kalbur saman içinde”, “Gökten üç elma düşmüş”) tanır, masal anlatırken kullanır; aile büyüklerinin anlattığı masalların ve eski eşyaların kültürel değerini fark eder.",
+   "SDB2.1 İletişim ve E3.3 Yaratıcılık: Büyüğüyle karşılıklı konuşarak masalı birlikte kurar; dinlediği masala kendi sözcükleriyle özgün bir son söyler.",
+   "D2 Aile Bütünlüğü ve D15 Sevgi: Aile büyüklerinin çocukluk anılarını merak eder; kuşaklar arasında aktarılan eşya ve masallar yoluyla aile bağını ve sevgiyi fark eder."
+  ],
+  "once": [
+   "Kapağı göster: “Bu sandığın içinde neler olabilir? Masalın adı: Ninemin Masal Sandığı.”",
+   "Bir kutuya eski ya da ilginç üç eşya koy (bir zil, bir atkı, bir fener ya da el feneri olabilir). Masaldan sonra bu eşyalarla birlikte masal kuracaksınız.",
+   "“Sana masal anlatan bir büyüğün var mı? Masallar nasıl başlar?” diye sor; “Bir varmış, bir yokmuş” tekerlemesini birlikte söyleyin."
+  ],
+  "sirasi": [
+   "2. sayfada Nine'nin bilmecesini birlikte tekrar edin: “Biri ışık verir, biri çın çın öter, biri de ısıtır.” Her ipucundan sonra çocuk eşyayı bulsun ve adını yüksek sesle söylesin: fener, zil, atkı. Kitap ve bere neden masalın eşyası değil, konuşun.",
+   "3. sayfada “Evvel zaman içinde, kalbur saman içinde” tekerlemesini ritimle tekrar edin. Tahmin sorusunda iki cevabı da kabul et; “Neden orada olabilir?” diye sor.",
+   "4. sayfada zil sesini (çın çın) ve kuzunun sesini (meee) birlikte yapın. Kızın korkusunu ve dedenin “Birlikte buluruz.” sözünü konuşun.",
+   "5. sayfada sıralama oyunundan önce masalı sözlü olarak geri anlatın: “Önce ne oldu? Sonra?”",
+   "6. sayfayı okumadan önce durun: “Sen olsan masalı nasıl bitirirdin?” Sonra Zeynep'in sonunu okuyun ve karşılaştırın."
+  ],
+  "sonra": [
+   "Masalda önce ne oldu, sonra ne oldu, en son ne oldu? Eşyaları sıraya dizerek anlat.",
+   "Küçük kız kuzusu kaybolunca ne hissetti? Dedesi ona nasıl yardım etti? Sen korkunca kimden yardım istersin?",
+   "Zeynep masaldaki kızın ninesi olduğunu nasıl anladı?",
+   "Masallar nasıl başlar, nasıl biter? Bildiğin başka bir masal tekerlemesi var mı?",
+   "Masal sonu sıralama oyununu oynayın: sandık açılıyor, kuzu bulunuyor, Zeynep masalı bitiriyor."
+  ],
+  "sinif": {
+   "ad": "Sınıfımızın Masal Sandığı",
+   "sure": "25 dk",
+   "materyal": "Kapaklı bir kutu ya da sepet (masal sandığı), bir örtü, sınıftan ya da evden gelen küçük eşyalar (top, kaşık, şapka, zil vb.), kâğıt, boya kalemleri",
+   "adim": [
+    "Çember olun. Öğretmen sandığı açar ve “Bir varmış, bir yokmuş” diyerek ilk eşyayı çıkarır.",
+    "“Örtünün altında ne var?” oyunu: Eşyayı örtünün altına saklayın; bir çocuk dokunarak tahmin etsin, ötekiler ipucu versin.",
+    "Sandıktan üç eşya seçin. Her çocuk sırayla bir cümle ekleyerek bu üç eşyayla ortak bir masal kursun.",
+    "Eşyaları masaldaki sıraya dizip masalı “önce, sonra, en son” sözcükleriyle yeniden anlatın.",
+    "Son çocuk masalı “Gökten üç elma düşmüş…” tekerlemesiyle bitirsin; herkes kendi masal sonunun resmini çizsin."
+   ]
+  },
+  "evSoru": [
+   "Nine'nin sandığından hangi eşyalar çıktı? Masalda hangi sırayla kullanıldılar?",
+   "Masaldaki küçük kız kimdi?",
+   "Bizim ailemizde eski, özel bir eşya var mı? Onun hikâyesi ne?"
+  ],
+  "evEtk": {
+   "ad": "Ailemizin masal sandığı",
+   "d": "Evde bir kutuyu “masal sandığı” yapın. Aile büyüklerinden (nine, dede, anneanne, babaanne, anne ya da baba) kendi çocukluklarından bir eşya ve kısa bir anı isteyin; uzakta yaşayanlar görüntülü aramayla anlatabilir. Çocuğunuz eşyaları sıraya dizip masalı size yeniden anlatsın ve sonunu kendisi uydursun."
+  },
+  "aileNotu": "Bugün “Ninemin Masal Sandığı” masalını okuduk. Zeynep, ninesinin sandığından çıkan fener, zil ve atkıyla bir masal dinledi, masalı sıraya koydu ve sonunu kendisi anlattı; sonunda masaldaki küçük kızın ninesi olduğunu anladı. Evde çocuğunuza kendi çocukluğunuzdan bir anıyı “Bir varmış, bir yokmuş” diye anlatıp sonunu ona bırakabilirsiniz. Dinlediğini yeniden anlatmak ve kendi sonunu kurmak, çocuğunuzun dil gelişimini ve aile bağlarını güçlendirir."
+ },
+ "audio": {
+  "file": "audio/028-ninemin-masal-sandigi.mp3",
+  "hash": "f5e25fb8",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16657,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      5129,
+      9
+     ],
+     [
+      5390,
+      10
+     ],
+     [
+      5729,
+      11
+     ],
+     [
+      6529,
+      12
+     ],
+     [
+      6829,
+      13
+     ],
+     [
+      7669,
+      14
+     ],
+     [
+      8390,
+      15
+     ],
+     [
+      8690,
+      16
+     ],
+     [
+      9069,
+      17
+     ],
+     [
+      9589,
+      18
+     ],
+     [
+      10369,
+      19
+     ],
+     [
+      10690,
+      20
+     ],
+     [
+      11230,
+      21
+     ],
+     [
+      11789,
+      22
+     ],
+     [
+      12109,
+      23
+     ],
+     [
+      12350,
+      24
+     ],
+     [
+      12850,
+      25
+     ],
+     [
+      13729,
+      26
+     ],
+     [
+      14890,
+      27
+     ],
+     [
+      15049,
+      28
+     ],
+     [
+      15409,
+      29
+     ],
+     [
+      15930,
+      30
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 16957,
+    "d": 3602,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      3109,
+      5
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 20859,
+    "d": 1969,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1469,
+      3
+     ]
+    ]
+   },
+   "p0h-sandik": {
+    "s": 23129,
+    "d": 830,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24259,
+    "d": 17442,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1974,
+      3
+     ],
+     [
+      2849,
+      4
+     ],
+     [
+      3109,
+      5
+     ],
+     [
+      3369,
+      6
+     ],
+     [
+      3910,
+      7
+     ],
+     [
+      4830,
+      8
+     ],
+     [
+      5149,
+      9
+     ],
+     [
+      6469,
+      10
+     ],
+     [
+      6609,
+      11
+     ],
+     [
+      7129,
+      12
+     ],
+     [
+      7589,
+      13
+     ],
+     [
+      7789,
+      14
+     ],
+     [
+      8350,
+      15
+     ],
+     [
+      9230,
+      16
+     ],
+     [
+      9509,
+      17
+     ],
+     [
+      9869,
+      18
+     ],
+     [
+      10270,
+      19
+     ],
+     [
+      10589,
+      20
+     ],
+     [
+      10869,
+      21
+     ],
+     [
+      11129,
+      22
+     ],
+     [
+      11789,
+      23
+     ],
+     [
+      12049,
+      24
+     ],
+     [
+      12249,
+      25
+     ],
+     [
+      12789,
+      26
+     ],
+     [
+      13549,
+      27
+     ],
+     [
+      13789,
+      28
+     ],
+     [
+      14689,
+      29
+     ],
+     [
+      15249,
+      30
+     ],
+     [
+      16030,
+      31
+     ],
+     [
+      16789,
+      32
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 42001,
+    "d": 2840,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 45142,
+    "d": 4062,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2130,
+      6
+     ],
+     [
+      2930,
+      7
+     ],
+     [
+      3209,
+      8
+     ],
+     [
+      3410,
+      9
+     ]
+    ]
+   },
+   "p1h-sandik": {
+    "s": 49505,
+    "d": 1893,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      463,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1192,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 51698,
+    "d": 3020,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2390,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 55018,
+    "d": 19732,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      3129,
+      5
+     ],
+     [
+      3410,
+      6
+     ],
+     [
+      4509,
+      7
+     ],
+     [
+      4949,
+      8
+     ],
+     [
+      5310,
+      9
+     ],
+     [
+      6129,
+      10
+     ],
+     [
+      6669,
+      11
+     ],
+     [
+      7069,
+      12
+     ],
+     [
+      7890,
+      13
+     ],
+     [
+      8289,
+      14
+     ],
+     [
+      8509,
+      15
+     ],
+     [
+      8909,
+      16
+     ],
+     [
+      9249,
+      17
+     ],
+     [
+      9469,
+      18
+     ],
+     [
+      9749,
+      19
+     ],
+     [
+      10709,
+      20
+     ],
+     [
+      10969,
+      21
+     ],
+     [
+      11749,
+      22
+     ],
+     [
+      12149,
+      23
+     ],
+     [
+      12629,
+      24
+     ],
+     [
+      13850,
+      25
+     ],
+     [
+      14149,
+      26
+     ],
+     [
+      14430,
+      27
+     ],
+     [
+      15350,
+      28
+     ],
+     [
+      15829,
+      29
+     ],
+     [
+      16110,
+      30
+     ],
+     [
+      16370,
+      31
+     ],
+     [
+      17350,
+      32
+     ],
+     [
+      17870,
+      33
+     ],
+     [
+      18549,
+      34
+     ],
+     [
+      19149,
+      35
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 75051,
+    "d": 1356,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 76707,
+    "d": 1790,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      739,
+      1
+     ],
+     [
+      1156,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 78797,
+    "d": 1835,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 80932,
+    "d": 3142,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2349,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 84375,
+    "d": 19483,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      3569,
+      6
+     ],
+     [
+      4009,
+      7
+     ],
+     [
+      4930,
+      8
+     ],
+     [
+      5410,
+      9
+     ],
+     [
+      5789,
+      10
+     ],
+     [
+      6569,
+      11
+     ],
+     [
+      6910,
+      12
+     ],
+     [
+      7229,
+      13
+     ],
+     [
+      8310,
+      14
+     ],
+     [
+      8609,
+      15
+     ],
+     [
+      9109,
+      16
+     ],
+     [
+      10069,
+      17
+     ],
+     [
+      10430,
+      18
+     ],
+     [
+      11149,
+      19
+     ],
+     [
+      11730,
+      20
+     ],
+     [
+      12390,
+      21
+     ],
+     [
+      12649,
+      22
+     ],
+     [
+      13549,
+      23
+     ],
+     [
+      14729,
+      24
+     ],
+     [
+      15109,
+      25
+     ],
+     [
+      15390,
+      26
+     ],
+     [
+      15689,
+      27
+     ],
+     [
+      16950,
+      28
+     ],
+     [
+      17629,
+      29
+     ],
+     [
+      18270,
+      30
+     ],
+     [
+      18789,
+      31
+     ]
+    ]
+   },
+   "p3h-kiz": {
+    "s": 104158,
+    "d": 2607,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      302,
+      1
+     ],
+     [
+      875,
+      2
+     ],
+     [
+      1721,
+      3
+     ]
+    ]
+   },
+   "p3h-kuzu": {
+    "s": 107065,
+    "d": 1615,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      767,
+      1
+     ],
+     [
+      1082,
+      2
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 108981,
+    "d": 1568,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      909,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 110849,
+    "d": 15904,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3709,
+      6
+     ],
+     [
+      4449,
+      7
+     ],
+     [
+      5729,
+      8
+     ],
+     [
+      6249,
+      9
+     ],
+     [
+      6609,
+      10
+     ],
+     [
+      7009,
+      11
+     ],
+     [
+      7870,
+      12
+     ],
+     [
+      8609,
+      13
+     ],
+     [
+      9369,
+      14
+     ],
+     [
+      9850,
+      15
+     ],
+     [
+      10829,
+      16
+     ],
+     [
+      11189,
+      17
+     ],
+     [
+      11430,
+      18
+     ],
+     [
+      11909,
+      19
+     ],
+     [
+      12749,
+      20
+     ],
+     [
+      13109,
+      21
+     ],
+     [
+      13589,
+      22
+     ],
+     [
+      14390,
+      23
+     ],
+     [
+      14869,
+      24
+     ],
+     [
+      15069,
+      25
+     ],
+     [
+      15390,
+      26
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 127054,
+    "d": 2068,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      843,
+      1
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 129423,
+    "d": 2033,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      485,
+      1
+     ],
+     [
+      1186,
+      2
+     ],
+     [
+      1518,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 131756,
+    "d": 3096,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2549,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 135152,
+    "d": 23302,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      2989,
+      5
+     ],
+     [
+      3390,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4229,
+      8
+     ],
+     [
+      4509,
+      9
+     ],
+     [
+      5289,
+      10
+     ],
+     [
+      5850,
+      11
+     ],
+     [
+      6249,
+      12
+     ],
+     [
+      7089,
+      13
+     ],
+     [
+      7430,
+      14
+     ],
+     [
+      8390,
+      15
+     ],
+     [
+      9270,
+      16
+     ],
+     [
+      9549,
+      17
+     ],
+     [
+      10129,
+      18
+     ],
+     [
+      10850,
+      19
+     ],
+     [
+      11089,
+      20
+     ],
+     [
+      11609,
+      21
+     ],
+     [
+      11829,
+      22
+     ],
+     [
+      12169,
+      23
+     ],
+     [
+      12589,
+      24
+     ],
+     [
+      12829,
+      25
+     ],
+     [
+      13850,
+      26
+     ],
+     [
+      14229,
+      27
+     ],
+     [
+      14749,
+      28
+     ],
+     [
+      15269,
+      29
+     ],
+     [
+      15989,
+      30
+     ],
+     [
+      16549,
+      31
+     ],
+     [
+      17030,
+      32
+     ],
+     [
+      17549,
+      33
+     ],
+     [
+      18270,
+      34
+     ],
+     [
+      18409,
+      35
+     ],
+     [
+      18989,
+      36
+     ],
+     [
+      19270,
+      37
+     ],
+     [
+      19989,
+      38
+     ],
+     [
+      20729,
+      39
+     ],
+     [
+      21049,
+      40
+     ],
+     [
+      21369,
+      41
+     ],
+     [
+      22249,
+      42
+     ],
+     [
+      22449,
+      43
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 158755,
+    "d": 1884,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      295,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      805,
+      3
+     ],
+     [
+      1400,
+      4
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 160939,
+    "d": 2531,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      281,
+      1
+     ],
+     [
+      1167,
+      2
+     ],
+     [
+      1408,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2070,
+      5
+     ]
+    ]
+   },
+   "p6": {
+    "s": 163771,
+    "d": 18304,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2989,
+      5
+     ],
+     [
+      3609,
+      6
+     ],
+     [
+      4390,
+      7
+     ],
+     [
+      4589,
+      8
+     ],
+     [
+      5069,
+      9
+     ],
+     [
+      5689,
+      10
+     ],
+     [
+      5949,
+      11
+     ],
+     [
+      7089,
+      12
+     ],
+     [
+      7489,
+      13
+     ],
+     [
+      8609,
+      14
+     ],
+     [
+      9449,
+      15
+     ],
+     [
+      9690,
+      16
+     ],
+     [
+      10029,
+      17
+     ],
+     [
+      10989,
+      18
+     ],
+     [
+      11270,
+      19
+     ],
+     [
+      11890,
+      20
+     ],
+     [
+      12249,
+      21
+     ],
+     [
+      12909,
+      22
+     ],
+     [
+      13189,
+      23
+     ],
+     [
+      13369,
+      24
+     ],
+     [
+      13829,
+      25
+     ],
+     [
+      15029,
+      26
+     ],
+     [
+      15249,
+      27
+     ],
+     [
+      16350,
+      28
+     ],
+     [
+      17049,
+      29
+     ],
+     [
+      17469,
+      30
+     ],
+     [
+      17850,
+      31
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 182375,
+    "d": 1937,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      345,
+      1
+     ],
+     [
+      1059,
+      2
+     ],
+     [
+      1364,
+      3
+     ]
+    ]
+   },
+   "p6h-nine": {
+    "s": 184613,
+    "d": 1599,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1229,
+      3
+     ]
+    ]
+   },
+   "p6m": {
+    "s": 186513,
+    "d": 3082,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2289,
+      6
+     ]
+    ]
+   }
+  }
+ }
+}

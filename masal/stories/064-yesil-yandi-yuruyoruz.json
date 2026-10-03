@@ -1,0 +1,2221 @@
+{
+ "id": "064-yesil-yandi-yuruyoruz",
+ "n": 64,
+ "title": "Yeşil Yandı, Yürüyoruz",
+ "age": "48-60",
+ "area": "Hareket ve Sağlık",
+ "theme": "Yaya geçidinde güvenli geçiş, trafik ışıkları ve beklemek",
+ "values": [
+  "D16 Sorumluluk",
+  "D12 Sabır"
+ ],
+ "sdb": "SDB3.3 Sorumlu Karar Verme",
+ "min": 6,
+ "blurb": "Karşıdan salıncak sesi geliyor, Can'ın ayakları kıpır kıpır! Ama lambada kırmızı adam yanıyor. Can, annesi ve köpeği Tarçın'la beklemeyi bir oyuna çevirir: Dur, bak, dinle!",
+ "codes": {
+  "maarif": [
+   "HSAB.11 Tehlike ve kaza durumlarına karşı kendini koruyabilme (tehlikeli davranış ve durumlardan kaçınır; tehlike veya kaza durumunda ne yapacağını bilir)",
+   "SBAB7 Mekânsal Düşünme",
+   "OB6 Vatandaşlık Okuryazarlığı",
+   "SDB3.3 Sorumlu Karar Verme",
+   "D16 Sorumluluk",
+   "D12 Sabır"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "can": "cocuk-erkek",
+  "anne": "anne",
+  "tarcin": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "can": "Can",
+  "anne": "Anne (Can'ın annesi)",
+  "tarcin": "Tarçın (köpek)"
+ },
+ "pages": [
+  {
+   "text": "Pazar sabahı Can, annesi ve köpeği Tarçın parka gidiyordu. Park yolun karşısında, bakkalın arkasındaydı. Tarçın'ın kayışı annesinin elindeydi. Annesi yaya geçidinin başında durdu. “Gel, Can, yanıma!” Can tıpış tıpış yürüdü.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "can",
+      "x": 140,
+      "y": 234,
+      "s": 1.02,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "can"
+     },
+     {
+      "k": "kopek",
+      "x": 318,
+      "y": 233,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true,
+      "hit": "tarcin",
+      "leash": {
+       "to": [
+        -39.7,
+        -55.7
+       ]
+      }
+     },
+     {
+      "k": "anne",
+      "x": 262,
+      "y": 230,
+      "s": 0.98,
+      "mood": "happy",
+      "pose": "wave",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "trafik-lambasi",
+      "kind": "yaya",
+      "x": 372,
+      "y": 224,
+      "s": 1.0,
+      "state": "off"
+     },
+     {
+      "k": "bisiklet",
+      "x": 150,
+      "y": 178,
+      "s": 0.4
+     },
+     {
+      "k": "cali",
+      "x": 52,
+      "y": 236,
+      "s": 0.8,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "anne": {
+     "say": "Gel Can, yanıma!",
+     "voice": "anne",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "tarcin": {
+     "say": "Hav hav!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    },
+    "can": {
+     "say": "Tıpış tıpış, geliyorum!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "step"
+    }
+   },
+   "hint": [
+    "anne",
+    "Anneye dokun!"
+   ],
+   "ask": "Can nereye gidiyor? Siz parka giderken yolda neler görürsünüz?"
+  },
+  {
+   "text": "Karşıdan salıncak sesi geliyordu: gıcır gıcır! Can'ın ayakları kıpır kıpır oldu. “Hadi koşalım!” dedi Can. Annesi yumuşacık gülümsedi. “Dur! Önce lambaya bakalım.” Lambada kırmızı adam yanıyordu.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 140,
+      "y": 231,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "point",
+      "hit": "anne"
+     },
+     {
+      "k": "can",
+      "x": 222,
+      "y": 234,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "can"
+     },
+     {
+      "k": "kopek",
+      "x": 96,
+      "y": 235,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": false,
+      "hit": "tarcin",
+      "leash": {
+       "to": [
+        27.5,
+        -57.8
+       ]
+      }
+     }
+    ],
+    "props": [
+     {
+      "k": "trafik-lambasi",
+      "kind": "yaya",
+      "x": 305,
+      "y": 224,
+      "s": 1.25,
+      "state": "off",
+      "hit": "lamba"
+     },
+     {
+      "k": "araba",
+      "x": 150,
+      "y": 208,
+      "s": 0.5,
+      "color": "blue",
+      "moving": true
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Hadi koşalım, hadi!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Dur! Önce lambaya bakalım.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "lamba": {
+     "say": "Kırmızı adam: Dur!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "tarcin": {
+     "say": "Hav?",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "woof"
+    }
+   },
+   "hint": [
+    "lamba",
+    "Lambaya dokun!"
+   ],
+   "ask": "Lambada hangi renk yanıyor? Sence annesi neden ‘Önce lambaya bakalım’ dedi?"
+  },
+  {
+   "text": "Can bekledi, bekledi. Kırmızı adam hâlâ yanıyordu. Can sabırsızlandı. Ayakları tıpır tıpır yere vurdu. “Anne, çok uzun sürüyor!” Annesi göz kırptı. “Beklerken ne yapabiliriz?”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "can",
+      "x": 200,
+      "y": 235,
+      "s": 1.15,
+      "mood": "angry",
+      "pose": "jump",
+      "hit": "can"
+     },
+     {
+      "k": "anne",
+      "x": 118,
+      "y": 232,
+      "s": 1.08,
+      "mood": "happy",
+      "pose": "open",
+      "turn": 0.4,
+      "hit": "anne"
+     },
+     {
+      "k": "kopek",
+      "x": 88,
+      "y": 236,
+      "s": 0.85,
+      "mood": "calm",
+      "pose": "sit",
+      "flip": false,
+      "hit": "tarcin",
+      "leash": {
+       "to": [
+        -18.9,
+        -101.5
+       ]
+      }
+     }
+    ],
+    "props": [
+     {
+      "k": "trafik-lambasi",
+      "kind": "yaya",
+      "x": 320,
+      "y": 226,
+      "s": 1.4,
+      "state": "off",
+      "hit": "lamba"
+     },
+     {
+      "k": "araba",
+      "x": 360,
+      "y": 208,
+      "s": 0.5,
+      "color": "red",
+      "moving": true
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Of, çok uzun sürüyor!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "anne": {
+     "say": "Beklerken ne yapabiliriz?",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "lamba": {
+     "say": "Kırmızı adam hâlâ yanıyor.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "tarcin": {
+     "say": "Hav!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    }
+   },
+   "predict": {
+    "q": "Sence Can beklerken ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Arabaları sayar",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "day",
+       "cast": [
+        {
+         "k": "can",
+         "x": 120,
+         "y": 234,
+         "s": 1.15,
+         "mood": "laugh",
+         "pose": "point"
+        }
+       ],
+       "props": [
+        {
+         "k": "araba",
+         "x": 230,
+         "y": 208,
+         "s": 0.55,
+         "color": "yellow",
+         "moving": true
+        },
+        {
+         "k": "otobus",
+         "type": "sehir",
+         "x": 330,
+         "y": 212,
+         "s": 0.4,
+         "kids": 2
+        }
+       ]
+      }
+     },
+     {
+      "l": "Tarçın'ı sever",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "day",
+       "cast": [
+        {
+         "k": "can",
+         "x": 160,
+         "y": 234,
+         "s": 1.15,
+         "mood": "happy",
+         "pose": "sit"
+        },
+        {
+         "k": "kopek",
+         "x": 232,
+         "y": 236,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "stand",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "heart",
+         "x": 196,
+         "y": 90,
+         "s": 0.8
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Can nasıl hissediyor? Beklemek sana uzun gelince neler yaparsın?"
+  },
+  {
+   "text": "Can, Tarçın'ı sevdi. Arabaları saydı: bir, iki, üç! Sonra Can bir oyun buldu. “Dur, bak, dinle!” Annesi güldü: “Ben de oynarım!” Can durdu. Lambaya baktı. Vınnn! Geçen arabanın sesini dinledi.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 110,
+      "y": 231,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "anne"
+     },
+     {
+      "k": "kopek",
+      "x": 165,
+      "y": 235,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "hit": "tarcin",
+      "leash": {
+       "to": [
+        -54.4,
+        -76.7
+       ]
+      }
+     },
+     {
+      "k": "can",
+      "x": 218,
+      "y": 235,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "trafik-lambasi",
+      "kind": "yaya",
+      "x": 282,
+      "y": 226,
+      "s": 1.2,
+      "state": "off",
+      "hit": "lamba"
+     },
+     {
+      "k": "araba",
+      "x": 335,
+      "y": 210,
+      "s": 0.5,
+      "color": "green",
+      "moving": true,
+      "hit": "araba"
+     }
+    ]
+   },
+   "hits": {
+    "anne": {
+     "say": "Ben de oynarım!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tarcin": {
+     "say": "Hav hav!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    },
+    "can": {
+     "say": "Dur!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "lamba": {
+     "say": "Bak! Kırmızı adam.",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "araba": {
+     "say": "Dinle! Vınnn!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "korna"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "can",
+     "lamba",
+     "araba"
+    ],
+    "done": "Dur, bak, dinle! Can'ın oyunu bu.",
+    "msg": "Sırayla yaptın!"
+   },
+   "hint": [
+    "can",
+    "Oyunu oyna: Dur, bak, dinle!"
+   ],
+   "ask": "Can'ın oyununun sırası neydi? Önce ne yaptı, sonra ne yaptı?"
+  },
+  {
+   "text": "Bip bip! Yeşil adam yandı. Arabalar durdu. Can sola baktı, sağa baktı, bir daha sola baktı. Sonra annesinin elini tuttu.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kopek",
+      "x": 200,
+      "y": 234,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "tarcin",
+      "leash": {
+       "to": [
+        45.4,
+        -57.8
+       ]
+      }
+     },
+     {
+      "k": "anne",
+      "x": 262,
+      "y": 230,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "stand",
+      "turn": 0.3,
+      "hit": "anne"
+     },
+     {
+      "k": "can",
+      "x": 292,
+      "y": 233,
+      "s": 1.0,
+      "mood": "think",
+      "pose": "stand",
+      "turn": -0.7,
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "trafik-lambasi",
+      "kind": "yaya",
+      "x": 368,
+      "y": 226,
+      "s": 1.2,
+      "state": "off",
+      "hit": "lamba"
+     },
+     {
+      "k": "araba",
+      "x": 125,
+      "y": 204,
+      "s": 0.5,
+      "color": "yellow"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Sola, sağa, bir daha sola!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "anne": {
+     "say": "Elimi tut, Can.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tarcin": {
+     "say": "Hav!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    }
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "lamba"
+    ],
+    "say": "Bip bip! Bak, yeşil adam yandı!",
+    "done": "Yeşil yandı! Arabalar durdu.",
+    "msg": "Yeşil yandı!"
+   },
+   "hint": [
+    "lamba",
+    "Bekle… şimdi lambaya bak!"
+   ],
+   "ask": "Yeşil adam yanınca Can nerelere baktı? Sen karşıya geçerken kimin elini tutarsın?"
+  },
+  {
+   "text": "Adım adım, çizgi çizgi… Can ile annesi el ele yürüdü. Tarçın da yanlarında. İşte karşı kaldırım!",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kopek",
+      "x": 170,
+      "y": 208,
+      "s": 0.62,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "tarcin",
+      "leash": {
+       "to": [
+        40.6,
+        -44.7
+       ]
+      }
+     },
+     {
+      "k": "anne",
+      "x": 232,
+      "y": 208,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "anne"
+     },
+     {
+      "k": "can",
+      "x": 268,
+      "y": 214,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "trafik-lambasi",
+      "kind": "yaya",
+      "x": 376,
+      "y": 228,
+      "s": 1.1,
+      "state": "on",
+      "hit": "lamba"
+     },
+     {
+      "k": "araba",
+      "x": 95,
+      "y": 208,
+      "s": 0.5,
+      "color": "yellow"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Adım adım, çizgi çizgi!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "anne": {
+     "say": "El ele, adım adım.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "lamba": {
+     "say": "Yeşil adam: Geç!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "tarcin": {
+     "say": "Hav hav!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'la adım adım yürü!"
+   ],
+   "ask": "Can karşıya geçerken kimin elini tuttu? Tarçın nerede yürüdü?",
+   "mech": {
+    "type": "walk",
+    "key": "can",
+    "steps": 3,
+    "step": 22,
+    "say": "Adım adım, çizgi çizgi!",
+    "done": "El ele karşıya geçtiler!",
+    "msg": "Geçtik!"
+   }
+  },
+  {
+   "text": "Parka vardılar! Can salıncakta uçtu: vuuu! Sonra bir şarkı uydurdu: “Kırmızı yandı, duruyoruz! Yeşil yandı, yürüyoruz!” Annesi de katıldı. Can gururluydu: Beklemeyi o da başarmıştı! Tarçın hopladı: “Hav hav!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "can",
+      "x": 304,
+      "y": 189,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "can"
+     },
+     {
+      "k": "anne",
+      "x": 230,
+      "y": 226,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": false,
+      "hit": "anne",
+      "turn": 0.4
+     },
+     {
+      "k": "kopek",
+      "x": 178,
+      "y": 232,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "jump",
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 40,
+      "y": 234,
+      "s": 0.7
+     },
+     {
+      "k": "flower",
+      "x": 110,
+      "y": 236,
+      "s": 0.8
+     },
+     {
+      "k": "top",
+      "x": 370,
+      "y": 234,
+      "s": 1.1
+     }
+    ],
+    "still": true
+   },
+   "hits": {
+    "can": {
+     "say": "Yeşil yandı, yürüyoruz!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "anne": {
+     "say": "Kırmızı yandı, duruyoruz!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tarcin": {
+     "say": "Hav hav!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'la şarkı söyle!"
+   ],
+   "ask": "Can neden gururlandı? Sen de bir trafik şarkısı uydurur musun?",
+   "cues": [
+    {
+     "w": 5,
+     "fx": "ruzgar"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.11 Tehlike ve kaza durumlarına karşı kendini koruyabilme: Yolda koşmanın tehlikeli olduğunu fark eder; yaya geçidinde durur, ışığa bakar, dinler; yeşil yanınca sola, sağa, bir daha sola bakıp bir büyüğün elini tutarak geçer (tehlikeli davranış ve durumlardan kaçınır).",
+   "SBAB7 Mekânsal Düşünme: Karşı, yanında, sol, sağ gibi konum sözcüklerini masaldaki yol ve yaya geçidi üzerinde kullanır.",
+   "OB6 Vatandaşlık Okuryazarlığı: Trafik ışığı ve yaya geçidi gibi herkesin uyduğu ortak kuralları tanır; kurallara uymanın herkesi koruduğunu söyler.",
+   "SDB3.3 Sorumlu Karar Verme ve D16 Sorumluluk: Koşma isteği ile beklemek arasında güvenli olanı seçer; D12 Sabır: Beklerken sayma, sevme ve oyun gibi baş etme yolları kullanır."
+  ],
+  "once": [
+   "2. sayfadaki trafik ışığını gösterin: “Bunu nerede gördünüz? Hangi renkleri var?”",
+   "“Sokakta karşıya geçerken ne yaparız?” diye sorun, cevapları yargılamadan dinleyin.",
+   "Trafik ve İlk Yardım Haftası’na (mayısın ilk haftası) bağlayabilirsiniz."
+  ],
+  "sirasi": [
+   "2. sayfada Can'ın “Hadi koşalım!” sözünde durun: “Annesi neden ‘Önce lambaya bakalım’ dedi?”",
+   "3. sayfada Can'ın bedenine bakın: ayakları tıpır tıpır yere vuruyor. “Beklemek sana da uzun geliyor mu?”",
+   "4. sayfada Can'ın bulduğu “Dur, bak, dinle!” oyununu çocuklarla birlikte yüksek sesle söyleyip hareketlerle yapın.",
+   "5. sayfada sola, sağa, bir daha sola bakma hareketini birlikte yapın. Sol-sağ karışırsa sorun değil; ‘önce bir yana, sonra öbür yana, sonra yine ilk yana’ diyerek başınızla birlikte gösterin.",
+   "6. sayfada el ele geçişi çocuğa yaptırın, sonra sorun: “Tarçın kimin yanında yürüyor?” Köpeğimiz varsa yolda hep kayışı elimizde olur."
+  ],
+  "sonra": [
+   "“Can beklerken neler yaptı? Sen olsan ne yapardın?” diye sorun.",
+   "“Yeşil adam yanınca arabalar neden durdu? Herkes kurala uyunca ne olur?” diye sorun.",
+   "Kırmızı ve yeşil adam kartlarıyla “Dur mu, geç mi?” oyunu oynayın.",
+   "Can'ın şarkısını birlikte söyleyin: “Kırmızı yandı, duruyoruz! Yeşil yandı, yürüyoruz!”"
+  ],
+  "sinif": {
+   "ad": "Sınıf Sokağı: Dur, Bak, Dinle, Geç",
+   "sure": "20 dk",
+   "materyal": "Beyaz bant veya tebeşir (yaya geçidi çizgileri), kırmızı ve yeşil yaya kartı, oyuncak arabalar ya da direksiyon kartları",
+   "adim": [
+    "Yere bantla yaya geçidi yapın; iki kenarı kaldırım olsun.",
+    "Bir çocuk trafik ışığı olur, kırmızı ya da yeşil adam kartını kaldırır; birkaç çocuk “araba” olup yolda yavaşça dolaşır.",
+    "Yayalar kaldırımda “Dur, bak, dinle!” der; kırmızıda bekler, sola ve sağa bakar, yeşil yanınca bir arkadaşının elini tutarak geçer.",
+    "Roller değişsin; sonunda “Beklerken ne yaptın, nasıl hissettin?” diye konuşun."
+   ]
+  },
+  "evSoru": [
+   "Can karşıya geçmeden önce neye baktı?",
+   "Kırmızı adam ne demek, yeşil adam ne demek?",
+   "Beklemek sana uzun gelince ne yapabilirsin?"
+  ],
+  "evEtk": {
+   "ad": "Mahalle Işık Avı",
+   "d": "Birlikte yürürken yaya geçitlerini ve trafik ışıklarını bulun. Her geçitte çocuğunuzla “Dur, bak, dinle!” deyin, yeşil yanınca el ele geçin. Beklerken arabaları sayabilir ya da Can'ın şarkısını söyleyebilirsiniz."
+  },
+  "aileNotu": "Bugün “Yeşil Yandı, Yürüyoruz” masalını okuduk. Can karşıdaki parka koşmak istedi ama annesiyle yaya geçidinde durdu, ışığa baktı ve beklemeyi kendi bulduğu bir oyuna çevirdi. Çocuklar trafik ışığındaki kırmızı ve yeşil adamı tanıdı, “Dur, bak, dinle!” sırasını öğrendi. Yolda örnek olmak en güçlü öğretmendir: karşıya hep yaya geçidinden, yeşilde, sola-sağa-sola bakarak ve çocuğunuzun elini tutarak geçin; köpeğiniz varsa kayışı hep elinizde olsun."
+ },
+ "audio": {
+  "file": "audio/064-yesil-yandi-yuruyoruz.mp3",
+  "hash": "eee8b603",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16444,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      4789,
+      9
+     ],
+     [
+      5089,
+      10
+     ],
+     [
+      5370,
+      11
+     ],
+     [
+      6229,
+      12
+     ],
+     [
+      6749,
+      13
+     ],
+     [
+      8009,
+      14
+     ],
+     [
+      8529,
+      15
+     ],
+     [
+      9049,
+      16
+     ],
+     [
+      9609,
+      17
+     ],
+     [
+      10669,
+      18
+     ],
+     [
+      11270,
+      19
+     ],
+     [
+      11509,
+      20
+     ],
+     [
+      12009,
+      21
+     ],
+     [
+      12449,
+      22
+     ],
+     [
+      13229,
+      23
+     ],
+     [
+      13489,
+      24
+     ],
+     [
+      13829,
+      25
+     ],
+     [
+      14709,
+      26
+     ],
+     [
+      15129,
+      27
+     ],
+     [
+      15589,
+      28
+     ],
+     [
+      15969,
+      29
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 16744,
+    "d": 1392,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      298,
+      1
+     ],
+     [
+      710,
+      2
+     ]
+    ]
+   },
+   "p0h-tarcin": {
+    "s": 18436,
+    "d": 691,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      345,
+      1
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 19427,
+    "d": 2224,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1249,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21952,
+    "d": 13945,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2809,
+      5
+     ],
+     [
+      3650,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4589,
+      8
+     ],
+     [
+      4989,
+      9
+     ],
+     [
+      5310,
+      10
+     ],
+     [
+      5890,
+      11
+     ],
+     [
+      6149,
+      12
+     ],
+     [
+      6870,
+      13
+     ],
+     [
+      7129,
+      14
+     ],
+     [
+      7729,
+      15
+     ],
+     [
+      8329,
+      16
+     ],
+     [
+      8989,
+      17
+     ],
+     [
+      9789,
+      18
+     ],
+     [
+      10449,
+      19
+     ],
+     [
+      10730,
+      20
+     ],
+     [
+      11129,
+      21
+     ],
+     [
+      11930,
+      22
+     ],
+     [
+      12529,
+      23
+     ],
+     [
+      13009,
+      24
+     ],
+     [
+      13310,
+      25
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 36197,
+    "d": 1659,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      459,
+      1
+     ],
+     [
+      1199,
+      2
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 38157,
+    "d": 1884,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p1h-lamba": {
+    "s": 40342,
+    "d": 1615,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p1h-tarcin": {
+    "s": 42258,
+    "d": 460,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 43018,
+    "d": 13808,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      2309,
+      3
+     ],
+     [
+      2789,
+      4
+     ],
+     [
+      3150,
+      5
+     ],
+     [
+      3670,
+      6
+     ],
+     [
+      4649,
+      7
+     ],
+     [
+      4930,
+      8
+     ],
+     [
+      6229,
+      9
+     ],
+     [
+      6769,
+      10
+     ],
+     [
+      7189,
+      11
+     ],
+     [
+      7569,
+      12
+     ],
+     [
+      7829,
+      13
+     ],
+     [
+      8569,
+      14
+     ],
+     [
+      9230,
+      15
+     ],
+     [
+      9469,
+      16
+     ],
+     [
+      9770,
+      17
+     ],
+     [
+      10749,
+      18
+     ],
+     [
+      11189,
+      19
+     ],
+     [
+      11449,
+      20
+     ],
+     [
+      12249,
+      21
+     ],
+     [
+      12869,
+      22
+     ],
+     [
+      12989,
+      23
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 57126,
+    "d": 2379,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      577,
+      1
+     ],
+     [
+      914,
+      2
+     ],
+     [
+      1501,
+      3
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 59806,
+    "d": 1782,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p2h-lamba": {
+    "s": 61889,
+    "d": 1995,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p2h-tarcin": {
+    "s": 64184,
+    "d": 688,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 65172,
+    "d": 2296,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      483,
+      1
+     ],
+     [
+      737,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1624,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 67769,
+    "d": 2163,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1670,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 70232,
+    "d": 16641,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      3109,
+      5
+     ],
+     [
+      3749,
+      6
+     ],
+     [
+      4390,
+      7
+     ],
+     [
+      5129,
+      8
+     ],
+     [
+      5529,
+      9
+     ],
+     [
+      5850,
+      10
+     ],
+     [
+      6049,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      7109,
+      13
+     ],
+     [
+      7569,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8850,
+      16
+     ],
+     [
+      9329,
+      17
+     ],
+     [
+      10049,
+      18
+     ],
+     [
+      10289,
+      19
+     ],
+     [
+      10430,
+      20
+     ],
+     [
+      11270,
+      21
+     ],
+     [
+      11589,
+      22
+     ],
+     [
+      12449,
+      23
+     ],
+     [
+      12909,
+      24
+     ],
+     [
+      13749,
+      25
+     ],
+     [
+      14890,
+      26
+     ],
+     [
+      15249,
+      27
+     ],
+     [
+      15709,
+      28
+     ],
+     [
+      16110,
+      29
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 87173,
+    "d": 1079,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      262,
+      1
+     ],
+     [
+      485,
+      2
+     ]
+    ]
+   },
+   "p3h-tarcin": {
+    "s": 88553,
+    "d": 695,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      347,
+      1
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 89549,
+    "d": 515,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p3h-lamba": {
+    "s": 90364,
+    "d": 1780,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      619,
+      1
+     ],
+     [
+      1278,
+      2
+     ]
+    ]
+   },
+   "p3h-araba": {
+    "s": 92445,
+    "d": 1976,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1453,
+      1
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 94721,
+    "d": 2854,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2589,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 97876,
+    "d": 9632,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3789,
+      7
+     ],
+     [
+      4089,
+      8
+     ],
+     [
+      4370,
+      9
+     ],
+     [
+      5149,
+      10
+     ],
+     [
+      5449,
+      11
+     ],
+     [
+      6229,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      6890,
+      15
+     ],
+     [
+      7709,
+      16
+     ],
+     [
+      8270,
+      17
+     ],
+     [
+      8869,
+      18
+     ],
+     [
+      9190,
+      19
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 107808,
+    "d": 2597,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      681,
+      1
+     ],
+     [
+      1323,
+      2
+     ],
+     [
+      1599,
+      3
+     ],
+     [
+      2078,
+      4
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 110706,
+    "d": 1275,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      624,
+      1
+     ],
+     [
+      999,
+      2
+     ]
+    ]
+   },
+   "p4h-tarcin": {
+    "s": 112281,
+    "d": 698,
+    "w": [
+     [
+      29,
+      0
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 113279,
+    "d": 2166,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1689,
+      3
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 115745,
+    "d": 2437,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 118482,
+    "d": 7672,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2509,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3709,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4069,
+      9
+     ],
+     [
+      4810,
+      10
+     ],
+     [
+      5229,
+      11
+     ],
+     [
+      5370,
+      12
+     ],
+     [
+      6430,
+      13
+     ],
+     [
+      6729,
+      14
+     ],
+     [
+      7089,
+      15
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 126454,
+    "d": 2163,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1489,
+      3
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 128918,
+    "d": 1724,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p5h-lamba": {
+    "s": 130942,
+    "d": 1633,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      572,
+      1
+     ],
+     [
+      1286,
+      2
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 132876,
+    "d": 639,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      319,
+      1
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 133815,
+    "d": 1862,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1050,
+      3
+     ]
+    ]
+   },
+   "p5ms": {
+    "s": 135978,
+    "d": 2080,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1550,
+      3
+     ]
+    ]
+   },
+   "p6": {
+    "s": 138358,
+    "d": 17319,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      3150,
+      5
+     ],
+     [
+      4430,
+      6
+     ],
+     [
+      4910,
+      7
+     ],
+     [
+      5069,
+      8
+     ],
+     [
+      5509,
+      9
+     ],
+     [
+      6449,
+      10
+     ],
+     [
+      6949,
+      11
+     ],
+     [
+      7529,
+      12
+     ],
+     [
+      8549,
+      13
+     ],
+     [
+      8949,
+      14
+     ],
+     [
+      9589,
+      15
+     ],
+     [
+      10709,
+      16
+     ],
+     [
+      11089,
+      17
+     ],
+     [
+      11230,
+      18
+     ],
+     [
+      12109,
+      19
+     ],
+     [
+      12409,
+      20
+     ],
+     [
+      13509,
+      21
+     ],
+     [
+      14129,
+      22
+     ],
+     [
+      14209,
+      23
+     ],
+     [
+      14350,
+      24
+     ],
+     [
+      15529,
+      25
+     ],
+     [
+      16009,
+      26
+     ],
+     [
+      16770,
+      27
+     ],
+     [
+      17049,
+      28
+     ]
+    ]
+   },
+   "p6h-can": {
+    "s": 155977,
+    "d": 2038,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1209,
+      2
+     ]
+    ]
+   },
+   "p6h-anne": {
+    "s": 158316,
+    "d": 1947,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1209,
+      2
+     ]
+    ]
+   },
+   "p6h-tarcin": {
+    "s": 160563,
+    "d": 639,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      319,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

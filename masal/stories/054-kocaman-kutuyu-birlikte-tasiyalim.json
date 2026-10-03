@@ -1,0 +1,1834 @@
+{
+ "id": "054-kocaman-kutuyu-birlikte-tasiyalim",
+ "n": 54,
+ "title": "Kocaman Kutuyu Birlikte Taşıyalım",
+ "age": "36-48",
+ "area": "Sosyal",
+ "theme": "Yardım isteme ve birlikte iş yapma (iş birliği)",
+ "values": [
+  "D20 Yardımseverlik",
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 4,
+ "blurb": "Ali kocaman bir kutudan oyun evi yapmak ister ama kutu kıpırdamaz bile. Derin bir nefes alıp arkadaşlarından yardım ister; Elif'in “Bir, iki, üç, hep beraber!” fikriyle kutu havaya kalkar.",
+ "codes": {
+  "maarif": [
+   "HSAB.6 Eşle/grupla ahenk içinde hareket örüntüleri sergileyebilme",
+   "HSAB.1.c Nesne kontrolü gerektiren hareketleri yapar",
+   "beceri: SBAB5 Sosyal Katılım",
+   "SDB2.2 İş Birliği",
+   "E2.5 Oyunseverlik",
+   "D20 Yardımseverlik",
+   "D4 Dostluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ali": "cocuk-erkek",
+  "zeynep": "cocuk-kiz",
+  "elif": "cocuk-kiz",
+  "baba": "baba"
+ },
+ "voiceNames": {
+  "ali": "Ali",
+  "zeynep": "Zeynep",
+  "elif": "Elif",
+  "baba": "Ali'nin babası"
+ },
+ "pages": [
+  {
+   "text": "Ali'nin babası parka kocaman bir kutu getirdi. Pat! Kutu çimene kondu. Kutu Ali'den bile büyüktü! Ali zıp zıp zıpladı: “Oyun evi yapacağım!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 100,
+      "y": 232,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "ali"
+     },
+     {
+      "k": "baba",
+      "x": 338,
+      "y": 226,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "baba",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "karton-kutu",
+      "x": 214,
+      "y": 225,
+      "s": 2.04,
+      "hit": "kutu",
+      "v": "closed"
+     },
+     {
+      "k": "flower",
+      "x": 36,
+      "y": 234,
+      "s": 0.5
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Oyun evi yapacağım!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "kutu": {
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "baba": {
+     "say": "Kocaman kutu senin, Ali!",
+     "voice": "baba",
+     "anim": "wiggle",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "kutu",
+    "Kutuya dokun!"
+   ],
+   "ask": "Sen kocaman bir kutuyla neler yapardın?"
+  },
+  {
+   "text": "Ali kutuyu itti. Hıııh! Kutu kıpırdamadı. Çekti. Hıııh! Yine kıpırdamadı. Ali'nin canı sıkıldı. Yanakları ısındı. “Çok ağır! Yapamıyorum!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 205,
+      "y": 232,
+      "s": 1.05,
+      "mood": "angry",
+      "pose": "hold",
+      "turn": 0.9,
+      "hit": "ali"
+     }
+    ],
+    "props": [
+     {
+      "k": "karton-kutu",
+      "x": 270,
+      "y": 225,
+      "s": 1.96,
+      "hit": "kutu",
+      "v": "closed"
+     },
+     {
+      "k": "flower",
+      "x": 50,
+      "y": 234,
+      "s": 0.5
+     }
+    ]
+   },
+   "hits": {
+    "kutu": {
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "ali": {
+     "say": "Hıııh! Çok ağır! Yapamıyorum!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "kutu",
+    "Kutuyu itmeyi dene!"
+   ],
+   "ask": "Ali şimdi ne hissediyor? Sen bir şeyi yapamayınca ne yaparsın?"
+  },
+  {
+   "text": "Zeynep koşa koşa geldi. Elif'in tekerlekleri vızır vızır döndü. Ali derin nefes aldı. “Yardım eder misiniz?” “Tabii!” dedi Zeynep. “Bir fikrim var!” dedi Elif.",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 70,
+      "y": 230,
+      "s": 1.05,
+      "mood": "calm",
+      "pose": "open",
+      "hit": "ali"
+     },
+     {
+      "k": "zeynep",
+      "x": 250,
+      "y": 224,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "run",
+      "hit": "zeynep",
+      "flip": true
+     },
+     {
+      "k": "elif",
+      "x": 345,
+      "y": 232,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "run",
+      "hit": "elif",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "karton-kutu",
+      "x": 150,
+      "y": 226,
+      "s": 1.7,
+      "hit": "kutu",
+      "v": "closed"
+     },
+     {
+      "k": "qmark",
+      "x": 345,
+      "y": 70
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Yardım eder misiniz?",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "zeynep": {
+     "say": "Tabii! Yardım ederiz!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "elif": {
+     "say": "Bir fikrim var!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "kutu": {
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "predict": {
+    "q": "Sence Elif'in fikri ne?",
+    "res": "Güzel fikir! Hadi Elif'in fikrini görelim.",
+    "opts": [
+     {
+      "l": "Hep beraber kaldırırlar",
+      "scene": {
+       "set": "oyun-parki",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 158,
+         "y": 232,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "hold",
+         "turn": 0.8
+        },
+        {
+         "k": "zeynep",
+         "x": 256,
+         "y": 232,
+         "s": 1.05,
+         "mood": "laugh",
+         "pose": "hold",
+         "flip": true,
+         "turn": 0.8
+        },
+        {
+         "k": "elif",
+         "x": 345,
+         "y": 234,
+         "s": 0.95,
+         "mood": "laugh",
+         "pose": "point",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "karton-kutu",
+         "x": 205,
+         "y": 196,
+         "s": 1.35,
+         "v": "closed"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Babayı çağırırlar",
+      "scene": {
+       "set": "oyun-parki",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 80,
+         "y": 232,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "point",
+         "turn": 0.6
+        },
+        {
+         "k": "baba",
+         "x": 250,
+         "y": 226,
+         "s": 0.95,
+         "mood": "happy",
+         "pose": "wave",
+         "flip": true
+        },
+        {
+         "k": "elif",
+         "x": 345,
+         "y": 234,
+         "s": 0.95,
+         "mood": "laugh",
+         "pose": "wave",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "karton-kutu",
+         "x": 165,
+         "y": 230,
+         "s": 1.7,
+         "v": "closed"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Ali yardım istemek için ne dedi? Sen kimden yardım istersin?"
+  },
+  {
+   "text": "Ali bir ucundan tuttu. Zeynep öbür ucundan. Elif saydı: “Bir, iki, üç, hep beraber!” Hoppaa! Kutu havaya kalktı!",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 158,
+      "y": 232,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "hold",
+      "turn": 0.8,
+      "hit": "ali"
+     },
+     {
+      "k": "zeynep",
+      "x": 256,
+      "y": 232,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "hold",
+      "flip": true,
+      "turn": 0.8,
+      "hit": "zeynep"
+     },
+     {
+      "k": "elif",
+      "x": 345,
+      "y": 234,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "point",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "karton-kutu",
+      "x": 205,
+      "y": 196,
+      "s": 1.35,
+      "hit": "kutu",
+      "v": "closed"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "İki!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "zeynep": {
+     "say": "Üç! Hep beraber!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Bir!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "kutu": {
+     "anim": "jump",
+     "fx": "whoosh"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "elif",
+     "ali",
+     "zeynep"
+    ],
+    "done": "Hep beraber! Kutu havaya kalktı!",
+    "msg": "Bir, iki, üç, hoppaa!"
+   },
+   "hint": [
+    "elif",
+    "Elif'le say: bir, iki, üç!"
+   ],
+   "ask": "Kutuyu kaldırmadan önce neden hep birlikte saydılar?"
+  },
+  {
+   "text": "“Bu yoldan!” dedi Elif. Ali ile Zeynep kutuyu taşıdı. Tıpış tıpış. Adım, adım, hep beraber!",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 48,
+      "y": 234,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "hold",
+      "turn": 0.7,
+      "hit": "ali"
+     },
+     {
+      "k": "zeynep",
+      "x": 166,
+      "y": 230,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "hold",
+      "turn": 0.7,
+      "hit": "zeynep",
+      "flip": true
+     },
+     {
+      "k": "elif",
+      "x": 225,
+      "y": 234,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "karton-kutu",
+      "x": 106,
+      "y": 198,
+      "s": 1.3,
+      "hit": "kutu",
+      "v": "closed"
+     },
+     {
+      "k": "tree",
+      "x": 360,
+      "y": 206,
+      "s": 2.0
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Adım, adım!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "zeynep": {
+     "say": "Hep beraber!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "elif": {
+     "say": "Bu yoldan!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "kutu": {
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "elif",
+    "steps": 3,
+    "step": 24,
+    "say": "Adım, adım!",
+    "done": "Kutu ağacın altına geldi!",
+    "msg": "Hep beraber geldik!"
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun, yol göstersin!"
+   ],
+   "ask": "Ağır bir şeyi birlikte taşırken nasıl yürürüz? Hadi birlikte deneyelim: adım, adım!"
+  },
+  {
+   "text": "Kutu ağacın altına kondu. Herkes bir şey getirdi: yastık, ayıcık, kitap. Hepsi oyun evine!",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 60,
+      "y": 224,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "hold",
+      "hit": "elif",
+      "turn": 0.4
+     },
+     {
+      "k": "zeynep",
+      "x": 140,
+      "y": 220,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "zeynep",
+      "turn": 0.4
+     },
+     {
+      "k": "ali",
+      "x": 215,
+      "y": 222,
+      "s": 0.92,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "ali",
+      "turn": 0.4
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 355,
+      "y": 206,
+      "s": 2.0
+     },
+     {
+      "k": "karton-kutu",
+      "x": 305,
+      "y": 225,
+      "s": 1.7,
+      "hit": "kutu",
+      "v": "house"
+     },
+     {
+      "k": "kitap",
+      "x": 72,
+      "y": 236,
+      "s": 1.3,
+      "hit": "kitap"
+     },
+     {
+      "k": "yastik",
+      "x": 150,
+      "y": 236,
+      "s": 1.4,
+      "hit": "yastik"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 228,
+      "y": 236,
+      "s": 1.1,
+      "hit": "ayi"
+     }
+    ]
+   },
+   "hits": {
+    "yastik": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ayi": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "kitap": {
+     "anim": "boing",
+     "fx": "page"
+    },
+    "kutu": {
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "ali": {
+     "say": "Ayıcığım da gelsin!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "zeynep": {
+     "say": "Yumuşak bir yastık!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Kitabımı da getirdim!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "kitap",
+     "yastik",
+     "ayi"
+    ],
+    "to": [
+     291,
+     212
+    ],
+    "done": "Oyun evi hazır! Ne güzel oldu!",
+    "msg": "Hepsi oyun evinde!"
+   },
+   "hint": [
+    "kitap",
+    "Eşyaları kutuya taşı!"
+   ],
+   "ask": "Sen oyun evine ne koyardın? Neden?"
+  },
+  {
+   "text": "Ali kutunun arkasına saklandı. Cee! Üç arkadaş kıkır kıkır güldü. Ali, “Teşekkürler!” dedi. Elif gülümsedi: “Birlikte olunca kutu bile hafifliyor!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 80,
+      "y": 232,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "elif",
+      "turn": 0.5
+     },
+     {
+      "k": "zeynep",
+      "x": 160,
+      "y": 230,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "zeynep",
+      "turn": 0.5
+     },
+     {
+      "k": "ali",
+      "x": 335,
+      "y": 224,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "wave",
+      "turn": -0.6,
+      "hit": "ali"
+     }
+    ],
+    "props": [
+     {
+      "k": "karton-kutu",
+      "x": 262,
+      "y": 228,
+      "s": 1.87,
+      "hit": "kutu",
+      "v": "house"
+     },
+     {
+      "k": "yastik",
+      "x": 215,
+      "y": 236,
+      "s": 1.2
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 245,
+      "y": 238,
+      "s": 0.95
+     },
+     {
+      "k": "kitap",
+      "x": 292,
+      "y": 238,
+      "s": 1.1
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Cee! Buradayım! Teşekkürler!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Birlikte olunca kutu bile hafifliyor!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Oyun evimiz çok güzel!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "kutu": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun: Cee!"
+   ],
+   "ask": "Sen en son kiminle birlikte bir iş yaptın? Nasıl hissettin?",
+   "cues": [
+    {
+     "w": 7,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.6 Eşle/grupla ahenk içinde hareket örüntüleri sergileyebilme (öğrenme çıktısı): “Bir, iki, üç, hep beraber!” sayışıyla arkadaşlarıyla aynı anda kaldırır, aynı ritimde “adım, adım” yürür.",
+   "HSAB.1.c Nesne kontrolü gerektiren hareketleri yapar (öğrenme çıktısı): Büyük bir nesneyi arkadaşıyla iki ucundan tutarak taşır (sınıfta hafif, boş kutularla).",
+   "SBAB5 Sosyal Katılım (alan becerisi) ve SDB2.2 İş Birliği: Ortak bir oyun evi kurma işine katılır; tek başına yapamadığı işte arkadaşlarından yardım ister, her arkadaşın bir görev (tutmak, saymak, yol göstermek, eşya getirmek) üstlendiğini fark eder.",
+   "E2.5 Oyunseverlik: Karton kutu gibi basit bir nesneden arkadaşlarıyla oyun kurar, oyuna eşya ekleyerek zenginleştirir.",
+   "D20 Yardımseverlik ve D4 Dostluk: Yardım isteyen arkadaşına “Tabii!” diye karşılık verir; yardım görünce teşekkür eder."
+  ],
+  "once": [
+   "Boş, büyük bir karton kutu gösterin: “Bu kutu ne olabilir? Tek başına taşıyabilir misin?”",
+   "Kapaktaki çocukları tanıtın: “Bunlar Ali, Zeynep ve Elif. Sence kocaman kutuyla ne yapacaklar?”",
+   "Sorun: “Bir işi tek başına yapamadığın oldu mu? O zaman ne yaptın?”"
+  ],
+  "sirasi": [
+   "2. sayfada Ali'nin yüzünü gösterin: “Ali'nin canı sıkıldı, yanakları ısındı. Senin canın sıkılınca bedeninde ne olur?” Birlikte derin bir nefes alın.",
+   "3. sayfada Ali'nin cümlesini çocuklarla tekrar edin: “Yardım eder misiniz?” Tahmin sorusunda iki seçeneğin de yardım istemek olduğunu vurgulayın: arkadaştan da büyükten de yardım istenir.",
+   "4. sayfada çocuklarla hep bir ağızdan sayın: “Bir, iki, üç, hep beraber!” ve ellerinizi birlikte havaya kaldırın. 5. sayfada “Adım, adım, hep beraber!” diyerek el ele, aynı ritimde yerinizde yürüyün."
+  ],
+  "sonra": [
+   "Olayları sırayla anlattırın: Ali tek başına kutuyu kaldıramadı → yardım istedi → hep beraber sayıp kaldırdılar → oyun evini kurdular.",
+   "“Kim ne yaptı?” diye sorun: Ali tuttu, Zeynep öbür ucundan tuttu, Elif sayıp yolu gösterdi. Her görevin önemli olduğunu konuşun.",
+   "Yardım isteme ve kabul etme cümlelerini birlikte bulun: “Bana yardım eder misin?”, “Tabii!”, “Teşekkür ederim!”"
+  ],
+  "sinif": {
+   "ad": "Bir, İki, Üç, Hep Beraber!",
+   "sure": "15 dk",
+   "materyal": "Boş ve hafif büyük karton kutular (içi boş, köşeleri bantlı), minderler, küçük oyuncaklar",
+   "adim": [
+    "Çocuklar ikişerli ya da üçerli gruplara ayrılır. Her grup bir kutunun iki ucundan tutar.",
+    "Öğretmen ya da gruptan bir çocuk sayar: “Bir, iki, üç, hep beraber!” Grup kutuyu aynı anda kaldırır ve “adım, adım” diyerek sınıfın öbür köşesine taşır.",
+    "Gruplar kutulara minder ve oyuncak koyarak kendi oyun evlerini kurar; her çocuk bir eşya getirir.",
+    "Kapanışta her grup sorulur: “Kim ne yaptı? Birlikte yapınca nasıl hissettiniz?”"
+   ]
+  },
+  "evSoru": [
+   "Ali kutuyu tek başına kaldıramayınca ne hissetti? Sonra ne yaptı?",
+   "Elif'in fikri neydi? Kutu nasıl havaya kalktı?",
+   "Sen evde kiminle birlikte bir iş yapıyorsun?"
+  ],
+  "evEtk": {
+   "ad": "Evde Hep Beraber Taşıyalım",
+   "d": "Evde hafif ama büyük bir şeyi (katlanmış battaniye, boş bir kutu, çamaşır sepeti) çocuğunuzla iki ucundan tutun. “Bir, iki, üç, hep beraber!” deyip aynı anda kaldırın ve “adım, adım” diyerek birlikte taşıyın. Sonra bir kutu ya da battaniyeden birlikte küçük bir oyun evi kurun."
+  },
+  "aileNotu": "Bugün “Kocaman Kutuyu Birlikte Taşıyalım” masalını okuduk. Ali kocaman bir kutudan oyun evi yapmak istiyor ama kutuyu tek başına kaldıramıyor. Derin bir nefes alıp arkadaşlarından yardım istiyor; Elif'in “Bir, iki, üç, hep beraber!” fikriyle kutuyu birlikte taşıyıp oyun evini kuruyorlar. Evde çocuğunuzla küçük işleri birlikte yaparken yardım isteme ve teşekkür etme cümlelerini kullanabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/054-kocaman-kutuyu-birlikte-tasiyalim.mp3",
+  "hash": "0e0a19d8",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10575,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2509,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      4149,
+      8
+     ],
+     [
+      4449,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      5629,
+      11
+     ],
+     [
+      6089,
+      12
+     ],
+     [
+      6569,
+      13
+     ],
+     [
+      6809,
+      14
+     ],
+     [
+      7769,
+      15
+     ],
+     [
+      8069,
+      16
+     ],
+     [
+      8350,
+      17
+     ],
+     [
+      8589,
+      18
+     ],
+     [
+      9430,
+      19
+     ],
+     [
+      9690,
+      20
+     ],
+     [
+      9890,
+      21
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 10875,
+    "d": 1226,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      337,
+      1
+     ],
+     [
+      635,
+      2
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 12402,
+    "d": 1726,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      532,
+      1
+     ],
+     [
+      877,
+      2
+     ],
+     [
+      1340,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 14429,
+    "d": 11836,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3829,
+      6
+     ],
+     [
+      4649,
+      7
+     ],
+     [
+      5689,
+      8
+     ],
+     [
+      5969,
+      9
+     ],
+     [
+      7069,
+      10
+     ],
+     [
+      7449,
+      11
+     ],
+     [
+      7729,
+      12
+     ],
+     [
+      8489,
+      13
+     ],
+     [
+      9049,
+      14
+     ],
+     [
+      9850,
+      15
+     ],
+     [
+      10209,
+      16
+     ],
+     [
+      10890,
+      17
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 26566,
+    "d": 3159,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1016,
+      1
+     ],
+     [
+      1283,
+      2
+     ],
+     [
+      2063,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 30025,
+    "d": 11733,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      3189,
+      6
+     ],
+     [
+      3689,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4989,
+      9
+     ],
+     [
+      5410,
+      10
+     ],
+     [
+      5809,
+      11
+     ],
+     [
+      6229,
+      12
+     ],
+     [
+      7009,
+      13
+     ],
+     [
+      7349,
+      14
+     ],
+     [
+      7609,
+      15
+     ],
+     [
+      8489,
+      16
+     ],
+     [
+      9129,
+      17
+     ],
+     [
+      9409,
+      18
+     ],
+     [
+      10109,
+      19
+     ],
+     [
+      10249,
+      20
+     ],
+     [
+      10649,
+      21
+     ],
+     [
+      11189,
+      22
+     ],
+     [
+      11391,
+      23
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 42059,
+    "d": 1528,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      709,
+      2
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 43888,
+    "d": 1936,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      902,
+      1
+     ],
+     [
+      1312,
+      2
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 46125,
+    "d": 1031,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      294,
+      1
+     ],
+     [
+      736,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 47456,
+    "d": 1670,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 49427,
+    "d": 2853,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2370,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 52581,
+    "d": 10344,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      4509,
+      9
+     ],
+     [
+      5310,
+      10
+     ],
+     [
+      6129,
+      11
+     ],
+     [
+      6669,
+      12
+     ],
+     [
+      6890,
+      13
+     ],
+     [
+      7849,
+      14
+     ],
+     [
+      9029,
+      15
+     ],
+     [
+      9350,
+      16
+     ],
+     [
+      9749,
+      17
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 63225,
+    "d": 640,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 64165,
+    "d": 1903,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      742,
+      1
+     ],
+     [
+      1064,
+      2
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 66369,
+    "d": 517,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 67187,
+    "d": 2653,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2069,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 70141,
+    "d": 7701,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      3129,
+      7
+     ],
+     [
+      3529,
+      8
+     ],
+     [
+      4350,
+      9
+     ],
+     [
+      4890,
+      10
+     ],
+     [
+      5709,
+      11
+     ],
+     [
+      6169,
+      12
+     ],
+     [
+      6749,
+      13
+     ],
+     [
+      6989,
+      14
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 78142,
+    "d": 1456,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      828,
+      1
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 79899,
+    "d": 922,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      281,
+      1
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 81122,
+    "d": 806,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      304,
+      1
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 82228,
+    "d": 1731,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 84260,
+    "d": 1343,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      763,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 85904,
+    "d": 6951,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2370,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4370,
+      9
+     ],
+     [
+      5049,
+      10
+     ],
+     [
+      5870,
+      11
+     ],
+     [
+      6269,
+      12
+     ],
+     [
+      6509,
+      13
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 93155,
+    "d": 1420,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      764,
+      1
+     ],
+     [
+      988,
+      2
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 94876,
+    "d": 1580,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      752,
+      1
+     ],
+     [
+      1040,
+      2
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 96756,
+    "d": 1390,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      629,
+      2
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 98447,
+    "d": 2380,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1849,
+      5
+     ]
+    ]
+   },
+   "p6": {
+    "s": 101127,
+    "d": 11652,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      3229,
+      5
+     ],
+     [
+      3449,
+      6
+     ],
+     [
+      4029,
+      7
+     ],
+     [
+      4469,
+      8
+     ],
+     [
+      4850,
+      9
+     ],
+     [
+      5709,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      7370,
+      12
+     ],
+     [
+      8029,
+      13
+     ],
+     [
+      8329,
+      14
+     ],
+     [
+      9289,
+      15
+     ],
+     [
+      9749,
+      16
+     ],
+     [
+      10310,
+      17
+     ],
+     [
+      10609,
+      18
+     ],
+     [
+      10829,
+      19
+     ]
+    ]
+   },
+   "p6h-ali": {
+    "s": 113079,
+    "d": 2685,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      762,
+      1
+     ],
+     [
+      1849,
+      2
+     ]
+    ]
+   },
+   "p6h-elif": {
+    "s": 116065,
+    "d": 2697,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      596,
+      1
+     ],
+     [
+      1153,
+      2
+     ],
+     [
+      1543,
+      3
+     ],
+     [
+      1934,
+      4
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 119062,
+    "d": 1878,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      489,
+      1
+     ],
+     [
+      1130,
+      2
+     ],
+     [
+      1388,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

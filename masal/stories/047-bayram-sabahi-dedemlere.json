@@ -1,0 +1,2156 @@
+{
+ "id": "047-bayram-sabahi-dedemlere",
+ "n": 47,
+ "title": "Bayram Sabahı Dedemlere",
+ "age": "48-60",
+ "area": "Sosyal",
+ "theme": "Bayram gelenekleri, büyüklere saygı ve söz sırası",
+ "values": [
+  "D14 Saygı",
+  "D15 Sevgi"
+ ],
+ "sdb": "SDB2.1 İletişim",
+ "min": 5,
+ "blurb": "Bayram sabahı Zeynep'in dedesine anlatacak çok şeyi var! El öper, ikramı kendisi yapar, kimin neyi sevdiğini hatırlar. Sonra sözünü bekler ve dedesinin köydeki çocukluk bayramını dinler.",
+ "codes": {
+  "maarif": [
+   "OB5 Kültür Okuryazarlığı",
+   "TAKB.1 Konuşma sürecini yönetebilme (söz sırasını bekler)",
+   "SBAB5 Sosyal Katılım",
+   "SBAB4 Değişim ve Sürekliliği Algılama",
+   "SDB2.1 İletişim",
+   "D14 Saygı",
+   "D15 Sevgi"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "dede": "dede",
+  "nine": "nine",
+  "anne": "anne",
+  "kucukdede": "cocuk-erkek",
+  "komsu": "anne"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "dede": "Dede (Zeynep'in dedesi)",
+  "nine": "Nine (Zeynep'in ninesi)",
+  "anne": "Anne (Zeynep'in annesi)",
+  "kucukdede": "Dede (küçükken)",
+  "komsu": "Komşu teyze (dedenin köyünde)"
+ },
+ "pages": [
+  {
+   "text": "Bayram sabahı! Zeynep bayramlık elbisesini giydi. Fır fır döndü. Çok heyecanlıydı! Annesiyle birlikte dedesinin ve ninesinin evine yola çıktılar. Elinde rengârenk bir demet çiçek vardı. “Dedeme anlatacaklarım var: elbisem, çiçeğim, bir de…”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "cast": [
+     {
+      "k": "anne",
+      "hit": "anne",
+      "x": 96,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "hediye",
+      "holdO": {
+       "color": "#E4574F"
+      }
+     },
+     {
+      "k": "zeynep",
+      "hit": "zeynep",
+      "x": 230,
+      "y": 234,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "walk",
+      "hold": "cicek-demeti"
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Hadi anne, hadi! Dedemler bekliyor!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Geliyorum, bayram kuşum!",
+     "voice": "anne",
+     "anim": "wiggle",
+     "fx": "step"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Zeynep neden bu kadar heyecanlı? Sen bayramda kimleri ziyaret edersin?"
+  },
+  {
+   "text": "Dede kapıyı açtı. “Hoş geldin, fıstığım!” Zeynep dedesinin elini öptü, alnına koydu. Çiçekleri ninesine uzattı. “İyi bayramlar, nineciğim!” Nine onu sımsıkı sardı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "hit": "nine",
+      "scarf": true,
+      "x": 138,
+      "y": 228,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "hug"
+     },
+     {
+      "k": "zeynep",
+      "hit": "zeynep",
+      "x": 182,
+      "y": 234,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "cicek-demeti",
+      "turn": -0.6
+     },
+     {
+      "k": "dede",
+      "hit": "dede",
+      "x": 300,
+      "y": 226,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "wave",
+      "flip": true
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "dede": {
+     "say": "Bayramın kutlu olsun, fıstığım!",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "nine": {
+     "say": "Hoş geldin, kuzum! Çiçekler de ne güzel!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "zeynep": {
+     "say": "İyi bayramlar, nineciğim!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Siz bayramda büyüklerinizle nasıl bayramlaşırsınız?"
+  },
+  {
+   "text": "Dede mutfaktan üç tabak getirdi: karpuz, üzüm, muz. “Of, bu sıcakta bir dilim karpuz olsa!” dedi. “İkramı sen yapar mısın, Zeynep?” Kocaman bir görev! Kim neyi sever?",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "zeynep",
+      "hit": "zeynep",
+      "x": 100,
+      "y": 232,
+      "s": 1.02,
+      "mood": "surprised",
+      "pose": "open",
+      "turn": 0.4
+     },
+     {
+      "k": "dede",
+      "hit": "dede",
+      "x": 305,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "cloth": true,
+      "x": 205,
+      "y": 236,
+      "s": 1.6
+     },
+     {
+      "k": "tabak",
+      "x": 153,
+      "y": 179,
+      "s": 1.2,
+      "food": "karpuz",
+      "hit": "t1",
+      "z": 240
+     },
+     {
+      "k": "tabak",
+      "x": 205,
+      "y": 179,
+      "s": 1.2,
+      "food": "uzum",
+      "hit": "t2",
+      "z": 240
+     },
+     {
+      "k": "tabak",
+      "x": 257,
+      "y": 179,
+      "s": 1.2,
+      "food": "muz",
+      "hit": "t3",
+      "z": 240
+     }
+    ]
+   },
+   "hits": {
+    "dede": {
+     "say": "Of, bu sıcakta bir dilim karpuz olsa!",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Ben mi? Olur, dedeciğim!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "t": {
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence dede hangi tabağı sever?",
+    "res": "Dede ne demişti? Hadi görelim!",
+    "opts": [
+     {
+      "l": "Karpuzu",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "zeynep",
+         "hit": "zeynep",
+         "x": 150,
+         "y": 232,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "tabak",
+         "holdO": {
+          "food": "karpuz"
+         }
+        },
+        {
+         "k": "dede",
+         "hit": "dede",
+         "x": 270,
+         "y": 230,
+         "s": 1.05,
+         "mood": "laugh",
+         "pose": "open",
+         "flip": true
+        }
+       ],
+       "props": []
+      }
+     },
+     {
+      "l": "Üzümü",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "zeynep",
+         "hit": "zeynep",
+         "x": 150,
+         "y": 232,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "tabak",
+         "holdO": {
+          "food": "uzum"
+         }
+        },
+        {
+         "k": "dede",
+         "hit": "dede",
+         "x": 270,
+         "y": 230,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "open",
+         "flip": true
+        }
+       ],
+       "props": []
+      }
+     }
+    ]
+   },
+   "hint": [
+    "dede",
+    "Dedeye dokun!"
+   ],
+   "ask": "Sen ailende kimin neyi sevdiğini biliyor musun? Annen en çok neyi sever?"
+  },
+  {
+   "text": "“Dedem karpuza bayılır!” Karpuz dedeye. “Ninem üzüm sever.” Üzüm nineye. “Annem de muz!” Bir tabak, bir kişi. Herkese bir tane! Nine güldü: “Bayram şekeri de Zeynep'e!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "dede",
+      "hit": "dede",
+      "x": 224,
+      "y": 192,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "seat",
+      "stool": false,
+      "z": 200
+     },
+     {
+      "k": "nine",
+      "hit": "nine",
+      "scarf": true,
+      "x": 278,
+      "y": 192,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "seat",
+      "stool": false,
+      "flip": true,
+      "z": 200
+     },
+     {
+      "k": "zeynep",
+      "hit": "zeynep",
+      "x": 178,
+      "y": 234,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.5
+     },
+     {
+      "k": "anne",
+      "hit": "anne",
+      "x": 350,
+      "y": 230,
+      "s": 0.98,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "cloth": true,
+      "x": 82,
+      "y": 236,
+      "s": 1.3
+     },
+     {
+      "k": "tabak",
+      "x": 50,
+      "y": 181,
+      "s": 1.1,
+      "food": "muz",
+      "hit": "muz",
+      "z": 242
+     },
+     {
+      "k": "tabak",
+      "x": 82,
+      "y": 181,
+      "s": 1.1,
+      "food": "karpuz",
+      "hit": "karpuz",
+      "z": 242
+     },
+     {
+      "k": "tabak",
+      "x": 114,
+      "y": 181,
+      "s": 1.1,
+      "food": "uzum",
+      "hit": "uzum",
+      "z": 242
+     }
+    ]
+   },
+   "hits": {
+    "dede": {
+     "say": "Karpuz mu? Eline sağlık!",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "nine": {
+     "say": "Üzüm, en sevdiğim!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "anne": {
+     "say": "Muz mu? Teşekkürler, bayram kuşum!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "zeynep": {
+     "say": "Buyurun, afiyet olsun!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "karpuz",
+      "dede"
+     ],
+     [
+      "uzum",
+      "nine"
+     ],
+     [
+      "muz",
+      "anne"
+     ]
+    ],
+    "done": "Bir tabak, bir kişi. Herkese bir tane!",
+    "msg": "Herkese bir tabak!"
+   },
+   "hint": [
+    "karpuz",
+    "Tabağı sevene ver!"
+   ],
+   "ask": "Misafir gelince sen ne ikram edersin? Önce kime uzatırsın?"
+  },
+  {
+   "text": "Dede söze başladı: “Ben küçükken…” Zeynep'in dili kıpır kıpır! Az kalsın dedesinin sözünü kesecekti. Hop! Derin bir nefes aldı. Bekledi, dinledi.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "dede",
+      "hit": "dede",
+      "x": 276,
+      "y": 192,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "seat",
+      "stool": false,
+      "flip": true,
+      "z": 200
+     },
+     {
+      "k": "zeynep",
+      "hit": "zeynep",
+      "x": 160,
+      "y": 232,
+      "s": 1.05,
+      "mood": "think",
+      "pose": "stand",
+      "turn": 0.6
+     },
+     {
+      "k": "nine",
+      "hit": "nine",
+      "scarf": true,
+      "x": 352,
+      "y": 230,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "stand",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 226,
+      "y": 160,
+      "s": 1.0,
+      "color": "#F39A3C"
+     }
+    ]
+   },
+   "hits": {
+    "dede": {
+     "say": "Ben küçükken…",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "page"
+    },
+    "zeynep": {
+     "say": "Derin nefes… Önce dedem, sonra ben.",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "nine": {
+     "say": "Dinleyelim bakalım.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Sen anlatmak istediğinde başkası konuşuyorsa ne yaparsın?"
+  },
+  {
+   "text": "Dede gülümsedi: “Ben de bir zamanlar senin kadar küçüktüm. Köyde bayram sabahı davul çalardı: dum tek, dum tek! Kapı kapı gezerdik. Her kapıda bir şeker, bir gülücük!”",
+   "scene": {
+    "set": "ciftlik",
+    "time": "day",
+    "cast": [
+     {
+      "k": "cocuk",
+      "look": 0,
+      "x": 330,
+      "y": 232,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "walk",
+      "flip": true,
+      "hit": "kucukdede",
+      "top": "#C9A36B",
+      "topType": "shirt"
+     },
+     {
+      "k": "anne",
+      "x": 92,
+      "y": 212,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "komsu",
+      "scarf": true,
+      "top": "#8E6BB8"
+     },
+     {
+      "k": "baba",
+      "x": 232,
+      "y": 206,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "stand",
+      "beard": "full",
+      "hit": "davul",
+      "z": 206
+     }
+    ],
+    "props": [
+     {
+      "k": "davul",
+      "x": 235,
+      "y": 201,
+      "s": 0.72,
+      "play": true,
+      "z": 207,
+      "hit": "davul"
+     }
+    ]
+   },
+   "hits": {
+    "kucukdede": {
+     "say": "Bayramınız kutlu olsun!",
+     "voice": "kucukdede",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "komsu": {
+     "say": "Gel yavrum, al bakalım şekerini!",
+     "voice": "komsu",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "davul": {
+     "anim": "boing",
+     "fx": "drum"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "kucukdede",
+    "steps": 3,
+    "step": 60,
+    "dir": -1,
+    "say": "Adım adım, kapı kapı!",
+    "done": "Komşu teyze şeker uzattı. Mis!",
+    "msg": "Kapıya vardı!"
+   },
+   "hint": [
+    "kucukdede",
+    "Küçük Dede'yi yürüt!"
+   ],
+   "ask": "Dede küçükken bayramda neler yaparmış? Sizin bayramınızla neler aynı, neler farklı?"
+  },
+  {
+   "text": "Sonra sıra Zeynep'e geldi. Dedesinin gözlerine bakıp anlattı: “Dede, bak! Fır fır dönen bir elbisem var!” Dede can kulağıyla dinledi. Hep birlikte güldüler. Nine, “Bayram, bir araya gelince bayram!” dedi.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "dede",
+      "hit": "dede",
+      "x": 224,
+      "y": 192,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "seat",
+      "stool": false,
+      "z": 200
+     },
+     {
+      "k": "zeynep",
+      "hit": "zeynep",
+      "x": 278,
+      "y": 190,
+      "s": 0.86,
+      "mood": "laugh",
+      "pose": "seat",
+      "stool": false,
+      "flip": true,
+      "z": 200,
+      "turn": 0.6
+     },
+     {
+      "k": "nine",
+      "hit": "nine",
+      "scarf": true,
+      "x": 100,
+      "y": 228,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "cicek-demeti"
+     },
+     {
+      "k": "anne",
+      "hit": "anne",
+      "x": 356,
+      "y": 230,
+      "s": 0.98,
+      "mood": "happy",
+      "pose": "clap",
+      "flip": true
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "dede": {
+     "say": "Ne güzel elbise! Anlat bakalım, fıstığım.",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Seneye birlikte kapı kapı gezelim mi, dede?",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "Çiçeklerin de burada, bak!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "anne": {
+     "say": "İyi bayramlar hepimize!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "success"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Sence Zeynep dinlenince nasıl hissetti? Sen en çok kiminle bayramlaşmak istersin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "OB5 Kültür Okuryazarlığı: Bayramlaşma geleneklerini (bayramlık giyme, büyüklerin elini öpüp alna koyma, “İyi bayramlar” deme, ikram etme, kapı kapı bayramlaşma) masaldaki resimlerden tanır ve kendi ailesinin bayramıyla karşılaştırır.",
+   "TAKB.1 Konuşma sürecini yönetebilme: Konuşmaya uygun selamlama ve kutlama ifadeleriyle başlar (“Hoş geldin”, “İyi bayramlar”); dede konuşurken sözünü kesmeden söz sırasını bekler, sırası gelince dinleyenin gözlerine bakarak anlatır.",
+   "SBAB5 Sosyal Katılım: Aile büyükleriyle bir araya gelmeye ve ikram gibi ortak bir göreve katılır; tabakları birebir eşleyerek (bir kişi–bir tabak) herkese pay düşmesini sağlar.",
+   "SBAB4 Değişim ve Sürekliliği Algılama: Dedesinin çocukluğundaki bayram ile bugünkü bayramın aynı ve farklı yanlarını söyler.",
+   "SDB2.1 İletişim: Heyecanını fark eder ve adını koyar; sözünü söylemek için derin nefes alıp bekler, sırası gelince anlatır ve dinlenmenin iyi hissettirdiğini fark eder.",
+   "D14 Saygı ve D15 Sevgi: Büyüklerine selam, el öpme, ikram ve dinleme yoluyla saygı ve sevgisini gösterir."
+  ],
+  "once": [
+   "Kapak resmine bakın: “Zeynep nereye gidiyor olabilir? Elinde ne var? Neden süslenmiş?”",
+   "“Bayram deyince aklına ne geliyor?” diye sorun; bayramlık, bayramlaşma, ikram, el öpme sözcüklerini açıklayın.",
+   "Her ailenin bayramı biraz farklı geçebilir; bazıları büyüklerine gider, bazıları telefonla ya da görüntülü arayarak bayramlaşır. Hepsini değerli sayın.",
+   "Büyüğünü kaybetmiş ya da bayramı farklı kutlayan çocuklar olabilir; her ailenin bayramı kendine özgüdür. Çocukların anlattıklarını karşılaştırmadan, merakla dinleyin."
+  ],
+  "sirasi": [
+   "1. sayfada Zeynep'in yüzüne ve adımlarına bakın: “Nasıl hissediyor? Nereden anladın?” (heyecan).",
+   "2. sayfada el öpüp alna koymayı birlikte, yavaşça canlandırın; büyüklere “Hoş geldin” ve “İyi bayramlar” demeyi taklit edin.",
+   "3. sayfada tahmin ettirin, gerekçesini sorun: “Neden öyle düşündün? Dede ne demişti?”",
+   "4. sayfada çocuk önce tabağa, sonra o yiyeceği seven kişiye dokunsun; “Bir tabak, bir kişi” diye ritimle söyleyin.",
+   "5. sayfada Zeynep'le birlikte burnunuzdan derin bir nefes alın, yavaşça verin; “Önce dedem, sonra ben” cümlesini fısıldayın.",
+   "6. sayfada “Küçük Dede” sözünü açıklayın: “Dede de bir zamanlar senin gibi çocuktu.” “Dum tek, dum tek” diye dizlerinize vurun; her dokunuşta bir adım saydırın.",
+   "7. sayfada: “Zeynep dinlenince nasıl hissetti? Seni dinlediklerinde sen ne hissedersin?”"
+  ],
+  "sonra": [
+   "Masalda önce ne oldu, sonra ne oldu? Üç resmi sıraya koyalım: bayramlaşma, ikram, dedenin anısı.",
+   "Zeynep sözünü beklemek için ne yaptı? Sen de anlatmak için sabırsızlandığında ne yapabilirsin?",
+   "Dedenin çocukluğundaki bayram ile Zeynep'in bayramı arasında neler aynı, neler farklı?",
+   "Sen ailende kimin neyi sevdiğini biliyor musun? Bir büyüğüne ne ikram etmek isterdin?"
+  ],
+  "sinif": {
+   "ad": "Bayram Sofrası ve Söz Taşı",
+   "sure": "20 dk",
+   "materyal": "Oyuncak tabaklar, kâğıttan ya da oyun hamurundan yiyecekler, küçük bir “söz taşı” (yumuşak top ya da taş), aile fotoğrafları (isteğe bağlı)",
+   "adim": [
+    "Çemberde oturun; birkaç çocuk büyük (dede, nine, anne, baba), birkaç çocuk misafir rolünü alsın.",
+    "Misafirler gelince “Hoş geldiniz”, “İyi bayramlar” diyerek bayramlaşma canlandırılsın; el öpme yerine el sıkma ya da sarılma da seçilebilir.",
+    "“İkramcı” çocuk her kişiye bir tabak versin; herkes tabağını alınca “Bir tabak, bir kişi, herkese bir tane!” diye birlikte sayın.",
+    "Söz taşını dolaştırın: taşı tutan kendi ailesinde bayramda ne yaptığını anlatsın, diğerleri dinlesin; söz isteyen derin nefes alıp beklesin.",
+    "Son olarak “Dedemin bayramı–benim bayramım” resmi çizin; aynı ve farklı olanları konuşun."
+   ]
+  },
+  "evSoru": [
+   "Zeynep dedesiyle ninesine gidince ilk ne yaptı?",
+   "Dede hangi tabağı sevdi? Nine neyi, anne neyi?",
+   "Zeynep anlatmak için sabırsızlanınca ne yaptı?"
+  ],
+  "evEtk": {
+   "ad": "Büyüğümün Bayramı",
+   "d": "Bir büyüğünüze (dede, nine, komşu ya da telefonla uzaktaki bir akraba) “Sen küçükken bayram nasıldı?” diye birlikte sorun. Çocuk sözünü kesmeden dinlesin, sonra sırası gelince kendi bayramını anlatsın. Duyduklarınızı bir resimle çizip buzdolabına asın."
+  },
+  "aileNotu": "Bugün “Bayram Sabahı Dedemlere” masalını okuduk. Zeynep bayramda dedesiyle ninesini ziyaret etti; bayramlaştı, ikramı kendisi yaptı ve kimin neyi sevdiğini hatırladı. Anlatacak çok şeyi olsa da derin bir nefes alıp sözünü bekledi ve dedesinin köydeki çocukluk bayramını dinledi. Evde bayram fotoğraflarına birlikte bakabilir, çocuğunuzun sözünü bekleyip dinlediğinde bunu fark ettiğinizi söyleyebilirsiniz (“Sıranı bekledin, sonra güzelce anlattın!”). Çocuğunuz el öpmek ya da sarılmak istemezse zorlamayın; el sallamak ve “İyi bayramlar” demek de bayramlaşmadır."
+ },
+ "audio": {
+  "file": "audio/047-bayram-sabahi-dedemlere.mp3",
+  "hash": "4e6886c0",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17886,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      2089,
+      3
+     ],
+     [
+      2650,
+      4
+     ],
+     [
+      3269,
+      5
+     ],
+     [
+      3969,
+      6
+     ],
+     [
+      4330,
+      7
+     ],
+     [
+      4649,
+      8
+     ],
+     [
+      5350,
+      9
+     ],
+     [
+      5609,
+      10
+     ],
+     [
+      6809,
+      11
+     ],
+     [
+      7390,
+      12
+     ],
+     [
+      8069,
+      13
+     ],
+     [
+      8690,
+      14
+     ],
+     [
+      8829,
+      15
+     ],
+     [
+      9430,
+      16
+     ],
+     [
+      9730,
+      17
+     ],
+     [
+      9989,
+      18
+     ],
+     [
+      11009,
+      19
+     ],
+     [
+      11529,
+      20
+     ],
+     [
+      12289,
+      21
+     ],
+     [
+      12430,
+      22
+     ],
+     [
+      12749,
+      23
+     ],
+     [
+      13149,
+      24
+     ],
+     [
+      13930,
+      25
+     ],
+     [
+      14329,
+      26
+     ],
+     [
+      15169,
+      27
+     ],
+     [
+      15769,
+      28
+     ],
+     [
+      16589,
+      29
+     ],
+     [
+      17370,
+      30
+     ],
+     [
+      17509,
+      31
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 18186,
+    "d": 3094,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      478,
+      1
+     ],
+     [
+      1066,
+      2
+     ],
+     [
+      1803,
+      3
+     ],
+     [
+      2428,
+      4
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 21581,
+    "d": 1856,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1249,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 23738,
+    "d": 12102,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4350,
+      8
+     ],
+     [
+      4689,
+      9
+     ],
+     [
+      5350,
+      10
+     ],
+     [
+      5749,
+      11
+     ],
+     [
+      6529,
+      12
+     ],
+     [
+      7089,
+      13
+     ],
+     [
+      7589,
+      14
+     ],
+     [
+      8449,
+      15
+     ],
+     [
+      8609,
+      16
+     ],
+     [
+      9249,
+      17
+     ],
+     [
+      10169,
+      18
+     ],
+     [
+      10609,
+      19
+     ],
+     [
+      10930,
+      20
+     ],
+     [
+      11549,
+      21
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 36140,
+    "d": 1841,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 38281,
+    "d": 2901,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2349,
+      6
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 41483,
+    "d": 1598,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      869,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 43381,
+    "d": 13585,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      4069,
+      7
+     ],
+     [
+      4949,
+      8
+     ],
+     [
+      5549,
+      9
+     ],
+     [
+      5709,
+      10
+     ],
+     [
+      6249,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      6689,
+      13
+     ],
+     [
+      7189,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8690,
+      16
+     ],
+     [
+      9129,
+      17
+     ],
+     [
+      9350,
+      18
+     ],
+     [
+      9649,
+      19
+     ],
+     [
+      10009,
+      20
+     ],
+     [
+      10810,
+      21
+     ],
+     [
+      11549,
+      22
+     ],
+     [
+      11689,
+      23
+     ],
+     [
+      12489,
+      24
+     ],
+     [
+      12729,
+      25
+     ],
+     [
+      12989,
+      26
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 57266,
+    "d": 2788,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      421,
+      1
+     ],
+     [
+      661,
+      2
+     ],
+     [
+      1256,
+      3
+     ],
+     [
+      1496,
+      4
+     ],
+     [
+      1913,
+      5
+     ],
+     [
+      2330,
+      6
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 60355,
+    "d": 2244,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      287,
+      1
+     ],
+     [
+      828,
+      2
+     ],
+     [
+      1406,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 62899,
+    "d": 2289,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1709,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 65488,
+    "d": 2105,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 67894,
+    "d": 12960,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1909,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      3229,
+      5
+     ],
+     [
+      3670,
+      6
+     ],
+     [
+      3969,
+      7
+     ],
+     [
+      4749,
+      8
+     ],
+     [
+      5109,
+      9
+     ],
+     [
+      5930,
+      10
+     ],
+     [
+      6309,
+      11
+     ],
+     [
+      6469,
+      12
+     ],
+     [
+      7129,
+      13
+     ],
+     [
+      7329,
+      14
+     ],
+     [
+      7930,
+      15
+     ],
+     [
+      8150,
+      16
+     ],
+     [
+      8749,
+      17
+     ],
+     [
+      9289,
+      18
+     ],
+     [
+      9489,
+      19
+     ],
+     [
+      10249,
+      20
+     ],
+     [
+      10569,
+      21
+     ],
+     [
+      11329,
+      22
+     ],
+     [
+      11770,
+      23
+     ],
+     [
+      12169,
+      24
+     ],
+     [
+      12329,
+      25
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 81155,
+    "d": 1833,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 83288,
+    "d": 1721,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      698,
+      1
+     ],
+     [
+      980,
+      2
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 85310,
+    "d": 2719,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2209,
+      4
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 88329,
+    "d": 1730,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      735,
+      1
+     ],
+     [
+      1296,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 90360,
+    "d": 3103,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2630,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 93764,
+    "d": 11761,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      3309,
+      5
+     ],
+     [
+      3849,
+      6
+     ],
+     [
+      4129,
+      7
+     ],
+     [
+      4509,
+      8
+     ],
+     [
+      5249,
+      9
+     ],
+     [
+      5430,
+      10
+     ],
+     [
+      5830,
+      11
+     ],
+     [
+      6329,
+      12
+     ],
+     [
+      6689,
+      13
+     ],
+     [
+      7769,
+      14
+     ],
+     [
+      8549,
+      15
+     ],
+     [
+      8909,
+      16
+     ],
+     [
+      9049,
+      17
+     ],
+     [
+      9430,
+      18
+     ],
+     [
+      10169,
+      19
+     ],
+     [
+      11189,
+      20
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 105825,
+    "d": 1027,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      312,
+      1
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 107153,
+    "d": 3903,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      619,
+      1
+     ],
+     [
+      1593,
+      2
+     ],
+     [
+      2173,
+      3
+     ],
+     [
+      2950,
+      4
+     ],
+     [
+      3530,
+      5
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 111356,
+    "d": 1056,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 112713,
+    "d": 12208,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      3249,
+      8
+     ],
+     [
+      4149,
+      9
+     ],
+     [
+      4549,
+      10
+     ],
+     [
+      4989,
+      11
+     ],
+     [
+      5410,
+      12
+     ],
+     [
+      5729,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      6969,
+      15
+     ],
+     [
+      7430,
+      16
+     ],
+     [
+      7769,
+      17
+     ],
+     [
+      8449,
+      18
+     ],
+     [
+      8709,
+      19
+     ],
+     [
+      8989,
+      20
+     ],
+     [
+      9909,
+      21
+     ],
+     [
+      10149,
+      22
+     ],
+     [
+      10569,
+      23
+     ],
+     [
+      10810,
+      24
+     ],
+     [
+      11409,
+      25
+     ],
+     [
+      11629,
+      26
+     ]
+    ]
+   },
+   "p5h-kucukdede": {
+    "s": 125221,
+    "d": 1704,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1170,
+      2
+     ]
+    ]
+   },
+   "p5h-komsu": {
+    "s": 127226,
+    "d": 2229,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 129755,
+    "d": 2550,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1909,
+      4
+     ]
+    ]
+   },
+   "p5ms": {
+    "s": 132606,
+    "d": 1788,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      433,
+      1
+     ],
+     [
+      960,
+      2
+     ],
+     [
+      1354,
+      3
+     ]
+    ]
+   },
+   "p6": {
+    "s": 134694,
+    "d": 15596,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      3709,
+      7
+     ],
+     [
+      4689,
+      8
+     ],
+     [
+      5289,
+      9
+     ],
+     [
+      5930,
+      10
+     ],
+     [
+      6209,
+      11
+     ],
+     [
+      6410,
+      12
+     ],
+     [
+      6749,
+      13
+     ],
+     [
+      6890,
+      14
+     ],
+     [
+      7430,
+      15
+     ],
+     [
+      8169,
+      16
+     ],
+     [
+      8629,
+      17
+     ],
+     [
+      8909,
+      18
+     ],
+     [
+      9449,
+      19
+     ],
+     [
+      10249,
+      20
+     ],
+     [
+      10489,
+      21
+     ],
+     [
+      10930,
+      22
+     ],
+     [
+      11869,
+      23
+     ],
+     [
+      12609,
+      24
+     ],
+     [
+      13350,
+      25
+     ],
+     [
+      13549,
+      26
+     ],
+     [
+      13869,
+      27
+     ],
+     [
+      14390,
+      28
+     ],
+     [
+      15189,
+      29
+     ]
+    ]
+   },
+   "p6h-dede": {
+    "s": 150591,
+    "d": 2594,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      2009,
+      5
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 153485,
+    "d": 2589,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2110,
+      6
+     ]
+    ]
+   },
+   "p6h-nine": {
+    "s": 156375,
+    "d": 2057,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p6h-anne": {
+    "s": 158732,
+    "d": 1512,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      789,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

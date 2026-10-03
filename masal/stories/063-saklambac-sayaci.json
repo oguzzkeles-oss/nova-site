@@ -1,0 +1,1969 @@
+{
+ "id": "063-saklambac-sayaci",
+ "n": 63,
+ "title": "Saklambaç Sayacı",
+ "age": "48-60",
+ "area": "Hareket ve Sağlık",
+ "theme": "Saklambaçta dürüst sayma ve herkes için adil kurallar",
+ "values": [
+  "D6 Dürüstlük",
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 5,
+ "blurb": "Parkta saklambaç oynanır ama Elif'in tekerlekleri kuma batar, hep ilk o bulunur. Elif derin bir nefes alır ve oyuna iki yeni kural önerir. Ebe Ali de çok merak etse bile hiç bakmaz.",
+ "codes": {
+  "maarif": [
+   "HSAB.13 Hareketli oyunlara özgü basit taktik ve strateji geliştirebilme (teyitsiz)",
+   "HSAB.1 Farklı çevre ve fiziksel etkinliklerde büyük kas becerilerini etkin bir şekilde uygulayabilme (a: farklı ortam ve koşullarda yer değiştirme hareketleri yapar)",
+   "MAB.1 Ritmik ve algısal sayabilme (48-60 ay: 1-10 arası ritmik sayar; masalda 1-7)",
+   "SDB2.2 İş Birliği",
+   "D6 Dürüstlük",
+   "D4 Dostluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ali": "cocuk-erkek",
+  "zeynep": "cocuk-kiz",
+  "can": "cocuk-erkek",
+  "elif": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "ali": "Ali",
+  "zeynep": "Zeynep",
+  "can": "Can",
+  "elif": "Elif"
+ },
+ "pages": [
+  {
+   "text": "Parkta saklambaç vakti! Ebe Ali oldu. Ağaca döndü, gözlerini yumdu. Merak burnunu gıdıkladı ama Ali parmak arasından bakmadı. “Bir, iki, üç, dört, beş, altı, yedi! Önüm, arkam, sağım, solum sobe!”",
+   "scene": {
+    "set": "oyun-parki",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 122,
+      "y": 232,
+      "s": 1.05,
+      "mood": "sleep",
+      "zzz": false,
+      "pose": "stand",
+      "turn": -0.9,
+      "hit": "ali"
+     },
+     {
+      "k": "zeynep",
+      "x": 262,
+      "y": 224,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "run",
+      "hit": "zeynep"
+     },
+     {
+      "k": "elif",
+      "x": 350,
+      "y": 212,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "run",
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 58,
+      "y": 214,
+      "s": 1.7
+     },
+     {
+      "k": "sayi",
+      "n": 1,
+      "x": 180,
+      "y": 122,
+      "s": 0.8,
+      "hit": "s1"
+     },
+     {
+      "k": "sayi",
+      "n": 2,
+      "x": 218,
+      "y": 98,
+      "s": 0.8,
+      "hit": "s2"
+     },
+     {
+      "k": "sayi",
+      "n": 3,
+      "x": 256,
+      "y": 82,
+      "s": 0.8,
+      "hit": "s3"
+     },
+     {
+      "k": "sayi",
+      "n": 4,
+      "x": 294,
+      "y": 76,
+      "s": 0.8,
+      "hit": "s4"
+     },
+     {
+      "k": "sayi",
+      "n": 5,
+      "x": 332,
+      "y": 82,
+      "s": 0.8,
+      "hit": "s5"
+     },
+     {
+      "k": "sayi",
+      "n": 6,
+      "x": 366,
+      "y": 98,
+      "s": 0.8,
+      "hit": "s6"
+     },
+     {
+      "k": "sayi",
+      "n": 7,
+      "x": 380,
+      "y": 140,
+      "s": 0.8,
+      "hit": "s7"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Bakmak yok! Önüm, arkam, sağım, solum sobe!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "bell"
+    },
+    "zeynep": {
+     "say": "Kaç, kaç! Ali sayıyor!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "elif": {
+     "say": "Vızz! Ben de saklanıyorum!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "s": {
+     "anim": "jump",
+     "fx": "xylo"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "s1",
+     "s2",
+     "s3",
+     "s4",
+     "s5",
+     "s6",
+     "s7"
+    ],
+    "done": "Yedi! Ali gözlerini açıyor!",
+    "msg": "Yediye kadar saydın!"
+   },
+   "hint": [
+    "s1",
+    "Ali'yle birlikte say!"
+   ],
+   "ask": "Ali çok merak etti ama bakmadı. Sence neden? Sen ebe olunca nasıl sayarsın?"
+  },
+  {
+   "text": "Zeynep kaydırağa, Can çalıya kaçtı. Elif tekerleklerini itti, vızz! Ama tekerlekler kuma battı. “Elif, sobe!” dedi Ali. Elif yine ilk bulunmuştu. Çok üzüldü, boğazı düğüm düğüm oldu.",
+   "scene": {
+    "set": "oyun-parki",
+    "sandHit": "kum",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 96,
+      "y": 232,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ali"
+     },
+     {
+      "k": "elif",
+      "x": 214,
+      "y": 200,
+      "s": 0.9,
+      "mood": "sad",
+      "pose": "stand",
+      "flip": true,
+      "hit": "elif"
+     },
+     {
+      "k": "can",
+      "x": 352,
+      "y": 214,
+      "s": 0.85,
+      "mood": "shy",
+      "pose": "stand",
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 350,
+      "y": 236,
+      "s": 2.1,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Elif, sobe! Yine buldum!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "bell"
+    },
+    "elif": {
+     "say": "Tekerleklerim kuma battı…",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "can": {
+     "say": "Şşş! Beni görmedi.",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "kum": {
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Elif neden hep ilk bulunuyor? Sence şimdi ne hissediyor?"
+  },
+  {
+   "text": "Elif derin bir nefes aldı. Burnundan içeri, ağzından dışarı. Boğazındaki düğüm çözüldü. Sonra gözleri parladı. “Durun! Bu oyunu herkes için değiştirelim. Bir fikrim var!”",
+   "scene": {
+    "set": "oyun-parki",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 94,
+      "y": 222,
+      "s": 0.95,
+      "mood": "surprised",
+      "pose": "stand",
+      "turn": 0.6,
+      "hit": "zeynep"
+     },
+     {
+      "k": "elif",
+      "x": 212,
+      "y": 232,
+      "s": 1.1,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "elif"
+     },
+     {
+      "k": "ali",
+      "x": 330,
+      "y": 222,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "stand",
+      "flip": true,
+      "turn": 0.6,
+      "hit": "ali"
+     }
+    ],
+    "props": [
+     {
+      "k": "star",
+      "x": 232,
+      "y": 70,
+      "s": 3.6,
+      "hit": "fikir"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Durun! Bir fikrim var!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Fikir mi? Anlat, anlat!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ali": {
+     "say": "Seni dinliyoruz, Elif.",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "fikir": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "predict": {
+    "q": "Sence Elif'in fikri ne?",
+    "res": "Hadi, Elif'i dinleyelim!",
+    "opts": [
+     {
+      "l": "Yeni saklanma yerleri",
+      "scene": {
+       "set": "oyun-parki",
+       "still": true,
+       "cast": [
+        {
+         "k": "elif",
+         "x": 150,
+         "y": 230,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "point"
+        },
+        {
+         "k": "zeynep",
+         "x": 318,
+         "y": 212,
+         "s": 0.85,
+         "mood": "happy",
+         "pose": "clap",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "cali",
+         "x": 320,
+         "y": 234,
+         "s": 2.0,
+         "flowers": true
+        }
+       ]
+      }
+     },
+     {
+      "l": "Yeni bir sobe yeri",
+      "scene": {
+       "set": "oyun-parki",
+       "cast": [
+        {
+         "k": "elif",
+         "x": 190,
+         "y": 230,
+         "s": 1.05,
+         "mood": "laugh",
+         "pose": "point"
+        },
+        {
+         "k": "ali",
+         "x": 90,
+         "y": 222,
+         "s": 0.95,
+         "mood": "happy",
+         "pose": "clap",
+         "turn": 0.6
+        }
+       ],
+       "props": [
+        {
+         "k": "bank",
+         "x": 330,
+         "y": 232,
+         "s": 1.1
+        },
+        {
+         "k": "star",
+         "x": 330,
+         "y": 150,
+         "s": 0.8
+        }
+       ],
+       "still": true
+      }
+     }
+    ]
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Sen üzülünce nasıl sakinleşirsin? Hadi, Elif gibi bir nefes alalım."
+  },
+  {
+   "text": "“Birinci kural: Kuma saklanmak yok, kum tekerleği yutar!” dedi Elif. “İkinci kural: Sobe yeri bu bank olsun. Oraya herkes kolayca varır!” Ali gülümsedi. “Ben de merak etsem bile hiç bakmam. Söz!”",
+   "scene": {
+    "set": "oyun-parki",
+    "sandHit": "kum",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 58,
+      "y": 232,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "wave",
+      "turn": 0.5,
+      "hit": "ali"
+     },
+     {
+      "k": "elif",
+      "x": 140,
+      "y": 234,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "elif"
+     },
+     {
+      "k": "can",
+      "x": 268,
+      "y": 212,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "clap",
+      "flip": true,
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 334,
+      "y": 234,
+      "s": 1.15,
+      "hit": "bank"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Kuma saklanmak yok!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "Merak etsem de bakmam. Söz!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "can": {
+     "say": "Bu kurallar herkese uyar!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "bank": {
+     "anim": "boing",
+     "fx": "bell"
+    },
+    "kum": {
+     "say": "Kum tekerleği yutar!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "bank",
+    "Yeni sobe yerine dokun!"
+   ],
+   "ask": "Elif'in iki kuralı neydi? Bank neden iyi bir sobe yeri? Sen hangi kuralı eklerdin?"
+  },
+  {
+   "text": "Oyun yeniden başladı. Ali yediye kadar saydı, hiç bakmadı. Sonra usul usul aradı. Şu çalı kıpır kıpır! Şurada bir saç bandı parladı! Peki, Elif nerede?",
+   "scene": {
+    "set": "oyun-parki",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 112,
+      "y": 232,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "ali"
+     },
+     {
+      "k": "can",
+      "x": 244,
+      "y": 214,
+      "s": 0.8,
+      "mood": "shy",
+      "pose": "stand",
+      "hit": "can"
+     },
+     {
+      "k": "zeynep",
+      "x": 344,
+      "y": 212,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "stand",
+      "flip": true,
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 242,
+      "y": 234,
+      "s": 2.0
+     },
+     {
+      "k": "cali",
+      "x": 350,
+      "y": 236,
+      "s": 2.0,
+      "berries": true
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Neredesiniz acaba?",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "can": {
+     "say": "Hık! Buldun beni!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "zeynep": {
+     "say": "Ay! Saç bandım parladı!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "can",
+     "zeynep"
+    ],
+    "done": "İkisini buldun! Ama Elif nerede?",
+    "msg": "Harika ebe!"
+   },
+   "hint": [
+    "can",
+    "Saklananları bul!"
+   ],
+   "ask": "Can ile Zeynep nereye saklandı? Sen parkta nereye saklanırdın?"
+  },
+  {
+   "text": "Elif kaydırağın arkasından çıktı. Vızz, vızz, vızz! Ali koştu ama Elif daha hızlıydı. Elini banka koydu: “Sobe!” Herkes alkışladı. Elif'in kalbi pır pır etti. Oyun artık herkesin oyunuydu.",
+   "scene": {
+    "set": "oyun-parki",
+    "still": true,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 352,
+      "y": 208,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "jump",
+      "flip": true,
+      "hit": "zeynep"
+     },
+     {
+      "k": "ali",
+      "x": 40,
+      "y": 214,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "run",
+      "hit": "ali"
+     },
+     {
+      "k": "elif",
+      "x": 100,
+      "y": 232,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "run",
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 340,
+      "y": 234,
+      "s": 1.15,
+      "hit": "bank"
+     },
+     {
+      "k": "heart",
+      "x": 200,
+      "y": 84,
+      "s": 0.8,
+      "hit": "kalp"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Sobe! Ben kurtuldum!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "ali": {
+     "say": "Hiç bakmadım! Sen kazandın, Elif!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "zeynep": {
+     "say": "Yaşasın! Bir daha oynayalım!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "bank": {
+     "anim": "boing",
+     "fx": "bell"
+    },
+    "kalp": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "elif",
+    "steps": 4,
+    "step": 56,
+    "say": "Vızz, vızz, vızz, vızz!",
+    "done": "Sobe! Elif banka ulaştı!",
+    "msg": "Elif kurtuldu!"
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun, hızlansın!"
+   ],
+   "ask": "Yeni kurallarla oyun nasıl değişti? Sence herkes neden mutlu?",
+   "cues": [
+    {
+     "w": 18,
+     "fx": "alkis"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.13 Hareketli oyunlara özgü basit taktik ve strateji geliştirebilme (teyitsiz): Saklambaçta nereye saklanacağını ve sobe yerine nasıl ulaşacağını planlar; Elif gibi oyunun kurallarını herkesin katılabileceği biçimde değiştirmeyi önerir.",
+   "HSAB.1 Farklı çevre ve fiziksel etkinliklerde büyük kas becerilerini etkin bir şekilde uygulayabilme — a) Farklı ortam ve koşullarda yer değiştirme hareketleri yapar: parkta koşar, saklanır, sobe yerine ulaşır; zeminin (kum, çim, yol) hareketi nasıl etkilediğini fark eder.",
+   "MAB.1 Ritmik ve algısal sayabilme: Ebe ile birlikte 1'den 7'ye kadar ritmik sayar, her sayı kartına bir kez dokunarak saymayı nesnelerle eşler (48-60 ayda sayma aralığı 1-10).",
+   "SDB2.2 İş Birliği ve D6 Dürüstlük: Oyun kurallarını arkadaşlarıyla birlikte konuşarak yeniler; ebeyken gözünü açmadan, parmak arasından bakmadan dürüstçe sayar."
+  ],
+  "once": [
+   "“Saklambaç oynadınız mı? Ebe ne yapar?” diye sorun. “Önüm, arkam, sağım, solum sobe!” tekerlemesini birlikte söyleyin.",
+   "Kapakta Elif'i gösterin: “Elif tekerlekli sandalyesiyle parkta dolaşıyor. Sence saklambaçta nereye saklanabilir?”",
+   "“Bir oyunun kuralı hiç değişebilir mi? Kim değiştirir?” diye sorup cevapları dinleyin."
+  ],
+  "sirasi": [
+   "1. sayfada sayı kartlarına sırayla dokunurken yüksek sesle ve ritimle birlikte sayın: “Bir, iki, üç…”. Ali'nin çok merak ettiği hâlde parmak arasından bakmadığına dikkat çekin.",
+   "2. sayfada Elif'in yüzüne bakın: “Elif çok üzüldü, boğazı düğüm düğüm oldu. Sen üzülünce bedeninde ne olur?” 3. sayfada Elif'le birlikte burundan alıp ağızdan veren bir nefes alın.",
+   "3. sayfadaki tahminde iki seçeneğin de iyi olduğunu söyleyin; 4. sayfada Elif'in iki kuralını (kuma saklanmak yok; sobe yeri herkesin kolayca varacağı bank) çocuklara tekrar ettirin."
+  ],
+  "sonra": [
+   "Olayları sırayla anlattırın: Ali merak etti ama bakmadan saydı → Elif'in tekerlekleri kuma battı → Elif nefes alıp fikir buldu → iki yeni kural → Elif sobeledi.",
+   "“Ali çok merak etti ama neden bakmadı? Ebe gizlice bakarsa oyun nasıl olur?” diye konuşun; dürüst saymanın oyunu herkes için güzel yaptığını çocukların kendi sözleriyle söylemesini bekleyin.",
+   "“Sınıfımızdaki bir oyunu herkes oynayabilsin diye nasıl değiştirebiliriz?” sorusuyla çocuklardan kural önerileri toplayın."
+  ],
+  "sinif": {
+   "ad": "Herkesin Saklambacı",
+   "sure": "20 dk",
+   "materyal": "Bahçe ya da geniş bir oda, sobe yeri için bir sandalye ya da minder, 1-7 arası sayı kartları",
+   "adim": [
+    "Sobe yerini birlikte seçin. Sayı kartlarını yere dizin; ebe gözlerini kapatır, çocuklar kartları göstererek hep birlikte yediye kadar sayar.",
+    "Oyundan önce herkes bir kural önerir: “Kuma saklanmak yok”, “Ebe gözünü açmaz” gibi. Sınır kuralını da ekleyin: “Öğretmenin görebileceği yerde saklanırız, kapanan dolap ya da sandığa girmeyiz.” Kuralları resimli sembol kartlarıyla tahtaya asın.",
+    "Saklambaç oynayın. Bulunan çocuk ebenin yardımcısı olur; böylece kimse yalnız kalmaz.",
+    "Kapanışta sorun: “Hangi kural oyunu herkes için daha eğlenceli yaptı?” Her çocuk bir cümleyle söyler."
+   ]
+  },
+  "evSoru": [
+   "Ali sayarken çok merak etti. Ne yaptı? Neden hiç bakmadı?",
+   "Elif üzülünce kendini nasıl sakinleştirdi?",
+   "Elif hangi kuralları önerdi? Sen evdeki oyunlara hangi kuralı eklersin?"
+  ],
+  "evEtk": {
+   "ad": "Evde Yediye Kadar Saklambaç",
+   "d": "Evde ya da parkta ailecek saklambaç oynayın. Ebe gözlerini kapatıp yediye kadar yüksek sesle sayar ve “Önüm, arkam, sağım, solum sobe!” der. Saklanma yerleri, bir büyüğün görebileceği alanın içinde olsun; kapanan dolap ya da sandık gibi yerlere saklanılmaz. Oyundan önce küçük kardeş ya da büyükler de katılabilsin diye birlikte bir kural ekleyin."
+  },
+  "aileNotu": "Bugün “Saklambaç Sayacı” masalını okuduk. Parkta saklambaç oynarken tekerlekli sandalye kullanan Elif'in tekerlekleri kuma batıyor ve hep ilk o bulunuyor. Elif derin bir nefes alıp oyuna iki yeni kural öneriyor: kuma saklanmak yok, sobe yeri herkesin kolayca varacağı bank. Ebe Ali de çok merak etse bile hiç bakmadan yediye kadar sayıyor. Evde oyun oynarken birlikte kural koymayı, ritmik saymayı ve ebeyken dürüst olmayı konuşabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/063-saklambac-sayaci.mp3",
+  "hash": "fe825678",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17634,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2589,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      4350,
+      8
+     ],
+     [
+      4969,
+      9
+     ],
+     [
+      5769,
+      10
+     ],
+     [
+      6129,
+      11
+     ],
+     [
+      6509,
+      12
+     ],
+     [
+      7410,
+      13
+     ],
+     [
+      7709,
+      14
+     ],
+     [
+      8109,
+      15
+     ],
+     [
+      8509,
+      16
+     ],
+     [
+      9109,
+      17
+     ],
+     [
+      10129,
+      18
+     ],
+     [
+      10789,
+      19
+     ],
+     [
+      11549,
+      20
+     ],
+     [
+      12129,
+      21
+     ],
+     [
+      12789,
+      22
+     ],
+     [
+      13489,
+      23
+     ],
+     [
+      14069,
+      24
+     ],
+     [
+      14850,
+      25
+     ],
+     [
+      15409,
+      26
+     ],
+     [
+      15989,
+      27
+     ],
+     [
+      16489,
+      28
+     ],
+     [
+      16989,
+      29
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 17934,
+    "d": 4724,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      2209,
+      3
+     ],
+     [
+      2949,
+      4
+     ],
+     [
+      3529,
+      5
+     ],
+     [
+      4169,
+      6
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 22958,
+    "d": 2112,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 25371,
+    "d": 2328,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1469,
+      3
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 28000,
+    "d": 2206,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 30506,
+    "d": 14597,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2910,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      4069,
+      7
+     ],
+     [
+      4609,
+      8
+     ],
+     [
+      5649,
+      9
+     ],
+     [
+      5850,
+      10
+     ],
+     [
+      6569,
+      11
+     ],
+     [
+      6850,
+      12
+     ],
+     [
+      7669,
+      13
+     ],
+     [
+      8169,
+      14
+     ],
+     [
+      8969,
+      15
+     ],
+     [
+      9249,
+      16
+     ],
+     [
+      9869,
+      17
+     ],
+     [
+      10329,
+      18
+     ],
+     [
+      10629,
+      19
+     ],
+     [
+      10850,
+      20
+     ],
+     [
+      11850,
+      21
+     ],
+     [
+      12109,
+      22
+     ],
+     [
+      12909,
+      23
+     ],
+     [
+      13409,
+      24
+     ],
+     [
+      13829,
+      25
+     ],
+     [
+      14189,
+      26
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 45404,
+    "d": 2425,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      665,
+      1
+     ],
+     [
+      1450,
+      2
+     ],
+     [
+      1917,
+      3
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 48129,
+    "d": 2067,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1349,
+      2
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 50497,
+    "d": 1849,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      643,
+      1
+     ],
+     [
+      1123,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 52646,
+    "d": 12250,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      4249,
+      8
+     ],
+     [
+      5049,
+      9
+     ],
+     [
+      5729,
+      10
+     ],
+     [
+      6029,
+      11
+     ],
+     [
+      6910,
+      12
+     ],
+     [
+      7370,
+      13
+     ],
+     [
+      7829,
+      14
+     ],
+     [
+      8650,
+      15
+     ],
+     [
+      9350,
+      16
+     ],
+     [
+      9529,
+      17
+     ],
+     [
+      9850,
+      18
+     ],
+     [
+      10270,
+      19
+     ],
+     [
+      10509,
+      20
+     ],
+     [
+      11369,
+      21
+     ],
+     [
+      11509,
+      22
+     ],
+     [
+      11890,
+      23
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 65197,
+    "d": 1704,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      752,
+      1
+     ],
+     [
+      996,
+      2
+     ],
+     [
+      1420,
+      3
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 67202,
+    "d": 1973,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      451,
+      1
+     ],
+     [
+      968,
+      2
+     ],
+     [
+      1521,
+      3
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 69475,
+    "d": 1491,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      989,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 71267,
+    "d": 1714,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 73282,
+    "d": 1397,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      829,
+      2
+     ]
+    ]
+   },
+   "p3": {
+    "s": 74979,
+    "d": 14579,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2609,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      4149,
+      8
+     ],
+     [
+      4430,
+      9
+     ],
+     [
+      5229,
+      10
+     ],
+     [
+      5609,
+      11
+     ],
+     [
+      6390,
+      12
+     ],
+     [
+      6709,
+      13
+     ],
+     [
+      6949,
+      14
+     ],
+     [
+      7109,
+      15
+     ],
+     [
+      7449,
+      16
+     ],
+     [
+      8129,
+      17
+     ],
+     [
+      8489,
+      18
+     ],
+     [
+      9009,
+      19
+     ],
+     [
+      9569,
+      20
+     ],
+     [
+      10449,
+      21
+     ],
+     [
+      10669,
+      22
+     ],
+     [
+      11749,
+      23
+     ],
+     [
+      11989,
+      24
+     ],
+     [
+      12109,
+      25
+     ],
+     [
+      12489,
+      26
+     ],
+     [
+      12850,
+      27
+     ],
+     [
+      13149,
+      28
+     ],
+     [
+      13430,
+      29
+     ],
+     [
+      14069,
+      30
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 89859,
+    "d": 1579,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      539,
+      1
+     ],
+     [
+      1251,
+      2
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 91738,
+    "d": 2436,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      527,
+      1
+     ],
+     [
+      1015,
+      2
+     ],
+     [
+      1295,
+      3
+     ],
+     [
+      2115,
+      4
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 94475,
+    "d": 2138,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1550,
+      3
+     ]
+    ]
+   },
+   "p3h-kum": {
+    "s": 96913,
+    "d": 1662,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      305,
+      1
+     ],
+     [
+      1160,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 98876,
+    "d": 12188,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2489,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      3910,
+      8
+     ],
+     [
+      4910,
+      9
+     ],
+     [
+      5449,
+      10
+     ],
+     [
+      5850,
+      11
+     ],
+     [
+      6189,
+      12
+     ],
+     [
+      7029,
+      13
+     ],
+     [
+      7209,
+      14
+     ],
+     [
+      7509,
+      15
+     ],
+     [
+      7829,
+      16
+     ],
+     [
+      8609,
+      17
+     ],
+     [
+      8909,
+      18
+     ],
+     [
+      9029,
+      19
+     ],
+     [
+      9289,
+      20
+     ],
+     [
+      9609,
+      21
+     ],
+     [
+      10589,
+      22
+     ],
+     [
+      11350,
+      23
+     ],
+     [
+      11649,
+      24
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 111365,
+    "d": 1763,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1074,
+      1
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 113428,
+    "d": 1811,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      707,
+      1
+     ],
+     [
+      1239,
+      2
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 115540,
+    "d": 2136,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      646,
+      1
+     ],
+     [
+      924,
+      2
+     ],
+     [
+      1407,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 117976,
+    "d": 2837,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2269,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 121114,
+    "d": 14939,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      3369,
+      5
+     ],
+     [
+      3629,
+      6
+     ],
+     [
+      4269,
+      7
+     ],
+     [
+      4489,
+      8
+     ],
+     [
+      5330,
+      9
+     ],
+     [
+      5669,
+      10
+     ],
+     [
+      5969,
+      11
+     ],
+     [
+      6229,
+      12
+     ],
+     [
+      7129,
+      13
+     ],
+     [
+      7449,
+      14
+     ],
+     [
+      7789,
+      15
+     ],
+     [
+      8509,
+      16
+     ],
+     [
+      9310,
+      17
+     ],
+     [
+      9810,
+      18
+     ],
+     [
+      10890,
+      19
+     ],
+     [
+      11289,
+      20
+     ],
+     [
+      11749,
+      21
+     ],
+     [
+      12029,
+      22
+     ],
+     [
+      12249,
+      23
+     ],
+     [
+      12989,
+      24
+     ],
+     [
+      13350,
+      25
+     ],
+     [
+      13770,
+      26
+     ],
+     [
+      14350,
+      27
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 136353,
+    "d": 2148,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      984,
+      1
+     ],
+     [
+      1307,
+      2
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 138801,
+    "d": 2756,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2249,
+      4
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 141858,
+    "d": 2320,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      892,
+      1
+     ],
+     [
+      1125,
+      2
+     ],
+     [
+      1530,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 144478,
+    "d": 2358,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1729,
+      3
+     ]
+    ]
+   },
+   "p5ms": {
+    "s": 147137,
+    "d": 1953,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      556,
+      1
+     ],
+     [
+      1072,
+      2
+     ],
+     [
+      1588,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

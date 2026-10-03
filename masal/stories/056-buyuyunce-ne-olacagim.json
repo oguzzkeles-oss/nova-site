@@ -1,0 +1,2614 @@
+{
+ "id": "056-buyuyunce-ne-olacagim",
+ "n": 56,
+ "title": "Büyüyünce Ne Olacağım?",
+ "age": "48-60",
+ "area": "Sosyal",
+ "theme": "Meslekler ve hayaller",
+ "values": [
+  "D3 Çalışkanlık"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 5,
+ "blurb": "Meslekler gününde sınıfa Doktor Aslı gelir; çantasındaki araçlar Elif'i meraktan çatlatır. Stetoskop, termometre, yara bandı... Peki Elif büyüyünce ne olmak istiyor?",
+ "codes": {
+  "maarif": [
+   "SBAB6 Girişimcilik (meslekleri ve araçlarını tanır; kendi hayalindeki işi tasarlar)",
+   "TAKB.2 Konuşma sürecinin içeriğini oluşturabilme (konuşacağı konu ile ön bilgileri/günlük yaşamı arasında bağlantı kurar)",
+   "E1.1 Merak",
+   "SDB2.3 Sosyal Farkındalık",
+   "D3 Çalışkanlık"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "elif": "cocuk-kiz",
+  "asli": "doktor",
+  "nur": "ogretmen"
+ },
+ "voiceNames": {
+  "elif": "Elif",
+  "asli": "Doktor Aslı",
+  "nur": "Nur Öğretmen"
+ },
+ "pages": [
+  {
+   "text": "Bugün meslekler günü! Nur Öğretmen dedi ki: “Herkes büyüyünce ne olacağını söyleyecek.” Elif düşündü. Hiç bilmiyordu ki! Tık tık! Kapıdan Doktor Aslı girdi. Elinde kırmızı bir çanta vardı.",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "hot": {
+     "pano": "pano"
+    },
+    "cast": [
+     {
+      "k": "elif",
+      "x": 150,
+      "y": 231,
+      "s": 1.15,
+      "mood": "think",
+      "pose": "walk",
+      "hit": "elif",
+      "turn": 0.7
+     },
+     {
+      "k": "ogretmen",
+      "x": 238,
+      "y": 208,
+      "s": 0.82,
+      "mood": "happy",
+      "pose": "open",
+      "hit": "nur",
+      "flip": true
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 322,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "asli",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "doktor-cantasi",
+      "x": 374,
+      "y": 236,
+      "s": 1.1,
+      "hit": "canta"
+     },
+     {
+      "k": "canta",
+      "x": 34,
+      "y": 236,
+      "s": 0.8
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 50,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 50,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#9C7BD8"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 78,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 78,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 106,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 106,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#F6C742"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Vıjjt! Çantada ne var?",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "asli": {
+     "say": "Merhaba çocuklar! Ben Doktor Aslı.",
+     "voice": "asli",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "nur": {
+     "say": "Büyüyünce ne olacaksınız?",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "canta": {
+     "say": "Tıkır tıkır! İçinde bir şeyler var!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "pano": {
+     "anim": "wiggle",
+     "fx": "page"
+    }
+   },
+   "hint": [
+    "canta",
+    "Çantaya dokun!"
+   ],
+   "ask": "Sence Elif neden düşünüyor? Doktor Aslı'nın çantasında neler var?",
+   "cues": [
+    {
+     "w": 17,
+     "fx": "kapi-tik"
+    }
+   ]
+  },
+  {
+   "text": "Doktor Aslı çantayı açtı. “Bu ne? Peki bu ne?” Stetoskop, termometre, yara bandı! Elif sordu: “Bunları kullanmayı nerede öğrendiniz?” Doktor Aslı güldü: “Okulda! Yıllarca çalıştım.”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "elif",
+      "x": 138,
+      "y": 230,
+      "s": 1.15,
+      "mood": "surprised",
+      "pose": "point",
+      "hit": "elif",
+      "turn": 0.6
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 345,
+      "y": 228,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "asli",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "doktor-cantasi",
+      "x": 380,
+      "y": 237,
+      "s": 0.95
+     },
+     {
+      "k": "stetoskop",
+      "x": 214,
+      "y": 236,
+      "s": 1.4,
+      "hit": "st"
+     },
+     {
+      "k": "termometre",
+      "kind": "dijital",
+      "color": "#4F8FD8",
+      "x": 260,
+      "y": 234,
+      "s": 1.3,
+      "hit": "tm"
+     },
+     {
+      "k": "yara-bandi",
+      "color": "#F27BA5",
+      "x": 302,
+      "y": 237,
+      "s": 1.5,
+      "hit": "yb"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 50,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 50,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#9C7BD8"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 78,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 78,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 106,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 106,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#F6C742"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Bunları kullanmayı nerede öğrendiniz?",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "asli": {
+     "say": "Okulda! Yıllarca çalıştım.",
+     "voice": "asli",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "st": {
+     "say": "Stetoskop. Kalbin sesini dinler.",
+     "voice": "asli",
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "tm": {
+     "say": "Termometre. Ateşi ölçer. Bip bip!",
+     "voice": "asli",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "yb": {
+     "say": "Yara bandı. Sıyrığı kapatır.",
+     "voice": "asli",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "st",
+    "Araçlara dokun!"
+   ],
+   "ask": "Sen doktora gittiğinde bu araçlardan hangisini gördün?"
+  },
+  {
+   "text": "Elif stetoskobu eline aldı. Ucu serin mi serin! “Şimdi neyi dinlesem?” Doktor Aslı göz kırptı: “Dene bakalım!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "elif",
+      "x": 180,
+      "y": 232,
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "hold",
+      "hit": "elif",
+      "hold": "stetoskop",
+      "holdS": 0.9,
+      "turn": 0.4
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 350,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "asli",
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 268,
+      "y": 212,
+      "s": 0.82,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "nur",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "doktor-cantasi",
+      "x": 384,
+      "y": 237,
+      "s": 0.85
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 50,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 50,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#9C7BD8"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 78,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 78,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 106,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 106,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#F6C742"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Şimdi neyi dinlesem?",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "asli": {
+     "say": "Dene bakalım!",
+     "voice": "asli",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "nur": {
+     "say": "Dinlemek için bana sorar mısın?",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "predict": {
+    "q": "Sence Elif neyi dinleyecek?",
+    "res": "Hadi görelim!",
+    "opts": [
+     {
+      "l": "Kendi kalbini",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "tables": false,
+       "cast": [
+        {
+         "k": "elif",
+         "x": 200,
+         "y": 232,
+         "s": 1.25,
+         "mood": "laugh",
+         "pose": "hold",
+         "hit": "elif",
+         "hold": "stetoskop",
+         "holdS": 0.9,
+         "turn": 0.3
+        }
+       ],
+       "props": [
+        {
+         "k": "heart",
+         "x": 268,
+         "y": 120,
+         "s": 1.2,
+         "hit": "o1"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Öğretmenin kalbini",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "tables": false,
+       "cast": [
+        {
+         "k": "elif",
+         "x": 140,
+         "y": 232,
+         "s": 1.2,
+         "mood": "happy",
+         "pose": "hold",
+         "hit": "elif",
+         "hold": "stetoskop",
+         "holdS": 0.9,
+         "turn": 0.6
+        },
+        {
+         "k": "ogretmen",
+         "x": 262,
+         "y": 226,
+         "s": 1.0,
+         "mood": "laugh",
+         "pose": "seat",
+         "hit": "nur",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "heart",
+         "x": 262,
+         "y": 80,
+         "s": 1.0,
+         "hit": "o2"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Sen hiç kalbinin sesini duydun mu? Nasıl bir ses?"
+  },
+  {
+   "text": "Güm güm, güm güm! Elif kendi kalbini duydu. Sonra ilk hasta geldi: oyuncak ayı Pofuduk! Dizi sıyrılmış. Doktor Aslı fısıldadı: “Önce kalp, sonra ateş. Yarayı yıka, en son bant.”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "elif",
+      "x": 124,
+      "y": 230,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "elif",
+      "turn": 0.7
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 368,
+      "y": 224,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "asli",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 240,
+      "y": 234,
+      "s": 1.5,
+      "color": "#9ED8F5",
+      "hit": "pofuduk"
+     },
+     {
+      "k": "stetoskop",
+      "x": 192,
+      "y": 237,
+      "s": 1.05,
+      "hit": "st"
+     },
+     {
+      "k": "termometre",
+      "kind": "dijital",
+      "color": "#4F8FD8",
+      "x": 285,
+      "y": 236,
+      "s": 1.05,
+      "hit": "tm"
+     },
+     {
+      "k": "yara-bandi",
+      "color": "#F27BA5",
+      "x": 322,
+      "y": 237,
+      "s": 1.3,
+      "hit": "yb"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 50,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 50,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#9C7BD8"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 78,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 78,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 106,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 106,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#F6C742"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Pofuduk, seni dinleyebilir miyim?",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "asli": {
+     "say": "Aferin Doktor Elif, sırayla!",
+     "voice": "asli",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "pofuduk": {
+     "say": "Pofuduk sabırla bekliyor. Dizi sızlıyor.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "st": {
+     "say": "Güm güm!",
+     "voice": "elif",
+     "fx": "thump"
+    },
+    "tm": {
+     "say": "Bip bip! Ateş yok.",
+     "voice": "elif",
+     "fx": "click"
+    },
+    "yb": {
+     "say": "Çıt! Bant dizine yapıştı.",
+     "voice": "elif",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "st",
+     "tm",
+     "yb"
+    ],
+    "done": "Güm güm, bip bip, çıt! Pofuduk iyileşiyor.",
+    "msg": "Sırayla muayene ettin!"
+   },
+   "hint": [
+    "st",
+    "Önce stetoskoba dokun!"
+   ],
+   "ask": "Elif, Pofuduk'u muayene ederken önce ne yaptı? Sonra ne yaptı?"
+  },
+  {
+   "text": "Nur Öğretmen bir sepet getirdi. İçinde fırça, sulama kabı, kocaman tahta kaşık vardı. “Bunlar da başka işlerin araçları. Hangisi ressamın, hangisi bahçıvanın, hangisi aşçının?” Elif kollarını sıvadı.",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 300,
+      "y": 232,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "elif",
+      "turn": 0.7,
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 372,
+      "y": 224,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "hold",
+      "hit": "nur",
+      "flip": true,
+      "hold": "basket",
+      "holdS": 0.6
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "theme": "house",
+      "frame": "#F6C742",
+      "x": 318,
+      "y": 108,
+      "s": 1.1,
+      "hit": "r"
+     },
+     {
+      "k": "kase",
+      "fill": "soup",
+      "x": 226,
+      "y": 161,
+      "s": 1.5,
+      "hit": "c"
+     },
+     {
+      "k": "sulama-kabi",
+      "state": "off",
+      "x": 112,
+      "y": 237,
+      "s": 1.2,
+      "hit": "su"
+     },
+     {
+      "k": "palet",
+      "x": 176,
+      "y": 236,
+      "s": 1.2,
+      "hit": "pa"
+     },
+     {
+      "k": "kasik",
+      "color": "#B07A45",
+      "x": 238,
+      "y": 236,
+      "s": 2.3,
+      "hit": "ka"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 50,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 50,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#9C7BD8"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 78,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 78,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 106,
+      "y": 151,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 106,
+      "y": 136.5,
+      "z": 152,
+      "s": 0.5,
+      "color": "#F6C742",
+      "hit": "f"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Hangisi nereye? Buldum!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "nur": {
+     "say": "Her araç işini bulsun!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "pa",
+      "r"
+     ],
+     [
+      "su",
+      "f"
+     ],
+     [
+      "ka",
+      "c"
+     ]
+    ],
+    "done": "Fırça resme, kap çiçeğe, kaşık çorbaya!",
+    "msg": "Her araç işini buldu!"
+   },
+   "hint": [
+    "pa",
+    "Araca, sonra işine dokun!"
+   ],
+   "ask": "Fırçayı, sulama kabını, tahta kaşığı kimler kullanır? Başka hangi işleri biliyorsun?"
+  },
+  {
+   "text": "Nur Öğretmen sordu: “Elif, sen büyüyünce ne olacaksın?” Elif düşündü, düşündü. Pencere önündeki saksıları indirdi. Stetoskobu birine dayadı. “Şşş! Bu çiçek susamış, boynunu bükmüş. Ben çiçek doktoru olacağım!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "elif",
+      "x": 186,
+      "y": 226,
+      "s": 1.2,
+      "mood": "laugh",
+      "pose": "crawl",
+      "hit": "elif",
+      "hold": "stetoskop",
+      "holdS": 0.9,
+      "turn": 0.6,
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 282,
+      "y": 226,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "open",
+      "hit": "nur",
+      "flip": true
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 368,
+      "y": 216,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "asli",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 56,
+      "y": 234,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 56,
+      "y": 212.9,
+      "z": 235,
+      "s": 0.62,
+      "color": "#9C7BD8"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 92,
+      "y": 234,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 92,
+      "y": 212.9,
+      "z": 235,
+      "s": 0.62,
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 128,
+      "y": 234,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 128,
+      "y": 212.9,
+      "z": 235,
+      "s": 0.62,
+      "color": "#F6C742",
+      "hit": "cicek"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Ben çiçek doktoru olacağım!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "cicek": {
+     "say": "Şşş! Bu çiçek susamış.",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "sniff"
+    },
+    "nur": {
+     "say": "Sen büyüyünce ne olacaksın?",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "asli": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "cicek",
+    "Çiçeği dinle!"
+   ],
+   "ask": "Sen büyüyünce ne olmak istiyorsun? O işte hangi araçları kullanırsın?"
+  },
+  {
+   "text": "Elif çiçekleri tek tek suladı. Şırıl şırıl! Çiçekler doğruldu, yaprakları parladı. Doktor Aslı gülümsedi, Nur Öğretmen alkışladı. Büyüyünce ne olacak? Çiçek doktoru! İşe başladı bile.",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "elif",
+      "x": 196,
+      "y": 226,
+      "s": 1.2,
+      "mood": "laugh",
+      "pose": "crawl",
+      "hit": "elif",
+      "hold": "sulama-kabi",
+      "holdS": 0.6,
+      "turn": 0.6,
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 292,
+      "y": 212,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "nur",
+      "flip": true
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 360,
+      "y": 228,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "asli",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 56,
+      "y": 234,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 56,
+      "y": 212.9,
+      "z": 235,
+      "s": 0.62,
+      "color": "#9C7BD8",
+      "hit": "f1"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 92,
+      "y": 234,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 92,
+      "y": 212.9,
+      "z": 235,
+      "s": 0.62,
+      "color": "#EE6F9C",
+      "hit": "f2"
+     },
+     {
+      "k": "tohum",
+      "pot": true,
+      "potColor": "#D9774A",
+      "x": 128,
+      "y": 234,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "state": "off",
+      "x": 128,
+      "y": 212.9,
+      "z": 235,
+      "s": 0.62,
+      "color": "#F6C742",
+      "hit": "f3"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Şırıl şırıl! İçin, çiçekler!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "splash"
+    },
+    "asli": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "nur": {
+     "anim": "boing",
+     "fx": "success"
+    }
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "f1",
+     "f2",
+     "f3"
+    ],
+    "say": "Şırıl şırıl!",
+    "done": "Üç çiçek de doğruldu!",
+    "msg": "Çiçekler güldü!"
+   },
+   "hint": [
+    "f1",
+    "Çiçekleri sula!"
+   ],
+   "ask": "Elif'in hayali neydi? Senin hayalin için bugün ne yapabilirsin?",
+   "cues": [
+    {
+     "w": 5,
+     "fx": "musluk"
+    },
+    {
+     "w": 16,
+     "fx": "alkis"
+    }
+   ]
+  }
+ ],
+ "order": [
+  0,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "SBAB6 Girişimcilik: Doktorun, aşçının, ressamın, bahçıvanın araçlarını tanır; Elif gibi kendi hayalindeki işi ('çiçek doktoru') kurar ve bu iş için ilk adımı atar.",
+   "TAKB.2 Konuşma sürecinin içeriğini oluşturabilme: Doktora gittiği günleri, evdeki ve okuldaki araçları anlatarak konuşacağı konu ile ön bilgileri/günlük yaşamı arasında bağlantı kurar.",
+   "E1.1 Merak: Elif gibi 'Bu ne? Peki bu ne?' diye sorar; araçları dokunarak ve dinleyerek keşfeder.",
+   "SDB2.3 Sosyal Farkındalık: Toplumda farklı işler yapan insanların bize nasıl yardım ettiğini fark eder (doktor, öğretmen, aşçı, bahçıvan, ressam).",
+   "D3 Çalışkanlık: Doktor Aslı'nın 'Okulda! Yıllarca çalıştım.' sözünden bir işi öğrenmenin emek istediğini görür; muayeneyi sırayla, özenle yapar."
+  ],
+  "once": [
+   "Kapağı gösterin: 'Elif'in yanındaki kişi kim olabilir? Nereden anladın?' Tahminleri düzeltmeden dinleyin.",
+   "Bir çantayı kapalı olarak gösterin: 'Bir doktorun çantasında neler olur?' Söylenenleri tahtaya resimle çizin.",
+   "'Tanıdığın biri hangi işi yapıyor? Sen büyüyünce ne olmak istersin? Bilmiyorsan da olur.' diye sorun; her cevabı kabul edin."
+  ],
+  "sirasi": [
+   "1. sayfada Elif'in düşünceli yüzünü gösterin: 'Elif neden düşünüyor?' Büyüyünce ne olacağını bilmemenin çok doğal olduğunu söyleyin.",
+   "2. sayfada çocuklar her araca dokunsun, Doktor Aslı'nın ne dediğini tekrar etsin: 'Kalbi dinler, ateşi ölçer, sıyrığı kapatır.'",
+   "3. sayfada Nur Öğretmen'e dokunun: 'Dinlemek için bana sorar mısın?' der. Birinin kalbini dinlemeden önce 'Dinleyebilir miyim?' diye izin istemeyi birlikte prova edin; iki tahmin de güzel bir fikir.",
+   "4. sayfada Elif Pofuduk'a da izin sorar. 'Önce, sonra, en son' sözcüklerini birlikte söyleyin; çocuklar kendi kalplerini elleriyle bulsun.",
+   "5. sayfada 'Bu araçla kim çalışır?' diye sorun: ressam, bahçıvan, aşçı (aşçının tahta kaşığı). Raftaki solgun çiçekleri fark eden olursa bir sonraki sayfaya ipucu olarak saklayın.",
+   "6. sayfada Elif cevabı kendisi bulur; seçimini yorum yapmadan dinleyin, sonra çocukların hayallerini sorun."
+  ],
+  "sonra": [
+   "Doktor Aslı'nın çantasında neler vardı? Hangisi ne işe yarıyordu?",
+   "Doktor Aslı bu işi nasıl öğrenmiş? Sen yeni bir şeyi nasıl öğrenirsin?",
+   "Elif büyüyünce ne olmak istiyor? Neden sence? Sen olsan hangi işi yapmak isterdin?"
+  ],
+  "sinif": {
+   "ad": "Meslek sepeti ve hayal kartım",
+   "sure": "25 dk",
+   "materyal": "Oyuncak doktor seti, fırça, sulama kabı, tahta kaşık, kitap gibi güvenli gerçek araçlar; bir sepet; kâğıt ve boya kalemleri",
+   "adim": [
+    "Araçları sepete koyun. Her çocuk bir araç çeksin, dokunarak incelesin ve 'Bu ... işine yarar' desin.",
+    "Sınıfça 'Bu aracı kim kullanır?' sorusunu konuşun; bir aracın birden çok işte kullanılabileceğini keşfedin.",
+    "Her çocuk büyüyünce yapmak istediği işi ve o işin bir aracını çizsin; hayal ettiği yeni bir iş de olabilir (çiçek doktoru gibi).",
+    "Resimler 'Hayal panosu'na asılsın; çocuklar sırayla kendi resmini anlatsın, diğerleri bir soru sorsun."
+   ]
+  },
+  "evSoru": [
+   "Evde hangi araçları kullanıyoruz? Kim, ne için kullanıyor?",
+   "Doktora gittiğinde doktor hangi araçları kullandı?",
+   "Büyüyünce ne olmak istiyorsun? Bunun için neler öğrenmen gerek?"
+  ],
+  "evEtk": {
+   "ad": "Evdeki işler, evdeki araçlar",
+   "d": "Birlikte evde bir tur atın ve bir iş için kullanılan üç araç bulun (kepçe, süpürge, çamaşır mandalı gibi). Keskin aletlere birlikte, dokunmadan bakın. Çocuğunuza her birini kimin, ne için kullandığını sorun. Sonra ailede ya da çevrenizde farklı işler yapan birine çocuğunuzun hazırladığı bir soruyu sorun: 'Bu işi nasıl öğrendin?'"
+  },
+  "aileNotu": "Bugün 'Büyüyünce Ne Olacağım?' masalını okuduk. Meslekler gününde Elif büyüyünce ne olacağını bilmiyordu. Doktor Aslı'nın araçlarını merakla inceledi, oyuncak ayıyı sırayla muayene etti ve sonunda cevabı kendisi buldu: çiçek doktoru! Evde çocuğunuzun hayallerini yorum yapmadan dinlemeniz ve 'Bunun için ne öğrenebiliriz?' diye sormanız merakını besler."
+ },
+ "audio": {
+  "file": "audio/056-buyuyunce-ne-olacagim.mp3",
+  "hash": "2545756c",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14109,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3949,
+      8
+     ],
+     [
+      4509,
+      9
+     ],
+     [
+      4669,
+      10
+     ],
+     [
+      5189,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      6709,
+      13
+     ],
+     [
+      7669,
+      14
+     ],
+     [
+      7910,
+      15
+     ],
+     [
+      8509,
+      16
+     ],
+     [
+      9129,
+      17
+     ],
+     [
+      9350,
+      18
+     ],
+     [
+      10109,
+      19
+     ],
+     [
+      10649,
+      20
+     ],
+     [
+      11069,
+      21
+     ],
+     [
+      11369,
+      22
+     ],
+     [
+      12109,
+      23
+     ],
+     [
+      12609,
+      24
+     ],
+     [
+      13049,
+      25
+     ],
+     [
+      13249,
+      26
+     ],
+     [
+      13649,
+      27
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 14409,
+    "d": 2184,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1512,
+      2
+     ],
+     [
+      1828,
+      3
+     ]
+    ]
+   },
+   "p0h-asli": {
+    "s": 16894,
+    "d": 2520,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2029,
+      4
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 19715,
+    "d": 1725,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      849,
+      2
+     ]
+    ]
+   },
+   "p0h-canta": {
+    "s": 21740,
+    "d": 2431,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24472,
+    "d": 14579,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      3069,
+      6
+     ],
+     [
+      3369,
+      7
+     ],
+     [
+      3509,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      5189,
+      10
+     ],
+     [
+      6249,
+      11
+     ],
+     [
+      6529,
+      12
+     ],
+     [
+      7469,
+      13
+     ],
+     [
+      7789,
+      14
+     ],
+     [
+      8509,
+      15
+     ],
+     [
+      8850,
+      16
+     ],
+     [
+      9409,
+      17
+     ],
+     [
+      9749,
+      18
+     ],
+     [
+      10810,
+      19
+     ],
+     [
+      11230,
+      20
+     ],
+     [
+      11529,
+      21
+     ],
+     [
+      12329,
+      22
+     ],
+     [
+      13310,
+      23
+     ],
+     [
+      13930,
+      24
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 39352,
+    "d": 2403,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p1h-asli": {
+    "s": 42055,
+    "d": 2354,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      1670,
+      2
+     ]
+    ]
+   },
+   "p1h-st": {
+    "s": 44710,
+    "d": 2675,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1229,
+      1
+     ],
+     [
+      1709,
+      2
+     ],
+     [
+      2110,
+      3
+     ]
+    ]
+   },
+   "p1h-tm": {
+    "s": 47685,
+    "d": 3272,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1230,
+      1
+     ],
+     [
+      1901,
+      2
+     ],
+     [
+      2691,
+      3
+     ],
+     [
+      2961,
+      4
+     ]
+    ]
+   },
+   "p1h-yb": {
+    "s": 51258,
+    "d": 2355,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1689,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 53914,
+    "d": 8294,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2189,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3109,
+      7
+     ],
+     [
+      3969,
+      8
+     ],
+     [
+      4310,
+      9
+     ],
+     [
+      4529,
+      10
+     ],
+     [
+      5589,
+      11
+     ],
+     [
+      5969,
+      12
+     ],
+     [
+      6410,
+      13
+     ],
+     [
+      6689,
+      14
+     ],
+     [
+      7569,
+      15
+     ],
+     [
+      7829,
+      16
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 62508,
+    "d": 1607,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      485,
+      1
+     ],
+     [
+      931,
+      2
+     ]
+    ]
+   },
+   "p2h-asli": {
+    "s": 64415,
+    "d": 782,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      329,
+      1
+     ]
+    ]
+   },
+   "p2h-nur": {
+    "s": 65498,
+    "d": 1922,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 67720,
+    "d": 1909,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      417,
+      1
+     ],
+     [
+      794,
+      2
+     ],
+     [
+      1171,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 69930,
+    "d": 725,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 70955,
+    "d": 14791,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      4209,
+      8
+     ],
+     [
+      4749,
+      9
+     ],
+     [
+      4949,
+      10
+     ],
+     [
+      5289,
+      11
+     ],
+     [
+      6109,
+      12
+     ],
+     [
+      6569,
+      13
+     ],
+     [
+      6769,
+      14
+     ],
+     [
+      7609,
+      15
+     ],
+     [
+      7910,
+      16
+     ],
+     [
+      8989,
+      17
+     ],
+     [
+      9390,
+      18
+     ],
+     [
+      9690,
+      19
+     ],
+     [
+      10770,
+      20
+     ],
+     [
+      11109,
+      21
+     ],
+     [
+      11730,
+      22
+     ],
+     [
+      12109,
+      23
+     ],
+     [
+      12909,
+      24
+     ],
+     [
+      13270,
+      25
+     ],
+     [
+      13890,
+      26
+     ],
+     [
+      14089,
+      27
+     ],
+     [
+      14329,
+      28
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 86046,
+    "d": 2252,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      674,
+      1
+     ],
+     [
+      1034,
+      2
+     ],
+     [
+      1852,
+      3
+     ]
+    ]
+   },
+   "p3h-asli": {
+    "s": 88599,
+    "d": 2001,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p3h-pofuduk": {
+    "s": 90901,
+    "d": 3116,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      2150,
+      3
+     ],
+     [
+      2489,
+      4
+     ]
+    ]
+   },
+   "p3h-st": {
+    "s": 94317,
+    "d": 1117,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      558,
+      1
+     ]
+    ]
+   },
+   "p3h-tm": {
+    "s": 95734,
+    "d": 1854,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      339,
+      1
+     ],
+     [
+      993,
+      2
+     ],
+     [
+      1514,
+      3
+     ]
+    ]
+   },
+   "p3h-yb": {
+    "s": 97888,
+    "d": 2274,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      628,
+      1
+     ],
+     [
+      897,
+      2
+     ],
+     [
+      1565,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 100462,
+    "d": 4140,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2809,
+      5
+     ],
+     [
+      3309,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 104903,
+    "d": 14690,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3489,
+      7
+     ],
+     [
+      3910,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      5189,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      5930,
+      12
+     ],
+     [
+      6729,
+      13
+     ],
+     [
+      7109,
+      14
+     ],
+     [
+      7269,
+      15
+     ],
+     [
+      7629,
+      16
+     ],
+     [
+      8049,
+      17
+     ],
+     [
+      8989,
+      18
+     ],
+     [
+      9449,
+      19
+     ],
+     [
+      10230,
+      20
+     ],
+     [
+      10690,
+      21
+     ],
+     [
+      11629,
+      22
+     ],
+     [
+      12089,
+      23
+     ],
+     [
+      13169,
+      24
+     ],
+     [
+      13609,
+      25
+     ],
+     [
+      14169,
+      26
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 119894,
+    "d": 2280,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1670,
+      2
+     ]
+    ]
+   },
+   "p4h-nur": {
+    "s": 122475,
+    "d": 1598,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 124373,
+    "d": 3375,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2689,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 128048,
+    "d": 16002,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2630,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      4370,
+      8
+     ],
+     [
+      4769,
+      9
+     ],
+     [
+      5709,
+      10
+     ],
+     [
+      6850,
+      11
+     ],
+     [
+      7269,
+      12
+     ],
+     [
+      7729,
+      13
+     ],
+     [
+      8310,
+      14
+     ],
+     [
+      9230,
+      15
+     ],
+     [
+      9890,
+      16
+     ],
+     [
+      10249,
+      17
+     ],
+     [
+      11024,
+      18
+     ],
+     [
+      11869,
+      19
+     ],
+     [
+      12009,
+      20
+     ],
+     [
+      12390,
+      21
+     ],
+     [
+      13229,
+      22
+     ],
+     [
+      13669,
+      23
+     ],
+     [
+      14469,
+      24
+     ],
+     [
+      14709,
+      25
+     ],
+     [
+      15049,
+      26
+     ],
+     [
+      15469,
+      27
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 144351,
+    "d": 1929,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p5h-cicek": {
+    "s": 146581,
+    "d": 2334,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      704,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1538,
+      3
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 149215,
+    "d": 1885,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p6": {
+    "s": 151401,
+    "d": 14320,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3809,
+      7
+     ],
+     [
+      4430,
+      8
+     ],
+     [
+      5310,
+      9
+     ],
+     [
+      5949,
+      10
+     ],
+     [
+      6949,
+      11
+     ],
+     [
+      7370,
+      12
+     ],
+     [
+      7649,
+      13
+     ],
+     [
+      8609,
+      14
+     ],
+     [
+      8850,
+      15
+     ],
+     [
+      9529,
+      16
+     ],
+     [
+      10649,
+      17
+     ],
+     [
+      11129,
+      18
+     ],
+     [
+      11270,
+      19
+     ],
+     [
+      12029,
+      20
+     ],
+     [
+      12430,
+      21
+     ],
+     [
+      13249,
+      22
+     ],
+     [
+      13489,
+      23
+     ],
+     [
+      13949,
+      24
+     ]
+    ]
+   },
+   "p6h-elif": {
+    "s": 166021,
+    "d": 3225,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      617,
+      1
+     ],
+     [
+      1587,
+      2
+     ],
+     [
+      2361,
+      3
+     ]
+    ]
+   },
+   "p6m": {
+    "s": 169547,
+    "d": 1387,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      689,
+      3
+     ]
+    ]
+   },
+   "p6ms": {
+    "s": 171235,
+    "d": 1138,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      569,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

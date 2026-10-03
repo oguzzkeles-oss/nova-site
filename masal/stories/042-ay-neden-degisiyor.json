@@ -1,0 +1,2054 @@
+{
+ "id": "042-ay-neden-degisiyor",
+ "n": 42,
+ "title": "Ay Neden Değişiyor?",
+ "age": "60-72",
+ "area": "Fen",
+ "theme": "Ayın evreleri ve gökyüzü gözlemi",
+ "values": [
+  "D12 Sabır"
+ ],
+ "sdb": "SDB1.3 Kendine Uyarlama",
+ "min": 5,
+ "blurb": "Ela bir akşam gökte incecik bir hilal görür ve ayı birinin ısırdığını düşünür. Baykuş Huhu ile iki hafta boyunca her akşam ayı gözleyip defterine çizer; bulutlu bir akşam beklemeyi, sonunda da ayın hep yuvarlak olduğunu kendi çizimlerinden keşfeder.",
+ "codes": {
+  "maarif": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme",
+   "E3.8 Soru Sorma",
+   "SDB1.3 Kendine Uyarlama",
+   "D12 Sabır"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ela": "cocuk-kiz",
+  "huhu": "bilge-hayvan"
+ },
+ "voiceNames": {
+  "ela": "Ela",
+  "huhu": "Huhu (baykuş)"
+ },
+ "pages": [
+  {
+   "text": "Güneş battı, gök lacivert oldu. Ela bahçeye çıktı. Batıda, ağaçların üstünde incecik bir ay vardı, tıpkı bir gülümseme! Daldaki baykuş Huhu kanat çırptı: “Uhu! Buna hilal denir, Ela.”",
+   "scene": {
+    "set": "gece-gokyuzu",
+    "time": "night",
+    "cast": [
+     {
+      "k": "ay",
+      "x": 305,
+      "y": 112,
+      "hit": "ay",
+      "phase": "hilal"
+     },
+     {
+      "k": "ela",
+      "x": 190,
+      "y": 230,
+      "s": 1.25,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.5,
+      "hit": "ela"
+     },
+     {
+      "k": "baykus",
+      "x": 76,
+      "y": 150,
+      "s": 1.0,
+      "pose": "wave",
+      "hit": "huhu"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 66,
+      "y": 206,
+      "s": 1.5,
+      "z": 150
+     },
+     {
+      "k": "tree",
+      "x": 350,
+      "y": 200,
+      "s": 0.9
+     },
+     {
+      "k": "tree",
+      "x": 270,
+      "y": 198,
+      "s": 0.75
+     },
+     {
+      "k": "cit",
+      "x": 200,
+      "y": 212,
+      "w": 400
+     },
+     {
+      "k": "bush",
+      "x": 372,
+      "y": 226,
+      "s": 0.9
+     },
+     {
+      "k": "flower",
+      "x": 120,
+      "y": 234,
+      "s": 0.6
+     }
+    ]
+   },
+   "hits": {
+    "ay": {
+     "say": "İncecik, pırıl pırıl bir hilal.",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "twinkle"
+    },
+    "ela": {
+     "say": "Ay gülümsüyor!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "huhu": {
+     "say": "Uhu! Buna hilal denir.",
+     "voice": "huhu",
+     "anim": "wiggle",
+     "fx": "hoot"
+    }
+   },
+   "hint": [
+    "ay",
+    "Aya dokun!"
+   ],
+   "ask": "Sen hiç böyle ince bir ay gördün mü? Sana neyi hatırlattı?"
+  },
+  {
+   "text": "Ela başını kaşıdı. “Ayın geri kalanı nerede? Biri ısırdı mı?” Huhu güldü: “Hu hu! Kimse ısırmadı. Hadi her akşam aya bakalım, resmini çizelim.” Ela defterini kaptı.",
+   "scene": {
+    "set": "gece-gokyuzu",
+    "time": "night",
+    "cast": [
+     {
+      "k": "ay",
+      "x": 318,
+      "y": 104,
+      "hit": "ay",
+      "phase": "hilal"
+     },
+     {
+      "k": "ela",
+      "x": 210,
+      "y": 228,
+      "s": 1.25,
+      "mood": "think",
+      "pose": "hold",
+      "hold": "kitap",
+      "holdO": {
+       "color": "#3F5FB0"
+      },
+      "turn": 0.3,
+      "hit": "ela"
+     },
+     {
+      "k": "baykus",
+      "x": 76,
+      "y": 150,
+      "s": 1.0,
+      "pose": "stand",
+      "hit": "huhu"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 66,
+      "y": 206,
+      "s": 1.5,
+      "z": 150
+     },
+     {
+      "k": "tree",
+      "x": 360,
+      "y": 200,
+      "s": 0.85
+     },
+     {
+      "k": "qmark",
+      "x": 246,
+      "y": 112
+     },
+     {
+      "k": "bush",
+      "x": 150,
+      "y": 226,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "x": 300,
+      "y": 232,
+      "s": 0.6
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Ayı biri ısırdı mı?",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "huhu": {
+     "say": "Hu hu! Her akşam bakalım!",
+     "voice": "huhu",
+     "anim": "jump",
+     "fx": "hoot"
+    },
+    "ay": {
+     "say": "İnce bir hilal.",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "predict": {
+    "q": "Sence yarın akşam ay nasıl görünecek?",
+    "res": "Güzel tahmin! Hadi her akşam bakıp görelim.",
+    "opts": [
+     {
+      "l": "Biraz daha dolgun olur",
+      "scene": {
+       "set": "gece-gokyuzu",
+       "time": "night",
+       "cast": [
+        {
+         "k": "ay",
+         "x": 300,
+         "y": 100,
+         "phase": "ilkdordun",
+         "mood": "happy"
+        },
+        {
+         "k": "ela",
+         "x": 200,
+         "y": 228,
+         "s": 1.2,
+         "mood": "happy",
+         "pose": "clap"
+        }
+       ],
+       "props": [
+        {
+         "k": "sparkle",
+         "x": 340,
+         "y": 80
+        },
+        {
+         "k": "sparkle",
+         "x": 262,
+         "y": 120
+        }
+       ]
+      }
+     },
+     {
+      "l": "Kaybolur",
+      "scene": {
+       "set": "gece-gokyuzu",
+       "time": "night",
+       "cast": [
+        {
+         "k": "ela",
+         "x": 200,
+         "y": 228,
+         "s": 1.2,
+         "mood": "surprised",
+         "pose": "open"
+        }
+       ],
+       "props": [
+        {
+         "k": "qmark",
+         "x": 200,
+         "y": 70
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Sence ayın geri kalanı nereye gitmiş olabilir?"
+  },
+  {
+   "text": "Ela her akşam pencereden aya baktı, defterine çizdi. Bir, iki, üç, dört, beş akşam geçti. Ay her akşam biraz daha dolgun görünüyordu! “Ay büyüyor,” dedi Ela, “ama çok yavaş!”",
+   "scene": {
+    "set": "oda-gece",
+    "moon": false,
+    "owl": true,
+    "owlHit": "huhu",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 150,
+      "y": 228,
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "sit",
+      "turn": 0.3,
+      "hit": "ela"
+     },
+     {
+      "k": "ay",
+      "x": 240,
+      "y": 104,
+      "s": 0.4,
+      "phase": "hilal",
+      "mood": "happy"
+     },
+     {
+      "k": "ay",
+      "x": 272,
+      "y": 104,
+      "s": 0.4,
+      "phase": "hilal",
+      "mood": "happy"
+     },
+     {
+      "k": "ay",
+      "x": 304,
+      "y": 104,
+      "s": 0.4,
+      "phase": "ilkdordun",
+      "mood": "happy"
+     },
+     {
+      "k": "ay",
+      "x": 336,
+      "y": 104,
+      "s": 0.4,
+      "phase": "ilkdordun",
+      "mood": "happy"
+     },
+     {
+      "k": "ay",
+      "x": 368,
+      "y": 104,
+      "s": 0.4,
+      "phase": "siskin",
+      "mood": "happy"
+     }
+    ],
+    "props": [
+     {
+      "k": "sayi",
+      "n": 1,
+      "x": 240,
+      "y": 150,
+      "s": 0.75,
+      "hit": "g1"
+     },
+     {
+      "k": "sayi",
+      "n": 2,
+      "x": 272,
+      "y": 150,
+      "s": 0.75,
+      "hit": "g2"
+     },
+     {
+      "k": "sayi",
+      "n": 3,
+      "x": 304,
+      "y": 150,
+      "s": 0.75,
+      "hit": "g3"
+     },
+     {
+      "k": "sayi",
+      "n": 4,
+      "x": 336,
+      "y": 150,
+      "s": 0.75,
+      "hit": "g4"
+     },
+     {
+      "k": "sayi",
+      "n": 5,
+      "x": 368,
+      "y": 150,
+      "s": 0.75,
+      "hit": "g5"
+     },
+     {
+      "k": "kitap",
+      "open": true,
+      "color": "#3F5FB0",
+      "x": 92,
+      "y": 236,
+      "s": 1.1
+     },
+     {
+      "k": "boya-kalemi",
+      "x": 200,
+      "y": 236,
+      "s": 0.75
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Ay büyüyor ama çok yavaş!",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "huhu": {
+     "say": "Sabır, Ela. Her akşam biraz.",
+     "voice": "huhu",
+     "anim": "wiggle",
+     "fx": "hoot"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "g1",
+     "g2",
+     "g3",
+     "g4",
+     "g5"
+    ],
+    "done": "Beş akşam! Ay her akşam daha dolgun göründü.",
+    "msg": "Beş akşamı saydın!"
+   },
+   "hint": [
+    "g1",
+    "Akşamları say!"
+   ],
+   "ask": "Ela gördüklerini neden çiziyor? Sen her gün neyi gözlemek isterdin?"
+  },
+  {
+   "text": "Bir akşam gökyüzü bulutla doldu. Ay görünmüyordu! Ela üzüldü, omuzları düştü. “Ay kayboldu mu?” Huhu yumuşacık bir sesle konuştu: “Derin bir nefes al. Bekleyelim.” Vuuu! Rüzgâr esti, bulutları itti. Bak bakalım, bulutun arkasında ne var?",
+   "scene": {
+    "set": "gece-gokyuzu",
+    "time": "night",
+    "cast": [
+     {
+      "k": "ay",
+      "x": 184,
+      "y": 88,
+      "hit": "ay",
+      "phase": "siskin"
+     },
+     {
+      "k": "ela",
+      "x": 200,
+      "y": 230,
+      "s": 1.2,
+      "mood": "sad",
+      "pose": "stand",
+      "turn": 0.2,
+      "hit": "ela"
+     },
+     {
+      "k": "baykus",
+      "x": 350,
+      "y": 150,
+      "s": 1.0,
+      "pose": "stand",
+      "flip": true,
+      "hit": "huhu"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 340,
+      "y": 206,
+      "s": 1.5,
+      "z": 150
+     },
+     {
+      "k": "cloud",
+      "x": 232,
+      "y": 92,
+      "s": 1.4,
+      "z": 200
+     },
+     {
+      "k": "cloud",
+      "x": 330,
+      "y": 48,
+      "s": 1.1,
+      "z": 200
+     },
+     {
+      "k": "cloud",
+      "x": 64,
+      "y": 58,
+      "s": 1.1,
+      "z": 200
+     },
+     {
+      "k": "bush",
+      "x": 60,
+      "y": 226,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Nefes alayım, bekleyeyim.",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "blow"
+    },
+    "huhu": {
+     "say": "Derin bir nefes. Bekleyelim.",
+     "voice": "huhu",
+     "anim": "wiggle",
+     "fx": "hoot"
+    },
+    "ay": {
+     "say": "Ce-ee! Buradayım.",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "ay"
+    ],
+    "done": "İşte ay! Bulutun arkasındaymış.",
+    "msg": "Ayı buldun!"
+   },
+   "hint": [
+    "ay",
+    "Bulutun arkasına bak!"
+   ],
+   "ask": "Ela üzülünce ne yaptı? Sen beklemek zor gelince ne yaparsın?",
+   "cues": [
+    {
+     "w": 24,
+     "fx": "ruzgar"
+    }
+   ]
+  },
+  {
+   "text": "Neredeyse iki hafta boyunca Ela aya baktı. Sonra bir akşam, doğudaki ağaçların üstünde kocaman, yuvarlak bir ay yükseldi. “Dolunay!” diye bağırdı Ela. Zıp zıp zıpladı. Huhu kanatlarını açtı: “Uhu! Beklemeye değdi, değil mi?”",
+   "scene": {
+    "set": "gece-gokyuzu",
+    "time": "night",
+    "cast": [
+     {
+      "k": "ay",
+      "x": 318,
+      "y": 96,
+      "phase": "dolunay",
+      "mood": "happy",
+      "s": 1.3,
+      "hit": "dolunay"
+     },
+     {
+      "k": "ela",
+      "x": 240,
+      "y": 230,
+      "s": 1.25,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "ela"
+     },
+     {
+      "k": "baykus",
+      "x": 78,
+      "y": 150,
+      "s": 1.1,
+      "pose": "wave",
+      "hit": "huhu"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 66,
+      "y": 206,
+      "s": 1.5,
+      "z": 150
+     },
+     {
+      "k": "tree",
+      "x": 330,
+      "y": 200,
+      "s": 0.8
+     },
+     {
+      "k": "tree",
+      "x": 380,
+      "y": 198,
+      "s": 0.7
+     },
+     {
+      "k": "sparkle",
+      "x": 270,
+      "y": 64
+     },
+     {
+      "k": "sparkle",
+      "x": 366,
+      "y": 80
+     },
+     {
+      "k": "cit",
+      "x": 200,
+      "y": 212,
+      "w": 400
+     },
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 234,
+      "s": 0.6
+     }
+    ]
+   },
+   "hits": {
+    "dolunay": {
+     "say": "Kocaman, yuvarlak, pırıl pırıl!",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "twinkle"
+    },
+    "ela": {
+     "say": "Dolunay! Dolunay!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "huhu": {
+     "say": "Uhu! Beklemeye değdi!",
+     "voice": "huhu",
+     "anim": "wiggle",
+     "fx": "hoot"
+    }
+   },
+   "hint": [
+    "dolunay",
+    "Dolunaya dokun!"
+   ],
+   "ask": "Ay ince bir hilalden dolunaya nasıl değişti? Sen hiç bir şey için uzun süre bekledin mi?"
+  },
+  {
+   "text": "Ela defterini açtı. İnce ay, dolgun ay, dolunay! “Ay hiç kaybolmamış,” dedi Ela. “Hep oradaymış! Kimse ısırmamış!” Huhu güldü: “Uhu! Ay top gibi yuvarlaktır. Güneş onu aydınlatır. Biz aydınlık yüzünün bazen birazını, bazen hepsini görürüz.”",
+   "scene": {
+    "set": "oda-gece",
+    "moon": false,
+    "owl": true,
+    "owlHit": "huhu",
+    "warm": true,
+    "cast": [
+     {
+      "k": "ela",
+      "x": 300,
+      "y": 228,
+      "s": 1.25,
+      "mood": "happy",
+      "pose": "point",
+      "turn": -0.4,
+      "hit": "ela"
+     },
+     {
+      "k": "ay",
+      "x": 136,
+      "y": 62,
+      "s": 0.75,
+      "phase": "dolunay",
+      "mood": "happy"
+     }
+    ],
+    "props": [
+     {
+      "k": "el-feneri",
+      "state": "on",
+      "x": 120,
+      "y": 221,
+      "s": 1.3,
+      "len": 60
+     },
+     {
+      "k": "kitap",
+      "open": true,
+      "color": "#3F5FB0",
+      "x": 340,
+      "y": 236,
+      "s": 1.1
+     },
+     {
+      "k": "top",
+      "color": "#F4F1E6",
+      "x": 212,
+      "y": 232,
+      "s": 1.3,
+      "hit": "top"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Kimse ısırmamış! Yarın yine bakacağım!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "huhu": {
+     "say": "Ay hep yuvarlaktır, Ela.",
+     "voice": "huhu",
+     "anim": "wiggle",
+     "fx": "hoot"
+    },
+    "top": {
+     "say": "Işık topun bir yüzünü aydınlatıyor.",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "top",
+    "Topa dokun!"
+   ],
+   "ask": "Bu akşam pencereden baksan ayı nasıl görürsün? Birlikte bakalım mı?"
+  }
+ ],
+ "order": [
+  0,
+  2,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme: Ay'ı iki hafta boyunca her akşam gözler, gördüğünü deftere çizer; çizimlerine bakarak ayın hilalden dolunaya düzenli biçimde farklı göründüğünü fark eder.",
+   "E3.8 Soru Sorma: “Ayın geri kalanı nerede?” gibi merak sorularını sorar ve yanıtı gözlemle arar.",
+   "SDB1.3 Kendine Uyarlama ve D12 Sabır: Bulutlu akşamda planı değişince “Bugün göremedik, yarın yine bakarız” diyerek duruma uyum sağlar. Bu sırada üzüntüsünü fark edip nefes alarak sakinleşir (SDB1.2 Kendini Düzenleme ile de ilişkilidir)."
+  ],
+  "once": [
+   "Kapağı gösterip sorun: “Ay hep aynı mı görünür? Sen ayı hangi şekillerde gördün?”",
+   "Çocuklardan havada parmaklarıyla bir hilal ve bir dolunay çizmelerini isteyin."
+  ],
+  "sirasi": [
+   "2. sayfada tahmin sorusunda durun; çocukların tahminlerini tahtaya/kâğıda not edin, masal sonunda tahminlerinizi karşılaştırın.",
+   "3. sayfada kartlara dokunarak akşamları birlikte sayın; “Ela her akşam ne gördü?” diye sorun. Ela “Ay büyüyor” diyor: “Sence ay gerçekten büyüyor mu?” diye sorup yanıtı son sayfaya bırakın.",
+   "4. sayfada Ela ile birlikte derin bir nefes alın: burundan çek, ağızdan yavaşça bırak. Sonra bulutun arkasındaki ayı birlikte arayın.",
+   "Son sayfada bir topa yandan ışık tutarak Ela'nın keşfini gösterin: top hep yuvarlaktır, ışığın aydınlattığı yüzü baktığımız yere göre az ya da çok görünür."
+  ],
+  "sonra": [
+   "“Ela'nın defterinde hangi aylar vardı? Önce hangisi, sonra hangisi?” diye sıralatın.",
+   "“Bulutlar ayı kapatınca Ela ne hissetti, ne yaptı?” sorusuyla beklerken kullanılabilecek yolları konuşun.",
+   "Masal sonu sıralama oyununda hilal → büyüyen ay → dolunay sırasını birlikte kurun."
+  ],
+  "sinif": {
+   "ad": "Sınıfın Ay Defteri",
+   "sure": "15 dk (ve iki hafta boyunca günde 2 dk)",
+   "materyal": "Beyaz top ya da portakal, el feneri, karartılabilen oda, büyük kâğıt, sarı ve lacivert pastel boya",
+   "adim": [
+    "Odayı karartın. Işığı (Güneş) sabit bir masaya koyun, çocukların gözüne tutmayın. Bir çocuk ortada otursun (Dünya'daki gözlemci). Öğretmen topu (Ay) gözlemcinin çevresinde yavaşça gezdirsin. Çocuklar sırayla ortaya geçip baksın.",
+    "Ortadaki çocuk topun aydınlık yüzünün kimi zaman ince, kimi zaman yarım, kimi zaman tam göründüğünü söylesin.",
+    "Büyük kâğıda on dört kutucuk çizin. Aileler ayı akşam gözleyip çocuğun anlattığını çizsin; sınıfta her sabah kutuya birlikte işleyin. Bulutlu akşamların kutusuna bulut çizin.",
+    "İki hafta sonunda çizimlere bakıp “Ay nasıl değişti?” diye konuşun; ilk gün yapılan tahminlerle karşılaştırın."
+   ]
+  },
+  "evSoru": [
+   "Ela ayı ilk gördüğünde ne sandı?",
+   "Bulutlar ayı kapatınca Ela neler hissetti? Sen beklerken neler yaparsın?",
+   "Ay gerçekten küçülüp büyüyor mu, yoksa biz mi farklı görüyoruz?"
+  ],
+  "evEtk": {
+   "ad": "Akşam Ay Gözlemi",
+   "d": "Ay yeni bir hilal olarak göründüğünde (takvimden bakabilirsiniz) güneş battıktan sonra batıya bakın. İki hafta boyunca her akşam birkaç dakika pencereden ayı birlikte gözleyin ve çocuğunuzun çizdiği ayı bir deftere yapıştırın. Bulutlu akşamlarda “Bugün göremedik, yarın yine bakarız.” diyerek beklemeyi birlikte deneyimleyin."
+  },
+  "aileNotu": "Bugün “Ay Neden Değişiyor?” masalını okuduk. Ela, ayın incecik bir hilalden dolunaya doğru her akşam biraz daha dolgun göründüğünü iki hafta boyunca gözleyip çizerek keşfetti; bulutlu bir akşam da nefes alıp beklemeyi denedi. Evde akşamları birlikte pencereden aya bakmanız ve çocuğunuzun gördüğünü çizmesi, gözlem yapma ve sabretme becerilerini destekler. Ay hep yuvarlaktır; Güneş'in aydınlattığı yüzünün bazen birazını, bazen hepsini görürüz."
+ },
+ "audio": {
+  "file": "audio/042-ay-neden-degisiyor.mp3",
+  "hash": "cddca0a5",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15487,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      3009,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4689,
+      8
+     ],
+     [
+      5330,
+      9
+     ],
+     [
+      5930,
+      10
+     ],
+     [
+      6529,
+      11
+     ],
+     [
+      7069,
+      12
+     ],
+     [
+      7249,
+      13
+     ],
+     [
+      7469,
+      14
+     ],
+     [
+      8209,
+      15
+     ],
+     [
+      8589,
+      16
+     ],
+     [
+      8789,
+      17
+     ],
+     [
+      9909,
+      18
+     ],
+     [
+      10390,
+      19
+     ],
+     [
+      11069,
+      20
+     ],
+     [
+      11829,
+      21
+     ],
+     [
+      12209,
+      22
+     ],
+     [
+      13029,
+      23
+     ],
+     [
+      13989,
+      24
+     ],
+     [
+      14289,
+      25
+     ],
+     [
+      14669,
+      26
+     ],
+     [
+      15049,
+      27
+     ]
+    ]
+   },
+   "p0h-ay": {
+    "s": 15787,
+    "d": 2472,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2049,
+      4
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 18560,
+    "d": 1535,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      384,
+      1
+     ]
+    ]
+   },
+   "p0h-huhu": {
+    "s": 20396,
+    "d": 2107,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      767,
+      1
+     ],
+     [
+      1200,
+      2
+     ],
+     [
+      1633,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 22803,
+    "d": 12430,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      3549,
+      8
+     ],
+     [
+      3989,
+      9
+     ],
+     [
+      4549,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5769,
+      12
+     ],
+     [
+      5949,
+      13
+     ],
+     [
+      6609,
+      14
+     ],
+     [
+      7049,
+      15
+     ],
+     [
+      8029,
+      16
+     ],
+     [
+      8509,
+      17
+     ],
+     [
+      8690,
+      18
+     ],
+     [
+      9049,
+      19
+     ],
+     [
+      9249,
+      20
+     ],
+     [
+      9850,
+      21
+     ],
+     [
+      10270,
+      22
+     ],
+     [
+      11049,
+      23
+     ],
+     [
+      11390,
+      24
+     ],
+     [
+      11949,
+      25
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 35533,
+    "d": 1760,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1469,
+      3
+     ]
+    ]
+   },
+   "p1h-huhu": {
+    "s": 37594,
+    "d": 2071,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1509,
+      4
+     ]
+    ]
+   },
+   "p1h-ay": {
+    "s": 39966,
+    "d": 1247,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      493,
+      1
+     ],
+     [
+      753,
+      2
+     ]
+    ]
+   },
+   "p1q": {
+    "s": 41514,
+    "d": 2720,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2009,
+      5
+     ]
+    ]
+   },
+   "p1r": {
+    "s": 44535,
+    "d": 3063,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2589,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 47899,
+    "d": 15368,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      4269,
+      8
+     ],
+     [
+      4989,
+      9
+     ],
+     [
+      5749,
+      10
+     ],
+     [
+      6410,
+      11
+     ],
+     [
+      7149,
+      12
+     ],
+     [
+      7430,
+      13
+     ],
+     [
+      7849,
+      14
+     ],
+     [
+      8869,
+      15
+     ],
+     [
+      9129,
+      16
+     ],
+     [
+      9369,
+      17
+     ],
+     [
+      9770,
+      18
+     ],
+     [
+      10129,
+      19
+     ],
+     [
+      10350,
+      20
+     ],
+     [
+      10770,
+      21
+     ],
+     [
+      11969,
+      22
+     ],
+     [
+      12209,
+      23
+     ],
+     [
+      13109,
+      24
+     ],
+     [
+      13409,
+      25
+     ],
+     [
+      14149,
+      26
+     ],
+     [
+      14409,
+      27
+     ],
+     [
+      14729,
+      28
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 63567,
+    "d": 2971,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      403,
+      1
+     ],
+     [
+      1303,
+      2
+     ],
+     [
+      1935,
+      3
+     ],
+     [
+      2299,
+      4
+     ]
+    ]
+   },
+   "p2h-huhu": {
+    "s": 66839,
+    "d": 2429,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1930,
+      4
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 69568,
+    "d": 3598,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      2989,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 73467,
+    "d": 19341,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      4009,
+      7
+     ],
+     [
+      4410,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      5769,
+      10
+     ],
+     [
+      6609,
+      11
+     ],
+     [
+      7089,
+      12
+     ],
+     [
+      7729,
+      13
+     ],
+     [
+      8350,
+      14
+     ],
+     [
+      8869,
+      15
+     ],
+     [
+      9489,
+      16
+     ],
+     [
+      9629,
+      17
+     ],
+     [
+      10009,
+      18
+     ],
+     [
+      10930,
+      19
+     ],
+     [
+      11350,
+      20
+     ],
+     [
+      11469,
+      21
+     ],
+     [
+      11890,
+      22
+     ],
+     [
+      12390,
+      23
+     ],
+     [
+      13430,
+      24
+     ],
+     [
+      14449,
+      25
+     ],
+     [
+      14909,
+      26
+     ],
+     [
+      15569,
+      27
+     ],
+     [
+      16169,
+      28
+     ],
+     [
+      16969,
+      29
+     ],
+     [
+      17169,
+      30
+     ],
+     [
+      17829,
+      31
+     ],
+     [
+      18249,
+      32
+     ],
+     [
+      18789,
+      33
+     ],
+     [
+      18950,
+      34
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 93109,
+    "d": 1925,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      439,
+      1
+     ],
+     [
+      1145,
+      2
+     ]
+    ]
+   },
+   "p3h-huhu": {
+    "s": 95335,
+    "d": 2280,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      470,
+      1
+     ],
+     [
+      718,
+      2
+     ],
+     [
+      1442,
+      3
+     ]
+    ]
+   },
+   "p3h-ay": {
+    "s": 97915,
+    "d": 1771,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      940,
+      1
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 99987,
+    "d": 2832,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1689,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 103119,
+    "d": 17697,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      3589,
+      7
+     ],
+     [
+      3910,
+      8
+     ],
+     [
+      4089,
+      9
+     ],
+     [
+      4789,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5910,
+      12
+     ],
+     [
+      6469,
+      13
+     ],
+     [
+      7189,
+      14
+     ],
+     [
+      7789,
+      15
+     ],
+     [
+      8069,
+      16
+     ],
+     [
+      8289,
+      17
+     ],
+     [
+      9289,
+      18
+     ],
+     [
+      10169,
+      19
+     ],
+     [
+      10449,
+      20
+     ],
+     [
+      10930,
+      21
+     ],
+     [
+      11629,
+      22
+     ],
+     [
+      11969,
+      23
+     ],
+     [
+      12249,
+      24
+     ],
+     [
+      13029,
+      25
+     ],
+     [
+      13749,
+      26
+     ],
+     [
+      14449,
+      27
+     ],
+     [
+      15229,
+      28
+     ],
+     [
+      16229,
+      29
+     ],
+     [
+      16789,
+      30
+     ],
+     [
+      17169,
+      31
+     ],
+     [
+      17409,
+      32
+     ]
+    ]
+   },
+   "p4h-dolunay": {
+    "s": 121117,
+    "d": 2713,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1790,
+      2
+     ],
+     [
+      2269,
+      3
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 124130,
+    "d": 1957,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1159,
+      1
+     ]
+    ]
+   },
+   "p4h-huhu": {
+    "s": 126387,
+    "d": 2205,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1589,
+      2
+     ]
+    ]
+   },
+   "p5": {
+    "s": 128893,
+    "d": 20365,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3349,
+      6
+     ],
+     [
+      3849,
+      7
+     ],
+     [
+      5009,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      5430,
+      10
+     ],
+     [
+      6569,
+      11
+     ],
+     [
+      6850,
+      12
+     ],
+     [
+      7489,
+      13
+     ],
+     [
+      7709,
+      14
+     ],
+     [
+      8650,
+      15
+     ],
+     [
+      9089,
+      16
+     ],
+     [
+      9924,
+      17
+     ],
+     [
+      10829,
+      18
+     ],
+     [
+      11669,
+      19
+     ],
+     [
+      12569,
+      20
+     ],
+     [
+      12829,
+      21
+     ],
+     [
+      13109,
+      22
+     ],
+     [
+      13350,
+      23
+     ],
+     [
+      14409,
+      24
+     ],
+     [
+      14850,
+      25
+     ],
+     [
+      15109,
+      26
+     ],
+     [
+      16169,
+      27
+     ],
+     [
+      16469,
+      28
+     ],
+     [
+      16950,
+      29
+     ],
+     [
+      17509,
+      30
+     ],
+     [
+      17969,
+      31
+     ],
+     [
+      18809,
+      32
+     ],
+     [
+      19289,
+      33
+     ],
+     [
+      19749,
+      34
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 149559,
+    "d": 3017,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      437,
+      1
+     ],
+     [
+      1445,
+      2
+     ],
+     [
+      1842,
+      3
+     ],
+     [
+      2240,
+      4
+     ]
+    ]
+   },
+   "p5h-huhu": {
+    "s": 152876,
+    "d": 1990,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      292,
+      1
+     ],
+     [
+      545,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p5h-top": {
+    "s": 155167,
+    "d": 2406,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1744 @@
+{
+ "id": "022-mo-mee-vak-ciftlik-sabahi",
+ "n": 22,
+ "title": "Mö, Mee, Vak: Çiftlik Sabahı",
+ "age": "36-48",
+ "area": "Müzik",
+ "theme": "Hayvan sesleri ve sırayla söylemek",
+ "values": [
+  "D5 Duyarlılık"
+ ],
+ "sdb": "SDB2.1 İletişim",
+ "min": 4,
+ "blurb": "Çiftlikte her sabah bir şarkı söylenir: “Mö, mee, vak, cik!” Ama bugün herkes öyle yüksek söyler ki kuzu Pamuk'un küçük sesi kaybolur.",
+ "codes": {
+  "maarif": [
+   "TAKB.1 Konuşma sürecini yönetebilme: söz sırasını bekler",
+   "MDB.1 Çeşitli müzik eserlerini dinleyebilme",
+   "TADB.1 Dinleyecekleri/izleyecekleri materyalleri yönetebilme",
+   "SDB2.1 İletişim",
+   "D5 Duyarlılık",
+   "E1.1 Merak"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "pamuk": "hayvan-kiz",
+  "benek": "anne",
+  "paytak": "hayvan-erkek",
+  "limon": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "pamuk": "Pamuk (kuzu)",
+  "benek": "Benek (inek)",
+  "paytak": "Paytak (ördek)",
+  "limon": "Limon (civciv)"
+ },
+ "pages": [
+  {
+   "text": "Güneş tepelerin ardından doğdu. Kuzu Pamuk hop hop zıpladı. Sabah şarkısı başladı: “Mö, mee, vak, cik! Günaydın, çiftlik!”",
+   "scene": {
+    "set": "ciftlik",
+    "time": "day",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 330,
+      "y": 58
+     },
+     {
+      "k": "inek",
+      "x": 74,
+      "y": 196,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "benek"
+     },
+     {
+      "k": "civciv",
+      "x": 250,
+      "y": 226,
+      "s": 1.4,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "limon",
+      "flip": true
+     },
+     {
+      "k": "ordek",
+      "x": 350,
+      "y": 212,
+      "s": 0.7,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "paytak",
+      "flip": true
+     },
+     {
+      "k": "kuzu",
+      "x": 165,
+      "y": 228,
+      "s": 1.25,
+      "mood": "happy",
+      "pose": "jump",
+      "hit": "pamuk"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 120,
+      "y": 234,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 290,
+      "y": 232,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Mee! Günaydın!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "baa"
+    },
+    "benek": {
+     "say": "Mööö! Ben Benek. Günaydın!",
+     "voice": "benek",
+     "anim": "boing",
+     "fx": "moo"
+    },
+    "paytak": {
+     "say": "Vak vak! Ben Paytak!",
+     "voice": "paytak",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "limon": {
+     "say": "Cik cik! Ben Limon!",
+     "voice": "limon",
+     "anim": "jump",
+     "fx": "peep"
+    }
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'a dokun!"
+   ],
+   "ask": "İnek nasıl ses çıkarır? Kuzu nasıl? Birlikte yapalım mı?"
+  },
+  {
+   "text": "Bugün herkes çok neşeliydi. Bangır bangır söylediler: “Mööö! Vak vak! Cik cik!” Pamuk da “mee” dedi. Ama sesi duyulmadı.",
+   "scene": {
+    "set": "ciftlik",
+    "cast": [
+     {
+      "k": "inek",
+      "x": 250,
+      "y": 230,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "benek",
+      "flip": true
+     },
+     {
+      "k": "ordek",
+      "x": 352,
+      "y": 226,
+      "s": 1.3,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "paytak",
+      "flip": true
+     },
+     {
+      "k": "civciv",
+      "x": 170,
+      "y": 234,
+      "s": 1.5,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "limon",
+      "flip": true
+     },
+     {
+      "k": "kuzu",
+      "x": 110,
+      "y": 212,
+      "s": 1.0,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "pamuk"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 60,
+      "y": 232,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 234,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "benek": {
+     "say": "Mööööö!",
+     "voice": "benek",
+     "anim": "boing",
+     "fx": "moo",
+     "spark": true
+    },
+    "paytak": {
+     "say": "Vak vak vak!",
+     "voice": "paytak",
+     "anim": "wiggle",
+     "fx": "quack",
+     "spark": true
+    },
+    "limon": {
+     "say": "Cik cik cik!",
+     "voice": "limon",
+     "anim": "jump",
+     "fx": "peep",
+     "spark": true
+    },
+    "pamuk": {
+     "say": "Mee... Beni duyan var mı?",
+     "voice": "pamuk",
+     "anim": "wiggle",
+     "fx": "baa"
+    }
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'u dinle!"
+   ],
+   "ask": "Pamuk'un sesi neden duyulmadı sence? Önce bağırarak, sonra fısıldayarak “mee” deyin. Hangisi daha kolay duyuldu?"
+  },
+  {
+   "text": "Pamuk çok üzüldü. Gözleri doldu. Civciv Limon sordu: “Neden üzgünsün?” Pamuk iç çekti. “Sesim çok küçük. Başka bir ses denesem?”",
+   "scene": {
+    "set": "ciftlik",
+    "cast": [
+     {
+      "k": "inek",
+      "x": 72,
+      "y": 193,
+      "s": 0.8,
+      "mood": "calm",
+      "pose": "eat",
+      "flip": false
+     },
+     {
+      "k": "kuzu",
+      "x": 196,
+      "y": 228,
+      "s": 1.45,
+      "mood": "sad",
+      "pose": "sit",
+      "hit": "pamuk"
+     },
+     {
+      "k": "civciv",
+      "x": 272,
+      "y": 230,
+      "s": 1.5,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "limon",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 110,
+      "y": 232,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 320,
+      "y": 234,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Benim sesim çok küçük.",
+     "voice": "pamuk",
+     "anim": "wiggle",
+     "fx": "baa"
+    },
+    "limon": {
+     "say": "Üzülme Pamuk. Ben buradayım.",
+     "voice": "limon",
+     "anim": "jump",
+     "fx": "peep"
+    }
+   },
+   "predict": {
+    "q": "Sence Pamuk hangi sesi dener?",
+    "res": "İkisi de olabilir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Mööö!",
+      "scene": {
+       "set": "ciftlik",
+       "cast": [
+        {
+         "k": "inek",
+         "x": 270,
+         "y": 214,
+         "s": 1.0,
+         "mood": "surprised",
+         "pose": "stand",
+         "flip": true
+        },
+        {
+         "k": "kuzu",
+         "x": 150,
+         "y": 228,
+         "s": 1.3,
+         "mood": "laugh",
+         "pose": "stand"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Vak vak!",
+      "scene": {
+       "set": "ciftlik",
+       "cast": [
+        {
+         "k": "ordek",
+         "x": 262,
+         "y": 228,
+         "s": 1.4,
+         "mood": "surprised",
+         "pose": "stand",
+         "flip": true
+        },
+        {
+         "k": "kuzu",
+         "x": 150,
+         "y": 228,
+         "s": 1.3,
+         "mood": "laugh",
+         "pose": "wave"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'a dokun!"
+   ],
+   "ask": "Pamuk'un yerinde olsan ne hissederdin?"
+  },
+  {
+   "text": "Pamuk denedi: “Cik cik! Mööö! Vak vak!” Herkes kıkır kıkır güldü. Pamuk da! Ama bu sesler kimin?",
+   "scene": {
+    "set": "ciftlik",
+    "cast": [
+     {
+      "k": "inek",
+      "x": 100,
+      "y": 216,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "benek"
+     },
+     {
+      "k": "kuzu",
+      "x": 268,
+      "y": 210,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "pamuk"
+     },
+     {
+      "k": "ordek",
+      "x": 205,
+      "y": 230,
+      "s": 1.3,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "paytak",
+      "flip": true
+     },
+     {
+      "k": "civciv",
+      "x": 340,
+      "y": 232,
+      "s": 1.6,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "limon",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 234,
+      "s": 0.3
+     },
+     {
+      "k": "flower",
+      "x": 240,
+      "y": 235,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Mööö! Vak! Hi hi hi!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "baa"
+    },
+    "benek": {
+     "say": "Mööö! Bu benim sesim!",
+     "voice": "benek",
+     "anim": "boing",
+     "fx": "moo"
+    },
+    "paytak": {
+     "say": "Vak vak! Benim!",
+     "voice": "paytak",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "limon": {
+     "say": "Cik cik! Benim!",
+     "voice": "limon",
+     "anim": "jump",
+     "fx": "peep"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "limon",
+     "benek",
+     "paytak"
+    ],
+    "done": "Cik civcivin, mö ineğin, vak ördeğin!",
+    "msg": "Hepsini sesinden tanıdın!"
+   },
+   "hint": [
+    "limon",
+    "Cik cik kimin? Dokun!"
+   ],
+   "ask": "“Mööö” kimin sesi? “Cik cik” kimin? Sen hangisini yapabilirsin?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Peki “mee” kimin? Pamuk'un! Aklına bir fikir geldi. “Sırayla söyleyelim mi?” Herkes sustu. Pamuk kütüğe çıktı. Derin nefes aldı: “Meee!” Herkes duydu!",
+   "scene": {
+    "set": "ciftlik",
+    "cast": [
+     {
+      "k": "inek",
+      "x": 92,
+      "y": 222,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "benek"
+     },
+     {
+      "k": "kuzu",
+      "x": 200,
+      "y": 190,
+      "s": 1.15,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "pamuk",
+      "z": 230
+     },
+     {
+      "k": "ordek",
+      "x": 296,
+      "y": 228,
+      "s": 1.15,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "paytak",
+      "flip": true
+     },
+     {
+      "k": "civciv",
+      "x": 350,
+      "y": 232,
+      "s": 1.4,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "limon",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "kutuk",
+      "x": 200,
+      "y": 226,
+      "s": 1.45
+     },
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 234,
+      "s": 0.3
+     },
+     {
+      "k": "flower",
+      "x": 250,
+      "y": 235,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Meee! Günaydın çiftlik!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "baa",
+     "spark": true
+    },
+    "benek": {
+     "say": "Şşşt! Sıra Pamuk'ta.",
+     "voice": "benek",
+     "anim": "boing",
+     "fx": "moo"
+    },
+    "paytak": {
+     "say": "Duydum, duydum!",
+     "voice": "paytak",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "limon": {
+     "say": "Ne güzel bir ses!",
+     "voice": "limon",
+     "anim": "jump",
+     "fx": "peep"
+    }
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'a dokun, dinle!"
+   ],
+   "ask": "Pamuk'un fikri neydi? Herkes susunca ne oldu?"
+  },
+  {
+   "text": "Şimdi sırayla söylediler: “Mö, mee, vak, cik! Günaydın, çiftlik!” Pamuk kıpır kıpır sevindi. Limon cik cik güldü: “En küçük ses de duyuldu!”",
+   "scene": {
+    "set": "ciftlik",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 250,
+      "y": 42,
+      "hit": "gunes"
+     },
+     {
+      "k": "civciv",
+      "x": 88,
+      "y": 228,
+      "s": 1.5,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "limon"
+     },
+     {
+      "k": "kuzu",
+      "x": 164,
+      "y": 231,
+      "s": 1.3,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "pamuk"
+     },
+     {
+      "k": "inek",
+      "x": 288,
+      "y": 206,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "benek",
+      "flip": true
+     },
+     {
+      "k": "ordek",
+      "x": 360,
+      "y": 216,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "swim",
+      "hit": "paytak",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 235,
+      "s": 0.3
+     },
+     {
+      "k": "flower",
+      "x": 240,
+      "y": 234,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "gunes": {
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "benek": {
+     "say": "Mö!",
+     "voice": "benek",
+     "anim": "boing",
+     "fx": "moo"
+    },
+    "pamuk": {
+     "say": "Mee!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "baa",
+     "spark": true
+    },
+    "paytak": {
+     "say": "Vak!",
+     "voice": "paytak",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "limon": {
+     "say": "Cik!",
+     "voice": "limon",
+     "anim": "jump",
+     "fx": "peep"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "benek",
+     "pamuk",
+     "paytak",
+     "limon"
+    ],
+    "done": "Mö, mee, vak, cik! Günaydın çiftlik!",
+    "msg": "Sırayla söylettin!"
+   },
+   "hint": [
+    "benek",
+    "Sırayla söylet!"
+   ],
+   "ask": "Sen hiç sırayla şarkı söyledin mi? Nerede?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "TAKB.1 (öğrenme çıktısı): Konuşma sürecini yönetebilme; söz sırasını bekler (süreç bileşeni). Masalın en güçlü kazanımı: Pamuk'un kendi bulduğu “Sırayla söyleyelim mi?” fikriyle herkes sırasını bekler; çocuk son sayfada koroyu sırayla söyleterek sıra beklemeyi yaşar.",
+   "MDB.1 (öğrenme çıktısı): Çeşitli müzik eserlerini dinleyebilme. 36-48 ayda kısa nakaratla dinleme/eşlik: çocuk “Mö, mee, vak, cik! Günaydın çiftlik!” sabah şarkısını dinler, tekrar eden nakarata sesiyle eşlik eder.",
+   "TADB.1 (öğrenme çıktısı): Dinleyecekleri/izleyecekleri hikâye, tekerleme gibi materyalleri yönetebilme; b) seçtiği materyali dinler (süreç bileşeni). Çocuk seslendirilen masalı dinler, dokunarak hayvanların seslerini yeniden seçip dinler.",
+   "E1.1 Merak (eğilim) ve SDB2.1 İletişim (sosyal-duygusal öğrenme becerisi): Sesin kimden geldiğini merak eder; dinlemenin ve sırayla konuşmanın iletişimdeki yerini deneyimler.",
+   "D5 Duyarlılık (değer): Limon'un üzgün arkadaşını fark etmesi ve herkesin susup en küçük sesi dinlemesi üzerinden başkasının ihtiyacına duyarlı davranmayı görür."
+  ],
+  "once": [
+   "Kapağı gösterin: “Bu çiftlikte kimler var? Sence hangi sesleri çıkarırlar?”",
+   "Birlikte hayvan seslerini deneyin: kalın bir “mööö”, ince bir “cik cik”. Sonra aynı sesi bir kez bağırarak, bir kez fısıldayarak söyleyin."
+  ],
+  "sirasi": [
+   "1. sayfada nakaratı (“Mö, mee, vak, cik! Günaydın çiftlik!”) iki kez okuyun; ikincide çocuklar eşlik etsin.",
+   "2. sayfada durun: “Pamuk'un sesi neden duyulmadı?” Önce bağırarak, sonra fısıldayarak “mee” deyin. Hangisi daha kolay duyuldu?",
+   "3. sayfada Pamuk'un duygusunu adlandırın: “Pamuk üzgün. Gözleri doldu. Limon onu fark etti.”",
+   "4. sayfada her dokunuştan önce sesi siz çıkarın (“cik cik”, “mööö”, “vak vak”); çocuk sesi dinleyip sahibine dokunsun.",
+   "5. sayfada fikrin Pamuk'tan geldiğini vurgulayın, sonra “Şşşt” deyip birlikte bir an susun. 6. sayfada çocuk koroyu yönetsin: her dokunuşta sırası gelen hayvanın sesini birlikte söyleyin."
+  ],
+  "sonra": [
+   "Pamuk'un sesi neden kayboldu? Sonra nasıl duyuldu?",
+   "Sen hiç sesini duyuramadığın oldu mu? O zaman ne yaptın?",
+   "Sınıfta herkesin sesi duyulsun diye ne yapabiliriz?"
+  ],
+  "sinif": {
+   "ad": "Sesinden Tanı: Kim O?",
+   "sure": "15 dk",
+   "materyal": "Hayvan resimli kartlar (inek, kuzu, ördek, civciv), isteyene göz bandı ya da eşarp",
+   "adim": [
+    "Çocuklar çember olur. Her çocuk gizlice bir hayvan kartı alır.",
+    "Gönüllü bir çocuk gözlerini eliyle kapatır (göz bandı zorunlu değil). Öğretmenin gösterdiği çocuk kartındaki hayvanın sesini çıkarır.",
+    "Gönüllü çocuk sesin hangi hayvana ait olduğunu ve sesin nereden geldiğini söyler. Sıra başka bir çocuğa geçer.",
+    "Sonunda hayvan grupları sabah şarkısını önce hep birlikte bağırarak, sonra sırayla söyler. “Hangisinde herkesi daha iyi duyduk?” diye konuşulur."
+   ]
+  },
+  "evSoru": [
+   "Pamuk'un sesi ne zaman duyuldu?",
+   "En çok hangi hayvanın sesini sevdin? Birlikte yapalım mı?",
+   "Evde herkes aynı anda konuşunca ne oluyor?"
+  ],
+  "evEtk": {
+   "ad": "Sabah Şarkısı",
+   "d": "Kahvaltıda her aile bireyi bir hayvan seçsin. Sırayla kendi sesinizi söyleyin: “Mö, mee, vak, cik! Günaydın evimiz!” Sonra bir kez hep birlikte, bir kez de fısıltıyla söyleyin ve farkı konuşun."
+  },
+  "aileNotu": "Bugün “Mö, Mee, Vak: Çiftlik Sabahı” masalını okuduk. Kuzu Pamuk'un küçük sesi, herkes bangır bangır söyleyince kayboldu. Pamuk'un aklına bir fikir geldi. “Sırayla söyleyelim mi?” Arkadaşları susunca sesi herkese ulaştı. Çocuklarımız hayvan seslerini dinleyip sahiplerini buldu ve sıra beklemeyi konuştu; evde sofrada sırayla konuşma oyunu oynayabilir, kendi sabah şarkınızı uydurabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/022-mo-mee-vak-ciftlik-sabahi.mp3",
+  "hash": "eddecf5e",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10356,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      3349,
+      6
+     ],
+     [
+      3629,
+      7
+     ],
+     [
+      3910,
+      8
+     ],
+     [
+      4830,
+      9
+     ],
+     [
+      5229,
+      10
+     ],
+     [
+      5830,
+      11
+     ],
+     [
+      6789,
+      12
+     ],
+     [
+      7309,
+      13
+     ],
+     [
+      7849,
+      14
+     ],
+     [
+      8230,
+      15
+     ],
+     [
+      8770,
+      16
+     ],
+     [
+      9669,
+      17
+     ]
+    ]
+   },
+   "p0h-pamuk": {
+    "s": 10656,
+    "d": 1608,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      866,
+      1
+     ]
+    ]
+   },
+   "p0h-benek": {
+    "s": 12565,
+    "d": 1897,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p0h-paytak": {
+    "s": 14762,
+    "d": 1516,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      282,
+      1
+     ],
+     [
+      811,
+      2
+     ],
+     [
+      1054,
+      3
+     ]
+    ]
+   },
+   "p0h-limon": {
+    "s": 16579,
+    "d": 1375,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      258,
+      1
+     ],
+     [
+      736,
+      2
+     ],
+     [
+      954,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18254,
+    "d": 10221,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      4129,
+      7
+     ],
+     [
+      5009,
+      8
+     ],
+     [
+      5350,
+      9
+     ],
+     [
+      5910,
+      10
+     ],
+     [
+      6209,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      7669,
+      14
+     ],
+     [
+      8049,
+      15
+     ],
+     [
+      8850,
+      16
+     ],
+     [
+      9129,
+      17
+     ],
+     [
+      9469,
+      18
+     ]
+    ]
+   },
+   "p1h-benek": {
+    "s": 28776,
+    "d": 1213,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p1h-paytak": {
+    "s": 30289,
+    "d": 1141,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      769,
+      2
+     ]
+    ]
+   },
+   "p1h-limon": {
+    "s": 31730,
+    "d": 797,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      279,
+      1
+     ],
+     [
+      518,
+      2
+     ]
+    ]
+   },
+   "p1h-pamuk": {
+    "s": 32827,
+    "d": 1957,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 35085,
+    "d": 10577,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2769,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      3729,
+      7
+     ],
+     [
+      4649,
+      8
+     ],
+     [
+      5009,
+      9
+     ],
+     [
+      6049,
+      10
+     ],
+     [
+      6449,
+      11
+     ],
+     [
+      6649,
+      12
+     ],
+     [
+      7589,
+      13
+     ],
+     [
+      8009,
+      14
+     ],
+     [
+      8270,
+      15
+     ],
+     [
+      8989,
+      16
+     ],
+     [
+      9409,
+      17
+     ],
+     [
+      9629,
+      18
+     ],
+     [
+      9930,
+      19
+     ]
+    ]
+   },
+   "p2h-pamuk": {
+    "s": 45962,
+    "d": 1409,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1009,
+      3
+     ]
+    ]
+   },
+   "p2h-limon": {
+    "s": 47671,
+    "d": 1942,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 49914,
+    "d": 1941,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 52155,
+    "d": 2408,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1829,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 54864,
+    "d": 8657,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      3329,
+      5
+     ],
+     [
+      3670,
+      6
+     ],
+     [
+      4189,
+      7
+     ],
+     [
+      4669,
+      8
+     ],
+     [
+      5029,
+      9
+     ],
+     [
+      5390,
+      10
+     ],
+     [
+      6189,
+      11
+     ],
+     [
+      6609,
+      12
+     ],
+     [
+      7229,
+      13
+     ],
+     [
+      7469,
+      14
+     ],
+     [
+      7629,
+      15
+     ],
+     [
+      8190,
+      16
+     ]
+    ]
+   },
+   "p3h-pamuk": {
+    "s": 63821,
+    "d": 1818,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      759,
+      1
+     ],
+     [
+      1188,
+      2
+     ],
+     [
+      1385,
+      3
+     ],
+     [
+      1581,
+      4
+     ]
+    ]
+   },
+   "p3h-benek": {
+    "s": 65940,
+    "d": 2008,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p3h-paytak": {
+    "s": 68248,
+    "d": 1240,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      689,
+      2
+     ]
+    ]
+   },
+   "p3h-limon": {
+    "s": 69788,
+    "d": 1045,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      235,
+      1
+     ],
+     [
+      663,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 71134,
+    "d": 3161,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      2529,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 74595,
+    "d": 14058,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      2329,
+      3
+     ],
+     [
+      3390,
+      4
+     ],
+     [
+      3889,
+      5
+     ],
+     [
+      4129,
+      6
+     ],
+     [
+      4549,
+      7
+     ],
+     [
+      5529,
+      8
+     ],
+     [
+      6129,
+      9
+     ],
+     [
+      6890,
+      10
+     ],
+     [
+      7309,
+      11
+     ],
+     [
+      7890,
+      12
+     ],
+     [
+      8770,
+      13
+     ],
+     [
+      9190,
+      14
+     ],
+     [
+      9690,
+      15
+     ],
+     [
+      10549,
+      16
+     ],
+     [
+      10930,
+      17
+     ],
+     [
+      11430,
+      18
+     ],
+     [
+      12270,
+      19
+     ],
+     [
+      12909,
+      20
+     ],
+     [
+      13489,
+      21
+     ]
+    ]
+   },
+   "p4h-pamuk": {
+    "s": 88953,
+    "d": 1774,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      827,
+      1
+     ],
+     [
+      1360,
+      2
+     ]
+    ]
+   },
+   "p4h-benek": {
+    "s": 91027,
+    "d": 1418,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      789,
+      2
+     ]
+    ]
+   },
+   "p4h-paytak": {
+    "s": 92746,
+    "d": 1150,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      652,
+      1
+     ]
+    ]
+   },
+   "p4h-limon": {
+    "s": 94196,
+    "d": 1306,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      769,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 95802,
+    "d": 12095,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      2130,
+      3
+     ],
+     [
+      2650,
+      4
+     ],
+     [
+      3209,
+      5
+     ],
+     [
+      3849,
+      6
+     ],
+     [
+      4509,
+      7
+     ],
+     [
+      5390,
+      8
+     ],
+     [
+      6350,
+      9
+     ],
+     [
+      6749,
+      10
+     ],
+     [
+      7129,
+      11
+     ],
+     [
+      7509,
+      12
+     ],
+     [
+      8430,
+      13
+     ],
+     [
+      8869,
+      14
+     ],
+     [
+      9150,
+      15
+     ],
+     [
+      9430,
+      16
+     ],
+     [
+      10350,
+      17
+     ],
+     [
+      10569,
+      18
+     ],
+     [
+      10989,
+      19
+     ],
+     [
+      11270,
+      20
+     ],
+     [
+      11449,
+      21
+     ]
+    ]
+   },
+   "p5h-benek": {
+    "s": 108198,
+    "d": 743,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-pamuk": {
+    "s": 109242,
+    "d": 527,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-paytak": {
+    "s": 110069,
+    "d": 975,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-limon": {
+    "s": 111344,
+    "d": 328,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 111973,
+    "d": 3081,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2390,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

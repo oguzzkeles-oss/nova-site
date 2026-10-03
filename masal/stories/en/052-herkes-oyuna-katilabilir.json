@@ -1,0 +1,2281 @@
+{
+ "id": "052-herkes-oyuna-katilabilir",
+ "lang": "en",
+ "title": "Everyone Can Join In",
+ "theme": "Standing up to exclusion and including everyone in the game (World Children's Day, 20 November)",
+ "blurb": "When Can says “You can't play!” in the park, Deniz is left all alone on the bench. Zeynep goes over to Deniz, waits her turn to tell the teacher and sets up a ball circle that everyone can join. In the end, Can joins the circle too.",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "deniz": "Deniz",
+  "can": "Can",
+  "ela": "Ela",
+  "ogretmen": "Miss Nur"
+ },
+ "pages": [
+  {
+   "text": "It was a sunny November morning. Miss Nur's class went to the park. Can had brought his red ball. Bounce, bounce, pat! Can and Zeynep played ball. Deniz came running. Her eyes were shining bright.",
+   "hits": {
+    "can": {
+     "say": "Bounce, bounce, pat! Catch!"
+    },
+    "zeynep": {
+     "say": "Got it! Your turn!"
+    },
+    "deniz": {
+     "say": "They're playing ball! I'm coming too!"
+    }
+   },
+   "hint": "Touch the ball to make it bounce!",
+   "ask": "What game do you play most with your friends in the park?"
+  },
+  {
+   "text": "“May I play too?” asked Deniz. Can held the ball tight. “No! You can't play!” Deniz was very sad. Her throat went tight, all in knots. Her eyes filled with tears. She hung her head and sat on the bench all alone.",
+   "hits": {
+    "deniz": {
+     "say": "Nobody will play with me…"
+    },
+    "can": {
+     "say": "No! You can't play!"
+    },
+    "zeynep": {
+     "say": "But Deniz wants to play too!"
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "How is Deniz feeling now? How can you tell from her face and her body?"
+  },
+  {
+   "text": "Can threw the ball to Zeynep. Hop! Zeynep caught it, but she didn't throw it back. She looked at Deniz, sitting all alone on the bench. Zeynep's heart ached. “This isn't fair at all,” she thought. Two paths went through her mind: keep on playing, or go over to Deniz…",
+   "hits": {
+    "zeynep": {
+     "say": "This isn't fair at all."
+    },
+    "deniz": {
+     "say": "I wanted to play too."
+    },
+    "can": {
+     "say": "Come on, Zeynep, throw it!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Zeynep will do?",
+    "res": "Both are good paths! Let's see.",
+    "opts": [
+     {
+      "l": "Go over to Deniz"
+     },
+     {
+      "l": "Tell the teacher"
+     }
+    ]
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "Why did Zeynep think “This isn't fair”? What would you do?"
+  },
+  {
+   "text": "Zeynep gave the ball back to Can. She walked towards Deniz. Step, step, one more step. “May I play with you?” she asked. Deniz looked up and smiled. She felt a little warmer inside. Her shoulders went soft.",
+   "hits": {
+    "zeynep": {
+     "say": "May I play with you?"
+    },
+    "deniz": {
+     "say": "Yes! Thank you."
+    }
+   },
+   "mech": {
+    "say": "Step, step, one more step!",
+    "done": "Zeynep came over to Deniz!",
+    "msg": "You stood by her!"
+   },
+   "hint": "Touch Zeynep to make her walk!",
+   "ask": "How did Deniz feel when Zeynep came over? How do you feel when someone comes to keep you company?"
+  },
+  {
+   "text": "Both of them went to Miss Nur. She was talking with Ela. Zeynep didn't interrupt. She waited her turn. Then she looked into Miss Nur's eyes and told her. The teacher listened carefully. “Here, everyone can join in. What shall we do?” Zeynep's eyes lit up: “A ball circle!”",
+   "hits": {
+    "zeynep": {
+     "say": "Miss Nur, Deniz couldn't join the game. She's very sad."
+    },
+    "ogretmen": {
+     "say": "Here, everyone can join in."
+    },
+    "ela": {
+     "say": "A ball circle? Count me in!"
+    },
+    "deniz": {
+     "say": "A ball circle? Brilliant!"
+    }
+   },
+   "hint": "Touch Zeynep so she can tell!",
+   "ask": "What did Zeynep do before she told the teacher? How do you tell a grown-up about a problem?"
+  },
+  {
+   "text": "Miss Nur gave them a blue ball. They made a circle. The rule was very simple: “The ball goes to everyone, in turn!” From Zeynep to Deniz, from Deniz to Ela. Pat, pat, pat! Deniz laughed out loud. Happiness tickled her inside.",
+   "hits": {
+    "zeynep": {
+     "say": "Here, Deniz, your turn!"
+    },
+    "deniz": {
+     "say": "Got it! Go, Ela!"
+    },
+    "ela": {
+     "say": "Hop! I've got it!"
+    }
+   },
+   "mech": {
+    "done": "The ball went to everyone in turn!",
+    "msg": "You threw in turn!"
+   },
+   "hint": "Touch Zeynep first!",
+   "ask": "What was the rule of the ball circle? Why is nobody left out in this game?",
+   "cues": [
+    {
+     "w": 35,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Can was left all alone with his red ball. Bounce… bounce… Nobody caught it. Can's heart gave a twist. His lip wobbled. He came up to the circle. “I'm sorry, Deniz. I only wanted to play with Zeynep. May I join in too?” Deniz smiled. “Of course! Here, everyone can join in.” The circle grew bigger, and so did the laughter!",
+   "hits": {
+    "can": {
+     "say": "I'm sorry. May I join in?"
+    },
+    "deniz": {
+     "say": "Of course! Come and join the circle!"
+    },
+    "zeynep": {
+     "say": "The circle grew!"
+    },
+    "ela": {
+     "say": "Now there are two balls!"
+    },
+    "top": {
+     "say": "Two balls, one great big circle!"
+    }
+   },
+   "hint": "Touch Can!",
+   "ask": "Why did Can say sorry? What do you say to someone who wants to join your game?",
+   "cues": [
+    {
+     "w": 60,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "SBAB5 Social Participation (field skill): joins the game set up in the park; notices a friend who has been left out of the game and suggests a game everyone can join.",
+   "SAB.9 Making social contact with groups formed in their close surroundings (unverified): sets up a ball circle with friends in the park, accepts a newcomer into the group.",
+   "TAKB.1 Managing the speaking process (learning outcome); process components: waits their turn to speak, makes eye contact. Like Zeynep, waits until the grown-up has finished speaking and tells about the problem while looking into their eyes.",
+   "E2.1 Empathy and SDB2.3 Social Awareness: recognises the feelings of a friend who has been left out from their face and body (a knotted throat, eyes filling with tears, a hanging head); goes over to them and says supportive words such as “I'll play with you.”",
+   "D1 Justice and D4 Friendship: gives everyone an equal turn in the game (“The ball goes to everyone, in turn”); accepts the friend who did the excluding back into the game when they say sorry."
+  ],
+  "once": [
+   "Link it to World Children's Day (20 November): “Every child has the right to play. What do you think that means?”",
+   "Point to the children on the cover: “These are Zeynep, Deniz, Can and Ela. What do you think will happen in the park?”",
+   "Ask: “Has there been a time you wanted to join a game and heard ‘No’? How did you feel?” Listen to the answers without judging."
+  ],
+  "sirasi": [
+   "Pause on page 2: “Deniz's throat went all in knots. What happens in your body when you're sad?” Make a sad face with the children, then take a breath and relax the face.",
+   "On page 3, ask the prediction; stress that both options are good: going over to the friend and telling a grown-up are both right paths. Zeynep does both in the story.",
+   "On page 5, show that Zeynep waits her turn: “What did Zeynep do while the teacher was talking?” On page 7, look at Can's face: “How is Can feeling now?”"
+  ],
+  "sonra": [
+   "Have them tell the events in order: Deniz was left out → Zeynep went over to her → they told the teacher → the ball circle was set up → Can said sorry and joined in.",
+   "Ask: “Can behaved badly once, then said sorry. Do you think Can can be a good friend?” Talk about the behaviour without labelling the child who did the excluding as bad.",
+   "Ask: “Why might Can have said ‘No’? What else could he have said?” Remind them that Can wanted to play alone with Zeynep; find options together, such as “Let's all three play!”",
+   "Find sentences together that can be used to join a game: “May I play too?”, “Come and join us!”, “Let's take turns.”"
+  ],
+  "sinif": {
+   "ad": "Ball Circle: Everyone Can Join In",
+   "sure": "20 min",
+   "materyal": "A soft ball, a rug or a wide open space in the garden, two cards with a smiling face and a sad face",
+   "adim": [
+    "The children make a circle. The rule is said: “The ball goes to everyone in turn; first say their name, then look into their eyes and throw.”",
+    "When the ball has gone to everyone once, the game stops. One child waits outside the circle; the teacher asks: “How does the one left out feel? How do we call them in?” The children bring them into the circle with an inviting sentence.",
+    "Role play: one child says “May I play too?”, and the circle answers “Of course, come on!” Swap roles; everyone gets to be both the one who asks and the one who invites.",
+    "To close, each child holds up the smiling face or the sad face card and says in one sentence how they felt in the game."
+   ]
+  },
+  "evSoru": [
+   "How did Deniz feel when she wasn't allowed to play? How did Zeynep help her?",
+   "What did Zeynep do before she told the teacher? Why didn't she interrupt?",
+   "What did Deniz say when Can said sorry? What do you say to someone who wants to join your game?"
+  ],
+  "evEtk": {
+   "ad": "Family Ball Circle",
+   "d": "At home or in the park, make a circle with family members and throw a soft ball to each other in turn. Before you throw, say the other person's name and look into their eyes. Then find a sentence with your child to invite someone new into the game (a sibling, the child next door, a teddy bear): “Come and join us!”"
+  },
+  "aileNotu": "Today we read “Everyone Can Join In.” When Deniz is left out of the game in the park, her friend Zeynep goes over to her, waits her turn to tell the teacher and sets up a ball circle that everyone can join. Can, who left Deniz out, says sorry in the end and joins the game too. For World Children's Day on 20 November, you can talk at home about every child's right to play, about noticing a friend who has been left out, and about telling a grown-up when needed."
+ },
+ "audio": {
+  "file": "audio/en/052-herkes-oyuna-katilabilir.mp3",
+  "hash": "10f850ff",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13413,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      430,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      2969,
+      9
+     ],
+     [
+      3150,
+      10
+     ],
+     [
+      3249,
+      11
+     ],
+     [
+      3369,
+      12
+     ],
+     [
+      4209,
+      13
+     ],
+     [
+      4529,
+      14
+     ],
+     [
+      4689,
+      15
+     ],
+     [
+      4949,
+      16
+     ],
+     [
+      5189,
+      17
+     ],
+     [
+      5430,
+      18
+     ],
+     [
+      6189,
+      19
+     ],
+     [
+      6769,
+      20
+     ],
+     [
+      7349,
+      21
+     ],
+     [
+      8169,
+      22
+     ],
+     [
+      8489,
+      23
+     ],
+     [
+      8650,
+      24
+     ],
+     [
+      9089,
+      25
+     ],
+     [
+      9390,
+      26
+     ],
+     [
+      10270,
+      27
+     ],
+     [
+      10649,
+      28
+     ],
+     [
+      10930,
+      29
+     ],
+     [
+      11549,
+      30
+     ],
+     [
+      11829,
+      31
+     ],
+     [
+      12129,
+      32
+     ],
+     [
+      12390,
+      33
+     ],
+     [
+      12869,
+      34
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 13713,
+    "d": 2517,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1930,
+      3
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 16531,
+    "d": 1634,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 18465,
+    "d": 2575,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1124,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21340,
+    "d": 16307,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      2930,
+      7
+     ],
+     [
+      3170,
+      8
+     ],
+     [
+      3289,
+      9
+     ],
+     [
+      3609,
+      10
+     ],
+     [
+      4410,
+      11
+     ],
+     [
+      4989,
+      12
+     ],
+     [
+      5189,
+      13
+     ],
+     [
+      5529,
+      14
+     ],
+     [
+      6529,
+      15
+     ],
+     [
+      6910,
+      16
+     ],
+     [
+      7209,
+      17
+     ],
+     [
+      7649,
+      18
+     ],
+     [
+      8509,
+      19
+     ],
+     [
+      8709,
+      20
+     ],
+     [
+      9029,
+      21
+     ],
+     [
+      9289,
+      22
+     ],
+     [
+      9930,
+      23
+     ],
+     [
+      10190,
+      24
+     ],
+     [
+      10329,
+      25
+     ],
+     [
+      11270,
+      26
+     ],
+     [
+      11509,
+      27
+     ],
+     [
+      11909,
+      28
+     ],
+     [
+      12270,
+      29
+     ],
+     [
+      12469,
+      30
+     ],
+     [
+      13449,
+      31
+     ],
+     [
+      13669,
+      32
+     ],
+     [
+      13850,
+      33
+     ],
+     [
+      14009,
+      34
+     ],
+     [
+      14409,
+      35
+     ],
+     [
+      14609,
+      36
+     ],
+     [
+      14850,
+      37
+     ],
+     [
+      14949,
+      38
+     ],
+     [
+      15069,
+      39
+     ],
+     [
+      15529,
+      40
+     ],
+     [
+      15769,
+      41
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 37948,
+    "d": 1787,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      693,
+      1
+     ],
+     [
+      956,
+      2
+     ],
+     [
+      1220,
+      3
+     ],
+     [
+      1483,
+      4
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 40035,
+    "d": 1986,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 42321,
+    "d": 1981,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1430,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 44603,
+    "d": 18713,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1129,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2749,
+      7
+     ],
+     [
+      3170,
+      8
+     ],
+     [
+      3449,
+      9
+     ],
+     [
+      3869,
+      10
+     ],
+     [
+      4049,
+      11
+     ],
+     [
+      4189,
+      12
+     ],
+     [
+      4430,
+      13
+     ],
+     [
+      4629,
+      14
+     ],
+     [
+      4769,
+      15
+     ],
+     [
+      5729,
+      16
+     ],
+     [
+      5890,
+      17
+     ],
+     [
+      6129,
+      18
+     ],
+     [
+      6229,
+      19
+     ],
+     [
+      6910,
+      20
+     ],
+     [
+      7289,
+      21
+     ],
+     [
+      7549,
+      22
+     ],
+     [
+      7890,
+      23
+     ],
+     [
+      7989,
+      24
+     ],
+     [
+      8109,
+      25
+     ],
+     [
+      9089,
+      26
+     ],
+     [
+      9589,
+      27
+     ],
+     [
+      10029,
+      28
+     ],
+     [
+      10930,
+      29
+     ],
+     [
+      11209,
+      30
+     ],
+     [
+      11589,
+      31
+     ],
+     [
+      11890,
+      32
+     ],
+     [
+      12129,
+      33
+     ],
+     [
+      12789,
+      34
+     ],
+     [
+      12969,
+      35
+     ],
+     [
+      13850,
+      36
+     ],
+     [
+      14089,
+      37
+     ],
+     [
+      14509,
+      38
+     ],
+     [
+      14669,
+      39
+     ],
+     [
+      14890,
+      40
+     ],
+     [
+      15029,
+      41
+     ],
+     [
+      15890,
+      42
+     ],
+     [
+      16149,
+      43
+     ],
+     [
+      16309,
+      44
+     ],
+     [
+      17149,
+      45
+     ],
+     [
+      17569,
+      46
+     ],
+     [
+      17770,
+      47
+     ],
+     [
+      18030,
+      48
+     ],
+     [
+      18149,
+      49
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 63617,
+    "d": 1890,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1309,
+      4
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 65807,
+    "d": 1565,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1050,
+      4
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 67673,
+    "d": 1889,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      450,
+      1
+     ],
+     [
+      826,
+      2
+     ],
+     [
+      1377,
+      3
+     ],
+     [
+      1613,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 69862,
+    "d": 1681,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      1030,
+      5
+     ],
+     [
+      1229,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 71844,
+    "d": 2344,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 74488,
+    "d": 15248,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1290,
+      5
+     ],
+     [
+      1609,
+      6
+     ],
+     [
+      2229,
+      7
+     ],
+     [
+      2410,
+      8
+     ],
+     [
+      2670,
+      9
+     ],
+     [
+      3029,
+      10
+     ],
+     [
+      4029,
+      11
+     ],
+     [
+      4810,
+      12
+     ],
+     [
+      5769,
+      13
+     ],
+     [
+      5930,
+      14
+     ],
+     [
+      6169,
+      15
+     ],
+     [
+      7189,
+      16
+     ],
+     [
+      7370,
+      17
+     ],
+     [
+      7509,
+      18
+     ],
+     [
+      7749,
+      19
+     ],
+     [
+      7910,
+      20
+     ],
+     [
+      8449,
+      21
+     ],
+     [
+      8669,
+      22
+     ],
+     [
+      9469,
+      23
+     ],
+     [
+      9890,
+      24
+     ],
+     [
+      10169,
+      25
+     ],
+     [
+      10369,
+      26
+     ],
+     [
+      10589,
+      27
+     ],
+     [
+      11569,
+      28
+     ],
+     [
+      11749,
+      29
+     ],
+     [
+      12009,
+      30
+     ],
+     [
+      12089,
+      31
+     ],
+     [
+      12390,
+      32
+     ],
+     [
+      12810,
+      33
+     ],
+     [
+      13749,
+      34
+     ],
+     [
+      13930,
+      35
+     ],
+     [
+      14430,
+      36
+     ],
+     [
+      14689,
+      37
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 90037,
+    "d": 1317,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1009,
+      4
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 91655,
+    "d": 1598,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      832,
+      1
+     ],
+     [
+      1195,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 93553,
+    "d": 1805,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1069,
+      4
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 95658,
+    "d": 2851,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1869,
+      2
+     ],
+     [
+      2049,
+      3
+     ],
+     [
+      2309,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 98810,
+    "d": 18513,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      930,
+      5
+     ],
+     [
+      1189,
+      6
+     ],
+     [
+      1949,
+      7
+     ],
+     [
+      2110,
+      8
+     ],
+     [
+      2269,
+      9
+     ],
+     [
+      2630,
+      10
+     ],
+     [
+      2949,
+      11
+     ],
+     [
+      3729,
+      12
+     ],
+     [
+      4169,
+      13
+     ],
+     [
+      4489,
+      14
+     ],
+     [
+      5410,
+      15
+     ],
+     [
+      5589,
+      16
+     ],
+     [
+      5890,
+      17
+     ],
+     [
+      6049,
+      18
+     ],
+     [
+      6890,
+      19
+     ],
+     [
+      7229,
+      20
+     ],
+     [
+      7430,
+      21
+     ],
+     [
+      7669,
+      22
+     ],
+     [
+      7910,
+      23
+     ],
+     [
+      8150,
+      24
+     ],
+     [
+      8509,
+      25
+     ],
+     [
+      8930,
+      26
+     ],
+     [
+      9089,
+      27
+     ],
+     [
+      9390,
+      28
+     ],
+     [
+      10089,
+      29
+     ],
+     [
+      10249,
+      30
+     ],
+     [
+      10690,
+      31
+     ],
+     [
+      11129,
+      32
+     ],
+     [
+      12209,
+      33
+     ],
+     [
+      12890,
+      34
+     ],
+     [
+      13310,
+      35
+     ],
+     [
+      13469,
+      36
+     ],
+     [
+      13770,
+      37
+     ],
+     [
+      14310,
+      38
+     ],
+     [
+      14449,
+      39
+     ],
+     [
+      14629,
+      40
+     ],
+     [
+      14749,
+      41
+     ],
+     [
+      15589,
+      42
+     ],
+     [
+      16169,
+      43
+     ],
+     [
+      16549,
+      44
+     ],
+     [
+      16789,
+      45
+     ],
+     [
+      17389,
+      46
+     ],
+     [
+      17549,
+      47
+     ],
+     [
+      17870,
+      48
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 117623,
+    "d": 4340,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3449,
+      8
+     ],
+     [
+      3889,
+      9
+     ]
+    ]
+   },
+   "p4h-ogretmen": {
+    "s": 122263,
+    "d": 2161,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1790,
+      4
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 124725,
+    "d": 2205,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1769,
+      5
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 127230,
+    "d": 2304,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 129835,
+    "d": 16337,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      969,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1329,
+      6
+     ],
+     [
+      2089,
+      7
+     ],
+     [
+      2249,
+      8
+     ],
+     [
+      2449,
+      9
+     ],
+     [
+      2529,
+      10
+     ],
+     [
+      3369,
+      11
+     ],
+     [
+      3529,
+      12
+     ],
+     [
+      3869,
+      13
+     ],
+     [
+      4149,
+      14
+     ],
+     [
+      4509,
+      15
+     ],
+     [
+      5350,
+      16
+     ],
+     [
+      5489,
+      17
+     ],
+     [
+      5789,
+      18
+     ],
+     [
+      6069,
+      19
+     ],
+     [
+      6269,
+      20
+     ],
+     [
+      7029,
+      21
+     ],
+     [
+      7209,
+      22
+     ],
+     [
+      8069,
+      23
+     ],
+     [
+      8329,
+      24
+     ],
+     [
+      8829,
+      25
+     ],
+     [
+      8969,
+      26
+     ],
+     [
+      9649,
+      27
+     ],
+     [
+      9890,
+      28
+     ],
+     [
+      10329,
+      29
+     ],
+     [
+      10509,
+      30
+     ],
+     [
+      11129,
+      31
+     ],
+     [
+      11489,
+      32
+     ],
+     [
+      11810,
+      33
+     ],
+     [
+      12629,
+      34
+     ],
+     [
+      13129,
+      35
+     ],
+     [
+      13489,
+      36
+     ],
+     [
+      13689,
+      37
+     ],
+     [
+      14449,
+      38
+     ],
+     [
+      15089,
+      39
+     ],
+     [
+      15489,
+      40
+     ],
+     [
+      15689,
+      41
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 146473,
+    "d": 2082,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      740,
+      1
+     ],
+     [
+      1441,
+      2
+     ],
+     [
+      1741,
+      3
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 148856,
+    "d": 2128,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 151285,
+    "d": 1583,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 153168,
+    "d": 2210,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1569,
+      6
+     ]
+    ]
+   },
+   "p6": {
+    "s": 155679,
+    "d": 24651,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1729,
+      6
+     ],
+     [
+      1969,
+      7
+     ],
+     [
+      2209,
+      8
+     ],
+     [
+      3209,
+      9
+     ],
+     [
+      4310,
+      10
+     ],
+     [
+      5629,
+      11
+     ],
+     [
+      6049,
+      12
+     ],
+     [
+      6350,
+      13
+     ],
+     [
+      7189,
+      14
+     ],
+     [
+      7489,
+      15
+     ],
+     [
+      7829,
+      16
+     ],
+     [
+      8029,
+      17
+     ],
+     [
+      8129,
+      18
+     ],
+     [
+      9069,
+      19
+     ],
+     [
+      9329,
+      20
+     ],
+     [
+      9669,
+      21
+     ],
+     [
+      10629,
+      22
+     ],
+     [
+      10770,
+      23
+     ],
+     [
+      11029,
+      24
+     ],
+     [
+      11169,
+      25
+     ],
+     [
+      11289,
+      26
+     ],
+     [
+      11409,
+      27
+     ],
+     [
+      12449,
+      28
+     ],
+     [
+      12689,
+      29
+     ],
+     [
+      13069,
+      30
+     ],
+     [
+      13890,
+      31
+     ],
+     [
+      14009,
+      32
+     ],
+     [
+      14249,
+      33
+     ],
+     [
+      14489,
+      34
+     ],
+     [
+      14589,
+      35
+     ],
+     [
+      14789,
+      36
+     ],
+     [
+      14969,
+      37
+     ],
+     [
+      15890,
+      38
+     ],
+     [
+      16089,
+      39
+     ],
+     [
+      16190,
+      40
+     ],
+     [
+      16430,
+      41
+     ],
+     [
+      16589,
+      42
+     ],
+     [
+      17409,
+      43
+     ],
+     [
+      17789,
+      44
+     ],
+     [
+      18649,
+      45
+     ],
+     [
+      18829,
+      46
+     ],
+     [
+      19610,
+      47
+     ],
+     [
+      20190,
+      48
+     ],
+     [
+      20629,
+      49
+     ],
+     [
+      20809,
+      50
+     ],
+     [
+      21089,
+      51
+     ],
+     [
+      21770,
+      52
+     ],
+     [
+      21950,
+      53
+     ],
+     [
+      22350,
+      54
+     ],
+     [
+      22649,
+      55
+     ],
+     [
+      23309,
+      56
+     ],
+     [
+      23549,
+      57
+     ],
+     [
+      23749,
+      58
+     ],
+     [
+      23909,
+      59
+     ],
+     [
+      24049,
+      60
+     ]
+    ]
+   },
+   "p6h-can": {
+    "s": 180630,
+    "d": 2169,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      303,
+      1
+     ],
+     [
+      1074,
+      2
+     ],
+     [
+      1338,
+      3
+     ],
+     [
+      1601,
+      4
+     ],
+     [
+      1865,
+      5
+     ]
+    ]
+   },
+   "p6h-deniz": {
+    "s": 183100,
+    "d": 2477,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      1829,
+      6
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 185878,
+    "d": 1451,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      849,
+      2
+     ]
+    ]
+   },
+   "p6h-ela": {
+    "s": 187629,
+    "d": 1533,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      264,
+      1
+     ],
+     [
+      654,
+      2
+     ],
+     [
+      1044,
+      3
+     ],
+     [
+      1268,
+      4
+     ]
+    ]
+   },
+   "p6h-top": {
+    "s": 189463,
+    "d": 3368,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      447,
+      1
+     ],
+     [
+      1095,
+      2
+     ],
+     [
+      1804,
+      3
+     ],
+     [
+      2211,
+      4
+     ],
+     [
+      2619,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

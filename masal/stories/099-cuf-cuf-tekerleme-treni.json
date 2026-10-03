@@ -1,0 +1,1672 @@
+{
+ "id": "099-cuf-cuf-tekerleme-treni",
+ "n": 99,
+ "title": "Yağ Satarım, Bal Satarım",
+ "age": "36-48",
+ "area": "Müzik",
+ "theme": "Geleneksel halka oyunu: şarkıyla ritimli yürümek ve birlikte ebe olmak",
+ "values": [
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 4,
+ "blurb": "Ali, Deniz ve Elif parkta dedelerinin oyununu oynar: Yağ satarım, bal satarım! Deniz hep ebe kalınca üzülür. Elif'in aklına güzel bir fikir gelir.",
+ "codes": {
+  "maarif": [
+   "beceri: MSB2 Müziksel Söyleme",
+   "beceri: MHB4 Müziksel Hareket",
+   "MHB (numara teyitsiz): Harekete ve dansa eşlik eden ritimlerdeki özellikleri fark eder; tempo farklılıklarını hareketle gösterir (teyitsiz)",
+   "OB5 Kültür Okuryazarlığı",
+   "SDB2.2 İş Birliği",
+   "D4 Dostluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ali": "cocuk-erkek",
+  "deniz": "cocuk-kiz",
+  "elif": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "ali": "Ali",
+  "deniz": "Deniz",
+  "elif": "Elif"
+ },
+ "pages": [
+  {
+   "text": "Parkta üç arkadaş vardı: Ali, Deniz, Elif. “Yağ satarım oynayalım!” dedi Ali. “Dedem öğretti!” Hemen çimende halka oldular.",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 200,
+      "y": 222,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "clap",
+      "hit": "elif"
+     },
+     {
+      "k": "ali",
+      "x": 130,
+      "y": 234,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "sit",
+      "turn": 0.5,
+      "hit": "ali"
+     },
+     {
+      "k": "deniz",
+      "x": 270,
+      "y": 230,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 36,
+      "y": 234,
+      "s": 0.5
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 234,
+      "s": 0.5
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Bu oyunu bana dedem öğretti!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Halka olalım, halka!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Ben de varım! Hadi başlayalım!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Sen parkta arkadaşlarınla hangi oyunu oynarsın? Kim öğretti?"
+  },
+  {
+   "text": "Ebe Deniz oldu. Elinde oyalı mendil. Halkanın çevresinde dolaştı, tıpış tıpış. Hep bir ağızdan şarkı başladı: “Yağ satarım, bal satarım!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 60,
+      "y": 214,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "walk",
+      "hold": "mendil",
+      "holdS": 0.9,
+      "holdO": {
+       "color": "#E4574F"
+      },
+      "hit": "deniz"
+     },
+     {
+      "k": "ali",
+      "x": 170,
+      "y": 234,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "sit",
+      "turn": 0.3,
+      "hit": "ali"
+     },
+     {
+      "k": "elif",
+      "x": 250,
+      "y": 232,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "clap",
+      "turn": -0.3,
+      "hit": "elif"
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "deniz": {
+     "say": "Yağ satarım, bal satarım!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "ali": {
+     "say": "Şak şak! Şak şak!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "click"
+    },
+    "elif": {
+     "say": "Şak şak! Arkama bakmıyorum!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "click"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "deniz",
+    "steps": 5,
+    "step": 60,
+    "done": "Tıpış tıpış, halkayı dolaştı!",
+    "msg": "Şarkıyla yürüdün!"
+   },
+   "hint": [
+    "deniz",
+    "Deniz'le yürü!"
+   ],
+   "ask": "Hadi, sen de söyle: “Yağ satarım, bal satarım!” Hızlı mı yürüyelim, yavaş mı?"
+  },
+  {
+   "text": "Şarkı bitti. Şşşt! Kimse arkasına bakmadı. Deniz mendili usulca yere bıraktı. Ama kimin arkasına?",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 266,
+      "y": 214,
+      "s": 0.88,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "mendil",
+      "holdS": 1,
+      "holdO": {
+       "color": "#E4574F"
+      },
+      "hit": "deniz"
+     },
+     {
+      "k": "ali",
+      "x": 96,
+      "y": 234,
+      "s": 1.05,
+      "mood": "calm",
+      "pose": "sit",
+      "turn": 0.5,
+      "hit": "ali"
+     },
+     {
+      "k": "elif",
+      "x": 346,
+      "y": 232,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "sit",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "qmark",
+      "x": 214,
+      "y": 110,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Şşşt! Kimse bakmasın!",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "whoosh"
+    },
+    "ali": {
+     "say": "Arkama bakmıyorum, söz!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Kalbim pıt pıt atıyor!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence mendil kimin arkasına düştü?",
+    "res": "Hadi, görelim!",
+    "opts": [
+     {
+      "l": "Ali'nin arkasına",
+      "scene": {
+       "set": "oyun-parki",
+       "time": "day",
+       "season": "autumn",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 150,
+         "y": 232,
+         "s": 1.05,
+         "mood": "calm",
+         "pose": "sit",
+         "turn": 0.4
+        },
+        {
+         "k": "deniz",
+         "x": 290,
+         "y": 214,
+         "s": 0.92,
+         "mood": "laugh",
+         "pose": "run",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "mendil",
+         "x": 96,
+         "y": 222,
+         "s": 1.3,
+         "color": "#E4574F"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Elif'in arkasına",
+      "scene": {
+       "set": "oyun-parki",
+       "time": "day",
+       "season": "autumn",
+       "cast": [
+        {
+         "k": "deniz",
+         "x": 100,
+         "y": 214,
+         "s": 0.92,
+         "mood": "laugh",
+         "pose": "run"
+        },
+        {
+         "k": "elif",
+         "x": 250,
+         "y": 232,
+         "s": 1.05,
+         "mood": "calm",
+         "pose": "sit",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "mendil",
+         "x": 318,
+         "y": 222,
+         "s": 1.3,
+         "color": "#E4574F"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Sence Deniz mendili kime bıraktı? Neden öyle düşündün?"
+  },
+  {
+   "text": "“Ali, arkana bak!” diye güldü Elif. Ali döndü. Mendil nerede? Ali mendili kaptı. Koş, koş, koş!",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 80,
+      "y": 226,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "elif"
+     },
+     {
+      "k": "ali",
+      "x": 196,
+      "y": 232,
+      "s": 1.1,
+      "mood": "surprised",
+      "pose": "open",
+      "flip": true,
+      "turn": 0.5,
+      "hit": "ali"
+     },
+     {
+      "k": "deniz",
+      "x": 348,
+      "y": 232,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "run",
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "mendil",
+      "x": 246,
+      "y": 230,
+      "s": 1.35,
+      "color": "#E4574F",
+      "hit": "mendil"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Hı? Mendil nerede?",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Ali, arkana bak!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Kaç, kaç! Yakalayamazsın!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "whoosh"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "mendil"
+    ],
+    "done": "Buldun! Hadi Ali, koş, koş!",
+    "msg": "Mendili buldun!"
+   },
+   "hint": [
+    "mendil",
+    "Mendili bul!"
+   ],
+   "ask": "Mendil Ali'nin neresindeydi? Önünde mi, arkasında mı?"
+  },
+  {
+   "text": "Ali, Deniz'i yakaladı. Deniz yine ebe! Dudağı büküldü, omuzları düştü. “Hep ben ebeyim, hep tek başıma!” dedi. Elif el çırptı: “Birlikte ebe olalım mı?”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 112,
+      "y": 230,
+      "s": 1.0,
+      "mood": "sorry",
+      "pose": "hold",
+      "hold": "mendil",
+      "holdS": 0.9,
+      "turn": 0.6,
+      "hit": "ali",
+      "holdO": {
+       "color": "#E4574F"
+      }
+     },
+     {
+      "k": "deniz",
+      "x": 196,
+      "y": 232,
+      "s": 1.08,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "deniz"
+     },
+     {
+      "k": "elif",
+      "x": 306,
+      "y": 230,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "clap",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "deniz": {
+     "say": "Hep tek başıma dönüyorum…",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "ali": {
+     "say": "Üzüldün mü, Deniz?",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Birlikte ebe olalım mı?",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz nasıl hissediyor?"
+   ],
+   "ask": "Deniz neden üzüldü? Sen üzülünce yüzün nasıl olur? Hadi göster!",
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "deniz",
+     "ali",
+     "elif"
+    ],
+    "done": "Deniz'in yüzü güldü!",
+    "msg": "Deniz'i anladın!"
+   }
+  },
+  {
+   "text": "Deniz ile Elif yan yana dolaştı. “Yağ satarım, bal satarım!” Mendil düştü. “Ali, arkana bak!” diye güldüler. Ali mendili kaptı: “Kim benimle ebe olur?”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 120,
+      "y": 234,
+      "s": 1.08,
+      "mood": "surprised",
+      "pose": "sit",
+      "turn": 0.5,
+      "hit": "ali"
+     },
+     {
+      "k": "deniz",
+      "x": 250,
+      "y": 214,
+      "s": 0.88,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "deniz"
+     },
+     {
+      "k": "elif",
+      "x": 330,
+      "y": 220,
+      "s": 0.92,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "mendil",
+      "x": 60,
+      "y": 226,
+      "s": 1.4,
+      "color": "#E4574F",
+      "hit": "mendil"
+     },
+     {
+      "k": "heart",
+      "x": 300,
+      "y": 70,
+      "s": 0.6
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Yağ satarım, bal satarım!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "deniz": {
+     "say": "Birlikte ebelik çok güzel!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ali": {
+     "say": "Buldum! Kim benimle ebe olur?",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "mendil": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "elif",
+     "mendil",
+     "ali"
+    ],
+    "done": "Şarkı, mendil, arkana bak! Yaşasın!",
+    "msg": "Oyunu sırayla oynadın!"
+   },
+   "hint": [
+    "elif",
+    "Önce şarkıyı başlat!"
+   ],
+   "ask": "Oyunda önce ne oldu, sonra ne oldu? Sen kiminle birlikte ebe olmak istersin?"
+  }
+ ],
+ "order": [
+  1,
+  4,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "MSB2 Müziksel Söyleme (alan becerisi): “Yağ satarım, bal satarım” oyun şarkısını doğru telaffuzla, gruba katılarak söyler (MSB öğrenme çıktısı: şarkı sözlerini doğru telaffuz eder — teyitsiz).",
+   "MHB4 Müziksel Hareket (alan becerisi): Şarkının ritmine uyarak halkanın çevresinde tıpış tıpış yürür; hızlı-yavaş tempoyu hareketle gösterir (MHB öğrenme çıktısı: tempo farklılıklarını hareketle veya dansla gösterir — teyitsiz).",
+   "OB5 Kültür Okuryazarlığı: Büyüklerden öğrenilen geleneksel bir çocuk oyununu tanır ve kuralına uyarak oynar.",
+   "SDB2.2 İş Birliği ve D4 Dostluk: Arkadaşının üzüldüğünü fark eder, ebeliği paylaşan bir çözüm önerir."
+  ],
+  "once": [
+   "Kapaktaki çocuklara bakın: “Sence parkta ne oynuyorlar?”",
+   "“Yağ satarım, bal satarım” sözünü birlikte, el çırparak söyleyin. Ailenizde bu oyunu bilen var mı, sorun.",
+   "Çocuk dostu sözler: “Yağ satarım, bal satarım, / Ustam gitmiş, ben satarım… / Arkana bak, arkana bak!”"
+  ],
+  "sirasi": [
+   "2. sayfada Deniz yürürken siz de şarkıyı söyleyin; her dokunuşta bir adım, bir “tıpış”.",
+   "3. sayfada tahmin sorusunda çocuğun gerekçesini dinleyin, doğru-yanlış demeyin.",
+   "5. sayfada Deniz'in yüzüne birlikte bakın: dudak büküldü, omuzlar düştü. Sırayla Deniz'e, Ali'ye, Elif'e dokunun; “Sen olsan ne hissederdin?” diye sorun."
+  ],
+  "sonra": [
+   "Oyunun sırasını parmakla sayın: önce şarkı, sonra mendil, sonra “Arkana bak!”",
+   "Deniz neden üzüldü, ne olunca güldü? Elif'in fikri Deniz'e nasıl yardım etti?",
+   "Başka kimler birlikte ebe olabilir? Oyunu herkes için daha eğlenceli yapan bir kural bulun."
+  ],
+  "sinif": {
+   "ad": "Halkada Yağ Satarım",
+   "sure": "15 dk",
+   "materyal": "Bir yumuşak, oyalı mendil, geniş alan (tekerlekli sandalye ve yürüteçlerin rahat geçeceği genişlikte halka)",
+   "adim": [
+    "Çocuklar yere ya da sandalyeye halka olur, gözlerini önlerine çevirir.",
+    "Ebe (ya da el ele iki ebe) şarkıyı söyleyerek halkanın dışında ritimle yürür; öğretmen tefle önce yavaş, sonra hızlı tempo verir.",
+    "Şarkı bitince mendil birinin arkasına bırakılır; herkes “Arkana bak!” der.",
+    "Mendili bulan kalkar, ebeyle birlikte bir tur yürür; kimse oyundan çıkmaz, ebe olmak ceza değildir (koşu yerine hızlı yürüyüş güvenlidir).",
+    "Oyun sonunda sorun: “Ebe olunca nasıl hissettin? İki ebe olunca ne değişti?”"
+   ]
+  },
+  "evSoru": [
+   "Deniz neden üzüldü?",
+   "Elif ne önerdi?",
+   "Sen annenle, babanla ya da dedenle hangi eski oyunu oynamak istersin?"
+  ],
+  "evEtk": {
+   "ad": "Büyüklerin Oyunu",
+   "d": "Evdeki bir büyükten çocukken oynadığı bir halka oyununu ya da tekerlemeyi öğrenin. Bir mendille “Yağ satarım, bal satarım”ı oturma odasında birlikte oynayın; bir tur yavaş, bir tur hızlı söyleyin."
+  },
+  "aileNotu": "Bugün “Yağ Satarım, Bal Satarım” masalını okuduk. Ali, Deniz ve Elif parkta büyüklerinden öğrendikleri geleneksel halka oyununu oynadı. Deniz hep ebe kalınca üzüldü; Elif birlikte ebe olmayı önerdi. Evde bu oyunu bir mendille oynayabilir, çocuğunuza sizin çocukluğunuzun oyunlarını anlatabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/099-cuf-cuf-tekerleme-treni.mp3",
+  "hash": "d536afaf",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 9441,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      4009,
+      7
+     ],
+     [
+      4229,
+      8
+     ],
+     [
+      4669,
+      9
+     ],
+     [
+      5509,
+      10
+     ],
+     [
+      5789,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      6729,
+      13
+     ],
+     [
+      7609,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8489,
+      16
+     ],
+     [
+      8850,
+      17
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 9741,
+    "d": 1983,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1269,
+      4
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 12025,
+    "d": 1585,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      439,
+      1
+     ],
+     [
+      1145,
+      2
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 13910,
+    "d": 2171,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      251,
+      1
+     ],
+     [
+      462,
+      2
+     ],
+     [
+      1081,
+      3
+     ],
+     [
+      1449,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 16381,
+    "d": 10808,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      3189,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      4290,
+      8
+     ],
+     [
+      5069,
+      9
+     ],
+     [
+      5609,
+      10
+     ],
+     [
+      6509,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      6890,
+      13
+     ],
+     [
+      7370,
+      14
+     ],
+     [
+      7749,
+      15
+     ],
+     [
+      8749,
+      16
+     ],
+     [
+      9029,
+      17
+     ],
+     [
+      9770,
+      18
+     ],
+     [
+      10089,
+      19
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 27490,
+    "d": 2474,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      356,
+      1
+     ],
+     [
+      1330,
+      2
+     ],
+     [
+      1647,
+      3
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 30264,
+    "d": 1977,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      405,
+      1
+     ],
+     [
+      1205,
+      2
+     ],
+     [
+      1571,
+      3
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 32542,
+    "d": 2473,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 35316,
+    "d": 2335,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 37951,
+    "d": 7857,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2849,
+      5
+     ],
+     [
+      3729,
+      6
+     ],
+     [
+      4069,
+      7
+     ],
+     [
+      4649,
+      8
+     ],
+     [
+      5229,
+      9
+     ],
+     [
+      5489,
+      10
+     ],
+     [
+      6430,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7209,
+      13
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 46109,
+    "d": 1695,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      590,
+      1
+     ],
+     [
+      1029,
+      2
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 48104,
+    "d": 2027,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1469,
+      2
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 50432,
+    "d": 2162,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      622,
+      1
+     ],
+     [
+      957,
+      2
+     ],
+     [
+      1291,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 52894,
+    "d": 2381,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1889,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 55575,
+    "d": 1041,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 56917,
+    "d": 7341,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3170,
+      7
+     ],
+     [
+      3969,
+      8
+     ],
+     [
+      4410,
+      9
+     ],
+     [
+      5109,
+      10
+     ],
+     [
+      5310,
+      11
+     ],
+     [
+      5709,
+      12
+     ],
+     [
+      6329,
+      13
+     ],
+     [
+      6589,
+      14
+     ],
+     [
+      6829,
+      15
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 64559,
+    "d": 1804,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1129,
+      2
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 66663,
+    "d": 1592,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1150,
+      2
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 68556,
+    "d": 2379,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      471,
+      1
+     ],
+     [
+      1064,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 71235,
+    "d": 2445,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1930,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 73981,
+    "d": 11326,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      3189,
+      6
+     ],
+     [
+      3589,
+      7
+     ],
+     [
+      4449,
+      8
+     ],
+     [
+      4989,
+      9
+     ],
+     [
+      5789,
+      10
+     ],
+     [
+      6049,
+      11
+     ],
+     [
+      6289,
+      12
+     ],
+     [
+      6850,
+      13
+     ],
+     [
+      7089,
+      14
+     ],
+     [
+      7349,
+      15
+     ],
+     [
+      8089,
+      16
+     ],
+     [
+      8730,
+      17
+     ],
+     [
+      9089,
+      18
+     ],
+     [
+      9270,
+      19
+     ],
+     [
+      10009,
+      20
+     ],
+     [
+      10469,
+      21
+     ],
+     [
+      10690,
+      22
+     ],
+     [
+      11069,
+      23
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 85607,
+    "d": 1669,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      989,
+      3
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 87577,
+    "d": 1710,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      735,
+      1
+     ],
+     [
+      1182,
+      2
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 89587,
+    "d": 1779,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1489,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 91666,
+    "d": 1328,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      789,
+      2
+     ]
+    ]
+   },
+   "p5": {
+    "s": 93295,
+    "d": 11783,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1489,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      2809,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      3949,
+      9
+     ],
+     [
+      4969,
+      10
+     ],
+     [
+      5390,
+      11
+     ],
+     [
+      6129,
+      12
+     ],
+     [
+      6709,
+      13
+     ],
+     [
+      7129,
+      14
+     ],
+     [
+      7669,
+      15
+     ],
+     [
+      7949,
+      16
+     ],
+     [
+      8930,
+      17
+     ],
+     [
+      9230,
+      18
+     ],
+     [
+      9649,
+      19
+     ],
+     [
+      10369,
+      20
+     ],
+     [
+      10609,
+      21
+     ],
+     [
+      11049,
+      22
+     ],
+     [
+      11310,
+      23
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 105379,
+    "d": 2428,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      350,
+      1
+     ],
+     [
+      1306,
+      2
+     ],
+     [
+      1616,
+      3
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 108107,
+    "d": 2032,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      668,
+      1
+     ],
+     [
+      1297,
+      2
+     ],
+     [
+      1550,
+      3
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 110440,
+    "d": 2513,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 113254,
+    "d": 3319,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2529,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

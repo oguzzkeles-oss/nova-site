@@ -1,0 +1,969 @@
+{
+ "id": "tosbi",
+ "lang": "en",
+ "title": "Shelly Takes Her Time",
+ "blurb": "Everyone laughs at how slow Shelly is. But one day, being slow and careful turns out to be very useful.",
+ "pages": [
+  {
+   "text": "Shelly the tortoise walked slowly. Step, step, one more step.",
+   "hits": {
+    "bfly": "A butterfly! Fly, butterfly, fly!"
+   },
+   "mech": {
+    "done": "“Step, step, one more step!”"
+   },
+   "hint": "Touch Shelly to make her walk!",
+   "ask": "Why do tortoises walk slowly? Can you walk slowly?"
+  },
+  {
+   "text": "Hoppy the rabbit giggled, tee-hee-hee: “You're so slow, Shelly!” Shelly felt upset.",
+   "hits": {
+    "zip": "“Tee-hee-hee!”",
+    "tosbi": "“I'm hiding in my shell…”"
+   },
+   "hint": "Touch Hoppy!",
+   "ask": "How did Shelly feel? How do you feel when someone laughs at you?"
+  },
+  {
+   "text": "One day all the animals went for a picnic by the lake. Hoppy ran hop, hop, hop and got right to the front.",
+   "hits": {
+    "lake": "Splash! A fish jumped.",
+    "zip": "“Hop hop hop!”",
+    "tosbi": "“Hello, I'm Shelly.”"
+   },
+   "hint": "Touch the lake. What will happen?",
+   "ask": "Why might Hoppy be in such a hurry?"
+  },
+  {
+   "text": "As Hoppy ran, he dropped his basket! The apples rolled into the grass. “Oh no!” Hoppy looked around in a fluster, but he couldn't see the apples.",
+   "hits": {
+    "zip": "“Oh no, my apples!”"
+   },
+   "mech": {
+    "done": "Five apples! You counted them all."
+   },
+   "predict": {
+    "q": "Who do you think will pick up the apples?",
+    "res": "Hmm, interesting! Let's turn the page.",
+    "opts": [
+     "Shelly helps",
+     "Hoppy picks them up by himself"
+    ]
+   },
+   "hint": "Count the apples: touch them one by one!",
+   "ask": "How many apples fell? Let's count together."
+  },
+  {
+   "text": "Shelly came along slowly. She found every apple, one by one. “When I walk slowly, I see everything.”",
+   "hits": {
+    "tosbi": "“Hello, I'm Shelly.”"
+   },
+   "mech": {
+    "done": "“I've picked them all up. Here you are, Hoppy!”"
+   },
+   "hint": "Put the apples in the basket!",
+   "ask": "What might be good about being slow?"
+  },
+  {
+   "text": "Hoppy felt ashamed. “I'm sorry, Shelly. You're slow, but you're very careful.” They ate apples together by the lake.",
+   "hits": {
+    "tosbi": "“Enjoy!”",
+    "zip": "“Now we're best friends!”",
+    "ap": "“Enjoy!”"
+   },
+   "hint": "Touch the friends!",
+   "ask": "Why did Hoppy say sorry? How do you say sorry?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "Shows respect for individual differences.",
+   "Says sorry after making a mistake, and accepts an apology.",
+   "Tells opposites apart (fast–slow).",
+   "Counts objects and gathers them in one place (the apples)."
+  ],
+  "once": [
+   "Ask: “Is it better to be fast or slow?” and note down the answers.",
+   "Talk about what they know about tortoises and rabbits."
+  ],
+  "sirasi": [
+   "On page 4, count the apples together; on page 5, collect them into the basket.",
+   "For the prediction question, draw the different answers on the board."
+  ],
+  "sonra": [
+   "Has our answer from before the story changed?",
+   "Everyone has a strength. What's yours?",
+   "What would you do if you were Hoppy?"
+  ],
+  "sinif": {
+   "ad": "Fast–Slow Movement Game",
+   "sure": "20 min",
+   "materyal": "Music, paper, crayons",
+   "adim": [
+    "When the music speeds up, hop like a rabbit; when it slows down, walk like a tortoise.",
+    "The children pair up and tell each other one of their strengths.",
+    "Each child draws a “My strength” picture; make a display board."
+   ]
+  },
+  "evSoru": [
+   "What was Shelly's strength?",
+   "Why did Hoppy say sorry?",
+   "What is everyone in our family good at?"
+  ],
+  "evEtk": {
+   "ad": "Tortoise walk",
+   "d": "Go for a short, slow walk outside. Look carefully like Shelly and find 5 different things: a leaf, a stone, a bug…"
+  },
+  "aileNotu": "Today we read “Shelly Takes Her Time”. We talked about how everyone has different strengths, and about saying sorry. At home, you can go for a slow nature walk together and listen to what your child finds."
+ },
+ "audio": {
+  "file": "audio/en/tosbi.mp3",
+  "hash": "640a5841",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 6002,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3769,
+      6
+     ],
+     [
+      4989,
+      7
+     ],
+     [
+      5189,
+      8
+     ],
+     [
+      5469,
+      9
+     ]
+    ]
+   },
+   "p0h-bfly": {
+    "s": 6302,
+    "d": 3716,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      2170,
+      3
+     ],
+     [
+      3069,
+      4
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 10318,
+    "d": 2742,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      1909,
+      3
+     ],
+     [
+      2150,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 13360,
+    "d": 6362,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      4989,
+      9
+     ],
+     [
+      5370,
+      10
+     ],
+     [
+      5629,
+      11
+     ]
+    ]
+   },
+   "p1h-zip": {
+    "s": 20023,
+    "d": 967,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p1h-tosbi": {
+    "s": 21291,
+    "d": 1739,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1089,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 23330,
+    "d": 6740,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1709,
+      6
+     ],
+     [
+      1869,
+      7
+     ],
+     [
+      1969,
+      8
+     ],
+     [
+      2430,
+      9
+     ],
+     [
+      2569,
+      10
+     ],
+     [
+      2709,
+      11
+     ],
+     [
+      3469,
+      12
+     ],
+     [
+      3849,
+      13
+     ],
+     [
+      4189,
+      14
+     ],
+     [
+      4529,
+      15
+     ],
+     [
+      4850,
+      16
+     ],
+     [
+      5310,
+      17
+     ],
+     [
+      5489,
+      18
+     ],
+     [
+      5830,
+      19
+     ],
+     [
+      6049,
+      20
+     ],
+     [
+      6149,
+      21
+     ],
+     [
+      6269,
+      22
+     ]
+    ]
+   },
+   "p2h-lake": {
+    "s": 30371,
+    "d": 2064,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1129,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p2h-zip": {
+    "s": 32736,
+    "d": 1134,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      391,
+      1
+     ],
+     [
+      742,
+      2
+     ]
+    ]
+   },
+   "p2h-tosbi": {
+    "s": 34171,
+    "d": 1524,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      989,
+      2
+     ]
+    ]
+   },
+   "p3": {
+    "s": 35996,
+    "d": 9712,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3430,
+      9
+     ],
+     [
+      3829,
+      10
+     ],
+     [
+      4049,
+      11
+     ],
+     [
+      4169,
+      12
+     ],
+     [
+      5069,
+      13
+     ],
+     [
+      5350,
+      14
+     ],
+     [
+      6289,
+      15
+     ],
+     [
+      6609,
+      16
+     ],
+     [
+      6829,
+      17
+     ],
+     [
+      7169,
+      18
+     ],
+     [
+      7289,
+      19
+     ],
+     [
+      7390,
+      20
+     ],
+     [
+      8129,
+      21
+     ],
+     [
+      8270,
+      22
+     ],
+     [
+      8409,
+      23
+     ],
+     [
+      8770,
+      24
+     ],
+     [
+      8949,
+      25
+     ],
+     [
+      9129,
+      26
+     ]
+    ]
+   },
+   "p3h-zip": {
+    "s": 46008,
+    "d": 2109,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 48418,
+    "d": 2575,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2069,
+      5
+     ]
+    ]
+   },
+   "p3q": {
+    "s": 51293,
+    "d": 1946,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      829,
+      5
+     ],
+     [
+      1030,
+      6
+     ],
+     [
+      1129,
+      7
+     ],
+     [
+      1309,
+      8
+     ]
+    ]
+   },
+   "p3r": {
+    "s": 53540,
+    "d": 2823,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1769,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      2309,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 56663,
+    "d": 8131,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      3189,
+      7
+     ],
+     [
+      3910,
+      8
+     ],
+     [
+      4169,
+      9
+     ],
+     [
+      4509,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5549,
+      12
+     ],
+     [
+      5689,
+      13
+     ],
+     [
+      5989,
+      14
+     ],
+     [
+      6910,
+      15
+     ],
+     [
+      7089,
+      16
+     ],
+     [
+      7410,
+      17
+     ]
+    ]
+   },
+   "p4h-tosbi": {
+    "s": 65095,
+    "d": 1585,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1050,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 66980,
+    "d": 2386,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1349,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      1709,
+      7
+     ],
+     [
+      1889,
+      8
+     ]
+    ]
+   },
+   "p5": {
+    "s": 69666,
+    "d": 8225,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2630,
+      5
+     ],
+     [
+      3469,
+      6
+     ],
+     [
+      3729,
+      7
+     ],
+     [
+      4249,
+      8
+     ],
+     [
+      4569,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      5169,
+      11
+     ],
+     [
+      6269,
+      12
+     ],
+     [
+      6469,
+      13
+     ],
+     [
+      6729,
+      14
+     ],
+     [
+      7089,
+      15
+     ],
+     [
+      7509,
+      16
+     ],
+     [
+      7669,
+      17
+     ],
+     [
+      7789,
+      18
+     ]
+    ]
+   },
+   "p5h-tosbi": {
+    "s": 78191,
+    "d": 739,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-zip": {
+    "s": 79231,
+    "d": 1796,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      401,
+      1
+     ],
+     [
+      1032,
+      2
+     ],
+     [
+      1394,
+      3
+     ]
+    ]
+   },
+   "p5h-ap": {
+    "s": 81327,
+    "d": 750,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   }
+  }
+ }
+}

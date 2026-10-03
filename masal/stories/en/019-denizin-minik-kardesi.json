@@ -1,0 +1,1389 @@
+{
+ "id": "019-denizin-minik-kardesi",
+ "lang": "en",
+ "title": "Deniz and the New Baby",
+ "theme": "A new baby in the family",
+ "blurb": "When tiny Ekin comes home, everyone runs to the baby; when Deniz shouts “Waaah!”, nobody comes. Deniz tells her mum how she feels, and the teeny-tiny things that come out of an old box show her how good it is to be a big sister.",
+ "voiceNames": {
+  "deniz": "Deniz",
+  "ekin": "Ekin (baby sibling)",
+  "anne": "Mum (Deniz's mum)",
+  "baba": "Dad (Deniz's dad)"
+ },
+ "pages": [
+  {
+   "text": "A tiny new baby came to Deniz's house. The baby's name was Ekin. Teeny-tiny hands, teeny-tiny feet. Everyone said, “How sweet!”",
+   "hits": {
+    "ekin": {
+     "say": "Goo-goo!"
+    },
+    "deniz": {
+     "say": "Look how small!"
+    },
+    "baba": {
+     "say": "Deniz, come and see the baby!"
+    }
+   },
+   "hint": "Touch Ekin!",
+   "ask": "What is Ekin like? Have you ever seen a tiny baby?"
+  },
+  {
+   "text": "Ekin cried: “Waaah!” Mum came running. Ekin cried again: “Waaah!” Dad came running with the milk bottle. Deniz shouted too: “Waaah!” But nobody came running.",
+   "hits": {
+    "ekin": {
+     "say": "Waaah! Waaah!"
+    },
+    "anne": {
+     "say": "Coming, coming!"
+    },
+    "baba": {
+     "say": "Milk's here, milk!"
+    },
+    "deniz": {
+     "say": "Waaah! Look at me too!"
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "Why did Deniz shout “Waaah!”? What do you think she wants?",
+   "cues": [
+    {
+     "w": 2,
+     "fx": "bebek"
+    }
+   ]
+  },
+  {
+   "text": "Deniz sat down in a corner. Pitter patter, the rain was falling. Deniz felt a little sad, a little jealous. Her throat went tight, like a knot. “What about me?” she thought.",
+   "hits": {
+    "deniz": {
+     "say": "What about me?"
+    },
+    "anne": {
+     "say": "Hush-a-bye, hush-a-bye, little Ekin."
+    }
+   },
+   "predict": {
+    "q": "What do you think Deniz will do now?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "Tell Mum"
+     },
+     {
+      "l": "Hug Dad"
+     }
+    ]
+   },
+   "hint": "Touch Deniz!",
+   "ask": "How is Deniz feeling? Have you ever felt like that?"
+  },
+  {
+   "text": "Deniz took a deep breath. Step by step, she went to her mum. “Mum, I feel sad. Can I have a hug too?”",
+   "mech": {
+    "say": "Deep breath… step, step!",
+    "done": "Deniz reached her mum!"
+   },
+   "hits": {
+    "anne": {
+     "say": "Come here, my darling, arms open wide!"
+    },
+    "baba": {
+     "say": "Shhh, Ekin's sleeping."
+    }
+   },
+   "hint": "Breathe in, touch Deniz!",
+   "ask": "How did Deniz tell her mum how she felt? Who do you tell when you feel sad?"
+  },
+  {
+   "text": "Mum hugged Deniz tight. She opened an old box: creeeak! Out came teeny-tiny things. “These were your baby things!” said Mum. Deniz laughed: “Let's give them to Ekin!”",
+   "mech": {
+    "done": "Ekin's basket is ready!"
+   },
+   "hits": {
+    "anne": {
+     "say": "You were a teeny-tiny baby like this too!"
+    },
+    "deniz": {
+     "say": "Was my head really this small?"
+    },
+    "baba": {
+     "say": "What a lovely idea, Deniz!"
+    }
+   },
+   "hint": "Put it in the basket!",
+   "ask": "What did you use when you were a baby? Can you ask your grown-ups at home?"
+  },
+  {
+   "text": "Ekin held Deniz's finger tight. Ekin smiled for the first time! “I'm your big sister,” said Deniz. The love in the house grew and grew, enough for everyone.",
+   "hits": {
+    "ekin": {
+     "say": "Goo-goo! Hee hee hee!"
+    },
+    "deniz": {
+     "say": "I'm your big sister!"
+    },
+    "baba": {
+     "say": "Rock-a-bye baby, on the treetop…"
+    },
+    "anne": {
+     "say": "We love you very much too, Deniz."
+    }
+   },
+   "hint": "Touch Ekin!",
+   "ask": "Who is in your family? Can you tell us about them?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.2 (learning outcome) Building new meaning from stories and other materials they hear or watch. Process components: makes inferences about the material (why did Deniz shout “Waaah!”?); links information in the material to daily life (connects the baby's arrival in the story to a baby in their own family or around them).",
+   "TAKB.2 (learning outcome) Building the content of their speech. Process component: connects the topic they will talk about to their prior knowledge and daily life (talks about their own babyhood, sibling or family).",
+   "E2.1 Empathy: notices both Deniz's sadness and that the baby tells its troubles by crying; says that both of them need love.",
+   "SDB3.1 Adaptation: sees ways of adjusting to the new situation in the family: saying how you feel, asking for a hug and taking on the “big sister” role.",
+   "D2 Family Unity: gets to know a family in which Mum, Dad, Deniz and Ekin look after one another; sees that Mum and Dad do the caring tasks together."
+  ],
+  "once": [
+   "Point to the tiny baby on the cover: “Who do you think this is? How might Deniz have felt when she saw the baby?”",
+   "Ask the children: “Is there a baby in your home, or in the home of someone you know? What do babies do?”"
+  ],
+  "sirasi": [
+   "On page 2, make the “Waaah!” sound together; then ask: “Why did Deniz shout?”",
+   "On page 3, look at Deniz's face; show the words “sad” and “jealous” with facial expressions. Explain “her throat went tight, like a knot” by putting a hand on your throat.",
+   "On page 4, take a deep breath together with Deniz and walk her along, saying “Step, step!”"
+  ],
+  "sonra": [
+   "Ask “What did Deniz do when she felt sad?” and remember the three ways: a deep breath, saying it, asking for a hug.",
+   "Draw feeling faces (sad, jealous, happy); let the children show how Deniz feels on each page.",
+   "Say “Feeling jealous is a feeling too; it gets lighter when you say it”, so that every feeling feels accepted.",
+   "Give the child a chance to share their opinion by asking: “What did you think? Which page of the story did you like best?”"
+  ],
+  "sinif": {
+   "ad": "Baby Basket Game",
+   "sure": "20 min",
+   "materyal": "A baby doll, a basket or box, baby things (a small hat, socks, a blanket, a soft book), paper, pastel crayons",
+   "adim": [
+    "Sit in a circle; pass the baby doll from hand to hand. The child holding the doll makes a sentence starting “When I was a baby…” or talks about a baby at home (TAKB.2).",
+    "Prepare the baby basket in turns: each child picks one item, puts it in the basket and says why they chose it.",
+    "All together, whisper the lullaby “Rock-a-bye baby” and put the doll to sleep.",
+    "Everyone draws a picture of their family and introduces the people in it to their friends. For children with no siblings, adopted children or children with different family structures, say “draw whoever you live with at home.”"
+   ]
+  },
+  "evSoru": [
+   "What did I do when I was a baby? What was my first toy?",
+   "What did Deniz do when she felt sad? What do you do when you feel sad?",
+   "Who is in our family? What is your favourite thing to do with them?"
+  ],
+  "evEtk": {
+   "ad": "Baby Box",
+   "d": "Look at your child's baby things or baby photos together: “You were a teeny-tiny baby like this too.” If a baby has come, or is coming, to your home, let your older child choose an item or a lullaby for the baby; let the choice be theirs."
+  },
+  "aileNotu": "Today we read “Deniz and the New Baby.” When a new baby arrives at home, Deniz feels a little sad and jealous; then she takes a deep breath, tells her mum how she feels in words, and enjoys being a big sister. Sibling jealousy is very natural: name your child's feeling (“I think you felt a little jealous”) and set aside a short, special hug or play time for them every day. Giving them small jobs in caring for the baby (singing a lullaby, choosing an item) strengthens the “big sibling” role."
+ },
+ "audio": {
+  "file": "audio/en/019-denizin-minik-kardesi.mp3",
+  "hash": "dd37fbd2",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10278,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      1689,
+      6
+     ],
+     [
+      2150,
+      7
+     ],
+     [
+      2930,
+      8
+     ],
+     [
+      3049,
+      9
+     ],
+     [
+      3449,
+      10
+     ],
+     [
+      3749,
+      11
+     ],
+     [
+      4089,
+      12
+     ],
+     [
+      4789,
+      13
+     ],
+     [
+      5709,
+      14
+     ],
+     [
+      6390,
+      15
+     ],
+     [
+      7329,
+      16
+     ],
+     [
+      8109,
+      17
+     ],
+     [
+      8589,
+      18
+     ],
+     [
+      9109,
+      19
+     ],
+     [
+      9469,
+      20
+     ]
+    ]
+   },
+   "p0h-ekin": {
+    "s": 10578,
+    "d": 926,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 11805,
+    "d": 1394,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      610,
+      2
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 13499,
+    "d": 2008,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1430,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 15807,
+    "d": 12964,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      2469,
+      3
+     ],
+     [
+      2769,
+      4
+     ],
+     [
+      3089,
+      5
+     ],
+     [
+      3930,
+      6
+     ],
+     [
+      4269,
+      7
+     ],
+     [
+      4609,
+      8
+     ],
+     [
+      5370,
+      9
+     ],
+     [
+      6609,
+      10
+     ],
+     [
+      6910,
+      11
+     ],
+     [
+      7149,
+      12
+     ],
+     [
+      7410,
+      13
+     ],
+     [
+      7529,
+      14
+     ],
+     [
+      7649,
+      15
+     ],
+     [
+      7890,
+      16
+     ],
+     [
+      8650,
+      17
+     ],
+     [
+      9049,
+      18
+     ],
+     [
+      9430,
+      19
+     ],
+     [
+      10109,
+      20
+     ],
+     [
+      11369,
+      21
+     ],
+     [
+      11789,
+      22
+     ],
+     [
+      12209,
+      23
+     ],
+     [
+      12469,
+      24
+     ]
+    ]
+   },
+   "p1h-ekin": {
+    "s": 29072,
+    "d": 2152,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1461,
+      1
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 31524,
+    "d": 1511,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      769,
+      1
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 33336,
+    "d": 1699,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 35335,
+    "d": 2263,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 37899,
+    "d": 12998,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2529,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      3469,
+      9
+     ],
+     [
+      3749,
+      10
+     ],
+     [
+      3930,
+      11
+     ],
+     [
+      4989,
+      12
+     ],
+     [
+      5410,
+      13
+     ],
+     [
+      5669,
+      14
+     ],
+     [
+      5729,
+      15
+     ],
+     [
+      6029,
+      16
+     ],
+     [
+      6890,
+      17
+     ],
+     [
+      6949,
+      18
+     ],
+     [
+      7249,
+      19
+     ],
+     [
+      8270,
+      20
+     ],
+     [
+      8449,
+      21
+     ],
+     [
+      8770,
+      22
+     ],
+     [
+      9029,
+      23
+     ],
+     [
+      9649,
+      24
+     ],
+     [
+      9829,
+      25
+     ],
+     [
+      9909,
+      26
+     ],
+     [
+      10949,
+      27
+     ],
+     [
+      11149,
+      28
+     ],
+     [
+      11509,
+      29
+     ],
+     [
+      12350,
+      30
+     ],
+     [
+      12549,
+      31
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 51198,
+    "d": 999,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      285,
+      1
+     ],
+     [
+      713,
+      2
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 52498,
+    "d": 2830,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1209,
+      1
+     ],
+     [
+      1989,
+      2
+     ],
+     [
+      2309,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 55628,
+    "d": 1860,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      589,
+      4
+     ],
+     [
+      930,
+      5
+     ],
+     [
+      1129,
+      6
+     ],
+     [
+      1309,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 57789,
+    "d": 956,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 59045,
+    "d": 8657,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      3430,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      3829,
+      10
+     ],
+     [
+      3969,
+      11
+     ],
+     [
+      4129,
+      12
+     ],
+     [
+      5049,
+      13
+     ],
+     [
+      5949,
+      14
+     ],
+     [
+      6089,
+      15
+     ],
+     [
+      6410,
+      16
+     ],
+     [
+      7349,
+      17
+     ],
+     [
+      7549,
+      18
+     ],
+     [
+      7669,
+      19
+     ],
+     [
+      7829,
+      20
+     ],
+     [
+      7910,
+      21
+     ],
+     [
+      8209,
+      22
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 68002,
+    "d": 3368,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2729,
+      6
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 71670,
+    "d": 1995,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1309,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 73966,
+    "d": 1684,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 75950,
+    "d": 3185,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      2589,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 79435,
+    "d": 12941,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      2769,
+      7
+     ],
+     [
+      3009,
+      8
+     ],
+     [
+      3869,
+      9
+     ],
+     [
+      5189,
+      10
+     ],
+     [
+      5410,
+      11
+     ],
+     [
+      5789,
+      12
+     ],
+     [
+      6749,
+      13
+     ],
+     [
+      7669,
+      14
+     ],
+     [
+      7930,
+      15
+     ],
+     [
+      8089,
+      16
+     ],
+     [
+      8310,
+      17
+     ],
+     [
+      8749,
+      18
+     ],
+     [
+      9449,
+      19
+     ],
+     [
+      9690,
+      20
+     ],
+     [
+      10390,
+      21
+     ],
+     [
+      10829,
+      22
+     ],
+     [
+      11709,
+      23
+     ],
+     [
+      11989,
+      24
+     ],
+     [
+      12149,
+      25
+     ],
+     [
+      12310,
+      26
+     ],
+     [
+      12569,
+      27
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 92677,
+    "d": 2991,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2370,
+      7
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 95968,
+    "d": 2108,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      340,
+      1
+     ],
+     [
+      641,
+      2
+     ],
+     [
+      942,
+      3
+     ],
+     [
+      1466,
+      4
+     ],
+     [
+      1767,
+      5
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 98377,
+    "d": 2116,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 100793,
+    "d": 1490,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      989,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 102583,
+    "d": 11904,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3549,
+      8
+     ],
+     [
+      3729,
+      9
+     ],
+     [
+      4089,
+      10
+     ],
+     [
+      5229,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      5609,
+      13
+     ],
+     [
+      5910,
+      14
+     ],
+     [
+      6789,
+      15
+     ],
+     [
+      7009,
+      16
+     ],
+     [
+      7910,
+      17
+     ],
+     [
+      8109,
+      18
+     ],
+     [
+      8350,
+      19
+     ],
+     [
+      8449,
+      20
+     ],
+     [
+      8609,
+      21
+     ],
+     [
+      9009,
+      22
+     ],
+     [
+      9569,
+      23
+     ],
+     [
+      9770,
+      24
+     ],
+     [
+      10589,
+      25
+     ],
+     [
+      10969,
+      26
+     ],
+     [
+      11249,
+      27
+     ]
+    ]
+   },
+   "p5h-ekin": {
+    "s": 114788,
+    "d": 1816,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      897,
+      1
+     ],
+     [
+      1190,
+      2
+     ],
+     [
+      1483,
+      3
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 116905,
+    "d": 1535,
+    "w": [
+     [
+      79,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      889,
+      3
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 118740,
+    "d": 2925,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1829,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2150,
+      4
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 121965,
+    "d": 2294,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      1670,
+      6
+     ]
+    ]
+   }
+  }
+ }
+}

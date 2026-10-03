@@ -1,0 +1,2308 @@
+{
+ "id": "029-uyak-avi",
+ "n": 29,
+ "title": "Uyak Avı",
+ "age": "60-72",
+ "area": "Türkçe",
+ "theme": "Uyaklı sözcükler (ses bilgisel farkındalık)",
+ "values": [
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 5,
+ "blurb": "Kedi Karamel ile kirpi Kıpır bir şarkı yazmak ister ama sözler tık tak tökezler. Arı Vızvız “Arı, sarı! Kedi, yedi!” diye vızıldayınca çayırda uyak avı başlar!",
+ "codes": {
+  "maarif": [
+   "TAEOB.3 Ses bilgisel farkındalık becerileri gösterebilme (uyaklı sözcükleri fark eder; sözcüklerin son seslerini fark eder; son seslerden yeni sözcükler üretir) (teyitsiz)",
+   "TADB.1 Dinleyecekleri/izleyecekleri şiir, hikâye, tekerleme gibi materyalleri yönetebilme (seçtiği materyalleri dinler)",
+   "TADB.3 Dinledikleri/izledikleri materyalleri çözümleyebilme (olayların parçalarını belirler; dinlediklerini oluş sırasına göre söyler)",
+   "E2.5 Oyunseverlik",
+   "SDB2.2 İş Birliği",
+   "D4 Dostluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "karamel": "hayvan-kiz",
+  "kipir": "hayvan-erkek",
+  "vizviz": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "karamel": "Karamel (kedi)",
+  "kipir": "Kıpır (kirpi)",
+  "vizviz": "Vızvız (arı)"
+ },
+ "pages": [
+  {
+   "text": "Güneşli bir güz sabahı, kedi Karamel ile kirpi Kıpır çayırda piknik yaptı. Karamel bıyıklarını sıvazladı: “Hadi bir şarkı yazalım!” Kıpır'ın dikenleri sevinçten kıpır kıpır oldu.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "autumn",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 344,
+      "y": 48,
+      "hit": "gunes"
+     },
+     {
+      "k": "kedi",
+      "x": 106,
+      "y": 226,
+      "s": 1.55,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "karamel"
+     },
+     {
+      "k": "kirpi",
+      "x": 304,
+      "y": 230,
+      "s": 1.5,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "kipir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "picnic"
+     },
+     {
+      "k": "basket",
+      "x": 205,
+      "y": 222,
+      "s": 0.9,
+      "fill": "empty",
+      "full": 0
+     },
+     {
+      "k": "flower",
+      "x": 42,
+      "y": 228,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 232,
+      "s": 0.5
+     },
+     {
+      "k": "flower",
+      "x": 76,
+      "y": 236,
+      "s": 0.4
+     }
+    ]
+   },
+   "hits": {
+    "karamel": {
+     "say": "Hadi bir şarkı yazalım!",
+     "voice": "karamel",
+     "anim": "jump",
+     "fx": "meow"
+    },
+    "kipir": {
+     "say": "Şarkı mı? Yaşasın!",
+     "voice": "kipir",
+     "anim": "wiggle",
+     "fx": "kirpi"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "karamel",
+    "Karamel'e dokun!"
+   ],
+   "ask": "Sen hiç şarkı uydurdun mu? Bir arkadaşınla şarkı yazsan neyi anlatırdın?"
+  },
+  {
+   "text": "Karamel başladı: “Gökte bir bulut…” Kıpır ekledi: “…yerde bir top!” Tık, tak, pat! Şarkı tökezledi. Karamel'in canı sıkıldı, kuyruğu kabardı. Kıpır da üzüldü, top gibi kıvrıldı.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "autumn",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "piti",
+      "x": 120,
+      "y": 66,
+      "s": 0.8,
+      "mood": "calm",
+      "hit": "bulut"
+     },
+     {
+      "k": "kedi",
+      "x": 104,
+      "y": 228,
+      "s": 1.7,
+      "mood": "angry",
+      "pose": "stand",
+      "hit": "karamel"
+     },
+     {
+      "k": "kirpi",
+      "x": 296,
+      "y": 230,
+      "s": 1.7,
+      "mood": "sad",
+      "pose": "ball",
+      "hit": "kipir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 204,
+      "y": 234,
+      "s": 1.6,
+      "hit": "top"
+     },
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 234,
+      "s": 0.4
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 232,
+      "s": 0.45
+     }
+    ]
+   },
+   "hits": {
+    "karamel": {
+     "say": "Of! Şarkı olmuyor!",
+     "voice": "karamel",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "kipir": {
+     "say": "Sözlerimiz birbirine hiç uymadı…",
+     "voice": "kipir",
+     "anim": "wiggle",
+     "fx": "kirpi"
+    },
+    "top": {
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "bulut": {
+     "say": "Gökte bir bulut…",
+     "voice": "karamel",
+     "anim": "boing",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "kipir",
+    "Kıpır'a dokun!"
+   ],
+   "ask": "Karamel'in kuyruğu neden kabardı? Bir şey istediğin gibi olmayınca sen ne hissedersin, ne yaparsın?",
+   "cues": [
+    {
+     "w": 10,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Karamel derin bir nefes aldı, Kıpır'a gülümsedi. Tam o sırada arı Vızvız geldi. “Arı, sarı! Kedi, yedi!” diye vızıldadı. Kıpır şaşırdı: “Sonları aynı!” Vızvız güldü: “Buna uyak denir!” Karamel kıkırdadı: “Yedi mi? Ben bir taneyim!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "autumn",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kedi",
+      "x": 92,
+      "y": 228,
+      "s": 1.6,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "karamel"
+     },
+     {
+      "k": "ari",
+      "x": 206,
+      "y": 176,
+      "s": 1.9,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "vizviz"
+     },
+     {
+      "k": "kirpi",
+      "x": 314,
+      "y": 230,
+      "s": 1.6,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "kipir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 196,
+      "y": 234,
+      "s": 0.75,
+      "color": "yellow"
+     },
+     {
+      "k": "flower",
+      "x": 232,
+      "y": 230,
+      "s": 0.55,
+      "color": "yellow"
+     },
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 232,
+      "s": 0.4
+     },
+     {
+      "k": "flower",
+      "x": 374,
+      "y": 234,
+      "s": 0.45
+     }
+    ]
+   },
+   "hits": {
+    "vizviz": {
+     "say": "Vızz! Arı, sarı! Kedi, yedi!",
+     "voice": "vizviz",
+     "anim": "spinme",
+     "fx": "buzz"
+    },
+    "karamel": {
+     "say": "Yedi mi? Ben bir taneyim!",
+     "voice": "karamel",
+     "anim": "jump",
+     "fx": "meow"
+    },
+    "kipir": {
+     "say": "Sonları aynı! Kirpi, mirpi!",
+     "voice": "kipir",
+     "anim": "jump",
+     "fx": "kirpi"
+    }
+   },
+   "predict": {
+    "q": "Sence şarkı bu kez nasıl yürüyecek?",
+    "res": "Hadi görelim!",
+    "opts": [
+     {
+      "l": "Eş sözcük bulurlar",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "autumn",
+       "cast": [
+        {
+         "k": "kedi",
+         "x": 110,
+         "y": 226,
+         "s": 1.5,
+         "mood": "happy",
+         "pose": "sit"
+        },
+        {
+         "k": "kirpi",
+         "x": 300,
+         "y": 230,
+         "s": 1.5,
+         "mood": "laugh",
+         "pose": "stand",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "picnic"
+        },
+        {
+         "k": "basket",
+         "x": 205,
+         "y": 222,
+         "s": 0.9,
+         "fill": "empty",
+         "full": 0
+        },
+        {
+         "k": "karpuz",
+         "x": 170,
+         "y": 234,
+         "s": 1.6
+        },
+        {
+         "k": "muz",
+         "x": 246,
+         "y": 234,
+         "s": 1.7
+        }
+       ]
+      }
+     },
+     {
+      "l": "Vızvız'a sorarlar",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "autumn",
+       "cast": [
+        {
+         "k": "kedi",
+         "x": 96,
+         "y": 228,
+         "s": 1.5,
+         "mood": "think",
+         "pose": "stand"
+        },
+        {
+         "k": "ari",
+         "x": 205,
+         "y": 170,
+         "s": 1.9,
+         "mood": "happy",
+         "pose": "wave"
+        },
+        {
+         "k": "kirpi",
+         "x": 314,
+         "y": 230,
+         "s": 1.5,
+         "mood": "think",
+         "pose": "stand",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "flower",
+         "x": 205,
+         "y": 234,
+         "s": 0.8,
+         "color": "yellow"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "vizviz",
+    "Vızvız'a dokun!"
+   ],
+   "ask": "“Arı” ile “sarı” nasıl bitiyor? Senin adınla uyaklı komik bir sözcük uydurur musun?"
+  },
+  {
+   "text": "Uyak avı başladı! Sepetten neler çıktı? Karpuz, portakal, muz ve bal! Vızvız fısıldadı: “Sonuna kulak verin!” Karamel kulaklarını dikti: “Karpuz… karpuz… Eşi nerede?” Kıpır portakalı yuvarladı: “Portakalın eşi hangisi?” Sen de eşleri bul!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "autumn",
+    "weather": "sun",
+    "trees": false,
+    "cast": [
+     {
+      "k": "kirpi",
+      "x": 52,
+      "y": 228,
+      "s": 1.5,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "kipir"
+     },
+     {
+      "k": "kedi",
+      "x": 345,
+      "y": 226,
+      "s": 1.5,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "karamel",
+      "flip": true
+     },
+     {
+      "k": "ari",
+      "x": 330,
+      "y": 120,
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "fly",
+      "hit": "vizviz",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "picnic"
+     },
+     {
+      "k": "basket",
+      "x": 215,
+      "y": 226,
+      "s": 0.8,
+      "tip": true
+     },
+     {
+      "k": "karpuz",
+      "x": 115,
+      "y": 212,
+      "s": 2.2,
+      "hit": "karpuz"
+     },
+     {
+      "k": "bal",
+      "x": 268,
+      "y": 200,
+      "s": 1.7,
+      "hit": "bal"
+     },
+     {
+      "k": "portakal",
+      "x": 160,
+      "y": 236,
+      "s": 1.8,
+      "hit": "portakal"
+     },
+     {
+      "k": "muz",
+      "x": 272,
+      "y": 236,
+      "s": 2.2,
+      "hit": "muz"
+     }
+    ]
+   },
+   "hits": {
+    "karamel": {
+     "say": "Karpuz… karpuz… Eşi nerede?",
+     "voice": "karamel",
+     "anim": "jump",
+     "fx": "meow"
+    },
+    "kipir": {
+     "say": "Portakal… Portakal… Eşi hangisi?",
+     "voice": "kipir",
+     "anim": "wiggle",
+     "fx": "kirpi"
+    },
+    "karpuz": {
+     "say": "Karpuz, muz!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "muz": {
+     "say": "Karpuz, muz!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "portakal": {
+     "say": "Portakal, bal!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "bal": {
+     "say": "Portakal, bal!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "vizviz": {
+     "say": "Vızz! Sonuna kulak ver!",
+     "voice": "vizviz",
+     "anim": "spinme",
+     "fx": "buzz"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "karpuz",
+      "muz"
+     ],
+     [
+      "portakal",
+      "bal"
+     ]
+    ],
+    "done": "Karpuz, muz! Portakal, bal!",
+    "msg": "Uyakları buldun!"
+   },
+   "hint": [
+    "portakal",
+    "Eşleri bul!"
+   ],
+   "ask": "Karpuz ile muz nasıl bitiyor? Sepette başka ne olsa uyaklı olurdu?"
+  },
+  {
+   "text": "Karamel yine söyledi: “Gökte bir bulut…” Kıpır sona kulak verdi ve ekledi: “…yerde bir palamut!” Şarkı tıkır tıkır yürüdü! Vızvız vızıldadı: “Çayırda başka eşler de var. Hangisi hangisinin eşi?” Sen de bul!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "autumn",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "piti",
+      "x": 110,
+      "y": 64,
+      "s": 0.75,
+      "mood": "happy",
+      "hit": "bulut"
+     },
+     {
+      "k": "kedi",
+      "x": 56,
+      "y": 228,
+      "s": 1.35,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "karamel"
+     },
+     {
+      "k": "ugurbocegi",
+      "x": 222,
+      "y": 222,
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "bocek"
+     },
+     {
+      "k": "ari",
+      "x": 250,
+      "y": 110,
+      "s": 1.2,
+      "mood": "laugh",
+      "pose": "fly",
+      "hit": "vizviz",
+      "flip": true
+     },
+     {
+      "k": "kirpi",
+      "x": 368,
+      "y": 230,
+      "s": 1.4,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "kipir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "limon",
+      "x": 128,
+      "y": 234,
+      "s": 1.9,
+      "hit": "limon"
+     },
+     {
+      "k": "flower",
+      "x": 178,
+      "y": 234,
+      "s": 0.75,
+      "hit": "cicek",
+      "color": "yellow"
+     },
+     {
+      "k": "bush",
+      "x": 232,
+      "y": 236,
+      "s": 1.5
+     },
+     {
+      "k": "balon",
+      "x": 280,
+      "y": 228,
+      "s": 0.85,
+      "hit": "balon"
+     },
+     {
+      "k": "palamut",
+      "x": 322,
+      "y": 232,
+      "s": 1.7,
+      "hit": "palamut"
+     }
+    ]
+   },
+   "hits": {
+    "karamel": {
+     "say": "Gökte bir bulut…",
+     "voice": "karamel",
+     "anim": "jump",
+     "fx": "meow"
+    },
+    "kipir": {
+     "say": "…yerde bir palamut!",
+     "voice": "kipir",
+     "anim": "jump",
+     "fx": "kirpi"
+    },
+    "bulut": {
+     "say": "Bulut, palamut!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "palamut": {
+     "say": "Bulut, palamut!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "cicek": {
+     "say": "Çiçek, böcek!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "bocek": {
+     "say": "Çiçek, böcek!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "vizviz": {
+     "say": "Vızz! Başka eşler de var!",
+     "voice": "vizviz",
+     "anim": "spinme",
+     "fx": "buzz"
+    },
+    "limon": {
+     "say": "Limon, balon!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "balon": {
+     "say": "Limon, balon!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "bulut",
+      "palamut"
+     ],
+     [
+      "cicek",
+      "bocek"
+     ],
+     [
+      "limon",
+      "balon"
+     ]
+    ],
+    "done": "Bulut, palamut! Çiçek, böcek! Limon, balon!",
+    "msg": "Hepsini eşleştirdin!"
+   },
+   "hint": [
+    "cicek",
+    "Eşleri bul!"
+   ],
+   "ask": "Şarkı bu kez neden tökezlemedi? “Balon” ile uyaklı başka bir sözcük bulabilir misin?"
+  },
+  {
+   "text": "Akşamüstü üç dost şarkıyı birlikte söyledi: “Gökte bir bulut, yerde bir palamut! Kırda bir çiçek, üstünde bir böcek! Karamel, Kıpır, Vızvız… Bu şarkıyı yazdık biz!” Sözcükler de dostlar gibi el ele tutuştu.",
+   "scene": {
+    "set": "cayir",
+    "time": "sunset",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "piti",
+      "x": 100,
+      "y": 64,
+      "s": 0.7,
+      "mood": "happy",
+      "hit": "bulut"
+     },
+     {
+      "k": "kedi",
+      "x": 96,
+      "y": 228,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "karamel"
+     },
+     {
+      "k": "kirpi",
+      "x": 238,
+      "y": 232,
+      "s": 1.6,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "kipir"
+     },
+     {
+      "k": "ari",
+      "x": 300,
+      "y": 180,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "fly",
+      "hit": "vizviz",
+      "flip": true
+     },
+     {
+      "k": "ugurbocegi",
+      "x": 354,
+      "y": 178,
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "bocek"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 354,
+      "y": 234,
+      "s": 0.9
+     },
+     {
+      "k": "palamut",
+      "x": 40,
+      "y": 234,
+      "s": 1.6
+     },
+     {
+      "k": "heart",
+      "x": 196,
+      "y": 92,
+      "s": 0.8,
+      "hit": "kalp"
+     }
+    ]
+   },
+   "hits": {
+    "karamel": {
+     "say": "Seninle şarkı yazmak çok güzel!",
+     "voice": "karamel",
+     "anim": "jump",
+     "fx": "meow",
+     "hearts": true
+    },
+    "kipir": {
+     "say": "Kırda bir çiçek, üstünde bir böcek!",
+     "voice": "kipir",
+     "anim": "jump",
+     "fx": "kirpi"
+    },
+    "vizviz": {
+     "say": "Vızz! Bir daha, bir daha!",
+     "voice": "vizviz",
+     "anim": "spinme",
+     "fx": "buzz"
+    },
+    "bocek": {
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "kalp": {
+     "anim": "boing",
+     "fx": "chime",
+     "spark": true
+    },
+    "bulut": {
+     "say": "Gökte bir bulut!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "kipir",
+    "Şarkıyı birlikte söyle!"
+   ],
+   "ask": "Hadi şarkıyı birlikte söyleyelim! Sen bir arkadaşınla hangi uyaklı şarkıyı yazardın?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "Uyaklı sözcükleri fark eder, sözcüklerin son seslerini karşılaştırır (TAEOB.3, teyitsiz)",
+   "Tekerleme ve şarkı dinlemeyi seçer, dinler (TADB.1)",
+   "Dinlediği hikâyedeki olayları oluş sırasına göre anlatır (TADB.3)",
+   "Bir arkadaşıyla birlikte ortak bir ürün (şarkı) oluşturur (SDB2.2 İş Birliği)"
+  ],
+  "once": [
+   "Kapağı gösterip sorun: Kedi, kirpi ve arı ne yapıyor olabilir?",
+   "Oyun: Adımı söyleyeceğim, sonu benzeyen bir sözcük bulalım (Ayşe–kayşe).",
+   "Uyak, günlük dilde ‘kafiye’ diye de bilinir."
+  ],
+  "sirasi": [
+   "2. sayfada şarkının neden tökezlediğini sorun.",
+   "Eşleştirme sayfalarında (4 ve 5) çocuk dokunmadan önce resimlerin adını birlikte söyleyin; sesli karşılık yalnız doğru eşten sonra gelir."
+  ],
+  "sonra": [
+   "Şarkıyı el çırparak birlikte söyleyin.",
+   "Olayları sıralayın: şarkı olmadı → Vızvız geldi → uyak avı → şarkı.",
+   "Uydurma uyaklarla oyun oynayın (E2.5 Oyunseverlik)."
+  ],
+  "sinif": {
+   "ad": "Uyak Sepeti",
+   "sure": "15 dk",
+   "materyal": "Sepet; karpuz, muz, portakal, bal, çiçek, böcek resim kartları (yazısız) ve 2 kartı eşsiz çeldirici (ör. elma, top)",
+   "adim": [
+    "Kartları sepetten tek tek çıkarıp adını söyleyin.",
+    "Çocuklar sonu benzeyen eşi bulup kartı yanına koysun.",
+    "Bulunan eşlerle sınıfça iki dizelik bir şarkı uydurun."
+   ]
+  },
+  "evSoru": [
+   "Şarkı ilk seferde neden olmadı?",
+   "Adınla uyaklı komik bir sözcük var mı?",
+   "Arkadaşınla birlikte bir şey yaptığında ne hissettin?"
+  ],
+  "evEtk": {
+   "ad": "Mutfakta uyak avı",
+   "d": "Mutfakta sonu benzeyen eşleri birlikte bulun: tabak–kabak, tencere–pencere, çatal–masal. Uydurma sözcükler de serbest!"
+  },
+  "aileNotu": "Bugün Uyak Avı masalını okuduk. Karamel ile Kıpır, sonları benzeyen sözcükleri (karpuz–muz, çiçek–böcek) bularak birlikte bir şarkı yazdı. Evde oyun gibi uyak avına çıkabilirsiniz. Anlamsız ama uyaklı sözcükler de bu yaşta ses farkındalığını destekler."
+ },
+ "audio": {
+  "file": "audio/029-uyak-avi.mp3",
+  "hash": "a79e5285",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12590,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      2910,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      3670,
+      9
+     ],
+     [
+      4149,
+      10
+     ],
+     [
+      4649,
+      11
+     ],
+     [
+      5489,
+      12
+     ],
+     [
+      5989,
+      13
+     ],
+     [
+      6649,
+      14
+     ],
+     [
+      7829,
+      15
+     ],
+     [
+      8109,
+      16
+     ],
+     [
+      8350,
+      17
+     ],
+     [
+      8810,
+      18
+     ],
+     [
+      9609,
+      19
+     ],
+     [
+      10049,
+      20
+     ],
+     [
+      10730,
+      21
+     ],
+     [
+      11449,
+      22
+     ],
+     [
+      11810,
+      23
+     ],
+     [
+      12169,
+      24
+     ]
+    ]
+   },
+   "p0h-karamel": {
+    "s": 12890,
+    "d": 1674,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1009,
+      3
+     ]
+    ]
+   },
+   "p0h-kipir": {
+    "s": 14864,
+    "d": 1403,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      749,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 16567,
+    "d": 15249,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      2969,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      4410,
+      7
+     ],
+     [
+      4870,
+      8
+     ],
+     [
+      5129,
+      9
+     ],
+     [
+      5850,
+      10
+     ],
+     [
+      6509,
+      11
+     ],
+     [
+      7169,
+      12
+     ],
+     [
+      7829,
+      13
+     ],
+     [
+      8270,
+      14
+     ],
+     [
+      9390,
+      15
+     ],
+     [
+      10049,
+      16
+     ],
+     [
+      10390,
+      17
+     ],
+     [
+      11149,
+      18
+     ],
+     [
+      11669,
+      19
+     ],
+     [
+      12549,
+      20
+     ],
+     [
+      12930,
+      21
+     ],
+     [
+      13109,
+      22
+     ],
+     [
+      13909,
+      23
+     ],
+     [
+      14209,
+      24
+     ],
+     [
+      14509,
+      25
+     ]
+    ]
+   },
+   "p1h-karamel": {
+    "s": 32117,
+    "d": 1900,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1229,
+      2
+     ]
+    ]
+   },
+   "p1h-kipir": {
+    "s": 34317,
+    "d": 2496,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1809,
+      3
+     ]
+    ]
+   },
+   "p1h-bulut": {
+    "s": 37114,
+    "d": 1197,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      729,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 38611,
+    "d": 20081,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      3829,
+      8
+     ],
+     [
+      3930,
+      9
+     ],
+     [
+      4410,
+      10
+     ],
+     [
+      4609,
+      11
+     ],
+     [
+      5089,
+      12
+     ],
+     [
+      6049,
+      13
+     ],
+     [
+      6749,
+      14
+     ],
+     [
+      7509,
+      15
+     ],
+     [
+      8249,
+      16
+     ],
+     [
+      8989,
+      17
+     ],
+     [
+      9289,
+      18
+     ],
+     [
+      10390,
+      19
+     ],
+     [
+      10770,
+      20
+     ],
+     [
+      11730,
+      21
+     ],
+     [
+      12350,
+      22
+     ],
+     [
+      13229,
+      23
+     ],
+     [
+      13749,
+      24
+     ],
+     [
+      14569,
+      25
+     ],
+     [
+      14909,
+      26
+     ],
+     [
+      15310,
+      27
+     ],
+     [
+      16129,
+      28
+     ],
+     [
+      16669,
+      29
+     ],
+     [
+      17850,
+      30
+     ],
+     [
+      18209,
+      31
+     ],
+     [
+      18709,
+      32
+     ],
+     [
+      19030,
+      33
+     ],
+     [
+      19289,
+      34
+     ]
+    ]
+   },
+   "p2h-vizviz": {
+    "s": 58992,
+    "d": 1960,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1489,
+      4
+     ]
+    ]
+   },
+   "p2h-karamel": {
+    "s": 61253,
+    "d": 1738,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1069,
+      4
+     ]
+    ]
+   },
+   "p2h-kipir": {
+    "s": 63291,
+    "d": 1839,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 65430,
+    "d": 2323,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 68054,
+    "d": 907,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      380,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 69261,
+    "d": 22689,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3529,
+      6
+     ],
+     [
+      4569,
+      7
+     ],
+     [
+      5689,
+      8
+     ],
+     [
+      6509,
+      9
+     ],
+     [
+      6749,
+      10
+     ],
+     [
+      7609,
+      11
+     ],
+     [
+      8129,
+      12
+     ],
+     [
+      9449,
+      13
+     ],
+     [
+      9949,
+      14
+     ],
+     [
+      10369,
+      15
+     ],
+     [
+      11149,
+      16
+     ],
+     [
+      11669,
+      17
+     ],
+     [
+      12369,
+      18
+     ],
+     [
+      13209,
+      19
+     ],
+     [
+      14329,
+      20
+     ],
+     [
+      15509,
+      21
+     ],
+     [
+      15829,
+      22
+     ],
+     [
+      16789,
+      23
+     ],
+     [
+      17190,
+      24
+     ],
+     [
+      17870,
+      25
+     ],
+     [
+      18969,
+      26
+     ],
+     [
+      19829,
+      27
+     ],
+     [
+      20129,
+      28
+     ],
+     [
+      21249,
+      29
+     ],
+     [
+      21589,
+      30
+     ],
+     [
+      21829,
+      31
+     ],
+     [
+      22369,
+      32
+     ]
+    ]
+   },
+   "p3h-karamel": {
+    "s": 92251,
+    "d": 3245,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1189,
+      1
+     ],
+     [
+      2249,
+      2
+     ],
+     [
+      2549,
+      3
+     ]
+    ]
+   },
+   "p3h-kipir": {
+    "s": 95797,
+    "d": 2257,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p3h-karpuz": {
+    "s": 98355,
+    "d": 1499,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1033,
+      1
+     ]
+    ]
+   },
+   "p3h-muz": {
+    "s": 100154,
+    "d": 1696,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1171,
+      1
+     ]
+    ]
+   },
+   "p3h-portakal": {
+    "s": 102151,
+    "d": 1152,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      848,
+      1
+     ]
+    ]
+   },
+   "p3h-bal": {
+    "s": 103603,
+    "d": 1245,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      849,
+      1
+     ]
+    ]
+   },
+   "p3h-vizviz": {
+    "s": 105149,
+    "d": 1774,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 107223,
+    "d": 3311,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      917,
+      1
+     ],
+     [
+      1739,
+      2
+     ],
+     [
+      2894,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 110834,
+    "d": 17298,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      691,
+      1
+     ],
+     [
+      1147,
+      2
+     ],
+     [
+      1954,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      2673,
+      5
+     ],
+     [
+      3440,
+      6
+     ],
+     [
+      3897,
+      7
+     ],
+     [
+      4354,
+      8
+     ],
+     [
+      4810,
+      9
+     ],
+     [
+      5267,
+      10
+     ],
+     [
+      5529,
+      11
+     ],
+     [
+      6336,
+      12
+     ],
+     [
+      6793,
+      13
+     ],
+     [
+      7055,
+      14
+     ],
+     [
+      8017,
+      15
+     ],
+     [
+      8474,
+      16
+     ],
+     [
+      8930,
+      17
+     ],
+     [
+      9387,
+      18
+     ],
+     [
+      10349,
+      19
+     ],
+     [
+      10806,
+      20
+     ],
+     [
+      11806,
+      21
+     ],
+     [
+      12457,
+      22
+     ],
+     [
+      12914,
+      23
+     ],
+     [
+      13371,
+      24
+     ],
+     [
+      13633,
+      25
+     ],
+     [
+      14206,
+      26
+     ],
+     [
+      14857,
+      27
+     ],
+     [
+      15703,
+      28
+     ],
+     [
+      16470,
+      29
+     ],
+     [
+      16733,
+      30
+     ],
+     [
+      16995,
+      31
+     ]
+    ]
+   },
+   "p4h-karamel": {
+    "s": 128432,
+    "d": 1280,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      789,
+      2
+     ]
+    ]
+   },
+   "p4h-kipir": {
+    "s": 130013,
+    "d": 1460,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      749,
+      2
+     ]
+    ]
+   },
+   "p4h-bulut": {
+    "s": 131774,
+    "d": 1272,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ]
+    ]
+   },
+   "p4h-palamut": {
+    "s": 133346,
+    "d": 1351,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      655,
+      1
+     ]
+    ]
+   },
+   "p4h-cicek": {
+    "s": 134998,
+    "d": 1287,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      670,
+      1
+     ]
+    ]
+   },
+   "p4h-bocek": {
+    "s": 136585,
+    "d": 1453,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      729,
+      1
+     ]
+    ]
+   },
+   "p4h-vizviz": {
+    "s": 138338,
+    "d": 1633,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      482,
+      1
+     ],
+     [
+      835,
+      2
+     ],
+     [
+      1187,
+      3
+     ],
+     [
+      1390,
+      4
+     ]
+    ]
+   },
+   "p4h-limon": {
+    "s": 140272,
+    "d": 1228,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      697,
+      1
+     ]
+    ]
+   },
+   "p4h-balon": {
+    "s": 141800,
+    "d": 1164,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      660,
+      1
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 143265,
+    "d": 3880,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2509,
+      4
+     ],
+     [
+      3269,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 147445,
+    "d": 17011,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      3489,
+      6
+     ],
+     [
+      3969,
+      7
+     ],
+     [
+      4209,
+      8
+     ],
+     [
+      4910,
+      9
+     ],
+     [
+      5330,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      6449,
+      12
+     ],
+     [
+      6870,
+      13
+     ],
+     [
+      7109,
+      14
+     ],
+     [
+      7870,
+      15
+     ],
+     [
+      8430,
+      16
+     ],
+     [
+      8650,
+      17
+     ],
+     [
+      9449,
+      18
+     ],
+     [
+      10270,
+      19
+     ],
+     [
+      11009,
+      20
+     ],
+     [
+      11949,
+      21
+     ],
+     [
+      12109,
+      22
+     ],
+     [
+      12709,
+      23
+     ],
+     [
+      13249,
+      24
+     ],
+     [
+      13949,
+      25
+     ],
+     [
+      14689,
+      26
+     ],
+     [
+      15109,
+      27
+     ],
+     [
+      15669,
+      28
+     ],
+     [
+      15969,
+      29
+     ],
+     [
+      16110,
+      30
+     ],
+     [
+      16350,
+      31
+     ]
+    ]
+   },
+   "p5h-karamel": {
+    "s": 164756,
+    "d": 3117,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2469,
+      4
+     ]
+    ]
+   },
+   "p5h-kipir": {
+    "s": 168174,
+    "d": 2435,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1809,
+      5
+     ]
+    ]
+   },
+   "p5h-vizviz": {
+    "s": 170910,
+    "d": 1719,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      473,
+      1
+     ],
+     [
+      672,
+      2
+     ],
+     [
+      1135,
+      3
+     ],
+     [
+      1333,
+      4
+     ]
+    ]
+   },
+   "p5h-bulut": {
+    "s": 172929,
+    "d": 1237,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      670,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

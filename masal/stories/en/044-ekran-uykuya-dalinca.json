@@ -1,0 +1,1662 @@
+{
+ "id": "044-ekran-uykuya-dalinca",
+ "lang": "en",
+ "title": "When the Screen Goes to Sleep",
+ "theme": "Screen time and active play",
+ "blurb": "Zeynep just can't tear herself away from the tablet. When the sand in the timer runs out, she gets cross; she breathes with Grandpa and puts the tablet to sleep with her own hand. Then it's time for jumping, hide and seek and a story in the living room!",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "dede": "Grandpa"
+ },
+ "pages": [
+  {
+   "text": "Zeynep sat on the rug, looking at the tablet. Beside her, the sand timer was running. Colourful shapes danced on the screen: ding ding, pop pop! Grandpa held up the ball: “Shall we play, Zeynep?” Zeynep didn't even look up. “Just a little bit more, Grandpa!”",
+   "hits": {
+    "zeynep": {
+     "say": "Just a little bit more, Grandpa!"
+    },
+    "dede": {
+     "say": "Shall we play, Zeynep?"
+    }
+   },
+   "hint": "Touch the tablet!",
+   "ask": "Do you think Zeynep heard Grandpa? Why didn't she look up?"
+  },
+  {
+   "text": "Grandpa pointed to the sand timer. “When the sand runs down, the tablet rests.” Shhh, shhh… The sand ran out. Zeynep got cross. Her cheeks went hot, her hands made fists. “But I'm not done!”",
+   "hits": {
+    "zeynep": {
+     "say": "But I'm not done!"
+    },
+    "dede": {
+     "say": "The sand ran out, look."
+    }
+   },
+   "hint": "Touch the sand timer!",
+   "ask": "What happened in Zeynep's body when she got cross? What do you feel when you're cross?"
+  },
+  {
+   "text": "Grandpa sat on the sofa: “You're cross, I know. The screen needs a rest, and so do your eyes.” Breathe in through your nose… blow out: fwooo! Again: fwooo! Zeynep's shoulders went soft.",
+   "hits": {
+    "dede": {
+     "say": "The screen needs a rest, and so do your eyes."
+    },
+    "zeynep": {
+     "say": "Fwooo!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Zeynep will do with the tablet?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "Turn it off herself"
+     },
+     {
+      "l": "Give it to Grandpa"
+     }
+    ]
+   },
+   "hint": "Breathe with Zeynep!",
+   "ask": "Let's try it together: in through the nose, out through the mouth. How did that feel?"
+  },
+  {
+   "text": "Zeynep looked at the tablet: “You're tired too, aren't you?” She pressed the button all by herself. Click! The screen went dark. “Sleep well, tablet!” Grandpa winked: “Now it's playtime!”",
+   "hits": {
+    "zeynep": {
+     "say": "Sleep well, tablet!"
+    },
+    "dede": {
+     "say": "Now it's playtime!"
+    }
+   },
+   "hint": "Put the tablet to sleep: click!",
+   "ask": "Zeynep turned the tablet off by herself. How do you feel when you do something all by yourself?"
+  },
+  {
+   "text": "Grandpa lined the cushions up on the rug: “Five cushions, five jumps!” Zeynep jumped: hop! One, two, three, four, five! Her heart went thump, thump. Her cheeks turned pink.",
+   "hits": {
+    "zeynep": {
+     "say": "Hop! My heart's going thump, thump!"
+    },
+    "dede": {
+     "say": "Hop, hop! Next cushion!"
+    }
+   },
+   "mech": {
+    "done": "Hop hop hop! Five jumps exactly!",
+    "msg": "You counted to five!"
+   },
+   "hint": "Count the cushions: hop!",
+   "ask": "Now you jump five times! Then put your hand on your heart. How is it beating?",
+   "cues": [
+    {
+     "w": 23,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Hide and seek time! Grandpa hid three toys. Zeynep shut her eyes tight: “Ready or not, here I come!” On the sofa? Under the table? “Found it, found it, found it!”",
+   "hits": {
+    "zeynep": {
+     "say": "Ready or not, here I come!"
+    },
+    "dede": {
+     "say": "Warm, warmer, hot!"
+    }
+   },
+   "mech": {
+    "done": "Found them! You found all three toys!",
+    "msg": "You found them all!"
+   },
+   "hint": "Find the hidden toys!",
+   "ask": "Where do you like to hide best in hide and seek?"
+  },
+  {
+   "text": "Evening came. Story time! Grandpa switched on the lamp. Zeynep snuggled up to him. On the shelf, the tablet slept soundly. Zeynep laughed: “The screen went to sleep, and the games woke up, Grandpa!”",
+   "hits": {
+    "dede": {
+     "say": "Once upon a time…"
+    },
+    "zeynep": {
+     "say": "The screen went to sleep and the games woke up!"
+    }
+   },
+   "hint": "Switch on the lamp!",
+   "ask": "When the tablet is asleep, what games do you play at home?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.9 (learning outcome) Moving for an active and healthy life: instead of sitting in front of a screen for a long time, the child joins in active games such as jumping on cushions and hide and seek; names fun ways to move at home.",
+   "HSAB.8.a (sub-outcome) Notices changes in breathing, heartbeat and sweating during movement: after five jumps, puts a hand on their heart, notices that it is going “thump, thump” faster and that their cheeks are hot, and talks about it.",
+   "OB2 Digital Literacy (literacy skill): talks about screen use having a time limit and about “the screen and our eyes both needing a rest”; links the time to turn off the tablet to a concrete sign such as a sand timer.",
+   "E1.2 Independence (disposition): turns the tablet off with their own hand instead of waiting for an adult to take it away, and manages the transition themselves by saying “Sleep well, tablet!”",
+   "SDB1.2 Self-Regulation and D13 Healthy Living: names their anger, notices its signs in the body (hot cheeks, hands making fists) and calms down with the “in through the nose, out through the mouth” breath."
+  ],
+  "once": [
+   "Ask the child: “How do you know when it's time to turn off the screen at home?” Listen to the answers without judging.",
+   "Show the cover: “How does a screen go to sleep? What could happen when the screen is asleep?” Note the guesses and look at them again when the story is over."
+  ],
+  "sirasi": [
+   "On page 1, pause while Grandpa calls: “Did Zeynep hear Grandpa?” Talk about not hearing what's around us when we are lost in a screen.",
+   "On page 2, point to the sand timer and to Zeynep's face and hands: “The sand ran out. How is Zeynep feeling? Where in her body can you see it?” Say the word “cross” together.",
+   "On page 3, do the breathing together: in through the nose… out through the mouth, fwooo! At the prediction question, accept both answers and say “Let's see!”",
+   "On page 5, while counting the cushions, jump five times on the spot yourselves; then put your hand on your heart.",
+   "On page 6, say the “Ready or not, here I come!” rhyme together."
+  ],
+  "sonra": [
+   "How did Zeynep turn off the tablet? How might she have felt turning it off herself, with nobody forcing her?",
+   "What three things did Zeynep and Grandpa do when the tablet went to sleep? (jumping, hide and seek, story time) Which one would you like to do?",
+   "What other ways could help when we are cross? (breathing, a hug, telling a grown-up, counting)",
+   "Tell the story with sequencing cards: the sand timer, the tablet going to sleep, story time."
+  ],
+  "sinif": {
+   "ad": "Play Course While the Screen Sleeps",
+   "sure": "20 min",
+   "materyal": "5 mats or cushions, 1 sand timer or timer, a picture of a switched-off tablet (card), 3 small toys, background music",
+   "adim": [
+    "Make a circle. Show the card tablet picture, say “Now our screen is sleeping and our bodies are waking up!” and all together say “Sleep well, tablet!”",
+    "Lay the mats on the floor. Each child in turn steps on the mats and jumps five times, while the class counts together: “one, two, three, four, five.”",
+    "After jumping, everyone puts a hand on their heart: “How is our heart beating? How is our breathing?” Talk about the change.",
+    "Hide three toys in the classroom; one child says “Ready or not, here I come!” and searches, while the others give “warm-cold” clues.",
+    "Turn the sand timer over and end the activity with a calm rest, listening quietly to a story."
+   ]
+  },
+  "evSoru": [
+   "What did Grandpa use to show when it was the tablet's rest time?",
+   "What did Zeynep do to calm down when she was cross?",
+   "What games can we play at our house when the screen is asleep?"
+  ],
+  "evEtk": {
+   "ad": "Screen Bedtime",
+   "d": "Decide together in advance when the screen will go off, and make it concrete with a sand timer, a timer or a mark on the wall clock. When the time is up, let your child turn the tablet off themselves and say “Sleep well, tablet!” Then offer a ready-made active choice: five jumps, hide and seek or a story together."
+  },
+  "aileNotu": "Today we read “When the Screen Goes to Sleep.” Zeynep, who didn't want to leave the tablet, got cross when the sand in the timer ran out; she calmed down by breathing with Grandpa and turned the tablet off herself. Then they jumped, played hide and seek and read a story together. Leaving a screen is hard for young children: agreeing the time together beforehand, making the end visible with a sign like a sand timer, and then offering an active game makes the transition easier; if your child gets cross, you can name the feeling and breathe together."
+ },
+ "audio": {
+  "file": "audio/en/044-ekran-uykuya-dalinca.mp3",
+  "hash": "1e845455",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16963,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1809,
+      6
+     ],
+     [
+      1909,
+      7
+     ],
+     [
+      2049,
+      8
+     ],
+     [
+      3029,
+      9
+     ],
+     [
+      3449,
+      10
+     ],
+     [
+      3829,
+      11
+     ],
+     [
+      3989,
+      12
+     ],
+     [
+      4290,
+      13
+     ],
+     [
+      4649,
+      14
+     ],
+     [
+      4830,
+      15
+     ],
+     [
+      5609,
+      16
+     ],
+     [
+      6129,
+      17
+     ],
+     [
+      6569,
+      18
+     ],
+     [
+      6949,
+      19
+     ],
+     [
+      7049,
+      20
+     ],
+     [
+      7169,
+      21
+     ],
+     [
+      8049,
+      22
+     ],
+     [
+      8190,
+      23
+     ],
+     [
+      8789,
+      24
+     ],
+     [
+      9069,
+      25
+     ],
+     [
+      9829,
+      26
+     ],
+     [
+      10310,
+      27
+     ],
+     [
+      10549,
+      28
+     ],
+     [
+      10690,
+      29
+     ],
+     [
+      10810,
+      30
+     ],
+     [
+      11569,
+      31
+     ],
+     [
+      11770,
+      32
+     ],
+     [
+      11909,
+      33
+     ],
+     [
+      12230,
+      34
+     ],
+     [
+      13209,
+      35
+     ],
+     [
+      13709,
+      36
+     ],
+     [
+      13989,
+      37
+     ],
+     [
+      14249,
+      38
+     ],
+     [
+      14489,
+      39
+     ],
+     [
+      15149,
+      40
+     ],
+     [
+      15430,
+      41
+     ],
+     [
+      15589,
+      42
+     ],
+     [
+      15850,
+      43
+     ],
+     [
+      16030,
+      44
+     ],
+     [
+      16426,
+      45
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 17263,
+    "d": 2094,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      268,
+      1
+     ],
+     [
+      496,
+      2
+     ],
+     [
+      894,
+      3
+     ],
+     [
+      1123,
+      4
+     ],
+     [
+      1656,
+      5
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 19657,
+    "d": 1463,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      909,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21421,
+    "d": 14577,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2309,
+      7
+     ],
+     [
+      2449,
+      8
+     ],
+     [
+      2769,
+      9
+     ],
+     [
+      3049,
+      10
+     ],
+     [
+      3670,
+      11
+     ],
+     [
+      3829,
+      12
+     ],
+     [
+      4310,
+      13
+     ],
+     [
+      5249,
+      14
+     ],
+     [
+      6224,
+      15
+     ],
+     [
+      7269,
+      16
+     ],
+     [
+      7449,
+      17
+     ],
+     [
+      7829,
+      18
+     ],
+     [
+      8109,
+      19
+     ],
+     [
+      8869,
+      20
+     ],
+     [
+      9270,
+      21
+     ],
+     [
+      9509,
+      22
+     ],
+     [
+      10329,
+      23
+     ],
+     [
+      10509,
+      24
+     ],
+     [
+      10810,
+      25
+     ],
+     [
+      11069,
+      26
+     ],
+     [
+      11609,
+      27
+     ],
+     [
+      11789,
+      28
+     ],
+     [
+      12169,
+      29
+     ],
+     [
+      12449,
+      30
+     ],
+     [
+      13229,
+      31
+     ],
+     [
+      13449,
+      32
+     ],
+     [
+      13629,
+      33
+     ],
+     [
+      13949,
+      34
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 36298,
+    "d": 1231,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      282,
+      1
+     ],
+     [
+      525,
+      2
+     ],
+     [
+      768,
+      3
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 37830,
+    "d": 1912,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1449,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 40043,
+    "d": 15100,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3809,
+      9
+     ],
+     [
+      3969,
+      10
+     ],
+     [
+      4290,
+      11
+     ],
+     [
+      4529,
+      12
+     ],
+     [
+      4649,
+      13
+     ],
+     [
+      5289,
+      14
+     ],
+     [
+      5489,
+      15
+     ],
+     [
+      5669,
+      16
+     ],
+     [
+      5789,
+      17
+     ],
+     [
+      6009,
+      18
+     ],
+     [
+      6930,
+      19
+     ],
+     [
+      7249,
+      20
+     ],
+     [
+      7390,
+      21
+     ],
+     [
+      7609,
+      22
+     ],
+     [
+      7769,
+      23
+     ],
+     [
+      8930,
+      24
+     ],
+     [
+      9289,
+      25
+     ],
+     [
+      10094,
+      26
+     ],
+     [
+      10969,
+      27
+     ],
+     [
+      12054,
+      28
+     ],
+     [
+      13209,
+      29
+     ],
+     [
+      13669,
+      30
+     ],
+     [
+      14229,
+      31
+     ],
+     [
+      14509,
+      32
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 55444,
+    "d": 3246,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      969,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      2469,
+      8
+     ],
+     [
+      2709,
+      9
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 58991,
+    "d": 812,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 60103,
+    "d": 2345,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      1410,
+      7
+     ],
+     [
+      1550,
+      8
+     ],
+     [
+      1689,
+      9
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 62748,
+    "d": 945,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      349,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 63994,
+    "d": 13114,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2630,
+      7
+     ],
+     [
+      3029,
+      8
+     ],
+     [
+      3269,
+      9
+     ],
+     [
+      4029,
+      10
+     ],
+     [
+      4229,
+      11
+     ],
+     [
+      4529,
+      12
+     ],
+     [
+      4629,
+      13
+     ],
+     [
+      5069,
+      14
+     ],
+     [
+      5269,
+      15
+     ],
+     [
+      5469,
+      16
+     ],
+     [
+      6390,
+      17
+     ],
+     [
+      7109,
+      18
+     ],
+     [
+      7269,
+      19
+     ],
+     [
+      7669,
+      20
+     ],
+     [
+      7930,
+      21
+     ],
+     [
+      8770,
+      22
+     ],
+     [
+      9089,
+      23
+     ],
+     [
+      9390,
+      24
+     ],
+     [
+      10310,
+      25
+     ],
+     [
+      10829,
+      26
+     ],
+     [
+      11609,
+      27
+     ],
+     [
+      11949,
+      28
+     ],
+     [
+      12189,
+      29
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 77408,
+    "d": 1559,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      909,
+      2
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 79268,
+    "d": 1619,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      689,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 81188,
+    "d": 14056,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      1689,
+      7
+     ],
+     [
+      2469,
+      8
+     ],
+     [
+      2789,
+      9
+     ],
+     [
+      3609,
+      10
+     ],
+     [
+      4029,
+      11
+     ],
+     [
+      4949,
+      12
+     ],
+     [
+      5449,
+      13
+     ],
+     [
+      6189,
+      14
+     ],
+     [
+      7049,
+      15
+     ],
+     [
+      7549,
+      16
+     ],
+     [
+      8190,
+      17
+     ],
+     [
+      8810,
+      18
+     ],
+     [
+      9409,
+      19
+     ],
+     [
+      10329,
+      20
+     ],
+     [
+      10529,
+      21
+     ],
+     [
+      10810,
+      22
+     ],
+     [
+      11149,
+      23
+     ],
+     [
+      11730,
+      24
+     ],
+     [
+      12549,
+      25
+     ],
+     [
+      12770,
+      26
+     ],
+     [
+      13189,
+      27
+     ],
+     [
+      13529,
+      28
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 95544,
+    "d": 2843,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      816,
+      1
+     ],
+     [
+      1171,
+      2
+     ],
+     [
+      1526,
+      3
+     ],
+     [
+      1882,
+      4
+     ],
+     [
+      2447,
+      5
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 98688,
+    "d": 1885,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 100874,
+    "d": 2950,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2089,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 104124,
+    "d": 12367,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      2849,
+      7
+     ],
+     [
+      3829,
+      8
+     ],
+     [
+      4310,
+      9
+     ],
+     [
+      4569,
+      10
+     ],
+     [
+      4769,
+      11
+     ],
+     [
+      5089,
+      12
+     ],
+     [
+      5969,
+      13
+     ],
+     [
+      6209,
+      14
+     ],
+     [
+      6350,
+      15
+     ],
+     [
+      6809,
+      16
+     ],
+     [
+      7069,
+      17
+     ],
+     [
+      7209,
+      18
+     ],
+     [
+      8150,
+      19
+     ],
+     [
+      8249,
+      20
+     ],
+     [
+      8390,
+      21
+     ],
+     [
+      9369,
+      22
+     ],
+     [
+      9609,
+      23
+     ],
+     [
+      9730,
+      24
+     ],
+     [
+      10569,
+      25
+     ],
+     [
+      10890,
+      26
+     ],
+     [
+      11169,
+      27
+     ],
+     [
+      11449,
+      28
+     ],
+     [
+      11649,
+      29
+     ],
+     [
+      11989,
+      30
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 116791,
+    "d": 2054,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      429,
+      1
+     ],
+     [
+      653,
+      2
+     ],
+     [
+      1010,
+      3
+     ],
+     [
+      1400,
+      4
+     ],
+     [
+      1624,
+      5
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 119146,
+    "d": 2511,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1969,
+      2
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 121958,
+    "d": 2738,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      2029,
+      6
+     ]
+    ]
+   },
+   "p6": {
+    "s": 124996,
+    "d": 13538,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2529,
+      4
+     ],
+     [
+      3029,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      3670,
+      8
+     ],
+     [
+      4489,
+      9
+     ],
+     [
+      4949,
+      10
+     ],
+     [
+      5370,
+      11
+     ],
+     [
+      5529,
+      12
+     ],
+     [
+      5669,
+      13
+     ],
+     [
+      6390,
+      14
+     ],
+     [
+      6509,
+      15
+     ],
+     [
+      6649,
+      16
+     ],
+     [
+      7189,
+      17
+     ],
+     [
+      7349,
+      18
+     ],
+     [
+      7829,
+      19
+     ],
+     [
+      8190,
+      20
+     ],
+     [
+      9249,
+      21
+     ],
+     [
+      9749,
+      22
+     ],
+     [
+      10489,
+      23
+     ],
+     [
+      10709,
+      24
+     ],
+     [
+      11069,
+      25
+     ],
+     [
+      11270,
+      26
+     ],
+     [
+      11430,
+      27
+     ],
+     [
+      11829,
+      28
+     ],
+     [
+      11930,
+      29
+     ],
+     [
+      12089,
+      30
+     ],
+     [
+      12430,
+      31
+     ],
+     [
+      12709,
+      32
+     ],
+     [
+      12949,
+      33
+     ]
+    ]
+   },
+   "p6h-dede": {
+    "s": 138835,
+    "d": 1466,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 140602,
+    "d": 3094,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      1769,
+      6
+     ],
+     [
+      1930,
+      7
+     ],
+     [
+      2370,
+      8
+     ],
+     [
+      2709,
+      9
+     ]
+    ]
+   }
+  }
+ }
+}

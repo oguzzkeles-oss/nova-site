@@ -1,0 +1,1460 @@
+{
+ "id": "009-bugun-nasil-hissediyorum",
+ "lang": "en",
+ "title": "How Do I Feel Today?",
+ "theme": "Recognising feelings",
+ "blurb": "Ali's day starts all fizzy; then the last piece of his puzzle goes missing, and his cat Cinnamon grabs his hat. Breathing with Mum, Ali discovers that every feeling has a sign in the body, and that he is loved however he feels.",
+ "voiceNames": {
+  "ali": "Ali",
+  "anne": "Mum",
+  "tarcin": "Cinnamon (cat)"
+ },
+ "pages": [
+  {
+   "text": "Good morning, Ali! How do you feel today? Ali did a puzzle: one, two, three, four pieces! His face lit up. He felt fizzy inside. “I feel happy!” he said.",
+   "hits": {
+    "ali": {
+     "say": "I'm happy today!"
+    },
+    "tarcin": {
+     "say": "Purrr, purrr…"
+    }
+   },
+   "mech": {
+    "done": "Four pieces! One more piece to go.",
+    "msg": "Four pieces!"
+   },
+   "hint": "Count the pieces one by one!",
+   "ask": "What happens inside you when you're happy? What does your face do?"
+  },
+  {
+   "text": "Where was the last piece? Ali looked and looked… Gone! His eyes filled with tears. His throat felt tight. “I feel sad,” he said. His cat Cinnamon snuggled close.",
+   "hits": {
+    "ali": {
+     "say": "The last piece is gone…"
+    },
+    "tarcin": {
+     "say": "Purrr…"
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "Why was Ali sad? Have you ever lost something and felt sad?"
+  },
+  {
+   "text": "Time for the park! But where was his hat? Oh, Cinnamon had grabbed it! Ali's cheeks went bright red. His heart went thump, thump, his fists went tight, tight. “I feel so angry!”",
+   "hits": {
+    "ali": {
+     "say": "That's my hat! I'm so angry!"
+    },
+    "tarcin": {
+     "say": "Meow!"
+    }
+   },
+   "predict": {
+    "q": "Ali is very angry. What do you think he will do now?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "He tells Mum"
+     },
+     {
+      "l": "He takes a deep breath"
+     }
+    ]
+   },
+   "hint": "Touch Cinnamon!",
+   "ask": "What happens in your body when you're angry? What do your cheeks and your hands do?",
+   "cues": [
+    {
+     "w": 22,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ali ran to Mum: “Cinnamon took my hat!” Mum listened. “You're angry, I understand. Come, let's blow up our tummies like balloons.” Hhhhh… Fwooo… His heart slowed down: thump… thump…",
+   "hits": {
+    "ali": {
+     "say": "Hhhhh… My tummy is big like a balloon!"
+    },
+    "anne": {
+     "say": "Fwooo… Let the balloon go down slowly."
+    },
+    "tarcin": {
+     "say": "Meow?"
+    }
+   },
+   "hint": "Hhhhh, then fwooo!",
+   "ask": "Let's blow up our tummies like balloons: hhhhh… Now let them go down: fwooo. How do you feel?",
+   "mech": {
+    "done": "Hhhhh, fwooo! Ali's heart slowed down.",
+    "msg": "He's calm now!"
+   },
+   "cues": [
+    {
+     "w": 28,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ali looked at Cinnamon. Cinnamon was batting the pompom with his paw: pat, pat! “You want to play!” Ali gave him the red ball. He took his hat back. Oh! The last piece was inside the hat!",
+   "mech": {
+    "done": "The ball for Cinnamon, the hat for Ali. And the piece is found!",
+    "msg": "Everyone's happy!"
+   },
+   "hint": "The ball to Cinnamon, the hat to Ali!",
+   "ask": "Why did Cinnamon take the hat? How did Ali feel when he found the last piece?"
+  },
+  {
+   "text": "That evening, the last piece went in: click! Ali whispered: “Do you love me when I'm angry too?” Mum hugged him. “Happy, sad or angry, I love you just the same!” Ali felt warm inside.",
+   "hits": {
+    "anne": {
+     "say": "I love you however you feel."
+    },
+    "ali": {
+     "say": "I love you too!"
+    },
+    "tarcin": {
+     "say": "Purrr, purrr…"
+    }
+   },
+   "hint": "Touch Mum!",
+   "ask": "Ali felt warm inside. What do you think this feeling is called?",
+   "cues": [
+    {
+     "w": 7,
+     "fx": "click"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TAKB.2 Building the content of a conversation: connects the topic they will talk about with their prior knowledge and daily life. The child talks about Ali's feelings by linking them to a moment from their own day.",
+   "TADB.4 Expressing their views on what they hear or watch: says what they feel and think about the story (\"How did you feel when the piece went missing?\").",
+   "E2.1 Empathy: thinks about why Cinnamon took the hat from the cat's point of view; realises the cat took it to play, not to annoy.",
+   "SDB1.1 Self-Awareness: notices and names the signs of happiness, sadness and anger in the body (fizzy inside, a tight throat, a thumping heart).",
+   "D15 Love (unverified): experiences that love does not change with feelings: \"I love you when you're happy, when you're sad and when you're angry!\""
+  ],
+  "once": [
+   "Look at Ali on the cover: \"How do you think Ali feels right now? How can you tell?\"",
+   "Ask \"How do you feel today?\"; each child first shows it with their face, then says the name of the feeling if they want to.",
+   "Introduce the word \"feeling\": \"It happens inside us; it shows on our face and in our body.\""
+  ],
+  "sirasi": [
+   "Stop on each feeling page and point to the body together: fizzy inside (touch the tummy), a tight throat (touch the throat), a thumping heart (touch the chest).",
+   "For the prediction question, listen to both options; collect safe ways by asking \"What else can we do when we're angry?\"",
+   "On the breathing page, put the book down and all breathe together three times: puff the tummy up like a balloon with \"hhhhh\" through the nose, let it down with \"fwooo\" through the mouth.",
+   "On the Cinnamon page, ask: \"Did Cinnamon want to annoy Ali, or to play?\""
+  ],
+  "sonra": [
+   "Feelings mirror: make happy, sad and angry faces in front of a mirror; with each face, talk about what happens in the body.",
+   "Make a picture list of \"What can I do when I'm angry?\": take a breath, tell a grown-up, have a hug, spend a little time alone to calm down.",
+   "Feeling statues: play the traditional statues game; when the music stops, be a statue of the feeling the teacher calls out.",
+   "After the ordering game at the end of the story, let the child retell the story in their own words: \"First Ali was happy, then…\""
+  ],
+  "sinif": {
+   "ad": "My Feelings Map",
+   "sure": "20 min",
+   "materyal": "A child-sized body outline drawn on brown paper, yellow, blue and red round stickers, a mirror",
+   "adim": [
+    "Lay the outline on the rug; remember the three feelings from the story: happy (yellow), sad (blue), angry (red).",
+    "Each child chooses a colour and sticks it on the outline where they feel that feeling in their body.",
+    "The child explains: \"When I'm angry my cheeks go red.\" There are no right or wrong answers; different places are valuable too.",
+    "Make the face for that feeling together in the mirror.",
+    "Close with three slow \"hhhhh-fwooo\" breaths."
+   ]
+  },
+  "evSoru": [
+   "When were you happiest today? What happened inside you?",
+   "What happens in your body when you're angry? What calms you down?",
+   "Why do you think Cinnamon took the hat? How was he feeling?"
+  ],
+  "evEtk": {
+   "ad": "Evening Feelings Chat",
+   "d": "Before bed, take turns as a family to name one feeling from the day and show where you felt it in your body (\"I got a bit tired today, my shoulders felt heavy\"). A grown-up naming their own feeling is the strongest example for a child. Finish with three slow breaths together."
+  },
+  "aileNotu": "Today we read \"How Do I Feel Today?\" Together with Ali we got to know happiness, sadness and anger; we discovered that every feeling has a sign in the body. We talked about how getting angry is normal too, and about breathing and telling a grown-up to calm down. At home, helping your child name their feeling (\"Your piece went missing, you felt very sad\") and telling them you love them however they feel will strengthen this learning."
+ },
+ "audio": {
+  "file": "audio/en/009-bugun-nasil-hissediyorum.mp3",
+  "hash": "c3e3c662",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12955,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1589,
+      6
+     ],
+     [
+      1829,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      3069,
+      9
+     ],
+     [
+      3249,
+      10
+     ],
+     [
+      3329,
+      11
+     ],
+     [
+      4330,
+      12
+     ],
+     [
+      4850,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      6189,
+      15
+     ],
+     [
+      6589,
+      16
+     ],
+     [
+      7689,
+      17
+     ],
+     [
+      8009,
+      18
+     ],
+     [
+      8469,
+      19
+     ],
+     [
+      8709,
+      20
+     ],
+     [
+      9230,
+      21
+     ],
+     [
+      9390,
+      22
+     ],
+     [
+      9749,
+      23
+     ],
+     [
+      10149,
+      24
+     ],
+     [
+      11129,
+      25
+     ],
+     [
+      11270,
+      26
+     ],
+     [
+      11629,
+      27
+     ],
+     [
+      12369,
+      28
+     ],
+     [
+      12569,
+      29
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 13255,
+    "d": 1282,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      689,
+      2
+     ]
+    ]
+   },
+   "p0h-tarcin": {
+    "s": 14837,
+    "d": 2026,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1235,
+      1
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 17163,
+    "d": 2593,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2130,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20057,
+    "d": 13893,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      3029,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      4310,
+      9
+     ],
+     [
+      5370,
+      10
+     ],
+     [
+      5669,
+      11
+     ],
+     [
+      6029,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      6589,
+      14
+     ],
+     [
+      7430,
+      15
+     ],
+     [
+      7669,
+      16
+     ],
+     [
+      8069,
+      17
+     ],
+     [
+      8369,
+      18
+     ],
+     [
+      9350,
+      19
+     ],
+     [
+      9489,
+      20
+     ],
+     [
+      9850,
+      21
+     ],
+     [
+      10730,
+      22
+     ],
+     [
+      10930,
+      23
+     ],
+     [
+      11770,
+      24
+     ],
+     [
+      11969,
+      25
+     ],
+     [
+      12289,
+      26
+     ],
+     [
+      12829,
+      27
+     ],
+     [
+      13289,
+      28
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 34250,
+    "d": 1742,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      296,
+      1
+     ],
+     [
+      552,
+      2
+     ],
+     [
+      999,
+      3
+     ],
+     [
+      1255,
+      4
+     ]
+    ]
+   },
+   "p1h-tarcin": {
+    "s": 36293,
+    "d": 1178,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 37772,
+    "d": 14056,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2049,
+      6
+     ],
+     [
+      2209,
+      7
+     ],
+     [
+      2430,
+      8
+     ],
+     [
+      3449,
+      9
+     ],
+     [
+      3749,
+      10
+     ],
+     [
+      4209,
+      11
+     ],
+     [
+      4390,
+      12
+     ],
+     [
+      4890,
+      13
+     ],
+     [
+      5569,
+      14
+     ],
+     [
+      5989,
+      15
+     ],
+     [
+      6410,
+      16
+     ],
+     [
+      6709,
+      17
+     ],
+     [
+      7109,
+      18
+     ],
+     [
+      7809,
+      19
+     ],
+     [
+      8029,
+      20
+     ],
+     [
+      8310,
+      21
+     ],
+     [
+      8650,
+      22
+     ],
+     [
+      9150,
+      23
+     ],
+     [
+      9890,
+      24
+     ],
+     [
+      10169,
+      25
+     ],
+     [
+      10609,
+      26
+     ],
+     [
+      10909,
+      27
+     ],
+     [
+      11469,
+      28
+     ],
+     [
+      12369,
+      29
+     ],
+     [
+      12549,
+      30
+     ],
+     [
+      12890,
+      31
+     ],
+     [
+      13369,
+      32
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 52128,
+    "d": 2933,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2209,
+      5
+     ]
+    ]
+   },
+   "p2h-tarcin": {
+    "s": 55361,
+    "d": 895,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 56557,
+    "d": 3721,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2390,
+      6
+     ],
+     [
+      2509,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      2829,
+      9
+     ],
+     [
+      3009,
+      10
+     ],
+     [
+      3209,
+      11
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 60578,
+    "d": 2344,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 63223,
+    "d": 15945,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      4569,
+      10
+     ],
+     [
+      4830,
+      11
+     ],
+     [
+      5589,
+      12
+     ],
+     [
+      5709,
+      13
+     ],
+     [
+      6789,
+      14
+     ],
+     [
+      7289,
+      15
+     ],
+     [
+      7529,
+      16
+     ],
+     [
+      7729,
+      17
+     ],
+     [
+      7849,
+      18
+     ],
+     [
+      7989,
+      19
+     ],
+     [
+      8350,
+      20
+     ],
+     [
+      8529,
+      21
+     ],
+     [
+      12230,
+      22
+     ],
+     [
+      12260,
+      23
+     ],
+     [
+      12290,
+      24
+     ],
+     [
+      12469,
+      25
+     ],
+     [
+      12850,
+      26
+     ],
+     [
+      13249,
+      27
+     ],
+     [
+      14289,
+      28
+     ],
+     [
+      15449,
+      29
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 79468,
+    "d": 3505,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      696,
+      1
+     ],
+     [
+      996,
+      2
+     ],
+     [
+      1518,
+      3
+     ],
+     [
+      1819,
+      4
+     ],
+     [
+      2119,
+      5
+     ],
+     [
+      2642,
+      6
+     ],
+     [
+      2942,
+      7
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 83274,
+    "d": 3565,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1430,
+      1
+     ],
+     [
+      1629,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2489,
+      5
+     ],
+     [
+      2949,
+      6
+     ]
+    ]
+   },
+   "p3h-tarcin": {
+    "s": 87139,
+    "d": 671,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 88111,
+    "d": 4163,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1240,
+      1
+     ],
+     [
+      2430,
+      2
+     ],
+     [
+      2829,
+      3
+     ],
+     [
+      3269,
+      4
+     ],
+     [
+      3629,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 92574,
+    "d": 12730,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      2630,
+      7
+     ],
+     [
+      2749,
+      8
+     ],
+     [
+      3269,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      3569,
+      11
+     ],
+     [
+      4310,
+      12
+     ],
+     [
+      4749,
+      13
+     ],
+     [
+      5469,
+      14
+     ],
+     [
+      5669,
+      15
+     ],
+     [
+      5870,
+      16
+     ],
+     [
+      5989,
+      17
+     ],
+     [
+      7009,
+      18
+     ],
+     [
+      7309,
+      19
+     ],
+     [
+      7529,
+      20
+     ],
+     [
+      7689,
+      21
+     ],
+     [
+      7809,
+      22
+     ],
+     [
+      8029,
+      23
+     ],
+     [
+      8770,
+      24
+     ],
+     [
+      8909,
+      25
+     ],
+     [
+      9089,
+      26
+     ],
+     [
+      9230,
+      27
+     ],
+     [
+      9449,
+      28
+     ],
+     [
+      10169,
+      29
+     ],
+     [
+      10730,
+      30
+     ],
+     [
+      10909,
+      31
+     ],
+     [
+      11209,
+      32
+     ],
+     [
+      11509,
+      33
+     ],
+     [
+      11669,
+      34
+     ],
+     [
+      12049,
+      35
+     ],
+     [
+      12209,
+      36
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 105605,
+    "d": 4296,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1809,
+      6
+     ],
+     [
+      2049,
+      7
+     ],
+     [
+      2789,
+      8
+     ],
+     [
+      2949,
+      9
+     ],
+     [
+      3109,
+      10
+     ],
+     [
+      3430,
+      11
+     ],
+     [
+      3650,
+      12
+     ]
+    ]
+   },
+   "p5": {
+    "s": 110201,
+    "d": 14256,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      1989,
+      6
+     ],
+     [
+      2689,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      3949,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      4989,
+      11
+     ],
+     [
+      5149,
+      12
+     ],
+     [
+      5390,
+      13
+     ],
+     [
+      5529,
+      14
+     ],
+     [
+      5689,
+      15
+     ],
+     [
+      5930,
+      16
+     ],
+     [
+      6350,
+      17
+     ],
+     [
+      7289,
+      18
+     ],
+     [
+      7629,
+      19
+     ],
+     [
+      7930,
+      20
+     ],
+     [
+      8669,
+      21
+     ],
+     [
+      9270,
+      22
+     ],
+     [
+      9709,
+      23
+     ],
+     [
+      9989,
+      24
+     ],
+     [
+      10730,
+      25
+     ],
+     [
+      10869,
+      26
+     ],
+     [
+      11069,
+      27
+     ],
+     [
+      11289,
+      28
+     ],
+     [
+      11589,
+      29
+     ],
+     [
+      11749,
+      30
+     ],
+     [
+      12629,
+      31
+     ],
+     [
+      12969,
+      32
+     ],
+     [
+      13310,
+      33
+     ],
+     [
+      13609,
+      34
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 124758,
+    "d": 2560,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 127618,
+    "d": 1253,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      771,
+      3
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 129172,
+    "d": 2083,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1270,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

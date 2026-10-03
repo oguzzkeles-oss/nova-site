@@ -1,0 +1,1897 @@
+{
+ "id": "087-dedemin-resim-sergisi",
+ "lang": "en",
+ "title": "Grandma's Art Show",
+ "theme": "Respect for works of art and the artist; expressing feelings about a work",
+ "blurb": "Zeynep's grandma hangs her paintings in the living room and opens an exhibition at home; the first visitor is Zeynep. Noticing that her grandma feels shy, Zeynep looks at the paintings slowly; she finds out which were painted from life and which from imagination, and says how each painting makes her feel, and why.",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "nine": "Grandma (Zeynep's grandma, the painter)",
+  "karamel": "Caramel (cat)"
+ },
+ "pages": [
+  {
+   "text": "Zeynep's grandma loves painting. Today she hung her paintings on the living-room wall. One, two, three! “I've opened an exhibition at home,” she said. “You be my first visitor, Zeynep!” Caramel the cat purred: purrr.",
+   "hits": {
+    "nine": {
+     "say": "Welcome, my first visitor!"
+    },
+    "zeynep": {
+     "say": "Hooray, an exhibition at home!"
+    },
+    "karamel": {
+     "say": "Purrr… purrr…"
+    }
+   },
+   "mech": {
+    "done": "One, two, three! Grandma's exhibition is ready.",
+    "msg": "You counted the paintings!"
+   },
+   "hint": "Count Grandma's paintings!",
+   "ask": "Have you ever been to an exhibition? What did you see there?"
+  },
+  {
+   "text": "Zeynep was still clapping: clap clap clap! But Grandma suddenly went quiet. Her cheeks went red, she rubbed her fingers. “What if you don't like my paintings?” she said softly. Zeynep looked at her carefully. Grandma felt a little shy.",
+   "hits": {
+    "nine": {
+     "say": "What if you don't like my paintings?"
+    },
+    "zeynep": {
+     "say": "Why did Grandma suddenly go quiet?"
+    },
+    "karamel": {
+     "say": "Purrr?"
+    }
+   },
+   "hint": "Touch Grandma!",
+   "ask": "How is Grandma feeling? How can you tell?",
+   "cues": [
+    {
+     "w": 3,
+     "fx": "alkis"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep held her grandma's hand. “I'll look at your paintings slowly, slowly,” she said. Caramel reached a paw out to a painting. “Caramel, we look at paintings with our eyes!” said Zeynep. Caramel opened his eyes wide. Grandma smiled. Zeynep wondered: how had Grandma made these paintings?",
+   "hits": {
+    "nine": {
+     "say": "How nicely you look, my dear."
+    },
+    "zeynep": {
+     "say": "I'll look slowly, slowly."
+    },
+    "karamel": {
+     "say": "Meow! I'm looking with my eyes!"
+    }
+   },
+   "predict": {
+    "q": "How do you think Grandma made her paintings?",
+    "res": "Both are right! A painter looks, and imagines too.",
+    "opts": [
+     {
+      "l": "By looking at things at home"
+     },
+     {
+      "l": "By imagining"
+     }
+    ]
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "How do we look at a painting? What do you look at when you paint?"
+  },
+  {
+   "text": "Zeynep looked at each painting. The first had a sun and flowers. Oh, the flowers in the pot! The last one had a family holding hands. Oh, that's us! “And the house in the middle?” Grandma winked: “That one I imagined.”",
+   "hits": {
+    "nine": {
+     "say": "Some by looking, some by imagining!"
+    },
+    "zeynep": {
+     "say": "We're in this painting!"
+    },
+    "r2": {
+     "say": "I drew this house from my imagination."
+    }
+   },
+   "mech": {
+    "done": "The flowers and we are both in the paintings!",
+    "msg": "You found it, the very same!"
+   },
+   "hint": "Find the painting of the flowers!",
+   "ask": "How did Grandma make the painting of the flowers? What would you like to look at while painting?"
+  },
+  {
+   "text": "Zeynep stood in front of each painting. The sunny painting made her cheerful. “Because it's warm!” The house painting made her calm. “Because it's peaceful.” The last painting warmed her heart. “Because it's us!” Grandma listened, listened.",
+   "hits": {
+    "r1": {
+     "say": "It made me cheerful, because it's warm!"
+    },
+    "r2": {
+     "say": "It made me calm, because it's peaceful."
+    },
+    "r3": {
+     "say": "It warmed my heart, because it's us!"
+    },
+    "nine": {
+     "say": "It's lovely to listen to you."
+    },
+    "zeynep": {
+     "say": "Every painting tells me something different."
+    },
+    "karamel": {
+     "say": "Purrr, purrr."
+    }
+   },
+   "hint": "Touch the paintings!",
+   "ask": "How did each of these paintings make you feel? Why?"
+  },
+  {
+   "text": "Grandma's eyes sparkled. “You looked at my paintings so nicely,” she said. “And you listened to me.” Then she handed Zeynep the palette. “The next exhibition is yours!” Caramel purred: purrr. Now there were two painters in the living room.",
+   "hits": {
+    "nine": {
+     "say": "The next exhibition is yours!"
+    },
+    "zeynep": {
+     "say": "My first painting will be Caramel!"
+    },
+    "karamel": {
+     "say": "Purrr! Meow!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "If you opened an exhibition, what would you hang up? Who would be your first visitor?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.2 — Examining a work of art: Looks at Grandma's paintings one by one, connects the subject of the work with their own life (the flowers in the pot, their own family), and expresses feelings and thoughts about the work and explains why (SNAB.2.g: “It made me cheerful, because it's warm!”).",
+   "SNAB.3 — Valuing works of art and artists: Makes predictions about how the works were made and checks them (the flowers and the family were painted from life, the house from imagination); visits the exhibition at home, looks at the works with their eyes and appreciates the effort of their painter grandma.",
+   "OB9 Art Literacy — Recognises concepts such as exhibition, painter, visitor and palette; “reads” what a painting tells.",
+   "SDB2.3 Social Awareness — Notices from her grandma's red cheeks and sudden quietness that she feels shy, and acts accordingly (holds her hand, looks slowly and carefully, listens to her).",
+   "D14 Respect — Shows respect for someone else's effort and work: looks at the works without touching, listens to the artist, gives their opinion politely."
+  ],
+  "once": [
+   "Show a painting, photo or postcard from home or the classroom: “What do you see in this picture? How does it make you feel?”",
+   "On the cover page, ask: “What is an exhibition? How do we behave when we visit one?”"
+  ],
+  "sirasi": [
+   "On page 1, count the paintings together: one, two, three. “Why might Grandma have opened an exhibition?”",
+   "Stop on page 2: “Grandma's cheeks went red and she rubbed her fingers. How might she be feeling?” Name the child's answer: “Yes, a little shy, a little nervous.”",
+   "Accept both answers to the prediction on page 3; find out together on page 4: the flowers and the family were painted from life, the house from imagination.",
+   "On page 5, before touching each painting, ask the child: “How did this painting make you feel? Why?” Then listen to Zeynep's answer and compare."
+  ],
+  "sonra": [
+   "Which paintings were in Grandma's exhibition?",
+   "Why did Grandma go quiet? How did Zeynep treat her?",
+   "Which painting did you like most? Why?"
+  ],
+  "sinif": {
+   "ad": "Class Exhibition: The Real Thing Behind My Picture",
+   "sure": "25 min",
+   "materyal": "Drawing paper, pastel crayons, tape or pegs, string; a few real objects from the classroom (a potted plant, a toy, fruit)",
+   "adim": [
+    "Put a few real objects on the table; each child draws a picture by looking at one of them or by imagining.",
+    "Hang the pictures on the wall or on a string and turn the classroom into a gallery. The children take turns being “painter” and “visitor”; the visitors walk round slowly with their hands behind their backs.",
+    "The visitors stop in front of a picture and complete the sentence “This picture made me feel …, because …”; the painter then tells what they looked at or imagined to make it."
+   ]
+  },
+  "evSoru": [
+   "Who was Grandma's first visitor?",
+   "How did Zeynep know her grandma felt shy?",
+   "How do you feel when you look at a painting?"
+  ],
+  "evEtk": {
+   "ad": "A little exhibition at home",
+   "d": "Hang your child's or your family's pictures on a wall, on the fridge or on a string with pegs. Make your child the first visitor; stop in front of each picture and ask “How does this picture make you feel, and why?” Then swap roles: they are the painter, you are the visitor."
+  },
+  "aileNotu": "Today we read “Grandma's Art Show”. Zeynep's painter grandma hung her paintings in the living room and opened an exhibition at home. Zeynep noticed that her grandma felt shy; she looked at the paintings slowly, found out which were painted from life and which from imagination, and said how each painting made her feel, and why. At home, you too can open a little exhibition, look at pictures with your child and share your feelings."
+ },
+ "audio": {
+  "file": "audio/en/087-dedemin-resim-sergisi.mp3",
+  "hash": "5ddd140c",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15885,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2549,
+      4
+     ],
+     [
+      3029,
+      5
+     ],
+     [
+      3229,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      3569,
+      8
+     ],
+     [
+      4049,
+      9
+     ],
+     [
+      4149,
+      10
+     ],
+     [
+      4249,
+      11
+     ],
+     [
+      4729,
+      12
+     ],
+     [
+      5709,
+      13
+     ],
+     [
+      6289,
+      14
+     ],
+     [
+      6890,
+      15
+     ],
+     [
+      7769,
+      16
+     ],
+     [
+      8009,
+      17
+     ],
+     [
+      8329,
+      18
+     ],
+     [
+      8449,
+      19
+     ],
+     [
+      8989,
+      20
+     ],
+     [
+      9129,
+      21
+     ],
+     [
+      9669,
+      22
+     ],
+     [
+      9890,
+      23
+     ],
+     [
+      10569,
+      24
+     ],
+     [
+      10829,
+      25
+     ],
+     [
+      10969,
+      26
+     ],
+     [
+      11230,
+      27
+     ],
+     [
+      11609,
+      28
+     ],
+     [
+      12049,
+      29
+     ],
+     [
+      12909,
+      30
+     ],
+     [
+      13430,
+      31
+     ],
+     [
+      13589,
+      32
+     ],
+     [
+      13949,
+      33
+     ],
+     [
+      14847,
+      34
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 16185,
+    "d": 2219,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 18704,
+    "d": 2395,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1889,
+      4
+     ]
+    ]
+   },
+   "p0h-karamel": {
+    "s": 21400,
+    "d": 2720,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1851,
+      1
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 24420,
+    "d": 4375,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      2449,
+      3
+     ],
+     [
+      2989,
+      4
+     ],
+     [
+      3650,
+      5
+     ],
+     [
+      3910,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 29096,
+    "d": 16657,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      3410,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      4249,
+      9
+     ],
+     [
+      4649,
+      10
+     ],
+     [
+      4890,
+      11
+     ],
+     [
+      5769,
+      12
+     ],
+     [
+      5969,
+      13
+     ],
+     [
+      6309,
+      14
+     ],
+     [
+      6569,
+      15
+     ],
+     [
+      7269,
+      16
+     ],
+     [
+      7469,
+      17
+     ],
+     [
+      7709,
+      18
+     ],
+     [
+      7870,
+      19
+     ],
+     [
+      9089,
+      20
+     ],
+     [
+      9289,
+      21
+     ],
+     [
+      9430,
+      22
+     ],
+     [
+      9549,
+      23
+     ],
+     [
+      9850,
+      24
+     ],
+     [
+      10149,
+      25
+     ],
+     [
+      10350,
+      26
+     ],
+     [
+      11369,
+      27
+     ],
+     [
+      11569,
+      28
+     ],
+     [
+      11829,
+      29
+     ],
+     [
+      12930,
+      30
+     ],
+     [
+      13369,
+      31
+     ],
+     [
+      13589,
+      32
+     ],
+     [
+      13689,
+      33
+     ],
+     [
+      13890,
+      34
+     ],
+     [
+      14969,
+      35
+     ],
+     [
+      15449,
+      36
+     ],
+     [
+      15729,
+      37
+     ],
+     [
+      15810,
+      38
+     ],
+     [
+      16110,
+      39
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 46054,
+    "d": 2091,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      469,
+      3
+     ],
+     [
+      769,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1249,
+      6
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 48445,
+    "d": 2684,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1949,
+      5
+     ]
+    ]
+   },
+   "p1h-karamel": {
+    "s": 51430,
+    "d": 734,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 52464,
+    "d": 20246,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      2549,
+      7
+     ],
+     [
+      2650,
+      8
+     ],
+     [
+      2809,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      4609,
+      11
+     ],
+     [
+      5589,
+      12
+     ],
+     [
+      5789,
+      13
+     ],
+     [
+      6569,
+      14
+     ],
+     [
+      7049,
+      15
+     ],
+     [
+      7370,
+      16
+     ],
+     [
+      7449,
+      17
+     ],
+     [
+      7789,
+      18
+     ],
+     [
+      7969,
+      19
+     ],
+     [
+      8129,
+      20
+     ],
+     [
+      8209,
+      21
+     ],
+     [
+      9049,
+      22
+     ],
+     [
+      9770,
+      23
+     ],
+     [
+      9949,
+      24
+     ],
+     [
+      10129,
+      25
+     ],
+     [
+      10270,
+      26
+     ],
+     [
+      10690,
+      27
+     ],
+     [
+      10869,
+      28
+     ],
+     [
+      11129,
+      29
+     ],
+     [
+      11909,
+      30
+     ],
+     [
+      12149,
+      31
+     ],
+     [
+      13029,
+      32
+     ],
+     [
+      13589,
+      33
+     ],
+     [
+      13890,
+      34
+     ],
+     [
+      14089,
+      35
+     ],
+     [
+      14449,
+      36
+     ],
+     [
+      15350,
+      37
+     ],
+     [
+      15850,
+      38
+     ],
+     [
+      16829,
+      39
+     ],
+     [
+      17249,
+      40
+     ],
+     [
+      18089,
+      41
+     ],
+     [
+      18350,
+      42
+     ],
+     [
+      18549,
+      43
+     ],
+     [
+      19030,
+      44
+     ],
+     [
+      19289,
+      45
+     ],
+     [
+      19549,
+      46
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 73010,
+    "d": 2097,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 75407,
+    "d": 2812,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      2049,
+      3
+     ]
+    ]
+   },
+   "p2h-karamel": {
+    "s": 78520,
+    "d": 2930,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2249,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 81750,
+    "d": 2248,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1329,
+      6
+     ],
+     [
+      1489,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 84298,
+    "d": 3951,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2529,
+      6
+     ],
+     [
+      2869,
+      7
+     ],
+     [
+      3509,
+      8
+     ]
+    ]
+   },
+   "p3": {
+    "s": 88549,
+    "d": 15130,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2689,
+      7
+     ],
+     [
+      2849,
+      8
+     ],
+     [
+      2989,
+      9
+     ],
+     [
+      3349,
+      10
+     ],
+     [
+      3529,
+      11
+     ],
+     [
+      4489,
+      12
+     ],
+     [
+      4789,
+      13
+     ],
+     [
+      4949,
+      14
+     ],
+     [
+      5370,
+      15
+     ],
+     [
+      5449,
+      16
+     ],
+     [
+      5569,
+      17
+     ],
+     [
+      6390,
+      18
+     ],
+     [
+      6549,
+      19
+     ],
+     [
+      6910,
+      20
+     ],
+     [
+      7129,
+      21
+     ],
+     [
+      7269,
+      22
+     ],
+     [
+      7390,
+      23
+     ],
+     [
+      7849,
+      24
+     ],
+     [
+      8190,
+      25
+     ],
+     [
+      9069,
+      26
+     ],
+     [
+      9350,
+      27
+     ],
+     [
+      9690,
+      28
+     ],
+     [
+      10529,
+      29
+     ],
+     [
+      10890,
+      30
+     ],
+     [
+      11069,
+      31
+     ],
+     [
+      11329,
+      32
+     ],
+     [
+      11430,
+      33
+     ],
+     [
+      11529,
+      34
+     ],
+     [
+      12230,
+      35
+     ],
+     [
+      12689,
+      36
+     ],
+     [
+      13509,
+      37
+     ],
+     [
+      13829,
+      38
+     ],
+     [
+      14289,
+      39
+     ],
+     [
+      14430,
+      40
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 103979,
+    "d": 2834,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2089,
+      5
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 107114,
+    "d": 1559,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      729,
+      3
+     ]
+    ]
+   },
+   "p3h-r2": {
+    "s": 108973,
+    "d": 2433,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      1449,
+      6
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 111707,
+    "d": 2826,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      1769,
+      6
+     ],
+     [
+      1869,
+      7
+     ],
+     [
+      1989,
+      8
+     ]
+    ]
+   },
+   "p4": {
+    "s": 114833,
+    "d": 16968,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1589,
+      6
+     ],
+     [
+      2549,
+      7
+     ],
+     [
+      2729,
+      8
+     ],
+     [
+      3049,
+      9
+     ],
+     [
+      3509,
+      10
+     ],
+     [
+      3689,
+      11
+     ],
+     [
+      3829,
+      12
+     ],
+     [
+      4749,
+      13
+     ],
+     [
+      5089,
+      14
+     ],
+     [
+      5310,
+      15
+     ],
+     [
+      6309,
+      16
+     ],
+     [
+      6489,
+      17
+     ],
+     [
+      6789,
+      18
+     ],
+     [
+      7289,
+      19
+     ],
+     [
+      7489,
+      20
+     ],
+     [
+      7669,
+      21
+     ],
+     [
+      8609,
+      22
+     ],
+     [
+      8989,
+      23
+     ],
+     [
+      9230,
+      24
+     ],
+     [
+      10409,
+      25
+     ],
+     [
+      10569,
+      26
+     ],
+     [
+      10930,
+      27
+     ],
+     [
+      11549,
+      28
+     ],
+     [
+      11930,
+      29
+     ],
+     [
+      12149,
+      30
+     ],
+     [
+      12949,
+      31
+     ],
+     [
+      13390,
+      32
+     ],
+     [
+      13709,
+      33
+     ],
+     [
+      14629,
+      34
+     ],
+     [
+      15149,
+      35
+     ],
+     [
+      16309,
+      36
+     ]
+    ]
+   },
+   "p4h-r1": {
+    "s": 132101,
+    "d": 2761,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2150,
+      6
+     ]
+    ]
+   },
+   "p4h-r2": {
+    "s": 135162,
+    "d": 2849,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2130,
+      6
+     ]
+    ]
+   },
+   "p4h-r3": {
+    "s": 138312,
+    "d": 3068,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      344,
+      1
+     ],
+     [
+      874,
+      2
+     ],
+     [
+      1178,
+      3
+     ],
+     [
+      1663,
+      4
+     ],
+     [
+      2419,
+      5
+     ],
+     [
+      2723,
+      6
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 141681,
+    "d": 1921,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1529,
+      5
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 143902,
+    "d": 2740,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      630,
+      1
+     ],
+     [
+      1044,
+      2
+     ],
+     [
+      1281,
+      3
+     ],
+     [
+      1519,
+      4
+     ],
+     [
+      2109,
+      5
+     ]
+    ]
+   },
+   "p4h-karamel": {
+    "s": 146943,
+    "d": 1850,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1127,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 149093,
+    "d": 17307,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      2089,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2489,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      3789,
+      9
+     ],
+     [
+      4709,
+      10
+     ],
+     [
+      4910,
+      11
+     ],
+     [
+      5609,
+      12
+     ],
+     [
+      5949,
+      13
+     ],
+     [
+      6189,
+      14
+     ],
+     [
+      6589,
+      15
+     ],
+     [
+      6729,
+      16
+     ],
+     [
+      7390,
+      17
+     ],
+     [
+      7669,
+      18
+     ],
+     [
+      7870,
+      19
+     ],
+     [
+      8230,
+      20
+     ],
+     [
+      8589,
+      21
+     ],
+     [
+      8709,
+      22
+     ],
+     [
+      9529,
+      23
+     ],
+     [
+      9730,
+      24
+     ],
+     [
+      10049,
+      25
+     ],
+     [
+      10789,
+      26
+     ],
+     [
+      11069,
+      27
+     ],
+     [
+      12049,
+      28
+     ],
+     [
+      12649,
+      29
+     ],
+     [
+      13609,
+      30
+     ],
+     [
+      15009,
+      31
+     ],
+     [
+      15269,
+      32
+     ],
+     [
+      15449,
+      33
+     ],
+     [
+      15669,
+      34
+     ],
+     [
+      15969,
+      35
+     ],
+     [
+      16430,
+      36
+     ],
+     [
+      16509,
+      37
+     ],
+     [
+      16610,
+      38
+     ],
+     [
+      16889,
+      39
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 166701,
+    "d": 2283,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 169284,
+    "d": 2356,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1629,
+      5
+     ]
+    ]
+   },
+   "p5h-karamel": {
+    "s": 171941,
+    "d": 2066,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1402,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

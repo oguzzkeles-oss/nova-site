@@ -1,0 +1,1514 @@
+{
+ "id": "080-yagmur-yaginca-kim-cikar",
+ "lang": "en",
+ "title": "Who Comes Out in the Rain?",
+ "theme": "Observing living things in the rain, and kindness",
+ "blurb": "When the spring rain goes pitter patter, Ela goes out to the meadow with her grandpa. Who is hiding behind the stones? Ela calls Curly, the little snail in the middle of the stone path, over to the grass with a fresh leaf, without touching him.",
+ "voiceNames": {
+  "ela": "Ela",
+  "dede": "Grandpa",
+  "kivrik": "Curly (little snail)",
+  "virvir": "Ribbit (frog)",
+  "salyangoz": "The snails"
+ },
+ "pages": [
+  {
+   "text": "Pitter patter! The spring rain began. Ela opened her red umbrella. She went to the meadow with Grandpa. “Grandpa, who comes out in the rain?”",
+   "hits": {
+    "ela": {
+     "say": "Grandpa, who comes out in the rain?"
+    },
+    "dede": {
+     "say": "Come on, let's look together!"
+    }
+   },
+   "hint": "Touch Ela!",
+   "ask": "Who do you think comes out when it rains?"
+  },
+  {
+   "text": "Ela bent down. She looked behind the stone. A snail! Another one by the mushroom! A sound came from under the bush: “Ribbit!” It was Ribbit the frog!",
+   "mech": {
+    "done": "Two snails and a frog came out!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Snails love wet weather!"
+    },
+    "s": {
+     "say": "What lovely rain! Wet weather is good!"
+    },
+    "virvir": {
+     "say": "Ribbit! Ribbit!"
+    }
+   },
+   "hint": "Look behind the stone!",
+   "ask": "Why do you think snails like the rain?"
+  },
+  {
+   "text": "In the middle of the stone path was a little snail. Ela named him Curly. Curly was going slowly, slowly. Ela got worried. Her heart went thump, thump. “What if someone steps on him?”",
+   "hits": {
+    "kivrik": {
+     "say": "I'm going slowly, slowly."
+    },
+    "ela": {
+     "say": "What if someone steps on him?"
+    },
+    "dede": {
+     "say": "What do you think we could do, Ela?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Ela will do?",
+    "res": "Both are kind ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Put down a leaf"
+     },
+     {
+      "l": "Call Grandpa"
+     }
+    ]
+   },
+   "hint": "Touch Curly!",
+   "ask": "Why did Ela get worried? What would you do?",
+   "cues": [
+    {
+     "w": 26,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ela didn't touch Curly. She put a fresh leaf on the grass. “Come, Curly, slowly, slowly.” Curly slid, slid… And there he was, on the grass!",
+   "mech": {
+    "say": "Slide, slide, Curly!",
+    "done": "Curly made it to the grass!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Come, Curly, slowly, slowly."
+    },
+    "kivrik": {
+     "say": "I'm coming, I'm coming!"
+    },
+    "yaprak": {
+     "say": "Mmm, a fresh leaf!"
+    }
+   },
+   "hint": "Touch Curly to make him move!",
+   "ask": "Why didn't Ela touch Curly with her hand? Why did Curly go to the leaf?"
+  },
+  {
+   "text": "Curly found the leaf. Munch munch, he nibbled it! Who was on the grass? One, two, three, four rain friends!",
+   "mech": {
+    "done": "Four rain friends, all on the grass!"
+   },
+   "hits": {
+    "ela": {
+     "say": "They're all here, on the grass!"
+    },
+    "kivrik": {
+     "say": "Munch munch! So tasty!"
+    }
+   },
+   "hint": "Count the friends one by one!",
+   "ask": "You count too: how many snails and how many frogs are there?"
+  },
+  {
+   "text": "The rain stopped and the sun came out. A rainbow appeared in the sky. Ribbit said, “Ribbit!” Curly waved his feelers. Ela felt warm inside. “Who comes out in the rain? I come out too!”",
+   "hits": {
+    "ela": {
+     "say": "In the rain, I come out too!"
+    },
+    "dede": {
+     "say": "You were very kind to Curly."
+    },
+    "kivrik": {
+     "say": "Thank you, Ela!"
+    },
+    "virvir": {
+     "say": "Ribbit! Ribbit!"
+    }
+   },
+   "hint": "Touch Ribbit!",
+   "ask": "How did Ela feel when she helped Curly? Have you ever helped a tiny creature?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 Making scientific observations of science-related events, facts and situations in daily life: Observes what changes in the meadow when it rains; finds the snails and the frog by looking behind the stone, under the mushroom and under the bush; notices their slow movement, the shell and the wet ground.",
+   "TAOB.2 Making meaning from visual materials: Makes sense of events from the clues in the pictures (raindrops, stone path, leaf, rainbow); on the prediction page, predicts what Ela will do from the pictures and connects it to their own life.",
+   "MAB.1 Counting rhythmically and by sight: Counts the rain friends on the grass one by one by touching them, finding how many there are between 1 and 4 (the 1–5 range for 36–48 months).",
+   "E1.1 Curiosity: Follows up the question “Who comes out in the rain?”, asks about hiding places and searches for them.",
+   "SDB2.3 Social Awareness and D9 Compassion: Notices that the small creature in the middle of the path could be in danger; observes helping it in a slow, gentle way, without touching (putting a fresh leaf on the grass and calling it over)."
+  ],
+  "once": [
+   "Watch the rain together from the window or in a rain video: “What changes in the street and the garden when it rains?”",
+   "Look at the cover: “In this story, there are creatures that come out when it rains. Who do you think they might be?” Note the guesses.",
+   "Introduce the words snail, shell, feelers, frog, puddle and rainbow with pictures."
+  ],
+  "sirasi": [
+   "On page 1, imitate the sound of rain together: “Pitter patter!” Let the child touch the puddle and listen to the splash.",
+   "On page 2, let the child look behind the stone, under the mushroom and under the bush themselves. Ask “Where did you find it?” and use the words “behind” and “under”. A snail's and a frog's skin must stay moist. In dry weather they hide under stones and leaves; when it rains, they come out.",
+   "On page 3, look closely at Ela's face: “How is she feeling? How can you tell?” After the prediction, say that both choices are kind.",
+   "On page 4, slow your voice down and say “Come, Curly, slowly, slowly.” Talk about why Ela didn't touch the snail with her hand: living things have delicate bodies, so we help from a distance, without touching. Explain that snails eat leaves, which is why Curly went to the leaf.",
+   "On page 5, let the child count by touching each creature one by one; repeat the last number together. On page 6, talk about the rainbow and how Ela feels."
+  ],
+  "sonra": [
+   "What happened first in the story, and what happened next? Let's put the three pictures in order: searching, putting down the leaf, counting on the grass.",
+   "Who came out when it rained? Where were they hiding?",
+   "How did Ela feel when she saw Curly in the middle of the path? How did she feel afterwards?",
+   "If you saw an ant, a ladybird or a snail, how would you be kind to it?"
+  ],
+  "sinif": {
+   "ad": "Find the Rain Friends",
+   "sure": "15 min",
+   "materyal": "3–4 snails and frogs made of paper or play dough, hiding places such as a stone, cushion or box, a big green paper leaf, a green cloth (the grass)",
+   "adim": [
+    "The children make rain sounds by tapping their fingers on the table: pitter patter.",
+    "The teacher hides the creatures behind the cushion, the box and the stone, and asks: “Who comes out in the rain?”",
+    "The children take turns searching and say where they found each one, like “Behind the stone!”",
+    "Put one snail “in the middle of the path”; without touching it, the children put the paper leaf on the green cloth and call it with “Come, slowly, slowly”; the teacher slowly slides the snail onto the leaf.",
+    "Count the rain friends on the cloth together, touching each one."
+   ]
+  },
+  "evSoru": [
+   "Who came out when it rained?",
+   "How did Ela help Curly? Why didn't she touch him?",
+   "What would you like to see outside on a rainy day?"
+  ],
+  "evEtk": {
+   "ad": "A Walk After the Rain",
+   "d": "When the rain has stopped, go out to the garden or the park in boots and with an umbrella. Watch the puddles, the wet leaves and creatures like snails or worms from a distance; without touching them, talk about “Where is it? What is it doing?” When you get home, wash your hands and draw what you saw together."
+  },
+  "aileNotu": "Today we read “Who Comes Out in the Rain?” In the spring rain, Ela looked behind the stones in the meadow with her grandpa and found snails and a frog; without touching little Curly, who was stuck in the middle of the stone path, she put a fresh leaf on the grass and called him to safety. The story supports observing nature with curiosity, counting to four and being gentle with small creatures. After the rain, you can take a short walk together to watch creatures from a distance, and wash your hands when you get home."
+ },
+ "audio": {
+  "file": "audio/en/080-yagmur-yaginca-kim-cikar.mp3",
+  "hash": "f13a1061",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 9105,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2930,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      3789,
+      9
+     ],
+     [
+      4009,
+      10
+     ],
+     [
+      4910,
+      11
+     ],
+     [
+      5069,
+      12
+     ],
+     [
+      5249,
+      13
+     ],
+     [
+      5350,
+      14
+     ],
+     [
+      5489,
+      15
+     ],
+     [
+      5809,
+      16
+     ],
+     [
+      5989,
+      17
+     ],
+     [
+      6969,
+      18
+     ],
+     [
+      7769,
+      19
+     ],
+     [
+      7949,
+      20
+     ],
+     [
+      8230,
+      21
+     ],
+     [
+      8390,
+      22
+     ],
+     [
+      8469,
+      23
+     ],
+     [
+      8609,
+      24
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 9405,
+    "d": 2614,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2130,
+      6
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 12320,
+    "d": 1882,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1249,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 14503,
+    "d": 10666,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3269,
+      9
+     ],
+     [
+      4229,
+      10
+     ],
+     [
+      4669,
+      11
+     ],
+     [
+      4830,
+      12
+     ],
+     [
+      4949,
+      13
+     ],
+     [
+      5069,
+      14
+     ],
+     [
+      6169,
+      15
+     ],
+     [
+      6309,
+      16
+     ],
+     [
+      6749,
+      17
+     ],
+     [
+      6949,
+      18
+     ],
+     [
+      7169,
+      19
+     ],
+     [
+      7370,
+      20
+     ],
+     [
+      7489,
+      21
+     ],
+     [
+      8430,
+      22
+     ],
+     [
+      9190,
+      23
+     ],
+     [
+      9329,
+      24
+     ],
+     [
+      9589,
+      25
+     ],
+     [
+      9890,
+      26
+     ],
+     [
+      10029,
+      27
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 25470,
+    "d": 2008,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p1h-s": {
+    "s": 27779,
+    "d": 3459,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      2890,
+      6
+     ]
+    ]
+   },
+   "p1h-virvir": {
+    "s": 31538,
+    "d": 1279,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      791,
+      1
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 33118,
+    "d": 2075,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1689,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 35494,
+    "d": 13814,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      490,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      749,
+      5
+     ],
+     [
+      1109,
+      6
+     ],
+     [
+      1629,
+      7
+     ],
+     [
+      1809,
+      8
+     ],
+     [
+      1889,
+      9
+     ],
+     [
+      2209,
+      10
+     ],
+     [
+      3289,
+      11
+     ],
+     [
+      3589,
+      12
+     ],
+     [
+      3869,
+      13
+     ],
+     [
+      4129,
+      14
+     ],
+     [
+      5109,
+      15
+     ],
+     [
+      5489,
+      16
+     ],
+     [
+      5669,
+      17
+     ],
+     [
+      6049,
+      18
+     ],
+     [
+      7109,
+      19
+     ],
+     [
+      8469,
+      20
+     ],
+     [
+      8609,
+      21
+     ],
+     [
+      8850,
+      22
+     ],
+     [
+      9690,
+      23
+     ],
+     [
+      9869,
+      24
+     ],
+     [
+      10129,
+      25
+     ],
+     [
+      10469,
+      26
+     ],
+     [
+      11069,
+      27
+     ],
+     [
+      11969,
+      28
+     ],
+     [
+      12149,
+      29
+     ],
+     [
+      12310,
+      30
+     ],
+     [
+      12689,
+      31
+     ],
+     [
+      13089,
+      32
+     ],
+     [
+      13249,
+      33
+     ]
+    ]
+   },
+   "p2h-kivrik": {
+    "s": 49608,
+    "d": 2984,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      2029,
+      3
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 52893,
+    "d": 1941,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      288,
+      1
+     ],
+     [
+      537,
+      2
+     ],
+     [
+      1154,
+      3
+     ],
+     [
+      1403,
+      4
+     ],
+     [
+      1652,
+      5
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 55134,
+    "d": 2023,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      649,
+      4
+     ],
+     [
+      769,
+      5
+     ],
+     [
+      1030,
+      6
+     ],
+     [
+      1589,
+      7
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 57458,
+    "d": 1639,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      1009,
+      5
+     ],
+     [
+      1209,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 59397,
+    "d": 2573,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2150,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 62271,
+    "d": 12503,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2630,
+      8
+     ],
+     [
+      2930,
+      9
+     ],
+     [
+      3029,
+      10
+     ],
+     [
+      3129,
+      11
+     ],
+     [
+      4069,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      5169,
+      14
+     ],
+     [
+      6189,
+      15
+     ],
+     [
+      7489,
+      16
+     ],
+     [
+      8069,
+      17
+     ],
+     [
+      9249,
+      18
+     ],
+     [
+      10489,
+      19
+     ],
+     [
+      10649,
+      20
+     ],
+     [
+      10890,
+      21
+     ],
+     [
+      11029,
+      22
+     ],
+     [
+      11629,
+      23
+     ],
+     [
+      11749,
+      24
+     ],
+     [
+      11869,
+      25
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 75074,
+    "d": 3647,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      992,
+      1
+     ],
+     [
+      1944,
+      2
+     ],
+     [
+      2896,
+      3
+     ]
+    ]
+   },
+   "p3h-kivrik": {
+    "s": 79021,
+    "d": 2152,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1229,
+      3
+     ]
+    ]
+   },
+   "p3h-yaprak": {
+    "s": 81474,
+    "d": 2350,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1670,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 84124,
+    "d": 1908,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      909,
+      5
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 86332,
+    "d": 1891,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1290,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 88523,
+    "d": 8705,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      2729,
+      7
+     ],
+     [
+      3150,
+      8
+     ],
+     [
+      3749,
+      9
+     ],
+     [
+      3930,
+      10
+     ],
+     [
+      4109,
+      11
+     ],
+     [
+      4229,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      5410,
+      14
+     ],
+     [
+      5949,
+      15
+     ],
+     [
+      6589,
+      16
+     ],
+     [
+      7289,
+      17
+     ],
+     [
+      7769,
+      18
+     ],
+     [
+      8069,
+      19
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 97528,
+    "d": 2208,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      498,
+      1
+     ],
+     [
+      762,
+      2
+     ],
+     [
+      1377,
+      3
+     ],
+     [
+      1640,
+      4
+     ],
+     [
+      1904,
+      5
+     ]
+    ]
+   },
+   "p4h-kivrik": {
+    "s": 100037,
+    "d": 2928,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1989,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 103265,
+    "d": 2559,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      1909,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 106124,
+    "d": 13310,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      1529,
+      6
+     ],
+     [
+      1809,
+      7
+     ],
+     [
+      2449,
+      8
+     ],
+     [
+      2609,
+      9
+     ],
+     [
+      3089,
+      10
+     ],
+     [
+      3449,
+      11
+     ],
+     [
+      3549,
+      12
+     ],
+     [
+      3670,
+      13
+     ],
+     [
+      4649,
+      14
+     ],
+     [
+      5009,
+      15
+     ],
+     [
+      5689,
+      16
+     ],
+     [
+      6529,
+      17
+     ],
+     [
+      7009,
+      18
+     ],
+     [
+      7370,
+      19
+     ],
+     [
+      7569,
+      20
+     ],
+     [
+      8749,
+      21
+     ],
+     [
+      8969,
+      22
+     ],
+     [
+      9310,
+      23
+     ],
+     [
+      9669,
+      24
+     ],
+     [
+      10629,
+      25
+     ],
+     [
+      10850,
+      26
+     ],
+     [
+      11129,
+      27
+     ],
+     [
+      11289,
+      28
+     ],
+     [
+      11390,
+      29
+     ],
+     [
+      11549,
+      30
+     ],
+     [
+      12310,
+      31
+     ],
+     [
+      12449,
+      32
+     ],
+     [
+      12629,
+      33
+     ],
+     [
+      12829,
+      34
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 119735,
+    "d": 2060,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      277,
+      1
+     ],
+     [
+      515,
+      2
+     ],
+     [
+      893,
+      3
+     ],
+     [
+      1131,
+      4
+     ],
+     [
+      1544,
+      5
+     ],
+     [
+      1782,
+      6
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 122096,
+    "d": 2025,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1449,
+      5
+     ]
+    ]
+   },
+   "p5h-kivrik": {
+    "s": 124421,
+    "d": 1136,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      283,
+      1
+     ],
+     [
+      671,
+      2
+     ]
+    ]
+   },
+   "p5h-virvir": {
+    "s": 125857,
+    "d": 1407,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      872,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

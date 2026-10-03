@@ -1,0 +1,1623 @@
+{
+ "id": "051-deniz-dogruyu-soyledi",
+ "lang": "en",
+ "title": "Deniz Told the Truth",
+ "theme": "Honesty and responsibility",
+ "blurb": "Deniz's ball lands on Grandpa's flowers, and nobody sees. She thinks about hiding the ball; but as the knot in her tummy grows, she decides to tell the truth. With Grandpa, she stands the flowers up again, and they plant a new seed in place of the broken one.",
+ "voiceNames": {
+  "deniz": "Deniz",
+  "dede": "Grandpa"
+ },
+ "pages": [
+  {
+   "text": "It was a spring morning. Grandpa was watering his flowers. Deniz came along with her ball: boing, boing, boing! “Grandpa, look! See how high it bounces!” Grandpa smiled. “Play on the grass, Deniz dear. My flowers are still tiny babies.”",
+   "hits": {
+    "deniz": {
+     "say": "Boing, boing, boing! Look, Grandpa!"
+    },
+    "dede": {
+     "say": "Play on the grass, Deniz dear."
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "Why is Grandpa watering the flowers? Who looks after the plants in your home?"
+  },
+  {
+   "text": "Deniz gave the ball a kick. Up it went, up and up… Plop! It landed right on the flowers. Two flowers bent their heads. The purple flower's stem went snap! Deniz froze. Grandpa was far away. Nobody had seen.",
+   "mech": {
+    "done": "All three flowers got squashed.",
+    "msg": "Three flowers!"
+   },
+   "hits": {
+    "deniz": {
+     "say": "Oh no! The flowers!"
+    }
+   },
+   "hint": "Count the squashed flowers!",
+   "ask": "How many flowers got squashed? How might Deniz be feeling now?"
+  },
+  {
+   "text": "Deniz's heart went boom, boom. There was a great big knot in her tummy. “Nobody saw,” she thought. “Should I hide the ball? Or should I tell Grandpa?”",
+   "hits": {
+    "deniz": {
+     "say": "What should I do?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Deniz will do?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "Hide the ball"
+     },
+     {
+      "l": "Tell Grandpa"
+     }
+    ]
+   },
+   "hint": "Listen to her heart!",
+   "ask": "What happens inside you when you break something by accident? What do your tummy and your heart do?"
+  },
+  {
+   "text": "Deniz hid the ball behind the barrel. But the knot didn't go away. It grew and grew. Deniz took a deep breath. One… two… three… Then she took the ball back out of its hiding place.",
+   "mech": {
+    "done": "Deniz has the ball. Now she's ready.",
+    "msg": "You found the ball!"
+   },
+   "hits": {
+    "deniz": {
+     "say": "One… two… three… Okay."
+    }
+   },
+   "hint": "Find the hidden ball!",
+   "ask": "Why did Deniz take the ball back? Why do you think the knot grew?"
+  },
+  {
+   "text": "Deniz ran to Grandpa. She looked him in the eyes. “Grandpa, I kicked the ball and it landed on your flowers. I'm sorry.” Grandpa hugged Deniz. “Thank you for telling me the truth.” Then he winked. “So my flowers wanted to play ball too! Come on, let's fix them together.” They stood the flowers up one by one.",
+   "mech": {
+    "done": "Two flowers are standing up! But the purple one is gone.",
+    "msg": "The flowers are standing!"
+   },
+   "hits": {
+    "dede": {
+     "say": "My flowers wanted to play ball too!"
+    },
+    "deniz": {
+     "say": "I'm sorry, Grandpa."
+    }
+   },
+   "hint": "Stand the flowers up!",
+   "ask": "What did Deniz say to Grandpa? What do you say when you say sorry?"
+  },
+  {
+   "text": "Deniz had an idea for the purple flower. She planted a seed in a pot. She watered it every day. A shoot came up, and it grew tall… One morning, a great big sunflower opened! The sunflower smiled. Deniz smiled too.",
+   "mech": {
+    "done": "A great big sunflower! Deniz feels light as a feather.",
+    "msg": "The sunflower opened!"
+   },
+   "hits": {
+    "deniz": {
+     "say": "Grandpa, our flower is smiling at me!"
+    },
+    "dede": {
+     "say": "Look, it's not smiling at me, it's smiling at you!"
+    }
+   },
+   "hint": "Water it every day: touch!",
+   "ask": "How did Deniz feel after telling the truth? Have you ever felt like that?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.2 — Building new meaning from what they listen to or watch: makes inferences about why Deniz hid the ball and why she took it back; links the situation in the story to their own daily life (“When I broke something by accident…”).",
+   "TAKB.1 — Managing the speaking process: like Deniz, tells what happened while looking the other person in the eyes (makes eye contact); waits their turn during the conversation.",
+   "SDB3.3 Responsible Decision-Making — Thinks between “hiding the ball” and “telling Grandpa”, predicts the consequences and chooses to tell the truth.",
+   "E2.2 Responsibility — Owns up to the accident; joins in standing the bent flowers up and planting a seed in place of the broken one and watering it every day.",
+   "D6 Honesty — Tells honestly what happened even though nobody saw; notices how light they feel inside after telling the truth."
+  ],
+  "once": [
+   "Point to the ball and the flowers on the cover: ask “What might happen to the ball and the flowers in this story?”",
+   "Open a short chat: “Have you ever broken something by accident? How did you feel then?” Listen to every answer without judging."
+  ],
+  "sirasi": [
+   "On page 2, count the squashed flowers together: one, two, three. Notice that the purple flower is broken.",
+   "At the prediction question on page 3, accept both answers; ask “Why did you think that?” Touch the heart and imitate the “boom, boom” sound together.",
+   "On page 4, take a deep breath with Deniz: one… two… three…; then let the child find the hidden ball.",
+   "On page 5, show that Deniz looks Grandpa in the eyes; laugh at Grandpa's joke together, stand the two flowers up one by one.",
+   "On page 6, touch the seed and say “Water it every day”; count the stages of shoot, seedling and flower together and talk about the look on Deniz's face."
+  ],
+  "sonra": [
+   "What happened to the knot in Deniz's tummy when she hid the ball? Why?",
+   "What did Grandpa do when Deniz told the truth? Was he angry?",
+   "One flower was broken. How did Deniz make up for it?"
+  ],
+  "sinif": {
+   "ad": "Knot-Untying Circle",
+   "sure": "20 min",
+   "materyal": "A piece of string, a flower pot, soil, a sunflower or bean seed, a watering can",
+   "adim": [
+    "Make a circle. The teacher ties a knot in the string: “The knot in Deniz's tummy was like this.” The children say what you feel in your body when you have a knot inside.",
+    "Pass the string from hand to hand; the child holding the string makes eye contact and tells a short memory: “Once I broke …, and I said …”, while the others wait their turn. Anyone who doesn't want to can say “pass”.",
+    "At the end, untie the knot together and plant a seed in a pot as a class. Take turns choosing who is in charge of watering each day."
+   ]
+  },
+  "evSoru": [
+   "What did Deniz's ball hit?",
+   "Why did Deniz hide the ball at first, and why did she take it back?",
+   "How do you feel after you tell the truth?"
+  ],
+  "evEtk": {
+   "ad": "Making-it-right pot",
+   "d": "Plant a seed together in a small pot at home. Give your child the job of watering, and look at it together every day. When the shoot comes up, you can remember Deniz's sunflower and talk about “a day when you told the truth”."
+  },
+  "aileNotu": "Today we read “Deniz Told the Truth.” Deniz's ball lands on Grandpa's flowers; first she wants to hide it, then she tells the truth. Grandpa isn't angry; he thanks her, and together they mend the flowers. When your child owns up to an accident, saying “Thank you for telling me” first grows their courage to tell the truth next time too. Afterwards you can talk together about how to put it right."
+ },
+ "audio": {
+  "file": "audio/en/051-deniz-dogruyu-soyledi.mp3",
+  "hash": "1c67d63d",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16626,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      769,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2689,
+      8
+     ],
+     [
+      2849,
+      9
+     ],
+     [
+      3829,
+      10
+     ],
+     [
+      4169,
+      11
+     ],
+     [
+      4370,
+      12
+     ],
+     [
+      4649,
+      13
+     ],
+     [
+      4789,
+      14
+     ],
+     [
+      4949,
+      15
+     ],
+     [
+      5609,
+      16
+     ],
+     [
+      6269,
+      17
+     ],
+     [
+      6910,
+      18
+     ],
+     [
+      7910,
+      19
+     ],
+     [
+      8509,
+      20
+     ],
+     [
+      9169,
+      21
+     ],
+     [
+      9409,
+      22
+     ],
+     [
+      9629,
+      23
+     ],
+     [
+      9869,
+      24
+     ],
+     [
+      10009,
+      25
+     ],
+     [
+      10989,
+      26
+     ],
+     [
+      11509,
+      27
+     ],
+     [
+      12409,
+      28
+     ],
+     [
+      12689,
+      29
+     ],
+     [
+      12810,
+      30
+     ],
+     [
+      12930,
+      31
+     ],
+     [
+      13284,
+      32
+     ],
+     [
+      13709,
+      33
+     ],
+     [
+      14390,
+      34
+     ],
+     [
+      14589,
+      35
+     ],
+     [
+      15049,
+      36
+     ],
+     [
+      15229,
+      37
+     ],
+     [
+      15569,
+      38
+     ],
+     [
+      15969,
+      39
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 16926,
+    "d": 3489,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      663,
+      1
+     ],
+     [
+      1287,
+      2
+     ],
+     [
+      2143,
+      3
+     ],
+     [
+      2767,
+      4
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 20716,
+    "d": 2016,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      469,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1589,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 23032,
+    "d": 16451,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1209,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2449,
+      8
+     ],
+     [
+      3129,
+      9
+     ],
+     [
+      3509,
+      10
+     ],
+     [
+      3789,
+      11
+     ],
+     [
+      4529,
+      12
+     ],
+     [
+      5410,
+      13
+     ],
+     [
+      5589,
+      14
+     ],
+     [
+      6089,
+      15
+     ],
+     [
+      6370,
+      16
+     ],
+     [
+      6469,
+      17
+     ],
+     [
+      6589,
+      18
+     ],
+     [
+      7589,
+      19
+     ],
+     [
+      7849,
+      20
+     ],
+     [
+      8350,
+      21
+     ],
+     [
+      8589,
+      22
+     ],
+     [
+      8810,
+      23
+     ],
+     [
+      9569,
+      24
+     ],
+     [
+      9709,
+      25
+     ],
+     [
+      10049,
+      26
+     ],
+     [
+      10469,
+      27
+     ],
+     [
+      10810,
+      28
+     ],
+     [
+      11189,
+      29
+     ],
+     [
+      12149,
+      30
+     ],
+     [
+      12649,
+      31
+     ],
+     [
+      13589,
+      32
+     ],
+     [
+      14069,
+      33
+     ],
+     [
+      14289,
+      34
+     ],
+     [
+      14569,
+      35
+     ],
+     [
+      15390,
+      36
+     ],
+     [
+      15749,
+      37
+     ],
+     [
+      15950,
+      38
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 39783,
+    "d": 2341,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1410,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 42425,
+    "d": 2417,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 45142,
+    "d": 10822,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2809,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3129,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      3670,
+      9
+     ],
+     [
+      4009,
+      10
+     ],
+     [
+      4330,
+      11
+     ],
+     [
+      4449,
+      12
+     ],
+     [
+      4629,
+      13
+     ],
+     [
+      5669,
+      14
+     ],
+     [
+      6109,
+      15
+     ],
+     [
+      6870,
+      16
+     ],
+     [
+      7049,
+      17
+     ],
+     [
+      7890,
+      18
+     ],
+     [
+      8169,
+      19
+     ],
+     [
+      8329,
+      20
+     ],
+     [
+      8589,
+      21
+     ],
+     [
+      8709,
+      22
+     ],
+     [
+      9449,
+      23
+     ],
+     [
+      9649,
+      24
+     ],
+     [
+      9850,
+      25
+     ],
+     [
+      9969,
+      26
+     ],
+     [
+      10169,
+      27
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 56265,
+    "d": 1178,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      314,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      863,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 57744,
+    "d": 1657,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      449,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      1050,
+      5
+     ],
+     [
+      1249,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 59701,
+    "d": 954,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      477,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 60955,
+    "d": 14904,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      1489,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2529,
+      8
+     ],
+     [
+      2729,
+      9
+     ],
+     [
+      3029,
+      10
+     ],
+     [
+      3309,
+      11
+     ],
+     [
+      3489,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      4549,
+      14
+     ],
+     [
+      5169,
+      15
+     ],
+     [
+      5370,
+      16
+     ],
+     [
+      6569,
+      17
+     ],
+     [
+      7009,
+      18
+     ],
+     [
+      7209,
+      19
+     ],
+     [
+      7370,
+      20
+     ],
+     [
+      7669,
+      21
+     ],
+     [
+      8789,
+      22
+     ],
+     [
+      9810,
+      23
+     ],
+     [
+      10969,
+      24
+     ],
+     [
+      12169,
+      25
+     ],
+     [
+      12549,
+      26
+     ],
+     [
+      12749,
+      27
+     ],
+     [
+      12969,
+      28
+     ],
+     [
+      13089,
+      29
+     ],
+     [
+      13430,
+      30
+     ],
+     [
+      13709,
+      31
+     ],
+     [
+      13829,
+      32
+     ],
+     [
+      13930,
+      33
+     ],
+     [
+      14069,
+      34
+     ],
+     [
+      14390,
+      35
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 76159,
+    "d": 3312,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1869,
+      2
+     ],
+     [
+      2829,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 79772,
+    "d": 2514,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2069,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 82587,
+    "d": 21242,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      2549,
+      8
+     ],
+     [
+      2729,
+      9
+     ],
+     [
+      3569,
+      10
+     ],
+     [
+      4489,
+      11
+     ],
+     [
+      4649,
+      12
+     ],
+     [
+      4930,
+      13
+     ],
+     [
+      5069,
+      14
+     ],
+     [
+      5430,
+      15
+     ],
+     [
+      5549,
+      16
+     ],
+     [
+      5689,
+      17
+     ],
+     [
+      6029,
+      18
+     ],
+     [
+      6149,
+      19
+     ],
+     [
+      6329,
+      20
+     ],
+     [
+      7349,
+      21
+     ],
+     [
+      7589,
+      22
+     ],
+     [
+      8650,
+      23
+     ],
+     [
+      9190,
+      24
+     ],
+     [
+      9549,
+      25
+     ],
+     [
+      10549,
+      26
+     ],
+     [
+      10869,
+      27
+     ],
+     [
+      11049,
+      28
+     ],
+     [
+      11230,
+      29
+     ],
+     [
+      11549,
+      30
+     ],
+     [
+      11689,
+      31
+     ],
+     [
+      11829,
+      32
+     ],
+     [
+      12749,
+      33
+     ],
+     [
+      13129,
+      34
+     ],
+     [
+      13310,
+      35
+     ],
+     [
+      14129,
+      36
+     ],
+     [
+      14649,
+      37
+     ],
+     [
+      14909,
+      38
+     ],
+     [
+      15329,
+      39
+     ],
+     [
+      15589,
+      40
+     ],
+     [
+      15709,
+      41
+     ],
+     [
+      15950,
+      42
+     ],
+     [
+      16209,
+      43
+     ],
+     [
+      16950,
+      44
+     ],
+     [
+      17149,
+      45
+     ],
+     [
+      17509,
+      46
+     ],
+     [
+      17749,
+      47
+     ],
+     [
+      17969,
+      48
+     ],
+     [
+      18129,
+      49
+     ],
+     [
+      19009,
+      50
+     ],
+     [
+      19229,
+      51
+     ],
+     [
+      19469,
+      52
+     ],
+     [
+      19589,
+      53
+     ],
+     [
+      20030,
+      54
+     ],
+     [
+      20409,
+      55
+     ],
+     [
+      20610,
+      56
+     ],
+     [
+      20909,
+      57
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 104130,
+    "d": 2231,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1349,
+      5
+     ],
+     [
+      1670,
+      6
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 106662,
+    "d": 1514,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      789,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 108476,
+    "d": 3791,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3029,
+      9
+     ],
+     [
+      3209,
+      10
+     ]
+    ]
+   },
+   "p5": {
+    "s": 112568,
+    "d": 16099,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1290,
+      5
+     ],
+     [
+      1410,
+      6
+     ],
+     [
+      1729,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      2789,
+      9
+     ],
+     [
+      3189,
+      10
+     ],
+     [
+      3329,
+      11
+     ],
+     [
+      3689,
+      12
+     ],
+     [
+      3809,
+      13
+     ],
+     [
+      3889,
+      14
+     ],
+     [
+      4709,
+      15
+     ],
+     [
+      4949,
+      16
+     ],
+     [
+      5310,
+      17
+     ],
+     [
+      5609,
+      18
+     ],
+     [
+      5989,
+      19
+     ],
+     [
+      6709,
+      20
+     ],
+     [
+      6829,
+      21
+     ],
+     [
+      7109,
+      22
+     ],
+     [
+      7370,
+      23
+     ],
+     [
+      7729,
+      24
+     ],
+     [
+      7870,
+      25
+     ],
+     [
+      7989,
+      26
+     ],
+     [
+      8289,
+      27
+     ],
+     [
+      9509,
+      28
+     ],
+     [
+      9690,
+      29
+     ],
+     [
+      10249,
+      30
+     ],
+     [
+      10449,
+      31
+     ],
+     [
+      11029,
+      32
+     ],
+     [
+      11430,
+      33
+     ],
+     [
+      12149,
+      34
+     ],
+     [
+      12930,
+      35
+     ],
+     [
+      13109,
+      36
+     ],
+     [
+      13789,
+      37
+     ],
+     [
+      14850,
+      38
+     ],
+     [
+      15269,
+      39
+     ],
+     [
+      15689,
+      40
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 128968,
+    "d": 3048,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      2709,
+      6
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 132316,
+    "d": 3667,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      2349,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3150,
+      9
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 136284,
+    "d": 4284,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2749,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      3769,
+      9
+     ]
+    ]
+   }
+  }
+ }
+}

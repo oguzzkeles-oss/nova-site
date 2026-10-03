@@ -1,0 +1,2316 @@
+{
+ "id": "052-herkes-oyuna-katilabilir",
+ "n": 52,
+ "title": "Herkes Oyuna Katılabilir",
+ "age": "60-72",
+ "area": "Sosyal",
+ "theme": "Dışlamaya karşı durma ve herkesi oyuna katma (Dünya Çocuk Hakları Günü, 20 Kasım)",
+ "values": [
+  "D1 Adalet",
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 5,
+ "blurb": "Can parkta “Sen oynayamazsın!” deyince Deniz bankta yapayalnız kalır. Zeynep Deniz'in yanına gider, sırasını bekleyip öğretmene anlatır ve herkesin katılabildiği bir top çemberi kurar. Sonunda Can da çembere katılır.",
+ "codes": {
+  "maarif": [
+   "beceri: SBAB5 Sosyal Katılım",
+   "TAKB.1 Konuşma sürecini yönetebilme (söz sırasını bekler, göz teması kurar)",
+   "E2.1 Empati",
+   "SAB.9 Yakın çevresinde oluşturulan gruplarla (oyun, etkinlik) sosyal temas kurabilme (teyitsiz)"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "deniz": "cocuk-kiz",
+  "can": "cocuk-erkek",
+  "ela": "cocuk-kiz",
+  "ogretmen": "ogretmen"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "deniz": "Deniz",
+  "can": "Can",
+  "ela": "Ela",
+  "ogretmen": "Nur Öğretmen"
+ },
+ "pages": [
+  {
+   "text": "Güneşli bir kasım sabahıydı. Nur Öğretmen'in sınıfı parka çıktı. Can kırmızı topunu getirmişti. Zıp, zıp, pat! Can ile Zeynep top oynadı. Deniz koşa koşa geldi. Gözleri pırıl pırıldı.",
+   "scene": {
+    "set": "oyun-parki",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 62,
+      "y": 230,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "run",
+      "hit": "deniz"
+     },
+     {
+      "k": "zeynep",
+      "x": 190,
+      "y": 222,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "zeynep"
+     },
+     {
+      "k": "can",
+      "x": 318,
+      "y": 228,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "can",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 254,
+      "y": 234,
+      "s": 1.5,
+      "hit": "top"
+     },
+     {
+      "k": "yaprak",
+      "x": 128,
+      "y": 236,
+      "s": 1.2,
+      "color": "orange"
+     },
+     {
+      "k": "yaprak",
+      "x": 380,
+      "y": 234,
+      "s": 1.1,
+      "color": "red"
+     }
+    ]
+   },
+   "hits": {
+    "top": {
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "can": {
+     "say": "Zıp, zıp, pat! Yakala!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "zeynep": {
+     "say": "Yakaladım! Sıra sende!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Top oynuyorlar! Ben de geliyorum!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "top",
+    "Topa dokun, zıplasın!"
+   ],
+   "ask": "Sen parkta arkadaşlarınla en çok hangi oyunu oynarsın?"
+  },
+  {
+   "text": "“Ben de oynayabilir miyim?” diye sordu Deniz. Can topu sımsıkı tuttu. “Hayır! Sen oynayamazsın!” Deniz çok üzüldü. Boğazı düğüm düğüm oldu. Gözleri doldu. Başını eğdi, tek başına banka oturdu.",
+   "scene": {
+    "set": "oyun-parki",
+    "season": "autumn",
+    "bench": true,
+    "still": true,
+    "cast": [
+     {
+      "k": "can",
+      "x": 72,
+      "y": 230,
+      "s": 1.0,
+      "mood": "angry",
+      "pose": "hold",
+      "hold": "top",
+      "hit": "can",
+      "turn": 0.5
+     },
+     {
+      "k": "zeynep",
+      "x": 178,
+      "y": 214,
+      "s": 0.9,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "zeynep",
+      "turn": 0.6
+     },
+     {
+      "k": "deniz",
+      "x": 336,
+      "y": 219,
+      "s": 1.0,
+      "mood": "sad",
+      "pose": "seat",
+      "hit": "deniz",
+      "flip": true,
+      "z": 235
+     }
+    ],
+    "props": [
+     {
+      "k": "yaprak",
+      "x": 262,
+      "y": 236,
+      "s": 1.2,
+      "color": "yellow"
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Kimse benimle oynamıyor…",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "can": {
+     "say": "Hayır! Sen oynayamazsın!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "zeynep": {
+     "say": "Ama Deniz de oynamak istiyor!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Deniz şimdi ne hissediyor? Bunu yüzünden ve bedeninden nasıl anlıyorsun?"
+  },
+  {
+   "text": "Can topu Zeynep'e attı. Hop! Zeynep topu yakaladı ama atmadı. Bankta yapayalnız oturan Deniz'e baktı. Zeynep'in içi sızladı. “Bu hiç adil değil,” diye düşündü. Aklından iki yol geçti: oyuna devam etmek ya da Deniz'in yanına gitmek…",
+   "scene": {
+    "set": "oyun-parki",
+    "season": "autumn",
+    "bench": true,
+    "still": true,
+    "cast": [
+     {
+      "k": "can",
+      "x": 210,
+      "y": 204,
+      "s": 0.8,
+      "mood": "surprised",
+      "pose": "open",
+      "hit": "can"
+     },
+     {
+      "k": "zeynep",
+      "x": 110,
+      "y": 232,
+      "s": 1.25,
+      "mood": "think",
+      "pose": "hold",
+      "hold": "top",
+      "hit": "zeynep",
+      "turn": 0.5
+     },
+     {
+      "k": "deniz",
+      "x": 336,
+      "y": 219,
+      "s": 1.0,
+      "mood": "sad",
+      "pose": "seat",
+      "hit": "deniz",
+      "flip": true,
+      "z": 235
+     }
+    ],
+    "props": [
+     {
+      "k": "qmark",
+      "x": 150,
+      "y": 70
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Bu hiç adil değil.",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Ben de oynamak istiyordum.",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "can": {
+     "say": "Hadi Zeynep, atsana!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "predict": {
+    "q": "Sence Zeynep ne yapacak?",
+    "res": "İkisi de iyi bir yol! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Deniz'in yanına gider",
+      "scene": {
+       "set": "oyun-parki",
+       "season": "autumn",
+       "bench": true,
+       "still": true,
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 250,
+         "y": 228,
+         "s": 1.05,
+         "mood": "calm",
+         "pose": "walk"
+        },
+        {
+         "k": "deniz",
+         "x": 336,
+         "y": 219,
+         "s": 1.0,
+         "mood": "surprised",
+         "pose": "seat",
+         "flip": true,
+         "z": 235
+        }
+       ]
+      }
+     },
+     {
+      "l": "Öğretmene anlatır",
+      "scene": {
+       "set": "oyun-parki",
+       "season": "autumn",
+       "still": true,
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 170,
+         "y": 228,
+         "s": 1.05,
+         "mood": "calm",
+         "pose": "open"
+        },
+        {
+         "k": "ogretmen",
+         "x": 280,
+         "y": 222,
+         "s": 1.0,
+         "mood": "calm",
+         "pose": "stand",
+         "flip": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Zeynep neden “Bu adil değil” diye düşündü? Sen olsan ne yapardın?"
+  },
+  {
+   "text": "Zeynep topu Can'a geri verdi. Deniz'e doğru yürüdü. Adım, adım, bir adım daha. “Seninle oynayabilir miyim?” diye sordu. Deniz başını kaldırdı, gülümsedi. İçi biraz ısındı. Omuzları gevşedi.",
+   "scene": {
+    "set": "oyun-parki",
+    "season": "autumn",
+    "bench": true,
+    "still": true,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 96,
+      "y": 230,
+      "s": 1.1,
+      "mood": "calm",
+      "pose": "walk",
+      "hit": "zeynep"
+     },
+     {
+      "k": "deniz",
+      "x": 336,
+      "y": 219,
+      "s": 1.0,
+      "mood": "shy",
+      "pose": "seat",
+      "hit": "deniz",
+      "flip": true,
+      "z": 235
+     }
+    ],
+    "props": [
+     {
+      "k": "yaprak",
+      "x": 40,
+      "y": 236,
+      "s": 1.1,
+      "color": "orange"
+     },
+     {
+      "k": "yaprak",
+      "x": 200,
+      "y": 206,
+      "s": 1.0,
+      "color": "red"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Seninle oynayabilir miyim?",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "deniz": {
+     "say": "Olur! Teşekkür ederim.",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "zeynep",
+    "steps": 3,
+    "step": 50,
+    "say": "Adım, adım, bir adım daha!",
+    "done": "Zeynep, Deniz'in yanına geldi!",
+    "msg": "Yanında durdun!"
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun, yürüsün!"
+   ],
+   "ask": "Zeynep, Deniz'in yanına gidince Deniz nasıl hissetti? Seni biri yalnız bırakmasa ne hissedersin?"
+  },
+  {
+   "text": "İkisi Nur Öğretmen'e gitti. Öğretmen, Ela ile konuşuyordu. Zeynep sözünü kesmedi, sırasını bekledi. Sonra Nur Öğretmen'in gözlerine bakıp anlattı. Öğretmen dikkatle dinledi. “Burada herkes oyuna katılabilir. Ne yapalım?” Zeynep'in gözleri parladı: “Top çemberi!”",
+   "scene": {
+    "set": "oyun-parki",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 72,
+      "y": 232,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "deniz",
+      "turn": 0.5
+     },
+     {
+      "k": "zeynep",
+      "x": 170,
+      "y": 228,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "open",
+      "hit": "zeynep",
+      "turn": 0.6
+     },
+     {
+      "k": "ogretmen",
+      "x": 282,
+      "y": 224,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "ogretmen",
+      "flip": true
+     },
+     {
+      "k": "ela",
+      "x": 362,
+      "y": 212,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "ela",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "sparkle",
+      "x": 184,
+      "y": 96,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Öğretmenim, Deniz oyuna katılamadı, çok üzgün.",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ogretmen": {
+     "say": "Burada herkes oyuna katılabilir.",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ela": {
+     "say": "Top çemberi mi? Ben de varım!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Top çemberi mi? Harika!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun, anlatsın!"
+   ],
+   "ask": "Zeynep öğretmene anlatmadan önce ne yaptı? Sen bir büyüğe derdini nasıl anlatırsın?"
+  },
+  {
+   "text": "Nur Öğretmen mavi bir top verdi. Çember kuruldu. Kural çok basitti: “Top sırayla herkese gelir!” Zeynep'ten Deniz'e, Deniz'den Ela'ya. Pıt, pıt, pıt! Deniz kahkahayla güldü. Mutluluk içini gıdıkladı.",
+   "scene": {
+    "set": "oyun-parki",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 100,
+      "y": 212,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "open",
+      "hit": "zeynep",
+      "turn": 0.6
+     },
+     {
+      "k": "deniz",
+      "x": 210,
+      "y": 234,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "open",
+      "hit": "deniz"
+     },
+     {
+      "k": "ela",
+      "x": 320,
+      "y": 212,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "open",
+      "hit": "ela",
+      "flip": true,
+      "turn": 0.6
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 152,
+      "y": 150,
+      "s": 1.4,
+      "color": "#3D8BE0",
+      "hit": "top"
+     },
+     {
+      "k": "yaprak",
+      "x": 282,
+      "y": 236,
+      "s": 1.1,
+      "color": "yellow"
+     },
+     {
+      "k": "yaprak",
+      "x": 44,
+      "y": 232,
+      "s": 1.0,
+      "color": "orange"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Al Deniz, sıra sende!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "deniz": {
+     "say": "Yakaladım! Hadi Ela!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "ela": {
+     "say": "Hop! Bende!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "top": {
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "zeynep",
+     "deniz",
+     "ela"
+    ],
+    "done": "Top sırayla herkese geldi!",
+    "msg": "Sırayla attın!"
+   },
+   "hint": [
+    "zeynep",
+    "Önce Zeynep'e dokun!"
+   ],
+   "ask": "Top çemberinin kuralı neydi? Bu oyunda neden kimse dışarıda kalmıyor?",
+   "cues": [
+    {
+     "w": 23,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Can kırmızı topuyla tek başına kalmıştı. Zıp… zıp… Kimse yakalamadı. Can'ın içi burkuldu. Dudakları titredi. Çembere yaklaştı. “Özür dilerim, Deniz. Sadece Zeynep'le oynamak istemiştim. Ben de katılabilir miyim?” Deniz gülümsedi. “Elbette! Burada herkes oyuna katılabilir.” Çember büyüdü, kahkahalar da!",
+   "scene": {
+    "set": "oyun-parki",
+    "season": "autumn",
+    "cast": [
+     {
+      "k": "can",
+      "x": 70,
+      "y": 230,
+      "s": 1.05,
+      "mood": "sorry",
+      "pose": "hold",
+      "hold": "top",
+      "hit": "can"
+     },
+     {
+      "k": "deniz",
+      "x": 176,
+      "y": 226,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "zeynep",
+      "x": 276,
+      "y": 214,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "clap",
+      "hit": "zeynep",
+      "flip": true
+     },
+     {
+      "k": "ela",
+      "x": 360,
+      "y": 230,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "ela",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 318,
+      "y": 236,
+      "s": 1.3,
+      "color": "#3D8BE0",
+      "hit": "top"
+     },
+     {
+      "k": "heart",
+      "x": 124,
+      "y": 90,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Özür dilerim. Katılabilir miyim?",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Elbette! Gel, çembere katıl!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Çember büyüdü!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "ela": {
+     "say": "Şimdi iki top var!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "top": {
+     "say": "İki top, bir kocaman çember!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Can neden özür diledi? Oyuna katılmak isteyen birine sen ne dersin?",
+   "cues": [
+    {
+     "w": 37,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  6
+ ],
+ "guide": {
+  "kazanim": [
+   "SBAB5 Sosyal Katılım (alan becerisi): Parkta kurulan oyuna katılır; oyundan dışlanan bir arkadaşını fark eder ve herkesin katılabildiği bir oyun önerir.",
+   "SAB.9 Yakın çevresinde oluşturulan gruplarla sosyal temas kurabilme (teyitsiz): Parkta arkadaşlarıyla top çemberi kurar, gruba yeni katılanı kabul eder.",
+   "TAKB.1 Konuşma sürecini yönetebilme (öğrenme çıktısı); süreç bileşenleri: söz sırasını bekler, göz teması kurar. Zeynep gibi, büyüğün konuşması bitene kadar bekleyip gözlerine bakarak yaşadığı sorunu anlatır.",
+   "E2.1 Empati ve SDB2.3 Sosyal Farkındalık: Dışlanan arkadaşının duygusunu yüzünden ve bedeninden (boğazda düğüm, dolan gözler, eğik baş) tanır; yanına gidip “Ben seninle oynarım” gibi destek sözleri söyler.",
+   "D1 Adalet ve D4 Dostluk: Oyunda herkese eşit sıra verir (“Top sırayla herkese gelir”); dışlayan arkadaşı özür dileyince onu da oyuna kabul eder."
+  ],
+  "once": [
+   "Dünya Çocuk Hakları Günü (20 Kasım) ile bağlayın: “Her çocuğun oyun oynama hakkı vardır. Sence bu ne demek?”",
+   "Kapaktaki çocukları gösterin: “Bunlar Zeynep, Deniz, Can ve Ela. Sence parkta ne olacak?”",
+   "Sorun: “Bir oyuna katılmak isteyip ‘Hayır’ duyduğun oldu mu? Neler hissettin?” Cevapları yargılamadan dinleyin."
+  ],
+  "sirasi": [
+   "2. sayfada durun: “Deniz'in boğazı düğüm düğüm oldu. Sen üzülünce bedeninde ne olur?” Çocuklarla üzgün bir yüz yapıp bir nefes alarak yüzü gevşetin.",
+   "3. sayfada tahmini sorun; iki seçeneğin de iyi olduğunu vurgulayın: yanına gitmek de, büyüğe anlatmak da doğru yoldur. Zeynep masalda ikisini de yapar.",
+   "5. sayfada Zeynep'in sırasını beklediğini gösterin: “Öğretmen konuşurken Zeynep ne yaptı?” 7. sayfada Can'ın yüzüne bakın: “Can şimdi ne hissediyor?”"
+  ],
+  "sonra": [
+   "Olayları sırayla anlattırın: Deniz dışarıda kaldı → Zeynep yanına gitti → öğretmene anlattılar → top çemberi kuruldu → Can özür dileyip katıldı.",
+   "“Can bir kez yanlış davrandı, sonra özür diledi. Sence Can iyi bir arkadaş olabilir mi?” diye sorun. Dışlayan çocuğu kötü ilan etmeden davranış üzerine konuşun.",
+   "“Can neden ‘Hayır’ demiş olabilir? Başka ne diyebilirdi?” diye sorun. Can'ın Zeynep'le yalnız oynamak istediğini hatırlatın; “Hadi üçümüz oynayalım!” gibi seçenekleri birlikte bulun.",
+   "Oyuna katılmak için kullanılabilecek cümleleri birlikte bulun: “Ben de oynayabilir miyim?”, “Gel, bize katıl!”, “Sırayla oynayalım.”"
+  ],
+  "sinif": {
+   "ad": "Top Çemberi: Herkes Katılabilir",
+   "sure": "20 dk",
+   "materyal": "Yumuşak bir top, halı ya da bahçede geniş bir alan, gülen yüz ve üzgün yüz resimli iki kart",
+   "adim": [
+    "Çocuklar çember olur. Kural söylenir: “Top sırayla herkese gelir; önce adını söyle, sonra gözlerine bakıp at.”",
+    "Top herkese bir kez gelince oyun durur. Bir çocuk çemberin dışında bekler; öğretmen sorar: “Dışarıda kalan nasıl hisseder? Onu nasıl çağırırız?” Çocuklar davet cümlesiyle onu çembere alır.",
+    "Canlandırma: Bir çocuk “Ben de oynayabilir miyim?” der, çember “Elbette, gel!” diye yanıt verir. Rolleri değiştirin; herkes hem soran hem davet eden olsun.",
+    "Kapanışta her çocuk gülen yüz ya da üzgün yüz kartını gösterip oyunda neler hissettiğini bir cümleyle söyler."
+   ]
+  },
+  "evSoru": [
+   "Deniz oyuna alınmayınca ne hissetti? Zeynep ona nasıl yardım etti?",
+   "Zeynep öğretmene anlatmadan önce ne yaptı? Neden sözünü kesmedi?",
+   "Can özür dileyince Deniz ne dedi? Sen oyuna katılmak isteyen birine ne dersin?"
+  ],
+  "evEtk": {
+   "ad": "Ailecek Top Çemberi",
+   "d": "Evde ya da parkta aile üyeleriyle çember olun ve yumuşak bir topu sırayla birbirinize atın. Atmadan önce karşınızdakinin adını söyleyin ve gözlerine bakın. Sonra çocuğunuzla oyuna yeni birini (kardeş, komşu çocuğu, oyuncak ayı) davet etmek için bir cümle bulun: “Gel, bize katıl!”"
+  },
+  "aileNotu": "Bugün “Herkes Oyuna Katılabilir” masalını okuduk. Parkta oyundan dışlanan Deniz'in yanına arkadaşı Zeynep gidiyor, sırasını bekleyip öğretmene anlatıyor ve herkesin katılabildiği bir top çemberi kuruyor. Deniz'i dışlayan Can da sonunda özür dileyip oyuna katılıyor. 20 Kasım Dünya Çocuk Hakları Günü vesilesiyle evde her çocuğun oyun oynama hakkını, dışarıda kalan bir arkadaşı fark etmeyi ve gerektiğinde bir büyüğe anlatmayı konuşabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/052-herkes-oyuna-katilabilir.mp3",
+  "hash": "113d4eff",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13722,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3769,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      4789,
+      10
+     ],
+     [
+      5209,
+      11
+     ],
+     [
+      5569,
+      12
+     ],
+     [
+      6709,
+      13
+     ],
+     [
+      7129,
+      14
+     ],
+     [
+      7629,
+      15
+     ],
+     [
+      8529,
+      16
+     ],
+     [
+      8770,
+      17
+     ],
+     [
+      8989,
+      18
+     ],
+     [
+      9449,
+      19
+     ],
+     [
+      9709,
+      20
+     ],
+     [
+      10509,
+      21
+     ],
+     [
+      10890,
+      22
+     ],
+     [
+      11189,
+      23
+     ],
+     [
+      11489,
+      24
+     ],
+     [
+      12169,
+      25
+     ],
+     [
+      12729,
+      26
+     ],
+     [
+      13129,
+      27
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 14022,
+    "d": 2228,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      475,
+      1
+     ],
+     [
+      911,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 16551,
+    "d": 2007,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1116,
+      1
+     ],
+     [
+      1541,
+      2
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 18858,
+    "d": 2412,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      1689,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21570,
+    "d": 14068,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2930,
+      7
+     ],
+     [
+      3170,
+      8
+     ],
+     [
+      3589,
+      9
+     ],
+     [
+      4129,
+      10
+     ],
+     [
+      4810,
+      11
+     ],
+     [
+      5449,
+      12
+     ],
+     [
+      5689,
+      13
+     ],
+     [
+      6789,
+      14
+     ],
+     [
+      7189,
+      15
+     ],
+     [
+      7449,
+      16
+     ],
+     [
+      8249,
+      17
+     ],
+     [
+      8730,
+      18
+     ],
+     [
+      9109,
+      19
+     ],
+     [
+      9469,
+      20
+     ],
+     [
+      10089,
+      21
+     ],
+     [
+      10609,
+      22
+     ],
+     [
+      11350,
+      23
+     ],
+     [
+      11850,
+      24
+     ],
+     [
+      12569,
+      25
+     ],
+     [
+      12789,
+      26
+     ],
+     [
+      13169,
+      27
+     ],
+     [
+      13549,
+      28
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 35939,
+    "d": 1829,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1030,
+      2
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 38068,
+    "d": 2295,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1269,
+      2
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 40664,
+    "d": 2050,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      403,
+      1
+     ],
+     [
+      766,
+      2
+     ],
+     [
+      974,
+      3
+     ],
+     [
+      1492,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 43014,
+    "d": 17192,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      4229,
+      9
+     ],
+     [
+      5129,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      6189,
+      12
+     ],
+     [
+      6569,
+      13
+     ],
+     [
+      6969,
+      14
+     ],
+     [
+      7789,
+      15
+     ],
+     [
+      8329,
+      16
+     ],
+     [
+      8589,
+      17
+     ],
+     [
+      9489,
+      18
+     ],
+     [
+      9709,
+      19
+     ],
+     [
+      10169,
+      20
+     ],
+     [
+      10409,
+      21
+     ],
+     [
+      10969,
+      22
+     ],
+     [
+      11230,
+      23
+     ],
+     [
+      12109,
+      24
+     ],
+     [
+      12729,
+      25
+     ],
+     [
+      12949,
+      26
+     ],
+     [
+      13189,
+      27
+     ],
+     [
+      13949,
+      28
+     ],
+     [
+      14289,
+      29
+     ],
+     [
+      14689,
+      30
+     ],
+     [
+      15390,
+      31
+     ],
+     [
+      15529,
+      32
+     ],
+     [
+      15850,
+      33
+     ],
+     [
+      16289,
+      34
+     ],
+     [
+      16649,
+      35
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 60507,
+    "d": 1476,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      294,
+      1
+     ],
+     [
+      549,
+      2
+     ],
+     [
+      992,
+      3
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 62283,
+    "d": 1812,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      264,
+      1
+     ],
+     [
+      489,
+      2
+     ],
+     [
+      1047,
+      3
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 64395,
+    "d": 1983,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      545,
+      1
+     ],
+     [
+      1222,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 66679,
+    "d": 1616,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 68595,
+    "d": 2123,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1410,
+      5
+     ],
+     [
+      1629,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 71018,
+    "d": 14432,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3829,
+      8
+     ],
+     [
+      4529,
+      9
+     ],
+     [
+      5370,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      5870,
+      12
+     ],
+     [
+      6729,
+      13
+     ],
+     [
+      7129,
+      14
+     ],
+     [
+      7669,
+      15
+     ],
+     [
+      8230,
+      16
+     ],
+     [
+      8509,
+      17
+     ],
+     [
+      9329,
+      18
+     ],
+     [
+      9690,
+      19
+     ],
+     [
+      10069,
+      20
+     ],
+     [
+      10930,
+      21
+     ],
+     [
+      11909,
+      22
+     ],
+     [
+      12129,
+      23
+     ],
+     [
+      12469,
+      24
+     ],
+     [
+      13289,
+      25
+     ],
+     [
+      13810,
+      26
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 85750,
+    "d": 1663,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      519,
+      1
+     ],
+     [
+      1286,
+      2
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 87714,
+    "d": 1716,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1229,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 89730,
+    "d": 2040,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1489,
+      3
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 92071,
+    "d": 2617,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      687,
+      1
+     ],
+     [
+      1334,
+      2
+     ],
+     [
+      1611,
+      3
+     ],
+     [
+      2094,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 94988,
+    "d": 18711,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3349,
+      7
+     ],
+     [
+      4609,
+      8
+     ],
+     [
+      4989,
+      9
+     ],
+     [
+      5350,
+      10
+     ],
+     [
+      6189,
+      11
+     ],
+     [
+      6689,
+      12
+     ],
+     [
+      7649,
+      13
+     ],
+     [
+      8190,
+      14
+     ],
+     [
+      8409,
+      15
+     ],
+     [
+      8949,
+      16
+     ],
+     [
+      9449,
+      17
+     ],
+     [
+      9829,
+      18
+     ],
+     [
+      10909,
+      19
+     ],
+     [
+      11449,
+      20
+     ],
+     [
+      12009,
+      21
+     ],
+     [
+      12949,
+      22
+     ],
+     [
+      13310,
+      23
+     ],
+     [
+      13810,
+      24
+     ],
+     [
+      14089,
+      25
+     ],
+     [
+      15089,
+      26
+     ],
+     [
+      15209,
+      27
+     ],
+     [
+      15969,
+      28
+     ],
+     [
+      16469,
+      29
+     ],
+     [
+      16930,
+      30
+     ],
+     [
+      17789,
+      31
+     ],
+     [
+      18049,
+      32
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 113999,
+    "d": 3666,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2809,
+      4
+     ],
+     [
+      3129,
+      5
+     ]
+    ]
+   },
+   "p4h-ogretmen": {
+    "s": 117965,
+    "d": 2135,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 120401,
+    "d": 2335,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      279,
+      1
+     ],
+     [
+      874,
+      2
+     ],
+     [
+      1398,
+      3
+     ],
+     [
+      1638,
+      4
+     ],
+     [
+      1877,
+      5
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 123037,
+    "d": 2251,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 125588,
+    "d": 15672,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      2949,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      4149,
+      9
+     ],
+     [
+      4390,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5689,
+      12
+     ],
+     [
+      6269,
+      13
+     ],
+     [
+      6809,
+      14
+     ],
+     [
+      7609,
+      15
+     ],
+     [
+      8249,
+      16
+     ],
+     [
+      9029,
+      17
+     ],
+     [
+      9669,
+      18
+     ],
+     [
+      10469,
+      19
+     ],
+     [
+      10949,
+      20
+     ],
+     [
+      11390,
+      21
+     ],
+     [
+      12169,
+      22
+     ],
+     [
+      12549,
+      23
+     ],
+     [
+      13329,
+      24
+     ],
+     [
+      14089,
+      25
+     ],
+     [
+      14669,
+      26
+     ],
+     [
+      15009,
+      27
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 141561,
+    "d": 1768,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 143629,
+    "d": 2225,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1238,
+      1
+     ],
+     [
+      1711,
+      2
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 146155,
+    "d": 1247,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      689,
+      1
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 147702,
+    "d": 1993,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p6": {
+    "s": 149996,
+    "d": 22614,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4810,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      6269,
+      10
+     ],
+     [
+      6669,
+      11
+     ],
+     [
+      6890,
+      12
+     ],
+     [
+      7769,
+      13
+     ],
+     [
+      8329,
+      14
+     ],
+     [
+      9230,
+      15
+     ],
+     [
+      9669,
+      16
+     ],
+     [
+      10709,
+      17
+     ],
+     [
+      11029,
+      18
+     ],
+     [
+      11430,
+      19
+     ],
+     [
+      12069,
+      20
+     ],
+     [
+      12549,
+      21
+     ],
+     [
+      13029,
+      22
+     ],
+     [
+      13390,
+      23
+     ],
+     [
+      14350,
+      24
+     ],
+     [
+      14529,
+      25
+     ],
+     [
+      14649,
+      26
+     ],
+     [
+      15249,
+      27
+     ],
+     [
+      15869,
+      28
+     ],
+     [
+      16229,
+      29
+     ],
+     [
+      17209,
+      30
+     ],
+     [
+      18129,
+      31
+     ],
+     [
+      18530,
+      32
+     ],
+     [
+      18989,
+      33
+     ],
+     [
+      19249,
+      34
+     ],
+     [
+      20270,
+      35
+     ],
+     [
+      20809,
+      36
+     ],
+     [
+      21589,
+      37
+     ],
+     [
+      22350,
+      38
+     ]
+    ]
+   },
+   "p6h-can": {
+    "s": 172910,
+    "d": 2347,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1909,
+      3
+     ]
+    ]
+   },
+   "p6h-deniz": {
+    "s": 175558,
+    "d": 2449,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      956,
+      1
+     ],
+     [
+      1354,
+      2
+     ],
+     [
+      1974,
+      3
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 178307,
+    "d": 1301,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      543,
+      1
+     ]
+    ]
+   },
+   "p6h-ela": {
+    "s": 179909,
+    "d": 1691,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p6h-top": {
+    "s": 181900,
+    "d": 2804,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      594,
+      1
+     ],
+     [
+      1101,
+      2
+     ],
+     [
+      1419,
+      3
+     ],
+     [
+      2209,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

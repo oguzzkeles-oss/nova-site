@@ -1,0 +1,1433 @@
+{
+ "id": "074-kirpi-ormani-temizliyor",
+ "lang": "en",
+ "title": "Hedgehog Cleans the Forest",
+ "theme": "Keeping our surroundings clean",
+ "blurb": "Spike the hedgehog bumps his nose on a can left over from a picnic: clonk! Spike, Tufty and Cinnamon count five pieces of rubbish one by one, carry them to the yellow bin together, and the forest smells fresh again.",
+ "voiceNames": {
+  "diken": "Spike (hedgehog)",
+  "puskul": "Tufty (squirrel)",
+  "tarcin": "Cinnamon (fox)"
+ },
+ "pages": [
+  {
+   "text": "It was late afternoon. Spike the hedgehog went for a walk. Pitter patter, pitter patter! Suddenly his nose bumped into something. Clonk! “Oh! What's this?”",
+   "hits": {
+    "diken": {
+     "say": "Oh! What's this?"
+    }
+   },
+   "hint": "Touch Spike!",
+   "ask": "What do you think Spike's nose bumped into? What is a can doing in the forest?"
+  },
+  {
+   "text": "Spike looked carefully. “Bottles on the path, cans under the bush!” There had been a picnic here yesterday. The rubbish was left on the ground. Come on, you count too!",
+   "hits": {
+    "diken": {
+     "say": "Hmm, what a lot of rubbish!"
+    }
+   },
+   "mech": {
+    "done": "One, two, three, four, five! Five pieces of rubbish!",
+    "msg": "Five pieces of rubbish!"
+   },
+   "hint": "Count the rubbish one by one!",
+   "ask": "Where can you see the rubbish? How many did you count?"
+  },
+  {
+   "text": "Tufty the squirrel and Cinnamon the fox came along. “Our path is full of rubbish!” said Tufty. Spike felt sad, and his spikes went down. He took a deep breath. “Will you help me?”",
+   "hits": {
+    "diken": {
+     "say": "Will you help me?"
+    },
+    "puskul": {
+     "say": "Our path is full of rubbish!"
+    },
+    "tarcin": {
+     "say": "My paw will get caught in a can!"
+    }
+   },
+   "predict": {
+    "q": "What do you think the three friends will do?",
+    "res": "Good guess! Let's see.",
+    "opts": [
+     {
+      "l": "Pick up the rubbish"
+     },
+     {
+      "l": "Look for a bin"
+     }
+    ]
+   },
+   "hint": "Touch Spike!",
+   "ask": "What did Spike do when he felt sad? Who do you ask for help when you're sad?"
+  },
+  {
+   "text": "At the end of the path was a yellow bin. Tufty pushed the bottles. Cinnamon carried the cans. Spike rolled a bottle with his nose: tip tap! Clatter clang!",
+   "hits": {
+    "diken": {
+     "say": "Tip tap, roll it!"
+    },
+    "puskul": {
+     "say": "Come on, all together!"
+    },
+    "tarcin": {
+     "say": "I'll carry some too!"
+    }
+   },
+   "mech": {
+    "done": "All five in the bin! Clatter clang!",
+    "msg": "All in the bin!"
+   },
+   "hint": "Throw the rubbish in the bin!",
+   "ask": "How did the three friends share the work? Which would you carry?"
+  },
+  {
+   "text": "The path was clear! Spike walked on. Step, step, one more step. Pitter patter! A sparrow sang: cheep cheep! Now nobody's paw would get caught.",
+   "hits": {
+    "diken": {
+     "say": "Step, step!"
+    },
+    "puskul": {
+     "say": "Hooray, the path is clear!"
+    }
+   },
+   "mech": {
+    "say": "Pitter patter!",
+    "done": "Spike reached the end of the path!",
+    "msg": "The path is clear!"
+   },
+   "hint": "Make Spike walk!",
+   "ask": "How did Spike feel when the path was clean? Why can rubbish be dangerous for animals?"
+  },
+  {
+   "text": "The three friends sat on the grass. Butterflies fluttered by. Spike felt proud; his spikes shone. “Ahh, the forest smells so fresh!” he said. Tufty laughed: “We cleaned up so well together!”",
+   "hits": {
+    "diken": {
+     "say": "Ahh, the forest smells so fresh!"
+    },
+    "puskul": {
+     "say": "We cleaned it up so well together!"
+    },
+    "tarcin": {
+     "say": "Rubbish goes in the bin!"
+    }
+   },
+   "hint": "Touch Spike!",
+   "ask": "Have you ever cleaned a place up together with someone? How did you feel when it was done?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 · Making scientific observations of science-related events, facts and situations in daily life: like Spike, “looks carefully” at the forest, notices the bottles and cans that should not be in nature and says where they are (“Bottles on the path, cans under the bush!”).",
+   "MAB.1 · Counting rhythmically and by sight (36–48 months: 1–5): counts the rubbish “one, two, three, four, five” by touching each piece, and says that the last number tells how many (“Five pieces of rubbish!”).",
+   "OB8 Sustainability Literacy: notices that rubbish harms nature and animals and that rubbish belongs in the bin; takes part in keeping the forest, the park and the classroom clean.",
+   "SDB2.2 Cooperation: like the three friends, shares a joint task (one pushes, one carries, one rolls) and completes it together; asks for help when needed (“Will you help me?”).",
+   "D18 Cleanliness · D16 Responsibility: sees keeping their surroundings clean as their own job."
+  ],
+  "once": [
+   "Look closely at the forest on the cover together: “What's here? What shouldn't be in a forest?”",
+   "Show a clean, empty plastic bottle: “What would happen if this bottle stayed in the forest?” Note the answers and look at them again after the story.",
+   "Talk briefly about where hedgehogs and squirrels live: “The forest is their home.”"
+  ],
+  "sirasi": [
+   "Say the sound words (pitter patter, clonk, clatter clang, cheep cheep) together with the child, keeping the beat with your hand.",
+   "In the counting game, help the child make ONE touch per piece of rubbish and say one number for each touch. Stress the last number: “Five pieces of rubbish!”",
+   "Ask what happened in Spike's body when he felt sad (his spikes went down) and what he did (a deep breath, asking for help); take a deep breath together.",
+   "On the prediction page, say that both options are good ideas; ask “Why did you think that?”"
+  ],
+  "sonra": [
+   "Remember the events with a sequencing game: Spike's nose bumps the can → the three friends carry the rubbish to the bin → they rest in the clean forest.",
+   "Ask “Who did what?”: Tufty pushed, Cinnamon carried, Spike rolled. Find examples of jobs you do together in class.",
+   "Remember Cinnamon's words, “My paw will get caught in a can!”: small animals like hedgehogs can sometimes get stuck inside cans; that's why rubbish goes in the bin.",
+   "Talk about the safety note: in real life we only pick up rubbish with a grown-up and wearing gloves. If we see broken glass, a needle or anything sharp, we don't touch it; we tell a grown-up. Afterwards we wash our hands with soap.",
+   "Remind the children that we watch animals from a distance and don't touch wild animals."
+  ],
+  "sinif": {
+   "ad": "Five Pieces of Rubbish, One Bin",
+   "sure": "15 min",
+   "materyal": "Clean waste (an empty plastic bottle, a washed drink can, crumpled paper), 5 pieces in total; a yellow box or piece of card; children's gloves; a green cloth (the forest)",
+   "adim": [
+    "Spread the green cloth on the floor and say, “This is our forest.” Hide the clean waste on the cloth and around its edges.",
+    "The children put on their gloves. With “detective eyes” they look carefully at the forest and point to the waste they see.",
+    "All together, count “one, two, three, four, five,” touching each piece of waste.",
+    "Make groups of three: one points, one carries, one puts it in the bin. Say “Clatter clang!” for each piece.",
+    "When finished, look at the cloth together: “How is our forest now? How do you feel?” Then everyone washes their hands with soap."
+   ]
+  },
+  "evSoru": [
+   "What did Spike's nose bump into?",
+   "How many pieces of rubbish did the three friends collect?",
+   "What did you put back in its place at home today?"
+  ],
+  "evEtk": {
+   "ad": "After-Picnic Check",
+   "d": "Next time you come home from the park or a picnic, look at the spot where you sat with “detective eyes” together with your child. Count your own rubbish together, put it in a bag and throw it in the bin. Only an adult, wearing gloves, touches other people's rubbish and sharp objects."
+  },
+  "aileNotu": "Today we read “Hedgehog Cleans the Forest.” Spike the hedgehog noticed the rubbish left over from a picnic; he asked his friends for help, and together they counted five pieces of rubbish and carried them to the bin. The story is linked to careful observation, counting to 5, cooperation and keeping our surroundings clean. At home, you can carry the story on by counting together (“How many?”) and by picking up your own rubbish together when you are out."
+ },
+ "audio": {
+  "file": "audio/en/074-kirpi-ormani-temizliyor.mp3",
+  "hash": "171df2d5",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10792,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2689,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3049,
+      9
+     ],
+     [
+      3150,
+      10
+     ],
+     [
+      3869,
+      11
+     ],
+     [
+      4129,
+      12
+     ],
+     [
+      4569,
+      13
+     ],
+     [
+      4830,
+      14
+     ],
+     [
+      5729,
+      15
+     ],
+     [
+      6229,
+      16
+     ],
+     [
+      6509,
+      17
+     ],
+     [
+      6910,
+      18
+     ],
+     [
+      7209,
+      19
+     ],
+     [
+      7489,
+      20
+     ],
+     [
+      8249,
+      21
+     ],
+     [
+      9230,
+      22
+     ],
+     [
+      9890,
+      23
+     ],
+     [
+      10190,
+      24
+     ]
+    ]
+   },
+   "p0h-diken": {
+    "s": 11092,
+    "d": 1735,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1129,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 13128,
+    "d": 10797,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1889,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      3469,
+      7
+     ],
+     [
+      3829,
+      8
+     ],
+     [
+      4029,
+      9
+     ],
+     [
+      4169,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5289,
+      12
+     ],
+     [
+      5410,
+      13
+     ],
+     [
+      5569,
+      14
+     ],
+     [
+      5669,
+      15
+     ],
+     [
+      6109,
+      16
+     ],
+     [
+      6329,
+      17
+     ],
+     [
+      7209,
+      18
+     ],
+     [
+      7370,
+      19
+     ],
+     [
+      7749,
+      20
+     ],
+     [
+      7910,
+      21
+     ],
+     [
+      8109,
+      22
+     ],
+     [
+      8209,
+      23
+     ],
+     [
+      8310,
+      24
+     ],
+     [
+      9129,
+      25
+     ],
+     [
+      9369,
+      26
+     ],
+     [
+      9810,
+      27
+     ],
+     [
+      10009,
+      28
+     ],
+     [
+      10289,
+      29
+     ]
+    ]
+   },
+   "p1h-diken": {
+    "s": 24225,
+    "d": 2490,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1749,
+      5
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 27016,
+    "d": 5266,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      2209,
+      3
+     ],
+     [
+      2769,
+      4
+     ],
+     [
+      3689,
+      5
+     ],
+     [
+      4089,
+      6
+     ],
+     [
+      4469,
+      7
+     ],
+     [
+      4629,
+      8
+     ]
+    ]
+   },
+   "p2": {
+    "s": 32582,
+    "d": 12560,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1609,
+      5
+     ],
+     [
+      1749,
+      6
+     ],
+     [
+      2130,
+      7
+     ],
+     [
+      2329,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      3749,
+      11
+     ],
+     [
+      3930,
+      12
+     ],
+     [
+      4109,
+      13
+     ],
+     [
+      4350,
+      14
+     ],
+     [
+      5229,
+      15
+     ],
+     [
+      5469,
+      16
+     ],
+     [
+      6449,
+      17
+     ],
+     [
+      6829,
+      18
+     ],
+     [
+      7149,
+      19
+     ],
+     [
+      7809,
+      20
+     ],
+     [
+      7949,
+      21
+     ],
+     [
+      8129,
+      22
+     ],
+     [
+      8549,
+      23
+     ],
+     [
+      8770,
+      24
+     ],
+     [
+      9649,
+      25
+     ],
+     [
+      9789,
+      26
+     ],
+     [
+      9989,
+      27
+     ],
+     [
+      10149,
+      28
+     ],
+     [
+      10430,
+      29
+     ],
+     [
+      11449,
+      30
+     ],
+     [
+      11689,
+      31
+     ],
+     [
+      11869,
+      32
+     ],
+     [
+      12129,
+      33
+     ]
+    ]
+   },
+   "p2h-diken": {
+    "s": 45442,
+    "d": 1026,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      276,
+      1
+     ],
+     [
+      513,
+      2
+     ],
+     [
+      749,
+      3
+     ]
+    ]
+   },
+   "p2h-puskul": {
+    "s": 46769,
+    "d": 2352,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      377,
+      1
+     ],
+     [
+      714,
+      2
+     ],
+     [
+      1051,
+      3
+     ],
+     [
+      1388,
+      4
+     ],
+     [
+      1725,
+      5
+     ]
+    ]
+   },
+   "p2h-tarcin": {
+    "s": 49421,
+    "d": 2098,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      969,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      1369,
+      6
+     ],
+     [
+      1449,
+      7
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 51820,
+    "d": 1948,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      430,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      769,
+      5
+     ],
+     [
+      1050,
+      6
+     ],
+     [
+      1369,
+      7
+     ],
+     [
+      1569,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 54068,
+    "d": 1803,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 56171,
+    "d": 9942,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      430,
+      3
+     ],
+     [
+      529,
+      4
+     ],
+     [
+      670,
+      5
+     ],
+     [
+      1050,
+      6
+     ],
+     [
+      1209,
+      7
+     ],
+     [
+      1309,
+      8
+     ],
+     [
+      1629,
+      9
+     ],
+     [
+      2370,
+      10
+     ],
+     [
+      2789,
+      11
+     ],
+     [
+      3089,
+      12
+     ],
+     [
+      3189,
+      13
+     ],
+     [
+      3989,
+      14
+     ],
+     [
+      4469,
+      15
+     ],
+     [
+      4789,
+      16
+     ],
+     [
+      4910,
+      17
+     ],
+     [
+      5769,
+      18
+     ],
+     [
+      6169,
+      19
+     ],
+     [
+      6304,
+      20
+     ],
+     [
+      6509,
+      21
+     ],
+     [
+      6829,
+      22
+     ],
+     [
+      6989,
+      23
+     ],
+     [
+      7189,
+      24
+     ],
+     [
+      7870,
+      25
+     ],
+     [
+      8150,
+      26
+     ],
+     [
+      8749,
+      27
+     ],
+     [
+      9190,
+      28
+     ]
+    ]
+   },
+   "p3h-diken": {
+    "s": 66413,
+    "d": 1670,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p3h-puskul": {
+    "s": 68383,
+    "d": 1685,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      825,
+      2
+     ],
+     [
+      1060,
+      3
+     ]
+    ]
+   },
+   "p3h-tarcin": {
+    "s": 70369,
+    "d": 1128,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      709,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 71797,
+    "d": 3022,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      2329,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 75120,
+    "d": 11577,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      3189,
+      7
+     ],
+     [
+      3989,
+      8
+     ],
+     [
+      4989,
+      9
+     ],
+     [
+      5149,
+      10
+     ],
+     [
+      5370,
+      11
+     ],
+     [
+      6129,
+      12
+     ],
+     [
+      6430,
+      13
+     ],
+     [
+      7289,
+      14
+     ],
+     [
+      7410,
+      15
+     ],
+     [
+      7910,
+      16
+     ],
+     [
+      8509,
+      17
+     ],
+     [
+      8829,
+      18
+     ],
+     [
+      9589,
+      19
+     ],
+     [
+      9969,
+      20
+     ],
+     [
+      10509,
+      21
+     ],
+     [
+      10749,
+      22
+     ],
+     [
+      10909,
+      23
+     ],
+     [
+      11109,
+      24
+     ]
+    ]
+   },
+   "p4h-diken": {
+    "s": 86998,
+    "d": 1425,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      866,
+      1
+     ]
+    ]
+   },
+   "p4h-puskul": {
+    "s": 88723,
+    "d": 2115,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1529,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 91138,
+    "d": 1985,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1189,
+      5
+     ],
+     [
+      1329,
+      6
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 93424,
+    "d": 891,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      445,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 94616,
+    "d": 14611,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1249,
+      6
+     ],
+     [
+      2189,
+      7
+     ],
+     [
+      2910,
+      8
+     ],
+     [
+      3289,
+      9
+     ],
+     [
+      4149,
+      10
+     ],
+     [
+      4529,
+      11
+     ],
+     [
+      4850,
+      12
+     ],
+     [
+      5709,
+      13
+     ],
+     [
+      5949,
+      14
+     ],
+     [
+      6469,
+      15
+     ],
+     [
+      7430,
+      16
+     ],
+     [
+      8069,
+      17
+     ],
+     [
+      8270,
+      18
+     ],
+     [
+      8810,
+      19
+     ],
+     [
+      9329,
+      20
+     ],
+     [
+      9609,
+      21
+     ],
+     [
+      10430,
+      22
+     ],
+     [
+      10609,
+      23
+     ],
+     [
+      11350,
+      24
+     ],
+     [
+      11850,
+      25
+     ],
+     [
+      12589,
+      26
+     ],
+     [
+      12789,
+      27
+     ],
+     [
+      13129,
+      28
+     ],
+     [
+      13409,
+      29
+     ],
+     [
+      13709,
+      30
+     ],
+     [
+      13989,
+      31
+     ]
+    ]
+   },
+   "p5h-diken": {
+    "s": 109527,
+    "d": 3190,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2410,
+      5
+     ]
+    ]
+   },
+   "p5h-puskul": {
+    "s": 113017,
+    "d": 2447,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1790,
+      6
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 115764,
+    "d": 1746,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1269,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

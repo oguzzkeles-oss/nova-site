@@ -1,0 +1,2659 @@
+{
+ "id": "069-sinifin-en-sevdigi-meyve",
+ "n": 69,
+ "title": "Sınıfın En Sevdiği Meyve",
+ "age": "60-72",
+ "area": "Matematik",
+ "theme": "Veri toplama ve nesne grafiğiyle adil karar",
+ "values": [
+  "D1 Adalet"
+ ],
+ "sdb": "SDB3.3 Sorumlu Karar Verme",
+ "min": 6,
+ "blurb": "Sınıf pikniğe tek çeşit meyve götürecek: karpuz mu, üzüm mü, muz mu? Herkes bir ağızdan bağırınca Elif'in aklına bir fikir gelir: Herkes bir meyve seçsin, tahtaya dizelim, sayalım!",
+ "codes": {
+  "maarif": [
+   "MAB.4 Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme — MAB.4.b Nesneleri, olguları ve olayları karşılaştırır (grafikteki sütunları karşılaştırıp en çok seçilen meyveyi bulur)",
+   "OB7 Veri Okuryazarlığı",
+   "KB2.6 Bilgi Toplama",
+   "MAB.1 Ritmik ve algısal sayabilme: nesne/varlık miktarını sayarak belirler",
+   "KB2.12 Mevcut Bilgiye/Veriye Dayalı Tahmin Etme",
+   "SDB3.3 Sorumlu Karar Verme"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "nur": "ogretmen",
+  "ali": "cocuk-erkek",
+  "elif": "cocuk-kiz",
+  "defne": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "nur": "Nur Öğretmen",
+  "ali": "Ali",
+  "elif": "Elif",
+  "defne": "Defne"
+ },
+ "pages": [
+  {
+   "text": "Nur Öğretmen müjdeyi verdi: “Cuma günü pikniğe gidiyoruz!” Şak şak şak! Sınıf alkışladı. Nur Öğretmen sordu: “Sepetimiz küçük, tek çeşit meyve sığar. Hangisi olsun?” “Karpuz!” dedi Ali. “Üzüm!” dedi Elif. Defne arkadan seslendi: “Muz!”",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "hot": {
+     "saat": "saat"
+    },
+    "cast": [
+     {
+      "k": "ali",
+      "x": 62,
+      "y": 228,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "ali",
+      "turn": 0.5
+     },
+     {
+      "k": "elif",
+      "x": 122,
+      "y": 236,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "clap",
+      "hit": "elif"
+     },
+     {
+      "k": "ogretmen",
+      "x": 336,
+      "y": 230,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "open",
+      "flip": true,
+      "hit": "nur"
+     }
+    ],
+    "props": [
+     {
+      "k": "karpuz",
+      "x": 184,
+      "y": 161,
+      "s": 1.2,
+      "hit": "karpuz"
+     },
+     {
+      "k": "uzum",
+      "x": 214,
+      "y": 161,
+      "s": 1.0,
+      "hit": "uzum"
+     },
+     {
+      "k": "muz",
+      "x": 244,
+      "y": 161,
+      "s": 1.4,
+      "hit": "muz"
+     },
+     {
+      "k": "basket",
+      "x": 268,
+      "y": 238,
+      "s": 1.0,
+      "fill": "empty",
+      "full": 0
+     }
+    ]
+   },
+   "hits": {
+    "nur": {
+     "say": "Cuma günü pikniğe gidiyoruz!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "Karpuz! Kocaman, kıpkırmızı!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Üzüm! Tane tane, tatlı tatlı!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "karpuz": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "uzum": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "muz": {
+     "say": "Muz! Muz!",
+     "voice": "defne",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "saat": {
+     "anim": "boing",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "nur",
+    "Öğretmene dokun!"
+   ],
+   "ask": "Sen pikniğe hangi meyveyi götürmek isterdin? Neden?",
+   "cues": [
+    {
+     "w": 12,
+     "fx": "alkis"
+    }
+   ]
+  },
+  {
+   "text": "Herkes kendi meyvesini söyledi. Sesler büyüdü, büyüdü. “Karpuz!” “Üzüm!” “Muz!” Sınıf arı kovanı gibi vızıldadı. Ali durdu. “En çok bağıran mı kazanacak?” Elif elini kaldırdı. “Bir fikrim var! Herkes bir meyve seçsin. Sonra sayalım!”",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "tables": false,
+    "cast": [
+     {
+      "k": "cocuk",
+      "look": 3,
+      "x": 70,
+      "y": 214,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "defne",
+      "turn": 0.4
+     },
+     {
+      "k": "ali",
+      "x": 180,
+      "y": 232,
+      "s": 1.1,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "ali"
+     },
+     {
+      "k": "elif",
+      "x": 300,
+      "y": 230,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "wave",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "karpuz",
+      "x": 108,
+      "y": 232,
+      "s": 1.3,
+      "hit": "karpuz"
+     },
+     {
+      "k": "uzum",
+      "x": 240,
+      "y": 236,
+      "s": 1.1,
+      "hit": "uzum"
+     },
+     {
+      "k": "muz",
+      "x": 370,
+      "y": 230,
+      "s": 1.5,
+      "hit": "muz"
+     }
+    ]
+   },
+   "hits": {
+    "defne": {
+     "say": "Muz! Muz! Muz!",
+     "voice": "defne",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "ali": {
+     "say": "Kulaklarım çınladı!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "elif": {
+     "say": "Bir fikrim var! Sayalım!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "karpuz": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "uzum": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "muz": {
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'in fikrini dinle!"
+   ],
+   "ask": "Herkes bağırınca ne oldu? Sence bir karar vermenin başka hangi yolları var?"
+  },
+  {
+   "text": "Nur Öğretmen tahtayı üçe böldü. Herkes kâğıttan bir meyve seçti. İlk meyveleri Ali, Elif ve Defne yapıştırdı: karpuz, üzüm, muz. Ali karpuzunu gösterdi. “Kesin karpuz kazanır!” Elif gülümsedi. “Sayınca göreceğiz.”",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 84,
+      "y": 232,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "ali",
+      "turn": 0.5
+     },
+     {
+      "k": "ogretmen",
+      "x": 318,
+      "y": 226,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "point",
+      "flip": true,
+      "hit": "nur"
+     },
+     {
+      "k": "elif",
+      "x": 372,
+      "y": 234,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "clap",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 212,
+      "y": 214,
+      "s": 1.9
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 124,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 124,
+      "z": 215,
+      "s": 0.68
+     },
+     {
+      "k": "muz",
+      "x": 258,
+      "y": 124,
+      "z": 215,
+      "s": 1.2
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Kesin karpuz kazanır!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Sayınca göreceğiz!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "nur": {
+     "say": "Her meyve kendi sütununa!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "predict": {
+    "q": "Sence en uzun sütun hangisi olacak?",
+    "res": "Güzel tahmin! Hadi meyveleri yerleştirelim.",
+    "opts": [
+     {
+      "l": "Karpuz",
+      "scene": {
+       "set": "sinif",
+       "weather": "sun",
+       "tables": false,
+       "cast": [
+        {
+         "k": "ali",
+         "x": 80,
+         "y": 232,
+         "s": 1.1,
+         "mood": "laugh",
+         "pose": "clap",
+         "turn": 0.5
+        }
+       ],
+       "props": [
+        {
+         "k": "tahta",
+         "kind": "beyaz",
+         "show": "bos",
+         "x": 212,
+         "y": 214,
+         "s": 1.9
+        },
+        {
+         "k": "karpuz",
+         "x": 166,
+         "y": 124,
+         "z": 215,
+         "s": 0.85
+        },
+        {
+         "k": "karpuz",
+         "x": 166,
+         "y": 104,
+         "z": 215,
+         "s": 0.85
+        },
+        {
+         "k": "karpuz",
+         "x": 166,
+         "y": 84,
+         "z": 215,
+         "s": 0.85
+        },
+        {
+         "k": "karpuz",
+         "x": 166,
+         "y": 64,
+         "z": 215,
+         "s": 0.85
+        },
+        {
+         "k": "karpuz",
+         "x": 166,
+         "y": 44,
+         "z": 215,
+         "s": 0.85
+        },
+        {
+         "k": "uzum",
+         "x": 212,
+         "y": 124,
+         "z": 215,
+         "s": 0.68
+        },
+        {
+         "k": "uzum",
+         "x": 212,
+         "y": 104,
+         "z": 215,
+         "s": 0.68
+        },
+        {
+         "k": "uzum",
+         "x": 212,
+         "y": 84,
+         "z": 215,
+         "s": 0.68
+        },
+        {
+         "k": "muz",
+         "x": 258,
+         "y": 124,
+         "z": 215,
+         "s": 1.2
+        },
+        {
+         "k": "muz",
+         "x": 258,
+         "y": 104,
+         "z": 215,
+         "s": 1.2
+        }
+       ]
+      }
+     },
+     {
+      "l": "Üzüm",
+      "scene": {
+       "set": "sinif",
+       "weather": "sun",
+       "tables": false,
+       "cast": [
+        {
+         "k": "elif",
+         "x": 330,
+         "y": 234,
+         "s": 1.05,
+         "mood": "laugh",
+         "pose": "clap",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "tahta",
+         "kind": "beyaz",
+         "show": "bos",
+         "x": 212,
+         "y": 214,
+         "s": 1.9
+        },
+        {
+         "k": "karpuz",
+         "x": 166,
+         "y": 124,
+         "z": 215,
+         "s": 0.85
+        },
+        {
+         "k": "karpuz",
+         "x": 166,
+         "y": 104,
+         "z": 215,
+         "s": 0.85
+        },
+        {
+         "k": "karpuz",
+         "x": 166,
+         "y": 84,
+         "z": 215,
+         "s": 0.85
+        },
+        {
+         "k": "uzum",
+         "x": 212,
+         "y": 124,
+         "z": 215,
+         "s": 0.68
+        },
+        {
+         "k": "uzum",
+         "x": 212,
+         "y": 104,
+         "z": 215,
+         "s": 0.68
+        },
+        {
+         "k": "uzum",
+         "x": 212,
+         "y": 84,
+         "z": 215,
+         "s": 0.68
+        },
+        {
+         "k": "uzum",
+         "x": 212,
+         "y": 64,
+         "z": 215,
+         "s": 0.68
+        },
+        {
+         "k": "uzum",
+         "x": 212,
+         "y": 44,
+         "z": 215,
+         "s": 0.68
+        },
+        {
+         "k": "muz",
+         "x": 258,
+         "y": 124,
+         "z": 215,
+         "s": 1.2
+        },
+        {
+         "k": "muz",
+         "x": 258,
+         "y": 104,
+         "z": 215,
+         "s": 1.2
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "nur",
+    "Öğretmene dokun!"
+   ],
+   "ask": "Ali neden karpuzun kazanacağını düşünüyor? Sen ne tahmin ediyorsun?"
+  },
+  {
+   "text": "Çocuklar sırayla kalktı. Herkes meyvesini kendi sütununa yapıştırdı. Hışır, tık! Hışır, tık! Sütunlar yavaş yavaş uzadı. Geriye üç üzüm kaldı. Onları sen yerleştir!",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 60,
+      "y": 228,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ali",
+      "turn": 0.5
+     },
+     {
+      "k": "elif",
+      "x": 350,
+      "y": 230,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 212,
+      "y": 214,
+      "s": 1.9
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 124,
+      "z": 215,
+      "s": 0.85,
+      "hit": "bk"
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 104,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 84,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 124,
+      "z": 215,
+      "s": 0.68,
+      "hit": "bu"
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 104,
+      "z": 215,
+      "s": 0.68
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 84,
+      "z": 215,
+      "s": 0.68
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 64,
+      "z": 215,
+      "s": 0.68
+     },
+     {
+      "k": "muz",
+      "x": 258,
+      "y": 124,
+      "z": 215,
+      "s": 1.2,
+      "hit": "bm"
+     },
+     {
+      "k": "karpuz",
+      "x": 130,
+      "y": 232,
+      "s": 1.5,
+      "hit": "ak"
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 236,
+      "s": 1.25,
+      "hit": "eu"
+     },
+     {
+      "k": "muz",
+      "x": 290,
+      "y": 232,
+      "s": 1.8,
+      "hit": "dm"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Karpuz, karpuz sütununa!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Üzüm de üzümün yanına!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "sort",
+    "items": {
+     "ak": "bk",
+     "eu": "bu",
+     "dm": "bm"
+    },
+    "bins": {
+     "bk": [
+      166,
+      64
+     ],
+     "bu": [
+      212,
+      44
+     ],
+     "bm": [
+      258,
+      104
+     ]
+    },
+    "done": "Herkesin meyvesi kendi sütununda!",
+    "msg": "Grafik hazır!"
+   },
+   "hint": [
+    "ak",
+    "Meyveyi sütununa koy!"
+   ],
+   "ask": "Meyveleri neden karışık değil de ayrı sütunlara koyduk?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "yaprak"
+    },
+    {
+     "w": 9,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Şimdi sayma zamanı! Karpuz sütununda dört meyve var. Muz sütununda iki. Ya üzüm sütunu? Ali parmağını uzattı. Elif de onunla birlikte saydı: bir, iki, üç, dört, beş!",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 128,
+      "y": 234,
+      "s": 1.05,
+      "mood": "think",
+      "pose": "point",
+      "hit": "ali",
+      "turn": 0.5
+     },
+     {
+      "k": "ogretmen",
+      "x": 345,
+      "y": 224,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "clap",
+      "flip": true,
+      "hit": "nur"
+     },
+     {
+      "k": "elif",
+      "x": 58,
+      "y": 232,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 212,
+      "y": 214,
+      "s": 1.9
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 124,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 104,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 84,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 64,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 124,
+      "z": 215,
+      "s": 0.68,
+      "hit": "u1"
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 104,
+      "z": 215,
+      "s": 0.68,
+      "hit": "u2"
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 84,
+      "z": 215,
+      "s": 0.68,
+      "hit": "u3"
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 64,
+      "z": 215,
+      "s": 0.68,
+      "hit": "u4"
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 44,
+      "z": 215,
+      "s": 0.68,
+      "hit": "u5"
+     },
+     {
+      "k": "muz",
+      "x": 258,
+      "y": 124,
+      "z": 215,
+      "s": 1.2
+     },
+     {
+      "k": "muz",
+      "x": 258,
+      "y": 104,
+      "z": 215,
+      "s": 1.2
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Bir, iki, üç…",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Birlikte sayalım!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "nur": {
+     "say": "Hangi sütun en uzun?",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "u1",
+     "u2",
+     "u3",
+     "u4",
+     "u5"
+    ],
+    "done": "Beş üzüm! En uzun sütun üzümün.",
+    "msg": "Beş üzüm!"
+   },
+   "hint": [
+    "u1",
+    "Üzümleri say!"
+   ],
+   "ask": "Hangi sütun en uzun, hangisi en kısa? Üzüm sütununda karpuzdan kaç tane fazla var?"
+  },
+  {
+   "text": "Ali'nin omuzları düştü. Boğazı düğümlendi. “Karpuz kaybetti…” Nur Öğretmen yanına geldi. “Biraz üzüldün, değil mi?” Ali başını salladı. Derin bir nefes aldı, yavaşça verdi. Sonra sütunlara baktı. “Ama benim karpuzum da sayıldı. Herkesinki sayıldı.”",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 300,
+      "y": 234,
+      "s": 1.1,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "ali",
+      "flip": true,
+      "turn": 0.3
+     },
+     {
+      "k": "ogretmen",
+      "x": 354,
+      "y": 222,
+      "s": 0.98,
+      "mood": "calm",
+      "pose": "hug",
+      "flip": true,
+      "hit": "nur"
+     },
+     {
+      "k": "elif",
+      "x": 70,
+      "y": 232,
+      "s": 1.0,
+      "mood": "sorry",
+      "pose": "stand",
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 212,
+      "y": 214,
+      "s": 1.9
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 124,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 104,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 84,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "karpuz",
+      "x": 166,
+      "y": 64,
+      "z": 215,
+      "s": 0.85
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 124,
+      "z": 215,
+      "s": 0.68
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 104,
+      "z": 215,
+      "s": 0.68
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 84,
+      "z": 215,
+      "s": 0.68
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 64,
+      "z": 215,
+      "s": 0.68
+     },
+     {
+      "k": "uzum",
+      "x": 212,
+      "y": 44,
+      "z": 215,
+      "s": 0.68
+     },
+     {
+      "k": "muz",
+      "x": 258,
+      "y": 124,
+      "z": 215,
+      "s": 1.2
+     },
+     {
+      "k": "muz",
+      "x": 258,
+      "y": 104,
+      "z": 215,
+      "s": 1.2
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Karpuz kaybetti… Ama benimki de sayıldı.",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "blow"
+    },
+    "nur": {
+     "say": "Üzülmek olur. Nefes alalım mı?",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "elif": {
+     "say": "Karpuz da çok güzeldi.",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Ali nasıl hissetti? Sen istediğin olmayınca neler yaparsın?"
+  },
+  {
+   "text": "Cuma günü çayırda piknik vardı. Güneş sıcacıktı. Elif, Ali'ye bir salkım üzüm uzattı. Ali bir tane üzümü ağzına attı. Mmm! “Karpuz kadar tatlı!” Sonra el kaldırdı. “Bir dahaki pikniğe yine oylama yapalım mı?” “Eveet!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 352,
+      "y": 44,
+      "s": 0.8,
+      "mood": "happy",
+      "hit": "gunes"
+     },
+     {
+      "k": "elif",
+      "x": 110,
+      "y": 226,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "uzum",
+      "hit": "elif"
+     },
+     {
+      "k": "ali",
+      "x": 210,
+      "y": 230,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "wave",
+      "hold": "uzum",
+      "flip": true,
+      "hit": "ali"
+     },
+     {
+      "k": "ogretmen",
+      "x": 320,
+      "y": 220,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "nur"
+     }
+    ],
+    "props": [
+     {
+      "k": "picnic"
+     },
+     {
+      "k": "tabak",
+      "x": 262,
+      "y": 238,
+      "s": 1.6,
+      "food": "uzum",
+      "hit": "tabak2"
+     },
+     {
+      "k": "tabak",
+      "x": 160,
+      "y": 236,
+      "s": 1.6,
+      "food": "uzum",
+      "hit": "tabak"
+     },
+     {
+      "k": "tree",
+      "x": 40,
+      "y": 196,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Karpuz kadar tatlı!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Al, bir salkım da senin!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "nur": {
+     "say": "Herkesin sesi sayıldı!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tabak": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Sınıfınızda birlikte neye karar vermek isterdin? Nasıl oylardınız?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  6
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.4 Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme — MAB.4.b Nesneleri, olguları ve olayları karşılaştırır: Nesne grafiğindeki karpuz, üzüm ve muz sütunlarını karşılaştırır; en uzun ve en kısa sütunu söyler.",
+   "OB7 Veri Okuryazarlığı ve KB2.6 Bilgi Toplama: Sınıftaki her çocuğun seçimini toplar, sütunlara yerleştirir ve grafiğe bakarak bir karar verir.",
+   "MAB.1 Ritmik ve algısal sayabilme: Sütundaki nesnelerin miktarını birer birer sayarak belirler (60-72 ay: 1-20).",
+   "KB2.12 Mevcut Bilgiye/Veriye Dayalı Tahmin Etme: Hangi sütunun en uzun olacağını tahmin eder, sayınca tahminini kontrol eder.",
+   "SDB3.3 Sorumlu Karar Verme ve D1 Adalet: Kararı en çok bağıranın değil, herkesin seçiminin sayılarak verildiğini deneyimler; istediği olmayınca duygusunu adlandırıp nefesle sakinleşir."
+  ],
+  "once": [
+   "Kapağı gösterin: 'Duvardaki meyveler neden sıra sıra dizilmiş olabilir?' diye sorun.",
+   "Masaya gerçek ya da resimli üç meyve koyun: 'Pikniğe yalnız birini götürebilseydik hangisini seçerdiniz?'",
+   "Öğretmen için bilgi: Nesne grafiğinde her nesne bir kişinin seçimini gösterir; nesneler aynı boyda ve eşit aralıkla dizilirse sütunlar doğru karşılaştırılır.",
+   "Sütunun adı altındaki resimdir; sayılan yalnız çocukların yapıştırdığı meyvelerdir."
+  ],
+  "sirasi": [
+   "2. sayfada sesleri birlikte büyütün, sonra Elif'in fikrinde sesinizi yumuşatın; farkı çocuklar hissetsin.",
+   "3. sayfada tahmin sorusunda iki seçeneğin de iyi bir tahmin olduğunu söyleyin; tahmini tahtaya not edin.",
+   "4. sayfada her meyveyi çocuk kendi sütununa taşısın; 'Neden buraya?' diye sorun.",
+   "5. sayfada üzümleri parmakla tek tek, acele etmeden sayın; sonra karpuz ve muz sütunlarını da sayın.",
+   "6. sayfada Ali'nin duygusunu adlandırın ve birlikte bir derin nefes alın."
+  ],
+  "sonra": [
+   "Sınıf karar veremeyince ne oldu? Elif hangi fikri buldu?",
+   "Hangi sütun en uzundu? En kısa sütun hangisiydi? Nereden anladın?",
+   "Ali'nin meyvesi seçilmeyince ne hissetti? Kendini nasıl sakinleştirdi?"
+  ],
+  "sinif": {
+   "ad": "Sınıfımızın meyve grafiği",
+   "sure": "20 dk",
+   "materyal": "Karton üzerine çizilmiş üç sütun, her sütunun altında (sütunun dışında, taban çizgisinin altında) küçük bir meyve resmi, her çocuk için aynı boyda kâğıttan kesilmiş meyveler, bant ya da yapışkan hamur",
+   "adim": [
+    "Çocuklara üç meyveyi gösterin; herkes sessizce birini seçsin ve kâğıt meyvesini alsın.",
+    "Çocuklar sırayla kalkıp meyvesini kendi sütununa, alttan başlayarak ve boşluk bırakmadan yapıştırsın.",
+    "Sütunları birlikte sayın; her sütunun altına o kadar nokta ya da çubuk çizin.",
+    "Grafiğe bakarak sorun: 'En çok hangisi seçildi? En az hangisi? Kararımızı nasıl verelim?'",
+    "Değerlendirme çemberinde konuşun: 'İstediğin seçilmeyince ne hissettin? Bu yol neden adil?'"
+   ]
+  },
+  "evSoru": [
+   "Evde herkesin en sevdiği meyve hangisi? Tahmin et, sonra sor!",
+   "Bir karar verirken herkesin fikrini nasıl öğrenebiliriz?",
+   "İstediğin olmayınca kendini nasıl sakinleştirirsin?"
+  ],
+  "evEtk": {
+   "ad": "Kahvaltı oylaması",
+   "d": "Hafta sonu kahvaltısı için iki ya da üç seçenek belirleyin (örneğin peynir, zeytin, bal). Her aile üyesi bir mandal ya da düğme alıp seçtiğinin önündeki kâseye koysun. Çocuğunuz düğmeleri sayıp sonucu söylesin; kazanan seçenek o gün sofraya gelsin, diğeri bir sonraki haftaya kalsın. Not: Küçük çocuklara üzümü ikiye ya da dörde bölerek verin."
+  },
+  "aileNotu": "Bugün 'Sınıfın En Sevdiği Meyve' masalını okuduk. Sınıf pikniğe hangi meyveyi götüreceğine karar veremedi; Elif herkesin bir meyve seçip tahtaya dizmesini önerdi ve çocuklar ilk nesne grafiklerini yaptı. Masal sayma, karşılaştırma ve veriye bakarak karar vermeyi destekliyor. Ali'nin meyvesi seçilmeyince üzüldü, nefes aldı ve kararın adil olduğunu gördü. Evde küçük aile kararlarını birlikte 'oylayıp sayarak' verebilirsiniz. Küçük çocuklara üzümü ikiye ya da dörde bölerek verin."
+ },
+ "audio": {
+  "file": "audio/069-sinifin-en-sevdigi-meyve.mp3",
+  "hash": "425bdbba",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17542,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2630,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3910,
+      8
+     ],
+     [
+      4169,
+      9
+     ],
+     [
+      4390,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5509,
+      12
+     ],
+     [
+      6569,
+      13
+     ],
+     [
+      6809,
+      14
+     ],
+     [
+      7329,
+      15
+     ],
+     [
+      8109,
+      16
+     ],
+     [
+      8730,
+      17
+     ],
+     [
+      9329,
+      18
+     ],
+     [
+      9529,
+      19
+     ],
+     [
+      9869,
+      20
+     ],
+     [
+      10209,
+      21
+     ],
+     [
+      10829,
+      22
+     ],
+     [
+      11270,
+      23
+     ],
+     [
+      11930,
+      24
+     ],
+     [
+      12770,
+      25
+     ],
+     [
+      13049,
+      26
+     ],
+     [
+      13629,
+      27
+     ],
+     [
+      14289,
+      28
+     ],
+     [
+      14569,
+      29
+     ],
+     [
+      15209,
+      30
+     ],
+     [
+      15649,
+      31
+     ],
+     [
+      16110,
+      32
+     ],
+     [
+      17009,
+      33
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 17842,
+    "d": 1760,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1069,
+      3
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 19903,
+    "d": 3157,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1129,
+      1
+     ],
+     [
+      2049,
+      2
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 23360,
+    "d": 3185,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      2130,
+      3
+     ],
+     [
+      2589,
+      4
+     ]
+    ]
+   },
+   "p0h-muz": {
+    "s": 26845,
+    "d": 1580,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1069,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 28725,
+    "d": 17945,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2849,
+      5
+     ],
+     [
+      3689,
+      6
+     ],
+     [
+      4649,
+      7
+     ],
+     [
+      5669,
+      8
+     ],
+     [
+      6489,
+      9
+     ],
+     [
+      7390,
+      10
+     ],
+     [
+      7890,
+      11
+     ],
+     [
+      8089,
+      12
+     ],
+     [
+      8509,
+      13
+     ],
+     [
+      8749,
+      14
+     ],
+     [
+      9850,
+      15
+     ],
+     [
+      10089,
+      16
+     ],
+     [
+      10930,
+      17
+     ],
+     [
+      11089,
+      18
+     ],
+     [
+      11310,
+      19
+     ],
+     [
+      11709,
+      20
+     ],
+     [
+      11829,
+      21
+     ],
+     [
+      12909,
+      22
+     ],
+     [
+      13270,
+      23
+     ],
+     [
+      13569,
+      24
+     ],
+     [
+      14489,
+      25
+     ],
+     [
+      14629,
+      26
+     ],
+     [
+      15009,
+      27
+     ],
+     [
+      15549,
+      28
+     ],
+     [
+      15969,
+      29
+     ],
+     [
+      16110,
+      30
+     ],
+     [
+      16450,
+      31
+     ],
+     [
+      17110,
+      32
+     ],
+     [
+      17430,
+      33
+     ]
+    ]
+   },
+   "p1h-defne": {
+    "s": 46971,
+    "d": 2468,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1011,
+      1
+     ],
+     [
+      1983,
+      2
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 49740,
+    "d": 1554,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      729,
+      1
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 51594,
+    "d": 2026,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      302,
+      1
+     ],
+     [
+      760,
+      2
+     ],
+     [
+      1334,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 53920,
+    "d": 17129,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      3049,
+      6
+     ],
+     [
+      3589,
+      7
+     ],
+     [
+      3729,
+      8
+     ],
+     [
+      4069,
+      9
+     ],
+     [
+      5009,
+      10
+     ],
+     [
+      5229,
+      11
+     ],
+     [
+      6129,
+      12
+     ],
+     [
+      6709,
+      13
+     ],
+     [
+      7109,
+      14
+     ],
+     [
+      7289,
+      15
+     ],
+     [
+      7649,
+      16
+     ],
+     [
+      8669,
+      17
+     ],
+     [
+      9589,
+      18
+     ],
+     [
+      10209,
+      19
+     ],
+     [
+      11049,
+      20
+     ],
+     [
+      11289,
+      21
+     ],
+     [
+      11869,
+      22
+     ],
+     [
+      12850,
+      23
+     ],
+     [
+      13289,
+      24
+     ],
+     [
+      13749,
+      25
+     ],
+     [
+      14689,
+      26
+     ],
+     [
+      15009,
+      27
+     ],
+     [
+      16069,
+      28
+     ],
+     [
+      16549,
+      29
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 71350,
+    "d": 1901,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1129,
+      2
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 73552,
+    "d": 1282,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      562,
+      1
+     ]
+    ]
+   },
+   "p2h-nur": {
+    "s": 75135,
+    "d": 1690,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1069,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 77125,
+    "d": 2569,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      2009,
+      5
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 79995,
+    "d": 3082,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2289,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 83378,
+    "d": 12569,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3749,
+      7
+     ],
+     [
+      4729,
+      8
+     ],
+     [
+      5310,
+      9
+     ],
+     [
+      5910,
+      10
+     ],
+     [
+      6529,
+      11
+     ],
+     [
+      7269,
+      12
+     ],
+     [
+      7930,
+      13
+     ],
+     [
+      8409,
+      14
+     ],
+     [
+      8789,
+      15
+     ],
+     [
+      9549,
+      16
+     ],
+     [
+      10049,
+      17
+     ],
+     [
+      10249,
+      18
+     ],
+     [
+      10529,
+      19
+     ],
+     [
+      11249,
+      20
+     ],
+     [
+      11589,
+      21
+     ],
+     [
+      11810,
+      22
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 96247,
+    "d": 2180,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1449,
+      2
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 98728,
+    "d": 1769,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      421,
+      1
+     ],
+     [
+      640,
+      2
+     ],
+     [
+      1184,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 100798,
+    "d": 2328,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1629,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 103426,
+    "d": 14671,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2829,
+      5
+     ],
+     [
+      3150,
+      6
+     ],
+     [
+      3469,
+      7
+     ],
+     [
+      4089,
+      8
+     ],
+     [
+      4310,
+      9
+     ],
+     [
+      5009,
+      10
+     ],
+     [
+      5749,
+      11
+     ],
+     [
+      5930,
+      12
+     ],
+     [
+      6229,
+      13
+     ],
+     [
+      7149,
+      14
+     ],
+     [
+      7370,
+      15
+     ],
+     [
+      7930,
+      16
+     ],
+     [
+      8770,
+      17
+     ],
+     [
+      9109,
+      18
+     ],
+     [
+      9289,
+      19
+     ],
+     [
+      9649,
+      20
+     ],
+     [
+      10109,
+      21
+     ],
+     [
+      11029,
+      22
+     ],
+     [
+      11789,
+      23
+     ],
+     [
+      12689,
+      24
+     ],
+     [
+      13369,
+      25
+     ],
+     [
+      14089,
+      26
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 118398,
+    "d": 2506,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      824,
+      1
+     ],
+     [
+      1973,
+      2
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 121205,
+    "d": 1196,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      598,
+      1
+     ]
+    ]
+   },
+   "p4h-nur": {
+    "s": 122701,
+    "d": 1400,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      989,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 124401,
+    "d": 2806,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2289,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 127507,
+    "d": 18144,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      3349,
+      5
+     ],
+     [
+      3889,
+      6
+     ],
+     [
+      5149,
+      7
+     ],
+     [
+      5390,
+      8
+     ],
+     [
+      5969,
+      9
+     ],
+     [
+      6350,
+      10
+     ],
+     [
+      7089,
+      11
+     ],
+     [
+      7390,
+      12
+     ],
+     [
+      7910,
+      13
+     ],
+     [
+      8129,
+      14
+     ],
+     [
+      8650,
+      15
+     ],
+     [
+      8890,
+      16
+     ],
+     [
+      9289,
+      17
+     ],
+     [
+      10129,
+      18
+     ],
+     [
+      10489,
+      19
+     ],
+     [
+      10690,
+      20
+     ],
+     [
+      11089,
+      21
+     ],
+     [
+      11810,
+      22
+     ],
+     [
+      12390,
+      23
+     ],
+     [
+      13229,
+      24
+     ],
+     [
+      13629,
+      25
+     ],
+     [
+      14189,
+      26
+     ],
+     [
+      14909,
+      27
+     ],
+     [
+      15109,
+      28
+     ],
+     [
+      15390,
+      29
+     ],
+     [
+      15909,
+      30
+     ],
+     [
+      16069,
+      31
+     ],
+     [
+      16889,
+      32
+     ],
+     [
+      17569,
+      33
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 145952,
+    "d": 3562,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1969,
+      2
+     ],
+     [
+      2249,
+      3
+     ],
+     [
+      2709,
+      4
+     ],
+     [
+      2890,
+      5
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 149814,
+    "d": 2347,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2089,
+      4
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 152461,
+    "d": 1676,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      909,
+      3
+     ]
+    ]
+   },
+   "p6": {
+    "s": 154438,
+    "d": 16907,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4489,
+      8
+     ],
+     [
+      4830,
+      9
+     ],
+     [
+      5069,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      5830,
+      12
+     ],
+     [
+      6769,
+      13
+     ],
+     [
+      7149,
+      14
+     ],
+     [
+      7390,
+      15
+     ],
+     [
+      7769,
+      16
+     ],
+     [
+      8150,
+      17
+     ],
+     [
+      8589,
+      18
+     ],
+     [
+      9384,
+      19
+     ],
+     [
+      10249,
+      20
+     ],
+     [
+      10810,
+      21
+     ],
+     [
+      11189,
+      22
+     ],
+     [
+      12029,
+      23
+     ],
+     [
+      12549,
+      24
+     ],
+     [
+      12729,
+      25
+     ],
+     [
+      13609,
+      26
+     ],
+     [
+      13729,
+      27
+     ],
+     [
+      14089,
+      28
+     ],
+     [
+      14569,
+      29
+     ],
+     [
+      14829,
+      30
+     ],
+     [
+      15189,
+      31
+     ],
+     [
+      15609,
+      32
+     ],
+     [
+      16049,
+      33
+     ]
+    ]
+   },
+   "p6h-ali": {
+    "s": 171645,
+    "d": 1800,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      613,
+      1
+     ],
+     [
+      1186,
+      2
+     ]
+    ]
+   },
+   "p6h-elif": {
+    "s": 173746,
+    "d": 1799,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      427,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1093,
+      3
+     ],
+     [
+      1336,
+      4
+     ]
+    ]
+   },
+   "p6h-nur": {
+    "s": 175845,
+    "d": 1617,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      969,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

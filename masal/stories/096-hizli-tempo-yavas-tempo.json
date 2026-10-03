@@ -1,0 +1,1783 @@
+{
+ "id": "096-hizli-tempo-yavas-tempo",
+ "n": 96,
+ "title": "Müzik Durunca Dur!",
+ "age": "48-60",
+ "area": "Müzik",
+ "theme": "Hızlı-yavaş tempo ve durabilmek (heykel dansı)",
+ "values": [
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 5,
+ "blurb": "Sınıfta heykel dansı var: müzik çalınca dans, müzik susunca heykel! Zeynep'in ayakları bir türlü durmak bilmez. Can'ın sihirli sözü “Dur!” demeyi kolaylaştırır.",
+ "codes": {
+  "maarif": [
+   "beceri: MHB4 Müziksel Hareket (tempo farklılıklarını hareketle veya dansla gösterir) (teyitsiz)",
+   "HSAB.3 Jimnastik, dans ve hareket etkinliklerinden ritmik beceriler sergileyebilme (ritim ve tempoya göre farklı şekillerde hareket eder) (teyitsiz)",
+   "SDB1.2 Kendini Düzenleme",
+   "E2.5 Oyunseverlik",
+   "D4 Dostluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "nur": "ogretmen",
+  "can": "cocuk-erkek",
+  "zeynep": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "nur": "Nur Öğretmen",
+  "can": "Can",
+  "zeynep": "Zeynep"
+ },
+ "pages": [
+  {
+   "text": "Müzik saati! Nur Öğretmen tefini salladı: şıkır şıkır! “Müzik çalınca dans edin. Müzik susunca heykel olun!” Can ile Zeynep el çırptı. “Yaşasın, heykel oyunu!”",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "hot": {
+     "saat": "saat"
+    },
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 92,
+      "y": 226,
+      "s": 0.95,
+      "pose": "clap",
+      "mood": "laugh",
+      "hit": "zeynep",
+      "turn": 0.4
+     },
+     {
+      "k": "can",
+      "x": 178,
+      "y": 232,
+      "s": 1.0,
+      "pose": "jump",
+      "mood": "laugh",
+      "hit": "can"
+     },
+     {
+      "k": "ogretmen",
+      "x": 292,
+      "y": 214,
+      "s": 0.92,
+      "pose": "wave",
+      "hold": "tef",
+      "holdS": 0.8,
+      "mood": "happy",
+      "hit": "nur",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "davul",
+      "x": 340,
+      "y": 232,
+      "s": 0.85,
+      "hit": "davul"
+     }
+    ]
+   },
+   "hits": {
+    "nur": {
+     "say": "Müzik susunca heykel olun!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "bell"
+    },
+    "can": {
+     "say": "Yaşasın, heykel oyunu!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "zeynep": {
+     "say": "Ben dans etmeye bayılırım!",
+     "voice": "zeynep",
+     "anim": "spinme",
+     "fx": "twinkle"
+    },
+    "davul": {
+     "anim": "wiggle",
+     "fx": "drum"
+    },
+    "saat": {
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "nur",
+    "Öğretmene dokun!"
+   ],
+   "ask": "Sen hiç heykel dansı oynadın mı? Nasıl oynanıyordu?"
+  },
+  {
+   "text": "Şıkır şıkır, hızlı hızlı! Zeynep döndü, zıpladı, hopladı. Birden tef sustu. Can hemen heykel oldu. Ama Zeynep'in ayakları durmadı: tıpır tıpır, tıpır tıpır! Zeynep kızdı, yanakları ısındı. “Ayaklarım beni dinlemiyor!”",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 86,
+      "y": 222,
+      "s": 0.92,
+      "pose": "open",
+      "mood": "calm",
+      "hit": "can"
+     },
+     {
+      "k": "zeynep",
+      "x": 196,
+      "y": 234,
+      "s": 1.08,
+      "pose": "jump",
+      "mood": "angry",
+      "hit": "zeynep"
+     },
+     {
+      "k": "ogretmen",
+      "x": 326,
+      "y": 212,
+      "s": 0.9,
+      "pose": "hold",
+      "hold": "tef",
+      "holdS": 0.8,
+      "mood": "surprised",
+      "hit": "nur",
+      "flip": true
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Ayaklarım beni dinlemiyor!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "step"
+    },
+    "can": {
+     "say": "Ben heykelim! Kıpırdamıyorum.",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "nur": {
+     "say": "Müzik sustu! Heykel zamanı!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "bell"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Zeynep neden kızdı? Kızınca yanakları nasıl oldu?"
+  },
+  {
+   "text": "Zeynep halıya çöktü, başını eğdi. Can yanına geldi. “Benim ayaklarım da kıpır kıpır olur,” dedi. “Sihirli bir sözüm var: Önce ‘Dur!’ de. Sonra derin nefes al. Hıııh!”",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 150,
+      "y": 230,
+      "s": 1.05,
+      "pose": "sit",
+      "mood": "sorry",
+      "hit": "zeynep"
+     },
+     {
+      "k": "can",
+      "x": 250,
+      "y": 228,
+      "s": 1.0,
+      "pose": "point",
+      "mood": "happy",
+      "hit": "can",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "davul",
+      "x": 356,
+      "y": 234,
+      "s": 0.6
+     },
+     {
+      "k": "tef",
+      "x": 316,
+      "y": 236,
+      "s": 0.55
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Of, bu oyun çok zor!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "can": {
+     "say": "Önce “Dur!” de, sonra nefes al.",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "predict": {
+    "q": "Müzik yine susunca Zeynep ne yapacak sence?",
+    "res": "Hadi görelim, işe yarayacak mı?",
+    "opts": [
+     {
+      "l": "‘Dur!’ der, ağaç olur",
+      "scene": {
+       "set": "sinif",
+       "tables": false,
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 200,
+         "y": 232,
+         "s": 1.1,
+         "pose": "open",
+         "mood": "calm"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Nefes alır, kedi olur",
+      "scene": {
+       "set": "sinif",
+       "tables": false,
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 200,
+         "y": 232,
+         "s": 1.1,
+         "pose": "crawl",
+         "mood": "laugh"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Senin ayakların hiç durmak istemedi mi? O zaman ne yaptın?"
+  },
+  {
+   "text": "Yeni tur! Tef şıkır şıkır çaldı: hızlı hızlı zıpladılar! Davul güm… güm… çaldı: yavaş yavaş süzüldüler. Birden müzik sustu. Zeynep “Dur!” dedi. Hıııh, nefes aldı. Kocaman bir ağaç oldu!",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 110,
+      "y": 232,
+      "s": 1.08,
+      "pose": "open",
+      "mood": "calm",
+      "hit": "zeynep"
+     },
+     {
+      "k": "can",
+      "x": 196,
+      "y": 222,
+      "s": 0.92,
+      "pose": "open",
+      "mood": "laugh",
+      "hit": "can",
+      "turn": 0.3
+     },
+     {
+      "k": "ogretmen",
+      "x": 318,
+      "y": 214,
+      "s": 0.9,
+      "pose": "seat",
+      "mood": "happy",
+      "hit": "nur",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tef",
+      "x": 262,
+      "y": 230,
+      "s": 0.75,
+      "hit": "tef"
+     },
+     {
+      "k": "davul",
+      "x": 322,
+      "y": 207,
+      "z": 215,
+      "s": 0.81,
+      "play": true,
+      "hit": "davul"
+     }
+    ]
+   },
+   "hits": {
+    "tef": {
+     "anim": "wiggle",
+     "fx": "bell"
+    },
+    "davul": {
+     "anim": "boing",
+     "fx": "drum"
+    },
+    "can": {
+     "say": "Yavaş, yavaş… süzülüyorum!",
+     "voice": "can",
+     "anim": "spinme",
+     "fx": "whoosh"
+    },
+    "zeynep": {
+     "say": "Dur! Hıııh… Ben bir ağacım!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "nur": {
+     "say": "Hızlı mı, yavaş mı? Dinleyin!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "xylo"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "tef",
+     "davul",
+     "zeynep"
+    ],
+    "done": "Hızlı, yavaş, dur! Zeynep ağaç oldu!",
+    "msg": "Hızlı, yavaş, dur!"
+   },
+   "hint": [
+    "tef",
+    "Önce tefe dokun!"
+   ],
+   "ask": "Tef hızlı çalınca nasıl dans edersin? Davul yavaş çalınca?"
+  },
+  {
+   "text": "Şimdi çok hızlı! Şıkır şıkır, şıkır şıkır! Tef sustu. Hop! Zeynep ağaç, Can kedi oldu. Nur Öğretmen de heykel oldu. Ama burnu kaşındı: hapşuu! Herkes kahkahalarla güldü.",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 84,
+      "y": 230,
+      "s": 1.02,
+      "pose": "open",
+      "mood": "calm",
+      "hit": "zeynep"
+     },
+     {
+      "k": "can",
+      "x": 196,
+      "y": 234,
+      "s": 1.0,
+      "pose": "crawl",
+      "mood": "laugh",
+      "hit": "can"
+     },
+     {
+      "k": "ogretmen",
+      "x": 316,
+      "y": 214,
+      "s": 0.92,
+      "pose": "wave",
+      "hold": "tef",
+      "holdS": 0.8,
+      "mood": "surprised",
+      "hit": "nur",
+      "flip": true
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Şşş! Ben kıpırdamayan bir kediyim.",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "meow"
+    },
+    "zeynep": {
+     "say": "Ben ağacım, dallarım kocaman!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "nur": {
+     "say": "Hap… hap… Hapşuu!",
+     "voice": "nur",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "zeynep",
+     "can",
+     "nur"
+    ],
+    "done": "Bir, iki, üç heykel! Hapşuu!",
+    "msg": "Üç heykel saydın!"
+   },
+   "hint": [
+    "zeynep",
+    "Heykelleri say!"
+   ],
+   "ask": "Sen heykel olsan ne olurdun? Göster bakalım!",
+   "cues": [
+    {
+     "w": 23,
+     "fx": "hapsu"
+    },
+    {
+     "w": 25,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Tur bitti. Zeynep kocaman gülümsedi, göğsü kabardı. “Ayaklarım beni dinledi!” Can'a sarıldı. “Sağ ol, sihirli sözün işe yaradı!” dedi. Can güldü: “Birlikte dans etmek ne güzel!” Şıkır şıkır!",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 172,
+      "y": 232,
+      "s": 1.05,
+      "pose": "hug",
+      "mood": "laugh",
+      "hit": "zeynep"
+     },
+     {
+      "k": "can",
+      "x": 210,
+      "y": 230,
+      "s": 1.02,
+      "pose": "hug",
+      "mood": "happy",
+      "hit": "can",
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 330,
+      "y": 210,
+      "s": 0.86,
+      "pose": "wave",
+      "mood": "laugh",
+      "hit": "nur",
+      "flip": true,
+      "hold": "tef",
+      "holdS": 0.8
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "can": {
+     "say": "Birlikte dans etmek ne güzel!",
+     "voice": "can",
+     "anim": "spinme",
+     "fx": "twinkle"
+    },
+    "zeynep": {
+     "say": "Ayaklarım beni dinledi!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "nur": {
+     "say": "Bravo! Hızlı, yavaş ve dur!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "bell"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Zeynep nasıl hissetti? Sana bir arkadaşın hiç yardım etti mi?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "beceri: MHB4 Müziksel Hareket (teyitsiz) — Harekete ve dansa eşlik eden ritimlerdeki tempo farklılıklarını hareketle veya dansla gösterir: tef şıkır şıkır hızlı çalınca hızlı, davul güm güm yavaş çalınca yavaş dans eder; müzik susunca durur.",
+   "HSAB.3 (teyitsiz) — Jimnastik, dans ve hareket etkinliklerinden ritmik beceriler sergileyebilme; alt çıktı: ritim ve tempoya göre farklı şekillerde hareket eder. Çocuk heykel dansında ağaç, kedi gibi farklı donma biçimleri dener.",
+   "SDB1.2 Kendini Düzenleme — Hareketini isteyerek durdurmak için bir yol kullanır: kendine “Dur!” der, derin nefes alır, sonra heykel olur. Kızgınlığını sözle anlatır (“Ayaklarım beni dinlemiyor!”).",
+   "E2.5 Oyunseverlik ve D4 Dostluk — Can kendi zorlandığı anı paylaşıp arkadaşına sihirli bir söz önerir; Zeynep teşekkür eder, oyunu birlikte sürdürürler."
+  ],
+  "once": [
+   "İlk sayfadaki tefi ve davulu gösterin: “Hangisi şıkır şıkır, hangisi güm güm çalar?”",
+   "“Heykel dansı” oyununu bilen var mı? Kurallarını birlikte hatırlayın."
+  ],
+  "sirasi": [
+   "2. sayfada durup sorun: “Zeynep'in bedeninde neler oluyor? Sen kızınca neler hissedersin?”",
+   "3. sayfada tahmin sorusunu sorun; iki cevap da olumlu, çocuk Zeynep'in nasıl duracağını seçer.",
+   "4. sayfada tef çalınca çocuklarla hızlı hızlı, davul çalınca yavaş yavaş süzülün; müzik susunca heykel olun."
+  ],
+  "sonra": [
+   "Can'ın sihirli sözü neydi? “Önce Dur! de, sonra nefes al.” Birlikte deneyin.",
+   "Zeynep'in duyguları masal boyunca nasıl değişti? (kızgın → üzgün → sakin → gururlu)",
+   "Nur Öğretmen hapşırınca neden herkes güldü? Heykel olmak neden zor olabilir?"
+  ],
+  "sinif": {
+   "ad": "Hızlı-Yavaş-Dur Heykel Dansı",
+   "sure": "15 dk",
+   "materyal": "Tef, davul (yoksa masa ve tahta kaşık), geniş boş alan",
+   "adim": [
+    "Tef hızlı çalınca hızlı, davul yavaş çalınca yavaş hareket edeceğimizi anlatın ve birkaç kez deneyin.",
+    "Müzik susunca herkes kendine fısıltıyla “Dur!” der, bir derin nefes alır ve bir heykel olur (ağaç, kedi, uçak…).",
+    "Oyunda elenen olmasın; kıpırdayan çocuk gülerek yeniden heykel olur. Sırayla çocuklar da tef çalıp tempo seçsin.",
+    "Sonunda halkada oturup sorun: “Durmak ne zaman kolaydı, ne zaman zordu? Sana ne yardım etti?”"
+   ]
+  },
+  "evSoru": [
+   "Zeynep'in ayakları neden durmadı?",
+   "Can Zeynep'e hangi sihirli sözü söyledi?",
+   "Sen heykel olsan ne olurdun?"
+  ],
+  "evEtk": {
+   "ad": "Mutfak Heykel Dansı",
+   "d": "Evde bir şarkı açın ya da tencere kapağıyla ritim tutun. Bazen hızlı, bazen yavaş çalın; müziği durdurunca herkes “Dur!” deyip nefes alsın ve heykel olsun. Sıra çocuğa da gelsin: müziği o yönetsin."
+  },
+  "aileNotu": "Bugün “Müzik Durunca Dur!” masalını okuduk. Zeynep heykel dansında bir türlü duramıyor ve kızıyor; arkadaşı Can ona sihirli sözünü öğretiyor: “Önce Dur! de, sonra nefes al.” Masal, hızlı-yavaş tempoyu hareketle göstermeyi ve isteyerek durabilmeyi (öz düzenleme) oyunla destekliyor. Evde heykel dansı oynarken kıpırdayan olursa gülerek yeniden deneyin; amaç kazanmak değil, durmayı birlikte keşfetmek."
+ },
+ "audio": {
+  "file": "audio/096-hizli-tempo-yavas-tempo.mp3",
+  "hash": "f05cc739",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12448,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2609,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4830,
+      8
+     ],
+     [
+      5149,
+      9
+     ],
+     [
+      5729,
+      10
+     ],
+     [
+      6069,
+      11
+     ],
+     [
+      6649,
+      12
+     ],
+     [
+      6989,
+      13
+     ],
+     [
+      7729,
+      14
+     ],
+     [
+      8169,
+      15
+     ],
+     [
+      8810,
+      16
+     ],
+     [
+      9089,
+      17
+     ],
+     [
+      9310,
+      18
+     ],
+     [
+      9810,
+      19
+     ],
+     [
+      10009,
+      20
+     ],
+     [
+      10770,
+      21
+     ],
+     [
+      11529,
+      22
+     ],
+     [
+      11989,
+      23
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 12748,
+    "d": 1850,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1489,
+      3
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 14899,
+    "d": 2062,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      875,
+      1
+     ],
+     [
+      1347,
+      2
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 17261,
+    "d": 2163,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19725,
+    "d": 16725,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      3390,
+      6
+     ],
+     [
+      4169,
+      7
+     ],
+     [
+      5149,
+      8
+     ],
+     [
+      5749,
+      9
+     ],
+     [
+      6049,
+      10
+     ],
+     [
+      6890,
+      11
+     ],
+     [
+      7209,
+      12
+     ],
+     [
+      7589,
+      13
+     ],
+     [
+      8029,
+      14
+     ],
+     [
+      8690,
+      15
+     ],
+     [
+      8909,
+      16
+     ],
+     [
+      9369,
+      17
+     ],
+     [
+      9829,
+      18
+     ],
+     [
+      10589,
+      19
+     ],
+     [
+      10989,
+      20
+     ],
+     [
+      11489,
+      21
+     ],
+     [
+      11869,
+      22
+     ],
+     [
+      12649,
+      23
+     ],
+     [
+      13089,
+      24
+     ],
+     [
+      13789,
+      25
+     ],
+     [
+      14369,
+      26
+     ],
+     [
+      15189,
+      27
+     ],
+     [
+      15729,
+      28
+     ],
+     [
+      15969,
+      29
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 36750,
+    "d": 1915,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 38965,
+    "d": 2412,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1349,
+      2
+     ]
+    ]
+   },
+   "p1h-nur": {
+    "s": 41678,
+    "d": 2171,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 44150,
+    "d": 13006,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2949,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      3629,
+      7
+     ],
+     [
+      4509,
+      8
+     ],
+     [
+      4769,
+      9
+     ],
+     [
+      5310,
+      10
+     ],
+     [
+      5430,
+      11
+     ],
+     [
+      5749,
+      12
+     ],
+     [
+      6049,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      7269,
+      15
+     ],
+     [
+      7689,
+      16
+     ],
+     [
+      7829,
+      17
+     ],
+     [
+      8230,
+      18
+     ],
+     [
+      8869,
+      19
+     ],
+     [
+      9369,
+      20
+     ],
+     [
+      9850,
+      21
+     ],
+     [
+      10529,
+      22
+     ],
+     [
+      11009,
+      23
+     ],
+     [
+      11409,
+      24
+     ],
+     [
+      11810,
+      25
+     ],
+     [
+      12338,
+      26
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 57456,
+    "d": 2187,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      902,
+      2
+     ],
+     [
+      1481,
+      3
+     ],
+     [
+      1814,
+      4
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 59943,
+    "d": 3280,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      2110,
+      3
+     ],
+     [
+      2609,
+      4
+     ],
+     [
+      3049,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 63524,
+    "d": 2995,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2469,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 66819,
+    "d": 1964,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 69083,
+    "d": 17476,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3529,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4949,
+      9
+     ],
+     [
+      5549,
+      10
+     ],
+     [
+      6350,
+      11
+     ],
+     [
+      7069,
+      12
+     ],
+     [
+      7930,
+      13
+     ],
+     [
+      8390,
+      14
+     ],
+     [
+      8890,
+      15
+     ],
+     [
+      10069,
+      16
+     ],
+     [
+      10549,
+      17
+     ],
+     [
+      10890,
+      18
+     ],
+     [
+      11709,
+      19
+     ],
+     [
+      12409,
+      20
+     ],
+     [
+      13029,
+      21
+     ],
+     [
+      13714,
+      22
+     ],
+     [
+      14469,
+      23
+     ],
+     [
+      14909,
+      24
+     ],
+     [
+      15569,
+      25
+     ],
+     [
+      16370,
+      26
+     ],
+     [
+      16569,
+      27
+     ],
+     [
+      16969,
+      28
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 86859,
+    "d": 3209,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      831,
+      1
+     ],
+     [
+      1824,
+      2
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 90368,
+    "d": 3117,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      682,
+      1
+     ],
+     [
+      1759,
+      2
+     ],
+     [
+      2053,
+      3
+     ],
+     [
+      2347,
+      4
+     ]
+    ]
+   },
+   "p3h-nur": {
+    "s": 93785,
+    "d": 2391,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1829,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 96476,
+    "d": 3443,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      2170,
+      3
+     ],
+     [
+      2650,
+      4
+     ],
+     [
+      3009,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 100220,
+    "d": 13670,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      3209,
+      7
+     ],
+     [
+      3549,
+      8
+     ],
+     [
+      4390,
+      9
+     ],
+     [
+      5089,
+      10
+     ],
+     [
+      5509,
+      11
+     ],
+     [
+      6029,
+      12
+     ],
+     [
+      6289,
+      13
+     ],
+     [
+      6609,
+      14
+     ],
+     [
+      7229,
+      15
+     ],
+     [
+      7449,
+      16
+     ],
+     [
+      7969,
+      17
+     ],
+     [
+      8129,
+      18
+     ],
+     [
+      8609,
+      19
+     ],
+     [
+      9249,
+      20
+     ],
+     [
+      9489,
+      21
+     ],
+     [
+      9829,
+      22
+     ],
+     [
+      10649,
+      23
+     ],
+     [
+      11669,
+      24
+     ],
+     [
+      12249,
+      25
+     ],
+     [
+      13149,
+      26
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 114191,
+    "d": 2807,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2209,
+      4
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 117298,
+    "d": 2889,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      350,
+      1
+     ],
+     [
+      1306,
+      2
+     ],
+     [
+      2077,
+      3
+     ]
+    ]
+   },
+   "p4h-nur": {
+    "s": 120488,
+    "d": 2089,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      680,
+      1
+     ],
+     [
+      1321,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 122877,
+    "d": 3176,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2529,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 126354,
+    "d": 14746,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      3129,
+      5
+     ],
+     [
+      3509,
+      6
+     ],
+     [
+      4529,
+      7
+     ],
+     [
+      5149,
+      8
+     ],
+     [
+      5410,
+      9
+     ],
+     [
+      6449,
+      10
+     ],
+     [
+      6749,
+      11
+     ],
+     [
+      7629,
+      12
+     ],
+     [
+      8029,
+      13
+     ],
+     [
+      8350,
+      14
+     ],
+     [
+      8789,
+      15
+     ],
+     [
+      9129,
+      16
+     ],
+     [
+      9350,
+      17
+     ],
+     [
+      9989,
+      18
+     ],
+     [
+      10669,
+      19
+     ],
+     [
+      10969,
+      20
+     ],
+     [
+      11689,
+      21
+     ],
+     [
+      12149,
+      22
+     ],
+     [
+      12449,
+      23
+     ],
+     [
+      12829,
+      24
+     ],
+     [
+      12949,
+      25
+     ],
+     [
+      13689,
+      26
+     ],
+     [
+      14169,
+      27
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 141400,
+    "d": 2115,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 143816,
+    "d": 1821,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      793,
+      1
+     ],
+     [
+      1200,
+      2
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 145938,
+    "d": 3107,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1769,
+      2
+     ],
+     [
+      2509,
+      3
+     ],
+     [
+      2689,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

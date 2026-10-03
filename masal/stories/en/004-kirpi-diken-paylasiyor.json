@@ -1,0 +1,1377 @@
+{
+ "id": "004-kirpi-diken-paylasiyor",
+ "lang": "en",
+ "title": "One for You, One for Me",
+ "theme": "Sharing and fair shares",
+ "blurb": "Spike the hedgehog doesn't want to share the six apples that fell from the tree. But when he sees his hungry friends, he counts the apples and shares them out fairly: “one for you, one for me.”",
+ "voiceNames": {
+  "diken": "Spike (hedgehog)",
+  "puskul": "Tufty (squirrel)",
+  "tarcin": "Cinnamon (fox)"
+ },
+ "pages": [
+  {
+   "text": "It was autumn. The wind blew: whoooo! The apple tree shook. Plop! Plop! Plop! Plop! Plop! Plop! Bright red apples fell to the ground. Spike the hedgehog came running. “Ooooh, apples on the ground! How many?”",
+   "hits": {
+    "diken": {
+     "say": "Ooooh, apples!"
+    }
+   },
+   "mech": {
+    "done": "Six apples! You counted them all.",
+    "msg": "Six apples!"
+   },
+   "hint": "Count the apples on the ground!",
+   "ask": "What happens to trees in autumn? Have you ever seen fruit fall from a tree?",
+   "cues": [
+    {
+     "w": 4,
+     "fx": "ruzgar"
+    }
+   ]
+  },
+  {
+   "text": "Spike rolled the apples with his paws. Clickety-clack, clickety-clack! He piled them all by the tree stump. Hop, one rolled away! Spike rolled it back too. He puffed up his spikes: “All six are mine!”",
+   "hits": {
+    "diken": {
+     "say": "All six are mine!"
+    }
+   },
+   "hint": "Touch Spike!",
+   "ask": "Why did Spike puff up his spikes? Have you ever said, “They're all mine!”?"
+  },
+  {
+   "text": "Tufty the squirrel and Cinnamon the fox came along. Their tummies rumbled: grumble, grumble! Tufty hung his head. Cinnamon's ears drooped. Spike's tummy had rumbled like that once, too. Slowly, his spikes went down. “Come here,” he said. “Let's share!”",
+   "hits": {
+    "puskul": {
+     "say": "My tummy is going grumble, grumble…"
+    },
+    "tarcin": {
+     "say": "I'm really hungry too."
+    },
+    "diken": {
+     "say": "Come here, let's share!"
+    }
+   },
+   "predict": {
+    "q": "Six apples, three friends. How many apples do you think each friend gets?",
+    "res": "Good guess! Let's share them out and see.",
+    "opts": [
+     {
+      "l": "One apple each"
+     },
+     {
+      "l": "Two apples each"
+     }
+    ]
+   },
+   "hint": "Touch Tufty!",
+   "ask": "How do Tufty and Cinnamon feel? How can you tell?"
+  },
+  {
+   "text": "Spike rolled the apples one by one. “One for Tufty, one for Cinnamon, and one for me!” One more round! “One for Tufty, one for Cinnamon, and one for me!”",
+   "mech": {
+    "done": "Everyone got two apples!",
+    "msg": "You shared fairly!"
+   },
+   "hint": "Share out the apples!",
+   "ask": "How would you share the apples? Let's say it together: “One for you, one for me!”"
+  },
+  {
+   "text": "Spike has two apples. Tufty has two apples. Cinnamon has two apples too. Two, two, two! Nobody got more, nobody got less. Everyone has the same!",
+   "hits": {
+    "diken": {
+     "say": "I have two apples!"
+    },
+    "puskul": {
+     "say": "I have two too!"
+    },
+    "tarcin": {
+     "say": "Me too, two! It's fair!"
+    }
+   },
+   "hint": "Touch Spike!",
+   "ask": "Who has more apples? How many apples does each friend have? Can you show it with your fingers?"
+  },
+  {
+   "text": "Crunch, crunch, crunch, crunch! The three friends ate their apples. Tufty went hop, hop, hop. Cinnamon's ears perked up. Spike giggled: tee-hee-hee! He felt warm inside. “Shared apples taste even sweeter!”",
+   "hits": {
+    "diken": {
+     "say": "It's better together!"
+    },
+    "puskul": {
+     "say": "Mmm, so sweet!"
+    },
+    "tarcin": {
+     "say": "Thank you, Spike!"
+    }
+   },
+   "hint": "Touch Spike!",
+   "ask": "Why did Spike feel warm inside? How do you feel when you share something?",
+   "cues": [
+    {
+     "w": 20,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.1 Counting rhythmically and by sight: finds how many objects there are (1–10) by counting (touches the six fallen apples one by one) and counts one by one to the rhythm of “one for Tufty, one for Cinnamon, and one for me.”",
+   "MAB.4 Making inferences about mathematical facts, events and objects: predicts how many apples each of three friends will get from six; MAB.4.b compares sets (two, two, two: nobody got more or less, everyone has the same).",
+   "TADB.2 Building new meaning from what they hear or watch: infers how the characters feel from a hung head and drooping ears; connects the sharing in the story to their own daily life.",
+   "E2.1 Empathy and SDB2.3 Social Awareness: describes how Spike felt when he noticed from their body language that his friends were hungry and sad; talks about how seeing someone else's need leads to sharing. Value: D20 Helpfulness."
+  ],
+  "once": [
+   "Point to the hedgehog on the cover: “This hedgehog is called Spike. Why do you think he has that name?”",
+   "Show six with your fingers. Ask: “If we had six apples, who would we share them with?”"
+  ],
+  "sirasi": [
+   "On page 1, count the apples on the ground together, touching them one by one; saying one number for each apple (one-to-one counting) is what matters.",
+   "On page 3, point to Tufty's hanging head and Cinnamon's drooping ears: “How do they feel? How can you tell?” Then ask: “Spike's spikes were puffed up on page 2 and went down on page 3. Why?” Accept both answers to the prediction question.",
+   "On page 4, chant “One for Tufty, one for Cinnamon, and one for me!” together with a clapping rhythm; the child gives out the apples in order, one to each friend in each round."
+  ],
+  "sonra": [
+   "Why did Spike say “All six are mine!” at first? Why did he change his mind?",
+   "How many apples did each friend get? Who had more? Was your guess right?",
+   "Put the three pictures in story order: what happened first, and what happened next?"
+  ],
+  "sinif": {
+   "ad": "One for You, One for Me Picnic",
+   "sure": "20 min",
+   "materyal": "For each group: 6 toy apples (or paper apples), 3 paper plates, hedgehog, squirrel and fox masks",
+   "adim": [
+    "Make groups of three; each child wears an animal mask. One child is Spike.",
+    "Spike gives out the 6 apples onto the plates one at a time, saying each friend's name (“One for Emma, one for Leo, and one for me!”); the group counts aloud with every apple.",
+    "Put the plates side by side and compare: “Who has more? Who has less? Is it the same?” Then swap who plays Spike and play again."
+   ]
+  },
+  "evSoru": [
+   "How did Spike know that Tufty and Cinnamon were hungry?",
+   "What did you last share, and with whom? How did you feel?",
+   "If we share six apples between three people, how many does each person get? Let's try it!"
+  ],
+  "evEtk": {
+   "ad": "One for you, one for me at the table",
+   "d": "When you prepare a fruit plate, let your child hand out the slices to family members, saying “One for you, one for me.” Then count what is on each plate together and compare: does everyone have the same?"
+  },
+  "aileNotu": "Today we read “One for You, One for Me.” Spike the hedgehog first kept all six apples for himself. Then he noticed his hungry friends and shared the apples so that everyone got two. The children practised counting objects one by one, sharing them out one-to-one (“one for you, one for me”) and comparing groups. At home, you can keep the game going by sharing fruit slices or toys together at the table."
+ },
+ "audio": {
+  "file": "audio/en/004-kirpi-diken-paylasiyor.mp3",
+  "hash": "89af9d35",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15104,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      49,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      3969,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      4529,
+      10
+     ],
+     [
+      5069,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      5709,
+      13
+     ],
+     [
+      6049,
+      14
+     ],
+     [
+      6390,
+      15
+     ],
+     [
+      6729,
+      16
+     ],
+     [
+      7529,
+      17
+     ],
+     [
+      7769,
+      18
+     ],
+     [
+      7989,
+      19
+     ],
+     [
+      8310,
+      20
+     ],
+     [
+      8509,
+      21
+     ],
+     [
+      8629,
+      22
+     ],
+     [
+      8730,
+      23
+     ],
+     [
+      9629,
+      24
+     ],
+     [
+      9930,
+      25
+     ],
+     [
+      10029,
+      26
+     ],
+     [
+      10449,
+      27
+     ],
+     [
+      10690,
+      28
+     ],
+     [
+      11509,
+      29
+     ],
+     [
+      12969,
+      30
+     ],
+     [
+      13310,
+      31
+     ],
+     [
+      13409,
+      32
+     ],
+     [
+      13549,
+      33
+     ],
+     [
+      14350,
+      34
+     ],
+     [
+      14589,
+      35
+     ]
+    ]
+   },
+   "p0h-diken": {
+    "s": 15404,
+    "d": 998,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      478,
+      1
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 16702,
+    "d": 1943,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18945,
+    "d": 14959,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1449,
+      6
+     ],
+     [
+      2630,
+      7
+     ],
+     [
+      3430,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      5370,
+      10
+     ],
+     [
+      5669,
+      11
+     ],
+     [
+      5809,
+      12
+     ],
+     [
+      5989,
+      13
+     ],
+     [
+      6109,
+      14
+     ],
+     [
+      6229,
+      15
+     ],
+     [
+      6489,
+      16
+     ],
+     [
+      7289,
+      17
+     ],
+     [
+      7789,
+      18
+     ],
+     [
+      7969,
+      19
+     ],
+     [
+      8209,
+      20
+     ],
+     [
+      9609,
+      21
+     ],
+     [
+      9949,
+      22
+     ],
+     [
+      10190,
+      23
+     ],
+     [
+      10289,
+      24
+     ],
+     [
+      10549,
+      25
+     ],
+     [
+      11709,
+      26
+     ],
+     [
+      11890,
+      27
+     ],
+     [
+      12189,
+      28
+     ],
+     [
+      12289,
+      29
+     ],
+     [
+      12449,
+      30
+     ],
+     [
+      13770,
+      31
+     ],
+     [
+      14029,
+      32
+     ],
+     [
+      14350,
+      33
+     ],
+     [
+      14430,
+      34
+     ]
+    ]
+   },
+   "p1h-diken": {
+    "s": 34205,
+    "d": 1319,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      266,
+      1
+     ],
+     [
+      492,
+      2
+     ],
+     [
+      885,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 35825,
+    "d": 20033,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1550,
+      5
+     ],
+     [
+      1670,
+      6
+     ],
+     [
+      2069,
+      7
+     ],
+     [
+      2269,
+      8
+     ],
+     [
+      3109,
+      9
+     ],
+     [
+      3329,
+      10
+     ],
+     [
+      3729,
+      11
+     ],
+     [
+      4430,
+      12
+     ],
+     [
+      4930,
+      13
+     ],
+     [
+      6669,
+      14
+     ],
+     [
+      7049,
+      15
+     ],
+     [
+      7209,
+      16
+     ],
+     [
+      7329,
+      17
+     ],
+     [
+      8569,
+      18
+     ],
+     [
+      9069,
+      19
+     ],
+     [
+      9449,
+      20
+     ],
+     [
+      10909,
+      21
+     ],
+     [
+      11350,
+      22
+     ],
+     [
+      11709,
+      23
+     ],
+     [
+      11890,
+      24
+     ],
+     [
+      12230,
+      25
+     ],
+     [
+      12390,
+      26
+     ],
+     [
+      12609,
+      27
+     ],
+     [
+      12850,
+      28
+     ],
+     [
+      14390,
+      29
+     ],
+     [
+      14890,
+      30
+     ],
+     [
+      15109,
+      31
+     ],
+     [
+      15609,
+      32
+     ],
+     [
+      15850,
+      33
+     ],
+     [
+      17190,
+      34
+     ],
+     [
+      17370,
+      35
+     ],
+     [
+      18110,
+      36
+     ],
+     [
+      18270,
+      37
+     ],
+     [
+      19350,
+      38
+     ],
+     [
+      19589,
+      39
+     ]
+    ]
+   },
+   "p2h-puskul": {
+    "s": 56159,
+    "d": 1967,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1349,
+      5
+     ]
+    ]
+   },
+   "p2h-tarcin": {
+    "s": 58426,
+    "d": 1214,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      246,
+      1
+     ],
+     [
+      607,
+      2
+     ],
+     [
+      967,
+      3
+     ]
+    ]
+   },
+   "p2h-diken": {
+    "s": 59940,
+    "d": 1309,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      353,
+      1
+     ],
+     [
+      774,
+      2
+     ],
+     [
+      955,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 61550,
+    "d": 4317,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      2589,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3129,
+      7
+     ],
+     [
+      3209,
+      8
+     ],
+     [
+      3309,
+      9
+     ],
+     [
+      3509,
+      10
+     ],
+     [
+      3689,
+      11
+     ],
+     [
+      3930,
+      12
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 66167,
+    "d": 1886,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1249,
+      5
+     ],
+     [
+      1389,
+      6
+     ],
+     [
+      1569,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 68353,
+    "d": 9815,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      1829,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      2849,
+      8
+     ],
+     [
+      3009,
+      9
+     ],
+     [
+      3529,
+      10
+     ],
+     [
+      3670,
+      11
+     ],
+     [
+      3869,
+      12
+     ],
+     [
+      4310,
+      13
+     ],
+     [
+      4509,
+      14
+     ],
+     [
+      4689,
+      15
+     ],
+     [
+      4870,
+      16
+     ],
+     [
+      5949,
+      17
+     ],
+     [
+      6149,
+      18
+     ],
+     [
+      6410,
+      19
+     ],
+     [
+      7289,
+      20
+     ],
+     [
+      7430,
+      21
+     ],
+     [
+      7589,
+      22
+     ],
+     [
+      8089,
+      23
+     ],
+     [
+      8230,
+      24
+     ],
+     [
+      8409,
+      25
+     ],
+     [
+      8829,
+      26
+     ],
+     [
+      9029,
+      27
+     ],
+     [
+      9209,
+      28
+     ],
+     [
+      9390,
+      29
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 78469,
+    "d": 1383,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 80152,
+    "d": 10909,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      2630,
+      7
+     ],
+     [
+      3729,
+      8
+     ],
+     [
+      4109,
+      9
+     ],
+     [
+      4269,
+      10
+     ],
+     [
+      4489,
+      11
+     ],
+     [
+      4810,
+      12
+     ],
+     [
+      5249,
+      13
+     ],
+     [
+      5689,
+      14
+     ],
+     [
+      6089,
+      15
+     ],
+     [
+      7189,
+      16
+     ],
+     [
+      7469,
+      17
+     ],
+     [
+      7649,
+      18
+     ],
+     [
+      8230,
+      19
+     ],
+     [
+      8549,
+      20
+     ],
+     [
+      8749,
+      21
+     ],
+     [
+      9909,
+      22
+     ],
+     [
+      10270,
+      23
+     ],
+     [
+      10430,
+      24
+     ],
+     [
+      10549,
+      25
+     ]
+    ]
+   },
+   "p4h-diken": {
+    "s": 91362,
+    "d": 1286,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p4h-puskul": {
+    "s": 92948,
+    "d": 1128,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      689,
+      3
+     ]
+    ]
+   },
+   "p4h-tarcin": {
+    "s": 94377,
+    "d": 1779,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1290,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 96457,
+    "d": 17047,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2670,
+      4
+     ],
+     [
+      2769,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3410,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      3789,
+      9
+     ],
+     [
+      4949,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5589,
+      12
+     ],
+     [
+      5949,
+      13
+     ],
+     [
+      6329,
+      14
+     ],
+     [
+      7669,
+      15
+     ],
+     [
+      8049,
+      16
+     ],
+     [
+      8350,
+      17
+     ],
+     [
+      8690,
+      18
+     ],
+     [
+      9469,
+      19
+     ],
+     [
+      9789,
+      20
+     ],
+     [
+      10430,
+      21
+     ],
+     [
+      12569,
+      22
+     ],
+     [
+      12689,
+      23
+     ],
+     [
+      12930,
+      24
+     ],
+     [
+      13209,
+      25
+     ],
+     [
+      14749,
+      26
+     ],
+     [
+      15209,
+      27
+     ],
+     [
+      15709,
+      28
+     ],
+     [
+      16069,
+      29
+     ],
+     [
+      16409,
+      30
+     ]
+    ]
+   },
+   "p5h-diken": {
+    "s": 113804,
+    "d": 1478,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      729,
+      2
+     ]
+    ]
+   },
+   "p5h-puskul": {
+    "s": 115582,
+    "d": 1345,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 117228,
+    "d": 1167,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      689,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

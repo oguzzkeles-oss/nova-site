@@ -1,0 +1,2152 @@
+{
+ "id": "065-babamla-parkur-gunu",
+ "n": 65,
+ "title": "Babamla Parkur Günü",
+ "age": "60-72",
+ "area": "Hareket ve Sağlık",
+ "theme": "Güvenli hareket, denge ve plan değişince esnek davranma",
+ "values": [
+  "D2 Aile Bütünlüğü"
+ ],
+ "sdb": "SDB3.2 Esneklik",
+ "min": 5,
+ "blurb": "Babalar Günü'nde Elif babasına parkta bir parkur günü hediye eder. İlk dönemeçte dünkü yağmurdan kalan su birikintisi planı bozunca Elif parkuru kuru çimene taşımayı önerir; taşları babasıyla birlikte taşır.",
+ "codes": {
+  "maarif": [
+   "HSAB.1 Farklı çevre ve fiziksel etkinliklerde büyük kas becerilerini etkin bir şekilde uygulayabilme",
+   "HSAB.1.a Farklı ortam ve koşullarda yer değiştirme hareketleri yapar",
+   "HSAB.1.b Etkinliğin durumuna uygun denge hareketleri yapar",
+   "HSAB.11 Tehlike ve kaza durumlarına karşı kendini koruyabilme",
+   "HSAB.8 Aktif ve sağlıklı yaşam için gereken zindelik becerilerinin neler olduğunu söyleyebilme",
+   "HSAB.8.a Hareket sırasında solunum, kalp atımı ve terleme değişimlerini fark eder",
+   "HSAB.8.c Gerektiğinde dinlenme ihtiyacını ifade eder",
+   "E1.4 Kendine İnanma (Öz Yeterlilik)",
+   "SDB3.2 Esneklik",
+   "D2 Aile Bütünlüğü"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "elif": "cocuk-kiz",
+  "baba": "baba"
+ },
+ "voiceNames": {
+  "elif": "Elif",
+  "baba": "Baba (Elif'in babası)"
+ },
+ "pages": [
+  {
+   "text": "Babalar Günü sabahı Elif babasına bir resim uzattı. Resimde ikisi el eleydi. “İyi ki babamsın! Bir hediyem daha var: parkta parkur günü!” Babası kahkahayı bastı. “Yaşasın! Hadi, tekerlekler hazır mı?”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 150,
+      "y": 230,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "wave",
+      "hold": "resim",
+      "holdO": {
+       "theme": "family"
+      },
+      "holdS": 0.9,
+      "hit": "elif"
+     },
+     {
+      "k": "baba",
+      "beard": true,
+      "x": 262,
+      "y": 228,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "open",
+      "flip": true,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "balon",
+      "x": 356,
+      "y": 234,
+      "color": "#F6C742"
+     },
+     {
+      "k": "balon",
+      "x": 372,
+      "y": 236,
+      "color": "#4A8FD8"
+     },
+     {
+      "k": "hediye",
+      "x": 60,
+      "y": 232,
+      "s": 1.1,
+      "color": "#9C7BD8"
+     },
+     {
+      "k": "kask",
+      "x": 98,
+      "y": 240,
+      "s": 0.85,
+      "grass": false
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "İyi ki babamsın!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "baba": {
+     "say": "Yaşasın! Tekerlekler hazır mı?",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "pop",
+     "hearts": true
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Elif babasına neler hediye etti? Sen bir büyüğüne ne hediye etmek isterdin?",
+   "cues": [
+    {
+     "w": 23,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Parkta renkli taşlarla ve turuncu konilerle bir parkur kurdular. Kaydırağın yanından dolanıyordu. Babası, “Önce güvenlik kontrolü!” dedi. Elif kaskını ve kemerini taktı: çıt! Frenlerini denedi: gıcırt! Babası kendi bağcıklarını bağladı: fiyonk! Matarayı da aldılar. “Kontrol tamam!” dediler.",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 112,
+      "y": 232,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.5,
+      "hit": "elif"
+     },
+     {
+      "k": "baba",
+      "beard": true,
+      "x": 222,
+      "y": 230,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "flip": true,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "matara",
+      "x": 176,
+      "y": 234,
+      "s": 1.3,
+      "hit": "matara"
+     },
+     {
+      "k": "tas",
+      "x": 262,
+      "y": 210,
+      "s": 1.2,
+      "color": "#E4574F"
+     },
+     {
+      "k": "tas",
+      "x": 296,
+      "y": 222,
+      "s": 1.2,
+      "color": "#F6A23C"
+     },
+     {
+      "k": "tas",
+      "x": 330,
+      "y": 208,
+      "s": 1.2,
+      "color": "#F6C742"
+     },
+     {
+      "k": "tas",
+      "x": 362,
+      "y": 224,
+      "s": 1.2,
+      "color": "#5BB86B"
+     },
+     {
+      "k": "tas",
+      "x": 378,
+      "y": 206,
+      "s": 1.2,
+      "color": "#4A8FD8"
+     },
+     {
+      "k": "kask",
+      "x": 116,
+      "y": 136,
+      "z": 260,
+      "s": 0.75,
+      "grass": false
+     },
+     {
+      "k": "koni",
+      "x": 244,
+      "y": 238,
+      "s": 0.9
+     },
+     {
+      "k": "koni",
+      "x": 318,
+      "y": 200,
+      "s": 0.7
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Kask, kemer tamam: çıt!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "baba": {
+     "say": "Bağcıklar bağlı: fiyonk!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "matara": {
+     "say": "Su da hazır!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "splash"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "elif",
+     "baba",
+     "matara"
+    ],
+    "done": "Güvenlik kontrolü tamam, hazırız!",
+    "msg": "Kontrol tamam!"
+   },
+   "hint": [
+    "elif",
+    "Önce kaskı ve kemeri tak!"
+   ],
+   "ask": "Oyuna başlamadan önce neleri kontrol ettiler? Sen bisiklete binmeden önce ne yaparsın?"
+  },
+  {
+   "text": "Elif ilk dönemeci döndü. Aa! Kaydırağın yanında kocaman bir su birikintisi! Dünkü yağmurdan kalmış. Tekerlekler burada kayar. Elif'in omuzları düştü, boğazı düğümlendi. “Parkurum bozuldu!” Babası işaret parmağını mum gibi dikti. “Önce çiçeği kokla, sonra mumu üfle,” dedi.",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "baba",
+      "beard": true,
+      "x": 46,
+      "y": 212,
+      "s": 0.9,
+      "mood": "calm",
+      "pose": "wave",
+      "hit": "baba"
+     },
+     {
+      "k": "elif",
+      "x": 110,
+      "y": 232,
+      "s": 1.1,
+      "mood": "sad",
+      "pose": "stand",
+      "turn": 0.5,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 148,
+      "y": 236,
+      "s": 0.6,
+      "hit": "cicek"
+     },
+     {
+      "k": "birikinti",
+      "x": 262,
+      "y": 224,
+      "w": 1.9,
+      "s": 1.2,
+      "hit": "su"
+     },
+     {
+      "k": "tas",
+      "x": 166,
+      "y": 206,
+      "s": 1.2,
+      "color": "#E4574F"
+     },
+     {
+      "k": "tas",
+      "x": 180,
+      "y": 222,
+      "s": 1.2,
+      "color": "#F6A23C"
+     },
+     {
+      "k": "tas",
+      "x": 340,
+      "y": 218,
+      "s": 1.2,
+      "color": "#F6C742"
+     },
+     {
+      "k": "tas",
+      "x": 374,
+      "y": 212,
+      "s": 1.2,
+      "color": "#5BB86B"
+     },
+     {
+      "k": "kask",
+      "x": 114,
+      "y": 136,
+      "z": 260,
+      "s": 0.75,
+      "grass": false
+     },
+     {
+      "k": "koni",
+      "x": 362,
+      "y": 236,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Parkurum bozuldu!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "baba": {
+     "say": "Parmak mumumu üfle, kaptan!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "su": {
+     "anim": "wiggle",
+     "fx": "splash"
+    },
+    "cicek": {
+     "anim": "boing",
+     "fx": "sniff"
+    }
+   },
+   "predict": {
+    "q": "Sence Elif şimdi ne yapacak?",
+    "res": "Güzel düşündün! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Parkuru başka yere kurar",
+      "scene": {
+       "set": "oyun-parki",
+       "time": "day",
+       "season": "summer",
+       "cast": [
+        {
+         "k": "elif",
+         "x": 120,
+         "y": 232,
+         "s": 1.05,
+         "mood": "think",
+         "pose": "point",
+         "turn": 0.5
+        }
+       ],
+       "props": [
+        {
+         "k": "qmark",
+         "x": 200,
+         "y": 90
+        },
+        {
+         "k": "tas",
+         "x": 240,
+         "y": 228,
+         "s": 1.6,
+         "color": "#E4574F"
+        },
+        {
+         "k": "tas",
+         "x": 300,
+         "y": 224,
+         "s": 1.6,
+         "color": "#F6A23C"
+        },
+        {
+         "k": "tas",
+         "x": 360,
+         "y": 230,
+         "s": 1.6,
+         "color": "#F6C742"
+        },
+        {
+         "k": "koni",
+         "x": 372,
+         "y": 236,
+         "s": 0.9
+        }
+       ]
+      }
+     },
+     {
+      "l": "Babasıyla top oynar",
+      "scene": {
+       "set": "oyun-parki",
+       "time": "day",
+       "season": "summer",
+       "cast": [
+        {
+         "k": "elif",
+         "x": 110,
+         "y": 232,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "top"
+        },
+        {
+         "k": "baba",
+         "beard": true,
+         "x": 290,
+         "y": 230,
+         "s": 1.0,
+         "mood": "laugh",
+         "pose": "open",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "birikinti",
+         "x": 200,
+         "y": 206,
+         "w": 1.2,
+         "s": 0.8
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "cicek",
+    "Çiçeği kokla!"
+   ],
+   "ask": "Elif şimdi nasıl hissediyor? Bedeninde bunu nasıl gösteriyor?",
+   "mech": {
+    "type": "breathe",
+    "who": "elif",
+    "flower": "cicek",
+    "candle": "baba",
+    "times": 2,
+    "done": "Oh be! Elif sakinleşti.",
+    "msg": "İki derin nefes!"
+   }
+  },
+  {
+   "text": "Elif çiçeği kokladı, mumu üfledi. Sonra gözleri parladı. “Buldum! Taşları kuru çimene taşıyalım. Plan değişir, eğlence değişmez!” Babası güldü. “Harika fikir, kaptan!” Elif kucağına üç taş koydu, babası iki taş aldı. Çimene dizdiler: bir, iki, üç, dört, beş!",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 96,
+      "y": 234,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "hold",
+      "turn": 0.5,
+      "hit": "elif"
+     },
+     {
+      "k": "baba",
+      "beard": true,
+      "x": 190,
+      "y": 222,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "hold",
+      "flip": true,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 250,
+      "y": 232,
+      "s": 1.5,
+      "color": "#E4574F",
+      "hit": "t1"
+     },
+     {
+      "k": "tas",
+      "x": 296,
+      "y": 224,
+      "s": 1.5,
+      "color": "#F6A23C",
+      "hit": "t2"
+     },
+     {
+      "k": "tas",
+      "x": 342,
+      "y": 232,
+      "s": 1.5,
+      "color": "#F6C742",
+      "hit": "t3"
+     },
+     {
+      "k": "tas",
+      "x": 190,
+      "y": 166,
+      "z": 240,
+      "s": 1.2,
+      "color": "#5BB86B",
+      "grass": false,
+      "hit": "t4"
+     },
+     {
+      "k": "tas",
+      "x": 104,
+      "y": 212,
+      "z": 240,
+      "s": 0.9,
+      "color": "#4A8FD8",
+      "grass": false,
+      "hit": "t5"
+     },
+     {
+      "k": "kask",
+      "x": 100,
+      "y": 138,
+      "z": 260,
+      "s": 0.75,
+      "grass": false
+     },
+     {
+      "k": "koni",
+      "x": 374,
+      "y": 236,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Plan değişir, eğlence değişmez!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "baba": {
+     "say": "Harika fikir, kaptan!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "t": {
+     "anim": "boing",
+     "fx": "click"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "t1",
+     "t2",
+     "t3",
+     "t4",
+     "t5"
+    ],
+    "done": "Beş taş! Yeni parkur hazır.",
+    "msg": "Beş taş!"
+   },
+   "hint": [
+    "t1",
+    "Taşları say!"
+   ],
+   "ask": "Elif'in fikri neydi? Senin bir planın bozulunca sen ne yaparsın?"
+  },
+  {
+   "text": "Başla! Elif tekerleklerini itti: vızz, vızz! Matara kucağındaydı. Taşların ve konilerin arasından zikzak geçti, matara hiç düşmedi! Babası kütükte kollarını açtı. “Dengede kal, dengede!” Elif güldü. “Baba, sallanıyorsun!” “Ama düşmüyorum!” dedi babası.",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 60,
+      "y": 222,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "elif",
+      "hold": "matara",
+      "holdS": 0.6
+     },
+     {
+      "k": "baba",
+      "beard": true,
+      "x": 330,
+      "y": 197,
+      "z": 233,
+      "s": 0.92,
+      "mood": "laugh",
+      "pose": "open",
+      "flip": true,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "kutuk",
+      "x": 330,
+      "y": 232,
+      "s": 1.4,
+      "mushroom": false
+     },
+     {
+      "k": "tas",
+      "x": 100,
+      "y": 206,
+      "s": 1.3,
+      "color": "#E4574F"
+     },
+     {
+      "k": "tas",
+      "x": 140,
+      "y": 236,
+      "s": 1.3,
+      "color": "#F6A23C"
+     },
+     {
+      "k": "tas",
+      "x": 180,
+      "y": 206,
+      "s": 1.3,
+      "color": "#F6C742"
+     },
+     {
+      "k": "tas",
+      "x": 220,
+      "y": 236,
+      "s": 1.3,
+      "color": "#5BB86B"
+     },
+     {
+      "k": "tas",
+      "x": 260,
+      "y": 206,
+      "s": 1.3,
+      "color": "#4A8FD8"
+     },
+     {
+      "k": "kask",
+      "x": 64,
+      "y": 128,
+      "z": 260,
+      "s": 0.72,
+      "grass": false
+     },
+     {
+      "k": "koni",
+      "x": 120,
+      "y": 222,
+      "s": 0.8
+     },
+     {
+      "k": "koni",
+      "x": 240,
+      "y": 222,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Vızz, vızz! Matara kucağımda!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "baba": {
+     "say": "Dengede kal, dengede!",
+     "voice": "baba",
+     "anim": "wiggle",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "elif",
+    "steps": 4,
+    "step": 34,
+    "done": "Zikzak tamam, matara düşmedi!",
+    "msg": "Vızz!"
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun, ilerlesin!"
+   ],
+   "ask": "Elif matarayı nasıl düşürmedi? Elif'in babası gibi kollarını açıp tek ayak üstünde durabilir misin?"
+  },
+  {
+   "text": "Bitiş! Elif kollarını havaya kaldırdı. Babası onu sımsıkı sardı. Kalpleri güm güm atıyordu. Mataradan su içtiler. “Baba, yarın parkuru kim kuracak?” “Sen kur, kaptan, ben sallanırım!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 170,
+      "y": 234,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "hug",
+      "hit": "elif"
+     },
+     {
+      "k": "baba",
+      "beard": true,
+      "x": 232,
+      "y": 230,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "hug",
+      "flip": true,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "matara",
+      "x": 90,
+      "y": 234,
+      "s": 1.3,
+      "hit": "matara"
+     },
+     {
+      "k": "balon",
+      "x": 352,
+      "y": 232,
+      "color": "#F6C742"
+     },
+     {
+      "k": "balon",
+      "x": 372,
+      "y": 234,
+      "color": "#4A8FD8"
+     },
+     {
+      "k": "tas",
+      "x": 40,
+      "y": 212,
+      "s": 1.1,
+      "color": "#E4574F"
+     },
+     {
+      "k": "tas",
+      "x": 84,
+      "y": 204,
+      "s": 1.1,
+      "color": "#F6A23C"
+     },
+     {
+      "k": "tas",
+      "x": 134,
+      "y": 202,
+      "s": 1.1,
+      "color": "#F6C742"
+     },
+     {
+      "k": "tas",
+      "x": 280,
+      "y": 204,
+      "s": 1.1,
+      "color": "#5BB86B"
+     },
+     {
+      "k": "tas",
+      "x": 320,
+      "y": 212,
+      "s": 1.1,
+      "color": "#4A8FD8"
+     },
+     {
+      "k": "kask",
+      "x": 174,
+      "y": 138,
+      "z": 260,
+      "s": 0.75,
+      "grass": false
+     },
+     {
+      "k": "bitis-bayragi",
+      "x": 200,
+      "y": 214,
+      "s": 1.4,
+      "tape": false
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Plan değişti, eğlence değişmedi!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "baba": {
+     "say": "Sen kur kaptan, ben sallanırım!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "chime",
+     "hearts": true
+    },
+    "matara": {
+     "anim": "boing",
+     "fx": "splash"
+    }
+   },
+   "hint": [
+    "baba",
+    "Babaya dokun!"
+   ],
+   "ask": "Elini kalbine koy: koşunca kalbin ne yapıyor? Sen bir büyüğünle hangi hareketli oyunu oynamak istersin?"
+  }
+ ],
+ "order": [
+  2,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.1 (öğrenme çıktısı) · Farklı çevre ve fiziksel etkinliklerde büyük kas becerilerini etkin bir şekilde uygulayabilme — HSAB.1.a farklı ortam ve koşullarda yer değiştirme hareketleri yapar (Elif tekerlekli sandalyesini iterek taşların arasından zikzak geçer, ilk dönemeci döner); HSAB.1.b etkinliğin durumuna uygun denge hareketleri yapar (Elif kucağındaki matarayı düşürmeden yavaşça döner; baba kütükte kollarını açar; 5. sayfada denge sırası okuyucudadır: tek ayak üstünde durur).",
+   "HSAB.11 (öğrenme çıktısı) · Tehlike ve kaza durumlarına karşı kendini koruyabilme — tehlikeli davranış ve durumlardan kaçınır: başlamadan kemer, fren, bağcık ve su kontrolü yapılır; kaygan su birikintisinin içinden geçilmez, parkur güvenli kuru çimene taşınır.",
+   "E1.4 Kendine İnanma (Öz Yeterlilik) · Elif planı bozulunca sorunu kendisi çözer; “Buldum!” der ve yeni parkuru kendi fikriyle kurar.",
+   "SDB3.2 Esneklik · Plan değişince duyguyu fark etme (omuzlar düşer, boğazı düğümlenir), çiçeği koklayıp parmak mumunu üfleyerek sakinleşme ve yeni bir yol bulma.",
+   "HSAB.8 (öğrenme çıktısı) · Aktif ve sağlıklı yaşam için gereken zindelik becerilerini söyleyebilme — HSAB.8.a hareket sırasında kalp atımı değişimini fark eder (“Kalpleri güm güm atıyordu”); HSAB.8.c dinlenme ihtiyacını ifade eder (bitişte su içip dinlenirler).",
+   "Değer: D2 Aile Bütünlüğü — Babalar Günü'nde baba ile kız birlikte hareket eder, birbirini cesaretlendirir ve güler."
+  ],
+  "once": [
+   "Kapaktaki Elif'i ve babasını gösterin: “Sence nereye gidiyorlar? Ne oynayacaklar?” diye sorun.",
+   "“Parkur ne demek? Hiç engelli bir yolda koştun, yürüdün mü?” diye konuşun.",
+   "Babalar Günü (haziranın üçüncü pazarı) çevresinde okumak için uygundur; babası yanında olmayan çocuklar için “sevdiğin bir büyüğünle” diye genişletin."
+  ],
+  "sirasi": [
+   "1. sayfada Elif'in resmine bakın: “Resimde kimler var?”",
+   "2. sayfada güvenlik kontrolünü çocuk sırayla yapsın: kemer, bağcık, su. “Çıt! Gıcırt! Fiyonk!” seslerini birlikte söyleyin.",
+   "3. sayfada Elif'in yüzüne ve omuzlarına bakın: “Elif ne hissediyor?” Çocuk çiçeği koklatıp babanın parmak mumunu üflesin; siz de birlikte iki derin nefes alın. Tahminde iki fikri de kabul edin.",
+   "4. sayfada taşları birlikte sayın: üçü çimende, biri babanın elinde, biri Elif'in kucağında. “Elif kaç taş taşıdı, babası kaç?” diye sorun.",
+   "5. sayfada denge sırası sizde: kollarınızı açıp tek ayak üstünde durun. “Elif matarayı nasıl düşürmedi?” diye sorun.",
+   "6. sayfada elinizi kalbinize koyun: ‘Güm güm! Koşunca kalbimiz ne yapıyor? Dinlenince ne oluyor?’"
+  ],
+  "sonra": [
+   "Parkur neden bozuldu? Elif nasıl bir çözüm buldu?",
+   "Su birikintisinin içinden geçselerdi ne olabilirdi? Kaygan yerlerde nasıl davranırız?",
+   "Elif masalın ortasında nasıl hissetti, sonunda nasıl hissetti? Duygusu neden değişti?"
+  ],
+  "sinif": {
+   "ad": "Plan Değişir Parkuru",
+   "sure": "20 dk",
+   "materyal": "5 renkli minder ya da kese (taş yerine), yere yapıştırılmış bant çizgisi (kütük yerine), su şişeleri, mavi bir örtü (su birikintisi)",
+   "adim": [
+    "Sınıfa ya da bahçeye minderlerle zikzak bir parkur, bantla bir denge çizgisi kurun. Tekerlekli sandalye ya da yürüteç kullanan çocuklar için yolu geniş tutun.",
+    "Başlamadan hep birlikte “güvenlik kontrolü” yapın: ayakkabılar bağlı mı, yol boş mu, suyumuz hazır mı?",
+    "Parkurun ortasına mavi örtüyü “su birikintisi” diye serin. Çocuklara sorun: “Plan bozuldu! Yeni yolu nereye kuralım?” Çözümü çocuklar bulsun ve parkuru kendileri taşısın.",
+    "Parkuru ikişer ikişer tamamlayın; bitişte kalbinizi dinleyip su için. Halka olup “Plan değişince ne hissettin?” diye konuşun."
+   ]
+  },
+  "evSoru": [
+   "Elif babasına hangi hediyeleri verdi?",
+   "Başlamadan önce neleri kontrol ettiler?",
+   "Senin bir planın hiç değişti mi? O zaman ne yaptın?"
+  ],
+  "evEtk": {
+   "ad": "Evde Minik Parkur",
+   "d": "Yastık, havlu ve sandalyelerle salonda güvenli bir minik parkur kurun (kaygan halı ve sivri köşelerden uzak). Önce birlikte güvenlik kontrolü yapın. Sonra bir engeli değiştirip çocuğunuza sorun: “Plan değişti, şimdi nasıl geçeriz?” Yeni yolu o bulsun."
+  },
+  "aileNotu": "Bugün “Babamla Parkur Günü” masalını okuduk. Elif Babalar Günü'nde babasına parkta bir parkur günü hediye ediyor; başlamadan önce birlikte güvenlik kontrolü yapıyorlar. İlk dönemeçte dünkü yağmurdan kalan kaygan bir su birikintisi çıkınca Elif önce üzülüyor, derin bir nefes alıyor ve yeni parkuru kendi fikriyle kuru çimene taşıyor. Evde küçük planlar değiştiğinde “Plan değişir, eğlence değişmez!” sözünü birlikte kullanabilir, çocuğunuzdan yeni bir yol önermesini isteyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/065-babamla-parkur-gunu.mp3",
+  "hash": "edbe4068",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14807,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2769,
+      7
+     ],
+     [
+      3689,
+      8
+     ],
+     [
+      4410,
+      9
+     ],
+     [
+      4910,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5969,
+      12
+     ],
+     [
+      6129,
+      13
+     ],
+     [
+      6289,
+      14
+     ],
+     [
+      7249,
+      15
+     ],
+     [
+      7390,
+      16
+     ],
+     [
+      7809,
+      17
+     ],
+     [
+      8069,
+      18
+     ],
+     [
+      8669,
+      19
+     ],
+     [
+      9109,
+      20
+     ],
+     [
+      9609,
+      21
+     ],
+     [
+      10249,
+      22
+     ],
+     [
+      10690,
+      23
+     ],
+     [
+      11310,
+      24
+     ],
+     [
+      12089,
+      25
+     ],
+     [
+      13069,
+      26
+     ],
+     [
+      13609,
+      27
+     ],
+     [
+      14229,
+      28
+     ],
+     [
+      14549,
+      29
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 15107,
+    "d": 1272,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      437,
+      1
+     ],
+     [
+      665,
+      2
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 16679,
+    "d": 2178,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      1889,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19157,
+    "d": 21370,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      2989,
+      7
+     ],
+     [
+      3430,
+      8
+     ],
+     [
+      4370,
+      9
+     ],
+     [
+      4969,
+      10
+     ],
+     [
+      5430,
+      11
+     ],
+     [
+      6569,
+      12
+     ],
+     [
+      7410,
+      13
+     ],
+     [
+      7729,
+      14
+     ],
+     [
+      8169,
+      15
+     ],
+     [
+      9009,
+      16
+     ],
+     [
+      9709,
+      17
+     ],
+     [
+      10089,
+      18
+     ],
+     [
+      10609,
+      19
+     ],
+     [
+      10749,
+      20
+     ],
+     [
+      11270,
+      21
+     ],
+     [
+      12009,
+      22
+     ],
+     [
+      12729,
+      23
+     ],
+     [
+      13369,
+      24
+     ],
+     [
+      14109,
+      25
+     ],
+     [
+      15129,
+      26
+     ],
+     [
+      15629,
+      27
+     ],
+     [
+      15950,
+      28
+     ],
+     [
+      16610,
+      29
+     ],
+     [
+      17389,
+      30
+     ],
+     [
+      18229,
+      31
+     ],
+     [
+      18690,
+      32
+     ],
+     [
+      18850,
+      33
+     ],
+     [
+      19649,
+      34
+     ],
+     [
+      20149,
+      35
+     ],
+     [
+      20770,
+      36
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 40828,
+    "d": 2188,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      543,
+      1
+     ],
+     [
+      1094,
+      2
+     ],
+     [
+      1831,
+      3
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 43317,
+    "d": 2130,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1469,
+      2
+     ]
+    ]
+   },
+   "p1h-matara": {
+    "s": 45747,
+    "d": 909,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      261,
+      1
+     ],
+     [
+      483,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 46957,
+    "d": 2187,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 49445,
+    "d": 20356,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3349,
+      6
+     ],
+     [
+      3749,
+      7
+     ],
+     [
+      4310,
+      8
+     ],
+     [
+      4469,
+      9
+     ],
+     [
+      4609,
+      10
+     ],
+     [
+      5769,
+      11
+     ],
+     [
+      6089,
+      12
+     ],
+     [
+      6629,
+      13
+     ],
+     [
+      7410,
+      14
+     ],
+     [
+      8069,
+      15
+     ],
+     [
+      8369,
+      16
+     ],
+     [
+      9209,
+      17
+     ],
+     [
+      9629,
+      18
+     ],
+     [
+      10190,
+      19
+     ],
+     [
+      10930,
+      20
+     ],
+     [
+      11350,
+      21
+     ],
+     [
+      12329,
+      22
+     ],
+     [
+      12930,
+      23
+     ],
+     [
+      14009,
+      24
+     ],
+     [
+      14609,
+      25
+     ],
+     [
+      15089,
+      26
+     ],
+     [
+      15769,
+      27
+     ],
+     [
+      16069,
+      28
+     ],
+     [
+      16309,
+      29
+     ],
+     [
+      17089,
+      30
+     ],
+     [
+      17430,
+      31
+     ],
+     [
+      17829,
+      32
+     ],
+     [
+      18649,
+      33
+     ],
+     [
+      19030,
+      34
+     ],
+     [
+      19309,
+      35
+     ],
+     [
+      19989,
+      36
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 70101,
+    "d": 1526,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      670,
+      1
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 71928,
+    "d": 1935,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 74163,
+    "d": 2222,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 76686,
+    "d": 1934,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1329,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 78920,
+    "d": 1962,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1489,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 81182,
+    "d": 21121,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3150,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      4410,
+      8
+     ],
+     [
+      5229,
+      9
+     ],
+     [
+      5729,
+      10
+     ],
+     [
+      5969,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      7149,
+      13
+     ],
+     [
+      7489,
+      14
+     ],
+     [
+      8089,
+      15
+     ],
+     [
+      8589,
+      16
+     ],
+     [
+      9589,
+      17
+     ],
+     [
+      10049,
+      18
+     ],
+     [
+      10810,
+      19
+     ],
+     [
+      11310,
+      20
+     ],
+     [
+      11629,
+      21
+     ],
+     [
+      12430,
+      22
+     ],
+     [
+      12810,
+      23
+     ],
+     [
+      13390,
+      24
+     ],
+     [
+      13609,
+      25
+     ],
+     [
+      13890,
+      26
+     ],
+     [
+      14569,
+      27
+     ],
+     [
+      15069,
+      28
+     ],
+     [
+      15269,
+      29
+     ],
+     [
+      15569,
+      30
+     ],
+     [
+      16229,
+      31
+     ],
+     [
+      16610,
+      32
+     ],
+     [
+      17589,
+      33
+     ],
+     [
+      18350,
+      34
+     ],
+     [
+      19190,
+      35
+     ],
+     [
+      19850,
+      36
+     ],
+     [
+      20569,
+      37
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 102603,
+    "d": 2604,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1749,
+      3
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 105508,
+    "d": 1477,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      949,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 107285,
+    "d": 2295,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 109880,
+    "d": 19671,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      2189,
+      3
+     ],
+     [
+      2829,
+      4
+     ],
+     [
+      3489,
+      5
+     ],
+     [
+      4390,
+      6
+     ],
+     [
+      4789,
+      7
+     ],
+     [
+      5989,
+      8
+     ],
+     [
+      6549,
+      9
+     ],
+     [
+      6689,
+      10
+     ],
+     [
+      7249,
+      11
+     ],
+     [
+      7870,
+      12
+     ],
+     [
+      8329,
+      13
+     ],
+     [
+      9109,
+      14
+     ],
+     [
+      9609,
+      15
+     ],
+     [
+      9909,
+      16
+     ],
+     [
+      10789,
+      17
+     ],
+     [
+      11270,
+      18
+     ],
+     [
+      11730,
+      19
+     ],
+     [
+      12289,
+      20
+     ],
+     [
+      12969,
+      21
+     ],
+     [
+      13449,
+      22
+     ],
+     [
+      13749,
+      23
+     ],
+     [
+      14729,
+      24
+     ],
+     [
+      15089,
+      25
+     ],
+     [
+      15829,
+      26
+     ],
+     [
+      16370,
+      27
+     ],
+     [
+      17649,
+      28
+     ],
+     [
+      17909,
+      29
+     ],
+     [
+      18869,
+      30
+     ],
+     [
+      19129,
+      31
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 129851,
+    "d": 2927,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      518,
+      1
+     ],
+     [
+      1174,
+      2
+     ],
+     [
+      1919,
+      3
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 133079,
+    "d": 1808,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1030,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 135188,
+    "d": 2278,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1629,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 137766,
+    "d": 13470,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      3249,
+      5
+     ],
+     [
+      3670,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4529,
+      8
+     ],
+     [
+      5350,
+      9
+     ],
+     [
+      5910,
+      10
+     ],
+     [
+      6249,
+      11
+     ],
+     [
+      6469,
+      12
+     ],
+     [
+      7449,
+      13
+     ],
+     [
+      8009,
+      14
+     ],
+     [
+      8190,
+      15
+     ],
+     [
+      9109,
+      16
+     ],
+     [
+      9669,
+      17
+     ],
+     [
+      9930,
+      18
+     ],
+     [
+      10369,
+      19
+     ],
+     [
+      10569,
+      20
+     ],
+     [
+      11430,
+      21
+     ],
+     [
+      11689,
+      22
+     ],
+     [
+      11890,
+      23
+     ],
+     [
+      12569,
+      24
+     ],
+     [
+      12789,
+      25
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 151537,
+    "d": 2816,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1930,
+      3
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 154653,
+    "d": 2421,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1689,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

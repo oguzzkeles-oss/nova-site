@@ -1,0 +1,2503 @@
+{
+ "id": "070-ordek-yavrulari-siraya-giriyor",
+ "n": 70,
+ "title": "Ördek Yavruları Sıraya Giriyor",
+ "age": "48-60",
+ "area": "Matematik",
+ "theme": "Sıra sayıları ve sırasını bekleme",
+ "values": [
+  "D12 Sabır"
+ ],
+ "sdb": "SDB3.1 Uyum",
+ "min": 5,
+ "blurb": "Beş ördek yavrusu göle aynı anda atlamaya çalışınca pat küt birbirine çarpar. Kurbağa Vrak onlara sıra oyununu öğretir; en sondaki minik Pıtpıt ise beklemenin sonunda büyük bir sürprizle karşılaşır.",
+ "codes": {
+  "maarif": [
+   "MAB.1 Ritmik ve algısal sayabilme (1-20 arasındaki nesne/varlık miktarını sayarak belirler)",
+   "MAB.1.f Nesne veya kişilerin sırasını sıra sayı sözcükleriyle belirtir (teyitsiz)",
+   "TADB.3 Dinledikleri/izledikleri materyalleri çözümleyebilme (olayların parçalarını belirler; dinlediklerini oluş sırasına göre söyler)",
+   "E3.2 Odaklanma",
+   "SDB3.1 Uyum",
+   "D12 Sabır"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "pitpit": "hayvan-kiz",
+  "anneordek": "anne",
+  "vrak": "kucuk-hayvan",
+  "yavrular": "bebek"
+ },
+ "voiceNames": {
+  "pitpit": "Pıtpıt (ördek yavrusu)",
+  "anneordek": "Anne Ördek",
+  "vrak": "Vrak (kurbağa)",
+  "yavrular": "Ördek yavruları"
+ },
+ "pages": [
+  {
+   "text": "Anne Ördek beş yavrusuyla göle gidiyordu. Paytak paytak, vak vak! En sonda en minik yavru vardı: Pıtpıt. Pıtpıt'ın bir dileği vardı: “Suya ilk ben gireceğim!”",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 56,
+      "y": 44,
+      "hit": "gunes"
+     },
+     {
+      "k": "ordek",
+      "x": 318,
+      "y": 222,
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "anneordek"
+     },
+     {
+      "k": "ordek",
+      "x": 262,
+      "y": 226,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "y1",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 222,
+      "y": 228,
+      "s": 0.72,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "y2",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 182,
+      "y": 226,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "y3",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 142,
+      "y": 228,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "y4",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 92,
+      "y": 234,
+      "s": 0.66,
+      "mood": "think",
+      "pose": "walk",
+      "hit": "pitpit",
+      "baby": true,
+      "bow": "pink"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 34,
+      "y": 212,
+      "s": 1.2,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 60,
+      "y": 234,
+      "s": 0.35
+     },
+     {
+      "k": "tas",
+      "x": 372,
+      "y": 232,
+      "s": 1.5,
+      "v": 0,
+      "moss": true
+     }
+    ]
+   },
+   "hits": {
+    "anneordek": {
+     "say": "Paytak paytak, göle doğru!",
+     "voice": "anneordek",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "y": {
+     "say": "Vık vık!",
+     "voice": "yavrular",
+     "anim": "jump",
+     "fx": "quack"
+    },
+    "pitpit": {
+     "say": "Suya ilk ben gireceğim!",
+     "voice": "pitpit",
+     "anim": "jump",
+     "fx": "quack"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "pitpit",
+    "Pıtpıt'a dokun!"
+   ],
+   "ask": "Sence en minik yavru neden en sonda yürüyor? Sen nerelerde en sonda kaldın?"
+  },
+  {
+   "text": "Göle varınca beş yavru birden koştu. “Önce ben!” “Hayır, ben!” Pat! Küt! Kıyıda yuvarlandılar. Hiçbiri suya giremedi. Pıtpıt'ın tüyleri kabardı. Çok kızdı.",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "ordek",
+      "x": 52,
+      "y": 222,
+      "s": 1.2,
+      "mood": "surprised",
+      "pose": "wave",
+      "hit": "anneordek"
+     },
+     {
+      "k": "ordek",
+      "x": 204,
+      "y": 214,
+      "s": 0.72,
+      "mood": "surprised",
+      "pose": "sit",
+      "hit": "y1",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 232,
+      "y": 222,
+      "s": 0.72,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "y2",
+      "flip": true,
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 180,
+      "y": 226,
+      "s": 0.72,
+      "mood": "scared",
+      "pose": "sit",
+      "hit": "y3",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 212,
+      "y": 234,
+      "s": 0.72,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "y4",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 132,
+      "y": 236,
+      "s": 0.66,
+      "mood": "angry",
+      "pose": "stand",
+      "hit": "pitpit",
+      "baby": true,
+      "bow": "pink"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 340,
+      "y": 232,
+      "s": 1.4,
+      "v": 2
+     },
+     {
+      "k": "flower",
+      "x": 110,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "cali",
+      "x": 372,
+      "y": 214,
+      "s": 1.1
+     }
+    ]
+   },
+   "hits": {
+    "y": {
+     "say": "Önce ben! Hayır, ben!",
+     "voice": "yavrular",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "pitpit": {
+     "say": "Hıh! Ben de ilk olmak istiyorum!",
+     "voice": "pitpit",
+     "anim": "boing",
+     "fx": "quack"
+    },
+    "anneordek": {
+     "say": "Aman yavrularım, yavaş!",
+     "voice": "anneordek",
+     "anim": "jump",
+     "fx": "quack"
+    }
+   },
+   "hint": [
+    "pitpit",
+    "Pıtpıt'a dokun!"
+   ],
+   "ask": "Herkes aynı anda bir kapıdan geçmeye çalışsa ne olur? Sen hiç böyle bir şey yaşadın mı?",
+   "cues": [
+    {
+     "w": 11,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Nilüfer yaprağından bir ses geldi: “Vraak! Durun bakalım!” Bu, kurbağa Vrak'tı. “Benim bir fikrim var!” dedi.",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "kurbaga",
+      "x": 292,
+      "y": 188,
+      "s": 1.9,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "vrak",
+      "pad": true
+     },
+     {
+      "k": "ordek",
+      "x": 172,
+      "y": 220,
+      "s": 0.72,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "y1",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 100,
+      "y": 214,
+      "s": 0.72,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "y2",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 62,
+      "y": 224,
+      "s": 0.72,
+      "mood": "surprised",
+      "pose": "sit",
+      "hit": "y3",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 190,
+      "y": 232,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "y4",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 128,
+      "y": 236,
+      "s": 0.66,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "pitpit",
+      "baby": true,
+      "bow": "pink"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 30,
+      "y": 212,
+      "s": 1.1,
+      "flowers": true
+     },
+     {
+      "k": "tas",
+      "x": 372,
+      "y": 232,
+      "s": 1.4,
+      "v": 0,
+      "moss": true
+     },
+     {
+      "k": "nilufer",
+      "x": 238,
+      "y": 190,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "vrak": {
+     "say": "Vraak! Benim bir fikrim var!",
+     "voice": "vrak",
+     "anim": "jump",
+     "fx": "ribbit"
+    },
+    "y": {
+     "say": "Ne fikri? Ne fikri?",
+     "voice": "yavrular",
+     "anim": "jump",
+     "fx": "quack"
+    },
+    "pitpit": {
+     "say": "Ben ilk olabilir miyim?",
+     "voice": "pitpit",
+     "anim": "wiggle",
+     "fx": "quack"
+    }
+   },
+   "predict": {
+    "q": "Sence Vrak ne yapacak?",
+    "res": "Hadi görelim! Vrak'ın bir oyunu var.",
+    "opts": [
+     {
+      "l": "Sıraya dizer",
+      "scene": {
+       "set": "gol",
+       "time": "day",
+       "season": "spring",
+       "cast": [
+        {
+         "k": "kurbaga",
+         "x": 300,
+         "y": 188,
+         "s": 1.8,
+         "mood": "laugh",
+         "pose": "wave",
+         "pad": true
+        },
+        {
+         "k": "ordek",
+         "x": 236,
+         "y": 224,
+         "s": 0.72,
+         "mood": "happy",
+         "pose": "walk",
+         "baby": true
+        },
+        {
+         "k": "ordek",
+         "x": 196,
+         "y": 226,
+         "s": 0.72,
+         "mood": "happy",
+         "pose": "walk",
+         "baby": true
+        },
+        {
+         "k": "ordek",
+         "x": 156,
+         "y": 228,
+         "s": 0.72,
+         "mood": "happy",
+         "pose": "walk",
+         "baby": true
+        },
+        {
+         "k": "ordek",
+         "x": 116,
+         "y": 230,
+         "s": 0.72,
+         "mood": "happy",
+         "pose": "walk",
+         "baby": true
+        },
+        {
+         "k": "ordek",
+         "x": 76,
+         "y": 234,
+         "s": 0.66,
+         "mood": "think",
+         "pose": "walk",
+         "baby": true,
+         "bow": "pink"
+        }
+       ],
+       "props": [
+        {
+         "k": "cali",
+         "x": 30,
+         "y": 212,
+         "s": 1.1,
+         "flowers": true
+        }
+       ]
+      }
+     },
+     {
+      "l": "Suya atlamayı gösterir",
+      "scene": {
+       "set": "gol",
+       "time": "day",
+       "season": "spring",
+       "cast": [
+        {
+         "k": "kurbaga",
+         "x": 290,
+         "y": 178,
+         "s": 1.9,
+         "mood": "laugh",
+         "pose": "jump"
+        },
+        {
+         "k": "ordek",
+         "x": 176,
+         "y": 226,
+         "s": 0.72,
+         "mood": "surprised",
+         "pose": "stand",
+         "baby": true
+        },
+        {
+         "k": "ordek",
+         "x": 140,
+         "y": 232,
+         "s": 0.72,
+         "mood": "laugh",
+         "pose": "stand",
+         "baby": true
+        },
+        {
+         "k": "ordek",
+         "x": 104,
+         "y": 226,
+         "s": 0.72,
+         "mood": "surprised",
+         "pose": "sit",
+         "baby": true
+        },
+        {
+         "k": "ordek",
+         "x": 68,
+         "y": 236,
+         "s": 0.66,
+         "mood": "happy",
+         "pose": "stand",
+         "baby": true,
+         "bow": "pink"
+        },
+        {
+         "k": "ordek",
+         "x": 204,
+         "y": 234,
+         "s": 0.72,
+         "mood": "surprised",
+         "pose": "stand",
+         "baby": true
+        }
+       ],
+       "props": [
+        {
+         "k": "cali",
+         "x": 30,
+         "y": 212,
+         "s": 1.1,
+         "flowers": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "vrak",
+    "Vrak'a dokun!"
+   ],
+   "ask": "Sence Vrak'ın fikri ne? Yavrular suya nasıl çarpışmadan girebilir?"
+  },
+  {
+   "text": "“Arka arkaya dizilin!” dedi Vrak. “Birinci, ikinci, üçüncü, dördüncü, beşinci!” Pıtpıt yine en sondaydı. “Hep ben mi bekleyeceğim?” diye söylendi.",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "kurbaga",
+      "x": 334,
+      "y": 190,
+      "s": 1.6,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "vrak",
+      "pad": true
+     },
+     {
+      "k": "ordek",
+      "x": 256,
+      "y": 222,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "y1",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 214,
+      "y": 224,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "y2",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 172,
+      "y": 226,
+      "s": 0.72,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "y3",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 130,
+      "y": 228,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "y4",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 82,
+      "y": 236,
+      "s": 0.66,
+      "mood": "angry",
+      "pose": "stand",
+      "hit": "pitpit",
+      "baby": true,
+      "bow": "pink"
+     },
+     {
+      "k": "ordek",
+      "x": 38,
+      "y": 218,
+      "s": 1.05,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "anneordek"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 234,
+      "s": 0.35
+     },
+     {
+      "k": "tas",
+      "x": 340,
+      "y": 232,
+      "s": 1.3,
+      "v": 2
+     }
+    ]
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "y1",
+     "y2",
+     "y3",
+     "y4",
+     "pitpit"
+    ],
+    "done": "Birinci, ikinci, üçüncü, dördüncü, beşinci! Tamam!",
+    "msg": "Yavrular sıraya girdi!"
+   },
+   "hits": {
+    "vrak": {
+     "say": "Birinci en önde, beşinci en sonda!",
+     "voice": "vrak",
+     "anim": "jump",
+     "fx": "ribbit"
+    },
+    "pitpit": {
+     "say": "Hep ben mi bekleyeceğim?",
+     "voice": "pitpit",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "anneordek": {
+     "say": "Sıran gelecek, minik Pıtpıt.",
+     "voice": "anneordek",
+     "anim": "wiggle",
+     "fx": "quack"
+    }
+   },
+   "hint": [
+    "y1",
+    "Birinciden başla, sırayla dokun!"
+   ],
+   "ask": "Suya en yakın yavru kaçıncı? Pıtpıt kaçıncı sırada?"
+  },
+  {
+   "text": "Şıp! Birinci yavru suya süzüldü. Şıp! İkinci. Şıp! Üçüncü. Şıp! Dördüncü. Pıtpıt'ın ayakları kıpır kıpırdı. Anne Ördek “Derin nefes al,” diye fısıldadı. Pıtpıt'ın aklına bir oyun geldi: suya girenleri sayacaktı! Bir, iki, üç, dört!",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "ordek",
+      "x": 238,
+      "y": 196,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "y1",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 280,
+      "y": 191,
+      "s": 0.72,
+      "mood": "laugh",
+      "pose": "swim",
+      "hit": "y2",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 322,
+      "y": 187,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "y3",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 364,
+      "y": 183,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "y4",
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 156,
+      "y": 236,
+      "s": 0.66,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "pitpit",
+      "baby": true,
+      "bow": "pink"
+     },
+     {
+      "k": "ordek",
+      "x": 76,
+      "y": 224,
+      "s": 1.2,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "anneordek"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 32,
+      "y": 212,
+      "s": 1.1,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 196,
+      "y": 236,
+      "s": 0.35
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "y1",
+     "y2",
+     "y3",
+     "y4"
+    ],
+    "done": "Dört yavru suda! Sıra kimde?",
+    "msg": "Dört yavruyu saydın!"
+   },
+   "hits": {
+    "pitpit": {
+     "say": "Offf… Bir, iki…",
+     "voice": "pitpit",
+     "anim": "wiggle",
+     "fx": "blow"
+    },
+    "anneordek": {
+     "say": "Derin nefes al, minik Pıtpıt.",
+     "voice": "anneordek",
+     "anim": "wiggle",
+     "fx": "quack"
+    }
+   },
+   "hint": [
+    "y1",
+    "Suya girenleri say!"
+   ],
+   "ask": "Sen bir şeyi beklerken ne yaparsın? Sence saymak Pıtpıt'a nasıl yardım etti?"
+  },
+  {
+   "text": "Sonunda Vrak seslendi: “Sıra sende, beşinci yavru!” Pıtpıt paytak paytak yürüdü. Kıyıya vardı ve… Şıp! Su serin serin, pırıl pırıldı. Pıtpıt çok sevindi.",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "ordek",
+      "x": 40,
+      "y": 220,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "anneordek"
+     },
+     {
+      "k": "ordek",
+      "x": 88,
+      "y": 234,
+      "s": 0.66,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "pitpit",
+      "baby": true,
+      "bow": "pink"
+     },
+     {
+      "k": "kurbaga",
+      "x": 236,
+      "y": 190,
+      "s": 1.5,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "vrak",
+      "pad": true
+     },
+     {
+      "k": "ordek",
+      "x": 292,
+      "y": 194,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "y1",
+      "flip": true,
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 330,
+      "y": 186,
+      "s": 0.72,
+      "mood": "laugh",
+      "pose": "swim",
+      "hit": "y2",
+      "flip": true,
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 318,
+      "y": 203,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "y3",
+      "flip": true,
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 356,
+      "y": 197,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "y4",
+      "flip": true,
+      "baby": true
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 30,
+      "y": 212,
+      "s": 1.1,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 330,
+      "y": 236,
+      "s": 0.35
+     }
+    ]
+   },
+   "mech": {
+    "type": "walk",
+    "key": "pitpit",
+    "steps": 3,
+    "step": 38,
+    "say": "Paytak paytak!",
+    "done": "Şıp! Pıtpıt da suda!",
+    "msg": "Pıtpıt'ın sırası geldi!"
+   },
+   "hits": {
+    "vrak": {
+     "say": "Sıra sende, beşinci yavru!",
+     "voice": "vrak",
+     "anim": "jump",
+     "fx": "ribbit"
+    },
+    "y": {
+     "say": "Gel Pıtpıt, gel!",
+     "voice": "yavrular",
+     "anim": "jump",
+     "fx": "splash"
+    },
+    "anneordek": {
+     "say": "Aferin sana, minik Pıtpıt!",
+     "voice": "anneordek",
+     "anim": "wiggle",
+     "fx": "quack"
+    }
+   },
+   "hint": [
+    "pitpit",
+    "Pıtpıt'ı yürüt!"
+   ],
+   "ask": "Sonunda sırası gelince Pıtpıt ne hissetti? Sen sıran gelince ne hissedersin?"
+  },
+  {
+   "text": "Güneş batarken Anne Ördek seslendi: “Eve dönüyoruz!” Yavrular kıyıya doğru döndüler. Bir de baktılar: Pıtpıt en öndeydi! En sondaki kardeşi “Hep ben mi bekleyeceğim?” diye söylendi. Pıtpıt güldü: “Derin nefes al, say!”",
+   "scene": {
+    "set": "gol",
+    "time": "sunset",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "ordek",
+      "x": 72,
+      "y": 222,
+      "s": 1.2,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "anneordek"
+     },
+     {
+      "k": "ordek",
+      "x": 232,
+      "y": 198,
+      "s": 0.66,
+      "mood": "laugh",
+      "pose": "swim",
+      "hit": "pitpit",
+      "flip": true,
+      "baby": true,
+      "bow": "pink"
+     },
+     {
+      "k": "ordek",
+      "x": 266,
+      "y": 194,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "y1",
+      "flip": true,
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 300,
+      "y": 190,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "y2",
+      "flip": true,
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 334,
+      "y": 186,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "swim",
+      "hit": "y3",
+      "flip": true,
+      "baby": true
+     },
+     {
+      "k": "ordek",
+      "x": 364,
+      "y": 183,
+      "s": 0.72,
+      "mood": "think",
+      "pose": "swim",
+      "hit": "kardes",
+      "flip": true,
+      "baby": true
+     },
+     {
+      "k": "kurbaga",
+      "x": 184,
+      "y": 236,
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "vrak"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 30,
+      "y": 212,
+      "s": 1.1,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 116,
+      "y": 236,
+      "s": 0.35
+     }
+    ]
+   },
+   "hits": {
+    "pitpit": {
+     "say": "Derin nefes al, say! Vık vık!",
+     "voice": "pitpit",
+     "anim": "jump",
+     "fx": "splash"
+    },
+    "anneordek": {
+     "say": "Eve dönüyoruz yavrularım!",
+     "voice": "anneordek",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "y": {
+     "say": "Vık vık, sıra sıra kıyıya!",
+     "voice": "yavrular",
+     "anim": "jump",
+     "fx": "quack"
+    },
+    "vrak": {
+     "say": "Yarın yine sıra oyunu!",
+     "voice": "vrak",
+     "anim": "jump",
+     "fx": "ribbit"
+    },
+    "kardes": {
+     "say": "Hep ben mi bekleyeceğim?",
+     "voice": "yavrular",
+     "anim": "wiggle",
+     "fx": "quack"
+    }
+   },
+   "hint": [
+    "pitpit",
+    "Birinciye dokun!"
+   ],
+   "ask": "Pıtpıt nasıl birinci oldu? Kardeşine beklerken ne yapmasını söyledi?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  6
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.1 Ritmik ve algısal sayabilme: 1-20 arasındaki nesne/varlık miktarını sayarak belirler; çocuk suya giren yavruları tek tek dokunarak sayar ve kaç tane olduklarını söyler.",
+   "MAB.1.f (teyitsiz alt çıktı) Nesne veya kişilerin sırasını sıra sayı sözcükleriyle belirtir; birinci, ikinci, üçüncü, dördüncü, beşinci yavruyu sırayla gösterir ve yön değişince sıranın da değiştiğini fark eder.",
+   "TADB.3 Dinledikleri materyalleri çözümleyebilme: olayların parçalarını belirler, dinlediklerini oluş sırasına göre söyler (masal sonu sıralama oyunu).",
+   "E3.2 Odaklanma: sıra oyununda ve saymada dikkatini sonuna kadar sürdürür.",
+   "SDB3.1 Uyum ve D12 Sabır: grup içinde sırasını bekler; beklerken nefes alma ve sayma gibi bir sakinleşme yolu kullanır ve bu yolu arkadaşıyla paylaşır."
+  ],
+  "once": [
+   "Kapaktaki ördeklere bakın: “Kaç yavru var? Sence nereye gidiyorlar?”",
+   "“Sıra” sözcüğünü konuşun: “Sen nerelerde sıra beklersin? Kaydırakta, lavaboda…”"
+  ],
+  "sirasi": [
+   "Yavruların çarpıştığı sayfada durun: “Hepsi birden koşunca ne oldu?”",
+   "Sıra sayfasında birinci, ikinci… derken parmağınızla gösterin; çocuk da sizinle söylesin.",
+   "Pıtpıt beklerken birlikte derin nefes alıp dörde kadar sayın."
+  ],
+  "sonra": [
+   "“Pıtpıt önce en sondaydı, sonra nasıl birinci oldu?” diye sorun; yön değişince sıranın değiştiğini oyuncaklarla gösterin.",
+   "Masalın üç sahnesini oluş sırasına göre anlatmasını isteyin: çarpışma, sıraya girme, eve dönüş.",
+   "“Beklemek bazen zor. Sen beklerken ne yapabilirsin?” diye konuşun; nefes alma ve sayma yollarını hatırlatın."
+  ],
+  "sinif": {
+   "ad": "Ördek Treni",
+   "sure": "15 dk",
+   "materyal": "Yere yapıştırılmış mavi bant ya da kumaş (göl), beş ördek maskesi ya da sarı yaka kartı, rakamlı ve noktalı 1-5 sayı kartları",
+   "adim": [
+    "Beş çocuk ördek olur, sayı kartlarını alır ve “göl”e doğru arka arkaya dizilir; sınıf birlikte “birinci, ikinci… beşinci” der.",
+    "Öğretmen “Şıp!” dedikçe sıradaki ördek göle süzülür; bekleyenler nefes alıp suya girenleri sayar.",
+    "Öğretmen “Eve dönüyoruz!” deyince ördekler geri döner; sınıf yeni birinciyi ve yeni beşinciyi söyler.",
+    "Roller değiştirilerek her çocuğun hem birinci hem sonuncu olması sağlanır; “Beklerken ne hissettin?” diye konuşulur."
+   ]
+  },
+  "evSoru": [
+   "Ördek yavruları neden kıyıda yuvarlandı?",
+   "Pıtpıt beklerken ne yaptı? Sonra bu oyunu kime öğretti?",
+   "Eve dönerken kim birinci oldu? Neden?"
+  ],
+  "evEtk": {
+   "ad": "Evde sıra oyunu",
+   "d": "Beş oyuncağı ya da çorabı arka arkaya dizin. Çocuk “Birinci hangisi? Üçüncü hangisi?” sorularını parmağıyla göstererek yanıtlasın. Sonra sırayı ters çevirin ve yeni birinciyi birlikte bulun."
+  },
+  "aileNotu": "Bugün “Ördek Yavruları Sıraya Giriyor” masalını okuduk. Beş ördek yavrusu göle aynı anda girmeye çalışınca çarpıştılar; kurbağa Vrak'ın sıra oyunuyla birinci, ikinci, üçüncü diye sıraya girdiler. En sondaki Pıtpıt beklerken derin nefes aldı ve suya girenleri saydı; dönüşte en öne geçince bu yolu en sondaki kardeşine öğretti. Evde sofraya ya da banyoya giderken “Kim birinci, kim ikinci?” oyununu oynayabilir, bekleme anlarında birlikte nefes alıp sayabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/070-ordek-yavrulari-siraya-giriyor.mp3",
+  "hash": "62e0c0f4",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12024,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      3049,
+      6
+     ],
+     [
+      3529,
+      7
+     ],
+     [
+      4229,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      5330,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      6189,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      6709,
+      14
+     ],
+     [
+      7069,
+      15
+     ],
+     [
+      7769,
+      16
+     ],
+     [
+      8709,
+      17
+     ],
+     [
+      9289,
+      18
+     ],
+     [
+      9409,
+      19
+     ],
+     [
+      9789,
+      20
+     ],
+     [
+      10629,
+      21
+     ],
+     [
+      10989,
+      22
+     ],
+     [
+      11189,
+      23
+     ],
+     [
+      11449,
+      24
+     ]
+    ]
+   },
+   "p0h-anneordek": {
+    "s": 12324,
+    "d": 2120,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p0h-y": {
+    "s": 14745,
+    "d": 860,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      430,
+      1
+     ]
+    ]
+   },
+   "p0h-pitpit": {
+    "s": 15906,
+    "d": 1606,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17812,
+    "d": 11917,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3109,
+      7
+     ],
+     [
+      3629,
+      8
+     ],
+     [
+      4149,
+      9
+     ],
+     [
+      4810,
+      10
+     ],
+     [
+      5390,
+      11
+     ],
+     [
+      6029,
+      12
+     ],
+     [
+      6410,
+      13
+     ],
+     [
+      7589,
+      14
+     ],
+     [
+      8129,
+      15
+     ],
+     [
+      8390,
+      16
+     ],
+     [
+      9289,
+      17
+     ],
+     [
+      9829,
+      18
+     ],
+     [
+      10289,
+      19
+     ],
+     [
+      11129,
+      20
+     ],
+     [
+      11409,
+      21
+     ]
+    ]
+   },
+   "p1h-y": {
+    "s": 30030,
+    "d": 2061,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      515,
+      1
+     ],
+     [
+      1111,
+      2
+     ],
+     [
+      1748,
+      3
+     ]
+    ]
+   },
+   "p1h-pitpit": {
+    "s": 32391,
+    "d": 2142,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1509,
+      5
+     ]
+    ]
+   },
+   "p1h-anneordek": {
+    "s": 34833,
+    "d": 2011,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1309,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 37145,
+    "d": 7784,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      4290,
+      8
+     ],
+     [
+      4689,
+      9
+     ],
+     [
+      5209,
+      10
+     ],
+     [
+      6109,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      6509,
+      13
+     ],
+     [
+      6890,
+      14
+     ],
+     [
+      7430,
+      15
+     ]
+    ]
+   },
+   "p2h-vrak": {
+    "s": 45229,
+    "d": 2193,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      775,
+      1
+     ],
+     [
+      1212,
+      2
+     ],
+     [
+      1464,
+      3
+     ],
+     [
+      1901,
+      4
+     ]
+    ]
+   },
+   "p2h-y": {
+    "s": 47722,
+    "d": 1892,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      311,
+      1
+     ],
+     [
+      1107,
+      2
+     ],
+     [
+      1378,
+      3
+     ]
+    ]
+   },
+   "p2h-pitpit": {
+    "s": 49915,
+    "d": 1584,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      256,
+      1
+     ],
+     [
+      472,
+      2
+     ],
+     [
+      1168,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 51799,
+    "d": 1718,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      498,
+      1
+     ],
+     [
+      761,
+      2
+     ],
+     [
+      1024,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 53817,
+    "d": 2499,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2069,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 56617,
+    "d": 11235,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      4029,
+      7
+     ],
+     [
+      4789,
+      8
+     ],
+     [
+      5529,
+      9
+     ],
+     [
+      6549,
+      10
+     ],
+     [
+      7129,
+      11
+     ],
+     [
+      7449,
+      12
+     ],
+     [
+      7629,
+      13
+     ],
+     [
+      8690,
+      14
+     ],
+     [
+      8930,
+      15
+     ],
+     [
+      9150,
+      16
+     ],
+     [
+      9289,
+      17
+     ],
+     [
+      10270,
+      18
+     ],
+     [
+      10549,
+      19
+     ]
+    ]
+   },
+   "p3h-vrak": {
+    "s": 68152,
+    "d": 2898,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2349,
+      5
+     ]
+    ]
+   },
+   "p3h-pitpit": {
+    "s": 71350,
+    "d": 1430,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      233,
+      1
+     ],
+     [
+      427,
+      2
+     ],
+     [
+      621,
+      3
+     ]
+    ]
+   },
+   "p3h-anneordek": {
+    "s": 73081,
+    "d": 1930,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 75312,
+    "d": 4829,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1670,
+      2
+     ],
+     [
+      2509,
+      3
+     ],
+     [
+      3390,
+      4
+     ],
+     [
+      4330,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 80441,
+    "d": 19695,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2749,
+      5
+     ],
+     [
+      3369,
+      6
+     ],
+     [
+      4310,
+      7
+     ],
+     [
+      4949,
+      8
+     ],
+     [
+      5910,
+      9
+     ],
+     [
+      6489,
+      10
+     ],
+     [
+      7529,
+      11
+     ],
+     [
+      8069,
+      12
+     ],
+     [
+      8629,
+      13
+     ],
+     [
+      9009,
+      14
+     ],
+     [
+      9890,
+      15
+     ],
+     [
+      10169,
+      16
+     ],
+     [
+      10850,
+      17
+     ],
+     [
+      11189,
+      18
+     ],
+     [
+      11609,
+      19
+     ],
+     [
+      12049,
+      20
+     ],
+     [
+      12310,
+      21
+     ],
+     [
+      13209,
+      22
+     ],
+     [
+      13729,
+      23
+     ],
+     [
+      14129,
+      24
+     ],
+     [
+      14329,
+      25
+     ],
+     [
+      14629,
+      26
+     ],
+     [
+      15350,
+      27
+     ],
+     [
+      15649,
+      28
+     ],
+     [
+      16169,
+      29
+     ],
+     [
+      17209,
+      30
+     ],
+     [
+      17889,
+      31
+     ],
+     [
+      18649,
+      32
+     ],
+     [
+      19190,
+      33
+     ]
+    ]
+   },
+   "p4h-pitpit": {
+    "s": 100437,
+    "d": 2513,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1003,
+      1
+     ],
+     [
+      1705,
+      2
+     ]
+    ]
+   },
+   "p4h-anneordek": {
+    "s": 103250,
+    "d": 1972,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1389,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 105522,
+    "d": 2213,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1729,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 108036,
+    "d": 12844,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      4149,
+      7
+     ],
+     [
+      4749,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      5669,
+      10
+     ],
+     [
+      6430,
+      11
+     ],
+     [
+      6890,
+      12
+     ],
+     [
+      7390,
+      13
+     ],
+     [
+      8089,
+      14
+     ],
+     [
+      8869,
+      15
+     ],
+     [
+      9150,
+      16
+     ],
+     [
+      9609,
+      17
+     ],
+     [
+      10169,
+      18
+     ],
+     [
+      10569,
+      19
+     ],
+     [
+      11409,
+      20
+     ],
+     [
+      11909,
+      21
+     ],
+     [
+      12189,
+      22
+     ]
+    ]
+   },
+   "p5h-vrak": {
+    "s": 121180,
+    "d": 1920,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p5h-y": {
+    "s": 123401,
+    "d": 1375,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      338,
+      1
+     ],
+     [
+      1036,
+      2
+     ]
+    ]
+   },
+   "p5h-anneordek": {
+    "s": 125076,
+    "d": 2039,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 127416,
+    "d": 1762,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1004,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p5ms": {
+    "s": 129478,
+    "d": 1313,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ]
+    ]
+   },
+   "p6": {
+    "s": 131092,
+    "d": 16434,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      4269,
+      7
+     ],
+     [
+      4810,
+      8
+     ],
+     [
+      5189,
+      9
+     ],
+     [
+      5489,
+      10
+     ],
+     [
+      6410,
+      11
+     ],
+     [
+      6529,
+      12
+     ],
+     [
+      6669,
+      13
+     ],
+     [
+      7529,
+      14
+     ],
+     [
+      8069,
+      15
+     ],
+     [
+      8249,
+      16
+     ],
+     [
+      9249,
+      17
+     ],
+     [
+      9430,
+      18
+     ],
+     [
+      9890,
+      19
+     ],
+     [
+      10770,
+      20
+     ],
+     [
+      11009,
+      21
+     ],
+     [
+      11209,
+      22
+     ],
+     [
+      11350,
+      23
+     ],
+     [
+      12310,
+      24
+     ],
+     [
+      12569,
+      25
+     ],
+     [
+      13549,
+      26
+     ],
+     [
+      14029,
+      27
+     ],
+     [
+      14829,
+      28
+     ],
+     [
+      15169,
+      29
+     ],
+     [
+      15569,
+      30
+     ],
+     [
+      16069,
+      31
+     ]
+    ]
+   },
+   "p6h-pitpit": {
+    "s": 147826,
+    "d": 2864,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      563,
+      1
+     ],
+     [
+      1086,
+      2
+     ],
+     [
+      1565,
+      3
+     ],
+     [
+      2222,
+      4
+     ],
+     [
+      2523,
+      5
+     ]
+    ]
+   },
+   "p6h-anneordek": {
+    "s": 150991,
+    "d": 1464,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      769,
+      2
+     ]
+    ]
+   },
+   "p6h-y": {
+    "s": 152756,
+    "d": 2043,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      269,
+      1
+     ],
+     [
+      634,
+      2
+     ],
+     [
+      1034,
+      3
+     ],
+     [
+      1433,
+      4
+     ]
+    ]
+   },
+   "p6h-vrak": {
+    "s": 155100,
+    "d": 1556,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1050,
+      3
+     ]
+    ]
+   },
+   "p6h-kardes": {
+    "s": 156956,
+    "d": 1421,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      232,
+      1
+     ],
+     [
+      425,
+      2
+     ],
+     [
+      617,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

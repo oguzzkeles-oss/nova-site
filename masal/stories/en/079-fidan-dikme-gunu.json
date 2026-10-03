@@ -1,0 +1,1648 @@
+{
+ "id": "079-fidan-dikme-gunu",
+ "lang": "en",
+ "title": "Tree Planting Day",
+ "theme": "Planting saplings, making homes for living things and working together",
+ "blurb": "The class goes to plant saplings in an empty meadow. When they see Patter the squirrel, who can't find a tree to climb, Zeynep and Ali get to work: one holds, one presses down the soil, and then they give the saplings their first drink.",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "ali": "Ali",
+  "ogretmen": "Miss Selin",
+  "pitir": "Patter (squirrel)"
+ },
+ "pages": [
+  {
+   "text": "Today is Tree Planting Day! The class came to a big, empty meadow. Zeynep carried a sapling. Ali carried one too. Miss Selin said, “Saplings are baby trees.”",
+   "hits": {
+    "ogretmen": {
+     "say": "Saplings are baby trees."
+    },
+    "zeynep": {
+     "say": "My sapling has leaves!"
+    },
+    "ali": {
+     "say": "Mine goes rustle rustle!"
+    }
+   },
+   "hint": "Touch the teacher!",
+   "ask": "What do you think a sapling is? What does a sapling turn into when it grows?"
+  },
+  {
+   "text": "Oh, a squirrel! His name is Patter. Patter ran and ran across the meadow. There was no tree to climb. There was no branch to hide in. Zeynep said, “Squirrels live in trees. He has no home here!”",
+   "hits": {
+    "pitir": {
+     "say": "Chip chip! Chip?"
+    },
+    "zeynep": {
+     "say": "There are no trees nearby!"
+    },
+    "ali": {
+     "say": "Where can the squirrel climb?"
+    }
+   },
+   "hint": "Touch Patter!",
+   "ask": "Why might Patter be sad? Where do you think squirrels live?"
+  },
+  {
+   "text": "Zeynep put the sapling in the hole. One hand held it. The other hand filled in the soil. The sapling wobbled and wobbled! “Ugh, I can't do it alone!” Zeynep got cross, her cheeks went hot. She took a deep breath.",
+   "hits": {
+    "zeynep": {
+     "say": "In through my nose… out through my mouth. Ahh!"
+    },
+    "ali": {
+     "say": "Zeynep, is something wrong?"
+    },
+    "pitir": {
+     "say": "Chip?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Zeynep will do now?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "Ask Ali for help"
+     },
+     {
+      "l": "Ask the teacher"
+     }
+    ]
+   },
+   "hint": "Breathe with Zeynep!",
+   "ask": "Why did Zeynep get cross? What do you do when you can't do a job on your own?"
+  },
+  {
+   "text": "Zeynep asked, “Ali, can you help me?” Ali held the sapling straight and tall. Zeynep pressed down the soil. Press, press, press! Then they swapped places. Their friends joined hands too. How many saplings were planted?",
+   "mech": {
+    "done": "Five saplings planted! We did it together.",
+    "msg": "Five saplings!"
+   },
+   "hits": {
+    "ali": {
+     "say": "I'll hold, you press!"
+    },
+    "zeynep": {
+     "say": "Press, press, press!"
+    }
+   },
+   "hint": "Count the saplings!",
+   "ask": "How did Zeynep and Ali share the job? What have you done together with a friend?"
+  },
+  {
+   "text": "The saplings were thirsty. Miss Selin said, “Time for the first drink!” Zeynep and Ali watered them together. Splish splash! The soil drank the water, glug glug. Patter scratched at the soft soil too. Dig, dig!",
+   "mech": {
+    "done": "First drink given! The saplings feel fresh.",
+    "msg": "Splish splash!"
+   },
+   "hits": {
+    "ogretmen": {
+     "say": "Time for the first drink!"
+    },
+    "zeynep": {
+     "say": "Splish splash, drink up, little sapling!"
+    },
+    "ali": {
+     "say": "Glug glug glug!"
+    },
+    "pitir": {
+     "say": "Chip! I'll hide an acorn here!"
+    }
+   },
+   "hint": "Touch the watering can!",
+   "ask": "What do saplings need to grow? What would happen without water?",
+   "cues": [
+    {
+     "w": 18,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Patter sat down at the foot of a tiny sapling. Miss Selin said, “Baby trees will grow for years and years.” Zeynep laughed. “One day this will be a forest!” Ali added: “And a home for Patter!”",
+   "hits": {
+    "pitir": {
+     "say": "Chip chip! Chip chip chip!"
+    },
+    "zeynep": {
+     "say": "One day this will be a forest!"
+    },
+    "ali": {
+     "say": "And a home for Patter!"
+    }
+   },
+   "hint": "Touch Patter!",
+   "ask": "Who could live here when these saplings grow? If you planted a sapling, where would you plant it?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 — Making scientific observations of science-related events, facts and situations in daily life: Observes that the squirrel cannot find a place to hide in the treeless meadow; watches the sapling being planted in the soil, pressed down and given its first water; talks about how the sapling will grow slowly over the years.",
+   "OB8 Sustainability Literacy — Notices that planting trees gives animals a home and people shade; realises that a sapling planted today will be a forest in the future.",
+   "E2.2 Responsibility — Takes on the care of the sapling they planted by giving it its first water; takes a turn on the classroom watering chart.",
+   "SDB2.2 Cooperation — Shares the roles in a two-person job (one holds, one presses the soil, then they swap); asks a friend for help politely.",
+   "D5 Sensitivity — Notices the squirrel's need and wants to do something for the living things around them.",
+   "D16 Responsibility — Takes ownership of watering and caring for the planted saplings; shares the watering turns with friends."
+  ],
+  "once": [
+   "Show a real sapling, a potted plant or a photo of a sapling: “This little tree is called a sapling. What will it be when it grows up?”",
+   "Ask “Where do squirrels live? What would they do without trees?”; note the guesses."
+  ],
+  "sirasi": [
+   "On page 2, point to Patter's face: “How might Patter be feeling? Why?”",
+   "On page 3, take a deep breath together with Zeynep. Accept both answers to the prediction question: there are two good ways to ask for help.",
+   "On page 4, count the saplings with your finger together with the child; while saying “Press, press, press!”, press your palms down on your knees.",
+   "On page 5, explain the words “first drink”: the first water given to a newly planted sapling. Touch the watering cans in turn."
+  ],
+  "sonra": [
+   "Why couldn't Zeynep plant the sapling on her own? How did she and Ali share the job?",
+   "When will the saplings become big trees? Right away, or years from now?",
+   "Who could live here when these trees grow? (squirrels, birds, bees, insects…)"
+  ],
+  "sinif": {
+   "ad": "Sapling Team of Two",
+   "sure": "25 min (then 5 min of watering every day)",
+   "materyal": "A suitable corner of the school garden or large pots, small saplings or bean/chickpea seeds, soil, a small trowel (used by an adult), a watering can, a picture duty chart (the children's symbol cards)",
+   "adim": [
+    "Split the children into teams of two. The teacher digs the hole; one child holds the sapling upright, the other presses the soil down with their palms, then they swap roles.",
+    "Each team gives its sapling its “first drink”. Put the team's symbol cards next to the sapling.",
+    "Fill in the watering chart together for a week; look at the sapling every day and talk about what you see (any new leaves? is the soil dry or wet?)."
+   ]
+  },
+  "evSoru": [
+   "What did Zeynep and Ali plant in the meadow?",
+   "Why was Patter sad, and why was he happy in the end?",
+   "What job have you done together with a friend?"
+  ],
+  "evEtk": {
+   "ad": "A tiny garden on the balcony",
+   "d": "Plant a seedling or a seed in a pot together: one of you holds the pot, the other presses down the soil, then swap. Take turns watering for a week, take photos of the plant and watch the change together."
+  },
+  "aileNotu": "Today we read “Tree Planting Day”. Zeynep and Ali notice that Patter the squirrel can't find anywhere to hide in a treeless meadow, and the class plants saplings. When Zeynep struggles on her own, she gets cross, takes a deep breath and asks a friend for help. At home, you can try sharing roles in small jobs you do together (setting the table, watering plants), like “You hold, I'll press”; and you can plant a sapling as a family during Forest Week (21–26 March) or on National Tree Planting Day (11 November)."
+ },
+ "audio": {
+  "file": "audio/en/079-fidan-dikme-gunu.mp3",
+  "hash": "1473e3d8",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11912,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      2930,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      3349,
+      9
+     ],
+     [
+      3529,
+      10
+     ],
+     [
+      4009,
+      11
+     ],
+     [
+      4390,
+      12
+     ],
+     [
+      5310,
+      13
+     ],
+     [
+      5769,
+      14
+     ],
+     [
+      6069,
+      15
+     ],
+     [
+      6149,
+      16
+     ],
+     [
+      7149,
+      17
+     ],
+     [
+      7370,
+      18
+     ],
+     [
+      7709,
+      19
+     ],
+     [
+      7870,
+      20
+     ],
+     [
+      8709,
+      21
+     ],
+     [
+      8890,
+      22
+     ],
+     [
+      9270,
+      23
+     ],
+     [
+      9989,
+      24
+     ],
+     [
+      10730,
+      25
+     ],
+     [
+      10930,
+      26
+     ],
+     [
+      11289,
+      27
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 12212,
+    "d": 2002,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 14514,
+    "d": 1827,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1229,
+      3
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 16642,
+    "d": 2031,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1469,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18974,
+    "d": 13284,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2069,
+      6
+     ],
+     [
+      3029,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      3869,
+      9
+     ],
+     [
+      4089,
+      10
+     ],
+     [
+      4390,
+      11
+     ],
+     [
+      4749,
+      12
+     ],
+     [
+      4870,
+      13
+     ],
+     [
+      5629,
+      14
+     ],
+     [
+      5789,
+      15
+     ],
+     [
+      5969,
+      16
+     ],
+     [
+      6149,
+      17
+     ],
+     [
+      6410,
+      18
+     ],
+     [
+      6529,
+      19
+     ],
+     [
+      7209,
+      20
+     ],
+     [
+      7370,
+      21
+     ],
+     [
+      7529,
+      22
+     ],
+     [
+      7709,
+      23
+     ],
+     [
+      8109,
+      24
+     ],
+     [
+      8230,
+      25
+     ],
+     [
+      8529,
+      26
+     ],
+     [
+      9209,
+      27
+     ],
+     [
+      9629,
+      28
+     ],
+     [
+      10289,
+      29
+     ],
+     [
+      10829,
+      30
+     ],
+     [
+      10989,
+      31
+     ],
+     [
+      11129,
+      32
+     ],
+     [
+      11930,
+      33
+     ],
+     [
+      12089,
+      34
+     ],
+     [
+      12329,
+      35
+     ],
+     [
+      12529,
+      36
+     ],
+     [
+      12850,
+      37
+     ]
+    ]
+   },
+   "p1h-pitir": {
+    "s": 32558,
+    "d": 1714,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1283,
+      2
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 34572,
+    "d": 1986,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1329,
+      4
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 36859,
+    "d": 1683,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1030,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 38842,
+    "d": 15329,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      1410,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2489,
+      8
+     ],
+     [
+      2829,
+      9
+     ],
+     [
+      3089,
+      10
+     ],
+     [
+      3609,
+      11
+     ],
+     [
+      3749,
+      12
+     ],
+     [
+      3969,
+      13
+     ],
+     [
+      4310,
+      14
+     ],
+     [
+      4569,
+      15
+     ],
+     [
+      4649,
+      16
+     ],
+     [
+      4810,
+      17
+     ],
+     [
+      5629,
+      18
+     ],
+     [
+      5789,
+      19
+     ],
+     [
+      6370,
+      20
+     ],
+     [
+      7069,
+      21
+     ],
+     [
+      7329,
+      22
+     ],
+     [
+      8589,
+      23
+     ],
+     [
+      8930,
+      24
+     ],
+     [
+      9089,
+      25
+     ],
+     [
+      9489,
+      26
+     ],
+     [
+      9649,
+      27
+     ],
+     [
+      9789,
+      28
+     ],
+     [
+      10890,
+      29
+     ],
+     [
+      11289,
+      30
+     ],
+     [
+      11529,
+      31
+     ],
+     [
+      12310,
+      32
+     ],
+     [
+      12529,
+      33
+     ],
+     [
+      12869,
+      34
+     ],
+     [
+      13129,
+      35
+     ],
+     [
+      13949,
+      36
+     ],
+     [
+      14109,
+      37
+     ],
+     [
+      14310,
+      38
+     ],
+     [
+      14449,
+      39
+     ],
+     [
+      14729,
+      40
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 54472,
+    "d": 4555,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      2849,
+      7
+     ],
+     [
+      3632,
+      8
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 59327,
+    "d": 2016,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   },
+   "p2h-pitir": {
+    "s": 61643,
+    "d": 523,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 62466,
+    "d": 2000,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      1449,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 64767,
+    "d": 967,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      483,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 66035,
+    "d": 15664,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1889,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2430,
+      6
+     ],
+     [
+      3170,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      3729,
+      9
+     ],
+     [
+      3849,
+      10
+     ],
+     [
+      4290,
+      11
+     ],
+     [
+      4850,
+      12
+     ],
+     [
+      5009,
+      13
+     ],
+     [
+      5910,
+      14
+     ],
+     [
+      6370,
+      15
+     ],
+     [
+      6729,
+      16
+     ],
+     [
+      6930,
+      17
+     ],
+     [
+      7069,
+      18
+     ],
+     [
+      7809,
+      19
+     ],
+     [
+      8509,
+      20
+     ],
+     [
+      9150,
+      21
+     ],
+     [
+      10149,
+      22
+     ],
+     [
+      10469,
+      23
+     ],
+     [
+      10690,
+      24
+     ],
+     [
+      11089,
+      25
+     ],
+     [
+      12009,
+      26
+     ],
+     [
+      12230,
+      27
+     ],
+     [
+      12589,
+      28
+     ],
+     [
+      12869,
+      29
+     ],
+     [
+      13189,
+      30
+     ],
+     [
+      13989,
+      31
+     ],
+     [
+      14149,
+      32
+     ],
+     [
+      14430,
+      33
+     ],
+     [
+      14890,
+      34
+     ],
+     [
+      15049,
+      35
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 81999,
+    "d": 1787,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 84087,
+    "d": 2073,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      798,
+      1
+     ],
+     [
+      1556,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 86460,
+    "d": 3255,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2549,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 90016,
+    "d": 15165,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      3729,
+      9
+     ],
+     [
+      3849,
+      10
+     ],
+     [
+      4149,
+      11
+     ],
+     [
+      5169,
+      12
+     ],
+     [
+      5569,
+      13
+     ],
+     [
+      5789,
+      14
+     ],
+     [
+      6089,
+      15
+     ],
+     [
+      6449,
+      16
+     ],
+     [
+      6669,
+      17
+     ],
+     [
+      7569,
+      18
+     ],
+     [
+      8109,
+      19
+     ],
+     [
+      8829,
+      20
+     ],
+     [
+      9029,
+      21
+     ],
+     [
+      9469,
+      22
+     ],
+     [
+      9890,
+      23
+     ],
+     [
+      10029,
+      24
+     ],
+     [
+      10649,
+      25
+     ],
+     [
+      11009,
+      26
+     ],
+     [
+      11810,
+      27
+     ],
+     [
+      12230,
+      28
+     ],
+     [
+      12649,
+      29
+     ],
+     [
+      12749,
+      30
+     ],
+     [
+      12890,
+      31
+     ],
+     [
+      13189,
+      32
+     ],
+     [
+      13549,
+      33
+     ],
+     [
+      14189,
+      34
+     ],
+     [
+      14649,
+      35
+     ]
+    ]
+   },
+   "p4h-ogretmen": {
+    "s": 105481,
+    "d": 1424,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      447,
+      1
+     ],
+     [
+      681,
+      2
+     ],
+     [
+      915,
+      3
+     ],
+     [
+      1149,
+      4
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 107206,
+    "d": 2853,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2289,
+      5
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 110359,
+    "d": 1434,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      491,
+      1
+     ],
+     [
+      942,
+      2
+     ]
+    ]
+   },
+   "p4h-pitir": {
+    "s": 112094,
+    "d": 2311,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      558,
+      1
+     ],
+     [
+      795,
+      2
+     ],
+     [
+      1208,
+      3
+     ],
+     [
+      1445,
+      4
+     ],
+     [
+      1858,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 114705,
+    "d": 3306,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2630,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 118312,
+    "d": 13290,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      969,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1349,
+      6
+     ],
+     [
+      1449,
+      7
+     ],
+     [
+      1569,
+      8
+     ],
+     [
+      2029,
+      9
+     ],
+     [
+      2989,
+      10
+     ],
+     [
+      3189,
+      11
+     ],
+     [
+      3589,
+      12
+     ],
+     [
+      4249,
+      13
+     ],
+     [
+      4589,
+      14
+     ],
+     [
+      4930,
+      15
+     ],
+     [
+      5129,
+      16
+     ],
+     [
+      5449,
+      17
+     ],
+     [
+      5729,
+      18
+     ],
+     [
+      6229,
+      19
+     ],
+     [
+      6449,
+      20
+     ],
+     [
+      7489,
+      21
+     ],
+     [
+      7989,
+      22
+     ],
+     [
+      8890,
+      23
+     ],
+     [
+      9089,
+      24
+     ],
+     [
+      9350,
+      25
+     ],
+     [
+      9549,
+      26
+     ],
+     [
+      9730,
+      27
+     ],
+     [
+      9850,
+      28
+     ],
+     [
+      9989,
+      29
+     ],
+     [
+      11089,
+      30
+     ],
+     [
+      11350,
+      31
+     ],
+     [
+      11909,
+      32
+     ],
+     [
+      12230,
+      33
+     ],
+     [
+      12329,
+      34
+     ],
+     [
+      12549,
+      35
+     ],
+     [
+      12749,
+      36
+     ]
+    ]
+   },
+   "p5h-pitir": {
+    "s": 131902,
+    "d": 1923,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1410,
+      4
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 134125,
+    "d": 2234,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      482,
+      1
+     ],
+     [
+      736,
+      2
+     ],
+     [
+      990,
+      3
+     ],
+     [
+      1243,
+      4
+     ],
+     [
+      1497,
+      5
+     ],
+     [
+      1751,
+      6
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 136660,
+    "d": 1544,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      889,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

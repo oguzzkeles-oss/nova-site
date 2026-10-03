@@ -1,0 +1,1875 @@
+{
+ "id": "100-elifin-rampasi",
+ "lang": "en",
+ "title": "Elif's Ramp",
+ "theme": "Accessibility: the park is for everyone",
+ "blurb": "The slide in the new park only has steps, and Elif's wheelchair can't climb steps. Elif looks for sloping paths, comes up with the ramp idea and dictates a letter to the council: “Let everyone slide!”",
+ "voiceNames": {
+  "elif": "Elif",
+  "can": "Can",
+  "ogretmen": "Miss Nur"
+ },
+ "pages": [
+  {
+   "text": "The whole class came to the new park. There was a great big slide with a red roof! “Race you?” said Can. Pat pat pat, Can ran. Whizz whizz whizz, Elif pushed her wheels. Miss Nur laughed: “Slow down, my little sparrows!”",
+   "hits": {
+    "can": {
+     "say": "Race you? Come on!"
+    },
+    "elif": {
+     "say": "Whizz whizz whizz! I'm coming!"
+    },
+    "ogretmen": {
+     "say": "Slow down, my little sparrows!"
+    }
+   },
+   "hint": "Touch Elif!",
+   "ask": "What do you play on first when you go to the park? Why?"
+  },
+  {
+   "text": "Can climbed the steps, click click click. “Come on, Elif!” Elif stopped at the bottom of the steps. Wheels can't climb steps! Her throat went tight, her eyes filled up. Elif felt very sad, and a bit cross too. “Isn't this slide for everyone?”",
+   "hits": {
+    "can": {
+     "say": "Come on, Elif! Come on up!"
+    },
+    "elif": {
+     "say": "Wheels can't climb steps…"
+    }
+   },
+   "hint": "Touch Elif!",
+   "ask": "How is Elif feeling? How can you tell from her face?",
+   "cues": [
+    {
+     "w": 4,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Can whizzed down the slide, wheeee! He came over to Elif. Elif took a deep breath: in through her nose, fwooo out through her mouth. Then she looked and looked at the slide. The slide was sloping. Elif's eyes lit up. “I've got it!”",
+   "hits": {
+    "elif": {
+     "say": "Fwooo… I've got it! I've got it!"
+    },
+    "can": {
+     "say": "I'm right here. What have you got, Elif?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Elif will do now?",
+    "res": "Both are good ways! Let's find out!",
+    "opts": [
+     {
+      "l": "Points out the sloping paths"
+     },
+     {
+      "l": "Tells her teacher"
+     }
+    ]
+   },
+   "hint": "Touch Elif!",
+   "ask": "What do you do to calm down when you're upset?"
+  },
+  {
+   "text": "“I know ramps well,” said Elif. “The shop door has one, the bus has one. A ramp is a sloping path.” The slide is sloping. The seesaw, one end on the ground: sloping. The spade leaning on the bucket: sloping too! “A ramp next to the steps, and I could get up too!”",
+   "hits": {
+    "elif": {
+     "say": "A ramp next to the steps!"
+    },
+    "can": {
+     "say": "A ramp? Show me, Elif!"
+    }
+   },
+   "mech": {
+    "done": "Well done! You found all three sloping paths.",
+    "msg": "The ramp idea is found!"
+   },
+   "hint": "Find the sloping paths!",
+   "ask": "Where have you seen a sloping path, at home or in the street?"
+  },
+  {
+   "text": "There was no ramp yet. Elif looked carefully around the park. On the grass, wheels sink in; in the sand, they get stuck. But that path is flat and hard! “Let's go to the sandpit this way!” Elif in front, Can behind. Whizz whizz, pat pat!",
+   "hits": {
+    "can": {
+     "say": "Captain Elif, I'm right behind you!"
+    }
+   },
+   "mech": {
+    "done": "We're at the sandpit! Let's build a castle!",
+    "msg": "Elif found the way!",
+    "say": "Whizz whizz, this way!"
+   },
+   "hint": "Move Elif forward!",
+   "ask": "Why did Elif take this path instead of the grass?"
+  },
+  {
+   "text": "Back in class, Elif said the words and Miss Nur wrote them down: “Dear Mayor, our new park is lovely. Could you build a ramp next to the steps? Let everyone slide!” Everyone added a picture to the letter. Elif smiled: “When the ramp comes, we'll slide together, Can!”",
+   "hits": {
+    "elif": {
+     "say": "Let everyone slide, let everyone play!"
+    },
+    "can": {
+     "say": "When the ramp comes, we'll slide together!"
+    },
+    "ogretmen": {
+     "say": "I've written it down: Let everyone slide!"
+    }
+   },
+   "hint": "Touch Elif!",
+   "ask": "If you wrote a letter too, what would you like added to the park?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "SBAB5 Social Participation (field skill): On the class trip to the park, notices whether the shared space is open to everyone's participation; like Elif, shares a suggestion about their surroundings with the group and takes part through a joint letter.",
+   "KB3.2 Problem Solving: Defines the problem “a wheelchair can't climb steps”; explains the ramp she knows using the sloping paths in the park (slide, seesaw, spade), suggests the ramp solution and chooses a flat, hard alternative path for that day.",
+   "OB6 Citizenship Literacy: Experiences that the park is everyone's shared space, and that a problem can be reported to the council with a polite letter.",
+   "TAEOB.1 Showing skills related to print awareness (notices writing among visual symbols): Watches Elif's words being turned into writing by the teacher; notices that what is said can be written down.",
+   "SDB2.3 Social Awareness and D1 Justice, D14 Respect: Notices that in the same park not everyone can reach the same game; asks for equal access for all by saying “Let everyone slide!”"
+  ],
+  "once": [
+   "Point to Elif on the cover: “How does Elif get to the park? Where can a wheelchair go easily, and where can't it go?”",
+   "Ask: “Have you ever not been able to reach somewhere? A high shelf, a heavy door… What did you do?”",
+   "The story can also be read in Disability Awareness Week (May)."
+  ],
+  "sirasi": [
+   "On page 2, point to Elif's face: “How is Elif feeling? Why?” Name the feeling: being sad, being cross at something unfair.",
+   "On page 3, breathe with Elif: in through the nose, “fwooo” out through the mouth. For the prediction question, say that both options are good ways.",
+   "On page 4, as Elif explains the ramp, hold your hand at a slant to show the word “sloping”; repeat the word “ramp” together. Elif already knows ramps from the shop and the bus: she is the expert on this.",
+   "On page 6, read the letter slowly; for the sentence “Elif said the words, the teacher wrote them down”, point to the writing with your finger."
+  ],
+  "sonra": [
+   "Have the children tell the events in order: Elif stopped at the steps → she took a breath → she explained the ramp and showed the sloping paths → she went to the sandpit along the flat path → she dictated the letter.",
+   "Ask: “Is there a place at our school or in our street that is hard to get through with a wheelchair or a pushchair?”",
+   "Talk about “Why is Elif's idea useful for everyone?”: a pushchair, a suitcase, Grandpa's walking stick…",
+   "Say “uses a wheelchair”; don't use “poor thing” or the language of pity. We don't push someone's wheelchair without asking; we ask first: “Would you like some help?”"
+  ],
+  "sinif": {
+   "ad": "Ramp Detectives",
+   "sure": "20 min",
+   "materyal": "A plank or thick card, a few books, a toy car, paper and crayons",
+   "adim": [
+    "Stack the books to make a “step”; try to get the toy car up the step.",
+    "Lean the plank against the books to make a ramp; see together whether the car can be pushed up this time.",
+    "Look for “sloping paths” and “steps” in the classroom and the garden; the children point out what they find.",
+    "The children say the words, the teacher writes: a “suggestion letter” to the school or the park. Everyone adds a picture to the letter."
+   ]
+  },
+  "evSoru": [
+   "How did Elif feel at the bottom of the steps?",
+   "Which sloping paths did Elif find?",
+   "What did Elif ask for in the letter? What would you add?"
+  ],
+  "evEtk": {
+   "ad": "Ramp Hunt in the Neighbourhood",
+   "d": "Go for a short walk with your child. On the pavements and at the entrances of shops and blocks of flats, find together the places that have a ramp and the places that only have steps. Back at home, your child says the words and you write them: “In our neighbourhood…”"
+  },
+  "aileNotu": "Today we read “Elif's Ramp.” Elif, who uses a wheelchair, sees that the slide in the new park only has steps; she feels sad, and a bit cross, then breathes and calms down. Elif, who knows ramps well, shows her friend the sloping paths and comes up with the ramp idea herself; then she says the words and her teacher writes them down: a polite letter to the mayor. The story supports respect for differences, problem solving and noticing that shared spaces are for everyone; it can also be read in Disability Awareness Week (May)."
+ },
+ "audio": {
+  "file": "audio/en/100-elifin-rampasi.mp3",
+  "hash": "1c687388",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16052,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      1349,
+      6
+     ],
+     [
+      1529,
+      7
+     ],
+     [
+      2269,
+      8
+     ],
+     [
+      2430,
+      9
+     ],
+     [
+      2569,
+      10
+     ],
+     [
+      2709,
+      11
+     ],
+     [
+      3089,
+      12
+     ],
+     [
+      3349,
+      13
+     ],
+     [
+      3769,
+      14
+     ],
+     [
+      3949,
+      15
+     ],
+     [
+      4089,
+      16
+     ],
+     [
+      4370,
+      17
+     ],
+     [
+      5310,
+      18
+     ],
+     [
+      5589,
+      19
+     ],
+     [
+      6109,
+      20
+     ],
+     [
+      6329,
+      21
+     ],
+     [
+      7069,
+      22
+     ],
+     [
+      7289,
+      23
+     ],
+     [
+      7509,
+      24
+     ],
+     [
+      8029,
+      25
+     ],
+     [
+      8469,
+      26
+     ],
+     [
+      9209,
+      27
+     ],
+     [
+      9850,
+      28
+     ],
+     [
+      10149,
+      29
+     ],
+     [
+      10609,
+      30
+     ],
+     [
+      11049,
+      31
+     ],
+     [
+      11350,
+      32
+     ],
+     [
+      11509,
+      33
+     ],
+     [
+      12369,
+      34
+     ],
+     [
+      12669,
+      35
+     ],
+     [
+      13029,
+      36
+     ],
+     [
+      13850,
+      37
+     ],
+     [
+      14369,
+      38
+     ],
+     [
+      14789,
+      39
+     ],
+     [
+      14969,
+      40
+     ],
+     [
+      15229,
+      41
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 16352,
+    "d": 1543,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      422,
+      1
+     ],
+     [
+      901,
+      2
+     ],
+     [
+      1283,
+      3
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 18195,
+    "d": 2265,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      355,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1360,
+      3
+     ],
+     [
+      1675,
+      4
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 20760,
+    "d": 2264,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1449,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 23325,
+    "d": 17504,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      3569,
+      9
+     ],
+     [
+      4469,
+      10
+     ],
+     [
+      4830,
+      11
+     ],
+     [
+      5209,
+      12
+     ],
+     [
+      5289,
+      13
+     ],
+     [
+      5390,
+      14
+     ],
+     [
+      5669,
+      15
+     ],
+     [
+      5769,
+      16
+     ],
+     [
+      5910,
+      17
+     ],
+     [
+      6850,
+      18
+     ],
+     [
+      7249,
+      19
+     ],
+     [
+      7569,
+      20
+     ],
+     [
+      7969,
+      21
+     ],
+     [
+      8909,
+      22
+     ],
+     [
+      9109,
+      23
+     ],
+     [
+      9489,
+      24
+     ],
+     [
+      9749,
+      25
+     ],
+     [
+      10469,
+      26
+     ],
+     [
+      10730,
+      27
+     ],
+     [
+      11089,
+      28
+     ],
+     [
+      11449,
+      29
+     ],
+     [
+      12129,
+      30
+     ],
+     [
+      12469,
+      31
+     ],
+     [
+      12810,
+      32
+     ],
+     [
+      13229,
+      33
+     ],
+     [
+      13989,
+      34
+     ],
+     [
+      14109,
+      35
+     ],
+     [
+      14189,
+      36
+     ],
+     [
+      14430,
+      37
+     ],
+     [
+      14930,
+      38
+     ],
+     [
+      15749,
+      39
+     ],
+     [
+      16009,
+      40
+     ],
+     [
+      16229,
+      41
+     ],
+     [
+      16569,
+      42
+     ],
+     [
+      16829,
+      43
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 41130,
+    "d": 2023,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1629,
+      5
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 43453,
+    "d": 2027,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1410,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 45781,
+    "d": 18417,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      3489,
+      7
+     ],
+     [
+      3749,
+      8
+     ],
+     [
+      4009,
+      9
+     ],
+     [
+      4209,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5430,
+      12
+     ],
+     [
+      5629,
+      13
+     ],
+     [
+      5789,
+      14
+     ],
+     [
+      6069,
+      15
+     ],
+     [
+      7009,
+      16
+     ],
+     [
+      7169,
+      17
+     ],
+     [
+      7410,
+      18
+     ],
+     [
+      7569,
+      19
+     ],
+     [
+      8409,
+      20
+     ],
+     [
+      9369,
+      21
+     ],
+     [
+      9589,
+      22
+     ],
+     [
+      9829,
+      23
+     ],
+     [
+      9989,
+      24
+     ],
+     [
+      10930,
+      25
+     ],
+     [
+      11270,
+      26
+     ],
+     [
+      11569,
+      27
+     ],
+     [
+      12069,
+      28
+     ],
+     [
+      12329,
+      29
+     ],
+     [
+      12669,
+      30
+     ],
+     [
+      12749,
+      31
+     ],
+     [
+      12909,
+      32
+     ],
+     [
+      13810,
+      33
+     ],
+     [
+      14009,
+      34
+     ],
+     [
+      14430,
+      35
+     ],
+     [
+      14689,
+      36
+     ],
+     [
+      15749,
+      37
+     ],
+     [
+      16190,
+      38
+     ],
+     [
+      16629,
+      39
+     ],
+     [
+      16870,
+      40
+     ],
+     [
+      17450,
+      41
+     ],
+     [
+      17729,
+      42
+     ],
+     [
+      18049,
+      43
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 64499,
+    "d": 2955,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      618,
+      1
+     ],
+     [
+      1080,
+      2
+     ],
+     [
+      1345,
+      3
+     ],
+     [
+      1923,
+      4
+     ],
+     [
+      2385,
+      5
+     ],
+     [
+      2650,
+      6
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 67754,
+    "d": 2313,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1410,
+      5
+     ],
+     [
+      1529,
+      6
+     ],
+     [
+      1809,
+      7
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 70368,
+    "d": 1955,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      989,
+      5
+     ],
+     [
+      1189,
+      6
+     ],
+     [
+      1389,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 72623,
+    "d": 2273,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      1889,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 75197,
+    "d": 18488,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2349,
+      6
+     ],
+     [
+      2489,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      2989,
+      9
+     ],
+     [
+      3309,
+      10
+     ],
+     [
+      3689,
+      11
+     ],
+     [
+      3809,
+      12
+     ],
+     [
+      4089,
+      13
+     ],
+     [
+      4410,
+      14
+     ],
+     [
+      5069,
+      15
+     ],
+     [
+      5209,
+      16
+     ],
+     [
+      5629,
+      17
+     ],
+     [
+      5769,
+      18
+     ],
+     [
+      5910,
+      19
+     ],
+     [
+      6390,
+      20
+     ],
+     [
+      7329,
+      21
+     ],
+     [
+      7529,
+      22
+     ],
+     [
+      8029,
+      23
+     ],
+     [
+      8230,
+      24
+     ],
+     [
+      9230,
+      25
+     ],
+     [
+      9449,
+      26
+     ],
+     [
+      10249,
+      27
+     ],
+     [
+      10409,
+      28
+     ],
+     [
+      10589,
+      29
+     ],
+     [
+      10690,
+      30
+     ],
+     [
+      10789,
+      31
+     ],
+     [
+      11489,
+      32
+     ],
+     [
+      12449,
+      33
+     ],
+     [
+      12609,
+      34
+     ],
+     [
+      13049,
+      35
+     ],
+     [
+      13369,
+      36
+     ],
+     [
+      13469,
+      37
+     ],
+     [
+      13589,
+      38
+     ],
+     [
+      14289,
+      39
+     ],
+     [
+      14789,
+      40
+     ],
+     [
+      15689,
+      41
+     ],
+     [
+      15850,
+      42
+     ],
+     [
+      16169,
+      43
+     ],
+     [
+      16409,
+      44
+     ],
+     [
+      16530,
+      45
+     ],
+     [
+      16709,
+      46
+     ],
+     [
+      17249,
+      47
+     ],
+     [
+      17409,
+      48
+     ],
+     [
+      17509,
+      49
+     ],
+     [
+      17690,
+      50
+     ],
+     [
+      17850,
+      51
+     ],
+     [
+      18009,
+      52
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 93986,
+    "d": 1716,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1170,
+      5
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 96002,
+    "d": 2066,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      304,
+      1
+     ],
+     [
+      881,
+      2
+     ],
+     [
+      1145,
+      3
+     ],
+     [
+      1566,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 98368,
+    "d": 3494,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      2849,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 102162,
+    "d": 17159,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2469,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3249,
+      9
+     ],
+     [
+      3369,
+      10
+     ],
+     [
+      4229,
+      11
+     ],
+     [
+      4330,
+      12
+     ],
+     [
+      4469,
+      13
+     ],
+     [
+      5209,
+      14
+     ],
+     [
+      5649,
+      15
+     ],
+     [
+      5989,
+      16
+     ],
+     [
+      6629,
+      17
+     ],
+     [
+      6749,
+      18
+     ],
+     [
+      6910,
+      19
+     ],
+     [
+      7469,
+      20
+     ],
+     [
+      7629,
+      21
+     ],
+     [
+      7849,
+      22
+     ],
+     [
+      8569,
+      23
+     ],
+     [
+      8749,
+      24
+     ],
+     [
+      9009,
+      25
+     ],
+     [
+      9329,
+      26
+     ],
+     [
+      9549,
+      27
+     ],
+     [
+      9909,
+      28
+     ],
+     [
+      10109,
+      29
+     ],
+     [
+      11089,
+      30
+     ],
+     [
+      11329,
+      31
+     ],
+     [
+      11449,
+      32
+     ],
+     [
+      11549,
+      33
+     ],
+     [
+      11689,
+      34
+     ],
+     [
+      12169,
+      35
+     ],
+     [
+      12430,
+      36
+     ],
+     [
+      13129,
+      37
+     ],
+     [
+      13430,
+      38
+     ],
+     [
+      13569,
+      39
+     ],
+     [
+      14409,
+      40
+     ],
+     [
+      14549,
+      41
+     ],
+     [
+      15449,
+      42
+     ],
+     [
+      15769,
+      43
+     ],
+     [
+      16350,
+      44
+     ],
+     [
+      16669,
+      45
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 119622,
+    "d": 2415,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      2049,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 122337,
+    "d": 2516,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      449,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1609,
+      5
+     ],
+     [
+      1829,
+      6
+     ],
+     [
+      1909,
+      7
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 125153,
+    "d": 1726,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 127180,
+    "d": 18024,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      1809,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2489,
+      8
+     ],
+     [
+      2729,
+      9
+     ],
+     [
+      2989,
+      10
+     ],
+     [
+      3209,
+      11
+     ],
+     [
+      3390,
+      12
+     ],
+     [
+      4330,
+      13
+     ],
+     [
+      4649,
+      14
+     ],
+     [
+      5489,
+      15
+     ],
+     [
+      5729,
+      16
+     ],
+     [
+      5949,
+      17
+     ],
+     [
+      6370,
+      18
+     ],
+     [
+      6649,
+      19
+     ],
+     [
+      7509,
+      20
+     ],
+     [
+      7669,
+      21
+     ],
+     [
+      7809,
+      22
+     ],
+     [
+      8049,
+      23
+     ],
+     [
+      8169,
+      24
+     ],
+     [
+      8509,
+      25
+     ],
+     [
+      8749,
+      26
+     ],
+     [
+      8869,
+      27
+     ],
+     [
+      8989,
+      28
+     ],
+     [
+      9789,
+      29
+     ],
+     [
+      10109,
+      30
+     ],
+     [
+      10609,
+      31
+     ],
+     [
+      11689,
+      32
+     ],
+     [
+      12169,
+      33
+     ],
+     [
+      12430,
+      34
+     ],
+     [
+      12529,
+      35
+     ],
+     [
+      12930,
+      36
+     ],
+     [
+      13049,
+      37
+     ],
+     [
+      13189,
+      38
+     ],
+     [
+      13989,
+      39
+     ],
+     [
+      14350,
+      40
+     ],
+     [
+      15249,
+      41
+     ],
+     [
+      15409,
+      42
+     ],
+     [
+      15549,
+      43
+     ],
+     [
+      15850,
+      44
+     ],
+     [
+      16370,
+      45
+     ],
+     [
+      16610,
+      46
+     ],
+     [
+      16969,
+      47
+     ],
+     [
+      17426,
+      48
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 145504,
+    "d": 3426,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2849,
+      5
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 149230,
+    "d": 2480,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      267,
+      1
+     ],
+     [
+      494,
+      2
+     ],
+     [
+      722,
+      3
+     ],
+     [
+      1252,
+      4
+     ],
+     [
+      1480,
+      5
+     ],
+     [
+      1875,
+      6
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 152010,
+    "d": 3312,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2549,
+      6
+     ]
+    ]
+   }
+  }
+ }
+}

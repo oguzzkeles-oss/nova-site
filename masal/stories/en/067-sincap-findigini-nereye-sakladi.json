@@ -1,0 +1,1700 @@
+{
+ "id": "067-sincap-findigini-nereye-sakladi",
+ "lang": "en",
+ "title": "Where Did Squirrel Hide His Hazelnuts?",
+ "theme": "Position words and asking a friend for help",
+ "blurb": "Crunch the squirrel hides three hazelnuts for the winter, but when winter comes he forgets where he put them! Chirp the sparrow and Cinnamon the fox give him clues: “under, behind, between,” and the hazelnuts are found one by one.",
+ "voiceNames": {
+  "kitir": "Crunch (squirrel)",
+  "cik": "Chirp (sparrow)",
+  "tarcin": "Cinnamon (fox)"
+ },
+ "pages": [
+  {
+   "text": "It was autumn. Crunch the squirrel was hiding hazelnuts. One nut under the rock. One nut behind the tree. And one nut between the two bushes. Click, click, click! Chirp the sparrow on his branch and Cinnamon the fox on the path saw everything.",
+   "hits": {
+    "kitir": {
+     "say": "Click, click, click! Now let winter come!"
+    },
+    "tas": {
+     "say": "Click! One nut under the rock."
+    },
+    "agac": {
+     "say": "Click! One nut behind the tree."
+    },
+    "cali": {
+     "say": "Click! One nut between the two bushes."
+    },
+    "cik": {
+     "say": "Cheep cheep! I saw it all."
+    },
+    "tarcin": {
+     "say": "I saw it too!"
+    }
+   },
+   "hint": "Touch the rock!",
+   "ask": "Where did Crunch hide his hazelnuts? Let's say it together: under the rock, behind the tree…",
+   "cues": [
+    {
+     "w": 26,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Winter came. Crunch's tummy rumbled: grrrr! “Where are my hazelnuts?” He looked under his tail. Nothing! He looked behind his ear. Nothing! Crunch had forgotten. He got into a flap. His heart went pitter patter.",
+   "hits": {
+    "kitir": {
+     "say": "Where are my hazelnuts? I forgot!"
+    },
+    "cik": {
+     "say": "Cheep cheep! What's wrong, Crunch?"
+    }
+   },
+   "hint": "Touch Crunch!",
+   "ask": "What happened in Crunch's body when he got into a flap? How do you feel when you can't find something?"
+  },
+  {
+   "text": "Crunch stopped. He took a deep breath: hhhhh… fwooo. Chirp was on the branch, Cinnamon on the path. What should Crunch do now?",
+   "hits": {
+    "kitir": {
+     "say": "Hhhhh… fwooo. Stay calm, Crunch."
+    },
+    "cik": {
+     "say": "Cheep cheep! Good morning!"
+    },
+    "tarcin": {
+     "say": "Hello, Crunch! Are you looking for something?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Crunch will do?",
+    "res": "Good guess! Let's see.",
+    "opts": [
+     {
+      "l": "Look on his own"
+     },
+     {
+      "l": "Ask his friends"
+     }
+    ]
+   },
+   "hint": "Breathe with Crunch!",
+   "ask": "Why did Crunch stop and take a breath? How do you think Chirp and Cinnamon could help him?"
+  },
+  {
+   "text": "“Friends, have you seen my hazelnuts?” said Crunch. “Cheep cheep! One is under the rock!” said Chirp. “One is behind the tree,” said Cinnamon. Chirp added: “And one is between the two bushes!”",
+   "hits": {
+    "kitir": {
+     "say": "Have you seen my hazelnuts?"
+    },
+    "cik": {
+     "say": "Cheep! One is under the rock!"
+    },
+    "tarcin": {
+     "say": "One is behind the tree!"
+    }
+   },
+   "mech": {
+    "done": "All three hazelnuts found!",
+    "msg": "Under, behind, between!"
+   },
+   "hint": "Look under the rock!",
+   "ask": "Where would you look first? When you find a nut, say where it was: under, behind or between?"
+  },
+  {
+   "text": "Crunch carried the hazelnuts to his hollow one by one. One, two, three! All inside the hollow. “Thank you, Chirp! Thank you, Cinnamon! I couldn't have found them without you.”",
+   "hits": {
+    "kitir": {
+     "say": "Thank you, friends!"
+    },
+    "tarcin": {
+     "say": "You're welcome, Crunch!"
+    },
+    "cik": {
+     "say": "Cheep cheep, any time!"
+    }
+   },
+   "mech": {
+    "done": "One, two, three! All in the hollow.",
+    "msg": "You carried them all!"
+   },
+   "hint": "Carry the hazelnuts to the hollow!",
+   "ask": "Where is the hollow? Point to it. When did you last say thank you to a friend?"
+  },
+  {
+   "text": "Crunch cracked a hazelnut: crunch, crunch! He found seeds for Chirp and rosehips for Cinnamon. The three friends gathered round the tree stump. “I'm forgetful,” said Crunch, “but my friends never forget!”",
+   "hits": {
+    "kitir": {
+     "say": "I'm forgetful, but my friends never forget!"
+    },
+    "cik": {
+     "say": "Cheep cheep! The seeds are delicious!"
+    },
+    "tarcin": {
+     "say": "And the rosehips smell wonderful!"
+    },
+    "kusburnu": {
+     "say": "Rosehips! Smell wonderful!"
+    }
+   },
+   "hint": "Touch Crunch!",
+   "ask": "Who do you ask for help when you forget something? How do you help your friends?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.3 (learning outcome) · Interpreting mathematical facts, events and objects — MAB.3.a expresses mathematical facts and events with different materials/symbols: describes where the hazelnuts are with position words such as “under, behind, between, inside, on top of,” points to them in the picture and acts them out with the body (under the rock, behind the tree, between the two bushes).",
+   "skill: SBAB7 Spatial Thinking (area skill; the official wording of the linked learning outcome has not been verified) · Thinks about where objects are in relation to each other: follows the position clues given by friends to find the hidden hazelnuts, and carries the hazelnuts into the hollow.",
+   "TADB.2 (learning outcome) · Building new meaning from materials such as stories they listen to or watch — process components: makes inferences about the material (says why Crunch stopped to breathe, and how Chirp's and Cinnamon's clues helped); connects information in the material with daily life (talks about things they have lost and who they asked for help).",
+   "SDB2.1 Communication · Value: D4 Friendship — tells friends about the problem in words (“Have you seen my hazelnuts?”), asks for help and says thank you; friends share what they know, and Crunch returns the kindness by finding food they like."
+  ],
+  "once": [
+   "Point to the squirrel on the cover and ask: “Where do you think squirrels hide their hazelnuts for the winter?”",
+   "Put a toy under the table and behind the chair, saying the words “under, behind, between” together.",
+   "Give the child a task: “Listen carefully to where Crunch hides the hazelnuts. Then we're going to help him!”"
+  ],
+  "sirasi": [
+   "On page 1, point to the hiding places with your finger and say them together: under the rock, behind the tree, between the two bushes. Help the child notice that Chirp and Cinnamon are watching.",
+   "On page 2, laugh together at Crunch looking under his tail and behind his ear; ask: “How does our heart beat when we get into a flap?”",
+   "On page 3, take a deep breath together (hhhhh… fwooo); accept both options in the prediction question.",
+   "On page 4, say the clues aloud one by one; when the child finds a nut, ask “Where did you find it?” and wait for an answer with a position word.",
+   "On page 5, count together while carrying the hazelnuts to the hollow: one, two, three."
+  ],
+  "sonra": [
+   "Where had Crunch hidden his hazelnuts? Let's say them in order.",
+   "How did Crunch feel when he realised he had forgotten? What did he do next?",
+   "How did Chirp and Cinnamon help him? How did Crunch thank them?",
+   "Did you know? Some of the hazelnuts squirrels forget sprout in spring and can grow into new trees. Sometimes forgetting is good for the forest too!"
+  ],
+  "sinif": {
+   "ad": "Where's the Hazelnut? Position Hunt",
+   "sure": "20 min",
+   "materyal": "5 hazelnuts cut from card (or paper balls containing no nuts), the classroom table, chairs, a box, a rug",
+   "adim": [
+    "While the children close their eyes, the teacher hides the card hazelnuts around the classroom: under the table, behind the cupboard, between two chairs, inside the box, on top of the rug.",
+    "One child is “Crunch”; the others are “Chirp” and “Cinnamon” and give clues using only position words (“Under the table!”). No pointing allowed!",
+    "Each time Crunch finds a hazelnut, ask “Where did you find it?”; the child answers with a position word and then says thank you.",
+    "Put the found hazelnuts into the “hollow” box together, counting as you go; swap roles and play again."
+   ]
+  },
+  "evSoru": [
+   "Where had Crunch hidden his hazelnuts?",
+   "What did Crunch do when he got into a flap? What do you do when you get flustered?",
+   "When you lose something, who do you ask for help, and what do you say?"
+  ],
+  "evEtk": {
+   "ad": "Hide-and-Seek Toy at Home",
+   "d": "Hide a toy at home and give clues using only position words: “under the pillow,” “behind the door,” “between the two armchairs.” Then swap roles: your child hides, you look. Whoever finds it says “Thank you!”"
+  },
+  "aileNotu": "Today we read “Where Did Squirrel Hide His Hazelnuts?” Crunch the squirrel forgets where he hid his hazelnuts for the winter; when he gets into a flap, he takes a deep breath and asks his friends for help. Chirp the sparrow and Cinnamon the fox give clues: “under, behind, between.” At home, you can use these position words when describing where things are, and when something goes missing, think together: “Where did we put it?”"
+ },
+ "audio": {
+  "file": "audio/en/067-sincap-findigini-nereye-sakladi.mp3",
+  "hash": "717d0ad1",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15223,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2269,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      3849,
+      9
+     ],
+     [
+      4049,
+      10
+     ],
+     [
+      4370,
+      11
+     ],
+     [
+      4589,
+      12
+     ],
+     [
+      4729,
+      13
+     ],
+     [
+      5549,
+      14
+     ],
+     [
+      5729,
+      15
+     ],
+     [
+      5949,
+      16
+     ],
+     [
+      6229,
+      17
+     ],
+     [
+      6350,
+      18
+     ],
+     [
+      7029,
+      19
+     ],
+     [
+      7349,
+      20
+     ],
+     [
+      7529,
+      21
+     ],
+     [
+      7809,
+      22
+     ],
+     [
+      8190,
+      23
+     ],
+     [
+      8329,
+      24
+     ],
+     [
+      8549,
+      25
+     ],
+     [
+      9369,
+      26
+     ],
+     [
+      9609,
+      27
+     ],
+     [
+      9869,
+      28
+     ],
+     [
+      10649,
+      29
+     ],
+     [
+      10949,
+      30
+     ],
+     [
+      11089,
+      31
+     ],
+     [
+      11509,
+      32
+     ],
+     [
+      11629,
+      33
+     ],
+     [
+      11810,
+      34
+     ],
+     [
+      12310,
+      35
+     ],
+     [
+      12569,
+      36
+     ],
+     [
+      12890,
+      37
+     ],
+     [
+      13009,
+      38
+     ],
+     [
+      13350,
+      39
+     ],
+     [
+      13449,
+      40
+     ],
+     [
+      13569,
+      41
+     ],
+     [
+      14069,
+      42
+     ],
+     [
+      14489,
+      43
+     ]
+    ]
+   },
+   "p0h-kitir": {
+    "s": 15523,
+    "d": 3147,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2630,
+      6
+     ]
+    ]
+   },
+   "p0h-tas": {
+    "s": 18971,
+    "d": 2320,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p0h-agac": {
+    "s": 21591,
+    "d": 2399,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p0h-cali": {
+    "s": 24290,
+    "d": 2807,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2170,
+      6
+     ]
+    ]
+   },
+   "p0h-cik": {
+    "s": 27398,
+    "d": 2333,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      353,
+      1
+     ],
+     [
+      1038,
+      2
+     ],
+     [
+      1352,
+      3
+     ],
+     [
+      1665,
+      4
+     ],
+     [
+      1979,
+      5
+     ]
+    ]
+   },
+   "p0h-tarcin": {
+    "s": 30032,
+    "d": 1221,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      670,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 31554,
+    "d": 16935,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      3829,
+      5
+     ],
+     [
+      4629,
+      6
+     ],
+     [
+      4850,
+      7
+     ],
+     [
+      4989,
+      8
+     ],
+     [
+      5189,
+      9
+     ],
+     [
+      6469,
+      10
+     ],
+     [
+      6609,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7089,
+      13
+     ],
+     [
+      7289,
+      14
+     ],
+     [
+      8249,
+      15
+     ],
+     [
+      9190,
+      16
+     ],
+     [
+      9310,
+      17
+     ],
+     [
+      9549,
+      18
+     ],
+     [
+      9850,
+      19
+     ],
+     [
+      10089,
+      20
+     ],
+     [
+      10969,
+      21
+     ],
+     [
+      12069,
+      22
+     ],
+     [
+      12489,
+      23
+     ],
+     [
+      12649,
+      24
+     ],
+     [
+      13749,
+      25
+     ],
+     [
+      13930,
+      26
+     ],
+     [
+      14129,
+      27
+     ],
+     [
+      14390,
+      28
+     ],
+     [
+      14549,
+      29
+     ],
+     [
+      15409,
+      30
+     ],
+     [
+      15609,
+      31
+     ],
+     [
+      15890,
+      32
+     ],
+     [
+      16149,
+      33
+     ],
+     [
+      16450,
+      34
+     ]
+    ]
+   },
+   "p1h-kitir": {
+    "s": 48789,
+    "d": 2508,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      529,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2049,
+      5
+     ]
+    ]
+   },
+   "p1h-cik": {
+    "s": 51597,
+    "d": 2159,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 54057,
+    "d": 9704,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2229,
+      6
+     ],
+     [
+      3024,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      5149,
+      9
+     ],
+     [
+      5449,
+      10
+     ],
+     [
+      5609,
+      11
+     ],
+     [
+      5729,
+      12
+     ],
+     [
+      5850,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      7149,
+      15
+     ],
+     [
+      7249,
+      16
+     ],
+     [
+      7370,
+      17
+     ],
+     [
+      8270,
+      18
+     ],
+     [
+      8449,
+      19
+     ],
+     [
+      8669,
+      20
+     ],
+     [
+      9009,
+      21
+     ],
+     [
+      9209,
+      22
+     ]
+    ]
+   },
+   "p2h-kitir": {
+    "s": 64062,
+    "d": 3634,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1015,
+      1
+     ],
+     [
+      1990,
+      2
+     ],
+     [
+      2436,
+      3
+     ],
+     [
+      3147,
+      4
+     ]
+    ]
+   },
+   "p2h-cik": {
+    "s": 67996,
+    "d": 1765,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p2h-tarcin": {
+    "s": 70061,
+    "d": 2477,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2009,
+      6
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 72839,
+    "d": 1696,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      369,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      1050,
+      5
+     ],
+     [
+      1269,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 74835,
+    "d": 1791,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 76926,
+    "d": 11602,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1410,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      3369,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      4249,
+      10
+     ],
+     [
+      4410,
+      11
+     ],
+     [
+      4549,
+      12
+     ],
+     [
+      4729,
+      13
+     ],
+     [
+      4870,
+      14
+     ],
+     [
+      5410,
+      15
+     ],
+     [
+      5649,
+      16
+     ],
+     [
+      6449,
+      17
+     ],
+     [
+      6589,
+      18
+     ],
+     [
+      6729,
+      19
+     ],
+     [
+      7029,
+      20
+     ],
+     [
+      7149,
+      21
+     ],
+     [
+      7729,
+      22
+     ],
+     [
+      7969,
+      23
+     ],
+     [
+      8789,
+      24
+     ],
+     [
+      9129,
+      25
+     ],
+     [
+      9690,
+      26
+     ],
+     [
+      10009,
+      27
+     ],
+     [
+      10209,
+      28
+     ],
+     [
+      10369,
+      29
+     ],
+     [
+      10669,
+      30
+     ],
+     [
+      10770,
+      31
+     ],
+     [
+      10969,
+      32
+     ]
+    ]
+   },
+   "p3h-kitir": {
+    "s": 88829,
+    "d": 1606,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      709,
+      4
+     ]
+    ]
+   },
+   "p3h-cik": {
+    "s": 90735,
+    "d": 2100,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1550,
+      5
+     ]
+    ]
+   },
+   "p3h-tarcin": {
+    "s": 93135,
+    "d": 1628,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      455,
+      1
+     ],
+     [
+      694,
+      2
+     ],
+     [
+      1110,
+      3
+     ],
+     [
+      1349,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 95064,
+    "d": 1804,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 97168,
+    "d": 11771,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1489,
+      5
+     ],
+     [
+      1649,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2509,
+      8
+     ],
+     [
+      2829,
+      9
+     ],
+     [
+      3650,
+      10
+     ],
+     [
+      4350,
+      11
+     ],
+     [
+      5129,
+      12
+     ],
+     [
+      6009,
+      13
+     ],
+     [
+      6329,
+      14
+     ],
+     [
+      6749,
+      15
+     ],
+     [
+      6870,
+      16
+     ],
+     [
+      7769,
+      17
+     ],
+     [
+      8069,
+      18
+     ],
+     [
+      8249,
+      19
+     ],
+     [
+      8850,
+      20
+     ],
+     [
+      9150,
+      21
+     ],
+     [
+      9409,
+      22
+     ],
+     [
+      10069,
+      23
+     ],
+     [
+      10190,
+      24
+     ],
+     [
+      10469,
+      25
+     ],
+     [
+      10649,
+      26
+     ],
+     [
+      10890,
+      27
+     ],
+     [
+      11029,
+      28
+     ],
+     [
+      11390,
+      29
+     ]
+    ]
+   },
+   "p4h-kitir": {
+    "s": 109240,
+    "d": 941,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      279,
+      1
+     ],
+     [
+      661,
+      2
+     ]
+    ]
+   },
+   "p4h-tarcin": {
+    "s": 110481,
+    "d": 1390,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      432,
+      1
+     ],
+     [
+      1124,
+      2
+     ]
+    ]
+   },
+   "p4h-cik": {
+    "s": 112171,
+    "d": 1795,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 114266,
+    "d": 3368,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      2269,
+      3
+     ],
+     [
+      2569,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      2789,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 117935,
+    "d": 13088,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3289,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      3910,
+      9
+     ],
+     [
+      4109,
+      10
+     ],
+     [
+      4629,
+      11
+     ],
+     [
+      4789,
+      12
+     ],
+     [
+      5289,
+      13
+     ],
+     [
+      5469,
+      14
+     ],
+     [
+      6370,
+      15
+     ],
+     [
+      6509,
+      16
+     ],
+     [
+      6789,
+      17
+     ],
+     [
+      7229,
+      18
+     ],
+     [
+      7609,
+      19
+     ],
+     [
+      7809,
+      20
+     ],
+     [
+      7930,
+      21
+     ],
+     [
+      8150,
+      22
+     ],
+     [
+      9069,
+      23
+     ],
+     [
+      9270,
+      24
+     ],
+     [
+      10230,
+      25
+     ],
+     [
+      10469,
+      26
+     ],
+     [
+      11209,
+      27
+     ],
+     [
+      11369,
+      28
+     ],
+     [
+      11589,
+      29
+     ],
+     [
+      12209,
+      30
+     ],
+     [
+      12549,
+      31
+     ]
+    ]
+   },
+   "p5h-kitir": {
+    "s": 131324,
+    "d": 3003,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2489,
+      6
+     ]
+    ]
+   },
+   "p5h-cik": {
+    "s": 134627,
+    "d": 2797,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      328,
+      1
+     ],
+     [
+      959,
+      2
+     ],
+     [
+      1248,
+      3
+     ],
+     [
+      1537,
+      4
+     ],
+     [
+      2040,
+      5
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 137725,
+    "d": 2576,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      964,
+      3
+     ],
+     [
+      1649,
+      4
+     ]
+    ]
+   },
+   "p5h-kusburnu": {
+    "s": 140602,
+    "d": 2739,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1403,
+      1
+     ],
+     [
+      1775,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

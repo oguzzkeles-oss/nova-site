@@ -1,0 +1,1775 @@
+{
+ "id": "007-gunun-sorumlusu-can",
+ "lang": "en",
+ "title": "Can, Helper of the Day",
+ "theme": "Helper of the day",
+ "blurb": "Today Can is the helper of the day: he turns the calendar and puts up the weather. When it is the class fish Carrot's turn, he wants to give him a great big handful of food; but first he stops, asks, and measures the food against Carrot's eye.",
+ "voiceNames": {
+  "can": "Can",
+  "nur": "Miss Nur",
+  "ela": "Ela",
+  "havuc": "Carrot (fish)"
+ },
+ "pages": [
+  {
+   "text": "It was morning. The children gathered on the rug. Miss Nur hung the star badge round Can's neck. “Today you are the helper of the day!” Can's chest puffed up, up, up. “I'm a great big helper!” he said.",
+   "hits": {
+    "can": {
+     "say": "I've got the star badge!"
+    },
+    "nur": {
+     "say": "Good morning, children!"
+    },
+    "ela": {
+     "say": "Hooray for Can!"
+    },
+    "saat": {
+     "say": "Tick tock! Morning time."
+    }
+   },
+   "hint": "Touch Can!",
+   "ask": "Have you ever been in charge of a job? How did you feel that day?"
+  },
+  {
+   "text": "The helper had three jobs. First, the calendar! Can turned the page: rustle! Yesterday was four, today is five. Then the weather: the sun was shining bright! Can pinned the sun picture on the board. Last of all, it was Carrot's turn.",
+   "hits": {
+    "can": {
+     "say": "Yesterday four, today five!"
+    },
+    "pencere": {
+     "say": "The sun is shining bright!"
+    }
+   },
+   "mech": {
+    "done": "First, then, last of all. All done!",
+    "msg": "You did them in order!"
+   },
+   "hint": "Touch the calendar first!",
+   "ask": "What did Can do first, and what did he do next?",
+   "cues": [
+    {
+     "w": 12,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Carrot was the class's orange fish. He saw Can and swam up: blub blub! Can got in a flap, his heart went pitter patter. “He's so hungry! A great big handful of food for him!”",
+   "hits": {
+    "havuc": {
+     "say": "Blub blub!"
+    },
+    "can": {
+     "say": "A great big handful! He'll gulp it down!"
+    },
+    "nur": {
+     "say": "Good morning, Carrot!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Can will do?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "He asks the teacher"
+     },
+     {
+      "l": "He stops and thinks"
+     }
+    ]
+   },
+   "hint": "Touch Carrot!",
+   "ask": "Why did Can get in a flap? What do you do when you get in a flap?"
+  },
+  {
+   "text": "Can stopped. He took a deep breath. “Miss Nur, how much does Carrot eat?” “A great big handful? Carrot would swell up like a balloon!” said Miss Nur. “His tummy is as big as his eye.” Can looked at Carrot's eye. Tiny as a lentil!",
+   "hits": {
+    "havuc": {
+     "say": "My eye is tiny, and my tummy is tiny too!"
+    },
+    "can": {
+     "say": "Tiny as a lentil!"
+    },
+    "nur": {
+     "say": "His tummy is as big as his eye!"
+    }
+   },
+   "hint": "Touch Carrot!",
+   "ask": "What did Can do when he wasn't sure? What do you do when you're not sure?"
+  },
+  {
+   "text": "Can held the food pellets next to Carrot's eye. One… two… three! “That's it, as big as his eye!” He dropped them in the water one by one. Plip, one! Plip, two! Plip, three! Carrot ate them: gulp, gulp, gulp.",
+   "hits": {
+    "havuc": {
+     "say": "Gulp gulp gulp!"
+    },
+    "can": {
+     "say": "Enjoy your food, Carrot!"
+    },
+    "nur": {
+     "say": "Just right, well done!"
+    }
+   },
+   "mech": {
+    "done": "Three pellets, as big as his eye! Carrot is full.",
+    "msg": "Just right!"
+   },
+   "hint": "Touch a food pellet!",
+   "ask": "What do you think would happen if we gave Carrot too much food?"
+  },
+  {
+   "text": "When the day was over, Can held the badge out to Ela. “Tomorrow you're the helper! Three pellets for Carrot, okay? His tummy is as big as his eye!” Can's chest puffed up with pride again. And Carrot waved his fin: blub blub!",
+   "hits": {
+    "ela": {
+     "say": "Tomorrow I'm the helper!"
+    },
+    "can": {
+     "say": "Three pellets, don't forget!"
+    },
+    "havuc": {
+     "say": "Blub blub!"
+    }
+   },
+   "hint": "Touch Ela!",
+   "ask": "Who is the helper tomorrow? If you were the helper, which job would you like to do?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "SAB.1 Using the concept of time appropriately in daily life: uses the concepts 'morning, yesterday, today, tomorrow' appropriately in a helper routine that starts in the morning and is handed over at the end of the day (SAB.1.a talks about what is done in the morning, at noon, in the evening and at night).",
+   "skill: SBAB1 Perceiving Time and Chronological Thinking: does the jobs of the day in the order 'first, then, last of all'; follows the change from yesterday to today on the calendar (5 after 4).",
+   "SDB3.3 Responsible Decision-Making and E2.2 Responsibility: when unsure, stops, takes a breath and asks someone who knows; measures the food by comparing it with what they learned (tummy as big as the eye) and makes the 'three pellets' decision themselves.",
+   "MAB.1 Counting rhythmically and by sight: finds the amount by counting the food pellets one by one (48–60 months: 1–10).",
+   "D16 Responsibility: takes care of the living creature entrusted to them and passes on what they learned to the next day's helper."
+  ],
+  "once": [
+   "Show the cover: ask 'What could the star badge round Can's neck be?'",
+   "Count together the 'helper of the day' jobs in your classroom or at home.",
+   "Ask for their guesses: 'What do fish eat, and how much?'; listen to the answers without correcting them.",
+   "Information for the teacher: 'A fish's tummy is as big as its eye' is a common rule among aquarium keepers; a fish is given only as much food as it can finish in a few minutes, and too much food dirties the water.",
+   "Safety and hygiene: feeding the class pet is always done with an adult; hands are washed after the food and the tank. The fish is fed at the same time every day; this is a lovely chance to talk about time concepts such as 'morning, noon.'"
+  ],
+  "sirasi": [
+   "On page 2, show one, two, three with your fingers at the words 'first, then, last of all.'",
+   "On page 3, act out Can's flap with your body; for the prediction question, say that both options are good ideas.",
+   "On page 4, look for Carrot's eye together; when you say 'Tiny as a lentil!' show a tiny gap with your fingers.",
+   "On page 5, compare the food with the eye like Can: 'One… two… three, as big as his eye!' Then let the child drop the pellets in one by one; wait at each one."
+  ],
+  "sonra": [
+   "Why did Can want to give 'a great big handful'? Why did he change his mind?",
+   "What did Can do when he got in a flap? Who do you ask when you're not sure about something?",
+   "The calendar said 4 yesterday and 5 today. What will it say tomorrow? Who is the helper tomorrow?"
+  ],
+  "sinif": {
+   "ad": "The helper wheel and Carrot's menu",
+   "sure": "20 min",
+   "materyal": "A cardboard wheel, clothes pegs, the children's symbol cards, job pictures (calendar, sun, fish, plant), number cards 1–5, coloured paper dots made with a hole punch, a small bowl",
+   "adim": [
+    "Mix up the job pictures (calendar, weather, fish, plant); the children put them in order, saying 'first, then, last of all.'",
+    "Each child sticks their own symbol on a peg; put 'today' and 'tomorrow' arrows on the wheel and move the peg along together.",
+    "The 'Carrot's menu' game: one child draws a number card (1–3), and a friend counts out that many paper dots one by one into the bowl.",
+    "In the review circle, ask: 'Which job did you do today? What did you do when you weren't sure? Whose turn is it tomorrow?'"
+   ]
+  },
+  "evSoru": [
+   "Is there a job at home that you are in charge of?",
+   "What did you do yesterday, what did you do today, and what will you do tomorrow?",
+   "What do you do when you don't know how to do something?"
+  ],
+  "evEtk": {
+   "ad": "Helper of the day at home",
+   "d": "For one week, let a different family member be the 'helper of the day' each day, with a small job such as watering the plant or putting napkins on the table. Every morning put a mark on the calendar; in the evening talk about 'what did we do today?' and hand the job over to the next day's helper with a 'badge' or a peg."
+  },
+  "aileNotu": "Today we read 'Can, Helper of the Day.' Can wanted to give the class fish Carrot a great big handful of food; but he stopped, asked, compared the food with Carrot's eye and decided for himself that 'three is enough.' The story supports time concepts such as yesterday-today-tomorrow and first-then, counting skills and taking responsibility. At home you can give your child a small job that repeats every day and ask at the end of the day, 'whose turn is it tomorrow?'"
+ },
+ "audio": {
+  "file": "audio/en/007-gunun-sorumlusu-can.mp3",
+  "hash": "8bab65d6",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14856,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2269,
+      7
+     ],
+     [
+      2410,
+      8
+     ],
+     [
+      3170,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      3729,
+      11
+     ],
+     [
+      3949,
+      12
+     ],
+     [
+      4089,
+      13
+     ],
+     [
+      4390,
+      14
+     ],
+     [
+      4749,
+      15
+     ],
+     [
+      5029,
+      16
+     ],
+     [
+      5430,
+      17
+     ],
+     [
+      6129,
+      18
+     ],
+     [
+      6789,
+      19
+     ],
+     [
+      7209,
+      20
+     ],
+     [
+      7349,
+      21
+     ],
+     [
+      7549,
+      22
+     ],
+     [
+      7930,
+      23
+     ],
+     [
+      8049,
+      24
+     ],
+     [
+      8169,
+      25
+     ],
+     [
+      9190,
+      26
+     ],
+     [
+      9529,
+      27
+     ],
+     [
+      10029,
+      28
+     ],
+     [
+      10569,
+      29
+     ],
+     [
+      10989,
+      30
+     ],
+     [
+      11449,
+      31
+     ],
+     [
+      12329,
+      32
+     ],
+     [
+      12529,
+      33
+     ],
+     [
+      12729,
+      34
+     ],
+     [
+      13249,
+      35
+     ],
+     [
+      13549,
+      36
+     ],
+     [
+      14249,
+      37
+     ],
+     [
+      14449,
+      38
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 15156,
+    "d": 1607,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      969,
+      4
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 17064,
+    "d": 1296,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      279,
+      1
+     ],
+     [
+      838,
+      2
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 18661,
+    "d": 1491,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      696,
+      1
+     ],
+     [
+      1073,
+      2
+     ]
+    ]
+   },
+   "p0h-saat": {
+    "s": 20452,
+    "d": 1878,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 22631,
+    "d": 16409,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      2670,
+      7
+     ],
+     [
+      3709,
+      8
+     ],
+     [
+      4069,
+      9
+     ],
+     [
+      4330,
+      10
+     ],
+     [
+      4449,
+      11
+     ],
+     [
+      5189,
+      12
+     ],
+     [
+      6109,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      6829,
+      15
+     ],
+     [
+      7430,
+      16
+     ],
+     [
+      7870,
+      17
+     ],
+     [
+      8049,
+      18
+     ],
+     [
+      8949,
+      19
+     ],
+     [
+      9230,
+      20
+     ],
+     [
+      9369,
+      21
+     ],
+     [
+      10049,
+      22
+     ],
+     [
+      10289,
+      23
+     ],
+     [
+      10609,
+      24
+     ],
+     [
+      10890,
+      25
+     ],
+     [
+      11329,
+      26
+     ],
+     [
+      12109,
+      27
+     ],
+     [
+      12489,
+      28
+     ],
+     [
+      12789,
+      29
+     ],
+     [
+      12930,
+      30
+     ],
+     [
+      13149,
+      31
+     ],
+     [
+      13529,
+      32
+     ],
+     [
+      13629,
+      33
+     ],
+     [
+      13729,
+      34
+     ],
+     [
+      14529,
+      35
+     ],
+     [
+      14829,
+      36
+     ],
+     [
+      14909,
+      37
+     ],
+     [
+      15289,
+      38
+     ],
+     [
+      15369,
+      39
+     ],
+     [
+      15549,
+      40
+     ],
+     [
+      15969,
+      41
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 39340,
+    "d": 2573,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1909,
+      3
+     ]
+    ]
+   },
+   "p1h-pencere": {
+    "s": 42214,
+    "d": 2118,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1410,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 44633,
+    "d": 3312,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      2829,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 48246,
+    "d": 12137,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      2430,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      2829,
+      8
+     ],
+     [
+      3249,
+      9
+     ],
+     [
+      3449,
+      10
+     ],
+     [
+      3789,
+      11
+     ],
+     [
+      4209,
+      12
+     ],
+     [
+      4469,
+      13
+     ],
+     [
+      5109,
+      14
+     ],
+     [
+      5469,
+      15
+     ],
+     [
+      5629,
+      16
+     ],
+     [
+      5749,
+      17
+     ],
+     [
+      5850,
+      18
+     ],
+     [
+      6529,
+      19
+     ],
+     [
+      6709,
+      20
+     ],
+     [
+      6969,
+      21
+     ],
+     [
+      7269,
+      22
+     ],
+     [
+      7589,
+      23
+     ],
+     [
+      8430,
+      24
+     ],
+     [
+      8749,
+      25
+     ],
+     [
+      9109,
+      26
+     ],
+     [
+      9969,
+      27
+     ],
+     [
+      10129,
+      28
+     ],
+     [
+      10529,
+      29
+     ],
+     [
+      10770,
+      30
+     ],
+     [
+      11189,
+      31
+     ],
+     [
+      11350,
+      32
+     ],
+     [
+      11609,
+      33
+     ],
+     [
+      11810,
+      34
+     ]
+    ]
+   },
+   "p2h-havuc": {
+    "s": 60683,
+    "d": 856,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      428,
+      1
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 61839,
+    "d": 3554,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2789,
+      6
+     ],
+     [
+      2949,
+      7
+     ]
+    ]
+   },
+   "p2h-nur": {
+    "s": 65694,
+    "d": 1245,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      269,
+      1
+     ],
+     [
+      805,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 67239,
+    "d": 1892,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      689,
+      4
+     ],
+     [
+      1030,
+      5
+     ],
+     [
+      1229,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 69431,
+    "d": 2261,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1849,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 71993,
+    "d": 17326,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2130,
+      6
+     ],
+     [
+      3249,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      4290,
+      9
+     ],
+     [
+      4509,
+      10
+     ],
+     [
+      4749,
+      11
+     ],
+     [
+      4949,
+      12
+     ],
+     [
+      5410,
+      13
+     ],
+     [
+      6309,
+      14
+     ],
+     [
+      6449,
+      15
+     ],
+     [
+      6789,
+      16
+     ],
+     [
+      7029,
+      17
+     ],
+     [
+      7910,
+      18
+     ],
+     [
+      8270,
+      19
+     ],
+     [
+      8509,
+      20
+     ],
+     [
+      8810,
+      21
+     ],
+     [
+      8949,
+      22
+     ],
+     [
+      9109,
+      23
+     ],
+     [
+      9190,
+      24
+     ],
+     [
+      10089,
+      25
+     ],
+     [
+      10310,
+      26
+     ],
+     [
+      10529,
+      27
+     ],
+     [
+      11230,
+      28
+     ],
+     [
+      11489,
+      29
+     ],
+     [
+      11909,
+      30
+     ],
+     [
+      12069,
+      31
+     ],
+     [
+      12310,
+      32
+     ],
+     [
+      12549,
+      33
+     ],
+     [
+      12689,
+      34
+     ],
+     [
+      12989,
+      35
+     ],
+     [
+      13930,
+      36
+     ],
+     [
+      14289,
+      37
+     ],
+     [
+      14509,
+      38
+     ],
+     [
+      14649,
+      39
+     ],
+     [
+      15149,
+      40
+     ],
+     [
+      15909,
+      41
+     ],
+     [
+      16409,
+      42
+     ],
+     [
+      16569,
+      43
+     ],
+     [
+      16709,
+      44
+     ]
+    ]
+   },
+   "p3h-havuc": {
+    "s": 89620,
+    "d": 3821,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2609,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      3209,
+      9
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 93742,
+    "d": 1620,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1090,
+      3
+     ]
+    ]
+   },
+   "p3h-nur": {
+    "s": 95663,
+    "d": 2385,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1349,
+      5
+     ],
+     [
+      1509,
+      6
+     ],
+     [
+      1809,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 98348,
+    "d": 17979,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      1670,
+      7
+     ],
+     [
+      2150,
+      8
+     ],
+     [
+      3109,
+      9
+     ],
+     [
+      4009,
+      10
+     ],
+     [
+      4930,
+      11
+     ],
+     [
+      5830,
+      12
+     ],
+     [
+      6209,
+      13
+     ],
+     [
+      6669,
+      14
+     ],
+     [
+      6949,
+      15
+     ],
+     [
+      7149,
+      16
+     ],
+     [
+      7289,
+      17
+     ],
+     [
+      7529,
+      18
+     ],
+     [
+      8329,
+      19
+     ],
+     [
+      8489,
+      20
+     ],
+     [
+      8770,
+      21
+     ],
+     [
+      8909,
+      22
+     ],
+     [
+      9009,
+      23
+     ],
+     [
+      9109,
+      24
+     ],
+     [
+      9609,
+      25
+     ],
+     [
+      9829,
+      26
+     ],
+     [
+      10109,
+      27
+     ],
+     [
+      10770,
+      28
+     ],
+     [
+      11489,
+      29
+     ],
+     [
+      12129,
+      30
+     ],
+     [
+      12729,
+      31
+     ],
+     [
+      13430,
+      32
+     ],
+     [
+      13949,
+      33
+     ],
+     [
+      14969,
+      34
+     ],
+     [
+      15409,
+      35
+     ],
+     [
+      15609,
+      36
+     ],
+     [
+      16309,
+      37
+     ],
+     [
+      16870,
+      38
+     ],
+     [
+      17450,
+      39
+     ]
+    ]
+   },
+   "p4h-havuc": {
+    "s": 116628,
+    "d": 1489,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      979,
+      2
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 118417,
+    "d": 1460,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      435,
+      1
+     ],
+     [
+      662,
+      2
+     ],
+     [
+      1024,
+      3
+     ]
+    ]
+   },
+   "p4h-nur": {
+    "s": 120177,
+    "d": 2267,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1629,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 122745,
+    "d": 3957,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2029,
+      6
+     ],
+     [
+      2829,
+      7
+     ],
+     [
+      3229,
+      8
+     ],
+     [
+      3430,
+      9
+     ]
+    ]
+   },
+   "p5": {
+    "s": 127002,
+    "d": 14464,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      430,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      1589,
+      6
+     ],
+     [
+      1829,
+      7
+     ],
+     [
+      1930,
+      8
+     ],
+     [
+      2249,
+      9
+     ],
+     [
+      2430,
+      10
+     ],
+     [
+      2689,
+      11
+     ],
+     [
+      3309,
+      12
+     ],
+     [
+      4049,
+      13
+     ],
+     [
+      4350,
+      14
+     ],
+     [
+      4469,
+      15
+     ],
+     [
+      5249,
+      16
+     ],
+     [
+      5489,
+      17
+     ],
+     [
+      5809,
+      18
+     ],
+     [
+      5969,
+      19
+     ],
+     [
+      6329,
+      20
+     ],
+     [
+      7069,
+      21
+     ],
+     [
+      7349,
+      22
+     ],
+     [
+      7709,
+      23
+     ],
+     [
+      7849,
+      24
+     ],
+     [
+      8069,
+      25
+     ],
+     [
+      8289,
+      26
+     ],
+     [
+      8869,
+      27
+     ],
+     [
+      9164,
+      28
+     ],
+     [
+      9529,
+      29
+     ],
+     [
+      9930,
+      30
+     ],
+     [
+      10350,
+      31
+     ],
+     [
+      10709,
+      32
+     ],
+     [
+      10850,
+      33
+     ],
+     [
+      11049,
+      34
+     ],
+     [
+      11350,
+      35
+     ],
+     [
+      12049,
+      36
+     ],
+     [
+      12270,
+      37
+     ],
+     [
+      12709,
+      38
+     ],
+     [
+      13009,
+      39
+     ],
+     [
+      13169,
+      40
+     ],
+     [
+      13531,
+      41
+     ],
+     [
+      13927,
+      42
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 141767,
+    "d": 2070,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 144137,
+    "d": 1949,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p5h-havuc": {
+    "s": 146387,
+    "d": 856,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      428,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

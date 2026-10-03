@@ -1,0 +1,1572 @@
+{
+ "id": "034-kardan-adamin-kar-toplari",
+ "lang": "en",
+ "title": "The Snowman's Snowballs",
+ "theme": "Comparing big, medium and small, ordering and cooperation",
+ "blurb": "When snow falls, Ela and her dad roll three snowballs: big, medium and tiny. But which one should go at the bottom? After one tumbling try, Ela finds the right order, and Fluffy the sparrow becomes the snowman's friend.",
+ "voiceNames": {
+  "ela": "Ela",
+  "baba": "Dad",
+  "pofuduk": "Fluffy (sparrow)"
+ },
+ "pages": [
+  {
+   "text": "Snow had fallen, soft and deep. Ela and Dad went out to the meadow. Crunch, crunch! “Dad, let's build a snowman!” Fluffy the sparrow watched from the fence.",
+   "hits": {
+    "ela": {
+     "say": "Dad, let's build a snowman!"
+    },
+    "baba": {
+     "say": "All right! First let's roll some snowballs."
+    },
+    "pofuduk": {
+     "say": "Cheep cheep! What are you making?"
+    }
+   },
+   "hint": "Touch Ela!",
+   "ask": "Have you ever seen snow? What sound does it make when you walk on it?"
+  },
+  {
+   "text": "Roll it, roll it, let the snowball grow! Dad made a big ball. Ela made a medium ball. And one tiny ball: “This one's for Fluffy!”",
+   "mech": {
+    "done": "Three snowballs: big, medium, tiny!",
+    "msg": "Three balls!"
+   },
+   "hits": {
+    "baba": {
+     "say": "Phew! This ball is enormous!"
+    },
+    "ela": {
+     "say": "Roll it, roll it! Mine is medium."
+    },
+    "pofuduk": {
+     "say": "Cheep! Is the tiny ball mine?"
+    }
+   },
+   "hint": "Count the snowballs one by one!",
+   "ask": "Which ball is the biggest? Which is the smallest? Can you point to them?"
+  },
+  {
+   "text": "Snowman time! Ela took the tiny ball in her hand. “Let's put this one at the bottom!” she said. Dad smiled. “Let's try and see!”",
+   "predict": {
+    "q": "Which ball do you think should go at the bottom?",
+    "res": "Come on, let's try and see!",
+    "opts": [
+     {
+      "l": "The big ball"
+     },
+     {
+      "l": "The tiny ball"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "My tiny ball goes at the bottom!"
+    },
+    "baba": {
+     "say": "Hmm… Let's try and see!"
+    },
+    "pofuduk": {
+     "say": "Cheep? Are you sure, Ela?"
+    }
+   },
+   "hint": "Touch Ela!",
+   "ask": "Ela wants to put the tiny ball at the bottom. Do you think it will work? Why?"
+  },
+  {
+   "text": "Tiny ball at the bottom, big ball on top… Crash, bang, wallop! Ela gasped and sat down plop in the snow. She giggled, tee-hee-hee! Dad sat beside her: “Never mind, we'll try again!”",
+   "hits": {
+    "ela": {
+     "say": "Hee hee hee! The balls ran away!"
+    },
+    "baba": {
+     "say": "Never mind, we'll try again!"
+    },
+    "pofuduk": {
+     "say": "Cheep cheep! Crash, bang, wallop!"
+    }
+   },
+   "hint": "Touch the big ball!",
+   "ask": "Why did the balls topple over? What do you do when something you made falls down?",
+   "cues": [
+    {
+     "w": 22,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Ela had a think. “The biggest ball goes at the bottom!” she said. Then the medium ball. And last, the tiny ball. Together with Dad: “One, two, three… up!”",
+   "mech": {
+    "done": "Big, medium, tiny. It's a snowman!",
+    "msg": "You put them in order!"
+   },
+   "hits": {
+    "ela": {
+     "say": "The biggest ball at the bottom!"
+    },
+    "baba": {
+     "say": "One, two, three… up!"
+    },
+    "pofuduk": {
+     "say": "Cheep cheep! Tiny ball on top!"
+    }
+   },
+   "hint": "Touch the biggest ball!",
+   "ask": "Which ball went on first, and which next? How did Ela and her dad help each other?"
+  },
+  {
+   "text": "Ela put on a carrot nose. Dad added a hat and a scarf. Flit! Fluffy landed on the snowman's hat. “Cheep cheep!” Big, medium, tiny… and one fluffy little friend!",
+   "hits": {
+    "pofuduk": {
+     "say": "Cheep cheep! This is my spot!"
+    },
+    "ela": {
+     "say": "The tiny ball is Fluffy's now!"
+    },
+    "baba": {
+     "say": "What a lovely job we did together!"
+    }
+   },
+   "hint": "Touch Fluffy!",
+   "ask": "What were the snowman's balls like: big, medium, …? Who would you like to build a snowman with?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.4 Making inferences about mathematical facts, events and objects (MAB.4.b Compares objects, facts and events): Compares the three snowballs by size and uses the words “big, medium, tiny / biggest, smallest”; from the toppled attempt, infers that “the biggest ball goes at the bottom”.",
+   "MAB.1 Counting rhythmically and by sight: Counts the snowballs one by one by touching them and notices that the last number said tells how many balls there are; counts rhythmically with the chant “One, two, three… up!” (range 1–5 for 36–48 months).",
+   "E2.5 Playfulness: Tests their prediction through play; observes laughing and trying again when the balls topple, living trial and error as a game.",
+   "SDB2.2 Cooperation: Notices that Ela and her dad share the work (each rolls a ball, they lift the balls together, they laugh together when it topples); connects sharing a task with their own life.",
+   "D4 Friendship: Talks about Ela saving the tiny ball for Fluffy the sparrow and Fluffy becoming the snowman's friend; expresses the joy of thinking of a friend."
+  ],
+  "once": [
+   "Look at the cover picture together: “What can we do outside when it snows?” If anyone has built a snowman before, listen to them.",
+   "Show three objects of different sizes (big, medium and small balls or cushions): “Which is the biggest? Which is the smallest?” Put them side by side and compare.",
+   "Roll your hands on your knees and say the story's chant together: “Roll it, roll it, let the snowball grow!”"
+  ],
+  "sirasi": [
+   "On page 1, make the “crunch, crunch” sound together in a whisper. Point to Fluffy the sparrow: “Why are her feathers all puffed up? Birds puff up their feathers when they're cold.”",
+   "On page 2, the child counts the balls by touching them one by one; then points to the biggest and the smallest. Draw attention to who the tiny ball is for.",
+   "On page 3, after the prediction is chosen, don't give away the answer; say “Let's try and see!” and listen to the child's reason.",
+   "On page 4, laugh together at the toppled balls. Talk about how Ela was startled first, then laughed, and how her dad sat down beside her; say “Never mind, we'll try again!” all together.",
+   "On page 5, the child touches the balls in order from biggest to smallest. If they touch the wrong one, guide them with “Which one is bigger? Let's look at them side by side”; jump together on “One, two, three… up!”",
+   "On page 6, find where Fluffy landed and recall the line from page 2, “This one's for Fluffy!”"
+  ],
+  "sonra": [
+   "What happened first in the story, and what happened next? Let's put three pictures in order: rolling the balls, the topple, the snowman.",
+   "Which ball was at the bottom of the snowman? Why didn't the tiny ball stay at the bottom?",
+   "How did Ela feel when the balls toppled? What did her dad say? What do you say when something doesn't work out?",
+   "How did Ela and her dad share the work? Who do you like doing things with?"
+  ],
+  "sinif": {
+   "ad": "Big, Medium, Tiny Snowman",
+   "sure": "20 min",
+   "materyal": "White play dough (or scrunched-up white paper), a cardboard base for each pair, small carrot noses cut from orange paper, pieces of ribbon (scarves)",
+   "adim": [
+    "In a circle, roll three balls in your palms to the chant “Roll it, roll it, let the snowball grow!”: big, medium, tiny.",
+    "The children put their balls side by side and compare: “Which is the biggest? Which is the smallest?” Count the balls together.",
+    "Work in pairs: one holds the base, the other places the ball. First let them try putting the tiny ball at the bottom and watch what happens.",
+    "Then they stack them from biggest to smallest, placing them together while saying “One, two, three… up!”; if it topples, they say “Never mind, we'll try again!”",
+    "Add the carrot nose and the ribbon scarf; each pair gives their snowman a name and introduces it to their friends."
+   ]
+  },
+  "evSoru": [
+   "How many balls did they roll for the snowman? Let's count together.",
+   "Where did the biggest ball go? Why?",
+   "Who was the tiny ball for? Where did Fluffy land in the end?"
+  ],
+  "evEtk": {
+   "ad": "Big-Medium-Small Hunt at Home",
+   "d": "Find three objects of the same kind in three different sizes at home (three cushions, three bowls or three socks). Let your child line them up from biggest to smallest first. Then try building a snowman-style tower with the cushions together: “Which one should go at the bottom?” Let them try their own idea first; if it topples, laugh together and say “Never mind, we'll try again!”"
+  },
+  "aileNotu": "Today we read “The Snowman's Snowballs”. Ela and her dad rolled three snowballs: big, medium and tiny; when they put the tiny ball at the bottom, everything came crashing down, and they both laughed and tried again. The story supports comparing and ordering objects by size, counting by touching and working together. At home you can ask “Which is the biggest, which is the smallest?” while setting the table or tidying toys, and make a habit of saying “Never mind, we'll try again!” together when something doesn't go as planned."
+ },
+ "audio": {
+  "file": "audio/en/034-kardan-adamin-kar-toplari.mp3",
+  "hash": "69ae93a6",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11270,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      3089,
+      6
+     ],
+     [
+      3349,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      3809,
+      9
+     ],
+     [
+      3989,
+      10
+     ],
+     [
+      4129,
+      11
+     ],
+     [
+      4229,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      5129,
+      14
+     ],
+     [
+      5809,
+      15
+     ],
+     [
+      6829,
+      16
+     ],
+     [
+      7449,
+      17
+     ],
+     [
+      7669,
+      18
+     ],
+     [
+      7890,
+      19
+     ],
+     [
+      7989,
+      20
+     ],
+     [
+      9069,
+      21
+     ],
+     [
+      9430,
+      22
+     ],
+     [
+      9589,
+      23
+     ],
+     [
+      10089,
+      24
+     ],
+     [
+      10449,
+      25
+     ],
+     [
+      10609,
+      26
+     ],
+     [
+      10730,
+      27
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 11570,
+    "d": 2181,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 14052,
+    "d": 3104,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2329,
+      6
+     ]
+    ]
+   },
+   "p0h-pofuduk": {
+    "s": 17456,
+    "d": 2091,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1489,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19848,
+    "d": 9958,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      1749,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      3449,
+      8
+     ],
+     [
+      3769,
+      9
+     ],
+     [
+      3949,
+      10
+     ],
+     [
+      4149,
+      11
+     ],
+     [
+      4430,
+      12
+     ],
+     [
+      5189,
+      13
+     ],
+     [
+      5569,
+      14
+     ],
+     [
+      5769,
+      15
+     ],
+     [
+      5850,
+      16
+     ],
+     [
+      6249,
+      17
+     ],
+     [
+      6910,
+      18
+     ],
+     [
+      7269,
+      19
+     ],
+     [
+      7609,
+      20
+     ],
+     [
+      8029,
+      21
+     ],
+     [
+      8709,
+      22
+     ],
+     [
+      8969,
+      23
+     ],
+     [
+      9169,
+      24
+     ],
+     [
+      9369,
+      25
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 30107,
+    "d": 2636,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 33043,
+    "d": 3056,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2509,
+      6
+     ]
+    ]
+   },
+   "p1h-pofuduk": {
+    "s": 36400,
+    "d": 2471,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      2150,
+      5
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 39171,
+    "d": 3659,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      2249,
+      3
+     ],
+     [
+      3049,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 43130,
+    "d": 9124,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1649,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      2989,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3269,
+      9
+     ],
+     [
+      4069,
+      10
+     ],
+     [
+      4310,
+      11
+     ],
+     [
+      4529,
+      12
+     ],
+     [
+      4810,
+      13
+     ],
+     [
+      4930,
+      14
+     ],
+     [
+      5029,
+      15
+     ],
+     [
+      5169,
+      16
+     ],
+     [
+      5830,
+      17
+     ],
+     [
+      6029,
+      18
+     ],
+     [
+      6789,
+      19
+     ],
+     [
+      7109,
+      20
+     ],
+     [
+      8009,
+      21
+     ],
+     [
+      8310,
+      22
+     ],
+     [
+      8569,
+      23
+     ],
+     [
+      8730,
+      24
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 52554,
+    "d": 2315,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      1709,
+      6
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 55170,
+    "d": 2128,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p2h-pofuduk": {
+    "s": 57599,
+    "d": 2280,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      574,
+      1
+     ],
+     [
+      999,
+      2
+     ],
+     [
+      1244,
+      3
+     ],
+     [
+      1814,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 60179,
+    "d": 2088,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      749,
+      4
+     ],
+     [
+      989,
+      5
+     ],
+     [
+      1189,
+      6
+     ],
+     [
+      1329,
+      7
+     ],
+     [
+      1430,
+      8
+     ],
+     [
+      1550,
+      9
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 62567,
+    "d": 1776,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1329,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 64643,
+    "d": 13983,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1849,
+      6
+     ],
+     [
+      2150,
+      7
+     ],
+     [
+      2349,
+      8
+     ],
+     [
+      3150,
+      9
+     ],
+     [
+      3809,
+      10
+     ],
+     [
+      4390,
+      11
+     ],
+     [
+      5509,
+      12
+     ],
+     [
+      5789,
+      13
+     ],
+     [
+      6410,
+      14
+     ],
+     [
+      6609,
+      15
+     ],
+     [
+      6870,
+      16
+     ],
+     [
+      7189,
+      17
+     ],
+     [
+      7609,
+      18
+     ],
+     [
+      7729,
+      19
+     ],
+     [
+      7870,
+      20
+     ],
+     [
+      8669,
+      21
+     ],
+     [
+      8890,
+      22
+     ],
+     [
+      9549,
+      23
+     ],
+     [
+      10589,
+      24
+     ],
+     [
+      10890,
+      25
+     ],
+     [
+      11129,
+      26
+     ],
+     [
+      11529,
+      27
+     ],
+     [
+      12189,
+      28
+     ],
+     [
+      12469,
+      29
+     ],
+     [
+      13029,
+      30
+     ],
+     [
+      13270,
+      31
+     ],
+     [
+      13529,
+      32
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 78927,
+    "d": 3072,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      375,
+      1
+     ],
+     [
+      710,
+      2
+     ],
+     [
+      1442,
+      3
+     ],
+     [
+      1778,
+      4
+     ],
+     [
+      2113,
+      5
+     ],
+     [
+      2448,
+      6
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 82300,
+    "d": 1947,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p3h-pofuduk": {
+    "s": 84547,
+    "d": 3002,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      400,
+      1
+     ],
+     [
+      1187,
+      2
+     ],
+     [
+      1761,
+      3
+     ],
+     [
+      2334,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 87850,
+    "d": 12115,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      2689,
+      8
+     ],
+     [
+      2789,
+      9
+     ],
+     [
+      2910,
+      10
+     ],
+     [
+      3629,
+      11
+     ],
+     [
+      3829,
+      12
+     ],
+     [
+      4549,
+      13
+     ],
+     [
+      4830,
+      14
+     ],
+     [
+      4949,
+      15
+     ],
+     [
+      5330,
+      16
+     ],
+     [
+      5989,
+      17
+     ],
+     [
+      6149,
+      18
+     ],
+     [
+      6709,
+      19
+     ],
+     [
+      6850,
+      20
+     ],
+     [
+      7229,
+      21
+     ],
+     [
+      7949,
+      22
+     ],
+     [
+      8369,
+      23
+     ],
+     [
+      8569,
+      24
+     ],
+     [
+      9529,
+      25
+     ],
+     [
+      10149,
+      26
+     ],
+     [
+      10810,
+      27
+     ],
+     [
+      11709,
+      28
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 100265,
+    "d": 2088,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1529,
+      5
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 102653,
+    "d": 2457,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      2110,
+      3
+     ]
+    ]
+   },
+   "p4h-pofuduk": {
+    "s": 105411,
+    "d": 2455,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      339,
+      1
+     ],
+     [
+      994,
+      2
+     ],
+     [
+      1516,
+      3
+     ],
+     [
+      1815,
+      4
+     ],
+     [
+      2115,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 108167,
+    "d": 3634,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1609,
+      2
+     ],
+     [
+      2509,
+      3
+     ],
+     [
+      2729,
+      4
+     ],
+     [
+      2829,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 112101,
+    "d": 12332,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      769,
+      4
+     ],
+     [
+      1170,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2650,
+      8
+     ],
+     [
+      2749,
+      9
+     ],
+     [
+      3069,
+      10
+     ],
+     [
+      3209,
+      11
+     ],
+     [
+      3309,
+      12
+     ],
+     [
+      4149,
+      13
+     ],
+     [
+      4910,
+      14
+     ],
+     [
+      5330,
+      15
+     ],
+     [
+      5709,
+      16
+     ],
+     [
+      5789,
+      17
+     ],
+     [
+      5930,
+      18
+     ],
+     [
+      6489,
+      19
+     ],
+     [
+      7089,
+      20
+     ],
+     [
+      7349,
+      21
+     ],
+     [
+      8129,
+      22
+     ],
+     [
+      8810,
+      23
+     ],
+     [
+      9649,
+      24
+     ],
+     [
+      10449,
+      25
+     ],
+     [
+      10770,
+      26
+     ],
+     [
+      11109,
+      27
+     ],
+     [
+      11529,
+      28
+     ],
+     [
+      11789,
+      29
+     ]
+    ]
+   },
+   "p5h-pofuduk": {
+    "s": 124734,
+    "d": 2276,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1629,
+      5
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 127310,
+    "d": 2254,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1809,
+      5
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 129864,
+    "d": 2241,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      256,
+      1
+     ],
+     [
+      473,
+      2
+     ],
+     [
+      1012,
+      3
+     ],
+     [
+      1228,
+      4
+     ],
+     [
+      1445,
+      5
+     ],
+     [
+      1662,
+      6
+     ]
+    ]
+   }
+  }
+ }
+}

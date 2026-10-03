@@ -1,0 +1,1919 @@
+{
+ "id": "098-kuslarin-sabah-konseri",
+ "lang": "en",
+ "title": "The Birds' Evening Concert",
+ "theme": "Listening to the sounds of nature",
+ "blurb": "One evening, Elif wants to listen to the forest's concert; but when she shouts with excitement, the sparrows fly away. Taking a deep breath and closing her eyes, Elif listens to the sparrows going to sleep, the owl waking up, and the song of silence.",
+ "voiceNames": {
+  "elif": "Elif",
+  "nine": "Grandma",
+  "serce": "The sparrows",
+  "vrak": "Croak (frog)",
+  "hubu": "Hoot (owl)",
+  "kirpi": "Hedgehog"
+ },
+ "pages": [
+  {
+   "text": "It was evening. The sun was sinking behind the trees. Elif and her grandma were by the forest. Grandma smiled: “The forest's evening concert starts soon.” Elif's eyes lit up. “A concert? Where are the instruments?”",
+   "hits": {
+    "elif": {
+     "say": "A concert? Where are the instruments?"
+    },
+    "nine": {
+     "say": "Open your ears, you'll hear it soon."
+    },
+    "k": {
+     "say": "Cheep cheep!"
+    }
+   },
+   "hint": "Touch Grandma!",
+   "ask": "Which instruments do you think are in the forest's concert? Which sounds do we hear?"
+  },
+  {
+   "text": "Elif was so excited. She spun her wheels fast, fast, and rolled towards the birds. “HELLO, BIIIRDS!” she shouted. Flutter, flutter, flap! The sparrows took off and flew away. The forest went quiet as quiet. Elif's shoulders drooped. “Did I miss the concert?”",
+   "hits": {
+    "elif": {
+     "say": "Did I miss the concert?"
+    },
+    "k": {
+     "say": "Cheep! Too loud!"
+    },
+    "nine": {
+     "say": "The birds got a fright, Elif dear."
+    }
+   },
+   "hint": "Touch the sparrows!",
+   "ask": "Why did the sparrows fly away? How do you feel when you hear a very loud sound?"
+  },
+  {
+   "text": "Grandma leaned beside her: “Loud sounds frighten birds. When evening comes, they look for a place to sleep.” Elif thought for a moment. Then she took a deep breath. Her chest rose slowly, fell slowly.",
+   "hits": {
+    "elif": {
+     "say": "Breathe in… breathe out…"
+    },
+    "nine": {
+     "say": "Loud sounds frighten birds."
+    }
+   },
+   "predict": {
+    "q": "What do you think Elif will do now?",
+    "res": "Both are lovely, quiet ideas! Let's find out.",
+    "opts": [
+     {
+      "l": "Closes her eyes and listens"
+     },
+     {
+      "l": "Waits without moving"
+     }
+    ]
+   },
+   "hint": "Breathe with Elif!",
+   "ask": "Let's take a deep breath like Elif. What happens in your body when you breathe in?"
+  },
+  {
+   "text": "Elif had an idea: “If I close my eyes, my ears will hear better!” She closed her eyes. She listened hard, ever so carefully. At first there was no sound. Then… Cheep cheep cheep! From inside the bush. Croak croak! From the foot of the log. Rustle rustle! From among the dry leaves. Elif whispered: “The concert has started!”",
+   "hits": {
+    "serce": {
+     "say": "Cheep cheep cheep!"
+    },
+    "vrak": {
+     "say": "Croak croak!"
+    },
+    "kirpi": {
+     "say": "Rustle rustle! It's me, the hedgehog!"
+    },
+    "elif": {
+     "say": "The concert has started!"
+    }
+   },
+   "mech": {
+    "done": "Cheep, croak, rustle! You found who made all three sounds.",
+    "msg": "You found them all!"
+   },
+   "hint": "Find who's making the sound!",
+   "ask": "Close your eyes and listen. What sounds can you hear right now?",
+   "cues": [
+    {
+     "w": 46,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "The sparrows came back. One by one, they landed on the branch. “Cheep… cheep…” Their voices slowed, then stopped. The sparrows were asleep. Just then, a new sound came from up high: “Hoo hoooo!” Hoot the owl had woken up.",
+   "hits": {
+    "s": {
+     "say": "Cheep… Good night…"
+    },
+    "hubu": {
+     "say": "Hoo hoooo! Good morning… I mean, good evening!"
+    },
+    "elif": {
+     "say": "The sparrows are sleeping, the owl is waking up!"
+    },
+    "nine": {
+     "say": "The owl's day begins in the evening."
+    }
+   },
+   "mech": {
+    "done": "Five sparrows, fast asleep.",
+    "msg": "Shhh… They're asleep!"
+   },
+   "hint": "Count the sparrows in a whisper!",
+   "ask": "The sparrows sleep in the evening, and the owl wakes up. Which other animals wake up at night?"
+  },
+  {
+   "text": "The moon rose in the sky. The forest grew quiet. Elif listened to the silence, too. It was a soft, soft silence. “Grandma, silence is part of the concert too,” she said. Grandma smiled: “You listened so well.” This time Elif whispered: “Good night, sparrows.” Hoot flapped his wings: “Hoo hoo!”",
+   "hits": {
+    "elif": {
+     "say": "Good night, sparrows."
+    },
+    "nine": {
+     "say": "You listened so well, Elif dear."
+    },
+    "hubu": {
+     "say": "Hoo hoo! Good night!"
+    }
+   },
+   "hint": "Whisper with Elif!",
+   "ask": "What kind of sound is silence? When do you most like to listen to the silence?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MDB.1 Listening to a variety of musical works: Listens to the forest's “evening concert” (sparrows chirping, frogs croaking, the owl calling, silence) from beginning to end like a piece of music; notices that silence is part of the music too.",
+   "TADB.4 Reflecting their views on what they listen to and on the listening setting: Says what they feel and think about the story; notices and says how the sound level in the setting (Elif shouting) spoilt the listening.",
+   "FAB.1 Making scientific observations of science-related events/phenomena and situations in everyday life: Observes that in the evening the sparrows go to their sleeping place, and night animals such as the owl and the hedgehog wake up.",
+   "SDB1.2 Self-Regulation: When excited, calms her voice and body by taking a deep breath, and gets ready to listen.",
+   "D5 Sensitivity: Stays quiet so as not to frighten the animals getting ready to sleep; listens to nature from a distance, without touching."
+  ],
+  "once": [
+   "Point to Elif on the cover: “Elif is going to the forest with her grandma to listen to a concert. Can there be a concert in a forest?”",
+   "Close your eyes for one minute and listen to the sounds of the classroom/room. Take turns saying what you heard.",
+   "Ask “What do animals do when evening comes? Do they all sleep?” and listen to the guesses."
+  ],
+  "sirasi": [
+   "Stop on page 2: “Why did the sparrows fly away?” Instead of shouting all together once, whisper “hello birds” into your cupped hand.",
+   "On page 3, take three deep breaths together with Elif. In the prediction, both options are quiet and good ideas.",
+   "On page 4, when you find each sound, copy it: cheep cheep, croak croak, rustle rustle.",
+   "On page 5, count the sparrows in a whisper: one, two, three, four, five.",
+   "On page 6, “listen to the silence” for a few seconds without talking at all, then talk about what you heard."
+  ],
+  "sonra": [
+   "What happened when Elif shouted? What happened when she listened quietly?",
+   "Which sounds were in the forest concert? Which was high, and which was low?",
+   "What did the sparrows do in the evening, and what did the owl do? Why?",
+   "Put the story in order with the pictures: the sparrows fly away, Elif closes her eyes and listens, the moon comes out and silence."
+  ],
+  "sinif": {
+   "ad": "The Silence Orchestra",
+   "sure": "15 min",
+   "materyal": "Wordless picture cards of a sparrow, a frog, an owl and a hedgehog; a hand bell or tambourine; a recording of “Aviary” (the birds) from Saint-Saëns's “The Carnival of the Animals”",
+   "adim": [
+    "Make a circle. Give each group an animal card: sparrows “cheep cheep”, frogs “croak”, hedgehogs “rustle rustle”, owls “hoo hoo”.",
+    "The teacher is the conductor. The group the teacher points to makes its sound; when the hand goes up, the sound grows, when it comes down, the sound shrinks.",
+    "When the conductor closes both hands, everyone goes quiet: “The silence part!” For a count of five, eyes closed, ears open.",
+    "Then one child closes their eyes while one group makes its sound; the child says which animal the sound belongs to and where it came from.",
+    "Finally, listen to “Aviary” from Saint-Saëns's “The Carnival of the Animals”. Raise your hands when you hear the flute's bird sound, and lower them in the quiet moments."
+   ]
+  },
+  "evSoru": [
+   "Why did the sparrows fly away?",
+   "What did Elif do to hear the sounds?",
+   "Which animal went to sleep in the evening, and which one woke up?"
+  ],
+  "evEtk": {
+   "ad": "Balcony or window concert",
+   "d": "In the evening, sit together for five minutes at a window, on a balcony or at the edge of a park. Close your eyes and count the sounds you hear on your fingers: a bird, the wind, a car, a door… Then have a “moment of silence”. Listen to the birds from a distance; watch them without going close, throwing anything or touching them."
+  },
+  "aileNotu": "Today we read “The Birds' Evening Concert.” When Elif shouted with excitement, the sparrows flew away; when she took a deep breath and closed her eyes, she heard the sparrows settling down to sleep and the owl waking up, and discovered that silence is part of the music too. In the evening you can listen to the sounds together for a few minutes and count what you hear. When your child gets excited, saying “Let's take a breath like Elif” helps them calm down."
+ },
+ "audio": {
+  "file": "audio/en/098-kuslarin-sabah-konseri.mp3",
+  "hash": "e2125e1c",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14308,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2349,
+      7
+     ],
+     [
+      2689,
+      8
+     ],
+     [
+      2809,
+      9
+     ],
+     [
+      3789,
+      10
+     ],
+     [
+      4109,
+      11
+     ],
+     [
+      4209,
+      12
+     ],
+     [
+      4370,
+      13
+     ],
+     [
+      4850,
+      14
+     ],
+     [
+      5009,
+      15
+     ],
+     [
+      5169,
+      16
+     ],
+     [
+      5289,
+      17
+     ],
+     [
+      6249,
+      18
+     ],
+     [
+      6709,
+      19
+     ],
+     [
+      7629,
+      20
+     ],
+     [
+      7789,
+      21
+     ],
+     [
+      8350,
+      22
+     ],
+     [
+      8730,
+      23
+     ],
+     [
+      9190,
+      24
+     ],
+     [
+      9549,
+      25
+     ],
+     [
+      10409,
+      26
+     ],
+     [
+      10869,
+      27
+     ],
+     [
+      11249,
+      28
+     ],
+     [
+      11489,
+      29
+     ],
+     [
+      12049,
+      30
+     ],
+     [
+      12189,
+      31
+     ],
+     [
+      13169,
+      32
+     ],
+     [
+      13329,
+      33
+     ],
+     [
+      13449,
+      34
+     ],
+     [
+      13589,
+      35
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 14608,
+    "d": 2477,
+    "w": [
+     [
+      39,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1849,
+      5
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 17386,
+    "d": 2382,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1889,
+      6
+     ]
+    ]
+   },
+   "p0h-k": {
+    "s": 20069,
+    "d": 874,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      437,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21243,
+    "d": 19471,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2529,
+      6
+     ],
+     [
+      2689,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3689,
+      9
+     ],
+     [
+      4390,
+      10
+     ],
+     [
+      4629,
+      11
+     ],
+     [
+      4949,
+      12
+     ],
+     [
+      5289,
+      13
+     ],
+     [
+      5410,
+      14
+     ],
+     [
+      6249,
+      15
+     ],
+     [
+      6689,
+      16
+     ],
+     [
+      7809,
+      17
+     ],
+     [
+      8009,
+      18
+     ],
+     [
+      8850,
+      19
+     ],
+     [
+      9289,
+      20
+     ],
+     [
+      9730,
+      21
+     ],
+     [
+      10549,
+      22
+     ],
+     [
+      10709,
+      23
+     ],
+     [
+      11209,
+      24
+     ],
+     [
+      11489,
+      25
+     ],
+     [
+      11789,
+      26
+     ],
+     [
+      11989,
+      27
+     ],
+     [
+      12289,
+      28
+     ],
+     [
+      13149,
+      29
+     ],
+     [
+      13310,
+      30
+     ],
+     [
+      13810,
+      31
+     ],
+     [
+      14089,
+      32
+     ],
+     [
+      14709,
+      33
+     ],
+     [
+      14909,
+      34
+     ],
+     [
+      15969,
+      35
+     ],
+     [
+      16370,
+      36
+     ],
+     [
+      16930,
+      37
+     ],
+     [
+      17909,
+      38
+     ],
+     [
+      18110,
+      39
+     ],
+     [
+      18229,
+      40
+     ],
+     [
+      18450,
+      41
+     ],
+     [
+      18589,
+      42
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 41014,
+    "d": 1369,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      264,
+      1
+     ],
+     [
+      489,
+      2
+     ],
+     [
+      713,
+      3
+     ],
+     [
+      938,
+      4
+     ]
+    ]
+   },
+   "p1h-k": {
+    "s": 42684,
+    "d": 1968,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1290,
+      2
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 44953,
+    "d": 2273,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      849,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1769,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 47526,
+    "d": 13627,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      3209,
+      7
+     ],
+     [
+      4049,
+      8
+     ],
+     [
+      4269,
+      9
+     ],
+     [
+      4649,
+      10
+     ],
+     [
+      5149,
+      11
+     ],
+     [
+      5330,
+      12
+     ],
+     [
+      5509,
+      13
+     ],
+     [
+      5649,
+      14
+     ],
+     [
+      5729,
+      15
+     ],
+     [
+      6009,
+      16
+     ],
+     [
+      6149,
+      17
+     ],
+     [
+      7109,
+      18
+     ],
+     [
+      7449,
+      19
+     ],
+     [
+      7729,
+      20
+     ],
+     [
+      7910,
+      21
+     ],
+     [
+      7989,
+      22
+     ],
+     [
+      8810,
+      23
+     ],
+     [
+      9209,
+      24
+     ],
+     [
+      9390,
+      25
+     ],
+     [
+      9569,
+      26
+     ],
+     [
+      9730,
+      27
+     ],
+     [
+      10009,
+      28
+     ],
+     [
+      10810,
+      29
+     ],
+     [
+      10989,
+      30
+     ],
+     [
+      11430,
+      31
+     ],
+     [
+      11749,
+      32
+     ],
+     [
+      12689,
+      33
+     ],
+     [
+      13049,
+      34
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 61454,
+    "d": 2890,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1790,
+      2
+     ],
+     [
+      2309,
+      3
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 64645,
+    "d": 2263,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 67208,
+    "d": 1845,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      329,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      949,
+      5
+     ],
+     [
+      1150,
+      6
+     ],
+     [
+      1329,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 69354,
+    "d": 3611,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2769,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3249,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 73266,
+    "d": 24770,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2670,
+      8
+     ],
+     [
+      3289,
+      9
+     ],
+     [
+      3549,
+      10
+     ],
+     [
+      3849,
+      11
+     ],
+     [
+      4029,
+      12
+     ],
+     [
+      4229,
+      13
+     ],
+     [
+      5089,
+      14
+     ],
+     [
+      5269,
+      15
+     ],
+     [
+      5649,
+      16
+     ],
+     [
+      5830,
+      17
+     ],
+     [
+      6629,
+      18
+     ],
+     [
+      6850,
+      19
+     ],
+     [
+      7269,
+      20
+     ],
+     [
+      7949,
+      21
+     ],
+     [
+      8329,
+      22
+     ],
+     [
+      8549,
+      23
+     ],
+     [
+      9690,
+      24
+     ],
+     [
+      9869,
+      25
+     ],
+     [
+      10409,
+      26
+     ],
+     [
+      10589,
+      27
+     ],
+     [
+      10770,
+      28
+     ],
+     [
+      10989,
+      29
+     ],
+     [
+      12029,
+      30
+     ],
+     [
+      12969,
+      31
+     ],
+     [
+      13209,
+      32
+     ],
+     [
+      13469,
+      33
+     ],
+     [
+      14169,
+      34
+     ],
+     [
+      14430,
+      35
+     ],
+     [
+      14890,
+      36
+     ],
+     [
+      15029,
+      37
+     ],
+     [
+      15829,
+      38
+     ],
+     [
+      16190,
+      39
+     ],
+     [
+      16950,
+      40
+     ],
+     [
+      17129,
+      41
+     ],
+     [
+      17270,
+      42
+     ],
+     [
+      17469,
+      43
+     ],
+     [
+      17569,
+      44
+     ],
+     [
+      17729,
+      45
+     ],
+     [
+      18669,
+      46
+     ],
+     [
+      19149,
+      47
+     ],
+     [
+      19889,
+      48
+     ],
+     [
+      20110,
+      49
+     ],
+     [
+      20450,
+      50
+     ],
+     [
+      20569,
+      51
+     ],
+     [
+      20950,
+      52
+     ],
+     [
+      22030,
+      53
+     ],
+     [
+      22270,
+      54
+     ],
+     [
+      23209,
+      55
+     ],
+     [
+      23389,
+      56
+     ],
+     [
+      23909,
+      57
+     ],
+     [
+      24089,
+      58
+     ]
+    ]
+   },
+   "p3h-serce": {
+    "s": 98337,
+    "d": 1217,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      419,
+      1
+     ],
+     [
+      798,
+      2
+     ]
+    ]
+   },
+   "p3h-vrak": {
+    "s": 99854,
+    "d": 1093,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ]
+    ]
+   },
+   "p3h-kirpi": {
+    "s": 101247,
+    "d": 3011,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      659,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2209,
+      5
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 104558,
+    "d": 1633,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      949,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 106492,
+    "d": 4386,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      2249,
+      3
+     ],
+     [
+      2469,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3150,
+      7
+     ],
+     [
+      3410,
+      8
+     ],
+     [
+      3729,
+      9
+     ]
+    ]
+   },
+   "p4": {
+    "s": 111178,
+    "d": 16928,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      2809,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3289,
+      10
+     ],
+     [
+      3410,
+      11
+     ],
+     [
+      4249,
+      12
+     ],
+     [
+      4890,
+      13
+     ],
+     [
+      5669,
+      14
+     ],
+     [
+      5870,
+      15
+     ],
+     [
+      6329,
+      16
+     ],
+     [
+      7189,
+      17
+     ],
+     [
+      7469,
+      18
+     ],
+     [
+      8469,
+      19
+     ],
+     [
+      8629,
+      20
+     ],
+     [
+      9129,
+      21
+     ],
+     [
+      9310,
+      22
+     ],
+     [
+      10409,
+      23
+     ],
+     [
+      10669,
+      24
+     ],
+     [
+      11149,
+      25
+     ],
+     [
+      11289,
+      26
+     ],
+     [
+      11549,
+      27
+     ],
+     [
+      11869,
+      28
+     ],
+     [
+      12089,
+      29
+     ],
+     [
+      12270,
+      30
+     ],
+     [
+      12430,
+      31
+     ],
+     [
+      13209,
+      32
+     ],
+     [
+      13469,
+      33
+     ],
+     [
+      15149,
+      34
+     ],
+     [
+      15430,
+      35
+     ],
+     [
+      15649,
+      36
+     ],
+     [
+      16030,
+      37
+     ],
+     [
+      16229,
+      38
+     ],
+     [
+      16589,
+      39
+     ]
+    ]
+   },
+   "p4h-s": {
+    "s": 128406,
+    "d": 1892,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      986,
+      1
+     ],
+     [
+      1419,
+      2
+     ]
+    ]
+   },
+   "p4h-hubu": {
+    "s": 130599,
+    "d": 4139,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2650,
+      4
+     ],
+     [
+      2769,
+      5
+     ],
+     [
+      3369,
+      6
+     ],
+     [
+      3569,
+      7
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 135038,
+    "d": 3569,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      3209,
+      8
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 138908,
+    "d": 2387,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1609,
+      5
+     ],
+     [
+      1790,
+      6
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 141595,
+    "d": 2525,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      1949,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 144420,
+    "d": 23292,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1209,
+      5
+     ],
+     [
+      2269,
+      6
+     ],
+     [
+      2430,
+      7
+     ],
+     [
+      2969,
+      8
+     ],
+     [
+      3229,
+      9
+     ],
+     [
+      4330,
+      10
+     ],
+     [
+      4689,
+      11
+     ],
+     [
+      5029,
+      12
+     ],
+     [
+      5149,
+      13
+     ],
+     [
+      5310,
+      14
+     ],
+     [
+      5809,
+      15
+     ],
+     [
+      6729,
+      16
+     ],
+     [
+      6829,
+      17
+     ],
+     [
+      7009,
+      18
+     ],
+     [
+      7189,
+      19
+     ],
+     [
+      7989,
+      20
+     ],
+     [
+      8469,
+      21
+     ],
+     [
+      9589,
+      22
+     ],
+     [
+      10589,
+      23
+     ],
+     [
+      11109,
+      24
+     ],
+     [
+      11270,
+      25
+     ],
+     [
+      11469,
+      26
+     ],
+     [
+      11569,
+      27
+     ],
+     [
+      11709,
+      28
+     ],
+     [
+      12169,
+      29
+     ],
+     [
+      12829,
+      30
+     ],
+     [
+      13049,
+      31
+     ],
+     [
+      13829,
+      32
+     ],
+     [
+      14289,
+      33
+     ],
+     [
+      14864,
+      34
+     ],
+     [
+      15509,
+      35
+     ],
+     [
+      16049,
+      36
+     ],
+     [
+      16370,
+      37
+     ],
+     [
+      17249,
+      38
+     ],
+     [
+      17469,
+      39
+     ],
+     [
+      17889,
+      40
+     ],
+     [
+      18209,
+      41
+     ],
+     [
+      19110,
+      42
+     ],
+     [
+      19229,
+      43
+     ],
+     [
+      19569,
+      44
+     ],
+     [
+      20690,
+      45
+     ],
+     [
+      21009,
+      46
+     ],
+     [
+      21369,
+      47
+     ],
+     [
+      21549,
+      48
+     ],
+     [
+      22060,
+      49
+     ],
+     [
+      22606,
+      50
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 168013,
+    "d": 1172,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      569,
+      2
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 169486,
+    "d": 2612,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2150,
+      5
+     ]
+    ]
+   },
+   "p5h-hubu": {
+    "s": 172398,
+    "d": 2206,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

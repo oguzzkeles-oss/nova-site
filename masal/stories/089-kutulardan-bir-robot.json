@@ -1,0 +1,3137 @@
+{
+ "id": "089-kutulardan-bir-robot",
+ "n": 89,
+ "title": "Tıkır: Kapaklardan Bir Robot",
+ "age": "60-72",
+ "area": "Sanat",
+ "theme": "Atıkları yeniden kullanarak birlikte tasarım yapma",
+ "values": [
+  "D17 Tasarruf"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 5,
+ "blurb": "Yağmurlu bir günde Can ile Elif, geri dönüşüme gidecek şişe kapaklarını ve kâğıt ruloları kurtarır. Aceleyle yaptıkları robot paldır küldür yıkılınca Elif'in sıralı planı ve babanın bandıyla gülen bir robot doğar: Tıkır!",
+ "codes": {
+  "maarif": [
+   "HSAB.2 Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme (HSAB.2.ç Çeşitli nesneleri kullanarak özgün ürünler oluşturur)",
+   "SNAB.4 Sanat etkinliği uygulayabilme (teyitsiz; alan becerisi SNAB4)",
+   "OB8 Sürdürülebilirlik Okuryazarlığı"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "can": "cocuk-erkek",
+  "elif": "cocuk-kiz",
+  "baba": "baba",
+  "tikir": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "can": "Can",
+  "elif": "Elif",
+  "baba": "Baba",
+  "tikir": "Tıkır (robot)"
+ },
+ "pages": [
+  {
+   "text": "Yağmurlu bir cumartesiydi. Baba atıkları ayırıyordu. Şişe kapakları, kâğıt rulolar geri dönüşüme gidecekti. Elif ile Can'ın gözleri parladı: “Dur, baba! Bunlarla oynayabilir miyiz?” Baba güldü: “Olur!” Can kapakları sandığa topladı. Tıkır, tıkır! Bir de kocaman bir kavanoz kapağı buldular.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 52,
+      "y": 230,
+      "s": 1,
+      "mood": "surprised",
+      "pose": "open",
+      "turn": 0.5,
+      "hit": "elif"
+     },
+     {
+      "k": "can",
+      "x": 126,
+      "y": 218,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "can"
+     },
+     {
+      "k": "baba",
+      "beard": true,
+      "x": 340,
+      "y": 220,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "<g><rect x=\"-15\" y=\"-9\" width=\"30\" height=\"16\" rx=\"3\" fill=\"#D9A86C\" stroke=\"#9A6A36\" stroke-width=\"1\"/><rect x=\"-12\" y=\"-7\" width=\"20\" height=\"3\" rx=\"1.5\" fill=\"#fff\" opacity=\".35\"/><ellipse cx=\"15\" cy=\"-1\" rx=\"4.2\" ry=\"8\" fill=\"#E6BE88\" stroke=\"#9A6A36\" stroke-width=\"1\"/><ellipse cx=\"15\" cy=\"-1\" rx=\"2.2\" ry=\"4.4\" fill=\"#8A5A2E\"/></g>",
+      "flip": true,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E4574F",
+      "x": 150,
+      "y": 236,
+      "s": 0.9,
+      "hit": "p1"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#F2B632",
+      "x": 174,
+      "y": 226,
+      "s": 0.9,
+      "hit": "p2"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#4DA3E0",
+      "x": 198,
+      "y": 238,
+      "s": 0.9,
+      "hit": "p3"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#6DB54B",
+      "x": 222,
+      "y": 226,
+      "s": 0.9,
+      "hit": "p4"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#9C6ADE",
+      "x": 246,
+      "y": 236,
+      "s": 0.9,
+      "hit": "p5"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 176,
+      "y": 204,
+      "s": 1.05,
+      "z": 204
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 190.7,
+      "y": 204.6,
+      "s": 0.756,
+      "z": 204.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 190.3,
+      "y": 198.5,
+      "s": 0.357,
+      "z": 204.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#E0B57A",
+      "x": 210,
+      "y": 204,
+      "s": 1.05,
+      "z": 204
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 224.7,
+      "y": 204.6,
+      "s": 0.756,
+      "z": 204.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 224.3,
+      "y": 198.5,
+      "s": 0.357,
+      "z": 204.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 193,
+      "y": 187,
+      "s": 1.0,
+      "z": 203
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 207.0,
+      "y": 187.6,
+      "s": 0.72,
+      "z": 203.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 206.6,
+      "y": 181.8,
+      "s": 0.34,
+      "z": 203.02
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#AEB9C6",
+      "x": 244,
+      "y": 206,
+      "s": 1.25,
+      "z": 206
+     },
+     {
+      "k": "oyuncak-kutusu",
+      "x": 290,
+      "y": 234,
+      "s": 1.15,
+      "state": "off",
+      "hit": "sandik"
+     },
+     {
+      "k": "geri-donusum",
+      "type": "plastik",
+      "x": 378,
+      "y": 236,
+      "s": 0.8,
+      "hit": "kutu"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Dur baba! Önce oynayalım!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "can": {
+     "say": "Kapakları ben toplarım!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "baba": {
+     "say": "Olur, hadi bakalım!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "sandik": {
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "kutu": {
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "p1",
+     "p2",
+     "p3",
+     "p4",
+     "p5"
+    ],
+    "to": [
+     294,
+     202
+    ],
+    "done": "Beş kapak sandıkta! Şimdi ne yapsak?",
+    "msg": "Hepsi sandıkta!"
+   },
+   "hint": [
+    "p1",
+    "Kapakları sandığa taşı!"
+   ],
+   "ask": "Evinizde neler atılıyor? Sen onlardan ne yapardın?"
+  },
+  {
+   "text": "Can zıpladı: “Bir robot yapalım!” Hemen rulo üstüne rulo dizdi. En üste kocaman kapağı koydu. Robot sallandı, sallandı… Paldır küldür! Rulolar halıya yuvarlandı. Kapak da tekerlek gibi kaçtı: tıngır mıngır!",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 58,
+      "y": 222,
+      "s": 0.95,
+      "mood": "surprised",
+      "pose": "open",
+      "turn": 0.6,
+      "hit": "elif"
+     },
+     {
+      "k": "can",
+      "x": 150,
+      "y": 232,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "open",
+      "turn": 0.4,
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 200,
+      "y": 224,
+      "s": 1.2,
+      "hit": "r1",
+      "z": 224
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 216.8,
+      "y": 224.6,
+      "s": 0.864,
+      "z": 224.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 216.3,
+      "y": 218.5,
+      "s": 0.408,
+      "z": 224.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#E0B57A",
+      "x": 236,
+      "y": 236,
+      "s": 1.2,
+      "hit": "r2",
+      "z": 236
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 252.8,
+      "y": 236.6,
+      "s": 0.864,
+      "z": 236.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 252.3,
+      "y": 230.5,
+      "s": 0.408,
+      "z": 236.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 262,
+      "y": 214,
+      "s": 1.2,
+      "hit": "r3",
+      "z": 214
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 278.8,
+      "y": 214.6,
+      "s": 0.864,
+      "z": 214.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 278.3,
+      "y": 208.5,
+      "s": 0.408,
+      "z": 214.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 222,
+      "y": 208,
+      "s": 1.1,
+      "hit": "r4",
+      "z": 208
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 237.4,
+      "y": 208.6,
+      "s": 0.792,
+      "z": 208.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 237.0,
+      "y": 202.9,
+      "s": 0.374,
+      "z": 208.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#E0B57A",
+      "x": 292,
+      "y": 232,
+      "s": 1.2,
+      "hit": "r5",
+      "z": 232
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 308.8,
+      "y": 232.6,
+      "s": 0.864,
+      "z": 232.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 308.3,
+      "y": 226.5,
+      "s": 0.408,
+      "z": 232.02
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#AEB9C6",
+      "x": 352,
+      "y": 228,
+      "s": 1.5,
+      "face": true,
+      "mood": "surprised",
+      "hit": "kapak"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Eyvah! Robotum yıkıldı!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Paldır küldür!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "r": {
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "kapak": {
+     "anim": "spinme",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "kapak",
+    "Kaçan kapağa dokun!"
+   ],
+   "ask": "Sence robot neden yıkıldı?"
+  },
+  {
+   "text": "Can hayal kırıklığına uğradı. Omuzları düştü, boğazı düğümlendi. “Olmuyor işte!” dedi. Elif yanına geldi. “Gel, önce derin bir nefes alalım.” Ffff… Can biraz rahatladı. Elif gülümsedi: “Bir fikrim var!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 140,
+      "y": 226,
+      "s": 1,
+      "mood": "happy",
+      "pose": "hug",
+      "turn": 0.6,
+      "hit": "elif"
+     },
+     {
+      "k": "can",
+      "x": 224,
+      "y": 230,
+      "s": 1,
+      "mood": "sad",
+      "pose": "sit",
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 296,
+      "y": 228,
+      "s": 1.1,
+      "z": 228
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 311.4,
+      "y": 228.6,
+      "s": 0.792,
+      "z": 228.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 311.0,
+      "y": 222.9,
+      "s": 0.374,
+      "z": 228.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 326,
+      "y": 238,
+      "s": 1.1,
+      "z": 238
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 341.4,
+      "y": 238.6,
+      "s": 0.792,
+      "z": 238.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 341.0,
+      "y": 232.9,
+      "s": 0.374,
+      "z": 238.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#E0B57A",
+      "x": 310,
+      "y": 212,
+      "s": 1.1,
+      "z": 212
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 325.4,
+      "y": 212.6,
+      "s": 0.792,
+      "z": 212.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 325.0,
+      "y": 206.9,
+      "s": 0.374,
+      "z": 212.02
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#AEB9C6",
+      "x": 362,
+      "y": 230,
+      "s": 1.2
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Olmuyor işte!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "blow"
+    },
+    "elif": {
+     "say": "Bir fikrim var!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "chime"
+    }
+   },
+   "predict": {
+    "q": "Sence Elif'in fikri ne?",
+    "res": "Hadi görelim!",
+    "opts": [
+     {
+      "l": "Sırayla dizmek",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "elif",
+         "x": 70,
+         "y": 226,
+         "s": 1,
+         "mood": "happy",
+         "pose": "point",
+         "turn": 0.6
+        }
+       ],
+       "props": [
+        {
+         "k": "sekil",
+         "shape": "rectangle",
+         "color": "#D9A86C",
+         "x": 160,
+         "y": 232,
+         "s": 1.1,
+         "z": 232
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#E6BE88",
+         "x": 175.4,
+         "y": 232.6,
+         "s": 0.792,
+         "z": 232.01
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#8A5A2E",
+         "x": 175.0,
+         "y": 226.9,
+         "s": 0.374,
+         "z": 232.02
+        },
+        {
+         "k": "sekil",
+         "shape": "rectangle",
+         "color": "#D9A86C",
+         "x": 196,
+         "y": 232,
+         "s": 1.1,
+         "z": 232
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#E6BE88",
+         "x": 211.4,
+         "y": 232.6,
+         "s": 0.792,
+         "z": 232.01
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#8A5A2E",
+         "x": 211.0,
+         "y": 226.9,
+         "s": 0.374,
+         "z": 232.02
+        },
+        {
+         "k": "sekil",
+         "shape": "rectangle",
+         "color": "#C99A5E",
+         "x": 250,
+         "y": 226,
+         "s": 1.1,
+         "z": 226
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#E6BE88",
+         "x": 265.4,
+         "y": 226.6,
+         "s": 0.792,
+         "z": 226.01
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#8A5A2E",
+         "x": 265.0,
+         "y": 220.9,
+         "s": 0.374,
+         "z": 226.02
+        },
+        {
+         "k": "sekil",
+         "shape": "rectangle",
+         "color": "#E0B57A",
+         "x": 250,
+         "y": 207,
+         "s": 1.1,
+         "z": 207
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#E6BE88",
+         "x": 265.4,
+         "y": 207.6,
+         "s": 0.792,
+         "z": 207.01
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#8A5A2E",
+         "x": 265.0,
+         "y": 201.9,
+         "s": 0.374,
+         "z": 207.02
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#AEB9C6",
+         "x": 318,
+         "y": 230,
+         "s": 1.4,
+         "face": true,
+         "mood": "happy"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Babadan yardım",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "can",
+         "x": 120,
+         "y": 230,
+         "s": 1,
+         "mood": "happy",
+         "pose": "wave",
+         "turn": 0.5
+        },
+        {
+         "k": "baba",
+         "beard": true,
+         "x": 250,
+         "y": 224,
+         "s": 0.95,
+         "mood": "laugh",
+         "pose": "open",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "sekil",
+         "shape": "rectangle",
+         "color": "#D9A86C",
+         "x": 330,
+         "y": 232,
+         "s": 1.1,
+         "z": 232
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#E6BE88",
+         "x": 345.4,
+         "y": 232.6,
+         "s": 0.792,
+         "z": 232.01
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#8A5A2E",
+         "x": 345.0,
+         "y": 226.9,
+         "s": 0.374,
+         "z": 232.02
+        },
+        {
+         "k": "sekil",
+         "shape": "rectangle",
+         "color": "#E0B57A",
+         "x": 350,
+         "y": 214,
+         "s": 1.1,
+         "z": 214
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#E6BE88",
+         "x": 365.4,
+         "y": 214.6,
+         "s": 0.792,
+         "z": 214.01
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#8A5A2E",
+         "x": 365.0,
+         "y": 208.9,
+         "s": 0.374,
+         "z": 214.02
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "color": "#AEB9C6",
+         "x": 376,
+         "y": 232,
+         "s": 1.1
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Bir şey olmayınca sen ne hissedersin? Bedeninde ne olur?"
+  },
+  {
+   "text": "Elif bir plan yaptı: “Önce iki ayak, geniş dursun! Sonra gövde, sonra kollar, en son kafa!” Baba bağdaş kurup oturdu, parçaları bantladı. Cırt, cırt! Can ruloları uzattı, Elif yerleştirdi.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 44,
+      "y": 230,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "elif"
+     },
+     {
+      "k": "can",
+      "x": 108,
+      "y": 222,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "<g><rect x=\"-15\" y=\"-9\" width=\"30\" height=\"16\" rx=\"3\" fill=\"#D9A86C\" stroke=\"#9A6A36\" stroke-width=\"1\"/><rect x=\"-12\" y=\"-7\" width=\"20\" height=\"3\" rx=\"1.5\" fill=\"#fff\" opacity=\".35\"/><ellipse cx=\"15\" cy=\"-1\" rx=\"4.2\" ry=\"8\" fill=\"#E6BE88\" stroke=\"#9A6A36\" stroke-width=\"1\"/><ellipse cx=\"15\" cy=\"-1\" rx=\"2.2\" ry=\"4.4\" fill=\"#8A5A2E\"/></g>",
+      "turn": 0.5,
+      "hit": "can"
+     },
+     {
+      "k": "baba",
+      "beard": true,
+      "x": 358,
+      "y": 234,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "turn": 0.4,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#E0B57A",
+      "x": 140,
+      "y": 236,
+      "s": 1.3,
+      "z": 235
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#E0B57A",
+      "x": 168,
+      "y": 236,
+      "s": 1.3,
+      "z": 236,
+      "hit": "ayak"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 212,
+      "y": 236,
+      "s": 1.3,
+      "z": 236,
+      "hit": "govde"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 230.2,
+      "y": 236.7,
+      "s": 0.936,
+      "z": 236.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 229.7,
+      "y": 229.2,
+      "s": 0.442,
+      "z": 236.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 212,
+      "y": 214,
+      "s": 1.3,
+      "z": 214
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 230.2,
+      "y": 214.7,
+      "s": 0.936,
+      "z": 214.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 229.7,
+      "y": 207.2,
+      "s": 0.442,
+      "z": 214.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 212,
+      "y": 192,
+      "s": 1.3,
+      "z": 192
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 230.2,
+      "y": 192.7,
+      "s": 0.936,
+      "z": 192.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 229.7,
+      "y": 185.2,
+      "s": 0.442,
+      "z": 192.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 278,
+      "y": 221,
+      "s": 1.15,
+      "z": 221
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 294.1,
+      "y": 221.6,
+      "s": 0.828,
+      "z": 221.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 293.6,
+      "y": 215.0,
+      "s": 0.391,
+      "z": 221.02
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 262,
+      "y": 238,
+      "s": 1.25,
+      "z": 238,
+      "hit": "kol"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 279.5,
+      "y": 238.7,
+      "s": 0.9,
+      "z": 238.01
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 279.0,
+      "y": 231.5,
+      "s": 0.425,
+      "z": 238.02
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#AEB9C6",
+      "x": 314,
+      "y": 236,
+      "s": 1.5,
+      "face": true,
+      "mood": "calm",
+      "hit": "kafa",
+      "z": 236
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Önce iki ayak, en son kafa!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "baba": {
+     "say": "Ben bantlarım, cırt cırt!",
+     "voice": "baba",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "can": {
+     "say": "Al Elif, bir rulo daha!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "ayak",
+     "govde",
+     "kol",
+     "kafa"
+    ],
+    "done": "Robot dimdik durdu! Hiç sallanmadı!",
+    "msg": "Robot ayakta!"
+   },
+   "hint": [
+    "ayak",
+    "Önce ayakları diz!"
+   ],
+   "ask": "Elif'in planı neydi? Sırayı sen söyler misin?",
+   "cues": [
+    {
+     "w": 22,
+     "fx": "fermuar"
+    }
+   ]
+  },
+  {
+   "text": "Robot ayaktaydı ama hiç düğmesi yoktu. Can renkli kapakları gövdesine tek tek yapıştırdı. Tık, tık, tık! Elif de tepesine bir anten taktı. Robotun kaç düğmesi oldu? Hadi, birlikte sayalım!",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "can",
+      "x": 66,
+      "y": 230,
+      "s": 1,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "can"
+     },
+     {
+      "k": "elif",
+      "x": 340,
+      "y": 228,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "turn": -0.5,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#E0B57A",
+      "x": 180.0,
+      "y": 230,
+      "s": 1.08,
+      "z": 230
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#E0B57A",
+      "x": 220.0,
+      "y": 230,
+      "s": 1.08,
+      "z": 230
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 180.0,
+      "y": 206.25,
+      "s": 1.375,
+      "z": 230.1
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 160.8,
+      "y": 206.9,
+      "s": 0.99,
+      "z": 230.10999999999999
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 161.3,
+      "y": 199.9,
+      "s": 0.468,
+      "z": 230.12
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 220.0,
+      "y": 206.25,
+      "s": 1.375,
+      "z": 230.1
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 239.2,
+      "y": 206.9,
+      "s": 0.99,
+      "z": 230.10999999999999
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 238.7,
+      "y": 199.9,
+      "s": 0.468,
+      "z": 230.12
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#E0B57A",
+      "x": 180.0,
+      "y": 182.5,
+      "s": 1.375,
+      "z": 230.2
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 160.8,
+      "y": 183.2,
+      "s": 0.99,
+      "z": 230.20999999999998
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 161.3,
+      "y": 176.2,
+      "s": 0.468,
+      "z": 230.22
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#E0B57A",
+      "x": 220.0,
+      "y": 182.5,
+      "s": 1.375,
+      "z": 230.2
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 239.2,
+      "y": 183.2,
+      "s": 0.99,
+      "z": 230.20999999999998
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 238.7,
+      "y": 176.2,
+      "s": 0.468,
+      "z": 230.22
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 180.0,
+      "y": 158.75,
+      "s": 1.375,
+      "z": 230.29999999999998
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 160.8,
+      "y": 159.4,
+      "s": 0.99,
+      "z": 230.30999999999997
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 161.3,
+      "y": 152.4,
+      "s": 0.468,
+      "z": 230.32
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 220.0,
+      "y": 158.75,
+      "s": 1.375,
+      "z": 230.29999999999998
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 239.2,
+      "y": 159.4,
+      "s": 0.99,
+      "z": 230.30999999999997
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 238.7,
+      "y": 152.4,
+      "s": 0.468,
+      "z": 230.32
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 143.75,
+      "y": 172.5,
+      "s": 1.25,
+      "z": 229.5
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 126.2,
+      "y": 173.1,
+      "s": 0.9,
+      "z": 229.51
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 126.8,
+      "y": 166.8,
+      "s": 0.425,
+      "z": 229.52
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 258.75,
+      "y": 172.5,
+      "s": 1.25,
+      "z": 229.5
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 276.2,
+      "y": 173.1,
+      "s": 0.9,
+      "z": 229.51
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 275.8,
+      "y": 166.8,
+      "s": 0.425,
+      "z": 229.52
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#AEB9C6",
+      "x": 201.25,
+      "y": 135.0,
+      "s": 2.25,
+      "face": true,
+      "mood": "calm",
+      "hit": "tikir",
+      "z": 231
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E4574F",
+      "x": 201.25,
+      "y": 82.5,
+      "s": 0.625,
+      "z": 231.1
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E4574F",
+      "x": 180.0,
+      "y": 155.0,
+      "s": 0.75,
+      "hit": "d1",
+      "z": 235
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#F2B632",
+      "x": 220.0,
+      "y": 155.0,
+      "s": 0.75,
+      "hit": "d2",
+      "z": 235
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#4DA3E0",
+      "x": 180.0,
+      "y": 181.25,
+      "s": 0.75,
+      "hit": "d3",
+      "z": 235
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#6DB54B",
+      "x": 220.0,
+      "y": 181.25,
+      "s": 0.75,
+      "hit": "d4",
+      "z": 235
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#9C6ADE",
+      "x": 200.0,
+      "y": 203.75,
+      "s": 0.75,
+      "hit": "d5",
+      "z": 235
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Tık, tık, tık!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "click"
+    },
+    "elif": {
+     "say": "Anten de benden!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "tikir": {
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "d1",
+     "d2",
+     "d3",
+     "d4",
+     "d5"
+    ],
+    "done": "Tam beş düğme! Robot hazır!",
+    "msg": "Beş düğme!"
+   },
+   "hint": [
+    "d1",
+    "Düğmeleri say!"
+   ],
+   "ask": "Sen robotuna kaç düğme koyardın? Hangi renkler?",
+   "cues": [
+    {
+     "w": 13,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Robotun adı Tıkır oldu. Can ile Elif, Tıkır'ın etrafında dans etti. Baba da katıldı, hep birlikte güldüler. Kapaklar, rulolar… Hiçbiri boşa gitmedi. Tıkır da tıkır tıkır güldü!",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "can",
+      "x": 82,
+      "y": 224,
+      "s": 1,
+      "mood": "laugh",
+      "pose": "jump",
+      "turn": 0.5,
+      "hit": "can"
+     },
+     {
+      "k": "elif",
+      "x": 312,
+      "y": 232,
+      "s": 1,
+      "mood": "laugh",
+      "pose": "wave",
+      "flip": true,
+      "hit": "elif"
+     },
+     {
+      "k": "baba",
+      "beard": true,
+      "x": 370,
+      "y": 212,
+      "s": 0.86,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#E0B57A",
+      "x": 178.4,
+      "y": 226,
+      "s": 0.95,
+      "z": 226
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#E0B57A",
+      "x": 213.6,
+      "y": 226,
+      "s": 0.95,
+      "z": 226
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 178.4,
+      "y": 205.1,
+      "s": 1.2100000000000002,
+      "z": 226.1
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 161.5,
+      "y": 205.7,
+      "s": 0.871,
+      "z": 226.10999999999999
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 161.9,
+      "y": 199.5,
+      "s": 0.411,
+      "z": 226.12
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 213.6,
+      "y": 205.1,
+      "s": 1.2100000000000002,
+      "z": 226.1
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 230.5,
+      "y": 205.7,
+      "s": 0.871,
+      "z": 226.10999999999999
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 230.1,
+      "y": 199.5,
+      "s": 0.411,
+      "z": 226.12
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#E0B57A",
+      "x": 178.4,
+      "y": 184.2,
+      "s": 1.2100000000000002,
+      "z": 226.2
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 161.5,
+      "y": 184.8,
+      "s": 0.871,
+      "z": 226.20999999999998
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 161.9,
+      "y": 178.6,
+      "s": 0.411,
+      "z": 226.22
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#E0B57A",
+      "x": 213.6,
+      "y": 184.2,
+      "s": 1.2100000000000002,
+      "z": 226.2
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 230.5,
+      "y": 184.8,
+      "s": 0.871,
+      "z": 226.20999999999998
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 230.1,
+      "y": 178.6,
+      "s": 0.411,
+      "z": 226.22
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 178.4,
+      "y": 163.3,
+      "s": 1.2100000000000002,
+      "z": 226.29999999999998
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 161.5,
+      "y": 163.9,
+      "s": 0.871,
+      "z": 226.30999999999997
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 161.9,
+      "y": 157.7,
+      "s": 0.411,
+      "z": 226.32
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#C99A5E",
+      "x": 213.6,
+      "y": 163.3,
+      "s": 1.2100000000000002,
+      "z": 226.29999999999998
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 230.5,
+      "y": 163.9,
+      "s": 0.871,
+      "z": 226.30999999999997
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 230.1,
+      "y": 157.7,
+      "s": 0.411,
+      "z": 226.32
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 146.5,
+      "y": 175.4,
+      "s": 1.1,
+      "z": 225.5
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 131.1,
+      "y": 176.0,
+      "s": 0.792,
+      "z": 225.51
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 131.5,
+      "y": 170.3,
+      "s": 0.374,
+      "z": 225.52
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#D9A86C",
+      "x": 247.7,
+      "y": 175.4,
+      "s": 1.1,
+      "z": 225.5
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E6BE88",
+      "x": 263.1,
+      "y": 176.0,
+      "s": 0.792,
+      "z": 225.51
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#8A5A2E",
+      "x": 262.7,
+      "y": 170.3,
+      "s": 0.374,
+      "z": 225.52
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#AEB9C6",
+      "x": 197.1,
+      "y": 142.39999999999998,
+      "s": 1.9800000000000002,
+      "face": true,
+      "mood": "laugh",
+      "hit": "tikir",
+      "z": 227
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E4574F",
+      "x": 197.1,
+      "y": 96.19999999999999,
+      "s": 0.55,
+      "z": 227.1
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#E4574F",
+      "x": 178.4,
+      "y": 160.0,
+      "s": 0.66,
+      "z": 231
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#F2B632",
+      "x": 213.6,
+      "y": 160.0,
+      "s": 0.66,
+      "z": 231
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#4DA3E0",
+      "x": 178.4,
+      "y": 183.1,
+      "s": 0.66,
+      "z": 231
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#6DB54B",
+      "x": 213.6,
+      "y": 183.1,
+      "s": 0.66,
+      "z": 231
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#9C6ADE",
+      "x": 196.0,
+      "y": 202.9,
+      "s": 0.66,
+      "z": 231
+     },
+     {
+      "k": "heart",
+      "x": 150,
+      "y": 110,
+      "s": 0.7
+     }
+    ]
+   },
+   "hits": {
+    "tikir": {
+     "say": "Tıkır tıkır, merhaba!",
+     "voice": "tikir",
+     "anim": "jump",
+     "fx": "xylo"
+    },
+    "can": {
+     "say": "Tıkır, dans edelim!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Hiçbiri boşa gitmedi!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "baba": {
+     "say": "Ben de dans ederim!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "drum"
+    }
+   },
+   "hint": [
+    "tikir",
+    "Tıkır'a dokun!"
+   ],
+   "ask": "Sen kapaklardan ve rulolardan ne yapmak isterdin?"
+  }
+ ],
+ "order": [
+  0,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.2 (öğrenme çıktısı) · Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme — HSAB.2.a farklı büyüklükteki nesneleri kavrar, HSAB.2.ç çeşitli nesneleri kullanarak özgün ürünler oluşturur: Can ile Elif küçük şişe kapaklarını, büyük kavanoz kapağını ve kâğıt ruloları birleştirip kendi robotlarını yapar.",
+   "SNAB.4 (öğrenme çıktısı, teyitsiz) · Sanat etkinliği uygulayabilme — yapacağı etkinliğe karar verir (“Bir robot yapalım!”), gerekli materyalleri seçer (kapak, rulo, bant), modelleme materyalleriyle üç boyutlu tasarım yapar. Alan becerisi: SNAB4 Sanatsal Uygulama Yapma.",
+   "OB8 Sürdürülebilirlik Okuryazarlığı · Geri dönüşüme gidecek atıkların önce yeniden kullanılabileceğini fark eder; “Hiçbiri boşa gitmedi.”",
+   "SDB2.2 İş Birliği · Görev paylaşımı: Elif plan yapar ve yerleştirir, Can parçaları uzatır ve düğmeleri yapıştırır, baba bantlar; birlikte tek başına olmayan işi başarırlar.",
+   "D17 Tasarruf · Elindeki malzemeyi atmadan önce “Bununla ne yapabilirim?” diye düşünür, eskiyi yeni bir oyuncağa dönüştürür."
+  ],
+  "once": [
+   "Temiz bir şişe kapağı ve boş bir kâğıt rulo gösterin: “Bunlar çöp mü, hazine mi? Bunlarla ne yapabiliriz?”",
+   "Kapaktaki Can, Elif ve babayı tanıtın: “Sence robotu nasıl yapacaklar?”",
+   "Evde geri dönüşüm kutusu olup olmadığını, içine neler atıldığını konuşun."
+  ],
+  "sirasi": [
+   "1. sayfada kapakları birlikte sayın: beş renkli kapak ve bir kocaman kavanoz kapağı. “Tıkır, tıkır!” deyin.",
+   "2. sayfada durun: “Robot neden yıkıldı?” Aceleyi ve sırasız dizmeyi konuşun.",
+   "3. sayfada Can'ın omuzlarını gösterin: “Can ne hissediyor?” Birlikte derin bir nefes alın. Tahminde iki fikri de kabul edin.",
+   "4. sayfada Elif'in planını hep bir ağızdan tekrar edin: “Önce iki ayak, sonra gövde, sonra kollar, en son kafa!” Neden iki ayak? Tek ayakla durmayı deneyin.",
+   "5. sayfada düğmeleri parmakla birlikte sayın; renklerini söyleyin."
+  ],
+  "sonra": [
+   "Olayları sırayla anlattırın: parçaları topladılar → robot yıkıldı → Elif plan yaptı → sırayla dizdiler → düğmeleri taktılar → Tıkır doğdu.",
+   "“Kim ne yaptı?” diye sorun: Elif planladı, Can uzattı ve yapıştırdı, baba bantladı. Her görevin önemini konuşun.",
+   "“Bir işi sırayla yapınca neden daha kolay oldu?” diye sorun; çocukların kendi örneklerini dinleyin."
+  ],
+  "sinif": {
+   "ad": "Sınıfın Kapak-Rulo Robotu",
+   "sure": "25 dk",
+   "materyal": "Temizlenmiş plastik şişe kapakları, kâğıt havlu ruloları, geniş kâğıt bant, çocuk makası, boya kalemleri (keskin kenarlı kapak ve konserve kutusu kullanmayın). Küçük kapaklarla çalışırken yakından gözetin; hijyen için tuvalet kâğıdı rulosu yerine kâğıt havlu rulosu tercih edin.",
+   "adim": [
+    "Malzemeleri halıya dökün; çocuklar büyük-küçük, kapak-rulo diye gruplasın.",
+    "Küçük gruplar Elif'in planını uygulasın: önce iki ayak (geniş dursun), sonra gövde, sonra kollar, en son kafa. Bandı yetişkin keser; bir çocuk tutar, bir çocuk yapıştırır.",
+    "Her grup robotuna kapak düğmeler yapıştırsın, düğmeleri saysın ve robotuna bir ad versin.",
+    "Robotlar sergilensin; her grup “Robotumuzu nasıl yaptık?” sorusunu sırayla anlatsın."
+   ]
+  },
+  "evSoru": [
+   "Robot neden ilk seferde yıkıldı?",
+   "Can üzülünce ne yaptı? Sen üzülünce ne yaparsın?",
+   "Tıkır'ın kaç düğmesi vardı? Hangi renklerdeydi?"
+  ],
+  "evEtk": {
+   "ad": "Atmadan Önce Düşün Kutusu",
+   "d": "Bir hafta boyunca temiz kapakları, ruloları ve kâğıtları bir kutuda biriktirin. Hafta sonu birlikte bunlardan bir oyuncak, bir hayvan ya da bir robot yapın; kalan parçaları geri dönüşüm kutusuna birlikte ayırın."
+  },
+  "aileNotu": "Bugün “Tıkır: Kapaklardan Bir Robot” masalını okuduk. Can ile Elif, geri dönüşüme gidecek şişe kapaklarından ve kâğıt rulolardan babalarıyla birlikte bir robot yaptı. Robot ilk seferde yıkılınca Can derin nefes aldı; Elif sıralı bir plan önerdi. Evde atmadan önce “Bununla ne yapabiliriz?” diye birlikte sormanızı, bant ve makas işlerinde çocuğunuza eşlik etmenizi öneririz."
+ },
+ "audio": {
+  "file": "audio/089-kutulardan-bir-robot.mp3",
+  "hash": "f91ec326",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 20683,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3949,
+      6
+     ],
+     [
+      4249,
+      7
+     ],
+     [
+      5069,
+      8
+     ],
+     [
+      5469,
+      9
+     ],
+     [
+      6089,
+      10
+     ],
+     [
+      6309,
+      11
+     ],
+     [
+      6769,
+      12
+     ],
+     [
+      7789,
+      13
+     ],
+     [
+      8049,
+      14
+     ],
+     [
+      8249,
+      15
+     ],
+     [
+      8609,
+      16
+     ],
+     [
+      9089,
+      17
+     ],
+     [
+      9909,
+      18
+     ],
+     [
+      10149,
+      19
+     ],
+     [
+      10749,
+      20
+     ],
+     [
+      11189,
+      21
+     ],
+     [
+      11730,
+      22
+     ],
+     [
+      12469,
+      23
+     ],
+     [
+      12789,
+      24
+     ],
+     [
+      13549,
+      25
+     ],
+     [
+      14369,
+      26
+     ],
+     [
+      14689,
+      27
+     ],
+     [
+      15249,
+      28
+     ],
+     [
+      15709,
+      29
+     ],
+     [
+      16489,
+      30
+     ],
+     [
+      17110,
+      31
+     ],
+     [
+      17930,
+      32
+     ],
+     [
+      18190,
+      33
+     ],
+     [
+      18469,
+      34
+     ],
+     [
+      19049,
+      35
+     ],
+     [
+      19209,
+      36
+     ],
+     [
+      19649,
+      37
+     ],
+     [
+      20009,
+      38
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 20983,
+    "d": 2116,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      269,
+      1
+     ],
+     [
+      939,
+      2
+     ],
+     [
+      1337,
+      3
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 23400,
+    "d": 1569,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      869,
+      2
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 25270,
+    "d": 1387,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 26957,
+    "d": 2700,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2110,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 29958,
+    "d": 16281,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3289,
+      7
+     ],
+     [
+      3729,
+      8
+     ],
+     [
+      4029,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      5029,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      5989,
+      13
+     ],
+     [
+      6390,
+      14
+     ],
+     [
+      7189,
+      15
+     ],
+     [
+      7609,
+      16
+     ],
+     [
+      8629,
+      17
+     ],
+     [
+      9749,
+      18
+     ],
+     [
+      10289,
+      19
+     ],
+     [
+      11189,
+      20
+     ],
+     [
+      11689,
+      21
+     ],
+     [
+      12029,
+      22
+     ],
+     [
+      13089,
+      23
+     ],
+     [
+      13529,
+      24
+     ],
+     [
+      13669,
+      25
+     ],
+     [
+      14229,
+      26
+     ],
+     [
+      14469,
+      27
+     ],
+     [
+      15189,
+      28
+     ],
+     [
+      15729,
+      29
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 46539,
+    "d": 2448,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      1629,
+      2
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 49287,
+    "d": 1186,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ]
+    ]
+   },
+   "p2": {
+    "s": 50773,
+    "d": 16016,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      2189,
+      4
+     ],
+     [
+      2749,
+      5
+     ],
+     [
+      3529,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      5029,
+      8
+     ],
+     [
+      5609,
+      9
+     ],
+     [
+      6410,
+      10
+     ],
+     [
+      7149,
+      11
+     ],
+     [
+      7469,
+      12
+     ],
+     [
+      7849,
+      13
+     ],
+     [
+      8589,
+      14
+     ],
+     [
+      9190,
+      15
+     ],
+     [
+      9489,
+      16
+     ],
+     [
+      9829,
+      17
+     ],
+     [
+      9930,
+      18
+     ],
+     [
+      10289,
+      19
+     ],
+     [
+      11204,
+      20
+     ],
+     [
+      12189,
+      21
+     ],
+     [
+      12489,
+      22
+     ],
+     [
+      12869,
+      23
+     ],
+     [
+      13850,
+      24
+     ],
+     [
+      14129,
+      25
+     ],
+     [
+      15089,
+      26
+     ],
+     [
+      15229,
+      27
+     ],
+     [
+      15629,
+      28
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 67090,
+    "d": 1376,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      689,
+      1
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 68766,
+    "d": 1124,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      319,
+      1
+     ],
+     [
+      804,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 70190,
+    "d": 1606,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 72097,
+    "d": 740,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 73138,
+    "d": 14798,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      3129,
+      8
+     ],
+     [
+      3869,
+      9
+     ],
+     [
+      4249,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      6129,
+      13
+     ],
+     [
+      6350,
+      14
+     ],
+     [
+      6589,
+      15
+     ],
+     [
+      7390,
+      16
+     ],
+     [
+      7809,
+      17
+     ],
+     [
+      8270,
+      18
+     ],
+     [
+      8589,
+      19
+     ],
+     [
+      9329,
+      20
+     ],
+     [
+      9909,
+      21
+     ],
+     [
+      10730,
+      22
+     ],
+     [
+      11189,
+      23
+     ],
+     [
+      12049,
+      24
+     ],
+     [
+      12329,
+      25
+     ],
+     [
+      12810,
+      26
+     ],
+     [
+      13669,
+      27
+     ],
+     [
+      13969,
+      28
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 88236,
+    "d": 2657,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      978,
+      2
+     ],
+     [
+      1608,
+      3
+     ],
+     [
+      1877,
+      4
+     ],
+     [
+      2147,
+      5
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 91194,
+    "d": 1936,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      345,
+      1
+     ],
+     [
+      1284,
+      2
+     ],
+     [
+      1590,
+      3
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 93430,
+    "d": 1963,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      280,
+      1
+     ],
+     [
+      843,
+      2
+     ],
+     [
+      1084,
+      3
+     ],
+     [
+      1503,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 95693,
+    "d": 2939,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2089,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 98933,
+    "d": 14293,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      3410,
+      6
+     ],
+     [
+      3689,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      4669,
+      9
+     ],
+     [
+      5350,
+      10
+     ],
+     [
+      5629,
+      11
+     ],
+     [
+      5890,
+      12
+     ],
+     [
+      6890,
+      13
+     ],
+     [
+      7349,
+      14
+     ],
+     [
+      7809,
+      15
+     ],
+     [
+      8650,
+      16
+     ],
+     [
+      8989,
+      17
+     ],
+     [
+      9150,
+      18
+     ],
+     [
+      9649,
+      19
+     ],
+     [
+      9789,
+      20
+     ],
+     [
+      10169,
+      21
+     ],
+     [
+      11029,
+      22
+     ],
+     [
+      11489,
+      23
+     ],
+     [
+      11770,
+      24
+     ],
+     [
+      12249,
+      25
+     ],
+     [
+      12930,
+      26
+     ],
+     [
+      13409,
+      27
+     ],
+     [
+      13810,
+      28
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 113527,
+    "d": 1244,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      482,
+      1
+     ],
+     [
+      925,
+      2
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 115071,
+    "d": 1304,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      515,
+      1
+     ],
+     [
+      788,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 116675,
+    "d": 2535,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 119511,
+    "d": 13549,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2370,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      3150,
+      7
+     ],
+     [
+      3569,
+      8
+     ],
+     [
+      4209,
+      9
+     ],
+     [
+      4549,
+      10
+     ],
+     [
+      5209,
+      11
+     ],
+     [
+      5469,
+      12
+     ],
+     [
+      5609,
+      13
+     ],
+     [
+      6390,
+      14
+     ],
+     [
+      6649,
+      15
+     ],
+     [
+      7129,
+      16
+     ],
+     [
+      8089,
+      17
+     ],
+     [
+      8969,
+      18
+     ],
+     [
+      9909,
+      19
+     ],
+     [
+      10430,
+      20
+     ],
+     [
+      10709,
+      21
+     ],
+     [
+      11529,
+      22
+     ],
+     [
+      11930,
+      23
+     ],
+     [
+      12149,
+      24
+     ],
+     [
+      12649,
+      25
+     ],
+     [
+      13049,
+      26
+     ]
+    ]
+   },
+   "p5h-tikir": {
+    "s": 133360,
+    "d": 1725,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1030,
+      2
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 135385,
+    "d": 1672,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1089,
+      2
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 137358,
+    "d": 1595,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      849,
+      2
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 139253,
+    "d": 1094,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      629,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

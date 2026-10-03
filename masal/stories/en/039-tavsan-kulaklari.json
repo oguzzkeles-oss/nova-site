@@ -1,0 +1,1473 @@
+{
+ "id": "039-tavsan-kulaklari",
+ "lang": "en",
+ "title": "Bunny Ears",
+ "theme": "Tying shoelaces, trying without giving up",
+ "blurb": "Before going to the park, Can wants to tie his own laces, but the bow keeps coming undone. “I can't do it!” he says. Grandpa shows him the word “yet” and the bunny ears; from huge to tiny, Can tries and tries until he ties his own bow.",
+ "voiceNames": {
+  "can": "Can",
+  "dede": "Grandpa"
+ },
+ "pages": [
+  {
+   "text": "A bright, sparkly Saturday morning. Cheep cheep, the birds called everyone to the park. Grandpa called: “Come on, Can, off to the park!” Can's laces dangled along the floor. Can was determined: “This time I'll tie them myself!”",
+   "hits": {
+    "can": {
+     "say": "This time I'll tie them myself!"
+    },
+    "dede": {
+     "say": "Come on, Can, off to the park!"
+    }
+   },
+   "hint": "Touch Can!",
+   "ask": "What can you do all by yourself? What would you like to do by yourself?"
+  },
+  {
+   "text": "Can looped the laces and pulled. Whoops, undone! He looped them again. Flop, undone again! Can was very cross. His cheeks grew hot, his hands went stiff. He stamped his foot, thump! “I can't do it!”",
+   "hits": {
+    "can": {
+     "say": "I can't do it!"
+    },
+    "dede": {
+     "say": "No rush, I'm right here."
+    }
+   },
+   "hint": "Touch Can!",
+   "ask": "Why was Can cross? What happens in your body when you're cross?"
+  },
+  {
+   "text": "Grandpa sat beside him. “Not ‘I can't’, but ‘I can't do it yet’,” he said. “I couldn't tie laces at your age either.” Together they took a deep breath. Hhhhh… fwooo! Can's hands relaxed.",
+   "hits": {
+    "can": {
+     "say": "Hhhhh… fwooo."
+    },
+    "dede": {
+     "say": "You can't do it yet. You're learning!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Can will do now?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "He tries again"
+     },
+     {
+      "l": "He asks Grandpa, “Can you show me?”"
+     }
+    ]
+   },
+   "hint": "Breathe with Can!",
+   "ask": "What does “yet” mean? What can't you do yet?"
+  },
+  {
+   "text": "Grandpa folded the two laces into two loops. “Look, this is a bunny ear. And this is the other ear.” He crossed the ears. He tucked one underneath. He pulled, snap! A great big bow! Can laughed: “Bunny ears!”",
+   "hits": {
+    "dede": {
+     "say": "One ear, two ears, cross them, pull!"
+    },
+    "can": {
+     "say": "Bunny ears!"
+    }
+   },
+   "hint": "Touch Grandpa!",
+   "ask": "Make two bunny ears with your fingers! Why do you think they call them ‘bunny ears’?"
+  },
+  {
+   "text": "Can tried with the scarf first. Huge ears, done! Then the teddy's ribbon. Medium ears, done! Last of all, the shoe. The tiny ears slipped away! Again. Again. Snap! Done!",
+   "hits": {
+    "can": {
+     "say": "One ear, two ears…"
+    }
+   },
+   "mech": {
+    "done": "A tiny bow! Can didn't give up.",
+    "msg": "From huge to tiny!"
+   },
+   "hint": "Touch the scarf first!",
+   "ask": "Which was easier: the huge ears or the tiny ears? Why?"
+  },
+  {
+   "text": "Now the other shoe. One ear, two ears, cross them, tuck, pull! Snap! Can jumped up: “I tied them myself!” Grandpa winked. “Didn't you say you couldn't do it yet?” Can laughed: “Now I can!” Pitter patter, off they ran to the park.",
+   "hits": {
+    "can": {
+     "say": "I tied them myself!"
+    }
+   },
+   "mech": {
+    "done": "Laces nice and tight, off to play!",
+    "say": "Pitter patter!"
+   },
+   "hint": "Touch Can and he'll walk!",
+   "ask": "Have you ever learned something hard by trying and trying? How did you feel?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.2 Using objects of different sizes and features effectively: Grasps and uses objects of different sizes such as a thick scarf, a medium ribbon and a thin shoelace (HSAB.2.a, HSAB.2.c); tries tying a bow from huge to tiny.",
+   "SDB1.3 Self-Adjustment (Self-Reflection): Looks at their own learning by saying “I can't do it yet” instead of “I can't do it”; notices what is easy and what is hard and changes their approach (working from big to small).",
+   "E1.3 Perseverance and Determination and E1.4 Self-Belief (Self-Efficacy): Tries again even when the bow comes undone, and says “I tied them myself!” when they succeed. D3 Diligence: Experiences that success comes through effort."
+  ],
+  "once": [
+   "Show the cover: “What does the thing in Grandpa's hands look like? Bunny ears, or a butterfly?”",
+   "Bring a shoe with laces. Ask “Who can tie this? Who is still learning?”; both answers are fine.",
+   "Tell them about something you found hard to learn (riding a bike, whistling…)."
+  ],
+  "sirasi": [
+   "On page 2, copy Can's cross face together, then squeeze your hands tight and relax them.",
+   "On page 3, breathe twice together: “Hhhhh… fwooo”. Have the child repeat the word “yet”. Both options in the prediction question are right.",
+   "On page 4, make bunny ears with two fingers and say the chant: “One ear, two ears, cross them, pull!”",
+   "On page 5, let the child say the order: first huge, then medium, tiny last of all."
+  ],
+  "sonra": [
+   "How did Can feel when he couldn't tie his laces? What happened in his body when he was cross? How did he calm down?",
+   "Which word did Grandpa use instead of “I can't do it”?",
+   "Why did Can try with the scarf first? Why were the huge ears easier?"
+  ],
+  "sinif": {
+   "ad": "Bows from Huge to Tiny",
+   "sure": "20 min",
+   "materyal": "Thick rope or old scarves, medium ribbons, cardboard shoe cards with holes and shoelaces; wordless picture cards of the bunny-ear steps",
+   "adim": [
+    "First the children make bunny ears in the air with two fingers and say the chant: “One ear, two ears, cross them, pull!”",
+    "Tie a huge bow around a chair leg with a thick scarf or rope; the children take turns to try.",
+    "Tie a medium bow on a teddy bear or a present with a ribbon.",
+    "Thread laces through the cardboard shoe cards and try a tiny bow. When it doesn't work, say “Not yet!” and take a breath together; clap every child who tries, whatever the result, for their effort."
+   ]
+  },
+  "evSoru": [
+   "Which job can't you do “yet”? How could you learn it?",
+   "What did Can do when he was cross? What do you do when you're cross?",
+   "Can you say the bunny ears chant for me?"
+  ],
+  "evEtk": {
+   "ad": "Bunny Ears Practice",
+   "d": "Practise bows for a few minutes every day for a week: first a thick scarf or rope, then a ribbon, and real laces last. It's easier to practise with the shoe in your child's lap or on the table, not on their foot. Focus on the effort, not the result: “You made one ear yourself today!” When it doesn't work, use the word “yet” together."
+  },
+  "aileNotu": "Today we read “Bunny Ears”. Can wanted to tie his own shoelaces; when the bow came undone he got very cross and said “I can't do it!” Grandpa showed him how to say “I can't do it yet”, how to breathe together and the bunny ears method. Tying laces is a job in which fingers and patience grow together at age 5–6; starting with thick rope at home, moving to thinner things step by step and noticing the effort helps a great deal."
+ },
+ "audio": {
+  "file": "audio/en/039-tavsan-kulaklari.mp3",
+  "hash": "589fef6d",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15524,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3729,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4209,
+      9
+     ],
+     [
+      4609,
+      10
+     ],
+     [
+      5069,
+      11
+     ],
+     [
+      5169,
+      12
+     ],
+     [
+      5310,
+      13
+     ],
+     [
+      6089,
+      14
+     ],
+     [
+      6569,
+      15
+     ],
+     [
+      7249,
+      16
+     ],
+     [
+      7430,
+      17
+     ],
+     [
+      7709,
+      18
+     ],
+     [
+      8249,
+      19
+     ],
+     [
+      8449,
+      20
+     ],
+     [
+      8569,
+      21
+     ],
+     [
+      8669,
+      22
+     ],
+     [
+      9709,
+      23
+     ],
+     [
+      9909,
+      24
+     ],
+     [
+      10390,
+      25
+     ],
+     [
+      10829,
+      26
+     ],
+     [
+      11089,
+      27
+     ],
+     [
+      11209,
+      28
+     ],
+     [
+      12230,
+      29
+     ],
+     [
+      12329,
+      30
+     ],
+     [
+      12529,
+      31
+     ],
+     [
+      13509,
+      32
+     ],
+     [
+      13770,
+      33
+     ],
+     [
+      14149,
+      34
+     ],
+     [
+      14369,
+      35
+     ],
+     [
+      14609,
+      36
+     ],
+     [
+      14769,
+      37
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 15824,
+    "d": 2320,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      339,
+      1
+     ],
+     [
+      860,
+      2
+     ],
+     [
+      1160,
+      3
+     ],
+     [
+      1459,
+      4
+     ],
+     [
+      1758,
+      5
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 18444,
+    "d": 2053,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1509,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20798,
+    "d": 16156,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      3930,
+      8
+     ],
+     [
+      4089,
+      9
+     ],
+     [
+      4350,
+      10
+     ],
+     [
+      4529,
+      11
+     ],
+     [
+      5289,
+      12
+     ],
+     [
+      6069,
+      13
+     ],
+     [
+      6489,
+      14
+     ],
+     [
+      7529,
+      15
+     ],
+     [
+      7890,
+      16
+     ],
+     [
+      8190,
+      17
+     ],
+     [
+      8549,
+      18
+     ],
+     [
+      9449,
+      19
+     ],
+     [
+      9690,
+      20
+     ],
+     [
+      10049,
+      21
+     ],
+     [
+      10329,
+      22
+     ],
+     [
+      10909,
+      23
+     ],
+     [
+      11109,
+      24
+     ],
+     [
+      11489,
+      25
+     ],
+     [
+      11770,
+      26
+     ],
+     [
+      12589,
+      27
+     ],
+     [
+      12810,
+      28
+     ],
+     [
+      13209,
+      29
+     ],
+     [
+      13409,
+      30
+     ],
+     [
+      14089,
+      31
+     ],
+     [
+      14930,
+      32
+     ],
+     [
+      15109,
+      33
+     ],
+     [
+      15569,
+      34
+     ],
+     [
+      15829,
+      35
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 37254,
+    "d": 1369,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      362,
+      1
+     ],
+     [
+      684,
+      2
+     ],
+     [
+      1006,
+      3
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 38923,
+    "d": 1739,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1349,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 40963,
+    "d": 15084,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3949,
+      8
+     ],
+     [
+      4089,
+      9
+     ],
+     [
+      4430,
+      10
+     ],
+     [
+      4609,
+      11
+     ],
+     [
+      4830,
+      12
+     ],
+     [
+      5469,
+      13
+     ],
+     [
+      5649,
+      14
+     ],
+     [
+      6410,
+      15
+     ],
+     [
+      6509,
+      16
+     ],
+     [
+      6809,
+      17
+     ],
+     [
+      7029,
+      18
+     ],
+     [
+      7390,
+      19
+     ],
+     [
+      7489,
+      20
+     ],
+     [
+      7729,
+      21
+     ],
+     [
+      7989,
+      22
+     ],
+     [
+      8869,
+      23
+     ],
+     [
+      9469,
+      24
+     ],
+     [
+      9649,
+      25
+     ],
+     [
+      9869,
+      26
+     ],
+     [
+      10009,
+      27
+     ],
+     [
+      10289,
+      28
+     ],
+     [
+      11323,
+      29
+     ],
+     [
+      12391,
+      30
+     ],
+     [
+      13529,
+      31
+     ],
+     [
+      13850,
+      32
+     ],
+     [
+      14310,
+      33
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 56347,
+    "d": 1931,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1309,
+      1
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 58579,
+    "d": 2557,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      1869,
+      6
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 61436,
+    "d": 1859,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      430,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      969,
+      5
+     ],
+     [
+      1150,
+      6
+     ],
+     [
+      1329,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 63595,
+    "d": 2265,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1869,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 66161,
+    "d": 15976,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1869,
+      6
+     ],
+     [
+      2130,
+      7
+     ],
+     [
+      2969,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      3989,
+      10
+     ],
+     [
+      4149,
+      11
+     ],
+     [
+      4209,
+      12
+     ],
+     [
+      4529,
+      13
+     ],
+     [
+      5149,
+      14
+     ],
+     [
+      5370,
+      15
+     ],
+     [
+      5830,
+      16
+     ],
+     [
+      5989,
+      17
+     ],
+     [
+      6149,
+      18
+     ],
+     [
+      6410,
+      19
+     ],
+     [
+      7049,
+      20
+     ],
+     [
+      7229,
+      21
+     ],
+     [
+      7609,
+      22
+     ],
+     [
+      7769,
+      23
+     ],
+     [
+      8489,
+      24
+     ],
+     [
+      8650,
+      25
+     ],
+     [
+      9029,
+      26
+     ],
+     [
+      9270,
+      27
+     ],
+     [
+      10169,
+      28
+     ],
+     [
+      10350,
+      29
+     ],
+     [
+      11109,
+      30
+     ],
+     [
+      11890,
+      31
+     ],
+     [
+      12109,
+      32
+     ],
+     [
+      12529,
+      33
+     ],
+     [
+      12810,
+      34
+     ],
+     [
+      13749,
+      35
+     ],
+     [
+      14069,
+      36
+     ],
+     [
+      14850,
+      37
+     ],
+     [
+      15329,
+      38
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 82438,
+    "d": 3462,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2489,
+      5
+     ],
+     [
+      2989,
+      6
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 86201,
+    "d": 1121,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      701,
+      1
+     ]
+    ]
+   },
+   "p4": {
+    "s": 87622,
+    "d": 14519,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      869,
+      4
+     ],
+     [
+      1249,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      4410,
+      10
+     ],
+     [
+      4549,
+      11
+     ],
+     [
+      4930,
+      12
+     ],
+     [
+      5669,
+      13
+     ],
+     [
+      6109,
+      14
+     ],
+     [
+      6729,
+      15
+     ],
+     [
+      7569,
+      16
+     ],
+     [
+      7870,
+      17
+     ],
+     [
+      7969,
+      18
+     ],
+     [
+      8409,
+      19
+     ],
+     [
+      8589,
+      20
+     ],
+     [
+      9270,
+      21
+     ],
+     [
+      9469,
+      22
+     ],
+     [
+      9969,
+      23
+     ],
+     [
+      10270,
+      24
+     ],
+     [
+      10609,
+      25
+     ],
+     [
+      11489,
+      26
+     ],
+     [
+      12369,
+      27
+     ],
+     [
+      13310,
+      28
+     ],
+     [
+      14009,
+      29
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 102441,
+    "d": 2236,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      743,
+      1
+     ],
+     [
+      1387,
+      2
+     ],
+     [
+      1791,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 104978,
+    "d": 3222,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2630,
+      5
+     ],
+     [
+      2869,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 108501,
+    "d": 18142,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2529,
+      6
+     ],
+     [
+      2869,
+      7
+     ],
+     [
+      3509,
+      8
+     ],
+     [
+      3889,
+      9
+     ],
+     [
+      4390,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5809,
+      12
+     ],
+     [
+      6829,
+      13
+     ],
+     [
+      7229,
+      14
+     ],
+     [
+      7609,
+      15
+     ],
+     [
+      8190,
+      16
+     ],
+     [
+      8329,
+      17
+     ],
+     [
+      8549,
+      18
+     ],
+     [
+      8709,
+      19
+     ],
+     [
+      9690,
+      20
+     ],
+     [
+      10209,
+      21
+     ],
+     [
+      11009,
+      22
+     ],
+     [
+      11310,
+      23
+     ],
+     [
+      11489,
+      24
+     ],
+     [
+      11689,
+      25
+     ],
+     [
+      11869,
+      26
+     ],
+     [
+      12209,
+      27
+     ],
+     [
+      12390,
+      28
+     ],
+     [
+      12529,
+      29
+     ],
+     [
+      13249,
+      30
+     ],
+     [
+      13649,
+      31
+     ],
+     [
+      14489,
+      32
+     ],
+     [
+      14829,
+      33
+     ],
+     [
+      14969,
+      34
+     ],
+     [
+      15769,
+      35
+     ],
+     [
+      16069,
+      36
+     ],
+     [
+      16749,
+      37
+     ],
+     [
+      16969,
+      38
+     ],
+     [
+      17190,
+      39
+     ],
+     [
+      17450,
+      40
+     ],
+     [
+      17569,
+      41
+     ],
+     [
+      17690,
+      42
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 126943,
+    "d": 1479,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      649,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 128722,
+    "d": 2437,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      1889,
+      6
+     ]
+    ]
+   },
+   "p5ms": {
+    "s": 131460,
+    "d": 835,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

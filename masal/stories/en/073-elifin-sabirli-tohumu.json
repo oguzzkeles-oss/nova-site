@@ -1,0 +1,1289 @@
+{
+ "id": "073-elifin-sabirli-tohumu",
+ "lang": "en",
+ "title": "Elif's Patient Seed",
+ "theme": "Watching a seed grow and learning to wait",
+ "blurb": "Elif plants a teeny sunflower seed in the vegetable garden with her grandpa and wants a flower the very next morning. Waiting is hard, but Elif makes up her own watering song; with water, sun and a little patience, the seed becomes a shoot, then leaves, then a great big flower.",
+ "voiceNames": {
+  "elif": "Elif",
+  "dede": "Grandpa (Elif's grandpa)"
+ },
+ "pages": [
+  {
+   "text": "Grandpa gave Elif a teeny sunflower seed. “Come on, let's plant it!” Elif dug in the soil. She laid the seed down. Pat! She covered it with soil. “Will it be a flower tomorrow?” she asked. Grandpa smiled.",
+   "hits": {
+    "elif": {
+     "say": "Will it be a flower tomorrow?"
+    },
+    "dede": {
+     "say": "Come on, let's plant it!"
+    }
+   },
+   "hint": "Touch the seed!",
+   "ask": "What do you think will come out of this teeny seed? Have you ever planted a seed?"
+  },
+  {
+   "text": "Next morning, whoosh, here came Elif! The soil was bare! “Little seed, are you awake?” Tap tap. No answer! Elif got impatient. Her cheeks went hot. “The seed is waking up under the soil,” said Grandpa.",
+   "hits": {
+    "elif": {
+     "say": "Little seed, are you awake?"
+    },
+    "dede": {
+     "say": "The seed is waking up under the soil."
+    }
+   },
+   "hint": "Touch Elif!",
+   "ask": "Why did Elif get impatient? What do you feel in your body when you're waiting?",
+   "cues": [
+    {
+     "w": 15,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Elif took a deep breath. Ohhh… Waiting was hard. Then she had an idea!",
+   "hits": {
+    "elif": {
+     "say": "Ohhh… Waiting is hard!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Elif will do while she waits?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "Water the seed"
+     },
+     {
+      "l": "Sing a song"
+     }
+    ]
+   },
+   "hint": "Breathe with Elif!",
+   "ask": "What do you do when waiting feels hard?"
+  },
+  {
+   "text": "Every morning Elif watered the seed. Splish splash! The sun warmed it. Elif made up a song: “Water, sun, a little patience. Little seed wakes up slowly!”",
+   "mech": {
+    "done": "Splish splash! The seed drank its water.",
+    "msg": "Well done, you watered it!"
+   },
+   "hits": {
+    "elif": {
+     "say": "Water, sun, a little patience!"
+    },
+    "dede": {
+     "say": "What a lovely song!"
+    }
+   },
+   "hint": "Tip the can and water it!",
+   "ask": "What does a seed need to grow?",
+   "cues": [
+    {
+     "w": 6,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Days and weeks went by. Elif sang her song every day. First a tiny shoot! Then leaves, a bud… “Water, sun, a little patience…”",
+   "mech": {
+    "done": "A great big sunflower opened!",
+    "msg": "The seed grew!"
+   },
+   "hits": {
+    "elif": {
+     "say": "Grandpa, look! A shoot has come up!"
+    },
+    "dede": {
+     "say": "You waited, and it grew!"
+    }
+   },
+   "hint": "Touch the seed to make it grow!",
+   "ask": "What happened to the seed first, and what happened next?"
+  },
+  {
+   "text": "The sunflower grew taller than Elif. Buzz, a bee came! The sunflower smiled at the sun. Elif hugged her grandpa. “Waiting was hard. But I waited!”",
+   "hits": {
+    "elif": {
+     "say": "Waiting was hard. But I waited!"
+    },
+    "dede": {
+     "say": "I'm proud of you!"
+    }
+   },
+   "hint": "Touch the sunflower!",
+   "ask": "What have you waited patiently for? What did you do while you waited?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 — Making scientific observations of science-related events, facts and situations in daily life: observes that the seed waits in the soil and, with water and sun, becomes first a shoot, then leaves, a bud and a flower; says the stages of growth in order.",
+   "TAOB.2 — Making meaning from visual materials (TAOB.2.a): reads from the pictures on the pages how the seed changes; connects the vegetable garden in the picture with their own garden, balcony or flowerpot, and makes a prediction from the pictures for the question “What will Elif do while she waits?”",
+   "SDB1.2 Self-regulation — like Elif, notices feeling impatient (cheeks go hot) and tries ways of waiting such as deep breathing and singing.",
+   "E1.1 Curiosity — wonders “What is happening inside the seed?” and enjoys going to look every day.",
+   "D12 Patience — notices that some things take time to happen; keeps doing their own job (watering) while waiting."
+  ],
+  "once": [
+   "Point to the seed on the cover and ask: “What do you think comes out of this teeny seed? How long does it take?”",
+   "If possible, show a real sunflower or bean seed and look at it with a magnifying glass. An adult hands out and collects the seeds; seeds do not go in the mouth, nose or ears. While looking with the magnifying glass, the seed stays on a plate."
+  ],
+  "sirasi": [
+   "On page 2, point to Elif's face: “How is Elif feeling? What do you do when your cheeks go hot?”",
+   "On page 3, take a deep breath together with Elif: in through the nose, out with an “ohhh.” Accept both answers in the prediction question.",
+   "On page 4, sing Elif's song together: “Water, sun, a little patience. Little seed wakes up slowly!”",
+   "On page 5, at every touch say “A day went by… a week went by…” to give a feeling of time passing; sing Elif's song together again."
+  ],
+  "sonra": [
+   "Why wasn't the seed a flower the next morning?",
+   "What ways did Elif find to help her wait?",
+   "What happened to the seed first, what happened next, and what happened last?"
+  ],
+  "sinif": {
+   "ad": "Patience Pot and Observation Calendar",
+   "sure": "20 min (then 5 min every day)",
+   "materyal": "Clear plastic cups, cotton wool or soil, bean seeds, a watering can, a picture observation calendar (boxes for drawing)",
+   "adim": [
+    "The teacher hands out the seeds one at a time and collects any left over when the work is done.",
+    "Each child puts cotton wool/soil in a clear cup and places a bean seed at the side; a watering helper is chosen in turn.",
+    "Every morning at circle time, look at the cups; the children draw what they see in that day's box on the observation calendar (seed, shoot, leaf).",
+    "When waiting feels hard, sing Elif's song as a class; after a week, line up the drawings in order and tell the story: “First… then…” Beans sprout in 3–7 days; a sunflower takes months to flower. The story's “days went by” tells this."
+   ]
+  },
+  "evSoru": [
+   "What did Elif and her grandpa plant in the vegetable garden?",
+   "What did Elif do when waiting felt hard?",
+   "What was the last thing you waited patiently for?"
+  ],
+  "evEtk": {
+   "ad": "A bean on the kitchen windowsill",
+   "d": "Place the seed together with your child, under your supervision: put a dried bean on wet cotton wool in a clear jar and leave it on the windowsill. The bean sprouts in 3–7 days. Look at it together every day; your child can draw what they see on a piece of paper. When waiting gets hard, sing Elif's song."
+  },
+  "aileNotu": "Today we read “Elif's Patient Seed.” Elif plants a seed with her grandpa and gets impatient when there's no flower the next day; she takes a deep breath and makes up her own watering song while she waits. At home, in waiting moments (while dinner cooks, while waiting in a queue), you can name your child's feeling and say, “Shall we take a breath like Elif?” A small seed you plant together makes a lovely experience that shows the joy of waiting."
+ },
+ "audio": {
+  "file": "audio/en/073-elifin-sabirli-tohumu.mp3",
+  "hash": "9222f94f",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14575,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2349,
+      6
+     ],
+     [
+      3089,
+      7
+     ],
+     [
+      3269,
+      8
+     ],
+     [
+      3689,
+      9
+     ],
+     [
+      3930,
+      10
+     ],
+     [
+      4269,
+      11
+     ],
+     [
+      4969,
+      12
+     ],
+     [
+      5390,
+      13
+     ],
+     [
+      5629,
+      14
+     ],
+     [
+      5749,
+      15
+     ],
+     [
+      5890,
+      16
+     ],
+     [
+      6689,
+      17
+     ],
+     [
+      6890,
+      18
+     ],
+     [
+      7129,
+      19
+     ],
+     [
+      7269,
+      20
+     ],
+     [
+      7549,
+      21
+     ],
+     [
+      8310,
+      22
+     ],
+     [
+      9109,
+      23
+     ],
+     [
+      9310,
+      24
+     ],
+     [
+      9629,
+      25
+     ],
+     [
+      9709,
+      26
+     ],
+     [
+      9930,
+      27
+     ],
+     [
+      10789,
+      28
+     ],
+     [
+      10989,
+      29
+     ],
+     [
+      11089,
+      30
+     ],
+     [
+      11230,
+      31
+     ],
+     [
+      11329,
+      32
+     ],
+     [
+      11749,
+      33
+     ],
+     [
+      12409,
+      34
+     ],
+     [
+      12649,
+      35
+     ],
+     [
+      13430,
+      36
+     ],
+     [
+      13930,
+      37
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 14875,
+    "d": 1729,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      240,
+      1
+     ],
+     [
+      441,
+      2
+     ],
+     [
+      641,
+      3
+     ],
+     [
+      842,
+      4
+     ],
+     [
+      1191,
+      5
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 16904,
+    "d": 1648,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1369,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18853,
+    "d": 15880,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      2049,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      3410,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      4269,
+      9
+     ],
+     [
+      5249,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      6149,
+      12
+     ],
+     [
+      6289,
+      13
+     ],
+     [
+      6469,
+      14
+     ],
+     [
+      7309,
+      15
+     ],
+     [
+      7529,
+      16
+     ],
+     [
+      8369,
+      17
+     ],
+     [
+      8609,
+      18
+     ],
+     [
+      9589,
+      19
+     ],
+     [
+      9909,
+      20
+     ],
+     [
+      10089,
+      21
+     ],
+     [
+      11029,
+      22
+     ],
+     [
+      11230,
+      23
+     ],
+     [
+      11569,
+      24
+     ],
+     [
+      11829,
+      25
+     ],
+     [
+      12689,
+      26
+     ],
+     [
+      12890,
+      27
+     ],
+     [
+      13189,
+      28
+     ],
+     [
+      13369,
+      29
+     ],
+     [
+      13770,
+      30
+     ],
+     [
+      13969,
+      31
+     ],
+     [
+      14169,
+      32
+     ],
+     [
+      14329,
+      33
+     ],
+     [
+      15069,
+      34
+     ],
+     [
+      15269,
+      35
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 35033,
+    "d": 2209,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 37543,
+    "d": 2519,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1809,
+      6
+     ],
+     [
+      1989,
+      7
+     ]
+    ]
+   },
+   "p2": {
+    "s": 40363,
+    "d": 6620,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3689,
+      7
+     ],
+     [
+      3930,
+      8
+     ],
+     [
+      5049,
+      9
+     ],
+     [
+      5569,
+      10
+     ],
+     [
+      5749,
+      11
+     ],
+     [
+      5910,
+      12
+     ],
+     [
+      6069,
+      13
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 47283,
+    "d": 2359,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      880,
+      1
+     ],
+     [
+      1549,
+      2
+     ],
+     [
+      1934,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 49942,
+    "d": 2422,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      689,
+      4
+     ],
+     [
+      1050,
+      5
+     ],
+     [
+      1209,
+      6
+     ],
+     [
+      1430,
+      7
+     ],
+     [
+      1649,
+      8
+     ],
+     [
+      1829,
+      9
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 52665,
+    "d": 943,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 53908,
+    "d": 11215,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      3829,
+      8
+     ],
+     [
+      4049,
+      9
+     ],
+     [
+      4430,
+      10
+     ],
+     [
+      4830,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      5749,
+      13
+     ],
+     [
+      5910,
+      14
+     ],
+     [
+      6029,
+      15
+     ],
+     [
+      6129,
+      16
+     ],
+     [
+      6969,
+      17
+     ],
+     [
+      7569,
+      18
+     ],
+     [
+      8089,
+      19
+     ],
+     [
+      8230,
+      20
+     ],
+     [
+      8509,
+      21
+     ],
+     [
+      9409,
+      22
+     ],
+     [
+      9730,
+      23
+     ],
+     [
+      10169,
+      24
+     ],
+     [
+      10449,
+      25
+     ],
+     [
+      10609,
+      26
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 65423,
+    "d": 2810,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      989,
+      1
+     ],
+     [
+      1374,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2170,
+      4
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 68534,
+    "d": 1711,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      1030,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 70545,
+    "d": 3242,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1670,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2569,
+      5
+     ],
+     [
+      2749,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 74088,
+    "d": 11456,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      2949,
+      7
+     ],
+     [
+      3150,
+      8
+     ],
+     [
+      3650,
+      9
+     ],
+     [
+      4049,
+      10
+     ],
+     [
+      4910,
+      11
+     ],
+     [
+      5370,
+      12
+     ],
+     [
+      5469,
+      13
+     ],
+     [
+      5930,
+      14
+     ],
+     [
+      6629,
+      15
+     ],
+     [
+      6910,
+      16
+     ],
+     [
+      7709,
+      17
+     ],
+     [
+      7849,
+      18
+     ],
+     [
+      8850,
+      19
+     ],
+     [
+      9589,
+      20
+     ],
+     [
+      10310,
+      21
+     ],
+     [
+      10409,
+      22
+     ],
+     [
+      10669,
+      23
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 85844,
+    "d": 2751,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      647,
+      1
+     ],
+     [
+      1216,
+      2
+     ],
+     [
+      1476,
+      3
+     ],
+     [
+      1737,
+      4
+     ],
+     [
+      1997,
+      5
+     ],
+     [
+      2450,
+      6
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 88895,
+    "d": 2101,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 91297,
+    "d": 2566,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1969,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 94163,
+    "d": 11097,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      2529,
+      6
+     ],
+     [
+      3170,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      3529,
+      9
+     ],
+     [
+      4410,
+      10
+     ],
+     [
+      4569,
+      11
+     ],
+     [
+      5269,
+      12
+     ],
+     [
+      5749,
+      13
+     ],
+     [
+      5850,
+      14
+     ],
+     [
+      5989,
+      15
+     ],
+     [
+      6870,
+      16
+     ],
+     [
+      7289,
+      17
+     ],
+     [
+      7609,
+      18
+     ],
+     [
+      7749,
+      19
+     ],
+     [
+      8770,
+      20
+     ],
+     [
+      9150,
+      21
+     ],
+     [
+      9390,
+      22
+     ],
+     [
+      10209,
+      23
+     ],
+     [
+      10409,
+      24
+     ],
+     [
+      10529,
+      25
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 105560,
+    "d": 2982,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      622,
+      1
+     ],
+     [
+      957,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2024,
+      4
+     ],
+     [
+      2359,
+      5
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 108843,
+    "d": 1430,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

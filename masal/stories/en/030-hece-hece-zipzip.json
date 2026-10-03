@@ -1,0 +1,1602 @@
+{
+ "id": "030-hece-hece-zipzip",
+ "lang": "en",
+ "title": "Hoppy Hops the Syllables",
+ "theme": "Breaking words into syllables",
+ "blurb": "Hoppy the rabbit says words syllable by syllable, hopping as she goes: Hop-py, two hops! Shelly the tortoise can't hop and counts wrong at first, then finds his own way to count syllables: step by step.",
+ "voiceNames": {
+  "zipzip": "Hoppy (rabbit)",
+  "tosbi": "Shelly (tortoise)",
+  "vrak": "Croak (frog)"
+ },
+ "pages": [
+  {
+   "text": "Hoppy the rabbit had a game: syllable hopping! She said words syllable by syllable, in little parts. One hop for every syllable. “Hop… py!” Hop, hop! Two syllables, two hops. Shelly the tortoise watched her with wide eyes.",
+   "hits": {
+    "zipzip": {
+     "say": "Hop… py! Hop, hop! Two hops!"
+    },
+    "tosbi": {
+     "say": "What a lovely game!"
+    }
+   },
+   "hint": "Touch Hoppy!",
+   "ask": "How many times did Hoppy hop when she said her name? Now you say “Hop… py!” and hop twice!"
+  },
+  {
+   "text": "Croak the frog climbed out of the pond. “Hop my name too!” Hoppy hopped: “Croak!” Hop! Just one hop. Then Croak leapt from stone to stone: “Lit… tle… frog!” How many hops?",
+   "hits": {
+    "vrak": {
+     "say": "Croak! Hop my name too!"
+    },
+    "zipzip": {
+     "say": "Croak! Hop! Just one hop!"
+    }
+   },
+   "mech": {
+    "done": "Lit-tle-frog: three syllables, three hops!",
+    "msg": "Three syllables!"
+   },
+   "hint": "Count the stones: lit-tle-frog!",
+   "ask": "How many hops is “Croak”? How many hops is “little frog”? Which one is longer?"
+  },
+  {
+   "text": "Shelly's turn! He tried to hop: “Hup! Huuup!” His shell didn't even wobble. He said it fast: “Littlefrog! One!” But “little frog” isn't one piece! Shelly felt upset. His cheeks grew hot, and he pulled his head into his shell.",
+   "hits": {
+    "tosbi": {
+     "say": "But I can't hop…"
+    },
+    "zipzip": {
+     "say": "Lit-tle-frog: that's three syllables, Shelly."
+    },
+    "vrak": {
+     "say": "Croak is one syllable, little frog is three!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Shelly will do now?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "He tries again"
+     },
+     {
+      "l": "He asks for help"
+     }
+    ]
+   },
+   "hint": "Touch Shelly!",
+   "ask": "How does Shelly feel? When you can't do something the first time, how do you feel, and what do you do?"
+  },
+  {
+   "text": "Shelly slowly poked his head out. “Hoppy, can you help me?” Hoppy came over. “Let's try together!” Shelly took a deep breath. “I can't hop, but I can step! Liiit… tle… frooog…” One step for every syllable!",
+   "hits": {
+    "zipzip": {
+     "say": "Slowly, Shelly, you can do it!"
+    },
+    "vrak": {
+     "say": "Croak! Go, Shelly!"
+    }
+   },
+   "mech": {
+    "done": "Lit-tle-frog! Three steps, three syllables!",
+    "msg": "Three syllables!",
+    "say": "Tap!"
+   },
+   "hint": "Touch Shelly on every syllable!",
+   "ask": "Let's say it very slowly like Shelly: liiit… tle… frooog… How many syllables did you hear?"
+  },
+  {
+   "text": "Croak croaked with excitement: “Now the longest one: little tortoise!” Shelly's eyes sparkled. The three friends lined up by the stones. You clap too! Lit… tle… tor… toise!",
+   "hits": {
+    "zipzip": {
+     "say": "Lit-tle-tor-toise! Hop hop hop hop!"
+    },
+    "tosbi": {
+     "say": "That one's mine!"
+    },
+    "vrak": {
+     "say": "Croak croak! I'm leaping too!"
+    }
+   },
+   "mech": {
+    "done": "Lit-tle-tor-toise: four syllables! Bravo!",
+    "msg": "Four syllables!"
+   },
+   "hint": "Clap and touch the stones!",
+   "ask": "Let's clap together: lit-tle-tor-toise! Can you say a long word too?",
+   "cues": [
+    {
+     "w": 22,
+     "fx": "alkis"
+    }
+   ]
+  },
+  {
+   "text": "Evening came. The three friends rested side by side at the edge of the pond. Shelly smiled: “Hoppy counts by hopping, Croak by leaping. And I count step by step!” Hoppy laughed. “Hop hop, croak croak, tap tap… all syllable by syllable!”",
+   "hits": {
+    "zipzip": {
+     "say": "Hop-py: two syllables!"
+    },
+    "tosbi": {
+     "say": "Shel-ly: two syllables!"
+    },
+    "vrak": {
+     "say": "Croak: one syllable!"
+    }
+   },
+   "hint": "Touch the friends!",
+   "ask": "How many syllables are in your name? Say it while clapping, hopping or stepping!"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TAEOB.3 Showing phonological awareness skills (medium confidence) — process component: notices that words are made of syllables. Breaks “Croak” (1), “Hop-py” (2), “lit-tle frog” (3) and “lit-tle tor-toise” (4) into syllables by hopping, stepping and clapping; compares short and long words.",
+   "MAB.1 Counting rhythmically and by sight — process components: counts forward by ones rhythmically; finds how many objects there are by counting. Touches the syllable stones one by one and says the number of hops, steps and claps (up to 4).",
+   "TADB.3 Analysing what they listen to or watch — says what they heard or watched in the order it happened: at the end of the story, puts three pictures in the order of events.",
+   "SDB1.3 Self-Adjustment (Self-Reflection) and E1.3 Perseverance and Determination: like Shelly, thinks “What can I do?”; when one way doesn't work, tries another way that suits them without giving up. Value: D3 Diligence — after counting wrong, works at it again and succeeds in the end."
+  ],
+  "once": [
+   "Point to the rabbit on the cover: “This is Hoppy. She hops twice when she says her name. Why might that be?”",
+   "Put your hand under your chin and say “Hop-py”: how many times did your chin drop? Each drop is one syllable. Try it with your own names together."
+  ],
+  "sirasi": [
+   "On page 1, say “Hop… py!” with Hoppy and give two little hops, or clap twice.",
+   "On page 2, before touching the stones, say “lit… tle… frog” slowly; the child touches one stone for each syllable. Then say “Croak”: how many hops? Compare the short and the long word.",
+   "On page 3, don't laugh at Shelly's wrong count. Say “When you say it fast, it's hard to hear the parts”; show that mistakes are part of learning. Accept both answers to the prediction question.",
+   "On page 4, Shelly asks for help first; point out that this is a way of solving the problem too. Then say it very slowly like Shelly and take one step for each syllable: liiit… tle… frooog.",
+   "On page 5, clap together first, then let the child touch one stone for each syllable. In the second round the child says the word and you clap; now and then count wrong on purpose and let the child correct you."
+  ],
+  "sonra": [
+   "Why did Shelly feel upset? What did he do next?",
+   "How many syllables are in “Croak”, and how many in “little tortoise”? Which is longer?",
+   "Hoppy counted by hopping, Shelly by stepping. Which way do you like counting?",
+   "Put the three pictures from the story in order: what happened first, what happened next, and what happened last?"
+  ],
+  "sinif": {
+   "ad": "Syllable Stones",
+   "sure": "20 min",
+   "materyal": "4 coloured paper “stones” stuck to the floor (or cushions, hoops), animal picture cards (rabbit, frog, tortoise, cat, bee, butterfly), a tambourine or drum",
+   "adim": [
+    "Sit in a circle; each child claps their name into syllables (Zey-nep, A-li, Can). The whole class repeats; celebrate one-clap names too.",
+    "The teacher shows an animal card and the children say the word slowly. One child hops or steps onto one stone for each syllable; the class counts the stones.",
+    "The child chooses the movement: hopping, stepping, clapping or a tap on the tambourine. All are equally good; a friend who uses a wheelchair can roll onto the stones or tap the tambourine.",
+    "To finish, play “Who can find the longest word?”; clap the suggested words together and count their syllables."
+   ]
+  },
+  "evSoru": [
+   "How many times did Hoppy hop when she said her name?",
+   "What did Shelly do when he couldn't hop?",
+   "How many syllables are in your name? Shall we clap it together?"
+  ],
+  "evEtk": {
+   "ad": "Syllable claps at the table",
+   "d": "At mealtimes, clap the names of the foods on the table in turn: “milk” one clap, “ap-ple” two claps, “ba-na-na” three claps. Sometimes count wrong yourself; let your child correct you and try again slowly together."
+  },
+  "aileNotu": "Today we read “Hoppy Hops the Syllables”. Hoppy the rabbit said words syllable by syllable, hopping as she went; Shelly the tortoise, who can't hop, counted wrong at first and then found his own way of counting syllables, step by step. The children practised noticing that words are made of parts (syllables) and counting syllables rhythmically. At home you can clap names, foods or toys into syllables; if your child counts wrong, smile and try again slowly together."
+ },
+ "audio": {
+  "file": "audio/en/030-hece-hece-zipzip.mp3",
+  "hash": "2039c749",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16629,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1969,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      3329,
+      8
+     ],
+     [
+      3509,
+      9
+     ],
+     [
+      3769,
+      10
+     ],
+     [
+      4149,
+      11
+     ],
+     [
+      4649,
+      12
+     ],
+     [
+      4890,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      5629,
+      15
+     ],
+     [
+      5850,
+      16
+     ],
+     [
+      6789,
+      17
+     ],
+     [
+      6969,
+      18
+     ],
+     [
+      7269,
+      19
+     ],
+     [
+      7549,
+      20
+     ],
+     [
+      7870,
+      21
+     ],
+     [
+      8890,
+      22
+     ],
+     [
+      9629,
+      23
+     ],
+     [
+      10489,
+      24
+     ],
+     [
+      10949,
+      25
+     ],
+     [
+      11649,
+      26
+     ],
+     [
+      11869,
+      27
+     ],
+     [
+      12589,
+      28
+     ],
+     [
+      12810,
+      29
+     ],
+     [
+      13850,
+      30
+     ],
+     [
+      14189,
+      31
+     ],
+     [
+      14329,
+      32
+     ],
+     [
+      14890,
+      33
+     ],
+     [
+      15249,
+      34
+     ],
+     [
+      15430,
+      35
+     ],
+     [
+      15669,
+      36
+     ],
+     [
+      16089,
+      37
+     ]
+    ]
+   },
+   "p0h-zipzip": {
+    "s": 16929,
+    "d": 3121,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      2609,
+      5
+     ]
+    ]
+   },
+   "p0h-tosbi": {
+    "s": 20350,
+    "d": 1539,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      949,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 22189,
+    "d": 14039,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1410,
+      5
+     ],
+     [
+      1489,
+      6
+     ],
+     [
+      1609,
+      7
+     ],
+     [
+      2430,
+      8
+     ],
+     [
+      2709,
+      9
+     ],
+     [
+      2930,
+      10
+     ],
+     [
+      3189,
+      11
+     ],
+     [
+      3989,
+      12
+     ],
+     [
+      4370,
+      13
+     ],
+     [
+      5069,
+      14
+     ],
+     [
+      5830,
+      15
+     ],
+     [
+      6529,
+      16
+     ],
+     [
+      7009,
+      17
+     ],
+     [
+      7229,
+      18
+     ],
+     [
+      8009,
+      19
+     ],
+     [
+      8390,
+      20
+     ],
+     [
+      8810,
+      21
+     ],
+     [
+      9109,
+      22
+     ],
+     [
+      9390,
+      23
+     ],
+     [
+      9770,
+      24
+     ],
+     [
+      9930,
+      25
+     ],
+     [
+      10810,
+      26
+     ],
+     [
+      11469,
+      27
+     ],
+     [
+      12109,
+      28
+     ],
+     [
+      13069,
+      29
+     ],
+     [
+      13270,
+      30
+     ],
+     [
+      13509,
+      31
+     ]
+    ]
+   },
+   "p1h-vrak": {
+    "s": 36528,
+    "d": 2277,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1689,
+      4
+     ]
+    ]
+   },
+   "p1h-zipzip": {
+    "s": 39106,
+    "d": 2780,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      2049,
+      3
+     ],
+     [
+      2289,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 42187,
+    "d": 3782,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      1849,
+      1
+     ],
+     [
+      2110,
+      2
+     ],
+     [
+      2930,
+      3
+     ],
+     [
+      3209,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 46270,
+    "d": 17034,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      3709,
+      7
+     ],
+     [
+      4509,
+      8
+     ],
+     [
+      4749,
+      9
+     ],
+     [
+      5089,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5629,
+      12
+     ],
+     [
+      6529,
+      13
+     ],
+     [
+      6689,
+      14
+     ],
+     [
+      6910,
+      15
+     ],
+     [
+      7009,
+      16
+     ],
+     [
+      7769,
+      17
+     ],
+     [
+      8650,
+      18
+     ],
+     [
+      9369,
+      19
+     ],
+     [
+      9810,
+      20
+     ],
+     [
+      10149,
+      21
+     ],
+     [
+      10589,
+      22
+     ],
+     [
+      10930,
+      23
+     ],
+     [
+      11149,
+      24
+     ],
+     [
+      12270,
+      25
+     ],
+     [
+      12629,
+      26
+     ],
+     [
+      12890,
+      27
+     ],
+     [
+      13829,
+      28
+     ],
+     [
+      14109,
+      29
+     ],
+     [
+      14449,
+      30
+     ],
+     [
+      14749,
+      31
+     ],
+     [
+      15249,
+      32
+     ],
+     [
+      15350,
+      33
+     ],
+     [
+      15489,
+      34
+     ],
+     [
+      15769,
+      35
+     ],
+     [
+      15930,
+      36
+     ],
+     [
+      16149,
+      37
+     ],
+     [
+      16389,
+      38
+     ],
+     [
+      16549,
+      39
+     ]
+    ]
+   },
+   "p2h-tosbi": {
+    "s": 63604,
+    "d": 1359,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      809,
+      3
+     ]
+    ]
+   },
+   "p2h-zipzip": {
+    "s": 65263,
+    "d": 3151,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      994,
+      1
+     ],
+     [
+      1305,
+      2
+     ],
+     [
+      1615,
+      3
+     ],
+     [
+      2570,
+      4
+     ]
+    ]
+   },
+   "p2h-vrak": {
+    "s": 68715,
+    "d": 3506,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      2949,
+      7
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 72522,
+    "d": 2108,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      949,
+      5
+     ],
+     [
+      1150,
+      6
+     ],
+     [
+      1329,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 74931,
+    "d": 2344,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 77575,
+    "d": 17416,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      3650,
+      9
+     ],
+     [
+      3889,
+      10
+     ],
+     [
+      4649,
+      11
+     ],
+     [
+      4969,
+      12
+     ],
+     [
+      5209,
+      13
+     ],
+     [
+      5969,
+      14
+     ],
+     [
+      6209,
+      15
+     ],
+     [
+      6449,
+      16
+     ],
+     [
+      7509,
+      17
+     ],
+     [
+      7890,
+      18
+     ],
+     [
+      8089,
+      19
+     ],
+     [
+      8249,
+      20
+     ],
+     [
+      8549,
+      21
+     ],
+     [
+      9629,
+      22
+     ],
+     [
+      9749,
+      23
+     ],
+     [
+      10089,
+      24
+     ],
+     [
+      10789,
+      25
+     ],
+     [
+      10949,
+      26
+     ],
+     [
+      11029,
+      27
+     ],
+     [
+      11230,
+      28
+     ],
+     [
+      12209,
+      29
+     ],
+     [
+      13249,
+      30
+     ],
+     [
+      14169,
+      31
+     ],
+     [
+      15629,
+      32
+     ],
+     [
+      15869,
+      33
+     ],
+     [
+      16190,
+      34
+     ],
+     [
+      16469,
+      35
+     ],
+     [
+      16809,
+      36
+     ]
+    ]
+   },
+   "p3h-zipzip": {
+    "s": 95292,
+    "d": 2957,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      814,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      1921,
+      3
+     ],
+     [
+      2253,
+      4
+     ],
+     [
+      2585,
+      5
+     ]
+    ]
+   },
+   "p3h-vrak": {
+    "s": 98549,
+    "d": 2094,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      1489,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 100944,
+    "d": 3957,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1909,
+      1
+     ],
+     [
+      2209,
+      2
+     ],
+     [
+      2930,
+      3
+     ],
+     [
+      3249,
+      4
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 105201,
+    "d": 581,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4": {
+    "s": 106083,
+    "d": 13799,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2489,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      3969,
+      8
+     ],
+     [
+      4330,
+      9
+     ],
+     [
+      5509,
+      10
+     ],
+     [
+      6049,
+      11
+     ],
+     [
+      6410,
+      12
+     ],
+     [
+      7489,
+      13
+     ],
+     [
+      7649,
+      14
+     ],
+     [
+      7949,
+      15
+     ],
+     [
+      8390,
+      16
+     ],
+     [
+      8690,
+      17
+     ],
+     [
+      8829,
+      18
+     ],
+     [
+      8989,
+      19
+     ],
+     [
+      9129,
+      20
+     ],
+     [
+      9989,
+      21
+     ],
+     [
+      10190,
+      22
+     ],
+     [
+      10529,
+      23
+     ],
+     [
+      11430,
+      24
+     ],
+     [
+      12049,
+      25
+     ],
+     [
+      12709,
+      26
+     ],
+     [
+      13109,
+      27
+     ]
+    ]
+   },
+   "p4h-zipzip": {
+    "s": 120183,
+    "d": 2936,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1647,
+      1
+     ],
+     [
+      1959,
+      2
+     ],
+     [
+      2271,
+      3
+     ],
+     [
+      2583,
+      4
+     ]
+    ]
+   },
+   "p4h-tosbi": {
+    "s": 123419,
+    "d": 1193,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      288,
+      1
+     ],
+     [
+      720,
+      2
+     ]
+    ]
+   },
+   "p4h-vrak": {
+    "s": 124913,
+    "d": 2470,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1889,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 127683,
+    "d": 4224,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      2009,
+      1
+     ],
+     [
+      2410,
+      2
+     ],
+     [
+      3329,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 132207,
+    "d": 17332,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      2829,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3390,
+      9
+     ],
+     [
+      3489,
+      10
+     ],
+     [
+      3650,
+      11
+     ],
+     [
+      3809,
+      12
+     ],
+     [
+      3889,
+      13
+     ],
+     [
+      4009,
+      14
+     ],
+     [
+      4969,
+      15
+     ],
+     [
+      5350,
+      16
+     ],
+     [
+      6289,
+      17
+     ],
+     [
+      6689,
+      18
+     ],
+     [
+      7009,
+      19
+     ],
+     [
+      7229,
+      20
+     ],
+     [
+      7949,
+      21
+     ],
+     [
+      8390,
+      22
+     ],
+     [
+      8569,
+      23
+     ],
+     [
+      9289,
+      24
+     ],
+     [
+      9589,
+      25
+     ],
+     [
+      9730,
+      26
+     ],
+     [
+      10129,
+      27
+     ],
+     [
+      10469,
+      28
+     ],
+     [
+      10690,
+      29
+     ],
+     [
+      11529,
+      30
+     ],
+     [
+      11989,
+      31
+     ],
+     [
+      12810,
+      32
+     ],
+     [
+      13089,
+      33
+     ],
+     [
+      13529,
+      34
+     ],
+     [
+      13890,
+      35
+     ],
+     [
+      14409,
+      36
+     ],
+     [
+      14769,
+      37
+     ],
+     [
+      15509,
+      38
+     ],
+     [
+      15909,
+      39
+     ],
+     [
+      16450,
+      40
+     ],
+     [
+      16729,
+      41
+     ]
+    ]
+   },
+   "p5h-zipzip": {
+    "s": 149840,
+    "d": 1840,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      746,
+      1
+     ],
+     [
+      1048,
+      2
+     ]
+    ]
+   },
+   "p5h-tosbi": {
+    "s": 151981,
+    "d": 2065,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      1069,
+      1
+     ],
+     [
+      1349,
+      2
+     ]
+    ]
+   },
+   "p5h-vrak": {
+    "s": 154347,
+    "d": 2124,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1109,
+      1
+     ],
+     [
+      1430,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

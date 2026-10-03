@@ -1,0 +1,2447 @@
+{
+ "id": "097-yirmi-uc-nisan-sarkisi",
+ "n": 97,
+ "title": "23 Nisan Şarkısı",
+ "age": "60-72",
+ "area": "Müzik",
+ "theme": "23 Nisan için birlikte şarkı yazmak, heyecanla baş etmek ve el ele söylemek",
+ "values": [
+  "D19 Vatanseverlik"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 5,
+ "blurb": "Nur Öğretmen'in sınıfı 23 Nisan için dünyanın çocuklarını anlatan bir şarkı yazar. Provada Deniz'in sesi heyecandan saklanır. Elif'in balon fikriyle ses azar azar büyür!",
+ "codes": {
+  "maarif": [
+   "MSB2 Müziksel Söyleme: Çocuk şarkılarındaki ve şarkı formlarındaki özellikleri fark eder, şarkı sözlerini doğru telaffuz eder (öğrenme çıktısı numarası teyitsiz)",
+   "MYB5 Müziksel Yaratıcılık: Müziksel deneyimlerine dayalı müziksel ürünler oluşturabilme ve bunları sergileme (öğrenme çıktısı numarası teyitsiz)",
+   "MDB.1 Çeşitli müzik eserlerini dinleyebilme (çocuk şarkıları ve şarkı formları; programda 48-60 ay örneği, burada pekiştirme)",
+   "OB6 Vatandaşlık Okuryazarlığı",
+   "SDB2.2 İş Birliği",
+   "SDB1.2 Kendini Düzenleme",
+   "D19 Vatanseverlik"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "nur": "ogretmen",
+  "ali": "cocuk-erkek",
+  "deniz": "cocuk-kiz",
+  "elif": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "nur": "Nur Öğretmen",
+  "ali": "Ali",
+  "deniz": "Deniz",
+  "elif": "Elif"
+ },
+ "pages": [
+  {
+   "text": "Nisan geldi, pencerenin önünde laleler açtı. Nur Öğretmen tefini salladı: şıkır şıkır! “23 Nisan geliyor! Atatürk bu bayramı size, bütün çocuklara armağan etti. Bayramda kendi şarkımızı söyleyelim mi?” “Eveeet!” dedi Ali, Deniz ve Elif.",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ogretmen",
+      "x": 128,
+      "y": 228,
+      "s": 1,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "tef",
+      "turn": 0.5,
+      "hit": "nur"
+     },
+     {
+      "k": "ali",
+      "x": 212,
+      "y": 232,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "jump",
+      "flip": true,
+      "turn": 0.4,
+      "hit": "ali"
+     },
+     {
+      "k": "deniz",
+      "x": 284,
+      "y": 222,
+      "s": 0.94,
+      "mood": "happy",
+      "pose": "clap",
+      "flip": true,
+      "hit": "deniz"
+     },
+     {
+      "k": "elif",
+      "x": 356,
+      "y": 230,
+      "s": 1,
+      "mood": "laugh",
+      "pose": "wave",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 40,
+      "y": 150,
+      "s": 0.6,
+      "color": "#E4574F",
+      "hit": "lale1"
+     },
+     {
+      "k": "flower",
+      "x": 66,
+      "y": 150,
+      "s": 0.66,
+      "color": "#F6C742",
+      "hit": "lale2"
+     },
+     {
+      "k": "flower",
+      "x": 92,
+      "y": 150,
+      "s": 0.6,
+      "color": "#E4574F",
+      "hit": "lale3"
+     }
+    ]
+   },
+   "hits": {
+    "nur": {
+     "say": "Atatürk bu bayramı size armağan etti!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "Yaşasın! Şarkı söylemeye bayılırım!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Ben de! Ama biraz heyecanlandım.",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Hadi, hemen başlayalım!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "lale": {
+     "say": "Laleler açtı!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "nur",
+    "Nur Öğretmen'e dokun!"
+   ],
+   "ask": "23 Nisan'da neler yapılır? Sen bu bayramda ne yapmak istersin?"
+  },
+  {
+   "text": "Herkes şarkıya bir dize buldu. “Güneşte koşar dünyanın çocukları!” dedi Ali. “Denizde yüzer dünyanın çocukları!” dedi Deniz. “Merhaba der, hola der dünyanın çocukları!” dedi Elif. Nakaratı hep birlikte söylediler: “El ele, el ele, dünyanın çocukları!”",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 158,
+      "y": 230,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "point",
+      "flip": true,
+      "turn": 0.5,
+      "hit": "ali"
+     },
+     {
+      "k": "deniz",
+      "x": 248,
+      "y": 222,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "open",
+      "hit": "deniz"
+     },
+     {
+      "k": "elif",
+      "x": 336,
+      "y": 232,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "wave",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "x": 213,
+      "y": 102,
+      "s": 1.25,
+      "theme": "family",
+      "frame": true,
+      "hit": "nakarat"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Güneşte koşar dünyanın çocukları!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "xylo"
+    },
+    "deniz": {
+     "say": "Denizde yüzer dünyanın çocukları!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "xylo"
+    },
+    "elif": {
+     "say": "Merhaba der, hola der dünyanın çocukları!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "xylo"
+    },
+    "nakarat": {
+     "say": "El ele, el ele, dünyanın çocukları!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'nin dizesini dinle!"
+   ],
+   "ask": "Sen bu şarkıya hangi dizeyi eklerdin? Dünyanın çocukları başka neler yapar?"
+  },
+  {
+   "text": "Prova başladı. Ali gür sesle söyledi. Sıra Deniz'e geldi. Deniz çok heyecanlandı. Kalbi küt küt attı, elleri titredi. Ağzını açtı ama sesi minicik çıktı: fıs fıs. “Sesim saklandı!” dedi Deniz.",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 86,
+      "y": 216,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "clap",
+      "turn": 0.6,
+      "hit": "ali"
+     },
+     {
+      "k": "deniz",
+      "x": 200,
+      "y": 234,
+      "s": 1.12,
+      "mood": "scared",
+      "pose": "stand",
+      "hit": "deniz"
+     },
+     {
+      "k": "elif",
+      "x": 322,
+      "y": 222,
+      "s": 0.96,
+      "mood": "think",
+      "pose": "stand",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 256,
+      "y": 118,
+      "s": 0.85,
+      "hit": "kalp"
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Heyecanlandım, sesim saklandı.",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "ali": {
+     "say": "Sen yaparsın, Deniz!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Dur, benim bir fikrim var!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "kalp": {
+     "say": "Küt küt küt!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "drum"
+    }
+   },
+   "predict": {
+    "q": "Sence Deniz'in sesi nasıl geri gelir?",
+    "res": "Güzel tahmin! Hadi görelim!",
+    "opts": [
+     {
+      "l": "Elif yanında söyler",
+      "scene": {
+       "set": "sinif",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "deniz",
+         "x": 164,
+         "y": 232,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "open",
+         "turn": 0.4
+        },
+        {
+         "k": "elif",
+         "x": 256,
+         "y": 232,
+         "s": 1.05,
+         "mood": "laugh",
+         "pose": "clap",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "heart",
+         "x": 210,
+         "y": 110,
+         "s": 0.55
+        }
+       ]
+      }
+     },
+     {
+      "l": "Derin bir nefes alır",
+      "scene": {
+       "set": "sinif",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "deniz",
+         "x": 200,
+         "y": 234,
+         "s": 1.12,
+         "mood": "calm",
+         "pose": "open"
+        }
+       ],
+       "props": [
+        {
+         "k": "sparkle",
+         "x": 250,
+         "y": 120,
+         "s": 0.7
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Sen heyecanlanınca bedeninde neler olur? Kalbin, ellerin ne yapar?",
+   "cues": [
+    {
+     "w": 13,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Elif'in aklına bir fikir geldi. “Sesin bir balon gibi. Onu azar azar şişirelim!” İkisi derin bir nefes aldı. Deniz söyledi, Elif de yanında: önce fısıltıyla… sonra biraz daha yüksek… en sonunda kocaman, gür bir sesle!",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "tables": false,
+    "cast": [
+     {
+      "k": "elif",
+      "x": 96,
+      "y": 232,
+      "s": 1.04,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "elif"
+     },
+     {
+      "k": "deniz",
+      "x": 188,
+      "y": 230,
+      "s": 1.04,
+      "mood": "calm",
+      "pose": "open",
+      "turn": 0.4,
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "balon",
+      "x": 258,
+      "y": 234,
+      "s": 0.66,
+      "color": "#F6C742",
+      "hit": "v1"
+     },
+     {
+      "k": "balon",
+      "x": 306,
+      "y": 234,
+      "s": 0.86,
+      "color": "#F39A3C",
+      "hit": "v2"
+     },
+     {
+      "k": "balon",
+      "x": 362,
+      "y": 234,
+      "s": 1.08,
+      "color": "#E4574F",
+      "hit": "v3"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Önce fısıltı, sonra kocaman!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "deniz": {
+     "say": "Nefes aldım. Hazırım!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "v1": {
+     "say": "El ele…",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "v2": {
+     "say": "El ele, el ele!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "v3": {
+     "say": "El ele, dünyanın çocukları!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "v1",
+     "v2",
+     "v3"
+    ],
+    "done": "Ses büyüyor, büyüyor!",
+    "msg": "Ses büyüdü!"
+   },
+   "hint": [
+    "v1",
+    "Küçük balondan başla!"
+   ],
+   "ask": "Sen de dener misin? Önce fısıltıyla, sonra gür sesle “El ele!” de. Hangisi daha kolaydı, neden?"
+  },
+  {
+   "text": "Bayram sabahı geldi! Ali bayrakları astı. Deniz el ele tutuşan çocukların resimlerini panoya dizdi. Balonları sayarken şarkıyı fısıltıyla bir daha söyledi. Elif renk renk balonları tek tek bağladı. Kaç balon var? Say bakalım!",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 150,
+      "y": 228,
+      "s": 1,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.5,
+      "hit": "ali",
+      "flip": true
+     },
+     {
+      "k": "deniz",
+      "x": 234,
+      "y": 222,
+      "s": 0.94,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "deniz"
+     },
+     {
+      "k": "elif",
+      "x": 310,
+      "y": 232,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "bayrak-dizisi",
+      "x": 200,
+      "y": 30,
+      "w": 440,
+      "n": 13,
+      "sag": 12
+     },
+     {
+      "k": "balon",
+      "x": 30,
+      "y": 150,
+      "s": 0.72,
+      "color": "#E4574F",
+      "hit": "b1"
+     },
+     {
+      "k": "balon",
+      "x": 62,
+      "y": 150,
+      "s": 0.72,
+      "color": "#F6C742",
+      "hit": "b2"
+     },
+     {
+      "k": "balon",
+      "x": 96,
+      "y": 150,
+      "s": 0.72,
+      "color": "#4F8FD8",
+      "hit": "b3"
+     },
+     {
+      "k": "balon",
+      "x": 308,
+      "y": 118,
+      "s": 0.72,
+      "color": "#6DB54B",
+      "hit": "b4"
+     },
+     {
+      "k": "balon",
+      "x": 342,
+      "y": 118,
+      "s": 0.72,
+      "color": "#E86FA8",
+      "hit": "b5"
+     },
+     {
+      "k": "balon",
+      "x": 376,
+      "y": 118,
+      "s": 0.72,
+      "color": "#9B6FD0",
+      "hit": "b6"
+     },
+     {
+      "k": "resim",
+      "x": 170,
+      "y": 102,
+      "s": 0.95,
+      "theme": "family",
+      "frame": "#E4574F"
+     },
+     {
+      "k": "resim",
+      "x": 216,
+      "y": 102,
+      "s": 0.95,
+      "theme": "family",
+      "frame": "#4F8FD8"
+     },
+     {
+      "k": "resim",
+      "x": 262,
+      "y": 102,
+      "s": 0.95,
+      "theme": "family",
+      "frame": "#6DB54B"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Bayraklarımızı astım! Ne güzel dalgalanıyor!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "deniz": {
+     "say": "Bak, çocuklar el ele!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Balonları ben bağladım!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "b1",
+     "b2",
+     "b3",
+     "b4",
+     "b5",
+     "b6"
+    ],
+    "done": "Altı balon! Sınıf bayrama hazır!",
+    "msg": "Hepsini saydın!"
+   },
+   "hint": [
+    "b1",
+    "Balonları say!"
+   ],
+   "ask": "Sınıfını bayram için nasıl süslerdin? Hangi renkleri seçerdin?"
+  },
+  {
+   "text": "Şenlik başladı! Tef çaldı: şıkır şıkır! Önce Ali söyledi. Sıra Deniz'e geldi. Derin bir nefes aldı, balonu düşündü. Önce fısıltıyla, sonra gür sesle! Hepsi birden “El ele, el ele, dünyanın çocukları!” diye söyledi. Deniz'in kalbi yine küt küt atıyordu ama bu kez sevinçten!",
+   "scene": {
+    "set": "sinif",
+    "weather": "sun",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 84,
+      "y": 234,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "wave",
+      "hold": "turk-bayragi",
+      "holdO": {
+       "kind": "el"
+      },
+      "turn": 0.5,
+      "hit": "ali",
+      "flip": false
+     },
+     {
+      "k": "deniz",
+      "x": 184,
+      "y": 236,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "open",
+      "hit": "deniz"
+     },
+     {
+      "k": "elif",
+      "x": 274,
+      "y": 232,
+      "s": 1.04,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "elif"
+     },
+     {
+      "k": "ogretmen",
+      "x": 358,
+      "y": 214,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "tef",
+      "flip": true,
+      "hit": "nur",
+      "holdO": {
+       "shake": true
+      }
+     }
+    ],
+    "props": [
+     {
+      "k": "bayrak-dizisi",
+      "x": 200,
+      "y": 30,
+      "w": 440,
+      "n": 13,
+      "sag": 12
+     },
+     {
+      "k": "balon",
+      "x": 30,
+      "y": 150,
+      "s": 0.72,
+      "color": "#E4574F"
+     },
+     {
+      "k": "balon",
+      "x": 62,
+      "y": 150,
+      "s": 0.72,
+      "color": "#F6C742"
+     },
+     {
+      "k": "balon",
+      "x": 96,
+      "y": 150,
+      "s": 0.72,
+      "color": "#4F8FD8"
+     },
+     {
+      "k": "balon",
+      "x": 308,
+      "y": 118,
+      "s": 0.72,
+      "color": "#6DB54B"
+     },
+     {
+      "k": "balon",
+      "x": 342,
+      "y": 118,
+      "s": 0.72,
+      "color": "#E86FA8"
+     },
+     {
+      "k": "balon",
+      "x": 376,
+      "y": 118,
+      "s": 0.72,
+      "color": "#9B6FD0"
+     },
+     {
+      "k": "resim",
+      "x": 170,
+      "y": 102,
+      "s": 0.95,
+      "theme": "family",
+      "frame": "#E4574F"
+     },
+     {
+      "k": "resim",
+      "x": 216,
+      "y": 102,
+      "s": 0.95,
+      "theme": "family",
+      "frame": "#4F8FD8"
+     },
+     {
+      "k": "resim",
+      "x": 262,
+      "y": 102,
+      "s": 0.95,
+      "theme": "family",
+      "frame": "#6DB54B"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Güneşte koşar dünyanın çocukları!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "xylo"
+    },
+    "deniz": {
+     "say": "Önce ince, sonra gür! Denizde yüzer…",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "xylo"
+    },
+    "elif": {
+     "say": "Merhaba der, hola der dünyanın çocukları!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "xylo"
+    },
+    "nur": {
+     "say": "Şimdi hep birlikte!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "drum"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "ali",
+     "deniz",
+     "elif",
+     "nur"
+    ],
+    "done": "El ele, el ele, dünyanın çocukları!",
+    "msg": "Şarkı tamam!"
+   },
+   "hint": [
+    "ali",
+    "Önce Ali söylesin!"
+   ],
+   "ask": "Sen hiç kalabalığın önünde şarkı söyledin mi? Nasıl hissettin?",
+   "cues": [
+    {
+     "w": 36,
+     "fx": "kalp"
+    }
+   ]
+  }
+ ],
+ "order": [
+  2,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "beceri: MSB2 Müziksel Söyleme: Sınıfça yazılan şarkının dizelerini sırası gelince söyler, nakarata grupla katılır (MSB öğrenme çıktısı: şarkı formlarındaki özellikleri fark eder, şarkı sözlerini doğru telaffuz eder — teyitsiz).",
+   "beceri: MYB5 Müziksel Yaratıcılık: Şarkıya kendi dizesini ekler; ses düzeyini fısıltıdan gür sese kadar değiştirerek dener (MYB öğrenme çıktısı: müziksel deneyimlerine dayalı müziksel ürünler oluşturabilme ve bunları sergileme — teyitsiz).",
+   "MDB.1 Çeşitli müzik eserlerini dinleyebilme: Dize ve nakarattan oluşan bir çocuk şarkısını dinler, nakaratın tekrar ettiğini fark eder.",
+   "OB6 Vatandaşlık Okuryazarlığı ve D19 Vatanseverlik: 23 Nisan'ın Atatürk'ün çocuklara armağan ettiği bayram olduğunu söyler; bayrağımızla ve şarkıyla bayrama katılır.",
+   "SDB2.2 İş Birliği: Şarkıyı arkadaşlarıyla birlikte yazar, sırayla söyler, arkadaşının heyecanına destek olur. SDB1.2 Kendini Düzenleme: Heyecanlanınca derin nefes alıp sesini azar azar büyütür."
+  ],
+  "once": [
+   "Kapaktaki bayrak ve balonlara bakın: “Sence bu sınıfta ne kutlanıyor?”",
+   "23 Nisan'ı konuşun: 23 Nisan 1920'de Türkiye Büyük Millet Meclisi açıldı. Atatürk bu günü çocuklara bayram olarak armağan etti. Bugün dünyanın dört bir yanından çocuklar da gelip bizimle kutluyor.",
+   "“Merhaba”yı başka hangi dillerde bildiğinizi sorun. Sınıfta ya da ailede farklı bir dil konuşan varsa onun “merhaba”sını öğrenin."
+  ],
+  "sirasi": [
+   "2. sayfada her çocuğa dokunup dizesini dinleyin; sonra nakaratı el çırparak birlikte söyleyin.",
+   "3. sayfada Deniz'in bedenine bakın: kalbe ve Deniz'e dokunup duygusunu adlandırın. Tahminde iki seçenek de iyi bir yol; çocuğun gerekçesini dinleyin.",
+   "4. sayfada balonlara sırayla dokunurken sesinizi siz de fısıltıdan gür sese büyütün. 5. sayfada balonları birlikte sayın."
+  ],
+  "sonra": [
+   "Deniz neden heyecanlandı? Sesi nasıl geri geldi? Elif'in balon fikri neden işe yaradı?",
+   "Şarkıda hangi dize kimindi? Nakarat kaç kez söylendi? Birlikte bir dize daha uydurun.",
+   "Sen heyecanlanınca ne yaparsın? Derin nefes, bir arkadaşın elini tutmak, fısıltıyla başlamak… Hangisini denemek istersin?"
+  ],
+  "sinif": {
+   "ad": "Bizim 23 Nisan Şarkımız",
+   "sure": "20 dk",
+   "materyal": "Tef, üç boy balon resmi (küçük, orta, büyük), büyük kâğıt, boya kalemleri, küçük kâğıt bayraklar",
+   "adim": [
+    "Nakaratı birlikte öğrenin: “El ele, el ele, dünyanın çocukları!” Öğretmen tefle tempo tutar.",
+    "Her çocuk ya da küçük bir grup “Dünyanın çocukları …” diye başlayan bir dize bulur (koşar, uyur, resim yapar, merhaba der). Dizeleri resimle kâğıda çizin.",
+    "Balon resimlerini gösterin: küçük balonda fısıltıyla, ortada normal sesle, büyükte gür sesle nakaratı söyleyin. Kimse zorla tek başına söyletilmez; isteyen arkadaşıyla el ele söyler.",
+    "Dizeleri sırayla, nakaratı hep birlikte söyleyerek şarkıyı sınıfa ya da ailelere sergileyin.",
+    "Sonunda sorun: “Söylerken nasıl hissettin? Birlikte söyleyince ne değişti?”"
+   ]
+  },
+  "evSoru": [
+   "23 Nisan kimin bayramı? Kim armağan etti?",
+   "Deniz'in sesi neden saklandı, nasıl geri geldi?",
+   "Senin dizen ne olurdu? “Dünyanın çocukları …”"
+  ],
+  "evEtk": {
+   "ad": "Balon Sesi",
+   "d": "Evde bir çocuk şarkısını üç kez söyleyin: önce fısıltıyla, sonra normal sesle, sonra gür sesle. Her seferinde elinizle küçük, orta, büyük bir balon çizin havaya. Ardından şarkıya aile olarak bir dize ekleyin."
+  },
+  "aileNotu": "Bugün “23 Nisan Şarkısı” masalını okuduk. Nur Öğretmen'in sınıfı, Atatürk'ün çocuklara armağan ettiği bayram için dünyanın çocuklarını anlatan bir şarkı yazdı. Provada Deniz heyecanlandı ve sesi saklandı; Elif derin nefes alıp sesi balon gibi azar azar büyütmeyi önerdi. Evde çocuğunuzla fısıltıdan gür sese şarkı söyleyebilir, heyecanlandığında nefes almanın ve birinin elini tutmanın iyi geldiğini konuşabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/097-yirmi-uc-nisan-sarkisi.mp3",
+  "hash": "af1b1450",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17983,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1889,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3629,
+      6
+     ],
+     [
+      3869,
+      7
+     ],
+     [
+      4469,
+      8
+     ],
+     [
+      4969,
+      9
+     ],
+     [
+      5709,
+      10
+     ],
+     [
+      6309,
+      11
+     ],
+     [
+      6934,
+      12
+     ],
+     [
+      7629,
+      13
+     ],
+     [
+      8069,
+      14
+     ],
+     [
+      8909,
+      15
+     ],
+     [
+      9430,
+      16
+     ],
+     [
+      9549,
+      17
+     ],
+     [
+      10069,
+      18
+     ],
+     [
+      10669,
+      19
+     ],
+     [
+      11089,
+      20
+     ],
+     [
+      11669,
+      21
+     ],
+     [
+      12109,
+      22
+     ],
+     [
+      12789,
+      23
+     ],
+     [
+      13270,
+      24
+     ],
+     [
+      13529,
+      25
+     ],
+     [
+      14109,
+      26
+     ],
+     [
+      14689,
+      27
+     ],
+     [
+      15189,
+      28
+     ],
+     [
+      16149,
+      29
+     ],
+     [
+      16509,
+      30
+     ],
+     [
+      16969,
+      31
+     ],
+     [
+      17489,
+      32
+     ],
+     [
+      17690,
+      33
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 18283,
+    "d": 2608,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2170,
+      5
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 21191,
+    "d": 3169,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1209,
+      1
+     ],
+     [
+      1649,
+      2
+     ],
+     [
+      2269,
+      3
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 24660,
+    "d": 2990,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      313,
+      1
+     ],
+     [
+      911,
+      2
+     ],
+     [
+      1388,
+      3
+     ],
+     [
+      1865,
+      4
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 27950,
+    "d": 1667,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      547,
+      1
+     ],
+     [
+      926,
+      2
+     ]
+    ]
+   },
+   "p0h-lale": {
+    "s": 29917,
+    "d": 1156,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      569,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 31373,
+    "d": 18472,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      3809,
+      8
+     ],
+     [
+      4709,
+      9
+     ],
+     [
+      5009,
+      10
+     ],
+     [
+      5609,
+      11
+     ],
+     [
+      6089,
+      12
+     ],
+     [
+      6529,
+      13
+     ],
+     [
+      7089,
+      14
+     ],
+     [
+      7969,
+      15
+     ],
+     [
+      8230,
+      16
+     ],
+     [
+      8969,
+      17
+     ],
+     [
+      9569,
+      18
+     ],
+     [
+      10089,
+      19
+     ],
+     [
+      10430,
+      20
+     ],
+     [
+      10709,
+      21
+     ],
+     [
+      11230,
+      22
+     ],
+     [
+      12089,
+      23
+     ],
+     [
+      12390,
+      24
+     ],
+     [
+      13109,
+      25
+     ],
+     [
+      13729,
+      26
+     ],
+     [
+      13949,
+      27
+     ],
+     [
+      14409,
+      28
+     ],
+     [
+      15449,
+      29
+     ],
+     [
+      15709,
+      30
+     ],
+     [
+      16370,
+      31
+     ],
+     [
+      16629,
+      32
+     ],
+     [
+      17209,
+      33
+     ],
+     [
+      17789,
+      34
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 50146,
+    "d": 2348,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1550,
+      3
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 52794,
+    "d": 2384,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 55479,
+    "d": 3242,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      666,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1508,
+      3
+     ],
+     [
+      1761,
+      4
+     ],
+     [
+      2388,
+      5
+     ]
+    ]
+   },
+   "p1h-nakarat": {
+    "s": 59021,
+    "d": 3022,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2329,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 62344,
+    "d": 15138,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3569,
+      7
+     ],
+     [
+      3949,
+      8
+     ],
+     [
+      4689,
+      9
+     ],
+     [
+      5069,
+      10
+     ],
+     [
+      5310,
+      11
+     ],
+     [
+      6289,
+      12
+     ],
+     [
+      6689,
+      13
+     ],
+     [
+      6930,
+      14
+     ],
+     [
+      7169,
+      15
+     ],
+     [
+      7769,
+      16
+     ],
+     [
+      8150,
+      17
+     ],
+     [
+      9069,
+      18
+     ],
+     [
+      9489,
+      19
+     ],
+     [
+      10109,
+      20
+     ],
+     [
+      10350,
+      21
+     ],
+     [
+      10649,
+      22
+     ],
+     [
+      11089,
+      23
+     ],
+     [
+      11810,
+      24
+     ],
+     [
+      12149,
+      25
+     ],
+     [
+      12969,
+      26
+     ],
+     [
+      13350,
+      27
+     ],
+     [
+      14369,
+      28
+     ],
+     [
+      14629,
+      29
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 77782,
+    "d": 2633,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1430,
+      1
+     ],
+     [
+      1849,
+      2
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 80716,
+    "d": 1708,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1050,
+      2
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 82725,
+    "d": 1844,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      437,
+      1
+     ],
+     [
+      871,
+      2
+     ],
+     [
+      1120,
+      3
+     ],
+     [
+      1554,
+      4
+     ]
+    ]
+   },
+   "p2h-kalp": {
+    "s": 84869,
+    "d": 1387,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      475,
+      1
+     ],
+     [
+      911,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 86556,
+    "d": 2614,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2110,
+      5
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 89471,
+    "d": 1960,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 91732,
+    "d": 16588,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2509,
+      6
+     ],
+     [
+      2670,
+      7
+     ],
+     [
+      3089,
+      8
+     ],
+     [
+      3729,
+      9
+     ],
+     [
+      4029,
+      10
+     ],
+     [
+      4330,
+      11
+     ],
+     [
+      4629,
+      12
+     ],
+     [
+      5609,
+      13
+     ],
+     [
+      6149,
+      14
+     ],
+     [
+      6549,
+      15
+     ],
+     [
+      6689,
+      16
+     ],
+     [
+      7109,
+      17
+     ],
+     [
+      7809,
+      18
+     ],
+     [
+      8169,
+      19
+     ],
+     [
+      9049,
+      20
+     ],
+     [
+      9329,
+      21
+     ],
+     [
+      9449,
+      22
+     ],
+     [
+      10369,
+      23
+     ],
+     [
+      10690,
+      24
+     ],
+     [
+      11949,
+      25
+     ],
+     [
+      12469,
+      26
+     ],
+     [
+      12850,
+      27
+     ],
+     [
+      13109,
+      28
+     ],
+     [
+      13909,
+      29
+     ],
+     [
+      14129,
+      30
+     ],
+     [
+      14709,
+      31
+     ],
+     [
+      15529,
+      32
+     ],
+     [
+      15869,
+      33
+     ],
+     [
+      16030,
+      34
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 108620,
+    "d": 2973,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      2189,
+      3
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 111894,
+    "d": 2075,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1489,
+      2
+     ]
+    ]
+   },
+   "p3h-v1": {
+    "s": 114270,
+    "d": 825,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      311,
+      1
+     ]
+    ]
+   },
+   "p3h-v2": {
+    "s": 115395,
+    "d": 1597,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      872,
+      2
+     ],
+     [
+      1122,
+      3
+     ]
+    ]
+   },
+   "p3h-v3": {
+    "s": 117293,
+    "d": 2100,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 119694,
+    "d": 2109,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1329,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 122104,
+    "d": 16345,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      3469,
+      6
+     ],
+     [
+      3930,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4269,
+      9
+     ],
+     [
+      4749,
+      10
+     ],
+     [
+      5350,
+      11
+     ],
+     [
+      6029,
+      12
+     ],
+     [
+      6430,
+      13
+     ],
+     [
+      7229,
+      14
+     ],
+     [
+      7749,
+      15
+     ],
+     [
+      8589,
+      16
+     ],
+     [
+      9129,
+      17
+     ],
+     [
+      9869,
+      18
+     ],
+     [
+      10089,
+      19
+     ],
+     [
+      10350,
+      20
+     ],
+     [
+      11310,
+      21
+     ],
+     [
+      11770,
+      22
+     ],
+     [
+      12109,
+      23
+     ],
+     [
+      12390,
+      24
+     ],
+     [
+      13049,
+      25
+     ],
+     [
+      13350,
+      26
+     ],
+     [
+      13629,
+      27
+     ],
+     [
+      14509,
+      28
+     ],
+     [
+      14789,
+      29
+     ],
+     [
+      15189,
+      30
+     ],
+     [
+      15609,
+      31
+     ],
+     [
+      15850,
+      32
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 138749,
+    "d": 3430,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1849,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2449,
+      4
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 142480,
+    "d": 2089,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1241,
+      2
+     ],
+     [
+      1535,
+      3
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 144870,
+    "d": 1645,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      909,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 146815,
+    "d": 2587,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 149702,
+    "d": 22034,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2489,
+      4
+     ],
+     [
+      2989,
+      5
+     ],
+     [
+      3869,
+      6
+     ],
+     [
+      4290,
+      7
+     ],
+     [
+      4549,
+      8
+     ],
+     [
+      5350,
+      9
+     ],
+     [
+      5649,
+      10
+     ],
+     [
+      6069,
+      11
+     ],
+     [
+      6890,
+      12
+     ],
+     [
+      7229,
+      13
+     ],
+     [
+      7370,
+      14
+     ],
+     [
+      7769,
+      15
+     ],
+     [
+      8469,
+      16
+     ],
+     [
+      8869,
+      17
+     ],
+     [
+      9789,
+      18
+     ],
+     [
+      10089,
+      19
+     ],
+     [
+      11209,
+      20
+     ],
+     [
+      11669,
+      21
+     ],
+     [
+      11989,
+      22
+     ],
+     [
+      12829,
+      23
+     ],
+     [
+      13209,
+      24
+     ],
+     [
+      13989,
+      25
+     ],
+     [
+      14169,
+      26
+     ],
+     [
+      14609,
+      27
+     ],
+     [
+      14789,
+      28
+     ],
+     [
+      15129,
+      29
+     ],
+     [
+      15749,
+      30
+     ],
+     [
+      16629,
+      31
+     ],
+     [
+      16909,
+      32
+     ],
+     [
+      17749,
+      33
+     ],
+     [
+      18229,
+      34
+     ],
+     [
+      18690,
+      35
+     ],
+     [
+      19009,
+      36
+     ],
+     [
+      19289,
+      37
+     ],
+     [
+      19549,
+      38
+     ],
+     [
+      20450,
+      39
+     ],
+     [
+      20709,
+      40
+     ],
+     [
+      20869,
+      41
+     ],
+     [
+      21229,
+      42
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 172037,
+    "d": 2317,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 174655,
+    "d": 3697,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      2549,
+      4
+     ],
+     [
+      3129,
+      5
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 178652,
+    "d": 3231,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      664,
+      1
+     ],
+     [
+      1065,
+      2
+     ],
+     [
+      1503,
+      3
+     ],
+     [
+      1755,
+      4
+     ],
+     [
+      2379,
+      5
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 182184,
+    "d": 1520,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      809,
+      2
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 184004,
+    "d": 2995,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2289,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

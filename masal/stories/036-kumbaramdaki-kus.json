@@ -1,0 +1,2132 @@
+{
+ "id": "036-kumbaramdaki-kus",
+ "n": 36,
+ "title": "Kumbaramdaki Kuş",
+ "age": "60-72",
+ "area": "Sosyal",
+ "theme": "Biriktirme ve beklemek (Tutum, Yatırım ve Türk Malları Haftası)",
+ "values": [
+  "D17 Tasarruf",
+  "D12 Sabır"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 5,
+ "blurb": "Ali, karda aç kalan serçelere bir yemlik almak ister ama kumbarasında yalnızca üç para vardır. Her akşam bir para atar, kırmızı balonun önünde bile derin bir nefes alır ve bir hafta sonra kumbaradaki kuş bahçeye uçar.",
+ "codes": {
+  "maarif": [
+   "OB3 Finansal Okuryazarlık",
+   "SAB.7 Para kavramı ve paranın günlük yaşamdaki önemi (teyitsiz; konu düzeyinde eşleme)",
+   "MAB.1 Ritmik ve algısal sayabilme",
+   "SDB1.2 Kendini Düzenleme",
+   "D17 Tasarruf",
+   "D12 Sabır"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ali": "cocuk-erkek",
+  "anne": "anne",
+  "kus": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "ali": "Ali",
+  "anne": "Anne",
+  "kus": "Serçeler"
+ },
+ "pages": [
+  {
+   "text": "Kar yağıyordu. Pencerenin önüne üç serçe kondu. Cik cik, cik cik! Tüylerini kabarttılar. Ali pencereye koştu. “Anne, serçeler acıkmış mı?” Anne başını salladı. “Karda yem bulmak zor.” Ali'nin aklına bir fikir geldi. “Onlara bir yemlik alalım!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "snow",
+    "cast": [
+     {
+      "k": "kus",
+      "x": 68,
+      "y": 124,
+      "s": 1.05,
+      "mood": "sad",
+      "pose": "perch",
+      "hit": "kus1"
+     },
+     {
+      "k": "kus",
+      "x": 100,
+      "y": 112,
+      "s": 1.0,
+      "mood": "surprised",
+      "pose": "perch",
+      "hit": "kus2"
+     },
+     {
+      "k": "kus",
+      "x": 130,
+      "y": 126,
+      "s": 1.05,
+      "mood": "sad",
+      "pose": "perch",
+      "flip": true,
+      "hit": "kus3"
+     },
+     {
+      "k": "ali",
+      "x": 158,
+      "y": 226,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "point",
+      "flip": true,
+      "hit": "ali"
+     },
+     {
+      "k": "anne",
+      "x": 292,
+      "y": 224,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "stand",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "kus": {
+     "say": "Cik cik! Cik cik!",
+     "voice": "kus",
+     "anim": "wiggle",
+     "fx": "tweet"
+    },
+    "ali": {
+     "say": "Onlara bir yemlik alalım!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Karda yem bulmak zor.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "kus1",
+    "Serçelere dokun!"
+   ],
+   "ask": "Kışın her yer karla kaplanınca kuşlar yem bulmak için ne yapar sence?"
+  },
+  {
+   "text": "Ali kumbarasını salladı. Tın, tın, tın! Paraları halıya döktü. Ama yemlik için on para lazımdı. Ali'nin yüzü asıldı, boğazı düğüm düğüm oldu. “Hemen istiyorum!” Anne yanına oturdu. “Beklemek zor, biliyorum. Her akşam bir para atalım mı?”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "snow",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 190,
+      "y": 230,
+      "s": 1.2,
+      "mood": "sad",
+      "pose": "sit",
+      "hit": "ali"
+     },
+     {
+      "k": "anne",
+      "x": 292,
+      "y": 226,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "sit",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "kumbara",
+      "x": 62,
+      "y": 222,
+      "s": 1.6,
+      "hit": "kumbara"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 108,
+      "y": 232,
+      "s": 0.9,
+      "hit": "c1"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 136,
+      "y": 224,
+      "s": 0.9,
+      "hit": "c2"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 116,
+      "y": 212,
+      "s": 0.9,
+      "hit": "c3"
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "done": "Üç para var. Yedi para daha lazım!",
+    "msg": "Üç para!"
+   },
+   "hits": {
+    "ali": {
+     "say": "Hemen istiyorum, hemen!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "anne": {
+     "say": "Beklemek zor, biliyorum.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "kumbara": {
+     "say": "Tın, tın, tın!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "c1",
+    "Paraları say!"
+   ],
+   "ask": "Bir şeyi hemen isteyip beklemen gerekince ne hissedersin? Bedeninin neresinde hissedersin?"
+  },
+  {
+   "text": "Ertesi gün anne, Ali'ye bir para verdi. Bakkalın önünde kırmızı bir balon salınıyordu. Ali'nin gözleri parladı. Avucundaki para gıdıklıyordu sanki. Balon mu, yemlik mi? Ali derin bir nefes aldı. Bir, iki, üç…",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 76,
+      "y": 230,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "anne"
+     },
+     {
+      "k": "ali",
+      "x": 172,
+      "y": 232,
+      "s": 1.1,
+      "mood": "think",
+      "pose": "hold",
+      "hold": "bozuk-para",
+      "hit": "ali"
+     }
+    ],
+    "props": [
+     {
+      "k": "balon",
+      "x": 242,
+      "y": 224,
+      "s": 1.1,
+      "color": "#e5463f",
+      "hit": "balon"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Balon mu, yemlik mi? Hımm...",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "balon": {
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Acele yok. Önce bir nefes al.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "blow"
+    }
+   },
+   "predict": {
+    "q": "Sence Ali parasını ne yapacak?",
+    "res": "Hadi görelim!",
+    "opts": [
+     {
+      "l": "Balonu alır",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "day",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 200,
+         "y": 232,
+         "s": 1.15,
+         "mood": "laugh",
+         "pose": "wave"
+        }
+       ],
+       "props": [
+        {
+         "k": "balon",
+         "x": 236,
+         "y": 150,
+         "s": 1.1,
+         "color": "#e5463f"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Kumbarasına atar",
+      "scene": {
+       "set": "salon",
+       "time": "evening",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 170,
+         "y": 230,
+         "s": 1.2,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "bozuk-para"
+        }
+       ],
+       "props": [
+        {
+         "k": "kumbara",
+         "x": 240,
+         "y": 230,
+         "s": 1.8,
+         "coin": true,
+         "flip": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Sen Ali olsan paranı ne yapardın? Neden?"
+  },
+  {
+   "text": "Ali serçeleri düşündü. “Balon bir gün, yemlik her gün!” Annesinin elini tutup eve koştu. Pazartesi şın! Para kumbaraya düştü. Ali kumbaraya fısıldadı: “İçinde bir kuş büyüyor.” Salı şın! Çarşamba şın… Her akşam bir para!",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 232,
+      "y": 158,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "anne"
+     },
+     {
+      "k": "ali",
+      "x": 82,
+      "y": 230,
+      "s": 1.15,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "ali"
+     }
+    ],
+    "props": [
+     {
+      "k": "kumbara",
+      "x": 160,
+      "y": 230,
+      "s": 1.8,
+      "coin": true,
+      "hit": "kumbara"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 258,
+      "y": 214,
+      "s": 0.9,
+      "hit": "d1"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 290,
+      "y": 224,
+      "s": 0.9,
+      "hit": "d2"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 322,
+      "y": 212,
+      "s": 0.9,
+      "hit": "d3"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 356,
+      "y": 222,
+      "s": 0.9,
+      "hit": "d4"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 272,
+      "y": 236,
+      "s": 0.9,
+      "hit": "d5"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 310,
+      "y": 234,
+      "s": 0.9,
+      "hit": "d6"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 346,
+      "y": 236,
+      "s": 0.9,
+      "hit": "d7"
+     }
+    ]
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "d1",
+     "d2",
+     "d3",
+     "d4",
+     "d5",
+     "d6",
+     "d7"
+    ],
+    "to": [
+     156,
+     190
+    ],
+    "done": "Yedi akşam, yedi para. Şıngır mıngır!",
+    "msg": "Kumbara doluyor!"
+   },
+   "hits": {
+    "ali": {
+     "say": "İçinde bir kuş büyüyor!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "kumbara": {
+     "say": "Şın!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "anne": {
+     "say": "Bir akşam daha, bir para daha!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "d1",
+    "Paraları kumbaraya at!"
+   ],
+   "ask": "Ali kumbarasına neden “İçinde bir kuş büyüyor” dedi?"
+  },
+  {
+   "text": "Kumbara ağırlaştı, tıngır mıngır doldu. Ali ile annesi pazara gitti. Tahta bir yemlik buldular. Ali paraları tezgâha tek tek dizdi. Bir, iki, üç… Tam on para! Anne göz kırptı: “Serçeler çok şanslı!”",
+   "scene": {
+    "set": "pazar",
+    "season": "winter",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 210,
+      "y": 230,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "point",
+      "flip": false,
+      "hit": "ali"
+     },
+     {
+      "k": "anne",
+      "x": 110,
+      "y": 224,
+      "s": 0.98,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": false,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "bozuk-para",
+      "x": 262,
+      "y": 136,
+      "s": 1.0,
+      "hit": "p1"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 284,
+      "y": 136,
+      "s": 1.0,
+      "hit": "p2"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 306,
+      "y": 136,
+      "s": 1.0,
+      "hit": "p3"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 328,
+      "y": 136,
+      "s": 1.0,
+      "hit": "p4"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 350,
+      "y": 136,
+      "s": 1.0,
+      "hit": "p5"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 262,
+      "y": 155,
+      "s": 1.0,
+      "hit": "p6"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 284,
+      "y": 155,
+      "s": 1.0,
+      "hit": "p7"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 306,
+      "y": 155,
+      "s": 1.0,
+      "hit": "p8"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 328,
+      "y": 155,
+      "s": 1.0,
+      "hit": "p9"
+     },
+     {
+      "k": "bozuk-para",
+      "x": 350,
+      "y": 155,
+      "s": 1.0,
+      "hit": "p10"
+     },
+     {
+      "k": "kase",
+      "x": 378,
+      "y": 146,
+      "s": 1.3,
+      "state": "off",
+      "color": "#a8703c",
+      "hit": "yemlik"
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "p1",
+     "p2",
+     "p3",
+     "p4",
+     "p5",
+     "p6",
+     "p7",
+     "p8",
+     "p9",
+     "p10"
+    ],
+    "done": "Tam on para! Yemlik artık Ali'nin!",
+    "msg": "On para!"
+   },
+   "hits": {
+    "ali": {
+     "say": "Bir, iki, üç... Tam on!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "anne": {
+     "say": "Serçeler çok şanslı!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "yemlik": {
+     "anim": "boing",
+     "fx": "bell"
+    }
+   },
+   "hint": [
+    "p1",
+    "Paraları say!"
+   ],
+   "ask": "Sen kumbaranda para biriktirsen ne almak isterdin? Kimin için?"
+  },
+  {
+   "text": "Anne yemliği bahçedeki kütüğe koydu. Ali içine yem doldurdu. Sonra uzaktan izlediler. Pır pır! Serçeler geldi: bir, iki, üç, dört, beş! “Kumbaramdaki kuş uçtu, buraya kondu!” Kumbara bomboştu ama Ali'nin içi kıpır kıpırdı.",
+   "scene": {
+    "set": "bostan",
+    "time": "day",
+    "season": "winter",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 96,
+      "y": 228,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "ali"
+     },
+     {
+      "k": "anne",
+      "x": 42,
+      "y": 214,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "anne"
+     },
+     {
+      "k": "kus",
+      "x": 222,
+      "y": 226,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "kus1"
+     },
+     {
+      "k": "kus",
+      "x": 312,
+      "y": 230,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "stand",
+      "flip": true,
+      "hit": "kus2"
+     },
+     {
+      "k": "kus",
+      "x": 238,
+      "y": 182,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "kus3",
+      "z": 230
+     },
+     {
+      "k": "kus",
+      "x": 298,
+      "y": 182,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true,
+      "hit": "kus4",
+      "z": 230
+     },
+     {
+      "k": "kus",
+      "x": 350,
+      "y": 110,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "fly",
+      "flip": true,
+      "hit": "kus5"
+     }
+    ],
+    "props": [
+     {
+      "k": "kutuk",
+      "x": 268,
+      "y": 222,
+      "s": 1.7,
+      "mushroom": false
+     },
+     {
+      "k": "kase",
+      "x": 268,
+      "y": 181,
+      "s": 1.15,
+      "state": "on",
+      "color": "#a8703c",
+      "z": 223,
+      "fill": "cereal"
+     }
+    ]
+   },
+   "hits": {
+    "kus": {
+     "say": "Cik cik! Afiyet olsun bize!",
+     "voice": "kus",
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "ali": {
+     "say": "Kumbaramdaki kuş uçtu, buraya kondu!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "anne": {
+     "say": "Uzaktan izleyelim, ürkmesinler.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "kus1",
+    "Serçelere dokun!"
+   ],
+   "ask": "Sen biriktirerek kimi sevindirmek isterdin? Nasıl?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "OB3 Finansal Okuryazarlık: bir hedef için para biriktirmenin zaman aldığını fark eder; istek (balon) ile hedef (yemlik) arasında seçim yapar, kumbarada birikenle alışveriş yapılabileceğini anlatır.",
+   "SAB.7 Para kavramı ve paranın günlük yaşamdaki önemi (teyitsiz; konu düzeyinde eşleme; resmî ifade doğrulanmadı): paranın alışverişte kullanıldığını, kumbaranın para biriktirmek için olduğunu masaldaki bakkal, pazar ve kumbara örnekleriyle açıklar. (Gerçek fiyat verilmez; aynı bozuk paralar sayılır.)",
+   "MAB.1 Ritmik ve algısal sayabilme: 1-10 arasında ritmik sayar (“Bir, iki, üç... on!”); 3 parayı bir bakışta söyler; kumbaradan dökülen ve tezgâha dizilen paraların miktarını sayarak belirler.",
+   "SDB1.2 Kendini Düzenleme: hemen isteme duygusunu fark eder ve adlandırır (“boğazı düğüm düğüm oldu”), derin nefes alıp saymak gibi bir yolla isteğini erteler, hedefi için bekler.",
+   "D17 Tasarruf ve D12 Sabır: parasını hemen harcamak yerine her akşam biriktirir; bir hafta beklemenin sonunda hedefine ulaşır."
+  ],
+  "once": [
+   "Bir kumbarayı sallayın: “Bu ses ne? İçinde ne olabilir? Kumbara ne işe yarar?”",
+   "Kapaktaki başlığı okuyun: “Kumbaramdaki Kuş... Bir kumbaranın içinde kuş olur mu? Sence bu ne demek?” Tahminleri not edin, masal sonunda yeniden bakın.",
+   "Tutum, Yatırım ve Türk Malları Haftası'nı kısaca anın: “Bu hafta biriktirmeyi, eşyalarımızı ve paramızı özenle kullanmayı konuşuyoruz.”"
+  ],
+  "sirasi": [
+   "2. sayfada paraları sayarken yüksek sesle birlikte sayın. “Ali'nin boğazı düğüm düğüm oldu. Sen hiç böyle hissettin mi?” diye sorun; Anne'nin “Beklemek zor, biliyorum” cümlesini vurgulayın.",
+   "3. sayfada Ali ile birlikte derin bir nefes alın, sonra üçe kadar sayın. Tahmin sorusunda iki cevabı da kabul edin: balonu istemek de doğal bir istektir.",
+   "4. sayfada her para kumbaraya düştüğünde günleri birlikte söyleyin: “Pazartesi şın, salı şın...” Yedi akşam (pazartesiden pazara), yedi para.",
+   "5. sayfada paraları tezgâhta tek tek sayın; parmakla birer birer dokunmayı gösterin. “3 para vardı, 7 para biriktirdi; şimdi kaç oldu?”"
+  ],
+  "sonra": [
+   "Ali neden yemlik almak istedi? Neden hemen alamadı?",
+   "Ali balonu gördüğünde ne hissetti? Karar vermeden önce ne yaptı?",
+   "“Kumbaramdaki kuş uçtu, buraya kondu!” ne demek? Başlıktaki tahminlerimiz doğru muydu?",
+   "Serçeleri neden uzaktan izlediler?",
+   "Masalı resimlerle sıralayalım: dökülen üç para, kumbaraya düşen paralar, bahçedeki serçeler."
+  ],
+  "sinif": {
+   "ad": "Sınıfımızın Kuş Kumbarası",
+   "sure": "20 dk (bir hafta boyunca her gün 2 dk)",
+   "materyal": "Şeffaf bir kavanoz ya da kumbara, 10 özdeş oyun parası ya da düğme, üzerine 10 kutu çizilmiş bir hedef şeridi, hedefin resmi (kuş yemliği ya da sınıfın seçtiği ortak bir hedef)",
+   "adim": [
+    "Çember olun. Sınıfça ortak bir hedef seçin (kuşlar için yemlik, sınıfa yeni bir kitap). Hedefin resmini şeridin sonuna yapıştırın; gerçek fiyat konuşmayın, yalnızca “10 para” deyin.",
+    "Her gün bir “günün sorumlusu” kumbaraya bir para atsın; hep birlikte ritmik sayın ve şeritte bir kutuyu boyayın. “Kaç kutu kaldı?” diye sorun.",
+    "Bekleme anlarında Ali'nin yolunu deneyin: derin nefes al, üçe kadar say, hedefin resmine bak. Çocuklar beklemek için başka ne yapabileceklerini önersin.",
+    "Şerit dolunca paraları masaya dizip birlikte sayın ve hedefe kavuşmayı kutlayın. Yemlik yaptıysanız okul bahçesine bir yetişkin assın; kuşları camdan, uzaktan izleyin."
+   ]
+  },
+  "evSoru": [
+   "Ali kumbarasında kaç para buldu? Yemlik için kaç para lazımdı?",
+   "Ali balonu görünce ne yaptı? Sen olsan ne yapardın?",
+   "Beklemek zor geldiğinde sen ne yaparsın?"
+  ],
+  "evEtk": {
+   "ad": "Hedef Kumbarası",
+   "d": "Çocuğunuzla küçük bir hedef seçin ve resmini çizip kumbaranın üstüne yapıştırın. Kâğıda 10 kutu çizin; her akşam kumbaraya bir özdeş bozuk para atıp bir kutuyu boyayın ve birlikte sayın. Bekleme zorlaştığında Ali gibi derin nefes alıp üçe kadar sayın. Kuşlar için bir yem kabı hazırlarsanız kabı pencerenin dışına bir yetişkin yerleştirsin; kuşlara ekmek değil kuş yemi verin ve onları uzaktan izleyin."
+  },
+  "aileNotu": "Bugün “Kumbaramdaki Kuş” masalını okuduk. Tutum, Yatırım ve Türk Malları Haftası kapsamında Ali'nin serçeler için bir hafta boyunca para biriktirmesini izledik; paraları 1'den 10'a kadar saydık ve hemen istemek yerine beklemenin yollarını (derin nefes, sayma, hedefi hatırlama) konuştuk. Evde küçük bir hedef için birlikte biriktirmeyi deneyebilirsiniz. Çocuğunuz “Hemen istiyorum!” dediğinde duygusunu adlandırıp (“Beklemek zor, biliyorum.”) birlikte nefes almak, beklemeyi kolaylaştırır."
+ },
+ "audio": {
+  "file": "audio/036-kumbaramdaki-kus.mp3",
+  "hash": "6334a9fd",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 21408,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      2349,
+      3
+     ],
+     [
+      2829,
+      4
+     ],
+     [
+      3069,
+      5
+     ],
+     [
+      3529,
+      6
+     ],
+     [
+      4569,
+      7
+     ],
+     [
+      4890,
+      8
+     ],
+     [
+      5649,
+      9
+     ],
+     [
+      5989,
+      10
+     ],
+     [
+      6609,
+      11
+     ],
+     [
+      7209,
+      12
+     ],
+     [
+      8430,
+      13
+     ],
+     [
+      8669,
+      14
+     ],
+     [
+      9310,
+      15
+     ],
+     [
+      10409,
+      16
+     ],
+     [
+      11230,
+      17
+     ],
+     [
+      11829,
+      18
+     ],
+     [
+      12369,
+      19
+     ],
+     [
+      13109,
+      20
+     ],
+     [
+      13449,
+      21
+     ],
+     [
+      13909,
+      22
+     ],
+     [
+      14969,
+      23
+     ],
+     [
+      15449,
+      24
+     ],
+     [
+      15729,
+      25
+     ],
+     [
+      16270,
+      26
+     ],
+     [
+      17049,
+      27
+     ],
+     [
+      17569,
+      28
+     ],
+     [
+      18049,
+      29
+     ],
+     [
+      18289,
+      30
+     ],
+     [
+      18669,
+      31
+     ],
+     [
+      19690,
+      32
+     ],
+     [
+      20169,
+      33
+     ],
+     [
+      20409,
+      34
+     ],
+     [
+      20869,
+      35
+     ]
+    ]
+   },
+   "p0h-kus": {
+    "s": 21708,
+    "d": 1084,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      233,
+      1
+     ],
+     [
+      656,
+      2
+     ],
+     [
+      850,
+      3
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 23093,
+    "d": 1749,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 25142,
+    "d": 1374,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1009,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 26817,
+    "d": 19166,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2689,
+      4
+     ],
+     [
+      3390,
+      5
+     ],
+     [
+      4209,
+      6
+     ],
+     [
+      4749,
+      7
+     ],
+     [
+      5189,
+      8
+     ],
+     [
+      6009,
+      9
+     ],
+     [
+      6289,
+      10
+     ],
+     [
+      6729,
+      11
+     ],
+     [
+      7049,
+      12
+     ],
+     [
+      7229,
+      13
+     ],
+     [
+      7549,
+      14
+     ],
+     [
+      8609,
+      15
+     ],
+     [
+      9089,
+      16
+     ],
+     [
+      9409,
+      17
+     ],
+     [
+      10230,
+      18
+     ],
+     [
+      10730,
+      19
+     ],
+     [
+      11089,
+      20
+     ],
+     [
+      11430,
+      21
+     ],
+     [
+      12089,
+      22
+     ],
+     [
+      12469,
+      23
+     ],
+     [
+      13529,
+      24
+     ],
+     [
+      13869,
+      25
+     ],
+     [
+      14310,
+      26
+     ],
+     [
+      15189,
+      27
+     ],
+     [
+      15869,
+      28
+     ],
+     [
+      16430,
+      29
+     ],
+     [
+      17309,
+      30
+     ],
+     [
+      17530,
+      31
+     ],
+     [
+      17969,
+      32
+     ],
+     [
+      18190,
+      33
+     ],
+     [
+      18489,
+      34
+     ],
+     [
+      18950,
+      35
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 46283,
+    "d": 1626,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      408,
+      1
+     ],
+     [
+      1217,
+      2
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 48210,
+    "d": 1360,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      769,
+      2
+     ]
+    ]
+   },
+   "p1h-kumbara": {
+    "s": 49870,
+    "d": 1766,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      681,
+      1
+     ],
+     [
+      1323,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 51936,
+    "d": 2650,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      2029,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 54886,
+    "d": 17237,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3910,
+      8
+     ],
+     [
+      4330,
+      9
+     ],
+     [
+      4830,
+      10
+     ],
+     [
+      5049,
+      11
+     ],
+     [
+      5449,
+      12
+     ],
+     [
+      6649,
+      13
+     ],
+     [
+      7129,
+      14
+     ],
+     [
+      7669,
+      15
+     ],
+     [
+      8609,
+      16
+     ],
+     [
+      9310,
+      17
+     ],
+     [
+      9629,
+      18
+     ],
+     [
+      10449,
+      19
+     ],
+     [
+      11230,
+      20
+     ],
+     [
+      11689,
+      21
+     ],
+     [
+      12209,
+      22
+     ],
+     [
+      12770,
+      23
+     ],
+     [
+      13369,
+      24
+     ],
+     [
+      13629,
+      25
+     ],
+     [
+      14009,
+      26
+     ],
+     [
+      14209,
+      27
+     ],
+     [
+      14649,
+      28
+     ],
+     [
+      15289,
+      29
+     ],
+     [
+      15969,
+      30
+     ],
+     [
+      16770,
+      31
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 72424,
+    "d": 2048,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      454,
+      1
+     ],
+     [
+      834,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 74773,
+    "d": 1852,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1629,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 76926,
+    "d": 2098,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1430,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 79324,
+    "d": 938,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 80563,
+    "d": 19015,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      2130,
+      3
+     ],
+     [
+      2549,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      4830,
+      9
+     ],
+     [
+      5569,
+      10
+     ],
+     [
+      5910,
+      11
+     ],
+     [
+      6269,
+      12
+     ],
+     [
+      6549,
+      13
+     ],
+     [
+      7329,
+      14
+     ],
+     [
+      8190,
+      15
+     ],
+     [
+      8829,
+      16
+     ],
+     [
+      9129,
+      17
+     ],
+     [
+      9770,
+      18
+     ],
+     [
+      10669,
+      19
+     ],
+     [
+      10930,
+      20
+     ],
+     [
+      11569,
+      21
+     ],
+     [
+      12789,
+      22
+     ],
+     [
+      13249,
+      23
+     ],
+     [
+      13489,
+      24
+     ],
+     [
+      13789,
+      25
+     ],
+     [
+      14769,
+      26
+     ],
+     [
+      15129,
+      27
+     ],
+     [
+      15729,
+      28
+     ],
+     [
+      16549,
+      29
+     ],
+     [
+      17249,
+      30
+     ],
+     [
+      17489,
+      31
+     ],
+     [
+      18249,
+      32
+     ],
+     [
+      18569,
+      33
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 99878,
+    "d": 1686,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      612,
+      1
+     ],
+     [
+      843,
+      2
+     ],
+     [
+      1073,
+      3
+     ]
+    ]
+   },
+   "p3h-kumbara": {
+    "s": 101865,
+    "d": 628,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 102794,
+    "d": 1985,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      239,
+      1
+     ],
+     [
+      586,
+      2
+     ],
+     [
+      1051,
+      3
+     ],
+     [
+      1250,
+      4
+     ],
+     [
+      1597,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 105080,
+    "d": 3057,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2449,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 108437,
+    "d": 17986,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      2049,
+      3
+     ],
+     [
+      2469,
+      4
+     ],
+     [
+      3329,
+      5
+     ],
+     [
+      3629,
+      6
+     ],
+     [
+      3869,
+      7
+     ],
+     [
+      4330,
+      8
+     ],
+     [
+      4789,
+      9
+     ],
+     [
+      5549,
+      10
+     ],
+     [
+      6009,
+      11
+     ],
+     [
+      6249,
+      12
+     ],
+     [
+      6729,
+      13
+     ],
+     [
+      7789,
+      14
+     ],
+     [
+      8029,
+      15
+     ],
+     [
+      8609,
+      16
+     ],
+     [
+      9310,
+      17
+     ],
+     [
+      9609,
+      18
+     ],
+     [
+      9909,
+      19
+     ],
+     [
+      10789,
+      20
+     ],
+     [
+      11469,
+      21
+     ],
+     [
+      12249,
+      22
+     ],
+     [
+      13009,
+      23
+     ],
+     [
+      13649,
+      24
+     ],
+     [
+      13909,
+      25
+     ],
+     [
+      14629,
+      26
+     ],
+     [
+      15029,
+      27
+     ],
+     [
+      15369,
+      28
+     ],
+     [
+      16309,
+      29
+     ],
+     [
+      17030,
+      30
+     ],
+     [
+      17350,
+      31
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 126723,
+    "d": 2320,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      479,
+      1
+     ],
+     [
+      1124,
+      2
+     ],
+     [
+      1727,
+      3
+     ],
+     [
+      2003,
+      4
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 129344,
+    "d": 1393,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      849,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 131038,
+    "d": 2752,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      2069,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 134090,
+    "d": 20592,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3189,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      4870,
+      9
+     ],
+     [
+      5289,
+      10
+     ],
+     [
+      5830,
+      11
+     ],
+     [
+      6850,
+      12
+     ],
+     [
+      7149,
+      13
+     ],
+     [
+      7809,
+      14
+     ],
+     [
+      8529,
+      15
+     ],
+     [
+      9369,
+      16
+     ],
+     [
+      10069,
+      17
+     ],
+     [
+      10810,
+      18
+     ],
+     [
+      11509,
+      19
+     ],
+     [
+      12289,
+      20
+     ],
+     [
+      13089,
+      21
+     ],
+     [
+      14049,
+      22
+     ],
+     [
+      14489,
+      23
+     ],
+     [
+      15289,
+      24
+     ],
+     [
+      15749,
+      25
+     ],
+     [
+      16610,
+      26
+     ],
+     [
+      17169,
+      27
+     ],
+     [
+      18309,
+      28
+     ],
+     [
+      18649,
+      29
+     ],
+     [
+      19249,
+      30
+     ],
+     [
+      19549,
+      31
+     ],
+     [
+      19930,
+      32
+     ]
+    ]
+   },
+   "p5h-kus": {
+    "s": 154982,
+    "d": 1927,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      241,
+      1
+     ],
+     [
+      683,
+      2
+     ],
+     [
+      1184,
+      3
+     ],
+     [
+      1535,
+      4
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 157210,
+    "d": 2881,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2150,
+      4
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 160391,
+    "d": 2240,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1089,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

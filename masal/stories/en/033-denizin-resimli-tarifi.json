@@ -1,0 +1,2096 @@
+{
+ "id": "033-denizin-resimli-tarifi",
+ "lang": "en",
+ "title": "Deniz's Picture Recipe",
+ "theme": "Visual reading, a picture recipe",
+ "blurb": "Dad and Deniz are going to make fruit salad, but the recipe from school has no words at all! “I can't read,” says Deniz. Then she discovers that pictures can be read too, and becomes the kitchen's recipe reader.",
+ "voiceNames": {
+  "deniz": "Deniz",
+  "baba": "Dad"
+ },
+ "pages": [
+  {
+   "text": "It was Saturday morning. Dad was whistling in the kitchen: fwee-fwoo, fwee-fwoo! “Shall we make fruit salad today?” Deniz jumped for joy. She pinned the card from school onto her little board. “I've got the recipe! A picture recipe!”",
+   "hits": {
+    "deniz": {
+     "say": "I've got the recipe! A picture recipe!"
+    },
+    "baba": {
+     "say": "Fwee-fwoo! Shall we make fruit salad?"
+    },
+    "kart": {
+     "say": "A recipe tells you how to make a dish."
+    }
+   },
+   "hint": "Touch the card!",
+   "ask": "Have you ever helped a grown-up in the kitchen? What did you make together?"
+  },
+  {
+   "text": "“Who's going to read the recipe?” said Dad. Deniz's shoulders drooped. “I can't read! I don't know the letters.” Then she looked at the card for a long time. A bubbly bar of soap… A red apple… “Dad! No letters here, just pictures. Pictures can be read too!”",
+   "hits": {
+    "resim1": {
+     "say": "Soap!"
+    },
+    "resim2": {
+     "say": "Fruit!"
+    },
+    "resim3": {
+     "say": "A bowl!"
+    },
+    "resim4": {
+     "say": "A heart!"
+    },
+    "deniz": {
+     "say": "No letters here, just pictures!"
+    },
+    "baba": {
+     "say": "Go on then, read it, recipe reader!"
+    },
+    "kart": {
+     "say": "Pictures are read from left to right, in order."
+    }
+   },
+   "hint": "Read the pictures one by one!",
+   "ask": "Why was Deniz sad? How do you think pictures are read?"
+  },
+  {
+   "text": "Deniz stood up tall: “I'm the recipe reader!” Dad grabbed a banana straight away: “Let's peel it! My tummy's rumbling!” Deniz looked at the card: “Wait, wait, Dad! Let's look at the first picture first.”",
+   "hits": {
+    "baba": {
+     "say": "Let's peel it! My tummy's rumbling!"
+    },
+    "deniz": {
+     "say": "Wait, wait, Dad! First picture first."
+    },
+    "ilk": {
+     "say": "The first picture is a bubbly bar of soap."
+    },
+    "kart": {
+     "say": "In a recipe, the order matters."
+    }
+   },
+   "predict": {
+    "q": "What do you think the soap picture says?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "Wash your hands!"
+     },
+     {
+      "l": "Wash the dishes!"
+     }
+    ]
+   },
+   "hint": "Touch the first picture!",
+   "ask": "Why did Deniz stop her dad? Why do you think the order matters in a recipe?"
+  },
+  {
+   "text": "What did the first picture say? Deniz worked it out: “First, wash your hands!” They ran to the bathroom. Splish splash, the water ran. Bubble bubble, they soaped. Drip drop, they rinsed. Pat pat, they dried with the towel. Dad laughed: “Good thing we have a recipe reader!”",
+   "mech": {
+    "done": "Hands sparkling clean, on with the recipe!",
+    "msg": "You washed in order!"
+   },
+   "hits": {
+    "deniz": {
+     "say": "First, wash your hands!"
+    },
+    "baba": {
+     "say": "Good thing we have a recipe reader!"
+    }
+   },
+   "hint": "Touch the water first!",
+   "ask": "Why do we wash our hands before making food?",
+   "cues": [
+    {
+     "w": 19,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Second picture: a red apple! They washed the fruit too and lined it up on the table. Deniz counted one by one: one, two, three, four, five! Dad cheekily held out a carrot: “Six?” Deniz giggled: “A carrot isn't a fruit, Dad! A carrot is a vegetable!”",
+   "mech": {
+    "done": "Five fruits, all the colours!",
+    "msg": "You counted to five!"
+   },
+   "hits": {
+    "baba": {
+     "say": "Six? Shall we add a carrot?"
+    },
+    "deniz": {
+     "say": "A carrot is a vegetable, Dad!"
+    },
+    "kart": {
+     "say": "Second picture: fruit."
+    }
+   },
+   "hint": "Count the fruit one by one!",
+   "ask": "Is a carrot a fruit or a vegetable? Which fruit do you like best?"
+  },
+  {
+   "text": "Third picture: the bowl! Dad chopped, Deniz stirred: clink, clank! And what did the heart in the last picture say? “Let's eat together!” Deniz felt so proud. “Tomorrow I'll draw a recipe, and you read it!” she said. Dad winked: “But I can't read!” Deniz laughed: “Pictures can be read too, Dad!”",
+   "hits": {
+    "kase": {
+     "say": "Mmm, colourful and delicious!"
+    },
+    "kalp": {
+     "say": "The heart: let's eat together!"
+    },
+    "deniz": {
+     "say": "Pictures can be read too, Dad!"
+    },
+    "baba": {
+     "say": "But I can't read!"
+    },
+    "kart": {
+     "say": "All the pictures in the recipe have been read!"
+    }
+   },
+   "hint": "Touch the heart!",
+   "ask": "If you drew a picture recipe, which dish would you draw? What would the first picture be?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TAOB.2 (learning outcome) Making meaning from visual materials. TAOB.2.a: Connects the information in visual reading materials with daily life (works out what to do in the kitchen from the soap, fruit, bowl and heart pictures on the recipe card). Makes predictions from pictures: “What does the soap picture say? Wash your hands, or wash the dishes?”",
+   "HSAB.7 (learning outcome) Showing healthy eating behaviours in daily life (washes hands and fruit before preparing food; helps to prepare a healthy snack from colourful fruit; tells fruit from vegetables).",
+   "OB4 Visual Literacy: notices that pictures and symbols carry a message and that a picture card is read in order, from left to right and top to bottom; produces a visual message by drawing their own picture recipe.",
+   "SDB2.2 Cooperation: completes a shared task by sharing jobs; Dad chops, Deniz reads, counts and stirs.",
+   "D16 Responsibility: takes on the job of “recipe reader” and keeps it up until the task is done; reminds Dad of the card when he rushes."
+  ],
+  "once": [
+   "Show the board on the cover: “There are no words on this card. What do you think it tells us?”",
+   "Introduce the word “recipe”: “A recipe tells you step by step how to make a dish. Have you ever cooked from a recipe at home?”",
+   "Recall picture signs in the classroom or at home (the hand-washing picture, the bin sign, traffic lights): “Can these be read too?”"
+  ],
+  "sirasi": [
+   "On page 1, whistle “fwee-fwoo” together with Dad.",
+   "On page 2, talk about why Deniz's shoulders drooped; then touch the card pictures in order and “read” them with Deniz. Trace the path from left to right and top to bottom with your finger.",
+   "On page 3, talk about both options in the prediction: “What might the soap picture mean? What is soap for when we cook?”",
+   "On page 5, count the fruit together, pointing with a finger; stop at the carrot: “Is a carrot a fruit or a vegetable?”"
+  ],
+  "sonra": [
+   "Talk about visual reading with the question “How did Deniz read the recipe? How did she understand it without knowing the letters?”",
+   "“Why does the heart picture mean ‘let's eat together’? Which picture would you draw for this step?” Talk about how we agree on the meaning of picture signs together.",
+   "Put the recipe steps in order: first wash hands, then count and chop the fruit, and finally eat together. What happens if the order changes?",
+   "Recall how the jobs were shared: what did Dad do, what did Deniz do? How did the job go when they worked together?",
+   "Give the child a chance to share their view by asking “What did you think? If you were Deniz, which job would you want?”"
+  ],
+  "sinif": {
+   "ad": "Recipe Readers",
+   "sure": "25 min",
+   "materyal": "Blank cards with four sections, pastel crayons, washed fruit (banana, apple, tangerine, grapes), a bowl, children's spoons; a ready-made 4-step picture card for a fruit plate",
+   "adim": [
+    "Game: the teacher shows a picture card (soap, fruit, bowl, heart); the children act out what the card says: soap → rub hands, bowl → stir, heart → hug.",
+    "Pin the picture recipe card on the board. The children take turns to “read” one picture and say what it means (TAOB.2).",
+    "Hand out jobs such as recipe reader, counter and stirrer; after washing hands, prepare the fruit plate together following the card. The teacher cuts hard fruit; children can break soft fruit like banana with a plastic child's knife or their hands.",
+    "Each child draws their own 4-picture recipe (yoghurt drink, fruit plate, cheese on bread…). A friend “reads” the recipe without words (OB4).",
+    "Note: get allergy information from families before any food activity."
+   ]
+  },
+  "evSoru": [
+   "Why did Deniz say “I can't read”? What did she discover next?",
+   "What was the first picture in the recipe? Why do we wash our hands before making food?",
+   "Which job would you like in the kitchen: reading, counting or stirring?"
+  ],
+  "evEtk": {
+   "ad": "Fridge Recipe",
+   "d": "Draw a 3–4 step picture recipe with your child (a fruit plate, a yoghurt drink, fruit with yoghurt) and stick it on the fridge. While you prepare it, let your child “read” the recipe and follow the order they say. You take on the knife and the cooker; washing, counting and stirring are their jobs."
+  },
+  "aileNotu": "Today we read “Deniz's Picture Recipe”. Deniz is sad because she thinks she can't read the recipe without knowing the letters; then she discovers that pictures can be read too and becomes the kitchen's “recipe reader”. In the preschool years, making sense of pictures, signs and symbols is the first step towards reading. At home, draw a simple picture recipe and let your child read it; giving them a small but real job strengthens their sense of responsibility."
+ },
+ "audio": {
+  "file": "audio/en/033-denizin-resimli-tarifi.mp3",
+  "hash": "6800cfa6",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15005,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      1989,
+      6
+     ],
+     [
+      2430,
+      7
+     ],
+     [
+      2509,
+      8
+     ],
+     [
+      2609,
+      9
+     ],
+     [
+      3390,
+      10
+     ],
+     [
+      4430,
+      11
+     ],
+     [
+      5830,
+      12
+     ],
+     [
+      6009,
+      13
+     ],
+     [
+      6149,
+      14
+     ],
+     [
+      6370,
+      15
+     ],
+     [
+      6669,
+      16
+     ],
+     [
+      7009,
+      17
+     ],
+     [
+      7829,
+      18
+     ],
+     [
+      8350,
+      19
+     ],
+     [
+      8749,
+      20
+     ],
+     [
+      8949,
+      21
+     ],
+     [
+      9730,
+      22
+     ],
+     [
+      9909,
+      23
+     ],
+     [
+      10169,
+      24
+     ],
+     [
+      10289,
+      25
+     ],
+     [
+      10529,
+      26
+     ],
+     [
+      10749,
+      27
+     ],
+     [
+      11149,
+      28
+     ],
+     [
+      11390,
+      29
+     ],
+     [
+      11549,
+      30
+     ],
+     [
+      11789,
+      31
+     ],
+     [
+      12489,
+      32
+     ],
+     [
+      12649,
+      33
+     ],
+     [
+      12810,
+      34
+     ],
+     [
+      12930,
+      35
+     ],
+     [
+      13749,
+      36
+     ],
+     [
+      13890,
+      37
+     ],
+     [
+      14369,
+      38
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 15305,
+    "d": 2936,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      2269,
+      6
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 18541,
+    "d": 2723,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1329,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2209,
+      5
+     ]
+    ]
+   },
+   "p0h-kart": {
+    "s": 21565,
+    "d": 2287,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1449,
+      6
+     ],
+     [
+      1649,
+      7
+     ],
+     [
+      1729,
+      8
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24153,
+    "d": 19365,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      849,
+      5
+     ],
+     [
+      1749,
+      6
+     ],
+     [
+      1989,
+      7
+     ],
+     [
+      2869,
+      8
+     ],
+     [
+      3449,
+      9
+     ],
+     [
+      4049,
+      10
+     ],
+     [
+      5069,
+      11
+     ],
+     [
+      5229,
+      12
+     ],
+     [
+      5709,
+      13
+     ],
+     [
+      6509,
+      14
+     ],
+     [
+      6589,
+      15
+     ],
+     [
+      6749,
+      16
+     ],
+     [
+      6930,
+      17
+     ],
+     [
+      7089,
+      18
+     ],
+     [
+      8209,
+      19
+     ],
+     [
+      8489,
+      20
+     ],
+     [
+      8690,
+      21
+     ],
+     [
+      8909,
+      22
+     ],
+     [
+      8989,
+      23
+     ],
+     [
+      9129,
+      24
+     ],
+     [
+      9489,
+      25
+     ],
+     [
+      9669,
+      26
+     ],
+     [
+      9810,
+      27
+     ],
+     [
+      10149,
+      28
+     ],
+     [
+      11230,
+      29
+     ],
+     [
+      11430,
+      30
+     ],
+     [
+      11909,
+      31
+     ],
+     [
+      12209,
+      32
+     ],
+     [
+      12509,
+      33
+     ],
+     [
+      13609,
+      34
+     ],
+     [
+      13789,
+      35
+     ],
+     [
+      14189,
+      36
+     ],
+     [
+      15249,
+      37
+     ],
+     [
+      15950,
+      38
+     ],
+     [
+      16149,
+      39
+     ],
+     [
+      16549,
+      40
+     ],
+     [
+      16889,
+      41
+     ],
+     [
+      17149,
+      42
+     ],
+     [
+      17989,
+      43
+     ],
+     [
+      18389,
+      44
+     ],
+     [
+      18549,
+      45
+     ],
+     [
+      18690,
+      46
+     ],
+     [
+      18909,
+      47
+     ]
+    ]
+   },
+   "p1h-resim1": {
+    "s": 43818,
+    "d": 432,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p1h-resim2": {
+    "s": 44551,
+    "d": 520,
+    "w": [
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   "p1h-resim3": {
+    "s": 45371,
+    "d": 785,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ]
+    ]
+   },
+   "p1h-resim4": {
+    "s": 46457,
+    "d": 799,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 47556,
+    "d": 2228,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      291,
+      1
+     ],
+     [
+      728,
+      2
+     ],
+     [
+      1313,
+      3
+     ],
+     [
+      1564,
+      4
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 50085,
+    "d": 2706,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      2209,
+      6
+     ]
+    ]
+   },
+   "p1h-kart": {
+    "s": 53092,
+    "d": 2840,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1589,
+      6
+     ],
+     [
+      2170,
+      7
+     ],
+     [
+      2390,
+      8
+     ]
+    ]
+   },
+   "p2": {
+    "s": 56232,
+    "d": 13195,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      3930,
+      9
+     ],
+     [
+      4229,
+      10
+     ],
+     [
+      4290,
+      11
+     ],
+     [
+      4810,
+      12
+     ],
+     [
+      5169,
+      13
+     ],
+     [
+      5830,
+      14
+     ],
+     [
+      6109,
+      15
+     ],
+     [
+      6390,
+      16
+     ],
+     [
+      6749,
+      17
+     ],
+     [
+      6989,
+      18
+     ],
+     [
+      7489,
+      19
+     ],
+     [
+      8509,
+      20
+     ],
+     [
+      8909,
+      21
+     ],
+     [
+      9129,
+      22
+     ],
+     [
+      9209,
+      23
+     ],
+     [
+      9329,
+      24
+     ],
+     [
+      10149,
+      25
+     ],
+     [
+      10469,
+      26
+     ],
+     [
+      10770,
+      27
+     ],
+     [
+      11449,
+      28
+     ],
+     [
+      11669,
+      29
+     ],
+     [
+      11810,
+      30
+     ],
+     [
+      11890,
+      31
+     ],
+     [
+      12009,
+      32
+     ],
+     [
+      12289,
+      33
+     ],
+     [
+      12669,
+      34
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 69728,
+    "d": 2716,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      2049,
+      5
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 72744,
+    "d": 3151,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2430,
+      5
+     ]
+    ]
+   },
+   "p2h-ilk": {
+    "s": 76196,
+    "d": 2631,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1249,
+      5
+     ],
+     [
+      1670,
+      6
+     ],
+     [
+      1949,
+      7
+     ],
+     [
+      2130,
+      8
+     ]
+    ]
+   },
+   "p2h-kart": {
+    "s": 79128,
+    "d": 2332,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1649,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 81760,
+    "d": 2111,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      829,
+      5
+     ],
+     [
+      1129,
+      6
+     ],
+     [
+      1569,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 84171,
+    "d": 957,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 85429,
+    "d": 19187,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      529,
+      3
+     ],
+     [
+      869,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2509,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      2910,
+      9
+     ],
+     [
+      3629,
+      10
+     ],
+     [
+      4310,
+      11
+     ],
+     [
+      4589,
+      12
+     ],
+     [
+      4749,
+      13
+     ],
+     [
+      5609,
+      14
+     ],
+     [
+      5890,
+      15
+     ],
+     [
+      6129,
+      16
+     ],
+     [
+      6249,
+      17
+     ],
+     [
+      6350,
+      18
+     ],
+     [
+      7289,
+      19
+     ],
+     [
+      7769,
+      20
+     ],
+     [
+      8430,
+      21
+     ],
+     [
+      8609,
+      22
+     ],
+     [
+      8989,
+      23
+     ],
+     [
+      9810,
+      24
+     ],
+     [
+      10169,
+      25
+     ],
+     [
+      10690,
+      26
+     ],
+     [
+      10930,
+      27
+     ],
+     [
+      11709,
+      28
+     ],
+     [
+      12109,
+      29
+     ],
+     [
+      12629,
+      30
+     ],
+     [
+      12890,
+      31
+     ],
+     [
+      13669,
+      32
+     ],
+     [
+      13989,
+      33
+     ],
+     [
+      14449,
+      34
+     ],
+     [
+      14669,
+      35
+     ],
+     [
+      15009,
+      36
+     ],
+     [
+      15149,
+      37
+     ],
+     [
+      15269,
+      38
+     ],
+     [
+      16149,
+      39
+     ],
+     [
+      16489,
+      40
+     ],
+     [
+      17309,
+      41
+     ],
+     [
+      17569,
+      42
+     ],
+     [
+      17789,
+      43
+     ],
+     [
+      17950,
+      44
+     ],
+     [
+      18110,
+      45
+     ],
+     [
+      18229,
+      46
+     ],
+     [
+      18729,
+      47
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 104917,
+    "d": 1781,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 106999,
+    "d": 1876,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      220,
+      1
+     ],
+     [
+      400,
+      2
+     ],
+     [
+      580,
+      3
+     ],
+     [
+      894,
+      4
+     ],
+     [
+      1074,
+      5
+     ],
+     [
+      1522,
+      6
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 109175,
+    "d": 2886,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2229,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 112362,
+    "d": 20340,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3189,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      4049,
+      10
+     ],
+     [
+      4229,
+      11
+     ],
+     [
+      4489,
+      12
+     ],
+     [
+      4589,
+      13
+     ],
+     [
+      4729,
+      14
+     ],
+     [
+      4830,
+      15
+     ],
+     [
+      4949,
+      16
+     ],
+     [
+      5809,
+      17
+     ],
+     [
+      6229,
+      18
+     ],
+     [
+      6729,
+      19
+     ],
+     [
+      6930,
+      20
+     ],
+     [
+      7249,
+      21
+     ],
+     [
+      8150,
+      22
+     ],
+     [
+      8829,
+      23
+     ],
+     [
+      9609,
+      24
+     ],
+     [
+      10409,
+      25
+     ],
+     [
+      11149,
+      26
+     ],
+     [
+      12129,
+      27
+     ],
+     [
+      12489,
+      28
+     ],
+     [
+      13049,
+      29
+     ],
+     [
+      13289,
+      30
+     ],
+     [
+      13430,
+      31
+     ],
+     [
+      13509,
+      32
+     ],
+     [
+      14609,
+      33
+     ],
+     [
+      15609,
+      34
+     ],
+     [
+      16030,
+      35
+     ],
+     [
+      16870,
+      36
+     ],
+     [
+      16989,
+      37
+     ],
+     [
+      17409,
+      38
+     ],
+     [
+      17649,
+      39
+     ],
+     [
+      17770,
+      40
+     ],
+     [
+      18149,
+      41
+     ],
+     [
+      18829,
+      42
+     ],
+     [
+      18950,
+      43
+     ],
+     [
+      19389,
+      44
+     ],
+     [
+      19530,
+      45
+     ],
+     [
+      19610,
+      46
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 133002,
+    "d": 2162,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1589,
+      5
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 135465,
+    "d": 2119,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1670,
+      5
+     ]
+    ]
+   },
+   "p4h-kart": {
+    "s": 137884,
+    "d": 1981,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1430,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 140165,
+    "d": 2297,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 142762,
+    "d": 22187,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3449,
+      6
+     ],
+     [
+      3889,
+      7
+     ],
+     [
+      4669,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      6249,
+      10
+     ],
+     [
+      6430,
+      11
+     ],
+     [
+      6609,
+      12
+     ],
+     [
+      6749,
+      13
+     ],
+     [
+      6910,
+      14
+     ],
+     [
+      7169,
+      15
+     ],
+     [
+      7269,
+      16
+     ],
+     [
+      7430,
+      17
+     ],
+     [
+      7749,
+      18
+     ],
+     [
+      8109,
+      19
+     ],
+     [
+      8869,
+      20
+     ],
+     [
+      9289,
+      21
+     ],
+     [
+      9509,
+      22
+     ],
+     [
+      10529,
+      23
+     ],
+     [
+      10969,
+      24
+     ],
+     [
+      11409,
+      25
+     ],
+     [
+      11709,
+      26
+     ],
+     [
+      12609,
+      27
+     ],
+     [
+      13169,
+      28
+     ],
+     [
+      13350,
+      29
+     ],
+     [
+      13589,
+      30
+     ],
+     [
+      13689,
+      31
+     ],
+     [
+      14249,
+      32
+     ],
+     [
+      14430,
+      33
+     ],
+     [
+      14669,
+      34
+     ],
+     [
+      14909,
+      35
+     ],
+     [
+      15269,
+      36
+     ],
+     [
+      15469,
+      37
+     ],
+     [
+      16249,
+      38
+     ],
+     [
+      16569,
+      39
+     ],
+     [
+      17329,
+      40
+     ],
+     [
+      17690,
+      41
+     ],
+     [
+      17850,
+      42
+     ],
+     [
+      18190,
+      43
+     ],
+     [
+      19069,
+      44
+     ],
+     [
+      19610,
+      45
+     ],
+     [
+      20369,
+      46
+     ],
+     [
+      20829,
+      47
+     ],
+     [
+      21030,
+      48
+     ],
+     [
+      21169,
+      49
+     ],
+     [
+      21430,
+      50
+     ],
+     [
+      21729,
+      51
+     ]
+    ]
+   },
+   "p5h-kase": {
+    "s": 165249,
+    "d": 2876,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1547,
+      2
+     ],
+     [
+      1917,
+      3
+     ]
+    ]
+   },
+   "p5h-kalp": {
+    "s": 168426,
+    "d": 2326,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      357,
+      1
+     ],
+     [
+      863,
+      2
+     ],
+     [
+      1180,
+      3
+     ],
+     [
+      1498,
+      4
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 171053,
+    "d": 1888,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      595,
+      1
+     ],
+     [
+      819,
+      2
+     ],
+     [
+      1043,
+      3
+     ],
+     [
+      1267,
+      4
+     ],
+     [
+      1624,
+      5
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 173241,
+    "d": 1314,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      729,
+      3
+     ]
+    ]
+   },
+   "p5h-kart": {
+    "s": 174856,
+    "d": 2327,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      930,
+      5
+     ],
+     [
+      1469,
+      6
+     ],
+     [
+      1629,
+      7
+     ],
+     [
+      1849,
+      8
+     ]
+    ]
+   }
+  }
+ }
+}

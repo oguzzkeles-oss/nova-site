@@ -1,0 +1,1879 @@
+{
+ "id": "032-resimlerden-masal-kuran-baykus",
+ "lang": "en",
+ "title": "Hoot's Picture Letter",
+ "theme": "A picture letter: visual reading, symbols and writing",
+ "blurb": "Little Hoot the owl can't write yet, but he wants to invite his friends to a full-moon party. Can Wiggle and Tangerine work out from his picture letter when and where to meet, and what to bring?",
+ "voiceNames": {
+  "huhu": "Hoot (owl)",
+  "kipir": "Wiggle (squirrel)",
+  "mandalina": "Tangerine (fox)"
+ },
+ "pages": [
+  {
+   "text": "At night, while the forest slept, little Hoot the owl was wide awake. Hoot wanted to have a full-moon party tomorrow. But how could he invite his friends? He couldn't write yet! He hung his head, sad. Then his eyes lit up: “I'll write with pictures!” Scritch, scratch, he drew. And he added tiny, tiny decorations.",
+   "hits": {
+    "huhu": {
+     "say": "Hoo hoooo! I'll write with pictures!"
+    }
+   },
+   "hint": "Touch Hoot!",
+   "ask": "If you couldn't write yet, how would you invite a friend to a party?"
+  },
+  {
+   "text": "At dawn, Hoot left the letter in Wiggle's tree hole. Then he slept soundly on his branch; owls sleep in the daytime, you know! Wiggle the squirrel opened the letter. “Tangerine, look! No writing at all, just pictures!” Tangerine the fox was puzzled. “Can you read pictures?”",
+   "hits": {
+    "kipir": {
+     "say": "No writing at all, just pictures!"
+    },
+    "mandalina": {
+     "say": "Can you read pictures?"
+    },
+    "huhu": {
+     "say": "Hmmm… zzz… zzz…"
+    }
+   },
+   "hint": "Touch Wiggle!",
+   "ask": "Are there letters in the letter, or pictures? How can you tell writing from a picture?"
+  },
+  {
+   "text": "“Yes, you can!” said Wiggle. The first picture was a big yellow circle. Wiggle jumped right in: “That's the sun! The party is at midday!” Tangerine pricked up her ears. “Or maybe the moon?” The yellow circle looked like both.",
+   "hits": {
+    "kipir": {
+     "say": "That's the sun! The party is at midday!"
+    },
+    "mandalina": {
+     "say": "Hmm… Or maybe the moon?"
+    }
+   },
+   "predict": {
+    "q": "What do you think the yellow circle is?",
+    "res": "It could be either! Let's look for a clue.",
+    "opts": [
+     {
+      "l": "The sun"
+     },
+     {
+      "l": "The moon"
+     }
+    ]
+   },
+   "hint": "Touch the yellow circle!",
+   "ask": "Is the yellow circle the sun or the moon? What would you look at to decide?"
+  },
+  {
+   "text": "Tangerine looked closely at the letter. Tiny stars were hiding around the yellow circle. Twinkle, twinkle! “Stars come out at night,” said Tangerine. Wiggle jumped. “And Hoot is awake at night! The circle isn't the sun, it's the moon!”",
+   "hits": {
+    "mandalina": {
+     "say": "Look! Tiny little stars!"
+    },
+    "kipir": {
+     "say": "Hoot is awake at night too!"
+    }
+   },
+   "mech": {
+    "done": "Three stars! The party is at night!",
+    "msg": "You found the stars!"
+   },
+   "hint": "Find the tiny stars!",
+   "ask": "What did they work out when they saw the stars? What do you see in the sky at night?"
+  },
+  {
+   "text": "That evening the full moon rose. Wiggle looked at the log picture and pushed the log nearby. Ugh, ugh! The log didn't budge. Tangerine giggled, tee-hee: “We don't take the log, we go to the log! Look, a cushion picture! We take our cushions!”",
+   "hits": {
+    "kipir": {
+     "say": "Ugh, ugh! The log is so heavy!"
+    },
+    "mandalina": {
+     "say": "We go to the log, we don't take it!"
+    }
+   },
+   "mech": {
+    "done": "Every picture found its match! Off to the log!",
+    "msg": "You read the letter!"
+   },
+   "hint": "Touch a picture, then its match!",
+   "ask": "The log picture and the cushion picture say different things. What do they say?",
+   "cues": [
+    {
+     "w": 24,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Hoot was waiting on the log: “Hoo hoooo! You read my pictures!” The three friends sat on their cushions and watched the moon. Wiggle said thank you with a picture: a great big heart. Tangerine said thank you with a song. Hoot looked, and listened. “Hoo hoooo! I love you too, in pictures, words and song!”",
+   "hits": {
+    "huhu": {
+     "say": "Hoo hoooo! You read my pictures!"
+    },
+    "kipir": {
+     "say": "I drew this heart for you!"
+    },
+    "mandalina": {
+     "say": "La la la, thank you, Hoot!"
+    }
+   },
+   "hint": "Touch the heart!",
+   "ask": "If you wanted to say thank you to a friend, which way would you choose: a picture, words or a song?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TAOB.2 Making meaning from visual materials (learning outcome): Makes predictions from the pictures in the picture letter (is the yellow circle the sun or the moon?) and links visual clues to prior knowledge (stars are seen at night, owls are awake at night). TAOB.2.a (process component): Connects the information in a visual reading material with daily life (an invitation: when, where, what to bring).",
+   "TAEOB.1 Showing print awareness skills (learning outcome); process component: notices writing among visual symbols. Starting from the sentence “No writing at all, just pictures!”, tells letters apart from pictures; discovers that a picture can carry a message too.",
+   "OB4 Visual Literacy: Notices that pictures of the same kind can mean different things depending on context (log = meeting place, cushion = something to bring, yellow circle + stars = night).",
+   "E3.3 Creativity and D11 Freedom: Chooses their own way to express themselves (picture, words, song); designs their own picture letter.",
+   "SDB2.1 Communication: Passes on a message without writing; looks for clues and asks questions to understand a friend's message."
+  ],
+  "once": [
+   "Show the cover: “What might this owl be doing? What is a picture letter?”",
+   "Draw a sun or a moon on a folded piece of paper and hand it to the children: “What might this letter say?”",
+   "Ask “When do owls sleep, and when are they awake?” and listen to the answers."
+  ],
+  "sirasi": [
+   "On page 1, point out the moon in the sky. Then show the yellow circle in the letter: “Do these look alike?”",
+   "On page 2, pass Tangerine's question on to the children: “Can you read pictures?”",
+   "Accept both answers to the prediction on page 3; ask “What made you think that?”",
+   "On page 4, when the stars are found, ask “What did this clue tell us?”; remind them of the line on page 2, “owls sleep in the daytime, you know!”",
+   "On page 5, talk about the difference between the log picture and the cushion picture: one is a place to go, the other is something to bring. Laugh together at Wiggle trying to push the log."
+  ],
+  "sonra": [
+   "Hoot couldn't write. How did he invite his friends?",
+   "How did they work out that the yellow circle was the moon, not the sun? Which clues helped?",
+   "Why did Wiggle try to carry the log? What did the log picture really say?",
+   "How did Wiggle and Tangerine say thank you? How would you say it?",
+   "Put the story in order with pictures: Hoot draws the letter, the stars are found, moon-watching and thank-yous."
+  ],
+  "sinif": {
+   "ad": "Picture Invitation Post",
+   "sure": "20 min",
+   "materyal": "A5 paper, crayons, envelopes or folded paper, a “postbox” (a box)",
+   "adim": [
+    "Choose a little get-together as a class (e.g. fruit time in the garden).",
+    "Children work in pairs. Each pair makes an invitation by drawing one picture each for “when, where, what to bring”.",
+    "Put the invitations in envelopes and post them in the postbox; each pair draws out another pair's invitation.",
+    "The pairs “read” the pictures and say what they mean aloud; the pair who drew them says whether they were read correctly. Laugh about different readings together.",
+    "The teacher writes the same invitation in words and puts it next to a picture one: “Which is writing, which is a picture? How can you tell?”"
+   ]
+  },
+  "evSoru": [
+   "Which three pictures did Hoot draw in his letter?",
+   "What did they work out when they found the stars?",
+   "If you wrote a letter, which pictures would you draw?"
+  ],
+  "evEtk": {
+   "ad": "Picture message on the fridge",
+   "d": "Draw a small plan for the next day (e.g. going to the park, buying a ball) in three pictures and stick it on the fridge for your child to “read”. Then swap: they draw you a picture message and you read it. If you read it wrong, laugh together and look for clues."
+  },
+  "aileNotu": "Today we read “Hoot's Picture Letter”. A little owl who can't write yet invited his friends to a party with pictures; his friends looked at the clues and worked out when and where to meet and what to bring. At this age children discover how to make meaning from pictures and how pictures differ from writing. At home you can write and read picture messages together; don't push letter-writing, and celebrate that a picture is a message too."
+ },
+ "audio": {
+  "file": "audio/en/032-resimlerden-masal-kuran-baykus.mp3",
+  "hash": "3324e26d",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 22548,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2769,
+      7
+     ],
+     [
+      3049,
+      8
+     ],
+     [
+      3269,
+      9
+     ],
+     [
+      3609,
+      10
+     ],
+     [
+      3949,
+      11
+     ],
+     [
+      4249,
+      12
+     ],
+     [
+      5149,
+      13
+     ],
+     [
+      5430,
+      14
+     ],
+     [
+      5689,
+      15
+     ],
+     [
+      5809,
+      16
+     ],
+     [
+      5989,
+      17
+     ],
+     [
+      6109,
+      18
+     ],
+     [
+      6689,
+      19
+     ],
+     [
+      7029,
+      20
+     ],
+     [
+      7890,
+      21
+     ],
+     [
+      8109,
+      22
+     ],
+     [
+      8310,
+      23
+     ],
+     [
+      8489,
+      24
+     ],
+     [
+      8609,
+      25
+     ],
+     [
+      8930,
+      26
+     ],
+     [
+      9109,
+      27
+     ],
+     [
+      9930,
+      28
+     ],
+     [
+      10089,
+      29
+     ],
+     [
+      10430,
+      30
+     ],
+     [
+      10770,
+      31
+     ],
+     [
+      11549,
+      32
+     ],
+     [
+      11749,
+      33
+     ],
+     [
+      11969,
+      34
+     ],
+     [
+      12149,
+      35
+     ],
+     [
+      12850,
+      36
+     ],
+     [
+      13890,
+      37
+     ],
+     [
+      14310,
+      38
+     ],
+     [
+      14589,
+      39
+     ],
+     [
+      14869,
+      40
+     ],
+     [
+      15069,
+      41
+     ],
+     [
+      15689,
+      42
+     ],
+     [
+      15930,
+      43
+     ],
+     [
+      16209,
+      44
+     ],
+     [
+      16430,
+      45
+     ],
+     [
+      17610,
+      46
+     ],
+     [
+      18249,
+      47
+     ],
+     [
+      18989,
+      48
+     ],
+     [
+      19149,
+      49
+     ],
+     [
+      19850,
+      50
+     ],
+     [
+      19989,
+      51
+     ],
+     [
+      20169,
+      52
+     ],
+     [
+      20509,
+      53
+     ],
+     [
+      21110,
+      54
+     ],
+     [
+      21610,
+      55
+     ]
+    ]
+   },
+   "p0h-huhu": {
+    "s": 22848,
+    "d": 2873,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      699,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2049,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 26022,
+    "d": 17913,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      1849,
+      6
+     ],
+     [
+      1989,
+      7
+     ],
+     [
+      2370,
+      8
+     ],
+     [
+      2630,
+      9
+     ],
+     [
+      3369,
+      10
+     ],
+     [
+      3689,
+      11
+     ],
+     [
+      3869,
+      12
+     ],
+     [
+      4249,
+      13
+     ],
+     [
+      4709,
+      14
+     ],
+     [
+      4830,
+      15
+     ],
+     [
+      5009,
+      16
+     ],
+     [
+      5949,
+      17
+     ],
+     [
+      6169,
+      18
+     ],
+     [
+      6430,
+      19
+     ],
+     [
+      6509,
+      20
+     ],
+     [
+      6629,
+      21
+     ],
+     [
+      7069,
+      22
+     ],
+     [
+      7169,
+      23
+     ],
+     [
+      8009,
+      24
+     ],
+     [
+      8310,
+      25
+     ],
+     [
+      8449,
+      26
+     ],
+     [
+      8969,
+      27
+     ],
+     [
+      9249,
+      28
+     ],
+     [
+      9369,
+      29
+     ],
+     [
+      10109,
+      30
+     ],
+     [
+      10850,
+      31
+     ],
+     [
+      11609,
+      32
+     ],
+     [
+      11850,
+      33
+     ],
+     [
+      12149,
+      34
+     ],
+     [
+      12289,
+      35
+     ],
+     [
+      12729,
+      36
+     ],
+     [
+      12989,
+      37
+     ],
+     [
+      14109,
+      38
+     ],
+     [
+      14629,
+      39
+     ],
+     [
+      14769,
+      40
+     ],
+     [
+      15169,
+      41
+     ],
+     [
+      15390,
+      42
+     ],
+     [
+      16270,
+      43
+     ],
+     [
+      16489,
+      44
+     ],
+     [
+      16809,
+      45
+     ],
+     [
+      17169,
+      46
+     ]
+    ]
+   },
+   "p1h-kipir": {
+    "s": 44235,
+    "d": 2197,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1569,
+      5
+     ]
+    ]
+   },
+   "p1h-mandalina": {
+    "s": 46733,
+    "d": 1362,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      769,
+      3
+     ]
+    ]
+   },
+   "p1h-huhu": {
+    "s": 48395,
+    "d": 3126,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1279,
+      1
+     ],
+     [
+      2518,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 51822,
+    "d": 15759,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3430,
+      8
+     ],
+     [
+      3589,
+      9
+     ],
+     [
+      3789,
+      10
+     ],
+     [
+      4149,
+      11
+     ],
+     [
+      4549,
+      12
+     ],
+     [
+      5509,
+      13
+     ],
+     [
+      5910,
+      14
+     ],
+     [
+      6329,
+      15
+     ],
+     [
+      6589,
+      16
+     ],
+     [
+      7209,
+      17
+     ],
+     [
+      7529,
+      18
+     ],
+     [
+      7689,
+      19
+     ],
+     [
+      8350,
+      20
+     ],
+     [
+      8489,
+      21
+     ],
+     [
+      8869,
+      22
+     ],
+     [
+      9009,
+      23
+     ],
+     [
+      9150,
+      24
+     ],
+     [
+      10089,
+      25
+     ],
+     [
+      10749,
+      26
+     ],
+     [
+      11049,
+      27
+     ],
+     [
+      11189,
+      28
+     ],
+     [
+      11369,
+      29
+     ],
+     [
+      12149,
+      30
+     ],
+     [
+      12649,
+      31
+     ],
+     [
+      12949,
+      32
+     ],
+     [
+      13069,
+      33
+     ],
+     [
+      13869,
+      34
+     ],
+     [
+      14009,
+      35
+     ],
+     [
+      14350,
+      36
+     ],
+     [
+      14769,
+      37
+     ],
+     [
+      15009,
+      38
+     ],
+     [
+      15229,
+      39
+     ]
+    ]
+   },
+   "p2h-kipir": {
+    "s": 67881,
+    "d": 2796,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      1989,
+      6
+     ],
+     [
+      2170,
+      7
+     ]
+    ]
+   },
+   "p2h-mandalina": {
+    "s": 70977,
+    "d": 2505,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      805,
+      1
+     ],
+     [
+      1155,
+      2
+     ],
+     [
+      1764,
+      3
+     ],
+     [
+      2114,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 73782,
+    "d": 2106,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      849,
+      5
+     ],
+     [
+      1229,
+      6
+     ],
+     [
+      1670,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 76189,
+    "d": 2610,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      1869,
+      6
+     ],
+     [
+      2009,
+      7
+     ],
+     [
+      2110,
+      8
+     ]
+    ]
+   },
+   "p3": {
+    "s": 79100,
+    "d": 15696,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      2930,
+      7
+     ],
+     [
+      3410,
+      8
+     ],
+     [
+      3650,
+      9
+     ],
+     [
+      4029,
+      10
+     ],
+     [
+      4269,
+      11
+     ],
+     [
+      4390,
+      12
+     ],
+     [
+      4729,
+      13
+     ],
+     [
+      5589,
+      14
+     ],
+     [
+      6249,
+      15
+     ],
+     [
+      7469,
+      16
+     ],
+     [
+      7910,
+      17
+     ],
+     [
+      8089,
+      18
+     ],
+     [
+      8230,
+      19
+     ],
+     [
+      8390,
+      20
+     ],
+     [
+      9029,
+      21
+     ],
+     [
+      9230,
+      22
+     ],
+     [
+      10289,
+      23
+     ],
+     [
+      10669,
+      24
+     ],
+     [
+      11390,
+      25
+     ],
+     [
+      11609,
+      26
+     ],
+     [
+      11909,
+      27
+     ],
+     [
+      12049,
+      28
+     ],
+     [
+      12409,
+      29
+     ],
+     [
+      12569,
+      30
+     ],
+     [
+      13149,
+      31
+     ],
+     [
+      13310,
+      32
+     ],
+     [
+      13689,
+      33
+     ],
+     [
+      13909,
+      34
+     ],
+     [
+      14129,
+      35
+     ],
+     [
+      14749,
+      36
+     ],
+     [
+      14949,
+      37
+     ],
+     [
+      15109,
+      38
+     ]
+    ]
+   },
+   "p3h-mandalina": {
+    "s": 95097,
+    "d": 2443,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1809,
+      3
+     ]
+    ]
+   },
+   "p3h-kipir": {
+    "s": 97840,
+    "d": 1636,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1170,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 99776,
+    "d": 2654,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2130,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 102731,
+    "d": 17559,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1649,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3249,
+      8
+     ],
+     [
+      3329,
+      9
+     ],
+     [
+      3449,
+      10
+     ],
+     [
+      3749,
+      11
+     ],
+     [
+      4229,
+      12
+     ],
+     [
+      4430,
+      13
+     ],
+     [
+      4749,
+      14
+     ],
+     [
+      4870,
+      15
+     ],
+     [
+      5129,
+      16
+     ],
+     [
+      5883,
+      17
+     ],
+     [
+      6671,
+      18
+     ],
+     [
+      7529,
+      19
+     ],
+     [
+      7709,
+      20
+     ],
+     [
+      8029,
+      21
+     ],
+     [
+      8369,
+      22
+     ],
+     [
+      9329,
+      23
+     ],
+     [
+      9989,
+      24
+     ],
+     [
+      10629,
+      25
+     ],
+     [
+      11430,
+      26
+     ],
+     [
+      11589,
+      27
+     ],
+     [
+      11909,
+      28
+     ],
+     [
+      12230,
+      29
+     ],
+     [
+      12390,
+      30
+     ],
+     [
+      12969,
+      31
+     ],
+     [
+      13229,
+      32
+     ],
+     [
+      13529,
+      33
+     ],
+     [
+      13669,
+      34
+     ],
+     [
+      13810,
+      35
+     ],
+     [
+      14569,
+      36
+     ],
+     [
+      15129,
+      37
+     ],
+     [
+      15249,
+      38
+     ],
+     [
+      15649,
+      39
+     ],
+     [
+      16350,
+      40
+     ],
+     [
+      16530,
+      41
+     ],
+     [
+      16729,
+      42
+     ],
+     [
+      16870,
+      43
+     ]
+    ]
+   },
+   "p4h-kipir": {
+    "s": 120590,
+    "d": 3540,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1030,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2930,
+      6
+     ]
+    ]
+   },
+   "p4h-mandalina": {
+    "s": 124430,
+    "d": 2916,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      314,
+      1
+     ],
+     [
+      588,
+      2
+     ],
+     [
+      863,
+      3
+     ],
+     [
+      1137,
+      4
+     ],
+     [
+      1574,
+      5
+     ],
+     [
+      1849,
+      6
+     ],
+     [
+      2123,
+      7
+     ],
+     [
+      2601,
+      8
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 127647,
+    "d": 3028,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2269,
+      6
+     ],
+     [
+      2390,
+      7
+     ],
+     [
+      2509,
+      8
+     ]
+    ]
+   },
+   "p5": {
+    "s": 130975,
+    "d": 21570,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1009,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      2049,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3309,
+      9
+     ],
+     [
+      3509,
+      10
+     ],
+     [
+      3709,
+      11
+     ],
+     [
+      4930,
+      12
+     ],
+     [
+      5049,
+      13
+     ],
+     [
+      5330,
+      14
+     ],
+     [
+      5729,
+      15
+     ],
+     [
+      5969,
+      16
+     ],
+     [
+      6049,
+      17
+     ],
+     [
+      6229,
+      18
+     ],
+     [
+      6749,
+      19
+     ],
+     [
+      6930,
+      20
+     ],
+     [
+      7269,
+      21
+     ],
+     [
+      7390,
+      22
+     ],
+     [
+      8230,
+      23
+     ],
+     [
+      8609,
+      24
+     ],
+     [
+      8869,
+      25
+     ],
+     [
+      9169,
+      26
+     ],
+     [
+      9329,
+      27
+     ],
+     [
+      9489,
+      28
+     ],
+     [
+      9569,
+      29
+     ],
+     [
+      10310,
+      30
+     ],
+     [
+      10489,
+      31
+     ],
+     [
+      10930,
+      32
+     ],
+     [
+      11230,
+      33
+     ],
+     [
+      12029,
+      34
+     ],
+     [
+      12729,
+      35
+     ],
+     [
+      12969,
+      36
+     ],
+     [
+      13229,
+      37
+     ],
+     [
+      13409,
+      38
+     ],
+     [
+      13589,
+      39
+     ],
+     [
+      13689,
+      40
+     ],
+     [
+      14549,
+      41
+     ],
+     [
+      14850,
+      42
+     ],
+     [
+      15390,
+      43
+     ],
+     [
+      15589,
+      44
+     ],
+     [
+      16430,
+      45
+     ],
+     [
+      16709,
+      46
+     ],
+     [
+      17850,
+      47
+     ],
+     [
+      18069,
+      48
+     ],
+     [
+      18350,
+      49
+     ],
+     [
+      18569,
+      50
+     ],
+     [
+      19229,
+      51
+     ],
+     [
+      19450,
+      52
+     ],
+     [
+      20169,
+      53
+     ],
+     [
+      20709,
+      54
+     ],
+     [
+      21030,
+      55
+     ]
+    ]
+   },
+   "p5h-huhu": {
+    "s": 152846,
+    "d": 2925,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1989,
+      5
+     ]
+    ]
+   },
+   "p5h-kipir": {
+    "s": 156071,
+    "d": 1453,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      1129,
+      5
+     ]
+    ]
+   },
+   "p5h-mandalina": {
+    "s": 157825,
+    "d": 2396,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      362,
+      1
+     ],
+     [
+      684,
+      2
+     ],
+     [
+      1198,
+      3
+     ],
+     [
+      1520,
+      4
+     ],
+     [
+      2033,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

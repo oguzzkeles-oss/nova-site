@@ -41,15 +41,15 @@ function word(k){try{const x=new Audio(`ses/${lang}/${k}.mp3`);x.volume=.9;x.pla
 const ACTS={};
 ACTS.batar=()=>{let fl=0,sk=0;
  sortAct('batar',{apple:1,tas:0,yaprak:1,'bozuk-para':0,top:1,kasik:0},
- ()=>`${SKY}<rect x="70" y="100" width="460" height="250" rx="18" fill="#BAE6FD" opacity=".35" stroke="#0369A1" stroke-width="4"/><rect x="74" y="150" width="452" height="196" rx="14" fill="#38BDF8" opacity=".55"/><path d="M74 150 q28 -8 56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0" fill="none" stroke="#0369A1" stroke-width="2.5"/><g id="items"></g><ellipse id="rip" cx="0" cy="150" rx="0" ry="0" fill="none" stroke="#fff" stroke-width="3"/>`,
+ ()=>`<image href="img/bg-batar.webp" x="0" y="0" width="600" height="360" preserveAspectRatio="xMidYMid slice"/><g id="items"></g><ellipse id="rip" cx="0" cy="150" rx="0" ry="0" fill="none" stroke="#fff" stroke-width="3"/>`,
  async(k,tv,g)=>{const s=k==='kasik'?90:66;const x=tv?100+fl*140:110+sk*140;if(tv)fl++;else sk++;
-  const ySurf=150-s*.6,yEnd=tv?150-s*.55:340-s*.7;
+  const ySurf=150-s*.6,yEnd=tv?150-s*.55:322-s*.92;
   const G=document.createElementNS('http://www.w3.org/2000/svg','g');G.innerHTML=IM(k,0,0,s,s);G.setAttribute('transform',`translate(${x},10)`);$('#items').appendChild(G);
   /* düşüş: suya değene kadar hızlanır */
   await tween(520,p=>G.setAttribute('transform',`translate(${x},${10+(ySurf-10)*p*p})`));if(!alive(g))return;
   /* suya değdiği an: şap sesi + halka */
   sfx('drip',.8);const R=$('#rip');R.setAttribute('cx',x+s/2);tween(600,p=>{R.setAttribute('rx',10+60*p);R.setAttribute('ry',3+8*p);R.style.opacity=1-p});
-  if(tv){await tween(700,p=>G.setAttribute('transform',`translate(${x},${ySurf+(Math.sin(p*Math.PI)*14)+(yEnd-ySurf)*p})`));G.style.animation='jig 2.4s ease-in-out infinite'}
+  if(tv){await tween(700,p=>G.setAttribute('transform',`translate(${x},${ySurf+(Math.sin(p*Math.PI)*14)+(yEnd-ySurf)*p})`));G.firstElementChild.style.animation='jig 2.4s ease-in-out infinite'}
   else{await tween(1400,p=>G.setAttribute('transform',`translate(${x+Math.sin(p*9)*6*(1-p)},${ySurf+(yEnd-ySurf)*(1-Math.pow(1-p,2))})`));sfx('step',.5)}})};
 ACTS.miknatis=()=>{let pulled=0;
  sortAct('miknatis',{atac:0,kasik:0,yaprak:1,makas:0,kagit:1,'oyuncak-ayi':1},

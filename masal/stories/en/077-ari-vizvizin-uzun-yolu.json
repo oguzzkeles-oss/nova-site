@@ -1,0 +1,1903 @@
+{
+ "id": "077-ari-vizvizin-uzun-yolu",
+ "lang": "en",
+ "title": "Buzz the Bee's Long Journey",
+ "theme": "Bees, pollen and how fruit grows",
+ "blurb": "Little Buzz the bee wants to carry yellow pollen to the lonely apple tree at the far end of the meadow. The way is long, but when she flies together with Flutter the butterfly, the flowers one day turn into bright red apples.",
+ "voiceNames": {
+  "vizviz": "Buzz (bee)",
+  "pirpir": "Flutter (butterfly)",
+  "ela": "Ela"
+ },
+ "pages": [
+  {
+   "text": "Spring had come. Buzz, buzz! Buzz the bee flew out of the hive and landed on an apple blossom. Yellow pollen stuck to her legs. At the far end of the meadow stood a lonely apple tree. It was very far; no bee had ever gone there. “I'll go!” said Buzz.",
+   "hits": {
+    "vizviz": {
+     "say": "I'll go! Buzz!"
+    },
+    "kovan": {
+     "say": "Buzz buzz, everyone in the hive is busy."
+    },
+    "sun": {
+     "say": "The spring sun is warm."
+    },
+    "cicek": {
+     "say": "Yellow pollen stuck to Buzz's legs."
+    }
+   },
+   "hint": "Touch Buzz!",
+   "ask": "What stuck to Buzz's legs? What do you think this yellow dust is for?"
+  },
+  {
+   "text": "The way was very long. Buzz… buzz… bzz. Buzz's wings grew heavy. “I'm too small. I can't make it,” she said sadly. A purple butterfly glided down. “I'm Flutter! Let's fly together, and rest when we're tired. When we get there, you take one flower, I take another!”",
+   "hits": {
+    "vizviz": {
+     "say": "Buzz… bzz… My wings are tired."
+    },
+    "pirpir": {
+     "say": "You take one flower, I take another!"
+    },
+    "mola": {
+     "say": "Phew! That was a nice rest."
+    }
+   },
+   "hint": "Touch Flutter!",
+   "ask": "How did Buzz feel when she got tired? Who do you ask for help when you're very tired?"
+  },
+  {
+   "text": "At last they reached the faraway tree. Buzz landed on flower after flower: buzz, land! Buzz, land! The yellow pollen moved onto the new flowers. Flutter fluttered along and carried pollen too. One for Buzz, one for Flutter… Pollen reached all five flowers!",
+   "hits": {
+    "vizviz": {
+     "say": "Buzz, buzz! The pollen is where it belongs!"
+    },
+    "pirpir": {
+     "say": "I carried some too!"
+    },
+    "b": {
+     "say": "Buzz, land! Pollen delivered!"
+    }
+   },
+   "predict": {
+    "q": "What do you think will happen to these flowers?",
+    "res": "Good guess! Let's turn the page and see.",
+    "opts": [
+     {
+      "l": "They'll turn into apples"
+     },
+     {
+      "l": "They'll stay flowers"
+     }
+    ]
+   },
+   "hint": "Touch the flowers and carry the pollen!",
+   "ask": "Where did the yellow pollen come from, and where did it go? Who carried it?",
+   "mech": {
+    "done": "All five flowers got pollen!",
+    "msg": "You carried the pollen!"
+   }
+  },
+  {
+   "text": "Days went by. The petals fluttered down. In their place, tiny green balls appeared. The sun warmed them, the rain watered them. The balls grew and grew, and turned red. Summer was nearly over! How many apples were on the tree?",
+   "hits": {
+    "vizviz": {
+     "say": "Wow! The flowers have turned into apples!"
+    },
+    "sun": {
+     "say": "The sun is warming the apples."
+    }
+   },
+   "hint": "Touch Buzz!",
+   "ask": "There were five flowers. How many apples are there now? Why do you think it's the same number?"
+  },
+  {
+   "text": "Ela came to the meadow with her basket. The apples were bright red and smelled lovely! She picked them one by one. She saw Buzz, but didn't touch her. She waved from afar. “Thank you, Buzz! These apples came from your tiny legs!”",
+   "hits": {
+    "ela": {
+     "say": "Thank you, Buzz!"
+    },
+    "vizviz": {
+     "say": "You're welcome, Ela!"
+    }
+   },
+   "mech": {
+    "done": "Five flowers, five apples, one basket!",
+    "msg": "You picked them all!"
+   },
+   "hint": "Pick the apples into the basket!",
+   "ask": "Why didn't Ela touch Buzz? What do you do when you see a bee?"
+  },
+  {
+   "text": "That evening Buzz flew back to the hive. Her chest puffed up with pride. She danced to show her friends the way to the apple tree: right, left, buzz! “Next spring, let's all go together. Flutter can come too!” Buzz, buzz, buzz! The whole hive hummed with joy.",
+   "hits": {
+    "vizviz": {
+     "say": "Right, left, buzz! That's the way!"
+    },
+    "kovan": {
+     "say": "Buzz, buzz, buzz!"
+    },
+    "pirpir": {
+     "say": "I'll come too!"
+    }
+   },
+   "hint": "Touch the hive!",
+   "ask": "Why did Buzz feel proud? How do you feel when you finish a job together with a friend?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 (learning outcome) Making scientific observations of science-related events, facts and situations in daily life: The child observes in the pictures, and describes, how the bee lands on a flower, how yellow pollen sticks to its legs, and how fruit forms in place of the flowers over time.",
+   "FAB.7 (learning outcome, unverified) Making simple scientific inferences based on observations of science-related events in daily life: From the observation 'five flowers, five apples', infers that 'the flowers became apples because the bee carried the pollen'.",
+   "OB8 Sustainability Literacy: Notices how important bees and flowers are for our food; names watching bees from a distance without touching them, and planting flowers, as ways of protecting bees.",
+   "SDB2.2 Cooperation and D3 Diligence: Comments on how Buzz and Flutter completed the long journey together, taking breaks, and on Buzz's suggestion 'Next spring, let's all go together'; sees the result of hard work (a basket full of apples)."
+  ],
+  "once": [
+   "Show an apple or a picture of an apple: 'Where did this apple come from? What was on the tree before the apple?' Note down the guesses.",
+   "Point to the bee on the cover: 'What do bees do on flowers?' Wonder together whether they might have a job besides making honey."
+  ],
+  "sirasi": [
+   "On page 1, point to the yellow pollen on Buzz's legs; say the word 'pollen' together. Find the lonely tree in the distance together.",
+   "On page 2, read 'Buzz… buzz… bzz' in a voice that gets quieter and quieter. 'How is she feeling? Why did her wings get heavy?' Help the child notice that taking a break and asking for help feels good. Say Flutter's plan together: 'You take one flower, I take another!'",
+   "On page 3, the child helps Buzz carry the pollen by touching each flower; for the prediction, listen to the child's choice and their reason, and say 'Let's see!' without saying right or wrong.",
+   "On page 4, point to the apples on the tree and count them together, recalling the five flowers on page 3: 'How many flowers were there? How many apples are there now?'",
+   "On page 5, talk about why Ela didn't touch the bee: 'We watch bees from a distance.'",
+   "On page 6: 'Could Buzz have gone on her own? What changed when they went together?'"
+  ],
+  "sonra": [
+   "Tell the sequence from the story together: flower → the bee carries pollen → the petals fall → small green fruit → red apple.",
+   "For curious children: While a bee drinks nectar from a flower, pollen sticks to its fuzzy body. When it lands on another flower, the pollen moves there. This is called pollination; many fruits and vegetables grow this way. Butterflies can carry pollen too.",
+   "Bees show each other the way by dancing. Do a bee dance with the children: 'right, left, buzz!'",
+   "Safety: Don't touch bees and don't go near a hive; if a bee flies past you, stay calm and don't wave your arms. Talk with families about special precautions for children with bee allergies.",
+   "Go back to the first guesses: 'So where do apples come from? Has your idea changed?'"
+  ],
+  "sinif": {
+   "ad": "Pollination Game: Little Bees",
+   "sure": "20 min",
+   "materyal": "Big paper flowers (4–5), a yellow paper circle or pompom in the middle of each flower, red balls or paper apples",
+   "adim": [
+    "Put the paper flowers in different corners of the classroom. The children pair up as 'bee and butterfly' teams.",
+    "Each team takes the yellow pompom from one flower and drops it on another, flying with a 'Buzz buzz!' and resting on a flower when they need to.",
+    "For every flower that receives yellow pollen, the teacher puts a red apple in its place; the children count the apples together.",
+    "At the end, ask: 'How many apples would there be without bees? How can you help bees?' Draw the answers and put them up on a display board."
+   ]
+  },
+  "evSoru": [
+   "What stuck to Buzz's legs? Where did she take it?",
+   "What did Buzz do when the journey felt too long? How did Flutter help her?",
+   "How did the flowers turn into apples? What would happen if there were no bees?"
+  ],
+  "evEtk": {
+   "ad": "A Bee-Friendly Pot",
+   "d": "Plant lavender, basil or daisies in a pot on the balcony or by the window. When the flowers bloom, watch the bees together from a distance, without touching. Show an apple or a tomato in the kitchen and chat: 'Which bee might have landed on this one's flower?'"
+  },
+  "aileNotu": "Today we read 'Buzz the Bee's Long Journey'. Little Buzz the bee carried yellow pollen to a faraway apple tree; when she got tired on the way, she flew on with Flutter the butterfly, resting as they went. In time, the flowers turned into apples. At home, when you eat fruit, you can keep the conversation going with 'This fruit was a flower first', and watch bees together from a distance, without touching them."
+ },
+ "audio": {
+  "file": "audio/en/077-ari-vizvizin-uzun-yolu.mp3",
+  "hash": "3de199c7",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17620,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      3009,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      3449,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      4089,
+      9
+     ],
+     [
+      4209,
+      10
+     ],
+     [
+      4310,
+      11
+     ],
+     [
+      4449,
+      12
+     ],
+     [
+      4870,
+      13
+     ],
+     [
+      5029,
+      14
+     ],
+     [
+      5430,
+      15
+     ],
+     [
+      5549,
+      16
+     ],
+     [
+      5709,
+      17
+     ],
+     [
+      5969,
+      18
+     ],
+     [
+      6910,
+      19
+     ],
+     [
+      7249,
+      20
+     ],
+     [
+      7749,
+      21
+     ],
+     [
+      8029,
+      22
+     ],
+     [
+      8150,
+      23
+     ],
+     [
+      8310,
+      24
+     ],
+     [
+      9310,
+      25
+     ],
+     [
+      9409,
+      26
+     ],
+     [
+      9569,
+      27
+     ],
+     [
+      9869,
+      28
+     ],
+     [
+      10029,
+      29
+     ],
+     [
+      10109,
+      30
+     ],
+     [
+      10270,
+      31
+     ],
+     [
+      10649,
+      32
+     ],
+     [
+      10890,
+      33
+     ],
+     [
+      11009,
+      34
+     ],
+     [
+      11489,
+      35
+     ],
+     [
+      11789,
+      36
+     ],
+     [
+      12529,
+      37
+     ],
+     [
+      12629,
+      38
+     ],
+     [
+      12869,
+      39
+     ],
+     [
+      13270,
+      40
+     ],
+     [
+      13989,
+      41
+     ],
+     [
+      14229,
+      42
+     ],
+     [
+      14489,
+      43
+     ],
+     [
+      14709,
+      44
+     ],
+     [
+      14989,
+      45
+     ],
+     [
+      15229,
+      46
+     ],
+     [
+      16009,
+      47
+     ],
+     [
+      16209,
+      48
+     ],
+     [
+      16889,
+      49
+     ],
+     [
+      17129,
+      50
+     ]
+    ]
+   },
+   "p0h-vizviz": {
+    "s": 17920,
+    "d": 1860,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      465,
+      1
+     ],
+     [
+      1394,
+      2
+     ]
+    ]
+   },
+   "p0h-kovan": {
+    "s": 20080,
+    "d": 3125,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      2569,
+      7
+     ]
+    ]
+   },
+   "p0h-sun": {
+    "s": 23506,
+    "d": 1964,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1290,
+      4
+     ]
+    ]
+   },
+   "p0h-cicek": {
+    "s": 25770,
+    "d": 2356,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1729,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 28427,
+    "d": 20853,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      5489,
+      6
+     ],
+     [
+      5614,
+      7
+     ],
+     [
+      5809,
+      8
+     ],
+     [
+      5930,
+      9
+     ],
+     [
+      6370,
+      10
+     ],
+     [
+      6669,
+      11
+     ],
+     [
+      7214,
+      12
+     ],
+     [
+      7829,
+      13
+     ],
+     [
+      8129,
+      14
+     ],
+     [
+      9129,
+      15
+     ],
+     [
+      9249,
+      16
+     ],
+     [
+      9569,
+      17
+     ],
+     [
+      9850,
+      18
+     ],
+     [
+      10369,
+      19
+     ],
+     [
+      10589,
+      20
+     ],
+     [
+      10890,
+      21
+     ],
+     [
+      11930,
+      22
+     ],
+     [
+      12049,
+      23
+     ],
+     [
+      12449,
+      24
+     ],
+     [
+      13029,
+      25
+     ],
+     [
+      13409,
+      26
+     ],
+     [
+      14249,
+      27
+     ],
+     [
+      14449,
+      28
+     ],
+     [
+      15209,
+      29
+     ],
+     [
+      15469,
+      30
+     ],
+     [
+      15749,
+      31
+     ],
+     [
+      16329,
+      32
+     ],
+     [
+      16509,
+      33
+     ],
+     [
+      16789,
+      34
+     ],
+     [
+      16930,
+      35
+     ],
+     [
+      17110,
+      36
+     ],
+     [
+      17829,
+      37
+     ],
+     [
+      17989,
+      38
+     ],
+     [
+      18149,
+      39
+     ],
+     [
+      18350,
+      40
+     ],
+     [
+      18770,
+      41
+     ],
+     [
+      18969,
+      42
+     ],
+     [
+      19249,
+      43
+     ],
+     [
+      19409,
+      44
+     ],
+     [
+      20049,
+      45
+     ],
+     [
+      20169,
+      46
+     ],
+     [
+      20369,
+      47
+     ]
+    ]
+   },
+   "p1h-vizviz": {
+    "s": 49580,
+    "d": 3978,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      904,
+      1
+     ],
+     [
+      1769,
+      2
+     ],
+     [
+      2164,
+      3
+     ],
+     [
+      2560,
+      4
+     ],
+     [
+      3249,
+      5
+     ]
+    ]
+   },
+   "p1h-pirpir": {
+    "s": 53859,
+    "d": 2583,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      2049,
+      6
+     ]
+    ]
+   },
+   "p1h-mola": {
+    "s": 56742,
+    "d": 2744,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      989,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2130,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 59787,
+    "d": 18682,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      1849,
+      6
+     ],
+     [
+      2729,
+      7
+     ],
+     [
+      3049,
+      8
+     ],
+     [
+      3410,
+      9
+     ],
+     [
+      3629,
+      10
+     ],
+     [
+      4169,
+      11
+     ],
+     [
+      4529,
+      12
+     ],
+     [
+      5430,
+      13
+     ],
+     [
+      6069,
+      14
+     ],
+     [
+      6870,
+      15
+     ],
+     [
+      7549,
+      16
+     ],
+     [
+      8489,
+      17
+     ],
+     [
+      8629,
+      18
+     ],
+     [
+      8930,
+      19
+     ],
+     [
+      9390,
+      20
+     ],
+     [
+      9730,
+      21
+     ],
+     [
+      9989,
+      22
+     ],
+     [
+      10109,
+      23
+     ],
+     [
+      10329,
+      24
+     ],
+     [
+      11310,
+      25
+     ],
+     [
+      11689,
+      26
+     ],
+     [
+      12049,
+      27
+     ],
+     [
+      12449,
+      28
+     ],
+     [
+      12649,
+      29
+     ],
+     [
+      12989,
+      30
+     ],
+     [
+      13369,
+      31
+     ],
+     [
+      14169,
+      32
+     ],
+     [
+      14329,
+      33
+     ],
+     [
+      14509,
+      34
+     ],
+     [
+      15269,
+      35
+     ],
+     [
+      15430,
+      36
+     ],
+     [
+      15629,
+      37
+     ],
+     [
+      16450,
+      38
+     ],
+     [
+      16870,
+      39
+     ],
+     [
+      17309,
+      40
+     ],
+     [
+      17610,
+      41
+     ],
+     [
+      17950,
+      42
+     ]
+    ]
+   },
+   "p2h-vizviz": {
+    "s": 78769,
+    "d": 3670,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      516,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1990,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2810,
+      6
+     ],
+     [
+      3109,
+      7
+     ]
+    ]
+   },
+   "p2h-pirpir": {
+    "s": 82740,
+    "d": 1396,
+    "w": [
+     [
+      59,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      930,
+      3
+     ]
+    ]
+   },
+   "p2h-b": {
+    "s": 84436,
+    "d": 2665,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1949,
+      3
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 87402,
+    "d": 2108,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1389,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 89810,
+    "d": 2288,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      849,
+      5
+     ],
+     [
+      1170,
+      6
+     ],
+     [
+      1290,
+      7
+     ],
+     [
+      1529,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 92399,
+    "d": 2507,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      1649,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2089,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 95206,
+    "d": 16705,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      3849,
+      9
+     ],
+     [
+      4529,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      5749,
+      13
+     ],
+     [
+      6649,
+      14
+     ],
+     [
+      6829,
+      15
+     ],
+     [
+      7189,
+      16
+     ],
+     [
+      7569,
+      17
+     ],
+     [
+      8169,
+      18
+     ],
+     [
+      8350,
+      19
+     ],
+     [
+      8730,
+      20
+     ],
+     [
+      9109,
+      21
+     ],
+     [
+      9810,
+      22
+     ],
+     [
+      9949,
+      23
+     ],
+     [
+      10369,
+      24
+     ],
+     [
+      10949,
+      25
+     ],
+     [
+      11169,
+      26
+     ],
+     [
+      11810,
+      27
+     ],
+     [
+      11969,
+      28
+     ],
+     [
+      12350,
+      29
+     ],
+     [
+      13169,
+      30
+     ],
+     [
+      13529,
+      31
+     ],
+     [
+      13749,
+      32
+     ],
+     [
+      14169,
+      33
+     ],
+     [
+      15009,
+      34
+     ],
+     [
+      15189,
+      35
+     ],
+     [
+      15489,
+      36
+     ],
+     [
+      15869,
+      37
+     ],
+     [
+      16030,
+      38
+     ],
+     [
+      16129,
+      39
+     ],
+     [
+      16249,
+      40
+     ]
+    ]
+   },
+   "p3h-vizviz": {
+    "s": 112211,
+    "d": 3239,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      989,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2449,
+      6
+     ]
+    ]
+   },
+   "p3h-sun": {
+    "s": 115751,
+    "d": 2277,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1309,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 118329,
+    "d": 15098,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1089,
+      5
+     ],
+     [
+      1249,
+      6
+     ],
+     [
+      1389,
+      7
+     ],
+     [
+      2309,
+      8
+     ],
+     [
+      2549,
+      9
+     ],
+     [
+      2910,
+      10
+     ],
+     [
+      3170,
+      11
+     ],
+     [
+      3629,
+      12
+     ],
+     [
+      3910,
+      13
+     ],
+     [
+      4129,
+      14
+     ],
+     [
+      4649,
+      15
+     ],
+     [
+      5649,
+      16
+     ],
+     [
+      5830,
+      17
+     ],
+     [
+      6049,
+      18
+     ],
+     [
+      6410,
+      19
+     ],
+     [
+      6629,
+      20
+     ],
+     [
+      6910,
+      21
+     ],
+     [
+      7569,
+      22
+     ],
+     [
+      7749,
+      23
+     ],
+     [
+      8009,
+      24
+     ],
+     [
+      8509,
+      25
+     ],
+     [
+      8810,
+      26
+     ],
+     [
+      9109,
+      27
+     ],
+     [
+      9350,
+      28
+     ],
+     [
+      9949,
+      29
+     ],
+     [
+      10149,
+      30
+     ],
+     [
+      10489,
+      31
+     ],
+     [
+      10690,
+      32
+     ],
+     [
+      11529,
+      33
+     ],
+     [
+      11829,
+      34
+     ],
+     [
+      12029,
+      35
+     ],
+     [
+      12770,
+      36
+     ],
+     [
+      13109,
+      37
+     ],
+     [
+      13489,
+      38
+     ],
+     [
+      13709,
+      39
+     ],
+     [
+      13890,
+      40
+     ],
+     [
+      14089,
+      41
+     ],
+     [
+      14489,
+      42
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 133727,
+    "d": 906,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      269,
+      1
+     ],
+     [
+      636,
+      2
+     ]
+    ]
+   },
+   "p4h-vizviz": {
+    "s": 134934,
+    "d": 1243,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      348,
+      1
+     ],
+     [
+      894,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 136477,
+    "d": 3201,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      2569,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 139978,
+    "d": 18324,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1829,
+      6
+     ],
+     [
+      1949,
+      7
+     ],
+     [
+      2749,
+      8
+     ],
+     [
+      2969,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      3789,
+      11
+     ],
+     [
+      3949,
+      12
+     ],
+     [
+      4169,
+      13
+     ],
+     [
+      5089,
+      14
+     ],
+     [
+      5330,
+      15
+     ],
+     [
+      5729,
+      16
+     ],
+     [
+      5850,
+      17
+     ],
+     [
+      6089,
+      18
+     ],
+     [
+      6249,
+      19
+     ],
+     [
+      6589,
+      20
+     ],
+     [
+      6749,
+      21
+     ],
+     [
+      6949,
+      22
+     ],
+     [
+      7069,
+      23
+     ],
+     [
+      7249,
+      24
+     ],
+     [
+      7529,
+      25
+     ],
+     [
+      8329,
+      26
+     ],
+     [
+      8890,
+      27
+     ],
+     [
+      9469,
+      28
+     ],
+     [
+      10589,
+      29
+     ],
+     [
+      10829,
+      30
+     ],
+     [
+      11329,
+      31
+     ],
+     [
+      11649,
+      32
+     ],
+     [
+      11850,
+      33
+     ],
+     [
+      12009,
+      34
+     ],
+     [
+      12810,
+      35
+     ],
+     [
+      13169,
+      36
+     ],
+     [
+      13350,
+      37
+     ],
+     [
+      13549,
+      38
+     ],
+     [
+      14249,
+      39
+     ],
+     [
+      14729,
+      40
+     ],
+     [
+      15129,
+      41
+     ],
+     [
+      16129,
+      42
+     ],
+     [
+      16329,
+      43
+     ],
+     [
+      16709,
+      44
+     ],
+     [
+      17169,
+      45
+     ],
+     [
+      17589,
+      46
+     ],
+     [
+      17809,
+      47
+     ]
+    ]
+   },
+   "p5h-vizviz": {
+    "s": 158603,
+    "d": 3489,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      2410,
+      3
+     ],
+     [
+      2789,
+      4
+     ],
+     [
+      2969,
+      5
+     ]
+    ]
+   },
+   "p5h-kovan": {
+    "s": 162392,
+    "d": 1855,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      715,
+      1
+     ],
+     [
+      1390,
+      2
+     ]
+    ]
+   },
+   "p5h-pirpir": {
+    "s": 164547,
+    "d": 1028,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      529,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

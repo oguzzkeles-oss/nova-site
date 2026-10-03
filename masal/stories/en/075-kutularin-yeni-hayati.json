@@ -1,0 +1,2229 @@
+{
+ "id": "075-kutularin-yeni-hayati",
+ "lang": "en",
+ "title": "A New Life for the Boxes",
+ "theme": "Sorting waste and recycling (World Environment Day)",
+ "blurb": "Cleaning up the park on World Environment Day, Deniz throws all the waste into the same bin: “Rubbish is rubbish!” But Elif has an idea: every piece of waste has its own home. Blue, yellow, green… The papers they sort together one day become brand new notebooks.",
+ "voiceNames": {
+  "deniz": "Deniz",
+  "elif": "Elif",
+  "ogretmen": "Miss Nur"
+ },
+ "pages": [
+  {
+   "text": "Today is World Environment Day! Miss Nur's class came to the park. There were papers, bottles and cans on the grass. Deniz and Elif put on their gloves and got straight to work. Rustle rustle, clatter clang! Everything went into the same bin.",
+   "hits": {
+    "deniz": {
+     "say": "Let's pick it all up, come on!"
+    },
+    "elif": {
+     "say": "I'll pick some up too!"
+    },
+    "ogretmen": {
+     "say": "Happy World Environment Day, children!"
+    }
+   },
+   "mech": {
+    "done": "All in the bin! But wait a minute…",
+    "msg": "The park is getting clean!"
+   },
+   "hint": "Throw the waste in the bin!",
+   "ask": "What did they find in the park? Have you ever seen rubbish on the ground in a park?",
+   "cues": [
+    {
+     "w": 33,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Elif looked into the bin. “It's all jumbled up!” Deniz shrugged. “So what? Rubbish is rubbish.” Elif shook her head. “I don't think so! Each one has its own home. Look: blue, yellow, green!” Deniz scratched her nose. “A home? Does rubbish have a home?”",
+   "hits": {
+    "elif": {
+     "say": "Each one has its own home!"
+    },
+    "deniz": {
+     "say": "A home? Does rubbish have a home?"
+    },
+    "kova": {
+     "say": "It's all jumbled up!"
+    },
+    "mavi": {
+     "say": "The blue bin is the home of paper."
+    },
+    "sari": {
+     "say": "The yellow bin is the home of bottles and cans."
+    },
+    "yesil": {
+     "say": "The green bin is the home of glass bottles."
+    }
+   },
+   "hint": "Touch the coloured bins!",
+   "ask": "Deniz said “Rubbish is rubbish.” What did Elif say? What do you think?"
+  },
+  {
+   "text": "Deniz picked up the crumpled paper. She turned it over and over. “What happens to this paper when it goes in the blue bin?” Miss Nur winked. “It goes on a long journey and becomes something brand new. But if it gets mixed up with wet bottles and leftover food, it gets dirty. Then it can't become anything new.”",
+   "hits": {
+    "deniz": {
+     "say": "What will happen to this paper?"
+    },
+    "ogretmen": {
+     "say": "If it gets dirty, it can't become anything new."
+    },
+    "mavi": {
+     "say": "The blue bin is the home of paper."
+    }
+   },
+   "predict": {
+    "q": "What do you think the crumpled paper will turn into?",
+    "res": "Could be either! Paper becomes paper again.",
+    "opts": [
+     {
+      "l": "A brand new notebook"
+     },
+     {
+      "l": "A great big cardboard box"
+     }
+    ]
+   },
+   "hint": "Touch the paper!",
+   "ask": "Why does paper go in a separate bin? What happens if it gets wet and dirty?"
+  },
+  {
+   "text": "Deniz looked around. “Is that everything?” Elif straightened her glasses. “Wait! Something's shining under the bench.” A paper under the bush, a can beside the slide… They hunted for the hidden rubbish together.",
+   "hits": {
+    "deniz": {
+     "say": "Is that everything?"
+    },
+    "elif": {
+     "say": "Wait! Something's shining over there!"
+    }
+   },
+   "mech": {
+    "done": "You found all three! Now it's time to sort.",
+    "msg": "You found them all!"
+   },
+   "hint": "Find the hidden rubbish!",
+   "ask": "Where was the rubbish hiding? Where else would you look?"
+  },
+  {
+   "text": "They emptied the bin onto the grass and added what they had found. Elif had an idea. “I'll look at the pictures on the bins, and you pass me the rubbish. I'll throw it in, then we swap!” Rustle, paper into the blue! Clang, plastic into the yellow! Ting, glass into the green! “It's faster together!” said Deniz.",
+   "hits": {
+    "elif": {
+     "say": "I'll throw it in, then we swap!"
+    },
+    "deniz": {
+     "say": "It's faster together!"
+    }
+   },
+   "mech": {
+    "done": "Every piece in its own home! The park is sparkling clean.",
+    "msg": "You sorted them all correctly!"
+   },
+   "hint": "First the rubbish, then the bin!",
+   "ask": "How did Elif and Deniz share the work? What job do you take turns doing with a friend?",
+   "cues": [
+    {
+     "w": 38,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "A few weeks later, Miss Nur brought a parcel into class. Inside were brand new notebooks! “These were made from recycled paper,” she said. Deniz drew the park on the first page and giggled. “So rubbish isn't just rubbish after all!”",
+   "hits": {
+    "deniz": {
+     "say": "So rubbish isn't just rubbish after all!"
+    },
+    "elif": {
+     "say": "The papers have started a new life!"
+    },
+    "ogretmen": {
+     "say": "Notebooks made from recycled paper!"
+    },
+    "defter": {
+     "say": "Deniz drew the park."
+    },
+    "mavi": {
+     "say": "There's a blue bin in the classroom too!"
+    }
+   },
+   "hint": "Touch the new notebook!",
+   "ask": "What did Deniz understand in the end? What waste can you sort at home?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.2 · Classifying science-related objects, events and facts by their similarities and differences: sorts paper, plastic/metal and glass waste by material and places it in the blue, yellow and green bins.",
+   "KB2.5 Classifying: looks at the symbols on the bins to choose a criterion for each piece of waste (what is it made of?) and groups the waste by that criterion.",
+   "OB8 Sustainability Literacy: notices that mixed waste cannot be reused and that sorted paper can become paper (a notebook) again; takes part in keeping the park and the classroom clean.",
+   "SDB2.2 Cooperation: like Elif and Deniz, shares a job with a friend (one passes the waste, the other puts it in the bin, then they swap roles) and completes a joint task together.",
+   "D16 Responsibility · D18 Cleanliness · E2.2 Responsibility: takes on the responsibility of collecting and sorting waste in their surroundings."
+  ],
+  "once": [
+   "Look at the cover together: “What can you see in the park? What might these coloured bins be for?”",
+   "Show a clean piece of paper, an empty plastic bottle and a drink can brought from home: “What are these made of? How do they feel when you touch them?”",
+   "Briefly explain World Environment Day on 5 June: “Today is the day we think about looking after our world.”"
+  ],
+  "sirasi": [
+   "Say the sound words (rustle rustle, clatter clang, ting) together with the child; each sound recalls a material: paper rustles, cans clang, glass tings.",
+   "On the prediction page, say that both options could be right: recycled paper can become a notebook or a cardboard box. Ask “Why did you think that?”",
+   "Why can't paper become paper again if it gets wet and dirty? Compare a wet tissue with a dry piece of paper.",
+   "In the sorting game, the child touches the waste first, then the bin. For a wrong bin, give a gentle clue: “What is this made of? Look at the picture on the bin.”",
+   "Compare Deniz's words “Rubbish is rubbish” with “So rubbish isn't just rubbish after all!” at the end; talk about how Deniz's thinking changed."
+  ],
+  "sonra": [
+   "Remember the events with a sequencing game: the waste is collected in one bin → Elif and Deniz sort the waste into the coloured bins → the papers become new notebooks.",
+   "Ask “How did Elif and Deniz share the work?”; find examples of jobs done together in class.",
+   "In some places there is also a grey bin for metal cans; look together at the colours of the recycling bins in your neighbourhood.",
+   "Talk about the safety note: we wear gloves when collecting waste; if we see broken glass, a needle or anything sharp, we don't touch it and we tell a grown-up. After the game, hands are washed with soap."
+  ],
+  "sinif": {
+   "ad": "Blue, Yellow, Green",
+   "sure": "20 min",
+   "materyal": "Three boxes or pieces of card in blue, yellow and green; a picture symbol card for each box (a picture of paper, a bottle/can, a glass jar); clean waste: newspaper, crumpled paper, an empty plastic bottle, a washed drink can; a picture card of a green bottle instead of real glass; children's gloves",
+   "adim": [
+    "Mix the clean waste on the rug. The children put on their gloves; they hold each piece and examine it: “What is it made of? Does it rustle or clang?”",
+    "Put the symbol cards in front of the boxes. The children pair up: one looks at the cards and passes the waste, the other puts it in the box. Then they swap jobs.",
+    "Use the picture card instead of real glass; talk about how broken glass is only picked up by grown-ups.",
+    "When finished, count together what is in each box, and give the waste paper a “second life” by drawing a picture on the back."
+   ]
+  },
+  "evSoru": [
+   "Deniz said “Rubbish is rubbish” at first. What did she say at the end? Why did she change her mind?",
+   "What went into the blue, yellow and green bins?",
+   "What waste can we sort in our home? Who would you do this job with?"
+  ],
+  "evEtk": {
+   "ad": "Our Home Recycling Corner",
+   "d": "Set aside two or three boxes or bags at home and draw picture labels on them together with your child (paper, bottle/can, glass). For a week, sort the paper and empty plastic bottles together; carry glass and sharp waste yourself. At the end of the week, take the boxes to the recycling bins in your neighbourhood together."
+  },
+  "aileNotu": "Today we read “A New Life for the Boxes.” Cleaning up the park on World Environment Day, Deniz first throws all the waste into the same bin; Elif says that every piece of waste has its own “home” and sets up a sorting game with blue, yellow and green bins. The children talked about how mixed waste gets dirty, and how sorted paper can become recycled paper and turn into a new notebook. You can set up a small recycling corner at home; in some places there is also a grey bin for metal cans, so look together at the colours of the recycling bins in your neighbourhood. Please carry sharp waste such as broken glass yourself."
+ },
+ "audio": {
+  "file": "audio/en/075-kutularin-yeni-hayati.mp3",
+  "hash": "e87ff349",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15485,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      2910,
+      6
+     ],
+     [
+      3209,
+      7
+     ],
+     [
+      3569,
+      8
+     ],
+     [
+      3789,
+      9
+     ],
+     [
+      3889,
+      10
+     ],
+     [
+      4009,
+      11
+     ],
+     [
+      4749,
+      12
+     ],
+     [
+      4930,
+      13
+     ],
+     [
+      5109,
+      14
+     ],
+     [
+      5830,
+      15
+     ],
+     [
+      6309,
+      16
+     ],
+     [
+      6509,
+      17
+     ],
+     [
+      6910,
+      18
+     ],
+     [
+      7009,
+      19
+     ],
+     [
+      7129,
+      20
+     ],
+     [
+      7989,
+      21
+     ],
+     [
+      8350,
+      22
+     ],
+     [
+      8509,
+      23
+     ],
+     [
+      8850,
+      24
+     ],
+     [
+      9029,
+      25
+     ],
+     [
+      9129,
+      26
+     ],
+     [
+      9310,
+      27
+     ],
+     [
+      9730,
+      28
+     ],
+     [
+      9890,
+      29
+     ],
+     [
+      10169,
+      30
+     ],
+     [
+      10529,
+      31
+     ],
+     [
+      10669,
+      32
+     ],
+     [
+      11390,
+      33
+     ],
+     [
+      11749,
+      34
+     ],
+     [
+      12310,
+      35
+     ],
+     [
+      12709,
+      36
+     ],
+     [
+      13589,
+      37
+     ],
+     [
+      14129,
+      38
+     ],
+     [
+      14310,
+      39
+     ],
+     [
+      14549,
+      40
+     ],
+     [
+      14729,
+      41
+     ],
+     [
+      15049,
+      42
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 15785,
+    "d": 1828,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      459,
+      2
+     ],
+     [
+      669,
+      3
+     ],
+     [
+      879,
+      4
+     ],
+     [
+      1213,
+      5
+     ],
+     [
+      1578,
+      6
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 17914,
+    "d": 1314,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      254,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      844,
+      3
+     ],
+     [
+      1059,
+      4
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 19528,
+    "d": 2402,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1709,
+      4
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 22230,
+    "d": 2827,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2329,
+      7
+     ]
+    ]
+   },
+   "p1": {
+    "s": 25357,
+    "d": 18956,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      1989,
+      6
+     ],
+     [
+      2249,
+      7
+     ],
+     [
+      2749,
+      8
+     ],
+     [
+      3509,
+      9
+     ],
+     [
+      3869,
+      10
+     ],
+     [
+      4709,
+      11
+     ],
+     [
+      4949,
+      12
+     ],
+     [
+      5629,
+      13
+     ],
+     [
+      6009,
+      14
+     ],
+     [
+      6189,
+      15
+     ],
+     [
+      7089,
+      16
+     ],
+     [
+      7469,
+      17
+     ],
+     [
+      7689,
+      18
+     ],
+     [
+      7829,
+      19
+     ],
+     [
+      8589,
+      20
+     ],
+     [
+      8709,
+      21
+     ],
+     [
+      8969,
+      22
+     ],
+     [
+      9249,
+      23
+     ],
+     [
+      10009,
+      24
+     ],
+     [
+      10329,
+      25
+     ],
+     [
+      10509,
+      26
+     ],
+     [
+      10690,
+      27
+     ],
+     [
+      10930,
+      28
+     ],
+     [
+      11189,
+      29
+     ],
+     [
+      11890,
+      30
+     ],
+     [
+      12529,
+      31
+     ],
+     [
+      13189,
+      32
+     ],
+     [
+      13729,
+      33
+     ],
+     [
+      14649,
+      34
+     ],
+     [
+      15029,
+      35
+     ],
+     [
+      15469,
+      36
+     ],
+     [
+      15629,
+      37
+     ],
+     [
+      16509,
+      38
+     ],
+     [
+      16669,
+      39
+     ],
+     [
+      17549,
+      40
+     ],
+     [
+      17850,
+      41
+     ],
+     [
+      18190,
+      42
+     ],
+     [
+      18370,
+      43
+     ],
+     [
+      18489,
+      44
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 44614,
+    "d": 2075,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1569,
+      5
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 46990,
+    "d": 2614,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2069,
+      6
+     ]
+    ]
+   },
+   "p1h-kova": {
+    "s": 49905,
+    "d": 1728,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      387,
+      1
+     ],
+     [
+      735,
+      2
+     ],
+     [
+      1340,
+      3
+     ]
+    ]
+   },
+   "p1h-mavi": {
+    "s": 51934,
+    "d": 2326,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1249,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      1749,
+      7
+     ]
+    ]
+   },
+   "p1h-sari": {
+    "s": 54560,
+    "d": 2966,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      1749,
+      7
+     ],
+     [
+      2249,
+      8
+     ],
+     [
+      2410,
+      9
+     ]
+    ]
+   },
+   "p1h-yesil": {
+    "s": 57827,
+    "d": 2752,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      1649,
+      6
+     ],
+     [
+      1829,
+      7
+     ],
+     [
+      2229,
+      8
+     ]
+    ]
+   },
+   "p2": {
+    "s": 60880,
+    "d": 19883,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2390,
+      7
+     ],
+     [
+      2650,
+      8
+     ],
+     [
+      2869,
+      9
+     ],
+     [
+      3390,
+      10
+     ],
+     [
+      3650,
+      11
+     ],
+     [
+      4709,
+      12
+     ],
+     [
+      4930,
+      13
+     ],
+     [
+      5289,
+      14
+     ],
+     [
+      5410,
+      15
+     ],
+     [
+      5629,
+      16
+     ],
+     [
+      6029,
+      17
+     ],
+     [
+      6189,
+      18
+     ],
+     [
+      6289,
+      19
+     ],
+     [
+      6529,
+      20
+     ],
+     [
+      6609,
+      21
+     ],
+     [
+      6729,
+      22
+     ],
+     [
+      6969,
+      23
+     ],
+     [
+      7749,
+      24
+     ],
+     [
+      7989,
+      25
+     ],
+     [
+      8289,
+      26
+     ],
+     [
+      9209,
+      27
+     ],
+     [
+      9369,
+      28
+     ],
+     [
+      9669,
+      29
+     ],
+     [
+      9810,
+      30
+     ],
+     [
+      9989,
+      31
+     ],
+     [
+      10409,
+      32
+     ],
+     [
+      10930,
+      33
+     ],
+     [
+      11069,
+      34
+     ],
+     [
+      11449,
+      35
+     ],
+     [
+      11930,
+      36
+     ],
+     [
+      12350,
+      37
+     ],
+     [
+      13129,
+      38
+     ],
+     [
+      13549,
+      39
+     ],
+     [
+      13669,
+      40
+     ],
+     [
+      13770,
+      41
+     ],
+     [
+      14009,
+      42
+     ],
+     [
+      14310,
+      43
+     ],
+     [
+      14449,
+      44
+     ],
+     [
+      14649,
+      45
+     ],
+     [
+      14890,
+      46
+     ],
+     [
+      15369,
+      47
+     ],
+     [
+      15549,
+      48
+     ],
+     [
+      16069,
+      49
+     ],
+     [
+      16709,
+      50
+     ],
+     [
+      16809,
+      51
+     ],
+     [
+      17089,
+      52
+     ],
+     [
+      17850,
+      53
+     ],
+     [
+      18270,
+      54
+     ],
+     [
+      18409,
+      55
+     ],
+     [
+      18709,
+      56
+     ],
+     [
+      19110,
+      57
+     ],
+     [
+      19549,
+      58
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 81064,
+    "d": 1912,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1290,
+      5
+     ]
+    ]
+   },
+   "p2h-ogretmen": {
+    "s": 83276,
+    "d": 3120,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1550,
+      5
+     ],
+     [
+      1849,
+      6
+     ],
+     [
+      2229,
+      7
+     ],
+     [
+      2630,
+      8
+     ]
+    ]
+   },
+   "p2h-mavi": {
+    "s": 86697,
+    "d": 2082,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1349,
+      6
+     ],
+     [
+      1509,
+      7
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 89079,
+    "d": 2605,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      769,
+      5
+     ],
+     [
+      1209,
+      6
+     ],
+     [
+      1629,
+      7
+     ],
+     [
+      1829,
+      8
+     ],
+     [
+      2069,
+      9
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 91985,
+    "d": 2978,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2509,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 95263,
+    "d": 13428,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3289,
+      7
+     ],
+     [
+      3729,
+      8
+     ],
+     [
+      3869,
+      9
+     ],
+     [
+      4810,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      6029,
+      12
+     ],
+     [
+      6449,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      6729,
+      15
+     ],
+     [
+      7709,
+      16
+     ],
+     [
+      7829,
+      17
+     ],
+     [
+      8190,
+      18
+     ],
+     [
+      8390,
+      19
+     ],
+     [
+      8549,
+      20
+     ],
+     [
+      9289,
+      21
+     ],
+     [
+      9430,
+      22
+     ],
+     [
+      9770,
+      23
+     ],
+     [
+      10109,
+      24
+     ],
+     [
+      10270,
+      25
+     ],
+     [
+      11310,
+      26
+     ],
+     [
+      11509,
+      27
+     ],
+     [
+      11890,
+      28
+     ],
+     [
+      12029,
+      29
+     ],
+     [
+      12169,
+      30
+     ],
+     [
+      12489,
+      31
+     ],
+     [
+      12829,
+      32
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 108992,
+    "d": 1069,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      550,
+      2
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 110361,
+    "d": 2578,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      591,
+      1
+     ],
+     [
+      1218,
+      2
+     ],
+     [
+      1658,
+      3
+     ],
+     [
+      2098,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 113240,
+    "d": 3052,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2390,
+      7
+     ],
+     [
+      2549,
+      8
+     ]
+    ]
+   },
+   "p4": {
+    "s": 116592,
+    "d": 19889,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1209,
+      5
+     ],
+     [
+      1329,
+      6
+     ],
+     [
+      1829,
+      7
+     ],
+     [
+      2089,
+      8
+     ],
+     [
+      2370,
+      9
+     ],
+     [
+      2509,
+      10
+     ],
+     [
+      2650,
+      11
+     ],
+     [
+      2829,
+      12
+     ],
+     [
+      3729,
+      13
+     ],
+     [
+      4069,
+      14
+     ],
+     [
+      4229,
+      15
+     ],
+     [
+      4390,
+      16
+     ],
+     [
+      5249,
+      17
+     ],
+     [
+      5410,
+      18
+     ],
+     [
+      5569,
+      19
+     ],
+     [
+      5649,
+      20
+     ],
+     [
+      5769,
+      21
+     ],
+     [
+      6149,
+      22
+     ],
+     [
+      6249,
+      23
+     ],
+     [
+      6390,
+      24
+     ],
+     [
+      6850,
+      25
+     ],
+     [
+      7049,
+      26
+     ],
+     [
+      7309,
+      27
+     ],
+     [
+      7569,
+      28
+     ],
+     [
+      7689,
+      29
+     ],
+     [
+      7809,
+      30
+     ],
+     [
+      8549,
+      31
+     ],
+     [
+      8690,
+      32
+     ],
+     [
+      8930,
+      33
+     ],
+     [
+      9049,
+      34
+     ],
+     [
+      9469,
+      35
+     ],
+     [
+      9649,
+      36
+     ],
+     [
+      9789,
+      37
+     ],
+     [
+      10770,
+      38
+     ],
+     [
+      11449,
+      39
+     ],
+     [
+      11869,
+      40
+     ],
+     [
+      12089,
+      41
+     ],
+     [
+      12209,
+      42
+     ],
+     [
+      12890,
+      43
+     ],
+     [
+      13689,
+      44
+     ],
+     [
+      14270,
+      45
+     ],
+     [
+      14489,
+      46
+     ],
+     [
+      14629,
+      47
+     ],
+     [
+      15329,
+      48
+     ],
+     [
+      16030,
+      49
+     ],
+     [
+      16509,
+      50
+     ],
+     [
+      16729,
+      51
+     ],
+     [
+      16850,
+      52
+     ],
+     [
+      17709,
+      53
+     ],
+     [
+      17930,
+      54
+     ],
+     [
+      18370,
+      55
+     ],
+     [
+      19129,
+      56
+     ],
+     [
+      19389,
+      57
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 136782,
+    "d": 2053,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      299,
+      1
+     ],
+     [
+      559,
+      2
+     ],
+     [
+      819,
+      3
+     ],
+     [
+      1233,
+      4
+     ],
+     [
+      1493,
+      5
+     ],
+     [
+      1753,
+      6
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 139135,
+    "d": 1550,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      869,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 140986,
+    "d": 4185,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2349,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      2949,
+      9
+     ],
+     [
+      3609,
+      10
+     ]
+    ]
+   },
+   "p5": {
+    "s": 145472,
+    "d": 14944,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      1749,
+      6
+     ],
+     [
+      1969,
+      7
+     ],
+     [
+      2049,
+      8
+     ],
+     [
+      2509,
+      9
+     ],
+     [
+      2749,
+      10
+     ],
+     [
+      3670,
+      11
+     ],
+     [
+      4249,
+      12
+     ],
+     [
+      4489,
+      13
+     ],
+     [
+      4870,
+      14
+     ],
+     [
+      5129,
+      15
+     ],
+     [
+      6289,
+      16
+     ],
+     [
+      6509,
+      17
+     ],
+     [
+      6689,
+      18
+     ],
+     [
+      6890,
+      19
+     ],
+     [
+      7089,
+      20
+     ],
+     [
+      7609,
+      21
+     ],
+     [
+      8289,
+      22
+     ],
+     [
+      8489,
+      23
+     ],
+     [
+      9230,
+      24
+     ],
+     [
+      9609,
+      25
+     ],
+     [
+      9810,
+      26
+     ],
+     [
+      9949,
+      27
+     ],
+     [
+      10270,
+      28
+     ],
+     [
+      10369,
+      29
+     ],
+     [
+      10469,
+      30
+     ],
+     [
+      10789,
+      31
+     ],
+     [
+      11169,
+      32
+     ],
+     [
+      11350,
+      33
+     ],
+     [
+      12369,
+      34
+     ],
+     [
+      12729,
+      35
+     ],
+     [
+      13209,
+      36
+     ],
+     [
+      13529,
+      37
+     ],
+     [
+      13829,
+      38
+     ],
+     [
+      14249,
+      39
+     ],
+     [
+      14589,
+      40
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 160716,
+    "d": 2989,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2539,
+      6
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 164005,
+    "d": 2339,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1649,
+      5
+     ],
+     [
+      1930,
+      6
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 166645,
+    "d": 2263,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p5h-defter": {
+    "s": 169209,
+    "d": 1449,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      909,
+      3
+     ]
+    ]
+   },
+   "p5h-mavi": {
+    "s": 170958,
+    "d": 2284,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      159,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1019,
+      4
+     ],
+     [
+      1089,
+      5
+     ],
+     [
+      1209,
+      6
+     ],
+     [
+      1790,
+      7
+     ]
+    ]
+   }
+  }
+ }
+}

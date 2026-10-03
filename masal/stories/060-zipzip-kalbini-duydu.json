@@ -1,0 +1,2231 @@
+{
+ "id": "060-zipzip-kalbini-duydu",
+ "n": 60,
+ "title": "Zıpzıp Neden Hızlı Soluyor?",
+ "age": "60-72",
+ "area": "Hareket ve Sağlık",
+ "theme": "Hareket edince bedenim değişir",
+ "values": [
+  "D13 Sağlıklı Yaşam"
+ ],
+ "sdb": "SDB1.1 Kendini Tanıma",
+ "min": 5,
+ "blurb": "Tavşan Zıpzıp çayırda koşa koşa yorulur; kalbi güm güm çarpar, hah hah solur. Hasta olduğunu sanır. Arkadaşlarıyla dinlenip kendi deneyini yapınca bedeninin sırrını keşfeder.",
+ "codes": {
+  "maarif": [
+   "HSAB.8.a Hareket sırasında solunum, kalp atımı ve terleme değişimlerini fark eder",
+   "HSAB.8.c Gerektiğinde dinlenme ihtiyacını ifade eder",
+   "HSAB.9 Aktif ve sağlıklı yaşam için hareket edebilme",
+   "HSAB.1.a Farklı ortam ve koşullarda yer değiştirme hareketleri yapar",
+   "SDB1.1 Kendini Tanıma",
+   "SDB1.2 Kendini Düzenleme",
+   "D13 Sağlıklı Yaşam"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zipzip": "hayvan-kiz",
+  "tosbi": "hayvan-erkek",
+  "diken": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "zipzip": "Zıpzıp (tavşan)",
+  "tosbi": "Tosbi (kaplumbağa)",
+  "diken": "Diken (kirpi)"
+ },
+ "pages": [
+  {
+   "text": "Bahar akşamüstüydü. Tavşan Zıpzıp çayırda koşmaya başladı. “Hop, hop, hop! Yakalayın beni!” diye bağırdı. Çiçeklerin arasından, taşların üstünden zıpladı. Kirpi Diken ile kaplumbağa Tosbi arkada kaldılar. “Bekle bizi, Zıpzıp!” diye seslendiler.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 352,
+      "y": 46,
+      "hit": "gunes"
+     },
+     {
+      "k": "tosbi",
+      "x": 58,
+      "y": 222,
+      "s": 0.75,
+      "mood": "surprised",
+      "pose": "walk",
+      "hit": "tosbi"
+     },
+     {
+      "k": "kirpi",
+      "x": 132,
+      "y": 230,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "diken"
+     },
+     {
+      "k": "zipzip",
+      "x": 196,
+      "y": 228,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "run",
+      "hit": "zipzip"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 262,
+      "y": 234,
+      "s": 1.6,
+      "v": 2
+     },
+     {
+      "k": "tas",
+      "x": 318,
+      "y": 230,
+      "s": 1.5,
+      "v": 2
+     },
+     {
+      "k": "flower",
+      "x": 232,
+      "y": 236,
+      "s": 0.34
+     },
+     {
+      "k": "flower",
+      "x": 300,
+      "y": 238,
+      "s": 0.32
+     },
+     {
+      "k": "flower",
+      "x": 352,
+      "y": 238,
+      "s": 0.35
+     },
+     {
+      "k": "cali",
+      "x": 380,
+      "y": 196,
+      "s": 0.8,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Hop, hop! Yakalayın beni!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "diken": {
+     "say": "Bekle bizi, Zıpzıp!",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "step"
+    },
+    "tosbi": {
+     "say": "Adım, adım, geliyorum!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "zipzip",
+    "steps": 4,
+    "step": 36,
+    "say": "Hop!",
+    "done": "Zıpzıp çayırın öbür ucuna vardı!",
+    "msg": "Hop hop, vardı!"
+   },
+   "hint": [
+    "zipzip",
+    "Zıpzıp'a dokun, koşsun!"
+   ],
+   "ask": "Sen koşmayı sever misin? En çok nerede koşarsın?"
+  },
+  {
+   "text": "Birden Zıpzıp durdu. Kalbi güm güm güm çarpıyordu. Hızlı hızlı soluyordu: hah, hah, hah! Uzun kulakları sıcacık olmuştu. Zıpzıp korktu. “Kalbim çok hızlı! Yoksa hasta mı oldum?”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "tosbi",
+      "x": 44,
+      "y": 200,
+      "s": 0.5,
+      "mood": "calm",
+      "pose": "walk",
+      "hit": "tosbi"
+     },
+     {
+      "k": "kirpi",
+      "x": 88,
+      "y": 204,
+      "s": 0.6,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "diken"
+     },
+     {
+      "k": "zipzip",
+      "x": 210,
+      "y": 232,
+      "s": 1.05,
+      "mood": "scared",
+      "pose": "stand",
+      "hit": "zipzip"
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 254,
+      "y": 168,
+      "s": 0.9,
+      "hit": "kalp"
+     },
+     {
+      "k": "flower",
+      "x": 130,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 368,
+      "y": 236,
+      "s": 0.33
+     },
+     {
+      "k": "tas",
+      "x": 360,
+      "y": 212,
+      "s": 1.4,
+      "v": 2
+     }
+    ]
+   },
+   "hits": {
+    "kalp": {
+     "say": "Güm güm güm!",
+     "voice": "zipzip",
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "zipzip": {
+     "say": "Hah, hah… Kalbim çok hızlı!",
+     "voice": "zipzip",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "diken": {
+     "say": "Geldik, geldik!",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "step"
+    },
+    "tosbi": {
+     "say": "Az kaldı Zıpzıp!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "step"
+    }
+   },
+   "hint": [
+    "kalp",
+    "Kalbe dokun, dinle!"
+   ],
+   "ask": "Zıpzıp'ın bedeninde neler değişti? Sen koşunca bedeninde ne olur?"
+  },
+  {
+   "text": "Diken soluk soluğa yetişti. Tosbi de ağır ağır geldi: adım, adım, bir adım daha. Zıpzıp kulaklarını indirdi: “Çok yoruldum. Kalbim güm güm. Hasta mıyım?” Tosbi gülümsedi: “Önce bir dinlenelim, sonra birlikte bakarız.”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "zipzip",
+      "x": 110,
+      "y": 230,
+      "s": 0.98,
+      "mood": "scared",
+      "pose": "stand",
+      "hit": "zipzip"
+     },
+     {
+      "k": "tosbi",
+      "x": 222,
+      "y": 230,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "tosbi",
+      "flip": true
+     },
+     {
+      "k": "kirpi",
+      "x": 318,
+      "y": 228,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "diken",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 36,
+      "y": 236,
+      "s": 0.34
+     },
+     {
+      "k": "flower",
+      "x": 376,
+      "y": 236,
+      "s": 0.32
+     },
+     {
+      "k": "cali",
+      "x": 380,
+      "y": 200,
+      "s": 0.8,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Çok yoruldum. Hasta mıyım?",
+     "voice": "zipzip",
+     "anim": "wiggle",
+     "fx": "blow"
+    },
+    "tosbi": {
+     "say": "Önce bir dinlenelim.",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "diken": {
+     "say": "Hah, hah… Ben de yoruldum!",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "blow"
+    }
+   },
+   "predict": {
+    "q": "Sence Zıpzıp'ın kalbini ne yavaşlatır?",
+    "res": "İkisi de işe yarar! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Gölgede dinlenmek",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "tosbi",
+         "x": 110,
+         "y": 226,
+         "s": 0.8,
+         "mood": "calm",
+         "pose": "stand"
+        },
+        {
+         "k": "zipzip",
+         "x": 190,
+         "y": 230,
+         "s": 0.9,
+         "mood": "calm",
+         "pose": "stand"
+        },
+        {
+         "k": "kirpi",
+         "x": 270,
+         "y": 228,
+         "s": 0.95,
+         "mood": "happy",
+         "pose": "sit",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "tree",
+         "x": 190,
+         "y": 200,
+         "s": 2.4,
+         "season": "spring"
+        },
+        {
+         "k": "flower",
+         "x": 50,
+         "y": 234,
+         "s": 0.4
+        },
+        {
+         "k": "flower",
+         "x": 360,
+         "y": 234,
+         "s": 0.4
+        }
+       ]
+      }
+     },
+     {
+      "l": "Yavaş yavaş nefes almak",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "tosbi",
+         "x": 70,
+         "y": 226,
+         "s": 0.8,
+         "mood": "happy",
+         "pose": "stand"
+        },
+        {
+         "k": "zipzip",
+         "x": 170,
+         "y": 230,
+         "s": 0.95,
+         "mood": "calm",
+         "pose": "stand"
+        },
+        {
+         "k": "kirpi",
+         "x": 320,
+         "y": 228,
+         "s": 0.95,
+         "mood": "calm",
+         "pose": "sit",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "karahindiba",
+         "x": 226,
+         "y": 236,
+         "s": 1.1,
+         "state": "off"
+        },
+        {
+         "k": "karahindiba",
+         "x": 262,
+         "y": 238,
+         "s": 0.9
+        },
+        {
+         "k": "flower",
+         "x": 36,
+         "y": 236,
+         "s": 0.4
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "zipzip",
+    "Zıpzıp'a dokun!"
+   ],
+   "ask": "Zıpzıp yorulunca ne dedi? Sen yorulunca ne dersin?"
+  },
+  {
+   "text": "Ağacın serin gölgesine geçtiler. Tosbi çiçekleri gösterdi: “Her çiçekte bir nefes. Burnundan kokla, ağzından yavaşça üfle.” Bir… iki… üç… dört… beş… Zıpzıp'ın kalbi yavaşladı.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "zipzip",
+      "x": 150,
+      "y": 226,
+      "s": 0.9,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "zipzip"
+     },
+     {
+      "k": "tosbi",
+      "x": 48,
+      "y": 230,
+      "s": 0.68,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "tosbi"
+     },
+     {
+      "k": "kirpi",
+      "x": 206,
+      "y": 222,
+      "s": 0.85,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "diken",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 130,
+      "y": 204,
+      "s": 2.4,
+      "season": "spring"
+     },
+     {
+      "k": "karahindiba",
+      "x": 252,
+      "y": 238,
+      "s": 1.15,
+      "hit": "c1"
+     },
+     {
+      "k": "karahindiba",
+      "x": 284,
+      "y": 226,
+      "s": 1.15,
+      "hit": "c2"
+     },
+     {
+      "k": "karahindiba",
+      "x": 316,
+      "y": 238,
+      "s": 1.15,
+      "hit": "c3"
+     },
+     {
+      "k": "karahindiba",
+      "x": 348,
+      "y": 226,
+      "s": 1.15,
+      "hit": "c4"
+     },
+     {
+      "k": "karahindiba",
+      "x": 380,
+      "y": 238,
+      "s": 1.15,
+      "hit": "c5"
+     },
+     {
+      "k": "karahindiba",
+      "x": 106,
+      "y": 235,
+      "s": 0.9,
+      "state": "off",
+      "hit": "kh"
+     }
+    ]
+   },
+   "hits": {
+    "c": {
+     "say": "Hıımm… püüüf…",
+     "voice": "zipzip",
+     "anim": "wiggle",
+     "fx": "blow",
+     "fn": "toggle"
+    },
+    "zipzip": {
+     "say": "Kalbim yavaşlıyor.",
+     "voice": "zipzip",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "tosbi": {
+     "say": "Yavaş, yavaş. Acele yok.",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "diken": {
+     "say": "Ben de sayıyorum!",
+     "voice": "diken",
+     "anim": "boing",
+     "fx": "kirpi"
+    },
+    "kh": {
+     "say": "Püüüf… Tohumlar uçuyor!",
+     "voice": "zipzip",
+     "anim": "wiggle",
+     "fx": "blow",
+     "fn": "toggle"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "c1",
+     "c2",
+     "c3",
+     "c4",
+     "c5"
+    ],
+    "done": "Beş yavaş nefes! Kalbi pıt pıt atıyor.",
+    "msg": "Beş nefes!"
+   },
+   "hint": [
+    "c1",
+    "Her çiçekte yavaş bir nefes!"
+   ],
+   "ask": "Hadi sen de beş çiçek nefesi al. Sonra kalbini dinle: nasıl atıyor?"
+  },
+  {
+   "text": "Zıpzıp'ın aklına bir fikir geldi: “Bir deneyeyim!” Kütüğe kadar koştu: hop, hop, hop! Kalbi yine güm güm etti. Diken de koştu: “Benimki de güm güm!” Zıpzıp güldü: “Demek hasta değilim. Koşunca kalp hızlanıyor!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "tosbi",
+      "x": 150,
+      "y": 198,
+      "s": 0.6,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "tosbi"
+     },
+     {
+      "k": "kirpi",
+      "x": 226,
+      "y": 202,
+      "s": 0.72,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "diken"
+     },
+     {
+      "k": "zipzip",
+      "x": 70,
+      "y": 232,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "run",
+      "hit": "zipzip"
+     }
+    ],
+    "props": [
+     {
+      "k": "kutuk",
+      "x": 352,
+      "y": 232,
+      "s": 1.9
+     },
+     {
+      "k": "heart",
+      "x": 124,
+      "y": 150,
+      "s": 0.9,
+      "hit": "kalp"
+     },
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 200,
+      "s": 0.32
+     },
+     {
+      "k": "flower",
+      "x": 280,
+      "y": 236,
+      "s": 0.34
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Demek hasta değilim!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "kalp": {
+     "say": "Güm güm güm!",
+     "voice": "zipzip",
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "diken": {
+     "say": "Benimki de güm güm!",
+     "voice": "diken",
+     "anim": "jump",
+     "fx": "thump"
+    },
+    "tosbi": {
+     "say": "Ben de ağır ağır geliyorum!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "step"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "zipzip",
+    "steps": 4,
+    "step": 56,
+    "say": "Hop!",
+    "done": "Zıpzıp kütüğe vardı. Kalbi güm güm!",
+    "msg": "Hop hop, vardı!"
+   },
+   "hint": [
+    "zipzip",
+    "Zıpzıp'a dokun, koşsun!"
+   ],
+   "ask": "Sen de yerinde on kez zıpla. Sonra elini göğsüne koy. Ne hissettin?"
+  },
+  {
+   "text": "Güneş batarken üç arkadaş yan yana dinlendi. Zıpzıp patisini kalbinin üstüne koydu: pıt, pıt, pıt. Nefesi de yavaşlamıştı. “Anladım! Koşunca kalbim hızlanıyor, nefesim sıklaşıyor. Dinlenince ikisi de yavaşlıyor.” Kulaklarını dikti: “Yarın yine koşalım. Yorulunca da dinleniriz!”",
+   "scene": {
+    "set": "cayir",
+    "time": "sunset",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "tosbi",
+      "x": 100,
+      "y": 230,
+      "s": 0.82,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "tosbi"
+     },
+     {
+      "k": "zipzip",
+      "x": 204,
+      "y": 228,
+      "s": 0.98,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "zipzip"
+     },
+     {
+      "k": "kirpi",
+      "x": 296,
+      "y": 230,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "diken",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 204,
+      "y": 82,
+      "s": 0.9,
+      "hit": "kalp"
+     },
+     {
+      "k": "flower",
+      "x": 36,
+      "y": 236,
+      "s": 0.34
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 236,
+      "s": 0.34
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Yorulunca dinlenirim!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "kalp": {
+     "say": "Pıt, pıt, pıt.",
+     "voice": "zipzip",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tosbi": {
+     "say": "Yarın yine koşalım!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "diken": {
+     "say": "Ben de geliyorum!",
+     "voice": "diken",
+     "anim": "jump",
+     "fx": "kirpi"
+    }
+   },
+   "hint": [
+    "kalp",
+    "Kalbe dokun, dinle!"
+   ],
+   "ask": "Sen ne zaman dinlenmeye ihtiyaç duyarsın? Bunu kime söylersin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.8.a — Hareket sırasında solunum, kalp atımı ve terleme değişimlerini fark eder: Zıpzıp'ın güm güm çarpan kalbini, hah hah soluyuşunu ve ısınan kulaklarını; kendi bedeninde de hızlanan kalbi, sıklaşan nefesi ve terlemeyi fark eder.",
+   "HSAB.8.c — Gerektiğinde dinlenme ihtiyacını ifade eder: Zıpzıp gibi “Çok yoruldum, biraz dinlenmem lazım.” diyerek ihtiyacını söyler.",
+   "HSAB.9 — Aktif ve sağlıklı yaşam için hareket edebilme: Koşma ve zıplamayı keyifle yapar; hareket ile dinlenmenin birlikte sağlıklı olduğunu anlatır.",
+   "HSAB.1.a — Farklı ortam ve koşullarda yer değiştirme hareketleri yapar: koşar, zıplar, yavaş ve hızlı yürür.",
+   "SDB1.1 Kendini Tanıma — Bedenindeki işaretleri (hızlı kalp, sık nefes) tanır; korkmak yerine ne olduğunu anlamaya çalışır.",
+   "SDB1.2 Kendini Düzenleme — Yavaş nefes alarak ve dinlenerek bedenini sakinleştirir; “Beş yavaş nefes” yöntemini kendisi de kullanır.",
+   "D13 Sağlıklı Yaşam — Hareket etmenin ve yorulunca dinlenmenin bedeni için iyi olduğunu söyler."
+  ],
+  "once": [
+   "Kapaktaki Zıpzıp'ı göster: “Tavşanlar nasıl hareket eder? Sen en hızlı nasıl koşarsın?” diye sor.",
+   "Çocuklar ellerini göğüslerine koysun, sessizce kalplerini dinlesin: “Şimdi nasıl atıyor?”"
+  ],
+  "sirasi": [
+   "1. sayfada Zıpzıp'a dokunarak koşturun; çocuklar da yerinde küçük adımlarla koşabilir.",
+   "2. sayfada kalbe dokunun: “Zıpzıp neden korktu? Sence gerçekten hasta mı?” 3. sayfadaki tahmin sorusunda iki cevabı da kabul edin.",
+   "4. sayfada her çiçeğe dokunmadan önce birlikte bir tam nefes bekleyin: burundan kokla, ağızdan yavaşça üfle. Acele etmeden beşe kadar sayın.",
+   "5. sayfada Zıpzıp'ın deneyini siz de yapın: yerinde on kez zıplayın, sonra elinizi göğsünüze koyun."
+  ],
+  "sonra": [
+   "Zıpzıp koşunca bedeninde neler değişti?",
+   "Zıpzıp neden hasta olduğunu sandı? Sonra ne öğrendi?",
+   "Dinlenince Zıpzıp'ın kalbine ne oldu?",
+   "Sen yorulduğunu nereden anlarsın? Bunu kime, nasıl söylersin?"
+  ],
+  "sinif": {
+   "ad": "Kalp Dedektifleri",
+   "sure": "20 dk",
+   "materyal": "Kâğıttan kalp kartları (büyük: hızlı, küçük: yavaş), müzik, beş çiçek resmi",
+   "adim": [
+    "Çocuklar sessizce oturup elleri göğüslerinde kalplerini dinlesin; öğretmen “pıt, pıt” ritmini tahtaya vursun.",
+    "Müzik açılınca bir dakika yerinde koşsunlar, zıplasınlar. Yerinde koşamayan çocuklar kollarını hızlı hızlı sallayarak katılabilir. Müzik durunca ellerini göğüslerine koyup büyük ya da küçük kalp kartını kaldırsınlar; nefeslerini ve terlemeyi konuşun.",
+    "Beş çiçek resmine bakarak beş yavaş nefes alın; yeniden kalbi dinleyip “Dinlenince ne oldu?” diye sorun. Her çocuk “Yoruldum, dinlenmem lazım.” cümlesini kendi sözleriyle söylesin."
+   ]
+  },
+  "evSoru": [
+   "Zıpzıp neden korktu?",
+   "Zıpzıp nasıl bir deney yaptı?",
+   "Sen koşunca kalbin nasıl atıyor? Dinlenince ne oluyor?"
+  ],
+  "evEtk": {
+   "ad": "Evde Kalp Dinleme",
+   "d": "Önce oturup birlikte elinizi göğsünüze koyun ve kalbinizi dinleyin. Sonra koridorda ya da bahçede bir süre koşun, zıplayın ve yeniden dinleyin. En sonda beş yavaş nefes alıp bir kez daha dinleyin. Farkı “pıt pıt” ya da “güm güm” diye birlikte anlatın."
+  },
+  "aileNotu": "Bugün “Zıpzıp Neden Hızlı Soluyor?” masalını okuduk. Tavşan Zıpzıp çok koşunca kalbinin hızlandığını, nefesinin sıklaştığını fark ediyor ve önce hasta olduğunu sanıyor. Dinlenip yavaş nefes alınca ve kendi deneyini yapınca bunun hareketin doğal bir sonucu olduğunu öğreniyor. Evde oyun sırasında çocuğunuza “Kalbin nasıl atıyor?” diye sorabilir, yorulduğunu söylediğinde dinlenmesini destekleyebilirsiniz. Çocuğunuz koşmadan da kalbinin çok hızlı çarptığını, başının döndüğünü ya da nefes almakta zorlandığını söylerse bunu ciddiye alın ve bir sağlık uzmanına danışın."
+ },
+ "audio": {
+  "file": "audio/060-zipzip-kalbini-duydu.mp3",
+  "hash": "1be060be",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17263,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1809,
+      2
+     ],
+     [
+      2289,
+      3
+     ],
+     [
+      2829,
+      4
+     ],
+     [
+      3269,
+      5
+     ],
+     [
+      3749,
+      6
+     ],
+     [
+      4689,
+      7
+     ],
+     [
+      4910,
+      8
+     ],
+     [
+      5169,
+      9
+     ],
+     [
+      5529,
+      10
+     ],
+     [
+      6089,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      6989,
+      13
+     ],
+     [
+      7930,
+      14
+     ],
+     [
+      8529,
+      15
+     ],
+     [
+      9230,
+      16
+     ],
+     [
+      9770,
+      17
+     ],
+     [
+      10289,
+      18
+     ],
+     [
+      11230,
+      19
+     ],
+     [
+      11549,
+      20
+     ],
+     [
+      11890,
+      21
+     ],
+     [
+      12230,
+      22
+     ],
+     [
+      12829,
+      23
+     ],
+     [
+      13350,
+      24
+     ],
+     [
+      13729,
+      25
+     ],
+     [
+      14709,
+      26
+     ],
+     [
+      15089,
+      27
+     ],
+     [
+      15390,
+      28
+     ],
+     [
+      16209,
+      29
+     ],
+     [
+      16469,
+      30
+     ]
+    ]
+   },
+   "p0h-zipzip": {
+    "s": 17563,
+    "d": 1850,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      362,
+      1
+     ],
+     [
+      805,
+      2
+     ],
+     [
+      1457,
+      3
+     ]
+    ]
+   },
+   "p0h-diken": {
+    "s": 19713,
+    "d": 1269,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      395,
+      1
+     ],
+     [
+      873,
+      2
+     ]
+    ]
+   },
+   "p0h-tosbi": {
+    "s": 21283,
+    "d": 2077,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1349,
+      2
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 23660,
+    "d": 2236,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1709,
+      4
+     ]
+    ]
+   },
+   "p0ms": {
+    "s": 26197,
+    "d": 450,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p1": {
+    "s": 26947,
+    "d": 15149,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2769,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      4709,
+      8
+     ],
+     [
+      5029,
+      9
+     ],
+     [
+      5330,
+      10
+     ],
+     [
+      6087,
+      11
+     ],
+     [
+      6868,
+      12
+     ],
+     [
+      7684,
+      13
+     ],
+     [
+      8569,
+      14
+     ],
+     [
+      8869,
+      15
+     ],
+     [
+      9509,
+      16
+     ],
+     [
+      9989,
+      17
+     ],
+     [
+      10969,
+      18
+     ],
+     [
+      11390,
+      19
+     ],
+     [
+      12310,
+      20
+     ],
+     [
+      12770,
+      21
+     ],
+     [
+      12989,
+      22
+     ],
+     [
+      13850,
+      23
+     ],
+     [
+      14189,
+      24
+     ],
+     [
+      14529,
+      25
+     ],
+     [
+      14689,
+      26
+     ]
+    ]
+   },
+   "p1h-kalp": {
+    "s": 42396,
+    "d": 1581,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      540,
+      1
+     ],
+     [
+      1040,
+      2
+     ]
+    ]
+   },
+   "p1h-zipzip": {
+    "s": 44277,
+    "d": 2776,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      559,
+      1
+     ],
+     [
+      1273,
+      2
+     ],
+     [
+      1841,
+      3
+     ],
+     [
+      2167,
+      4
+     ]
+    ]
+   },
+   "p1h-diken": {
+    "s": 47354,
+    "d": 1667,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      948,
+      1
+     ]
+    ]
+   },
+   "p1h-tosbi": {
+    "s": 49321,
+    "d": 1116,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      271,
+      1
+     ],
+     [
+      673,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 50738,
+    "d": 17129,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      2189,
+      4
+     ],
+     [
+      2589,
+      5
+     ],
+     [
+      2910,
+      6
+     ],
+     [
+      3249,
+      7
+     ],
+     [
+      3509,
+      8
+     ],
+     [
+      4390,
+      9
+     ],
+     [
+      5189,
+      10
+     ],
+     [
+      6069,
+      11
+     ],
+     [
+      6269,
+      12
+     ],
+     [
+      6549,
+      13
+     ],
+     [
+      7349,
+      14
+     ],
+     [
+      7829,
+      15
+     ],
+     [
+      8469,
+      16
+     ],
+     [
+      9369,
+      17
+     ],
+     [
+      9649,
+      18
+     ],
+     [
+      10629,
+      19
+     ],
+     [
+      11129,
+      20
+     ],
+     [
+      11449,
+      21
+     ],
+     [
+      12129,
+      22
+     ],
+     [
+      12509,
+      23
+     ],
+     [
+      13189,
+      24
+     ],
+     [
+      13629,
+      25
+     ],
+     [
+      14609,
+      26
+     ],
+     [
+      14909,
+      27
+     ],
+     [
+      15029,
+      28
+     ],
+     [
+      15909,
+      29
+     ],
+     [
+      16209,
+      30
+     ],
+     [
+      16610,
+      31
+     ]
+    ]
+   },
+   "p2h-zipzip": {
+    "s": 68168,
+    "d": 2214,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1849,
+      3
+     ]
+    ]
+   },
+   "p2h-tosbi": {
+    "s": 70682,
+    "d": 1168,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ]
+    ]
+   },
+   "p2h-diken": {
+    "s": 72151,
+    "d": 2600,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      779,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      1869,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 75051,
+    "d": 2868,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      1930,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 78220,
+    "d": 2177,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1689,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 80697,
+    "d": 16659,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      2509,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      4509,
+      7
+     ],
+     [
+      4749,
+      8
+     ],
+     [
+      5330,
+      9
+     ],
+     [
+      5549,
+      10
+     ],
+     [
+      6430,
+      11
+     ],
+     [
+      7029,
+      12
+     ],
+     [
+      7910,
+      13
+     ],
+     [
+      8589,
+      14
+     ],
+     [
+      9230,
+      15
+     ],
+     [
+      10089,
+      16
+     ],
+     [
+      11089,
+      17
+     ],
+     [
+      12169,
+      18
+     ],
+     [
+      13049,
+      19
+     ],
+     [
+      14009,
+      20
+     ],
+     [
+      14949,
+      21
+     ],
+     [
+      15509,
+      22
+     ],
+     [
+      15909,
+      23
+     ]
+    ]
+   },
+   "p3h-c": {
+    "s": 97657,
+    "d": 1773,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      956,
+      1
+     ]
+    ]
+   },
+   "p3h-zipzip": {
+    "s": 99731,
+    "d": 1475,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      529,
+      1
+     ]
+    ]
+   },
+   "p3h-tosbi": {
+    "s": 101506,
+    "d": 2519,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      691,
+      1
+     ],
+     [
+      1507,
+      2
+     ],
+     [
+      2199,
+      3
+     ]
+    ]
+   },
+   "p3h-diken": {
+    "s": 104325,
+    "d": 1079,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      231,
+      1
+     ],
+     [
+      422,
+      2
+     ]
+    ]
+   },
+   "p3h-kh": {
+    "s": 105705,
+    "d": 2502,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1069,
+      1
+     ],
+     [
+      1765,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 108507,
+    "d": 3345,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      2569,
+      5
+     ],
+     [
+      2769,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 112152,
+    "d": 15533,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2509,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      4149,
+      9
+     ],
+     [
+      4930,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5709,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      6829,
+      14
+     ],
+     [
+      7189,
+      15
+     ],
+     [
+      7449,
+      16
+     ],
+     [
+      7669,
+      17
+     ],
+     [
+      8409,
+      18
+     ],
+     [
+      8770,
+      19
+     ],
+     [
+      8909,
+      20
+     ],
+     [
+      9709,
+      21
+     ],
+     [
+      10129,
+      22
+     ],
+     [
+      10289,
+      23
+     ],
+     [
+      10549,
+      24
+     ],
+     [
+      11249,
+      25
+     ],
+     [
+      11749,
+      26
+     ],
+     [
+      12549,
+      27
+     ],
+     [
+      12930,
+      28
+     ],
+     [
+      13310,
+      29
+     ],
+     [
+      14009,
+      30
+     ],
+     [
+      14549,
+      31
+     ],
+     [
+      14829,
+      32
+     ]
+    ]
+   },
+   "p4h-zipzip": {
+    "s": 127986,
+    "d": 1395,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      829,
+      2
+     ]
+    ]
+   },
+   "p4h-kalp": {
+    "s": 129681,
+    "d": 1511,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      517,
+      1
+     ],
+     [
+      994,
+      2
+     ]
+    ]
+   },
+   "p4h-diken": {
+    "s": 131492,
+    "d": 1782,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1229,
+      3
+     ]
+    ]
+   },
+   "p4h-tosbi": {
+    "s": 133575,
+    "d": 1820,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1170,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 135696,
+    "d": 3097,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      2809,
+      5
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 139093,
+    "d": 499,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5": {
+    "s": 139892,
+    "d": 20409,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2390,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      3969,
+      8
+     ],
+     [
+      4569,
+      9
+     ],
+     [
+      5109,
+      10
+     ],
+     [
+      5509,
+      11
+     ],
+     [
+      6309,
+      12
+     ],
+     [
+      6870,
+      13
+     ],
+     [
+      7449,
+      14
+     ],
+     [
+      8310,
+      15
+     ],
+     [
+      8709,
+      16
+     ],
+     [
+      8850,
+      17
+     ],
+     [
+      10069,
+      18
+     ],
+     [
+      10949,
+      19
+     ],
+     [
+      11469,
+      20
+     ],
+     [
+      11869,
+      21
+     ],
+     [
+      12689,
+      22
+     ],
+     [
+      13149,
+      23
+     ],
+     [
+      14169,
+      24
+     ],
+     [
+      14969,
+      25
+     ],
+     [
+      15310,
+      26
+     ],
+     [
+      15430,
+      27
+     ],
+     [
+      16450,
+      28
+     ],
+     [
+      17110,
+      29
+     ],
+     [
+      17809,
+      30
+     ],
+     [
+      18110,
+      31
+     ],
+     [
+      18350,
+      32
+     ],
+     [
+      19049,
+      33
+     ],
+     [
+      19569,
+      34
+     ],
+     [
+      19690,
+      35
+     ]
+    ]
+   },
+   "p5h-zipzip": {
+    "s": 160601,
+    "d": 1680,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      829,
+      1
+     ]
+    ]
+   },
+   "p5h-kalp": {
+    "s": 162581,
+    "d": 1346,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      521,
+      1
+     ],
+     [
+      1003,
+      2
+     ]
+    ]
+   },
+   "p5h-tosbi": {
+    "s": 164228,
+    "d": 1152,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      569,
+      2
+     ]
+    ]
+   },
+   "p5h-diken": {
+    "s": 165681,
+    "d": 1019,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      349,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1988 @@
+{
+ "id": "036-kumbaramdaki-kus",
+ "lang": "en",
+ "title": "The Bird in My Money Box",
+ "theme": "Saving and waiting (Thrift, Savings and Home-Grown Goods Week)",
+ "blurb": "Ali wants to buy a feeder for the hungry sparrows in the snow, but there are only three coins in his money box. Every evening he drops in one coin, takes a deep breath even in front of the red balloon, and a week later the bird in his money box flies out into the garden.",
+ "voiceNames": {
+  "ali": "Ali",
+  "anne": "Mum",
+  "kus": "The sparrows"
+ },
+ "pages": [
+  {
+   "text": "It was snowing. Three sparrows landed outside the window. Cheep cheep, cheep cheep! They puffed up their feathers. Ali ran to the window. “Mum, are the sparrows hungry?” Mum nodded. “It's hard to find food in the snow.” Ali had an idea. “Let's buy them a bird feeder!”",
+   "hits": {
+    "kus": {
+     "say": "Cheep cheep! Cheep cheep!"
+    },
+    "ali": {
+     "say": "Let's buy them a bird feeder!"
+    },
+    "anne": {
+     "say": "It's hard to find food in the snow."
+    }
+   },
+   "hint": "Touch the sparrows!",
+   "ask": "When everything is covered in snow in winter, what do you think birds do to find food?"
+  },
+  {
+   "text": "Ali shook his money box. Clink, clink, clink! He tipped the coins onto the rug. But the feeder cost ten coins. Ali's face fell, and his throat went all tight. “I want it now!” Mum sat down beside him. “Waiting is hard, I know. Shall we put in one coin every evening?”",
+   "mech": {
+    "done": "Three coins. Seven more to go!",
+    "msg": "Three coins!"
+   },
+   "hits": {
+    "ali": {
+     "say": "I want it now, right now!"
+    },
+    "anne": {
+     "say": "Waiting is hard, I know."
+    },
+    "kumbara": {
+     "say": "Clink, clink, clink!"
+    }
+   },
+   "hint": "Count the coins!",
+   "ask": "When you want something right away but have to wait, how do you feel? Where in your body do you feel it?"
+  },
+  {
+   "text": "The next day, Mum gave Ali a coin. Outside the corner shop, a red balloon was bobbing about. Ali's eyes lit up. The coin in his hand seemed to tickle. The balloon, or the feeder? Ali took a deep breath. One, two, three…",
+   "hits": {
+    "ali": {
+     "say": "The balloon, or the feeder? Hmm…"
+    },
+    "anne": {
+     "say": "No rush. Take a breath first."
+    }
+   },
+   "predict": {
+    "q": "What do you think Ali will do with his coin?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "He buys the balloon"
+     },
+     {
+      "l": "He puts it in his money box"
+     }
+    ]
+   },
+   "hint": "Touch Ali!",
+   "ask": "If you were Ali, what would you do with the coin? Why?"
+  },
+  {
+   "text": "Ali thought of the sparrows. “A balloon is for one day, a feeder for every day!” He took Mum's hand and ran home. Monday, clink! The coin dropped into the box. Ali whispered to the box: “There's a bird growing inside you.” Tuesday, clink! Wednesday, clink… One coin every evening!",
+   "mech": {
+    "done": "Seven evenings, seven coins. Jingle jangle!",
+    "msg": "The money box is filling up!"
+   },
+   "hits": {
+    "ali": {
+     "say": "There's a bird growing inside!"
+    },
+    "kumbara": {
+     "say": "Clink!"
+    },
+    "anne": {
+     "say": "One more evening, one more coin!"
+    }
+   },
+   "hint": "Drop the coins into the money box!",
+   "ask": "Why did Ali tell his money box “There's a bird growing inside you”?"
+  },
+  {
+   "text": "The money box grew heavy, jingle jangle, full. Ali and Mum went to the market. They found a wooden bird feeder. Ali laid the coins on the counter one by one. One, two, three… Exactly ten coins! Mum winked: “Those sparrows are very lucky!”",
+   "mech": {
+    "done": "Exactly ten coins! The feeder is Ali's now!",
+    "msg": "Ten coins!"
+   },
+   "hits": {
+    "ali": {
+     "say": "One, two, three… Exactly ten!"
+    },
+    "anne": {
+     "say": "Those sparrows are very lucky!"
+    }
+   },
+   "hint": "Count the coins!",
+   "ask": "If you saved up money in your money box, what would you buy? Who for?"
+  },
+  {
+   "text": "Mum put the feeder on the garden log. Ali filled it with seed. They watched from far away. Flutter flutter! The sparrows came: one, two, three, four, five! “The bird in my money box flew out and landed here!” The box was empty, but Ali's heart fluttered with joy.",
+   "hits": {
+    "kus": {
+     "say": "Cheep cheep! Dinner time for us!"
+    },
+    "ali": {
+     "say": "The bird in my money box flew out and landed here!"
+    },
+    "anne": {
+     "say": "Let's watch from far away, so we don't scare them."
+    }
+   },
+   "hint": "Touch the sparrows!",
+   "ask": "Who would you like to make happy by saving up? How?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "OB3 Financial Literacy: notices that saving money for a goal takes time; chooses between a want (the balloon) and a goal (the feeder); explains that what is saved in the money box can be used to buy things.",
+   "SAB.7 The concept of money and its importance in daily life (unverified; matched at topic level; official wording not confirmed): explains that money is used for shopping and that a money box is for saving money, using the corner shop, market and money box examples in the story. (No real prices are given; identical coins are counted.)",
+   "MAB.1 Counting rhythmically and by sight: counts rhythmically from 1 to 10 (“One, two, three… ten!”); says 3 coins at a glance; finds how many coins are tipped out of the money box and laid on the counter by counting.",
+   "SDB1.2 Self-Regulation: notices and names the feeling of wanting something right away (“his throat went all tight”), delays the wish by taking a deep breath and counting, and waits for the goal.",
+   "D17 Thrift and D12 Patience: saves every evening instead of spending the money straight away; reaches the goal after a week of waiting."
+  ],
+  "once": [
+   "Shake a money box: “What's that sound? What might be inside? What is a money box for?”",
+   "Read the title on the cover: “The Bird in My Money Box… Can there be a bird inside a money box? What do you think it means?” Note the guesses and look at them again at the end of the story.",
+   "Briefly mention Thrift, Savings and Home-Grown Goods Week: “This week we're talking about saving, and about using our things and our money with care.”"
+  ],
+  "sirasi": [
+   "On page 2, count the coins aloud together. Ask “Ali's throat went all tight. Have you ever felt like that?”; stress Mum's line, “Waiting is hard, I know.”",
+   "On page 3, take a deep breath with Ali, then count to three. Accept both answers to the prediction question: wanting the balloon is a natural wish too.",
+   "On page 4, say the days together as each coin drops into the box: “Monday, clink, Tuesday, clink…” Seven evenings (Monday to Sunday), seven coins.",
+   "On page 5, count the coins on the counter one by one; show how to touch each one with a finger. “There were 3 coins, he saved 7 more; how many now?”"
+  ],
+  "sonra": [
+   "Why did Ali want to buy a feeder? Why couldn't he buy it straight away?",
+   "How did Ali feel when he saw the balloon? What did he do before deciding?",
+   "What does “The bird in my money box flew out and landed here!” mean? Were our guesses about the title right?",
+   "Why did they watch the sparrows from far away?",
+   "Let's put the story in order with pictures: the three coins tipped out, the coins dropping into the box, the sparrows in the garden."
+  ],
+  "sinif": {
+   "ad": "Our Class Bird Money Box",
+   "sure": "20 min (2 min every day for a week)",
+   "materyal": "A clear jar or money box, 10 identical play coins or buttons, a goal strip with 10 boxes drawn on it, a picture of the goal (a bird feeder, or a shared goal chosen by the class)",
+   "adim": [
+    "Sit in a circle. Choose a shared goal as a class (a feeder for the birds, a new book for the classroom). Stick the picture of the goal at the end of the strip; don't talk about real prices, just say “10 coins”.",
+    "Every day, a “helper of the day” drops one coin into the money box; count rhythmically all together and colour in one box on the strip. Ask “How many boxes are left?”",
+    "In waiting moments, try Ali's way: take a deep breath, count to three, look at the picture of the goal. Let the children suggest other things they could do while waiting.",
+    "When the strip is full, lay the coins on the table, count them together and celebrate reaching the goal. If you made a feeder, an adult hangs it in the school garden; watch the birds from the window, from far away."
+   ]
+  },
+  "evSoru": [
+   "How many coins did Ali find in his money box? How many coins did the feeder cost?",
+   "What did Ali do when he saw the balloon? What would you have done?",
+   "What do you do when waiting feels hard?"
+  ],
+  "evEtk": {
+   "ad": "Goal Money Box",
+   "d": "Choose a small goal with your child, draw a picture of it and stick it on the money box. Draw 10 boxes on a piece of paper; every evening drop one identical coin into the money box, colour in one box and count together. When waiting gets hard, take a deep breath and count to three like Ali. If you make a feeding dish for the birds, let an adult place it outside the window; give the birds bird seed, not bread, and watch them from far away."
+  },
+  "aileNotu": "Today we read “The Bird in My Money Box”. As part of Thrift, Savings and Home-Grown Goods Week we watched Ali save money for the sparrows for a whole week; we counted the coins from 1 to 10 and talked about ways of waiting instead of wanting things right away (deep breaths, counting, remembering the goal). At home you can try saving together for a small goal. When your child says “I want it now!”, naming the feeling (“Waiting is hard, I know.”) and breathing together makes waiting easier."
+ },
+ "audio": {
+  "file": "audio/en/036-kumbaramdaki-kus.mp3",
+  "hash": "0087353e",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17580,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3849,
+      9
+     ],
+     [
+      4069,
+      10
+     ],
+     [
+      4549,
+      11
+     ],
+     [
+      4789,
+      12
+     ],
+     [
+      5469,
+      13
+     ],
+     [
+      5709,
+      14
+     ],
+     [
+      6029,
+      15
+     ],
+     [
+      6149,
+      16
+     ],
+     [
+      6350,
+      17
+     ],
+     [
+      7309,
+      18
+     ],
+     [
+      7669,
+      19
+     ],
+     [
+      7930,
+      20
+     ],
+     [
+      8049,
+      21
+     ],
+     [
+      8150,
+      22
+     ],
+     [
+      8909,
+      23
+     ],
+     [
+      9489,
+      24
+     ],
+     [
+      9629,
+      25
+     ],
+     [
+      9770,
+      26
+     ],
+     [
+      10230,
+      27
+     ],
+     [
+      11109,
+      28
+     ],
+     [
+      11409,
+      29
+     ],
+     [
+      12189,
+      30
+     ],
+     [
+      12409,
+      31
+     ],
+     [
+      12649,
+      32
+     ],
+     [
+      12770,
+      33
+     ],
+     [
+      13089,
+      34
+     ],
+     [
+      13350,
+      35
+     ],
+     [
+      13449,
+      36
+     ],
+     [
+      13589,
+      37
+     ],
+     [
+      14509,
+      38
+     ],
+     [
+      14869,
+      39
+     ],
+     [
+      15029,
+      40
+     ],
+     [
+      15189,
+      41
+     ],
+     [
+      15989,
+      42
+     ],
+     [
+      16289,
+      43
+     ],
+     [
+      16469,
+      44
+     ],
+     [
+      16649,
+      45
+     ],
+     [
+      16749,
+      46
+     ],
+     [
+      17069,
+      47
+     ]
+    ]
+   },
+   "p0h-kus": {
+    "s": 17880,
+    "d": 1827,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      376,
+      1
+     ],
+     [
+      1113,
+      2
+     ],
+     [
+      1450,
+      3
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 20008,
+    "d": 1571,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      749,
+      4
+     ],
+     [
+      1050,
+      5
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 21879,
+    "d": 2109,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1249,
+      5
+     ],
+     [
+      1349,
+      6
+     ],
+     [
+      1509,
+      7
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24289,
+    "d": 19020,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      2029,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      3369,
+      9
+     ],
+     [
+      3609,
+      10
+     ],
+     [
+      3749,
+      11
+     ],
+     [
+      4209,
+      12
+     ],
+     [
+      4449,
+      13
+     ],
+     [
+      4589,
+      14
+     ],
+     [
+      5330,
+      15
+     ],
+     [
+      5489,
+      16
+     ],
+     [
+      5649,
+      17
+     ],
+     [
+      6089,
+      18
+     ],
+     [
+      6489,
+      19
+     ],
+     [
+      6870,
+      20
+     ],
+     [
+      8029,
+      21
+     ],
+     [
+      8430,
+      22
+     ],
+     [
+      8829,
+      23
+     ],
+     [
+      9449,
+      24
+     ],
+     [
+      9569,
+      25
+     ],
+     [
+      9749,
+      26
+     ],
+     [
+      10049,
+      27
+     ],
+     [
+      10230,
+      28
+     ],
+     [
+      10449,
+      29
+     ],
+     [
+      11329,
+      30
+     ],
+     [
+      11489,
+      31
+     ],
+     [
+      11709,
+      32
+     ],
+     [
+      11930,
+      33
+     ],
+     [
+      13009,
+      34
+     ],
+     [
+      13310,
+      35
+     ],
+     [
+      13569,
+      36
+     ],
+     [
+      13810,
+      37
+     ],
+     [
+      14189,
+      38
+     ],
+     [
+      14869,
+      39
+     ],
+     [
+      15229,
+      40
+     ],
+     [
+      15390,
+      41
+     ],
+     [
+      16069,
+      42
+     ],
+     [
+      16149,
+      43
+     ],
+     [
+      17030,
+      44
+     ],
+     [
+      17209,
+      45
+     ],
+     [
+      17350,
+      46
+     ],
+     [
+      17530,
+      47
+     ],
+     [
+      17770,
+      48
+     ],
+     [
+      17969,
+      49
+     ],
+     [
+      18329,
+      50
+     ],
+     [
+      18589,
+      51
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 43609,
+    "d": 2204,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1709,
+      5
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 46114,
+    "d": 2246,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      1809,
+      4
+     ]
+    ]
+   },
+   "p1h-kumbara": {
+    "s": 48661,
+    "d": 1482,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      829,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 50444,
+    "d": 2415,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 53160,
+    "d": 17135,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1489,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      1889,
+      7
+     ],
+     [
+      2849,
+      8
+     ],
+     [
+      3249,
+      9
+     ],
+     [
+      3369,
+      10
+     ],
+     [
+      3729,
+      11
+     ],
+     [
+      4249,
+      12
+     ],
+     [
+      4390,
+      13
+     ],
+     [
+      4589,
+      14
+     ],
+     [
+      5049,
+      15
+     ],
+     [
+      5249,
+      16
+     ],
+     [
+      5589,
+      17
+     ],
+     [
+      6449,
+      18
+     ],
+     [
+      6910,
+      19
+     ],
+     [
+      7289,
+      20
+     ],
+     [
+      7549,
+      21
+     ],
+     [
+      8169,
+      22
+     ],
+     [
+      8310,
+      23
+     ],
+     [
+      8609,
+      24
+     ],
+     [
+      8709,
+      25
+     ],
+     [
+      8850,
+      26
+     ],
+     [
+      9169,
+      27
+     ],
+     [
+      9409,
+      28
+     ],
+     [
+      9529,
+      29
+     ],
+     [
+      10390,
+      30
+     ],
+     [
+      10529,
+      31
+     ],
+     [
+      11350,
+      32
+     ],
+     [
+      11529,
+      33
+     ],
+     [
+      11709,
+      34
+     ],
+     [
+      12649,
+      35
+     ],
+     [
+      12949,
+      36
+     ],
+     [
+      13149,
+      37
+     ],
+     [
+      13329,
+      38
+     ],
+     [
+      13609,
+      39
+     ],
+     [
+      14609,
+      40
+     ],
+     [
+      15469,
+      41
+     ],
+     [
+      16469,
+      42
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 70595,
+    "d": 3219,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2264,
+      5
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 74114,
+    "d": 2255,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1689,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 76669,
+    "d": 2421,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1050,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      1469,
+      7
+     ],
+     [
+      1629,
+      8
+     ],
+     [
+      1829,
+      9
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 79391,
+    "d": 959,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      479,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 80650,
+    "d": 21420,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      1969,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      2589,
+      8
+     ],
+     [
+      2910,
+      9
+     ],
+     [
+      3129,
+      10
+     ],
+     [
+      3769,
+      11
+     ],
+     [
+      3930,
+      12
+     ],
+     [
+      4370,
+      13
+     ],
+     [
+      4689,
+      14
+     ],
+     [
+      5069,
+      15
+     ],
+     [
+      5830,
+      16
+     ],
+     [
+      5989,
+      17
+     ],
+     [
+      6209,
+      18
+     ],
+     [
+      6489,
+      19
+     ],
+     [
+      6890,
+      20
+     ],
+     [
+      7129,
+      21
+     ],
+     [
+      7430,
+      22
+     ],
+     [
+      8369,
+      23
+     ],
+     [
+      9129,
+      24
+     ],
+     [
+      9869,
+      25
+     ],
+     [
+      10029,
+      26
+     ],
+     [
+      10409,
+      27
+     ],
+     [
+      10810,
+      28
+     ],
+     [
+      11009,
+      29
+     ],
+     [
+      11109,
+      30
+     ],
+     [
+      11969,
+      31
+     ],
+     [
+      12289,
+      32
+     ],
+     [
+      12709,
+      33
+     ],
+     [
+      12829,
+      34
+     ],
+     [
+      12930,
+      35
+     ],
+     [
+      13669,
+      36
+     ],
+     [
+      13949,
+      37
+     ],
+     [
+      14109,
+      38
+     ],
+     [
+      14529,
+      39
+     ],
+     [
+      14890,
+      40
+     ],
+     [
+      15390,
+      41
+     ],
+     [
+      16110,
+      42
+     ],
+     [
+      16950,
+      43
+     ],
+     [
+      17809,
+      44
+     ],
+     [
+      18709,
+      45
+     ],
+     [
+      19669,
+      46
+     ],
+     [
+      19889,
+      47
+     ],
+     [
+      20430,
+      48
+     ],
+     [
+      20829,
+      49
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 102370,
+    "d": 2027,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1189,
+      4
+     ]
+    ]
+   },
+   "p3h-kumbara": {
+    "s": 104698,
+    "d": 501,
+    "w": [
+     [
+      49,
+      0
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 105499,
+    "d": 2431,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      410,
+      1
+     ],
+     [
+      781,
+      2
+     ],
+     [
+      1436,
+      3
+     ],
+     [
+      1807,
+      4
+     ],
+     [
+      2177,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 108231,
+    "d": 3618,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2509,
+      4
+     ],
+     [
+      2910,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 112149,
+    "d": 19258,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2430,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      4410,
+      8
+     ],
+     [
+      4669,
+      9
+     ],
+     [
+      4810,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5269,
+      12
+     ],
+     [
+      5370,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      6309,
+      15
+     ],
+     [
+      6489,
+      16
+     ],
+     [
+      6749,
+      17
+     ],
+     [
+      6829,
+      18
+     ],
+     [
+      7149,
+      19
+     ],
+     [
+      7430,
+      20
+     ],
+     [
+      8310,
+      21
+     ],
+     [
+      8589,
+      22
+     ],
+     [
+      8789,
+      23
+     ],
+     [
+      8909,
+      24
+     ],
+     [
+      9270,
+      25
+     ],
+     [
+      9369,
+      26
+     ],
+     [
+      9509,
+      27
+     ],
+     [
+      10089,
+      28
+     ],
+     [
+      10310,
+      29
+     ],
+     [
+      10629,
+      30
+     ],
+     [
+      11469,
+      31
+     ],
+     [
+      12169,
+      32
+     ],
+     [
+      13009,
+      33
+     ],
+     [
+      13930,
+      34
+     ],
+     [
+      14749,
+      35
+     ],
+     [
+      15109,
+      36
+     ],
+     [
+      16169,
+      37
+     ],
+     [
+      16469,
+      38
+     ],
+     [
+      17229,
+      39
+     ],
+     [
+      17549,
+      40
+     ],
+     [
+      18089,
+      41
+     ],
+     [
+      18350,
+      42
+     ],
+     [
+      18729,
+      43
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 131708,
+    "d": 4011,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      996,
+      1
+     ],
+     [
+      1648,
+      2
+     ],
+     [
+      2544,
+      3
+     ],
+     [
+      3561,
+      4
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 136020,
+    "d": 2295,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1689,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 138616,
+    "d": 3600,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      2789,
+      6
+     ],
+     [
+      3189,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 142517,
+    "d": 18411,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1030,
+      5
+     ],
+     [
+      1150,
+      6
+     ],
+     [
+      1509,
+      7
+     ],
+     [
+      2309,
+      8
+     ],
+     [
+      2630,
+      9
+     ],
+     [
+      2890,
+      10
+     ],
+     [
+      2989,
+      11
+     ],
+     [
+      3189,
+      12
+     ],
+     [
+      3989,
+      13
+     ],
+     [
+      4209,
+      14
+     ],
+     [
+      4629,
+      15
+     ],
+     [
+      4910,
+      16
+     ],
+     [
+      5209,
+      17
+     ],
+     [
+      6129,
+      18
+     ],
+     [
+      6509,
+      19
+     ],
+     [
+      7289,
+      20
+     ],
+     [
+      7449,
+      21
+     ],
+     [
+      8009,
+      22
+     ],
+     [
+      8810,
+      23
+     ],
+     [
+      9289,
+      24
+     ],
+     [
+      9850,
+      25
+     ],
+     [
+      10390,
+      26
+     ],
+     [
+      10909,
+      27
+     ],
+     [
+      11850,
+      28
+     ],
+     [
+      11989,
+      29
+     ],
+     [
+      12270,
+      30
+     ],
+     [
+      12369,
+      31
+     ],
+     [
+      12549,
+      32
+     ],
+     [
+      12829,
+      33
+     ],
+     [
+      13129,
+      34
+     ],
+     [
+      13409,
+      35
+     ],
+     [
+      13569,
+      36
+     ],
+     [
+      13749,
+      37
+     ],
+     [
+      14149,
+      38
+     ],
+     [
+      14869,
+      39
+     ],
+     [
+      15009,
+      40
+     ],
+     [
+      15329,
+      41
+     ],
+     [
+      15549,
+      42
+     ],
+     [
+      16209,
+      43
+     ],
+     [
+      16450,
+      44
+     ],
+     [
+      16829,
+      45
+     ],
+     [
+      17190,
+      46
+     ],
+     [
+      17690,
+      47
+     ],
+     [
+      17889,
+      48
+     ]
+    ]
+   },
+   "p5h-kus": {
+    "s": 161228,
+    "d": 2349,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      301,
+      1
+     ],
+     [
+      873,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1785,
+      4
+     ],
+     [
+      2047,
+      5
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 163878,
+    "d": 3049,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1050,
+      5
+     ],
+     [
+      1410,
+      6
+     ],
+     [
+      1729,
+      7
+     ],
+     [
+      1989,
+      8
+     ],
+     [
+      2170,
+      9
+     ],
+     [
+      2589,
+      10
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 167227,
+    "d": 2897,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      1869,
+      6
+     ],
+     [
+      1989,
+      7
+     ],
+     [
+      2249,
+      8
+     ],
+     [
+      2529,
+      9
+     ]
+    ]
+   }
+  }
+ }
+}

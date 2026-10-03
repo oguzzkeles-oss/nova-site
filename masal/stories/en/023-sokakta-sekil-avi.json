@@ -1,0 +1,1768 @@
+{
+ "id": "023-sokakta-sekil-avi",
+ "lang": "en",
+ "title": "Shape Hunt in the Street",
+ "theme": "Geometric shapes and everyday signs",
+ "blurb": "The walk to the bakery feels so long to Zeynep. Grandpa suggests a game: a shape hunt! A round clock, triangle ears, square windows… Suddenly the street is full of shapes.",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "dede": "Grandpa (Zeynep's grandpa)",
+  "kedi": "Cat"
+ },
+ "pages": [
+  {
+   "text": "On Sunday morning, Zeynep and her grandpa were walking to the bakery. Tip-tap, tip-tap, tip-tap… Suddenly Zeynep stopped. Her feet felt heavy, her shoulders drooped. “Oh, Grandpa, the bakery is so far. I'm bored!”",
+   "hits": {
+    "zeynep": {
+     "say": "Oh, I'm so bored!"
+    },
+    "dede": {
+     "say": "Hmm… I've just thought of a game!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "Have you ever got bored on a walk? What do you do then?"
+  },
+  {
+   "text": "Grandpa put on his glasses. “Shhh! There are shapes hiding in this street,” he whispered. “Let's go on a shape hunt! We'll take turns finding them.” Zeynep's eyes lit up. “Me first!”",
+   "hits": {
+    "dede": {
+     "say": "Let's go on a shape hunt!"
+    },
+    "zeynep": {
+     "say": "Me first, me first!"
+    }
+   },
+   "predict": {
+    "q": "Which shape do you think Zeynep will find first?",
+    "res": "It could be either! Let's see.",
+    "opts": [
+     {
+      "l": "Something round"
+     },
+     {
+      "l": "Something triangle"
+     }
+    ]
+   },
+   "hint": "Touch Grandpa!",
+   "ask": "Where do you think shapes might be hiding in this street?"
+  },
+  {
+   "text": "Zeynep opened her eyes wide. The clock on the wall was round, tick tock! The cat's ears were triangles! Grandpa's glasses were round too! Grandpa laughed: “You found me too? My turn. The paving stones are squares, squares, squares!”",
+   "mech": {
+    "done": "Circle, triangle, square! You found them all.",
+    "msg": "You found all three shapes!"
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Found one, found one!"
+    },
+    "dede": {
+     "say": "You found me too? My turn!"
+    },
+    "kedi": {
+     "say": "Meow! My ears are triangles!"
+    },
+    "saat": {
+     "say": "Tick tock! The clock is round!"
+    },
+    "otobus": {
+     "say": "The windows are squares!"
+    }
+   },
+   "hint": "Find the shapes and touch them!",
+   "ask": "What other shapes can you see in this picture?",
+   "cues": [
+    {
+     "w": 12,
+     "fx": "saat"
+    }
+   ]
+  },
+  {
+   "text": "They came to the zebra crossing. There were white rectangles on the ground. The red man was lit up. Zeynep knew straight away: “The red man means stop!” Then she pressed the button. Wait, wait… When the green man lit up, they crossed hand in hand.",
+   "mech": {
+    "done": "Green! Look left, right, left!",
+    "msg": "Hand in hand, let's cross carefully!"
+   },
+   "hits": {
+    "zeynep": {
+     "say": "The red man means stop!"
+    },
+    "dede": {
+     "say": "Well done! Let's wait for the green."
+    }
+   },
+   "hint": "Press the button and wait!",
+   "ask": "What does the red man say? What does the green man say? What other signs do you know?"
+  },
+  {
+   "text": "They bought warm bread and biscuits at the bakery. At home, Grandpa made the tea. The biscuits were all different shapes! Zeynep laughed: “Every shape in its own basket!”",
+   "mech": {
+    "done": "Circles, triangles, squares. All in the right place!",
+    "msg": "Every shape in its own basket!"
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Every shape in its own basket!"
+    },
+    "dede": {
+     "say": "Which basket does this triangle go in?"
+    }
+   },
+   "hint": "Pick a biscuit and put it in a basket!",
+   "ask": "Why did this biscuit go in this basket? How did you know?"
+  },
+  {
+   "text": "Zeynep built a house out of biscuits. A square wall, a triangle roof, a round sun! Grandpa straightened his glasses. “What a lovely house!” Zeynep giggled: “The walk to the bakery felt so short. Shape hunt again tomorrow, Grandpa!”",
+   "hits": {
+    "zeynep": {
+     "say": "Shape hunt again tomorrow!"
+    },
+    "dede": {
+     "say": "What a lovely house you've made!"
+    },
+    "duvar": {
+     "say": "Square wall!"
+    },
+    "cati": {
+     "say": "Triangle roof!"
+    },
+    "gunes": {
+     "say": "Round sun!"
+    }
+   },
+   "hint": "Touch the wall first!",
+   "ask": "What would you make with these shapes? Let's make it together!",
+   "mech": {
+    "done": "Square wall, triangle roof, round sun!",
+    "msg": "Your house is finished!"
+   }
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.3 Interpreting mathematical facts, events and objects — MAB.3.a (process component) Expresses mathematical facts and events with different materials/symbols: plays the classroom game of “finding objects that look like a circle, triangle, square and rectangle” out in the street (round clock, triangle cat ears, square bus windows, rectangle crossing stripes).",
+   "MAB.3.b (process component) Creates examples of geometric shapes with different formal features: names the house built from biscuits piece by piece, in order (first the square wall, then the triangle roof, last the round sun); builds their own shape house in the class and home activities.",
+   "KB2.2 Observation: examines objects in the street carefully; notices and describes whether they are angular or round, and their sides and corners.",
+   "KB2.5 Classification: sorts the shape biscuits into circles, triangles and squares; puts each one in the right basket by looking at the shape picture on the basket.",
+   "OB4 Visual Literacy: says what the red and green man symbols on the pedestrian light mean (“stop”, “go”); puts the biscuits in the right basket by reading the shape labels on the baskets.",
+   "SDB2.1 Communication and E2.5 Playfulness: takes turns to speak during the shape hunt (“My turn!”), describes what they see, answers questions such as “Which basket does this triangle go in?”; turns a boring walk into a game together. Value: D7 Aesthetics — notices the beauty of the shapes in the street and makes an original, beautiful arrangement with shapes."
+  ],
+  "once": [
+   "Point to Zeynep and her grandpa on the cover: “Where do you think they are going? What might they see on the way?”",
+   "Draw a circle, a triangle and a square in the air with your hand; the child says the name of the shape or draws it with you."
+  ],
+  "sirasi": [
+   "On page 1, point to Zeynep's drooping shoulders: “How does she feel? How can you tell?” Say that being bored is a feeling too, and that it can pass when we talk about it or find a game.",
+   "On page 2, accept both answers to the prediction question and ask: “Why did you think that?”",
+   "On page 3, as you find the shapes, trace their edges in the air with your finger: “How many corners does a triangle have? Does a circle have corners?” Also point out that they look at the cat from a distance and do not touch it.",
+   "On page 4, point to the red and green man; talk about crossing the road holding a grown-up's hand and looking “left, right, then left again” even when the green man is lit.",
+   "On page 5, let the child say the name of the shape before choosing each biscuit; they decide by looking at the shape picture on the basket.",
+   "On page 6, point to the parts of the house: “Which shape is the roof? Which shape is the wall? Where would you put the sun?”"
+  ],
+  "sonra": [
+   "Why was Zeynep bored? How did the shape hunt change how she felt?",
+   "Which things in the story were round, which were triangles and which were squares?",
+   "What does the red man mean, and what does the green man mean? What other signs do we know?",
+   "Put the three pictures in story order: what happened first, and what happened next?"
+  ],
+  "sinif": {
+   "ad": "Shape Hunt in Our School",
+   "sure": "20 min",
+   "materyal": "Circle, triangle, square and rectangle cards cut from card; four baskets or boxes, each with a shape card stuck on it; small objects from the classroom (blocks, buttons, books, plates…)",
+   "adim": [
+    "Introduce the baskets: “This is the circle basket, this is the triangle basket…” The children say the name of the shape by looking at the shape picture on the basket.",
+    "In pairs, in the classroom and the garden, the children take turns to say “I see something round!” and find objects that look like the shape; their partner points to the object.",
+    "Put the objects that can be carried into the right basket; for the ones that cannot (window, clock, door), take the shape card over and compare them together.",
+    "Build a house together on the table with the shape cards: square wall, triangle roof, round sun. Each child adds one more shape to their own house.",
+    "Talk in the circle: Which shape did we find most? What was the most beautiful shaped thing we found, and why?"
+   ]
+  },
+  "evSoru": [
+   "Why did Zeynep get bored on the way? How did her grandpa help her?",
+   "Can you find three round things in our home? What about things with corners?",
+   "What do we do when the red man is lit on the pedestrian light? What do we do when the green man is lit?"
+  ],
+  "evEtk": {
+   "ad": "Shape hunt on the way",
+   "d": "While walking to the shop, the park or school, take turns playing “I see something triangle!”; whoever finds it says the name of the shape. When crossing the road, let your child say the colour of the man on the pedestrian light and what it means. Back at home, draw a picture together of what you saw: a square window, a triangle roof, a round sun."
+  },
+  "aileNotu": "Today we read “Shape Hunt in the Street.” Bored on the way to the bakery, Zeynep went on a shape hunt with her grandpa, taking turns: she found the round clock, the triangle cat ears and the square bus windows, and said that the red man on the pedestrian light means “stop”. The children practised recognising shapes, grouping objects by their shapes and reading everyday signs. You can go on a shape hunt together on your way somewhere too, taking turns to describe what you see."
+ },
+ "audio": {
+  "file": "audio/en/023-sokakta-sekil-avi.mp3",
+  "hash": "a4c6fac6",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16591,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1849,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2549,
+      8
+     ],
+     [
+      2930,
+      9
+     ],
+     [
+      3029,
+      10
+     ],
+     [
+      3150,
+      11
+     ],
+     [
+      4069,
+      12
+     ],
+     [
+      4890,
+      13
+     ],
+     [
+      5769,
+      14
+     ],
+     [
+      6930,
+      15
+     ],
+     [
+      7549,
+      16
+     ],
+     [
+      7969,
+      17
+     ],
+     [
+      8850,
+      18
+     ],
+     [
+      9089,
+      19
+     ],
+     [
+      9390,
+      20
+     ],
+     [
+      9709,
+      21
+     ],
+     [
+      10409,
+      22
+     ],
+     [
+      10649,
+      23
+     ],
+     [
+      11209,
+      24
+     ],
+     [
+      12230,
+      25
+     ],
+     [
+      12609,
+      26
+     ],
+     [
+      13529,
+      27
+     ],
+     [
+      13669,
+      28
+     ],
+     [
+      14129,
+      29
+     ],
+     [
+      14329,
+      30
+     ],
+     [
+      14669,
+      31
+     ],
+     [
+      15569,
+      32
+     ],
+     [
+      15829,
+      33
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 16891,
+    "d": 2271,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 19462,
+    "d": 2540,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1889,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 22303,
+    "d": 11899,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      2910,
+      7
+     ],
+     [
+      3129,
+      8
+     ],
+     [
+      3529,
+      9
+     ],
+     [
+      3869,
+      10
+     ],
+     [
+      3969,
+      11
+     ],
+     [
+      4169,
+      12
+     ],
+     [
+      4830,
+      13
+     ],
+     [
+      4989,
+      14
+     ],
+     [
+      5910,
+      15
+     ],
+     [
+      6169,
+      16
+     ],
+     [
+      6329,
+      17
+     ],
+     [
+      6449,
+      18
+     ],
+     [
+      6609,
+      19
+     ],
+     [
+      6910,
+      20
+     ],
+     [
+      7509,
+      21
+     ],
+     [
+      7709,
+      22
+     ],
+     [
+      7910,
+      23
+     ],
+     [
+      8270,
+      24
+     ],
+     [
+      8629,
+      25
+     ],
+     [
+      9350,
+      26
+     ],
+     [
+      9909,
+      27
+     ],
+     [
+      10329,
+      28
+     ],
+     [
+      10569,
+      29
+     ],
+     [
+      11129,
+      30
+     ],
+     [
+      11329,
+      31
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 34502,
+    "d": 1602,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1129,
+      5
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 36405,
+    "d": 2025,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p1q": {
+    "s": 38731,
+    "d": 2519,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1430,
+      6
+     ],
+     [
+      1629,
+      7
+     ],
+     [
+      1930,
+      8
+     ]
+    ]
+   },
+   "p1r": {
+    "s": 41551,
+    "d": 2010,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 43861,
+    "d": 17118,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      2769,
+      7
+     ],
+     [
+      2869,
+      8
+     ],
+     [
+      3009,
+      9
+     ],
+     [
+      3289,
+      10
+     ],
+     [
+      3529,
+      11
+     ],
+     [
+      4269,
+      12
+     ],
+     [
+      4609,
+      13
+     ],
+     [
+      5430,
+      14
+     ],
+     [
+      5589,
+      15
+     ],
+     [
+      5989,
+      16
+     ],
+     [
+      6249,
+      17
+     ],
+     [
+      6449,
+      18
+     ],
+     [
+      7549,
+      19
+     ],
+     [
+      8069,
+      20
+     ],
+     [
+      8529,
+      21
+     ],
+     [
+      8730,
+      22
+     ],
+     [
+      9029,
+      23
+     ],
+     [
+      9909,
+      24
+     ],
+     [
+      10430,
+      25
+     ],
+     [
+      11209,
+      26
+     ],
+     [
+      11469,
+      27
+     ],
+     [
+      11749,
+      28
+     ],
+     [
+      11930,
+      29
+     ],
+     [
+      12709,
+      30
+     ],
+     [
+      12909,
+      31
+     ],
+     [
+      13589,
+      32
+     ],
+     [
+      13729,
+      33
+     ],
+     [
+      14169,
+      34
+     ],
+     [
+      14669,
+      35
+     ],
+     [
+      14909,
+      36
+     ],
+     [
+      15649,
+      37
+     ],
+     [
+      16370,
+      38
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 61279,
+    "d": 1865,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      333,
+      1
+     ],
+     [
+      1019,
+      2
+     ],
+     [
+      1313,
+      3
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 63444,
+    "d": 2329,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p2h-kedi": {
+    "s": 66074,
+    "d": 3076,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1150,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      1969,
+      4
+     ]
+    ]
+   },
+   "p2h-saat": {
+    "s": 69451,
+    "d": 2628,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      1969,
+      5
+     ]
+    ]
+   },
+   "p2h-otobus": {
+    "s": 72379,
+    "d": 1778,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      909,
+      3
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 74457,
+    "d": 3462,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      2349,
+      3
+     ],
+     [
+      2589,
+      4
+     ],
+     [
+      2809,
+      5
+     ],
+     [
+      2989,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 78220,
+    "d": 15460,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      649,
+      4
+     ],
+     [
+      1009,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2069,
+      7
+     ],
+     [
+      2249,
+      8
+     ],
+     [
+      2549,
+      9
+     ],
+     [
+      3129,
+      10
+     ],
+     [
+      3229,
+      11
+     ],
+     [
+      3329,
+      12
+     ],
+     [
+      4129,
+      13
+     ],
+     [
+      4290,
+      14
+     ],
+     [
+      4509,
+      15
+     ],
+     [
+      4789,
+      16
+     ],
+     [
+      4989,
+      17
+     ],
+     [
+      5209,
+      18
+     ],
+     [
+      5890,
+      19
+     ],
+     [
+      6309,
+      20
+     ],
+     [
+      6649,
+      21
+     ],
+     [
+      7029,
+      22
+     ],
+     [
+      7689,
+      23
+     ],
+     [
+      7870,
+      24
+     ],
+     [
+      8089,
+      25
+     ],
+     [
+      8409,
+      26
+     ],
+     [
+      8770,
+      27
+     ],
+     [
+      9609,
+      28
+     ],
+     [
+      9909,
+      29
+     ],
+     [
+      10129,
+      30
+     ],
+     [
+      10430,
+      31
+     ],
+     [
+      10529,
+      32
+     ],
+     [
+      11209,
+      33
+     ],
+     [
+      11649,
+      34
+     ],
+     [
+      12449,
+      35
+     ],
+     [
+      12609,
+      36
+     ],
+     [
+      12729,
+      37
+     ],
+     [
+      13029,
+      38
+     ],
+     [
+      13289,
+      39
+     ],
+     [
+      13469,
+      40
+     ],
+     [
+      13869,
+      41
+     ],
+     [
+      14069,
+      42
+     ],
+     [
+      14589,
+      43
+     ],
+     [
+      14869,
+      44
+     ],
+     [
+      15009,
+      45
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 93980,
+    "d": 2026,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1369,
+      4
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 96306,
+    "d": 2655,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2150,
+      6
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 99261,
+    "d": 2798,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2229,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 102360,
+    "d": 10706,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1290,
+      5
+     ],
+     [
+      1749,
+      6
+     ],
+     [
+      1849,
+      7
+     ],
+     [
+      1949,
+      8
+     ],
+     [
+      2890,
+      9
+     ],
+     [
+      3049,
+      10
+     ],
+     [
+      3569,
+      11
+     ],
+     [
+      4029,
+      12
+     ],
+     [
+      4209,
+      13
+     ],
+     [
+      4330,
+      14
+     ],
+     [
+      5029,
+      15
+     ],
+     [
+      5209,
+      16
+     ],
+     [
+      5669,
+      17
+     ],
+     [
+      5930,
+      18
+     ],
+     [
+      6169,
+      19
+     ],
+     [
+      6549,
+      20
+     ],
+     [
+      7469,
+      21
+     ],
+     [
+      7969,
+      22
+     ],
+     [
+      8770,
+      23
+     ],
+     [
+      9150,
+      24
+     ],
+     [
+      9469,
+      25
+     ],
+     [
+      9589,
+      26
+     ],
+     [
+      9810,
+      27
+     ],
+     [
+      10049,
+      28
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 113366,
+    "d": 2427,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1629,
+      5
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 116094,
+    "d": 2407,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      2089,
+      6
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 118802,
+    "d": 4093,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1969,
+      2
+     ],
+     [
+      2910,
+      3
+     ],
+     [
+      3129,
+      4
+     ],
+     [
+      3209,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      3529,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 123196,
+    "d": 16196,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1589,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      3109,
+      9
+     ],
+     [
+      3749,
+      10
+     ],
+     [
+      3869,
+      11
+     ],
+     [
+      4449,
+      12
+     ],
+     [
+      5029,
+      13
+     ],
+     [
+      5169,
+      14
+     ],
+     [
+      5609,
+      15
+     ],
+     [
+      6529,
+      16
+     ],
+     [
+      7009,
+      17
+     ],
+     [
+      7430,
+      18
+     ],
+     [
+      7589,
+      19
+     ],
+     [
+      8569,
+      20
+     ],
+     [
+      8829,
+      21
+     ],
+     [
+      9049,
+      22
+     ],
+     [
+      9569,
+      23
+     ],
+     [
+      10629,
+      24
+     ],
+     [
+      11069,
+      25
+     ],
+     [
+      11534,
+      26
+     ],
+     [
+      12069,
+      27
+     ],
+     [
+      12329,
+      28
+     ],
+     [
+      12449,
+      29
+     ],
+     [
+      12569,
+      30
+     ],
+     [
+      13009,
+      31
+     ],
+     [
+      13329,
+      32
+     ],
+     [
+      13649,
+      33
+     ],
+     [
+      14489,
+      34
+     ],
+     [
+      14729,
+      35
+     ],
+     [
+      14930,
+      36
+     ],
+     [
+      15169,
+      37
+     ],
+     [
+      15612,
+      38
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 139692,
+    "d": 1640,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      654,
+      2
+     ],
+     [
+      1044,
+      3
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 141632,
+    "d": 2116,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1649,
+      5
+     ]
+    ]
+   },
+   "p5h-duvar": {
+    "s": 144048,
+    "d": 930,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ]
+    ]
+   },
+   "p5h-cati": {
+    "s": 145279,
+    "d": 1009,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      630,
+      1
+     ]
+    ]
+   },
+   "p5h-gunes": {
+    "s": 146588,
+    "d": 1024,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      512,
+      1
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 147912,
+    "d": 3210,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2689,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1880 @@
+{
+ "id": "017-cok-kapan-tutun",
+ "n": 17,
+ "title": "Çök, Kapan, Tutun!",
+ "age": "48-60",
+ "area": "Hareket ve Sağlık",
+ "theme": "Deprem tatbikatı ve afet hazırlığı",
+ "values": [
+  "D16 Sorumluluk"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 5,
+ "blurb": "Tatbikat zili çalınca Zeynep telaşlanır, ama kaplumbağayı hatırlayıp derin bir nefes alır: Çök, kapan, tutun! Elif de tekerlekli sandalyesiyle kendi yolunu gösterir: Kilitle, kapan, tutun.",
+ "codes": {
+  "maarif": [
+   "HSAB.11 Tehlike ve kaza durumlarına karşı kendini koruyabilme",
+   "HSAB.1 Farklı çevre ve fiziksel etkinliklerde büyük kas becerilerini etkin bir şekilde uygulayabilme (a, b)",
+   "SDB1.2 Kendini Düzenleme",
+   "E1.5 Kendine Güvenme (Öz Güven)",
+   "D16 Sorumluluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "elif": "cocuk-kiz",
+  "ogretmen": "ogretmen",
+  "anne": "anne",
+  "baba": "baba"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "elif": "Elif",
+  "ogretmen": "Nur Öğretmen",
+  "anne": "Anne",
+  "baba": "Baba"
+ },
+ "order": [
+  2,
+  3,
+  4
+ ],
+ "pages": [
+  {
+   "text": "Sabah herkes halıda toplandı. Nur Öğretmen sordu: “Kaplumbağa tehlike görünce ne yapar?” Zeynep parmak kaldırdı. “Başını kabuğuna çeker! Sakin sakin bekler.”",
+   "scene": {
+    "set": "sinif",
+    "cast": [
+     {
+      "k": "ogretmen",
+      "x": 88,
+      "y": 214,
+      "s": 1,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ogretmen"
+     },
+     {
+      "k": "zeynep",
+      "x": 200,
+      "y": 228,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "zeynep"
+     },
+     {
+      "k": "elif",
+      "x": 318,
+      "y": 222,
+      "s": 1,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "elif",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 150,
+      "y": 234,
+      "s": 1.2,
+      "color": "#F4A6B8"
+     },
+     {
+      "k": "yastik",
+      "x": 258,
+      "y": 236,
+      "s": 1.2,
+      "color": "#9ED3C2"
+     }
+    ]
+   },
+   "hits": {
+    "ogretmen": {
+     "say": "Kaplumbağa ne yapar, bilen var mı?",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Ben biliyorum! Kabuğuna saklanır!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Kabuğu onun güvenli evi!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Sen hiç kaplumbağa gördün mü? Kabuğuna çekilince ne yapıyordu?"
+  },
+  {
+   "text": "Nur Öğretmen gülümsedi: “Bugün deprem tatbikatı yapacağız. Tatbikat, alıştırma demek. Zil çalınca kaplumbağa olacağız: Çök, kapan, tutun!” Elif hemen gösterdi. “Ben önce tekerleklerimi kilitlerim, klik! Sonra kapanır, tutunurum.”",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ogretmen",
+      "x": 58,
+      "y": 212,
+      "s": 1,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ogretmen"
+     },
+     {
+      "k": "zeynep",
+      "x": 190,
+      "y": 232,
+      "s": 1.0,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "zeynep"
+     },
+     {
+      "k": "elif",
+      "x": 330,
+      "y": 226,
+      "s": 1.05,
+      "mood": "calm",
+      "pose": "crawl",
+      "rimHand": true,
+      "hit": "elif",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "sira",
+      "x": 196,
+      "y": 212,
+      "s": 1.2,
+      "color": "#F2A541"
+     },
+     {
+      "k": "zil",
+      "x": 372,
+      "y": 118,
+      "s": 0.8,
+      "hit": "zil"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Klik! Tekerleklerim kilitli.",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "zeynep": {
+     "say": "Ben de kaplumbağa olacağım!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ogretmen": {
+     "say": "Kapan, başını kabuğuna saklamak demek!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zil": {
+     "anim": "wiggle",
+     "fx": "bell"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Elif neden önce tekerleklerini kilitliyor sence?"
+  },
+  {
+   "text": "Zeynep bloklarla oynarken zil çaldı: dın, dın, dın! Zeynep birden telaşlandı. Kalbi küt küt attı. Ayakları kapıya koşmak istedi.",
+   "scene": {
+    "set": "sinif",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 150,
+      "y": 226,
+      "s": 1.1,
+      "mood": "scared",
+      "pose": "stand",
+      "hit": "zeynep"
+     },
+     {
+      "k": "ogretmen",
+      "x": 322,
+      "y": 214,
+      "s": 1,
+      "mood": "calm",
+      "pose": "wave",
+      "hold": "zil",
+      "holdO": {
+       "ring": true
+      },
+      "hit": "ogretmen",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "bloklar",
+      "x": 98,
+      "y": 236,
+      "s": 1.3,
+      "n": 5
+     },
+     {
+      "k": "bloklar",
+      "x": 210,
+      "y": 238,
+      "s": 1.1,
+      "n": 2
+     },
+     {
+      "k": "oyuncak-araba",
+      "x": 252,
+      "y": 234,
+      "s": 1,
+      "color": "#5AA3DE"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Kalbim küt küt atıyor!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "ogretmen": {
+     "say": "Tatbikat başladı, kaplumbağalar!",
+     "voice": "ogretmen",
+     "anim": "wiggle",
+     "fx": "bell"
+    }
+   },
+   "predict": {
+    "q": "Sence Zeynep ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Derin nefes alır",
+      "scene": {
+       "set": "sinif",
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 200,
+         "y": 226,
+         "s": 1.2,
+         "mood": "calm",
+         "pose": "stand"
+        }
+       ],
+       "props": [
+        {
+         "k": "bloklar",
+         "x": 140,
+         "y": 236,
+         "s": 1.3,
+         "n": 5
+        }
+       ]
+      }
+     },
+     {
+      "l": "Öğretmenine bakar",
+      "scene": {
+       "set": "sinif",
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 140,
+         "y": 228,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "stand"
+        },
+        {
+         "k": "ogretmen",
+         "x": 290,
+         "y": 214,
+         "s": 1,
+         "mood": "calm",
+         "pose": "point",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "bloklar",
+         "x": 90,
+         "y": 236,
+         "s": 1.3,
+         "n": 5
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e dokun!"
+   ],
+   "ask": "Senin kalbin hiç küt küt attı mı? O zaman ne yaptın?",
+   "cues": [
+    {
+     "w": 12,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep öğretmenine baktı ve kaplumbağayı hatırladı. Derin bir nefes aldı: hıııh, puuuf. Çök! Dizlerinin üstüne indi. Kapan! Masanın altına girdi, başını ve ensesini kollarıyla korudu. Tutun! Masanın ayağını tuttu. Elif de kilitledi: klik! Kapandı, tutundu.",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 108,
+      "y": 230,
+      "s": 0.82,
+      "mood": "calm",
+      "pose": "crawl",
+      "hit": "zeynep"
+     },
+     {
+      "k": "cocuk",
+      "look": 4,
+      "x": 345,
+      "y": 196,
+      "s": 0.66,
+      "mood": "calm",
+      "pose": "crawl",
+      "flip": true
+     },
+     {
+      "k": "elif",
+      "x": 46,
+      "y": 226,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "hug",
+      "rimHand": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "sira",
+      "x": 245,
+      "y": 227,
+      "s": 1.4,
+      "color": "#F2A541",
+      "hit": "sira"
+     },
+     {
+      "k": "sira",
+      "x": 345,
+      "y": 200,
+      "s": 1.0,
+      "color": "#7FC0E8"
+     }
+    ]
+   },
+   "mech": {
+    "type": "walk",
+    "key": "zeynep",
+    "steps": 3,
+    "step": 43,
+    "say": "Çök! Kapan! Tutun!",
+    "done": "Masa, Zeynep'in kabuğu oldu!",
+    "msg": "Kabuğuna girdi!"
+   },
+   "hits": {
+    "elif": {
+     "say": "Kilitle, kapan, tutun!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "sira": {
+     "anim": "boing",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'e üç kez dokun!"
+   ],
+   "ask": "Çök, kapan, tutun… Şimdi sen de oturduğun yerde dener misin?"
+  },
+  {
+   "text": "Tatbikat bitti, kaplumbağalar kabuktan çıktı. Nur Öğretmen deprem çantasına su ve yara bandı koydu. “Siz ne eklersiniz?” Zeynep bir atkı, bir diş fırçası getirdi. Elif güldü: “Bir de sarılacak bir ayıcık!”",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ogretmen",
+      "x": 56,
+      "y": 212,
+      "s": 1,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ogretmen"
+     },
+     {
+      "k": "zeynep",
+      "x": 132,
+      "y": 216,
+      "s": 1,
+      "mood": "happy",
+      "pose": "clap",
+      "hit": "zeynep"
+     },
+     {
+      "k": "elif",
+      "x": 352,
+      "y": 220,
+      "s": 1,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "elif",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "matara",
+      "x": 250,
+      "y": 236,
+      "s": 1.1,
+      "hit": "su"
+     },
+     {
+      "k": "yara-bandi",
+      "x": 186,
+      "y": 234,
+      "s": 1.2,
+      "color": "#F4A6B8",
+      "hit": "bant"
+     },
+     {
+      "k": "canta",
+      "x": 212,
+      "y": 228,
+      "s": 1.9,
+      "color": "#E4574F",
+      "hit": "canta"
+     },
+     {
+      "k": "atki",
+      "x": 92,
+      "y": 232,
+      "s": 1.45,
+      "color": "#F2A541",
+      "hit": "atki"
+     },
+     {
+      "k": "dis-fircasi",
+      "x": 146,
+      "y": 237,
+      "s": 1.5,
+      "color": "#5AA3DE",
+      "hit": "firca"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 300,
+      "y": 238,
+      "s": 0.9,
+      "hit": "ayi"
+     }
+    ]
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "atki",
+     "firca",
+     "ayi"
+    ],
+    "to": [
+     212,
+     192
+    ],
+    "done": "Çanta hazır! Herkes görevini yaptı.",
+    "msg": "Çanta hazır!"
+   },
+   "hits": {
+    "ogretmen": {
+     "say": "Çantamız hep kapının yanında duracak.",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Atkı bizi sıcak tutar!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Ayıcık da bizimle hazır!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "su": {
+     "say": "Su çok önemli!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "drip"
+    },
+    "canta": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "bant": {
+     "say": "Yara bandı da hazır!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "atki",
+    "Eşyaları çantaya koy!"
+   ],
+   "ask": "Sen bu çantaya ne koymak isterdin? Neden?"
+  },
+  {
+   "text": "Akşam Zeynep ailesine kaplumbağa oyununu öğretti. “Çök, kapan, tutun!” Babası da çöktü ama masaya sığmadı! Hepsi kıkır kıkır güldü. Zeynep'in içi rahattı. Artık ne yapacağını biliyordu.",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 80,
+      "y": 224,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "crawl",
+      "hit": "zeynep"
+     },
+     {
+      "k": "baba",
+      "x": 170,
+      "y": 233,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "baba",
+      "flip": true
+     },
+     {
+      "k": "anne",
+      "x": 318,
+      "y": 232,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "anne",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "x": 96,
+      "y": 230,
+      "s": 1.75,
+      "hit": "masa"
+     },
+     {
+      "k": "yastik",
+      "x": 232,
+      "y": 158,
+      "s": 1,
+      "color": "#F4A6B8"
+     },
+     {
+      "k": "kitap",
+      "x": 372,
+      "y": 238,
+      "s": 1,
+      "open": true
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Çök, kapan, tutun!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "baba": {
+     "say": "Ben kocaman bir kaplumbağayım!",
+     "voice": "baba",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Öğretmenimiz Zeynep, sıra bende!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "masa": {
+     "anim": "boing",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "baba",
+    "Babaya dokun!"
+   ],
+   "ask": "Baba masaya sığmazsa ne yapabilir sence?",
+   "cues": [
+    {
+     "w": 16,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.11 (öğrenme çıktısı): Tehlike ve kaza durumlarına karşı kendini koruyabilme — tehlike, kaza veya afet durumunda ne yapacağını bilir: tatbikatta “Çök, kapan, tutun” adımlarını sırayla uygular.",
+   "HSAB.1 (öğrenme çıktısı): Farklı çevre ve fiziksel etkinliklerde büyük kas becerilerini etkin bir şekilde uygulayabilme — a) farklı ortam ve koşullarda yer değiştirme hareketleri yapar (çökme, emekleme); b) etkinliğin durumuna uygun denge hareketleri yapar (tutunma).",
+   "SDB1.2 Kendini Düzenleme: Telaşını bedeninde fark eder (küt küt atan kalp), derin nefesle sakinleşir. E1.5 Kendine Güvenme: Ne yapacağını bildiği için kendini güvende hisseder.",
+   "D16 Sorumluluk: Sınıfın deprem çantasını hazırlarken görev alır ve öğrendiğini ailesiyle paylaşır."
+  ],
+  "once": [
+   "Kaplumbağa fotoğrafına birlikte bakın: “Kaplumbağa ürkünce ne yapar?” Kabuğun onu nasıl koruduğunu konuşun.",
+   "Tatbikatın bir “alıştırma oyunu” olduğunu, gerçek bir tehlike olmadığını baştan söyleyin. Masal yalnızca tatbikatı anlatır; sarsıntı ya da hasar yoktur.",
+   "Afet Eğitimi Hazırlık Günü (12 Kasım, teyitsiz) haftasında ya da okulunuzun tatbikatından önce okuyabilirsiniz."
+  ],
+  "sirasi": [
+   "2. sayfada Elif'in yolunu vurgulayın: Tekerlekli sandalye kullananlar “Kilitle, kapan, tutun” der (Türkçe ifade teyitsiz; tekerleği kilitle, öne eğil, başını ve enseni kollarınla koru, sandalyene tutun). Herkesin güvenli yolu biraz farklı olabilir.",
+   "3. sayfada durun: “Zeynep'in kalbi neden küt küt atıyor? Sen olsan ne hissederdin?” Duyguyu adlandırın; telaşlanmanın normal olduğunu söyleyin.",
+   "4. sayfada “Çök! Kapan! Tutun!” sözcüklerinde çocuklarla birlikte oturduğunuz yerde hareketi yapın."
+  ],
+  "sonra": [
+   "Sırayı birlikte hatırlayın: Önce ne yaptık, sonra ne, en son ne? Bedeninizle gösterin.",
+   "“Kaplumbağa nefesi” deneyin: Burundan yavaşça al, ağızdan yavaşça ver. Ne zaman işe yarar, konuşun.",
+   "Babanın masaya sığmadığı sayfaya dönün: Masa yoksa ne yapabiliriz? (Pencerelerden ve devrilebilecek eşyalardan uzakta yere çök, başını ve enseni kollarınla koru.)"
+  ],
+  "sinif": {
+   "ad": "Kaplumbağa Tatbikatı",
+   "sure": "15 dk",
+   "materyal": "Sağlam çocuk masaları, el zili ya da yumuşak sesli bir işaret, boş bir sırt çantası, su şişesi, yara bandı, atkı, küçük bir oyuncak",
+   "adim": [
+    "Halıda kaplumbağa olun: Başınızı kollarınızın arasına alıp “kabuğa çekilin”, yavaşça nefes alıp verin.",
+    "Yumuşak bir zil sesiyle “Çök, kapan, tutun” adımlarını masaların altında bir kez uygulayın; tekerlekli sandalye kullanan çocuklar tekerleği kilitleyip öne eğilerek başını ve ensesini kollarıyla korusun. Siren ya da gürültülü ses kullanmayın.",
+    "Sınıf çantasını birlikte hazırlayın: Her çocuk bir eşyayı koyup ne işe yarayacağını söylesin.",
+    "Değerlendirme çemberi: “Zil çalınca nasıl hissettin? Seni ne sakinleştirdi?”"
+   ]
+  },
+  "evSoru": [
+   "Zil çalınca Zeynep ne hissetti? Sonra ne yaptı?",
+   "Çök, kapan, tutun: Bana gösterir misin?",
+   "Evde bizim “kabuğumuz” hangi sağlam masa olabilir?"
+  ],
+  "evEtk": {
+   "ad": "Evdeki kabuğumuz",
+   "d": "Evde birlikte sağlam bir masa seçin ve “Çök, kapan, tutun”u oyun gibi bir kez deneyin. Sonra aile çantanıza çocuğunuzun seçtiği küçük bir oyuncak ya da kitap ekleyin. Oyunu kısa ve neşeli tutun; çocuğunuz istemezse zorlamayın."
+  },
+  "aileNotu": "Bugün “Çök, Kapan, Tutun!” masalını okuduk: Zeynep tatbikatta telaşlanıyor, kaplumbağa gibi derin nefes alıp sakinleşiyor; Elif de tekerlekli sandalyesiyle kendi yolunu gösteriyor. Masal yalnızca bir tatbikatı anlatır; sarsıntı, hasar ya da korkutucu ses yoktur. Deprem bazı çocuklar ve aileler için zor anılar taşıyabilir: Çocuğunuzun sorularını kısa ve sakin yanıtlayın, duygusunu kabul edin (“Telaşlanman çok normal, ben yanındayım.”). Kaygı uzun sürerse ya da uykuyu, oyunu etkilerse okulumuzun rehber öğretmeniyle konuşabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/017-cok-kapan-tutun.mp3",
+  "hash": "30a3de46",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12332,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2430,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      4229,
+      7
+     ],
+     [
+      5009,
+      8
+     ],
+     [
+      5529,
+      9
+     ],
+     [
+      6029,
+      10
+     ],
+     [
+      6189,
+      11
+     ],
+     [
+      6949,
+      12
+     ],
+     [
+      7410,
+      13
+     ],
+     [
+      7890,
+      14
+     ],
+     [
+      8890,
+      15
+     ],
+     [
+      9329,
+      16
+     ],
+     [
+      9909,
+      17
+     ],
+     [
+      10709,
+      18
+     ],
+     [
+      11249,
+      19
+     ],
+     [
+      11749,
+      20
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 12632,
+    "d": 2112,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 15044,
+    "d": 3798,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1989,
+      2
+     ],
+     [
+      2689,
+      3
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 19143,
+    "d": 2009,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      606,
+      1
+     ],
+     [
+      1004,
+      2
+     ],
+     [
+      1571,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21452,
+    "d": 20379,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      2229,
+      3
+     ],
+     [
+      3009,
+      4
+     ],
+     [
+      3549,
+      5
+     ],
+     [
+      4370,
+      6
+     ],
+     [
+      5390,
+      7
+     ],
+     [
+      6430,
+      8
+     ],
+     [
+      7149,
+      9
+     ],
+     [
+      7870,
+      10
+     ],
+     [
+      8169,
+      11
+     ],
+     [
+      8749,
+      12
+     ],
+     [
+      9469,
+      13
+     ],
+     [
+      10350,
+      14
+     ],
+     [
+      11049,
+      15
+     ],
+     [
+      11850,
+      16
+     ],
+     [
+      12869,
+      17
+     ],
+     [
+      13189,
+      18
+     ],
+     [
+      13629,
+      19
+     ],
+     [
+      14810,
+      20
+     ],
+     [
+      15109,
+      21
+     ],
+     [
+      15489,
+      22
+     ],
+     [
+      16469,
+      23
+     ],
+     [
+      17489,
+      24
+     ],
+     [
+      18350,
+      25
+     ],
+     [
+      18789,
+      26
+     ],
+     [
+      19669,
+      27
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 42131,
+    "d": 2638,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      687,
+      1
+     ],
+     [
+      1862,
+      2
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 45070,
+    "d": 1812,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      1249,
+      3
+     ]
+    ]
+   },
+   "p1h-ogretmen": {
+    "s": 47183,
+    "d": 2351,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1869,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 49835,
+    "d": 11287,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      3009,
+      5
+     ],
+     [
+      3729,
+      6
+     ],
+     [
+      4430,
+      7
+     ],
+     [
+      5129,
+      8
+     ],
+     [
+      5609,
+      9
+     ],
+     [
+      6089,
+      10
+     ],
+     [
+      7269,
+      11
+     ],
+     [
+      7769,
+      12
+     ],
+     [
+      8109,
+      13
+     ],
+     [
+      8430,
+      14
+     ],
+     [
+      9230,
+      15
+     ],
+     [
+      9829,
+      16
+     ],
+     [
+      10249,
+      17
+     ],
+     [
+      10770,
+      18
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 61422,
+    "d": 1748,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      506,
+      1
+     ],
+     [
+      774,
+      2
+     ],
+     [
+      1042,
+      3
+     ]
+    ]
+   },
+   "p2h-ogretmen": {
+    "s": 63471,
+    "d": 2008,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1050,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 65780,
+    "d": 1657,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 67738,
+    "d": 2674,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2089,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 70712,
+    "d": 22428,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2949,
+      5
+     ],
+     [
+      3989,
+      6
+     ],
+     [
+      4390,
+      7
+     ],
+     [
+      4629,
+      8
+     ],
+     [
+      5069,
+      9
+     ],
+     [
+      5830,
+      10
+     ],
+     [
+      6910,
+      11
+     ],
+     [
+      8049,
+      12
+     ],
+     [
+      8730,
+      13
+     ],
+     [
+      9369,
+      14
+     ],
+     [
+      9869,
+      15
+     ],
+     [
+      10509,
+      16
+     ],
+     [
+      11270,
+      17
+     ],
+     [
+      11810,
+      18
+     ],
+     [
+      12249,
+      19
+     ],
+     [
+      12949,
+      20
+     ],
+     [
+      13390,
+      21
+     ],
+     [
+      13549,
+      22
+     ],
+     [
+      14149,
+      23
+     ],
+     [
+      14890,
+      24
+     ],
+     [
+      15729,
+      25
+     ],
+     [
+      16469,
+      26
+     ],
+     [
+      17069,
+      27
+     ],
+     [
+      17589,
+      28
+     ],
+     [
+      18450,
+      29
+     ],
+     [
+      18809,
+      30
+     ],
+     [
+      18909,
+      31
+     ],
+     [
+      19889,
+      32
+     ],
+     [
+      20669,
+      33
+     ],
+     [
+      21649,
+      34
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 93440,
+    "d": 1942,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      840,
+      1
+     ],
+     [
+      1448,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 95683,
+    "d": 2372,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1869,
+      3
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 98355,
+    "d": 2138,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1469,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 100794,
+    "d": 17592,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      2549,
+      3
+     ],
+     [
+      3229,
+      4
+     ],
+     [
+      4069,
+      5
+     ],
+     [
+      4350,
+      6
+     ],
+     [
+      5310,
+      7
+     ],
+     [
+      5830,
+      8
+     ],
+     [
+      6629,
+      9
+     ],
+     [
+      6829,
+      10
+     ],
+     [
+      7009,
+      11
+     ],
+     [
+      7289,
+      12
+     ],
+     [
+      7709,
+      13
+     ],
+     [
+      8709,
+      14
+     ],
+     [
+      9009,
+      15
+     ],
+     [
+      9169,
+      16
+     ],
+     [
+      10329,
+      17
+     ],
+     [
+      10909,
+      18
+     ],
+     [
+      11249,
+      19
+     ],
+     [
+      12029,
+      20
+     ],
+     [
+      12310,
+      21
+     ],
+     [
+      12569,
+      22
+     ],
+     [
+      13129,
+      23
+     ],
+     [
+      14129,
+      24
+     ],
+     [
+      14509,
+      25
+     ],
+     [
+      15390,
+      26
+     ],
+     [
+      15689,
+      27
+     ],
+     [
+      15890,
+      28
+     ],
+     [
+      16629,
+      29
+     ],
+     [
+      16909,
+      30
+     ]
+    ]
+   },
+   "p4h-ogretmen": {
+    "s": 118686,
+    "d": 2255,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1629,
+      4
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 121242,
+    "d": 2021,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      525,
+      1
+     ],
+     [
+      1010,
+      2
+     ],
+     [
+      1495,
+      3
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 123564,
+    "d": 1830,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      603,
+      1
+     ],
+     [
+      830,
+      2
+     ],
+     [
+      1394,
+      3
+     ]
+    ]
+   },
+   "p4h-su": {
+    "s": 125694,
+    "d": 1004,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      509,
+      2
+     ]
+    ]
+   },
+   "p4h-bant": {
+    "s": 126998,
+    "d": 1260,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      769,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 128559,
+    "d": 2692,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2189,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 131552,
+    "d": 16000,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2430,
+      4
+     ],
+     [
+      2989,
+      5
+     ],
+     [
+      4049,
+      6
+     ],
+     [
+      4810,
+      7
+     ],
+     [
+      5569,
+      8
+     ],
+     [
+      6370,
+      9
+     ],
+     [
+      6809,
+      10
+     ],
+     [
+      7009,
+      11
+     ],
+     [
+      7809,
+      12
+     ],
+     [
+      8069,
+      13
+     ],
+     [
+      8609,
+      14
+     ],
+     [
+      9549,
+      15
+     ],
+     [
+      10029,
+      16
+     ],
+     [
+      10430,
+      17
+     ],
+     [
+      10850,
+      18
+     ],
+     [
+      11669,
+      19
+     ],
+     [
+      12310,
+      20
+     ],
+     [
+      12569,
+      21
+     ],
+     [
+      13649,
+      22
+     ],
+     [
+      14409,
+      23
+     ],
+     [
+      14569,
+      24
+     ],
+     [
+      15269,
+      25
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 147853,
+    "d": 1584,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      462,
+      1
+     ],
+     [
+      1081,
+      2
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 149737,
+    "d": 1569,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      709,
+      3
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 151606,
+    "d": 2073,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

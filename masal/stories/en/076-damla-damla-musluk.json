@@ -1,0 +1,1746 @@
+{
+ "id": "076-damla-damla-musluk",
+ "lang": "en",
+ "title": "The Drip-Drop Tap",
+ "theme": "Saving water",
+ "blurb": "While Can brushes his teeth, the tap runs splish splash. When Puffy the Cloud at the window tells him about every drop's long journey from the sea, Can turns into a water detective.",
+ "voiceNames": {
+  "can": "Can",
+  "piti": "Puffy (cloud)",
+  "baba": "Dad"
+ },
+ "pages": [
+  {
+   "text": "Morning came. Can was brushing his teeth. Scrub scrub, scrub scrub! The tap was running. The water went splish splash. A tiny voice came from the window: “Can, Can! My drops are running away!”",
+   "hits": {
+    "can": {
+     "say": "Scrub scrub, scrub scrub!"
+    },
+    "piti": {
+     "say": "Can, Can! My drops are running away!"
+    }
+   },
+   "hint": "Who's at the window?",
+   "ask": "What does the water do while you brush your teeth? Can you tell me?",
+   "cues": [
+    {
+     "w": 12,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Puffy explained: “I was a drop in the sea. The sun warmed me. Up I floated, and became a cloud! Then I rained on the mountains. Through stream, dam and pipes, I came to you!”",
+   "hits": {
+    "piti": {
+     "say": "I've come a long way!"
+    }
+   },
+   "hint": "Listen to Puffy!",
+   "ask": "Where did Puffy travel through before reaching the tap? Where would you like to travel through?"
+  },
+  {
+   "text": "Can was amazed. He looked at his foamy brush. Then he looked at the splish-splashing tap. “Puffy's drops are going to waste!” he said. Hmm… He had an idea.",
+   "hits": {
+    "can": {
+     "say": "The drops are going to waste!"
+    },
+    "piti": {
+     "say": "What will you do, Can?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Can will do?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Turn off the tap"
+     },
+     {
+      "l": "Use a cup"
+     }
+    ]
+   },
+   "hint": "What is Can thinking?",
+   "ask": "What kind of idea might Can have had?",
+   "cues": [
+    {
+     "w": 14,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "First Can put a little water in his cup. Then, click! He turned off the tap. Scrub scrub went his brush. He rinsed his mouth from the cup. Swish, swish, spit!",
+   "hits": {
+    "piti": {
+     "say": "Well done, Can!"
+    },
+    "musluk": {
+     "say": "Click! I'm off!"
+    },
+    "can": {
+     "say": "Scrub scrub, scrub scrub!"
+    }
+   },
+   "mech": {
+    "say": "Splish splash!",
+    "done": "The cup is full! Now turn off the tap!",
+    "msg": "The cup is full!"
+   },
+   "hint": "Fill the cup first!",
+   "ask": "What did Can do while brushing his teeth, and in what order?"
+  },
+  {
+   "text": "In the evening, a sound came from the kitchen. Drip! Drip! Drip! The tap was dripping. Dad had put a bowl under it that morning. The bowl was full to the brim! Can shared the water out into cups. How many cups? Count!",
+   "hits": {
+    "kap": {
+     "say": "Drip! Drip! Drip!"
+    },
+    "baba": {
+     "say": "The washer is worn out. We'll change it together tomorrow."
+    },
+    "can": {
+     "say": "Dad, this tap is crying!"
+    }
+   },
+   "mech": {
+    "done": "Five cups of water! It collected drop by drop.",
+    "msg": "You counted them all!"
+   },
+   "hint": "Count the cups one by one!",
+   "ask": "How could tiny drops have become five cups of water?",
+   "cues": [
+    {
+     "w": 13,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Next morning, Can poured the cups into the watering can. The garden flowers were thirsty. Their heads drooped. Splish splash! Go on, water the thirsty flowers!",
+   "hits": {
+    "can": {
+     "say": "Don't let the drops go to waste!"
+    }
+   },
+   "mech": {
+    "say": "Splish splash!",
+    "done": "The flowers lifted their heads!",
+    "msg": "You watered them all!"
+   },
+   "hint": "Water the droopy flower!",
+   "ask": "Where else could we use the water we collect?",
+   "cues": [
+    {
+     "w": 18,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Puffy giggled with her cottony cheeks: “My journey wasn't wasted!” Can felt warm and proud inside. He gave Puffy a wiggly wave. Drop by drop makes a lake, doesn't it?",
+   "hits": {
+    "piti": {
+     "say": "My journey wasn't wasted!"
+    },
+    "can": {
+     "say": "No more drip-drip, and the flowers are smiling!"
+    }
+   },
+   "hint": "Wave to Puffy!",
+   "ask": "What can you do at home to save water?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 · Making scientific observations of science-related events, facts and situations in daily life: observes the tap left running and the dripping tap; describes the running water, the drop and the collected water.",
+   "FAB.7 (unverified) · Making simple scientific inferences based on observations: infers that “the tiny drops fell into the bowl all day, so five cups of water collected”; explains simply that water evaporates from the sea and comes back as rain.",
+   "OB8 · Sustainability Literacy: notices that water is limited and precious; names ways to save it, such as turning off the tap while brushing teeth, using a cup, reporting a dripping tap and using collected water for the flowers.",
+   "MAB.1 · Counting rhythmically and by sight: counts the cups filled by the drops, 1 to 5, by touching them.",
+   "SDB3.3 Responsible Decision-making · Discusses Can's choices (turning off the tap, using a cup) together with their results, and suggests a decision they can carry out in their own routine.",
+   "Value · D17 Thrift and D16 Responsibility: sees that a small action (turning off the tap) makes a big difference."
+  ],
+  "once": [
+   "Can be read in the week of World Water Day (22 March).",
+   "Show a glass of water and ask: “Where was this water before it reached the tap?” Listen to the guesses.",
+   "Point to the cloud on the cover: “Why might a cloud be talking to a child?”",
+   "Tap your fingers on the table to make the “drip, drip, drip” sound together."
+  ],
+  "sirasi": [
+   "On Puffy's journey page, make the movements together with your hands: a wave, steam floating up, rain falling down.",
+   "On the prediction page, listen to the child's choice; both options save water.",
+   "On the counting page, count each cup together with a rhythm: one, two, three, four, five.",
+   "On the watering page, say “Splish splash!” and pretend to tip the watering can."
+  ],
+  "sonra": [
+   "Round off the story with a picture sequencing game: the running tap → brushing with a cup → watering the flowers.",
+   "Ask: “How did Can feel when he listened to Puffy? Why did he feel proud at the end?”",
+   "Count together the places where water is used at home or in class: the sink, the kitchen, the garden…",
+   "Explain the saying “Drop by drop makes a lake” and ask the children for their own examples."
+  ],
+  "sinif": {
+   "ad": "Collect Drop by Drop",
+   "sure": "20 min",
+   "materyal": "A plastic bottle that drips slowly (a tiny hole in the cap), a clear container, 5 plastic cups, the class plants. The teacher makes the hole with a needle beforehand; the needle is kept out of the children's reach.",
+   "adim": [
+    "The teacher places the bottle over the container; the children watch the drops, saying “Drip, drip!”",
+    "Through the day, check the container at set times; mark the water line with tape.",
+    "At the end of the day, share the collected water out into the cups and count the cups together.",
+    "Water the class plants with the collected water. Ask in the reflection circle: “Which tap will you remember to turn off at home?”"
+   ]
+  },
+  "evSoru": [
+   "Where did Puffy travel through to reach Can's tap?",
+   "What did Can do to save water while brushing his teeth?",
+   "Is there a dripping tap in our home? Shall we look together?"
+  ],
+  "evEtk": {
+   "ad": "The Home Water Detective",
+   "d": "Go round the taps at home one by one with your child: are they turned off tightly, are they dripping? Try using a cup together while brushing teeth. Collect the water you wash vegetables in and use it to water the flowerpots."
+  },
+  "aileNotu": "Today we read “The Drip-Drop Tap.” Can used to leave the tap running while he brushed his teeth; when Puffy the Cloud told him about every drop's long journey from the sea, he decided to use a cup. He also told his dad about the dripping tap in the kitchen and watered the flowers with the collected water. Tonight you can turn off the tap together while brushing teeth, and talk about the saying “Drop by drop makes a lake.”"
+ },
+ "audio": {
+  "file": "audio/en/076-damla-damla-musluk.mp3",
+  "hash": "d81e9dc8",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13521,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      3049,
+      7
+     ],
+     [
+      3410,
+      8
+     ],
+     [
+      3969,
+      9
+     ],
+     [
+      4350,
+      10
+     ],
+     [
+      5209,
+      11
+     ],
+     [
+      5350,
+      12
+     ],
+     [
+      5649,
+      13
+     ],
+     [
+      5830,
+      14
+     ],
+     [
+      6509,
+      15
+     ],
+     [
+      6649,
+      16
+     ],
+     [
+      7009,
+      17
+     ],
+     [
+      7309,
+      18
+     ],
+     [
+      7689,
+      19
+     ],
+     [
+      8669,
+      20
+     ],
+     [
+      8789,
+      21
+     ],
+     [
+      9190,
+      22
+     ],
+     [
+      9569,
+      23
+     ],
+     [
+      9770,
+      24
+     ],
+     [
+      9949,
+      25
+     ],
+     [
+      10049,
+      26
+     ],
+     [
+      10810,
+      27
+     ],
+     [
+      11390,
+      28
+     ],
+     [
+      12069,
+      29
+     ],
+     [
+      12249,
+      30
+     ],
+     [
+      12609,
+      31
+     ],
+     [
+      12729,
+      32
+     ],
+     [
+      12989,
+      33
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 13821,
+    "d": 2277,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1609,
+      3
+     ]
+    ]
+   },
+   "p0h-piti": {
+    "s": 16398,
+    "d": 3200,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      491,
+      1
+     ],
+     [
+      1111,
+      2
+     ],
+     [
+      1395,
+      3
+     ],
+     [
+      1678,
+      4
+     ],
+     [
+      2172,
+      5
+     ],
+     [
+      2666,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19898,
+    "d": 12291,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      2390,
+      7
+     ],
+     [
+      2589,
+      8
+     ],
+     [
+      3410,
+      9
+     ],
+     [
+      3589,
+      10
+     ],
+     [
+      3910,
+      11
+     ],
+     [
+      4290,
+      12
+     ],
+     [
+      4949,
+      13
+     ],
+     [
+      5209,
+      14
+     ],
+     [
+      5350,
+      15
+     ],
+     [
+      5830,
+      16
+     ],
+     [
+      5989,
+      17
+     ],
+     [
+      6329,
+      18
+     ],
+     [
+      6410,
+      19
+     ],
+     [
+      7349,
+      20
+     ],
+     [
+      7729,
+      21
+     ],
+     [
+      7949,
+      22
+     ],
+     [
+      8289,
+      23
+     ],
+     [
+      8390,
+      24
+     ],
+     [
+      8509,
+      25
+     ],
+     [
+      9289,
+      26
+     ],
+     [
+      9569,
+      27
+     ],
+     [
+      10270,
+      28
+     ],
+     [
+      10649,
+      29
+     ],
+     [
+      10829,
+      30
+     ],
+     [
+      11469,
+      31
+     ],
+     [
+      11589,
+      32
+     ],
+     [
+      11829,
+      33
+     ],
+     [
+      11969,
+      34
+     ]
+    ]
+   },
+   "p1h-piti": {
+    "s": 32490,
+    "d": 1673,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1189,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 34463,
+    "d": 12065,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2269,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      2829,
+      8
+     ],
+     [
+      3769,
+      9
+     ],
+     [
+      4089,
+      10
+     ],
+     [
+      4249,
+      11
+     ],
+     [
+      4469,
+      12
+     ],
+     [
+      4549,
+      13
+     ],
+     [
+      4709,
+      14
+     ],
+     [
+      5649,
+      15
+     ],
+     [
+      6489,
+      16
+     ],
+     [
+      6969,
+      17
+     ],
+     [
+      7349,
+      18
+     ],
+     [
+      7469,
+      19
+     ],
+     [
+      7709,
+      20
+     ],
+     [
+      7870,
+      21
+     ],
+     [
+      8650,
+      22
+     ],
+     [
+      8829,
+      23
+     ],
+     [
+      9690,
+      24
+     ],
+     [
+      10810,
+      25
+     ],
+     [
+      11029,
+      26
+     ],
+     [
+      11249,
+      27
+     ],
+     [
+      11430,
+      28
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 46829,
+    "d": 1876,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      280,
+      1
+     ],
+     [
+      520,
+      2
+     ],
+     [
+      938,
+      3
+     ],
+     [
+      1178,
+      4
+     ],
+     [
+      1418,
+      5
+     ]
+    ]
+   },
+   "p2h-piti": {
+    "s": 49005,
+    "d": 1604,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      312,
+      1
+     ],
+     [
+      585,
+      2
+     ],
+     [
+      857,
+      3
+     ],
+     [
+      1291,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 50910,
+    "d": 1604,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      649,
+      4
+     ],
+     [
+      949,
+      5
+     ],
+     [
+      1170,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 52815,
+    "d": 2238,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1849,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 55353,
+    "d": 11160,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      729,
+      4
+     ],
+     [
+      1009,
+      5
+     ],
+     [
+      1369,
+      6
+     ],
+     [
+      1489,
+      7
+     ],
+     [
+      1689,
+      8
+     ],
+     [
+      2370,
+      9
+     ],
+     [
+      2930,
+      10
+     ],
+     [
+      3629,
+      11
+     ],
+     [
+      3809,
+      12
+     ],
+     [
+      4089,
+      13
+     ],
+     [
+      4290,
+      14
+     ],
+     [
+      4410,
+      15
+     ],
+     [
+      5229,
+      16
+     ],
+     [
+      5709,
+      17
+     ],
+     [
+      6350,
+      18
+     ],
+     [
+      6549,
+      19
+     ],
+     [
+      6729,
+      20
+     ],
+     [
+      7529,
+      21
+     ],
+     [
+      7729,
+      22
+     ],
+     [
+      8009,
+      23
+     ],
+     [
+      8190,
+      24
+     ],
+     [
+      8469,
+      25
+     ],
+     [
+      8650,
+      26
+     ],
+     [
+      8770,
+      27
+     ],
+     [
+      9489,
+      28
+     ],
+     [
+      9909,
+      29
+     ],
+     [
+      10709,
+      30
+     ]
+    ]
+   },
+   "p3h-piti": {
+    "s": 66814,
+    "d": 1369,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      337,
+      1
+     ],
+     [
+      1031,
+      2
+     ]
+    ]
+   },
+   "p3h-musluk": {
+    "s": 68483,
+    "d": 1471,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      766,
+      1
+     ],
+     [
+      1098,
+      2
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 70255,
+    "d": 2186,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1550,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 72741,
+    "d": 2779,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2089,
+      7
+     ],
+     [
+      2229,
+      8
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 75821,
+    "d": 1407,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      569,
+      1
+     ]
+    ]
+   },
+   "p4": {
+    "s": 77528,
+    "d": 15864,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      1749,
+      6
+     ],
+     [
+      1909,
+      7
+     ],
+     [
+      2029,
+      8
+     ],
+     [
+      3009,
+      9
+     ],
+     [
+      3809,
+      10
+     ],
+     [
+      4609,
+      11
+     ],
+     [
+      5509,
+      12
+     ],
+     [
+      5669,
+      13
+     ],
+     [
+      6029,
+      14
+     ],
+     [
+      6229,
+      15
+     ],
+     [
+      7229,
+      16
+     ],
+     [
+      7469,
+      17
+     ],
+     [
+      7609,
+      18
+     ],
+     [
+      7769,
+      19
+     ],
+     [
+      7890,
+      20
+     ],
+     [
+      8209,
+      21
+     ],
+     [
+      8469,
+      22
+     ],
+     [
+      8529,
+      23
+     ],
+     [
+      8749,
+      24
+     ],
+     [
+      9529,
+      25
+     ],
+     [
+      9690,
+      26
+     ],
+     [
+      10049,
+      27
+     ],
+     [
+      10310,
+      28
+     ],
+     [
+      10569,
+      29
+     ],
+     [
+      10709,
+      30
+     ],
+     [
+      10850,
+      31
+     ],
+     [
+      11890,
+      32
+     ],
+     [
+      12209,
+      33
+     ],
+     [
+      12489,
+      34
+     ],
+     [
+      12609,
+      35
+     ],
+     [
+      12949,
+      36
+     ],
+     [
+      13129,
+      37
+     ],
+     [
+      13390,
+      38
+     ],
+     [
+      14270,
+      39
+     ],
+     [
+      14430,
+      40
+     ],
+     [
+      14669,
+      41
+     ],
+     [
+      15369,
+      42
+     ]
+    ]
+   },
+   "p4h-kap": {
+    "s": 93693,
+    "d": 2547,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      989,
+      1
+     ],
+     [
+      2009,
+      2
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 96540,
+    "d": 3414,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2229,
+      7
+     ],
+     [
+      2349,
+      8
+     ],
+     [
+      2809,
+      9
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 100255,
+    "d": 2354,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 102909,
+    "d": 4082,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      3489,
+      8
+     ]
+    ]
+   },
+   "p5": {
+    "s": 107292,
+    "d": 10684,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      1649,
+      5
+     ],
+     [
+      1989,
+      6
+     ],
+     [
+      2189,
+      7
+     ],
+     [
+      2309,
+      8
+     ],
+     [
+      2729,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      3529,
+      11
+     ],
+     [
+      3910,
+      12
+     ],
+     [
+      4330,
+      13
+     ],
+     [
+      4609,
+      14
+     ],
+     [
+      5469,
+      15
+     ],
+     [
+      5729,
+      16
+     ],
+     [
+      6109,
+      17
+     ],
+     [
+      7089,
+      18
+     ],
+     [
+      7629,
+      19
+     ],
+     [
+      8369,
+      20
+     ],
+     [
+      8669,
+      21
+     ],
+     [
+      9190,
+      22
+     ],
+     [
+      9469,
+      23
+     ],
+     [
+      9609,
+      24
+     ],
+     [
+      9989,
+      25
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 118277,
+    "d": 1942,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1170,
+      5
+     ],
+     [
+      1290,
+      6
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 120519,
+    "d": 1978,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1329,
+      4
+     ]
+    ]
+   },
+   "p5ms": {
+    "s": 122797,
+    "d": 1331,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      529,
+      1
+     ]
+    ]
+   },
+   "p6": {
+    "s": 124428,
+    "d": 12222,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      2849,
+      7
+     ],
+     [
+      3269,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      4709,
+      10
+     ],
+     [
+      5069,
+      11
+     ],
+     [
+      5449,
+      12
+     ],
+     [
+      5890,
+      13
+     ],
+     [
+      6069,
+      14
+     ],
+     [
+      6529,
+      15
+     ],
+     [
+      7469,
+      16
+     ],
+     [
+      7609,
+      17
+     ],
+     [
+      7910,
+      18
+     ],
+     [
+      8289,
+      19
+     ],
+     [
+      8449,
+      20
+     ],
+     [
+      8850,
+      21
+     ],
+     [
+      9730,
+      22
+     ],
+     [
+      10049,
+      23
+     ],
+     [
+      10230,
+      24
+     ],
+     [
+      10690,
+      25
+     ],
+     [
+      10949,
+      26
+     ],
+     [
+      11029,
+      27
+     ],
+     [
+      11629,
+      28
+     ],
+     [
+      11930,
+      29
+     ]
+    ]
+   },
+   "p6h-piti": {
+    "s": 136950,
+    "d": 1979,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      386,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1335,
+      3
+     ]
+    ]
+   },
+   "p6h-can": {
+    "s": 139230,
+    "d": 3147,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2349,
+      7
+     ]
+    ]
+   }
+  }
+ }
+}

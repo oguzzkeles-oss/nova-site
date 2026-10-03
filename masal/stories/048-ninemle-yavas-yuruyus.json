@@ -1,0 +1,1740 @@
+{
+ "id": "048-ninemle-yavas-yuruyus",
+ "n": 48,
+ "title": "Ninemle Yavaş Yürüyüş",
+ "age": "48-60",
+ "area": "Sosyal",
+ "theme": "Yaşlı bir büyüğün temposuna uyma ve yardım etme",
+ "values": [
+  "D20 Yardımseverlik"
+ ],
+ "sdb": "SDB3.1 Uyum",
+ "min": 4,
+ "blurb": "Can parka koşmak ister ama ninesi bastonuyla yavaş yürür. Can ninesinin sepetini taşır, banklarda mola planı yapar; molada ninesi de ona saklı güzellikleri gösterir.",
+ "codes": {
+  "maarif": [
+   "beceri: SBAB5 Sosyal Katılım",
+   "beceri: SBAB7 Mekânsal Düşünme",
+   "TADB.2 Dinlediği/izlediği materyallerle ilgili yeni anlamlar oluşturabilme",
+   "HSAB.8.c Gerektiğinde dinlenme ihtiyacını ifade eder",
+   "E2.1 Empati",
+   "SDB3.1 Uyum",
+   "D20 Yardımseverlik"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "can": "cocuk-erkek",
+  "nine": "nine",
+  "pamuk": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "can": "Can",
+  "nine": "Nine (Can'ın ninesi)",
+  "pamuk": "Pamuk (kedi)"
+ },
+ "pages": [
+  {
+   "text": "Can'ın ayakları kıpır kıpırdı. “Nine, parka koşalım!” Ninesi bastonunu, sepetini aldı. “Tık tık, yavaş yavaş, kuzum. Dizlerim koşmayı unuttu, gezmeyi seviyor.”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "nine",
+      "gesture": false,
+      "scarf": "#8C6BB8",
+      "scarfPat": "#F4EBD8",
+      "cane": true,
+      "top": "#C8674A",
+      "topType": "cardigan",
+      "inner": "#F4EBD8",
+      "bottom": "#5B6B8C",
+      "bottomType": "skirt",
+      "shoes": "#4A3A2E",
+      "x": 120,
+      "y": 232,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hold": "basket",
+      "holdO": {
+       "full": 3
+      },
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 262,
+      "y": 234,
+      "s": 1.08,
+      "mood": "laugh",
+      "pose": "jump",
+      "flip": true,
+      "hit": "can"
+     },
+     {
+      "k": "kelebek",
+      "x": 196,
+      "y": 92,
+      "s": 0.6
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 318,
+      "y": 236,
+      "s": 1.1,
+      "hit": "top"
+     },
+     {
+      "k": "cali",
+      "x": 200,
+      "y": 226,
+      "s": 0.7,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Nine, parka koşalım!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "nine": {
+     "say": "Tık tık, yavaş yavaş, kuzum.",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "step"
+    },
+    "top": {
+     "anim": "boing",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Can neden bu kadar acele ediyor? Sen parka giderken koşar mısın, yürür müsün?",
+   "cues": [
+    {
+     "w": 11,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Can koştu da koştu. Köşede durdu; köşede hep durulur. Arkasına baktı. Ninesi çok gerideydi. Bastonuna yaslanmış, puf puf soluyordu. Can'ın içi burkuldu. “Ninem yoruldu galiba.”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "gesture": false,
+      "scarf": "#8C6BB8",
+      "scarfPat": "#F4EBD8",
+      "cane": true,
+      "top": "#C8674A",
+      "topType": "cardigan",
+      "inner": "#F4EBD8",
+      "bottom": "#5B6B8C",
+      "bottomType": "skirt",
+      "shoes": "#4A3A2E",
+      "x": 74,
+      "y": 224,
+      "s": 0.82,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "nine",
+      "turn": 0.5
+     },
+     {
+      "k": "can",
+      "x": 338,
+      "y": 235,
+      "s": 1.08,
+      "mood": "sorry",
+      "pose": "stand",
+      "flip": true,
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 210,
+      "y": 228,
+      "s": 0.8,
+      "flowers": true
+     },
+     {
+      "k": "basket",
+      "x": 112,
+      "y": 228,
+      "s": 0.75,
+      "full": 3
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "İçim burkuldu. Ninem yoruldu galiba.",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "Puf… puf… Biraz yoruldum, kuzum.",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "blow"
+    }
+   },
+   "predict": {
+    "q": "Sence Can şimdi ne yapacak?",
+    "res": "Güzel düşündün! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Ninesine geri döner",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "day",
+       "cast": [
+        {
+         "k": "nine",
+         "gesture": false,
+         "scarf": "#8C6BB8",
+         "scarfPat": "#F4EBD8",
+         "cane": true,
+         "top": "#C8674A",
+         "topType": "cardigan",
+         "inner": "#F4EBD8",
+         "bottom": "#5B6B8C",
+         "bottomType": "skirt",
+         "shoes": "#4A3A2E",
+         "x": 90,
+         "y": 232,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "stand",
+         "hold": "basket",
+         "holdO": {
+          "full": 3
+         }
+        },
+        {
+         "k": "can",
+         "x": 250,
+         "y": 234,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "walk",
+         "flip": true
+        }
+       ],
+       "props": []
+      }
+     },
+     {
+      "l": "Oturacak yer arar",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "day",
+       "cast": [
+        {
+         "k": "can",
+         "x": 120,
+         "y": 234,
+         "s": 1.05,
+         "mood": "think",
+         "pose": "point"
+        }
+       ],
+       "props": [
+        {
+         "k": "bank",
+         "x": 290,
+         "y": 236,
+         "s": 1.8
+        },
+        {
+         "k": "qmark",
+         "x": 200,
+         "y": 90
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "nine",
+    "Nineye dokun!"
+   ],
+   "ask": "Ninesi nasıl hissediyor? Nereden anladın?"
+  },
+  {
+   "text": "Can geri koştu. “Nine, sepetini ben taşırım!” Sonra parmağıyla yolu gösterdi. “Bir plan yaptım. Yolda banklar var. Her bankta dinleniriz, olur mu?”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "gesture": false,
+      "scarf": "#8C6BB8",
+      "scarfPat": "#F4EBD8",
+      "cane": true,
+      "top": "#C8674A",
+      "topType": "cardigan",
+      "inner": "#F4EBD8",
+      "bottom": "#5B6B8C",
+      "bottomType": "skirt",
+      "shoes": "#4A3A2E",
+      "x": 66,
+      "y": 232,
+      "s": 0.98,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 138,
+      "y": 234,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "basket",
+      "holdO": {
+       "full": 1
+      },
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 215,
+      "y": 236,
+      "s": 0.8,
+      "hit": "b1"
+     },
+     {
+      "k": "bank",
+      "x": 300,
+      "y": 226,
+      "s": 0.6,
+      "hit": "b2"
+     },
+     {
+      "k": "bank",
+      "x": 370,
+      "y": 222,
+      "s": 0.45,
+      "hit": "b3"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Her bankta dinleniriz, olur mu?",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "Olur, kuzum. Ne güzel plan!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "b": {
+     "anim": "boing",
+     "fx": "click"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "b1",
+     "b2",
+     "b3"
+    ],
+    "done": "Üç bank, üç mola. Plan hazır!",
+    "msg": "Üç bank!"
+   },
+   "hint": [
+    "b1",
+    "Bankları say!"
+   ],
+   "ask": "Can ninesi için nasıl bir plan yaptı? Sen olsan başka ne yapardın?"
+  },
+  {
+   "text": "Can birinci bankın yanında bekledi. “Gel, ninem, az kaldı!” Ninesi yürüdü: tık, adım, tık, adım. Can da el çırptı: “Tık, adım!”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "gesture": false,
+      "scarf": "#8C6BB8",
+      "scarfPat": "#F4EBD8",
+      "cane": true,
+      "top": "#C8674A",
+      "topType": "cardigan",
+      "inner": "#F4EBD8",
+      "bottom": "#5B6B8C",
+      "bottomType": "skirt",
+      "shoes": "#4A3A2E",
+      "x": 84,
+      "y": 233,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 336,
+      "y": 236,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 262,
+      "y": 232,
+      "s": 1.1
+     },
+     {
+      "k": "basket",
+      "x": 284,
+      "y": 204,
+      "z": 240,
+      "s": 0.8,
+      "full": 3
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Gel ninem, az kaldı!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "nine",
+    "steps": 4,
+    "step": 30,
+    "done": "Oh be! Birinci bankta mola.",
+    "msg": "Geldi!"
+   },
+   "hint": [
+    "nine",
+    "Nineye dokun, yürüsün!"
+   ],
+   "ask": "Ninesi yavaş yürürken Can ne yaptı? Sen birini beklerken ne yaparsın?",
+   "cues": [
+    {
+     "w": 11,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "İkinci bankta mola verdiler. Nine gözlüğünü düzeltti. “Şşş, bak! Çalının ardında iki sivri kulak.” Can da buldu. Ağaçta bir yuva, dipte mor çiçekler.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "gesture": false,
+      "scarf": "#8C6BB8",
+      "scarfPat": "#F4EBD8",
+      "cane": true,
+      "top": "#C8674A",
+      "topType": "cardigan",
+      "inner": "#F4EBD8",
+      "bottom": "#5B6B8C",
+      "bottomType": "skirt",
+      "shoes": "#4A3A2E",
+      "x": 262,
+      "y": 233,
+      "z": 240,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "seat",
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 176,
+      "y": 236,
+      "s": 1.0,
+      "mood": "surprised",
+      "pose": "point",
+      "flip": true,
+      "hit": "can"
+     },
+     {
+      "k": "kedi",
+      "x": 362,
+      "y": 222,
+      "s": 0.62,
+      "mood": "shy",
+      "pose": "sit",
+      "flip": true,
+      "hit": "pamuk"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 70,
+      "y": 232,
+      "s": 2.0
+     },
+     {
+      "k": "yuva",
+      "x": 96,
+      "y": 138,
+      "s": 1.0,
+      "z": 999,
+      "hit": "yuva",
+      "peek": true
+     },
+     {
+      "k": "bank",
+      "x": 262,
+      "y": 232,
+      "s": 1.2
+     },
+     {
+      "k": "cali",
+      "x": 362,
+      "y": 236,
+      "s": 1.1
+     },
+     {
+      "k": "flower",
+      "x": 128,
+      "y": 236,
+      "s": 0.55,
+      "color": "#8C6BB8",
+      "hit": "cicek",
+      "peek": true
+     },
+     {
+      "k": "flower",
+      "x": 106,
+      "y": 234,
+      "s": 0.45,
+      "color": "#8C6BB8"
+     },
+     {
+      "k": "flower",
+      "x": 148,
+      "y": 238,
+      "s": 0.4,
+      "color": "#A07CC8"
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Miyav!",
+     "voice": "pamuk",
+     "anim": "wiggle",
+     "fx": "meow"
+    },
+    "can": {
+     "say": "Ağaçta bir yuva! Mor çiçekler!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "Bu yuvayı her bahar izlerim.",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "pamuk",
+     "yuva",
+     "cicek"
+    ],
+    "done": "Mola yerinde neler varmış!",
+    "msg": "Hepsini buldun!"
+   },
+   "hint": [
+    "pamuk",
+    "Nine ne gösteriyor?"
+   ],
+   "ask": "Nine molada Can'a neler gösterdi? Senin büyüklerin sana neler gösterir?"
+  },
+  {
+   "text": "Üçüncü bank parktaydı! Nine banka kuruldu. Can kaydıraktan vıııın diye kaydı. “Nine, yarın da banklı yoldan gidelim mi?” Ninesi güldü. “Sen benim en güzel yol arkadaşımsın.”",
+   "scene": {
+    "set": "oyun-parki",
+    "cast": [
+     {
+      "k": "can",
+      "x": 166,
+      "y": 222,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "sit",
+      "flip": true,
+      "hit": "can"
+     },
+     {
+      "k": "nine",
+      "gesture": false,
+      "scarf": "#8C6BB8",
+      "scarfPat": "#F4EBD8",
+      "cane": true,
+      "top": "#C8674A",
+      "topType": "cardigan",
+      "inner": "#F4EBD8",
+      "bottom": "#5B6B8C",
+      "bottomType": "skirt",
+      "shoes": "#4A3A2E",
+      "x": 284,
+      "y": 234,
+      "z": 238,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 292,
+      "y": 233,
+      "s": 1.1
+     },
+     {
+      "k": "basket",
+      "x": 322,
+      "y": 205,
+      "z": 239,
+      "s": 0.75,
+      "full": 3
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Sen benim en güzel yol arkadaşımsın.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime",
+     "hearts": true
+    },
+    "can": {
+     "say": "Nine, yarın da banklı yoldan gidelim mi?",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "nine",
+    "Nineye dokun!"
+   ],
+   "ask": "Can'la ninesi şimdi nasıl hissediyor? Sen bir büyüğünle yürürken ona nasıl yardım edersin?"
+  }
+ ],
+ "order": [
+  0,
+  2,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "beceri: SBAB5 Sosyal Katılım (alan becerisi; bağlı öğrenme çıktısının resmî ifadesi doğrulanmadı) · Toplumsal hayata etkin katılım: Can, ninesiyle parka gidişi ortak bir yürüyüşe çevirir; sepeti taşır, molaları planlar.",
+   "beceri: SBAB7 Mekânsal Düşünme (alan becerisi; bağlı öğrenme çıktısının resmî ifadesi doğrulanmadı) · Tanıdık bir yol üzerinde yer ve sıra düşünme: Can mahalledeki bankları sırayla gösterip “birinci, ikinci, üçüncü mola” diye bir yol planı kurar.",
+   "TADB.2 (öğrenme çıktısı) · Dinledikleri/izledikleri hikâye gibi materyaller ile ilgili yeni anlamlar oluşturabilme — süreç bileşenleri: materyallere ilişkin çıkarım yapar (ninenin durup puf puf solumasından yorulduğunu çıkarır); materyallerdeki bilgilerle günlük hayatı arasında ilişki kurar (kendi dedesi, ninesi ya da komşusuyla yürüyüşlerini anlatır).",
+   "HSAB.8 (öğrenme çıktısı) · Aktif ve sağlıklı yaşam için gereken zindelik becerilerinin neler olduğunu söyleyebilme — HSAB.8.c gerektiğinde dinlenme ihtiyacını ifade eder: nine “Biraz soluklanayım” der; çocuk yorulunca mola vermenin herkes için doğal olduğunu konuşur.",
+   "E2.1 Empati · SDB3.1 Uyum · Değer: D20 Yardımseverlik — Can kendi acelesini bir yana bırakıp ninesinin adımlarına uyar, ona sormadan hükmetmez, gönüllü yardım eder."
+  ],
+  "once": [
+   "Kapaktaki Can'ı ve ninesini gösterin: “Ninenin elinde ne var? Baston ne işe yarar?” diye sorun.",
+   "“Senin ninen, deden ya da yaşlı bir komşun var mı? Onlarla nereye yürürsünüz?” diye konuşun.",
+   "Masal, Yaşlılar Haftası'nda (18–24 Mart) okumak için de uygundur."
+  ],
+  "sirasi": [
+   "1. sayfada “Tık tık, yavaş yavaş” sözünü çocukla birlikte ritimle söyleyin; masal boyunca tekrar edecek.",
+   "2. sayfada ninenin yüzüne ve duruşuna bakın: “Nine nasıl hissediyor?” Çocuk ninenin yorgun yüzünü, Can'ın içi burkulmuş yüzünü taklit etsin. Tahmin sorusunda iki fikri de kabul edin.",
+   "Can köşede neden durdu? Sokakta büyüğümüzün yanında yürürüz.",
+   "3. sayfada bankları birlikte sayın: “Birinci mola, ikinci mola, üçüncü mola.”",
+   "4. sayfada nine her adım attığında hep birlikte “Tık, adım!” deyip el çırpın.",
+   "5. sayfada ninenin gösterdiklerini çocuk bulsun; “Nine bu yuvayı nereden biliyor?” diye sorun."
+  ],
+  "sonra": [
+   "Can ninesine nasıl yardım etti? (Sepeti taşıdı, mola planı yaptı, onu bekledi.)",
+   "Can masalın başında nasıl hissediyordu, sonunda nasıl hissetti? Neden değişti?",
+   "Nine molada Can'a neler gösterdi? Senin büyüklerin sana neler gösterir, neler öğretir?"
+  ],
+  "sinif": {
+   "ad": "Tık Adım Yürüyüşü",
+   "sure": "20 dk",
+   "materyal": "Üç sandalye ya da minder (bank yerine), bir sepet, resimli kedi-yuva-çiçek kartları",
+   "adim": [
+    "Sınıfa üç “bank” (sandalye) yerleştirin; kartları yol boyuna saklayın.",
+    "Çocuklar ikişer eş olsun: biri “nine/dede”, öteki “yol arkadaşı”. Nine/dede yavaş yürür, yol arkadaşı sepeti taşır ve “Tık, adım!” diye tempo tutar.",
+    "Her bankta oturup iki derin nefes alın; eşler etraftaki saklı kartları arasın.",
+    "Rolleri değiştirin. Halka olup sorun: “Yavaş yürürken ne hissettin? Eşin sana nasıl yardım etti?”"
+   ]
+  },
+  "evSoru": [
+   "Can neden ninesini beklemeye karar verdi?",
+   "Yolda kaç bank vardı? Her bankta ne yaptılar?",
+   "Sen bir büyüğüne nasıl yardım edebilirsin?"
+  ],
+  "evEtk": {
+   "ad": "Mola Planlı Yürüyüş",
+   "d": "Bir büyüğünüzle (nine, dede ya da komşu) kısa bir yürüyüş planlayın. Çocuk yol üzerindeki oturma yerlerini bulup mola planını yapsın, küçük bir çanta ya da poşeti taşısın."
+  },
+  "aileNotu": "Bugün “Ninemle Yavaş Yürüyüş” masalını okuduk. Parka koşmak isteyen Can, köşede durup arkasına bakınca ninesinin yorulduğunu fark ediyor; sepetini taşıyor, ninesine sorarak banklarda mola planı yapıyor ve onun adımlarına uyuyor. Molada ninesi de ona her bahar izlediği kuş yuvasını, saklanan kediyi gösteriyor. Evde bir büyüğünüzle yürürken çocuğunuza küçük bir görev (çanta taşıma, mola yeri seçme) verebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/048-ninemle-yavas-yuruyus.mp3",
+  "hash": "ef7267f7",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11729,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      4129,
+      7
+     ],
+     [
+      4589,
+      8
+     ],
+     [
+      5410,
+      9
+     ],
+     [
+      5969,
+      10
+     ],
+     [
+      6689,
+      11
+     ],
+     [
+      6910,
+      12
+     ],
+     [
+      7469,
+      13
+     ],
+     [
+      7849,
+      14
+     ],
+     [
+      8190,
+      15
+     ],
+     [
+      8890,
+      16
+     ],
+     [
+      9369,
+      17
+     ],
+     [
+      9909,
+      18
+     ],
+     [
+      10690,
+      19
+     ],
+     [
+      11209,
+      20
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 12029,
+    "d": 1989,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      719,
+      1
+     ],
+     [
+      1226,
+      2
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 14319,
+    "d": 2569,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      336,
+      1
+     ],
+     [
+      807,
+      2
+     ],
+     [
+      1322,
+      3
+     ],
+     [
+      2013,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17188,
+    "d": 13820,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      3089,
+      6
+     ],
+     [
+      3529,
+      7
+     ],
+     [
+      3749,
+      8
+     ],
+     [
+      4609,
+      9
+     ],
+     [
+      5129,
+      10
+     ],
+     [
+      5930,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      6609,
+      13
+     ],
+     [
+      7609,
+      14
+     ],
+     [
+      8209,
+      15
+     ],
+     [
+      9069,
+      16
+     ],
+     [
+      9369,
+      17
+     ],
+     [
+      9629,
+      18
+     ],
+     [
+      10770,
+      19
+     ],
+     [
+      11149,
+      20
+     ],
+     [
+      11369,
+      21
+     ],
+     [
+      12369,
+      22
+     ],
+     [
+      12770,
+      23
+     ],
+     [
+      13169,
+      24
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 31309,
+    "d": 3363,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      2189,
+      3
+     ],
+     [
+      2630,
+      4
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 34972,
+    "d": 3116,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      2089,
+      3
+     ],
+     [
+      2589,
+      4
+     ]
+    ]
+   },
+   "p1q": {
+    "s": 38389,
+    "d": 2008,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1410,
+      4
+     ]
+    ]
+   },
+   "p1r": {
+    "s": 40697,
+    "d": 1956,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1469,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 42954,
+    "d": 10259,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      4089,
+      8
+     ],
+     [
+      4729,
+      9
+     ],
+     [
+      4969,
+      10
+     ],
+     [
+      5930,
+      11
+     ],
+     [
+      6089,
+      12
+     ],
+     [
+      6430,
+      13
+     ],
+     [
+      7129,
+      14
+     ],
+     [
+      7449,
+      15
+     ],
+     [
+      7930,
+      16
+     ],
+     [
+      8409,
+      17
+     ],
+     [
+      8629,
+      18
+     ],
+     [
+      8989,
+      19
+     ],
+     [
+      9749,
+      20
+     ],
+     [
+      10029,
+      21
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 53514,
+    "d": 2339,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2049,
+      4
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 56153,
+    "d": 2067,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 58520,
+    "d": 2558,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2009,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 61378,
+    "d": 10720,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      3469,
+      8
+     ],
+     [
+      4350,
+      9
+     ],
+     [
+      4810,
+      10
+     ],
+     [
+      5689,
+      11
+     ],
+     [
+      6189,
+      12
+     ],
+     [
+      6930,
+      13
+     ],
+     [
+      7489,
+      14
+     ],
+     [
+      8190,
+      15
+     ],
+     [
+      8469,
+      16
+     ],
+     [
+      8669,
+      17
+     ],
+     [
+      8869,
+      18
+     ],
+     [
+      9609,
+      19
+     ],
+     [
+      10089,
+      20
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 72398,
+    "d": 1798,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      322,
+      1
+     ],
+     [
+      982,
+      2
+     ],
+     [
+      1265,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 74497,
+    "d": 2173,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1729,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 76970,
+    "d": 11339,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3654,
+      7
+     ],
+     [
+      4370,
+      8
+     ],
+     [
+      5089,
+      9
+     ],
+     [
+      5569,
+      10
+     ],
+     [
+      6069,
+      11
+     ],
+     [
+      6329,
+      12
+     ],
+     [
+      6669,
+      13
+     ],
+     [
+      7489,
+      14
+     ],
+     [
+      7749,
+      15
+     ],
+     [
+      7890,
+      16
+     ],
+     [
+      8650,
+      17
+     ],
+     [
+      9089,
+      18
+     ],
+     [
+      9329,
+      19
+     ],
+     [
+      9949,
+      20
+     ],
+     [
+      10350,
+      21
+     ],
+     [
+      10589,
+      22
+     ]
+    ]
+   },
+   "p4h-pamuk": {
+    "s": 88610,
+    "d": 743,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 89653,
+    "d": 2992,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      770,
+      1
+     ],
+     [
+      1065,
+      2
+     ],
+     [
+      1926,
+      3
+     ],
+     [
+      2221,
+      4
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 92946,
+    "d": 1939,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1389,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 95186,
+    "d": 1925,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 97412,
+    "d": 12995,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      3569,
+      6
+     ],
+     [
+      3809,
+      7
+     ],
+     [
+      4749,
+      8
+     ],
+     [
+      5430,
+      9
+     ],
+     [
+      5709,
+      10
+     ],
+     [
+      6609,
+      11
+     ],
+     [
+      7289,
+      12
+     ],
+     [
+      7549,
+      13
+     ],
+     [
+      7669,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8350,
+      16
+     ],
+     [
+      8749,
+      17
+     ],
+     [
+      9350,
+      18
+     ],
+     [
+      9810,
+      19
+     ],
+     [
+      10589,
+      20
+     ],
+     [
+      10890,
+      21
+     ],
+     [
+      11329,
+      22
+     ],
+     [
+      11549,
+      23
+     ],
+     [
+      11930,
+      24
+     ],
+     [
+      12129,
+      25
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 110708,
+    "d": 2495,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 113503,
+    "d": 3253,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      2930,
+      6
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1873 @@
+{
+ "id": "059-doktor-kalbimi-dinledi",
+ "lang": "en",
+ "title": "The Doctor Listened to My Heart",
+ "theme": "A health check-up, asking permission and calming down with your breath",
+ "blurb": "Ali is a little nervous about his check-up at the health centre. Dr Nazlı asks permission first, and they breathe together; when Ali hears his own heart going thump thump through the stethoscope, he is amazed.",
+ "voiceNames": {
+  "ali": "Ali",
+  "doktor": "Dr Nazlı",
+  "anne": "Mum (Ali's mum)"
+ },
+ "pages": [
+  {
+   "text": "Today was Ali's check-up day. He came to the health centre with Mum. Ali was a little nervous. His tummy felt all wiggly. He held Mum's hand tight. “Welcome, Ali!” said Dr Nazlı.",
+   "hits": {
+    "ali": {
+     "say": "Mum, stay with me, okay?"
+    },
+    "anne": {
+     "say": "I'm here, sweetheart, right beside you."
+    },
+    "doktor": {
+     "say": "Welcome, Ali! I'm Dr Nazlı."
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "Ali's tummy feels all wiggly. How do you feel when you go to the doctor?"
+  },
+  {
+   "text": "Dr Nazlı pointed at the giraffe on the wall. “First, let's measure you. Then, the scales.” Ali stood tall beside the giraffe. Hop, onto the scales! Hop hop, onto the bed!",
+   "hits": {
+    "ali": {
+     "say": "Am I as tall as the giraffe?"
+    },
+    "doktor": {
+     "say": "You've grown so big, Ali!"
+    },
+    "anne": {
+     "say": "Well done, you stood so tall!"
+    }
+   },
+   "mech": {
+    "done": "Height, weight, bed… All done!",
+    "msg": "You did them all in order!"
+   },
+   "hint": "Touch the giraffe first!",
+   "ask": "Where did Ali go first, and where next? How tall are you, and what could we measure you with?"
+  },
+  {
+   "text": "“May I listen to your heart?” said Dr Nazlı. Ali's heart went thump, thump. “Listen to my teddy first!” said Ali. Dr Nazlı listened to the teddy. “A heart as soft as cotton wool!”",
+   "hits": {
+    "doktor": {
+     "say": "May I listen to your heart, Ali?"
+    },
+    "ali": {
+     "say": "Listen to my teddy first!"
+    },
+    "anne": {
+     "say": "No rush to decide."
+    },
+    "ayicik": {
+     "say": "Pit-a-pat! Teddy's heart is as soft as cotton wool!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Ali will do now?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Hug his mum"
+     },
+     {
+      "l": "Take a deep breath"
+     }
+    ]
+   },
+   "hint": "Touch the doctor!",
+   "ask": "Whose heart did Ali have listened to first? What do you do when you feel shy?",
+   "cues": [
+    {
+     "w": 12,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ali held Mum's hand. Dr Nazlı said, “Let's breathe first.” She held up her finger. “Smell the flower. Blow out my finger candle!” Ali sniffed, and blew. Ahh, he felt better.",
+   "hits": {
+    "ali": {
+     "say": "Sniff… blow… Ahh, that's it!"
+    },
+    "anne": {
+     "say": "Well done, nice and slow."
+    },
+    "mum": {
+     "say": "Blow out my finger candle!"
+    }
+   },
+   "mech": {
+    "done": "Ahh! Ali feels calmer now.",
+    "msg": "Three deep breaths!"
+   },
+   "hint": "Smell the flower first!",
+   "ask": "Let's try it too: smell the flower, blow out the finger candle. Three times! How did it feel?"
+  },
+  {
+   "text": "“Yes, you can listen now!” said Ali. The stethoscope felt cool. Then Ali put the earpieces on too. Thump thump! Thump thump! “Is that my heart?”",
+   "hits": {
+    "ali": {
+     "say": "Thump thump! That's my heart!"
+    },
+    "doktor": {
+     "say": "Yes, that's your heart. A hard-working heart!"
+    },
+    "anne": {
+     "say": "I want to hear it too!"
+    }
+   },
+   "mech": {
+    "done": "Four thumps! Ali's heart is working.",
+    "msg": "You counted Ali's heartbeats!"
+   },
+   "hint": "Touch the hearts and count!",
+   "ask": "How did Ali feel when he heard his heart? Put your hand on your chest too: what can you feel?"
+  },
+  {
+   "text": "Dr Nazlı said, “Now hop like a bunny!” Hop! Hop! Hop! Ali listened again. Thump thump thump! His heart had sped up. “My heart is running!”",
+   "hits": {
+    "ali": {
+     "say": "Hop! Hop! Hop! My heart is running!"
+    },
+    "doktor": {
+     "say": "When you hop, your heart beats fast."
+    },
+    "anne": {
+     "say": "What lovely hopping!"
+    }
+   },
+   "hint": "Make Ali hop!",
+   "ask": "How did Ali's heart beat when he hopped? Let's hop like bunnies for one song, then put our hands on our chests."
+  },
+  {
+   "text": "“Let me rest a bit,” said Ali. Thump… thump… His heart slowed down. “Your heart is ticking along nicely!” said Dr Nazlı. Ali smiled a big smile. “Bye-bye! Thump thump!”",
+   "hits": {
+    "ali": {
+     "say": "Bye-bye! Thump thump!"
+    },
+    "doktor": {
+     "say": "Bye-bye, Ali! Your heart is ticking along nicely."
+    },
+    "anne": {
+     "say": "I'm proud of you."
+    }
+   },
+   "hint": "Say goodbye with Ali!",
+   "ask": "How did Ali feel at the very start, and how at the very end? What helped him?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.8 Saying what fitness skills are needed for an active and healthy life (HSAB.8.a Notices changes in breathing, heartbeat and sweating during movement): notices and says that their heart speeds up after hopping and slows down when they rest. HSAB.8.c Expresses the need to rest when necessary: can say “Let me rest a bit,” like Ali.",
+   "SDB1.2 Self-Regulation and E2.4 Trust: notices the signs in their body when nervous (a wiggly tummy, a thumping heart); calms down by holding a trusted grown-up's hand and with the “smell the flower, blow the candle” breath.",
+   "D8 Privacy and D13 Healthy Living: notices that even the doctor asks permission before touching their body, that the check-up happens with a trusted grown-up present, and that they can set the pace themselves by saying “Listen to my teddy first!”; says that regular check-ups are done to protect our health.",
+   "TADB.3 Analysing what they listen to/watch (identifies the parts of events; tells what they heard in the order it happened): in the ordering game at the end of the story, puts the arriving, asking-permission and hopping scenes in order."
+  ],
+  "once": [
+   "Show the cover: “Where has Ali come to? Have you ever been to the health centre or the doctor?”",
+   "Put your hand on your chest, and let the child do the same: “Shhh… Can you feel something? What does our heart say?”",
+   "Show a toy stethoscope or a picture of one: “What could this be? What does the doctor listen to with it?”"
+  ],
+  "sirasi": [
+   "On page 1, look at Ali's body: “His tummy feels all wiggly. What might Ali be feeling?” Say that feeling nervous is a normal feeling.",
+   "Stop on page 3: “What did the doctor ask Ali? What did Ali want?” Point out that both predictions are safe; we ask permission before touching someone's body, and a grown-up we trust is right beside us.",
+   "On pages 4 and 6, do the breathing and the hopping together; then put your hand on your chest and feel the heart speeding up and slowing down."
+  ],
+  "sonra": [
+   "Have the child tell the events in order: “What happened first? What did the doctor measure? How did Ali feel at the very end?”",
+   "Repeat the “smell the flower, blow the candle” breath three times with a finger candle; ask: “When could you use this breath?”",
+   "Talk about the language of permission: “What did Dr Nazlı ask Ali? What did Ali want?” Your body belongs to you. At the doctor's check-up, a grown-up you trust is with you."
+  ],
+  "sinif": {
+   "ad": "Thump Thump Doctors",
+   "sure": "20 min",
+   "materyal": "Toy stethoscopes or cardboard tubes (toilet roll tubes), teddy bears, a height chart with a giraffe picture, a potted flower",
+   "adim": [
+    "Remember the story; everyone holds up a finger candle, smells the flower, blows the candle (three times).",
+    "Pair up: the child who is the “doctor” asks first: “May I listen to your heart?” The friend can say “Yes” or, like Ali, “Listen to the teddy first”; both answers are accepted. Listening is done over the clothes, in the middle of the chest; a friend who says ‘No’ has their answer respected.",
+    "Listen to the heart with the tube or stethoscope. Then hop like bunnies or run on the spot for one song (about half a minute), put your hand on your chest: “What did your heart do?” Listen once more after resting.",
+    "To finish, everyone holds up one of the “My heart sped up / slowed down” cards (a picture of a running heart and a sleeping heart)."
+   ]
+  },
+  "evSoru": [
+   "What did Dr Nazlı ask before she listened to Ali's heart?",
+   "What did Ali's heart do when he hopped? What happened when he rested?",
+   "What do you do when you feel nervous? Whose hand do you hold?"
+  ],
+  "evEtk": {
+   "ad": "Heart Listening at Home",
+   "d": "Take turns listening to each other's hearts with a cardboard tube. Before listening, ask all together: “May I listen to your heart?” Then hop like bunnies or run on the spot for one song (about half a minute), put your hand on your chest and listen again; listen once more after resting. Give your child the chance to describe how the heart speeds up and slows down."
+  },
+  "aileNotu": "Today we read “The Doctor Listened to My Heart.” Ali is a little nervous about his check-up; he holds his mum's hand, does the “smell the flower, blow the candle” breath with his doctor and hears the sound of his own heart. Dr Nazlı asks Ali's permission before touching him; this is a lovely example that reminds the child that their body belongs to them. Before a check-up, you can prepare your child in advance, listen to their worries without brushing them aside, and play this breathing game together. The story can also be read in the week of 14 March, Medicine Day in Türkiye."
+ },
+ "audio": {
+  "file": "audio/en/059-doktor-kalbimi-dinledi.mp3",
+  "hash": "53a60a6e",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12698,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      2509,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      2749,
+      9
+     ],
+     [
+      3009,
+      10
+     ],
+     [
+      3329,
+      11
+     ],
+     [
+      3509,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      4649,
+      14
+     ],
+     [
+      4850,
+      15
+     ],
+     [
+      4989,
+      16
+     ],
+     [
+      5310,
+      17
+     ],
+     [
+      6149,
+      18
+     ],
+     [
+      6390,
+      19
+     ],
+     [
+      6769,
+      20
+     ],
+     [
+      7029,
+      21
+     ],
+     [
+      7329,
+      22
+     ],
+     [
+      8249,
+      23
+     ],
+     [
+      8409,
+      24
+     ],
+     [
+      8690,
+      25
+     ],
+     [
+      9009,
+      26
+     ],
+     [
+      9409,
+      27
+     ],
+     [
+      10369,
+      28
+     ],
+     [
+      10890,
+      29
+     ],
+     [
+      11569,
+      30
+     ],
+     [
+      11810,
+      31
+     ],
+     [
+      12149,
+      32
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 12998,
+    "d": 2172,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      521,
+      1
+     ],
+     [
+      823,
+      2
+     ],
+     [
+      1125,
+      3
+     ],
+     [
+      1606,
+      4
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 15470,
+    "d": 2673,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2370,
+      5
+     ]
+    ]
+   },
+   "p0h-doktor": {
+    "s": 18443,
+    "d": 2449,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1619,
+      2
+     ],
+     [
+      1882,
+      3
+     ],
+     [
+      2145,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21193,
+    "d": 12052,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2009,
+      7
+     ],
+     [
+      2130,
+      8
+     ],
+     [
+      2949,
+      9
+     ],
+     [
+      3589,
+      10
+     ],
+     [
+      3849,
+      11
+     ],
+     [
+      4169,
+      12
+     ],
+     [
+      4709,
+      13
+     ],
+     [
+      5149,
+      14
+     ],
+     [
+      5289,
+      15
+     ],
+     [
+      6350,
+      16
+     ],
+     [
+      6709,
+      17
+     ],
+     [
+      7029,
+      18
+     ],
+     [
+      7449,
+      19
+     ],
+     [
+      7809,
+      20
+     ],
+     [
+      7890,
+      21
+     ],
+     [
+      8909,
+      22
+     ],
+     [
+      9390,
+      23
+     ],
+     [
+      9629,
+      24
+     ],
+     [
+      9770,
+      25
+     ],
+     [
+      10569,
+      26
+     ],
+     [
+      10789,
+      27
+     ],
+     [
+      11270,
+      28
+     ],
+     [
+      11509,
+      29
+     ],
+     [
+      11609,
+      30
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 33545,
+    "d": 1813,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      869,
+      4
+     ],
+     [
+      989,
+      5
+     ],
+     [
+      1109,
+      6
+     ]
+    ]
+   },
+   "p1h-doktor": {
+    "s": 35659,
+    "d": 2310,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1649,
+      4
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 38269,
+    "d": 2878,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2150,
+      5
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 41447,
+    "d": 3191,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      2609,
+      3
+     ],
+     [
+      2749,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 44939,
+    "d": 13486,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      689,
+      4
+     ],
+     [
+      889,
+      5
+     ],
+     [
+      1609,
+      6
+     ],
+     [
+      1849,
+      7
+     ],
+     [
+      2170,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3589,
+      10
+     ],
+     [
+      3930,
+      11
+     ],
+     [
+      4330,
+      12
+     ],
+     [
+      5009,
+      13
+     ],
+     [
+      5910,
+      14
+     ],
+     [
+      6209,
+      15
+     ],
+     [
+      6329,
+      16
+     ],
+     [
+      6509,
+      17
+     ],
+     [
+      6870,
+      18
+     ],
+     [
+      7609,
+      19
+     ],
+     [
+      7870,
+      20
+     ],
+     [
+      8730,
+      21
+     ],
+     [
+      9089,
+      22
+     ],
+     [
+      9569,
+      23
+     ],
+     [
+      9890,
+      24
+     ],
+     [
+      10009,
+      25
+     ],
+     [
+      10129,
+      26
+     ],
+     [
+      11049,
+      27
+     ],
+     [
+      11209,
+      28
+     ],
+     [
+      11609,
+      29
+     ],
+     [
+      11850,
+      30
+     ],
+     [
+      12230,
+      31
+     ],
+     [
+      12430,
+      32
+     ],
+     [
+      12909,
+      33
+     ]
+    ]
+   },
+   "p2h-doktor": {
+    "s": 58726,
+    "d": 2226,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      849,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1609,
+      6
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 61252,
+    "d": 1794,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      500,
+      1
+     ],
+     [
+      764,
+      2
+     ],
+     [
+      1029,
+      3
+     ],
+     [
+      1489,
+      4
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 63346,
+    "d": 1377,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      689,
+      3
+     ]
+    ]
+   },
+   "p2h-ayicik": {
+    "s": 65024,
+    "d": 4167,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1129,
+      1
+     ],
+     [
+      1609,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3089,
+      7
+     ],
+     [
+      3589,
+      8
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 69492,
+    "d": 1879,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      369,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      969,
+      5
+     ],
+     [
+      1150,
+      6
+     ],
+     [
+      1329,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 71671,
+    "d": 2266,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 74238,
+    "d": 13747,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3769,
+      8
+     ],
+     [
+      4229,
+      9
+     ],
+     [
+      5149,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5549,
+      12
+     ],
+     [
+      5689,
+      13
+     ],
+     [
+      5850,
+      14
+     ],
+     [
+      6649,
+      15
+     ],
+     [
+      6989,
+      16
+     ],
+     [
+      7129,
+      17
+     ],
+     [
+      7969,
+      18
+     ],
+     [
+      8190,
+      19
+     ],
+     [
+      8329,
+      20
+     ],
+     [
+      8489,
+      21
+     ],
+     [
+      8810,
+      22
+     ],
+     [
+      9749,
+      23
+     ],
+     [
+      10089,
+      24
+     ],
+     [
+      10749,
+      25
+     ],
+     [
+      10930,
+      26
+     ],
+     [
+      11969,
+      27
+     ],
+     [
+      12829,
+      28
+     ],
+     [
+      12969,
+      29
+     ],
+     [
+      13270,
+      30
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 88285,
+    "d": 3648,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1019,
+      1
+     ],
+     [
+      1998,
+      2
+     ],
+     [
+      2711,
+      3
+     ],
+     [
+      3159,
+      4
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 92234,
+    "d": 2398,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1849,
+      4
+     ]
+    ]
+   },
+   "p3h-mum": {
+    "s": 94932,
+    "d": 1705,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1089,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 96938,
+    "d": 2744,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      1189,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2249,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 99983,
+    "d": 11160,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      3049,
+      7
+     ],
+     [
+      3209,
+      8
+     ],
+     [
+      3869,
+      9
+     ],
+     [
+      4169,
+      10
+     ],
+     [
+      5189,
+      11
+     ],
+     [
+      5569,
+      12
+     ],
+     [
+      5830,
+      13
+     ],
+     [
+      5989,
+      14
+     ],
+     [
+      6129,
+      15
+     ],
+     [
+      6729,
+      16
+     ],
+     [
+      6890,
+      17
+     ],
+     [
+      7729,
+      18
+     ],
+     [
+      8009,
+      19
+     ],
+     [
+      8730,
+      20
+     ],
+     [
+      9049,
+      21
+     ],
+     [
+      10009,
+      22
+     ],
+     [
+      10169,
+      23
+     ],
+     [
+      10409,
+      24
+     ],
+     [
+      10629,
+      25
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 111443,
+    "d": 2335,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      404,
+      1
+     ],
+     [
+      1201,
+      2
+     ],
+     [
+      1565,
+      3
+     ],
+     [
+      1930,
+      4
+     ]
+    ]
+   },
+   "p4h-doktor": {
+    "s": 114078,
+    "d": 3718,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      3150,
+      6
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 118096,
+    "d": 1331,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      430,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      769,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 119727,
+    "d": 3045,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1889,
+      3
+     ],
+     [
+      2189,
+      4
+     ],
+     [
+      2410,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 123073,
+    "d": 10808,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2209,
+      7
+     ],
+     [
+      3029,
+      8
+     ],
+     [
+      3509,
+      9
+     ],
+     [
+      3969,
+      10
+     ],
+     [
+      4810,
+      11
+     ],
+     [
+      5169,
+      12
+     ],
+     [
+      5549,
+      13
+     ],
+     [
+      6410,
+      14
+     ],
+     [
+      6769,
+      15
+     ],
+     [
+      7109,
+      16
+     ],
+     [
+      7930,
+      17
+     ],
+     [
+      8150,
+      18
+     ],
+     [
+      8430,
+      19
+     ],
+     [
+      8629,
+      20
+     ],
+     [
+      8949,
+      21
+     ],
+     [
+      9609,
+      22
+     ],
+     [
+      9829,
+      23
+     ],
+     [
+      10109,
+      24
+     ],
+     [
+      10310,
+      25
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 134182,
+    "d": 3245,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1909,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2630,
+      6
+     ]
+    ]
+   },
+   "p5h-doktor": {
+    "s": 137728,
+    "d": 2593,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1550,
+      5
+     ],
+     [
+      1909,
+      6
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 140621,
+    "d": 1728,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      355,
+      1
+     ],
+     [
+      1138,
+      2
+     ]
+    ]
+   },
+   "p6": {
+    "s": 142649,
+    "d": 13786,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      729,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1889,
+      6
+     ],
+     [
+      2670,
+      7
+     ],
+     [
+      3369,
+      8
+     ],
+     [
+      4290,
+      9
+     ],
+     [
+      4509,
+      10
+     ],
+     [
+      4910,
+      11
+     ],
+     [
+      5289,
+      12
+     ],
+     [
+      6189,
+      13
+     ],
+     [
+      6449,
+      14
+     ],
+     [
+      6709,
+      15
+     ],
+     [
+      6910,
+      16
+     ],
+     [
+      7249,
+      17
+     ],
+     [
+      7589,
+      18
+     ],
+     [
+      8390,
+      19
+     ],
+     [
+      8629,
+      20
+     ],
+     [
+      8949,
+      21
+     ],
+     [
+      9989,
+      22
+     ],
+     [
+      10249,
+      23
+     ],
+     [
+      10730,
+      24
+     ],
+     [
+      10890,
+      25
+     ],
+     [
+      11209,
+      26
+     ],
+     [
+      12069,
+      27
+     ],
+     [
+      13049,
+      28
+     ],
+     [
+      13350,
+      29
+     ]
+    ]
+   },
+   "p6h-ali": {
+    "s": 156736,
+    "d": 1985,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1171,
+      1
+     ],
+     [
+      1558,
+      2
+     ]
+    ]
+   },
+   "p6h-doktor": {
+    "s": 159021,
+    "d": 3774,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      3069,
+      7
+     ]
+    ]
+   },
+   "p6h-anne": {
+    "s": 163096,
+    "d": 1152,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      749,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

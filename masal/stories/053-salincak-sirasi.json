@@ -1,0 +1,1754 @@
+{
+ "id": "053-salincak-sirasi",
+ "n": 53,
+ "title": "Salıncak Sırası",
+ "age": "36-48",
+ "area": "Sosyal",
+ "theme": "Sıra beklemek ve sırayı adilce paylaşmak",
+ "values": [
+  "D1 Adalet",
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB2.1 İletişim",
+ "min": 3,
+ "blurb": "Parkta iki salıncak, üç arkadaş var. Ela çok kızar ama derin bir nefes alır ve bir fikir bulur: “Beşer kez sallanalım, sonra sıra değişsin!”",
+ "codes": {
+  "maarif": [
+   "beceri: SBAB5 Sosyal Katılım",
+   "MAB.1 Ritmik ve algısal sayabilme (36-48 ay: 1-5 arası ritmik sayar)",
+   "TAKB.1 Konuşma sürecini yönetebilme (söz sırasını bekler, göz teması kurar)",
+   "SDB2.1 İletişim",
+   "D1 Adalet",
+   "D4 Dostluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ela": "cocuk-kiz",
+  "can": "cocuk-erkek",
+  "deniz": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "ela": "Ela",
+  "can": "Can",
+  "deniz": "Deniz"
+ },
+ "pages": [
+  {
+   "text": "Güneşli bir sabahtı. Can ile Deniz salıncaktaydı. Vuuu, vuuu! Can bağırdı: “Ayaklarım bulutlara değdi!” Ela koşa koşa geldi. “Ben de sallanmak istiyorum!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "cast": [
+     {
+      "k": "can",
+      "x": 304,
+      "y": 187,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "can"
+     },
+     {
+      "k": "deniz",
+      "x": 341,
+      "y": 187,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "ela",
+      "x": 110,
+      "y": 228,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "run",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 210,
+      "y": 234,
+      "s": 1.4
+     },
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 232
+     },
+     {
+      "k": "flower",
+      "x": 388,
+      "y": 234
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Ben de sallanmak istiyorum!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "can": {
+     "say": "Ayaklarım bulutlara değdi!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "deniz": {
+     "say": "Vuuu, vuuu!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Sen parkta en çok neye binmeyi seversin?",
+   "cues": [
+    {
+     "w": 7,
+     "fx": "ruzgar"
+    }
+   ]
+  },
+  {
+   "text": "“Sıra bende!” dedi Ela. “Daha yeni bindim!” dedi Can. “Ben de!” dedi Deniz. Ela çok kızdı. Yanakları kızardı, yumruklarını sıktı. Güm, güm, ayağını yere vurdu!",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "cast": [
+     {
+      "k": "can",
+      "x": 304,
+      "y": 187,
+      "s": 0.8,
+      "mood": "surprised",
+      "pose": "seat",
+      "hit": "can"
+     },
+     {
+      "k": "deniz",
+      "x": 341,
+      "y": 187,
+      "s": 0.8,
+      "mood": "think",
+      "pose": "seat",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "ela",
+      "x": 190,
+      "y": 234,
+      "s": 1.45,
+      "mood": "angry",
+      "pose": "stand",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 80,
+      "y": 232,
+      "s": 1.3
+     },
+     {
+      "k": "flower",
+      "x": 32,
+      "y": 236
+     },
+     {
+      "k": "flower",
+      "x": 388,
+      "y": 234
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Yanaklarım yanıyor! Yumruklarım sımsıkı!",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "can": {
+     "say": "Ama daha yeni bindim!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Ben de yeni bindim!",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Ela ne hissediyor? Yanaklarından, ellerinden ve ayaklarından nasıl anlıyorsun?"
+  },
+  {
+   "text": "Ela durdu. Derin bir nefes aldı. Çiçeği koklar gibi içine, mumu üfler gibi fuuu! Yanakları serinledi. Aklına bir fikir geldi!",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "cast": [
+     {
+      "k": "can",
+      "x": 304,
+      "y": 187,
+      "s": 0.8,
+      "mood": "calm",
+      "pose": "seat"
+     },
+     {
+      "k": "deniz",
+      "x": 341,
+      "y": 187,
+      "s": 0.8,
+      "mood": "calm",
+      "pose": "seat",
+      "flip": true
+     },
+     {
+      "k": "ela",
+      "x": 150,
+      "y": 232,
+      "s": 1.3,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "ela",
+      "turn": 0.4
+     }
+    ],
+    "props": [
+     {
+      "k": "cloud",
+      "x": 245,
+      "y": 62,
+      "s": 1.7
+     },
+     {
+      "k": "flower",
+      "x": 224,
+      "y": 86,
+      "s": 0.7,
+      "hit": "cicek"
+     },
+     {
+      "k": "candle",
+      "x": 268,
+      "y": 84,
+      "s": 0.85,
+      "hit": "mum"
+     },
+     {
+      "k": "star",
+      "x": 100,
+      "y": 78,
+      "r": 6,
+      "s": 1.4
+     },
+     {
+      "k": "flower",
+      "x": 40,
+      "y": 234
+     },
+     {
+      "k": "flower",
+      "x": 250,
+      "y": 236
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Fuuu… Şimdi daha sakinim.",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "cicek": {
+     "anim": "boing",
+     "fx": "sniff"
+    },
+    "mum": {
+     "anim": "wiggle",
+     "fx": "blow"
+    }
+   },
+   "predict": {
+    "q": "Sence Ela ne yapacak?",
+    "res": "İkisi de güzel bir yol! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Can'la konuşur",
+      "scene": {
+       "set": "oyun-parki",
+       "time": "day",
+       "season": "summer",
+       "still": true,
+       "cast": [
+        {
+         "k": "can",
+         "x": 304,
+         "y": 187,
+         "s": 0.8,
+         "mood": "happy",
+         "pose": "seat"
+        },
+        {
+         "k": "deniz",
+         "x": 341,
+         "y": 187,
+         "s": 0.8,
+         "mood": "calm",
+         "pose": "seat",
+         "flip": true
+        },
+        {
+         "k": "ela",
+         "x": 240,
+         "y": 228,
+         "s": 1.15,
+         "mood": "happy",
+         "pose": "open"
+        }
+       ],
+       "props": [
+        {
+         "k": "flower",
+         "x": 60,
+         "y": 234
+        }
+       ]
+      }
+     },
+     {
+      "l": "Bankta bekler",
+      "scene": {
+       "set": "oyun-parki",
+       "time": "day",
+       "season": "summer",
+       "still": true,
+       "cast": [
+        {
+         "k": "can",
+         "x": 304,
+         "y": 187,
+         "s": 0.8,
+         "mood": "laugh",
+         "pose": "seat"
+        },
+        {
+         "k": "deniz",
+         "x": 341,
+         "y": 187,
+         "s": 0.8,
+         "mood": "laugh",
+         "pose": "seat",
+         "flip": true
+        },
+        {
+         "k": "ela",
+         "x": 120,
+         "y": 228,
+         "s": 1.0,
+         "pose": "seat",
+         "mood": "calm",
+         "turn": 0.4,
+         "z": 237
+        }
+       ],
+       "props": [
+        {
+         "k": "bank",
+         "x": 120,
+         "y": 234
+        },
+        {
+         "k": "flower",
+         "x": 30,
+         "y": 234
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "cicek",
+    "Çiçeği kokla, mumu üfle!"
+   ],
+   "ask": "Sen kızınca ne yaparsın? Hadi Ela ile birlikte: çiçeği kokla, mumu üfle!",
+   "mech": {
+    "type": "breathe",
+    "flower": "cicek",
+    "candle": "mum",
+    "who": "ela",
+    "times": 2,
+    "done": "Oh! Ela sakinleşti.",
+    "msg": "Birlikte nefes aldınız!"
+   }
+  },
+  {
+   "text": "Ela, Can'ın gözlerine baktı, gülümsedi: “Beş kez sallanalım. Sonra sıra değişsin!” “Olur!” dedi Can. Ela bekledi, saydı: “Bir, iki, üç, dört, beş!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "can",
+      "x": 304,
+      "y": 187,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "can"
+     },
+     {
+      "k": "deniz",
+      "x": 341,
+      "y": 187,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "seat",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "ela",
+      "x": 62,
+      "y": 230,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ela",
+      "turn": 0.5
+     }
+    ],
+    "props": [
+     {
+      "k": "sayi",
+      "x": 130,
+      "y": 233,
+      "n": 1,
+      "s": 0.85,
+      "hit": "s1"
+     },
+     {
+      "k": "sayi",
+      "x": 174,
+      "y": 233,
+      "n": 2,
+      "s": 0.85,
+      "hit": "s2"
+     },
+     {
+      "k": "sayi",
+      "x": 218,
+      "y": 233,
+      "n": 3,
+      "s": 0.85,
+      "hit": "s3"
+     },
+     {
+      "k": "sayi",
+      "x": 262,
+      "y": 233,
+      "n": 4,
+      "s": 0.85,
+      "hit": "s4"
+     },
+     {
+      "k": "sayi",
+      "x": 306,
+      "y": 233,
+      "n": 5,
+      "s": 0.85,
+      "hit": "s5"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Beş kez sallanalım!",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "can": {
+     "say": "Olur! Sen say, Ela!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "deniz": {
+     "say": "Ben de beş kez!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "whoosh"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "s1",
+     "s2",
+     "s3",
+     "s4",
+     "s5"
+    ],
+    "done": "Beş! Sıra değişiyor!",
+    "msg": "Beşe kadar saydın!"
+   },
+   "hint": [
+    "s1",
+    "Sen de say!"
+   ],
+   "ask": "Ela nasıl bir fikir buldu? Parmaklarınla beşe kadar sayar mısın?"
+  },
+  {
+   "text": "Can salıncaktan indi. “Buyur, Ela, sıra sende!” dedi. Ela salıncağa yürüdü. Adım, adım, bir adım daha!",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 341,
+      "y": 187,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "seat",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "can",
+      "x": 366,
+      "y": 236,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "can",
+      "flip": true
+     },
+     {
+      "k": "ela",
+      "x": 90,
+      "y": 232,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 234
+     },
+     {
+      "k": "top",
+      "x": 200,
+      "y": 212,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Buyur Ela, sıra sende!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ela": {
+     "say": "Teşekkürler Can!",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "deniz": {
+     "say": "Hadi Ela, gel!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "ela",
+    "steps": 3,
+    "step": 70,
+    "say": "Adım, adım, bir adım daha!",
+    "done": "Ela salıncağa geldi!",
+    "msg": "Sıra Ela'da!"
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun, yürüsün!"
+   ],
+   "ask": "Can sırasını verince Ela ne hissetti? Sen sıra isterken ne dersin?"
+  },
+  {
+   "text": "Ela sallandı: vuuu! Can saydı. Beş olunca Ela indi. Sonra Can, sonra yine Ela! Sıra döndü, döndü. “Sıra herkese gelir!” dedi Deniz.",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "cast": [
+     {
+      "k": "ela",
+      "x": 304,
+      "y": 187,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "ela"
+     },
+     {
+      "k": "can",
+      "x": 341,
+      "y": 187,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "can",
+      "flip": true
+     },
+     {
+      "k": "deniz",
+      "x": 225,
+      "y": 234,
+      "s": 1.3,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "deniz",
+      "turn": 0.6
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 322,
+      "y": 88,
+      "s": 0.9
+     },
+     {
+      "k": "flower",
+      "x": 40,
+      "y": 234
+     },
+     {
+      "k": "flower",
+      "x": 120,
+      "y": 236
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Sıra herkese gelir!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "ela": {
+     "say": "Vuuu! Uçuyorum sanki!",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "can": {
+     "say": "Sonra sen, Deniz!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Sıra neden herkese geldi? Sen kiminle sırayla oynarsın?",
+   "cues": [
+    {
+     "w": 2,
+     "fx": "ruzgar"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "SBAB5 Sosyal Katılım (alan becerisi): Parktaki ortak oyuna katılır; iki salıncağın üç arkadaşa yetmediğini fark eder ve herkesin sırası gelen bir oyun kuralı önerir (“Beşer kez sallanalım, sonra sıra değişsin”).",
+   "MAB.1 Ritmik ve algısal sayabilme (36-48 ay uyarlaması: 1-5 arasında ileriye doğru birer ritmik sayar, nesne/varlık miktarını sayarak belirler): Ela ile birlikte salıncağın sallanışlarını “bir, iki, üç, dört, beş” diye sayar; son söylenen sayının sırayı değiştirdiğini fark eder.",
+   "TAKB.1 Konuşma sürecini yönetebilme (ikincil): İstediğini bağırmak yerine arkadaşının gözlerine bakarak sakin bir sesle önerisini söyler; arkadaşının yanıtını bekler.",
+   "SDB2.1 İletişim ve D1 Adalet: Herkese eşit sıra verilen bir kural kurar; sırası gelen arkadaşına “Buyur, sıra sende!” der."
+  ],
+  "once": [
+   "Kapaktaki salıncağı gösterin: “Burada kaç salıncak var? Kaç çocuk var? Sence ne olacak?”",
+   "“Sen de bir oyuncak için sıra bekledin mi? Beklerken neler hissettin?” diye sorun; cevapları yargılamadan dinleyin."
+  ],
+  "sirasi": [
+   "2. sayfada Ela'nın yanaklarını ve yumruklarını gösterin: “Ela kızınca bedeninde neler oldu?” Çocuklarla yumrukları sıkıp sonra gevşetin.",
+   "3. sayfada çiçeğe ve muma dokunarak Ela ile birlikte iki kez nefes alın: çiçeği kokla (burundan içeri), mumu üfle (ağızdan “fuuu”). Tahmin sorusunda iki seçeneğin de iyi olduğunu söyleyin.",
+   "4. sayfada Ela'nın beklerken saydığını gösterin; sayı kartlarına dokunurken hep birlikte, ritimle sayın: “Bir, iki, üç, dört, beş!” Her sayıda bir kez sallanır gibi gövdenizi sallayın."
+  ],
+  "sonra": [
+   "Olayları sırayla anlattırın: Ela kızdı → nefes aldı → beşer kez fikrini söyledi → Can sırasını verdi → sıra herkese geldi.",
+   "“Ela kızdığında ne yaptı? Sen kızınca hangi yolu denersin?” diye sorun; nefes almak, konuşmak, bir büyüğe söylemek gibi yolları birlikte sayın.",
+   "Sırayı istemek için kullanılabilecek cümleleri birlikte bulun: “Ben de binebilir miyim?”, “Beşer kez sırayla olsun mu?”, “Buyur, sıra sende!”"
+  ],
+  "sinif": {
+   "ad": "Beşer Kez Sallan, Sırayı Ver",
+   "sure": "15 dk",
+   "materyal": "1'den 5'e sayı kartları, bir sandalye ya da minder (“salıncak”), sakin bir müzik",
+   "adim": [
+    "Sandalye sınıfın “salıncağı” olur. Kural söylenir: “Salıncakta beş kez sallanırız, sonra sıra değişir.”",
+    "Bir çocuk sandalyeye oturup gövdesini öne arkaya sallar; bekleyen çocuklar hep birlikte, sayı kartlarını tek tek göstererek “Bir, iki, üç, dört, beş!” diye sayar.",
+    "“Beş!” deyince oturan çocuk kalkar ve sıradakine “Buyur, sıra sende!” der; sıradaki “Teşekkürler!” diye yanıtlar.",
+    "Kapanışta sorun: “Beklerken ne hissettin? Sıra sana gelince ne hissettin?” Çocuklar yüz ifadeleriyle gösterir."
+   ]
+  },
+  "evSoru": [
+   "Ela neden kızdı? Kızınca yanakları ve elleri nasıl oldu?",
+   "Ela sakinleşmek için ne yaptı? Hadi birlikte deneyelim!",
+   "Ela hangi fikri buldu? Kaç kez sallandılar?"
+  ],
+  "evEtk": {
+   "ad": "Evde Beşer Kez Sırası",
+   "d": "Çocuğunuzla ya da kardeşiyle paylaşılması zor bir oyuncak seçin. Oyuncakla sırayla oynarken birlikte yavaşça beşe kadar sayın; “Beş!” deyince oyuncak sıradakine geçsin. Sıra değişirken “Buyur, sıra sende!” ve “Teşekkürler!” demeyi birlikte deneyin."
+  },
+  "aileNotu": "Bugün “Salıncak Sırası” masalını okuduk. Parkta iki salıncak ve üç arkadaş var; Ela sırası gelmeyince çok kızıyor, derin bir nefes alıp sakinleşiyor ve “Beşer kez sallanalım, sonra sıra değişsin!” fikrini buluyor. Masal, sıra beklemeyi, duyguyu sakin yollarla göstermeyi ve beşe kadar ritmik saymayı destekliyor. Evde oyuncaklarla sırayla oynarken birlikte beşe kadar sayarak bu kuralı deneyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/053-salincak-sirasi.mp3",
+  "hash": "cdce986e",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12233,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      3930,
+      7
+     ],
+     [
+      4830,
+      8
+     ],
+     [
+      5850,
+      9
+     ],
+     [
+      6149,
+      10
+     ],
+     [
+      7069,
+      11
+     ],
+     [
+      7609,
+      12
+     ],
+     [
+      8129,
+      13
+     ],
+     [
+      8909,
+      14
+     ],
+     [
+      9270,
+      15
+     ],
+     [
+      9589,
+      16
+     ],
+     [
+      9890,
+      17
+     ],
+     [
+      10649,
+      18
+     ],
+     [
+      10850,
+      19
+     ],
+     [
+      10989,
+      20
+     ],
+     [
+      11569,
+      21
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 12533,
+    "d": 1988,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 14821,
+    "d": 2042,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1329,
+      2
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 17164,
+    "d": 2013,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1109,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19477,
+    "d": 12558,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2529,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      3549,
+      8
+     ],
+     [
+      4089,
+      9
+     ],
+     [
+      4370,
+      10
+     ],
+     [
+      4870,
+      11
+     ],
+     [
+      5149,
+      12
+     ],
+     [
+      6049,
+      13
+     ],
+     [
+      6410,
+      14
+     ],
+     [
+      6669,
+      15
+     ],
+     [
+      7370,
+      16
+     ],
+     [
+      7910,
+      17
+     ],
+     [
+      8669,
+      18
+     ],
+     [
+      9350,
+      19
+     ],
+     [
+      10049,
+      20
+     ],
+     [
+      10690,
+      21
+     ],
+     [
+      11390,
+      22
+     ],
+     [
+      11850,
+      23
+     ],
+     [
+      12129,
+      24
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 32335,
+    "d": 3377,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1709,
+      2
+     ],
+     [
+      2529,
+      3
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 36012,
+    "d": 1573,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      869,
+      3
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 37886,
+    "d": 1446,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      538,
+      2
+     ],
+     [
+      972,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 39633,
+    "d": 10958,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3910,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      4969,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5870,
+      12
+     ],
+     [
+      6865,
+      13
+     ],
+     [
+      7930,
+      14
+     ],
+     [
+      8509,
+      15
+     ],
+     [
+      9569,
+      16
+     ],
+     [
+      9930,
+      17
+     ],
+     [
+      10069,
+      18
+     ],
+     [
+      10409,
+      19
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 50891,
+    "d": 2389,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      919,
+      1
+     ],
+     [
+      1336,
+      2
+     ],
+     [
+      1753,
+      3
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 53580,
+    "d": 2340,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1410,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 56220,
+    "d": 1691,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 58212,
+    "d": 2203,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1489,
+      5
+     ],
+     [
+      1729,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 60715,
+    "d": 13441,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      3369,
+      5
+     ],
+     [
+      3609,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4709,
+      8
+     ],
+     [
+      5029,
+      9
+     ],
+     [
+      5269,
+      10
+     ],
+     [
+      6109,
+      11
+     ],
+     [
+      6749,
+      12
+     ],
+     [
+      7009,
+      13
+     ],
+     [
+      7669,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8890,
+      16
+     ],
+     [
+      9709,
+      17
+     ],
+     [
+      10509,
+      18
+     ],
+     [
+      11409,
+      19
+     ],
+     [
+      12149,
+      20
+     ],
+     [
+      12909,
+      21
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 74457,
+    "d": 1464,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      649,
+      2
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 76222,
+    "d": 1843,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 78365,
+    "d": 1148,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      307,
+      1
+     ],
+     [
+      574,
+      2
+     ],
+     [
+      841,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 79814,
+    "d": 1850,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1089,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 81964,
+    "d": 8797,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3689,
+      7
+     ],
+     [
+      4469,
+      8
+     ],
+     [
+      4850,
+      9
+     ],
+     [
+      5449,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      7049,
+      12
+     ],
+     [
+      7930,
+      13
+     ],
+     [
+      8129,
+      14
+     ],
+     [
+      8409,
+      15
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 91061,
+    "d": 1887,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      456,
+      1
+     ],
+     [
+      1014,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 93249,
+    "d": 1185,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      883,
+      1
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 94734,
+    "d": 1335,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      470,
+      1
+     ],
+     [
+      1047,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 96369,
+    "d": 1704,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 98374,
+    "d": 2459,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      646,
+      1
+     ],
+     [
+      1253,
+      2
+     ],
+     [
+      1513,
+      3
+     ],
+     [
+      1966,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 101133,
+    "d": 12117,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      2469,
+      3
+     ],
+     [
+      2789,
+      4
+     ],
+     [
+      3609,
+      5
+     ],
+     [
+      3869,
+      6
+     ],
+     [
+      4489,
+      7
+     ],
+     [
+      4870,
+      8
+     ],
+     [
+      5529,
+      9
+     ],
+     [
+      5930,
+      10
+     ],
+     [
+      6489,
+      11
+     ],
+     [
+      6829,
+      12
+     ],
+     [
+      7109,
+      13
+     ],
+     [
+      7749,
+      14
+     ],
+     [
+      8089,
+      15
+     ],
+     [
+      8890,
+      16
+     ],
+     [
+      9810,
+      17
+     ],
+     [
+      10149,
+      18
+     ],
+     [
+      10709,
+      19
+     ],
+     [
+      11350,
+      20
+     ],
+     [
+      11609,
+      21
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 113551,
+    "d": 1424,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      432,
+      1
+     ],
+     [
+      991,
+      2
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 115275,
+    "d": 2434,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1040,
+      1
+     ],
+     [
+      1919,
+      2
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 118010,
+    "d": 1666,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      584,
+      1
+     ],
+     [
+      1081,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1816 @@
+{
+ "id": "089-kutulardan-bir-robot",
+ "lang": "en",
+ "title": "Tick: A Robot from Bottle Tops",
+ "theme": "Designing together by reusing waste",
+ "blurb": "On a rainy day, Can and Elif rescue the bottle tops and cardboard tubes that were headed for the recycling. Their hurried robot comes crashing down, but with Elif's step-by-step plan and Dad's tape, a smiling robot is born: Tick!",
+ "voiceNames": {
+  "can": "Can",
+  "elif": "Elif",
+  "baba": "Dad",
+  "tikir": "Tick (robot)"
+ },
+ "pages": [
+  {
+   "text": "It was a rainy Saturday. Dad was sorting the rubbish. Bottle tops and cardboard tubes were going to the recycling. Elif and Can's eyes lit up: “Wait, Dad! Can we play with these?” Dad laughed: “All right!” Can gathered the tops into the box. Click, clack! They found a great big jar lid, too.",
+   "hits": {
+    "elif": {
+     "say": "Wait, Dad! Let's play first!"
+    },
+    "can": {
+     "say": "I'll collect the tops!"
+    },
+    "baba": {
+     "say": "All right, go on then!"
+    }
+   },
+   "mech": {
+    "done": "Five tops in the box! What shall we make?",
+    "msg": "All in the box!"
+   },
+   "hint": "Carry the tops to the box!",
+   "ask": "What gets thrown away at your house? What would you make with it?"
+  },
+  {
+   "text": "Can jumped up: “Let's make a robot!” Quick, quick, he stacked tube on top of tube. He put the great big lid right on top. The robot wobbled, wobbled… Crash, bang, wallop! The tubes rolled across the carpet. The lid ran off like a wheel: rattle, rattle, roll!",
+   "hits": {
+    "can": {
+     "say": "Oh no! My robot fell down!"
+    },
+    "elif": {
+     "say": "Crash, bang, wallop!"
+    }
+   },
+   "hint": "Touch the runaway lid!",
+   "ask": "Why do you think the robot fell down?"
+  },
+  {
+   "text": "Can was so disappointed. His shoulders drooped. His throat went tight. “It's just not working!” he said. Elif came over. “Come on, let's take a deep breath first.” Fwooo… Can felt a little better. Elif smiled: “I've got an idea!”",
+   "hits": {
+    "can": {
+     "say": "It's just not working!"
+    },
+    "elif": {
+     "say": "I've got an idea!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Elif's idea is?",
+    "res": "Let's find out!",
+    "opts": [
+     {
+      "l": "Stack them in order"
+     },
+     {
+      "l": "Ask Dad for help"
+     }
+    ]
+   },
+   "hint": "Touch Elif!",
+   "ask": "How do you feel when something doesn't work? What happens in your body?"
+  },
+  {
+   "text": "Elif made a plan: “First two feet, nice and wide! Then the body, then the arms, and the head last of all!” Dad sat down cross-legged and taped the pieces. Rrrip, rrrip! Can passed the tubes, and Elif put them in place.",
+   "hits": {
+    "elif": {
+     "say": "First two feet, head last of all!"
+    },
+    "baba": {
+     "say": "I'll do the tape, rrrip rrrip!"
+    },
+    "can": {
+     "say": "Here, Elif, one more tube!"
+    }
+   },
+   "mech": {
+    "done": "The robot stood up straight! Not a wobble!",
+    "msg": "The robot is standing!"
+   },
+   "hint": "Stack the feet first!",
+   "ask": "What was Elif's plan? Can you say the order?",
+   "cues": [
+    {
+     "w": 30,
+     "fx": "fermuar"
+    }
+   ]
+  },
+  {
+   "text": "The robot was standing, but it had no buttons at all. Can stuck the coloured tops onto its body one by one. Click, click, click! Elif put an antenna on top. How many buttons does the robot have? Come on, let's count together!",
+   "hits": {
+    "can": {
+     "say": "Click, click, click!"
+    },
+    "elif": {
+     "say": "The antenna is from me!"
+    }
+   },
+   "mech": {
+    "done": "Five buttons! The robot is ready!",
+    "msg": "Five buttons!"
+   },
+   "hint": "Count the buttons!",
+   "ask": "How many buttons would you put on your robot? What colours?",
+   "cues": [
+    {
+     "w": 22,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "The robot's name was Tick. Can and Elif danced around Tick. Dad joined in, and they all laughed together. Tops, tubes… Not one of them went to waste. And Tick laughed too: tick, tick, tick!",
+   "hits": {
+    "tikir": {
+     "say": "Tick, tick, hello!"
+    },
+    "can": {
+     "say": "Tick, let's dance!"
+    },
+    "elif": {
+     "say": "Nothing went to waste!"
+    },
+    "baba": {
+     "say": "I'll dance too!"
+    }
+   },
+   "hint": "Touch Tick!",
+   "ask": "What would you like to make out of tops and tubes?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.2 (learning outcome) · Using objects of different sizes and features effectively — HSAB.2.a grasps objects of different sizes, HSAB.2.ç creates original products using a variety of objects: Can and Elif combine small bottle tops, a big jar lid and cardboard tubes to build their own robot.",
+   "SNAB.4 (learning outcome, unverified) · Carrying out an art activity — decides what to make (“Let's make a robot!”), chooses the materials needed (tops, tubes, tape), and builds a three-dimensional design with modelling materials. Field skill: SNAB4 Artistic Practice.",
+   "OB8 Sustainability Literacy · Notices that waste headed for recycling can be reused first; “Not one of them went to waste.”",
+   "SDB2.2 Cooperation · Sharing the work: Elif plans and places the pieces, Can passes them and sticks on the buttons, Dad tapes; together they manage a job nobody could do alone.",
+   "D17 Thrift · Before throwing something away, asks “What could I make with this?” and turns something old into a new toy."
+  ],
+  "once": [
+   "Show a clean bottle top and an empty cardboard tube: “Is this rubbish, or treasure? What could we make with it?”",
+   "Introduce Can, Elif and Dad on the cover: “How do you think they will build the robot?”",
+   "Talk about whether there is a recycling bin at home and what goes into it."
+  ],
+  "sirasi": [
+   "On page 1, count the tops together: five coloured tops and one great big jar lid. Say “Click, clack!”",
+   "Stop on page 2: “Why did the robot fall down?” Talk about rushing and stacking without a plan.",
+   "On page 3, point to Can's shoulders: “How is Can feeling?” Take a deep breath together. Accept both ideas in the prediction.",
+   "On page 4, repeat Elif's plan all together: “First two feet, then the body, then the arms, and the head last of all!” Why two feet? Try standing on one foot.",
+   "On page 5, count the buttons together with a finger; say their colours."
+  ],
+  "sonra": [
+   "Have the children tell the events in order: they collected the pieces → the robot fell down → Elif made a plan → they stacked in order → they added the buttons → Tick was born.",
+   "Ask “Who did what?”: Elif planned, Can passed and stuck, Dad taped. Talk about why every job mattered.",
+   "Ask “Why was it easier when we did the job step by step?”; listen to the children's own examples."
+  ],
+  "sinif": {
+   "ad": "The Class Top-and-Tube Robot",
+   "sure": "25 min",
+   "materyal": "Cleaned plastic bottle tops, kitchen-roll tubes, wide paper tape, children's scissors, crayons (do not use sharp-edged lids or tin cans). Supervise closely when working with small tops; for hygiene, prefer kitchen-roll tubes to toilet-roll tubes.",
+   "adim": [
+    "Tip the materials onto the carpet; the children sort them into big and small, tops and tubes.",
+    "Small groups follow Elif's plan: first two feet (nice and wide), then the body, then the arms, and the head last. An adult cuts the tape; one child holds, one child sticks.",
+    "Each group sticks top-buttons onto its robot, counts the buttons and gives the robot a name.",
+    "Display the robots; each group takes a turn to tell “How did we build our robot?”"
+   ]
+  },
+  "evSoru": [
+   "Why did the robot fall down the first time?",
+   "What did Can do when he was upset? What do you do when you are upset?",
+   "How many buttons did Tick have? What colours were they?"
+  ],
+  "evEtk": {
+   "ad": "The Think-Before-You-Throw Box",
+   "d": "For one week, collect clean tops, tubes and paper in a box. At the weekend, make a toy, an animal or a robot out of them together; then sort the leftover pieces into the recycling bin together."
+  },
+  "aileNotu": "Today we read “Tick: A Robot from Bottle Tops.” Can and Elif built a robot with their dad out of bottle tops and cardboard tubes that were headed for the recycling. When the robot fell down the first time, Can took a deep breath and Elif suggested a step-by-step plan. At home, we suggest asking together “What could we make with this?” before throwing something away, and staying with your child for the tape and scissors."
+ },
+ "audio": {
+  "file": "audio/en/089-kutulardan-bir-robot.mp3",
+  "hash": "89622ff5",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 19066,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2249,
+      7
+     ],
+     [
+      2569,
+      8
+     ],
+     [
+      2689,
+      9
+     ],
+     [
+      3549,
+      10
+     ],
+     [
+      3869,
+      11
+     ],
+     [
+      4229,
+      12
+     ],
+     [
+      4410,
+      13
+     ],
+     [
+      4910,
+      14
+     ],
+     [
+      5269,
+      15
+     ],
+     [
+      5449,
+      16
+     ],
+     [
+      5669,
+      17
+     ],
+     [
+      5749,
+      18
+     ],
+     [
+      5870,
+      19
+     ],
+     [
+      6949,
+      20
+     ],
+     [
+      7289,
+      21
+     ],
+     [
+      7609,
+      22
+     ],
+     [
+      7870,
+      23
+     ],
+     [
+      8270,
+      24
+     ],
+     [
+      8509,
+      25
+     ],
+     [
+      9109,
+      26
+     ],
+     [
+      9430,
+      27
+     ],
+     [
+      10009,
+      28
+     ],
+     [
+      10149,
+      29
+     ],
+     [
+      10289,
+      30
+     ],
+     [
+      10489,
+      31
+     ],
+     [
+      10629,
+      32
+     ],
+     [
+      11430,
+      33
+     ],
+     [
+      11770,
+      34
+     ],
+     [
+      12529,
+      35
+     ],
+     [
+      12729,
+      36
+     ],
+     [
+      13689,
+      37
+     ],
+     [
+      13850,
+      38
+     ],
+     [
+      14189,
+      39
+     ],
+     [
+      14310,
+      40
+     ],
+     [
+      14669,
+      41
+     ],
+     [
+      14890,
+      42
+     ],
+     [
+      14989,
+      43
+     ],
+     [
+      15709,
+      44
+     ],
+     [
+      16049,
+      45
+     ],
+     [
+      16850,
+      46
+     ],
+     [
+      17049,
+      47
+     ],
+     [
+      17249,
+      48
+     ],
+     [
+      17389,
+      49
+     ],
+     [
+      17770,
+      50
+     ],
+     [
+      18009,
+      51
+     ],
+     [
+      18329,
+      52
+     ],
+     [
+      18610,
+      53
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 19366,
+    "d": 2572,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      625,
+      1
+     ],
+     [
+      1428,
+      2
+     ],
+     [
+      1796,
+      3
+     ],
+     [
+      2164,
+      4
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 22238,
+    "d": 1214,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      610,
+      3
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 23753,
+    "d": 1559,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1189,
+      4
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 25612,
+    "d": 2749,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      969,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1969,
+      6
+     ],
+     [
+      2150,
+      7
+     ],
+     [
+      2289,
+      8
+     ]
+    ]
+   },
+   "p1": {
+    "s": 28662,
+    "d": 19485,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2829,
+      7
+     ],
+     [
+      3209,
+      8
+     ],
+     [
+      3789,
+      9
+     ],
+     [
+      3969,
+      10
+     ],
+     [
+      4370,
+      11
+     ],
+     [
+      4769,
+      12
+     ],
+     [
+      4949,
+      13
+     ],
+     [
+      5189,
+      14
+     ],
+     [
+      5330,
+      15
+     ],
+     [
+      6009,
+      16
+     ],
+     [
+      6149,
+      17
+     ],
+     [
+      6309,
+      18
+     ],
+     [
+      6469,
+      19
+     ],
+     [
+      6829,
+      20
+     ],
+     [
+      7089,
+      21
+     ],
+     [
+      7449,
+      22
+     ],
+     [
+      7689,
+      23
+     ],
+     [
+      7870,
+      24
+     ],
+     [
+      8549,
+      25
+     ],
+     [
+      8709,
+      26
+     ],
+     [
+      9230,
+      27
+     ],
+     [
+      10270,
+      28
+     ],
+     [
+      11350,
+      29
+     ],
+     [
+      12069,
+      30
+     ],
+     [
+      12709,
+      31
+     ],
+     [
+      13609,
+      32
+     ],
+     [
+      13789,
+      33
+     ],
+     [
+      14310,
+      34
+     ],
+     [
+      14669,
+      35
+     ],
+     [
+      15009,
+      36
+     ],
+     [
+      15129,
+      37
+     ],
+     [
+      15850,
+      38
+     ],
+     [
+      16030,
+      39
+     ],
+     [
+      16409,
+      40
+     ],
+     [
+      16629,
+      41
+     ],
+     [
+      16829,
+      42
+     ],
+     [
+      16989,
+      43
+     ],
+     [
+      17110,
+      44
+     ],
+     [
+      17850,
+      45
+     ],
+     [
+      18329,
+      46
+     ],
+     [
+      18829,
+      47
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 48447,
+    "d": 2690,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 51437,
+    "d": 2248,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      740,
+      1
+     ],
+     [
+      1441,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 53986,
+    "d": 18044,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4049,
+      8
+     ],
+     [
+      4390,
+      9
+     ],
+     [
+      4629,
+      10
+     ],
+     [
+      5509,
+      11
+     ],
+     [
+      5809,
+      12
+     ],
+     [
+      6089,
+      13
+     ],
+     [
+      6350,
+      14
+     ],
+     [
+      7269,
+      15
+     ],
+     [
+      7449,
+      16
+     ],
+     [
+      8289,
+      17
+     ],
+     [
+      8650,
+      18
+     ],
+     [
+      8890,
+      19
+     ],
+     [
+      9569,
+      20
+     ],
+     [
+      9770,
+      21
+     ],
+     [
+      10249,
+      22
+     ],
+     [
+      10509,
+      23
+     ],
+     [
+      10709,
+      24
+     ],
+     [
+      10829,
+      25
+     ],
+     [
+      11109,
+      26
+     ],
+     [
+      11409,
+      27
+     ],
+     [
+      12369,
+      28
+     ],
+     [
+      13890,
+      29
+     ],
+     [
+      14109,
+      30
+     ],
+     [
+      14409,
+      31
+     ],
+     [
+      14549,
+      32
+     ],
+     [
+      14850,
+      33
+     ],
+     [
+      15729,
+      34
+     ],
+     [
+      16069,
+      35
+     ],
+     [
+      16989,
+      36
+     ],
+     [
+      17169,
+      37
+     ],
+     [
+      17350,
+      38
+     ],
+     [
+      17509,
+      39
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 72330,
+    "d": 1827,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      408,
+      1
+     ],
+     [
+      777,
+      2
+     ],
+     [
+      1145,
+      3
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 74458,
+    "d": 1307,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      610,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 76065,
+    "d": 2037,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1509,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 78402,
+    "d": 1045,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      589,
+      2
+     ]
+    ]
+   },
+   "p3": {
+    "s": 79748,
+    "d": 15170,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2689,
+      7
+     ],
+     [
+      3049,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3910,
+      10
+     ],
+     [
+      4109,
+      11
+     ],
+     [
+      4229,
+      12
+     ],
+     [
+      4870,
+      13
+     ],
+     [
+      5069,
+      14
+     ],
+     [
+      5249,
+      15
+     ],
+     [
+      5749,
+      16
+     ],
+     [
+      5890,
+      17
+     ],
+     [
+      6049,
+      18
+     ],
+     [
+      6449,
+      19
+     ],
+     [
+      6769,
+      20
+     ],
+     [
+      6890,
+      21
+     ],
+     [
+      7709,
+      22
+     ],
+     [
+      8029,
+      23
+     ],
+     [
+      8270,
+      24
+     ],
+     [
+      8529,
+      25
+     ],
+     [
+      9230,
+      26
+     ],
+     [
+      9409,
+      27
+     ],
+     [
+      9709,
+      28
+     ],
+     [
+      9829,
+      29
+     ],
+     [
+      10749,
+      30
+     ],
+     [
+      11430,
+      31
+     ],
+     [
+      12310,
+      32
+     ],
+     [
+      12649,
+      33
+     ],
+     [
+      12969,
+      34
+     ],
+     [
+      13089,
+      35
+     ],
+     [
+      13609,
+      36
+     ],
+     [
+      13810,
+      37
+     ],
+     [
+      14169,
+      38
+     ],
+     [
+      14329,
+      39
+     ],
+     [
+      14489,
+      40
+     ],
+     [
+      14609,
+      41
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 95219,
+    "d": 2827,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2410,
+      6
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 98346,
+    "d": 2401,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      490,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1825,
+      5
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 101048,
+    "d": 2098,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 103447,
+    "d": 3112,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      2709,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 106859,
+    "d": 14757,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      1989,
+      6
+     ],
+     [
+      2189,
+      7
+     ],
+     [
+      2390,
+      8
+     ],
+     [
+      2789,
+      9
+     ],
+     [
+      2910,
+      10
+     ],
+     [
+      3809,
+      11
+     ],
+     [
+      4069,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      4489,
+      14
+     ],
+     [
+      4850,
+      15
+     ],
+     [
+      5229,
+      16
+     ],
+     [
+      5489,
+      17
+     ],
+     [
+      5669,
+      18
+     ],
+     [
+      6129,
+      19
+     ],
+     [
+      6350,
+      20
+     ],
+     [
+      6629,
+      21
+     ],
+     [
+      7229,
+      22
+     ],
+     [
+      7689,
+      23
+     ],
+     [
+      8089,
+      24
+     ],
+     [
+      8949,
+      25
+     ],
+     [
+      9270,
+      26
+     ],
+     [
+      9430,
+      27
+     ],
+     [
+      9569,
+      28
+     ],
+     [
+      10069,
+      29
+     ],
+     [
+      10230,
+      30
+     ],
+     [
+      10989,
+      31
+     ],
+     [
+      11149,
+      32
+     ],
+     [
+      11430,
+      33
+     ],
+     [
+      11829,
+      34
+     ],
+     [
+      11989,
+      35
+     ],
+     [
+      12109,
+      36
+     ],
+     [
+      12489,
+      37
+     ],
+     [
+      13249,
+      38
+     ],
+     [
+      13430,
+      39
+     ],
+     [
+      13770,
+      40
+     ],
+     [
+      14009,
+      41
+     ],
+     [
+      14229,
+      42
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 121917,
+    "d": 1712,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 123930,
+    "d": 1808,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      306,
+      1
+     ],
+     [
+      968,
+      2
+     ],
+     [
+      1234,
+      3
+     ],
+     [
+      1501,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 126038,
+    "d": 2635,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2170,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 128974,
+    "d": 13420,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2509,
+      7
+     ],
+     [
+      2930,
+      8
+     ],
+     [
+      3329,
+      9
+     ],
+     [
+      3709,
+      10
+     ],
+     [
+      4430,
+      11
+     ],
+     [
+      4709,
+      12
+     ],
+     [
+      5049,
+      13
+     ],
+     [
+      5269,
+      14
+     ],
+     [
+      5390,
+      15
+     ],
+     [
+      5649,
+      16
+     ],
+     [
+      5969,
+      17
+     ],
+     [
+      6289,
+      18
+     ],
+     [
+      7169,
+      19
+     ],
+     [
+      7949,
+      20
+     ],
+     [
+      8969,
+      21
+     ],
+     [
+      9310,
+      22
+     ],
+     [
+      9449,
+      23
+     ],
+     [
+      9549,
+      24
+     ],
+     [
+      9730,
+      25
+     ],
+     [
+      9909,
+      26
+     ],
+     [
+      10049,
+      27
+     ],
+     [
+      10810,
+      28
+     ],
+     [
+      11009,
+      29
+     ],
+     [
+      11310,
+      30
+     ],
+     [
+      11629,
+      31
+     ],
+     [
+      12310,
+      32
+     ],
+     [
+      12649,
+      33
+     ],
+     [
+      12969,
+      34
+     ]
+    ]
+   },
+   "p5h-tikir": {
+    "s": 142694,
+    "d": 2081,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1349,
+      2
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 145076,
+    "d": 1783,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1069,
+      2
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 147159,
+    "d": 1729,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1050,
+      3
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 149189,
+    "d": 1176,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      670,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1600 @@
+{
+ "id": "037-buz-nereye-gitti",
+ "lang": "en",
+ "title": "Where Did the Ice Go?",
+ "theme": "Melting ice: sun and shade, observing, predicting and waiting patiently",
+ "blurb": "On a hot summer's day Ela puts ice in a glass; a little later there's only water in it. Where did the ice go? Ela goes out to the garden with Mum; she puts one glass in the sun and one in the shade, and waits patiently.",
+ "voiceNames": {
+  "ela": "Ela",
+  "anne": "Mum"
+ },
+ "pages": [
+  {
+   "text": "A very hot summer's day. Ela opened the fridge. “Ice, ice, cool ice!” she said. Into the glass went the ice: click, click, click!",
+   "mech": {
+    "done": "Three ice cubes in the glass. Click, click, click!",
+    "msg": "Three ice cubes!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Ice, ice, cool ice!"
+    },
+    "anne": {
+     "say": "The ice is very cold, careful!"
+    }
+   },
+   "hint": "Drop the ice into the glass!",
+   "ask": "Have you ever touched ice? What was it like?",
+   "cues": [
+    {
+     "w": 21,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Ela put the glass by the sunny window. She played for a while. Then she came back and looked: No ice! Only water. “Where did the ice go?”",
+   "hits": {
+    "ela": {
+     "say": "Where did the ice go?"
+    },
+    "anne": {
+     "say": "Hmm… Come on, let's find out together!"
+    },
+    "bardak": {
+     "say": "There's only water in the glass."
+    }
+   },
+   "hint": "Touch the glass!",
+   "ask": "Where do you think the ice went? Why do you think so?"
+  },
+  {
+   "text": "Ela and Mum went into the garden. Two glasses, three ice cubes each. One in the sun, one in the tree's shade. “Which one melts first?”",
+   "predict": {
+    "q": "Which ice do you think will melt first?",
+    "res": "Come on, let's wait patiently and see!",
+    "opts": [
+     {
+      "l": "The one in the sun"
+     },
+     {
+      "l": "The one in the shade"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Which one melts first?"
+    },
+    "anne": {
+     "say": "You set them up, let's watch together!"
+    },
+    "g1": {
+     "say": "This glass is in the sun."
+    },
+    "g2": {
+     "say": "This glass is in the cool shade."
+    }
+   },
+   "hint": "Touch the glasses!",
+   "ask": "On a hot day, where do you cool off: in the sun or in the shade?"
+  },
+  {
+   "text": "Ela waited and waited. She got fidgety and wriggly. “Isn't it ready yet?” Mum smiled: “Let's count the flowers while we wait!”",
+   "mech": {
+    "done": "Four droopy flowers. They're very thirsty!",
+    "msg": "Four flowers!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Isn't it ready yet?"
+    },
+    "anne": {
+     "say": "Take a deep breath. Let's count together!"
+    }
+   },
+   "hint": "Count the flowers!",
+   "ask": "What do you do while you wait for something? Is waiting hard?"
+  },
+  {
+   "text": "Back to the glasses! The ice in the sun had melted into water. In the shade? Still ice! Ela laughed: “The ice didn't go, it became water!”",
+   "hits": {
+    "ela": {
+     "say": "The ice didn't go, it became water!"
+    },
+    "anne": {
+     "say": "The sun warmed the ice, and the ice melted."
+    },
+    "g1": {
+     "say": "The ice in the sun turned to water!"
+    },
+    "g2": {
+     "say": "The ice in the shade is melting slowly."
+    }
+   },
+   "hint": "Touch the glass in the sun!",
+   "ask": "Why did the ice in the sun melt first? What do you think?"
+  },
+  {
+   "text": "Ela poured the water onto the droopy flowers. Splish splash! Soon the flowers lifted their heads. “The ice became water, and the water's for the flowers!” said Ela. She gave Mum a great big hug.",
+   "mech": {
+    "done": "The flowers drank and drank!",
+    "msg": "The flowers are smiling!"
+   },
+   "hits": {
+    "ela": {
+     "say": "The ice became water, and the water's for the flowers!"
+    },
+    "anne": {
+     "say": "The ice in the shade? It's still waiting!"
+    }
+   },
+   "hint": "Water the flowers!",
+   "ask": "Would you like to try an ice experiment at home? Where would you put the ice?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "musluk"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 — Making scientific observations of science-related events, facts and situations in daily life: The child observes the ice in the glass turning into water; compares the glass in the sun with the glass in the shade.",
+   "FAB.3 (unverified) — Making predictions based on scientific observation about science events in daily life: Based on their first observation (the glass by the window), predicts which ice will melt first.",
+   "E1.1 Curiosity and SDB1.3 Self-Adjustment (Self-Reflection): Follows up the question “Where did the ice go?”; compares their prediction with the result and reviews their own thinking: “What did I say, and what happened?”",
+   "D12 Patience: Notices they are getting impatient; waits by taking a deep breath and counting the flowers, and experiences that waiting pays off."
+  ],
+  "once": [
+   "Read the title on the cover: “Where did the ice go?” Do you think ice can go somewhere?",
+   "Show an ice cube or remind them of one: Is ice cold or hot? What happens when we hold it in our hand?"
+  ],
+  "sirasi": [
+   "Stop on page 2: there's no ice in Ela's glass, only water. Listen to the child's first explanations without judging them.",
+   "For the prediction question on page 3, ask about the child's choice and their reason (“Why did you choose the one in the sun?”). Both answers are worth thinking about.",
+   "On page 4, act out Ela's impatience together: get fidgety and wriggly, then take a deep breath and count the flowers.",
+   "On page 5, compare the prediction with the result: “What did you say? What happened?”"
+  ],
+  "sonra": [
+   "Ask “Where did the ice go?” again; wait for the child to reach the answer “It became water” in their own words.",
+   "Talk about how it feels to wait in the sun and in the shade: where do we sweat more?",
+   "Recall what Ela did while she waited; make a list together of what you can do while waiting."
+  ],
+  "sinif": {
+   "ad": "Sun or Shade? Ice Experiment",
+   "sure": "30–40 min (with another activity in between)",
+   "materyal": "Ice cubes of the same size, two clear plastic containers, a sunny windowsill or garden, a shady corner, two cards with a sun and a cloud picture, a sand timer or a song",
+   "adim": [
+    "Show the children the ice cubes; ask them to touch briefly and let go, and to describe the ice with words like “cold, hard, slippery”. We don't put ice in our mouths.",
+    "Put one container in the sun (sun card) and one in the shade (cloud card). Each child predicts which will melt first and clips their peg next to that card.",
+    "While waiting, sing a song, play a finger game or do another activity; look at the containers together from time to time.",
+    "At the end, count the prediction pegs and compare with the result; water the classroom plants with the melted water."
+   ]
+  },
+  "evSoru": [
+   "Where did the ice go? What happened?",
+   "Which ice melted first? Why?",
+   "What did Ela do while she waited? What do you do while you wait?"
+  ],
+  "evEtk": {
+   "ad": "Ice Watching in the Kitchen",
+   "d": "Put one ice cube on each of two small plates: one by a sunny window, one in a shady spot. Make a prediction with your child first, then look together from time to time. Give the melted water to the flowers. Make sure small pieces of ice don't go in their mouth, and don't hold the ice for long."
+  },
+  "aileNotu": "Today we read “Where Did the Ice Go?”. Ela saw the ice in her glass turn into water; she put one glass in the sun and one in the shade of a tree and predicted which would melt first. She got impatient while waiting, then waited by breathing and counting the flowers. At home you can do a little ice experiment and listen to your child's prediction and observation."
+ },
+ "audio": {
+  "file": "audio/en/037-buz-nereye-gitti.mp3",
+  "hash": "d777b744",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10475,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2749,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3509,
+      8
+     ],
+     [
+      4509,
+      9
+     ],
+     [
+      4969,
+      10
+     ],
+     [
+      5289,
+      11
+     ],
+     [
+      5949,
+      12
+     ],
+     [
+      6469,
+      13
+     ],
+     [
+      6669,
+      14
+     ],
+     [
+      7410,
+      15
+     ],
+     [
+      7689,
+      16
+     ],
+     [
+      7789,
+      17
+     ],
+     [
+      8209,
+      18
+     ],
+     [
+      8430,
+      19
+     ],
+     [
+      8669,
+      20
+     ],
+     [
+      9209,
+      21
+     ],
+     [
+      9589,
+      22
+     ],
+     [
+      10049,
+      23
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 10775,
+    "d": 2323,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      746,
+      1
+     ],
+     [
+      1453,
+      2
+     ],
+     [
+      1755,
+      3
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 13398,
+    "d": 2699,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1989,
+      5
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 16397,
+    "d": 3136,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1969,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      2670,
+      8
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19834,
+    "d": 9530,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1229,
+      6
+     ],
+     [
+      1550,
+      7
+     ],
+     [
+      2390,
+      8
+     ],
+     [
+      2569,
+      9
+     ],
+     [
+      2829,
+      10
+     ],
+     [
+      2989,
+      11
+     ],
+     [
+      3069,
+      12
+     ],
+     [
+      3789,
+      13
+     ],
+     [
+      4069,
+      14
+     ],
+     [
+      4249,
+      15
+     ],
+     [
+      4489,
+      16
+     ],
+     [
+      4769,
+      17
+     ],
+     [
+      4930,
+      18
+     ],
+     [
+      5809,
+      19
+     ],
+     [
+      6229,
+      20
+     ],
+     [
+      6930,
+      21
+     ],
+     [
+      7289,
+      22
+     ],
+     [
+      8289,
+      23
+     ],
+     [
+      8509,
+      24
+     ],
+     [
+      8650,
+      25
+     ],
+     [
+      8869,
+      26
+     ],
+     [
+      9089,
+      27
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 29665,
+    "d": 1544,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1089,
+      4
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 31510,
+    "d": 2838,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2249,
+      6
+     ]
+    ]
+   },
+   "p1h-bardak": {
+    "s": 34649,
+    "d": 1758,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1129,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 36708,
+    "d": 8731,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1249,
+      5
+     ],
+     [
+      1369,
+      6
+     ],
+     [
+      2170,
+      7
+     ],
+     [
+      2370,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3529,
+      10
+     ],
+     [
+      3709,
+      11
+     ],
+     [
+      4109,
+      12
+     ],
+     [
+      4830,
+      13
+     ],
+     [
+      4949,
+      14
+     ],
+     [
+      5049,
+      15
+     ],
+     [
+      5189,
+      16
+     ],
+     [
+      5890,
+      17
+     ],
+     [
+      6009,
+      18
+     ],
+     [
+      6109,
+      19
+     ],
+     [
+      6229,
+      20
+     ],
+     [
+      6589,
+      21
+     ],
+     [
+      7469,
+      22
+     ],
+     [
+      7729,
+      23
+     ],
+     [
+      7870,
+      24
+     ],
+     [
+      8169,
+      25
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 45739,
+    "d": 1659,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1069,
+      3
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 47699,
+    "d": 2186,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      529,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1589,
+      6
+     ]
+    ]
+   },
+   "p2h-g1": {
+    "s": 50185,
+    "d": 1698,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1170,
+      5
+     ]
+    ]
+   },
+   "p2h-g2": {
+    "s": 52184,
+    "d": 2124,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1129,
+      5
+     ],
+     [
+      1550,
+      6
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 54609,
+    "d": 2167,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      829,
+      4
+     ],
+     [
+      1050,
+      5
+     ],
+     [
+      1229,
+      6
+     ],
+     [
+      1529,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 57076,
+    "d": 2558,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      479,
+      1
+     ],
+     [
+      881,
+      2
+     ],
+     [
+      1134,
+      3
+     ],
+     [
+      1386,
+      4
+     ],
+     [
+      2013,
+      5
+     ],
+     [
+      2265,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 59935,
+    "d": 9153,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2489,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      4569,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      5029,
+      11
+     ],
+     [
+      5310,
+      12
+     ],
+     [
+      6169,
+      13
+     ],
+     [
+      6469,
+      14
+     ],
+     [
+      7370,
+      15
+     ],
+     [
+      7609,
+      16
+     ],
+     [
+      7829,
+      17
+     ],
+     [
+      7949,
+      18
+     ],
+     [
+      8390,
+      19
+     ],
+     [
+      8589,
+      20
+     ],
+     [
+      8730,
+      21
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 69389,
+    "d": 1404,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      319,
+      1
+     ],
+     [
+      598,
+      2
+     ],
+     [
+      1084,
+      3
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 71093,
+    "d": 2774,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2189,
+      6
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 74168,
+    "d": 3436,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2749,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 77905,
+    "d": 10298,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      469,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2089,
+      7
+     ],
+     [
+      2269,
+      8
+     ],
+     [
+      2589,
+      9
+     ],
+     [
+      2809,
+      10
+     ],
+     [
+      3209,
+      11
+     ],
+     [
+      3489,
+      12
+     ],
+     [
+      4290,
+      13
+     ],
+     [
+      4390,
+      14
+     ],
+     [
+      4509,
+      15
+     ],
+     [
+      5249,
+      16
+     ],
+     [
+      5769,
+      17
+     ],
+     [
+      6609,
+      18
+     ],
+     [
+      6930,
+      19
+     ],
+     [
+      7709,
+      20
+     ],
+     [
+      7969,
+      21
+     ],
+     [
+      8190,
+      22
+     ],
+     [
+      8529,
+      23
+     ],
+     [
+      9109,
+      24
+     ],
+     [
+      9249,
+      25
+     ],
+     [
+      9690,
+      26
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 88503,
+    "d": 2794,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      297,
+      1
+     ],
+     [
+      744,
+      2
+     ],
+     [
+      1001,
+      3
+     ],
+     [
+      1411,
+      4
+     ],
+     [
+      1668,
+      5
+     ],
+     [
+      2306,
+      6
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 91597,
+    "d": 3126,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2269,
+      7
+     ],
+     [
+      2529,
+      8
+     ]
+    ]
+   },
+   "p4h-g1": {
+    "s": 95023,
+    "d": 2302,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1189,
+      5
+     ],
+     [
+      1469,
+      6
+     ],
+     [
+      1649,
+      7
+     ]
+    ]
+   },
+   "p4h-g2": {
+    "s": 97625,
+    "d": 2474,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1309,
+      6
+     ],
+     [
+      1790,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 100400,
+    "d": 13530,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1410,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      1969,
+      7
+     ],
+     [
+      2910,
+      8
+     ],
+     [
+      3369,
+      9
+     ],
+     [
+      4370,
+      10
+     ],
+     [
+      4810,
+      11
+     ],
+     [
+      4969,
+      12
+     ],
+     [
+      5509,
+      13
+     ],
+     [
+      5870,
+      14
+     ],
+     [
+      6049,
+      15
+     ],
+     [
+      6930,
+      16
+     ],
+     [
+      7229,
+      17
+     ],
+     [
+      7469,
+      18
+     ],
+     [
+      7870,
+      19
+     ],
+     [
+      8529,
+      20
+     ],
+     [
+      8669,
+      21
+     ],
+     [
+      8829,
+      22
+     ],
+     [
+      9230,
+      23
+     ],
+     [
+      9390,
+      24
+     ],
+     [
+      9509,
+      25
+     ],
+     [
+      10409,
+      26
+     ],
+     [
+      10669,
+      27
+     ],
+     [
+      11390,
+      28
+     ],
+     [
+      11569,
+      29
+     ],
+     [
+      11850,
+      30
+     ],
+     [
+      12169,
+      31
+     ],
+     [
+      12350,
+      32
+     ],
+     [
+      12770,
+      33
+     ],
+     [
+      13069,
+      34
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 114230,
+    "d": 3692,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2769,
+      7
+     ],
+     [
+      2930,
+      8
+     ],
+     [
+      3069,
+      9
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 118223,
+    "d": 2794,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      277,
+      1
+     ],
+     [
+      692,
+      2
+     ],
+     [
+      929,
+      3
+     ],
+     [
+      1167,
+      4
+     ],
+     [
+      1864,
+      5
+     ],
+     [
+      2101,
+      6
+     ],
+     [
+      2339,
+      7
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 121317,
+    "d": 2623,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1790,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

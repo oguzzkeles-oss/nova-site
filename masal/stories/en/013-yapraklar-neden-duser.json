@@ -1,0 +1,1506 @@
+{
+ "id": "013-yapraklar-neden-duser",
+ "lang": "en",
+ "title": "Why Do Leaves Fall?",
+ "theme": "Autumn and the changing seasons",
+ "blurb": "When the leaves of the great big tree in the meadow turn yellow and fall, Deniz thinks the tree is ill. Gathering the leaves and sorting them by colour with Hazel the squirrel, she learns how trees get ready for winter.",
+ "voiceNames": {
+  "deniz": "Deniz",
+  "findik": "Hazel (squirrel)"
+ },
+ "pages": [
+  {
+   "text": "In the meadow stood a great big tree. Every morning Deniz said to it, “Good morning, tree!” One morning she stopped and looked. Wow! The leaves had turned yellow, orange and red.",
+   "hits": {
+    "deniz": {
+     "say": "Good morning, tree!"
+    },
+    "y": {
+     "say": "Rustle rustle!"
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "What colours have the tree's leaves turned? What colours have you seen in autumn?"
+  },
+  {
+   "text": "Rustle rustle! The leaves fell one by one. Deniz was so worried. Her tummy was in knots. “Is the tree ill? I'll pick up its leaves and put them back!”",
+   "hits": {
+    "deniz": {
+     "say": "Is the tree ill?"
+    }
+   },
+   "mech": {
+    "done": "Five leaves! The basket is full.",
+    "msg": "You gathered them all!"
+   },
+   "hint": "Gather the leaves into the basket!",
+   "ask": "Why was Deniz worried? What do you do when you're worried?",
+   "cues": [
+    {
+     "w": 0,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Hazel the squirrel watched from the log, curious. Deniz picked up a leaf. Hop! She jumped and held it to the branch: “Hold on, tree, hold tight!”",
+   "hits": {
+    "deniz": {
+     "say": "Hold on, tree, hold tight!"
+    },
+    "findik": {
+     "say": "Hmm, let's see what happens!"
+    }
+   },
+   "predict": {
+    "q": "Do you think the leaf will stay on the branch?",
+    "res": "Good guess! Let's turn the page and see.",
+    "opts": [
+     {
+      "l": "It stays on the branch"
+     },
+     {
+      "l": "It falls again"
+     }
+    ]
+   },
+   "hint": "Touch Deniz!",
+   "ask": "Why is Deniz holding the leaf up to the branch? What would you do?"
+  },
+  {
+   "text": "Hop! The leaf fell again. Hazel smiled: “The tree isn't ill! It's got cold, the days are short. The tree will drop its leaves and rest all winter. In spring, brand new leaves will grow.”",
+   "hits": {
+    "findik": {
+     "say": "I'm storing acorns for winter too!"
+    },
+    "deniz": {
+     "say": "Rest? Like sleeping?"
+    },
+    "sun": {
+     "say": "The sun sets early now."
+    },
+    "y": {
+     "say": "Rustle rustle!"
+    }
+   },
+   "hint": "Touch Hazel!",
+   "ask": "Why does the tree drop its leaves? How does Hazel get ready for winter?"
+  },
+  {
+   "text": "Deniz took a deep breath. Phew, what a relief! She tipped her basket of leaves onto the ground. Hazel hopped up: “Let's sort the leaves! Red ones for me, like my tail!” Deniz laughed: “Yellow ones for me, like the sun!”",
+   "hits": {
+    "deniz": {
+     "say": "Yellow ones for me!"
+    },
+    "findik": {
+     "say": "Red ones for me!"
+    }
+   },
+   "mech": {
+    "done": "Red ones for Hazel, yellow ones for Deniz!",
+    "msg": "You sorted them all by colour!"
+   },
+   "hint": "Touch a leaf, then a friend!",
+   "ask": "Which colour leaves would you like to collect? Why?"
+  },
+  {
+   "text": "Deniz and Hazel made a leaf path. Yellow, red, yellow, red… Deniz put on her jumper. Hazel hid her acorns away. The two of them waved to the tree: “Sleep well, tree! See you in spring!” The leaf path glowed in the sunset.",
+   "hits": {
+    "deniz": {
+     "say": "Sleep well, tree!"
+    },
+    "findik": {
+     "say": "My acorns are ready!"
+    }
+   },
+   "hint": "Touch the leaves in order!",
+   "ask": "On the leaf path, which colour comes after yellow? How would you carry on the path?",
+   "mech": {
+    "done": "Yellow, red… The leaf path is ready!",
+    "msg": "The leaf path is ready!"
+   }
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 (learning outcome) Making scientific observations of science-related events, facts and situations in daily life: the child observes that leaves change colour and fall in autumn, and describes what they see.",
+   "FAB.2 (learning outcome) Classifying science-related objects, events and facts by their similarities and differences: sorts leaves by colour (yellow/red); in the class activity also groups them by shape.",
+   "E1.1 Curiosity (disposition): asks the question 'Why do leaves fall?', makes a guess and goes after the answer.",
+   "SDB3.1 Adaptation and D7 Aesthetics: notices how living things adapt to the changing season (the tree drops its leaves, the squirrel stores acorns, Deniz puts on a jumper) and the beauty of autumn colours."
+  ],
+  "once": [
+   "Look at a tree together from the window or in the garden: 'What colour are its leaves? Are there leaves on the ground?'",
+   "Show the cover and ask: 'Why do you think leaves fall?' Make a note of the guesses; compare them when the story is over."
+  ],
+  "sirasi": [
+   "On page 2, point to Deniz's face: 'How does Deniz feel? Why?' Say the word 'worried' together.",
+   "For the prediction on page 3, listen to the child's choice and their reason; without saying right or wrong, say 'Let's see!'",
+   "While sorting the leaves, name the colours out loud: 'This one is red, for Hazel; this one is yellow, for Deniz.'"
+  ],
+  "sonra": [
+   "Remember the three preparations in the story together: the tree drops its leaves, Hazel stores acorns, Deniz puts on a jumper. 'How do you get ready for winter?'",
+   "Not every tree drops its leaves: trees like pines stay green in winter too. Look for trees around you that drop their leaves and ones that don't.",
+   "For curious children: in autumn the green colour drains out of the leaf, and the yellow and orange colours inside it become visible.",
+   "Go back to the guesses from the start: 'What do you think now? Has your idea changed?'"
+  ],
+  "sinif": {
+   "ad": "Leaf Detectives",
+   "sure": "20 min",
+   "materyal": "Dry leaves picked up from the ground, two or three baskets or boxes, a magnifying glass, paper, glue",
+   "adim": [
+    "In the garden or the park, pick up leaves that have fallen to the ground; don't pull them off the branches. Wash hands afterwards.",
+    "Examine the leaves with the magnifying glass: colour, shape, edges, veins. Each child introduces one of their leaves.",
+    "Sort the leaves into the baskets by colour first, then sort them again by shape.",
+    "Like in the story, make a yellow-and-red leaf path on the floor, or a leaf picture on paper; everyone tells their friends about their work."
+   ]
+  },
+  "evSoru": [
+   "Why did the tree drop its leaves?",
+   "How does Hazel get ready for winter? How do you get ready?",
+   "What happened when Deniz got worried? How did she feel better afterwards?"
+  ],
+  "evEtk": {
+   "ad": "Our Tree",
+   "d": "Choose a tree near your home and give it a name. Every week, look at it from the same spot or take a photo of it. Talk about the colour of the leaves and how they get fewer; in spring, look for buds on the branches together."
+  },
+  "aileNotu": "Today we read 'Why Do Leaves Fall?' Deniz thought the tree losing its leaves in autumn was ill; Hazel the squirrel explained that the tree would rest in winter and grow new leaves in spring. On walks, you can pick up leaves from the ground and sort them by colour, and wonder about the 'Why?' questions together. We suggest reminding your child not to pull leaves off the branches and to wash their hands when they get home."
+ },
+ "audio": {
+  "file": "audio/en/013-yapraklar-neden-duser.mp3",
+  "hash": "e2d0838b",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12592,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1629,
+      6
+     ],
+     [
+      1930,
+      7
+     ],
+     [
+      2969,
+      8
+     ],
+     [
+      3249,
+      9
+     ],
+     [
+      3670,
+      10
+     ],
+     [
+      4029,
+      11
+     ],
+     [
+      4249,
+      12
+     ],
+     [
+      4430,
+      13
+     ],
+     [
+      4890,
+      14
+     ],
+     [
+      5089,
+      15
+     ],
+     [
+      5449,
+      16
+     ],
+     [
+      6430,
+      17
+     ],
+     [
+      6589,
+      18
+     ],
+     [
+      7049,
+      19
+     ],
+     [
+      7289,
+      20
+     ],
+     [
+      7729,
+      21
+     ],
+     [
+      7870,
+      22
+     ],
+     [
+      8709,
+      23
+     ],
+     [
+      9629,
+      24
+     ],
+     [
+      9829,
+      25
+     ],
+     [
+      10169,
+      26
+     ],
+     [
+      10329,
+      27
+     ],
+     [
+      10709,
+      28
+     ],
+     [
+      11369,
+      29
+     ],
+     [
+      11850,
+      30
+     ],
+     [
+      12089,
+      31
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 12892,
+    "d": 1285,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      318,
+      1
+     ],
+     [
+      966,
+      2
+     ]
+    ]
+   },
+   "p0h-y": {
+    "s": 14478,
+    "d": 882,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      441,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 15660,
+    "d": 11021,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3249,
+      7
+     ],
+     [
+      4029,
+      8
+     ],
+     [
+      4390,
+      9
+     ],
+     [
+      4669,
+      10
+     ],
+     [
+      5029,
+      11
+     ],
+     [
+      5830,
+      12
+     ],
+     [
+      6009,
+      13
+     ],
+     [
+      6390,
+      14
+     ],
+     [
+      6569,
+      15
+     ],
+     [
+      6709,
+      16
+     ],
+     [
+      7649,
+      17
+     ],
+     [
+      7829,
+      18
+     ],
+     [
+      7969,
+      19
+     ],
+     [
+      8350,
+      20
+     ],
+     [
+      9129,
+      21
+     ],
+     [
+      9289,
+      22
+     ],
+     [
+      9449,
+      23
+     ],
+     [
+      9589,
+      24
+     ],
+     [
+      9770,
+      25
+     ],
+     [
+      10089,
+      26
+     ],
+     [
+      10209,
+      27
+     ],
+     [
+      10369,
+      28
+     ],
+     [
+      10529,
+      29
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 26982,
+    "d": 1315,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      849,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 28598,
+    "d": 2645,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2110,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 31544,
+    "d": 9952,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      1670,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      3509,
+      8
+     ],
+     [
+      3930,
+      9
+     ],
+     [
+      4169,
+      10
+     ],
+     [
+      4310,
+      11
+     ],
+     [
+      4410,
+      12
+     ],
+     [
+      5149,
+      13
+     ],
+     [
+      5890,
+      14
+     ],
+     [
+      6109,
+      15
+     ],
+     [
+      6529,
+      16
+     ],
+     [
+      6709,
+      17
+     ],
+     [
+      6949,
+      18
+     ],
+     [
+      7069,
+      19
+     ],
+     [
+      7169,
+      20
+     ],
+     [
+      7289,
+      21
+     ],
+     [
+      8069,
+      22
+     ],
+     [
+      8430,
+      23
+     ],
+     [
+      8509,
+      24
+     ],
+     [
+      9209,
+      25
+     ],
+     [
+      9449,
+      26
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 41796,
+    "d": 2316,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      401,
+      1
+     ],
+     [
+      977,
+      2
+     ],
+     [
+      1552,
+      3
+     ],
+     [
+      1914,
+      4
+     ]
+    ]
+   },
+   "p2h-findik": {
+    "s": 44412,
+    "d": 2232,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1529,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 46944,
+    "d": 2230,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      490,
+      3
+     ],
+     [
+      649,
+      4
+     ],
+     [
+      930,
+      5
+     ],
+     [
+      1209,
+      6
+     ],
+     [
+      1449,
+      7
+     ],
+     [
+      1550,
+      8
+     ],
+     [
+      1670,
+      9
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 49475,
+    "d": 2477,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      1649,
+      5
+     ],
+     [
+      1889,
+      6
+     ],
+     [
+      2049,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 52253,
+    "d": 12976,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3689,
+      7
+     ],
+     [
+      3849,
+      8
+     ],
+     [
+      4149,
+      9
+     ],
+     [
+      4469,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5249,
+      12
+     ],
+     [
+      5489,
+      13
+     ],
+     [
+      6149,
+      14
+     ],
+     [
+      6289,
+      15
+     ],
+     [
+      6549,
+      16
+     ],
+     [
+      6729,
+      17
+     ],
+     [
+      7489,
+      18
+     ],
+     [
+      7629,
+      19
+     ],
+     [
+      7890,
+      20
+     ],
+     [
+      8089,
+      21
+     ],
+     [
+      8369,
+      22
+     ],
+     [
+      8569,
+      23
+     ],
+     [
+      8949,
+      24
+     ],
+     [
+      9150,
+      25
+     ],
+     [
+      9549,
+      26
+     ],
+     [
+      9789,
+      27
+     ],
+     [
+      10649,
+      28
+     ],
+     [
+      10829,
+      29
+     ],
+     [
+      11489,
+      30
+     ],
+     [
+      11869,
+      31
+     ],
+     [
+      12089,
+      32
+     ],
+     [
+      12369,
+      33
+     ],
+     [
+      12549,
+      34
+     ]
+    ]
+   },
+   "p3h-findik": {
+    "s": 65529,
+    "d": 2221,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1729,
+      5
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 68050,
+    "d": 1997,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1389,
+      2
+     ]
+    ]
+   },
+   "p3h-sun": {
+    "s": 70348,
+    "d": 1649,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1150,
+      4
+     ]
+    ]
+   },
+   "p3h-y": {
+    "s": 72298,
+    "d": 1067,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      533,
+      1
+     ]
+    ]
+   },
+   "p4": {
+    "s": 73665,
+    "d": 15749,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3209,
+      7
+     ],
+     [
+      3329,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      4749,
+      10
+     ],
+     [
+      4989,
+      11
+     ],
+     [
+      5149,
+      12
+     ],
+     [
+      5529,
+      13
+     ],
+     [
+      5649,
+      14
+     ],
+     [
+      6009,
+      15
+     ],
+     [
+      6249,
+      16
+     ],
+     [
+      6370,
+      17
+     ],
+     [
+      7309,
+      18
+     ],
+     [
+      7689,
+      19
+     ],
+     [
+      8009,
+      20
+     ],
+     [
+      8589,
+      21
+     ],
+     [
+      8850,
+      22
+     ],
+     [
+      9069,
+      23
+     ],
+     [
+      9190,
+      24
+     ],
+     [
+      10029,
+      25
+     ],
+     [
+      10230,
+      26
+     ],
+     [
+      10430,
+      27
+     ],
+     [
+      10609,
+      28
+     ],
+     [
+      10969,
+      29
+     ],
+     [
+      11149,
+      30
+     ],
+     [
+      11289,
+      31
+     ],
+     [
+      12129,
+      32
+     ],
+     [
+      12609,
+      33
+     ],
+     [
+      13529,
+      34
+     ],
+     [
+      13930,
+      35
+     ],
+     [
+      14169,
+      36
+     ],
+     [
+      14369,
+      37
+     ],
+     [
+      14829,
+      38
+     ],
+     [
+      15049,
+      39
+     ],
+     [
+      15229,
+      40
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 89715,
+    "d": 1365,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      448,
+      1
+     ],
+     [
+      856,
+      2
+     ],
+     [
+      1090,
+      3
+     ]
+    ]
+   },
+   "p4h-findik": {
+    "s": 91380,
+    "d": 1285,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      829,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 92966,
+    "d": 2818,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2049,
+      6
+     ],
+     [
+      2209,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 96084,
+    "d": 16510,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1589,
+      6
+     ],
+     [
+      2509,
+      7
+     ],
+     [
+      3209,
+      8
+     ],
+     [
+      3910,
+      9
+     ],
+     [
+      4649,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      5969,
+      12
+     ],
+     [
+      6169,
+      13
+     ],
+     [
+      6309,
+      14
+     ],
+     [
+      6449,
+      15
+     ],
+     [
+      7329,
+      16
+     ],
+     [
+      7789,
+      17
+     ],
+     [
+      7989,
+      18
+     ],
+     [
+      8169,
+      19
+     ],
+     [
+      8629,
+      20
+     ],
+     [
+      9430,
+      21
+     ],
+     [
+      9589,
+      22
+     ],
+     [
+      9789,
+      23
+     ],
+     [
+      9890,
+      24
+     ],
+     [
+      10169,
+      25
+     ],
+     [
+      10489,
+      26
+     ],
+     [
+      10589,
+      27
+     ],
+     [
+      10730,
+      28
+     ],
+     [
+      11529,
+      29
+     ],
+     [
+      11850,
+      30
+     ],
+     [
+      12109,
+      31
+     ],
+     [
+      12829,
+      32
+     ],
+     [
+      13009,
+      33
+     ],
+     [
+      13169,
+      34
+     ],
+     [
+      13270,
+      35
+     ],
+     [
+      14270,
+      36
+     ],
+     [
+      14430,
+      37
+     ],
+     [
+      14729,
+      38
+     ],
+     [
+      15149,
+      39
+     ],
+     [
+      15609,
+      40
+     ],
+     [
+      15709,
+      41
+     ],
+     [
+      15850,
+      42
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 112895,
+    "d": 1228,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      749,
+      2
+     ]
+    ]
+   },
+   "p5h-findik": {
+    "s": 114424,
+    "d": 1468,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      263,
+      1
+     ],
+     [
+      651,
+      2
+     ],
+     [
+      1039,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 116192,
+    "d": 3453,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      2110,
+      2
+     ],
+     [
+      2269,
+      3
+     ],
+     [
+      2589,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      2969,
+      6
+     ]
+    ]
+   }
+  }
+ }
+}

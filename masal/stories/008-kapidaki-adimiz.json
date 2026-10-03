@@ -1,0 +1,2348 @@
+{
+ "id": "008-kapidaki-adimiz",
+ "n": 8,
+ "title": "Ali'nin Arısı Nerede?",
+ "age": "60-72",
+ "area": "Türkçe",
+ "theme": "İlk sesler",
+ "values": [
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB1.1 Kendini Tanıma",
+ "min": 5,
+ "blurb": "Sınıfta her dolabın bir resim kartı vardır ama bir sabah Ali'nin arı kartı kaybolur. Ses dedektifi Ela, ilk sesleri dinleyerek kayıp kartları bulur ve herkesi kendi kartıyla buluşturur.",
+ "codes": {
+  "maarif": [
+   "TAEOB.3 Ses bilgisel farkındalık becerileri gösterebilme: sözcüklerin ilk seslerini fark eder (teyitsiz)",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme",
+   "TADB.3 Dinledikleri/izledikleri materyalleri çözümleyebilme: olayları oluş sırasına göre söyler",
+   "SDB1.1 Kendini Tanıma",
+   "D4 Dostluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ela": "cocuk-kiz",
+  "ali": "cocuk-erkek",
+  "zeynep": "cocuk-kiz",
+  "ogretmen": "ogretmen",
+  "deniz": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "ela": "Ela",
+  "ali": "Ali",
+  "zeynep": "Zeynep",
+  "ogretmen": "Nur Öğretmen",
+  "deniz": "Deniz"
+ },
+ "pages": [
+  {
+   "text": "Ela'nın sınıfında her dolabın bir resim kartı vardı. Ela'nınki kıpkırmızı bir elma, Ali'ninki tombul bir arıydı. Pembe bluzlu Zeynep'in zili, çizgili tişörtlü Deniz'in davulu vardı. Ela her sabah kartına dokunurdu: “Eeela, eeelma! Adım da resmim de aynı sesle başlıyor!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 58,
+      "y": 206,
+      "s": 0.84,
+      "mood": "happy",
+      "pose": "wave",
+      "turn": 0.4,
+      "hit": "zeynep"
+     },
+     {
+      "k": "deniz",
+      "x": 198,
+      "y": 204,
+      "s": 0.84,
+      "mood": "happy",
+      "pose": "stand",
+      "turn": 0.3,
+      "hit": "deniz"
+     },
+     {
+      "k": "ali",
+      "x": 128,
+      "y": 224,
+      "s": 0.97,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "ali"
+     },
+     {
+      "k": "ela",
+      "x": 262,
+      "y": 228,
+      "s": 1.06,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ela"
+     },
+     {
+      "k": "ari",
+      "x": 343.5,
+      "y": 139,
+      "s": 0.46,
+      "pose": "stand",
+      "z": 143,
+      "hit": "ka"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "apple",
+      "x": 311,
+      "y": 139,
+      "s": 0.68,
+      "z": 143,
+      "hit": "ke"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 343.5,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 376,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "zil",
+      "x": 376,
+      "y": 140,
+      "s": 0.4,
+      "z": 143,
+      "hit": "kz"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 165,
+      "s": 0.95
+     },
+     {
+      "k": "davul",
+      "x": 311,
+      "y": 163,
+      "s": 0.38,
+      "z": 166,
+      "hit": "kd"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Eeela, eeelma!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ali": {
+     "say": "Aaali, aaarı! Vızz!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "zeynep": {
+     "say": "Ben Zzzeynep! Kartımda zil var.",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "bell"
+    },
+    "deniz": {
+     "say": "Ben Deniz! D-d-Deniz, d-d-davul!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "drum"
+    },
+    "ke": {
+     "say": "Eeelma! Ela'nın kartı.",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ka": {
+     "say": "Aaarı! Ali'nin kartı.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "kz": {
+     "say": "Zzzil! Zeynep'in kartı.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "bell"
+    },
+    "kd": {
+     "say": "D-d-davul! Deniz'in kartı.",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "drum"
+    }
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Ela ile elma aynı sesle başlıyor. Senin adın hangi sesle başlıyor?"
+  },
+  {
+   "text": "Bir sabah Ali hoplaya zıplaya dolabına koştu. Aaa! Arı kartı yoktu. Ali çok üzüldü, boğazı düğüm düğüm oldu. Derin bir nefes aldı. “Ela, kartım kayboldu!” diye seslendi. Ela baktı: “Zeynep'in zili, Deniz'in davulu da yok!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "hot": {
+     "dolap": "dolap"
+    },
+    "cast": [
+     {
+      "k": "ali",
+      "x": 252,
+      "y": 234,
+      "s": 1.2,
+      "mood": "sad",
+      "pose": "stand",
+      "turn": 0.6,
+      "hit": "ali"
+     },
+     {
+      "k": "ela",
+      "x": 110,
+      "y": 210,
+      "s": 0.86,
+      "mood": "surprised",
+      "pose": "walk",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "apple",
+      "x": 311,
+      "y": 139,
+      "s": 0.68,
+      "z": 143,
+      "hit": "ke"
+     },
+     {
+      "k": "qmark",
+      "x": 344,
+      "y": 131
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Arı kartım nerede?",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "sniff"
+    },
+    "ela": {
+     "say": "Üzülme Ali, birlikte ararız!",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ke": {
+     "say": "Eeelma yerinde.",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "dolap": {
+     "say": "Üç kart yok!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Ali'nin boğazı düğüm düğüm oldu. Sen üzülünce bedeninde neler hissedersin?"
+  },
+  {
+   "text": "Ela bir dedektif gibi gözlerini kıstı. “Hımm… Arının kanadı var ama kartın kanadı yok. Kart uçmaz, düşer! Bantları gevşemiş olmalı.” Ali'nin gözleri parladı: “Hadi, yerlere bakalım!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 282,
+      "y": 206,
+      "s": 0.84,
+      "mood": "happy",
+      "pose": "point",
+      "turn": -0.4,
+      "hit": "ali"
+     },
+     {
+      "k": "ela",
+      "x": 160,
+      "y": 231,
+      "s": 1.28,
+      "mood": "think",
+      "pose": "stand",
+      "turn": 0.2,
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "apple",
+      "x": 311,
+      "y": 139,
+      "s": 0.68,
+      "z": 143
+     },
+     {
+      "k": "qmark",
+      "x": 222,
+      "y": 104
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Hımm... Kart uçmaz, düşer!",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "ali": {
+     "say": "Hadi, yerlere bakalım!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "predict": {
+    "q": "Sence kartlar nereye düşmüş?",
+    "res": "İkisine de bakalım!",
+    "opts": [
+     {
+      "l": "Masanın altına",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "cast": [
+        {
+         "k": "ela",
+         "x": 128,
+         "y": 230,
+         "s": 1,
+         "mood": "surprised",
+         "pose": "crawl"
+        },
+        {
+         "k": "ari",
+         "x": 210,
+         "y": 198,
+         "s": 0.55,
+         "pose": "stand",
+         "z": 203
+        }
+       ],
+       "props": [
+        {
+         "k": "sekil",
+         "shape": "rectangle",
+         "color": "#FFF6E4",
+         "x": 210,
+         "y": 202,
+         "s": 1.3
+        }
+       ]
+      }
+     },
+     {
+      "l": "Oyuncak kutusunun arkasına",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 170,
+         "y": 224,
+         "s": 1,
+         "mood": "surprised",
+         "pose": "point"
+        },
+        {
+         "k": "ari",
+         "x": 262,
+         "y": 200,
+         "s": 0.55,
+         "pose": "stand",
+         "z": 205
+        }
+       ],
+       "props": [
+        {
+         "k": "sekil",
+         "shape": "rectangle",
+         "color": "#FFF6E4",
+         "x": 262,
+         "y": 204,
+         "s": 1.3
+        },
+        {
+         "k": "oyuncak-kutusu",
+         "x": 258,
+         "y": 234,
+         "s": 0.85
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Sen bir şeyini kaybedince ilk nereye bakarsın?"
+  },
+  {
+   "text": "Hışır hışır! Ela emekleyip masanın altına baktı. Ali oyuncak kutusunun arkasına baktı. Kitaplığın dibine de bakmak lazım! Kartlar düşüp saklanmış olabilir. Hadi, üçünü de sen bul!",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ela",
+      "x": 138,
+      "y": 234,
+      "s": 1.0,
+      "mood": "surprised",
+      "pose": "crawl",
+      "hit": "ela"
+     },
+     {
+      "k": "ali",
+      "x": 276,
+      "y": 222,
+      "s": 1.0,
+      "mood": "surprised",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "ali"
+     },
+     {
+      "k": "ari",
+      "x": 214,
+      "y": 203,
+      "s": 0.6,
+      "pose": "stand",
+      "z": 205,
+      "hit": "ka"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 214,
+      "y": 207,
+      "s": 1.35,
+      "peek": true
+     },
+     {
+      "k": "masa",
+      "x": 212,
+      "y": 222,
+      "s": 1.35,
+      "cloth": true
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 356,
+      "y": 204,
+      "s": 1.35,
+      "peek": true
+     },
+     {
+      "k": "zil",
+      "x": 356,
+      "y": 190,
+      "s": 0.48,
+      "z": 205,
+      "hit": "kz"
+     },
+     {
+      "k": "oyuncak-kutusu",
+      "x": 350,
+      "y": 236,
+      "s": 0.95
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 72,
+      "y": 206,
+      "s": 1.35,
+      "peek": true
+     },
+     {
+      "k": "davul",
+      "x": 73,
+      "y": 198,
+      "s": 0.44,
+      "z": 207,
+      "hit": "kd"
+     },
+     {
+      "k": "top",
+      "color": "blue",
+      "x": 44,
+      "y": 226,
+      "s": 1.2
+     }
+    ]
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "ka",
+     "kz",
+     "kd"
+    ],
+    "done": "Arı, zil, davul: üçü de burada!",
+    "msg": "Üç kart bulundu!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Hışır hışır! Neredesiniz, kartlar?",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "whoosh"
+    },
+    "ali": {
+     "say": "Kutunun arkasına bakalım!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "ka",
+    "Saklanan kartları bul!"
+   ],
+   "ask": "Kartlar nerelerden çıktı? Hadi birlikte hatırlayalım.",
+   "cues": [
+    {
+     "w": 0,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Pembe bluzlu Zeynep ile çizgili tişörtlü Deniz de geldi. Ela arı kartını gösterdi: “Aaarı… Zzzeynep? Olmadı!” Hepsi kıkır kıkır güldü. “Aaarı, Aaali! İşte bu!” Şimdi sıra sende: Zil kimin? Davul kimin?",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 172,
+      "y": 205,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "ali"
+     },
+     {
+      "k": "zeynep",
+      "x": 256,
+      "y": 204,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "zeynep"
+     },
+     {
+      "k": "deniz",
+      "x": 340,
+      "y": 205,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "deniz"
+     },
+     {
+      "k": "ela",
+      "x": 62,
+      "y": 230,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "ela"
+     },
+     {
+      "k": "ari",
+      "x": 314,
+      "y": 230,
+      "s": 0.62,
+      "pose": "stand",
+      "z": 237,
+      "hit": "ka"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 150,
+      "y": 236,
+      "s": 1.7
+     },
+     {
+      "k": "zil",
+      "x": 150,
+      "y": 231,
+      "s": 0.46,
+      "z": 237,
+      "hit": "kz"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 232,
+      "y": 236,
+      "s": 1.7
+     },
+     {
+      "k": "davul",
+      "x": 233,
+      "y": 231,
+      "s": 0.42,
+      "z": 237,
+      "hit": "kd"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 314,
+      "y": 236,
+      "s": 1.7
+     }
+    ]
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "ali",
+      "ka"
+     ],
+     [
+      "zeynep",
+      "kz"
+     ],
+     [
+      "deniz",
+      "kd"
+     ]
+    ],
+    "done": "Herkes kendi kartını buldu!",
+    "msg": "Hepsini eşleştirdin!"
+   },
+   "hits": {
+    "ela": {
+     "say": "İlk sesi dinle!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "click"
+    },
+    "ali": {
+     "say": "Aaali, aaarı!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "buzz"
+    },
+    "zeynep": {
+     "say": "Ben Zzzeynep!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "bell"
+    },
+    "deniz": {
+     "say": "Ben Deniz! D-d-Deniz!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "ka": {
+     "say": "Aaarı, Aaali!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "kz": {
+     "say": "Zzzil, Zzzeynep!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "bell"
+    },
+    "kd": {
+     "say": "D-d-davul, D-d-Deniz!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "drum"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye, sonra arıya dokun!"
+   ],
+   "ask": "“Zzzil” hangi sesle başlıyor? Z sesiyle başlayan başka ne biliyorsun?",
+   "cues": [
+    {
+     "w": 17,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Nur Öğretmen kartları dolaplara sıkıca yapıştırdı. Ali kartına dokundu: “Aaali, aaarı!” Sonra Ela'ya sarıldı. “Teşekkürler, ses dedektifi!” Arı kartı yerindeydi. Ali de yerindeydi: arkadaşlarının yanında.",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ogretmen",
+      "x": 250,
+      "y": 214,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ogretmen"
+     },
+     {
+      "k": "ela",
+      "x": 108,
+      "y": 226,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "hug",
+      "hit": "ela"
+     },
+     {
+      "k": "ali",
+      "x": 158,
+      "y": 226,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "hug",
+      "flip": true,
+      "hit": "ali"
+     },
+     {
+      "k": "ari",
+      "x": 343.5,
+      "y": 139,
+      "s": 0.46,
+      "pose": "stand",
+      "z": 143,
+      "hit": "ka"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "apple",
+      "x": 311,
+      "y": 139,
+      "s": 0.68,
+      "z": 143,
+      "hit": "ke"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 343.5,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 376,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "zil",
+      "x": 376,
+      "y": 140,
+      "s": 0.4,
+      "z": 143,
+      "hit": "kz"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 165,
+      "s": 0.95
+     },
+     {
+      "k": "davul",
+      "x": 311,
+      "y": 163,
+      "s": 0.38,
+      "z": 166,
+      "hit": "kd"
+     },
+     {
+      "k": "heart",
+      "x": 133,
+      "y": 104,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Burası benim yerim!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "ela": {
+     "say": "Ses dedektifi iş başında!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "ogretmen": {
+     "say": "Sesleri ne güzel dinlediniz!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ka": {
+     "say": "Aaarı! Vızz vızz!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "ke": {
+     "say": "Eeelma!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "kz": {
+     "say": "Zzzil!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "bell"
+    },
+    "kd": {
+     "say": "D-d-davul!",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "drum"
+    }
+   },
+   "hint": [
+    "ka",
+    "Arı kartına dokun!"
+   ],
+   "ask": "Ela arkadaşına nasıl yardım etti? Sen bir arkadaşına nasıl yardım edersin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "TAEOB.3 (teyitsiz) Ses bilgisel farkındalık becerileri gösterebilme: sözcüklerin ilk seslerini fark eder; arı–Ali, zil–Zeynep, davul–Deniz gibi aynı sesle başlayan sözcükleri eşleştirir.",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme: resimli sembol kartlarının kime ait olduğunu resimden ve ilk sesten çıkarır; kartı sınıftaki kendi sembolüyle, yani günlük yaşamıyla ilişkilendirir.",
+   "TADB.3 Dinlediği hikâyeyi çözümleyebilme: kaybolma, arama, bulma ve geri takma olaylarını oluş sırasına göre söyler.",
+   "SDB1.1 Kendini Tanıma: adını, adının ilk sesini ve kendine ait sembolü tanır; üzüntünün bedende nasıl hissedildiğini (boğazda düğüm) fark edip adlandırır, derin nefes ve yardım isteme yolunu dener.",
+   "D4 Dostluk: arkadaşının sorununu fark eder, onunla birlikte çözüm arar."
+  ],
+  "once": [
+   "Kapağı gösterin: “Ali neyi arıyor olabilir? Gerçek bir arı mı, başka bir şey mi?” diye sorun.",
+   "Sınıftaki sembol kartlarınıza birlikte bakın: “Senin kartında ne var? O resim hangi sesle başlıyor?”",
+   "Sesleri uzatma oyununu tanıtın: “Mmmasa, sssu.” Çocuklar ilk sesi sizinle birlikte uzatsın."
+  ],
+  "sirasi": [
+   "1. sayfada “Eeela, eeelma” deyip ilk sesi uzatın; çocuklar sizinle birlikte uzatsın. Zeynep'i ve Deniz'i de tanıtın.",
+   "2. sayfada Ali'nin duygusunu adlandırın ve birlikte bir derin nefes alın.",
+   "3. sayfadaki tahmin sorusunda iki cevabı da kabul edin; kartlar iki yerde de çıkacak.",
+   "5. sayfada eşleştirmeden önce “Zzzil… Zzzeynep!” diye ilk sesi uzatarak ipucu verin; D gibi uzatılamayan seslerde “d-d-davul” diye tekrarlayın. Çocuğun kendisi dokunsun."
+  ],
+  "sonra": [
+   "Ali kartını göremeyince ne hissetti? Bedeninde ne oldu? Sonra ne yaptı?",
+   "Ela kartların kime ait olduğunu nasıl buldu?",
+   "Senin adın hangi sesle başlıyor? O sesle başlayan bir şey söyler misin?",
+   "Masalı resimlerle sıralayalım: önce ne oldu, sonra ne oldu?"
+  ],
+  "sinif": {
+   "ad": "Sembol Kartım",
+   "sure": "20 dk",
+   "materyal": "Kartonlar, boya kalemleri, bant, sınıftan çeşitli nesneler (elma, zil, top, kitap, makas vb.)",
+   "adim": [
+    "Çember olun. Her çocuk adını söylerken ilk sesini uzatsın: “Aaali”, “Eeela”, “Zzzeynep”.",
+    "Ortaya konan nesnelerden adının ilk sesiyle başlayanı bulsun (Kerem–kitap, Mira–makas). İlk sesi zor adlar için (Ömer–örümcek, Işıl–ıspanak) birlikte fikir üretin.",
+    "Her çocuk seçtiği nesnenin resmini kartına çizsin; isteyen çocuğun kartının altına adını siz yazın.",
+    "Kartları dolaplara ya da askılara sıkıca yapıştırın. Ertesi sabah kartları karıştırıp “Bu kart kimin?” oyunu oynayın."
+   ]
+  },
+  "evSoru": [
+   "Ali'nin kartı kaybolunca ne hissetti? Sen olsan ne hissederdin?",
+   "Ela kartları nasıl buldu? İlk sesler ona nasıl yardım etti?",
+   "Senin adın hangi sesle başlıyor? Evde o sesle başlayan neler var?"
+  ],
+  "evEtk": {
+   "ad": "Kapımdaki Resim Kartı",
+   "d": "Çocuğunuzla adının ilk sesiyle başlayan bir resim seçin (Deniz–davul, Ela–elma gibi). Birlikte çizip odasının kapısına asın. Ailedeki herkes için de bir kart yapın; gün içinde “Bu resim hangi sesle başlıyor, kimin kapısı?” diye oynayın."
+  },
+  "aileNotu": "Bugün sınıfımızda “Ali'nin Arısı Nerede?” masalını okuduk. Masalda Ela, kaybolan resim kartlarını sözcüklerin ilk seslerini dinleyerek sahiplerine ulaştırdı: arı–Ali, zil–Zeynep, davul–Deniz. Çocuklarımızla adımızın hangi sesle başladığını konuştuk. Evde “Bu hangi sesle başlıyor?” diye sorarak günlük nesnelerle ses avı yapabilir, harf adları yerine sesleri uzatarak (mmmasa) söyleyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/008-kapidaki-adimiz.mp3",
+  "hash": "4e6d69dd",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 19269,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2390,
+      6
+     ],
+     [
+      2809,
+      7
+     ],
+     [
+      3369,
+      8
+     ],
+     [
+      4069,
+      9
+     ],
+     [
+      4789,
+      10
+     ],
+     [
+      4989,
+      11
+     ],
+     [
+      5769,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      6870,
+      14
+     ],
+     [
+      7069,
+      15
+     ],
+     [
+      7930,
+      16
+     ],
+     [
+      8390,
+      17
+     ],
+     [
+      8869,
+      18
+     ],
+     [
+      9489,
+      19
+     ],
+     [
+      10169,
+      20
+     ],
+     [
+      10690,
+      21
+     ],
+     [
+      11350,
+      22
+     ],
+     [
+      11829,
+      23
+     ],
+     [
+      12270,
+      24
+     ],
+     [
+      12850,
+      25
+     ],
+     [
+      13189,
+      26
+     ],
+     [
+      13469,
+      27
+     ],
+     [
+      13890,
+      28
+     ],
+     [
+      14430,
+      29
+     ],
+     [
+      15310,
+      30
+     ],
+     [
+      15950,
+      31
+     ],
+     [
+      16669,
+      32
+     ],
+     [
+      16969,
+      33
+     ],
+     [
+      17110,
+      34
+     ],
+     [
+      17549,
+      35
+     ],
+     [
+      17749,
+      36
+     ],
+     [
+      18049,
+      37
+     ],
+     [
+      18469,
+      38
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 19569,
+    "d": 2128,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1150,
+      1
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 21998,
+    "d": 2690,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1119,
+      1
+     ],
+     [
+      2366,
+      2
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 24989,
+    "d": 2251,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      1869,
+      4
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 27540,
+    "d": 3599,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      479,
+      1
+     ],
+     [
+      1766,
+      2
+     ],
+     [
+      2793,
+      3
+     ]
+    ]
+   },
+   "p0h-ke": {
+    "s": 31439,
+    "d": 1731,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1129,
+      2
+     ]
+    ]
+   },
+   "p0h-ka": {
+    "s": 33471,
+    "d": 1871,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      954,
+      1
+     ],
+     [
+      1469,
+      2
+     ]
+    ]
+   },
+   "p0h-kz": {
+    "s": 35642,
+    "d": 1780,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1189,
+      2
+     ]
+    ]
+   },
+   "p0h-kd": {
+    "s": 37723,
+    "d": 2413,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1229,
+      1
+     ],
+     [
+      1790,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 40436,
+    "d": 18210,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      4249,
+      8
+     ],
+     [
+      4469,
+      9
+     ],
+     [
+      4910,
+      10
+     ],
+     [
+      5769,
+      11
+     ],
+     [
+      6009,
+      12
+     ],
+     [
+      6269,
+      13
+     ],
+     [
+      6989,
+      14
+     ],
+     [
+      7449,
+      15
+     ],
+     [
+      7749,
+      16
+     ],
+     [
+      8069,
+      17
+     ],
+     [
+      8730,
+      18
+     ],
+     [
+      9089,
+      19
+     ],
+     [
+      9249,
+      20
+     ],
+     [
+      9690,
+      21
+     ],
+     [
+      10569,
+      22
+     ],
+     [
+      11230,
+      23
+     ],
+     [
+      11709,
+      24
+     ],
+     [
+      12749,
+      25
+     ],
+     [
+      13049,
+      26
+     ],
+     [
+      14089,
+      27
+     ],
+     [
+      14449,
+      28
+     ],
+     [
+      15350,
+      29
+     ],
+     [
+      15989,
+      30
+     ],
+     [
+      16649,
+      31
+     ],
+     [
+      17169,
+      32
+     ],
+     [
+      17610,
+      33
+     ],
+     [
+      17809,
+      34
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 58946,
+    "d": 1402,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 60649,
+    "d": 2069,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p1h-ke": {
+    "s": 63019,
+    "d": 1058,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ]
+    ]
+   },
+   "p1h-dolap": {
+    "s": 64377,
+    "d": 1003,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      589,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 65681,
+    "d": 13690,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2630,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      4310,
+      9
+     ],
+     [
+      4669,
+      10
+     ],
+     [
+      4910,
+      11
+     ],
+     [
+      5370,
+      12
+     ],
+     [
+      5789,
+      13
+     ],
+     [
+      6390,
+      14
+     ],
+     [
+      6769,
+      15
+     ],
+     [
+      7549,
+      16
+     ],
+     [
+      8390,
+      17
+     ],
+     [
+      8930,
+      18
+     ],
+     [
+      9529,
+      19
+     ],
+     [
+      10369,
+      20
+     ],
+     [
+      10789,
+      21
+     ],
+     [
+      11270,
+      22
+     ],
+     [
+      12129,
+      23
+     ],
+     [
+      12689,
+      24
+     ],
+     [
+      13169,
+      25
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 79672,
+    "d": 2908,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      989,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      2209,
+      3
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 82880,
+    "d": 1724,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      565,
+      1
+     ],
+     [
+      1124,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 84904,
+    "d": 1772,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 86976,
+    "d": 1173,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      610,
+      2
+     ]
+    ]
+   },
+   "p3": {
+    "s": 88450,
+    "d": 13711,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      4109,
+      7
+     ],
+     [
+      4729,
+      8
+     ],
+     [
+      5229,
+      9
+     ],
+     [
+      5890,
+      10
+     ],
+     [
+      6449,
+      11
+     ],
+     [
+      7149,
+      12
+     ],
+     [
+      7769,
+      13
+     ],
+     [
+      8129,
+      14
+     ],
+     [
+      8249,
+      15
+     ],
+     [
+      8730,
+      16
+     ],
+     [
+      9430,
+      17
+     ],
+     [
+      9949,
+      18
+     ],
+     [
+      10289,
+      19
+     ],
+     [
+      10989,
+      20
+     ],
+     [
+      11749,
+      21
+     ],
+     [
+      12430,
+      22
+     ],
+     [
+      12810,
+      23
+     ],
+     [
+      13009,
+      24
+     ],
+     [
+      13350,
+      25
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 102461,
+    "d": 2315,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1689,
+      3
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 105076,
+    "d": 2077,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      849,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 107453,
+    "d": 3204,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      2189,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      2609,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 110958,
+    "d": 18117,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      2989,
+      7
+     ],
+     [
+      3150,
+      8
+     ],
+     [
+      4029,
+      9
+     ],
+     [
+      4310,
+      10
+     ],
+     [
+      4469,
+      11
+     ],
+     [
+      4989,
+      12
+     ],
+     [
+      6229,
+      13
+     ],
+     [
+      7249,
+      14
+     ],
+     [
+      8549,
+      15
+     ],
+     [
+      9390,
+      16
+     ],
+     [
+      9810,
+      17
+     ],
+     [
+      10169,
+      18
+     ],
+     [
+      10549,
+      19
+     ],
+     [
+      11549,
+      20
+     ],
+     [
+      12589,
+      21
+     ],
+     [
+      13529,
+      22
+     ],
+     [
+      13949,
+      23
+     ],
+     [
+      14509,
+      24
+     ],
+     [
+      14909,
+      25
+     ],
+     [
+      15189,
+      26
+     ],
+     [
+      16030,
+      27
+     ],
+     [
+      16350,
+      28
+     ],
+     [
+      17149,
+      29
+     ],
+     [
+      17610,
+      30
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 129376,
+    "d": 1073,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      529,
+      2
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 130749,
+    "d": 2046,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1105,
+      1
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 133096,
+    "d": 2161,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      749,
+      1
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 135558,
+    "d": 2534,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      473,
+      1
+     ],
+     [
+      1740,
+      2
+     ]
+    ]
+   },
+   "p4h-ka": {
+    "s": 138393,
+    "d": 1577,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      851,
+      1
+     ]
+    ]
+   },
+   "p4h-kz": {
+    "s": 140271,
+    "d": 1449,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      694,
+      1
+     ]
+    ]
+   },
+   "p4h-kd": {
+    "s": 142020,
+    "d": 2266,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1291,
+      1
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 144587,
+    "d": 1954,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 146841,
+    "d": 17185,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      3689,
+      6
+     ],
+     [
+      3910,
+      7
+     ],
+     [
+      4430,
+      8
+     ],
+     [
+      5649,
+      9
+     ],
+     [
+      6749,
+      10
+     ],
+     [
+      7809,
+      11
+     ],
+     [
+      8209,
+      12
+     ],
+     [
+      8749,
+      13
+     ],
+     [
+      9649,
+      14
+     ],
+     [
+      10789,
+      15
+     ],
+     [
+      11089,
+      16
+     ],
+     [
+      12409,
+      17
+     ],
+     [
+      12629,
+      18
+     ],
+     [
+      13029,
+      19
+     ],
+     [
+      14129,
+      20
+     ],
+     [
+      14390,
+      21
+     ],
+     [
+      14529,
+      22
+     ],
+     [
+      15589,
+      23
+     ],
+     [
+      16569,
+      24
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 164327,
+    "d": 1488,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      625,
+      1
+     ],
+     [
+      1036,
+      2
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 166116,
+    "d": 2018,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 168434,
+    "d": 1937,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p5h-ka": {
+    "s": 170671,
+    "d": 1543,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1046,
+      1
+     ],
+     [
+      1274,
+      2
+     ]
+    ]
+   },
+   "p5h-ke": {
+    "s": 172514,
+    "d": 637,
+    "w": [
+     [
+      29,
+      0
+     ]
+    ]
+   },
+   "p5h-kz": {
+    "s": 173451,
+    "d": 701,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-kd": {
+    "s": 174453,
+    "d": 930,
+    "w": [
+     [
+      70,
+      0
+     ]
+    ]
+   }
+  }
+ }
+}
