@@ -680,7 +680,7 @@ function camFrame(el,ctx={}){const svg=el&&el.querySelector("svg.L-fg");if(!svg)
   taps.forEach(t=>{lim(ox,X(t.b.x1),X(t.b.x2),400);lim(oy,Y(t.b.y1),Y(t.b.y2),240)});kb=Math.max(1,kb);
   el.style.setProperty("--kbo",`${F(ox/4)}% ${F(oy/2.4)}%`);el.style.setProperty("--kbs",kb.toFixed(4));el.style.setProperty("--kbb",(1+(kb-1)*.55).toFixed(4));
   /* dokunma hedeflerine görünmez pay: tüm kutu, küçükse ≥ ~36px (çocuk parmağı) */
-  taps.filter(t=>t.req).forEach(t=>{const b=t.b,need=TAP_MIN/z,w=b.x2-b.x1,h=b.y2-b.y1;/* büyük hedefte de tüm kutu dokunulabilir: ince/boşluklu şekiller kamera kayarken kaçmasın */
+  taps.filter(t=>t.req).forEach(t=>{const b=t.b,need=(typeof DESTEK!=="undefined"&&DESTEK.ac("motor")?42:TAP_MIN)/z,w=b.x2-b.x1,h=b.y2-b.y1;/* büyük hedefte de tüm kutu dokunulabilir: ince/boşluklu şekiller kamera kayarken kaçmasın */
     const c=[(b.x1+b.x2)/2,(b.y1+b.y2)/2],W=Math.max(w,need)/2,H=Math.max(h,need)/2;
     const r={x1:Math.max(vx+.5,c[0]-W),y1:Math.max(vy+.5,c[1]-H),x2:Math.min(vx+vw-.5,c[0]+W),y2:Math.min(vy+vh-.5,c[1]+H)};
     const I=camMat(t.e,fgc).inverse(),p=[[r.x1,r.y1],[r.x2,r.y1],[r.x1,r.y2],[r.x2,r.y2]].map(([x,y])=>I.transformPoint(new DOMPoint(x,y)));
@@ -13573,15 +13573,20 @@ const AU={ctx:null,bufs:{},cur:null,raf:0,music:null,
   get busy(){return !!this.cur},
   async play(id,o={}){if(!id)return;this.stop();const tok={};this.tok=tok;const c=CLIPS[id];const buf=await this.load(this.file(id));if(this.tok!==tok)return;
     if(!buf)return this.fallback(id,o);
-    const src=this.ctx.createBufferSource();src.buffer=buf;src.connect(this.ctx.destination);const t0=this.ctx.currentTime+.02;
-    if(c&&c.src)src.start(t0,c.src.s/1000,c.d/1000);else src.start(t0);
-    const marks=(c&&c.w)||[];let last=-1;
+    const base=c&&c.src?c.src.s/1000:0,D=c&&c.src?c.d/1000:buf.duration,marks=(c&&c.w)||[];
+    /* parçalar: [baş, son, sonrasında boşluk] sn. o.from/o.to: tek aralık (cümleyi tekrar dinle); Özel Destek yavaş anlatım: cümle aralarına duraklama (ses perdesi bozulmaz) */
+    let segs=[[o.from!=null?o.from/1000:0,o.to!=null?Math.min(D,o.to/1000):D,0]];
+    if(o.from==null&&typeof DESTEK!=="undefined"&&DESTEK.ac("yavas")&&c&&c.t&&marks.length>2)segs=DESTEK.bol(c,D);
+    const t0=this.ctx.currentTime+.02,plan=[],srcs=[];let off=0;
+    for(const [a,b,g] of segs){const x=this.ctx.createBufferSource();x.buffer=buf;x.connect(this.ctx.destination);x.start(t0+off,base+a,Math.max(.01,b-a));plan.push([off,a,b]);srcs.push(x);off+=b-a+g}
+    const src={stop(){srcs.forEach(x=>{try{x.onended=null;x.stop()}catch(e){}})}};let last=-1;
     let fin=false;const done=(cut)=>{if(fin)return;fin=true;clearTimeout(wd);cancelAnimationFrame(this.raf);o.onEnd&&o.onEnd(cut)};
     this.cur={src,end:done};
-    const ended=()=>{if(this.cur&&this.cur.src===src){this.cur=null;done(false)}};src.onended=ended;
+    const ended=()=>{if(this.cur&&this.cur.src===src){this.cur=null;done(false)}};srcs[srcs.length-1].onended=ended;
     /* güvenlik: iOS'ta ses bağlamı askıda kalırsa (sessiz mod, arama, uygulama değişimi) onended hiç gelmez; dokunma kilidi açık kalmasın */
-    const wd=setTimeout(ended,((c&&c.src?c.d/1000:buf.duration)+1.5)*1000);if(this.ctx.state!=="running")this.ctx.resume().catch(()=>{});
-    if(o.onWord){const tick=()=>{const ms=(this.ctx.currentTime-t0)*1000;let k=-1;for(let i=0;i<marks.length&&marks[i][0]<=ms;i++)k=marks[i][1];if(k!==last){last=k;o.onWord(k)}this.raf=requestAnimationFrame(tick)};tick()}
+    const wd=setTimeout(ended,(off+1.5)*1000);if(this.ctx.state!=="running")this.ctx.resume().catch(()=>{});
+    if(o.onWord){const tick=()=>{const el=this.ctx.currentTime-t0;let p=plan[0];for(const q of plan)if(el>=q[0])p=q;const ms=Math.min(p[1]+Math.max(0,el-p[0]),p[2])*1000;
+      let k=-1;for(let i=0;i<marks.length&&marks[i][0]<=ms;i++)k=marks[i][1];if(k!==last){last=k;o.onWord(k)}this.raf=requestAnimationFrame(tick)};tick()}
     o.onStart&&o.onStart()},
   fallback(id,o){if(!("speechSynthesis" in window)||!CLIPS[id]){o.onEnd&&o.onEnd(false);return}
     const u=new SpeechSynthesisUtterance(CLIPS[id].t.replace(/[“”"]/g,""));u.lang=S.lang==="en"?"en-GB":"tr-TR";const vs=speechSynthesis.getVoices().filter(v=>new RegExp("^"+S.lang,"i").test(v.lang));
@@ -13858,6 +13863,9 @@ function mechHit(m,k,el){const st=R.mech;const H=(page().hits||{})[k];
    ===================================================================== */
 /* dokunmatik: hedefi parmak kalkınca doğrudan çalıştır (iOS'ta SVG üzerinde sentezlenen click gecikebilir ya da hiç gelmeyebilir); ardından gelen click yutulur */
 let TD=null,TAPX=0;
+/* oyun: parmağın altında çizili bir hedef varsa görünmez dokunma payı (.tpad) yerine o seçilir (büyük paylar komşuyu örtmesin) */
+function oyunHit(x,y,h){let els=[];try{els=document.elementsFromPoint(x,y)}catch(e){return h}
+  for(const e of els){const c=e.closest&&e.closest("#game #art [data-hit]");if(c&&!(e.classList&&e.classList.contains("tpad"))&&getComputedStyle(c).pointerEvents!=="none")return c}return h}
 /* parmağın altında birden çok hedef varsa (saklanan taş papatyanın arkasında) sayfanın beklediği, henüz yapılmamış hedefi seç */
 function pickHit(x,y,h){if(!h||!h.closest("#reader")||R.phase!=="page")return h;const p=page();if(!p||!p.mech)return h;const m=p.mech;
   let need=new Set(camKeys(m,p.hint));
@@ -13868,10 +13876,15 @@ function pickHit(x,y,h){if(!h||!h.closest("#reader")||R.phase!=="page")return h;
   const ok=c=>need.has(c.dataset.hit)&&!c.dataset.counted&&!c.dataset.got;
   /* önce parmağın altında gerçekten çizili beklenen hedef, sonra payı olan beklenen hedef, sonra çizili herhangi biri */
   return (L.find(o=>!o.pad&&ok(o.c))||L.find(o=>ok(o.c))||L.find(o=>!o.pad)||{c:h}).c}
-document.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"){TD=null;return}const h=e.target.closest&&e.target.closest("#art [data-hit]");TD=h?{h,x:e.clientX,y:e.clientY,t:Date.now()}:null},{capture:true,passive:true});
+document.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"){TD=null;return}let h=e.target.closest&&e.target.closest("#art [data-hit]");
+  if(!h&&e.target.closest&&e.target.closest("#art")){/* tarayıcının dokunma düzeltmesi hedefi arka plana kaydırabilir: noktanın altındaki hedefe bak */
+    try{for(const x of document.elementsFromPoint(e.clientX,e.clientY)){const c=x.closest&&x.closest("#art .scene:not(.out) [data-hit]");if(c&&getComputedStyle(c).pointerEvents!=="none"){h=c;break}}}catch(_){}}
+  TD=h?{h,x:e.clientX,y:e.clientY,t:Date.now()}:null},{capture:true,passive:true});
 document.addEventListener("pointercancel",()=>{TD=null},true);
-document.addEventListener("pointerup",e=>{const d=TD;TD=null;if(!d||e.pointerType==="mouse"||!d.h.isConnected)return;if(Math.hypot(e.clientX-d.x,e.clientY-d.y)>28||Date.now()-d.t>1500)return;
-  TAPX=Date.now();AU.init();if(typeof GAME!=="undefined"&&GAME.on&&d.h.closest("#game"))GAME.hit(d.h);else if(d.h.closest("#reader"))onHit(pickHit(e.clientX,e.clientY,d.h))},true);
+document.addEventListener("pointerup",e=>{const d=TD;TD=null;if(!d||e.pointerType==="mouse"||!d.h.isConnected)return;const mot=typeof DESTEK!=="undefined"&&DESTEK.ac("motor");if(Math.hypot(e.clientX-d.x,e.clientY-d.y)>(mot?64:28)||Date.now()-d.t>(mot?4000:1500))return;
+  const og=typeof GAME!=="undefined"&&GAME.on&&d.h.closest("#game"),hd=og?oyunHit(e.clientX,e.clientY,d.h):d.h.closest("#reader")?pickHit(e.clientX,e.clientY,d.h):null;
+  if(mot&&hd&&DESTEK.tekrarMi(hd))return;/* yinelenen dokunuş, çözümlenen hedefe göre */
+  TAPX=Date.now();AU.init();if(og)GAME.hit(hd);else if(hd)onHit(hd)},true);
 document.addEventListener("click",e=>{if(Date.now()-TAPX<800&&e.target.closest&&e.target.closest("#art [data-hit]")){e.stopImmediatePropagation();e.preventDefault()}},true);/* aynı belgedeki oyun dinleyicisi de dursun (çift işlem olmasın) */
 document.addEventListener("click",e=>{
   const hit=e.target.closest("#art [data-hit]");if(hit){AU.init();onHit(pickHit(e.clientX,e.clientY,hit));return}
@@ -14146,7 +14159,7 @@ function renderGames(){const h=$("#games");if(!h)return;
    <div class="gshelf">${GAMES.map(g=>`<button class="card gcard" data-game="${g.id}"><div class="cover">${art(()=>scene(g.cover))}<span class="play" aria-hidden="true">▶</span></div><div class="body"><h3>${esc(EN_(g.title,g.en))}</h3><div class="meta"><span class="tag age">${ageLabel(g.age)}</span><span class="tag">${esc(_(g.area))}</span><span class="tag">${g.min} ${EN_("dk","min")}</span></div><p>${esc(EN_(g.blurb,g.enBlurb))}</p></div></button>`).join("")}</div>`;
   h.querySelectorAll(".gcard").forEach(c=>{const g=GAMES.find(x=>x.id===c.dataset.game);if(g.id==="golge"){const t=c.querySelector('[data-k="tilki"]');if(t)t.classList.add("shadow")}});pauseSmil(h)}
 document.addEventListener("click",e=>{
-  if(GAME.on&&e.target.closest("#game")){const hit=e.target.closest("#art [data-hit]");if(hit){AU.init();GAME.hit(hit);e.stopPropagation();return}
+  if(GAME.on&&e.target.closest("#game")){const hit=e.target.closest("#art [data-hit]");if(hit){AU.init();GAME.hit(oyunHit(e.clientX,e.clientY,hit));e.stopPropagation();return}
     const b=e.target.closest("button");if(!b)return;e.stopPropagation();const d=b.dataset;
     if(d.g==="close")return GAME.close();if(d.g==="again")return GAME.start(GAME.g.id);
     if(d.g==="fx"){S.fx=!S.fx;store.set("fx",S.fx);b.setAttribute("aria-pressed",S.fx);return}
@@ -14667,7 +14680,7 @@ GAMES.push(
 /* oyun sahnelerinde her dokunma hedefinin tüm kutusu dokunulabilir olsun (hareketli duruşlarda boşluk kalmasın) */
 (function(){const rr=GAME.renderRound;GAME.renderRound=function(intro){rr.call(this,intro);
   document.querySelectorAll("#game #art [data-hit]").forEach(g=>{try{const b=g.getBBox();if(!b.width||!b.height)return;const r=document.createElementNS("http://www.w3.org/2000/svg","rect");
-    const M=g.getScreenCTM(),sc=M?Math.hypot(M.a,M.b):1,need=44/(sc||1),w=Math.max(b.width+12,need),h=Math.max(b.height+12,need);/* ekranda en az 44px (çocuk parmağı) */
+    const M=g.getScreenCTM(),sc=M?Math.hypot(M.a,M.b):1,need=(typeof DESTEK!=="undefined"&&DESTEK.ac("motor")?64:44)/(sc||1),w=Math.max(b.width+12,need),h=Math.max(b.height+12,need);/* ekranda en az 44px (çocuk parmağı) */
     r.setAttribute("x",b.x+b.width/2-w/2);r.setAttribute("y",b.y+b.height/2-h/2);r.setAttribute("width",w);r.setAttribute("height",h);r.setAttribute("fill","transparent");r.setAttribute("class","tpad");g.insertBefore(r,g.firstChild)}catch(e){}})}})();
 
 /* =====================================================================
@@ -15445,4 +15458,113 @@ const OYUN_URL=LINK('/oyun/','https://claude.ai/artifact/F78F21YY6SQ4BcGMrTpi6W'
   else{const rg=renderGames;renderGames=function(){const r=rg.apply(this,arguments);const h=$("#games");if(h&&!h.querySelector(".app-promo"))h.insertAdjacentHTML("beforeend",promo());return r};
     document.title="NOVA ECE Oyun";const pr=document.querySelector(".brand .prod");if(pr)pr.textContent="Oyun";
     const br=document.querySelector(".brand");if(br)br.setAttribute("aria-label","NOVA ECE Oyun — novaece.com")}
+})();
+
+/* =====================================================================
+   Özel Destek modu (Masal + Oyun): özel gereksinimli çocuklar için tek panelden açılan uyarlamalar.
+   - sakin  : duyusal sakin mod — animasyon, kamera hareketi, ortam sesi, fon müziği, efekt sesi, konfeti yok
+   - hatasiz: hatasız öğrenme — yanlışta ceza sesi/sarsıntı yok; kademeli ipucu: 1) parıltı 2) gösteren el 3) birlikte yapma
+   - yavas  : yavaş anlatım — cümle aralarına duraklama (ses perdesi bozulmaz); metindeki kelimeye dokununca o cümle tekrar okunur
+   - kisa   : kısa oyunlar — her oyun en fazla 3 tur
+   - motor  : büyük dokunma — ~64px hedef, yavaş/titrek dokunuşa tolerans, art arda aynı dokunuş tek sayılır
+   - buyuk  : büyük yazı
+   Ayarlar cihazda saklanır (masal:destek). Panel ebeveyn onayıyla açılır. Destekleyici materyaldir; terapi yerine geçmez.
+   ===================================================================== */
+const DESTEK={
+  K:["sakin","hatasiz","yavas","kisa","motor","buyuk"],
+  A:store.get("destek",{}),
+  ac(k){return !!this.A[k]},
+  herhangi(){return this.K.some(k=>this.A[k])},
+  kaydet(){store.set("destek",this.A);this.uygula()},
+  uygula(){const b=document.body;this.K.forEach(k=>b.classList.toggle("dk-"+k,this.ac(k)));
+    const btn=document.getElementById("dk-btn");if(btn){btn.setAttribute("aria-pressed",this.herhangi());btn.classList.toggle("on",this.herhangi())}
+    if(this.ac("sakin")&&typeof EV!=="undefined"&&EV.stopAll)EV.stopAll()},
+  /* yavaş anlatım: kelime işaretlerinden cümle sınırları -> [baş, son, boşluk] */
+  bol(c,D){const W=c.t.split(/\s+/),m=c.w,seg=[];let a=0;
+    for(let i=1;i<m.length;i++){const prev=W[m[i][1]-1]||"";const g=/[.!?…:]["”’)»]*$/.test(prev)?.8:/[,;]["”’)»]*$/.test(prev)?.25:0;
+      if(g){const t=m[i][0]/1000;seg.push([a,t,g]);a=t}}
+    seg.push([a,D,0]);return seg},
+  cumle(c,k){/* k. kelimenin içinde olduğu cümlenin [baş,son] ms aralığı */const W=c.t.split(/\s+/),m=c.w;let bas=0,son=c.d;
+    for(let i=1;i<m.length;i++){const prev=W[m[i][1]-1]||"",sinir=/[.!?…:]["”’)»]*$/.test(prev);if(!sinir)continue;
+      if(m[i][1]<=k)bas=m[i][0];else{son=m[i][0];break}}return [bas,son]},
+  son:{h:null,t:0},
+  tekrarMi(h){const n=Date.now(),r=this.son.h===h&&n-this.son.t<300;/* titremeye bağlı çift dokunuş; bilinçli ritim vuruşu sayılır */this.son={h,t:n};return r},
+  /* hatasız öğrenme: hedef bul */
+  masalHedef(){if(R.phase!=="page")return null;const p=page(),m=p&&p.mech;if(!m)return null;const st=R.mech,el=k=>hitEl(k),ok=e=>e&&!e.dataset.got&&!e.dataset.counted;
+    if(m.type==="sequence"&&m.keys)return m.keys[st.n||0];
+    if(m.type==="sort"){const it=m.items||{};if(st.sel)return it[st.sel];return Object.keys(it).find(k=>ok(el(k)))}
+    if(m.type==="match"){const pr=m.pairs||[];if(st.sel){for(const [a,b] of pr){if(a===st.sel)return b;if(b===st.sel)return a}}const q=pr.find(([a])=>ok(el(a)));return q?q[0]:null}
+    if(m.type==="breathe")return st.step%2===0?m.flower:m.candle;
+    return camKeys(m,p.hint).find(k=>ok(el(k)))||null},
+  oyunHedef(){const G=GAME,hs=[...document.querySelectorAll("#game #art [data-hit]")].filter(e=>!e.dataset.got&&!e.dataset.gone&&getComputedStyle(e).pointerEvents!=="none"),
+      var_=k=>hs.find(e=>e.dataset.hit===k)?k:null,cur=G.cur||{};
+    if(G.g&&G.g.id==="gokkusagi"&&typeof GOK!=="undefined")return var_("c-"+GOK[G.next||0]);
+    if(cur.seq&&G.next!=null)return var_("i-"+cur.seq[G.next]);
+    if(Array.isArray(G.open)&&G.keys&&G.done){if(G.open.length===1){const i=G.open[0],j=G.keys.findIndex((k,j)=>j!==i&&k===G.keys[i]&&!G.done.has(j));if(j>-1)return var_("c"+(j+1))}
+      const i=G.keys.findIndex((k,i)=>!G.done.has(i)&&!G.open.includes(i));return i>-1?var_("c"+(i+1)):null}
+    if(var_("ok"))return "ok";
+    if(cur.ans!=null){const a=String(cur.ans),e=hs.find(e=>e.dataset.hit===a||e.dataset.hit.endsWith("-"+a));if(e)return e.dataset.hit}
+    return cur.first&&var_(cur.first)},
+  el(e){/* gösteren el: hedefin ortasına */const L=document.getElementById("fxl");if(!L||!e)return;L.querySelectorAll(".dk-el").forEach(x=>x.remove());
+    const a=L.getBoundingClientRect(),b=e.getBoundingClientRect(),d=document.createElement("i");d.className="dk-el";d.textContent="👆";
+    d.style.left=(b.left+b.width/2-a.left)+"px";d.style.top=(b.top+b.height/2-a.top)+"px";L.appendChild(d);setTimeout(()=>d.remove(),2600)},
+  ipucu(seviye,yer){const oyun=yer==="oyun",k=oyun?this.oyunHedef():this.masalHedef();if(!k)return;
+    const e=oyun?document.querySelector(`#game #art [data-hit="${k}"]`):hitEl(k);if(!e)return;
+    pulse(k);hintSay(S.lang==="en"?"Let's look together 👀":"Birlikte bakalım 👀");
+    if(seviye>=2)this.el(e);
+    if(seviye>=3)setTimeout(()=>{/* birlikte yapma: uygulama dokunuşu çocukla birlikte tamamlar */
+      if(oyun){if(GAME.on&&!GAME.lock&&e.isConnected)GAME.hit(e)}
+      else if(R.phase==="page"&&!R.mech.done&&e.isConnected){onHit(e);setTimeout(()=>{if(R.phase==="page"&&!R.mech.done&&R.mech.sel)this.ipucu(3,"masal")},900)}},1300)},
+  /* panel */
+  ETK:{sakin:["Sakin mod","Calm mode","Animasyon, kamera hareketi, müzik ve efekt sesi yok.","No animation, camera motion, music or sound effects."],
+    hatasiz:["Hatasız öğrenme","Errorless learning","Yanlışta ceza sesi yok; adım adım ipucu: parıltı, gösteren el, birlikte yapma.","No error sounds; step-by-step prompts: glow, pointing hand, doing it together."],
+    yavas:["Yavaş anlatım","Slower narration","Cümleler arasında duraklama. Bir kelimeye dokununca o cümle tekrar okunur.","Pauses between sentences. Tap a word to hear that sentence again."],
+    kisa:["Kısa oyunlar","Shorter games","Her oyun en fazla 3 tur.","Each game has at most 3 rounds."],
+    motor:["Büyük dokunma","Larger touch targets","Daha büyük dokunma alanı; yavaş ya da titrek dokunuş da kabul edilir.","Bigger touch areas; slow or shaky taps are accepted."],
+    buyuk:["Büyük yazı","Larger text","Masal ve oyun metinleri daha büyük.","Bigger story and game text."]},
+  panel(){const en=S.lang==="en",o=document.createElement("div");o.className="dk-panel";o.setAttribute("role","dialog");o.setAttribute("aria-modal","true");o.setAttribute("aria-labelledby","dk-h");
+    const sat=k=>{const t=this.ETK[k];return `<label class="dk-row"><span><b>${en?t[1]:t[0]}</b><i>${en?t[3]:t[2]}</i></span><input type="checkbox" data-dk="${k}" ${this.ac(k)?"checked":""}><span class="dk-sw" aria-hidden="true"></span></label>`};
+    o.innerHTML=`<div class="dk-card"><div class="dk-top"><h3 id="dk-h">🌿 ${en?"Special Support":"Özel Destek"}</h3><button class="tbtn" data-dkx aria-label="${en?"Close":"Kapat"}">✕</button></div>
+      <p class="dk-not">${en?"Adaptations for children with sensory, attention, language or motor needs. Settings stay on this device.":"Duyusal, dikkat, dil ya da motor gereksinimi olan çocuklar için uyarlamalar. Ayarlar bu cihazda kalır."}</p>
+      <div class="dk-list">${this.K.map(sat).join("")}</div>
+      <div class="dk-alt"><button class="btn primary" data-dkall>${en?"Turn all on":"Hepsini aç"}</button><button class="btn" data-dkoff>${en?"Turn all off":"Hepsini kapat"}</button></div>
+      <p class="dk-not small">${en?"A supportive learning material; it does not replace therapy or professional assessment.":"Destekleyici bir öğrenme materyalidir; terapinin ya da uzman değerlendirmesinin yerini tutmaz."}</p></div>`;
+    document.body.appendChild(o);
+    o.addEventListener("change",e=>{const k=e.target.dataset&&e.target.dataset.dk;if(k){this.A[k]=e.target.checked;this.kaydet()}});
+    o.addEventListener("click",e=>{if(e.target===o||e.target.closest("[data-dkx]")){o.remove();return}
+      if(e.target.closest("[data-dkall]")||e.target.closest("[data-dkoff]")){const v=!!e.target.closest("[data-dkall]");this.K.forEach(k=>this.A[k]=v);this.kaydet();o.querySelectorAll("[data-dk]").forEach(x=>x.checked=v)}})},
+  dugme(){const h=document.querySelector(".hctl");if(!h||document.getElementById("dk-btn"))return;const b=document.createElement("button");b.id="dk-btn";b.className="dk-btn";b.type="button";
+    b.innerHTML=`<span aria-hidden="true">🌿</span><span class="lbl"></span>`;h.insertBefore(b,h.firstChild);this.etiket();
+    b.addEventListener("click",()=>{if(typeof GATE!=="undefined")GATE.ask(()=>this.panel());else this.panel()})},
+  etiket(){const b=document.getElementById("dk-btn");if(b)b.querySelector(".lbl").textContent=S.lang==="en"?"Special Support":"Özel Destek"}
+};
+(function(){
+  /* sakin mod: ses ve görsel efektler */
+  const sfx=AU.sfx.bind(AU);AU.sfx=function(n){if(DESTEK.ac("sakin"))return;return sfx(n)};
+  const sp=sparkAt;sparkAt=function(){if(DESTEK.ac("sakin"))return;return sp.apply(this,arguments)};
+  const cf=confetti;confetti=function(){if(DESTEK.ac("sakin"))return;return cf.apply(this,arguments)};
+  if(typeof EV!=="undefined"&&EV.loop){const lp=EV.loop.bind(EV);EV.loop=function(slot,path,bus,vol){if(DESTEK.ac("sakin")){this.stopSlot(slot);return}return lp(slot,path,bus,vol)}}
+  const sakinDurdur=r=>{if(DESTEK.ac("sakin")&&r)r.querySelectorAll("svg").forEach(v=>{try{v.pauseAnimations()}catch(e){}})};
+  const rr=renderReader;renderReader=function(){const x=rr.apply(this,arguments);sakinDurdur(document.getElementById("reader"));return x};
+  /* hatasız öğrenme: masal */
+  const wt=wrongTry;wrongTry=function(el,m){if(!DESTEK.ac("hatasiz"))return wt(el,m);R.mech.yanlis=(R.mech.yanlis||0)+1;const s=R.mech.yanlis;setTimeout(()=>DESTEK.ipucu(s,"masal"),350)};
+  if(typeof GAME!=="undefined"){
+    const rnd=GAME.renderRound;GAME.renderRound=function(){this.yanlis=0;const x=rnd.apply(this,arguments);sakinDurdur(document.getElementById("game"));return x};
+    /* hatasız öğrenme: oyun — ceza sesi yok, kademeli ipucu */
+    const fl=GAME.fail;GAME.fail=function(sayKey,reset,el){if(!DESTEK.ac("hatasiz"))return fl.apply(this,arguments);
+      this.yanlis=(this.yanlis||0)+1;const s=this.yanlis,gen=this.gen;this.lock=true;
+      const done=()=>{if(this.gen!==gen)return;if(reset){this.renderRound();return}this.lock=false;this.busy=false;DESTEK.ipucu(s,"oyun")};
+      if(sayKey)this.say(sayKey,{onEnd:done});else setTimeout(done,450)};
+    /* kısa oyunlar */
+    const st=GAME.start;GAME.start=function(id){const g=GAMES.find(x=>x.id===id);
+      if(g){if(!g._tur)g._tur=g.rounds;g.rounds=DESTEK.ac("kisa")?function(){const r=g._tur.apply(this,arguments);return r.length>3?r.slice(0,3):r}:g._tur}
+      return st.apply(this,arguments)}}
+  /* yavaş anlatım: kelimeye dokununca o cümle */
+  document.addEventListener("click",e=>{if(!DESTEK.ac("yavas"))return;const w=e.target.closest&&e.target.closest("#rtext .w");if(!w||R.phase!=="page")return;
+    const p=page(),c=CLIPS[p.clip];if(!c||!c.w||!c.t)return;const [a,b]=DESTEK.cumle(c,+w.dataset.i);
+    AU.play(p.clip,{from:a,to:b,onWord:k=>{document.querySelectorAll("#rtext .w").forEach(x=>{const i=+x.dataset.i;x.classList.toggle("on",i===k)})},
+      onEnd:()=>document.querySelectorAll("#rtext .w").forEach(x=>x.classList.remove("on","past"))})},true);
+  /* dil değişince düğme etiketi */
+  document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("#seg-lang"))setTimeout(()=>DESTEK.etiket(),0)});
+  DESTEK.dugme();DESTEK.uygula();
 })();

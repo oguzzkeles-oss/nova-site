@@ -611,7 +611,6 @@
     "key": "kucukdede",
     "steps": 3,
     "step": 60,
-    "dir": -1,
     "say": "Adım adım, kapı kapı!",
     "done": "Komşu teyze şeker uzattı. Mis!",
     "msg": "Kapıya vardı!"

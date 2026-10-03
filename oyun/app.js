@@ -680,7 +680,7 @@ function camFrame(el,ctx={}){const svg=el&&el.querySelector("svg.L-fg");if(!svg)
   taps.forEach(t=>{lim(ox,X(t.b.x1),X(t.b.x2),400);lim(oy,Y(t.b.y1),Y(t.b.y2),240)});kb=Math.max(1,kb);
   el.style.setProperty("--kbo",`${F(ox/4)}% ${F(oy/2.4)}%`);el.style.setProperty("--kbs",kb.toFixed(4));el.style.setProperty("--kbb",(1+(kb-1)*.55).toFixed(4));
   /* dokunma hedeflerine görünmez pay: tüm kutu, küçükse ≥ ~36px (çocuk parmağı) */
-  taps.filter(t=>t.req).forEach(t=>{const b=t.b,need=TAP_MIN/z,w=b.x2-b.x1,h=b.y2-b.y1;/* büyük hedefte de tüm kutu dokunulabilir: ince/boşluklu şekiller kamera kayarken kaçmasın */
+  taps.filter(t=>t.req).forEach(t=>{const b=t.b,need=(typeof DESTEK!=="undefined"&&DESTEK.ac("motor")?42:TAP_MIN)/z,w=b.x2-b.x1,h=b.y2-b.y1;/* büyük hedefte de tüm kutu dokunulabilir: ince/boşluklu şekiller kamera kayarken kaçmasın */
     const c=[(b.x1+b.x2)/2,(b.y1+b.y2)/2],W=Math.max(w,need)/2,H=Math.max(h,need)/2;
     const r={x1:Math.max(vx+.5,c[0]-W),y1:Math.max(vy+.5,c[1]-H),x2:Math.min(vx+vw-.5,c[0]+W),y2:Math.min(vy+vh-.5,c[1]+H)};
     const I=camMat(t.e,fgc).inverse(),p=[[r.x1,r.y1],[r.x2,r.y1],[r.x1,r.y2],[r.x2,r.y2]].map(([x,y])=>I.transformPoint(new DOMPoint(x,y)));
@@ -13573,15 +13573,20 @@ const AU={ctx:null,bufs:{},cur:null,raf:0,music:null,
   get busy(){return !!this.cur},
   async play(id,o={}){if(!id)return;this.stop();const tok={};this.tok=tok;const c=CLIPS[id];const buf=await this.load(this.file(id));if(this.tok!==tok)return;
     if(!buf)return this.fallback(id,o);
-    const src=this.ctx.createBufferSource();src.buffer=buf;src.connect(this.ctx.destination);const t0=this.ctx.currentTime+.02;
-    if(c&&c.src)src.start(t0,c.src.s/1000,c.d/1000);else src.start(t0);
-    const marks=(c&&c.w)||[];let last=-1;
+    const base=c&&c.src?c.src.s/1000:0,D=c&&c.src?c.d/1000:buf.duration,marks=(c&&c.w)||[];
+    /* parçalar: [baş, son, sonrasında boşluk] sn. o.from/o.to: tek aralık (cümleyi tekrar dinle); Özel Destek yavaş anlatım: cümle aralarına duraklama (ses perdesi bozulmaz) */
+    let segs=[[o.from!=null?o.from/1000:0,o.to!=null?Math.min(D,o.to/1000):D,0]];
+    if(o.from==null&&typeof DESTEK!=="undefined"&&DESTEK.ac("yavas")&&c&&c.t&&marks.length>2)segs=DESTEK.bol(c,D);
+    const t0=this.ctx.currentTime+.02,plan=[],srcs=[];let off=0;
+    for(const [a,b,g] of segs){const x=this.ctx.createBufferSource();x.buffer=buf;x.connect(this.ctx.destination);x.start(t0+off,base+a,Math.max(.01,b-a));plan.push([off,a,b]);srcs.push(x);off+=b-a+g}
+    const src={stop(){srcs.forEach(x=>{try{x.onended=null;x.stop()}catch(e){}})}};let last=-1;
     let fin=false;const done=(cut)=>{if(fin)return;fin=true;clearTimeout(wd);cancelAnimationFrame(this.raf);o.onEnd&&o.onEnd(cut)};
     this.cur={src,end:done};
-    const ended=()=>{if(this.cur&&this.cur.src===src){this.cur=null;done(false)}};src.onended=ended;
+    const ended=()=>{if(this.cur&&this.cur.src===src){this.cur=null;done(false)}};srcs[srcs.length-1].onended=ended;
     /* güvenlik: iOS'ta ses bağlamı askıda kalırsa (sessiz mod, arama, uygulama değişimi) onended hiç gelmez; dokunma kilidi açık kalmasın */
-    const wd=setTimeout(ended,((c&&c.src?c.d/1000:buf.duration)+1.5)*1000);if(this.ctx.state!=="running")this.ctx.resume().catch(()=>{});
-    if(o.onWord){const tick=()=>{const ms=(this.ctx.currentTime-t0)*1000;let k=-1;for(let i=0;i<marks.length&&marks[i][0]<=ms;i++)k=marks[i][1];if(k!==last){last=k;o.onWord(k)}this.raf=requestAnimationFrame(tick)};tick()}
+    const wd=setTimeout(ended,(off+1.5)*1000);if(this.ctx.state!=="running")this.ctx.resume().catch(()=>{});
+    if(o.onWord){const tick=()=>{const el=this.ctx.currentTime-t0;let p=plan[0];for(const q of plan)if(el>=q[0])p=q;const ms=Math.min(p[1]+Math.max(0,el-p[0]),p[2])*1000;
+      let k=-1;for(let i=0;i<marks.length&&marks[i][0]<=ms;i++)k=marks[i][1];if(k!==last){last=k;o.onWord(k)}this.raf=requestAnimationFrame(tick)};tick()}
     o.onStart&&o.onStart()},
   fallback(id,o){if(!("speechSynthesis" in window)||!CLIPS[id]){o.onEnd&&o.onEnd(false);return}
     const u=new SpeechSynthesisUtterance(CLIPS[id].t.replace(/[“”"]/g,""));u.lang=S.lang==="en"?"en-GB":"tr-TR";const vs=speechSynthesis.getVoices().filter(v=>new RegExp("^"+S.lang,"i").test(v.lang));
@@ -13858,6 +13863,9 @@ function mechHit(m,k,el){const st=R.mech;const H=(page().hits||{})[k];
    ===================================================================== */
 /* dokunmatik: hedefi parmak kalkınca doğrudan çalıştır (iOS'ta SVG üzerinde sentezlenen click gecikebilir ya da hiç gelmeyebilir); ardından gelen click yutulur */
 let TD=null,TAPX=0;
+/* oyun: parmağın altında çizili bir hedef varsa görünmez dokunma payı (.tpad) yerine o seçilir (büyük paylar komşuyu örtmesin) */
+function oyunHit(x,y,h){let els=[];try{els=document.elementsFromPoint(x,y)}catch(e){return h}
+  for(const e of els){const c=e.closest&&e.closest("#game #art [data-hit]");if(c&&!(e.classList&&e.classList.contains("tpad"))&&getComputedStyle(c).pointerEvents!=="none")return c}return h}
 /* parmağın altında birden çok hedef varsa (saklanan taş papatyanın arkasında) sayfanın beklediği, henüz yapılmamış hedefi seç */
 function pickHit(x,y,h){if(!h||!h.closest("#reader")||R.phase!=="page")return h;const p=page();if(!p||!p.mech)return h;const m=p.mech;
   let need=new Set(camKeys(m,p.hint));
@@ -13868,10 +13876,15 @@ function pickHit(x,y,h){if(!h||!h.closest("#reader")||R.phase!=="page")return h;
   const ok=c=>need.has(c.dataset.hit)&&!c.dataset.counted&&!c.dataset.got;
   /* önce parmağın altında gerçekten çizili beklenen hedef, sonra payı olan beklenen hedef, sonra çizili herhangi biri */
   return (L.find(o=>!o.pad&&ok(o.c))||L.find(o=>ok(o.c))||L.find(o=>!o.pad)||{c:h}).c}
-document.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"){TD=null;return}const h=e.target.closest&&e.target.closest("#art [data-hit]");TD=h?{h,x:e.clientX,y:e.clientY,t:Date.now()}:null},{capture:true,passive:true});
+document.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"){TD=null;return}let h=e.target.closest&&e.target.closest("#art [data-hit]");
+  if(!h&&e.target.closest&&e.target.closest("#art")){/* tarayıcının dokunma düzeltmesi hedefi arka plana kaydırabilir: noktanın altındaki hedefe bak */
+    try{for(const x of document.elementsFromPoint(e.clientX,e.clientY)){const c=x.closest&&x.closest("#art .scene:not(.out) [data-hit]");if(c&&getComputedStyle(c).pointerEvents!=="none"){h=c;break}}}catch(_){}}
+  TD=h?{h,x:e.clientX,y:e.clientY,t:Date.now()}:null},{capture:true,passive:true});
 document.addEventListener("pointercancel",()=>{TD=null},true);
-document.addEventListener("pointerup",e=>{const d=TD;TD=null;if(!d||e.pointerType==="mouse"||!d.h.isConnected)return;if(Math.hypot(e.clientX-d.x,e.clientY-d.y)>28||Date.now()-d.t>1500)return;
-  TAPX=Date.now();AU.init();if(typeof GAME!=="undefined"&&GAME.on&&d.h.closest("#game"))GAME.hit(d.h);else if(d.h.closest("#reader"))onHit(pickHit(e.clientX,e.clientY,d.h))},true);
+document.addEventListener("pointerup",e=>{const d=TD;TD=null;if(!d||e.pointerType==="mouse"||!d.h.isConnected)return;const mot=typeof DESTEK!=="undefined"&&DESTEK.ac("motor");if(Math.hypot(e.clientX-d.x,e.clientY-d.y)>(mot?64:28)||Date.now()-d.t>(mot?4000:1500))return;
+  const og=typeof GAME!=="undefined"&&GAME.on&&d.h.closest("#game"),hd=og?oyunHit(e.clientX,e.clientY,d.h):d.h.closest("#reader")?pickHit(e.clientX,e.clientY,d.h):null;
+  if(mot&&hd&&DESTEK.tekrarMi(hd))return;/* yinelenen dokunuş, çözümlenen hedefe göre */
+  TAPX=Date.now();AU.init();if(og)GAME.hit(hd);else if(hd)onHit(hd)},true);
 document.addEventListener("click",e=>{if(Date.now()-TAPX<800&&e.target.closest&&e.target.closest("#art [data-hit]")){e.stopImmediatePropagation();e.preventDefault()}},true);/* aynı belgedeki oyun dinleyicisi de dursun (çift işlem olmasın) */
 document.addEventListener("click",e=>{
   const hit=e.target.closest("#art [data-hit]");if(hit){AU.init();onHit(pickHit(e.clientX,e.clientY,hit));return}
@@ -13914,31 +13927,43 @@ $("#sheet").addEventListener("click",e=>{if(e.target.id==="sheet")closeSheet()})
 
 loadCatalog().then(()=>{renderFilters();setMode(S.mode)});
 
+const SARKI_SOZ={"civciv":{"d":70.11,"g":1.0,"satir":[{"t":"Bir, iki, üç, dört, beş!","w":[["Bir,",15.06,15.56],["iki,",15.74,16.14],["üç,",16.3,16.52],["dört,",16.6,16.86],["beş!",16.96,17.38]]},{"t":"Beş minik civciv, cik cik cik!","w":[["Beş",17.5,17.74],["minik",17.82,18.14],["civciv,",18.18,18.7],["cik",18.8,19.0],["cik",19.1,19.34],["cik!",19.44,19.76]]},{"t":"Bir, iki, üç, dört, beş!","w":[["Bir,",22.54,23.04],["iki,",23.2,23.64],["üç,",23.82,24.0],["dört,",24.1,24.34],["beş!",24.44,24.96]]},{"t":"Hepsi burada, cik cik cik!","w":[["Hepsi",25.02,25.56],["burada,",25.66,26.18],["cik",26.26,26.48],["cik",26.58,26.8],["cik!",26.92,27.34]]},{"t":"Lokum kelebeğe daldı,","w":[["Lokum",28.76,29.9],["kelebeğe",30.0,31.46],["daldı,",31.56,32.12]]},{"t":"Kanat çırptı, uzaklaştı.","w":[["Kanat",32.52,33.1],["çırptı,",33.18,33.68],["uzaklaştı.",33.84,35.88]]},{"t":"Saydım saydım, dört kaldı,","w":[["Saydım",36.26,36.78],["saydım,",36.88,37.4],["dört",37.52,37.78],["kaldı,",37.86,38.38]]},{"t":"Nineciğim, biri yok!","w":[["Nineciğim,",38.82,39.96],["biri",40.04,40.6],["yok!",40.7,41.28]]},{"t":"Çalının arkası? Yok!","w":[["Çalının",42.52,43.68],["arkası?",43.86,44.72],["Yok!",45.06,45.72]]},{"t":"Kütüğün arkası? Yok!","w":[["Kütüğün",46.28,47.44],["arkası?",47.58,48.4],["Yok!",48.8,49.34]]},{"t":"Çitin ardından cik cik cik,","w":[["Çitin",49.72,50.28],["ardından",50.44,51.22],["cik",51.28,51.5],["cik",51.6,51.8],["cik,",51.92,52.16]]},{"t":"Lokum burada, korkma gel!","w":[["Lokum",52.54,53.08],["burada,",53.16,53.62],["korkma",53.76,54.3],["gel!",54.42,55.1]]},{"t":"Bir, iki, üç, dört, beş!","w":[["Bir,",57.56,58.02],["iki,",58.24,58.64],["üç,",58.82,59.0],["dört,",59.1,59.34],["beş!",59.46,59.88]]},{"t":"Beş minik civciv, cik cik cik!","w":[["Beş",60.0,60.24],["minik",60.3,60.62],["civciv,",60.66,61.18],["cik",61.3,61.5],["cik",61.6,61.84],["cik!",61.92,62.24]]},{"t":"Bir, iki, üç, dört, beş!","w":[["Bir,",62.56,63.06],["iki,",63.22,63.62],["üç,",63.82,64.0],["dört,",64.1,64.34],["beş!",64.44,64.94]]},{"t":"Hepsi burada, cik cik cik!","w":[["Hepsi",65.02,65.56],["burada,",65.68,66.16],["cik",66.26,66.48],["cik",66.58,66.78],["cik!",66.92,67.34]]}]},"elele":{"d":70.11,"g":1.0,"satir":[{"t":"Güneşte koşar dünyanın çocukları!","w":[["Güneşte",11.66,12.66],["koşar",12.76,13.62],["dünyanın",13.88,14.74],["çocukları!",15.02,16.06]]},{"t":"Denizde yüzer dünyanın çocukları!","w":[["Denizde",16.14,16.92],["yüzer",17.24,18.06],["dünyanın",18.34,19.28],["çocukları!",19.4,20.46]]},{"t":"Merhaba der, hola der dünyanın çocukları!","w":[["Merhaba",20.6,21.36],["der,",21.42,21.64],["hola",21.72,22.2],["der",22.28,22.54],["dünyanın",22.8,23.66],["çocukları!",23.92,24.92]]},{"t":"El ele, el ele, dünyanın çocukları!","w":[["El",26.18,26.44],["ele,",26.5,26.9],["el",27.28,27.54],["ele,",27.6,28.0],["dünyanın",28.36,29.14],["çocukları!",29.2,30.26]]},{"t":"Yirmi üç Nisan, bayramımız kutlu olsun!","w":[["Yirmi",30.64,31.08],["üç",31.22,31.54],["Nisan,",31.66,32.54],["bayramımız",32.82,33.6],["kutlu",33.64,34.1],["olsun!",34.14,34.7]]},{"t":"El ele, el ele, dünyanın çocukları!","w":[["El",35.1,35.32],["ele,",35.4,35.78],["el",36.2,36.42],["ele,",36.5,36.9],["dünyanın",37.28,38.04],["çocukları!",38.1,39.14]]},{"t":"Yirmi üç Nisan, bayramımız kutlu olsun!","w":[["Yirmi",39.5,40.04],["üç",40.16,40.44],["Nisan,",40.6,41.44],["bayramımız",41.72,42.5],["kutlu",42.54,42.94],["olsun!",43.04,43.68]]},{"t":"Laleler açtı nisanda,","w":[["Laleler",44.5,45.58],["açtı",45.68,46.1],["nisanda,",46.18,47.24]]},{"t":"Bayrağım dalgalanıyor,","w":[["Bayrağım",47.82,48.82],["dalgalanıyor,",48.92,50.34]]},{"t":"Atatürk'ün armağanı,","w":[["Atatürk'ün",50.68,51.64],["armağanı,",51.78,52.74]]},{"t":"Çocuk bayramı geldi!","w":[["Çocuk",53.14,53.58],["bayramı",53.72,54.42],["geldi!",54.52,55.06]]},{"t":"El ele, el ele, dünyanın çocukları!","w":[["El",56.22,56.44],["ele,",56.54,56.9],["el",57.32,57.54],["ele,",57.62,58.02],["dünyanın",58.38,59.22],["çocukları!",59.48,60.52]]},{"t":"Yirmi üç Nisan, bayramımız kutlu olsun!","w":[["Yirmi",60.64,61.16],["üç",61.2,61.56],["Nisan,",61.68,62.54],["bayramımız",62.84,63.6],["kutlu",63.68,64.06],["olsun!",64.14,64.52]]},{"t":"Kutlu olsun, kutlu olsun!","w":[["Kutlu",64.52,64.52],["olsun,",64.52,64.72],["kutlu",65.6,66.04],["olsun!",66.2,67.34]]}]},"firca":{"d":70.11,"g":1.0,"satir":[{"t":"Fırça fırça, fırçala!","w":[["Fırça",0.48,1.04],["fırça,",1.14,1.72],["fırçala!",1.84,2.74]]},{"t":"Yukarı, aşağı, daire çiz!","w":[["Yukarı,",3.16,3.68],["aşağı,",3.82,4.24],["daire",4.48,5.1],["çiz!",5.16,5.5]]},{"t":"Fırça fırça, fırçala!","w":[["Fırça",5.82,6.38],["fırça,",6.48,7.04],["fırçala!",7.16,8.1]]},{"t":"Dişlerim pırıl pırıl, tertemiz!","w":[["Dişlerim",8.48,9.1],["pırıl",9.22,9.62],["pırıl,",9.72,10.4],["tertemiz!",10.52,11.5]]},{"t":"Mırmır bal yedi, şap şap şap,","w":[["Mırmır",21.86,22.28],["bal",22.36,22.62],["yedi,",22.66,22.96],["şap",23.2,23.44],["şap",23.5,23.76],["şap,",23.84,24.14]]},{"t":"Dişlerde kaldı, yapış yapış!","w":[["Dişlerde",24.5,25.14],["kaldı,",25.18,25.64],["yapış",25.86,26.32],["yapış!",26.36,26.86]]},{"t":"Bezelye kadar macun koy,","w":[["Bezelye",27.2,27.82],["kadar",27.86,28.46],["macun",28.54,29.1],["koy,",29.2,29.5]]},{"t":"Hışır hışır, hışır hışır!","w":[["Hışır",29.82,30.16],["hışır,",30.18,30.52],["hışır",30.54,30.92],["hışır!",30.98,31.78]]},{"t":"Fırça fırça, fırçala!","w":[["Fırça",32.48,33.06],["fırça,",33.16,33.72],["fırçala!",33.86,34.76]]},{"t":"Yukarı, aşağı, daire çiz!","w":[["Yukarı,",35.18,35.7],["aşağı,",35.84,36.38],["daire",36.5,37.1],["çiz!",37.22,37.5]]},{"t":"Fırça fırça, fırçala!","w":[["Fırça",37.84,38.38],["fırça,",38.5,39.06],["fırçala!",39.2,40.1]]},{"t":"Dişlerim pırıl pırıl, tertemiz!","w":[["Dişlerim",40.5,41.12],["pırıl",41.22,41.64],["pırıl,",41.74,42.44],["tertemiz!",42.56,43.5]]},{"t":"Önde, arkada, yanda da,","w":[["Önde,",48.6,49.02],["arkada,",49.22,49.78],["yanda",49.86,50.4],["da,",50.5,50.74]]},{"t":"Dilimi de unutmam ben!","w":[["Dilimi",51.18,51.76],["de",51.84,52.16],["unutmam",52.28,53.1],["ben!",53.2,53.44]]},{"t":"Sabah akşam, her gün her gün,","w":[["Sabah",53.84,54.2],["akşam,",54.3,54.78],["her",54.88,55.12],["gün",55.24,55.46],["her",55.54,55.8],["gün,",55.92,56.14]]},{"t":"Gülerim kocaman, ışıl ışıl!","w":[["Gülerim",56.52,57.08],["kocaman,",57.2,57.9],["ışıl",58.48,59.0],["ışıl!",59.02,59.5]]},{"t":"Fırça fırça, fırçala!","w":[["Fırça",60.48,61.04],["fırça,",61.18,61.72],["fırçala!",61.86,62.74]]},{"t":"Dişlerim pırıl pırıl, tertemiz!","w":[["Dişlerim",63.16,63.74],["pırıl",63.86,64.26],["pırıl,",64.36,64.78],["tertemiz!",64.86,65.5]]},{"t":"İyi geceler, tertemiz!","w":[["İyi",65.94,66.14],["geceler,",66.22,67.14],["tertemiz!",67.26,68.28]]}]},"halka":{"d":70.11,"g":1.0,"satir":[{"t":"Halka olduk, el ele,","w":[["Halka",9.24,9.86],["olduk,",9.92,10.44],["el",10.52,10.74],["ele,",10.82,11.22]]},{"t":"Döneriz tıpış tıpış!","w":[["Döneriz",11.58,12.36],["tıpış",12.44,12.94],["tıpış!",13.02,13.58]]},{"t":"Mendil düştü, arkana bak,","w":[["Mendil",13.9,14.38],["düştü,",14.46,14.9],["arkana",15.1,15.82],["bak,",15.9,16.12]]},{"t":"Koş koş koş, yakala!","w":[["Koş",16.22,16.66],["koş",16.76,16.96],["koş,",17.04,17.28],["yakala!",17.36,18.08]]},{"t":"Ebe geldi, şşşt şşşt,","w":[["Ebe",23.18,23.6],["geldi,",23.7,24.1],["şşşt",24.22,24.58],["şşşt,",24.8,25.12]]},{"t":"Kimse bakmasın arkaya!","w":[["Kimse",25.4,25.92],["bakmasın",25.98,26.6],["arkaya!",26.66,27.32]]},{"t":"Mendil kimin arkasında?","w":[["Mendil",27.74,28.22],["kimin",28.32,28.88],["arkasında?",28.96,29.9]]},{"t":"Ali, Ali, arkana bak!","w":[["Ali,",30.12,30.44],["Ali,",30.66,30.84],["arkana",30.94,31.68],["bak!",31.76,32.08]]},{"t":"Halka olduk, el ele,","w":[["Halka",36.94,37.46],["olduk,",37.62,38.1],["el",38.24,38.42],["ele,",38.52,38.88]]},{"t":"Döneriz tıpış tıpış!","w":[["Döneriz",39.28,40.06],["tıpış",40.12,40.62],["tıpış!",40.72,41.26]]},{"t":"Mendil düştü, arkana bak,","w":[["Mendil",41.6,42.08],["düştü,",42.16,42.62],["arkana",42.76,43.52],["bak,",43.58,43.8]]},{"t":"Koş koş koş, yakala!","w":[["Koş",43.92,44.38],["koş",44.48,44.66],["koş,",44.76,45.0],["yakala!",45.1,45.8]]},{"t":"Hep ben ebe olmam ki,","w":[["Hep",50.76,51.04],["ben",51.1,51.38],["ebe",51.46,51.86],["olmam",52.0,52.44],["ki,",52.54,52.72]]},{"t":"Gel birlikte ebe olalım!","w":[["Gel",53.1,53.34],["birlikte",53.4,54.16],["ebe",54.32,54.74],["olalım!",54.92,55.46]]},{"t":"İki ebe el ele,","w":[["İki",55.56,55.94],["ebe",56.06,56.48],["el",56.64,56.88],["ele,",57.0,57.34]]},{"t":"Oyun daha da güzel!","w":[["Oyun",57.82,58.22],["daha",58.28,58.74],["da",58.86,59.06],["güzel!",59.16,59.72]]},{"t":"Halka olduk, el ele,","w":[["Halka",60.58,61.18],["olduk,",61.26,62.32],["el",62.92,63.2],["ele,",63.28,63.84]]},{"t":"Koş koş koş, yakala!","w":[["Koş",65.22,65.7],["koş",65.82,66.24],["koş,",66.36,66.86],["yakala!",66.98,67.76]]}]},"ordekler":{"d":75.08,"g":1.0,"satir":[{"t":"Vak vak vak, ördekler sıraya!","w":[["Vak",10.32,10.58],["vak",10.64,10.88],["vak,",10.94,11.2],["ördekler",11.3,12.12],["sıraya!",12.18,12.76]]},{"t":"Bir, iki, üç, hadi göle doğru!","w":[["Bir,",12.84,13.16],["iki,",13.28,13.42],["üç,",13.52,14.0],["hadi",14.08,14.36],["göle",14.42,14.68],["doğru!",14.74,15.34]]},{"t":"Vak vak vak, ördekler sıraya!","w":[["Vak",17.84,18.08],["vak",18.16,18.4],["vak,",18.46,18.7],["ördekler",18.8,19.62],["sıraya!",19.68,20.26]]},{"t":"Bir, iki, üç, hadi göle doğru!","w":[["Bir,",20.36,20.66],["iki,",20.78,20.92],["üç,",21.0,21.5],["hadi",21.58,21.86],["göle",21.92,22.2],["doğru!",22.24,22.84]]},{"t":"Anne ördek önde, yavrular arkada,","w":[["Anne",25.36,26.18],["ördek",26.38,27.14],["önde,",27.28,27.74],["yavrular",27.84,28.5],["arkada,",28.56,29.14]]},{"t":"Paytak paytak yürürler çimenlerde.","w":[["Paytak",30.34,30.9],["paytak",30.96,31.54],["yürürler",31.58,32.02],["çimenlerde.",32.08,33.26]]},{"t":"Vak vak vak, ördekler sıraya!","w":[["Vak",35.3,35.7],["vak",35.96,36.22],["vak,",36.28,36.66],["ördekler",37.28,38.08],["sıraya!",38.14,39.14]]},{"t":"Bir, iki, üç, hadi göle doğru!","w":[["Bir,",40.32,40.56],["iki,",40.68,40.94],["üç,",41.04,41.38],["hadi",41.56,41.86],["göle",41.92,42.18],["doğru!",42.26,43.3]]},{"t":"Biri durdu, su içti: şıp şıp şıp!","w":[["Biri",45.34,45.88],["durdu,",45.98,46.72],["su",46.92,47.12],["içti:",47.24,47.68],["şıp",47.86,48.28],["şıp",48.46,48.92],["şıp!",49.06,49.4]]},{"t":"Sıraya geri girdi: hop hop hop!","w":[["Sıraya",50.32,51.48],["geri",51.6,51.86],["girdi:",51.92,52.58],["hop",52.82,53.18],["hop",53.46,53.84],["hop!",54.06,54.5]]},{"t":"Vak vak vak, ördekler sıraya!","w":[["Vak",57.82,58.22],["vak",58.46,58.7],["vak,",58.78,59.16],["ördekler",59.78,60.58],["sıraya!",60.64,61.72]]},{"t":"Bir, iki, üç, hadi göle doğru!","w":[["Bir,",62.84,63.08],["iki,",63.18,63.46],["üç,",63.48,63.88],["hadi",64.06,64.34],["göle",64.42,64.68],["doğru!",64.74,65.66]]},{"t":"Göle doğru, göle doğru, vak vak vak!","w":[["Göle",66.58,66.86],["doğru,",66.92,67.46],["göle",67.84,68.1],["doğru,",68.18,68.78],["vak",69.1,69.5],["vak",69.72,70.16],["vak!",70.28,70.66]]}]},"sapsapgum":{"d":70.11,"g":1.0,"satir":[{"t":"Şap şap güm! Şap şap güm!","w":[["Şap",2.78,3.04],["şap",3.12,3.36],["güm!",3.46,3.74],["Şap",4.1,4.36],["şap",4.42,4.7],["güm!",4.78,5.06]]},{"t":"Ellerim şap, ayağım güm!","w":[["Ellerim",5.48,5.98],["şap,",6.06,6.36],["ayağım",6.58,7.3],["güm!",7.4,7.64]]},{"t":"Şap şap güm! Şap şap güm!","w":[["Şap",8.04,8.28],["şap",8.38,8.64],["güm!",8.74,9.0],["Şap",9.36,9.6],["şap",9.68,9.96],["güm!",10.04,10.32]]},{"t":"Davulum hep yanımda, güm!","w":[["Davulum",10.68,11.24],["hep",11.34,11.68],["yanımda,",11.82,12.52],["güm!",12.66,13.04]]},{"t":"Yaprak dersem şap şap,","w":[["Yaprak",18.52,19.1],["dersem",19.22,19.5],["şap",19.84,20.42],["şap,",20.5,20.82]]},{"t":"Taş dersem güm güm!","w":[["Taş",21.14,21.38],["dersem",21.46,22.06],["güm",22.18,22.38],["güm!",22.5,22.9]]},{"t":"Yavaş yavaş, sırayla:","w":[["Yavaş",23.78,24.2],["yavaş,",24.26,24.72],["sırayla:",25.12,25.92]]},{"t":"Yaprak, yaprak, taş, güm!","w":[["Yaprak,",26.44,27.0],["yaprak,",27.12,27.96],["taş,",28.06,28.32],["güm!",28.44,28.78]]},{"t":"Şap şap güm! Şap şap güm!","w":[["Şap",34.26,34.52],["şap",34.62,34.84],["güm!",34.96,35.28],["Şap",35.6,35.82],["şap",35.92,36.18],["güm!",36.28,36.6]]},{"t":"Ellerim şap, ayağım güm!","w":[["Ellerim",36.96,37.46],["şap,",37.56,37.82],["ayağım",38.12,38.76],["güm!",38.9,44.5]]},{"t":"Hızlı hızlı karıştı,","w":[["Hızlı",44.76,45.2],["hızlı",45.26,45.76],["karıştı,",46.1,47.02]]},{"t":"Dur, nefes al, fııı!","w":[["Dur,",47.42,47.64],["nefes",47.74,48.1],["al,",48.26,48.42],["fııı!",48.72,49.7]]},{"t":"Şimdi yine baştan,","w":[["Şimdi",50.06,50.56],["yine",50.64,51.1],["baştan,",51.38,52.26]]},{"t":"Şap şap güm, oldu işte!","w":[["Şap",52.66,52.94],["şap",53.02,53.32],["güm,",53.38,53.6],["oldu",53.78,54.28],["işte!",54.46,54.94]]},{"t":"Şap şap güm! Şap şap güm!","w":[["Şap",55.32,55.6],["şap",55.68,55.94],["güm!",56.04,56.34],["Şap",56.66,56.92],["şap",56.98,57.26],["güm!",57.36,57.66]]},{"t":"Davulum hep yanımda, güm!","w":[["Davulum",57.98,58.58],["hep",58.64,59.06],["yanımda,",59.14,59.82],["güm!",59.98,60.4]]}]}};
 /* Masal şarkıları: masal sonunda karaoke (kelime vurgulu söz, yalnız müzik seçeneği). Söz zamanları ElevenLabs forced alignment ile. */
-const SARKI={"070":{ad:"Ördekler Sıraya",dosya:"ordekler",dil:"tr"}};
+const SARKI={"070":{ad:"Ördekler Sıraya",dosya:"ordekler",dil:"tr"},
+  "018":{ad:"Fırça Fırça",dosya:"firca",dil:"tr",ses:"Yiğit"},"021":{ad:"Beş Minik Civciv",dosya:"civciv",dil:"tr",ses:"Yiğit"},
+  "093":{ad:"Şap Şap Güm",dosya:"sapsapgum",dil:"tr",ses:"Yiğit"},"097":{ad:"El Ele Dünyanın Çocukları",dosya:"elele",dil:"tr",ses:"Yiğit"},
+  "099":{ad:"Halka Olduk",dosya:"halka",dil:"tr",ses:"Yiğit"}};
 function sarkiCard(s){const k=SARKI[String(s.id).slice(0,3)];if(!k||k.dil!==S.lang)return "";
-  return `<button class="steam-try sarki-try" data-sarki="${String(s.id).slice(0,3)}"><span class="st-ic" aria-hidden="true">🎵</span><span><span class="eyebrow">Masalın şarkısı · Karaoke</span><b>${esc(k.ad)}</b><span class="st-home">Birlikte söyleyelim! Sözler şarkıyla birlikte parlar.</span></span><span class="st-go" aria-hidden="true">▶</span></button>`}
-const SRK={a:null,raf:0,d:null,kar:false};
-function sarkiAc(id){const k=SARKI[id];AU.stop();let o=document.getElementById("sarki");if(!o){o=document.createElement("div");o.id="sarki";document.body.appendChild(o)}
-  o.hidden=false;o.innerHTML=`<div class="sk-box"><div class="sk-top"><b>🎵 ${esc(k.ad)}</b><button class="tbtn" data-sk="kapat" aria-label="Kapat">✕</button></div><div class="sk-lyr" id="sk-lyr">Yükleniyor…</div>
-  <div class="sk-bar"><button class="btn primary big" data-sk="oynat">▶ Söyle</button><button class="tbtn" data-sk="kar" aria-pressed="false">🎤 Yalnız müzik</button></div><div class="sk-prog"><i id="sk-p"></i></div></div>`;
-  fetch(`audio/sarki/${k.dosya}.json`).then(r=>r.json()).then(d=>{SRK.d=d;let n=0;
-    document.getElementById("sk-lyr").innerHTML=d.map((l,i)=>`<p data-l="${i}">${l.w.map(w=>`<span class="skw" data-n="${n++}">${esc(w[0])}</span>`).join(" ")}</p>`).join("")});
-  SRK.a=new Audio(`audio/sarki/${k.dosya}.mp3`);SRK.m=new Audio(`audio/sarki/${k.dosya}-muzik.mp3`);SRK.kar=false;
-  SRK.a.onended=()=>sarkiDur(true)}
-function sarkiCal(){return SRK.kar?SRK.m:SRK.a}
-function sarkiTick(){const a=sarkiCal();if(!a||!SRK.d)return;const t=a.currentTime;let n=0,cur=-1,ln=-1;
-  SRK.d.forEach((l,i)=>l.w.forEach(w=>{if(t>=w[1]-.05){cur=n;ln=i}n++}));
+  return `<button class="steam-try sarki-try" data-sarki="${String(s.id).slice(0,3)}"><span class="st-ic" aria-hidden="true">🎵</span><span><span class="eyebrow">Masalın şarkısı · Karaoke</span><b>${esc(k.ad)}</b><span class="st-home">Birlikte söyleyelim! Sözler şarkıyla birlikte parlar.${k.ses?` Söyleyen: ${esc(k.ses)}`:""}</span></span><span class="st-go" aria-hidden="true">▶</span></button>`}
+/* Oynatıcı: tek dosya = vokalli şarkı (0..d) + g sn boşluk + yalnız müzik (d+g..). Web Audio ile bir kez çözülür, istenen noktadan çalınır
+   (sunucunun ileri sarma desteğine gerek yok; iOS'ta da aynı ses bağlamı). Söz zamanları SARKI_SOZ (derlemede gömülür). */
+const SRK={buf:null,src:null,t0:0,pos:0,on:false,kar:false,d:0,g:1,raf:0,yuk:null};
+function sarkiAc(id){const k=SARKI[id],S0=(typeof SARKI_SOZ!=="undefined"&&SARKI_SOZ[k.dosya])||null;AU.stop();AU.init();sarkiDur(true);
+  let o=document.getElementById("sarki");if(!o){o=document.createElement("div");o.id="sarki";document.body.appendChild(o)}
+  o.hidden=false;o.innerHTML=`<div class="sk-box"><div class="sk-top"><b>🎵 ${esc(k.ad)}</b><button class="tbtn" data-sk="kapat" aria-label="Kapat">✕</button></div><div class="sk-lyr" id="sk-lyr"></div>
+  <div class="sk-bar"><button class="btn primary big" data-sk="oynat">⏳ Yükleniyor…</button><button class="tbtn" data-sk="kar" aria-pressed="false">🎤 Yalnız müzik</button></div><div class="sk-prog"><i id="sk-p"></i></div></div>`;
+  SRK.d=S0?S0.d:0;SRK.g=S0?S0.g:1;SRK.kar=false;SRK.pos=0;SRK.buf=null;SRK.satir=S0?S0.satir:[];let n=0;
+  document.getElementById("sk-lyr").innerHTML=SRK.satir.map((l,i)=>`<p data-l="${i}">${l.w.map(w=>`<span class="skw" data-n="${n++}">${esc(w[0])}</span>`).join(" ")}</p>`).join("");
+  const yuk=SRK.yuk=AU.load(`audio/sarki/${k.dosya}.mp3`).then(b=>{if(SRK.yuk!==yuk)return;SRK.buf=b;if(b&&!SRK.d)SRK.d=b.duration;const x=document.querySelector('[data-sk="oynat"]');if(x)x.textContent=b?"▶ Söyle":"Şarkı yüklenemedi";
+    const kb=document.querySelector('[data-sk="kar"]');if(kb&&b&&b.duration<SRK.d+SRK.g+1)kb.hidden=true/* önizleme paketi: yalnız vokalli kısım */})}
+const sarkiSimdi=()=>SRK.on?AU.ctx.currentTime-SRK.t0:SRK.pos;
+function sarkiCal(){if(!SRK.buf||SRK.on)return;if(AU.ctx.state!=="running")AU.ctx.resume().catch(()=>{});if(SRK.pos>=SRK.d-.05)SRK.pos=0;
+  const src=AU.ctx.createBufferSource();src.buffer=SRK.buf;src.connect(AU.ctx.destination);src.start(0,(SRK.kar?SRK.d+SRK.g:0)+SRK.pos,SRK.d-SRK.pos);
+  SRK.src=src;SRK.t0=AU.ctx.currentTime-SRK.pos;SRK.on=true;src.onended=()=>{if(SRK.src===src&&sarkiSimdi()>=SRK.d-.15)sarkiDur(true)};
+  const b=document.querySelector('[data-sk="oynat"]');if(b)b.textContent="⏸ Durdur";cancelAnimationFrame(SRK.raf);SRK.raf=requestAnimationFrame(sarkiTick)}
+function sarkiTick(){if(!SRK.on)return;const t=sarkiSimdi();let n=0,cur=-1,ln=-1;
+  SRK.satir.forEach((l,i)=>l.w.forEach(w=>{if(t>=w[1]-.05){cur=n;ln=i}n++}));
   document.querySelectorAll("#sk-lyr .skw").forEach(e=>{const i=+e.dataset.n;e.classList.toggle("past",i<cur);e.classList.toggle("on",i===cur)});
   document.querySelectorAll("#sk-lyr p").forEach(p=>{const on=+p.dataset.l===ln;if(on&&!p.classList.contains("cur"))p.scrollIntoView({block:"center",behavior:"smooth"});p.classList.toggle("cur",on)});
-  const p=document.getElementById("sk-p");if(p&&a.duration)p.style.width=(100*t/a.duration)+"%";SRK.raf=requestAnimationFrame(sarkiTick)}
-function sarkiDur(son){[SRK.a,SRK.m].forEach(a=>a&&a.pause());cancelAnimationFrame(SRK.raf);const b=document.querySelector('[data-sk="oynat"]');if(b)b.textContent="▶ Söyle";
-  if(son){[SRK.a,SRK.m].forEach(a=>{if(a)a.currentTime=0});document.querySelectorAll("#sk-lyr .skw").forEach(e=>e.classList.remove("on","past"))}}
+  const p=document.getElementById("sk-p");if(p&&SRK.d)p.style.width=Math.min(100,100*t/SRK.d)+"%";SRK.raf=requestAnimationFrame(sarkiTick)}
+function sarkiDur(son){if(SRK.on){SRK.pos=sarkiSimdi();SRK.on=false;try{SRK.src.onended=null;SRK.src.stop()}catch(e){}}cancelAnimationFrame(SRK.raf);
+  const b=document.querySelector('[data-sk="oynat"]');if(b&&SRK.buf)b.textContent="▶ Söyle";
+  if(son){SRK.pos=0;document.querySelectorAll("#sk-lyr .skw").forEach(e=>e.classList.remove("on","past"));document.querySelectorAll("#sk-lyr p").forEach(p=>p.classList.remove("cur"));const p=document.getElementById("sk-p");if(p)p.style.width="0"}}
 document.addEventListener("click",e=>{const c=e.target.closest("[data-sarki]");if(c){e.preventDefault();sarkiAc(c.dataset.sarki);return}
   const b=e.target.closest("[data-sk]");if(!b)return;const k=b.dataset.sk;
-  if(k==="kapat"){sarkiDur(true);document.getElementById("sarki").hidden=true;return}
-  if(k==="kar"){const a=sarkiCal(),t=a.currentTime,cal=!a.paused;a.pause();SRK.kar=!SRK.kar;b.setAttribute("aria-pressed",SRK.kar);const n=sarkiCal();n.currentTime=t;if(cal)n.play();return}
-  if(k==="oynat"){const a=sarkiCal();if(a.paused){a.play();b.textContent="⏸ Durdur";cancelAnimationFrame(SRK.raf);SRK.raf=requestAnimationFrame(sarkiTick)}else sarkiDur(false)}});
+  if(k==="kapat"){sarkiDur(true);SRK.yuk=null;document.getElementById("sarki").hidden=true;return}
+  if(k==="kar"){const cal=SRK.on;sarkiDur(false);SRK.kar=!SRK.kar;b.setAttribute("aria-pressed",SRK.kar);if(cal)sarkiCal();return}
+  if(k==="oynat"){if(SRK.on)sarkiDur(false);else sarkiCal()}});
 document.addEventListener("keydown",e=>{const o=document.getElementById("sarki");if(o&&!o.hidden&&e.key==="Escape"){e.stopPropagation();sarkiDur(true);o.hidden=true}},true);
 
 /* =====================================================================
@@ -14134,7 +14159,7 @@ function renderGames(){const h=$("#games");if(!h)return;
    <div class="gshelf">${GAMES.map(g=>`<button class="card gcard" data-game="${g.id}"><div class="cover">${art(()=>scene(g.cover))}<span class="play" aria-hidden="true">▶</span></div><div class="body"><h3>${esc(EN_(g.title,g.en))}</h3><div class="meta"><span class="tag age">${ageLabel(g.age)}</span><span class="tag">${esc(_(g.area))}</span><span class="tag">${g.min} ${EN_("dk","min")}</span></div><p>${esc(EN_(g.blurb,g.enBlurb))}</p></div></button>`).join("")}</div>`;
   h.querySelectorAll(".gcard").forEach(c=>{const g=GAMES.find(x=>x.id===c.dataset.game);if(g.id==="golge"){const t=c.querySelector('[data-k="tilki"]');if(t)t.classList.add("shadow")}});pauseSmil(h)}
 document.addEventListener("click",e=>{
-  if(GAME.on&&e.target.closest("#game")){const hit=e.target.closest("#art [data-hit]");if(hit){AU.init();GAME.hit(hit);e.stopPropagation();return}
+  if(GAME.on&&e.target.closest("#game")){const hit=e.target.closest("#art [data-hit]");if(hit){AU.init();GAME.hit(oyunHit(e.clientX,e.clientY,hit));e.stopPropagation();return}
     const b=e.target.closest("button");if(!b)return;e.stopPropagation();const d=b.dataset;
     if(d.g==="close")return GAME.close();if(d.g==="again")return GAME.start(GAME.g.id);
     if(d.g==="fx"){S.fx=!S.fx;store.set("fx",S.fx);b.setAttribute("aria-pressed",S.fx);return}
@@ -14655,7 +14680,7 @@ GAMES.push(
 /* oyun sahnelerinde her dokunma hedefinin tüm kutusu dokunulabilir olsun (hareketli duruşlarda boşluk kalmasın) */
 (function(){const rr=GAME.renderRound;GAME.renderRound=function(intro){rr.call(this,intro);
   document.querySelectorAll("#game #art [data-hit]").forEach(g=>{try{const b=g.getBBox();if(!b.width||!b.height)return;const r=document.createElementNS("http://www.w3.org/2000/svg","rect");
-    const M=g.getScreenCTM(),sc=M?Math.hypot(M.a,M.b):1,need=44/(sc||1),w=Math.max(b.width+12,need),h=Math.max(b.height+12,need);/* ekranda en az 44px (çocuk parmağı) */
+    const M=g.getScreenCTM(),sc=M?Math.hypot(M.a,M.b):1,need=(typeof DESTEK!=="undefined"&&DESTEK.ac("motor")?64:44)/(sc||1),w=Math.max(b.width+12,need),h=Math.max(b.height+12,need);/* ekranda en az 44px (çocuk parmağı) */
     r.setAttribute("x",b.x+b.width/2-w/2);r.setAttribute("y",b.y+b.height/2-h/2);r.setAttribute("width",w);r.setAttribute("height",h);r.setAttribute("fill","transparent");r.setAttribute("class","tpad");g.insertBefore(r,g.firstChild)}catch(e){}})}})();
 
 /* =====================================================================
@@ -15433,4 +15458,113 @@ const OYUN_URL=LINK('/oyun/','https://claude.ai/artifact/F78F21YY6SQ4BcGMrTpi6W'
   else{const rg=renderGames;renderGames=function(){const r=rg.apply(this,arguments);const h=$("#games");if(h&&!h.querySelector(".app-promo"))h.insertAdjacentHTML("beforeend",promo());return r};
     document.title="NOVA ECE Oyun";const pr=document.querySelector(".brand .prod");if(pr)pr.textContent="Oyun";
     const br=document.querySelector(".brand");if(br)br.setAttribute("aria-label","NOVA ECE Oyun — novaece.com")}
+})();
+
+/* =====================================================================
+   Özel Destek modu (Masal + Oyun): özel gereksinimli çocuklar için tek panelden açılan uyarlamalar.
+   - sakin  : duyusal sakin mod — animasyon, kamera hareketi, ortam sesi, fon müziği, efekt sesi, konfeti yok
+   - hatasiz: hatasız öğrenme — yanlışta ceza sesi/sarsıntı yok; kademeli ipucu: 1) parıltı 2) gösteren el 3) birlikte yapma
+   - yavas  : yavaş anlatım — cümle aralarına duraklama (ses perdesi bozulmaz); metindeki kelimeye dokununca o cümle tekrar okunur
+   - kisa   : kısa oyunlar — her oyun en fazla 3 tur
+   - motor  : büyük dokunma — ~64px hedef, yavaş/titrek dokunuşa tolerans, art arda aynı dokunuş tek sayılır
+   - buyuk  : büyük yazı
+   Ayarlar cihazda saklanır (masal:destek). Panel ebeveyn onayıyla açılır. Destekleyici materyaldir; terapi yerine geçmez.
+   ===================================================================== */
+const DESTEK={
+  K:["sakin","hatasiz","yavas","kisa","motor","buyuk"],
+  A:store.get("destek",{}),
+  ac(k){return !!this.A[k]},
+  herhangi(){return this.K.some(k=>this.A[k])},
+  kaydet(){store.set("destek",this.A);this.uygula()},
+  uygula(){const b=document.body;this.K.forEach(k=>b.classList.toggle("dk-"+k,this.ac(k)));
+    const btn=document.getElementById("dk-btn");if(btn){btn.setAttribute("aria-pressed",this.herhangi());btn.classList.toggle("on",this.herhangi())}
+    if(this.ac("sakin")&&typeof EV!=="undefined"&&EV.stopAll)EV.stopAll()},
+  /* yavaş anlatım: kelime işaretlerinden cümle sınırları -> [baş, son, boşluk] */
+  bol(c,D){const W=c.t.split(/\s+/),m=c.w,seg=[];let a=0;
+    for(let i=1;i<m.length;i++){const prev=W[m[i][1]-1]||"";const g=/[.!?…:]["”’)»]*$/.test(prev)?.8:/[,;]["”’)»]*$/.test(prev)?.25:0;
+      if(g){const t=m[i][0]/1000;seg.push([a,t,g]);a=t}}
+    seg.push([a,D,0]);return seg},
+  cumle(c,k){/* k. kelimenin içinde olduğu cümlenin [baş,son] ms aralığı */const W=c.t.split(/\s+/),m=c.w;let bas=0,son=c.d;
+    for(let i=1;i<m.length;i++){const prev=W[m[i][1]-1]||"",sinir=/[.!?…:]["”’)»]*$/.test(prev);if(!sinir)continue;
+      if(m[i][1]<=k)bas=m[i][0];else{son=m[i][0];break}}return [bas,son]},
+  son:{h:null,t:0},
+  tekrarMi(h){const n=Date.now(),r=this.son.h===h&&n-this.son.t<300;/* titremeye bağlı çift dokunuş; bilinçli ritim vuruşu sayılır */this.son={h,t:n};return r},
+  /* hatasız öğrenme: hedef bul */
+  masalHedef(){if(R.phase!=="page")return null;const p=page(),m=p&&p.mech;if(!m)return null;const st=R.mech,el=k=>hitEl(k),ok=e=>e&&!e.dataset.got&&!e.dataset.counted;
+    if(m.type==="sequence"&&m.keys)return m.keys[st.n||0];
+    if(m.type==="sort"){const it=m.items||{};if(st.sel)return it[st.sel];return Object.keys(it).find(k=>ok(el(k)))}
+    if(m.type==="match"){const pr=m.pairs||[];if(st.sel){for(const [a,b] of pr){if(a===st.sel)return b;if(b===st.sel)return a}}const q=pr.find(([a])=>ok(el(a)));return q?q[0]:null}
+    if(m.type==="breathe")return st.step%2===0?m.flower:m.candle;
+    return camKeys(m,p.hint).find(k=>ok(el(k)))||null},
+  oyunHedef(){const G=GAME,hs=[...document.querySelectorAll("#game #art [data-hit]")].filter(e=>!e.dataset.got&&!e.dataset.gone&&getComputedStyle(e).pointerEvents!=="none"),
+      var_=k=>hs.find(e=>e.dataset.hit===k)?k:null,cur=G.cur||{};
+    if(G.g&&G.g.id==="gokkusagi"&&typeof GOK!=="undefined")return var_("c-"+GOK[G.next||0]);
+    if(cur.seq&&G.next!=null)return var_("i-"+cur.seq[G.next]);
+    if(Array.isArray(G.open)&&G.keys&&G.done){if(G.open.length===1){const i=G.open[0],j=G.keys.findIndex((k,j)=>j!==i&&k===G.keys[i]&&!G.done.has(j));if(j>-1)return var_("c"+(j+1))}
+      const i=G.keys.findIndex((k,i)=>!G.done.has(i)&&!G.open.includes(i));return i>-1?var_("c"+(i+1)):null}
+    if(var_("ok"))return "ok";
+    if(cur.ans!=null){const a=String(cur.ans),e=hs.find(e=>e.dataset.hit===a||e.dataset.hit.endsWith("-"+a));if(e)return e.dataset.hit}
+    return cur.first&&var_(cur.first)},
+  el(e){/* gösteren el: hedefin ortasına */const L=document.getElementById("fxl");if(!L||!e)return;L.querySelectorAll(".dk-el").forEach(x=>x.remove());
+    const a=L.getBoundingClientRect(),b=e.getBoundingClientRect(),d=document.createElement("i");d.className="dk-el";d.textContent="👆";
+    d.style.left=(b.left+b.width/2-a.left)+"px";d.style.top=(b.top+b.height/2-a.top)+"px";L.appendChild(d);setTimeout(()=>d.remove(),2600)},
+  ipucu(seviye,yer){const oyun=yer==="oyun",k=oyun?this.oyunHedef():this.masalHedef();if(!k)return;
+    const e=oyun?document.querySelector(`#game #art [data-hit="${k}"]`):hitEl(k);if(!e)return;
+    pulse(k);hintSay(S.lang==="en"?"Let's look together 👀":"Birlikte bakalım 👀");
+    if(seviye>=2)this.el(e);
+    if(seviye>=3)setTimeout(()=>{/* birlikte yapma: uygulama dokunuşu çocukla birlikte tamamlar */
+      if(oyun){if(GAME.on&&!GAME.lock&&e.isConnected)GAME.hit(e)}
+      else if(R.phase==="page"&&!R.mech.done&&e.isConnected){onHit(e);setTimeout(()=>{if(R.phase==="page"&&!R.mech.done&&R.mech.sel)this.ipucu(3,"masal")},900)}},1300)},
+  /* panel */
+  ETK:{sakin:["Sakin mod","Calm mode","Animasyon, kamera hareketi, müzik ve efekt sesi yok.","No animation, camera motion, music or sound effects."],
+    hatasiz:["Hatasız öğrenme","Errorless learning","Yanlışta ceza sesi yok; adım adım ipucu: parıltı, gösteren el, birlikte yapma.","No error sounds; step-by-step prompts: glow, pointing hand, doing it together."],
+    yavas:["Yavaş anlatım","Slower narration","Cümleler arasında duraklama. Bir kelimeye dokununca o cümle tekrar okunur.","Pauses between sentences. Tap a word to hear that sentence again."],
+    kisa:["Kısa oyunlar","Shorter games","Her oyun en fazla 3 tur.","Each game has at most 3 rounds."],
+    motor:["Büyük dokunma","Larger touch targets","Daha büyük dokunma alanı; yavaş ya da titrek dokunuş da kabul edilir.","Bigger touch areas; slow or shaky taps are accepted."],
+    buyuk:["Büyük yazı","Larger text","Masal ve oyun metinleri daha büyük.","Bigger story and game text."]},
+  panel(){const en=S.lang==="en",o=document.createElement("div");o.className="dk-panel";o.setAttribute("role","dialog");o.setAttribute("aria-modal","true");o.setAttribute("aria-labelledby","dk-h");
+    const sat=k=>{const t=this.ETK[k];return `<label class="dk-row"><span><b>${en?t[1]:t[0]}</b><i>${en?t[3]:t[2]}</i></span><input type="checkbox" data-dk="${k}" ${this.ac(k)?"checked":""}><span class="dk-sw" aria-hidden="true"></span></label>`};
+    o.innerHTML=`<div class="dk-card"><div class="dk-top"><h3 id="dk-h">🌿 ${en?"Special Support":"Özel Destek"}</h3><button class="tbtn" data-dkx aria-label="${en?"Close":"Kapat"}">✕</button></div>
+      <p class="dk-not">${en?"Adaptations for children with sensory, attention, language or motor needs. Settings stay on this device.":"Duyusal, dikkat, dil ya da motor gereksinimi olan çocuklar için uyarlamalar. Ayarlar bu cihazda kalır."}</p>
+      <div class="dk-list">${this.K.map(sat).join("")}</div>
+      <div class="dk-alt"><button class="btn primary" data-dkall>${en?"Turn all on":"Hepsini aç"}</button><button class="btn" data-dkoff>${en?"Turn all off":"Hepsini kapat"}</button></div>
+      <p class="dk-not small">${en?"A supportive learning material; it does not replace therapy or professional assessment.":"Destekleyici bir öğrenme materyalidir; terapinin ya da uzman değerlendirmesinin yerini tutmaz."}</p></div>`;
+    document.body.appendChild(o);
+    o.addEventListener("change",e=>{const k=e.target.dataset&&e.target.dataset.dk;if(k){this.A[k]=e.target.checked;this.kaydet()}});
+    o.addEventListener("click",e=>{if(e.target===o||e.target.closest("[data-dkx]")){o.remove();return}
+      if(e.target.closest("[data-dkall]")||e.target.closest("[data-dkoff]")){const v=!!e.target.closest("[data-dkall]");this.K.forEach(k=>this.A[k]=v);this.kaydet();o.querySelectorAll("[data-dk]").forEach(x=>x.checked=v)}})},
+  dugme(){const h=document.querySelector(".hctl");if(!h||document.getElementById("dk-btn"))return;const b=document.createElement("button");b.id="dk-btn";b.className="dk-btn";b.type="button";
+    b.innerHTML=`<span aria-hidden="true">🌿</span><span class="lbl"></span>`;h.insertBefore(b,h.firstChild);this.etiket();
+    b.addEventListener("click",()=>{if(typeof GATE!=="undefined")GATE.ask(()=>this.panel());else this.panel()})},
+  etiket(){const b=document.getElementById("dk-btn");if(b)b.querySelector(".lbl").textContent=S.lang==="en"?"Special Support":"Özel Destek"}
+};
+(function(){
+  /* sakin mod: ses ve görsel efektler */
+  const sfx=AU.sfx.bind(AU);AU.sfx=function(n){if(DESTEK.ac("sakin"))return;return sfx(n)};
+  const sp=sparkAt;sparkAt=function(){if(DESTEK.ac("sakin"))return;return sp.apply(this,arguments)};
+  const cf=confetti;confetti=function(){if(DESTEK.ac("sakin"))return;return cf.apply(this,arguments)};
+  if(typeof EV!=="undefined"&&EV.loop){const lp=EV.loop.bind(EV);EV.loop=function(slot,path,bus,vol){if(DESTEK.ac("sakin")){this.stopSlot(slot);return}return lp(slot,path,bus,vol)}}
+  const sakinDurdur=r=>{if(DESTEK.ac("sakin")&&r)r.querySelectorAll("svg").forEach(v=>{try{v.pauseAnimations()}catch(e){}})};
+  const rr=renderReader;renderReader=function(){const x=rr.apply(this,arguments);sakinDurdur(document.getElementById("reader"));return x};
+  /* hatasız öğrenme: masal */
+  const wt=wrongTry;wrongTry=function(el,m){if(!DESTEK.ac("hatasiz"))return wt(el,m);R.mech.yanlis=(R.mech.yanlis||0)+1;const s=R.mech.yanlis;setTimeout(()=>DESTEK.ipucu(s,"masal"),350)};
+  if(typeof GAME!=="undefined"){
+    const rnd=GAME.renderRound;GAME.renderRound=function(){this.yanlis=0;const x=rnd.apply(this,arguments);sakinDurdur(document.getElementById("game"));return x};
+    /* hatasız öğrenme: oyun — ceza sesi yok, kademeli ipucu */
+    const fl=GAME.fail;GAME.fail=function(sayKey,reset,el){if(!DESTEK.ac("hatasiz"))return fl.apply(this,arguments);
+      this.yanlis=(this.yanlis||0)+1;const s=this.yanlis,gen=this.gen;this.lock=true;
+      const done=()=>{if(this.gen!==gen)return;if(reset){this.renderRound();return}this.lock=false;this.busy=false;DESTEK.ipucu(s,"oyun")};
+      if(sayKey)this.say(sayKey,{onEnd:done});else setTimeout(done,450)};
+    /* kısa oyunlar */
+    const st=GAME.start;GAME.start=function(id){const g=GAMES.find(x=>x.id===id);
+      if(g){if(!g._tur)g._tur=g.rounds;g.rounds=DESTEK.ac("kisa")?function(){const r=g._tur.apply(this,arguments);return r.length>3?r.slice(0,3):r}:g._tur}
+      return st.apply(this,arguments)}}
+  /* yavaş anlatım: kelimeye dokununca o cümle */
+  document.addEventListener("click",e=>{if(!DESTEK.ac("yavas"))return;const w=e.target.closest&&e.target.closest("#rtext .w");if(!w||R.phase!=="page")return;
+    const p=page(),c=CLIPS[p.clip];if(!c||!c.w||!c.t)return;const [a,b]=DESTEK.cumle(c,+w.dataset.i);
+    AU.play(p.clip,{from:a,to:b,onWord:k=>{document.querySelectorAll("#rtext .w").forEach(x=>{const i=+x.dataset.i;x.classList.toggle("on",i===k)})},
+      onEnd:()=>document.querySelectorAll("#rtext .w").forEach(x=>x.classList.remove("on","past"))})},true);
+  /* dil değişince düğme etiketi */
+  document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("#seg-lang"))setTimeout(()=>DESTEK.etiket(),0)});
+  DESTEK.dugme();DESTEK.uygula();
 })();

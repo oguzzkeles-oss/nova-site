@@ -397,6 +397,32 @@ svg.cam-rest *{animation:none!important;transition:none!important}
 #art svg.L-fg{pointer-events:none}
 #art svg.L-fg [data-hit]{pointer-events:auto}
 #art svg.L-fg [data-hit][data-got],#art svg.L-fg [data-hit][data-gone]{pointer-events:none}
+/* ---------- Özel Destek (destek.js) ---------- */
+.dk-btn{display:flex;align-items:center;gap:6px;border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 14px;font-weight:800;font-size:14px;color:var(--muted)}
+.dk-btn.on{background:#0F766E;border-color:#0F766E;color:#fff}
+.dk-panel{position:fixed;inset:0;z-index:1001;background:rgba(15,23,42,.55);display:grid;place-items:center;padding:16px}
+.dk-card{background:var(--surface);color:var(--ink);border-radius:22px;padding:20px;max-width:460px;width:100%;max-height:calc(100% - 32px);overflow:auto;box-shadow:0 24px 56px rgba(15,23,42,.3);display:grid;gap:12px}
+.dk-top{display:flex;justify-content:space-between;align-items:center}.dk-top h3{font-size:22px}
+.dk-not{margin:0;color:var(--muted);font-size:14.5px}.dk-not.small{font-size:13px}
+.dk-list{display:grid;gap:8px}
+.dk-row{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1.5px solid var(--line);border-radius:14px;cursor:pointer;position:relative}
+.dk-row span:first-child{flex:1;min-width:0}.dk-row b{display:block;font-size:16px}.dk-row i{display:block;font-style:normal;font-size:13.5px;color:var(--muted);margin-top:2px}
+.dk-row input{position:absolute;opacity:0;pointer-events:none}
+.dk-sw{flex:none;width:52px;height:30px;border-radius:999px;background:var(--line);position:relative;transition:background .2s}
+.dk-sw::after{content:"";position:absolute;left:3px;top:3px;width:24px;height:24px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25);transition:transform .2s}
+.dk-row input:checked+.dk-sw{background:#0F766E}.dk-row input:checked+.dk-sw::after{transform:translateX(22px)}
+.dk-row input:focus-visible+.dk-sw{outline:3px solid var(--accent);outline-offset:2px}
+.dk-alt{display:flex;gap:10px;flex-wrap:wrap}
+.dk-el{position:absolute;font-size:46px;font-style:normal;line-height:1;transform:translate(-20%,-10%);pointer-events:none;z-index:4;filter:drop-shadow(0 3px 6px rgba(0,0,0,.35));animation:dkEl 1s ease-in-out infinite}
+@keyframes dkEl{50%{transform:translate(-20%,-10%) scale(.85)}}
+/* sakin mod: hareket yok, sayfa geçişi anında, ipucu sabit parıltı */
+body.dk-sakin *,body.dk-sakin *::before,body.dk-sakin *::after{animation:none!important;transition:none!important}
+body.dk-sakin .art .scene.out{display:none}
+body.dk-sakin [data-hit].pulse{filter:drop-shadow(0 0 6px rgba(255,214,80,.98)) drop-shadow(0 0 2px #fff)}
+body.dk-sakin .dk-el{transform:translate(-20%,-10%)}
+/* büyük yazı */
+body.dk-buyuk .reader .text{font-size:clamp(26px,5vw,44px);max-width:30ch}
+body.dk-buyuk .hint{font-size:18px}
 
 </style>
 <div class="wrap">
