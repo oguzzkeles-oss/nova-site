@@ -13562,8 +13562,11 @@ const gClip=k=>S.lang!=="tr"&&CLIPS[S.lang+"/g/"+k]?S.lang+"/g/"+k:CLIPS["g/"+k]
    SES MOTORU — kayıtlar (tek dosya ya da ses paketi içinden parça) + sentezlenmiş efektler
    ===================================================================== */
 const AU={ctx:null,bufs:{},cur:null,raf:0,music:null,
-  init(){if(!this.ctx){const C=window.AudioContext||window.webkitAudioContext;if(C){this.ctx=new C();this.fxg=this.ctx.createGain();this.fxg.gain.value=.55;this.fxg.connect(this.ctx.destination)}}
-    if(this.ctx&&this.ctx.state==="suspended")this.ctx.resume()},
+  init(){/* iPhone: sessiz moddayken de çalsın (Safari 16.4+) */try{if(navigator.audioSession&&navigator.audioSession.type!=="playback")navigator.audioSession.type="playback"}catch(e){}
+    if(!this.ctx){const C=window.AudioContext||window.webkitAudioContext;if(C){this.ctx=new C();this.fxg=this.ctx.createGain();this.fxg.gain.value=.55;this.fxg.connect(this.ctx.destination)}}
+    if(!this.ctx)return;if(this.ctx.state!=="running")this.ctx.resume().catch(()=>{});
+    /* Safari: kilidi dokunuşun içinde sessiz bir örnek çalarak aç */
+    if(!this.acik){this.acik=1;try{const b=this.ctx.createBuffer(1,1,22050),x=this.ctx.createBufferSource();x.buffer=b;x.connect(this.ctx.destination);x.start(0)}catch(e){}}},
   file(id){const c=CLIPS[id];return c&&c.src?c.src.f:"audio/"+id+".mp3"},
   load(f){if(!this.ctx)return Promise.resolve(null);if(!this.bufs[f])this.bufs[f]=fetch(f).then(r=>{if(!r.ok)throw 0;return r.arrayBuffer()})
       .then(b=>new Promise((res,rej)=>this.ctx.decodeAudioData(b,res,rej))).catch(()=>{delete this.bufs[f];return null});return this.bufs[f]},
@@ -13876,6 +13879,8 @@ function pickHit(x,y,h){if(!h||!h.closest("#reader")||R.phase!=="page")return h;
   const ok=c=>need.has(c.dataset.hit)&&!c.dataset.counted&&!c.dataset.got;
   /* önce parmağın altında gerçekten çizili beklenen hedef, sonra payı olan beklenen hedef, sonra çizili herhangi biri */
   return (L.find(o=>!o.pad&&ok(o.c))||L.find(o=>ok(o.c))||L.find(o=>!o.pad)||{c:h}).c}
+document.addEventListener("visibilitychange",()=>{if(!document.hidden&&AU.ctx&&AU.ctx.state!=="running")AU.ctx.resume().catch(()=>{})});
+["touchend","click","keydown"].forEach(t=>document.addEventListener(t,()=>{try{AU.init()}catch(e){}},{capture:true,passive:true}));
 document.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"){TD=null;return}let h=e.target.closest&&e.target.closest("#art [data-hit]");
   if(!h&&e.target.closest&&e.target.closest("#art")){/* tarayıcının dokunma düzeltmesi hedefi arka plana kaydırabilir: noktanın altındaki hedefe bak */
     try{for(const x of document.elementsFromPoint(e.clientX,e.clientY)){const c=x.closest&&x.closest("#art .scene:not(.out) [data-hit]");if(c&&getComputedStyle(c).pointerEvents!=="none"){h=c;break}}}catch(_){}}
