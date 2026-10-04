@@ -19,7 +19,7 @@ body.dk-buyuk{font-size:118%}body.dk-buyuk h1,body.dk-buyuk h2,body.dk-buyuk h3{
 .dk-btn.on{background:#0F766E;border-color:#0F766E;color:#fff}
 .dk-btn{white-space:nowrap;flex:none}@media (max-width:520px){.dk-btn .dk-l{display:none}.dk-btn{padding:6px 9px;font-size:16px}}
 .dk-panel{position:fixed;inset:0;z-index:2000;background:rgba(15,23,42,.55);display:grid;place-items:center;padding:16px}
-.dk-card{background:#fff;color:#0F172A;border-radius:22px;padding:20px;max-width:440px;width:100%;max-height:calc(100% - 32px);overflow:auto;display:grid;gap:10px;font-family:Inter,system-ui,sans-serif}
+.dk-card>*{min-width:0}.dk-card{background:#fff;color:#0F172A;border-radius:22px;padding:20px;max-width:440px;width:100%;max-height:calc(100% - 32px);overflow:auto;display:grid;gap:10px;font-family:Inter,system-ui,sans-serif}
 .dk-top{display:flex;justify-content:space-between;align-items:center}.dk-top h3{margin:0;font-size:21px}.dk-top button{border:1.5px solid #E2E8F0;background:#fff;border-radius:12px;padding:6px 12px;font-weight:800}
 .dk-not{margin:0;color:#475569;font-size:14px}
 .dk-row{display:flex;align-items:center;gap:12px;padding:11px 14px;border:1.5px solid #E2E8F0;border-radius:14px;cursor:pointer;position:relative}
@@ -51,7 +51,7 @@ body.dk-buyuk{font-size:118%}body.dk-buyuk h1,body.dk-buyuk h2,body.dk-buyuk h3{
       BE=["","one","two","three","four","five","six","seven","eight","nine"],OE=["","ten","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"],
       w=E?OE[Math.floor(n/10)]+(n%10?"-"+BE[n%10]:""):(O[Math.floor(n/10)]+" "+B[n%10]).trim(),o=document.createElement("div");o.className="dk-panel";
     o.innerHTML=`<div class="dk-card" style="text-align:center"><h3 style="margin:0">${E?"Grown-ups only":"Ebeveyn onayı"}</h3><p class="dk-not">${E?"Type this number in digits:":"Bu sayıyı rakamla yazın:"}</p><p style="font-size:26px;font-weight:800;margin:0">${w}</p>
-      <input inputmode="numeric" style="font-size:24px;text-align:center;padding:10px;border:1.5px solid #E2E8F0;border-radius:12px"><div class="dk-alt" style="justify-content:center"><button data-ok>${E?"Continue":"Devam"}</button><button data-no>${E?"Cancel":"Vazgeç"}</button></div></div>`;
+      <input inputmode="numeric" style="width:100%;min-width:0;box-sizing:border-box;font-size:24px;text-align:center;padding:10px;border:1.5px solid #E2E8F0;border-radius:12px"><div class="dk-alt" style="justify-content:center"><button data-ok>${E?"Continue":"Devam"}</button><button data-no>${E?"Cancel":"Vazgeç"}</button></div></div>`;
     document.body.appendChild(o);const i=o.querySelector("input");i.focus();
     const dene=()=>{if(+i.value===n){o.remove();f()}else{i.value="";i.style.borderColor="#DC2626"}};
     o.querySelector("[data-ok]").onclick=dene;o.querySelector("[data-no]").onclick=()=>o.remove();i.addEventListener("keydown",e=>{if(e.key==="Enter")dene()})};
