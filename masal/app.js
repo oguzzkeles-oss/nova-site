@@ -13561,10 +13561,15 @@ const gClip=k=>S.lang!=="tr"&&CLIPS[S.lang+"/g/"+k]?S.lang+"/g/"+k:CLIPS["g/"+k]
 /* =====================================================================
    SES MOTORU — kayıtlar (tek dosya ya da ses paketi içinden parça) + sentezlenmiş efektler
    ===================================================================== */
-const AU={ctx:null,bufs:{},cur:null,raf:0,music:null,
-  init(){/* iPhone: sessiz moddayken de çalsın (Safari 16.4+) */try{if(navigator.audioSession&&navigator.audioSession.type!=="playback")navigator.audioSession.type="playback"}catch(e){}
-    if(!this.ctx){const C=window.AudioContext||window.webkitAudioContext;if(C){this.ctx=new C();this.fxg=this.ctx.createGain();this.fxg.gain.value=.55;this.fxg.connect(this.ctx.destination)}}
-    if(!this.ctx)return;if(this.ctx.state!=="running")this.ctx.resume().catch(()=>{});
+const AU={/* Safari'de Web Audio doğrudan hoparlöre gidince sessiz kalabiliyor; orada bütün ses bir ses akışı üzerinden HTML <audio> öğesiyle çalınır */
+  yol(){let v=null;try{v=localStorage.getItem("masal:sesyol")}catch(e){}if(v==="web"||v==="akis")return v;const u=navigator.userAgent;return /AppleWebKit/.test(u)&&!/Chrome|Chromium|Android|Edg\//.test(u)?"akis":"web"},
+  yolKur(){const c=this.ctx;this.ham=c.destination;if(this.yol()!=="akis"||!c.createMediaStreamDestination)return;
+    try{const md=c.createMediaStreamDestination(),el=document.createElement("audio");el.setAttribute("playsinline","");el.autoplay=true;el.srcObject=md.stream;
+      el.style.display="none";document.body.appendChild(el);Object.defineProperty(c,"destination",{configurable:true,get:()=>md});this.el=el;el.play().catch(()=>{})}catch(e){this.el=null}},
+  ios(){return /iPhone|iPad|iPod/.test(navigator.userAgent)||(/Macintosh/.test(navigator.userAgent)&&navigator.maxTouchPoints>1)},ctx:null,bufs:{},cur:null,raf:0,music:null,
+  init(){/* yalnız iPhone/iPad: sessiz moddayken de çalsın (Safari 16.4+). Mac Safari'de Web Audio'yu susturabildiği için orada açılmaz */try{if(navigator.audioSession&&AU.ios()&&navigator.audioSession.type!=="playback")navigator.audioSession.type="playback"}catch(e){}
+    if(!this.ctx){const C=window.AudioContext||window.webkitAudioContext;if(C){this.ctx=new C();this.yolKur();this.fxg=this.ctx.createGain();this.fxg.gain.value=.55;this.fxg.connect(this.ctx.destination)}}
+    if(!this.ctx)return;if(this.ctx.state!=="running")this.ctx.resume().catch(()=>{});if(this.el&&this.el.paused)this.el.play().catch(()=>{});
     /* Safari: kilidi dokunuşun içinde sessiz bir örnek çalarak aç */
     if(!this.acik){this.acik=1;try{const b=this.ctx.createBuffer(1,1,22050),x=this.ctx.createBufferSource();x.buffer=b;x.connect(this.ctx.destination);x.start(0)}catch(e){}}},
   file(id){const c=CLIPS[id];return c&&c.src?c.src.f:"audio/"+id+".mp3"},
@@ -15580,15 +15585,15 @@ const DESTEK={
   addEventListener("error",e=>log("HATA: "+e.message+" ("+(e.filename||"").split("/").pop()+":"+e.lineno+")"));
   addEventListener("unhandledrejection",e=>log("HATA (söz): "+(e.reason&&e.reason.message||e.reason)));
   const kur=()=>{const d=document.createElement("div");d.style.cssText="position:fixed;left:8px;right:8px;bottom:8px;z-index:99999;background:#0F172A;color:#E2E8F0;border-radius:16px;padding:12px;font:13px/1.45 ui-monospace,Menlo,monospace;box-shadow:0 10px 30px rgba(0,0,0,.4);max-height:60vh;display:grid;gap:8px";
-    d.innerHTML='<b style="font:800 16px system-ui">🔊 Ses testi</b><div style="display:flex;gap:8px;flex-wrap:wrap"><button id="st-go" style="font:800 17px system-ui;padding:12px 18px;border:0;border-radius:12px;background:#4F46E5;color:#fff">Sesi dene</button><button id="st-x" style="font:700 15px system-ui;padding:12px 14px;border:0;border-radius:12px;background:#334155;color:#fff">Kapat</button></div><pre id="st-log" style="margin:0;white-space:pre-wrap;overflow:auto;max-height:40vh"></pre>';
-    document.body.appendChild(d);out();d.querySelector("#st-x").onclick=()=>d.remove();
+    d.innerHTML='<b style="font:800 16px system-ui">🔊 Ses testi</b><div style="display:flex;gap:8px;flex-wrap:wrap"><button id="st-go" style="font:800 17px system-ui;padding:12px 18px;border:0;border-radius:12px;background:#4F46E5;color:#fff">Sesi dene</button><button id="st-y" style="font:700 15px system-ui;padding:12px 14px;border:0;border-radius:12px;background:#0F766E;color:#fff">Yolu değiştir</button><button id="st-x" style="font:700 15px system-ui;padding:12px 14px;border:0;border-radius:12px;background:#334155;color:#fff">Kapat</button></div><pre id="st-log" style="margin:0;white-space:pre-wrap;overflow:auto;max-height:40vh"></pre>';
+    document.body.appendChild(d);out();d.querySelector("#st-x").onclick=()=>d.remove();d.querySelector("#st-y").onclick=()=>{const y=AU.yol()==="akis"?"web":"akis";try{localStorage.setItem("masal:sesyol",y)}catch(e){}location.reload()};
     d.querySelector("#st-go").addEventListener("click",async()=>{
       log("tarayıcı: "+navigator.userAgent.replace(/^Mozilla\/5.0 /,"").slice(0,90));
       log("audioSession: "+(navigator.audioSession?navigator.audioSession.type:"yok"));
       log("bağlam önce: "+(AU.ctx?AU.ctx.state:"yok"));
       try{AU.init()}catch(e){log("AU.init HATA: "+e.message)}
       const c=AU.ctx;if(!c){log("AudioContext oluşturulamadı");return}
-      log("bağlam sonra: "+c.state+" · "+c.sampleRate+" Hz · audioSession: "+(navigator.audioSession?navigator.audioSession.type:"yok"));
+      log("bağlam sonra: "+c.state+" · "+c.sampleRate+" Hz · audioSession: "+(navigator.audioSession?navigator.audioSession.type:"yok")+" · yol: "+AU.yol()+(AU.el?" (akış "+(AU.el.paused?"duruyor":"çalıyor")+")":""));
       try{const o=c.createOscillator(),g=c.createGain();o.frequency.value=660;g.gain.value=.25;o.connect(g).connect(c.destination);o.start();o.stop(c.currentTime+.7);log("1) BİP çalındı (Web Audio). Duydunuz mu?")}catch(e){log("bip HATA: "+e.message)}
       setTimeout(()=>log("bağlam 1 sn sonra: "+c.state),1000);
       const f="audio/global.mp3";
@@ -15597,7 +15602,8 @@ const DESTEK={
         log("çözme: tamam, "+buf.duration.toFixed(1)+" sn, "+Math.round(performance.now()-t)+" ms");
         setTimeout(()=>{const x=c.createBufferSource();x.buffer=buf;x.connect(c.destination);x.start(0,0,3);log("2) Anlatım sesi çalıyor (Web Audio, 3 sn). Duydunuz mu? bağlam: "+c.state)},1200);
       }catch(e){log("indirme/çözme HATA: "+(e&&e.message||e))}
+      setTimeout(()=>{try{const o=c.createOscillator(),g=c.createGain();o.frequency.value=440;g.gain.value=.25;o.connect(g).connect(AU.ham||c.destination);o.start();o.stop(c.currentTime+.7);log("4) Kalın BİP, doğrudan Web Audio (eski yol). Duydunuz mu?")}catch(e){log("4 HATA: "+e.message)}},9000);
       setTimeout(()=>{try{const a=new Audio(f);a.play().then(()=>{log("3) Aynı ses HTML <audio> ile çalıyor (3 sn). Duydunuz mu?");setTimeout(()=>a.pause(),3000)}).catch(e=>log("HTML ses HATA: "+e.name+" "+e.message))}catch(e){log("HTML ses HATA: "+e.message)}},5200);
     });
-    log("Hazır. 'Sesi dene'ye dokunun; 3 ses sırayla çalacak. Bitince bu kutunun ekran görüntüsünü gönderin.");log("sürüm: "+(document.querySelector('script[src*="app.js"]')||{}).src);};
+    log("Hazır. 'Sesi dene'ye dokunun; 4 ses sırayla çalacak. Bitince bu kutunun ekran görüntüsünü gönderin.");log("sürüm: "+(document.querySelector('script[src*="app.js"]')||{}).src);};
   if(document.readyState==="loading")addEventListener("DOMContentLoaded",kur);else kur()})();
