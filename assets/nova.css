@@ -87,12 +87,14 @@ a{color:var(--ind-600)}
 /* hamburger */
 .menu-btn{display:none;margin-left:auto;background:transparent;border:1px solid rgba(148,163,184,.4);border-radius:10px;width:42px;height:42px;cursor:pointer;color:var(--cloud);place-items:center}
 .nav.solid .menu-btn{color:var(--midnight);border-color:var(--s300)}
+.nav.solid .logo svg{--lo:#4F46E5!important;--ls:#F59E0B!important;--ln:#0F172A!important;--le:#4F46E5!important}  /* koyu kahramanlı sayfada kaydırınca açık zemin: logo koyu renge döner */
+body.menu-open .nav .logo svg{--lo:#F8FAFC!important;--ls:#FBBF24!important;--ln:#F8FAFC!important;--le:#818CF8!important}
 .menu-btn svg{display:block}
 .mobile-menu{display:none}
 @media(max-width:1280px){
   .nav .links,.nav .actions .login,.nav .actions .lang{display:none}
   .menu-btn{display:grid}
-  .nav .actions{margin-left:auto}
+  .nav .actions,.nav .links + .actions{margin-left:auto}  /* bağlantılar gizliyken de menü düğmesi sağda */
   .mobile-menu{display:block;position:fixed;inset:0;z-index:290;background:var(--midnight);padding:calc(var(--nav-h) + 16px) 24px 32px;overflow:auto;opacity:0;pointer-events:none;transition:opacity .25s var(--ease)}
   .mobile-menu.open{opacity:1;pointer-events:auto}
   .mobile-menu a{display:block;font:600 19px/1.3 var(--disp);color:var(--cloud);text-decoration:none;padding:15px 4px;border-bottom:1px solid rgba(148,163,184,.16)}
@@ -103,7 +105,7 @@ a{color:var(--ind-600)}
   body.menu-open{overflow:hidden}
   body.menu-open .nav{background:var(--midnight);box-shadow:none}
   body.menu-open .nav .links a,body.menu-open .nav .login{color:var(--cloud)}
-  body.menu-open .menu-btn{color:var(--cloud);border-color:rgba(148,163,184,.4)}
+  body.menu-open .nav .menu-btn{color:var(--cloud);border-color:rgba(148,163,184,.4)}
 }
 
 /* ---------- hero (home, night) ---------- */

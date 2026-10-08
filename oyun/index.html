@@ -159,6 +159,9 @@ svg.cam-rest *{animation:none!important;transition:none!important}
 @keyframes pageIn{from{opacity:0;transform:translateY(14px) scale(.97)}}
 @keyframes pageBack{from{opacity:0;transform:translateY(14px) scale(.97)}}
 .fxl{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:3}
+.art-logo{position:absolute;top:2.2%;right:1.8%;z-index:4;pointer-events:none;width:clamp(26px,4.4%,48px);opacity:.72;line-height:0;filter:drop-shadow(0 1px 1.5px rgba(15,23,42,.45))}
+.art-logo svg{display:block;width:100%;height:auto}
+.art-logo.c-tl{right:auto;left:1.8%}.art-logo.c-br{top:auto;bottom:2.2%}.art-logo.c-bl{top:auto;bottom:2.2%;right:auto;left:1.8%}
 .spark{position:absolute;width:12px;height:12px;border-radius:3px;animation:spark 1s ease-out forwards}
 @keyframes spark{to{transform:translate(var(--dx),var(--dy)) rotate(260deg) scale(.4);opacity:0}}
 .hint{display:inline-flex;align-items:center;gap:8px;background:var(--surface);border:1.5px solid var(--line);border-radius:999px;padding:6px 14px 6px 8px;font-weight:800;font-size:15px}
@@ -453,4 +456,4 @@ body.dk-buyuk .hint{font-size:18px}
 <div id="reader" class="reader" hidden></div>
 <div id="game" class="reader" hidden></div>
 <div id="toast" class="toast" hidden></div>
-<script src="app.js?v=1fa6d713"></script>
+<script src="app.js?v=c50e8e38"></script>
