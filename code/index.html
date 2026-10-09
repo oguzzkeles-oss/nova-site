@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="theme-color" content="#0F172A">
 <meta name="description" content="Oyunla kodlama: 4 dünya, 24 bölüm, atölyeler ve öğretmen paneli.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -11,6 +11,8 @@
 
 <link rel="stylesheet" href="fonts/fonts.css">
 <style>
+/* iOS: iki parmakla ve çift dokunuşla yakınlaştırma kapalı */
+html,body{touch-action:pan-x pan-y}
 /* Düzen: ana ekranda dört dünya kartı + atölyeler; oyun ekranında solda ızgara tahta, sağda program; telefonda alt alta. */
 :root{
   --bg:#F8FAFC; --panel:#FFFFFF; --ink:#0F172A; --muted:#475569; --line:#E2E8F0;

@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="theme-color" content="#0F172A">
 <meta name="description" content="Bilim, mühendislik, ölç-say, teknoloji ve sanat: 23 seslendirmeli etkinlik.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -11,6 +11,8 @@
 
 <link rel="stylesheet" href="fonts/fonts.css">
 <style>
+/* iOS: iki parmakla ve çift dokunuşla yakınlaştırma kapalı */
+html,body{touch-action:pan-x pan-y}
 /* NOVA ECE kurumsal kimliği: Manrope + Inter, indigo / yıldız sarısı / gece mavisi, slate nötrler. Düzen: üstte gece bandı, altında konuşma şeridi, içerik kartları; etkinlikte solda sahne, sağda kontrol paneli. */
 :root{
   --bg:#F8FAFC; --panel:#FFFFFF; --ink:#0F172A; --muted:#475569; --line:#E2E8F0; --soft:#F1F5F9;

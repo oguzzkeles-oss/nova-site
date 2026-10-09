@@ -9,7 +9,7 @@ try{const s=JSON.parse(localStorage.getItem('novaSteam')||'{}');Object.assign(st
 const save=()=>{try{localStorage.setItem('novaSteam',JSON.stringify({...store,lang}))}catch(e){}};
 const T=()=>TX[lang],U=()=>TX[lang].ui,A=id=>TX[lang].a[id];
 const areaOf=id=>AREAS.find(a=>a.acts.includes(id));
-const HOSTIMG={piti:'piti',zip:'zipzip-jump',tosbi:'tosbi-happy',diken:'kirpi-happy'};
+const HOSTIMG={baykus:'baykus',piti:'piti',zip:'zipzip-jump',tosbi:'tosbi-happy',diken:'kirpi-happy'};  /* bilim: bilge baykuş */
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 /* ---------- ses ---------- */

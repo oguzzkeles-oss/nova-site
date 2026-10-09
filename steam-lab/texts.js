@@ -1,6 +1,6 @@
 /* NOVA ECE STEAM Lab — metinler. Seslendirilen satırlar: her etkinlikte intro, q (sorular), why; ortak: COMMON_VOICED. */
 const AREAS=[
- {id:'sci',host:'piti',img:'piti',acts:['batar','miknatis','golge','buz','fasulye','emme','ses','hava']},
+ {id:'sci',host:'baykus',img:'baykus',acts:['batar','miknatis','golge','buz','fasulye','emme','ses','hava']},
  {id:'eng',host:'zip',img:'zipzip-jump',acts:['kopru','kule','semsiye','rampa','kaldirac']},
  {id:'math',host:'tosbi',img:'tosbi-happy',acts:['ayak','terazi','grafik','simetri','pizza','carpma']},
  {id:'tech',host:'diken',img:'kirpi-happy',acts:['kapi','robot','desen','guvenlik']}];
