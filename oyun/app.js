@@ -13506,7 +13506,7 @@ const EN={"Mutlu":"Happy","Şaşkın":"Surprised","Üzgün":"Sad","Korkmuş":"Sc
  "Bir tane daha seç!":"Pick another one!","Hepsini eşleştirdin!":"You matched them all!","Sırayla hepsini yaptın!":"You did them all in order!","Kocaman oldu!":"It grew so big!",
  "Geldik!":"We made it!","Önce çiçeği kokla!":"Smell the flower first!","Şimdi mumu üfle!":"Now blow out the candle!","Aferin! Şimdi daha sakinsin.":"Well done! Now you feel calmer.",
  "Metin seçildi, kopyalayabilirsiniz.":"Text selected, you can copy it.","Not kopyalandı.":"Note copied.","Kullanım yeri":"Where you use it","Evde · Aile":"At home · Family","Okulda · Öğretmen":"At school · Teacher","Dil":"Language",
- "Masallar özgün olarak yazılmıştır · Seslendirme: ElevenLabs · Resimler yapay zekâ desteğiyle üretilmiş, NOVA ECE tarafından düzenlenmiştir · Program eşleştirmeleri uzman incelemesi bekleyen taslaktır.":"Original stories · Narration: ElevenLabs · Illustrations made with AI assistance and edited by NOVA ECE · Curriculum links refer to Türkiye's Maarif Model preschool programme (draft, pending expert review)."};
+ "Masallar özgün olarak yazılmıştır · Seslendirme: ElevenLabs · Resimler yapay zekâ desteğiyle üretilmiş, NOVA ECE tarafından düzenlenmiştir.":"Original stories · Narration: ElevenLabs · Illustrations made with AI assistance and edited by NOVA ECE."};
 const _=t=>(S.lang==="en"&&EN[t])||t;
 const LOC=()=>S.lang==="en"?"en-GB":"tr-TR";
 const FEELS=[{k:"mutlu",e:"😊",t:"Mutlu"},{k:"saskin",e:"😮",t:"Şaşkın"},{k:"uzgun",e:"😢",t:"Üzgün"},{k:"korkmus",e:"😨",t:"Korkmuş"}];
