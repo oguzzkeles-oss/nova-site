@@ -15444,8 +15444,10 @@ const AIM={},AIPACK={};
      Tam eşi yoksa aynı mekânın arka planı (mevsim/hava farkı küçük resimde göze batmaz); gece sahnesi yalnız gece arka planıyla. */
   const bgNear=sc=>{const ex=bgOf(sc);if(ex||!sc)return ex;const b=AIM._bg||[],night=sc.time==="night";
     return [night?sc.set+"-night":null,!night&&sc.season?sc.set+"-"+sc.season:null,night?null:sc.set].find(k=>k&&b.includes(k))||null};
-  function cards(){const p=page();if(!p||!p.predict)return;
-    document.querySelectorAll("#reader .predict .opt .pa .scene").forEach((el,k)=>{const o=p.predict.opts[k];if(o&&o.sc)skin(el,o.sc,bgNear(o.sc))})}
+  function cards(){const p=page();if(!p||!p.predict)return;const m=AIM[R.s.id]||{};
+    document.querySelectorAll("#reader .predict .opt .pa .scene").forEach((el,k)=>{const o=p.predict.opts[k];const key=`${R.i}-${k}`,u=`ai/${R.s.id}/op-${key}.webp`;
+      if((m.op||[]).includes(key)&&(!m.pack||AIPACK[u])){el.classList.add("ai");const img=el.querySelector("img.L-bg");img.src=U(u);Object.assign(img.style,{position:"absolute",inset:0,width:"100%",height:"100%",objectFit:"cover"})}  /* kart için üretilmiş 3D sahne */
+      else if(o&&o.sc)skin(el,o.sc,bgNear(o.sc))})}
   /* görünmez öğeler için görünür ipucu: nabız halkası ve dokunuş pırıltısı */
   const ring=k=>{const e=hitEl(k),s=svgEl();if(!e||!s)return;const b=camBox(e,s.querySelector(".L-fgc"));if(!b)return;
     const r=document.createElementNS("http://www.w3.org/2000/svg","ellipse");r.setAttribute("class","airing");
