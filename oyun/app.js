@@ -13662,7 +13662,7 @@ function setMode(m){S.mode=m;store.set("mode",m);document.body.classList.toggle(
   applyLang();
   $("#intro-p").textContent=S.lang==="en"?(m==="home"?`${CATALOG.length} ${CATALOG.length===1?"story is":"stories are"} narrated in a natural voice. Touch the characters in the pictures: they talk and jump; your child counts, finds and matches. Every story ends with a feelings game and a sequencing game.`:`${CATALOG.length} ${CATALOG.length===1?"story is":"stories are"} linked to Türkiye's Maarif Model preschool programme. Filter by area, value and age. Each story comes with learning outcomes, a reading plan, a class activity and a note to families.`):m==="home"?`${CATALOG.length} masal doğal bir sesle anlatılıyor. Resimlerdeki karakterlere dokunun: konuşurlar, zıplarlar; çocuğunuz sayar, bulur, eşleştirir. Masal sonunda duygu ve sıralama oyunu var.`:`${CATALOG.length} masal Türkiye Yüzyılı Maarif Modeli okul öncesi programına göre etiketlendi. Alan, değer ve yaş grubuna göre süzün. Her masalda öğrenme çıktıları, okuma planı, sınıf etkinliği ve aileye not hazır.`;
   renderShelf();renderPanel()}
-function applyLang(){document.documentElement.lang=S.lang;{const oyun=document.documentElement.dataset.app==="oyun",en=S.lang==="en",ad=oyun?(en?"Games":"Oyun"):(en?"Stories":"Masal");const pr=$(".brand .prod");if(pr)pr.textContent=ad;document.title="NOVA ECE "+ad;const br=$(".brand");if(br)br.setAttribute("aria-label","NOVA ECE "+ad+" — novaece.com")}document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===S.lang));
+function applyLang(){document.documentElement.lang=S.lang;{const oyun=document.documentElement.dataset.app==="oyun",en=S.lang==="en",ad=oyun?(en?"Games":"Oyun"):(en?"Stories":"Masal");const pr=$(".brand .prod");if(pr)pr.textContent=ad;const hb=$("[data-hmenu]");if(hb)hb.setAttribute("aria-label",_("Ayarlar"));document.title="NOVA ECE "+ad;const br=$(".brand");if(br)br.setAttribute("aria-label","NOVA ECE "+ad+" — novaece.com")}document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===S.lang));
   $("#m-home .lbl").textContent=_("Evde · Aile");$("#m-school .lbl").textContent=_("Okulda · Öğretmen");$("#seg-mode").setAttribute("aria-label",_("Kullanım yeri"));$("#seg-lang").setAttribute("aria-label",_("Dil"));
   const f=$(".foot");if(f){f.dataset.tr=f.dataset.tr||f.textContent;f.textContent=_(f.dataset.tr)}}
 async function setLang(l){if(l===S.lang)return;S.lang=l;store.set("lang",l);S.value="Tümü";await loadCatalog();renderFilters();setMode(S.mode)}
@@ -13917,8 +13917,9 @@ document.addEventListener("click",e=>{if(Date.now()-TAPX<800&&e.target.closest&&
 document.addEventListener("click",e=>{
   const hit=e.target.closest("#art [data-hit]");if(hit){AU.init();onHit(pickHit(e.clientX,e.clientY,hit));return}
   const t=e.target.closest("button");if(!t)return;const d=t.dataset;
-  if(d.mode)return setMode(d.mode);
-  if(d.lang)return setLang(d.lang);
+  if("hmenu" in d){const h=$("#hctl");h.classList.toggle("open");t.setAttribute("aria-expanded",h.classList.contains("open"));return}
+  if(d.mode){closeHmenu();return setMode(d.mode)}
+  if(d.lang){closeHmenu();return setLang(d.lang)}
   if(d.area){S.area=d.area;renderFilters();return renderShelf()}
   if(d.age){S.age=S.age===d.age?"Tümü":d.age;renderFilters();return renderShelf()}
   if(d.open)return openSheet(d.open);
@@ -13947,11 +13948,15 @@ document.addEventListener("click",e=>{
   if("again" in d){AU.stop();Object.assign(R,{i:0,prevI:0,phase:"page",pick:{},feel:null,ordered:[],saved:false,shuf:null,dir:1});return renderReader()}
 });
 const closeMenu=()=>{const m=$("#rmenu");if(!m||m.hidden)return false;m.hidden=true;const b=$("[data-menu]");if(b)b.setAttribute("aria-expanded","false");return true};
+/* kütüphane başlığı menüsü (telefon): Özel Destek, kullanım yeri, dil */
+const closeHmenu=()=>{const h=$("#hctl"),b=$("[data-hmenu]");if(!h||!h.classList.contains("open"))return false;h.classList.remove("open");if(b)b.setAttribute("aria-expanded","false");return true};
 document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("#rmenu,[data-menu]"))return;closeMenu()});
+document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest("#hctl,[data-hmenu]"))return;closeHmenu()});
 document.addEventListener("change",e=>{if(e.target.id==="f-value"){S.value=e.target.value;renderShelf()}});
 document.addEventListener("input",e=>{if(e.target.id==="f-q"){S.q=e.target.value;clearTimeout(renderShelf.h);renderShelf.h=setTimeout(()=>{renderShelf();const sel=$("#f-value");if(sel){const cur=S.value;sel.innerHTML=`<option value="Tümü">${_("Tümü")}</option>`+valuesAll().map(([v,n])=>`<option value="${esc(v)}" ${cur===v?"selected":""}>${esc(valName(v))} (${n})</option>`).join("")}},180)}});
 document.addEventListener("keydown",e=>{
   if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches("#art [data-hit]")){e.preventDefault();AU.init();onHit(e.target);return}
+  if(e.key==="Escape"&&$("#reader").hidden&&closeHmenu())return;
   if(!$("#reader").hidden){if(e.key==="Escape"){if(!closeMenu())closeReader()}if(R.phase==="page"){if(e.key==="ArrowRight")go(1);if(e.key==="ArrowLeft")go(-1)}}
   else if(!$("#sheet").hidden&&e.key==="Escape")closeSheet()});
 $("#sheet").addEventListener("click",e=>{if(e.target.id==="sheet")closeSheet()});

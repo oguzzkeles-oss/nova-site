@@ -369,7 +369,16 @@ html,body{touch-action:pan-x pan-y}
 /* dil seçici */
 .hctl{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .seg.lang button{padding:9px 13px;letter-spacing:.04em}
-@media (max-width:600px){.hctl{width:100%;justify-content:space-between}}
+/* telefonda kütüphane başlığı: logo + tek ayar düğmesi; Özel Destek, kullanım yeri ve dil açılır menüde (okuyucudaki gibi) */
+.tbtn.hmenu{display:none}
+@media (max-width:600px){
+  .top{position:relative;flex-wrap:nowrap}
+  .tbtn.hmenu{display:grid}
+  .hctl{display:none;position:absolute;top:calc(100% + 8px);right:0;z-index:40;width:min(320px,calc(100vw - 24px));flex-direction:column;align-items:stretch;gap:10px;background:var(--surface);border:1.5px solid var(--line);border-radius:18px;box-shadow:0 16px 40px rgba(20,30,50,.18);padding:12px}
+  .hctl.open{display:flex}
+  .hctl .seg{width:100%}.hctl .seg button{flex:1;justify-content:center;font-size:14px;padding:9px 6px;white-space:nowrap}
+  .hctl .dk-btn{width:100%;justify-content:center;padding:11px 14px;font-size:15px}
+}
 
 /* oyunlar rafı */
 .games{margin-top:28px}
@@ -449,7 +458,8 @@ body.dk-buyuk .hint{font-size:18px}
     <a class="brand" href="https://novaece.com" target="_blank" rel="noopener" aria-label="NOVA ECE Masal — novaece.com">
       <svg class="lockup l-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 6 456 84" role="img" aria-label="NOVA ECE"><g transform="translate(2,0)"><path d="M 49.72 22.55 A 30 30 0 1 0 73.45 46.28" fill="none" stroke="#4F46E5" stroke-width="10" stroke-linecap="round"/><path d="M68 14 Q70.5 25.5 82 28 Q70.5 30.5 68 42 Q65.5 30.5 54 28 Q65.5 25.5 68 14 Z" fill="#F59E0B"/></g><g transform="translate(108,14)"><g fill="none" stroke="#0F172A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(0,0)"><path d="M0 52 V8 L32 52 V8"/></g><g transform="translate(48,0)"><ellipse cx="21" cy="30" rx="21" ry="23"/></g><g transform="translate(108,0)"><path d="M0 8 L16 52.5 L32 8"/></g><g transform="translate(158,0)"><path d="M0 52 L16 7.5 L32 52 M5.9 37 H26.1"/></g></g><g transform="translate(216,0)"><g fill="none" stroke="#4F46E5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(0,0)"><path d="M0 8 V52 M0 8 H24 M0 30 H20 M0 52 H24"/></g><g transform="translate(40,0)"><path d="M37.55 15.84 A 21 23 0 1 0 37.55 44.16"/></g><g transform="translate(98,0)"><path d="M0 8 V52 M0 8 H24 M0 30 H20 M0 52 H24"/></g></g></g></g></svg><svg class="lockup l-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 6 456 84" role="img" aria-label="NOVA ECE"><g transform="translate(2,0)"><path d="M 49.72 22.55 A 30 30 0 1 0 73.45 46.28" fill="none" stroke="#F8FAFC" stroke-width="10" stroke-linecap="round"/><path d="M68 14 Q70.5 25.5 82 28 Q70.5 30.5 68 42 Q65.5 30.5 54 28 Q65.5 25.5 68 14 Z" fill="#FBBF24"/></g><g transform="translate(108,14)"><g fill="none" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(0,0)"><path d="M0 52 V8 L32 52 V8"/></g><g transform="translate(48,0)"><ellipse cx="21" cy="30" rx="21" ry="23"/></g><g transform="translate(108,0)"><path d="M0 8 L16 52.5 L32 8"/></g><g transform="translate(158,0)"><path d="M0 52 L16 7.5 L32 52 M5.9 37 H26.1"/></g></g><g transform="translate(216,0)"><g fill="none" stroke="#818CF8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(0,0)"><path d="M0 8 V52 M0 8 H24 M0 30 H20 M0 52 H24"/></g><g transform="translate(40,0)"><path d="M37.55 15.84 A 21 23 0 1 0 37.55 44.16"/></g><g transform="translate(98,0)"><path d="M0 8 V52 M0 8 H24 M0 30 H20 M0 52 H24"/></g></g></g></g></svg><div><h1 class="prod">Masal</h1></div>
     </a>
-    <div class="hctl">
+    <button class="tbtn mbtn hmenu" data-hmenu aria-haspopup="true" aria-expanded="false" aria-controls="hctl" aria-label="Ayarlar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="15" cy="7" r="2.5"/><circle cx="9" cy="17" r="2.5"/></svg></button>
+    <div class="hctl" id="hctl">
     <div class="seg" id="seg-mode" role="group" aria-label="Kullanım yeri">
       <button id="m-home" data-mode="home"><i class="dot" style="background:var(--sun)"></i><span class="lbl">Evde · Aile</span></button>
       <button id="m-school" data-mode="school"><i class="dot" style="background:var(--teal)"></i><span class="lbl">Okulda · Öğretmen</span></button>
@@ -472,4 +482,4 @@ body.dk-buyuk .hint{font-size:18px}
 <div id="reader" class="reader" hidden></div>
 <div id="game" class="reader" hidden></div>
 <div id="toast" class="toast" hidden></div>
-<script src="app.js?v=397b6e0a"></script>
+<script src="app.js?v=e9989fdb"></script>
