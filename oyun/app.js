@@ -13477,7 +13477,7 @@ const LOGO_YER={"004-kirpi-diken-paylasiyor":{"0":[2.8,10.0],"1":[15.8,2.2],"2":
    ===================================================================== */
 const EN={"Mutlu":"Happy","Şaşkın":"Surprised","Üzgün":"Sad","Korkmuş":"Scared",
  "Türkçe":"Language","Matematik":"Maths","Fen":"Science","Sosyal":"Social","Hareket ve Sağlık":"Movement & Health","Sanat":"Art","Müzik":"Music",
- "3–4 yaş":"Ages 3–4","4–5 yaş":"Ages 4–5","5–6 yaş":"Ages 5–6","3–6 yaş":"Ages 3–6","Tümü":"All","Değer":"Value","Ayarlar":"Settings","Seçimler hatırlanır; her masalda yeniden ayarlamanız gerekmez.":"Your choices are remembered; no need to set them again for each story.","Masal ara":"Search stories","Masal ara…":"Search stories…",
+ "3–4 yaş":"Ages 3–4","4–5 yaş":"Ages 4–5","5–6 yaş":"Ages 5–6","3–6 yaş":"Ages 3–6","Tümü":"All","Değer":"Value","Süz":"Filter","Ayarlar":"Settings","Seçimler hatırlanır; her masalda yeniden ayarlamanız gerekmez.":"Your choices are remembered; no need to set them again for each story.","Masal ara":"Search stories","Masal ara…":"Search stories…",
  "Bugün hangi masalı okuyalım?":"Which story shall we read today?","Sınıfta hangi masalı okuyacağız?":"Which story will we read in class?",
  "Bu seçimde masal yok. Filtrelerden birini kaldırın.":"No stories match. Try removing a filter.",
  "Henüz okunan masal yok. Bir masal bitirildiğinde, çocuğun seçtiği duygu ile birlikte burada görünür.":"No stories read yet. When a story is finished, it appears here with the feeling your child chose.",
@@ -13670,10 +13670,13 @@ async function setLang(l){if(l===S.lang)return;S.lang=l;store.set("lang",l);S.va
 const baseList=()=>{const q=S.q.trim().toLocaleLowerCase(S.lang);return CATALOG.filter(s=>(S.area==="Tümü"||s.area===S.area)&&(S.age==="Tümü"||s.age===S.age||s.age==="36-72")&&(!q||(s.title+" "+s.blurb+" "+(s.theme||"")).toLocaleLowerCase(S.lang).includes(q)))};
 function valuesAll(){const n={};baseList().forEach(s=>(s.values||[]).forEach(v=>n[v]=(n[v]||0)+1));return Object.keys(n).sort((a,b)=>a.localeCompare(b,S.lang)).map(v=>[v,n[v]])}
 function renderFilters(){if(S.value!=="Tümü"&&!valuesAll().some(([v])=>v===S.value))S.value="Tümü";
-  $("#filters").innerHTML=`<div class="frow"><button class="chip" data-area="Tümü" aria-pressed="${S.area==="Tümü"}">${_("Tümü")}</button>${AREAS.map(a=>`<button class="chip" data-area="${a}" aria-pressed="${S.area===a}">${_(a)}</button>`).join("")}</div>
+  /* telefonda süzgeçler tek düğmeden açılır (Süz + arama); masaüstünde hepsi görünür */
+  const nf=(S.area!=="Tümü")+(S.age!=="Tümü")+(S.value!=="Tümü");
+  $("#filters").innerHTML=`<div class="fbar"><button class="chip fbtn" data-ftoggle aria-expanded="${!!S.fopen}" aria-controls="fpanel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16l-6 7v6l-4 2v-8z"/></svg>${_("Süz")}${nf?`<b class="fn">${nf}</b>`:""}</button>
+   <label class="srch"><span class="vh">${_("Masal ara")}</span><input id="f-q" type="search" placeholder="${_("Masal ara…")}" value="${esc(S.q)}"></label></div>
+   <div class="fpanel${S.fopen?" open":""}" id="fpanel"><div class="frow"><button class="chip" data-area="Tümü" aria-pressed="${S.area==="Tümü"}">${_("Tümü")}</button>${AREAS.map(a=>`<button class="chip" data-area="${a}" aria-pressed="${S.area===a}">${_(a)}</button>`).join("")}</div>
    <div class="frow">${AGES.map(([k,l])=>`<button class="chip" data-age="${k}" aria-pressed="${S.age===k}">${_(l)}</button>`).join("")}<span class="sep"></span>
-   <label class="sel"><span>${_("Değer")}</span><select id="f-value"><option value="Tümü">${_("Tümü")}</option>${valuesAll().map(([v,n])=>`<option value="${esc(v)}" ${S.value===v?"selected":""}>${esc(valName(v))} (${n})</option>`).join("")}</select></label>
-   <label class="srch"><span class="vh">${_("Masal ara")}</span><input id="f-q" type="search" placeholder="${_("Masal ara…")}" value="${esc(S.q)}"></label></div>`}
+   <label class="sel"><span>${_("Değer")}</span><select id="f-value"><option value="Tümü">${_("Tümü")}</option>${valuesAll().map(([v,n])=>`<option value="${esc(v)}" ${S.value===v?"selected":""}>${esc(valName(v))} (${n})</option>`).join("")}</select></label></div></div>`}
 /* değer adları: "D20 Yardımseverlik" -> İngilizcede "D20 Helpfulness" */
 const VAL_EN={"Adalet":"Fairness","Aile Bütünlüğü":"Family unity","Bağımsızlık":"Independence","Dostluk":"Friendship","Duyarlılık":"Sensitivity","Estetik":"Aesthetics","Mahremiyet":"Privacy","Merhamet":"Compassion","Mütevazılık":"Modesty","Özgürlük":"Freedom","Sabır":"Patience","Sağlıklı Yaşam":"Healthy living","Saygı":"Respect","Sevgi":"Love","Sorumluluk":"Responsibility","Tasarruf":"Thrift","Temizlik":"Cleanliness","Vatanseverlik":"Patriotism","Yardımseverlik":"Helpfulness","Çalışkanlık":"Diligence","Dürüstlük":"Honesty"};
 const valName=v=>{if(S.lang!=="en")return v;const m=String(v).match(/^(D\d+)\s+(.*)$/);return m?m[1]+" "+(VAL_EN[m[2]]||m[2]):(VAL_EN[v]||v)};
@@ -13918,6 +13921,7 @@ document.addEventListener("click",e=>{
   const hit=e.target.closest("#art [data-hit]");if(hit){AU.init();onHit(pickHit(e.clientX,e.clientY,hit));return}
   const t=e.target.closest("button");if(!t)return;const d=t.dataset;
   if("hmenu" in d){const h=$("#hctl");h.classList.toggle("open");t.setAttribute("aria-expanded",h.classList.contains("open"));return}
+  if("ftoggle" in d){S.fopen=!S.fopen;renderFilters();return}
   if(d.mode){closeHmenu();return setMode(d.mode)}
   if(d.lang){closeHmenu();return setLang(d.lang)}
   if(d.area){S.area=d.area;renderFilters();return renderShelf()}
