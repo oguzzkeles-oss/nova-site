@@ -4,14 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="theme-color" content="#0F172A">
-<meta name="description" content="Oyunla kodlama: 4 dünya, 24 bölüm, atölyeler ve öğretmen paneli.">
+<meta name="description" content="Keşif Adası: 3 seviyede 27 yeni kodlama görevi, 24 klasik bölüm, atölyeler ve öğretmen paneli.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <title>NOVA ECE Code</title>
 
 <link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="discovery.css">
 <style>
-/* iOS: iki parmakla ve çift dokunuşla yakınlaştırma kapalı */
+/* iOS: iki parmakla ve çift dokunuşla yakınlaştırma kapalı (yakınlaşan ekran geri küçülmüyordu) */
 html,body{touch-action:pan-x pan-y}
 /* Düzen: ana ekranda dört dünya kartı + atölyeler; oyun ekranında solda ızgara tahta, sağda program; telefonda alt alta. */
 :root{
@@ -208,16 +209,26 @@ h2.sec-t{font:600 12.5px/1.4 var(--body);letter-spacing:.09em;text-transform:upp
   <div class="say" aria-live="polite"><img id="say-img" src="img/kirpi-happy.webp" alt=""><p id="say"></p><button class="rep" id="rep" aria-label="Dinle">🔊</button></div>
 
   <section id="v-home">
-    <div class="worlds" id="worlds"></div>
+    <div id="discovery-home"></div>
+    <details class="classic-worlds"><summary id="classic-title">Serbest keşif · eski dünyalar</summary><div class="worlds" id="worlds"></div></details>
     <h2 class="sec-t" id="t-tools" style="margin-top:18px">Atölyeler</h2>
     <div class="tools" id="tools"></div>
   </section>
 
+  <section id="v-journey" hidden></section>
   <section id="v-play" hidden>
     <div class="main">
       <div class="col">
-        <div class="lvl" id="lvl"></div>
-        <div class="board" id="board"><div class="hero" id="hero"><img id="heroimg" src="img/kirpi-walk.webp" alt=""></div></div>
+        <div class="map-frame">
+          <div class="map-north" aria-hidden="true">↑ <span id="map-up">Yukarı</span></div>
+          <div class="map-west" aria-hidden="true">←</div>
+          <div class="board" id="board" role="img" aria-label="Tepeden görünüm, beşe beş kareli yön haritası"><div class="hero" id="hero"><img id="heroimg" src="img/topdown/kirpi-walk.png" alt=""></div></div>
+          <div class="map-east" aria-hidden="true">→</div>
+          <div class="map-south" aria-hidden="true">↓ <span id="map-down">Aşağı</span></div>
+        </div>
+        <div id="map-counter" hidden></div>
+        <div class="map-legend"><span id="map-left">← Sol</span><span id="map-mode">Tepeden görünüm</span><span id="map-right">Sağ →</span></div>
+        <p class="map-hint" id="map-hint">Her ok, gösterdiği yönde bir kare ilerletir.</p>
         <div class="col" id="edit-tools" hidden></div>
       </div>
       <div class="col">
@@ -228,9 +239,15 @@ h2.sec-t{font:600 12.5px/1.4 var(--body);letter-spacing:.09em;text-transform:upp
         <p class="meta" id="meta"></p>
         <h2 class="sec-t" id="t-cards">Kartlar</h2>
         <div class="palette" id="pal"></div>
-        <div class="actions"><button class="btn go" id="go">▶ <span id="t-go">Başla</span></button><button class="btn ghost" id="clr">↺ <span id="t-clr">Temizle</span></button></div>
+        <div class="actions"><button class="btn go" id="go">▶ <span id="t-go">Başla</span></button><button class="btn ghost step-button" id="step">▸ <span id="t-step">Bir adım</span></button><button class="btn ghost" id="restart"><span id="t-restart">↺ Baştan dene</span></button><button class="btn ghost" id="clr">↺ <span id="t-clr">Temizle</span></button></div>
+        <p id="execution-status" class="execution-status" role="status" aria-live="polite"></p>
         <p class="meta" id="t-help"></p>
       </div>
+    </div>
+    <div class="play-notes">
+      <div id="play-feedback"></div>
+      <div id="mission-brief" hidden></div>
+      <div class="lvl" id="lvl"></div>
     </div>
   </section>
 
@@ -274,11 +291,16 @@ h2.sec-t{font:600 12.5px/1.4 var(--body);letter-spacing:.09em;text-transform:upp
 <div class="overlay" id="ov" hidden><div class="modal" id="modal"></div></div>
 
 <script>["gesturestart","gesturechange","gestureend"].forEach(n=>document.addEventListener(n,e=>e.preventDefault(),{passive:false}))</script>
+<script src="gate.js"></script>
+<script src="code-runner.js"></script>
+<script src="missions.js"></script>
+<script src="mission-voices.js"></script>
+<script src="rhythm-audio.js"></script>
 <script>
 /* ---------- veri ---------- */
 const ON_SITE=/(^|\.)novaece\.com$/.test(location.hostname),IN_APP=location.protocol==='capacitor:'||(location.hostname==='localhost'&&!location.port);
 const LINK=(path,art)=>ON_SITE?path:IN_APP?'https://novaece.com'+path:art;
-const STEAM_URL=LINK('/steam-lab/','https://claude.ai/artifact/GZVSVc6GgSF2CxorQeeDiY');
+const STEAM_URL=LINK('/steam-lab/','https://novaece.com/steam-lab/');
 const DIRS={right:[1,0],left:[-1,0],up:[0,-1],down:[0,1]};
 const SVG=p=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
 const ICON={right:SVG('<path d="M4 12h15M13 6l6 6-6 6"/>'),left:SVG('<path d="M20 12H5M11 6l-6 6 6 6"/>'),up:SVG('<path d="M12 20V5M6 11l6-6 6 6"/>'),down:SVG('<path d="M12 4v15M6 13l6 6 6-6"/>'),
@@ -375,30 +397,31 @@ const T=()=>TXT[lang];
 /* ---------- durum ---------- */
 const $=s=>document.querySelector(s);
 let lang='tr',view='home',WI=0,LI=0,running=false,prog={root:[],f:[]},target='root',uid=1,maker=null,makerMode='edit',makerTool='apple',gen=0;
+let activeMission=null,activeJourney=null,execution=null;
 let store={stars:{},stats:{}};
 try{const s=JSON.parse(localStorage.getItem('novaCode')||'{}');store.stars=s.stars||{};store.stats=s.stats||{};lang=s.lang||'tr'}catch(e){}
 const save=()=>{try{localStorage.setItem('novaCode',JSON.stringify({stars:store.stars,stats:store.stats,lang}))}catch(e){}};
 const stat=c=>store.stats[c]||(store.stats[c]={runs:0,fails:0,failAt:{}});
 /* ---------- ses ---------- */
 let voice=null;const cache={};
-function speak(key,text,img){$('#say').textContent=text;$('#say').dataset.key=key||'';if(img)$('#say-img').src=`img/${img}.webp`;if(voice){voice.pause();voice=null}if(!key)return;try{voice=new Audio(`ses/${lang}/${key}.mp3`);voice.play().catch(()=>{})}catch(e){}}
-function sfx(n,v=.6){try{const a=(cache[n]||(cache[n]=new Audio(`sfx/${n}.mp3`))).cloneNode();a.volume=v;a.play().catch(()=>{})}catch(e){}}
+function speak(key,text,img){$('#rep').hidden=!key;$('#say').textContent=text;$('#say').dataset.key=key||'';if(img)$('#say-img').src=`img/${img}.webp`;if(voice){voice.pause();voice=null}if(!key)return;try{voice=new Audio(`ses/${lang}/${key}.mp3`);voice.play().catch(()=>{})}catch(e){}}
+function sfx(n,v=.6){if(window.NovaRhythmAudio?.has(n)){NovaRhythmAudio.play(n);return}try{const a=(cache[n]||(cache[n]=new Audio(`sfx/${n}.mp3`))).cloneNode();a.volume=v;a.play().catch(()=>{})}catch(e){}}
 function word(k){if(!k)return;try{const a=new Audio(`ses/${lang}/${k}.mp3`);a.volume=.9;a.play().catch(()=>{})}catch(e){}}
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 /* ---------- görünüm ---------- */
-function show(v){view=v;gen++;['home','play','rhythm','stage','teacher'].forEach(x=>$('#v-'+x).hidden=x!==v);$('#back').hidden=v==='home';stopRhythm();$('#ov').hidden=true;window.scrollTo(0,0)}
+function show(v){if(typeof cancelExecution==='function')cancelExecution();view=v;document.body.dataset.view=v;const feedback=$('.say');if(v==='play')$('#play-feedback').append(feedback);else $('.top').after(feedback);gen++;['home','play','rhythm','stage','teacher','journey'].forEach(x=>$('#v-'+x).hidden=x!==v);$('#back').hidden=v==='home';stopRhythm();$('#ov').hidden=true;window.scrollTo(0,0)}
 function texts(){const t=T();$('#t-tools').textContent=t.tools;$('#t-prog').textContent=t.prog;$('#t-fn').textContent=t.fn;$('#t-cards').textContent=t.cards;$('#t-go').textContent=t.go;$('#t-clr').textContent=t.clr;$('#t-help').textContent=t.help;
  $('#codebtn').textContent='</> '+t.code;$('#t-rex').textContent=t.rex;$('#t-rplay').textContent=t.rplay;$('#t-rcheck').textContent=t.rcheck;$('#t-rclear').textContent=t.rclear;$('#t-rhelp').textContent=t.rhelp;
  $('#t-sreset').textContent=t.sreset;$('#t-swho').textContent=t.swho;$('#t-resetl').textContent=t.reset;
- $('#l-tr').setAttribute('aria-pressed',lang==='tr');$('#l-en').setAttribute('aria-pressed',lang==='en');document.documentElement.lang=lang}
+ $('#l-tr').setAttribute('aria-pressed',lang==='tr');$('#l-en').setAttribute('aria-pressed',lang==='en');document.documentElement.lang=lang;if(typeof discoveryTexts==='function')discoveryTexts()}
 const done=(w,i)=>!!store.stars[`${w}-${i}`];
-function renderHome(){const t=T();$('#b-title').textContent='Code';
+function renderHome(){if(typeof renderDiscovery==='function')renderDiscovery();const t=T();$('#b-title').textContent='Code';
  $('#worlds').innerHTML=W.map((w,i)=>{const n=w.levels.length,d=w.levels.filter((_,j)=>done(w.id,j)).length;const [h,age,p]=t.worlds[w.id];
   return `<button class="wcard" data-w="${i}"><span class="pic" style="background:var(${w.tint})"><img src="img/${HOSTIMG[w.host]}.webp" alt=""></span><span style="min-width:0;display:flex;flex-direction:column"><span class="age">${age}</span><h3>${h}</h3><p>${p}</p><span class="prog-dots" aria-label="${d}/${n}">${w.levels.map((_,j)=>`<i class="${done(w.id,j)?'on':''}"></i>`).join('')}</span></span></button>`}).join('');
- const TL=t.toolsList;$('#tools').innerHTML=[['rhythm','davul'],['stage','tosbi-happy'],['maker','apple'],['teacher','kirpi-happy']].map(([k,img])=>`<button class="tcard" data-tool="${k}"><img src="img/${img}.webp" alt=""><b>${TL[k][0]}</b><span>${TL[k][1]}</span></button>`).join('')+`<a class="tcard" href="" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><img src="img/piti.webp" alt=""><b>NOVA ECE STEAM Lab</b><span>${lang==='tr'?'Bilim, mühendislik, ölç-say, teknoloji ve sanat: 23 etkinlik.':'Science, engineering, maths, technology and art: 23 activities.'}</span></a>`}
+ const TL=t.toolsList;$('#tools').innerHTML=[['rhythm','davul'],['stage','tosbi-happy'],['maker','apple'],['teacher','kirpi-happy']].map(([k,img])=>`<button class="tcard" data-tool="${k}"><img src="img/${img}.webp" alt=""><b>${TL[k][0]}</b><span>${TL[k][1]}</span></button>`).join('')+`<a class="tcard" href="${STEAM_URL}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><img src="img/piti.webp" alt=""><b>NOVA ECE STEM</b><span>${lang==='tr'?'Bilim, mühendislik, ölç-say, teknoloji ve sanat: 23 etkinlik.':'Science, engineering, maths, technology and art: 23 activities.'}</span></a>`}
 $('#worlds').addEventListener('click',e=>{const b=e.target.closest('[data-w]');if(!b)return;const i=+b.dataset.w;const first=W[i].levels.findIndex((_,j)=>!done(W[i].id,j));openLevel(i,first<0?0:first,true)});
 $('#tools').addEventListener('click',e=>{const b=e.target.closest('[data-tool]');if(!b)return;({rhythm:openRhythm,stage:openStage,maker:openMaker,teacher:openTeacher})[b.dataset.tool]()});
-function goHome(){running=false;$('#go').disabled=false;show('home');renderHome();speak('app',T().app,'kirpi-happy')}
+function goHome(){$('#back').onclick=goHome;activeMission=null;activeJourney=null;running=false;$('#go').disabled=false;show('home');renderHome();speak('app',T().app,'kirpi-happy')}
 $('#back').onclick=goHome;
 /* ---------- program modeli ---------- */
 function mk(spec){const [t,a,b]=spec;const n={id:uid++,t};if(t==='mv'||t==='until')n.d=a;if(t==='loop'){n.n=a;n.body=(b||[]).map(mk)}if(t==='if')n.body=(a||[]).map(mk);return n}
@@ -407,7 +430,7 @@ function parentList(id,list){for(let i=0;i<list.length;i++){const n=list[i];if(n
 function contOf(key){if(key==='root')return prog.root;if(key==='f')return prog.f;const n=findNode(+key);return n?n.body:prog.root}
 function limOf(key){const L=lv().lim;if(key==='root')return L.root;if(key==='f')return L.f||4;const n=findNode(+key);return n&&n.t==='if'?(L.ifb||1):(L.body||1)}
 const count=list=>list.reduce((s,n)=>s+1+(n.body?count(n.body):0),0);
-const lv=()=>maker?maker.level:W[WI].levels[LI];
+const lv=()=>activeMission?activeMission.level:maker?maker.level:W[WI].levels[LI];
 const nested=()=>{const c=lv().cards;return c.includes('loop')||c.includes('if')||c.includes('call')};
 function cardHTML(n){const t=T();
  if(n.t==='mv')return `<button class="card c-${n.d}" data-id="${n.id}" aria-label="${t.dir[n.d]}">${ICON[n.d]}</button>`;
@@ -466,63 +489,82 @@ $('#codebtn').onclick=()=>{$('#code').hidden=!$('#code').hidden;if(!$('#code').h
 /* ---------- tahta ---------- */
 const cellEl=(c,r)=>$('#board').children[r*5+c+1];
 const curW=()=>maker?W[0]:W[WI];
-function drawBoard(editable){const b=$('#board'),hero=$('#hero'),L=lv(),w=curW();b.innerHTML='';b.appendChild(hero);b.dataset.w=w.id;
+function drawBoard(editable){const b=$('#board'),hero=$('#hero'),L=lv(),w=curW();b.innerHTML='';b.appendChild(hero);b.dataset.w=w.id;b.dataset.projection='top-down';
  for(let r=0;r<5;r++)for(let c=0;c<5;c++){const d=document.createElement('div');d.className='cell'+(editable?' edit':'');d.dataset.c=c;d.dataset.r=r;b.appendChild(d)}
  const occ=new Set([...L.walls.map(x=>x[0]+','+x[1]),...L.goals.map(g=>g+''),L.start?L.start+'':'',L.basket?L.basket+'':'']);
- if(!maker)(DECO[w.id]||[]).forEach(([c,r,k])=>{if(!occ.has(c+','+r))cellEl(c,r).innerHTML=`<img class="deco" src="img/${k}.webp" alt="">`});
- L.walls.forEach(([c,r,k])=>cellEl(c,r).innerHTML=`<img src="img/${k}.webp" alt="">`);
- if(L.basket)cellEl(...L.basket).innerHTML=`<img src="img/basket.webp" alt="">`;
- L.goals.forEach(([c,r],i)=>cellEl(c,r).innerHTML=`<img class="goal" data-g="${i}" src="img/${w.goal}.webp" alt="">`);
- if(L.counter){const ct=document.createElement('div');ct.className='counter';ct.innerHTML=`<img src="img/havuc.webp" alt=""><span id="cnt">0</span> / ${L.exact}`;b.appendChild(ct)}
- hero.hidden=!L.start;if(L.start)place(L.start,false);face('right');$('#heroimg').src=`img/${w.hero.walk}.webp`}
+ if(!maker)(DECO[w.id]||[]).forEach(([c,r,k])=>{if(!occ.has(c+','+r))cellEl(c,r).innerHTML=`<img class="deco" src="img/topdown/${k}.png" alt="">`});
+ L.walls.forEach(([c,r,k])=>cellEl(c,r).innerHTML=`<img src="img/topdown/${k}.png" alt="">`);
+ if(L.basket)cellEl(...L.basket).innerHTML=`<img src="img/topdown/basket.png" alt="">`;
+ L.goals.forEach(([c,r],i)=>cellEl(c,r).innerHTML=`<img class="goal" data-g="${i}" src="img/topdown/${w.goal}.png" alt="">`);
+ const ct=$('#map-counter');ct.hidden=!L.counter;ct.className='map-counter';ct.innerHTML=L.counter?`<img src="img/topdown/havuc.png" alt=""><span id="cnt">0</span> / ${L.exact}`:'';
+ hero.hidden=!L.start;if(L.start)place(L.start,false);face('right');$('#heroimg').src=`img/topdown/${w.hero.walk}.png`}
 function place([c,r],anim=true){const h=$('#hero');if(!anim){h.style.transition='none';requestAnimationFrame(()=>requestAnimationFrame(()=>h.style.transition=''))}h.style.transform=`translate(${c*100}%,${r*100}%)`}
-function face(d){if(d==='left')$('#hero').style.setProperty('--fx',-1);if(d==='right')$('#hero').style.setProperty('--fx',1)}
+function face(d){const degrees={up:0,right:90,down:180,left:270};$('#hero').dataset.direction=d;$('#hero').style.setProperty('--heading',degrees[d]+'deg')}
 /* ---------- seviyeler ---------- */
-function drawLevels(){const w=W[WI],el=$('#lvl');el.innerHTML='';w.levels.forEach((_,i)=>{const b=document.createElement('button');b.textContent=i+1;b.className=(done(w.id,i)?'done ':'')+(i===LI?'cur':'');
+function drawLevels(){if(activeMission){renderMissionLevels();return}const w=W[WI],el=$('#lvl');el.innerHTML='';w.levels.forEach((_,i)=>{const b=document.createElement('button');b.textContent=i+1;b.className=(done(w.id,i)?'done ':'')+(i===LI?'cur':'');
  b.disabled=!(i===0||done(w.id,i-1)||done(w.id,i));b.setAttribute('aria-label',`${T().levels} ${i+1}`);b.onclick=()=>{if(!running)openLevel(WI,i)};el.appendChild(b)})}
-function openLevel(wi,li,intro){maker=null;WI=wi;LI=li;const L=lv();prog={root:(L.pre&&L.pre.root||[]).map(mk),f:(L.pre&&L.pre.f||[]).map(mk)};
+function openLevel(wi,li,intro,mission=null){activeMission=mission;if(!mission)activeJourney=null;maker=null;WI=wi;LI=li;const L=lv();prog={root:(L.pre&&L.pre.root||[]).map(mk),f:(L.pre&&L.pre.f||[]).map(mk)};
  target=L.cards.includes('call')?'f':(L.pre&&L.pre.root&&L.pre.root[0][0]==='loop'?String(prog.root[0].id):'root');
  show('play');$('#b-title').textContent=T().worlds[W[wi].id][0];$('#lvl').hidden=false;$('#edit-tools').hidden=true;$('#code').hidden=!W[wi].fn;
  drawBoard();drawProg();drawPal();drawLevels();
+ if(typeof decorateMission==='function')decorateMission();
+ if(activeMission){speakMission();return}
  const host=HOSTIMG[W[wi].host],g=gen;
  if(intro){speak(W[wi].id,T()[W[wi].id],host);const wait=()=>{if(g!==gen||running)return;if(voice&&!voice.ended&&!voice.error&&voice.currentTime<30&&$('#say').dataset.key===W[wi].id){setTimeout(wait,400);return}if($('#say').dataset.key===W[wi].id)speak(L.hint,T()[L.hint],host)};setTimeout(wait,1500)}
  else speak(L.hint,T()[L.hint],host)}
 /* ---------- yorumlayıcı ---------- */
-async function run(){if(running)return;const L=lv(),w=curW(),g=gen;
+function executionLabel(tr,en){return lang==='tr'?tr:en}
+function runnerButtons(){
+ $('#go').disabled=!!(execution&&execution.mode==='auto');
+ $('#step').disabled=!!(execution&&(execution.mode==='auto'||execution.busy));
+ $('#clr').disabled=running;
+}
+function cancelExecution(){execution=null;running=false;runnerButtons();$('#execution-status').textContent=''}
+function resetExecution(){gen++;cancelExecution();drawBoard(maker&&makerMode==='edit');drawProg();if(activeMission)speakMission()}
+function markExecution(id){document.querySelectorAll('#v-play .run,#v-play .bad').forEach(e=>e.classList.remove('run','bad'));const el=document.querySelector(`#v-play [data-id="${id}"],#v-play [data-blk="${id}"]`);if(el)el.classList.add('run')}
+async function executeNext(e){
+ if(execution!==e||e.busy)return;e.busy=true;runnerButtons();
+ const ev=e.trace.events[e.index++];
+ if(ev){markExecution(ev.id);
+  if(ev.kind==='move'){face(ev.direction);place([ev.x,ev.y]);sfx('step',.35);if(ev.collected>=0){const im=document.querySelector(`#board [data-g="${ev.collected}"]`);if(im)im.classList.add('gone');sfx('twinkle',.6)}if(lv().counter)$('#cnt').textContent=ev.count;}
+  if(ev.kind==='rain'){const c=cellEl(ev.x,ev.y),im=c.querySelector('[data-g]');if(im){im.src='img/topdown/flower.png';im.classList.remove('goal')}sfx('drip',.6)}
+  $('#execution-status').textContent=executionLabel('Adım','Step')+' '+e.index+' / '+e.trace.events.length+(ev.kind==='condition'?(ev.matches?executionLabel(' · Çiçek var: kural çalışıyor.',' · Flower found: rule runs.'):executionLabel(' · Çiçek yok: yağmur atlandı.',' · No flower: rain skipped.')):'');
+  await sleep(ev.kind==='condition'?450:520);
+ }
+ if(execution!==e||e.g!==gen)return;e.busy=false;
+ if(e.index>=e.trace.events.length){finishExecution(e);return}runnerButtons();
+ if(e.mode==='auto')executeNext(e);
+}
+function run(mode='auto'){
+ if(mode==='auto'&&$('#board').getBoundingClientRect().top<0)$('.map-frame').scrollIntoView({block:'start',behavior:'instant'});
+ if(execution){if(execution.busy)return;execution.mode=mode;runnerButtons();executeNext(execution);return}
  if(!prog.root.length){speak('bos',T().bos);return}
- running=true;$('#go').disabled=true;drawBoard();await sleep(250);
- let [x,y]=L.start;const got=new Set(),wet=new Set();let fail=null,cnt=0,lastId=null,steps=0;
- const alive=()=>g===gen;
- const mark=id=>{document.querySelectorAll('#v-play .run').forEach(e=>e.classList.remove('run'));const e=document.querySelector(`#v-play [data-id="${id}"],#v-play [data-blk="${id}"]`);if(e)e.classList.add('run');lastId=id};
- const isWall=(a,b)=>L.walls.some(q=>q[0]===a&&q[1]===b);const gi=(a,b)=>L.goals.findIndex(q=>q[0]===a&&q[1]===b);
- const step=async d=>{const nx=x+DIRS[d][0],ny=y+DIRS[d][1];face(d);if(nx<0||ny<0||nx>4||ny>4)return 'kenar';if(isWall(nx,ny))return 'tas';
-   x=nx;y=ny;place([x,y]);sfx('step',.35);await sleep(420);if(++steps>80)return 'kisa2';
-   if(!w.rain){const k=gi(x,y);if(k>=0&&!got.has(k)){got.add(k);cnt++;const im=document.querySelector(`#board [data-g="${k}"]`);if(im)im.classList.add('gone');sfx('twinkle',.6);if(L.counter){$('#cnt').textContent=cnt;if(cnt>L.exact)return 'fazla'}}}return null};
- const doRain=async()=>{const k=gi(x,y);const c=cellEl(x,y);const dr=document.createElement('span');dr.className='drops';c.appendChild(dr);sfx('drip',.6);await sleep(520);dr.remove();
-   if(k<0||wet.has(k))return 'bosa';wet.add(k);const im=c.querySelector('[data-g]');if(im){im.src='img/flower.webp';im.classList.remove('goal')}sfx('twinkle',.6);return null};
- const runList=async(list,depth)=>{for(const n of list){if(fail||!alive())return;mark(n.id);
-   if(n.t==='mv')fail=await step(n.d);
-   else if(n.t==='rain')fail=await doRain();
-   else if(n.t==='until'){for(let s=0;s<6;s++){const nx=x+DIRS[n.d][0],ny=y+DIRS[n.d][1];if(nx<0||ny<0||nx>4||ny>4||isWall(nx,ny))break;fail=await step(n.d);if(fail||!alive())return}}
-   else if(n.t==='call'){if(depth>5)return;await sleep(150);await runList(prog.f,depth+1)}
-   else if(n.t==='loop'){if(!n.body.length){fail='bosblok';return}for(let k=0;k<n.n&&!fail;k++){mark(n.id);await sleep(120);await runList(n.body,depth+1)}}
-   else if(n.t==='if'){await sleep(200);const k=gi(x,y);if(k>=0&&!wet.has(k))await runList(n.body,depth+1)}}};
- await runList(prog.root,0);
- if(!alive())return;
- if(!fail){if(w.rain){if(wet.size<L.goals.length)fail='kisa2'}else if(L.counter){if(cnt!==L.exact)fail='kisa2';else if(!(L.basket[0]===x&&L.basket[1]===y))fail='sepet'}else if(got.size<L.goals.length)fail=w.id==='w1'?'kisa':'kisa2'}
- const st=maker?null:stat(CONCEPT[W[WI].id]);if(st)st.runs++;
- if(fail){if(st){st.fails++;const k=`${W[WI].id}-${LI}`;st.failAt[k]=(st.failAt[k]||0)+1}save();
-   const h=$('#hero');h.classList.remove('bump');void h.offsetWidth;h.classList.add('bump');$('#heroimg').src=`img/${w.hero.sad}.webp`;sfx('wrong',.5);
-   const c=document.querySelector(`#v-play [data-id="${lastId}"]`);if(c&&!/kisa/.test(fail))c.classList.add('bad');
-   speak(/kisa2|dolu2/.test(fail)?'':fail,T()[fail]);await sleep(1700);if(!alive())return;
-   document.querySelectorAll('#v-play .run,#v-play .bad').forEach(e=>e.classList.remove('run','bad'));running=false;$('#go').disabled=false;drawBoard(maker&&makerMode==='edit');return}
- $('#heroimg').src=`img/${w.hero.happy}.webp`;sfx('success',.6);document.querySelectorAll('#v-play .run').forEach(e=>e.classList.remove('run'));
- const n=count(prog.root)+count(prog.f);
- if(maker){speak('ok2',T().ok[1]);running=false;$('#go').disabled=false;return}
- const key=`${W[WI].id}-${LI}`;store.stars[key]=Math.max(store.stars[key]||0,n<=L.opt?3:n<=L.opt+2?2:1);save();
- const k=WI===0?Math.floor(Math.random()*3):1+Math.floor(Math.random()*2);speak('ok'+(k+1),T().ok[k]);await sleep(900);if(!alive())return;running=false;$('#go').disabled=false;win(n)}
-$('#go').onclick=run;
-function win(n){const L=lv(),t=T(),w=W[WI],last=LI===w.levels.length-1,stars=n<=L.opt?3:n<=L.opt+2?2:1;const host=HOSTIMG[w.host];
+ const trace=NovaCodeRunner.trace(lv(),curW(),prog);
+ execution={trace,index:0,mode,busy:false,g:gen};running=true;drawBoard();runnerButtons();executeNext(execution);
+}
+function finishExecution(e){
+ if(execution!==e)return;const L=lv(),w=curW(),fail=e.trace.fail;
+ const key=activeMission?'q-'+activeMission.id:`${W[WI].id}-${LI}`;
+ const concept=activeMission?'quest-'+activeMission.difficulty+'-'+NovaMissions[activeJourney].id:CONCEPT[W[WI].id];
+ const st=maker?null:stat(concept);if(st)st.runs++;
+ execution=null;running=false;runnerButtons();
+ if(fail){if(st){st.fails++;st.failAt[key]=(st.failAt[key]||0)+1}save();
+  markExecution(e.trace.lastId);const el=document.querySelector(`#v-play [data-id="${e.trace.lastId}"]`);if(el)el.classList.add('bad');
+  sfx('wrong',.4);speak(/kisa2|dolu2/.test(fail)?'':fail,T()[fail]||T().kisa2,w.hero.sad);
+  $('#execution-status').textContent=executionLabel('Burada durduk. Kartını düzelt veya baştan dene.','We stopped here. Fix a card or try again.');return;
+ }
+ document.querySelectorAll('#v-play .run').forEach(el=>el.classList.remove('run'));
+ sfx('success',.6);const n=count(prog.root)+count(prog.f);
+ $('#execution-status').textContent=executionLabel('Planın işe yaradı!','Your plan worked!');
+ if(maker){speak('ok2',T().ok[1]);return}
+ store.stars[key]=Math.max(store.stars[key]||0,n<=L.opt?3:n<=L.opt+2?2:1);save();speak('ok2',T().ok[1]);
+ const g=gen;setTimeout(()=>{if(g===gen&&!running)win(n)},650);
+}
+$('#go').onclick=()=>run('auto');
+$('#step').onclick=()=>run('step');
+$('#restart').onclick=resetExecution;
+
+function win(n){if(activeMission){winMission(n);return}const L=lv(),t=T(),w=W[WI],last=LI===w.levels.length-1,stars=n<=L.opt?3:n<=L.opt+2?2:1;const host=HOSTIMG[w.host];
  $('#modal').innerHTML=`<img src="img/${host}.webp" alt=""><h2>${last?t.wdone:t.done}</h2><div class="stars" aria-label="${stars}/3">${[0,1,2].map(i=>`<span class="${i<stars?'on':''}">★</span>`).join('')}</div>
   <p>${n<=L.opt?t.best:t.fewer(L.opt)}</p>${last?`<p class="adult">${t.adult[w.id]}</p>`:''}
   <div class="actions" style="justify-content:center"><button class="btn ghost" id="m-again">↺ ${t.again}</button>${last?`<button class="btn go" id="m-home">${t.home}</button>`:`<button class="btn go" id="m-next">${t.next} ▶</button>`}</div>`;
@@ -530,7 +572,7 @@ function win(n){const L=lv(),t=T(),w=W[WI],last=LI===w.levels.length-1,stars=n<=
  $('#m-again').onclick=()=>{$('#ov').hidden=true;openLevel(WI,LI)};const nx=$('#m-next');if(nx){nx.onclick=()=>{$('#ov').hidden=true;openLevel(WI,LI+1)};nx.focus()}
  const hm=$('#m-home');if(hm){hm.onclick=goHome;hm.focus()}}
 /* ---------- kendi bölümün ---------- */
-function openMaker(){maker={level:{start:[0,2],goals:[[2,1],[4,3]],walls:[[2,2,'tas'],[3,3,'cali']],lim:{root:10,body:3},cards:['mv','loop'],opt:99,hint:'kendi'}};prog={root:[],f:[]};target='root';makerMode='edit';
+function openMaker(){activeMission=null;activeJourney=null;$('#mission-brief').hidden=true;maker={level:{start:[0,2],goals:[[2,1],[4,3]],walls:[[2,2,'tas'],[3,3,'cali']],lim:{root:10,body:3},cards:['mv','loop'],opt:99,hint:'kendi'}};prog={root:[],f:[]};target='root';makerMode='edit';
  show('play');$('#b-title').textContent=T().toolsList.maker[0];$('#lvl').hidden=true;$('#code').hidden=true;drawMaker();drawProg();drawPal();speak('kendi',T().kendi,'kirpi-happy')}
 function drawMaker(){const t=T();drawBoard(makerMode==='edit');const et=$('#edit-tools');et.hidden=false;
  const tools=['apple','tas','cali','start','erase'];et.innerHTML=`<div class="chips">${[['edit',t.edit],['code',t.codeit]].map(([k,l])=>`<button class="chip" data-mode="${k}" aria-pressed="${makerMode===k}">${l}</button>`).join('')}</div>`+(makerMode==='edit'?`<div class="chips">${tools.map(k=>`<button class="chip" data-tool2="${k}" aria-pressed="${makerTool===k}">${k==='erase'?'⌫':`<img src="img/${k==='start'?'kirpi-walk':k}.webp" alt="">`} ${t.tools2[k]}</button>`).join('')}</div><p class="meta">${t.mkhelp}</p>`:'')}
@@ -543,17 +585,17 @@ $('#board').addEventListener('click',e=>{if(!maker||makerMode!=='edit'||running)
 const RINS=['drum','bell','xylo'],RIMG=['davul','zil','ksilofon'],RLEN=8;
 const RCH=[[[0,4],[],[]],[[0,2,4,6],[],[7]],[[0,4],[2,6],[1,3,5,7]]];
 let rgrid=[[],[],[]],rch=0,rtimer=null;
-function openRhythm(){show('rhythm');$('#b-title').textContent=T().toolsList.rhythm[0];rgrid=[[],[],[]];drawRhythm();speak('ritim',T().ritim,'kirpi-happy')}
+function openRhythm(){NovaRhythmAudio.prepare();show('rhythm');$('#b-title').textContent=T().toolsList.rhythm[0];rgrid=[[],[],[]];drawRhythm();speak('ritim',T().ritim,'kirpi-happy')}
 function drawRhythm(now=-1){const t=T();let h='';for(let r=0;r<3;r++){h+=`<div class="ins"><img src="img/${RIMG[r]}.webp" alt="${t.rins[r]}"></div>`;for(let c=0;c<RLEN;c++)h+=`<button class="stp ${rgrid[r].includes(c)?'on':''} ${c===now?'now':''}" data-r="${r}" data-c="${c}" aria-label="${t.rins[r]} ${c+1}" aria-pressed="${rgrid[r].includes(c)}"></button>`}$('#seq').innerHTML=h;
  $('#r-ch').innerHTML=RCH.map((_,i)=>`<button class="chip" data-ch="${i}" aria-pressed="${rch===i}">${t.rch(i+1)} ${store.stars['r-'+i]?'<span class="st">★</span>':''}</button>`).join('')+`<button class="chip" data-ch="-1" aria-pressed="${rch===-1}">${t.rfree}</button>`;
  $('#r-ex').disabled=rch<0;$('#r-check').disabled=rch<0;
  const tr=lang==='tr',nm=tr?['davul','zil','ksilofon']:['drum','bell','xylophone'];const code=[`<span class="k">${tr?'tekrarla':'repeat'}</span>(<span class="n">2</span>) {`];
  for(let c=0;c<RLEN;c++){const hits=[0,1,2].filter(r=>rgrid[r].includes(c)).map(r=>nm[r]+'()');code.push('  '+(hits.length?hits.join(' + '):`<span class="c">${tr?'sus':'rest'}()</span>`))}code.push('}');$('#r-code').innerHTML=code.join('\n')}
-$('#seq').addEventListener('click',e=>{const b=e.target.closest('[data-r]');if(!b)return;const r=+b.dataset.r,c=+b.dataset.c,a=rgrid[r];const i=a.indexOf(c);if(i>=0)a.splice(i,1);else{a.push(c);sfx(RINS[r],.8)}drawRhythm()});
+$('#seq').addEventListener('click',e=>{const b=e.target.closest('[data-r]');if(!b)return;const r=+b.dataset.r,c=+b.dataset.c,a=rgrid[r];const i=a.indexOf(c);if(i>=0)a.splice(i,1);else{a.push(c);if(voice)voice.pause();sfx(RINS[r],.8)}drawRhythm()});
 $('#r-ch').addEventListener('click',e=>{const b=e.target.closest('[data-ch]');if(!b)return;rch=+b.dataset.ch;rgrid=[[],[],[]];stopRhythm();drawRhythm()});
-function stopRhythm(){if(rtimer){clearInterval(rtimer);rtimer=null}}
-function playGrid(g,vis){stopRhythm();let i=0;rtimer=setInterval(()=>{const c=i%RLEN;for(let r=0;r<3;r++)if(g[r].includes(c))sfx(RINS[r],.85);if(vis)drawRhythm(c);i++;if(i>=RLEN*2){stopRhythm();if(vis)setTimeout(()=>{if(!rtimer)drawRhythm()},330)}},330)}
-$('#r-play').onclick=()=>playGrid(rgrid,true);$('#r-ex').onclick=()=>{if(rch>=0)playGrid(RCH[rch],false)};$('#r-clear').onclick=()=>{rgrid=[[],[],[]];drawRhythm()};
+function stopRhythm(){if(window.NovaRhythmAudio)NovaRhythmAudio.stop();if(rtimer){clearInterval(rtimer);rtimer=null}}
+function playGrid(g,vis){stopRhythm();if(voice)voice.pause();let i=0;rtimer=setInterval(()=>{if(i>=RLEN*2){stopRhythm();if(vis)drawRhythm();return}const c=i%RLEN;for(let r=0;r<3;r++)if(g[r].includes(c))sfx(RINS[r],.85);if(vis)drawRhythm(c);i++},330)}
+$('#r-play').onclick=()=>playGrid(rgrid,true);$('#r-ex').onclick=()=>{if(rch>=0)playGrid(RCH[rch],false)};$('#r-clear').onclick=()=>{stopRhythm();rgrid=[[],[],[]];drawRhythm()};
 $('#r-check').onclick=()=>{if(rch<0)return;const ok=[0,1,2].every(r=>[...rgrid[r]].sort().join()===[...RCH[rch][r]].sort().join());
  if(ok){sfx('success',.6);speak('ritimok',T().ritimok,'kirpi-happy');store.stars['r-'+rch]=3;save();drawRhythm()}else{sfx('wrong',.4);speak('ritimhayir',T().ritimhayir,'kirpi-sad')}};
 /* ---------- masal sahnesi ---------- */
@@ -585,11 +627,13 @@ function drawTeacher(){const t=T();$('#t-stats').innerHTML=W.map(w=>{const c=CON
   const stuck=Object.entries(s.failAt).sort((a,b)=>b[1]-a[1])[0];
   return `<div class="tbox"><span class="meta">${t.worlds[w.id][0]} · ${t.worlds[w.id][1].split(" · ")[0]}</span><b>${t.conc[c]}</b><div class="bar" aria-hidden="true"><i style="width:${d/n*100}%"></i></div><span class="num">${d} / ${n} ${t.tdone}</span><span class="meta num">${s.runs} ${t.ttries} · ${s.fails} ${t.tfails}</span><span class="meta">${stuck?`${t.tstuck}: <b>${t.worlds[stuck[0].split('-')[0]][0]} ${+stuck[0].split('-')[1]+1}</b> (${stuck[1]}×)`:t.tnone}</span></div>`}).join('')
   +`<div class="tbox"><span class="meta">${t.toolsList.rhythm[0]}</span><b>${t.rdone}</b><div class="bar" aria-hidden="true"><i style="width:${RCH.filter((_,i)=>store.stars['r-'+i]).length/RCH.length*100}%"></i></div><span class="num">${RCH.filter((_,i)=>store.stars['r-'+i]).length} / ${RCH.length}</span></div>`;
- $('#t-guide').innerHTML=t.guide}
+ $('#t-guide').innerHTML=t.guide;if(typeof drawDiscoveryTeacher==='function')drawDiscoveryTeacher()}
 $('#t-reset').onclick=()=>{if(!resetArm){resetArm=true;$('#t-resetmsg').textContent=T().resetq;return}store={stars:{},stats:{}};save();resetArm=false;$('#t-resetmsg').textContent=T().resetok;drawTeacher()};
 /* ---------- dil ---------- */
 function setLang(l){if(running)return;lang=l;save();texts();
  if(view==='home'){renderHome();speak('app',T().app,'kirpi-happy')}
+ if(view==='journey')renderJourney();
+ if(view==='play'&&activeMission){drawProg();drawPal();drawLevels();decorateMission();speakMission();return}
  if(view==='play'){drawProg();drawPal();if(maker){$('#b-title').textContent=T().toolsList.maker[0];drawMaker();speak('kendi',T().kendi)}else{$('#b-title').textContent=T().worlds[W[WI].id][0];drawLevels();speak(lv().hint,T()[lv().hint])}}
  if(view==='rhythm'){$('#b-title').textContent=T().toolsList.rhythm[0];drawRhythm();speak('ritim',T().ritim)}
  if(view==='stage'){$('#b-title').textContent=T().toolsList.stage[0];drawStage();speak('sahne',T().sahne)}
@@ -600,7 +644,8 @@ $('#rep').onclick=()=>{const k=$('#say').dataset.key;if(k)speak(k,$('#say').text
 texts();renderHome();$('#say').textContent=T().app;$('#say').dataset.key='app';
 </script>
 
+<script src="discovery.js"></script>
 <script src="destek-mini.js"></script>
-<footer style="text-align:center;padding:24px;font:14px system-ui"><a href="/code/privacy/">Gizlilik / Privacy</a></footer>
+
 </body>
 </html>
