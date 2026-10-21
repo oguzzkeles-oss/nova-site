@@ -13580,25 +13580,30 @@ const AU={/* Safari'de Web Audio doğrudan hoparlöre gidince sessiz kalabiliyor
     cancelAnimationFrame(this.raf);if("speechSynthesis" in window)speechSynthesis.cancel()},
   get busy(){return !!this.cur},
   async play(id,o={}){if(!id)return;this.stop();const tok={};this.tok=tok;const c=CLIPS[id];
-    /* WKWebView'da paketlenmiş MP3'ü doğrudan medya oynatıcısıyla çal: Web Audio çözme/akış yolu
-       başarısız olduğunda cihazın mekanik speechSynthesis sesine düşmesin. */
-    if(this.ios()&&c&&c.src)return this.playHtml(id,o,tok);
+    /* Kayıtlı anlatımı her tarayıcıda doğrudan medya öğesiyle çal. Web Audio çözme
+       başarısızlığında cihazın mekanik speechSynthesis sesine düşme riskini kaldırır. */
+    if(c&&c.src)return this.playHtml(id,o,tok);
     return this.playWeb(id,o,tok)},
   playHtml(id,o,tok){const c=CLIPS[id],a=new Audio(this.file(id));a.preload="auto";a.playsInline=true;
     const base=(c.src.s||0)/1000,D=c.d/1000,from=Math.max(0,(o.from||0)/1000),to=o.to!=null?Math.min(D,o.to/1000):D;
-    if(typeof DESTEK!=="undefined"&&DESTEK.ac("yavas")){a.preservesPitch=true;a.playbackRate=.88}
-    let timer=0,watch=0,seekWait=0,fin=false,last=-1;
-    const clean=()=>{clearInterval(timer);clearTimeout(watch);clearTimeout(seekWait);a.onloadedmetadata=a.onseeked=a.onended=a.onerror=null;a.pause()};
+    /* Yavaş anlatımda perdeyi değiştiren playbackRate yerine cümle arası durakla. */
+    const slow=o.from==null&&typeof DESTEK!=="undefined"&&DESTEK.ac("yavas")&&c.t&&(c.w||[]).length>2;
+    const segs=slow?DESTEK.bol(c,D):null;let segIdx=0,gap=false;
+    let timer=0,watch=0,seekWait=0,gapWait=0,fin=false,last=-1;
+    const clean=()=>{clearInterval(timer);clearTimeout(watch);clearTimeout(seekWait);clearTimeout(gapWait);a.onloadedmetadata=a.onseeked=a.onended=a.onerror=null;a.pause()};
     const done=cut=>{if(fin)return;fin=true;clean();if(this.cur&&this.cur.src===src)this.cur=null;o.onEnd&&o.onEnd(cut)};
     const src={stop:clean};this.cur={src,end:done};
     const web=()=>{if(fin||this.tok!==tok)return;fin=true;clean();if(this.cur&&this.cur.src===src)this.cur=null;this.playWeb(id,o,tok)};
-    const tick=()=>{if(fin||this.tok!==tok)return;const ms=Math.max(0,(a.currentTime-base)*1000);
+    const tick=()=>{if(fin||this.tok!==tok||gap)return;const ms=Math.max(0,(a.currentTime-base)*1000);
       if(o.onWord){let k=-1;for(let i=0;i<(c.w||[]).length&&(c.w||[])[i][0]<=ms;i++)k=c.w[i][1];if(k!==last){last=k;o.onWord(k)}}
+      if(segs&&segIdx<segs.length-1&&ms>=segs[segIdx][1]*1000-25){
+        const pause=segs[segIdx][2];segIdx++;gap=true;a.pause();gapWait=setTimeout(()=>{if(fin||this.tok!==tok)return;
+          a.currentTime=base+segs[segIdx][0];a.play().then(()=>{gap=false}).catch(web)},pause*1000);return}
       if(a.currentTime>=base+to-.025)done(false)};
     a.onerror=web;a.onended=()=>done(false);
     const begin=()=>{if(fin||this.tok!==tok)return;clearTimeout(seekWait);a.onseeked=null;
       a.play().then(()=>{if(fin)return;o.onStart&&o.onStart();timer=setInterval(tick,25);
-        watch=setTimeout(()=>done(false),Math.max(2000,(to-from)*1000/(a.playbackRate||1)+3500))}).catch(web)};
+        watch=setTimeout(()=>done(false),Math.max(2000,(to-from)*1000+(segs?segs.reduce((n,s)=>n+s[2]*1000,0):0)+3500))}).catch(web)};
     a.onloadedmetadata=()=>{if(fin||this.tok!==tok)return;const start=base+from;
       if(Math.abs(a.currentTime-start)<.03)return begin();a.onseeked=begin;seekWait=setTimeout(web,4000);
       try{a.currentTime=start}catch(e){web()}};
