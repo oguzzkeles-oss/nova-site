@@ -1,0 +1,1411 @@
+{
+ "id": "061-fil-gibi-agir-karinca-gibi-hafif",
+ "lang": "en",
+ "title": "Heavy as an Elephant, Light as an Ant",
+ "theme": "Adjusting your steps to the place you are in, and care for living things",
+ "blurb": "Can is walking stomp, stomp across the meadow with Tubby the baby elephant. But there is a line of ants on the path! Can Can manage to walk as light as an ant?",
+ "voiceNames": {
+  "can": "Can",
+  "tombi": "Tubby (baby elephant)",
+  "kipir": "Wiggle (ant)"
+ },
+ "pages": [
+  {
+   "text": "A sunny morning. Can and Tubby the baby elephant were in the meadow. “Let's walk like elephants!” said Can. Stomp! Stomp! Stomp! Tubby giggled: tee-hee-hee!",
+   "hits": {
+    "can": {
+     "say": "Stomp stomp! I'm an elephant too!"
+    },
+    "tombi": {
+     "say": "Stomp! Just like me!"
+    }
+   },
+   "hint": "Touch Can!",
+   "ask": "How does an elephant walk? Show me, how do you walk stomp, stomp?",
+   "cues": [
+    {
+     "w": 23,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Can stamped his feet on the ground. Stomp, stomp, stomp! Tubby lifted his trunk: “Bravo! What heavy steps!”",
+   "hits": {
+    "tombi": {
+     "say": "Bravo! You're a real elephant now!"
+    }
+   },
+   "mech": {
+    "say": "Stomp!",
+    "done": "Stomp stomp! Great big elephant steps!",
+    "msg": "Stomp stomp!"
+   },
+   "hint": "Touch Can: stomp stomp!",
+   "ask": "Why does an elephant walk stomp, stomp? What do your feet feel when you take heavy steps?"
+  },
+  {
+   "text": "Suddenly a tiny voice called: “Stop! Careful!” It was Wiggle the ant. Can's foot froze in the air. He was so surprised. His heart went thump, thump.",
+   "hits": {
+    "kipir": {
+     "say": "Stop! This is the ant path!"
+    },
+    "can": {
+     "say": "Uh-oh! I nearly stepped on them!"
+    },
+    "tombi": {
+     "say": "I stopped too!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Can will do now?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Stop and wait"
+     },
+     {
+      "l": "Step over them"
+     }
+    ]
+   },
+   "hint": "Touch Wiggle!",
+   "ask": "Why did Can stop? Where do you think the ants are going?",
+   "cues": [
+    {
+     "w": 25,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Can stopped. He took a deep breath: hhhhh, fwooo. He bent down and looked. Wiggle and the other ants were carrying crumbs. How many ants are there?",
+   "hits": {
+    "kipir": {
+     "say": "The crumbs are going to our nest!"
+    },
+    "can": {
+     "say": "Hhhhh, fwooo. I'm calm."
+    },
+    "tombi": {
+     "say": "I'm looking too!"
+    }
+   },
+   "mech": {
+    "done": "Five ants, five crumbs!",
+    "msg": "Five ants!"
+   },
+   "hint": "Count the ants!",
+   "ask": "How do you calm down when you feel excited? Shall we do hhhhh, fwooo together?"
+  },
+  {
+   "text": "Can thought: “What if I walk like an ant?” First he looked down. Up on tiptoe. Arms out wide. Pit, pat! He stepped over the ant path without touching one.",
+   "hits": {
+    "kipir": {
+     "say": "Wow! Just like an ant!"
+    },
+    "tombi": {
+     "say": "I'll try it too!"
+    }
+   },
+   "mech": {
+    "say": "Pit!",
+    "done": "Pit, pat! He didn't touch a single ant.",
+    "msg": "Light steps!"
+   },
+   "hint": "Touch Can: pit, pat!",
+   "ask": "What do you feel in your body when you walk on tiptoe? Go on, you walk pit, pat too!"
+  },
+  {
+   "text": "The ants reached their nest. Tubby tried too: pit… pat… A great big elephant, teeny tiny steps! Wiggle laughed. Can felt proud. “Stomp, stomp on an empty path, pit, pat on an ant path!”",
+   "hits": {
+    "can": {
+     "say": "Stomp, stomp on an empty path!"
+    },
+    "tombi": {
+     "say": "Pit, pat on an ant path!"
+    },
+    "kipir": {
+     "say": "Thank you, light-footed friends!"
+    }
+   },
+   "hint": "Touch Wiggle!",
+   "ask": "Where do we walk stomp, stomp, and where pit, pat? Is there a place at home where you walk softly?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.1 (learning outcome): Applying gross motor skills effectively in different environments and physical activities. HSAB.1.a Performs locomotor movements in different settings and conditions: the child walks heavily like an elephant on an empty path and lightly on tiptoe on the ant path. HSAB.1.b Performs balance movements suited to the activity: stands balanced on tiptoe with arms out wide.",
+   "HSAB.4 (learning outcome, unverified): Showing movement patterns based on body awareness. The child notices how a heavy and a light step feel in their body; does stomp stomp and pit pat steps in turn.",
+   "HSAB.5 (learning outcome, unverified): Moving with awareness of personal and general space. The child first looks at the ground, notices the ant path and adjusts their step to it.",
+   "TADB.2 (learning outcome): Building new meaning from materials such as poems, stories and rhymes they listen to/watch; makes inferences about the materials, connects the information in them with daily life. The child works out why Can stopped and tells where they walk softly at home and in class.",
+   "SDB1.2 Self-Regulation (social-emotional learning skill): when Can gets excited, he stops, takes a deep breath and adjusts his steps to the place he is in.",
+   "D5 Sensitivity (value): notices the ants' path and changes the way they walk so as not to crush them; takes care of small living things."
+  ],
+  "once": [
+   "Show the cover: “How does an elephant walk? How does an ant walk?” First stomp, stomp on the floor with your feet, then pit, pat with your tiptoes.",
+   "Ask: “Have you ever seen an ant on the ground? What was it doing?” Accept every answer."
+  ],
+  "sirasi": [
+   "On pages 1 and 2, stamp your foot on the floor together at every “Stomp!”",
+   "On page 3, name Can's feeling: “Can was so surprised. His heart went thump, thump.” Point out that Tubby stopped too, behind him. Praise both answers to the prediction question.",
+   "On page 4, take a deep breath together: hhhhh through the nose, fwooo through the mouth. Then count the ants one by one with a finger.",
+   "On page 5, highlight Can's idea: “First we look at the ground, then we take light steps.” We don't step on the ant: we step over it or walk around it. Stand up, put your arms out wide and take a few steps on tiptoe.",
+   "On page 6, say the closing line together: “Stomp, stomp on an empty path, pit, pat on an ant path!”"
+  ],
+  "sonra": [
+   "How did Can walk on the empty path? How did he walk on the ant path?",
+   "Whose idea was it to walk as light as an ant? What would you have done?",
+   "Where at home or in class do we need to walk softly? (When the baby is asleep, in the library...)"
+  ],
+  "sinif": {
+   "ad": "The Stomp Stomp, Pit Pat Path",
+   "sure": "15 min",
+   "materyal": "A tambourine or drum, coloured tape stuck to the floor, ant pictures cut out of paper",
+   "adim": [
+    "Make a path on the floor with tape, and lay out an “ant path” with the paper ants across the middle of it.",
+    "When the teacher beats the tambourine loud and slow, the children walk stomp, stomp like elephants; when it is soft and quick, they walk pit, pat on tiptoe.",
+    "A child who reaches the ant path stops, takes a deep breath, puts their arms out wide and crosses on tiptoe without stepping on the ants.",
+    "Make a circle at the end: talk about “Which was easier, the heavy step or the light step?”"
+   ]
+  },
+  "evSoru": [
+   "Why did Can suddenly stop?",
+   "What were Wiggle and the other ants carrying?",
+   "How many steps can you take on tiptoe?"
+  ],
+  "evEtk": {
+   "ad": "Heavy and Light Walking at Home",
+   "d": "Make a cushion in the living room the “ant path”. While the music is on, walk stomp, stomp like elephants; when the music goes quiet, cross on tiptoe, pit, pat, without stepping on the cushion. Then swap roles: let your child control the sound while you walk."
+  },
+  "aileNotu": "Today we read “Heavy as an Elephant, Light as an Ant.” While Can was walking stomp, stomp with Tubby the baby elephant, he saw a line of ants on the path; he stopped, took a deep breath and stepped over the path on tiptoe without touching the ants. The children tried heavy and light steps and balancing on tiptoe. At home, you can play at walking “light as an ant” together when the baby is asleep or when passing small creatures in the garden."
+ },
+ "audio": {
+  "file": "audio/en/061-fil-gibi-agir-karinca-gibi-hafif.mp3",
+  "hash": "28611c82",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11515,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2430,
+      6
+     ],
+     [
+      2549,
+      7
+     ],
+     [
+      2869,
+      8
+     ],
+     [
+      3369,
+      9
+     ],
+     [
+      3549,
+      10
+     ],
+     [
+      3650,
+      11
+     ],
+     [
+      3749,
+      12
+     ],
+     [
+      4609,
+      13
+     ],
+     [
+      4890,
+      14
+     ],
+     [
+      5129,
+      15
+     ],
+     [
+      5390,
+      16
+     ],
+     [
+      6229,
+      17
+     ],
+     [
+      6569,
+      18
+     ],
+     [
+      7269,
+      19
+     ],
+     [
+      7969,
+      20
+     ],
+     [
+      8609,
+      21
+     ],
+     [
+      9609,
+      22
+     ],
+     [
+      10009,
+      23
+     ],
+     [
+      10692,
+      24
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 11815,
+    "d": 2694,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2170,
+      5
+     ]
+    ]
+   },
+   "p0h-tombi": {
+    "s": 14809,
+    "d": 2109,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      1030,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1609,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17219,
+    "d": 8767,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3410,
+      9
+     ],
+     [
+      4449,
+      10
+     ],
+     [
+      4850,
+      11
+     ],
+     [
+      5209,
+      12
+     ],
+     [
+      5410,
+      13
+     ],
+     [
+      6189,
+      14
+     ],
+     [
+      7289,
+      15
+     ],
+     [
+      7649,
+      16
+     ],
+     [
+      8069,
+      17
+     ]
+    ]
+   },
+   "p1h-tombi": {
+    "s": 26287,
+    "d": 3192,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      1129,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2749,
+      5
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 29779,
+    "d": 3826,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1609,
+      2
+     ],
+     [
+      2209,
+      3
+     ],
+     [
+      2709,
+      4
+     ],
+     [
+      3229,
+      5
+     ]
+    ]
+   },
+   "p1ms": {
+    "s": 33906,
+    "d": 819,
+    "w": [
+     [
+      109,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 35025,
+    "d": 11688,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2910,
+      6
+     ],
+     [
+      4009,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      4390,
+      9
+     ],
+     [
+      4789,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5949,
+      12
+     ],
+     [
+      6249,
+      13
+     ],
+     [
+      6609,
+      14
+     ],
+     [
+      7029,
+      15
+     ],
+     [
+      7109,
+      16
+     ],
+     [
+      7269,
+      17
+     ],
+     [
+      7949,
+      18
+     ],
+     [
+      8089,
+      19
+     ],
+     [
+      8310,
+      20
+     ],
+     [
+      8589,
+      21
+     ],
+     [
+      9770,
+      22
+     ],
+     [
+      9949,
+      23
+     ],
+     [
+      10230,
+      24
+     ],
+     [
+      10629,
+      25
+     ],
+     [
+      11249,
+      26
+     ]
+    ]
+   },
+   "p2h-kipir": {
+    "s": 47014,
+    "d": 2116,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1749,
+      5
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 49430,
+    "d": 2258,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1869,
+      5
+     ]
+    ]
+   },
+   "p2h-tombi": {
+    "s": 51988,
+    "d": 1252,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      649,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 53541,
+    "d": 1850,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      949,
+      5
+     ],
+     [
+      1129,
+      6
+     ],
+     [
+      1309,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 55692,
+    "d": 2448,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 58441,
+    "d": 11434,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      3176,
+      7
+     ],
+     [
+      4198,
+      8
+     ],
+     [
+      5289,
+      9
+     ],
+     [
+      5469,
+      10
+     ],
+     [
+      5729,
+      11
+     ],
+     [
+      6089,
+      12
+     ],
+     [
+      6269,
+      13
+     ],
+     [
+      7149,
+      14
+     ],
+     [
+      7489,
+      15
+     ],
+     [
+      7589,
+      16
+     ],
+     [
+      7729,
+      17
+     ],
+     [
+      7989,
+      18
+     ],
+     [
+      8249,
+      19
+     ],
+     [
+      8469,
+      20
+     ],
+     [
+      8969,
+      21
+     ],
+     [
+      10049,
+      22
+     ],
+     [
+      10230,
+      23
+     ],
+     [
+      10529,
+      24
+     ],
+     [
+      10850,
+      25
+     ],
+     [
+      11029,
+      26
+     ]
+    ]
+   },
+   "p3h-kipir": {
+    "s": 70175,
+    "d": 2048,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1209,
+      5
+     ],
+     [
+      1369,
+      6
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 72524,
+    "d": 3282,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      922,
+      1
+     ],
+     [
+      2133,
+      2
+     ],
+     [
+      2687,
+      3
+     ]
+    ]
+   },
+   "p3h-tombi": {
+    "s": 76107,
+    "d": 1195,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      610,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 77602,
+    "d": 2030,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 79932,
+    "d": 11573,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2189,
+      7
+     ],
+     [
+      2449,
+      8
+     ],
+     [
+      3509,
+      9
+     ],
+     [
+      3930,
+      10
+     ],
+     [
+      4089,
+      11
+     ],
+     [
+      4330,
+      12
+     ],
+     [
+      5209,
+      13
+     ],
+     [
+      5390,
+      14
+     ],
+     [
+      5529,
+      15
+     ],
+     [
+      6449,
+      16
+     ],
+     [
+      6769,
+      17
+     ],
+     [
+      7009,
+      18
+     ],
+     [
+      7729,
+      19
+     ],
+     [
+      8129,
+      20
+     ],
+     [
+      8869,
+      21
+     ],
+     [
+      9069,
+      22
+     ],
+     [
+      9409,
+      23
+     ],
+     [
+      9609,
+      24
+     ],
+     [
+      9770,
+      25
+     ],
+     [
+      9969,
+      26
+     ],
+     [
+      10350,
+      27
+     ],
+     [
+      10789,
+      28
+     ],
+     [
+      11249,
+      29
+     ]
+    ]
+   },
+   "p4h-kipir": {
+    "s": 91806,
+    "d": 2304,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1689,
+      4
+     ]
+    ]
+   },
+   "p4h-tombi": {
+    "s": 94410,
+    "d": 1179,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      414,
+      2
+     ],
+     [
+      670,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 95889,
+    "d": 3264,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2789,
+      7
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 99454,
+    "d": 576,
+    "w": [
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   "p5": {
+    "s": 100330,
+    "d": 15681,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2529,
+      7
+     ],
+     [
+      3329,
+      8
+     ],
+     [
+      4169,
+      9
+     ],
+     [
+      5229,
+      10
+     ],
+     [
+      5410,
+      11
+     ],
+     [
+      5809,
+      12
+     ],
+     [
+      6089,
+      13
+     ],
+     [
+      6890,
+      14
+     ],
+     [
+      7349,
+      15
+     ],
+     [
+      7769,
+      16
+     ],
+     [
+      8770,
+      17
+     ],
+     [
+      9209,
+      18
+     ],
+     [
+      10049,
+      19
+     ],
+     [
+      10469,
+      20
+     ],
+     [
+      10850,
+      21
+     ],
+     [
+      11850,
+      22
+     ],
+     [
+      12289,
+      23
+     ],
+     [
+      12689,
+      24
+     ],
+     [
+      12810,
+      25
+     ],
+     [
+      12989,
+      26
+     ],
+     [
+      13310,
+      27
+     ],
+     [
+      13930,
+      28
+     ],
+     [
+      14229,
+      29
+     ],
+     [
+      14609,
+      30
+     ],
+     [
+      14749,
+      31
+     ],
+     [
+      14930,
+      32
+     ],
+     [
+      15189,
+      33
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 116312,
+    "d": 2639,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p5h-tombi": {
+    "s": 119251,
+    "d": 2058,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1589,
+      5
+     ]
+    ]
+   },
+   "p5h-kipir": {
+    "s": 121610,
+    "d": 2072,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

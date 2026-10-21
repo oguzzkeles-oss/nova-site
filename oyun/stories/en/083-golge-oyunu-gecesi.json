@@ -1,0 +1,1987 @@
+{
+ "id": "083-golge-oyunu-gecesi",
+ "lang": "en",
+ "title": "Shadow Play Night",
+ "theme": "Traditional shadow theatre, shapes and shadows, telling a story in front of an audience",
+ "blurb": "On a moonlit night, Grandpa tells Deniz about the Karagoz shadow screen of his childhood and sets up a little shadow play in the room. Deniz cuts her own heart out of cardboard, matches the shadows to their figures, and then overcomes her nerves to put on her own tiny show.",
+ "voiceNames": {
+  "deniz": "Deniz",
+  "dede": "Grandpa (Deniz's grandpa)",
+  "pamuk": "Cotton (cat)",
+  "ay": "The Moon"
+ },
+ "pages": [
+  {
+   "text": "Night came. A thin moon smiled in through the window. Cotton the cat curled up on the cushion. Deniz wasn't sleepy at all. Grandpa winked: “Let's turn off the big light. Tonight is shadow play night!” Come on, switch on the torch!",
+   "hits": {
+    "dede": {
+     "say": "Tonight we have a shadow play!"
+    },
+    "deniz": {
+     "say": "A shadow play? What's that?"
+    },
+    "ay": {
+     "say": "I'll watch too!"
+    },
+    "pamuk": {
+     "say": "Purrr…"
+    }
+   },
+   "hint": "Switch on the torch!",
+   "ask": "What kind of game do you think a shadow play is? Have you ever played with your shadow?"
+  },
+  {
+   "text": "Grandpa turned Deniz's white drawing board into a screen. From a box he took out a cardboard star and a round moon. Deniz cut a heart out of cardboard with her safety scissors. Grandpa told her: “When I was your age, I used to watch Karagoz. Everyone laughed and laughed!”",
+   "hits": {
+    "dede": {
+     "say": "Your grandma used to voice Hacivat so beautifully!"
+    },
+    "deniz": {
+     "say": "Can I do it too? What if I can't?"
+    }
+   },
+   "hint": "Touch Grandpa!",
+   "ask": "Have you ever heard of Karagoz and Hacivat? What did the grown-ups watch when they were little?",
+   "cues": [
+    {
+     "w": 47,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Grandpa held the orange star in front of the torch. Deniz held her breath. The light will hit the star. A shadow will fall on the screen. But what colour will that shadow be?",
+   "hits": {
+    "dede": {
+     "say": "Ready? One, two, three!"
+    },
+    "deniz": {
+     "say": "Hmm, will it be orange, I wonder?"
+    }
+   },
+   "predict": {
+    "q": "What colour do you think the shadow will be?",
+    "res": "Cardboard doesn't let light through, so its shadow is dark. The shape stays, the colour doesn't!",
+    "opts": [
+     {
+      "l": "Orange"
+     },
+     {
+      "l": "Pitch black"
+     }
+    ]
+   },
+   "hint": "Touch Grandpa!",
+   "ask": "Why do you think a shadow is dark? Have you ever seen your own shadow in colour?"
+  },
+  {
+   "text": "Whoosh! A pitch-black star appeared on the screen. Then a heart, then a round moon. The colours were gone, but the shapes stayed! Cotton jumped in front of the torch. A shadow with enormous ears on the screen! Grandpa burst out laughing.",
+   "hits": {
+    "dede": {
+     "say": "Look at the shape, not the colour!"
+    },
+    "deniz": {
+     "say": "These pointy tips are the star's!"
+    },
+    "pamuk": {
+     "say": "Meow! My ears are enormous!"
+    }
+   },
+   "mech": {
+    "done": "Every figure found its own shadow!",
+    "msg": "The shadows match!"
+   },
+   "hint": "Match the figure to its shadow!",
+   "ask": "How are the shadow and the figure the same, and how are they different?",
+   "cues": [
+    {
+     "w": 41,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "It was Deniz's turn. Deniz felt nervous, her knees trembled. “What if I forget?” Grandpa whispered: “First, a deep breath.” Deniz breathed in and blew out. Then she began: “First the star rose. Then the moon came. And last of all, the heart: Good night!”",
+   "hits": {
+    "deniz": {
+     "say": "Are you ready? The show is starting!"
+    },
+    "dede": {
+     "say": "No hurry, my Deniz. We're listening."
+    },
+    "pamuk": {
+     "say": "Meow!"
+    }
+   },
+   "mech": {
+    "done": "Star, moon, heart. The show is over!",
+    "msg": "You put them in a lovely order!"
+   },
+   "hint": "Touch the shadows in order!",
+   "ask": "How do you feel when you speak in front of everyone? What do you do when you feel nervous?"
+  },
+  {
+   "text": "Grandpa clapped: clap clap clap! Cotton's tail stood straight up. “What a lovely story, my Deniz!” said Grandpa. “Tomorrow I'll show you real Karagoz. His figures are made of thin leather that lets light through; they look colourful on the screen.” Deniz felt all sparkly inside. The torch went off, and the shadows went to sleep too. Good night!",
+   "hits": {
+    "dede": {
+     "say": "Karagoz figures are thin leather, light goes through!"
+    },
+    "deniz": {
+     "say": "Shall we watch real Karagoz tomorrow?"
+    },
+    "pamuk": {
+     "say": "Meoww!"
+    },
+    "ay": {
+     "say": "Good night, Deniz!"
+    }
+   },
+   "hint": "Say good night to the Moon!",
+   "ask": "If you made a shadow play, which figure would you cut out? What would it tell?",
+   "cues": [
+    {
+     "w": 1,
+     "fx": "alkis"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.3 Valuing works of art and artists: Makes predictions about how a shadow play is made with light, a screen and figures; compares the cardboard shadow with the colourful leather figures of Karagoz; listens with curiosity to the traditional art Grandpa describes and values it.",
+   "SNAB.2 Examining a work of art: Examines the shadows on the screen and asks questions about the work (SNAB.2.ç); expresses feelings and thoughts about the play they watched and performed (SNAB.2.g).",
+   "OB5 Cultural Literacy: Recognises Karagoz and Hacivat as Türkiye's traditional shadow theatre; learns that its figures are made of thin, painted leather and look colourful on the screen; compares the entertainment of their elders' childhood with their own games today.",
+   "SNAB.1 Understanding basic art concepts and types (unverified): Distinguishes shadow theatre as a type of art different from painting and sculpture (light + screen + figure).",
+   "SDB2.1 Communication: Notices and names their nervousness in front of an audience, calms down with a deep breath; tells a short story in order (first – then – last of all) and makes eye contact with the listeners.",
+   "D7 Aesthetics: Notices the beauty created by light, shadow and shapes; creates an aesthetic product with the figure they cut out of cardboard."
+  ],
+  "once": [
+   "Look at the cover picture: “Why is the room dark? What might Grandpa be getting ready?”",
+   "Show the shadow of your hand on the wall with a torch; ask “Where does the shadow come from?”",
+   "Briefly introduce Karagoz and Hacivat: “For a very long time, people have lit a light behind a screen and told stories with figures.”"
+  ],
+  "sirasi": [
+   "On page 1, before touching the torch, ask “What will happen when we switch on the light?”",
+   "On page 2, draw attention to Deniz's worry, “What if I can't?”: “How do you feel when you try something new?”",
+   "On page 3, after the child makes a prediction, don't give the answer straight away; ask for the reason. After the answer, ask “Does cardboard let light through?”",
+   "On page 4, let the child touch the coloured figure first, then its shadow; use shape words like “pointy tips, round edge”. Laugh together at Cotton's big-eared shadow.",
+   "On page 5, take a deep breath together with Deniz; then tell the play together with “First… then… last of all…”. The shadows are in a jumbled order; let the child remember the order from the story."
+  ],
+  "sonra": [
+   "What happened first in the story, and what happened next? Let's put the three pictures in order: Grandpa's memory, matching the shadows, Deniz's show.",
+   "Why were the shadows pitch black? What stayed from the cardboard figure in its shadow?",
+   "Look together at a photo or a short video of real Karagoz figures: “These are made of thin leather, and the light passes through. Can you see the colours on the screen?”",
+   "What did Deniz do when she felt nervous? What do you do when you feel nervous?",
+   "If you talked about Karagoz with your grandpa, grandma or another grown-up, what would you ask them?"
+  ],
+  "sinif": {
+   "ad": "A Shadow Screen in the Classroom",
+   "sure": "30 min",
+   "materyal": "A white sheet or tracing paper, an LED torch, cardboard, coloured acetate or tracing paper, safety scissors, ice-lolly sticks, tape; a photo or short video of Karagoz figures",
+   "adim": [
+    "Stretch the sheet between two chairs; place the LED torch behind it (don't use a hot bulb).",
+    "Look at real Karagoz figures on a screen: “Why do they look colourful on the screen?”",
+    "Each child cuts a shape or an animal figure out of cardboard and tapes it to a stick; the teacher helps with cutting.",
+    "Hold the figures between the torch and the screen; the children take turns matching the shadow on the screen with the right figure.",
+    "Compare a coloured acetate or tracing-paper figure with a cardboard one: Which one has a colourful shadow?",
+    "Small groups put on a three-scene play using “First… then… last of all…”; the audience claps and says one thing they liked."
+   ]
+  },
+  "evSoru": [
+   "What did Grandpa watch when he was little?",
+   "Why was the cardboard star's shadow dark and not orange?",
+   "What did Deniz do when she felt nervous?"
+  ],
+  "evEtk": {
+   "ad": "Shadow night in the bedroom",
+   "d": "In the evening, turn off the big light and shine a torch on the wall. Make bird, rabbit and dog shadows with your hands, or cut a figure out of cardboard. Let your child tell a short story; you be the audience, and clap at the end."
+  },
+  "aileNotu": "Today we read “Shadow Play Night”. Deniz heard about the Karagoz tradition from her grandpa, cut her own heart out of cardboard, matched the shadows to their figures and, despite her nerves, put on her own little show. At home, you can play shadow games with a torch, look together at pictures of real Karagoz figures in colour on the screen, and tell your child about the fun you had in your own childhood. Please use an LED light rather than a hot bulb or a candle."
+ },
+ "audio": {
+  "file": "audio/en/083-golge-oyunu-gecesi.mp3",
+  "hash": "0a733579",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15737,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      2829,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3170,
+      9
+     ],
+     [
+      4149,
+      10
+     ],
+     [
+      4469,
+      11
+     ],
+     [
+      4609,
+      12
+     ],
+     [
+      4949,
+      13
+     ],
+     [
+      5330,
+      14
+     ],
+     [
+      5509,
+      15
+     ],
+     [
+      5609,
+      16
+     ],
+     [
+      5729,
+      17
+     ],
+     [
+      6689,
+      18
+     ],
+     [
+      7209,
+      19
+     ],
+     [
+      7549,
+      20
+     ],
+     [
+      7910,
+      21
+     ],
+     [
+      8029,
+      22
+     ],
+     [
+      8909,
+      23
+     ],
+     [
+      9430,
+      24
+     ],
+     [
+      10270,
+      25
+     ],
+     [
+      10549,
+      26
+     ],
+     [
+      10749,
+      27
+     ],
+     [
+      10930,
+      28
+     ],
+     [
+      11049,
+      29
+     ],
+     [
+      11270,
+      30
+     ],
+     [
+      11890,
+      31
+     ],
+     [
+      12449,
+      32
+     ],
+     [
+      12689,
+      33
+     ],
+     [
+      13049,
+      34
+     ],
+     [
+      13329,
+      35
+     ],
+     [
+      14009,
+      36
+     ],
+     [
+      14209,
+      37
+     ],
+     [
+      14649,
+      38
+     ],
+     [
+      14949,
+      39
+     ],
+     [
+      15069,
+      40
+     ],
+     [
+      15189,
+      41
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 16037,
+    "d": 2144,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1569,
+      5
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 18482,
+    "d": 2141,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p0h-ay": {
+    "s": 20923,
+    "d": 1045,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      529,
+      2
+     ]
+    ]
+   },
+   "p0h-pamuk": {
+    "s": 22269,
+    "d": 1150,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p1": {
+    "s": 23719,
+    "d": 16870,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2469,
+      7
+     ],
+     [
+      2569,
+      8
+     ],
+     [
+      3529,
+      9
+     ],
+     [
+      3729,
+      10
+     ],
+     [
+      3829,
+      11
+     ],
+     [
+      4310,
+      12
+     ],
+     [
+      4449,
+      13
+     ],
+     [
+      4649,
+      14
+     ],
+     [
+      4789,
+      15
+     ],
+     [
+      4890,
+      16
+     ],
+     [
+      5489,
+      17
+     ],
+     [
+      5969,
+      18
+     ],
+     [
+      6129,
+      19
+     ],
+     [
+      6229,
+      20
+     ],
+     [
+      6629,
+      21
+     ],
+     [
+      7489,
+      22
+     ],
+     [
+      7890,
+      23
+     ],
+     [
+      8089,
+      24
+     ],
+     [
+      8209,
+      25
+     ],
+     [
+      8489,
+      26
+     ],
+     [
+      8609,
+      27
+     ],
+     [
+      8749,
+      28
+     ],
+     [
+      9249,
+      29
+     ],
+     [
+      9390,
+      30
+     ],
+     [
+      9549,
+      31
+     ],
+     [
+      9890,
+      32
+     ],
+     [
+      10789,
+      33
+     ],
+     [
+      11169,
+      34
+     ],
+     [
+      11430,
+      35
+     ],
+     [
+      11989,
+      36
+     ],
+     [
+      12209,
+      37
+     ],
+     [
+      12329,
+      38
+     ],
+     [
+      12509,
+      39
+     ],
+     [
+      12770,
+      40
+     ],
+     [
+      13229,
+      41
+     ],
+     [
+      13369,
+      42
+     ],
+     [
+      13549,
+      43
+     ],
+     [
+      13649,
+      44
+     ],
+     [
+      14069,
+      45
+     ],
+     [
+      14969,
+      46
+     ],
+     [
+      15569,
+      47
+     ],
+     [
+      16089,
+      48
+     ],
+     [
+      16289,
+      49
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 40889,
+    "d": 3559,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1410,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2609,
+      7
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 44749,
+    "d": 2962,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2130,
+      7
+     ],
+     [
+      2349,
+      8
+     ]
+    ]
+   },
+   "p2": {
+    "s": 48012,
+    "d": 11037,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      1689,
+      6
+     ],
+     [
+      1889,
+      7
+     ],
+     [
+      1989,
+      8
+     ],
+     [
+      2130,
+      9
+     ],
+     [
+      3069,
+      10
+     ],
+     [
+      3529,
+      11
+     ],
+     [
+      3789,
+      12
+     ],
+     [
+      3949,
+      13
+     ],
+     [
+      4830,
+      14
+     ],
+     [
+      5009,
+      15
+     ],
+     [
+      5269,
+      16
+     ],
+     [
+      5489,
+      17
+     ],
+     [
+      5689,
+      18
+     ],
+     [
+      5870,
+      19
+     ],
+     [
+      6749,
+      20
+     ],
+     [
+      6890,
+      21
+     ],
+     [
+      7289,
+      22
+     ],
+     [
+      7489,
+      23
+     ],
+     [
+      7749,
+      24
+     ],
+     [
+      7849,
+      25
+     ],
+     [
+      7969,
+      26
+     ],
+     [
+      8890,
+      27
+     ],
+     [
+      9129,
+      28
+     ],
+     [
+      9449,
+      29
+     ],
+     [
+      9850,
+      30
+     ],
+     [
+      10029,
+      31
+     ],
+     [
+      10230,
+      32
+     ],
+     [
+      10589,
+      33
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 59350,
+    "d": 3070,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1154,
+      1
+     ],
+     [
+      2042,
+      2
+     ],
+     [
+      2649,
+      3
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 62720,
+    "d": 2685,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      438,
+      1
+     ],
+     [
+      688,
+      2
+     ],
+     [
+      939,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1958,
+      5
+     ],
+     [
+      2209,
+      6
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 65705,
+    "d": 2167,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1229,
+      6
+     ],
+     [
+      1569,
+      7
+     ],
+     [
+      1769,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 68172,
+    "d": 6066,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      2949,
+      9
+     ],
+     [
+      3689,
+      10
+     ],
+     [
+      3849,
+      11
+     ],
+     [
+      4169,
+      12
+     ],
+     [
+      4910,
+      13
+     ],
+     [
+      5069,
+      14
+     ],
+     [
+      5509,
+      15
+     ]
+    ]
+   },
+   "p3": {
+    "s": 74539,
+    "d": 15715,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      989,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2589,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      2809,
+      7
+     ],
+     [
+      3629,
+      8
+     ],
+     [
+      3829,
+      9
+     ],
+     [
+      3930,
+      10
+     ],
+     [
+      4669,
+      11
+     ],
+     [
+      4989,
+      12
+     ],
+     [
+      5129,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      6209,
+      15
+     ],
+     [
+      6350,
+      16
+     ],
+     [
+      6729,
+      17
+     ],
+     [
+      6910,
+      18
+     ],
+     [
+      7370,
+      19
+     ],
+     [
+      7529,
+      20
+     ],
+     [
+      7669,
+      21
+     ],
+     [
+      8029,
+      22
+     ],
+     [
+      8949,
+      23
+     ],
+     [
+      9350,
+      24
+     ],
+     [
+      9690,
+      25
+     ],
+     [
+      9810,
+      26
+     ],
+     [
+      9969,
+      27
+     ],
+     [
+      10049,
+      28
+     ],
+     [
+      10169,
+      29
+     ],
+     [
+      10909,
+      30
+     ],
+     [
+      11089,
+      31
+     ],
+     [
+      11529,
+      32
+     ],
+     [
+      11730,
+      33
+     ],
+     [
+      12449,
+      34
+     ],
+     [
+      12770,
+      35
+     ],
+     [
+      12869,
+      36
+     ],
+     [
+      12989,
+      37
+     ],
+     [
+      13930,
+      38
+     ],
+     [
+      14529,
+      39
+     ],
+     [
+      14930,
+      40
+     ],
+     [
+      15129,
+      41
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 90554,
+    "d": 2368,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1749,
+      6
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 93222,
+    "d": 2464,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      544,
+      1
+     ],
+     [
+      1049,
+      2
+     ],
+     [
+      1339,
+      3
+     ],
+     [
+      1844,
+      4
+     ],
+     [
+      2134,
+      5
+     ]
+    ]
+   },
+   "p3h-pamuk": {
+    "s": 95986,
+    "d": 3082,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      1989,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 99369,
+    "d": 2466,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1790,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 102135,
+    "d": 20376,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      3129,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      3729,
+      9
+     ],
+     [
+      4789,
+      10
+     ],
+     [
+      4989,
+      11
+     ],
+     [
+      5169,
+      12
+     ],
+     [
+      5289,
+      13
+     ],
+     [
+      6350,
+      14
+     ],
+     [
+      6789,
+      15
+     ],
+     [
+      7749,
+      16
+     ],
+     [
+      8609,
+      17
+     ],
+     [
+      8829,
+      18
+     ],
+     [
+      9209,
+      19
+     ],
+     [
+      10169,
+      20
+     ],
+     [
+      10629,
+      21
+     ],
+     [
+      11049,
+      22
+     ],
+     [
+      11449,
+      23
+     ],
+     [
+      11649,
+      24
+     ],
+     [
+      11969,
+      25
+     ],
+     [
+      12709,
+      26
+     ],
+     [
+      13009,
+      27
+     ],
+     [
+      13169,
+      28
+     ],
+     [
+      14249,
+      29
+     ],
+     [
+      14769,
+      30
+     ],
+     [
+      14949,
+      31
+     ],
+     [
+      15350,
+      32
+     ],
+     [
+      16229,
+      33
+     ],
+     [
+      16509,
+      34
+     ],
+     [
+      16629,
+      35
+     ],
+     [
+      16930,
+      36
+     ],
+     [
+      17669,
+      37
+     ],
+     [
+      17889,
+      38
+     ],
+     [
+      18190,
+      39
+     ],
+     [
+      18309,
+      40
+     ],
+     [
+      18770,
+      41
+     ],
+     [
+      18930,
+      42
+     ],
+     [
+      19770,
+      43
+     ],
+     [
+      19950,
+      44
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 122812,
+    "d": 2210,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      396,
+      1
+     ],
+     [
+      600,
+      2
+     ],
+     [
+      1199,
+      3
+     ],
+     [
+      1404,
+      4
+     ],
+     [
+      1609,
+      5
+     ],
+     [
+      1813,
+      6
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 125323,
+    "d": 2460,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1949,
+      5
+     ]
+    ]
+   },
+   "p4h-pamuk": {
+    "s": 128084,
+    "d": 876,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 129261,
+    "d": 3867,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1790,
+      2
+     ],
+     [
+      2689,
+      3
+     ],
+     [
+      2890,
+      4
+     ],
+     [
+      3170,
+      5
+     ],
+     [
+      3349,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 133428,
+    "d": 22779,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2809,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3709,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4509,
+      9
+     ],
+     [
+      5149,
+      10
+     ],
+     [
+      5370,
+      11
+     ],
+     [
+      5589,
+      12
+     ],
+     [
+      6149,
+      13
+     ],
+     [
+      6669,
+      14
+     ],
+     [
+      6870,
+      15
+     ],
+     [
+      7629,
+      16
+     ],
+     [
+      7829,
+      17
+     ],
+     [
+      8749,
+      18
+     ],
+     [
+      9350,
+      19
+     ],
+     [
+      9549,
+      20
+     ],
+     [
+      9770,
+      21
+     ],
+     [
+      10049,
+      22
+     ],
+     [
+      10469,
+      23
+     ],
+     [
+      11369,
+      24
+     ],
+     [
+      11609,
+      25
+     ],
+     [
+      11969,
+      26
+     ],
+     [
+      12089,
+      27
+     ],
+     [
+      12270,
+      28
+     ],
+     [
+      12449,
+      29
+     ],
+     [
+      12770,
+      30
+     ],
+     [
+      13089,
+      31
+     ],
+     [
+      13270,
+      32
+     ],
+     [
+      13549,
+      33
+     ],
+     [
+      13770,
+      34
+     ],
+     [
+      14350,
+      35
+     ],
+     [
+      14549,
+      36
+     ],
+     [
+      14709,
+      37
+     ],
+     [
+      15189,
+      38
+     ],
+     [
+      15289,
+      39
+     ],
+     [
+      15409,
+      40
+     ],
+     [
+      16309,
+      41
+     ],
+     [
+      16709,
+      42
+     ],
+     [
+      17009,
+      43
+     ],
+     [
+      17289,
+      44
+     ],
+     [
+      17930,
+      45
+     ],
+     [
+      18950,
+      46
+     ],
+     [
+      19089,
+      47
+     ],
+     [
+      19409,
+      48
+     ],
+     [
+      19610,
+      49
+     ],
+     [
+      20030,
+      50
+     ],
+     [
+      20169,
+      51
+     ],
+     [
+      20309,
+      52
+     ],
+     [
+      20770,
+      53
+     ],
+     [
+      20950,
+      54
+     ],
+     [
+      21089,
+      55
+     ],
+     [
+      21389,
+      56
+     ],
+     [
+      22149,
+      57
+     ],
+     [
+      22329,
+      58
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 156508,
+    "d": 3610,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      3029,
+      7
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 160419,
+    "d": 2312,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      538,
+      2
+     ],
+     [
+      787,
+      3
+     ],
+     [
+      1036,
+      4
+     ],
+     [
+      1654,
+      5
+     ]
+    ]
+   },
+   "p5h-pamuk": {
+    "s": 163031,
+    "d": 1172,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-ay": {
+    "s": 164503,
+    "d": 1106,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      449,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

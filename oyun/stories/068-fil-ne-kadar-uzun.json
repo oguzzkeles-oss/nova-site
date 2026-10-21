@@ -1,0 +1,2152 @@
+{
+ "id": "068-fil-ne-kadar-uzun",
+ "n": 68,
+ "title": "Fil Ne Kadar Uzun?",
+ "age": "60-72",
+ "area": "Matematik",
+ "theme": "Standart olmayan birimlerle uzunluk ölçme",
+ "values": [
+  "D10 Mütevazılık"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 5,
+ "blurb": "Yavru fil Boncuk “Çayırın en uzunu benim!” diye övünür. Ama Zıpzıp'la üç, Diken'le sekiz çıkınca kafası karışır: Büyüdü mü, yoksa adımlar mı başka?",
+ "codes": {
+  "maarif": [
+   "MAB.4 Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme — MAB.4.b Nesneleri, olguları ve olayları karşılaştırır (aynı uzunluğu farklı büyüklükte adımlarla ölçüp sonuçları karşılaştırır)",
+   "MAB.1 Ritmik ve algısal sayabilme: nesne/varlık miktarını sayarak belirler (60-72 ay: 1-20)",
+   "KB2.12 Mevcut Bilgiye/Veriye Dayalı Tahmin Etme",
+   "SDB2.3 Sosyal Farkındalık",
+   "D10 Mütevazılık"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "boncuk": "iri-hayvan",
+  "zipzip": "hayvan-kiz",
+  "diken": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "boncuk": "Boncuk (yavru fil)",
+  "zipzip": "Zıpzıp (tavşan)",
+  "diken": "Diken (kirpi)"
+ },
+ "pages": [
+  {
+   "text": "Yavru fil Boncuk hortumunu havaya kaldırdı. “Çayırın en uzunu benim! Hortumumun ucundan kuyruğuma kadar upuzunum!” Tavşan Zıpzıp kulaklarını dikti. Kirpi Diken burnunu kaşıdı: “Peki… ne kadar uzunsun?” Boncuk durdu. Bunu hiç düşünmemişti.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 340,
+      "y": 46
+     },
+     {
+      "k": "fil",
+      "x": 128,
+      "y": 216,
+      "s": 1.55,
+      "mood": "laugh",
+      "pose": "trunkup",
+      "hit": "boncuk"
+     },
+     {
+      "k": "kirpi",
+      "x": 272,
+      "y": 236,
+      "s": 1.25,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "diken",
+      "flip": true
+     },
+     {
+      "k": "zipzip",
+      "x": 340,
+      "y": 226,
+      "s": 0.66,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "zipzip",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 24,
+      "y": 190,
+      "s": 0.9
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 240,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 226,
+      "y": 240,
+      "s": 0.3
+     },
+     {
+      "k": "cali",
+      "x": 388,
+      "y": 204,
+      "s": 0.7,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "boncuk": {
+     "say": "Güneşe kadar uzanırım!",
+     "voice": "boncuk",
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "zipzip": {
+     "say": "Ne kadar uzun ki?",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "diken": {
+     "say": "Hıımm… Kaç adım acaba?",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "sniff"
+    }
+   },
+   "hint": [
+    "boncuk",
+    "Boncuk'a dokun!"
+   ],
+   "ask": "Boncuk “En uzun benim!” diyor. Sence bir şeyin ne kadar uzun olduğunu nasıl bulabiliriz?"
+  },
+  {
+   "text": "Zıpzıp hemen atıldı: “Ben ölçerim! Kuyruğundan başlar, hortumuna kadar zıplarım.” Hop! Hop! Hop! Zıpzıp hortumun ucuna vardı. “Üç zıplama!” Boncuk'un kulakları düştü. “Yalnızca üç mü? Ben kendimi kocaman sanıyordum!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 222,
+      "y": 204,
+      "s": 1.45,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "boncuk"
+     },
+     {
+      "k": "kirpi",
+      "x": 40,
+      "y": 226,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "diken"
+     },
+     {
+      "k": "zipzip",
+      "x": 145,
+      "y": 234,
+      "s": 0.62,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "zipzip"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 352,
+      "y": 206,
+      "s": 0.28
+     },
+     {
+      "k": "cali",
+      "x": 370,
+      "y": 196,
+      "s": 0.7,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Hop! Bir zıplama daha!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "boncuk": {
+     "say": "Kıpırdamıyorum, ölç bakalım!",
+     "voice": "boncuk",
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "diken": {
+     "say": "Ben sayıyorum: bir, iki, üç!",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "kirpi"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "zipzip",
+    "steps": 3,
+    "step": 55,
+    "say": "Hop!",
+    "done": "Üç zıplama! Boncuk'un kulakları düştü.",
+    "msg": "Üç zıplama!"
+   },
+   "hint": [
+    "zipzip",
+    "Zıpzıp'a üç kez dokun!"
+   ],
+   "ask": "Zıpzıp kaç kez zıpladı? Boncuk neden üzüldü?"
+  },
+  {
+   "text": "Diken kıkırdadı: “Şimdi ben ölçeyim!” Ama Diken'in adımları minicikti. Tıpış, tıpış… Zıpzıp'ın zıplaması kocaman, Diken'in adımı küçücük. Boncuk merakla bekledi. Bu kez kaç çıkacaktı?",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 236,
+      "y": 206,
+      "s": 1.3,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "boncuk"
+     },
+     {
+      "k": "kirpi",
+      "x": 118,
+      "y": 234,
+      "s": 1.3,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "diken"
+     },
+     {
+      "k": "zipzip",
+      "x": 356,
+      "y": 228,
+      "s": 0.6,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "zipzip",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 40,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "cali",
+      "x": 40,
+      "y": 200,
+      "s": 0.8,
+      "flowers": true
+     },
+     {
+      "k": "yaprak",
+      "x": 72,
+      "y": 238,
+      "s": 1.3,
+      "color": "green"
+     }
+    ]
+   },
+   "hits": {
+    "diken": {
+     "say": "Benim adımlarım minicik ama çok!",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "step"
+    },
+    "zipzip": {
+     "say": "Benden az mı, çok mu?",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "boncuk": {
+     "say": "Acaba bu kez kaç çıkacak?",
+     "voice": "boncuk",
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "predict": {
+    "q": "Sence Diken üçten çok mu adım atacak, az mı?",
+    "res": "Güzel tahmin! Hadi sayıp görelim.",
+    "opts": [
+     {
+      "l": "Daha çok",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "cast": [
+        {
+         "k": "kirpi",
+         "x": 130,
+         "y": 232,
+         "s": 1.5,
+         "mood": "laugh",
+         "pose": "walk"
+        }
+       ],
+       "props": [
+        {
+         "k": "yaprak",
+         "x": 190,
+         "y": 234,
+         "s": 1.3,
+         "color": "green"
+        },
+        {
+         "k": "yaprak",
+         "x": 225,
+         "y": 230,
+         "s": 1.3,
+         "color": "yellow"
+        },
+        {
+         "k": "yaprak",
+         "x": 260,
+         "y": 234,
+         "s": 1.3,
+         "color": "green"
+        },
+        {
+         "k": "yaprak",
+         "x": 295,
+         "y": 230,
+         "s": 1.3,
+         "color": "yellow"
+        },
+        {
+         "k": "yaprak",
+         "x": 330,
+         "y": 234,
+         "s": 1.3,
+         "color": "green"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Daha az",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "cast": [
+        {
+         "k": "kirpi",
+         "x": 150,
+         "y": 232,
+         "s": 1.5,
+         "mood": "think",
+         "pose": "stand"
+        }
+       ],
+       "props": [
+        {
+         "k": "yaprak",
+         "x": 230,
+         "y": 234,
+         "s": 1.4,
+         "color": "green"
+        },
+        {
+         "k": "yaprak",
+         "x": 290,
+         "y": 234,
+         "s": 1.4,
+         "color": "yellow"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "diken",
+    "Diken'e dokun!"
+   ],
+   "ask": "Zıpzıp üç zıplamada vardı. Diken'in adımları küçük. Sence Diken kaç adımda varır?"
+  },
+  {
+   "text": "Diken tıpış tıpış yürüdü. Unutmasın diye her adımda yere bir yaprak koydu. Kuyruktan hortuma kadar yapraklar dizildi. Hadi, yaprakları tek tek sayalım! Diken kaç adım attı?",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "zipzip",
+      "x": 46,
+      "y": 214,
+      "s": 0.58,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "zipzip"
+     },
+     {
+      "k": "fil",
+      "x": 210,
+      "y": 196,
+      "s": 1.5,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "boncuk"
+     },
+     {
+      "k": "kirpi",
+      "x": 345,
+      "y": 232,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "diken"
+     }
+    ],
+    "props": [
+     {
+      "k": "yaprak",
+      "x": 140,
+      "y": 236,
+      "s": 1.1,
+      "color": "green",
+      "hit": "l1"
+     },
+     {
+      "k": "yaprak",
+      "x": 164,
+      "y": 236,
+      "s": 1.1,
+      "color": "yellow",
+      "hit": "l2"
+     },
+     {
+      "k": "yaprak",
+      "x": 188,
+      "y": 236,
+      "s": 1.1,
+      "color": "green",
+      "hit": "l3"
+     },
+     {
+      "k": "yaprak",
+      "x": 212,
+      "y": 236,
+      "s": 1.1,
+      "color": "yellow",
+      "hit": "l4"
+     },
+     {
+      "k": "yaprak",
+      "x": 236,
+      "y": 236,
+      "s": 1.1,
+      "color": "green",
+      "hit": "l5"
+     },
+     {
+      "k": "yaprak",
+      "x": 260,
+      "y": 236,
+      "s": 1.1,
+      "color": "yellow",
+      "hit": "l6"
+     },
+     {
+      "k": "yaprak",
+      "x": 284,
+      "y": 236,
+      "s": 1.1,
+      "color": "green",
+      "hit": "l7"
+     },
+     {
+      "k": "yaprak",
+      "x": 308,
+      "y": 236,
+      "s": 1.1,
+      "color": "yellow",
+      "hit": "l8"
+     }
+    ]
+   },
+   "hits": {
+    "l": {
+     "anim": "boing",
+     "fx": "yaprak"
+    },
+    "diken": {
+     "say": "Tıpış tıpış, vardım işte!",
+     "voice": "diken",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "boncuk": {
+     "say": "O kadar çok mu?",
+     "voice": "boncuk",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "zipzip": {
+     "say": "Birlikte sayalım!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7",
+     "l8"
+    ],
+    "done": "Sekiz yaprak, sekiz kirpi adımı!",
+    "msg": "Sekiz adım!"
+   },
+   "hint": [
+    "l1",
+    "Yaprakları tek tek say!"
+   ],
+   "ask": "Zıpzıp üç zıpladı, Diken sekiz adım attı. Hangisi daha çok? Neden böyle oldu?"
+  },
+  {
+   "text": "Boncuk şaşırdı. “Az önce üçtüm, şimdi sekiz oldum. Büyüdüm mü?” Zıpzıp güldü: “Sen hiç değişmedin! Adımlar değişti.” Boncuk düşündü. “Diken, kuyruğumun ucuna bir yaprak, hortumumun ucuna bir yaprak koy. Ben de aradaki yolu kendi adımımla ölçeyim!” Güm! Güm!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kirpi",
+      "x": 42,
+      "y": 214,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "diken"
+     },
+     {
+      "k": "fil",
+      "x": 124,
+      "y": 222,
+      "s": 1.0,
+      "mood": "think",
+      "pose": "walk",
+      "hit": "boncuk"
+     },
+     {
+      "k": "zipzip",
+      "x": 362,
+      "y": 222,
+      "s": 0.62,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "zipzip",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "yaprak",
+      "x": 162,
+      "y": 236,
+      "s": 1.3,
+      "color": "green"
+     },
+     {
+      "k": "yaprak",
+      "x": 298,
+      "y": 236,
+      "s": 1.3,
+      "color": "yellow"
+     },
+     {
+      "k": "flower",
+      "x": 380,
+      "y": 238,
+      "s": 0.35
+     },
+     {
+      "k": "cali",
+      "x": 384,
+      "y": 196,
+      "s": 0.6,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "boncuk": {
+     "say": "Güm! Bir fil adımı daha!",
+     "voice": "boncuk",
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "zipzip": {
+     "say": "Herkesin adımı başka!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "diken": {
+     "say": "Hadi Boncuk, say bakalım!",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "kirpi"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "boncuk",
+    "steps": 2,
+    "step": 68,
+    "say": "Güm!",
+    "done": "İki fil adımı! Hep aynı Boncuk.",
+    "msg": "İki fil adımı!"
+   },
+   "hint": [
+    "boncuk",
+    "Boncuk'a iki kez dokun!"
+   ],
+   "ask": "Boncuk büyüdü mü? Neden bazen üç, bazen sekiz, bazen iki çıktı?"
+  },
+  {
+   "text": "Akşam oldu. Boncuk bu kez “En uzun benim!” demedi. “Siz olmasanız boyumu hiç bilemezdim,” dedi. “Üç zıplama, sekiz tıpış, iki güm! Şimdi ben de sizi ölçeyim mi?” Üçü birden kahkahayı bastı. Hep aynı Boncuk, bir sürü sayı!",
+   "scene": {
+    "set": "cayir",
+    "time": "sunset",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "zipzip",
+      "x": 88,
+      "y": 226,
+      "s": 0.64,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "zipzip"
+     },
+     {
+      "k": "kirpi",
+      "x": 196,
+      "y": 192,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "diken"
+     },
+     {
+      "k": "fil",
+      "x": 324,
+      "y": 222,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "boncuk",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "kutuk",
+      "x": 196,
+      "y": 232,
+      "s": 1.6
+     },
+     {
+      "k": "heart",
+      "x": 200,
+      "y": 110,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 238,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "boncuk": {
+     "say": "Siz olmasanız boyumu bilemezdim!",
+     "voice": "boncuk",
+     "anim": "boing",
+     "fx": "fil",
+     "hearts": true
+    },
+    "zipzip": {
+     "say": "Yarın kütüğü ölçelim mi?",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "diken": {
+     "say": "Herkes kendi adımıyla!",
+     "voice": "diken",
+     "anim": "wiggle",
+     "fx": "kirpi"
+    }
+   },
+   "hint": [
+    "boncuk",
+    "Arkadaşlara dokun!"
+   ],
+   "ask": "Sen yatağını kaç adımla ölçerdin? Evdeki bir büyüğünün adımıyla kaç çıkar sence?",
+   "cues": [
+    {
+     "w": 29,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.4 Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme — MAB.4.b Nesneleri, olguları ve olayları karşılaştırır: aynı fili üç tavşan zıplaması, sekiz kirpi adımı ve iki fil adımıyla ölçer; sonuçları karşılaştırır ve “adım büyüdükçe sayı azalır” çıkarımını yapar.",
+   "MAB.1 Ritmik ve algısal sayabilme — nesne/varlık miktarını sayarak belirler: Zıpzıp'ın zıplamalarını (3) ve Diken'in bıraktığı yaprakları (8) tek tek dokunarak sayar.",
+   "KB2.12 Mevcut Bilgiye/Veriye Dayalı Tahmin Etme: Zıpzıp'ın üç zıplamasını bilgi olarak kullanarak Diken'in küçük adımlarının üçten çok mu az mı çıkacağını tahmin eder, sonra sayarak tahminini sınar.",
+   "SDB2.3 Sosyal Farkındalık ve D10 Mütevazılık: Boncuk'un övünmesinin, arkadaşlarının ölçüleriyle yumuşadığını fark eder; herkesin kendine özgü bir “adımı” olduğunu ve sonuca birlikte ulaşıldığını görür."
+  ],
+  "once": [
+   "Kapaktaki fili gösterin: “Bu Boncuk. Sence ne kadar uzun? Bunu metre olmadan nasıl bulabiliriz?”",
+   "Çocuğunuzla bir halının ya da minderin uzunluğunu önce elle, sonra ayakla ölçün; sayıları yüksek sesle söyleyin."
+  ],
+  "sirasi": [
+   "1. sayfada Boncuk'un sesini kalın ve övüngen yapın; “Peki ne kadar uzunsun?” sorusunu çocuğunuzla birlikte sorun.",
+   "2. sayfada her dokunuşta birlikte sayın: “Hop, bir! Hop, iki! Hop, üç!” Boncuk'un kulaklarının neden düştüğünü konuşun.",
+   "3. sayfada tahmin istemeden önce Zıpzıp'ın kocaman zıplamasını ve Diken'in minik adımını elinizle gösterin. İki tahmini de kabul edin; “Neden öyle düşündün?” diye sorun.",
+   "4. sayfada yaprakları soldan sağa, parmakla tek tek sayın. “Üç mü çok, sekiz mi?” diye karşılaştırın. Sonra sorun: “Diken her adımda neden bir yaprak bıraktı?” Adımlarımızı ölçerken boşluk bırakmadan, ucuca attığımızı birlikte deneyin.",
+   "5. sayfada Boncuk'un “Büyüdüm mü?” sorusuna gülün ve cevabı çocuğunuza bırakın: Boncuk değişmedi, adımlar değişti."
+  ],
+  "sonra": [
+   "Boncuk kaç tavşan zıplaması uzunluğundaydı? Kaç kirpi adımı? Kaç fil adımı?",
+   "Diken neden daha çok adım attı?",
+   "Boncuk sonda neden “En uzun benim!” demedi? Nasıl hissetti?",
+   "Masaldaki üç resmi sıraya dizin: önce kim ölçtü, sonra kim, en son ne oldu?"
+  ],
+  "sinif": {
+   "ad": "Kütük Ölçme Günü",
+   "sure": "20 dk",
+   "materyal": "Yere bantla çizilmiş bir “kütük” şeridi (yaklaşık 2 metre), tavşan-kirpi-fil resimli kartlar, kâğıttan kesilmiş yapraklar",
+   "adim": [
+    "Çember olun; öğretmen masaldaki gibi büyük bir tavşan zıplaması ve minik bir kirpi adımı gösterir.",
+    "Gönüllü çocuklar kütüğü sırayla ölçer: biri büyük adımlarla, biri topuk-burun minik adımlarla, biri tavşan gibi zıplayarak. Tekerlekli sandalye kullanan bir arkadaş tekerlek dönüşüyle ölçebilir. Her adımda yere bir kâğıt yaprak konur (en çok 10).",
+    "Sınıf yaprakları birlikte sayar ve sonuçlar resimli kartların yanına yaprak dizisi olarak yapıştırılır.",
+    "Kapanışta sorun: “Kütük uzadı mı, kısaldı mı? Neden sayılar farklı çıktı?” Her ölçmenin doğru olduğunu, yalnızca adımların farklı olduğunu birlikte söyleyin."
+   ]
+  },
+  "evSoru": [
+   "Zıpzıp Boncuk'u kaç zıplamada ölçtü?",
+   "Diken her adımda yere ne koydu? Neden?",
+   "Boncuk büyüdü mü, yoksa adımlar mı farklıydı?"
+  ],
+  "evEtk": {
+   "ad": "Evde adım adım ölçelim",
+   "d": "Koridoru ya da yatağı önce çocuğunuzun adımıyla, sonra kendi adımınızla ölçün. Her adımda yere bir çorap ya da kaşık koyup sonra birlikte sayın. Hangi adımla daha çok, hangisiyle daha az çıktığını konuşun."
+  },
+  "aileNotu": "Bugün “Fil Ne Kadar Uzun?” masalını okuduk. Yavru fil Boncuk en uzun olduğunu söyleyerek övündü; arkadaşları onu tavşan zıplaması ve kirpi adımıyla, sonra Boncuk da kendi adımıyla ölçünce üç, sekiz ve iki gibi farklı sayılar buldu. Adım büyüdükçe sayının azaldığını fark ettik. Çocuklarımız aynı uzunluğun farklı adımlarla farklı sayılar verdiğini keşfetti, tahmin etti ve saydı. Evde adımlarınızla, avucunuzla ya da oyuncaklarla birlikte ölçüm oyunları oynayabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/068-fil-ne-kadar-uzun.mp3",
+  "hash": "c978d408",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17582,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      4129,
+      9
+     ],
+     [
+      4789,
+      10
+     ],
+     [
+      5430,
+      11
+     ],
+     [
+      5989,
+      12
+     ],
+     [
+      6589,
+      13
+     ],
+     [
+      7089,
+      14
+     ],
+     [
+      8089,
+      15
+     ],
+     [
+      8549,
+      16
+     ],
+     [
+      9029,
+      17
+     ],
+     [
+      9690,
+      18
+     ],
+     [
+      10430,
+      19
+     ],
+     [
+      10770,
+      20
+     ],
+     [
+      11189,
+      21
+     ],
+     [
+      11589,
+      22
+     ],
+     [
+      12430,
+      23
+     ],
+     [
+      13549,
+      24
+     ],
+     [
+      13689,
+      25
+     ],
+     [
+      13989,
+      26
+     ],
+     [
+      14869,
+      27
+     ],
+     [
+      15310,
+      28
+     ],
+     [
+      16149,
+      29
+     ],
+     [
+      16430,
+      30
+     ],
+     [
+      16669,
+      31
+     ]
+    ]
+   },
+   "p0h-boncuk": {
+    "s": 17882,
+    "d": 1586,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      909,
+      2
+     ]
+    ]
+   },
+   "p0h-zipzip": {
+    "s": 19768,
+    "d": 1338,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      269,
+      1
+     ],
+     [
+      669,
+      2
+     ],
+     [
+      1068,
+      3
+     ]
+    ]
+   },
+   "p0h-diken": {
+    "s": 21407,
+    "d": 2066,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      753,
+      1
+     ],
+     [
+      996,
+      2
+     ],
+     [
+      1421,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 23773,
+    "d": 15172,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      3170,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4330,
+      8
+     ],
+     [
+      4669,
+      9
+     ],
+     [
+      5370,
+      10
+     ],
+     [
+      5830,
+      11
+     ],
+     [
+      6269,
+      12
+     ],
+     [
+      6969,
+      13
+     ],
+     [
+      7529,
+      14
+     ],
+     [
+      8069,
+      15
+     ],
+     [
+      8409,
+      16
+     ],
+     [
+      9109,
+      17
+     ],
+     [
+      9329,
+      18
+     ],
+     [
+      10069,
+      19
+     ],
+     [
+      10589,
+      20
+     ],
+     [
+      11129,
+      21
+     ],
+     [
+      11869,
+      22
+     ],
+     [
+      12469,
+      23
+     ],
+     [
+      12729,
+      24
+     ],
+     [
+      13270,
+      25
+     ],
+     [
+      13489,
+      26
+     ],
+     [
+      13890,
+      27
+     ],
+     [
+      14430,
+      28
+     ]
+    ]
+   },
+   "p1h-zipzip": {
+    "s": 39246,
+    "d": 1773,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      539,
+      1
+     ],
+     [
+      767,
+      2
+     ],
+     [
+      1335,
+      3
+     ]
+    ]
+   },
+   "p1h-boncuk": {
+    "s": 41319,
+    "d": 1789,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1309,
+      2
+     ]
+    ]
+   },
+   "p1h-diken": {
+    "s": 43408,
+    "d": 3339,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2869,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 47048,
+    "d": 3075,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2569,
+      4
+     ]
+    ]
+   },
+   "p1ms": {
+    "s": 50423,
+    "d": 460,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 51184,
+    "d": 13596,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      4049,
+      8
+     ],
+     [
+      5049,
+      9
+     ],
+     [
+      5789,
+      10
+     ],
+     [
+      6789,
+      11
+     ],
+     [
+      7329,
+      12
+     ],
+     [
+      7930,
+      13
+     ],
+     [
+      8770,
+      14
+     ],
+     [
+      9209,
+      15
+     ],
+     [
+      9529,
+      16
+     ],
+     [
+      10469,
+      17
+     ],
+     [
+      10930,
+      18
+     ],
+     [
+      11390,
+      19
+     ],
+     [
+      12249,
+      20
+     ],
+     [
+      12390,
+      21
+     ],
+     [
+      12629,
+      22
+     ],
+     [
+      12850,
+      23
+     ]
+    ]
+   },
+   "p2h-diken": {
+    "s": 65080,
+    "d": 2698,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2189,
+      4
+     ]
+    ]
+   },
+   "p2h-zipzip": {
+    "s": 68078,
+    "d": 2083,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1869,
+      4
+     ]
+    ]
+   },
+   "p2h-boncuk": {
+    "s": 70462,
+    "d": 1922,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1249,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 72685,
+    "d": 3453,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3209,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 76438,
+    "d": 2482,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      1989,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 79220,
+    "d": 12323,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2829,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      3489,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      4269,
+      9
+     ],
+     [
+      4469,
+      10
+     ],
+     [
+      4890,
+      11
+     ],
+     [
+      5729,
+      12
+     ],
+     [
+      6329,
+      13
+     ],
+     [
+      6789,
+      14
+     ],
+     [
+      7149,
+      15
+     ],
+     [
+      7749,
+      16
+     ],
+     [
+      8650,
+      17
+     ],
+     [
+      9209,
+      18
+     ],
+     [
+      9829,
+      19
+     ],
+     [
+      10089,
+      20
+     ],
+     [
+      10310,
+      21
+     ],
+     [
+      11069,
+      22
+     ],
+     [
+      11430,
+      23
+     ],
+     [
+      11649,
+      24
+     ],
+     [
+      11890,
+      25
+     ]
+    ]
+   },
+   "p3h-diken": {
+    "s": 91844,
+    "d": 2060,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p3h-boncuk": {
+    "s": 94204,
+    "d": 1010,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      709,
+      3
+     ]
+    ]
+   },
+   "p3h-zipzip": {
+    "s": 95515,
+    "d": 1134,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      569,
+      1
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 96950,
+    "d": 2428,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      1969,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 99679,
+    "d": 20163,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2849,
+      5
+     ],
+     [
+      3189,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      4269,
+      8
+     ],
+     [
+      4749,
+      9
+     ],
+     [
+      5410,
+      10
+     ],
+     [
+      5930,
+      11
+     ],
+     [
+      6789,
+      12
+     ],
+     [
+      7149,
+      13
+     ],
+     [
+      7430,
+      14
+     ],
+     [
+      8449,
+      15
+     ],
+     [
+      8989,
+      16
+     ],
+     [
+      9909,
+      17
+     ],
+     [
+      10350,
+      18
+     ],
+     [
+      11270,
+      19
+     ],
+     [
+      11989,
+      20
+     ],
+     [
+      12549,
+      21
+     ],
+     [
+      12850,
+      22
+     ],
+     [
+      13029,
+      23
+     ],
+     [
+      13749,
+      24
+     ],
+     [
+      14390,
+      25
+     ],
+     [
+      14689,
+      26
+     ],
+     [
+      14829,
+      27
+     ],
+     [
+      15249,
+      28
+     ],
+     [
+      15769,
+      29
+     ],
+     [
+      15989,
+      30
+     ],
+     [
+      16129,
+      31
+     ],
+     [
+      16549,
+      32
+     ],
+     [
+      16789,
+      33
+     ],
+     [
+      17110,
+      34
+     ],
+     [
+      17589,
+      35
+     ],
+     [
+      18469,
+      36
+     ],
+     [
+      19589,
+      37
+     ]
+    ]
+   },
+   "p4h-boncuk": {
+    "s": 120142,
+    "d": 2192,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      588,
+      1
+     ],
+     [
+      840,
+      2
+     ],
+     [
+      1091,
+      3
+     ],
+     [
+      1714,
+      4
+     ]
+    ]
+   },
+   "p4h-zipzip": {
+    "s": 122635,
+    "d": 1701,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      640,
+      1
+     ],
+     [
+      1240,
+      2
+     ]
+    ]
+   },
+   "p4h-diken": {
+    "s": 124637,
+    "d": 1618,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 126555,
+    "d": 2439,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 129295,
+    "d": 551,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5": {
+    "s": 130146,
+    "d": 16947,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      2729,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      4229,
+      9
+     ],
+     [
+      4489,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5489,
+      12
+     ],
+     [
+      5729,
+      13
+     ],
+     [
+      6689,
+      14
+     ],
+     [
+      7449,
+      15
+     ],
+     [
+      7669,
+      16
+     ],
+     [
+      8469,
+      17
+     ],
+     [
+      8890,
+      18
+     ],
+     [
+      9569,
+      19
+     ],
+     [
+      9829,
+      20
+     ],
+     [
+      10449,
+      21
+     ],
+     [
+      10749,
+      22
+     ],
+     [
+      10930,
+      23
+     ],
+     [
+      11049,
+      24
+     ],
+     [
+      11310,
+      25
+     ],
+     [
+      11749,
+      26
+     ],
+     [
+      12390,
+      27
+     ],
+     [
+      12649,
+      28
+     ],
+     [
+      13109,
+      29
+     ],
+     [
+      13729,
+      30
+     ],
+     [
+      14589,
+      31
+     ],
+     [
+      14930,
+      32
+     ],
+     [
+      15249,
+      33
+     ],
+     [
+      15909,
+      34
+     ],
+     [
+      16209,
+      35
+     ],
+     [
+      16509,
+      36
+     ]
+    ]
+   },
+   "p5h-boncuk": {
+    "s": 147393,
+    "d": 2194,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p5h-zipzip": {
+    "s": 149888,
+    "d": 1651,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p5h-diken": {
+    "s": 151839,
+    "d": 1536,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

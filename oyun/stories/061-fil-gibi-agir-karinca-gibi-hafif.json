@@ -1,0 +1,1887 @@
+{
+ "id": "061-fil-gibi-agir-karinca-gibi-hafif",
+ "n": 61,
+ "title": "Fil Gibi Ağır, Karınca Gibi Hafif",
+ "age": "36-48",
+ "area": "Hareket ve Sağlık",
+ "theme": "Adımlarını ortama göre ayarlama ve canlılara duyarlılık",
+ "values": [
+  "D5 Duyarlılık"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 4,
+ "blurb": "Can, yavru fil Tombi ile çayırda güm güm yürüyor. Ama yolda bir karınca sırası var! Can karınca gibi hafif yürümeyi başarabilecek mi?",
+ "codes": {
+  "maarif": [
+   "HSAB.1 Farklı çevre ve fiziksel etkinliklerde büyük kas becerilerini etkin bir şekilde uygulayabilme (HSAB.1.a Farklı ortam ve koşullarda yer değiştirme hareketleri yapar; HSAB.1.b Etkinliğin durumuna uygun denge hareketleri yapar)",
+   "HSAB.4 Beden farkındalığına dayalı hareket örüntüleri sergileyebilme (teyitsiz)",
+   "HSAB.5 Kişisel ve genel alanın farkında olarak hareket edebilme (teyitsiz)",
+   "TADB.2 Dinledikleri/izledikleri materyaller ile ilgili yeni anlamlar oluşturabilme",
+   "SDB1.2 Kendini Düzenleme",
+   "D5 Duyarlılık"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "can": "cocuk-erkek",
+  "tombi": "kucuk-hayvan",
+  "kipir": "hayvan-kiz"
+ },
+ "voiceNames": {
+  "can": "Can",
+  "tombi": "Tombi (yavru fil)",
+  "kipir": "Kıpır (karınca)"
+ },
+ "pages": [
+  {
+   "text": "Güneşli bir sabah. Can ile yavru fil Tombi çayırdaydı. “Fil gibi yürüyelim!” dedi Can. Güm! Güm! Güm! Tombi kıkır kıkır güldü.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 110,
+      "y": 214,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "tombi"
+     },
+     {
+      "k": "can",
+      "x": 262,
+      "y": 230,
+      "s": 1.12,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 352,
+      "y": 200,
+      "s": 1.4
+     },
+     {
+      "k": "flower",
+      "x": 40,
+      "y": 234,
+      "s": 0.6,
+      "color": "#E86A92"
+     },
+     {
+      "k": "flower",
+      "x": 196,
+      "y": 236,
+      "s": 0.5,
+      "color": "#F2C94C"
+     },
+     {
+      "k": "bush",
+      "x": 60,
+      "y": 196,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Güm güm! Ben de filim!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "thump"
+    },
+    "tombi": {
+     "say": "Güm! Tıpkı benim gibi!",
+     "voice": "tombi",
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Fil nasıl yürür? Göster bakalım, sen nasıl güm güm yürürsün?",
+   "cues": [
+    {
+     "w": 18,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Can ayaklarını yere vurdu. Güm, güm, güm! Tombi hortumunu kaldırdı: “Bravo! Ne ağır adımlar!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "can",
+      "x": 64,
+      "y": 228,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "can"
+     },
+     {
+      "k": "fil",
+      "x": 326,
+      "y": 212,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "trunkup",
+      "hit": "tombi",
+      "flip": true
+     },
+     {
+      "k": "kelebek",
+      "x": 190,
+      "y": 110
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 200,
+      "y": 194,
+      "s": 1.0
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 234,
+      "s": 0.55,
+      "color": "#E86A92"
+     },
+     {
+      "k": "bush",
+      "x": 26,
+      "y": 200,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "tombi": {
+     "say": "Bravo! Tam bir fil oldun!",
+     "voice": "tombi",
+     "anim": "jump",
+     "fx": "fil"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "can",
+    "steps": 4,
+    "step": 38,
+    "say": "Güm!",
+    "done": "Güm güm! Koca fil adımları!",
+    "msg": "Güm güm!"
+   },
+   "hint": [
+    "can",
+    "Can'a dokun, güm güm!"
+   ],
+   "ask": "Fil neden güm güm yürür? Sen ağır adım atınca ayakların ne hissediyor?"
+  },
+  {
+   "text": "Birden ince bir ses geldi: “Dur! Dikkat!” Bu, karınca Kıpır'dı. Can'ın ayağı havada kaldı. Çok şaşırdı. Kalbi küt küt attı.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 40,
+      "y": 200,
+      "s": 0.85,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "tombi"
+     },
+     {
+      "k": "can",
+      "x": 140,
+      "y": 224,
+      "s": 1.2,
+      "mood": "surprised",
+      "pose": "walk",
+      "hit": "can"
+     },
+     {
+      "k": "karinca",
+      "x": 340,
+      "y": 234,
+      "s": 1.35,
+      "mood": "surprised",
+      "pose": "wave",
+      "hit": "kipir",
+      "flip": true,
+      "hold": "kirinti"
+     },
+     {
+      "k": "karinca",
+      "x": 184,
+      "y": 234,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti",
+      "flip": true
+     },
+     {
+      "k": "karinca",
+      "x": 219,
+      "y": 234,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti",
+      "flip": true
+     },
+     {
+      "k": "karinca",
+      "x": 254,
+      "y": 234,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti",
+      "flip": true
+     },
+     {
+      "k": "karinca",
+      "x": 289,
+      "y": 234,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 372,
+      "y": 196,
+      "s": 1.1
+     }
+    ]
+   },
+   "hits": {
+    "kipir": {
+     "say": "Dur! Burası karınca yolu!",
+     "voice": "kipir",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "can": {
+     "say": "Eyvah! Az kalsın basıyordum!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "tombi": {
+     "say": "Ben de durdum!",
+     "voice": "tombi",
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "predict": {
+    "q": "Sence Can şimdi ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Durup bekler",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "summer",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "fil",
+         "x": 40,
+         "y": 200,
+         "s": 0.85,
+         "mood": "calm",
+         "pose": "stand"
+        },
+        {
+         "k": "can",
+         "x": 140,
+         "y": 226,
+         "s": 1.1,
+         "mood": "calm",
+         "pose": "sit",
+         "hit": "can"
+        },
+        {
+         "k": "karinca",
+         "x": 340,
+         "y": 234,
+         "s": 1.35,
+         "mood": "happy",
+         "pose": "wave",
+         "flip": true,
+         "hold": "kirinti"
+        },
+        {
+         "k": "karinca",
+         "x": 184,
+         "y": 234,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "walk",
+         "hold": "kirinti",
+         "flip": true
+        },
+        {
+         "k": "karinca",
+         "x": 219,
+         "y": 234,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "walk",
+         "hold": "kirinti",
+         "flip": true
+        },
+        {
+         "k": "karinca",
+         "x": 254,
+         "y": 234,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "walk",
+         "hold": "kirinti",
+         "flip": true
+        },
+        {
+         "k": "karinca",
+         "x": 289,
+         "y": 234,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "walk",
+         "hold": "kirinti",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "tree",
+         "x": 372,
+         "y": 196,
+         "s": 1.1
+        }
+       ]
+      }
+     },
+     {
+      "l": "Üstünden aşar",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "summer",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "fil",
+         "x": 48,
+         "y": 200,
+         "s": 0.85,
+         "mood": "happy",
+         "pose": "stand"
+        },
+        {
+         "k": "karinca",
+         "x": 120,
+         "y": 234,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "walk",
+         "hold": "kirinti",
+         "flip": true
+        },
+        {
+         "k": "karinca",
+         "x": 155,
+         "y": 234,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "walk",
+         "hold": "kirinti",
+         "flip": true
+        },
+        {
+         "k": "karinca",
+         "x": 190,
+         "y": 234,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "walk",
+         "hold": "kirinti",
+         "flip": true
+        },
+        {
+         "k": "karinca",
+         "x": 225,
+         "y": 234,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "walk",
+         "hold": "kirinti",
+         "flip": true
+        },
+        {
+         "k": "karinca",
+         "x": 258,
+         "y": 236,
+         "s": 1.3,
+         "mood": "laugh",
+         "pose": "wave",
+         "hold": "kirinti",
+         "flip": false
+        },
+        {
+         "k": "can",
+         "x": 312,
+         "y": 228,
+         "s": 1.1,
+         "mood": "happy",
+         "pose": "walk",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "tree",
+         "x": 375,
+         "y": 192,
+         "s": 0.9
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "kipir",
+    "Kıpır'a dokun!"
+   ],
+   "ask": "Can neden durdu? Sence karıncalar nereye gidiyor?",
+   "cues": [
+    {
+     "w": 17,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Can durdu. Derin bir nefes aldı: hııı, fuuu. Eğilip baktı. Kıpır ve arkadaşları kırıntı taşıyordu. Kaç karınca var?",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 44,
+      "y": 194,
+      "s": 0.8,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "tombi"
+     },
+     {
+      "k": "can",
+      "x": 100,
+      "y": 228,
+      "s": 1.3,
+      "mood": "calm",
+      "pose": "crawl",
+      "hit": "can"
+     },
+     {
+      "k": "karinca",
+      "x": 352,
+      "y": 232,
+      "s": 1.55,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "kipir",
+      "flip": true,
+      "hold": "kirinti"
+     },
+     {
+      "k": "karinca",
+      "x": 176,
+      "y": 234,
+      "s": 1.35,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "k1",
+      "hold": "kirinti",
+      "flip": true
+     },
+     {
+      "k": "karinca",
+      "x": 218,
+      "y": 222,
+      "s": 1.35,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "k2",
+      "hold": "kirinti",
+      "flip": true
+     },
+     {
+      "k": "karinca",
+      "x": 260,
+      "y": 234,
+      "s": 1.35,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "k3",
+      "hold": "kirinti",
+      "flip": true
+     },
+     {
+      "k": "karinca",
+      "x": 302,
+      "y": 222,
+      "s": 1.35,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "k4",
+      "hold": "kirinti",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "bush",
+      "x": 200,
+      "y": 192,
+      "s": 0.7
+     }
+    ]
+   },
+   "hits": {
+    "kipir": {
+     "say": "Kırıntılar yuvamıza gidiyor!",
+     "voice": "kipir",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "can": {
+     "say": "Hııı, fuuu. Sakinim.",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "blow"
+    },
+    "tombi": {
+     "say": "Ben de bakıyorum!",
+     "voice": "tombi",
+     "anim": "wiggle",
+     "fx": "step"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "k1",
+     "k2",
+     "k3",
+     "k4",
+     "kipir"
+    ],
+    "done": "Beş karınca, beş kırıntı!",
+    "msg": "Beş karınca!"
+   },
+   "hint": [
+    "k1",
+    "Karıncaları say!"
+   ],
+   "ask": "Sen heyecanlanınca nasıl sakinleşirsin? Birlikte hııı, fuuu yapalım mı?"
+  },
+  {
+   "text": "Can düşündü: “Karınca gibi hafif yürüsem?” Önce yere baktı. Parmak uçlarına kalktı. Kollarını açtı. Pıt, pıt! Karıncalara değmeden yollarının üstünden aştı.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 330,
+      "y": 196,
+      "s": 0.75,
+      "mood": "surprised",
+      "pose": "walk",
+      "hit": "tombi",
+      "flip": true
+     },
+     {
+      "k": "can",
+      "x": 46,
+      "y": 228,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "can"
+     },
+     {
+      "k": "karinca",
+      "x": 140,
+      "y": 200,
+      "s": 0.75,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti"
+     },
+     {
+      "k": "karinca",
+      "x": 148,
+      "y": 212,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti"
+     },
+     {
+      "k": "karinca",
+      "x": 156,
+      "y": 224,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti"
+     },
+     {
+      "k": "karinca",
+      "x": 164,
+      "y": 237,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti"
+     },
+     {
+      "k": "karinca",
+      "x": 372,
+      "y": 236,
+      "s": 1.25,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "kipir",
+      "hold": "kirinti",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "bush",
+      "x": 24,
+      "y": 194,
+      "s": 0.8
+     },
+     {
+      "k": "flower",
+      "x": 110,
+      "y": 200,
+      "s": 0.45,
+      "color": "#E86A92"
+     },
+     {
+      "k": "flower",
+      "x": 262,
+      "y": 204,
+      "s": 0.4,
+      "color": "#F2C94C"
+     }
+    ]
+   },
+   "hits": {
+    "kipir": {
+     "say": "Vay! Tam bir karınca gibi!",
+     "voice": "kipir",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "tombi": {
+     "say": "Ben de deneyeceğim!",
+     "voice": "tombi",
+     "anim": "boing",
+     "fx": "step"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "can",
+    "steps": 4,
+    "step": 46,
+    "say": "Pıt!",
+    "done": "Pıt pıt! Karıncalara hiç değmedi.",
+    "msg": "Hafif adımlar!"
+   },
+   "hint": [
+    "can",
+    "Can'a dokun, pıt pıt!"
+   ],
+   "ask": "Parmak ucunda yürürken bedeninde ne hissediyorsun? Hadi sen de pıt pıt yürü!"
+  },
+  {
+   "text": "Karıncalar yuvaya vardı. Tombi de denedi: pıt… pıt… Kocaman fil, minicik adımlar! Kıpır güldü. Can gururlandı. “Boş yolda güm güm, karınca yolunda pıt pıt!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 176,
+      "y": 200,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "tombi"
+     },
+     {
+      "k": "can",
+      "x": 84,
+      "y": 230,
+      "s": 1.15,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "can"
+     },
+     {
+      "k": "karinca",
+      "x": 290,
+      "y": 236,
+      "s": 1.35,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "kipir",
+      "flip": true,
+      "hold": "kirinti"
+     },
+     {
+      "k": "karinca",
+      "x": 320,
+      "y": 226,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti"
+     },
+     {
+      "k": "karinca",
+      "x": 336,
+      "y": 230,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti"
+     },
+     {
+      "k": "karinca",
+      "x": 352,
+      "y": 226,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "walk",
+      "hold": "kirinti"
+     }
+    ],
+    "props": [
+     {
+      "k": "kutuk",
+      "x": 366,
+      "y": 214,
+      "s": 1.3,
+      "hit": "yuva"
+     },
+     {
+      "k": "tree",
+      "x": 40,
+      "y": 192,
+      "s": 1.1
+     },
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 234,
+      "s": 0.55,
+      "color": "#E86A92"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Boş yolda güm güm!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "thump",
+     "hearts": true
+    },
+    "tombi": {
+     "say": "Karınca yolunda pıt pıt!",
+     "voice": "tombi",
+     "anim": "boing",
+     "fx": "step",
+     "hearts": true
+    },
+    "kipir": {
+     "say": "Teşekkürler, hafif adımlı dostlar!",
+     "voice": "kipir",
+     "anim": "jump",
+     "fx": "chime",
+     "hearts": true
+    },
+    "yuva": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "kipir",
+    "Kıpır'a dokun!"
+   ],
+   "ask": "Nerede güm güm yürürüz, nerede pıt pıt? Evde hafif yürüdüğün bir yer var mı?"
+  }
+ ],
+ "order": [
+  1,
+  2,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.1 (öğrenme çıktısı): Farklı çevre ve fiziksel etkinliklerde büyük kas becerilerini etkin bir şekilde uygulayabilme. HSAB.1.a Farklı ortam ve koşullarda yer değiştirme hareketleri yapar: çocuk boş yolda fil gibi ağır, karınca yolunda parmak ucunda hafif yürür. HSAB.1.b Etkinliğin durumuna uygun denge hareketleri yapar: kollarını açıp parmak ucunda dengede durur.",
+   "HSAB.4 (öğrenme çıktısı, teyitsiz): Beden farkındalığına dayalı hareket örüntüleri sergileyebilme. Çocuk ağır ve hafif adımın bedeninde nasıl hissettirdiğini fark eder; güm güm ve pıt pıt adımları sırayla yapar.",
+   "HSAB.5 (öğrenme çıktısı, teyitsiz): Kişisel ve genel alanın farkında olarak hareket edebilme. Çocuk önce yere bakar, karınca yolunu fark eder ve adımını ona göre ayarlar.",
+   "TADB.2 (öğrenme çıktısı): Dinledikleri/izledikleri şiir, hikâye, tekerleme gibi materyaller ile ilgili yeni anlamlar oluşturabilme; materyallere ilişkin çıkarım yapar, materyallerdeki bilgilerle günlük hayatı arasında ilişki kurar. Çocuk Can'ın neden durduğunu çıkarır ve evde, sınıfta nerede hafif yürüdüğünü anlatır.",
+   "SDB1.2 Kendini Düzenleme (sosyal-duygusal öğrenme becerisi): Can heyecanlanınca durur, derin nefes alır ve adımlarını ortama göre ayarlar.",
+   "D5 Duyarlılık (değer): Karıncaların yolunu fark edip onları ezmemek için yürüyüşünü değiştirir; küçük canlılara özen gösterir."
+  ],
+  "once": [
+   "Kapağı gösterin: “Fil nasıl yürür? Karınca nasıl yürür?” Önce ayaklarınızla yere güm güm, sonra parmak uçlarınızla pıt pıt vurun.",
+   "“Hiç yerde karınca gördün mü? Ne yapıyordu?” diye sorun; her cevabı kabul edin."
+  ],
+  "sirasi": [
+   "1. ve 2. sayfada her “Güm!” sözünde birlikte ayağınızı yere vurun.",
+   "3. sayfada Can'ın duygusunu adlandırın: “Can çok şaşırdı. Kalbi küt küt attı.” Arkada Tombi'nin de durduğunu gösterin. Tahmin sorusunda iki cevabı da övün.",
+   "4. sayfada birlikte derin nefes alın: burundan hııı, ağızdan fuuu. Sonra karıncaları parmakla tek tek sayın.",
+   "5. sayfada Can'ın fikrini vurgulayın: “Önce yere bakıyoruz, sonra hafif adım atıyoruz.” Karıncaya basmıyoruz: üstünden aşıyoruz ya da etrafından dolaşıyoruz. Ayağa kalkın, kollarınızı açıp parmak ucunda birkaç adım atın.",
+   "6. sayfada kapanış sözünü birlikte söyleyin: “Boş yolda güm güm, karınca yolunda pıt pıt!”"
+  ],
+  "sonra": [
+   "Can boş yolda nasıl yürüdü? Karınca yolunda nasıl yürüdü?",
+   "Karınca gibi hafif yürümek kimin fikriydi? Sen olsan ne yapardın?",
+   "Evde ya da sınıfta nerede hafif yürümemiz gerekir? (Bebek uyurken, kütüphanede...)"
+  ],
+  "sinif": {
+   "ad": "Güm Güm, Pıt Pıt Yolu",
+   "sure": "15 dk",
+   "materyal": "Tef ya da davul, yere yapıştırılan renkli bant, kâğıttan kesilmiş karınca resimleri",
+   "adim": [
+    "Yere bantla bir yol yapın, yolun ortasına kâğıt karıncalarla bir “karınca yolu” dizin.",
+    "Öğretmen teften güçlü ve yavaş vurunca çocuklar fil gibi güm güm yürür; hafif ve hızlı vurunca parmak ucunda pıt pıt yürür.",
+    "Karınca yoluna gelen çocuk durur, bir derin nefes alır, kollarını açıp karıncalara basmadan parmak ucunda geçer.",
+    "Sonunda çember olun: “Ağır adım mı daha kolaydı, hafif adım mı?” diye konuşun."
+   ]
+  },
+  "evSoru": [
+   "Can neden birden durdu?",
+   "Kıpır ve arkadaşları ne taşıyordu?",
+   "Sen parmak ucunda kaç adım atabilirsin?"
+  ],
+  "evEtk": {
+   "ad": "Evde Ağır–Hafif Yürüyüş",
+   "d": "Salonda bir yastığı “karınca yolu” yapın. Müzik açıkken fil gibi güm güm yürüyün; müzik kısılınca parmak ucunda pıt pıt, yastığa basmadan geçin. Sonra rolleri değiştirin: çocuk sesi açsın, siz yürüyün."
+  },
+  "aileNotu": "Bugün “Fil Gibi Ağır, Karınca Gibi Hafif” masalını okuduk. Can, yavru fil Tombi ile güm güm yürürken yolda bir karınca sırası gördü; durdu, derin nefes aldı ve parmak ucunda, karıncalara değmeden yolun üstünden aştı. Çocuklarımız ağır ve hafif adımları, parmak ucunda dengede yürümeyi denedi. Evde de bebek uyurken ya da bahçede küçük canlıların yanından geçerken “karınca gibi hafif” yürümeyi birlikte oynayabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/061-fil-gibi-agir-karinca-gibi-hafif.mp3",
+  "hash": "e336026e",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10571,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2509,
+      6
+     ],
+     [
+      2769,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      4430,
+      9
+     ],
+     [
+      4689,
+      10
+     ],
+     [
+      4930,
+      11
+     ],
+     [
+      5709,
+      12
+     ],
+     [
+      5930,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      7269,
+      15
+     ],
+     [
+      7870,
+      16
+     ],
+     [
+      8730,
+      17
+     ],
+     [
+      9230,
+      18
+     ],
+     [
+      9669,
+      19
+     ],
+     [
+      10049,
+      20
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 10871,
+    "d": 2357,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      368,
+      1
+     ],
+     [
+      1087,
+      2
+     ],
+     [
+      1415,
+      3
+     ],
+     [
+      1744,
+      4
+     ]
+    ]
+   },
+   "p0h-tombi": {
+    "s": 13529,
+    "d": 2140,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1709,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 15969,
+    "d": 8227,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      4149,
+      7
+     ],
+     [
+      4569,
+      8
+     ],
+     [
+      5109,
+      9
+     ],
+     [
+      6029,
+      10
+     ],
+     [
+      6989,
+      11
+     ],
+     [
+      7229,
+      12
+     ],
+     [
+      7509,
+      13
+     ]
+    ]
+   },
+   "p1h-tombi": {
+    "s": 24496,
+    "d": 2260,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 27056,
+    "d": 2632,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      1989,
+      4
+     ]
+    ]
+   },
+   "p1ms": {
+    "s": 29989,
+    "d": 549,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 30839,
+    "d": 10129,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4249,
+      8
+     ],
+     [
+      4729,
+      9
+     ],
+     [
+      5709,
+      10
+     ],
+     [
+      6069,
+      11
+     ],
+     [
+      6410,
+      12
+     ],
+     [
+      6789,
+      13
+     ],
+     [
+      7529,
+      14
+     ],
+     [
+      7769,
+      15
+     ],
+     [
+      8709,
+      16
+     ],
+     [
+      9129,
+      17
+     ],
+     [
+      9409,
+      18
+     ],
+     [
+      9690,
+      19
+     ]
+    ]
+   },
+   "p2h-kipir": {
+    "s": 41269,
+    "d": 2107,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1609,
+      3
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 43677,
+    "d": 2625,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1069,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1809,
+      3
+     ]
+    ]
+   },
+   "p2h-tombi": {
+    "s": 46603,
+    "d": 980,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      409,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 47883,
+    "d": 1966,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1369,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 50149,
+    "d": 2203,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1709,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 52653,
+    "d": 10101,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      3043,
+      6
+     ],
+     [
+      3951,
+      7
+     ],
+     [
+      4930,
+      8
+     ],
+     [
+      5330,
+      9
+     ],
+     [
+      6149,
+      10
+     ],
+     [
+      6529,
+      11
+     ],
+     [
+      6689,
+      12
+     ],
+     [
+      7469,
+      13
+     ],
+     [
+      7890,
+      14
+     ],
+     [
+      9009,
+      15
+     ],
+     [
+      9270,
+      16
+     ],
+     [
+      9730,
+      17
+     ]
+    ]
+   },
+   "p3h-kipir": {
+    "s": 63055,
+    "d": 1756,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1189,
+      2
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 65112,
+    "d": 2874,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      971,
+      1
+     ],
+     [
+      2082,
+      2
+     ]
+    ]
+   },
+   "p3h-tombi": {
+    "s": 68286,
+    "d": 1127,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      240,
+      1
+     ],
+     [
+      440,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 69713,
+    "d": 1981,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 71995,
+    "d": 11633,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3629,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      4669,
+      9
+     ],
+     [
+      5029,
+      10
+     ],
+     [
+      5509,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      6930,
+      13
+     ],
+     [
+      7629,
+      14
+     ],
+     [
+      8109,
+      15
+     ],
+     [
+      8749,
+      16
+     ],
+     [
+      9409,
+      17
+     ],
+     [
+      10089,
+      18
+     ],
+     [
+      10669,
+      19
+     ],
+     [
+      11189,
+      20
+     ]
+    ]
+   },
+   "p4h-kipir": {
+    "s": 83928,
+    "d": 2583,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2150,
+      4
+     ]
+    ]
+   },
+   "p4h-tombi": {
+    "s": 86812,
+    "d": 1101,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      211,
+      1
+     ],
+     [
+      382,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 88213,
+    "d": 2748,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2130,
+      4
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 91261,
+    "d": 412,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5": {
+    "s": 91974,
+    "d": 13368,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      3150,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4729,
+      8
+     ],
+     [
+      5390,
+      9
+     ],
+     [
+      5890,
+      10
+     ],
+     [
+      6350,
+      11
+     ],
+     [
+      7269,
+      12
+     ],
+     [
+      7749,
+      13
+     ],
+     [
+      8489,
+      14
+     ],
+     [
+      8789,
+      15
+     ],
+     [
+      9869,
+      16
+     ],
+     [
+      10190,
+      17
+     ],
+     [
+      10629,
+      18
+     ],
+     [
+      10969,
+      19
+     ],
+     [
+      11549,
+      20
+     ],
+     [
+      12029,
+      21
+     ],
+     [
+      12689,
+      22
+     ],
+     [
+      12969,
+      23
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 105642,
+    "d": 2402,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1382,
+      2
+     ],
+     [
+      1872,
+      3
+     ]
+    ]
+   },
+   "p5h-tombi": {
+    "s": 108345,
+    "d": 1965,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      711,
+      1
+     ],
+     [
+      1383,
+      2
+     ],
+     [
+      1654,
+      3
+     ]
+    ]
+   },
+   "p5h-kipir": {
+    "s": 110611,
+    "d": 2284,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1709,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

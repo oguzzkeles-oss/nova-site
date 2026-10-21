@@ -1,0 +1,2092 @@
+{
+ "id": "059-doktor-kalbimi-dinledi",
+ "n": 59,
+ "title": "Doktor Kalbimi Dinledi",
+ "age": "36-48",
+ "area": "Hareket ve Sağlık",
+ "theme": "Sağlık kontrolü, izin istemek ve nefesle sakinleşmek",
+ "values": [
+  "D13 Sağlıklı Yaşam",
+  "D8 Mahremiyet"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 5,
+ "blurb": "Ali sağlık ocağındaki kontrolden biraz çekinir. Doktor Nazlı önce izin ister, birlikte nefes alırlar; Ali stetoskoptan kendi kalbinin güm güm sesini duyunca çok şaşırır.",
+ "codes": {
+  "maarif": [
+   "HSAB.8 Aktif ve sağlıklı yaşam için gereken zindelik becerilerinin neler olduğunu söyleyebilme (HSAB.8.a Hareket sırasında solunum, kalp atımı ve terleme değişimlerini fark eder; HSAB.8.c Gerektiğinde dinlenme ihtiyacını ifade eder)",
+   "TADB.3 Dinledikleri/izledikleri materyalleri çözümleyebilme (olayların parçalarını belirler; dinlediklerini oluş sırasına göre söyler)",
+   "SDB1.2 Kendini Düzenleme",
+   "E2.4 Güven",
+   "D13 Sağlıklı Yaşam",
+   "D8 Mahremiyet"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ali": "cocuk-erkek",
+  "doktor": "doktor",
+  "anne": "anne"
+ },
+ "voiceNames": {
+  "ali": "Ali",
+  "doktor": "Doktor Nazlı",
+  "anne": "Ali'nin annesi"
+ },
+ "pages": [
+  {
+   "text": "Bugün Ali'nin kontrol günüydü. Annesiyle aile sağlığı merkezine geldi. Ali biraz çekiniyordu. Karnı kıpır kıpırdı. Annesinin elini sıkıca tuttu. “Hoş geldin, Ali!” dedi Doktor Nazlı.",
+   "scene": {
+    "set": "saglik-ocagi",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 120,
+      "y": 224,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "hug",
+      "hit": "anne",
+      "turn": 0.45
+     },
+     {
+      "k": "ali",
+      "x": 165,
+      "y": 230,
+      "s": 1.1,
+      "mood": "shy",
+      "pose": "stand",
+      "hit": "ali",
+      "turn": 0.5
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 300,
+      "y": 220,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "doktor",
+      "flip": true
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "ali": {
+     "say": "Anne, yanımda kal, olur mu?",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "anne": {
+     "say": "Buradayım canım, hep yanındayım.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "doktor": {
+     "say": "Hoş geldin Ali! Ben Doktor Nazlı.",
+     "voice": "doktor",
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Ali'nin karnı kıpır kıpır. Sen doktora gidince neler hissedersin?"
+  },
+  {
+   "text": "Doktor Nazlı duvardaki zürafayı gösterdi. “Önce boyuna bakalım. Sonra tartıya çıkalım.” Ali zürafanın yanında dimdik durdu. Hop, tartıya! Hop hop, yatağa!",
+   "scene": {
+    "set": "saglik-ocagi",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 80,
+      "y": 194,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "seat",
+      "hit": "anne",
+      "turn": 0.5
+     },
+     {
+      "k": "ali",
+      "x": 154,
+      "y": 202,
+      "s": 1.0,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "ali",
+      "turn": 0.3
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 246,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "doktor",
+      "flip": true
+     }
+    ],
+    "props": [],
+    "hot": {
+     "zurafa": "zurafa",
+     "tarti": "tarti",
+     "yatak": "yatak"
+    }
+   },
+   "hits": {
+    "zurafa": {
+     "anim": "boing",
+     "fx": "xylo"
+    },
+    "tarti": {
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "yatak": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ali": {
+     "say": "Zürafa kadar uzadım mı?",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "doktor": {
+     "say": "Kocaman olmuşsun Ali!",
+     "voice": "doktor",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "anne": {
+     "say": "Aferin sana, dimdik durdun!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "zurafa",
+     "tarti",
+     "yatak"
+    ],
+    "done": "Boy, kilo, yatak… Hepsi tamam!",
+    "msg": "Sırayla hepsini yaptın!"
+   },
+   "hint": [
+    "zurafa",
+    "Önce zürafaya dokun!"
+   ],
+   "ask": "Ali önce nereye çıktı, sonra nereye? Sen ne kadar uzadın, neyle ölçebiliriz?"
+  },
+  {
+   "text": "“Kalbini dinleyebilir miyim?” dedi Doktor Nazlı. Ali'nin kalbi küt küt attı. “Önce ayıcığımı dinleyin!” dedi Ali. Doktor Nazlı ayıcığı dinledi. “Pamuk gibi bir kalp!”",
+   "scene": {
+    "set": "saglik-ocagi",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 200,
+      "y": 230,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "anne",
+      "turn": 0.4
+     },
+     {
+      "k": "ali",
+      "x": 352,
+      "y": 178,
+      "s": 1.1,
+      "mood": "shy",
+      "pose": "seat",
+      "hit": "ali",
+      "turn": -0.6
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 270,
+      "y": 226,
+      "s": 1.05,
+      "mood": "calm",
+      "pose": "point",
+      "hit": "doktor"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 382,
+      "y": 150,
+      "s": 0.9,
+      "hit": "ayicik"
+     },
+     {
+      "k": "qmark",
+      "x": 340,
+      "y": 60
+     }
+    ]
+   },
+   "hits": {
+    "doktor": {
+     "say": "Kalbini dinleyebilir miyim, Ali?",
+     "voice": "doktor",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "Önce ayıcığımı dinle!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "anne": {
+     "say": "Karar vermek için acele yok.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ayicik": {
+     "say": "Pıt pıt! Ayıcığın kalbi pamuk gibi!",
+     "voice": "doktor",
+     "anim": "jump",
+     "fx": "drum"
+    }
+   },
+   "predict": {
+    "q": "Sence Ali şimdi ne yapacak?",
+    "res": "İkisi de güzel bir fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Annesine sarılır",
+      "scene": {
+       "set": "saglik-ocagi",
+       "time": "day",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "anne",
+         "x": 250,
+         "y": 226,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "hug",
+         "flip": true
+        },
+        {
+         "k": "ali",
+         "x": 190,
+         "y": 228,
+         "s": 1.1,
+         "mood": "calm",
+         "pose": "hug"
+        }
+       ],
+       "props": [
+        {
+         "k": "heart",
+         "x": 220,
+         "y": 70
+        }
+       ]
+      }
+     },
+     {
+      "l": "Derin nefes alır",
+      "scene": {
+       "set": "saglik-ocagi",
+       "time": "day",
+       "weather": "sun",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 200,
+         "y": 228,
+         "s": 1.2,
+         "mood": "calm",
+         "pose": "open"
+        }
+       ],
+       "props": [
+        {
+         "k": "cloud",
+         "x": 250,
+         "y": 70,
+         "s": 0.6
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "doktor",
+    "Doktora dokun!"
+   ],
+   "ask": "Ali önce kimin kalbini dinletti? Sen çekinince ne yaparsın?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ali annesinin elini tuttu. Doktor Nazlı, “Önce nefes alalım,” dedi. Parmağını kaldırdı. “Çiçeği kokla. Parmak mumumu üfle!” Ali kokladı, üfledi. Oh, rahatladı.",
+   "scene": {
+    "set": "saglik-ocagi",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 352,
+      "y": 178,
+      "s": 1.1,
+      "mood": "calm",
+      "pose": "seat",
+      "hit": "ali",
+      "flip": true
+     },
+     {
+      "k": "anne",
+      "x": 298,
+      "y": 208,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "hug",
+      "hit": "anne"
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 196,
+      "y": 228,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "mum"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 246,
+      "y": 136,
+      "s": 0.7,
+      "hit": "cicek"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 384,
+      "y": 150,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Kokla… üfle… Oh, oldu!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "anne": {
+     "say": "Aferin, yavaş yavaş.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "mum": {
+     "say": "Parmak mumumu üfle!",
+     "voice": "doktor",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "cicek": {
+     "anim": "boing",
+     "fx": "sniff"
+    }
+   },
+   "mech": {
+    "type": "breathe",
+    "flower": "cicek",
+    "candle": "mum",
+    "who": "ali",
+    "times": 3,
+    "done": "Oh! Ali şimdi daha sakin.",
+    "msg": "Üç derin nefes!"
+   },
+   "hint": [
+    "cicek",
+    "Önce çiçeği kokla!"
+   ],
+   "ask": "Hadi biz de deneyelim: çiçeği kokla, parmak mumunu üfle. Üç kez! Nasıl hissettin?"
+  },
+  {
+   "text": "“Evet, dinleyebilirsiniz!” dedi Ali. Stetoskop serin serin değdi. Sonra Ali de kulaklığı taktı. Güm güm! Güm güm! “Bu benim kalbim mi?”",
+   "scene": {
+    "set": "saglik-ocagi",
+    "time": "day",
+    "weather": "sun",
+    "curtain": "closed",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 90,
+      "y": 222,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "anne",
+      "turn": 0.5
+     },
+     {
+      "k": "ali",
+      "x": 196,
+      "y": 232,
+      "s": 1.2,
+      "mood": "surprised",
+      "pose": "hold",
+      "hold": "stetoskop",
+      "hit": "ali"
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 300,
+      "y": 224,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "doktor",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 110,
+      "y": 66,
+      "s": 1.1,
+      "hit": "h1"
+     },
+     {
+      "k": "heart",
+      "x": 165,
+      "y": 50,
+      "s": 1.1,
+      "hit": "h2"
+     },
+     {
+      "k": "heart",
+      "x": 220,
+      "y": 50,
+      "s": 1.1,
+      "hit": "h3"
+     },
+     {
+      "k": "heart",
+      "x": 275,
+      "y": 62,
+      "s": 1.1,
+      "hit": "h4"
+     }
+    ]
+   },
+   "hits": {
+    "h": {
+     "anim": "boing",
+     "fx": "drum"
+    },
+    "ali": {
+     "say": "Güm güm! Bu benim kalbim!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "doktor": {
+     "say": "Evet, senin kalbin. Çalışkan bir kalp!",
+     "voice": "doktor",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "anne": {
+     "say": "Ben de duymak istiyorum!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "h1",
+     "h2",
+     "h3",
+     "h4"
+    ],
+    "done": "Dört kere güm! Ali'nin kalbi çalışıyor.",
+    "msg": "Ali'nin kalp atışlarını saydın!"
+   },
+   "hint": [
+    "h1",
+    "Kalplere dokun, say!"
+   ],
+   "ask": "Ali kalbini duyunca ne hissetti? Sen de elini göğsüne koy: ne duyuyorsun?"
+  },
+  {
+   "text": "Doktor Nazlı, “Şimdi tavşan gibi zıpla zıpla!” dedi. Hop! Hop! Hop! Ali yine dinledi. Güm güm güm! Kalbi hızlandı. “Kalbim koşuyor!”",
+   "scene": {
+    "set": "saglik-ocagi",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 184,
+      "y": 226,
+      "s": 1.15,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "ali"
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 292,
+      "y": 222,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "doktor",
+      "flip": true
+     },
+     {
+      "k": "anne",
+      "x": 80,
+      "y": 194,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "anne",
+      "turn": 0.5
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 150,
+      "y": 72,
+      "s": 0.9
+     },
+     {
+      "k": "heart",
+      "x": 214,
+      "y": 58,
+      "s": 1.1
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Hop! Hop! Hop! Kalbim koşuyor!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "doktor": {
+     "say": "Zıplayınca kalp hızlı atar.",
+     "voice": "doktor",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "anne": {
+     "say": "Ne güzel zıpladın!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'yi zıplat!"
+   ],
+   "ask": "Ali zıplayınca kalbi nasıl attı? Hadi biz de bir şarkı boyunca tavşan gibi zıplayalım, sonra elimizi göğsümüze koyalım."
+  },
+  {
+   "text": "“Biraz dinleneyim,” dedi Ali. Güm… güm… Kalbi yavaşladı. “Kalbin tıkır tıkır çalışıyor!” dedi Doktor Nazlı. Ali kocaman gülümsedi. “Hoşça kalın! Güm güm!”",
+   "scene": {
+    "set": "saglik-ocagi",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 140,
+      "y": 222,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "anne",
+      "turn": 0.4,
+      "flip": true
+     },
+     {
+      "k": "ali",
+      "x": 74,
+      "y": 192,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "seat",
+      "hit": "ali",
+      "stool": false,
+      "turn": 0.4
+     },
+     {
+      "k": "doktor",
+      "female": true,
+      "x": 306,
+      "y": 222,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "doktor",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 240,
+      "y": 64,
+      "s": 1.2
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 108,
+      "y": 165,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Hoşça kalın! Güm güm!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "doktor": {
+     "say": "Güle güle Ali! Kalbin tıkır tıkır.",
+     "voice": "doktor",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "anne": {
+     "say": "Seninle gurur duyuyorum.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali ile vedalaş!"
+   ],
+   "ask": "Ali en başta nasıl hissediyordu, en sonda nasıl? Ona ne yardım etti?"
+  }
+ ],
+ "order": [
+  0,
+  2,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.8 Aktif ve sağlıklı yaşam için gereken zindelik becerilerinin neler olduğunu söyleyebilme (HSAB.8.a Hareket sırasında solunum, kalp atımı ve terleme değişimlerini fark eder): Zıpladıktan sonra kalbinin hızlandığını, dinlenince yavaşladığını fark eder ve söyler. HSAB.8.c Gerektiğinde dinlenme ihtiyacını ifade eder: Ali gibi “Biraz dinleneyim” diyebilir.",
+   "SDB1.2 Kendini Düzenleme ve E2.4 Güven: Çekindiğinde bedenindeki işaretleri (karnı kıpır kıpır, kalbi küt küt) fark eder; güvendiği bir büyüğün elini tutarak ve “çiçeği kokla, mumu üfle” nefesiyle sakinleşir.",
+   "D8 Mahremiyet ve D13 Sağlıklı Yaşam: Doktorun bile bedenine dokunmadan önce izin istediğini, kontrolün güvendiği bir büyüğün yanında yapıldığını; “Önce ayıcığımı dinle!” diyerek hızı kendisinin de belirleyebildiğini fark eder; düzenli sağlık kontrolünün sağlığı korumak için yapıldığını söyler.",
+   "TADB.3 Dinledikleri/izledikleri materyalleri çözümleyebilme (olayların parçalarını belirler; dinlediklerini oluş sırasına göre söyler): Masal sonundaki sıralama oyununda geliş, izin isteme ve zıplama sahnelerini sıraya koyar."
+  ],
+  "once": [
+   "Kapağı gösterin: “Ali nereye gelmiş? Sen hiç sağlık ocağına ya da doktora gittin mi?”",
+   "Elinizi göğsünüze koyun, çocuk da koysun: “Şşş… Bir şey duyuyor musun? Kalbimiz ne der?”",
+   "Oyuncak ya da resimli bir stetoskop gösterin: “Bu ne olabilir? Doktor bununla neyi dinler?”"
+  ],
+  "sirasi": [
+   "1. sayfada Ali'nin bedenine bakın: “Karnı kıpır kıpır. Ali ne hissediyor olabilir?” Çekinmenin olağan bir duygu olduğunu söyleyin.",
+   "3. sayfada durun: “Doktor Ali'ye ne sordu? Ali ne istedi?” İki tahminin de güvenli olduğunu vurgulayın; bedenimize dokunmadan önce izin istenir, güvendiğimiz büyük yanımızdadır.",
+   "4. ve 6. sayfalarda nefesi ve zıplamayı birlikte yapın; sonra elinizi göğsünüze koyup kalbin hızlanıp yavaşladığını hissedin."
+  ],
+  "sonra": [
+   "Olayları sırayla anlattırın: “Önce ne oldu? Doktor neleri ölçtü? En sonda Ali nasıl hissetti?”",
+   "“Çiçeği kokla, mumu üfle” nefesini parmak mumuyla üç kez tekrarlayın; “Ne zaman bu nefesi kullanabilirsin?” diye sorun.",
+   "İzin dilini konuşun: “Doktor Nazlı Ali'ye ne sordu? Ali ne istedi?” Senin bedenin sana ait. Doktor kontrolünde güvendiğin bir büyüğün yanında olur."
+  ],
+  "sinif": {
+   "ad": "Güm Güm Doktorculuk",
+   "sure": "20 dk",
+   "materyal": "Oyuncak stetoskoplar ya da kâğıt rulo (tuvalet kâğıdı rulosu), oyuncak ayılar, zürafa resimli boy şeridi, bir saksı çiçek",
+   "adim": [
+    "Masalı hatırlayın; herkes parmak mumunu kaldırır, çiçeği koklar, mumu üfler (üç kez).",
+    "Eşler olur: “doktor” olan çocuk önce sorar: “Kalbini dinleyebilir miyim?” Arkadaşı “Evet” ya da Ali gibi “Önce ayıcığı dinle” diyebilir; iki cevap da kabul edilir. Dinleme giysinin üstünden, göğsün ortasından yapılır; ‘Hayır’ diyen arkadaşın cevabına saygı gösterilir.",
+    "Rulo ya da stetoskopla kalbi dinleyin. Sonra bir şarkı boyunca (yaklaşık yarım dakika) tavşan gibi zıplayın ya da yerinde koşun, elinizi göğsünüze koyun: “Kalbin ne yaptı?” Dinlenince bir kez daha dinleyin.",
+    "Kapanışta herkes “Kalbim hızlandı / yavaşladı” kartlarından (koşan ve uyuyan kalp resmi) birini gösterir."
+   ]
+  },
+  "evSoru": [
+   "Doktor Nazlı Ali'nin kalbini dinlemeden önce ne sordu?",
+   "Ali zıplayınca kalbi ne yaptı? Dinlenince ne oldu?",
+   "Sen çekindiğinde neler yaparsın? Kimin elini tutarsın?"
+  ],
+  "evEtk": {
+   "ad": "Evde Kalp Dinleme",
+   "d": "Bir kâğıt ruloyla sırayla birbirinizin kalbini dinleyin. Dinlemeden önce hep birlikte sorun: “Kalbini dinleyebilir miyim?” Sonra bir şarkı boyunca (yaklaşık yarım dakika) tavşan gibi zıplayın ya da yerinde koşun, elinizi göğsünüze koyun ve yeniden dinleyin; dinlenince bir kez daha dinleyin. Çocuğunuza kalbin hızlanıp yavaşladığını anlatması için fırsat verin."
+  },
+  "aileNotu": "Bugün “Doktor Kalbimi Dinledi” masalını okuduk. Ali sağlık kontrolünden biraz çekinir; annesinin elini tutar, doktoruyla “çiçeği kokla, mumu üfle” nefesini yapar ve kendi kalbinin sesini duyar. Doktor Nazlı Ali'ye dokunmadan önce izin ister; bu, çocuğun bedeninin kendine ait olduğunu hatırlatan güzel bir örnek. Kontrole giderken çocuğunuzu önceden hazırlayabilir, kaygısını küçümsemeden dinleyebilir ve bu nefes oyununu birlikte yapabilirsiniz. Masal 14 Mart Tıp Bayramı haftasında da okunabilir."
+ },
+ "audio": {
+  "file": "audio/059-doktor-kalbimi-dinledi.mp3",
+  "hash": "dfbf992b",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13591,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2469,
+      4
+     ],
+     [
+      3229,
+      5
+     ],
+     [
+      3549,
+      6
+     ],
+     [
+      3969,
+      7
+     ],
+     [
+      4549,
+      8
+     ],
+     [
+      5410,
+      9
+     ],
+     [
+      5609,
+      10
+     ],
+     [
+      5989,
+      11
+     ],
+     [
+      7089,
+      12
+     ],
+     [
+      7469,
+      13
+     ],
+     [
+      7829,
+      14
+     ],
+     [
+      8789,
+      15
+     ],
+     [
+      9390,
+      16
+     ],
+     [
+      9749,
+      17
+     ],
+     [
+      10209,
+      18
+     ],
+     [
+      11049,
+      19
+     ],
+     [
+      11310,
+      20
+     ],
+     [
+      11730,
+      21
+     ],
+     [
+      12390,
+      22
+     ],
+     [
+      12669,
+      23
+     ],
+     [
+      13069,
+      24
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 13891,
+    "d": 2223,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1930,
+      4
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 16415,
+    "d": 2158,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p0h-doktor": {
+    "s": 18873,
+    "d": 2379,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21553,
+    "d": 11857,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      3289,
+      5
+     ],
+     [
+      3589,
+      6
+     ],
+     [
+      3930,
+      7
+     ],
+     [
+      4669,
+      8
+     ],
+     [
+      4969,
+      9
+     ],
+     [
+      5410,
+      10
+     ],
+     [
+      6189,
+      11
+     ],
+     [
+      6569,
+      12
+     ],
+     [
+      7309,
+      13
+     ],
+     [
+      7849,
+      14
+     ],
+     [
+      8329,
+      15
+     ],
+     [
+      9129,
+      16
+     ],
+     [
+      9649,
+      17
+     ],
+     [
+      10569,
+      18
+     ],
+     [
+      10789,
+      19
+     ],
+     [
+      11289,
+      20
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 33710,
+    "d": 1839,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   },
+   "p1h-doktor": {
+    "s": 35850,
+    "d": 1512,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      570,
+      1
+     ],
+     [
+      1100,
+      2
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 37663,
+    "d": 2230,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1689,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 40193,
+    "d": 2967,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      2209,
+      3
+     ],
+     [
+      2549,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 43461,
+    "d": 11479,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      4109,
+      8
+     ],
+     [
+      4430,
+      9
+     ],
+     [
+      4689,
+      10
+     ],
+     [
+      5489,
+      11
+     ],
+     [
+      5789,
+      12
+     ],
+     [
+      6289,
+      13
+     ],
+     [
+      6989,
+      14
+     ],
+     [
+      7269,
+      15
+     ],
+     [
+      7910,
+      16
+     ],
+     [
+      8310,
+      17
+     ],
+     [
+      8869,
+      18
+     ],
+     [
+      9329,
+      19
+     ],
+     [
+      10129,
+      20
+     ],
+     [
+      10569,
+      21
+     ],
+     [
+      10829,
+      22
+     ],
+     [
+      10969,
+      23
+     ]
+    ]
+   },
+   "p2h-doktor": {
+    "s": 55241,
+    "d": 1668,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 57210,
+    "d": 1632,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      402,
+      1
+     ],
+     [
+      1229,
+      2
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 59142,
+    "d": 1953,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      414,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1163,
+      3
+     ],
+     [
+      1697,
+      4
+     ]
+    ]
+   },
+   "p2h-ayicik": {
+    "s": 61395,
+    "d": 2877,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2410,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 64573,
+    "d": 2006,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1430,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 66879,
+    "d": 2374,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      1889,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 69554,
+    "d": 13229,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      3729,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4689,
+      9
+     ],
+     [
+      5350,
+      10
+     ],
+     [
+      5890,
+      11
+     ],
+     [
+      6829,
+      12
+     ],
+     [
+      7249,
+      13
+     ],
+     [
+      7969,
+      14
+     ],
+     [
+      8409,
+      15
+     ],
+     [
+      8810,
+      16
+     ],
+     [
+      9549,
+      17
+     ],
+     [
+      9810,
+      18
+     ],
+     [
+      10810,
+      19
+     ],
+     [
+      11770,
+      20
+     ],
+     [
+      12469,
+      21
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 83083,
+    "d": 3719,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1189,
+      1
+     ],
+     [
+      2370,
+      2
+     ],
+     [
+      3069,
+      3
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 87103,
+    "d": 1894,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      890,
+      1
+     ],
+     [
+      1372,
+      2
+     ]
+    ]
+   },
+   "p3h-mum": {
+    "s": 89297,
+    "d": 1317,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 90915,
+    "d": 2327,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      576,
+      1
+     ],
+     [
+      1004,
+      2
+     ],
+     [
+      1431,
+      3
+     ],
+     [
+      1859,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 93543,
+    "d": 11234,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1909,
+      2
+     ],
+     [
+      2209,
+      3
+     ],
+     [
+      2930,
+      4
+     ],
+     [
+      3709,
+      5
+     ],
+     [
+      4129,
+      6
+     ],
+     [
+      4489,
+      7
+     ],
+     [
+      5330,
+      8
+     ],
+     [
+      5890,
+      9
+     ],
+     [
+      6089,
+      10
+     ],
+     [
+      6209,
+      11
+     ],
+     [
+      6729,
+      12
+     ],
+     [
+      7529,
+      13
+     ],
+     [
+      7930,
+      14
+     ],
+     [
+      8669,
+      15
+     ],
+     [
+      9089,
+      16
+     ],
+     [
+      9969,
+      17
+     ],
+     [
+      10190,
+      18
+     ],
+     [
+      10509,
+      19
+     ],
+     [
+      10969,
+      20
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 105077,
+    "d": 2627,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1849,
+      4
+     ]
+    ]
+   },
+   "p4h-doktor": {
+    "s": 108005,
+    "d": 3106,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      2650,
+      5
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 111412,
+    "d": 1418,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      232,
+      1
+     ],
+     [
+      424,
+      2
+     ],
+     [
+      758,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 113130,
+    "d": 3258,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2469,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 116688,
+    "d": 11851,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2489,
+      5
+     ],
+     [
+      2849,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      4169,
+      8
+     ],
+     [
+      4649,
+      9
+     ],
+     [
+      5129,
+      10
+     ],
+     [
+      5969,
+      11
+     ],
+     [
+      6329,
+      12
+     ],
+     [
+      6609,
+      13
+     ],
+     [
+      7529,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8469,
+      16
+     ],
+     [
+      9289,
+      17
+     ],
+     [
+      9669,
+      18
+     ],
+     [
+      10649,
+      19
+     ],
+     [
+      11109,
+      20
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 128840,
+    "d": 2933,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2110,
+      4
+     ]
+    ]
+   },
+   "p5h-doktor": {
+    "s": 132074,
+    "d": 2001,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 134375,
+    "d": 1362,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      589,
+      2
+     ]
+    ]
+   },
+   "p6": {
+    "s": 136038,
+    "d": 13267,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      3269,
+      5
+     ],
+     [
+      4290,
+      6
+     ],
+     [
+      4689,
+      7
+     ],
+     [
+      5870,
+      8
+     ],
+     [
+      6329,
+      9
+     ],
+     [
+      6649,
+      10
+     ],
+     [
+      6949,
+      11
+     ],
+     [
+      7829,
+      12
+     ],
+     [
+      8089,
+      13
+     ],
+     [
+      8489,
+      14
+     ],
+     [
+      9409,
+      15
+     ],
+     [
+      9709,
+      16
+     ],
+     [
+      10369,
+      17
+     ],
+     [
+      11390,
+      18
+     ],
+     [
+      11749,
+      19
+     ],
+     [
+      12409,
+      20
+     ],
+     [
+      12810,
+      21
+     ]
+    ]
+   },
+   "p6h-ali": {
+    "s": 149605,
+    "d": 1973,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      534,
+      1
+     ],
+     [
+      1365,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   },
+   "p6h-doktor": {
+    "s": 151879,
+    "d": 2772,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2249,
+      5
+     ]
+    ]
+   },
+   "p6h-anne": {
+    "s": 154951,
+    "d": 1565,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

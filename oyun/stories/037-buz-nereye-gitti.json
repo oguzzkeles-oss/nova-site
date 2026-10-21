@@ -1,0 +1,2037 @@
+{
+ "id": "037-buz-nereye-gitti",
+ "n": 37,
+ "title": "Buz Nereye Gitti?",
+ "age": "36-48",
+ "area": "Fen",
+ "theme": "Buzun erimesi: güneş ve gölge, gözlem, tahmin ve sabırla bekleme",
+ "values": [
+  "D12 Sabır"
+ ],
+ "sdb": "SDB1.3 Kendine Uyarlama",
+ "min": 4,
+ "blurb": "Sıcak bir yaz günü Ela bardağa buz koyar; biraz sonra bardakta yalnızca su vardır. Buz nereye gitti? Ela annesiyle bahçeye çıkar; bir bardağı güneşe, birini gölgeye koyar ve sabırla bekler.",
+ "codes": {
+  "maarif": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme",
+   "FAB.3 Günlük yaşamında fen olaylarına yönelik bilimsel gözleme dayalı tahminlerde bulunabilme (teyitsiz)",
+   "E1.1 Merak",
+   "SDB1.3 Kendine Uyarlama (Öz Yansıtma)",
+   "D12 Sabır"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ela": "cocuk-kiz",
+  "anne": "anne"
+ },
+ "voiceNames": {
+  "ela": "Ela",
+  "anne": "Anne"
+ },
+ "pages": [
+  {
+   "text": "Çok sıcak bir yaz günü. Ela buzdolabını açtı. “Buz, buz, serin buz!” dedi. Buzlar bardağa: tık, tık, tık!",
+   "scene": {
+    "set": "mutfak",
+    "time": "day",
+    "fridgeHit": "dolap",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 150,
+      "y": 230,
+      "s": 1.1,
+      "pose": "point",
+      "mood": "laugh",
+      "flip": true,
+      "turn": 0.4,
+      "hit": "ela"
+     },
+     {
+      "k": "anne",
+      "x": 296,
+      "y": 222,
+      "s": 1.05,
+      "pose": "stand",
+      "mood": "happy",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "bardak",
+      "x": 232,
+      "y": 132,
+      "s": 1.5,
+      "state": "off",
+      "fill": "water",
+      "hit": "bardak"
+     },
+     {
+      "k": "tabak",
+      "x": 114,
+      "y": 133,
+      "s": 1.1
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#DDF3FF",
+      "x": 94,
+      "y": 131,
+      "s": 0.75,
+      "hit": "b1",
+      "z": 140
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#DDF3FF",
+      "x": 114,
+      "y": 131,
+      "s": 0.75,
+      "hit": "b2",
+      "z": 140
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#DDF3FF",
+      "x": 134,
+      "y": 131,
+      "s": 0.75,
+      "hit": "b3",
+      "z": 140
+     }
+    ]
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "b1",
+     "b2",
+     "b3"
+    ],
+    "to": [
+     232,
+     118
+    ],
+    "done": "Üç buz bardakta. Tık, tık, tık!",
+    "msg": "Üç buz!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Buz, buz, serin buz!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Buzlar çok soğuk, dikkat!",
+     "voice": "anne",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "dolap": {
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "bardak": {
+     "anim": "boing",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "b1",
+    "Buzları bardağa at!"
+   ],
+   "ask": "Sen hiç buza dokundun mu? Buz nasıldı?",
+   "cues": [
+    {
+     "w": 15,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Ela bardağı güneşli pencerenin önüne koydu. Biraz oynadı. Sonra geldi, baktı: Buz yok! Yalnızca su var. “Buz nereye gitti?”",
+   "scene": {
+    "set": "mutfak",
+    "time": "day",
+    "windowHit": "pencere",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 226,
+      "y": 230,
+      "s": 1.25,
+      "pose": "point",
+      "mood": "surprised",
+      "flip": true,
+      "hit": "ela"
+     },
+     {
+      "k": "anne",
+      "x": 336,
+      "y": 214,
+      "s": 0.95,
+      "pose": "stand",
+      "mood": "think",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "bardak",
+      "x": 168,
+      "y": 93,
+      "s": 1.5,
+      "fill": "water",
+      "hit": "bardak"
+     },
+     {
+      "k": "qmark",
+      "x": 206,
+      "y": 58,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Buz nereye gitti?",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Hımm… Hadi, birlikte deneyelim!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "bardak": {
+     "say": "Bardakta yalnızca su var.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "splash"
+    },
+    "pencere": {
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "bardak",
+    "Bardağa dokun!"
+   ],
+   "ask": "Sence buz nereye gitti? Neden öyle düşündün?"
+  },
+  {
+   "text": "Ela ile annesi bahçeye çıktı. Ela iki bardağa üçer buz koydu. Birini güneşe, birini ağacın gölgesine. “Hangisi önce erir?”",
+   "scene": {
+    "set": "cayir",
+    "season": "summer",
+    "weather": "sun",
+    "time": "day",
+    "trees": false,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 62,
+      "y": 46,
+      "mood": "hot",
+      "hit": "sun"
+     },
+     {
+      "k": "anne",
+      "x": 205,
+      "y": 210,
+      "s": 0.92,
+      "pose": "clap",
+      "mood": "happy",
+      "turn": 0.3,
+      "hit": "anne"
+     },
+     {
+      "k": "ela",
+      "x": 270,
+      "y": 230,
+      "s": 1.1,
+      "pose": "point",
+      "mood": "think",
+      "turn": 0.5,
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 356,
+      "y": 262,
+      "s": 2.8,
+      "z": 100
+     },
+     {
+      "k": "kutuk",
+      "x": 80,
+      "y": 226,
+      "s": 1.3
+     },
+     {
+      "k": "bardak",
+      "x": 80,
+      "y": 193.5,
+      "s": 1.6,
+      "fill": "water",
+      "z": 227,
+      "hit": "g1"
+     },
+     {
+      "k": "kutuk",
+      "x": 330,
+      "y": 232,
+      "s": 1.3
+     },
+     {
+      "k": "bardak",
+      "x": 330,
+      "y": 199.5,
+      "s": 1.6,
+      "fill": "water",
+      "z": 233,
+      "hit": "g2"
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#DDF3FF",
+      "x": 75,
+      "y": 160.5,
+      "z": 228,
+      "s": 0.45
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#DDF3FF",
+      "x": 86,
+      "y": 162.5,
+      "z": 228,
+      "s": 0.4
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#B9DDF7",
+      "x": 325,
+      "y": 166.5,
+      "z": 234,
+      "s": 0.45
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#B9DDF7",
+      "x": 336,
+      "y": 168.5,
+      "z": 234,
+      "s": 0.4
+     }
+    ]
+   },
+   "predict": {
+    "q": "Sence hangi buz önce erir?",
+    "res": "Hadi, sabırla bekleyip görelim!",
+    "opts": [
+     {
+      "l": "Güneşteki",
+      "scene": {
+       "set": "cayir",
+       "season": "summer",
+       "weather": "sun",
+       "trees": false,
+       "cast": [
+        {
+         "k": "gunes",
+         "x": 70,
+         "y": 50,
+         "mood": "hot"
+        },
+        {
+         "k": "ela",
+         "x": 205,
+         "y": 232,
+         "s": 1.1,
+         "pose": "point",
+         "mood": "surprised",
+         "turn": -0.5,
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "tree",
+         "x": 356,
+         "y": 262,
+         "s": 2.8,
+         "z": 100
+        },
+        {
+         "k": "kutuk",
+         "x": 80,
+         "y": 226,
+         "s": 1.3
+        },
+        {
+         "k": "bardak",
+         "x": 80,
+         "y": 193.5,
+         "s": 1.6,
+         "fill": "water",
+         "z": 227
+        },
+        {
+         "k": "kutuk",
+         "x": 330,
+         "y": 232,
+         "s": 1.3
+        },
+        {
+         "k": "bardak",
+         "x": 330,
+         "y": 199.5,
+         "s": 1.6,
+         "fill": "water",
+         "z": 233
+        },
+        {
+         "k": "sekil",
+         "shape": "square",
+         "color": "#B9DDF7",
+         "x": 325,
+         "y": 166.5,
+         "z": 234,
+         "s": 0.45
+        },
+        {
+         "k": "sekil",
+         "shape": "square",
+         "color": "#B9DDF7",
+         "x": 336,
+         "y": 168.5,
+         "z": 234,
+         "s": 0.4
+        }
+       ]
+      }
+     },
+     {
+      "l": "Gölgedeki",
+      "scene": {
+       "set": "cayir",
+       "season": "summer",
+       "weather": "sun",
+       "trees": false,
+       "cast": [
+        {
+         "k": "gunes",
+         "x": 70,
+         "y": 50,
+         "mood": "hot"
+        },
+        {
+         "k": "ela",
+         "x": 205,
+         "y": 232,
+         "s": 1.1,
+         "pose": "point",
+         "mood": "surprised",
+         "turn": 0.5
+        }
+       ],
+       "props": [
+        {
+         "k": "tree",
+         "x": 356,
+         "y": 262,
+         "s": 2.8,
+         "z": 100
+        },
+        {
+         "k": "kutuk",
+         "x": 80,
+         "y": 226,
+         "s": 1.3
+        },
+        {
+         "k": "bardak",
+         "x": 80,
+         "y": 193.5,
+         "s": 1.6,
+         "fill": "water",
+         "z": 227
+        },
+        {
+         "k": "kutuk",
+         "x": 330,
+         "y": 232,
+         "s": 1.3
+        },
+        {
+         "k": "bardak",
+         "x": 330,
+         "y": 199.5,
+         "s": 1.6,
+         "fill": "water",
+         "z": 233
+        },
+        {
+         "k": "sekil",
+         "shape": "square",
+         "color": "#DDF3FF",
+         "x": 75,
+         "y": 160.5,
+         "z": 228,
+         "s": 0.45
+        },
+        {
+         "k": "sekil",
+         "shape": "square",
+         "color": "#DDF3FF",
+         "x": 86,
+         "y": 162.5,
+         "z": 228,
+         "s": 0.4
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Hangisi önce erir?",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Sen koydun, birlikte bakalım!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "sun": {
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "g1": {
+     "say": "Bu bardak güneşte.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "g2": {
+     "say": "Bu bardak serin gölgede.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "g1",
+    "Bardaklara dokun!"
+   ],
+   "ask": "Sıcak bir günde sen nerede serinlersin: güneşte mi, gölgede mi?"
+  },
+  {
+   "text": "Ela bekledi, bekledi. Sabırsızlandı, kıpır kıpır oldu. “Daha olmadı mı?” Anne gülümsedi: “Beklerken çiçekleri sayalım!”",
+   "scene": {
+    "set": "cayir",
+    "season": "summer",
+    "weather": "sun",
+    "time": "day",
+    "trees": false,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 62,
+      "y": 46,
+      "mood": "hot",
+      "hit": "sun"
+     },
+     {
+      "k": "ela",
+      "x": 150,
+      "y": 226,
+      "s": 1.15,
+      "pose": "walk",
+      "mood": "think",
+      "turn": 0.7,
+      "hit": "ela"
+     },
+     {
+      "k": "anne",
+      "x": 246,
+      "y": 214,
+      "s": 1.0,
+      "pose": "point",
+      "mood": "happy",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 358,
+      "y": 246,
+      "s": 2.4,
+      "z": 100
+     },
+     {
+      "k": "kutuk",
+      "x": 64,
+      "y": 208,
+      "s": 1.0
+     },
+     {
+      "k": "bardak",
+      "x": 64,
+      "y": 183,
+      "s": 1.2,
+      "fill": "water",
+      "z": 209
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#DDF3FF",
+      "x": 64,
+      "y": 159.4,
+      "z": 210,
+      "s": 0.35
+     },
+     {
+      "k": "kutuk",
+      "x": 332,
+      "y": 218,
+      "s": 1.0
+     },
+     {
+      "k": "bardak",
+      "x": 332,
+      "y": 193,
+      "s": 1.2,
+      "fill": "water",
+      "z": 219
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#B9DDF7",
+      "x": 327,
+      "y": 169.4,
+      "z": 220,
+      "s": 0.4
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#B9DDF7",
+      "x": 337,
+      "y": 171.4,
+      "z": 220,
+      "s": 0.35
+     },
+     {
+      "k": "flower",
+      "x": 36,
+      "y": 234,
+      "s": 0.6,
+      "state": "off",
+      "hit": "f1"
+     },
+     {
+      "k": "flower",
+      "x": 104,
+      "y": 236,
+      "s": 0.6,
+      "state": "off",
+      "hit": "f2"
+     },
+     {
+      "k": "flower",
+      "x": 200,
+      "y": 236,
+      "s": 0.6,
+      "state": "off",
+      "hit": "f3"
+     },
+     {
+      "k": "flower",
+      "x": 288,
+      "y": 234,
+      "s": 0.6,
+      "state": "off",
+      "hit": "f4"
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "f1",
+     "f2",
+     "f3",
+     "f4"
+    ],
+    "done": "Dört solgun çiçek. Çok susamışlar!",
+    "msg": "Dört çiçek!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Daha olmadı mı?",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Derin bir nefes al. Birlikte sayalım!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "sun": {
+     "anim": "spinme",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "f1",
+    "Çiçekleri say!"
+   ],
+   "ask": "Sen bir şeyi beklerken ne yaparsın? Beklemek zor mu?"
+  },
+  {
+   "text": "Sonra bardaklara koştular. Güneşteki buz erimiş, su olmuş! Gölgedeki buz hâlâ duruyor. Ela güldü: “Buz gitmemiş, su olmuş!”",
+   "scene": {
+    "set": "cayir",
+    "season": "summer",
+    "weather": "sun",
+    "time": "day",
+    "trees": false,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 62,
+      "y": 46,
+      "mood": "hot",
+      "hit": "sun"
+     },
+     {
+      "k": "ela",
+      "x": 200,
+      "y": 234,
+      "s": 1.15,
+      "pose": "jump",
+      "mood": "laugh",
+      "hit": "ela"
+     },
+     {
+      "k": "anne",
+      "x": 270,
+      "y": 216,
+      "s": 1.0,
+      "pose": "clap",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 356,
+      "y": 262,
+      "s": 2.8,
+      "z": 100
+     },
+     {
+      "k": "kutuk",
+      "x": 70,
+      "y": 226,
+      "s": 1.3
+     },
+     {
+      "k": "bardak",
+      "x": 70,
+      "y": 193.5,
+      "s": 1.7,
+      "fill": "water",
+      "z": 227,
+      "hit": "g1"
+     },
+     {
+      "k": "kutuk",
+      "x": 330,
+      "y": 232,
+      "s": 1.3
+     },
+     {
+      "k": "bardak",
+      "x": 330,
+      "y": 199.5,
+      "s": 1.7,
+      "fill": "water",
+      "z": 233,
+      "hit": "g2"
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#B9DDF7",
+      "x": 325,
+      "y": 167.4375,
+      "z": 234,
+      "s": 0.3
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#B9DDF7",
+      "x": 335,
+      "y": 168.4375,
+      "z": 234,
+      "s": 0.28
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Buz gitmemiş, su olmuş!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "anne": {
+     "say": "Güneş buzu ısıttı, buz eridi.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "sun": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    },
+    "g1": {
+     "say": "Güneşteki buz su oldu!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "splash"
+    },
+    "g2": {
+     "say": "Gölgedeki buz yavaş yavaş eriyor.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "g1",
+    "Güneşteki bardağa dokun!"
+   ],
+   "ask": "Güneşteki buz neden önce eridi? Sen ne düşünüyorsun?"
+  },
+  {
+   "text": "Ela suyu boynu bükük çiçeklere döktü. Şırıl şırıl! Biraz sonra çiçekler başlarını kaldırdı. “Buz su oldu, su da çiçeklere!” dedi Ela. Annesine sımsıkı sarıldı.",
+   "scene": {
+    "set": "cayir",
+    "season": "summer",
+    "weather": "sun",
+    "time": "day",
+    "trees": false,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 62,
+      "y": 46,
+      "mood": "happy",
+      "hit": "sun"
+     },
+     {
+      "k": "ela",
+      "x": 224,
+      "y": 222,
+      "s": 1.25,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "bardak",
+      "holdO": {
+       "fill": "water"
+      },
+      "holdS": 0.9,
+      "hit": "ela"
+     },
+     {
+      "k": "anne",
+      "x": 304,
+      "y": 212,
+      "s": 0.95,
+      "pose": "open",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 360,
+      "y": 198,
+      "s": 2.0
+     },
+     {
+      "k": "flower",
+      "x": 44,
+      "y": 234,
+      "s": 0.65,
+      "state": "off",
+      "hit": "f1"
+     },
+     {
+      "k": "flower",
+      "x": 100,
+      "y": 236,
+      "s": 0.65,
+      "state": "off",
+      "hit": "f2"
+     },
+     {
+      "k": "flower",
+      "x": 152,
+      "y": 236,
+      "s": 0.65,
+      "state": "off",
+      "hit": "f3"
+     },
+     {
+      "k": "flower",
+      "x": 350,
+      "y": 234,
+      "s": 0.65,
+      "state": "off",
+      "hit": "f4"
+     }
+    ]
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "f1",
+     "f2",
+     "f3",
+     "f4"
+    ],
+    "done": "Çiçekler kana kana su içti!",
+    "msg": "Çiçekler güldü!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Buz su oldu, su da çiçeklere!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "splash"
+    },
+    "anne": {
+     "say": "Gölgedeki buz mu? O hâlâ bekliyor!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "sun": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "f1",
+    "Çiçeklere su ver!"
+   ],
+   "ask": "Sen de evde buzla deney yapmak ister misin? Buzu nereye koyarsın?",
+   "cues": [
+    {
+     "w": 6,
+     "fx": "musluk"
+    }
+   ]
+  }
+ ],
+ "order": [
+  0,
+  2,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 — Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme: Çocuk bardaktaki buzun suya dönüşmesini gözler; güneşteki ve gölgedeki bardağı karşılaştırır.",
+   "FAB.3 (teyitsiz) — Günlük yaşamında fen olaylarına yönelik bilimsel gözleme dayalı tahminlerde bulunabilme: İlk gözlemine (pencere önündeki bardak) dayanarak hangi buzun önce eriyeceğini tahmin eder.",
+   "E1.1 Merak ve SDB1.3 Kendine Uyarlama (Öz Yansıtma): 'Buz nereye gitti?' sorusunun peşine düşer; tahmini ile sonucu karşılaştırır, 'Ben ne demiştim, ne oldu?' diye kendi düşüncesini gözden geçirir.",
+   "D12 Sabır: Sabırsızlandığını fark eder; derin nefes alıp çiçekleri sayarak bekler ve beklemenin bir işe yaradığını deneyimler."
+  ],
+  "once": [
+   "Kapaktaki başlığı okuyun: 'Buz nereye gitti?' Sizce buz bir yere gidebilir mi?",
+   "Bir buz kalıbını gösterin ya da hatırlatın: Buz soğuk mu, sıcak mı? Elimizde tutunca ne olur?"
+  ],
+  "sirasi": [
+   "2. sayfada durun: Ela'nın bardağında buz yok, yalnızca su var. Çocuğun ilk açıklamalarını yargılamadan dinleyin.",
+   "3. sayfadaki tahmin sorusunda çocuğun seçimini ve nedenini sorun ('Neden güneştekini seçtin?'). İki cevap da düşünmeye değer.",
+   "4. sayfada Ela'nın sabırsızlığını birlikte canlandırın: kıpır kıpır olun, sonra derin bir nefes alıp çiçekleri sayın.",
+   "5. sayfada tahmini sonuçla karşılaştırın: 'Sen ne demiştin? Ne oldu?'"
+  ],
+  "sonra": [
+   "'Buz nereye gitti?' sorusunu yeniden sorun; çocuğun 'Su oldu.' cevabına kendi sözcükleriyle ulaşmasını bekleyin.",
+   "Güneşte ve gölgede beklemenin nasıl bir his olduğunu konuşun: Hangisinde daha çok terleriz?",
+   "Ela'nın beklerken ne yaptığını hatırlayın; siz beklerken ne yapabilirsiniz, birlikte liste yapın."
+  ],
+  "sinif": {
+   "ad": "Güneşte mi, Gölgede mi? Buz Deneyi",
+   "sure": "30–40 dk (arada başka etkinlikle)",
+   "materyal": "Aynı büyüklükte buz küpleri, iki şeffaf plastik kap, güneşli bir pencere önü ya da bahçe, gölgeli bir köşe, güneş ve bulut resimli iki kart, kum saati ya da şarkı",
+   "adim": [
+    "Çocuklara buz küplerini gösterin; kısa süre dokunup bırakmalarını, 'soğuk, sert, kaygan' gibi sözcüklerle anlatmalarını isteyin. Buzu ağza almıyoruz.",
+    "Bir kabı güneşe (güneş kartı), birini gölgeye (bulut kartı) koyun. Her çocuk hangisinin önce eriyeceğini tahmin edip mandalını o kartın yanına takar.",
+    "Beklerken bir şarkı söyleyin, parmak oyunu ya da başka bir etkinlik yapın; ara ara kaplara birlikte bakın.",
+    "Sonuçta tahmin mandallarını sayın, sonucu karşılaştırın; eriyen suyla sınıftaki bitkileri sulayın."
+   ]
+  },
+  "evSoru": [
+   "Buz nereye gitti? Ne oldu?",
+   "Hangi buz önce eridi? Neden?",
+   "Ela beklerken ne yaptı? Sen beklerken ne yaparsın?"
+  ],
+  "evEtk": {
+   "ad": "Mutfakta Buz Gözlemi",
+   "d": "İki küçük tabağa birer buz küpü koyun: birini güneş alan pencerenin önüne, birini gölgeli bir yere. Çocuğunuzla önce tahmin edin, sonra ara ara birlikte bakın. Eriyen suyu çiçeklere verin. Küçük buz parçalarını ağza almamasına dikkat edin; buzu uzun süre elde tutmayın."
+  },
+  "aileNotu": "Bugün 'Buz Nereye Gitti?' masalını okuduk. Ela bardaktaki buzun suya dönüştüğünü gördü; bir bardağı güneşe, birini ağacın gölgesine koyup hangisinin önce eriyeceğini tahmin etti. Beklerken sabırsızlandı, nefes alıp çiçekleri sayarak bekledi. Evde buzla küçük bir deney yapıp çocuğunuzun tahminini ve gözlemini dinleyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/037-buz-nereye-gitti.mp3",
+  "hash": "dc4c45a9",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10950,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2349,
+      6
+     ],
+     [
+      3109,
+      7
+     ],
+     [
+      3910,
+      8
+     ],
+     [
+      4689,
+      9
+     ],
+     [
+      5509,
+      10
+     ],
+     [
+      5989,
+      11
+     ],
+     [
+      6749,
+      12
+     ],
+     [
+      7489,
+      13
+     ],
+     [
+      8049,
+      14
+     ],
+     [
+      8969,
+      15
+     ],
+     [
+      9690,
+      16
+     ],
+     [
+      10449,
+      17
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 11250,
+    "d": 1379,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      738,
+      2
+     ],
+     [
+      1119,
+      3
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 12929,
+    "d": 1654,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 14884,
+    "d": 3079,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2650,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18263,
+    "d": 9980,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      3709,
+      7
+     ],
+     [
+      4529,
+      8
+     ],
+     [
+      4930,
+      9
+     ],
+     [
+      5390,
+      10
+     ],
+     [
+      6189,
+      11
+     ],
+     [
+      6529,
+      12
+     ],
+     [
+      7169,
+      13
+     ],
+     [
+      7829,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8749,
+      16
+     ],
+     [
+      9049,
+      17
+     ],
+     [
+      9449,
+      18
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 28544,
+    "d": 1791,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1229,
+      2
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 30635,
+    "d": 2010,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p1h-bardak": {
+    "s": 32946,
+    "d": 2138,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 35384,
+    "d": 9585,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      2930,
+      7
+     ],
+     [
+      3430,
+      8
+     ],
+     [
+      3809,
+      9
+     ],
+     [
+      4089,
+      10
+     ],
+     [
+      4870,
+      11
+     ],
+     [
+      5330,
+      12
+     ],
+     [
+      6169,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      7029,
+      15
+     ],
+     [
+      8150,
+      16
+     ],
+     [
+      8749,
+      17
+     ],
+     [
+      9129,
+      18
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 45270,
+    "d": 1479,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      622,
+      1
+     ],
+     [
+      1030,
+      2
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 47050,
+    "d": 1571,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1030,
+      3
+     ]
+    ]
+   },
+   "p2h-g1": {
+    "s": 48921,
+    "d": 1355,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      670,
+      2
+     ]
+    ]
+   },
+   "p2h-g2": {
+    "s": 50577,
+    "d": 1702,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1009,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 52580,
+    "d": 1858,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1430,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 54738,
+    "d": 2564,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1969,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 57603,
+    "d": 9557,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2989,
+      4
+     ],
+     [
+      3349,
+      5
+     ],
+     [
+      3749,
+      6
+     ],
+     [
+      4509,
+      7
+     ],
+     [
+      4870,
+      8
+     ],
+     [
+      5370,
+      9
+     ],
+     [
+      5989,
+      10
+     ],
+     [
+      6329,
+      11
+     ],
+     [
+      7489,
+      12
+     ],
+     [
+      8249,
+      13
+     ],
+     [
+      8949,
+      14
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 67461,
+    "d": 1398,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      479,
+      1
+     ],
+     [
+      1105,
+      2
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 69159,
+    "d": 2299,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1689,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 71759,
+    "d": 2818,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1909,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 74877,
+    "d": 10477,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2670,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3689,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4709,
+      8
+     ],
+     [
+      5410,
+      9
+     ],
+     [
+      5669,
+      10
+     ],
+     [
+      6189,
+      11
+     ],
+     [
+      7009,
+      12
+     ],
+     [
+      7430,
+      13
+     ],
+     [
+      8209,
+      14
+     ],
+     [
+      8529,
+      15
+     ],
+     [
+      9529,
+      16
+     ],
+     [
+      9829,
+      17
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 85655,
+    "d": 1820,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      295,
+      1
+     ],
+     [
+      1080,
+      2
+     ],
+     [
+      1335,
+      3
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 87776,
+    "d": 2044,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   },
+   "p4h-g1": {
+    "s": 90120,
+    "d": 1534,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p4h-g2": {
+    "s": 91955,
+    "d": 2378,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 94633,
+    "d": 12963,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3349,
+      7
+     ],
+     [
+      4189,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      4910,
+      10
+     ],
+     [
+      5509,
+      11
+     ],
+     [
+      6129,
+      12
+     ],
+     [
+      7269,
+      13
+     ],
+     [
+      7629,
+      14
+     ],
+     [
+      7949,
+      15
+     ],
+     [
+      8669,
+      16
+     ],
+     [
+      8850,
+      17
+     ],
+     [
+      9049,
+      18
+     ],
+     [
+      10109,
+      19
+     ],
+     [
+      10469,
+      20
+     ],
+     [
+      11189,
+      21
+     ],
+     [
+      11810,
+      22
+     ],
+     [
+      12409,
+      23
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 107897,
+    "d": 2436,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1430,
+      5
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 110634,
+    "d": 2318,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1729,
+      5
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 113253,
+    "d": 2002,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1509,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

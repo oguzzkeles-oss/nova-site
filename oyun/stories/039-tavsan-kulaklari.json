@@ -1,0 +1,1493 @@
+{
+ "id": "039-tavsan-kulaklari",
+ "n": 39,
+ "title": "Tavşan Kulakları",
+ "age": "60-72",
+ "area": "Hareket ve Sağlık",
+ "theme": "Ayakkabı bağcığı bağlama, vazgeçmeden denemek",
+ "values": [
+  "D3 Çalışkanlık"
+ ],
+ "sdb": "SDB1.3 Kendine Uyarlama (Öz Yansıtma)",
+ "min": 5,
+ "blurb": "Can parka gitmeden önce bağcıklarını kendisi bağlamak ister ama fiyonk hep çözülür. “Ben yapamıyorum!” der. Dedesi ona “henüz” sözcüğünü ve tavşan kulaklarını gösterir; Can kocamandan miniciğe, deneye deneye kendi fiyonkunu atar.",
+ "codes": {
+  "maarif": [
+   "HSAB.2 Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme (HSAB.2.a Farklı büyüklükteki nesneleri kavrar; HSAB.2.c Farklı boyutlardaki nesneleri kullanır)",
+   "SDB1.3 Kendine Uyarlama (Öz Yansıtma)",
+   "E1.3 Azim ve Kararlılık",
+   "E1.4 Kendine İnanma (Öz Yeterlilik)",
+   "D3 Çalışkanlık"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "can": "cocuk-erkek",
+  "dede": "dede"
+ },
+ "voiceNames": {
+  "can": "Can",
+  "dede": "Dede"
+ },
+ "pages": [
+  {
+   "text": "Pırıl pırıl bir cumartesi sabahı. Kuşlar cik cik, parka çağırıyordu. Dedesi seslendi: “Hadi Can, parka gidiyoruz!” Bağcıklar sallana sallana yerde sürünüyordu. Can kararlıydı: “Bu sefer kendim bağlayacağım!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "windowHit": "pencere",
+    "cast": [
+     {
+      "k": "can",
+      "x": 262,
+      "y": 230,
+      "s": 1.35,
+      "mood": "happy",
+      "pose": "sit",
+      "hold": "<g transform=\"scale(2.1)\"><g fill=\"none\" stroke-linecap=\"round\"><path d=\"M-10 -3 C-6 5 -2 -6 2 2 C5 8 8 5 10 10 C12 14 16 14 22 13\" stroke=\"#6B4A2E\" stroke-width=\"3.2\"/><path d=\"M-10 -3 C-6 5 -2 -6 2 2 C5 8 8 5 10 10 C12 14 16 14 22 13\" stroke=\"#FFFDF6\" stroke-width=\"1.7\"/><path d=\"M-4 0 C-8 6 -12 10 -20 13\" stroke=\"#6B4A2E\" stroke-width=\"3.2\"/><path d=\"M-4 0 C-8 6 -12 10 -20 13\" stroke=\"#FFFDF6\" stroke-width=\"1.7\"/></g></g>",
+      "hit": "can"
+     },
+     {
+      "k": "dede",
+      "x": 112,
+      "y": 216,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 330,
+      "y": 158,
+      "s": 0.9,
+      "color": "#E4574F"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Bu sefer kendim bağlayacağım!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "dede": {
+     "say": "Hadi Can, parka gidiyoruz!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "pencere": {
+     "anim": "boing",
+     "fx": "tweet"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Sen kendi başına neleri yapabiliyorsun? Neyi kendin yapmak istersin?"
+  },
+  {
+   "text": "Can bağcıkları doladı, çekti. Hop, çözüldü! Bir daha doladı. Pıt, yine çözüldü! Can çok kızdı. Yanakları ısındı, elleri kasıldı. Ayağını yere vurdu, güm! “Ben yapamıyorum!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "can",
+      "x": 112,
+      "y": 232,
+      "s": 1.55,
+      "mood": "angry",
+      "pose": "sit",
+      "hold": "<g transform=\"scale(1.3)\"><g fill=\"none\" stroke-linecap=\"round\"><path d=\"M0 0 C-7 -3 -9 -15 -4 -16 C0 -16 1 -7 0 0 M0 0 C4 3 7 6 10 10 M0 0 C-2 4 -4 7 -7 10\" stroke=\"#6B4A2E\" stroke-width=\"3.4\"/><path d=\"M0 0 C-7 -3 -9 -15 -4 -16 C0 -16 1 -7 0 0 M0 0 C4 3 7 6 10 10 M0 0 C-2 4 -4 7 -7 10\" stroke=\"#FFFDF6\" stroke-width=\"1.8\"/></g></g>",
+      "hit": "can"
+     },
+     {
+      "k": "dede",
+      "x": 340,
+      "y": 210,
+      "s": 0.9,
+      "mood": "calm",
+      "pose": "stand",
+      "flip": true,
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 300,
+      "y": 158,
+      "s": 0.9,
+      "color": "#E4574F"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Ben yapamıyorum!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "dede": {
+     "say": "Acele yok, buradayım.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Can neden kızdı? Sen kızınca bedeninde ne olur?"
+  },
+  {
+   "text": "Dede yanına oturdu. “Yapamıyorum değil, henüz yapamıyorum,” dedi. “Ben de senin yaşında bağlayamazdım.” İkisi birlikte derin nefes aldı. Hıııh… puuuf! Can'ın elleri gevşedi.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "can",
+      "x": 226,
+      "y": 193,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "seat",
+      "hit": "can"
+     },
+     {
+      "k": "dede",
+      "x": 282,
+      "y": 193,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "seat",
+      "flip": true,
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 110,
+      "y": 226,
+      "s": 0.9,
+      "color": "#E4574F"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Hıııh… puuuf.",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "dede": {
+     "say": "Henüz yapamıyorsun. Öğreniyorsun!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "predict": {
+    "q": "Sence Can şimdi ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Bir daha dener",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "can",
+         "x": 190,
+         "y": 232,
+         "s": 1.4,
+         "mood": "think",
+         "pose": "sit",
+         "hold": "<g fill=\"none\" stroke-linecap=\"round\"><path d=\"M-9 -2 C-5 6 -1 -6 3 2 C6 8 9 4 11 9\" stroke=\"#6B4A2E\" stroke-width=\"3.4\"/><path d=\"M-9 -2 C-5 6 -1 -6 3 2 C6 8 9 4 11 9\" stroke=\"#FFFDF6\" stroke-width=\"1.8\"/></g>"
+        }
+       ],
+       "props": [
+        {
+         "k": "sparkle",
+         "x": 250,
+         "y": 120
+        }
+       ]
+      }
+     },
+     {
+      "l": "Dedesine “Gösterir misin?” der",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "can",
+         "x": 150,
+         "y": 230,
+         "s": 1.3,
+         "mood": "happy",
+         "pose": "point"
+        },
+        {
+         "k": "dede",
+         "x": 272,
+         "y": 224,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "stand",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "qmark",
+         "x": 150,
+         "y": 70
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "can",
+    "Can'la nefes al!"
+   ],
+   "ask": "“Henüz” ne demek? Sen neyi henüz yapamıyorsun?"
+  },
+  {
+   "text": "Dede iki bağcığı katlayıp birer halka yaptı. “Bak, bu bir tavşan kulağı. Bu da öbür kulak.” Kulakları çaprazladı. Birini alttan geçirdi. Çekti, zınk! Kocaman bir fiyonk! Can güldü: “Tavşan kulakları!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "can",
+      "x": 140,
+      "y": 232,
+      "s": 1.25,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "can"
+     },
+     {
+      "k": "dede",
+      "x": 240,
+      "y": 230,
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "sit",
+      "hold": "<g transform=\"scale(1.3)\"><g fill=\"none\" stroke-linecap=\"round\"><path d=\"M0 0 C-7 -3 -9 -15 -4 -16 C0 -16 1 -7 0 0 M0 0 C7 -3 9 -15 4 -16 C0 -16 -1 -7 0 0 M0 0 C-2 4 -4 7 -7 10 M0 0 C2 4 4 7 7 10\" stroke=\"#6B4A2E\" stroke-width=\"3.4\"/><path d=\"M0 0 C-7 -3 -9 -15 -4 -16 C0 -16 1 -7 0 0 M0 0 C7 -3 9 -15 4 -16 C0 -16 -1 -7 0 0 M0 0 C-2 4 -4 7 -7 10 M0 0 C2 4 4 7 7 10\" stroke=\"#FFFDF6\" stroke-width=\"1.8\"/><circle r=\"2\" fill=\"#FFFDF6\" stroke=\"#6B4A2E\" stroke-width=\".8\"/></g></g>",
+      "flip": true,
+      "hit": "dede",
+      "holdS": 1.3
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 300,
+      "y": 158,
+      "s": 0.85,
+      "color": "#E4574F"
+     }
+    ]
+   },
+   "hits": {
+    "dede": {
+     "say": "Bir kulak, iki kulak, çaprazla, çek!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "can": {
+     "say": "Tavşan kulakları!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "dede",
+    "Dedeye dokun!"
+   ],
+   "ask": "Parmaklarınla iki tavşan kulağı yap! Sence neden ‘tavşan kulağı’ diyorlar?"
+  },
+  {
+   "text": "Can önce atkıyla denedi. Kocaman kulaklar, oldu! Sonra ayıcığın kurdelesi. Orta boy kulaklar, oldu! En son ayakkabı. Minicik kulaklar kaçtı! Bir daha. Bir daha. Zınk! Oldu!",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "can",
+      "x": 200,
+      "y": 232,
+      "s": 1.4,
+      "mood": "think",
+      "pose": "sit",
+      "hold": "<g transform=\"scale(1.3)\"><g fill=\"none\" stroke-linecap=\"round\"><path d=\"M0 0 C-7 -3 -9 -15 -4 -16 C0 -16 1 -7 0 0 M0 0 C4 3 7 6 10 10 M0 0 C-2 4 -4 7 -7 10\" stroke=\"#6B4A2E\" stroke-width=\"3.4\"/><path d=\"M0 0 C-7 -3 -9 -15 -4 -16 C0 -16 1 -7 0 0 M0 0 C4 3 7 6 10 10 M0 0 C-2 4 -4 7 -7 10\" stroke=\"#FFFDF6\" stroke-width=\"1.8\"/></g></g>",
+      "hit": "can",
+      "lbl": "Can'ın ayakkabısı"
+     },
+     {
+      "k": "dede",
+      "x": 340,
+      "y": 210,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "atki",
+      "x": 72,
+      "y": 226,
+      "s": 2.0,
+      "color": "#8E5BC8",
+      "hit": "atki"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 300,
+      "y": 232,
+      "s": 1.3,
+      "color": "#E4574F",
+      "hit": "ayi"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Bir kulak, iki kulak…",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "atki",
+     "ayi",
+     "can"
+    ],
+    "done": "Minicik fiyonk! Can vazgeçmedi.",
+    "msg": "Kocamandan miniciğe!"
+   },
+   "hint": [
+    "atki",
+    "Önce atkıya dokun!"
+   ],
+   "ask": "Hangisi daha kolaydı: kocaman kulaklar mı, minicik kulaklar mı? Neden?"
+  },
+  {
+   "text": "Sıra öbür ayakkabıda. Bir kulak, iki kulak, çaprazla, geçir, çek! Zınk! Can zıpladı: “Kendim bağladım!” Dede göz kırptı. “Hani henüz yapamıyordun?” Can güldü: “Artık yapabiliyorum!” Tıpış tıpış, parkta koşturdular.",
+   "scene": {
+    "set": "oyun-parki",
+    "cast": [
+     {
+      "k": "can",
+      "x": 120,
+      "y": 232,
+      "s": 1.2,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "can"
+     },
+     {
+      "k": "dede",
+      "x": 46,
+      "y": 222,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "walk"
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 330,
+      "y": 232,
+      "s": 1.2,
+      "color": "#4F8FD8"
+     },
+     {
+      "k": "sparkle",
+      "x": 138,
+      "y": 214
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Kendim bağladım!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "step"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "can",
+    "steps": 3,
+    "step": 36,
+    "say": "Tıpış tıpış!",
+    "done": "Bağcıklar sımsıkı, hadi oyuna!"
+   },
+   "hint": [
+    "can",
+    "Can'a dokun, yürüsün!"
+   ],
+   "ask": "Sen zor bir şeyi deneye deneye öğrendin mi? Ne hissettin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.2 Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme: Kalın atkı, orta boy kurdele ve ince bağcık gibi farklı büyüklükteki nesneleri kavrar ve kullanır (HSAB.2.a, HSAB.2.c); kocamandan miniciğe fiyonk atmayı dener.",
+   "SDB1.3 Kendine Uyarlama (Öz Yansıtma): “Yapamıyorum” yerine “henüz yapamıyorum” diyerek kendi öğrenmesine bakar; neyin kolay neyin zor olduğunu fark edip yolunu değiştirir (büyükten küçüğe çalışma).",
+   "E1.3 Azim ve Kararlılık ve E1.4 Kendine İnanma (Öz Yeterlilik): Fiyonk çözülse de yeniden dener, başardığında “Kendim bağladım!” der. D3 Çalışkanlık: Başarının çalışarak geldiğini yaşar."
+  ],
+  "once": [
+   "Kapağı gösterin: “Dedenin elindeki şey neye benziyor? Tavşan kulağına mı, kelebeğe mi?”",
+   "Bağcıklı bir ayakkabı getirin. “Bunu kim bağlayabiliyor? Kim henüz öğreniyor?” diye sorun; iki cevap da olur.",
+   "Sizin zorlanarak öğrendiğiniz bir şeyi anlatın (bisiklet, ıslık çalmak…)."
+  ],
+  "sirasi": [
+   "2. sayfada Can'ın kızgın yüzünü birlikte taklit edin, sonra ellerinizi sıkıp gevşetin.",
+   "3. sayfada “Hıııh… puuuf” diye birlikte iki kez nefes alın. “Henüz” sözcüğünü çocuğa tekrar ettirin. Tahmin sorusunda iki seçenek de doğru.",
+   "4. sayfada iki parmağınızla tavşan kulağı yapın ve tekerlemeyi söyleyin: “Bir kulak, iki kulak, çaprazla, çek!”",
+   "5. sayfada sırayı çocuğa söyletin: önce kocaman, sonra orta, en son minicik."
+  ],
+  "sonra": [
+   "Can bağcığı bağlayamayınca ne hissetti? Kızınca bedeninde ne oldu? Nasıl sakinleşti?",
+   "Dede “yapamıyorum” yerine hangi sözcüğü söyledi?",
+   "Can neden önce atkıyla denedi? Kocaman kulaklar neden daha kolaydı?"
+  ],
+  "sinif": {
+   "ad": "Kocamandan Miniciğe Fiyonk",
+   "sure": "20 dk",
+   "materyal": "Kalın ip ya da eski atkılar, orta boy kurdeleler, delikli karton ayakkabı kartları ve ayakkabı bağcıkları; yazısız, tavşan kulaklı adım resim kartları",
+   "adim": [
+    "Çocuklar önce iki parmakla havada tavşan kulakları yapıp tekerlemeyi söylesin: “Bir kulak, iki kulak, çaprazla, çek!”",
+    "Kalın atkı ya da iple bir sandalye ayağına kocaman fiyonk atın; çocuklar sırayla denesin.",
+    "Kurdeleyle bir oyuncak ayıya ya da hediye paketine orta boy fiyonk atın.",
+    "Karton ayakkabı kartlarına bağcık geçirin ve minicik fiyonk deneyin. Olmayınca “Henüz!” deyip birlikte bir nefes alın; deneyen her çocuğu, sonucu ne olursa olsun, çabası için alkışlayın."
+   ]
+  },
+  "evSoru": [
+   "Sen hangi işi “henüz” yapamıyorsun? Nasıl öğrenebilirsin?",
+   "Can kızınca ne yaptı? Sen kızınca ne yaparsın?",
+   "Tavşan kulakları tekerlemesini bana söyler misin?"
+  ],
+  "evEtk": {
+   "ad": "Tavşan Kulakları Çalışması",
+   "d": "Bir hafta boyunca her gün birkaç dakika fiyonk çalışın: önce kalın bir atkı ya da ip, sonra kurdele, en son gerçek bağcık. Çocuğunuzun ayakkabısı ayağındayken değil, önce kucağında ya da masada çalışmak daha kolaydır. Sonuca değil çabaya odaklanın: “Bugün bir kulağı sen yaptın!” Olmadığında “henüz” sözcüğünü birlikte kullanın."
+  },
+  "aileNotu": "Bugün “Tavşan Kulakları” masalını okuduk. Can ayakkabı bağcıklarını kendisi bağlamak istedi; fiyonk çözülünce çok kızdı ve “Ben yapamıyorum!” dedi. Dedesi ona “henüz yapamıyorum” demeyi, birlikte nefes almayı ve tavşan kulakları yöntemini gösterdi. Bağcık bağlamak 5-6 yaşta parmakların ve sabrın birlikte geliştiği bir iştir; evde kalın iple başlayıp adım adım inceltmek ve çabayı fark etmek çok yardımcı olur."
+ },
+ "audio": {
+  "file": "audio/039-tavsan-kulaklari.mp3",
+  "hash": "ab4151f3",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17591,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2749,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      4229,
+      8
+     ],
+     [
+      4689,
+      9
+     ],
+     [
+      5890,
+      10
+     ],
+     [
+      6430,
+      11
+     ],
+     [
+      7709,
+      12
+     ],
+     [
+      8049,
+      13
+     ],
+     [
+      8669,
+      14
+     ],
+     [
+      9129,
+      15
+     ],
+     [
+      10310,
+      16
+     ],
+     [
+      11069,
+      17
+     ],
+     [
+      11669,
+      18
+     ],
+     [
+      12249,
+      19
+     ],
+     [
+      12689,
+      20
+     ],
+     [
+      13969,
+      21
+     ],
+     [
+      14289,
+      22
+     ],
+     [
+      15489,
+      23
+     ],
+     [
+      15669,
+      24
+     ],
+     [
+      16190,
+      25
+     ],
+     [
+      16709,
+      26
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 17891,
+    "d": 2316,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      304,
+      1
+     ],
+     [
+      765,
+      2
+     ],
+     [
+      1226,
+      3
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 20507,
+    "d": 1543,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      849,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 22351,
+    "d": 15308,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2670,
+      4
+     ],
+     [
+      3329,
+      5
+     ],
+     [
+      4310,
+      6
+     ],
+     [
+      4549,
+      7
+     ],
+     [
+      4850,
+      8
+     ],
+     [
+      5689,
+      9
+     ],
+     [
+      6370,
+      10
+     ],
+     [
+      6709,
+      11
+     ],
+     [
+      7629,
+      12
+     ],
+     [
+      7949,
+      13
+     ],
+     [
+      8209,
+      14
+     ],
+     [
+      9029,
+      15
+     ],
+     [
+      9709,
+      16
+     ],
+     [
+      10449,
+      17
+     ],
+     [
+      10909,
+      18
+     ],
+     [
+      11909,
+      19
+     ],
+     [
+      12369,
+      20
+     ],
+     [
+      12669,
+      21
+     ],
+     [
+      13350,
+      22
+     ],
+     [
+      14129,
+      23
+     ],
+     [
+      14409,
+      24
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 37959,
+    "d": 1597,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      345,
+      1
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 39857,
+    "d": 1406,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      780,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 41564,
+    "d": 14463,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      3029,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      4390,
+      7
+     ],
+     [
+      5169,
+      8
+     ],
+     [
+      5430,
+      9
+     ],
+     [
+      5609,
+      10
+     ],
+     [
+      5969,
+      11
+     ],
+     [
+      6489,
+      12
+     ],
+     [
+      7949,
+      13
+     ],
+     [
+      8369,
+      14
+     ],
+     [
+      8930,
+      15
+     ],
+     [
+      9270,
+      16
+     ],
+     [
+      9709,
+      17
+     ],
+     [
+      10449,
+      18
+     ],
+     [
+      11629,
+      19
+     ],
+     [
+      12689,
+      20
+     ],
+     [
+      13229,
+      21
+     ],
+     [
+      13729,
+      22
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 56327,
+    "d": 2832,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1681,
+      1
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 59460,
+    "d": 2301,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1309,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 62061,
+    "d": 1912,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      440,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1071,
+      3
+     ],
+     [
+      1301,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 64274,
+    "d": 2318,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1769,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 66893,
+    "d": 17039,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      4269,
+      8
+     ],
+     [
+      4430,
+      9
+     ],
+     [
+      4649,
+      10
+     ],
+     [
+      5189,
+      11
+     ],
+     [
+      5949,
+      12
+     ],
+     [
+      6109,
+      13
+     ],
+     [
+      6309,
+      14
+     ],
+     [
+      6609,
+      15
+     ],
+     [
+      7390,
+      16
+     ],
+     [
+      8009,
+      17
+     ],
+     [
+      9190,
+      18
+     ],
+     [
+      9589,
+      19
+     ],
+     [
+      10049,
+      20
+     ],
+     [
+      11009,
+      21
+     ],
+     [
+      11869,
+      22
+     ],
+     [
+      12689,
+      23
+     ],
+     [
+      13289,
+      24
+     ],
+     [
+      13549,
+      25
+     ],
+     [
+      14469,
+      26
+     ],
+     [
+      14850,
+      27
+     ],
+     [
+      15709,
+      28
+     ],
+     [
+      16270,
+      29
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 84232,
+    "d": 2407,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      2009,
+      5
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 86940,
+    "d": 1424,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      511,
+      1
+     ]
+    ]
+   },
+   "p4": {
+    "s": 88664,
+    "d": 15430,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3670,
+      6
+     ],
+     [
+      4410,
+      7
+     ],
+     [
+      4830,
+      8
+     ],
+     [
+      5370,
+      9
+     ],
+     [
+      6569,
+      10
+     ],
+     [
+      6910,
+      11
+     ],
+     [
+      7169,
+      12
+     ],
+     [
+      8150,
+      13
+     ],
+     [
+      8949,
+      14
+     ],
+     [
+      9169,
+      15
+     ],
+     [
+      9409,
+      16
+     ],
+     [
+      10350,
+      17
+     ],
+     [
+      10850,
+      18
+     ],
+     [
+      11430,
+      19
+     ],
+     [
+      12430,
+      20
+     ],
+     [
+      12749,
+      21
+     ],
+     [
+      13249,
+      22
+     ],
+     [
+      13549,
+      23
+     ],
+     [
+      14089,
+      24
+     ],
+     [
+      14850,
+      25
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 104394,
+    "d": 1901,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      307,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1395,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 106596,
+    "d": 2734,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1809,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 109631,
+    "d": 19235,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      4769,
+      8
+     ],
+     [
+      5529,
+      9
+     ],
+     [
+      6289,
+      10
+     ],
+     [
+      7029,
+      11
+     ],
+     [
+      7370,
+      12
+     ],
+     [
+      8289,
+      13
+     ],
+     [
+      8890,
+      14
+     ],
+     [
+      9989,
+      15
+     ],
+     [
+      10329,
+      16
+     ],
+     [
+      10669,
+      17
+     ],
+     [
+      11569,
+      18
+     ],
+     [
+      11869,
+      19
+     ],
+     [
+      12270,
+      20
+     ],
+     [
+      13509,
+      21
+     ],
+     [
+      13869,
+      22
+     ],
+     [
+      14969,
+      23
+     ],
+     [
+      15409,
+      24
+     ],
+     [
+      16729,
+      25
+     ],
+     [
+      17169,
+      26
+     ],
+     [
+      17909,
+      27
+     ],
+     [
+      18389,
+      28
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 129166,
+    "d": 1273,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      531,
+      1
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 130740,
+    "d": 2639,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1709,
+      2
+     ],
+     [
+      2069,
+      3
+     ]
+    ]
+   },
+   "p5ms": {
+    "s": 133680,
+    "d": 1004,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      502,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

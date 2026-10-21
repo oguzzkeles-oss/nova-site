@@ -1,0 +1,1776 @@
+{
+ "id": "031-kutuphanede-can",
+ "lang": "en",
+ "title": "Can Chooses His Book",
+ "theme": "Choosing a book: reading the cover pictures",
+ "blurb": "At story time a ball rolls away and books tumble off the shelf. Can doesn't know which one to choose. A deep breath, the pictures on the covers… Will Can be able to choose his book all by himself?",
+ "voiceNames": {
+  "can": "Can",
+  "deniz": "Deniz",
+  "nur": "Miss Nur"
+ },
+ "pages": [
+  {
+   "text": "Story time! Miss Nur smiled: “Everyone choose a book.” Can jumped up and down. Hop, hop! He ran to the book corner. But what was that?",
+   "hits": {
+    "can": {
+     "say": "Story time! Hooray!"
+    },
+    "nur": {
+     "say": "Everyone choose a book."
+    }
+   },
+   "hint": "Touch Can!",
+   "ask": "Does your classroom have a book corner too? What's in it?"
+  },
+  {
+   "text": "Someone's ball rolled away, bump! Books tumbled off the shelf in a jumble. One under the table, one behind the cushion, one next to the box! Can felt muddled; his heart went pitter patter. “Which one shall I choose now?”",
+   "hits": {
+    "can": {
+     "say": "Which one shall I choose now?"
+    },
+    "top": {
+     "say": "Bump! The ball hit the shelf."
+    }
+   },
+   "mech": {
+    "done": "All three books found!",
+    "msg": "You found them all!"
+   },
+   "hint": "Find the hidden books!",
+   "ask": "Where did the books fall? Why do you think Can felt muddled?"
+  },
+  {
+   "text": "His friend Deniz came over. “Breathe first.” Can took a deep breath in through his nose: Hhhhh… He blew out slowly through his mouth: Fwooo! His shoulders relaxed. Then he picked up the three fallen books and lined them up.",
+   "hits": {
+    "can": {
+     "say": "Hhhhh… Fwooo! Ah, that's better."
+    },
+    "deniz": {
+     "say": "Breathe first. Hhhhh… Fwooo!"
+    }
+   },
+   "predict": {
+    "q": "How do you think Can will choose his book?",
+    "res": "Can turned a book over. “Ooh, there's a bear on the cover!”",
+    "opts": [
+     {
+      "l": "By looking at the cover pictures"
+     },
+     {
+      "l": "By asking Miss Nur"
+     }
+    ]
+   },
+   "hint": "Breathe with Can!",
+   "ask": "What do you do when you feel muddled? Let's take a deep breath together."
+  },
+  {
+   "text": "Can turned the covers over one by one. Bear, car, star! The shelves had pictures too: cat, bus, sun. “A bear is an animal, onto the cat shelf!” Click, click, click! Every book in its place. “Now I can see them all!”",
+   "hits": {
+    "can": {
+     "say": "Now I can see them all!"
+    }
+   },
+   "mech": {
+    "done": "Every book on its own shelf!",
+    "msg": "You put the books on their shelves!"
+   },
+   "hint": "Touch a book, then a shelf!",
+   "ask": "Why did the star book go on the sun shelf? How did you work it out?",
+   "cues": [
+    {
+     "w": 28,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Can stood at the shelf. The bear book, so cuddly! The car book, vroom vroom! The star book's star is smiling. Deniz chose the bear book. Can thought. “I choose the star book! Because the star is smiling at me!”",
+   "hits": {
+    "can": {
+     "say": "I choose the star book! The star is smiling at me!"
+    },
+    "deniz": {
+     "say": "I chose the bear book!"
+    },
+    "b1": {
+     "say": "The bear book is so cuddly."
+    },
+    "b2": {
+     "say": "The car book! Vroom vroom!"
+    },
+    "b3": {
+     "say": "The star book! Look, it's smiling!"
+    }
+   },
+   "hint": "Touch the covers one by one!",
+   "ask": "Which one would you choose? Why?"
+  },
+  {
+   "text": "Deniz took her bear book, Can took his star book. They sat on the cushion. Can turned the pages. Rustle, rustle! Inside the book, a star shone in the sky. Twinkle, twinkle! Can's face lit up: “I chose my book all by myself!”",
+   "hits": {
+    "can": {
+     "say": "I chose my book all by myself!"
+    },
+    "deniz": {
+     "say": "Mine has a little bear, look!"
+    },
+    "nur": {
+     "say": "What lovely choices!"
+    },
+    "acik": {
+     "say": "The star is twinkling bright!"
+    },
+    "dkitap": {
+     "say": "Mine has a little bear, look!"
+    }
+   },
+   "hint": "Open the book and listen!",
+   "ask": "How did Can feel when he chose his own book? Which book did you choose last?",
+   "cues": [
+    {
+     "w": 19,
+     "fx": "yaprak"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TAOB.1 Choosing visual materials such as picture story books: Looks closely at the cover pictures one by one (TAOB.1.a) and chooses the book they want to read from the options (TAOB.1.b).",
+   "TADB.1 Managing the materials they will listen to or watch: Chooses what they want to listen to from the books on offer (TADB.1.a).",
+   "OB1 Information Literacy and OB4 Visual Literacy: Says what the cover picture shows (bear, car, star) and puts the book on the shelf whose picture belongs to the same group (bear → the animal shelf with the cat).",
+   "SDB3.3 Responsible Decision-Making and D11 Freedom: When muddled, stops, breathes, compares the options and gives a reason for their choice (“Because the star is smiling at me”); respects a friend's different choice."
+  ],
+  "once": [
+   "Look at the cover: “Where is Can? What do you think he'll do today?” Listen to the guesses without correcting them.",
+   "Look at the classroom book corner together: “How do we choose a book here?”",
+   "Ask “What do you do when you feel muddled?”; take one deep breath in and out together."
+  ],
+  "sirasi": [
+   "On page 2, let the child find the hidden books; repeat the position words together: “under the table, behind the cushion, next to the box”.",
+   "On page 3, breathe in through the nose with Can (Hhhhh…) and blow out through the mouth (Fwooo!). For the prediction question, say that both options are good ideas.",
+   "On page 4, the child touches a book first, then the shelf with a picture from the same group (a bear and a cat are both animals). Ask “How did you work it out?”; talk about the star–sun pair together (both are in the sky).",
+   "On page 5, accept every answer to “Which one would you choose?”; asking for a reason with “because…” is enough."
+  ],
+  "sonra": [
+   "Why did Can feel muddled? What did he do to feel better?",
+   "What does the picture on a cover tell us? What might the bear book be about?",
+   "Can chose the star book, Deniz chose the bear book. Are both right? Why?"
+  ],
+  "sinif": {
+   "ad": "Picture shelf labels and cover detectives",
+   "sure": "20 min",
+   "materyal": "9–12 picture books from the class library; three picture shelf cards (a cat for animals, a bus for vehicles, a sun for the sky); tape; a reading cushion",
+   "adim": [
+    "Tape the three picture cards to three shelves of the bookcase; talk with the children about what each card means.",
+    "Spread the books on the carpet. Each child takes a book, looks closely at the cover and says “This book has … in it, because I saw … on the cover.”",
+    "The child puts the book on the shelf whose picture belongs to the same group as the cover (the bear book on the animal shelf with the cat); discuss undecided books as a class (a book can fit two shelves!).",
+    "Finally, each child chooses a book from the shelf, says in one sentence why they chose it and looks at it with a friend on the reading cushion."
+   ]
+  },
+  "evSoru": [
+   "Which of your books at home is your favourite? What's on the cover?",
+   "How can you guess what a book is about from its cover?",
+   "Was there a time when choosing was hard for you? What did you do?"
+  ],
+  "evEtk": {
+   "ad": "You choose tonight's book",
+   "d": "Every evening, offer your child two or three books and let them choose the one to read. Look at the covers together first: “What do you see here? What do you think it's about?” When they've chosen, ask “Why did you choose this one?” and accept their answer. At the weekend you can sort the books at home onto little shelves with picture cards (animals, vehicles, sky)."
+  },
+  "aileNotu": "Today we read “Can Chooses His Book”. When a ball rolled away and the books tumbled down, Can couldn't decide; he took a deep breath, looked closely at the cover pictures and chose his own book, with a reason. The story supports visual reading (making meaning from a cover picture), choosing books and responsible decision-making. Letting your child choose the bedtime book at home and asking “Why did you choose this one?” strengthens these skills."
+ },
+ "audio": {
+  "file": "audio/en/031-kutuphanede-can.mp3",
+  "hash": "d5f51f3d",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10712,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1629,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      3209,
+      5
+     ],
+     [
+      3650,
+      6
+     ],
+     [
+      3930,
+      7
+     ],
+     [
+      3989,
+      8
+     ],
+     [
+      4769,
+      9
+     ],
+     [
+      5149,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      5749,
+      12
+     ],
+     [
+      5890,
+      13
+     ],
+     [
+      6529,
+      14
+     ],
+     [
+      6910,
+      15
+     ],
+     [
+      7629,
+      16
+     ],
+     [
+      7870,
+      17
+     ],
+     [
+      8109,
+      18
+     ],
+     [
+      8230,
+      19
+     ],
+     [
+      8350,
+      20
+     ],
+     [
+      8549,
+      21
+     ],
+     [
+      9409,
+      22
+     ],
+     [
+      9850,
+      23
+     ],
+     [
+      10029,
+      24
+     ],
+     [
+      10230,
+      25
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 11012,
+    "d": 2116,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1209,
+      2
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 13429,
+    "d": 1490,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1009,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 15220,
+    "d": 14549,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      3569,
+      8
+     ],
+     [
+      3749,
+      9
+     ],
+     [
+      4069,
+      10
+     ],
+     [
+      4189,
+      11
+     ],
+     [
+      4310,
+      12
+     ],
+     [
+      5229,
+      13
+     ],
+     [
+      5390,
+      14
+     ],
+     [
+      5589,
+      15
+     ],
+     [
+      5729,
+      16
+     ],
+     [
+      6430,
+      17
+     ],
+     [
+      6569,
+      18
+     ],
+     [
+      6809,
+      19
+     ],
+     [
+      6949,
+      20
+     ],
+     [
+      7709,
+      21
+     ],
+     [
+      7849,
+      22
+     ],
+     [
+      8049,
+      23
+     ],
+     [
+      8150,
+      24
+     ],
+     [
+      8289,
+      25
+     ],
+     [
+      9230,
+      26
+     ],
+     [
+      9609,
+      27
+     ],
+     [
+      9989,
+      28
+     ],
+     [
+      10770,
+      29
+     ],
+     [
+      10989,
+      30
+     ],
+     [
+      11270,
+      31
+     ],
+     [
+      11589,
+      32
+     ],
+     [
+      11890,
+      33
+     ],
+     [
+      12869,
+      34
+     ],
+     [
+      13169,
+      35
+     ],
+     [
+      13310,
+      36
+     ],
+     [
+      13529,
+      37
+     ],
+     [
+      13649,
+      38
+     ],
+     [
+      13989,
+      39
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 30069,
+    "d": 1834,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      829,
+      4
+     ],
+     [
+      1209,
+      5
+     ]
+    ]
+   },
+   "p1h-top": {
+    "s": 32203,
+    "d": 2463,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1030,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 34967,
+    "d": 1493,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      849,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 36760,
+    "d": 16627,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      4089,
+      9
+     ],
+     [
+      4249,
+      10
+     ],
+     [
+      4549,
+      11
+     ],
+     [
+      4870,
+      12
+     ],
+     [
+      5089,
+      13
+     ],
+     [
+      5310,
+      14
+     ],
+     [
+      5509,
+      15
+     ],
+     [
+      7769,
+      16
+     ],
+     [
+      7809,
+      17
+     ],
+     [
+      7949,
+      18
+     ],
+     [
+      8190,
+      19
+     ],
+     [
+      8449,
+      20
+     ],
+     [
+      9029,
+      21
+     ],
+     [
+      9289,
+      22
+     ],
+     [
+      9469,
+      23
+     ],
+     [
+      10549,
+      24
+     ],
+     [
+      11709,
+      25
+     ],
+     [
+      11909,
+      26
+     ],
+     [
+      12449,
+      27
+     ],
+     [
+      13609,
+      28
+     ],
+     [
+      13930,
+      29
+     ],
+     [
+      14109,
+      30
+     ],
+     [
+      14369,
+      31
+     ],
+     [
+      14509,
+      32
+     ],
+     [
+      14649,
+      33
+     ],
+     [
+      14949,
+      34
+     ],
+     [
+      15329,
+      35
+     ],
+     [
+      15749,
+      36
+     ],
+     [
+      15930,
+      37
+     ],
+     [
+      16149,
+      38
+     ],
+     [
+      16309,
+      39
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 53688,
+    "d": 3775,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      967,
+      1
+     ],
+     [
+      1895,
+      2
+     ],
+     [
+      2571,
+      3
+     ],
+     [
+      2996,
+      4
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 57763,
+    "d": 2861,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      720,
+      1
+     ],
+     [
+      1575,
+      2
+     ],
+     [
+      2429,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 60924,
+    "d": 2104,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      369,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      1009,
+      5
+     ],
+     [
+      1189,
+      6
+     ],
+     [
+      1469,
+      7
+     ],
+     [
+      1629,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 63329,
+    "d": 3881,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      2670,
+      7
+     ],
+     [
+      2789,
+      8
+     ],
+     [
+      3129,
+      9
+     ],
+     [
+      3229,
+      10
+     ],
+     [
+      3369,
+      11
+     ]
+    ]
+   },
+   "p3": {
+    "s": 67510,
+    "d": 17233,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1489,
+      5
+     ],
+     [
+      1709,
+      6
+     ],
+     [
+      2029,
+      7
+     ],
+     [
+      2789,
+      8
+     ],
+     [
+      3569,
+      9
+     ],
+     [
+      4390,
+      10
+     ],
+     [
+      5350,
+      11
+     ],
+     [
+      5489,
+      12
+     ],
+     [
+      5850,
+      13
+     ],
+     [
+      6049,
+      14
+     ],
+     [
+      6549,
+      15
+     ],
+     [
+      7349,
+      16
+     ],
+     [
+      8069,
+      17
+     ],
+     [
+      8810,
+      18
+     ],
+     [
+      9730,
+      19
+     ],
+     [
+      9890,
+      20
+     ],
+     [
+      10230,
+      21
+     ],
+     [
+      10350,
+      22
+     ],
+     [
+      10569,
+      23
+     ],
+     [
+      11270,
+      24
+     ],
+     [
+      11529,
+      25
+     ],
+     [
+      11649,
+      26
+     ],
+     [
+      11909,
+      27
+     ],
+     [
+      12609,
+      28
+     ],
+     [
+      12909,
+      29
+     ],
+     [
+      13209,
+      30
+     ],
+     [
+      13989,
+      31
+     ],
+     [
+      14369,
+      32
+     ],
+     [
+      14629,
+      33
+     ],
+     [
+      14729,
+      34
+     ],
+     [
+      14909,
+      35
+     ],
+     [
+      15810,
+      36
+     ],
+     [
+      16129,
+      37
+     ],
+     [
+      16209,
+      38
+     ],
+     [
+      16409,
+      39
+     ],
+     [
+      16569,
+      40
+     ],
+     [
+      16749,
+      41
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 85043,
+    "d": 1700,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      310,
+      1
+     ],
+     [
+      580,
+      2
+     ],
+     [
+      850,
+      3
+     ],
+     [
+      1120,
+      4
+     ],
+     [
+      1390,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 87044,
+    "d": 2211,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1550,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 89556,
+    "d": 15600,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      849,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2969,
+      8
+     ],
+     [
+      3269,
+      9
+     ],
+     [
+      4350,
+      10
+     ],
+     [
+      4509,
+      11
+     ],
+     [
+      4830,
+      12
+     ],
+     [
+      5330,
+      13
+     ],
+     [
+      5669,
+      14
+     ],
+     [
+      6549,
+      15
+     ],
+     [
+      6749,
+      16
+     ],
+     [
+      7049,
+      17
+     ],
+     [
+      7370,
+      18
+     ],
+     [
+      7749,
+      19
+     ],
+     [
+      7910,
+      20
+     ],
+     [
+      9069,
+      21
+     ],
+     [
+      9489,
+      22
+     ],
+     [
+      9829,
+      23
+     ],
+     [
+      9949,
+      24
+     ],
+     [
+      10190,
+      25
+     ],
+     [
+      11009,
+      26
+     ],
+     [
+      11329,
+      27
+     ],
+     [
+      12209,
+      28
+     ],
+     [
+      12329,
+      29
+     ],
+     [
+      12629,
+      30
+     ],
+     [
+      12770,
+      31
+     ],
+     [
+      13069,
+      32
+     ],
+     [
+      13549,
+      33
+     ],
+     [
+      13850,
+      34
+     ],
+     [
+      14009,
+      35
+     ],
+     [
+      14369,
+      36
+     ],
+     [
+      14529,
+      37
+     ],
+     [
+      15049,
+      38
+     ],
+     [
+      15189,
+      39
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 105456,
+    "d": 3552,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      1989,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2449,
+      8
+     ],
+     [
+      3009,
+      9
+     ],
+     [
+      3170,
+      10
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 109308,
+    "d": 1544,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1109,
+      4
+     ]
+    ]
+   },
+   "p4h-b1": {
+    "s": 111152,
+    "d": 2297,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1449,
+      5
+     ]
+    ]
+   },
+   "p4h-b2": {
+    "s": 113750,
+    "d": 2371,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p4h-b3": {
+    "s": 116421,
+    "d": 2976,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      379,
+      1
+     ],
+     [
+      719,
+      2
+     ],
+     [
+      1462,
+      3
+     ],
+     [
+      2004,
+      4
+     ],
+     [
+      2344,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 119698,
+    "d": 17157,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2410,
+      7
+     ],
+     [
+      2569,
+      8
+     ],
+     [
+      2849,
+      9
+     ],
+     [
+      3589,
+      10
+     ],
+     [
+      3809,
+      11
+     ],
+     [
+      4029,
+      12
+     ],
+     [
+      4129,
+      13
+     ],
+     [
+      4249,
+      14
+     ],
+     [
+      5229,
+      15
+     ],
+     [
+      5629,
+      16
+     ],
+     [
+      5930,
+      17
+     ],
+     [
+      6049,
+      18
+     ],
+     [
+      7009,
+      19
+     ],
+     [
+      7509,
+      20
+     ],
+     [
+      8449,
+      21
+     ],
+     [
+      8869,
+      22
+     ],
+     [
+      9009,
+      23
+     ],
+     [
+      9549,
+      24
+     ],
+     [
+      9709,
+      25
+     ],
+     [
+      10209,
+      26
+     ],
+     [
+      10509,
+      27
+     ],
+     [
+      10589,
+      28
+     ],
+     [
+      10730,
+      29
+     ],
+     [
+      11549,
+      30
+     ],
+     [
+      12109,
+      31
+     ],
+     [
+      13169,
+      32
+     ],
+     [
+      13629,
+      33
+     ],
+     [
+      14089,
+      34
+     ],
+     [
+      14329,
+      35
+     ],
+     [
+      14909,
+      36
+     ],
+     [
+      15069,
+      37
+     ],
+     [
+      15390,
+      38
+     ],
+     [
+      15569,
+      39
+     ],
+     [
+      15909,
+      40
+     ],
+     [
+      16129,
+      41
+     ],
+     [
+      16309,
+      42
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 137155,
+    "d": 2521,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      1649,
+      6
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 139976,
+    "d": 2183,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1749,
+      5
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 142459,
+    "d": 1815,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p5h-acik": {
+    "s": 144575,
+    "d": 2255,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p5h-dkitap": {
+    "s": 147131,
+    "d": 2191,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      495,
+      1
+     ],
+     [
+      756,
+      2
+     ],
+     [
+      1018,
+      3
+     ],
+     [
+      1473,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

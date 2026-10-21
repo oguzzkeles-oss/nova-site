@@ -1,0 +1,1566 @@
+{
+ "id": "086-piti-gokkusagini-ariyor",
+ "n": 86,
+ "title": "Pıtı Gökkuşağını Arıyor",
+ "age": "36-48",
+ "area": "Sanat",
+ "theme": "Renkler ve güzellik",
+ "values": [
+  "D7 Estetik"
+ ],
+ "sdb": "SDB1.1 Kendini Tanıma",
+ "min": 4,
+ "blurb": "Yağmur biter ama gökkuşağı görünmez. Pıtı Bulut ile kelebek Pırpır, çayırda bir renk avı oyununa çıkar.",
+ "codes": {
+  "maarif": [
+   "SNAB.2 Sanat eseri inceleyebilme (eserle ilgili duygu ve düşüncelerini ifade eder; eserin konusuna ilişkin kendi deneyimlerine dayanarak tahmin yürütür)",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme (görsellerden tahmin yürütür; görseldeki bilgilerle günlük yaşamı arasında ilişki kurar)",
+   "TADB.2 Dinledikleri/izledikleri hikâye gibi materyaller ile ilgili yeni anlamlar oluşturabilme (materyallere ilişkin çıkarım yapar)",
+   "SDB1.1 Kendini Tanıma (Öz Farkındalık)",
+   "D7 Estetik"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "piti": "hayvan-kiz",
+  "pirpir": "kucuk-hayvan",
+  "benek": "hayvan-kiz",
+  "gunes": "bilge-hayvan"
+ },
+ "voiceNames": {
+  "piti": "Pıtı (bulut)",
+  "pirpir": "Pırpır (kelebek)",
+  "benek": "Benek (uğur böceği)",
+  "gunes": "Güneş"
+ },
+ "pages": [
+  {
+   "text": "Pıt, pıt, pıt… Yağmur bitti. Pıtı Bulut gerindi. “Şimdi gökkuşağı çıkar!” dedi. Kelebek Pırpır kanat çırptı: “Yaşasın!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "cloudy",
+    "lake": true,
+    "cast": [
+     {
+      "k": "piti",
+      "x": 190,
+      "y": 86,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "arms",
+      "hit": "piti"
+     },
+     {
+      "k": "kelebek",
+      "x": 306,
+      "y": 166,
+      "hit": "pirpir",
+      "s": 1.5
+     }
+    ],
+    "props": [
+     {
+      "k": "birikinti",
+      "x": 112,
+      "y": 224,
+      "s": 1.3,
+      "hit": "su"
+     },
+     {
+      "k": "birikinti",
+      "x": 262,
+      "y": 232,
+      "s": 0.9
+     },
+     {
+      "k": "flower",
+      "x": 34,
+      "y": 230,
+      "s": 0.8,
+      "color": "#F4D35A",
+      "state": "off"
+     },
+     {
+      "k": "flower",
+      "x": 352,
+      "y": 232,
+      "s": 0.85,
+      "color": "#5AA3DE",
+      "state": "off"
+     }
+    ]
+   },
+   "hits": {
+    "piti": {
+     "say": "Şimdi gökkuşağı çıkar!",
+     "voice": "piti",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "pirpir": {
+     "say": "Yaşasın! Yaşasın!",
+     "voice": "pirpir",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "su": {
+     "anim": "wiggle",
+     "fx": "splash"
+    }
+   },
+   "hint": [
+    "piti",
+    "Pıtı'ya dokun!"
+   ],
+   "ask": "Yağmur bitince dışarıda neler görürsün? Neler duyarsın?"
+  },
+  {
+   "text": "Pıtı sağa baktı, sola baktı. Gökkuşağı yok! Güneş de yok. Pıtı üzüldü, gözleri doldu. “Renkler nereye gitti?” Pırpır geldi. “Güneşi beklerken renk avı oynayalım!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "cloudy",
+    "lake": true,
+    "cast": [
+     {
+      "k": "piti",
+      "x": 150,
+      "y": 92,
+      "s": 1.05,
+      "mood": "sad",
+      "hit": "piti"
+     },
+     {
+      "k": "kelebek",
+      "x": 262,
+      "y": 170,
+      "hit": "pirpir",
+      "s": 1.5
+     }
+    ],
+    "props": [
+     {
+      "k": "qmark",
+      "x": 232,
+      "y": 50,
+      "d": 0
+     },
+     {
+      "k": "qmark",
+      "x": 256,
+      "y": 72,
+      "d": 0.6
+     },
+     {
+      "k": "birikinti",
+      "x": 120,
+      "y": 226,
+      "s": 1.1
+     },
+     {
+      "k": "flower",
+      "x": 34,
+      "y": 230,
+      "s": 0.8,
+      "color": "#F4D35A",
+      "state": "off"
+     },
+     {
+      "k": "flower",
+      "x": 352,
+      "y": 232,
+      "s": 0.85,
+      "color": "#5AA3DE",
+      "state": "off"
+     }
+    ]
+   },
+   "hits": {
+    "piti": {
+     "say": "Renkler nereye gitti?",
+     "voice": "piti",
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "pirpir": {
+     "say": "Renk avı oynayalım!",
+     "voice": "pirpir",
+     "anim": "jump",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "piti",
+    "Pıtı'ya dokun!"
+   ],
+   "ask": "Pıtı neden üzüldü? Sen üzülünce kim yanına gelir?"
+  },
+  {
+   "text": "Renk avı başladı! Pırpır sordu: “İlk renk kırmızı. Kırmızı nerede saklanıyor?” Pıtı düşündü, düşündü. Hımm…",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "cloudy",
+    "lake": true,
+    "cast": [
+     {
+      "k": "piti",
+      "x": 112,
+      "y": 84,
+      "s": 0.95,
+      "mood": "think",
+      "hit": "piti"
+     },
+     {
+      "k": "kelebek",
+      "x": 210,
+      "y": 156,
+      "hit": "pirpir",
+      "s": 1.5
+     }
+    ],
+    "props": [
+     {
+      "k": "qmark",
+      "x": 168,
+      "y": 44,
+      "d": 0
+     },
+     {
+      "k": "cali",
+      "x": 300,
+      "y": 226,
+      "s": 1.5
+     },
+     {
+      "k": "flower",
+      "x": 34,
+      "y": 230,
+      "s": 0.8,
+      "color": "#F4D35A",
+      "state": "off"
+     }
+    ]
+   },
+   "hits": {
+    "piti": {
+     "say": "Kırmızı, kırmızı... Neredesin?",
+     "voice": "piti",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "pirpir": {
+     "say": "Kırmızı nerede saklanıyor?",
+     "voice": "pirpir",
+     "anim": "boing",
+     "fx": "whoosh"
+    }
+   },
+   "predict": {
+    "q": "Sence kırmızıyı nerede bulurlar?",
+    "res": "Hadi, çayırda birlikte arayalım!",
+    "opts": [
+     {
+      "l": "Bir çiçekte",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "weather": "cloudy",
+       "lake": true,
+       "cast": [
+        {
+         "k": "piti",
+         "x": 110,
+         "y": 80,
+         "s": 0.8,
+         "mood": "happy"
+        },
+        {
+         "k": "kelebek",
+         "x": 248,
+         "y": 130,
+         "s": 1.4
+        }
+       ],
+       "props": [
+        {
+         "k": "flower",
+         "x": 212,
+         "y": 228,
+         "s": 1.7,
+         "color": "#E8524A"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Bir böcekte",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "weather": "cloudy",
+       "lake": true,
+       "cast": [
+        {
+         "k": "piti",
+         "x": 110,
+         "y": 80,
+         "s": 0.8,
+         "mood": "happy"
+        },
+        {
+         "k": "ugurbocegi",
+         "x": 222,
+         "y": 222,
+         "s": 2.6,
+         "mood": "happy",
+         "pose": "wave"
+        },
+        {
+         "k": "kelebek",
+         "x": 300,
+         "y": 130,
+         "s": 1.4
+        }
+       ],
+       "props": []
+      }
+     }
+    ]
+   },
+   "hint": [
+    "pirpir",
+    "Pırpır'a dokun!"
+   ],
+   "ask": "Sence kırmızı nerede saklanıyor olabilir? Etrafında kırmızı ne görüyorsun?"
+  },
+  {
+   "text": "Hışır hışır! Pıtı eğildi, aşağı baktı. “Kırmızı!” Çayırda üç kırmızı saklanmıştı. Bir çiçek, bir böcek, bir yaprak.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "cloudy",
+    "lake": true,
+    "cast": [
+     {
+      "k": "piti",
+      "x": 178,
+      "y": 92,
+      "s": 0.95,
+      "mood": "surprised",
+      "hit": "piti"
+     },
+     {
+      "k": "kelebek",
+      "x": 60,
+      "y": 52,
+      "s": 1.5,
+      "hit": "pirpir"
+     },
+     {
+      "k": "ugurbocegi",
+      "x": 232,
+      "y": 222,
+      "s": 1.3,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "r2"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 82,
+      "y": 230,
+      "s": 1.05,
+      "color": "#E8524A",
+      "hit": "r1"
+     },
+     {
+      "k": "bush",
+      "x": 224,
+      "y": 238,
+      "s": 1.0
+     },
+     {
+      "k": "cali",
+      "x": 356,
+      "y": 234,
+      "s": 1.3
+     },
+     {
+      "k": "yaprak",
+      "x": 312,
+      "y": 228,
+      "s": 2.2,
+      "color": "#E03A30",
+      "peek": true,
+      "hit": "r3"
+     }
+    ]
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "r1",
+     "r2",
+     "r3"
+    ],
+    "done": "Kırmızı tamam! Şimdi sıra öteki renklerde.",
+    "msg": "Üç kırmızı buldun!"
+   },
+   "hits": {
+    "piti": {
+     "say": "Buldum! Kırmızı!",
+     "voice": "piti",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "pirpir": {
+     "say": "Aferin Pıtı!",
+     "voice": "pirpir",
+     "anim": "boing",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "r1",
+    "Kırmızıları bul!"
+   ],
+   "ask": "Sence en iyi hangi kırmızı saklanmıştı? Neden?",
+   "cues": [
+    {
+     "w": 0,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Sarı nerede? Mavi nerede? Çiçekler yağmurda uyuyakalmış. Mışıl mışıl! Pıtı fısıldadı: “Günaydın, sarı! Günaydın, mavi!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "cloudy",
+    "lake": true,
+    "cast": [
+     {
+      "k": "piti",
+      "x": 196,
+      "y": 70,
+      "s": 0.85,
+      "mood": "calm",
+      "hit": "piti"
+     },
+     {
+      "k": "kelebek",
+      "x": 324,
+      "y": 64,
+      "hit": "pirpir",
+      "s": 1.5
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 62,
+      "y": 228,
+      "s": 1.2,
+      "color": "#F4D35A",
+      "state": "off",
+      "hit": "f1"
+     },
+     {
+      "k": "flower",
+      "x": 148,
+      "y": 222,
+      "s": 1.2,
+      "color": "#F4A04A",
+      "state": "off",
+      "hit": "f2"
+     },
+     {
+      "k": "flower",
+      "x": 240,
+      "y": 228,
+      "s": 1.2,
+      "color": "#5AA3DE",
+      "state": "off",
+      "hit": "f3"
+     },
+     {
+      "k": "flower",
+      "x": 326,
+      "y": 222,
+      "s": 1.2,
+      "color": "#957FD2",
+      "state": "off",
+      "hit": "f4"
+     }
+    ]
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "f1",
+     "f2",
+     "f3",
+     "f4"
+    ],
+    "done": "Sarı, turuncu, mavi, mor! Hepsi uyandı.",
+    "msg": "Çiçekler uyandı!"
+   },
+   "hits": {
+    "piti": {
+     "say": "Günaydın sarı! Günaydın mavi!",
+     "voice": "piti",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "pirpir": {
+     "say": "Sarı! Turuncu! Mavi! Mor!",
+     "voice": "pirpir",
+     "anim": "jump",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "f1",
+    "Çiçeklere dokun!"
+   ],
+   "ask": "Çiçekler açılınca çayır nasıl oldu? Sen sabah uyanınca ilk ne yaparsın?"
+  },
+  {
+   "text": "Pırpır saydı: “Kırmızı, turuncu, sarı, yeşil, mavi, lacivert, mor… Hepsi burada!” Tam o an güneş uyandı. Işıl ışıl! İşte gökkuşağı! Pıtı zıpladı: “En çok maviyi sevdim!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 344,
+      "y": 46,
+      "mood": "happy",
+      "hit": "gunes"
+     },
+     {
+      "k": "piti",
+      "x": 112,
+      "y": 74,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "arms",
+      "hit": "piti"
+     },
+     {
+      "k": "kelebek",
+      "x": 196,
+      "y": 188,
+      "s": 1.5,
+      "hit": "pirpir"
+     },
+     {
+      "k": "ugurbocegi",
+      "x": 334,
+      "y": 228,
+      "s": 1.8,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "benek",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "rainbow",
+      "x": 250,
+      "y": 200,
+      "r": 130,
+      "hit": "gokkusagi"
+     },
+     {
+      "k": "birikinti",
+      "x": 200,
+      "y": 230,
+      "s": 1.6,
+      "hit": "su"
+     },
+     {
+      "k": "flower",
+      "x": 44,
+      "y": 228,
+      "s": 0.95,
+      "color": "#E8524A"
+     },
+     {
+      "k": "flower",
+      "x": 98,
+      "y": 234,
+      "s": 0.85,
+      "color": "#5AA3DE"
+     }
+    ]
+   },
+   "hits": {
+    "gokkusagi": {
+     "anim": "boing",
+     "fx": "twinkle",
+     "spark": 1
+    },
+    "piti": {
+     "say": "En çok maviyi sevdim!",
+     "voice": "piti",
+     "anim": "jump",
+     "fx": "success",
+     "hearts": 1
+    },
+    "pirpir": {
+     "say": "Kırmızı, sarı, mavi... Hepsi burada!",
+     "voice": "pirpir",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "benek": {
+     "say": "Ben de kırmızıyım!",
+     "voice": "benek",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "gunes": {
+     "say": "Günaydın Pıtı!",
+     "voice": "gunes",
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "su": {
+     "anim": "wiggle",
+     "fx": "splash"
+    }
+   },
+   "hint": [
+    "pirpir",
+    "Pırpır'a dokun!"
+   ],
+   "ask": "Senin en sevdiğin renk hangisi? O renk sana ne hissettiriyor?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.2 Sanat eseri inceleyebilme: Çocuk gökkuşağını, çayırdaki renkleri ve sınıfta gösterilen bir ebru ya da resmi inceler; “En çok hangisini beğendin, neden?” sorusuyla duygu ve düşüncelerini ifade eder (SNAB.2.g).",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme: Resimlerden kırmızının nerede saklandığını tahmin eder, gördüklerini kendi çevresindeki renklerle ilişkilendirir.",
+   "TADB.2 Dinlediği hikâyeyle ilgili yeni anlamlar oluşturabilme: Pıtı'nın neden üzüldüğüne ve sonunda neden sevindiğine ilişkin çıkarım yapar.",
+   "SDB1.1 Kendini Tanıma ve D7 Estetik: Kendi en sevdiği rengi söyler, güzel bulduğu şeyleri fark eder ve adlandırır."
+  ],
+  "once": [
+   "Kapaktaki Pıtı'yı göster: “Bu bulut neyi arıyor olabilir?”",
+   "Pencereden bakın: “Şu an dışarıda hangi renkleri görüyoruz?”",
+   "Masalda gökkuşağını güneşin getirdiğini, renk avının ise güneşi beklerken oynanan bir oyun olduğunu söyleyin."
+  ],
+  "sirasi": [
+   "2. sayfada Pıtı'nın yüzünü gösterin: “Nasıl hissediyor? Neden?”",
+   "3. sayfada tahmin sorusunda iki cevabı da kabul edin; sonra birlikte görün.",
+   "4. sayfada kırmızıları bulurken rengin adını hep birlikte söyleyin; 5. sayfada her çiçeğe dokunurken rengini söyleyin.",
+   "Son sayfada gökkuşağının renklerini parmakla gösterip sırayla adlandırın."
+  ],
+  "sonra": [
+   "Pıtı neden üzüldü? Gökkuşağı neden çıkmıyordu? Kim ona yardım etti?",
+   "Hangi renkleri buldular? Sen hangisini güzel buldun, neden?",
+   "Gerçek gökkuşağını ne zaman görebiliriz? (Yağmurdan sonra güneş çıkınca; masalda da gökkuşağı güneş uyanınca çıktı.)",
+   "Masalı üç resimle sıralayın: Pıtı üzgün, kırmızılar bulundu, gökkuşağı çıktı."
+  ],
+  "sinif": {
+   "ad": "Renk Avı ve Gökkuşağı Duvarı",
+   "sure": "20 dk",
+   "materyal": "Kırmızı, sarı, mavi, yeşil, turuncu, mor renkte kâğıt şeritler; sınıftaki güvenli nesneler; büyük kâğıt ve pastel boyalar; bir ebru kâğıdı ya da renkli bir resim (basılı ya da ekranda)",
+   "adim": [
+    "Bir ebru kâğıdı ya da gökkuşağı renkli bir resim gösterin: “Bu resimde hangi renkleri görüyorsun? Sana ne hissettirdi?” Her cevabı kabul edin.",
+    "Her çocuğa bir renk şeridi verin. “Pırpır gibi renk avına çıkalım!” deyin; çocuklar sınıfta o renkte bir nesne bulup getirsin.",
+    "Bulunan nesneleri renklerine göre yere, gökkuşağı gibi yay biçiminde dizin ve her rengin adını birlikte söyleyin.",
+    "Dizilen “gökkuşağı eserine” birlikte bakın: “En çok hangi yeri beğendin? Sana ne hissettirdi?” Her çocuk en sevdiği rengi söyleyip büyük kâğıda bir çizgi eklesin."
+   ]
+  },
+  "evSoru": [
+   "Pıtı gökkuşağını bulunca ne hissetti?",
+   "Kırmızıları nerede buldular?",
+   "Senin en sevdiğin renk hangisi? Evimizde o renkte neler var?"
+  ],
+  "evEtk": {
+   "ad": "Evde renk avı",
+   "d": "Bir renk seçin ve evde ya da yürüyüşte o renkte üç şey bulun. Yağmurdan sonra güneş çıkınca gökyüzüne birlikte bakın, gökkuşağı görürseniz renklerini adlandırın."
+  },
+  "aileNotu": "Bugün “Pıtı Gökkuşağını Arıyor” masalını okuduk. Pıtı Bulut ile kelebek Pırpır, güneşi beklerken çayırda renk avı oyunu oynadı; güneş uyanınca gökkuşağı çıktı. Gerçek gökkuşağı da yağmur damlalarına güneş vurunca oluşur. Evde birlikte bir renk seçip o renkte üç şey bulabilir, çocuğunuza en sevdiği rengi ve nedenini sorabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/086-piti-gokkusagini-ariyor.mp3",
+  "hash": "78570f12",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 9847,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      3170,
+      5
+     ],
+     [
+      3449,
+      6
+     ],
+     [
+      3809,
+      7
+     ],
+     [
+      4749,
+      8
+     ],
+     [
+      5109,
+      9
+     ],
+     [
+      5729,
+      10
+     ],
+     [
+      6410,
+      11
+     ],
+     [
+      7029,
+      12
+     ],
+     [
+      7469,
+      13
+     ],
+     [
+      7910,
+      14
+     ],
+     [
+      8270,
+      15
+     ],
+     [
+      9049,
+      16
+     ]
+    ]
+   },
+   "p0h-piti": {
+    "s": 10147,
+    "d": 1752,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1329,
+      2
+     ]
+    ]
+   },
+   "p0h-pirpir": {
+    "s": 12199,
+    "d": 1994,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1181,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 14494,
+    "d": 12690,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2589,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4209,
+      8
+     ],
+     [
+      4370,
+      9
+     ],
+     [
+      5049,
+      10
+     ],
+     [
+      5430,
+      11
+     ],
+     [
+      6289,
+      12
+     ],
+     [
+      6789,
+      13
+     ],
+     [
+      7629,
+      14
+     ],
+     [
+      8150,
+      15
+     ],
+     [
+      8509,
+      16
+     ],
+     [
+      9350,
+      17
+     ],
+     [
+      9749,
+      18
+     ],
+     [
+      10509,
+      19
+     ],
+     [
+      10869,
+      20
+     ],
+     [
+      11629,
+      21
+     ],
+     [
+      11890,
+      22
+     ],
+     [
+      12109,
+      23
+     ]
+    ]
+   },
+   "p1h-piti": {
+    "s": 27484,
+    "d": 1486,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      969,
+      2
+     ]
+    ]
+   },
+   "p1h-pirpir": {
+    "s": 29271,
+    "d": 1213,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      550,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 30784,
+    "d": 9142,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2849,
+      5
+     ],
+     [
+      3069,
+      6
+     ],
+     [
+      3349,
+      7
+     ],
+     [
+      4209,
+      8
+     ],
+     [
+      4629,
+      9
+     ],
+     [
+      4949,
+      10
+     ],
+     [
+      5969,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      8145,
+      14
+     ]
+    ]
+   },
+   "p2h-piti": {
+    "s": 40227,
+    "d": 3052,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      2229,
+      2
+     ]
+    ]
+   },
+   "p2h-pirpir": {
+    "s": 43579,
+    "d": 1839,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1030,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 45718,
+    "d": 2019,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 48038,
+    "d": 1856,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 50194,
+    "d": 9830,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      2829,
+      5
+     ],
+     [
+      3609,
+      6
+     ],
+     [
+      4649,
+      7
+     ],
+     [
+      5330,
+      8
+     ],
+     [
+      5529,
+      9
+     ],
+     [
+      5989,
+      10
+     ],
+     [
+      7149,
+      11
+     ],
+     [
+      7370,
+      12
+     ],
+     [
+      8109,
+      13
+     ],
+     [
+      8329,
+      14
+     ],
+     [
+      9049,
+      15
+     ],
+     [
+      9289,
+      16
+     ]
+    ]
+   },
+   "p3h-piti": {
+    "s": 60324,
+    "d": 1514,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      815,
+      1
+     ]
+    ]
+   },
+   "p3h-pirpir": {
+    "s": 62139,
+    "d": 990,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      574,
+      1
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 63430,
+    "d": 2993,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2289,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 66723,
+    "d": 10168,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2529,
+      4
+     ],
+     [
+      3150,
+      5
+     ],
+     [
+      3689,
+      6
+     ],
+     [
+      4890,
+      7
+     ],
+     [
+      5549,
+      8
+     ],
+     [
+      6449,
+      9
+     ],
+     [
+      6709,
+      10
+     ],
+     [
+      7769,
+      11
+     ],
+     [
+      8369,
+      12
+     ],
+     [
+      9109,
+      13
+     ],
+     [
+      9669,
+      14
+     ]
+    ]
+   },
+   "p4h-piti": {
+    "s": 77192,
+    "d": 2428,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1889,
+      3
+     ]
+    ]
+   },
+   "p4h-pirpir": {
+    "s": 79920,
+    "d": 3357,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      951,
+      1
+     ],
+     [
+      2093,
+      2
+     ],
+     [
+      3005,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 83578,
+    "d": 3956,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      2229,
+      3
+     ],
+     [
+      2930,
+      4
+     ],
+     [
+      3349,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 87834,
+    "d": 15107,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      2209,
+      3
+     ],
+     [
+      3150,
+      4
+     ],
+     [
+      3869,
+      5
+     ],
+     [
+      4609,
+      6
+     ],
+     [
+      5370,
+      7
+     ],
+     [
+      6249,
+      8
+     ],
+     [
+      7009,
+      9
+     ],
+     [
+      7390,
+      10
+     ],
+     [
+      8230,
+      11
+     ],
+     [
+      8589,
+      12
+     ],
+     [
+      8730,
+      13
+     ],
+     [
+      9009,
+      14
+     ],
+     [
+      9350,
+      15
+     ],
+     [
+      10109,
+      16
+     ],
+     [
+      10529,
+      17
+     ],
+     [
+      11189,
+      18
+     ],
+     [
+      11509,
+      19
+     ],
+     [
+      12609,
+      20
+     ],
+     [
+      12909,
+      21
+     ],
+     [
+      13729,
+      22
+     ],
+     [
+      13909,
+      23
+     ],
+     [
+      14149,
+      24
+     ],
+     [
+      14589,
+      25
+     ]
+    ]
+   },
+   "p5h-piti": {
+    "s": 103242,
+    "d": 1824,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1109,
+      3
+     ]
+    ]
+   },
+   "p5h-pirpir": {
+    "s": 105366,
+    "d": 3476,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      2569,
+      3
+     ],
+     [
+      2989,
+      4
+     ]
+    ]
+   },
+   "p5h-benek": {
+    "s": 109143,
+    "d": 1236,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      430,
+      2
+     ]
+    ]
+   },
+   "p5h-gunes": {
+    "s": 110680,
+    "d": 945,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      548,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

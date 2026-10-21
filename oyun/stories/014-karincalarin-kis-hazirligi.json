@@ -1,0 +1,1956 @@
+{
+ "id": "014-karincalarin-kis-hazirligi",
+ "n": 14,
+ "title": "Karıncaların Kış Hazırlığı",
+ "age": "48-60",
+ "area": "Matematik",
+ "theme": "Kış hazırlığı, sayma ve yardımlaşma",
+ "values": [
+  "D3 Çalışkanlık",
+  "D20 Yardımseverlik"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 5,
+ "blurb": "Karınca Pıtır'ın yağmur yağmadan yuvaya yedi buğday tanesi taşıması gerek. Yolda kanatları çiyle ıslanan uğur böceği Benek'e yardım eder; sonra karıncalar taşır, Benek sayar ve yağmurda kimse kimseyi yalnız bırakmaz.",
+ "codes": {
+  "maarif": [
+   "MAB.1 Ritmik ve algısal sayabilme",
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara yönelik bilimsel gözlem yapabilme",
+   "E1.3 Azim ve Kararlılık",
+   "SDB2.2 İş Birliği",
+   "D3 Çalışkanlık",
+   "D20 Yardımseverlik"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "pitir": "kucuk-hayvan",
+  "benek": "hayvan-kiz",
+  "karinca": "hayvan-erkek"
+ },
+ "voiceNames": {
+  "pitir": "Pıtır (karınca)",
+  "benek": "Benek (uğur böceği)",
+  "karinca": "Karıncalar"
+ },
+ "pages": [
+  {
+   "text": "Sonbahar gelmişti. Yapraklar sararmış, hışır hışır dökülüyordu. Karınca Pıtır'ın yuvası yaşlı kütüğün dibindeydi. Pıtır antenlerini oynattı: “Hava serinledi. Kış geliyor! Yuvaya yedi buğday tanesi taşımalıyım.”",
+   "scene": {
+    "set": "cayir",
+    "season": "autumn",
+    "weather": "sun",
+    "time": "day",
+    "cast": [
+     {
+      "k": "karinca",
+      "x": 170,
+      "y": 228,
+      "s": 2.4,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "pitir"
+     }
+    ],
+    "props": [
+     {
+      "k": "kutuk",
+      "x": 318,
+      "y": 214,
+      "s": 2.6,
+      "hit": "yuva"
+     },
+     {
+      "k": "yaprak",
+      "x": 62,
+      "y": 230,
+      "s": 2.4,
+      "color": "orange",
+      "hit": "y1"
+     },
+     {
+      "k": "yaprak",
+      "x": 100,
+      "y": 202,
+      "s": 1.7,
+      "color": "yellow",
+      "hit": "y2"
+     },
+     {
+      "k": "yaprak",
+      "x": 255,
+      "y": 234,
+      "s": 2.2,
+      "color": "red",
+      "hit": "y3"
+     }
+    ]
+   },
+   "hits": {
+    "pitir": {
+     "say": "Pıtır pıtır, iş başına!",
+     "voice": "pitir",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "y": {
+     "anim": "spinme",
+     "fx": "yaprak"
+    },
+    "yuva": {
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "pitir",
+    "Pıtır'a dokun!"
+   ],
+   "ask": "Sonbaharın geldiğini nereden anlıyoruz? Sen dışarıda neler görüyorsun?",
+   "cues": [
+    {
+     "w": 4,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Pıtır çayırda buğday taneleri buldu. Gökte gri bulutlar toplanıyordu. Pıtır telaşlandı. Kalbi küt küt attı. Derin bir nefes aldı. “Bana yedi tane lazım. Burada kaç tane var? Önce sayalım.”",
+   "scene": {
+    "set": "cayir",
+    "season": "autumn",
+    "weather": "cloudy",
+    "time": "day",
+    "cast": [
+     {
+      "k": "karinca",
+      "x": 74,
+      "y": 228,
+      "s": 2.3,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "pitir"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 130,
+      "y": 204,
+      "s": 1.4,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b1"
+     },
+     {
+      "k": "tas",
+      "x": 168,
+      "y": 230,
+      "s": 1.5,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b2"
+     },
+     {
+      "k": "tas",
+      "x": 206,
+      "y": 204,
+      "s": 1.4,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b3"
+     },
+     {
+      "k": "tas",
+      "x": 244,
+      "y": 230,
+      "s": 1.5,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b4"
+     },
+     {
+      "k": "tas",
+      "x": 282,
+      "y": 204,
+      "s": 1.4,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b5"
+     },
+     {
+      "k": "tas",
+      "x": 320,
+      "y": 230,
+      "s": 1.5,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b6"
+     },
+     {
+      "k": "tas",
+      "x": 356,
+      "y": 204,
+      "s": 1.4,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b7"
+     }
+    ]
+   },
+   "hits": {
+    "pitir": {
+     "say": "Yağmurdan önce yetişmeliyim!",
+     "voice": "pitir",
+     "anim": "wiggle",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "b1",
+     "b2",
+     "b3",
+     "b4",
+     "b5",
+     "b6",
+     "b7"
+    ],
+    "done": "Yedi buğday tanesi! Hepsini saydın."
+   },
+   "hint": [
+    "b1",
+    "Taneleri say!"
+   ],
+   "ask": "Parmaklarınla yedi gösterebilir misin? Bir elin yetti mi?",
+   "cues": [
+    {
+     "w": 12,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Pıtır ilk taneyi başına aldı. Hınk, hınk! Çok ağırdı. Ama pes etmedi. “Adım adım, bir adım daha!” Otlardan ince bir ses geldi. Bu, uğur böceği Benek'ti. Burnunu çekti: “Kanatlarım çiyle ıslandı, uçamıyorum!”",
+   "scene": {
+    "set": "cayir",
+    "season": "autumn",
+    "weather": "cloudy",
+    "time": "day",
+    "cast": [
+     {
+      "k": "karinca",
+      "x": 115,
+      "y": 230,
+      "s": 2.2,
+      "mood": "surprised",
+      "pose": "walk",
+      "hold": "bugday",
+      "hit": "pitir"
+     },
+     {
+      "k": "ugurbocegi",
+      "x": 285,
+      "y": 226,
+      "s": 2.1,
+      "mood": "sad",
+      "pose": "stand",
+      "flip": true,
+      "hit": "benek"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 345,
+      "y": 206,
+      "s": 1.5,
+      "season": "autumn"
+     },
+     {
+      "k": "tas",
+      "x": 30,
+      "y": 200,
+      "s": 1.1,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi"
+     },
+     {
+      "k": "tas",
+      "x": 58,
+      "y": 205,
+      "s": 1.1,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi"
+     },
+     {
+      "k": "tas",
+      "x": 86,
+      "y": 198,
+      "s": 1.1,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi"
+     },
+     {
+      "k": "tas",
+      "x": 184,
+      "y": 202,
+      "s": 1.1,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi"
+     },
+     {
+      "k": "tas",
+      "x": 208,
+      "y": 196,
+      "s": 1.1,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi"
+     },
+     {
+      "k": "tas",
+      "x": 232,
+      "y": 205,
+      "s": 1.1,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi"
+     }
+    ]
+   },
+   "hits": {
+    "pitir": {
+     "say": "Hınk! Adım adım, bir adım daha!",
+     "voice": "pitir",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "benek": {
+     "say": "Kanatlarım ıslak, vızz yapamıyorum!",
+     "voice": "benek",
+     "anim": "wiggle",
+     "fx": "drip"
+    }
+   },
+   "predict": {
+    "q": "Sence Pıtır ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Benek'e yardım eder",
+      "scene": {
+       "set": "cayir",
+       "season": "autumn",
+       "weather": "cloudy",
+       "cast": [
+        {
+         "k": "karinca",
+         "x": 172,
+         "y": 228,
+         "s": 2.2,
+         "mood": "happy",
+         "pose": "wave"
+        },
+        {
+         "k": "ugurbocegi",
+         "x": 285,
+         "y": 226,
+         "s": 2.1,
+         "mood": "calm",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "tas",
+         "x": 110,
+         "y": 230,
+         "s": 1.3,
+         "v": 2,
+         "color": "#F0BE55"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Arkadaşlarını çağırır",
+      "scene": {
+       "set": "cayir",
+       "season": "autumn",
+       "weather": "cloudy",
+       "cast": [
+        {
+         "k": "karinca",
+         "x": 80,
+         "y": 222,
+         "s": 1.7,
+         "mood": "happy",
+         "pose": "walk"
+        },
+        {
+         "k": "karinca",
+         "x": 150,
+         "y": 232,
+         "s": 1.9,
+         "mood": "laugh",
+         "pose": "walk"
+        },
+        {
+         "k": "karinca",
+         "x": 290,
+         "y": 230,
+         "s": 2.2,
+         "mood": "happy",
+         "pose": "wave",
+         "flip": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "benek",
+    "Benek'e dokun!"
+   ],
+   "ask": "Benek neden uçamıyor? Sence şimdi ne hissediyor?"
+  },
+  {
+   "text": "Bulutlar yaklaşıyordu ama Pıtır taneyi yere bıraktı. “Gel, Benek, şu güneşli yere yürüyelim. Güneşte kanatların kurur.” Adım adım, bir adım daha!",
+   "scene": {
+    "set": "cayir",
+    "season": "autumn",
+    "weather": "cloudy",
+    "time": "day",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 310,
+      "y": 48
+     },
+     {
+      "k": "ugurbocegi",
+      "x": 60,
+      "y": 228,
+      "s": 2.1,
+      "mood": "shy",
+      "pose": "walk",
+      "hit": "benek"
+     },
+     {
+      "k": "karinca",
+      "x": 356,
+      "y": 230,
+      "s": 2.0,
+      "mood": "happy",
+      "pose": "wave",
+      "flip": true,
+      "hit": "pitir"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 110,
+      "y": 192,
+      "s": 1.2,
+      "season": "autumn"
+     }
+    ]
+   },
+   "hits": {
+    "pitir": {
+     "say": "Gel Benek, az kaldı!",
+     "voice": "pitir",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "benek",
+    "steps": 4,
+    "step": 45,
+    "say": "Adım adım!",
+    "done": "Benek güneşe vardı. Oh, sıcacık!"
+   },
+   "hint": [
+    "benek",
+    "Benek'e dokun, yürüsün!"
+   ],
+   "ask": "Pıtır neden taneyi bırakıp Benek'e yardım etti? Sen hiç bir arkadaşına yardım ettin mi?"
+  },
+  {
+   "text": "Güneşte Benek'in kanatları kurudu. Pıtır seslendi: “Arkadaşlar, yardım edin! Yedi buğday tanesi lazım!” Karıncalar pıtır pıtır geldi. Benek güldü: “Yedi tane mi? Benim de yedi beneğim var. Ben sayarım! Her taneye bir benek: bir, iki, üç, dört, beş, altı, yedi! Tam yedi tane!”",
+   "scene": {
+    "set": "cayir",
+    "season": "autumn",
+    "weather": "cloudy",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ugurbocegi",
+      "x": 52,
+      "y": 200,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "benek"
+     },
+     {
+      "k": "karinca",
+      "x": 160,
+      "y": 190,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "k1"
+     },
+     {
+      "k": "karinca",
+      "x": 228,
+      "y": 191,
+      "s": 1.3,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "pitir"
+     },
+     {
+      "k": "karinca",
+      "x": 290,
+      "y": 192,
+      "s": 1.15,
+      "mood": "laugh",
+      "pose": "walk",
+      "flip": true,
+      "hit": "k2"
+     }
+    ],
+    "props": [
+     {
+      "k": "kutuk",
+      "x": 352,
+      "y": 210,
+      "s": 2.2,
+      "hit": "yuva"
+     },
+     {
+      "k": "tas",
+      "x": 130,
+      "y": 214,
+      "s": 1.4,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b1"
+     },
+     {
+      "k": "tas",
+      "x": 155,
+      "y": 234,
+      "s": 1.5,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b2"
+     },
+     {
+      "k": "tas",
+      "x": 180,
+      "y": 214,
+      "s": 1.4,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b3"
+     },
+     {
+      "k": "tas",
+      "x": 205,
+      "y": 234,
+      "s": 1.5,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b4"
+     },
+     {
+      "k": "tas",
+      "x": 230,
+      "y": 214,
+      "s": 1.4,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b5"
+     },
+     {
+      "k": "tas",
+      "x": 255,
+      "y": 234,
+      "s": 1.5,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b6"
+     },
+     {
+      "k": "tas",
+      "x": 280,
+      "y": 214,
+      "s": 1.4,
+      "v": 2,
+      "color": "#F0BE55",
+      "lbl": "Buğday tanesi",
+      "hit": "b7"
+     }
+    ]
+   },
+   "hits": {
+    "benek": {
+     "say": "Yedi tane, yedi benek, hepsi tamam!",
+     "voice": "benek",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "k": {
+     "say": "Pıtır pıtır, geldik!",
+     "voice": "karinca",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "pitir": {
+     "say": "Hadi, hep birlikte!",
+     "voice": "pitir",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "yuva": {
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "b1",
+     "b2",
+     "b3",
+     "b4",
+     "b5",
+     "b6",
+     "b7"
+    ],
+    "to": [
+     338,
+     200
+    ],
+    "done": "Yedi tane yuvada. Tam zamanında!",
+    "msg": "Hepsi yuvada!"
+   },
+   "hint": [
+    "b1",
+    "Taneleri yuvaya taşı!"
+   ],
+   "ask": "Karıncalar taşıdı, Benek saydı. Sen evde hangi işte yardım edebilirsin?"
+  },
+  {
+   "text": "Pıt, pıt, pıt! Yağmur başladı. Buğdaylar yuvada, kupkuru. Ama Benek yuvaya sığmıyordu ki! Karıncalar onu yalnız bırakmadı. Hep birlikte koca mantarın altına koştular. Pıtır gülümsedi: “Birlikte olunca yük hafifler!”",
+   "scene": {
+    "set": "cayir",
+    "season": "autumn",
+    "weather": "rain",
+    "time": "day",
+    "cast": [
+     {
+      "k": "karinca",
+      "x": 96,
+      "y": 228,
+      "s": 1.35,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "k1"
+     },
+     {
+      "k": "ugurbocegi",
+      "x": 140,
+      "y": 231,
+      "s": 1.35,
+      "mood": "happy",
+      "hit": "benek"
+     },
+     {
+      "k": "karinca",
+      "x": 198,
+      "y": 230,
+      "s": 1.4,
+      "mood": "laugh",
+      "pose": "stand",
+      "flip": true,
+      "hit": "pitir"
+     }
+    ],
+    "props": [
+     {
+      "k": "mantar",
+      "x": 150,
+      "y": 220,
+      "s": 4.8,
+      "n": 1,
+      "color": "#C7793A",
+      "spots": false,
+      "hit": "mantar"
+     },
+     {
+      "k": "birikinti",
+      "x": 265,
+      "y": 234,
+      "s": 1.2
+     },
+     {
+      "k": "kutuk",
+      "x": 345,
+      "y": 214,
+      "s": 2.2,
+      "hit": "yuva"
+     }
+    ]
+   },
+   "hits": {
+    "pitir": {
+     "say": "Ambarımız dopdolu!",
+     "voice": "pitir",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "benek": {
+     "say": "Teşekkürler! Kanatlarım kupkuru.",
+     "voice": "benek",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "k": {
+     "say": "Yağmur yağsın, biz hazırız!",
+     "voice": "karinca",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "mantar": {
+     "anim": "boing",
+     "fx": "drip"
+    },
+    "yuva": {
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "pitir",
+    "Pıtır'a dokun!"
+   ],
+   "ask": "Karıncalar neden Benek'i yalnız bırakmadı? Sen kiminle birlikte bir iş yaptın?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.1 Ritmik ve algısal sayabilme (öğrenme çıktısı): 1–10 arasındaki nesne miktarını sayarak belirler; yedi buğday tanesini tek tek dokunarak sayar, yuvaya taşırken yeniden sayar (48–60 ay uyarlaması: 1–10).",
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme: Sonbaharın işaretlerini (sararıp dökülen yapraklar, serinleyen hava, toplanan gri bulutlar) ve ıslak kanadın güneşte kuruduğunu gözlemleyip anlatır.",
+   "E1.3 Azim ve Kararlılık (eğilim): Tane çok ağır gelince pes etmez; 'Adım adım, bir adım daha!' diyerek yükünü taşımayı sürdürür (3. sayfa). Aynı sözle Benek'e de güneşe kadar eşlik eder.",
+   "SDB2.2 İş Birliği: Ortak bir amaç için görev paylaşır (karıncalar taşır, Benek sayar); gerektiğinde yardım ister, yardım eder ve yağmurda arkadaşını yalnız bırakmaz.",
+   "D3 Çalışkanlık, D20 Yardımseverlik: Kış için önceden hazırlanmanın ve birbirine el uzatmanın değerini fark eder."
+  ],
+  "once": [
+   "Kapaktaki karıncayı gösterin: “Sence bu karınca kışa nasıl hazırlanıyor?”",
+   "Pencereden bakın ya da hatırlayın: “Sonbaharda yapraklar ve hava nasıl değişiyor?”",
+   "Uğur böceği resmi ya da oyuncağı varsa sırtındaki benekleri birlikte sayın."
+  ],
+  "sirasi": [
+   "Sayma sayfasında her taneye parmağınızla dokunarak ritimle sayın: “Bir, iki, üç…” Atlanan ya da iki kez sayılan tane olursa gülümseyerek baştan sayın.",
+   "“Hınk, hınk!” ve “Pıt, pıt, pıt!” seslerini çocuk yapsın; “Adım adım, bir adım daha!” sözünü birlikte tekrarlayın.",
+   "Tahmin sayfasında seçimi sorun: “Neden öyle düşündün?” İki seçenek de iyi bir fikirdir.",
+   "Çiy sözcüğünü açıklayın: sabahları otların ve yaprakların üstünde biriken minik su damlaları."
+  ],
+  "sonra": [
+   "Sıralama oyunundan sonra masalı çocuğun kendi sözleriyle baştan anlatmasını isteyin.",
+   "Sorun: “Pıtır Benek'e nasıl yardım etti? Benek karıncalara nasıl yardım etti?”",
+   "Bilgi notu: Bazı karıncalar (hasatçı karıncalar) gerçekten tohum ve buğday tanesi toplayıp yuvada saklar. Uğur böcekleri de kışı kütük kabuğunun ya da yaprakların altında geçirir. Doğadaki mantarlar yenmez; onlara yalnızca uzaktan bakarız. Türkiye'de de yaşayan hasatçı karıncalar (Messor) tohumları yuvaya taşır; tarla kenarlarında karınca yollarını birlikte, dokunmadan izleyebilirsiniz.",
+   "Birlikte beş–yedi nesne sayın, sonra aynı sayıda nokta çizin: “Nesne yedi, nokta yedi; ikisi de aynı!”"
+  ],
+  "sinif": {
+   "ad": "Karınca Zinciri",
+   "sure": "20 dk",
+   "materyal": "Yedi sarı kâğıt top (buğday tanesi), iki çember (tarla ve yuva), üzerine yedi boş daire çizilmiş kırmızı karton (Benek kartı), yuvarlak yapışkan etiketler",
+   "adim": [
+    "Bir çemberi 'tarla', diğerini 'yuva' yapın. Tarlaya yedi sarı kâğıt top koyun.",
+    "Çocuklar karınca olur. “Pıtır pıtır!” diyerek sırayla birer tane taşırlar.",
+    "Bir çocuk 'Benek' olur. Her tane yuvaya girince karttaki bir daireye etiket yapıştırır ve yüksek sesle sayar.",
+    "Yedi tane bitince “Yağmur geliyor!” deyin. Herkes yuva çemberinin çevresine 'sığınır'. Rolleri değiştirip yeniden oynayın.",
+    "Sohbet edin: “Tek başına mı, birlikte mi daha kolaydı? Neden?”"
+   ]
+  },
+  "evSoru": [
+   "Pıtır neden kış gelmeden buğday topladı?",
+   "Yağmur başlayınca karıncalar Benek için ne yaptı?",
+   "Sen evde kiminle birlikte bir iş yaptın? Nasıl hissettin?"
+  ],
+  "evEtk": {
+   "ad": "Yedi Benekli Toplama Oyunu",
+   "d": "Kâğıttan bir uğur böceği kesin. Evde yedi eşyayı (kaşık, çorap, oyuncak…) birlikte bir sepete toplayın. Her eşya sepete girince uğur böceğine bir benek çizin. Sonunda eşyaları ve benekleri ayrı ayrı sayın: İkisi de yedi mi?"
+  },
+  "aileNotu": "Bugün 'Karıncaların Kış Hazırlığı' masalını okuduk. Karınca Pıtır, yağmur yağmadan yuvaya yedi buğday tanesi taşımak isterken kanatları ıslanan uğur böceği Benek'e yardım etti; sonra karıncalar taşıdı, Benek saydı. Evde eşyaları dokunarak birlikte saymak ve çocuğunuza küçük bir görev vermek sayma becerisini, çalışkanlığı ve iş birliğini destekler. 'Karınca kararınca' deyimini de konuşabilirsiniz: Herkes gücü yettiğince yardım eder."
+ },
+ "audio": {
+  "file": "audio/014-karincalarin-kis-hazirligi.mp3",
+  "hash": "9723674e",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16784,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1829,
+      2
+     ],
+     [
+      2589,
+      3
+     ],
+     [
+      3589,
+      4
+     ],
+     [
+      3969,
+      5
+     ],
+     [
+      4330,
+      6
+     ],
+     [
+      5529,
+      7
+     ],
+     [
+      6069,
+      8
+     ],
+     [
+      6589,
+      9
+     ],
+     [
+      7469,
+      10
+     ],
+     [
+      7910,
+      11
+     ],
+     [
+      8390,
+      12
+     ],
+     [
+      9569,
+      13
+     ],
+     [
+      9930,
+      14
+     ],
+     [
+      10709,
+      15
+     ],
+     [
+      11709,
+      16
+     ],
+     [
+      12049,
+      17
+     ],
+     [
+      13089,
+      18
+     ],
+     [
+      13390,
+      19
+     ],
+     [
+      14209,
+      20
+     ],
+     [
+      14669,
+      21
+     ],
+     [
+      14930,
+      22
+     ],
+     [
+      15409,
+      23
+     ],
+     [
+      15950,
+      24
+     ]
+    ]
+   },
+   "p0h-pitir": {
+    "s": 17084,
+    "d": 1348,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      332,
+      1
+     ],
+     [
+      723,
+      2
+     ],
+     [
+      891,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18732,
+    "d": 14927,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2569,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3930,
+      8
+     ],
+     [
+      5189,
+      9
+     ],
+     [
+      5549,
+      10
+     ],
+     [
+      6709,
+      11
+     ],
+     [
+      7209,
+      12
+     ],
+     [
+      7529,
+      13
+     ],
+     [
+      7930,
+      14
+     ],
+     [
+      8669,
+      15
+     ],
+     [
+      9069,
+      16
+     ],
+     [
+      9270,
+      17
+     ],
+     [
+      9709,
+      18
+     ],
+     [
+      10469,
+      19
+     ],
+     [
+      10810,
+      20
+     ],
+     [
+      11089,
+      21
+     ],
+     [
+      11509,
+      22
+     ],
+     [
+      12249,
+      23
+     ],
+     [
+      12669,
+      24
+     ],
+     [
+      12989,
+      25
+     ],
+     [
+      13409,
+      26
+     ],
+     [
+      13949,
+      27
+     ],
+     [
+      14329,
+      28
+     ]
+    ]
+   },
+   "p1h-pitir": {
+    "s": 33959,
+    "d": 1854,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 36114,
+    "d": 2769,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2209,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 39183,
+    "d": 18394,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4269,
+      8
+     ],
+     [
+      4969,
+      9
+     ],
+     [
+      5249,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      6669,
+      12
+     ],
+     [
+      7009,
+      13
+     ],
+     [
+      7589,
+      14
+     ],
+     [
+      7829,
+      15
+     ],
+     [
+      8169,
+      16
+     ],
+     [
+      9089,
+      17
+     ],
+     [
+      9749,
+      18
+     ],
+     [
+      10089,
+      19
+     ],
+     [
+      10329,
+      20
+     ],
+     [
+      10649,
+      21
+     ],
+     [
+      11489,
+      22
+     ],
+     [
+      12129,
+      23
+     ],
+     [
+      12469,
+      24
+     ],
+     [
+      12949,
+      25
+     ],
+     [
+      13930,
+      26
+     ],
+     [
+      14469,
+      27
+     ],
+     [
+      15369,
+      28
+     ],
+     [
+      16129,
+      29
+     ],
+     [
+      16549,
+      30
+     ],
+     [
+      17509,
+      31
+     ]
+    ]
+   },
+   "p2h-pitir": {
+    "s": 57878,
+    "d": 2351,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      502,
+      1
+     ],
+     [
+      870,
+      2
+     ],
+     [
+      1363,
+      3
+     ],
+     [
+      1574,
+      4
+     ],
+     [
+      1942,
+      5
+     ]
+    ]
+   },
+   "p2h-benek": {
+    "s": 60529,
+    "d": 2738,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      1869,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 63568,
+    "d": 1627,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      949,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 65495,
+    "d": 2568,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2009,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 68364,
+    "d": 11375,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1769,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      4149,
+      7
+     ],
+     [
+      4789,
+      8
+     ],
+     [
+      5449,
+      9
+     ],
+     [
+      5649,
+      10
+     ],
+     [
+      6169,
+      11
+     ],
+     [
+      6469,
+      12
+     ],
+     [
+      7309,
+      13
+     ],
+     [
+      7870,
+      14
+     ],
+     [
+      8589,
+      15
+     ],
+     [
+      9430,
+      16
+     ],
+     [
+      9749,
+      17
+     ],
+     [
+      10329,
+      18
+     ],
+     [
+      10569,
+      19
+     ],
+     [
+      10930,
+      20
+     ]
+    ]
+   },
+   "p3h-pitir": {
+    "s": 80040,
+    "d": 1584,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1030,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 81924,
+    "d": 2776,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 85000,
+    "d": 770,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      385,
+      1
+     ]
+    ]
+   },
+   "p4": {
+    "s": 86071,
+    "d": 21885,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2469,
+      4
+     ],
+     [
+      2849,
+      5
+     ],
+     [
+      4009,
+      6
+     ],
+     [
+      5089,
+      7
+     ],
+     [
+      5589,
+      8
+     ],
+     [
+      6169,
+      9
+     ],
+     [
+      6430,
+      10
+     ],
+     [
+      6910,
+      11
+     ],
+     [
+      7469,
+      12
+     ],
+     [
+      8350,
+      13
+     ],
+     [
+      9109,
+      14
+     ],
+     [
+      9449,
+      15
+     ],
+     [
+      9850,
+      16
+     ],
+     [
+      10690,
+      17
+     ],
+     [
+      11109,
+      18
+     ],
+     [
+      11909,
+      19
+     ],
+     [
+      12209,
+      20
+     ],
+     [
+      12629,
+      21
+     ],
+     [
+      13149,
+      22
+     ],
+     [
+      13489,
+      23
+     ],
+     [
+      13629,
+      24
+     ],
+     [
+      13909,
+      25
+     ],
+     [
+      14350,
+      26
+     ],
+     [
+      14829,
+      27
+     ],
+     [
+      15149,
+      28
+     ],
+     [
+      15909,
+      29
+     ],
+     [
+      16190,
+      30
+     ],
+     [
+      16729,
+      31
+     ],
+     [
+      16969,
+      32
+     ],
+     [
+      17649,
+      33
+     ],
+     [
+      18030,
+      34
+     ],
+     [
+      18409,
+      35
+     ],
+     [
+      18729,
+      36
+     ],
+     [
+      19129,
+      37
+     ],
+     [
+      19569,
+      38
+     ],
+     [
+      19989,
+      39
+     ],
+     [
+      20649,
+      40
+     ],
+     [
+      21009,
+      41
+     ],
+     [
+      21309,
+      42
+     ]
+    ]
+   },
+   "p4h-benek": {
+    "s": 108256,
+    "d": 2805,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2349,
+      5
+     ]
+    ]
+   },
+   "p4h-k": {
+    "s": 111361,
+    "d": 1645,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      508,
+      1
+     ],
+     [
+      1136,
+      2
+     ]
+    ]
+   },
+   "p4h-pitir": {
+    "s": 113307,
+    "d": 1484,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      603,
+      1
+     ],
+     [
+      844,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 115092,
+    "d": 2516,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1629,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 117909,
+    "d": 17865,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      3089,
+      5
+     ],
+     [
+      3910,
+      6
+     ],
+     [
+      4709,
+      7
+     ],
+     [
+      5709,
+      8
+     ],
+     [
+      5989,
+      9
+     ],
+     [
+      6410,
+      10
+     ],
+     [
+      6870,
+      11
+     ],
+     [
+      7689,
+      12
+     ],
+     [
+      8270,
+      13
+     ],
+     [
+      9029,
+      14
+     ],
+     [
+      9270,
+      15
+     ],
+     [
+      9749,
+      16
+     ],
+     [
+      10749,
+      17
+     ],
+     [
+      11009,
+      18
+     ],
+     [
+      11549,
+      19
+     ],
+     [
+      11869,
+      20
+     ],
+     [
+      12469,
+      21
+     ],
+     [
+      12890,
+      22
+     ],
+     [
+      13890,
+      23
+     ],
+     [
+      14289,
+      24
+     ],
+     [
+      15430,
+      25
+     ],
+     [
+      16009,
+      26
+     ],
+     [
+      16789,
+      27
+     ],
+     [
+      17049,
+      28
+     ]
+    ]
+   },
+   "p5h-pitir": {
+    "s": 136074,
+    "d": 1283,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ]
+    ]
+   },
+   "p5h-benek": {
+    "s": 137658,
+    "d": 2461,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1030,
+      1
+     ],
+     [
+      1769,
+      2
+     ]
+    ]
+   },
+   "p5h-k": {
+    "s": 140419,
+    "d": 1877,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

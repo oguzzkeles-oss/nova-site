@@ -1,0 +1,1398 @@
+{
+ "id": "011-oyuncaklar-evine-donuyor",
+ "lang": "en",
+ "title": "The Toys Go Home",
+ "theme": "Tidying up toys and keeping order",
+ "blurb": "When the living room fills up with toys, Cinnamon the dog can't find his yellow ball. Elif takes a deep breath, sends every toy back to its own home, and a surprise appears!",
+ "voiceNames": {
+  "elif": "Elif",
+  "tarcin": "Cinnamon (dog)"
+ },
+ "pages": [
+  {
+   "text": "Elif played all day. Clack clack, blocks! Vroom vroom, cars! Rustle rustle, books! Her dog Cinnamon chased his yellow ball: “Woof woof!”",
+   "hits": {
+    "elif": {
+     "say": "What a lovely day of playing!"
+    },
+    "tarcin": {
+     "say": "Woof woof! My ball, my ball!"
+    }
+   },
+   "hint": "Touch Elif!",
+   "ask": "Which toy do you play with most? What sound does that toy make?",
+   "cues": [
+    {
+     "w": 10,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Cinnamon looked for his ball. Sniff, sniff! A block! A book! A teddy! But no ball. Cinnamon felt sad, his ears drooped. “Woof… Where's my ball?”",
+   "hits": {
+    "tarcin": {
+     "say": "Woof… Where's my ball?"
+    },
+    "blok": {
+     "say": "This is a block! Not a ball."
+    },
+    "kitap": {
+     "say": "This is a book! Not a ball."
+    },
+    "elif": {
+     "say": "Cinnamon, what's wrong?"
+    },
+    "ayi": {
+     "say": "This is a teddy! Not a ball."
+    }
+   },
+   "hint": "Touch Cinnamon!",
+   "ask": "Why was Cinnamon sad? Where do you think the yellow ball could be?"
+  },
+  {
+   "text": "Elif looked around. Oh my, so many toys! Elif felt a bit overwhelmed. She took a deep breath. “Hmm… What shall I do?”",
+   "hits": {
+    "elif": {
+     "say": "Oh my, so many toys!"
+    },
+    "tarcin": {
+     "say": "Woof…"
+    }
+   },
+   "predict": {
+    "q": "What do you think Elif will do?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "She tidies up the toys"
+     },
+     {
+      "l": "She looks for the ball with Cinnamon"
+     }
+    ]
+   },
+   "hint": "Touch Elif!",
+   "ask": "Do you sometimes say “Oh my, it's too much!”? What do you do then?"
+  },
+  {
+   "text": "“I've got it!” said Elif. “Every toy has a home. I'll carry them one by one!” Clack clack, blocks into the box. Rustle rustle, books onto the shelf.",
+   "hits": {
+    "elif": {
+     "say": "Every toy has a home!"
+    },
+    "tarcin": {
+     "say": "Woof woof!"
+    }
+   },
+   "mech": {
+    "done": "Blocks in the box, books on the shelf!",
+    "msg": "All in their homes!"
+   },
+   "hint": "Touch a block first!",
+   "ask": "“Clack clack, blocks…” Where to? Where did the books go?",
+   "cues": [
+    {
+     "w": 22,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Now the cars and the teddy. Vroom vroom, cars into the box! Hop, teddy into the box! Cinnamon wagged his tail. Did he see something?",
+   "hits": {
+    "tarcin": {
+     "say": "Woof! What's that yellow thing?"
+    },
+    "elif": {
+     "say": "Vroom vroom, into the box!"
+    },
+    "top": {
+     "say": "My ball! My ball!"
+    }
+   },
+   "mech": {
+    "done": "There it is! The yellow ball!",
+    "msg": "All in the box!"
+   },
+   "hint": "Touch a car!",
+   "ask": "What do you think Cinnamon saw? Is there something yellow in the picture?"
+  },
+  {
+   "text": "The yellow ball was behind the teddy! Elif threw the ball. “Woof woof!” Cinnamon caught it. Elif felt proud of herself. “The toys are home,” she said, “and we're off to play!”",
+   "hits": {
+    "tarcin": {
+     "say": "Woof woof! Throw it again!"
+    },
+    "elif": {
+     "say": "Toys in their homes, and we're off to play!"
+    }
+   },
+   "hint": "Touch Cinnamon!",
+   "ask": "Where is your toys' home? Which one would you start tidying first?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.10 (unverified) · Paying attention to cleanliness and order for a healthy life: Elif tidies the living room by putting the toys in their places and opens up a clear, safe space for play.",
+   "HSAB.2 · Using objects of different sizes and properties effectively; a) grasps objects of different sizes: in the class activity, holds and carries toys of different sizes such as blocks, books, cars and a teddy.",
+   "KB2.5 Classification: sorts the toys by type and says which “home” each toy lives in (blocks in the box, books on the shelf).",
+   "TADB.3 · Analysing what they hear or watch (retells what they heard in the order it happened): tells the events in order in the ordering game at the end of the story.",
+   "SDB3.3 Responsible Decision-Making · D16 Responsibility · E2.2 Responsibility: notices a problem (a messy living room, a lost ball), decides what to do and tidies their own toys by breaking the job into small steps."
+  ],
+  "once": [
+   "Look at the cover together: “What can you see in the living room? Where do these toys sleep at night?”",
+   "Play with the word “home” for things: “The pencil's home is the pencil pot, the spoon's home is the drawer. Where could the ball's home be?”"
+  ],
+  "sirasi": [
+   "Say the toy sounds (clack clack, vroom vroom, rustle rustle) out loud together with the child; each sound reminds us of a kind of toy.",
+   "On the prediction page, say that both options are good ideas; ask the child “Why did you think that?”",
+   "In the sorting game, let the child touch the toy first and then the box themselves. For a wrong box, give a gentle clue: “Where did the blocks live?”",
+   "Praise the child who spots the yellow ball peeking out from behind the teddy early: “What sharp eyes you have!”"
+  ],
+  "sonra": [
+   "Remember the events with the ordering game: Cinnamon looks for his ball → Elif carries the toys to their homes → Elif and Cinnamon play ball.",
+   "Ask “What did Elif do when she said ‘Oh my!’?”: she took a deep breath, found an idea, carried the toys one by one.",
+   "In the review circle, give the children a chance to share their own ways of tidying up."
+  ],
+  "sinif": {
+   "ad": "The Toys' Homes",
+   "sure": "15 min",
+   "materyal": "Blocks, books, toy cars; 3 boxes or baskets; a picture symbol card for each box (a picture of a block, a book, a car); one soft ball",
+   "adim": [
+    "Put the picture symbol cards in front of the boxes. Talk with the children about which toys each card is the “home” for.",
+    "Mix the toys up on the rug. With the rhyme “Clack clack blocks into the box, rustle rustle books onto the shelf, vroom vroom cars into the basket!”, the children take turns to choose a toy and carry it to the right box.",
+    "Try together holding big toys with two hands and small ones with fingertips; two people can carry a heavy box.",
+    "When the rug is clear, play a rolling game with the soft ball, like Cinnamon. At the end, ask “Which toy did you carry to which home?”"
+   ]
+  },
+  "evSoru": [
+   "Where is your toys' home?",
+   "What did Elif do when she saw so many toys? Would you do the same?",
+   "How did Cinnamon feel when he found his ball? What makes you really happy when you find it?"
+  ],
+  "evEtk": {
+   "ad": "The Tidy-Up Rhyme",
+   "d": "When tidying up the toys in the evening, use the sounds from the story: “Clack clack blocks into the box, vroom vroom cars into the basket!” Draw picture labels for the boxes with your child and stick them on. Let your child choose each toy's home; you only ask “Which one first?” When you're done, play a short ball game in the space you've cleared."
+  },
+  "aileNotu": "Today we read “The Toys Go Home.” When Elif saw that her dog Cinnamon couldn't find his ball, she first felt overwhelmed by all the toys; then she took a deep breath and carried every toy to its own home, one by one. At home, putting picture labels on toy boxes turns tidying up into a sorting-by-type game and makes it easier for your child to take responsibility. You can talk about tidying up not as a punishment, but as making room for the next game."
+ },
+ "audio": {
+  "file": "audio/en/011-oyuncaklar-evine-donuyor.mp3",
+  "hash": "417f32ec",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10738,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2769,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      4629,
+      9
+     ],
+     [
+      5689,
+      10
+     ],
+     [
+      6049,
+      11
+     ],
+     [
+      6649,
+      12
+     ],
+     [
+      7609,
+      13
+     ],
+     [
+      7789,
+      14
+     ],
+     [
+      8109,
+      15
+     ],
+     [
+      8609,
+      16
+     ],
+     [
+      8969,
+      17
+     ],
+     [
+      9150,
+      18
+     ],
+     [
+      9469,
+      19
+     ],
+     [
+      9822,
+      20
+     ],
+     [
+      10210,
+      21
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 11038,
+    "d": 2169,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      319,
+      1
+     ],
+     [
+      598,
+      2
+     ],
+     [
+      1291,
+      3
+     ],
+     [
+      1570,
+      4
+     ],
+     [
+      1849,
+      5
+     ]
+    ]
+   },
+   "p0h-tarcin": {
+    "s": 13507,
+    "d": 2912,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2189,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 16720,
+    "d": 12270,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3689,
+      9
+     ],
+     [
+      3789,
+      10
+     ],
+     [
+      4390,
+      11
+     ],
+     [
+      4529,
+      12
+     ],
+     [
+      5449,
+      13
+     ],
+     [
+      5729,
+      14
+     ],
+     [
+      5969,
+      15
+     ],
+     [
+      7109,
+      16
+     ],
+     [
+      7449,
+      17
+     ],
+     [
+      7769,
+      18
+     ],
+     [
+      8549,
+      19
+     ],
+     [
+      8810,
+      20
+     ],
+     [
+      9169,
+      21
+     ],
+     [
+      10209,
+      22
+     ],
+     [
+      11069,
+      23
+     ],
+     [
+      11390,
+      24
+     ],
+     [
+      11609,
+      25
+     ]
+    ]
+   },
+   "p1h-tarcin": {
+    "s": 29290,
+    "d": 2071,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p1h-blok": {
+    "s": 31661,
+    "d": 2569,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1949,
+      6
+     ]
+    ]
+   },
+   "p1h-kitap": {
+    "s": 34531,
+    "d": 2480,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1849,
+      6
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 37312,
+    "d": 1814,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1090,
+      1
+     ],
+     [
+      1432,
+      2
+     ]
+    ]
+   },
+   "p1h-ayi": {
+    "s": 39426,
+    "d": 2569,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      1949,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 42296,
+    "d": 10520,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2829,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      4629,
+      8
+     ],
+     [
+      4890,
+      9
+     ],
+     [
+      5169,
+      10
+     ],
+     [
+      5310,
+      11
+     ],
+     [
+      5509,
+      12
+     ],
+     [
+      6709,
+      13
+     ],
+     [
+      6890,
+      14
+     ],
+     [
+      7069,
+      15
+     ],
+     [
+      7209,
+      16
+     ],
+     [
+      7469,
+      17
+     ],
+     [
+      8364,
+      18
+     ],
+     [
+      9329,
+      19
+     ],
+     [
+      9529,
+      20
+     ],
+     [
+      9789,
+      21
+     ],
+     [
+      9930,
+      22
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 53116,
+    "d": 2692,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p2h-tarcin": {
+    "s": 56108,
+    "d": 675,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 57084,
+    "d": 1727,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      449,
+      3
+     ],
+     [
+      769,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1329,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 59112,
+    "d": 2333,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 61745,
+    "d": 11022,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2529,
+      6
+     ],
+     [
+      2910,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3889,
+      10
+     ],
+     [
+      4089,
+      11
+     ],
+     [
+      4390,
+      12
+     ],
+     [
+      4689,
+      13
+     ],
+     [
+      4870,
+      14
+     ],
+     [
+      5129,
+      15
+     ],
+     [
+      5910,
+      16
+     ],
+     [
+      6269,
+      17
+     ],
+     [
+      6949,
+      18
+     ],
+     [
+      7449,
+      19
+     ],
+     [
+      7669,
+      20
+     ],
+     [
+      7769,
+      21
+     ],
+     [
+      8609,
+      22
+     ],
+     [
+      8969,
+      23
+     ],
+     [
+      9690,
+      24
+     ],
+     [
+      10129,
+      25
+     ],
+     [
+      10369,
+      26
+     ],
+     [
+      10489,
+      27
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 73068,
+    "d": 1855,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1290,
+      4
+     ]
+    ]
+   },
+   "p3h-tarcin": {
+    "s": 75223,
+    "d": 749,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      374,
+      1
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 76272,
+    "d": 2490,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      1930,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 79063,
+    "d": 9478,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2269,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3329,
+      9
+     ],
+     [
+      3549,
+      10
+     ],
+     [
+      3670,
+      11
+     ],
+     [
+      4390,
+      12
+     ],
+     [
+      4949,
+      13
+     ],
+     [
+      5289,
+      14
+     ],
+     [
+      5489,
+      15
+     ],
+     [
+      5589,
+      16
+     ],
+     [
+      6629,
+      17
+     ],
+     [
+      7029,
+      18
+     ],
+     [
+      7349,
+      19
+     ],
+     [
+      7529,
+      20
+     ],
+     [
+      8350,
+      21
+     ],
+     [
+      8529,
+      22
+     ],
+     [
+      8730,
+      23
+     ],
+     [
+      8969,
+      24
+     ]
+    ]
+   },
+   "p4h-tarcin": {
+    "s": 88841,
+    "d": 2416,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 91558,
+    "d": 2324,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p4h-top": {
+    "s": 94183,
+    "d": 2214,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      451,
+      1
+     ],
+     [
+      1350,
+      2
+     ],
+     [
+      1762,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 96698,
+    "d": 1995,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1482,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 98993,
+    "d": 11962,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      1124,
+      5
+     ],
+     [
+      1410,
+      6
+     ],
+     [
+      2469,
+      7
+     ],
+     [
+      2869,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3309,
+      10
+     ],
+     [
+      4049,
+      11
+     ],
+     [
+      4310,
+      12
+     ],
+     [
+      5149,
+      13
+     ],
+     [
+      5529,
+      14
+     ],
+     [
+      5830,
+      15
+     ],
+     [
+      6529,
+      16
+     ],
+     [
+      6829,
+      17
+     ],
+     [
+      7109,
+      18
+     ],
+     [
+      7410,
+      19
+     ],
+     [
+      7509,
+      20
+     ],
+     [
+      8469,
+      21
+     ],
+     [
+      8650,
+      22
+     ],
+     [
+      9009,
+      23
+     ],
+     [
+      9169,
+      24
+     ],
+     [
+      9770,
+      25
+     ],
+     [
+      9989,
+      26
+     ],
+     [
+      10609,
+      27
+     ],
+     [
+      10829,
+      28
+     ],
+     [
+      11089,
+      29
+     ],
+     [
+      11310,
+      30
+     ],
+     [
+      11430,
+      31
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 111256,
+    "d": 2072,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1410,
+      4
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 113628,
+    "d": 2835,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      1805,
+      6
+     ],
+     [
+      2110,
+      7
+     ],
+     [
+      2269,
+      8
+     ]
+    ]
+   }
+  }
+ }
+}

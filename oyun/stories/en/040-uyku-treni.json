@@ -1,0 +1,1732 @@
+{
+ "id": "040-uyku-treni",
+ "lang": "en",
+ "title": "The Sleep Train",
+ "theme": "Bedtime routine and rest",
+ "blurb": "The moon is out, but Can doesn't want to stop playing: “I'm not sleepy!” When Dad toots the whistle, the sleep train sets off; it passes through the toy stop, the teeth stop and the story stop, and arrives at a sweet sleep.",
+ "voiceNames": {
+  "can": "Can",
+  "baba": "Dad (Can's dad)"
+ },
+ "pages": [
+  {
+   "text": "The moon peeped through the window. Can was still playing. Clack, clack, the blocks grew taller. “Bedtime, Can!” said Dad. “No! I want to keep playing!”",
+   "hits": {
+    "ay": {
+     "say": "The moon is out. It's night-time."
+    },
+    "can": {
+     "say": "No! I want to keep playing!"
+    },
+    "baba": {
+     "say": "It's bedtime, Can, my love."
+    }
+   },
+   "hint": "Touch the moon!",
+   "ask": "How can we tell it's night when we look out of the window? Why doesn't Can want to go to sleep?"
+  },
+  {
+   "text": "“I'm not sleepy!” said Can. Then came a great big yawn: Aaah-hmmm! Can got cross and stamped his foot. Stomp! Dad sat beside him: “You don't want the game to end. You're cross, I know. Let's breathe.”",
+   "hits": {
+    "can": {
+     "say": "I'm not sleepy! Aaah-hmmm!"
+    },
+    "baba": {
+     "say": "In through your nose… out through your mouth: Fffff."
+    }
+   },
+   "hint": "Touch Can!",
+   "ask": "Can yawned but said “I'm not sleepy!” Do you think Can is tired? What happens in your body when you're tired?"
+  },
+  {
+   "text": "Can breathed in through his nose and blew out through his mouth: Fffff. Dad tooted like a train whistle: “Toot toot! The sleep train is leaving!” A train? Can's eyes lit up.",
+   "hits": {
+    "baba": {
+     "say": "Toot toot! Choo choo!"
+    },
+    "can": {
+     "say": "A train? I'm getting on too!"
+    }
+   },
+   "predict": {
+    "q": "Do you think Can will get on the train?",
+    "res": "Both are possible! Let's see.",
+    "opts": [
+     {
+      "l": "He gets on right away"
+     },
+     {
+      "l": "He fetches his teddy first"
+     }
+    ]
+   },
+   "hint": "Touch Dad!",
+   "ask": "Where do you think the sleep train is going? Which stops does it stop at?",
+   "cues": [
+    {
+     "w": 14,
+     "fx": "tren"
+    }
+   ]
+  },
+  {
+   "text": "Can grabbed his teddy and held on to Dad's waist. Now he was a carriage too! Choo choo, toot toot! First stop: toys. Hop, hop, into the box! “My tower?” asked Can. “It stays here and waits for you till morning,” said Dad.",
+   "hits": {
+    "baba": {
+     "say": "When you sleep, your body rests, so you can play strong in the morning."
+    },
+    "can": {
+     "say": "Goodnight, toys! Next stop: bathroom!"
+    },
+    "kule": {
+     "say": "My tower stays here and waits for me till morning."
+    }
+   },
+   "mech": {
+    "done": "The toys have gone to sleep too!",
+    "msg": "All in the box!"
+   },
+   "hint": "Carry the toys to the box!",
+   "ask": "Why was Can sad about his tower? What did Dad say? Where do your toys sleep at night?",
+   "cues": [
+    {
+     "w": 16,
+     "fx": "tren"
+    }
+   ]
+  },
+  {
+   "text": "Choo… choo… Second stop: bathroom. Can put on his pyjamas himself. Teeth next: first a pea-sized blob of toothpaste, then the brush, and last the foam into the sink! Scrub scrub, swish swish! Dad brushed one more round too.",
+   "hits": {
+    "can": {
+     "say": "I'm the driver! Last stop: bed!"
+    },
+    "baba": {
+     "say": "You did it in order! Now one round for me."
+    }
+   },
+   "mech": {
+    "done": "Teeth sparkling clean! The train rolls on!",
+    "msg": "You did it in order!"
+   },
+   "hint": "Touch the toothpaste first!",
+   "ask": "In what order did Can brush his teeth? What do you do before bed?",
+   "cues": [
+    {
+     "w": 0,
+     "fx": "tren"
+    },
+    {
+     "w": 31,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Choo……… Last stop: bed. Shhh. Dad sat beside him and read a story. Can gave a great big yawn: “Aaah-hmmm… I'm sleepy now.” Click! The night light came on. Can fell asleep.",
+   "hits": {
+    "can": {
+     "say": "Aaah-hmmm… I'm sleepy now."
+    },
+    "baba": {
+     "say": "Goodnight, my little passenger."
+    },
+    "lamba": {
+     "say": "Click! The night light is on."
+    },
+    "ay": {
+     "say": "Shhh… The sleep train has arrived."
+    }
+   },
+   "hint": "Dim the light!",
+   "ask": "How did Can say he was sleepy? Which stops does your sleep train pass through?",
+   "cues": [
+    {
+     "w": 0,
+     "fx": "tren"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.8 Saying what fitness skills are needed for an active and healthy life (HSAB.8.c Expresses the need to rest when necessary): At first Can doesn't notice he's tired; in the end he says “I'm sleepy now” and expresses his need to rest in his own words.",
+   "SAB.1 Using the concept of time appropriately in daily life (SAB.1.a Tells what is done in the morning, at midday, in the evening and at night): Understands that it's night when he sees the moon through the window; tells what is done at night (tidying toys, pyjamas, brushing teeth, a story, sleep) in order.",
+   "E1.2 Independence: Tidies his own toys, puts on his own pyjamas, follows the tooth-brushing order himself; Dad finishes the brushing.",
+   "SDB1.2 Self-Regulation: Gets cross that the game is ending; calms down by breathing and joins in the routine.",
+   "D13 Healthy Living and D16 Responsibility: Takes on regular sleep and clean teeth; puts his toys away."
+  ],
+  "once": [
+   "Read the title: “The Sleep Train.” Ask: “How can a train take you to sleep? Where do trains stop?”",
+   "Ask “What do you do before bed at night?”; listen to the answers without correcting them.",
+   "Give a great big yawn together: “Aaah-hmmm!” Say that yawning is our body's way of saying “I'm tired.”"
+  ],
+  "sirasi": [
+   "On page 1, touch the moon: “There's a moon in the sky. Is it morning or night now?”",
+   "On page 2, name Can's feeling: “He didn't want the game to end, so he got cross.” Like Dad says, breathe in through the nose and out through the mouth together: Fffff.",
+   "On page 3, say that both options in the prediction question are good ideas. Toot the whistle with Dad: “Toot toot!”",
+   "On page 4, let your child hold on to your waist while you are the engine: “Choo choo!” Stress that the tower waits until morning; carry the toys to the box one by one.",
+   "On page 5, say the teeth order together: “First toothpaste, then brush, water last.” Say Can's line “I'm the driver!” together.",
+   "At every stop, say “Choo choo” a little more slowly. On the last page, lower your voice; whisper “Choo………” and touch the lamp to dim the light."
+  ],
+  "sonra": [
+   "Why was Can cross? What did he do to calm down?",
+   "Which stops did the sleep train stop at? Let's say them in order.",
+   "What happened to Can's tower? What happens to our body when we sleep?",
+   "Note: For preschool children, experts recommend about 10–13 hours of sleep a day, including night-time sleep. A short routine done in the same order every evening makes falling asleep easier.",
+   "Note: In the preschool years, an adult finishes or checks tooth-brushing; a pea-sized blob of toothpaste is enough.",
+   "Note: Stopping play is hard. Giving a few minutes' warning (“When this tower is finished, the train leaves.”) and saying that the game will continue in the morning reduces anger."
+  ],
+  "sinif": {
+   "ad": "Choo Choo Sleep Train",
+   "sure": "15 min",
+   "materyal": "Five picture stop cards (toy box, pyjamas, toothbrush, book, lamp); cushions or pillows; calm lullaby music",
+   "adim": [
+    "Lay the stop cards in order along a line in the classroom. The three stops in the story: toys (toy box), bathroom (pyjamas, toothbrush), bed (book, lamp).",
+    "The children hold on to each other's waists and become a train, “Choo choo!”; the teacher is the engine. The train stops at every card, and the children act out that stop's job: tidy toys, put on pyjamas, brush teeth, open a book, dim the light.",
+    "Drive the train fast at first, then a little slower at each stop. At the last stop, everyone lies down on a cushion, takes three deep breaths and closes their eyes.",
+    "In the review circle, ask: “In what order did the sleep train go? What does our body tell us when we're tired?” Put the cards in the right order with the children."
+   ]
+  },
+  "evSoru": [
+   "What should the first stop of your sleep train be tonight?",
+   "What did Can do when he was cross? What do you do when you're cross?",
+   "Why is sleep important? What happens to our body when we sleep?"
+  ],
+  "evEtk": {
+   "ad": "Our family sleep train",
+   "d": "Draw your own sleep stops in pictures with your child (tidying toys, pyjamas, teeth, story, light). Hang the pictures on a string in order. Every evening, start the train with “Toot toot!”; when your child finishes each stop, they put a star next to the picture."
+  },
+  "aileNotu": "Today we read “The Sleep Train”. Can doesn't want to stop playing and gets cross; Dad names his feeling, breathes with him and starts a playful bedtime routine: toys, pyjamas, tooth-brushing, a story and the night light. The story supports the importance of rest, the order of the bedtime routine and putting tiredness into words. At home, a short routine that goes in the same order every evening and an early warning of “The train is leaving soon!” make falling asleep easier. Turning off screens in the hour before bed also helps."
+ },
+ "audio": {
+  "file": "audio/en/040-uyku-treni.mp3",
+  "hash": "83e3a79f",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11184,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1209,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      2549,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      2969,
+      9
+     ],
+     [
+      3849,
+      10
+     ],
+     [
+      4350,
+      11
+     ],
+     [
+      5109,
+      12
+     ],
+     [
+      5249,
+      13
+     ],
+     [
+      5729,
+      14
+     ],
+     [
+      5930,
+      15
+     ],
+     [
+      7089,
+      16
+     ],
+     [
+      7549,
+      17
+     ],
+     [
+      8169,
+      18
+     ],
+     [
+      8409,
+      19
+     ],
+     [
+      9150,
+      20
+     ],
+     [
+      9869,
+      21
+     ],
+     [
+      9989,
+      22
+     ],
+     [
+      10149,
+      23
+     ],
+     [
+      10230,
+      24
+     ],
+     [
+      10449,
+      25
+     ]
+    ]
+   },
+   "p0h-ay": {
+    "s": 11484,
+    "d": 2267,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1589,
+      5
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 14052,
+    "d": 2158,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      671,
+      1
+     ],
+     [
+      961,
+      2
+     ],
+     [
+      1250,
+      3
+     ],
+     [
+      1539,
+      4
+     ],
+     [
+      1828,
+      5
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 16510,
+    "d": 2306,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19117,
+    "d": 16766,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      3069,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      3469,
+      8
+     ],
+     [
+      3969,
+      9
+     ],
+     [
+      4330,
+      10
+     ],
+     [
+      5774,
+      11
+     ],
+     [
+      7289,
+      12
+     ],
+     [
+      7609,
+      13
+     ],
+     [
+      7849,
+      14
+     ],
+     [
+      8329,
+      15
+     ],
+     [
+      8529,
+      16
+     ],
+     [
+      8909,
+      17
+     ],
+     [
+      9069,
+      18
+     ],
+     [
+      9709,
+      19
+     ],
+     [
+      10749,
+      20
+     ],
+     [
+      11129,
+      21
+     ],
+     [
+      11390,
+      22
+     ],
+     [
+      11770,
+      23
+     ],
+     [
+      12390,
+      24
+     ],
+     [
+      12529,
+      25
+     ],
+     [
+      12689,
+      26
+     ],
+     [
+      12869,
+      27
+     ],
+     [
+      12989,
+      28
+     ],
+     [
+      13270,
+      29
+     ],
+     [
+      13449,
+      30
+     ],
+     [
+      14089,
+      31
+     ],
+     [
+      14310,
+      32
+     ],
+     [
+      14989,
+      33
+     ],
+     [
+      15069,
+      34
+     ],
+     [
+      15829,
+      35
+     ],
+     [
+      16110,
+      36
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 36184,
+    "d": 2844,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1670,
+      3
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 39328,
+    "d": 4157,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      3293,
+      8
+     ]
+    ]
+   },
+   "p2": {
+    "s": 43785,
+    "d": 12671,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      1989,
+      7
+     ],
+     [
+      2269,
+      8
+     ],
+     [
+      2430,
+      9
+     ],
+     [
+      2650,
+      10
+     ],
+     [
+      2829,
+      11
+     ],
+     [
+      3894,
+      12
+     ],
+     [
+      5029,
+      13
+     ],
+     [
+      5449,
+      14
+     ],
+     [
+      5789,
+      15
+     ],
+     [
+      5969,
+      16
+     ],
+     [
+      6049,
+      17
+     ],
+     [
+      6370,
+      18
+     ],
+     [
+      7069,
+      19
+     ],
+     [
+      7370,
+      20
+     ],
+     [
+      8009,
+      21
+     ],
+     [
+      8190,
+      22
+     ],
+     [
+      8529,
+      23
+     ],
+     [
+      8850,
+      24
+     ],
+     [
+      8989,
+      25
+     ],
+     [
+      9969,
+      26
+     ],
+     [
+      10109,
+      27
+     ],
+     [
+      11189,
+      28
+     ],
+     [
+      11629,
+      29
+     ],
+     [
+      12029,
+      30
+     ],
+     [
+      12310,
+      31
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 56757,
+    "d": 2267,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      461,
+      1
+     ],
+     [
+      1383,
+      2
+     ],
+     [
+      1805,
+      3
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 59324,
+    "d": 2188,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      305,
+      1
+     ],
+     [
+      887,
+      2
+     ],
+     [
+      1153,
+      3
+     ],
+     [
+      1616,
+      4
+     ],
+     [
+      1882,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 61813,
+    "d": 1998,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1229,
+      6
+     ],
+     [
+      1329,
+      7
+     ],
+     [
+      1449,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 64111,
+    "d": 2113,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1709,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 66525,
+    "d": 16109,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1709,
+      6
+     ],
+     [
+      1829,
+      7
+     ],
+     [
+      1969,
+      8
+     ],
+     [
+      2309,
+      9
+     ],
+     [
+      3109,
+      10
+     ],
+     [
+      3390,
+      11
+     ],
+     [
+      3509,
+      12
+     ],
+     [
+      3670,
+      13
+     ],
+     [
+      3769,
+      14
+     ],
+     [
+      4169,
+      15
+     ],
+     [
+      4694,
+      16
+     ],
+     [
+      5289,
+      17
+     ],
+     [
+      5809,
+      18
+     ],
+     [
+      6489,
+      19
+     ],
+     [
+      6989,
+      20
+     ],
+     [
+      7249,
+      21
+     ],
+     [
+      7829,
+      22
+     ],
+     [
+      8669,
+      23
+     ],
+     [
+      8949,
+      24
+     ],
+     [
+      9430,
+      25
+     ],
+     [
+      9690,
+      26
+     ],
+     [
+      9810,
+      27
+     ],
+     [
+      10730,
+      28
+     ],
+     [
+      10949,
+      29
+     ],
+     [
+      11810,
+      30
+     ],
+     [
+      12230,
+      31
+     ],
+     [
+      12909,
+      32
+     ],
+     [
+      13089,
+      33
+     ],
+     [
+      13430,
+      34
+     ],
+     [
+      13770,
+      35
+     ],
+     [
+      13949,
+      36
+     ],
+     [
+      14209,
+      37
+     ],
+     [
+      14350,
+      38
+     ],
+     [
+      14509,
+      39
+     ],
+     [
+      14749,
+      40
+     ],
+     [
+      15449,
+      41
+     ],
+     [
+      15689,
+      42
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 82935,
+    "d": 4386,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      2890,
+      9
+     ],
+     [
+      3209,
+      10
+     ],
+     [
+      3650,
+      11
+     ],
+     [
+      3749,
+      12
+     ],
+     [
+      3869,
+      13
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 87621,
+    "d": 3045,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2209,
+      4
+     ]
+    ]
+   },
+   "p3h-kule": {
+    "s": 90967,
+    "d": 3205,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      2069,
+      6
+     ],
+     [
+      2209,
+      7
+     ],
+     [
+      2410,
+      8
+     ],
+     [
+      2670,
+      9
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 94472,
+    "d": 1932,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      869,
+      4
+     ],
+     [
+      1009,
+      5
+     ],
+     [
+      1329,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 96704,
+    "d": 16697,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1139,
+      1
+     ],
+     [
+      2229,
+      2
+     ],
+     [
+      2569,
+      3
+     ],
+     [
+      3209,
+      4
+     ],
+     [
+      4129,
+      5
+     ],
+     [
+      4330,
+      6
+     ],
+     [
+      4509,
+      7
+     ],
+     [
+      4649,
+      8
+     ],
+     [
+      4789,
+      9
+     ],
+     [
+      5310,
+      10
+     ],
+     [
+      6430,
+      11
+     ],
+     [
+      6729,
+      12
+     ],
+     [
+      7469,
+      13
+     ],
+     [
+      7930,
+      14
+     ],
+     [
+      8029,
+      15
+     ],
+     [
+      8669,
+      16
+     ],
+     [
+      8930,
+      17
+     ],
+     [
+      9069,
+      18
+     ],
+     [
+      9890,
+      19
+     ],
+     [
+      10069,
+      20
+     ],
+     [
+      10190,
+      21
+     ],
+     [
+      10789,
+      22
+     ],
+     [
+      10989,
+      23
+     ],
+     [
+      11449,
+      24
+     ],
+     [
+      11649,
+      25
+     ],
+     [
+      11949,
+      26
+     ],
+     [
+      12149,
+      27
+     ],
+     [
+      12289,
+      28
+     ],
+     [
+      12930,
+      29
+     ],
+     [
+      13310,
+      30
+     ],
+     [
+      13829,
+      31
+     ],
+     [
+      14189,
+      32
+     ],
+     [
+      14969,
+      33
+     ],
+     [
+      15229,
+      34
+     ],
+     [
+      15629,
+      35
+     ],
+     [
+      15769,
+      36
+     ],
+     [
+      15989,
+      37
+     ],
+     [
+      16289,
+      38
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 113702,
+    "d": 2979,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2449,
+      5
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 116982,
+    "d": 3155,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      769,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2309,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      2789,
+      9
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 120437,
+    "d": 3268,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2769,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 124006,
+    "d": 15648,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1369,
+      1
+     ],
+     [
+      1670,
+      2
+     ],
+     [
+      2469,
+      3
+     ],
+     [
+      3430,
+      4
+     ],
+     [
+      4529,
+      5
+     ],
+     [
+      4870,
+      6
+     ],
+     [
+      5109,
+      7
+     ],
+     [
+      5549,
+      8
+     ],
+     [
+      5769,
+      9
+     ],
+     [
+      5910,
+      10
+     ],
+     [
+      6089,
+      11
+     ],
+     [
+      6189,
+      12
+     ],
+     [
+      7049,
+      13
+     ],
+     [
+      7410,
+      14
+     ],
+     [
+      7609,
+      15
+     ],
+     [
+      7749,
+      16
+     ],
+     [
+      8150,
+      17
+     ],
+     [
+      8430,
+      18
+     ],
+     [
+      9329,
+      19
+     ],
+     [
+      10690,
+      20
+     ],
+     [
+      10949,
+      21
+     ],
+     [
+      11449,
+      22
+     ],
+     [
+      12310,
+      23
+     ],
+     [
+      13029,
+      24
+     ],
+     [
+      13169,
+      25
+     ],
+     [
+      13369,
+      26
+     ],
+     [
+      13609,
+      27
+     ],
+     [
+      13850,
+      28
+     ],
+     [
+      14469,
+      29
+     ],
+     [
+      14869,
+      30
+     ],
+     [
+      15089,
+      31
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 139954,
+    "d": 3133,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1165,
+      1
+     ],
+     [
+      1680,
+      2
+     ],
+     [
+      2577,
+      3
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 143388,
+    "d": 1772,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1109,
+      3
+     ]
+    ]
+   },
+   "p5h-lamba": {
+    "s": 145461,
+    "d": 1948,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1569,
+      5
+     ]
+    ]
+   },
+   "p5h-ay": {
+    "s": 147710,
+    "d": 2948,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2209,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

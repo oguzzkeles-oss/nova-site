@@ -1,0 +1,1941 @@
+{
+ "id": "065-babamla-parkur-gunu",
+ "lang": "en",
+ "title": "Obstacle Course Day with Dad",
+ "theme": "Moving safely, balance and staying flexible when plans change",
+ "blurb": "On Father's Day, Elif gives her dad an obstacle course day in the park. At the first bend, a puddle left over from yesterday's rain spoils the plan, so Elif suggests moving the course to the dry grass; she and Dad carry the stones together.",
+ "voiceNames": {
+  "elif": "Elif",
+  "baba": "Dad (Elif's dad)"
+ },
+ "pages": [
+  {
+   "text": "On Father's Day morning, Elif gave her dad a picture: the two of them, hand in hand. “I'm so glad you're my dad! And one more present: an obstacle course day in the park!” Dad burst out laughing. “Hooray! Come on, are the wheels ready?”",
+   "hits": {
+    "elif": {
+     "say": "I'm so glad you're my dad!"
+    },
+    "baba": {
+     "say": "Hooray! Are the wheels ready?"
+    }
+   },
+   "hint": "Touch Elif!",
+   "ask": "What presents did Elif give her dad? What would you like to give a grown-up you love?",
+   "cues": [
+    {
+     "w": 37,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "In the park they built an obstacle course with colourful stones and orange cones. It wound round past the slide. Dad said, “Safety check first!” Elif put on her helmet and her belt: click! She tried her brakes: squeak! Dad tied his own laces: a bow! They took the water bottle too. “Check complete!” they said.",
+   "hits": {
+    "elif": {
+     "say": "Helmet, belt, done: click!"
+    },
+    "baba": {
+     "say": "Laces tied: a bow!"
+    },
+    "matara": {
+     "say": "Water's ready too!"
+    }
+   },
+   "mech": {
+    "done": "Safety check complete, we're ready!",
+    "msg": "Check complete!"
+   },
+   "hint": "Put on the helmet and belt first!",
+   "ask": "What did they check before they started playing? What do you do before you ride your bike?"
+  },
+  {
+   "text": "Elif turned the first bend. Oh! Next to the slide, a huge puddle! Left over from yesterday's rain. Wheels would slip here. Elif's shoulders drooped and her throat went tight. “My course is ruined!” Dad held up his finger straight like a candle. “First smell the flower, then blow out the candle,” he said.",
+   "hits": {
+    "elif": {
+     "say": "My course is ruined!"
+    },
+    "baba": {
+     "say": "Blow out my finger candle, captain!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Elif will do now?",
+    "res": "Good thinking! Let's see.",
+    "opts": [
+     {
+      "l": "Build the course somewhere else"
+     },
+     {
+      "l": "Play ball with Dad"
+     }
+    ]
+   },
+   "hint": "Smell the flower!",
+   "ask": "How does Elif feel now? How does her body show it?",
+   "mech": {
+    "done": "Phew! Elif feels calm again.",
+    "msg": "Two deep breaths!"
+   }
+  },
+  {
+   "text": "Elif smelled the flower and blew out the candle. Then her eyes lit up. “I've got it! Let's carry the stones to the dry grass. The plan changes, the fun doesn't!” Dad laughed. “Great idea, captain!” Elif put three stones on her lap, and Dad took two. They laid them out on the grass: one, two, three, four, five!",
+   "hits": {
+    "elif": {
+     "say": "The plan changes, the fun doesn't!"
+    },
+    "baba": {
+     "say": "Great idea, captain!"
+    }
+   },
+   "mech": {
+    "done": "Five stones! The new course is ready.",
+    "msg": "Five stones!"
+   },
+   "hint": "Count the stones!",
+   "ask": "What was Elif's idea? What do you do when one of your plans falls through?"
+  },
+  {
+   "text": "Go! Elif pushed her wheels: whizz, whizz! The bottle sat on her lap. She zigzagged between the stones and cones, and the bottle never fell! Dad stood on the log, arms out wide. “Keep your balance, keep it!” Elif laughed. “Dad, you're wobbling!” “But I'm not falling!” said Dad.",
+   "hits": {
+    "elif": {
+     "say": "Whizz, whizz! The bottle's on my lap!"
+    },
+    "baba": {
+     "say": "Keep your balance, keep it!"
+    }
+   },
+   "mech": {
+    "done": "Zigzag done, and the bottle didn't fall!",
+    "msg": "Whizz!"
+   },
+   "hint": "Touch Elif to move her forward!",
+   "ask": "How did Elif keep the bottle from falling? Can you stand on one foot with your arms out wide, like Elif's dad?"
+  },
+  {
+   "text": "Finish! Elif threw her arms up high. Dad hugged her tight. Their hearts went thump, thump. They drank from the bottle. “Dad, who builds the course tomorrow?” “You build it, captain, and I'll do the wobbling!”",
+   "hits": {
+    "elif": {
+     "say": "The plan changed, the fun didn't!"
+    },
+    "baba": {
+     "say": "You build it, captain, I'll do the wobbling!"
+    }
+   },
+   "hint": "Touch Dad!",
+   "ask": "Put your hand on your heart: what does your heart do when you run? What active game would you like to play with a grown-up?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.1 (learning outcome) · Using gross motor skills effectively in different environments and physical activities — HSAB.1.a performs locomotor movements in different settings and conditions (Elif pushes her wheelchair in a zigzag between the stones and turns the first bend); HSAB.1.b performs balance movements suited to the activity (Elif turns slowly without dropping the bottle on her lap; Dad holds his arms out on the log; on page 5 it is the reader's turn to balance: standing on one foot).",
+   "HSAB.11 (learning outcome) · Protecting oneself from danger and accidents — avoids dangerous behaviour and situations: belt, brakes, laces and water are checked before starting; nobody goes through the slippery puddle, and the course is moved to the safe, dry grass.",
+   "E1.4 Self-belief (Self-efficacy) · When the plan falls through, Elif solves the problem herself; she says “I've got it!” and builds the new course from her own idea.",
+   "SDB3.2 Flexibility · Noticing the feeling when a plan changes (shoulders droop, throat goes tight), calming down by smelling the flower and blowing out the finger candle, and finding a new way.",
+   "HSAB.8 (learning outcome) · Describing the fitness skills needed for an active, healthy life — HSAB.8.a notices the change in heartbeat during movement (“Their hearts were going thump, thump”); HSAB.8.c expresses the need to rest (they drink water and rest at the finish).",
+   "Value: D2 Family Unity — on Father's Day, father and daughter move together, encourage each other and laugh."
+  ],
+  "once": [
+   "Point to Elif and her dad on the cover and ask: “Where do you think they're going? What are they going to play?”",
+   "Talk about it: “What is an obstacle course? Have you ever run or walked along a path with things to get past?”",
+   "Good to read around Father's Day (the third Sunday in June); for children whose father is not with them, widen it to “a grown-up you love.”"
+  ],
+  "sirasi": [
+   "On page 1, look at Elif's picture: “Who is in the picture?”",
+   "On page 2, let the child do the safety check in order: belt, laces, water. Say the sounds together: “Click! Squeak! A bow!”",
+   "On page 3, look at Elif's face and shoulders: “How is Elif feeling?” Let the child smell the flower and blow out Dad's finger candle; take two deep breaths together as well. Accept both ideas in the prediction.",
+   "On page 4, count the stones together: three on the grass, one in Dad's hand, one on Elif's lap. Ask: “How many stones did Elif carry, and how many did Dad carry?”",
+   "On page 5, it's your turn to balance: hold your arms out wide and stand on one foot. Ask: “How did Elif keep the bottle from falling?”",
+   "On page 6, put your hand on your heart: ‘Thump, thump! What does our heart do when we run? What happens when we rest?’"
+  ],
+  "sonra": [
+   "Why was the course ruined? What solution did Elif find?",
+   "What could have happened if they had gone through the puddle? How do we behave on slippery ground?",
+   "How did Elif feel in the middle of the story, and how did she feel at the end? Why did her feelings change?"
+  ],
+  "sinif": {
+   "ad": "The Plan Changes Course",
+   "sure": "20 min",
+   "materyal": "5 colourful cushions or beanbags (instead of stones), a line of tape stuck to the floor (instead of the log), water bottles, a blue cloth (the puddle)",
+   "adim": [
+    "In the classroom or garden, set up a zigzag course with the cushions and a balance line with the tape. Keep the path wide for children who use a wheelchair or a walker.",
+    "Before starting, do a “safety check” all together: are our shoes tied, is the path clear, is our water ready?",
+    "Spread the blue cloth in the middle of the course as the “puddle.” Ask the children: “The plan's ruined! Where shall we build the new path?” Let the children find the solution and move the course themselves.",
+    "Complete the course in pairs; at the finish, listen to your heart and drink some water. Sit in a circle and talk: “How did you feel when the plan changed?”"
+   ]
+  },
+  "evSoru": [
+   "What presents did Elif give her dad?",
+   "What did they check before they started?",
+   "Has one of your plans ever changed? What did you do then?"
+  ],
+  "evEtk": {
+   "ad": "A Mini Course at Home",
+   "d": "Build a safe mini obstacle course in the living room with pillows, towels and chairs (away from slippery rugs and sharp corners). First do a safety check together. Then change one obstacle and ask your child: “The plan's changed, how do we get through now?” Let them find the new way."
+  },
+  "aileNotu": "Today we read “Obstacle Course Day with Dad.” On Father's Day, Elif gives her dad an obstacle course day in the park, and they do a safety check together before they start. When a slippery puddle left over from yesterday's rain turns up at the first bend, Elif is upset at first, takes a deep breath, and moves the new course to the dry grass with her own idea. At home, when small plans change, you can use the phrase “The plan changes, the fun doesn't!” together and ask your child to suggest a new way."
+ },
+ "audio": {
+  "file": "audio/en/065-babamla-parkur-gunu.mp3",
+  "hash": "c911ca2b",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15485,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2150,
+      7
+     ],
+     [
+      2410,
+      8
+     ],
+     [
+      2509,
+      9
+     ],
+     [
+      3369,
+      10
+     ],
+     [
+      3509,
+      11
+     ],
+     [
+      3709,
+      12
+     ],
+     [
+      3829,
+      13
+     ],
+     [
+      4290,
+      14
+     ],
+     [
+      4589,
+      15
+     ],
+     [
+      4729,
+      16
+     ],
+     [
+      5549,
+      17
+     ],
+     [
+      5870,
+      18
+     ],
+     [
+      6169,
+      19
+     ],
+     [
+      6449,
+      20
+     ],
+     [
+      6649,
+      21
+     ],
+     [
+      6829,
+      22
+     ],
+     [
+      7589,
+      23
+     ],
+     [
+      7789,
+      24
+     ],
+     [
+      7930,
+      25
+     ],
+     [
+      8150,
+      26
+     ],
+     [
+      8850,
+      27
+     ],
+     [
+      9129,
+      28
+     ],
+     [
+      9609,
+      29
+     ],
+     [
+      9949,
+      30
+     ],
+     [
+      10109,
+      31
+     ],
+     [
+      10209,
+      32
+     ],
+     [
+      10310,
+      33
+     ],
+     [
+      11209,
+      34
+     ],
+     [
+      11649,
+      35
+     ],
+     [
+      12029,
+      36
+     ],
+     [
+      12209,
+      37
+     ],
+     [
+      12989,
+      38
+     ],
+     [
+      14009,
+      39
+     ],
+     [
+      14209,
+      40
+     ],
+     [
+      14609,
+      41
+     ],
+     [
+      14729,
+      42
+     ],
+     [
+      14810,
+      43
+     ],
+     [
+      15109,
+      44
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 15785,
+    "d": 2396,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      1729,
+      5
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 18481,
+    "d": 2031,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1629,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20813,
+    "d": 21080,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1129,
+      5
+     ],
+     [
+      1329,
+      6
+     ],
+     [
+      1809,
+      7
+     ],
+     [
+      2170,
+      8
+     ],
+     [
+      2390,
+      9
+     ],
+     [
+      2930,
+      10
+     ],
+     [
+      3369,
+      11
+     ],
+     [
+      3569,
+      12
+     ],
+     [
+      3969,
+      13
+     ],
+     [
+      4810,
+      14
+     ],
+     [
+      4989,
+      15
+     ],
+     [
+      5330,
+      16
+     ],
+     [
+      5669,
+      17
+     ],
+     [
+      5969,
+      18
+     ],
+     [
+      6109,
+      19
+     ],
+     [
+      6989,
+      20
+     ],
+     [
+      7289,
+      21
+     ],
+     [
+      7930,
+      22
+     ],
+     [
+      8289,
+      23
+     ],
+     [
+      8569,
+      24
+     ],
+     [
+      9489,
+      25
+     ],
+     [
+      9829,
+      26
+     ],
+     [
+      10009,
+      27
+     ],
+     [
+      10169,
+      28
+     ],
+     [
+      10329,
+      29
+     ],
+     [
+      10749,
+      30
+     ],
+     [
+      10909,
+      31
+     ],
+     [
+      11049,
+      32
+     ],
+     [
+      11669,
+      33
+     ],
+     [
+      12409,
+      34
+     ],
+     [
+      12569,
+      35
+     ],
+     [
+      12850,
+      36
+     ],
+     [
+      12989,
+      37
+     ],
+     [
+      13729,
+      38
+     ],
+     [
+      14789,
+      39
+     ],
+     [
+      15109,
+      40
+     ],
+     [
+      15409,
+      41
+     ],
+     [
+      15629,
+      42
+     ],
+     [
+      15829,
+      43
+     ],
+     [
+      16649,
+      44
+     ],
+     [
+      16749,
+      45
+     ],
+     [
+      17509,
+      46
+     ],
+     [
+      17669,
+      47
+     ],
+     [
+      17870,
+      48
+     ],
+     [
+      17989,
+      49
+     ],
+     [
+      18270,
+      50
+     ],
+     [
+      18569,
+      51
+     ],
+     [
+      19329,
+      52
+     ],
+     [
+      19709,
+      53
+     ],
+     [
+      20489,
+      54
+     ],
+     [
+      20709,
+      55
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 42194,
+    "d": 2902,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1649,
+      2
+     ],
+     [
+      2410,
+      3
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 45396,
+    "d": 2135,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      1629,
+      3
+     ]
+    ]
+   },
+   "p1h-matara": {
+    "s": 47831,
+    "d": 1160,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      649,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 49292,
+    "d": 2145,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 51738,
+    "d": 21389,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3229,
+      9
+     ],
+     [
+      3869,
+      10
+     ],
+     [
+      4049,
+      11
+     ],
+     [
+      4569,
+      12
+     ],
+     [
+      5489,
+      13
+     ],
+     [
+      5729,
+      14
+     ],
+     [
+      5969,
+      15
+     ],
+     [
+      6189,
+      16
+     ],
+     [
+      6789,
+      17
+     ],
+     [
+      7689,
+      18
+     ],
+     [
+      8009,
+      19
+     ],
+     [
+      8249,
+      20
+     ],
+     [
+      8589,
+      21
+     ],
+     [
+      9369,
+      22
+     ],
+     [
+      9730,
+      23
+     ],
+     [
+      10249,
+      24
+     ],
+     [
+      10850,
+      25
+     ],
+     [
+      10989,
+      26
+     ],
+     [
+      11169,
+      27
+     ],
+     [
+      11529,
+      28
+     ],
+     [
+      11770,
+      29
+     ],
+     [
+      12569,
+      30
+     ],
+     [
+      12789,
+      31
+     ],
+     [
+      13169,
+      32
+     ],
+     [
+      13409,
+      33
+     ],
+     [
+      14589,
+      34
+     ],
+     [
+      14909,
+      35
+     ],
+     [
+      15129,
+      36
+     ],
+     [
+      15269,
+      37
+     ],
+     [
+      15449,
+      38
+     ],
+     [
+      15890,
+      39
+     ],
+     [
+      16329,
+      40
+     ],
+     [
+      16509,
+      41
+     ],
+     [
+      16589,
+      42
+     ],
+     [
+      17509,
+      43
+     ],
+     [
+      17989,
+      44
+     ],
+     [
+      18309,
+      45
+     ],
+     [
+      18430,
+      46
+     ],
+     [
+      19190,
+      47
+     ],
+     [
+      19589,
+      48
+     ],
+     [
+      19829,
+      49
+     ],
+     [
+      19969,
+      50
+     ],
+     [
+      20089,
+      51
+     ],
+     [
+      20809,
+      52
+     ],
+     [
+      21009,
+      53
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 73428,
+    "d": 1762,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 75490,
+    "d": 2050,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1489,
+      5
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 77840,
+    "d": 2663,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1150,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2170,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 80803,
+    "d": 1858,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      369,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      949,
+      5
+     ],
+     [
+      1129,
+      6
+     ],
+     [
+      1329,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 82961,
+    "d": 2082,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 85344,
+    "d": 22959,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      1809,
+      6
+     ],
+     [
+      1969,
+      7
+     ],
+     [
+      2089,
+      8
+     ],
+     [
+      2989,
+      9
+     ],
+     [
+      3349,
+      10
+     ],
+     [
+      3650,
+      11
+     ],
+     [
+      4049,
+      12
+     ],
+     [
+      4290,
+      13
+     ],
+     [
+      4890,
+      14
+     ],
+     [
+      5149,
+      15
+     ],
+     [
+      5430,
+      16
+     ],
+     [
+      6009,
+      17
+     ],
+     [
+      6249,
+      18
+     ],
+     [
+      6509,
+      19
+     ],
+     [
+      6629,
+      20
+     ],
+     [
+      6989,
+      21
+     ],
+     [
+      7109,
+      22
+     ],
+     [
+      7229,
+      23
+     ],
+     [
+      7529,
+      24
+     ],
+     [
+      8329,
+      25
+     ],
+     [
+      8489,
+      26
+     ],
+     [
+      8829,
+      27
+     ],
+     [
+      9529,
+      28
+     ],
+     [
+      9749,
+      29
+     ],
+     [
+      10149,
+      30
+     ],
+     [
+      11089,
+      31
+     ],
+     [
+      11449,
+      32
+     ],
+     [
+      12249,
+      33
+     ],
+     [
+      12649,
+      34
+     ],
+     [
+      13149,
+      35
+     ],
+     [
+      14229,
+      36
+     ],
+     [
+      14509,
+      37
+     ],
+     [
+      14749,
+      38
+     ],
+     [
+      15009,
+      39
+     ],
+     [
+      15390,
+      40
+     ],
+     [
+      15489,
+      41
+     ],
+     [
+      15649,
+      42
+     ],
+     [
+      16069,
+      43
+     ],
+     [
+      16249,
+      44
+     ],
+     [
+      16509,
+      45
+     ],
+     [
+      16749,
+      46
+     ],
+     [
+      17469,
+      47
+     ],
+     [
+      17669,
+      48
+     ],
+     [
+      17870,
+      49
+     ],
+     [
+      18030,
+      50
+     ],
+     [
+      18190,
+      51
+     ],
+     [
+      18289,
+      52
+     ],
+     [
+      18389,
+      53
+     ],
+     [
+      19430,
+      54
+     ],
+     [
+      20069,
+      55
+     ],
+     [
+      20869,
+      56
+     ],
+     [
+      21649,
+      57
+     ],
+     [
+      22389,
+      58
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 108603,
+    "d": 2691,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      396,
+      1
+     ],
+     [
+      752,
+      2
+     ],
+     [
+      1582,
+      3
+     ],
+     [
+      1938,
+      4
+     ],
+     [
+      2294,
+      5
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 111595,
+    "d": 1559,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      989,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 113454,
+    "d": 2651,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2170,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 116405,
+    "d": 20082,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      4589,
+      9
+     ],
+     [
+      4830,
+      10
+     ],
+     [
+      4949,
+      11
+     ],
+     [
+      5109,
+      12
+     ],
+     [
+      5830,
+      13
+     ],
+     [
+      6089,
+      14
+     ],
+     [
+      6669,
+      15
+     ],
+     [
+      6949,
+      16
+     ],
+     [
+      7089,
+      17
+     ],
+     [
+      7509,
+      18
+     ],
+     [
+      7669,
+      19
+     ],
+     [
+      8209,
+      20
+     ],
+     [
+      8329,
+      21
+     ],
+     [
+      8489,
+      22
+     ],
+     [
+      8969,
+      23
+     ],
+     [
+      9310,
+      24
+     ],
+     [
+      10169,
+      25
+     ],
+     [
+      10509,
+      26
+     ],
+     [
+      10749,
+      27
+     ],
+     [
+      10869,
+      28
+     ],
+     [
+      10989,
+      29
+     ],
+     [
+      11529,
+      30
+     ],
+     [
+      11869,
+      31
+     ],
+     [
+      12069,
+      32
+     ],
+     [
+      12850,
+      33
+     ],
+     [
+      13109,
+      34
+     ],
+     [
+      13270,
+      35
+     ],
+     [
+      13969,
+      36
+     ],
+     [
+      14249,
+      37
+     ],
+     [
+      14930,
+      38
+     ],
+     [
+      15430,
+      39
+     ],
+     [
+      16129,
+      40
+     ],
+     [
+      16669,
+      41
+     ],
+     [
+      16930,
+      42
+     ],
+     [
+      17989,
+      43
+     ],
+     [
+      18190,
+      44
+     ],
+     [
+      18350,
+      45
+     ],
+     [
+      18569,
+      46
+     ],
+     [
+      19389,
+      47
+     ],
+     [
+      19629,
+      48
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 136788,
+    "d": 2830,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      500,
+      1
+     ],
+     [
+      1131,
+      2
+     ],
+     [
+      1420,
+      3
+     ],
+     [
+      1923,
+      4
+     ],
+     [
+      2212,
+      5
+     ],
+     [
+      2501,
+      6
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 139918,
+    "d": 1851,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1509,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 142069,
+    "d": 2790,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2229,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 145159,
+    "d": 14420,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      3749,
+      8
+     ],
+     [
+      4049,
+      9
+     ],
+     [
+      4249,
+      10
+     ],
+     [
+      5029,
+      11
+     ],
+     [
+      5289,
+      12
+     ],
+     [
+      5649,
+      13
+     ],
+     [
+      6009,
+      14
+     ],
+     [
+      6709,
+      15
+     ],
+     [
+      7589,
+      16
+     ],
+     [
+      7789,
+      17
+     ],
+     [
+      8109,
+      18
+     ],
+     [
+      8289,
+      19
+     ],
+     [
+      8390,
+      20
+     ],
+     [
+      9270,
+      21
+     ],
+     [
+      9869,
+      22
+     ],
+     [
+      10049,
+      23
+     ],
+     [
+      10329,
+      24
+     ],
+     [
+      10449,
+      25
+     ],
+     [
+      10730,
+      26
+     ],
+     [
+      11669,
+      27
+     ],
+     [
+      11930,
+      28
+     ],
+     [
+      12209,
+      29
+     ],
+     [
+      12310,
+      30
+     ],
+     [
+      12930,
+      31
+     ],
+     [
+      13209,
+      32
+     ],
+     [
+      13489,
+      33
+     ],
+     [
+      13649,
+      34
+     ],
+     [
+      13789,
+      35
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 159880,
+    "d": 2672,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      2069,
+      5
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 162853,
+    "d": 2666,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2069,
+      7
+     ]
+    ]
+   }
+  }
+ }
+}

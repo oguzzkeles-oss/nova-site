@@ -1,0 +1,2654 @@
+{
+ "id": "035-yerli-mali-sofrasi",
+ "n": 35,
+ "title": "Yerli Malı Sofrası",
+ "age": "60-72",
+ "area": "Sosyal",
+ "theme": "Yerli malı, yiyeceğin kaynağı ve israf etmemek",
+ "values": [
+  "D17 Tasarruf"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 5,
+ "blurb": "Yerli Malı sofrası için pazara giden Can her şeyi almak ister; Elif'in tek sorusuyla parmaklarıyla sayar ve beş kişiye beş Amasya elması alır. Sofrada süt, yumurta, bal ve elma kendi “evlerini” bulunca Can her damlaya, her lokmaya sahip çıkar.",
+ "codes": {
+  "maarif": [
+   "OB5 Kültür Okuryazarlığı",
+   "OB3 Finansal Okuryazarlık",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme",
+   "HSAB.7 Günlük yaşamında sağlıklı beslenme davranışları gösterebilme",
+   "SDB2.3 Sosyal Farkındalık",
+   "D17 Tasarruf"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "elif": "cocuk-kiz",
+  "can": "cocuk-erkek",
+  "ogretmen": "ogretmen",
+  "pazarci": "anne"
+ },
+ "voiceNames": {
+  "elif": "Elif",
+  "can": "Can",
+  "ogretmen": "Nur Öğretmen",
+  "pazarci": "Pazarcı teyze"
+ },
+ "pages": [
+  {
+   "text": "Kış sabahı pazar cıvıl cıvıldı. “Kıpkırmızı Amasya elmalarııı!” diye seslendi pazarcı teyze. Elif, Can ve Nur Öğretmen de oradaydı. Can sınıfın kumbarasını sıkı sıkı tutuyordu. Yarın okulda Yerli Malı sofrası kurulacaktı. Sofradaki her şey kendi ülkemizden olacaktı.",
+   "scene": {
+    "set": "pazar",
+    "season": "winter",
+    "time": "day",
+    "hot": {
+     "tezgah2": "tezgah",
+     "karpuz": "kabak"
+    },
+    "cast": [
+     {
+      "k": "elif",
+      "x": 108,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "elif"
+     },
+     {
+      "k": "can",
+      "x": 206,
+      "y": 230,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "kumbara",
+      "hit": "can"
+     },
+     {
+      "k": "ogretmen",
+      "x": 306,
+      "y": 216,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "ogretmen"
+     }
+    ],
+    "props": [
+     {
+      "k": "basket",
+      "fill": "empty",
+      "full": 0,
+      "x": 108,
+      "y": 214,
+      "s": 0.55,
+      "z": 234
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Sepetim hazır, kucağımda!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "can": {
+     "say": "Kumbaramız şıngır şıngır!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "ogretmen": {
+     "say": "Günaydın! Kolay gelsin!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tezgah": {
+     "say": "Amasya elması, Finike portakalı!",
+     "voice": "pazarci",
+     "anim": "wiggle",
+     "fx": "bell"
+    },
+    "kabak": {
+     "say": "Tonton balkabakları!",
+     "voice": "pazarci",
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "tezgah",
+    "Tezgâha dokun!"
+   ],
+   "ask": "Sen hiç pazara gittin mi? Pazarda neler gördün, neler duydun?"
+  },
+  {
+   "text": "Can tezgâha koştu. “Elma, nar, mandalina… Hepsini alalım!” Elif gülümsedi. “Sofrada kaç kişi olacağız?” Can parmaklarıyla saydı: “Ben, sen, Nur Öğretmen, Zeynep, Deniz… Beş!” Sonra sevindi: “Öyleyse beş elma!” Kumbara şıngırdadı.",
+   "scene": {
+    "set": "pazar",
+    "season": "winter",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 96,
+      "y": 230,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "open",
+      "hit": "elif"
+     },
+     {
+      "k": "can",
+      "x": 186,
+      "y": 228,
+      "s": 1.05,
+      "mood": "think",
+      "pose": "hold",
+      "hit": "can",
+      "hold": "kumbara"
+     },
+     {
+      "k": "anne",
+      "x": 276,
+      "y": 211,
+      "s": 0.82,
+      "mood": "happy",
+      "pose": "open",
+      "scarf": true,
+      "flip": true,
+      "hit": "pazarci",
+      "lbl": "Pazarcı teyze"
+     }
+    ],
+    "props": [
+     {
+      "k": "basket",
+      "fill": "empty",
+      "full": 0,
+      "x": 96,
+      "y": 216,
+      "s": 0.55,
+      "z": 234
+     },
+     {
+      "k": "apple",
+      "x": 312,
+      "y": 146,
+      "s": 0.9,
+      "hit": "a1"
+     },
+     {
+      "k": "apple",
+      "x": 329,
+      "y": 146,
+      "s": 0.9,
+      "hit": "a2"
+     },
+     {
+      "k": "apple",
+      "x": 346,
+      "y": 146,
+      "s": 0.9,
+      "hit": "a3"
+     },
+     {
+      "k": "apple",
+      "x": 363,
+      "y": 146,
+      "s": 0.9,
+      "hit": "a4"
+     },
+     {
+      "k": "apple",
+      "x": 380,
+      "y": 146,
+      "s": 0.9,
+      "hit": "a5"
+     }
+    ]
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "a1",
+     "a2",
+     "a3",
+     "a4",
+     "a5"
+    ],
+    "to": [
+     96,
+     198
+    ],
+    "done": "Beş elma, beş kişi! Kalanı kumbaraya: şıngır!",
+    "msg": "Beş elma sepette!"
+   },
+   "hits": {
+    "can": {
+     "say": "Parayı verdim, kalanı kumbarada!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "click"
+    },
+    "elif": {
+     "say": "Sofrada kaç kişi olacağız?",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "pazarci": {
+     "say": "Beş elma, buyurun! Afiyet olsun!",
+     "voice": "pazarci",
+     "anim": "boing",
+     "fx": "bell"
+    }
+   },
+   "hint": [
+    "a1",
+    "Say, sepete koy!"
+   ],
+   "ask": "Can her şeyi almak istedi. Sen alışverişte neler istersin? Hangisi gerçekten lazım?"
+  },
+  {
+   "text": "Ertesi sabah sınıfta sofra kuruldu. Elmalar pazardan geldi. Süt, yumurta ve bal evlerden. Can süt şişesini kaldırdı. “Bu süt buzdolabından geldi!” Elif kıkırdadı. “Peki buzdolabına nereden geldi?” Can düşündü, düşündü… Hımm!",
+   "scene": {
+    "set": "sinif",
+    "season": "winter",
+    "time": "day",
+    "hot": {
+     "pencere": "kar"
+    },
+    "cast": [
+     {
+      "k": "can",
+      "x": 92,
+      "y": 228,
+      "s": 1.05,
+      "mood": "think",
+      "pose": "hold",
+      "hold": "sut",
+      "hit": "can"
+     },
+     {
+      "k": "elif",
+      "x": 318,
+      "y": 228,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "point",
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "basket",
+      "full": 4,
+      "x": 178,
+      "y": 162,
+      "s": 0.62
+     },
+     {
+      "k": "apple",
+      "x": 152,
+      "y": 163,
+      "s": 0.8,
+      "hit": "elma"
+     },
+     {
+      "k": "tabak",
+      "food": "yumurta",
+      "x": 212,
+      "y": 162,
+      "s": 1.3,
+      "hit": "yum"
+     },
+     {
+      "k": "bal",
+      "x": 244,
+      "y": 162,
+      "s": 0.95,
+      "hit": "bal"
+     },
+     {
+      "k": "qmark",
+      "x": 134,
+      "y": 104
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Bu süt buzdolabından geldi!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Peki buzdolabına nereden geldi?",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "kar": {
+     "say": "Lapa lapa kar yağıyor!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "yum": {
+     "say": "Evden gelen yumurta.",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "bal": {
+     "say": "Evden gelen mis gibi bal.",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "elma": {
+     "say": "Pazardan gelen kıpkırmızı elma.",
+     "voice": "anlatici",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence süt, buzdolabından önce neredeydi?",
+    "res": "İkisi de doğru! Hadi, en başa gidelim.",
+    "opts": [
+     {
+      "l": "Ahırdaki inekte",
+      "scene": {
+       "set": "ciftlik",
+       "time": "day",
+       "cast": [
+        {
+         "k": "inek",
+         "x": 74,
+         "y": 194,
+         "s": 0.8,
+         "mood": "calm",
+         "pose": "eat"
+        }
+       ],
+       "props": []
+      }
+     },
+     {
+      "l": "Pazarda",
+      "scene": {
+       "set": "pazar",
+       "season": "winter",
+       "time": "day",
+       "cast": [],
+       "props": [
+        {
+         "k": "sut",
+         "x": 60,
+         "y": 145,
+         "s": 1.1
+        },
+        {
+         "k": "sut",
+         "x": 86,
+         "y": 145,
+         "s": 1.1
+        },
+        {
+         "k": "sut",
+         "x": 112,
+         "y": 145,
+         "s": 1.1
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Sizin buzdolabınızda neler var? Onlar oraya nereden gelmiş olabilir?"
+  },
+  {
+   "text": "Nur Öğretmen tahtaya dört resim astı: inek, tavuk, arı kovanı, elma ağacı. “Her yiyecek kendi evini bulsun!” Möö! Gıt gıdak! Vızz! Hışır hışır! Süt, yumurta, bal, elma… Hangisi nereden geldi?",
+   "scene": {
+    "set": "sinif",
+    "season": "winter",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "elif",
+      "x": 52,
+      "y": 230,
+      "s": 0.98,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "elif"
+     },
+     {
+      "k": "can",
+      "x": 150,
+      "y": 206,
+      "s": 0.92,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "can"
+     },
+     {
+      "k": "ogretmen",
+      "x": 234,
+      "y": 216,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ogretmen"
+     },
+     {
+      "k": "inek",
+      "x": 290,
+      "y": 122,
+      "s": 0.28,
+      "mood": "happy",
+      "z": 240,
+      "hit": "ki",
+      "lbl": "İnek resmi"
+     },
+     {
+      "k": "tavuk",
+      "x": 355,
+      "y": 122,
+      "s": 0.55,
+      "mood": "happy",
+      "z": 240,
+      "hit": "kt",
+      "lbl": "Tavuk resmi"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 320,
+      "y": 234,
+      "s": 1.5
+     },
+     {
+      "k": "tree",
+      "x": 355,
+      "y": 168,
+      "s": 0.58,
+      "z": 240
+     },
+     {
+      "k": "apple",
+      "x": 346,
+      "y": 146,
+      "s": 0.5,
+      "z": 241
+     },
+     {
+      "k": "apple",
+      "x": 366,
+      "y": 140,
+      "s": 0.5,
+      "z": 241
+     },
+     {
+      "k": "apple",
+      "x": 356,
+      "y": 150,
+      "s": 0.72,
+      "z": 242,
+      "hit": "ka",
+      "lbl": "Elma ağacı"
+     },
+     {
+      "k": "kovan",
+      "x": 290,
+      "y": 162,
+      "s": 0.6,
+      "z": 240,
+      "hit": "kk",
+      "lbl": "Arı kovanı resmi"
+     },
+     {
+      "k": "masa",
+      "cloth": true,
+      "x": 150,
+      "y": 238,
+      "s": 1.25
+     },
+     {
+      "k": "sut",
+      "x": 112,
+      "y": 186,
+      "s": 1.0,
+      "z": 239,
+      "hit": "sut"
+     },
+     {
+      "k": "yumurta",
+      "x": 138,
+      "y": 186,
+      "s": 1.4,
+      "z": 239,
+      "hit": "yum"
+     },
+     {
+      "k": "bal",
+      "x": 164,
+      "y": 186,
+      "s": 0.95,
+      "z": 239,
+      "hit": "bal"
+     },
+     {
+      "k": "apple",
+      "x": 190,
+      "y": 186,
+      "s": 1.1,
+      "z": 239,
+      "hit": "elma"
+     }
+    ]
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "sut",
+      "ki"
+     ],
+     [
+      "yum",
+      "kt"
+     ],
+     [
+      "bal",
+      "kk"
+     ],
+     [
+      "elma",
+      "ka"
+     ]
+    ],
+    "done": "Her yiyecek evini buldu!",
+    "msg": "Hepsi evini buldu!"
+   },
+   "hits": {
+    "ogretmen": {
+     "say": "Peynir de inekten gelir, biliyor musunuz?",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "elif": {
+     "say": "Vızz vızz... Bu kolay!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "buzz"
+    },
+    "can": {
+     "say": "Möö! Bunu ben bilirim!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "moo"
+    }
+   },
+   "hint": [
+    "sut",
+    "Süte, sonra evine dokun!"
+   ],
+   "ask": "Sen sabah kahvaltısında neler yedin? Onlar nereden geliyor?",
+   "cues": [
+    {
+     "w": 21,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Can sofraya baktı. Bu süt için inek samanını yemişti. Yumurtaları tavuk yumurtlamıştı. Bal için arılar çiçek çiçek uçmuştu. Elmaları Amasya'da bir çiftçi toplamıştı. Can sütü sımsıkı tuttu: “Bir damlası bile dökülmesin!” Elif ekledi: “Herkese birer bardak. Yetmezse yine koyarız!” Lıkır lıkır!",
+   "scene": {
+    "set": "sinif",
+    "season": "winter",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 282,
+      "y": 230,
+      "s": 1.12,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "sut",
+      "flip": true,
+      "hit": "can"
+     },
+     {
+      "k": "elif",
+      "x": 356,
+      "y": 222,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "point",
+      "flip": true,
+      "hit": "elif"
+     },
+     {
+      "k": "zeynep",
+      "x": 44,
+      "y": 206,
+      "s": 0.78,
+      "mood": "happy",
+      "pose": "clap"
+     },
+     {
+      "k": "deniz",
+      "x": 234,
+      "y": 204,
+      "s": 0.76,
+      "mood": "laugh",
+      "pose": "wave",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "cloth": true,
+      "x": 160,
+      "y": 240,
+      "s": 1.55
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 112,
+      "y": 176,
+      "s": 1.2,
+      "z": 241,
+      "hit": "b1",
+      "lbl": "Bardak"
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 136,
+      "y": 176,
+      "s": 1.2,
+      "z": 241,
+      "hit": "b2",
+      "lbl": "Bardak"
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 160,
+      "y": 176,
+      "s": 1.2,
+      "z": 241,
+      "hit": "b3",
+      "lbl": "Bardak"
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 184,
+      "y": 176,
+      "s": 1.2,
+      "z": 241,
+      "hit": "b4",
+      "lbl": "Bardak"
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 208,
+      "y": 176,
+      "s": 1.2,
+      "z": 241,
+      "hit": "b5",
+      "lbl": "Bardak"
+     }
+    ]
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "b1",
+     "b2",
+     "b3",
+     "b4",
+     "b5"
+    ],
+    "done": "Beş bardak, beş arkadaş. Tam yetti!",
+    "msg": "Herkese bir bardak süt!"
+   },
+   "hits": {
+    "can": {
+     "say": "Bir damlası bile dökülmesin!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Yetmezse yine koyarız!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "b1",
+    "Bardaklara süt koy!"
+   ],
+   "ask": "Sofrada yemek artmasın diye neler yapabiliriz?"
+  },
+  {
+   "text": "Hap hap, kıtır kıtır! Bardaklar boşaldı, sepette tek elma kalmadı. Can kıkırdadı. “İyi ki hepsini almamışız!” Sonra resimlere el salladı: “Sağ ol, inek! Sağ ol, tavuk! Sağ olun, arılar! Sağ ol, çiftçi amca!” Beş kişi, beş boş bardak, beş gülen yüz.",
+   "scene": {
+    "set": "sinif",
+    "season": "winter",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 156,
+      "y": 237,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "wave",
+      "flip": true,
+      "turn": 0.7,
+      "hit": "can"
+     },
+     {
+      "k": "ogretmen",
+      "x": 252,
+      "y": 208,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "ogretmen"
+     },
+     {
+      "k": "elif",
+      "x": 350,
+      "y": 230,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "elif"
+     },
+     {
+      "k": "inek",
+      "x": 55,
+      "y": 136,
+      "s": 0.25,
+      "mood": "happy",
+      "z": 240,
+      "hit": "ki"
+     },
+     {
+      "k": "tavuk",
+      "x": 107,
+      "y": 136,
+      "s": 0.49,
+      "mood": "happy",
+      "z": 240
+     },
+     {
+      "k": "zeynep",
+      "x": 206,
+      "y": 204,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "zeynep"
+     },
+     {
+      "k": "deniz",
+      "x": 300,
+      "y": 204,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true,
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 82,
+      "y": 234,
+      "s": 1.25
+     },
+     {
+      "k": "tree",
+      "x": 107,
+      "y": 175,
+      "s": 0.49,
+      "z": 240
+     },
+     {
+      "k": "apple",
+      "x": 100,
+      "y": 156,
+      "s": 0.45,
+      "z": 241
+     },
+     {
+      "k": "apple",
+      "x": 116,
+      "y": 152,
+      "s": 0.45,
+      "z": 241
+     },
+     {
+      "k": "apple",
+      "x": 108,
+      "y": 160,
+      "s": 0.54,
+      "z": 242
+     },
+     {
+      "k": "kovan",
+      "x": 55,
+      "y": 170,
+      "s": 0.52,
+      "z": 240,
+      "hit": "kk"
+     },
+     {
+      "k": "masa",
+      "cloth": true,
+      "x": 252,
+      "y": 236,
+      "s": 1.6
+     },
+     {
+      "k": "basket",
+      "fill": "empty",
+      "full": 0,
+      "x": 330,
+      "y": 238,
+      "s": 0.6
+     },
+     {
+      "k": "kumbara",
+      "coin": true,
+      "x": 112,
+      "y": 236,
+      "s": 1.1,
+      "hit": "kumbara"
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 214,
+      "y": 178,
+      "s": 1.0,
+      "z": 241
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 233,
+      "y": 178,
+      "s": 1.0,
+      "z": 241
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 252,
+      "y": 178,
+      "s": 1.0,
+      "z": 241
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 271,
+      "y": 178,
+      "s": 1.0,
+      "z": 241
+     },
+     {
+      "k": "bardak",
+      "state": "off",
+      "x": 290,
+      "y": 178,
+      "s": 1.0,
+      "z": 241
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Sağ ol, inek! Sağ ol, çiftçi amca!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "elif": {
+     "say": "Afiyet olsun!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ogretmen": {
+     "say": "Emeği geçen herkese teşekkürler!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ki": {
+     "say": "Möö!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "moo"
+    },
+    "kk": {
+     "say": "Vızz vızz!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "kumbara": {
+     "say": "Şıngır! Artan paralar kumbarada.",
+     "voice": "anlatici",
+     "anim": "jump",
+     "fx": "click"
+    },
+    "zeynep": {
+     "say": "Hap hap! Çok lezzetli!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Kıtır kıtır! Afiyet olsun!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "kumbara",
+    "Kumbaraya dokun!"
+   ],
+   "ask": "Can neden ineğe teşekkür etti? Sen sofrada kime teşekkür edersin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "OB5 Kültür Okuryazarlığı: Tutum, Yatırım ve Türk Malları Haftası (halk arasında Yerli Malı Haftası, 12-18 Aralık) bağlamında semt pazarını, ortak sofrayı ve “Kolay gelsin, afiyet olsun, elinize sağlık” gibi gündelik kültürel ifadeleri tanır; Amasya elması, Finike portakalı gibi yurdumuzda yetişen ve yakın çevresinde üretilen yiyecekleri fark eder.",
+   "OB3 Finansal Okuryazarlık: istek ile ihtiyacı ayırt eder (“Hepsini alalım!” yerine beş kişiye beş elma); kumbarada biriken parayla ihtiyaç kadar alışveriş yapıldığını, artan paranın yeniden biriktirildiğini anlatır.",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme; TAOB.2.a Görsel okuma materyallerindeki bilgilerle günlük yaşamı arasında ilişki kurar: tahtadaki resimleri (inek, tavuk, arı kovanı, elma ağacı) sofradaki yiyeceklerle eşleştirir, tahmin sayfasındaki görsellerden yola çıkarak sütün yolculuğunu tahmin eder.",
+   "HSAB.7 Günlük yaşamında sağlıklı beslenme davranışları gösterebilme: sofrada ihtiyacı kadar alır, yetmezse yeniden ister; süt, yumurta, bal ve meyveyi farklı besin kaynakları olarak tanır.",
+   "SDB2.3 Sosyal Farkındalık: bir yiyeceğin sofraya gelene kadar hayvanların, çiftçinin ve pazarcının emeğinden geçtiğini fark eder; sofradaki herkese yetmesini gözetir, emeğe teşekkür eder.",
+   "D17 Tasarruf: yiyeceği israf etmeden tüketir; parayı ihtiyaç kadar harcar, artanı kumbarada biriktirir."
+  ],
+  "once": [
+   "Kapağı gösterin: “Burası neresi? Pazarda neler satılır, neler duyulur?” Çocukların pazar anılarını dinleyin.",
+   "Masaya bir şişe süt ya da bir yumurta koyun: “Bu, sofraya gelmeden önce neredeydi?” Cevapları not edin; masaldan sonra yeniden bakacaksınız.",
+   "Haftayı kısaca tanıtın: “Bu hafta Tutum, Yatırım ve Türk Malları Haftası. Yakınımızda yetişen, bizim topraklarda üretilen şeylere yerli malı diyoruz.”"
+  ],
+  "sirasi": [
+   "2. sayfada Can'ın “Hepsini alalım!” isteği ile Elif'in “Sofrada kaç kişi olacağız?” sorusunu karşılaştırın: “Hangisi istek, hangisi ihtiyaç?” Can'la birlikte parmaklarla beş kişiyi sayın; elmaları sepete koyarken sayıları hep birlikte söyleyin, kalan paranın kumbaraya döndüğünü gösterin.",
+   "3. sayfadaki tahmin sorusunda iki cevabı da kabul edin: süt önce inekteydi, sonra pazara geldi. “Ondan önce neredeydi?” diye geriye doğru sormayı sürdürün.",
+   "4. sayfada dokunmadan önce sesleri birlikte yapın (möö, gıt gıdak, vızz, hışır hışır); çocuk önce yiyeceğe, sonra onun “evine” dokunsun.",
+   "5. sayfada bardakları doldururken “Herkese bir bardak” diyerek bire bir eşlemeyi vurgulayın; “Yetmezse ne yaparız?” diye sorun."
+  ],
+  "sonra": [
+   "Can pazarda neden her şeyi almak istedi? Elif ne sordu? Can kaç kişiyi saydı? Sen olsan kaç elma alırdın?",
+   "Süt, yumurta, bal ve elma sofraya gelene kadar kimler çalıştı?",
+   "Can inek resmine neden “Sağ ol!” dedi? Sen sofrada kime teşekkür edersin?",
+   "Senin ailenin memleketinden (başka bir şehirden ya da ülkeden) gelen bir tat var mı? Nereden geliyor?",
+   "Masalı resimlerle sıralayalım: pazardaki elmalar, tahtadaki resimler, bitmiş sofra."
+  ],
+  "sinif": {
+   "ad": "Yiyecekler Evini Buluyor",
+   "sure": "25 dk",
+   "materyal": "Kaynak resim kartları (inek, tavuk, arı kovanı, elma ağacı, buğday başağı, üzüm asması, zeytin ağacı); yiyecek kartları ya da boş ambalajlar (süt, yoğurt, peynir, yumurta, bal, elma, ekmek, pekmez, zeytin); sepet, oyuncak meyveler, oyun parası, kumbara",
+   "adim": [
+    "Çember olun. Kaynak kartlarını yere dizin; her kartın sesini ya da hareketini birlikte yapın (möö, gıt gıdak, vızz, rüzgârda sallanan ağaç).",
+    "Yiyecek kartlarını bir torbadan tek tek çekin. Çocuk kartı kaynağının yanına koysun ve söylesin: “Peynir inekten gelir!” Peynir–süt–inek, pekmez–üzüm, ekmek–buğday gibi zincirleri birlikte kurun.",
+    "Sınıfta küçük bir pazar kurun. Her grup önce masasındaki kişileri saysın, sonra ihtiyacı kadar oyuncak meyve alsın; oyun parasıyla ödesin, artan parayı kumbaraya atsın.",
+    "İsterseniz ailelerden gelen yerli ürünlerle küçük bir sofra kurun: önce besin alerjisi listesini kontrol edin, kuruyemiş (fındık, ceviz vb.) istemeyin; herkes az alsın, yetmezse yeniden alsın."
+   ]
+  },
+  "evSoru": [
+   "Can pazarda ne almak istedi? Sonunda kaç elma aldılar? Neden?",
+   "Süt, yumurta ve bal nereden geliyor?",
+   "Bizim sofrada yemek artmasın diye neler yapabiliriz?"
+  ],
+  "evEtk": {
+   "ad": "Mutfak Dedektifi",
+   "d": "Mutfaktan üç yiyecek seçin (yoğurt, ekmek, zeytin gibi) ve çocuğunuzla her birinin “evini” bulun: yoğurt–süt–inek, ekmek–un–buğday, zeytin–zeytin ağacı. Pazara ya da markete gitmeden önce birlikte resimli küçük bir liste çizin; alışverişte yalnızca listedekileri alın, artan bozuk parayı kumbaraya atın."
+  },
+  "aileNotu": "Bugün “Yerli Malı Sofrası” masalını okuduk. Tutum, Yatırım ve Türk Malları Haftası kapsamında yiyeceklerin sofraya nereden geldiğini (süt–inek, yumurta–tavuk, bal–arı, elma–ağaç) eşleştirdik; ihtiyaç kadar almayı ve israf etmemeyi konuştuk. Evde sofrada “Bu nereden geldi?” diye sorabilir, çocuğunuzun tabağına az koyup yetmezse yeniden almasını önerebilirsiniz. Sınıfa yiyecek gönderecekseniz lütfen kuruyemiş göndermeyin ve çocuğunuzun alerji durumunu öğretmeninizle paylaşın."
+ },
+ "audio": {
+  "file": "audio/035-yerli-mali-sofrasi.mp3",
+  "hash": "2bac38b5",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 22461,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3529,
+      6
+     ],
+     [
+      4149,
+      7
+     ],
+     [
+      5310,
+      8
+     ],
+     [
+      5649,
+      9
+     ],
+     [
+      6309,
+      10
+     ],
+     [
+      6890,
+      11
+     ],
+     [
+      7870,
+      12
+     ],
+     [
+      8609,
+      13
+     ],
+     [
+      8969,
+      14
+     ],
+     [
+      9129,
+      15
+     ],
+     [
+      9409,
+      16
+     ],
+     [
+      10089,
+      17
+     ],
+     [
+      10549,
+      18
+     ],
+     [
+      11770,
+      19
+     ],
+     [
+      12069,
+      20
+     ],
+     [
+      12549,
+      21
+     ],
+     [
+      13369,
+      22
+     ],
+     [
+      13669,
+      23
+     ],
+     [
+      13989,
+      24
+     ],
+     [
+      15209,
+      25
+     ],
+     [
+      15890,
+      26
+     ],
+     [
+      16409,
+      27
+     ],
+     [
+      16770,
+      28
+     ],
+     [
+      17049,
+      29
+     ],
+     [
+      17610,
+      30
+     ],
+     [
+      18930,
+      31
+     ],
+     [
+      19669,
+      32
+     ],
+     [
+      20009,
+      33
+     ],
+     [
+      20629,
+      34
+     ],
+     [
+      21049,
+      35
+     ],
+     [
+      21729,
+      36
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 22761,
+    "d": 1685,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      535,
+      1
+     ],
+     [
+      1001,
+      2
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 24746,
+    "d": 1881,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      905,
+      1
+     ],
+     [
+      1373,
+      2
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 26927,
+    "d": 1452,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p0h-tezgah": {
+    "s": 28680,
+    "d": 2070,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p0h-kabak": {
+    "s": 31050,
+    "d": 1410,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 32761,
+    "d": 21329,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      2089,
+      3
+     ],
+     [
+      2930,
+      4
+     ],
+     [
+      3509,
+      5
+     ],
+     [
+      4609,
+      6
+     ],
+     [
+      5149,
+      7
+     ],
+     [
+      6089,
+      8
+     ],
+     [
+      6410,
+      9
+     ],
+     [
+      7549,
+      10
+     ],
+     [
+      8109,
+      11
+     ],
+     [
+      8390,
+      12
+     ],
+     [
+      8709,
+      13
+     ],
+     [
+      9629,
+      14
+     ],
+     [
+      9930,
+      15
+     ],
+     [
+      10890,
+      16
+     ],
+     [
+      11810,
+      17
+     ],
+     [
+      12489,
+      18
+     ],
+     [
+      13109,
+      19
+     ],
+     [
+      13390,
+      20
+     ],
+     [
+      14310,
+      21
+     ],
+     [
+      15189,
+      22
+     ],
+     [
+      16049,
+      23
+     ],
+     [
+      16969,
+      24
+     ],
+     [
+      17389,
+      25
+     ],
+     [
+      18450,
+      26
+     ],
+     [
+      19030,
+      27
+     ],
+     [
+      19350,
+      28
+     ],
+     [
+      19969,
+      29
+     ],
+     [
+      20509,
+      30
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 54390,
+    "d": 2525,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 57215,
+    "d": 1901,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p1h-pazarci": {
+    "s": 59416,
+    "d": 2249,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 61966,
+    "d": 3467,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2829,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 65733,
+    "d": 19344,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3969,
+      7
+     ],
+     [
+      4810,
+      8
+     ],
+     [
+      5469,
+      9
+     ],
+     [
+      5969,
+      10
+     ],
+     [
+      6149,
+      11
+     ],
+     [
+      6410,
+      12
+     ],
+     [
+      7410,
+      13
+     ],
+     [
+      7729,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8669,
+      16
+     ],
+     [
+      9770,
+      17
+     ],
+     [
+      9969,
+      18
+     ],
+     [
+      10289,
+      19
+     ],
+     [
+      11329,
+      20
+     ],
+     [
+      12249,
+      21
+     ],
+     [
+      12609,
+      22
+     ],
+     [
+      13689,
+      23
+     ],
+     [
+      14029,
+      24
+     ],
+     [
+      14829,
+      25
+     ],
+     [
+      15409,
+      26
+     ],
+     [
+      16270,
+      27
+     ],
+     [
+      16629,
+      28
+     ],
+     [
+      17589,
+      29
+     ],
+     [
+      18396,
+      30
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 85377,
+    "d": 2288,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 87966,
+    "d": 2732,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      2189,
+      3
+     ]
+    ]
+   },
+   "p2h-kar": {
+    "s": 90999,
+    "d": 1661,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      435,
+      1
+     ],
+     [
+      830,
+      2
+     ],
+     [
+      1057,
+      3
+     ]
+    ]
+   },
+   "p2h-yum": {
+    "s": 92960,
+    "d": 1510,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      909,
+      2
+     ]
+    ]
+   },
+   "p2h-bal": {
+    "s": 94771,
+    "d": 1636,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1309,
+      4
+     ]
+    ]
+   },
+   "p2h-elma": {
+    "s": 96708,
+    "d": 2081,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 99089,
+    "d": 3053,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2309,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 102442,
+    "d": 3036,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2449,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 105779,
+    "d": 18513,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      3049,
+      6
+     ],
+     [
+      3809,
+      7
+     ],
+     [
+      4669,
+      8
+     ],
+     [
+      4930,
+      9
+     ],
+     [
+      5830,
+      10
+     ],
+     [
+      6329,
+      11
+     ],
+     [
+      7169,
+      12
+     ],
+     [
+      7509,
+      13
+     ],
+     [
+      7969,
+      14
+     ],
+     [
+      8409,
+      15
+     ],
+     [
+      8770,
+      16
+     ],
+     [
+      9690,
+      17
+     ],
+     [
+      10390,
+      18
+     ],
+     [
+      10690,
+      19
+     ],
+     [
+      11449,
+      20
+     ],
+     [
+      12189,
+      21
+     ],
+     [
+      12669,
+      22
+     ],
+     [
+      13529,
+      23
+     ],
+     [
+      14189,
+      24
+     ],
+     [
+      15129,
+      25
+     ],
+     [
+      15930,
+      26
+     ],
+     [
+      16709,
+      27
+     ],
+     [
+      17309,
+      28
+     ],
+     [
+      17889,
+      29
+     ]
+    ]
+   },
+   "p3h-ogretmen": {
+    "s": 124593,
+    "d": 2042,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1589,
+      5
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 126935,
+    "d": 1588,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      294,
+      1
+     ],
+     [
+      850,
+      2
+     ],
+     [
+      1105,
+      3
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 128823,
+    "d": 2173,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 131297,
+    "d": 1638,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 133235,
+    "d": 23324,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      3029,
+      7
+     ],
+     [
+      3689,
+      8
+     ],
+     [
+      4529,
+      9
+     ],
+     [
+      5229,
+      10
+     ],
+     [
+      5609,
+      11
+     ],
+     [
+      6809,
+      12
+     ],
+     [
+      7069,
+      13
+     ],
+     [
+      7390,
+      14
+     ],
+     [
+      7829,
+      15
+     ],
+     [
+      8270,
+      16
+     ],
+     [
+      8709,
+      17
+     ],
+     [
+      9690,
+      18
+     ],
+     [
+      10629,
+      19
+     ],
+     [
+      11289,
+      20
+     ],
+     [
+      11509,
+      21
+     ],
+     [
+      11949,
+      22
+     ],
+     [
+      13109,
+      23
+     ],
+     [
+      13409,
+      24
+     ],
+     [
+      13770,
+      25
+     ],
+     [
+      14369,
+      26
+     ],
+     [
+      15209,
+      27
+     ],
+     [
+      15489,
+      28
+     ],
+     [
+      16069,
+      29
+     ],
+     [
+      16350,
+      30
+     ],
+     [
+      17530,
+      31
+     ],
+     [
+      17850,
+      32
+     ],
+     [
+      18649,
+      33
+     ],
+     [
+      19229,
+      34
+     ],
+     [
+      19589,
+      35
+     ],
+     [
+      20369,
+      36
+     ],
+     [
+      21069,
+      37
+     ],
+     [
+      21369,
+      38
+     ],
+     [
+      22270,
+      39
+     ],
+     [
+      22749,
+      40
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 156859,
+    "d": 2349,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 159508,
+    "d": 1740,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1150,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 161549,
+    "d": 3155,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2589,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 165004,
+    "d": 22314,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2749,
+      5
+     ],
+     [
+      3670,
+      6
+     ],
+     [
+      4249,
+      7
+     ],
+     [
+      4509,
+      8
+     ],
+     [
+      4830,
+      9
+     ],
+     [
+      5850,
+      10
+     ],
+     [
+      6169,
+      11
+     ],
+     [
+      7289,
+      12
+     ],
+     [
+      7529,
+      13
+     ],
+     [
+      7729,
+      14
+     ],
+     [
+      8310,
+      15
+     ],
+     [
+      9430,
+      16
+     ],
+     [
+      9829,
+      17
+     ],
+     [
+      10509,
+      18
+     ],
+     [
+      10730,
+      19
+     ],
+     [
+      11810,
+      20
+     ],
+     [
+      12149,
+      21
+     ],
+     [
+      12689,
+      22
+     ],
+     [
+      13449,
+      23
+     ],
+     [
+      13850,
+      24
+     ],
+     [
+      14369,
+      25
+     ],
+     [
+      15109,
+      26
+     ],
+     [
+      15449,
+      27
+     ],
+     [
+      15890,
+      28
+     ],
+     [
+      16709,
+      29
+     ],
+     [
+      17089,
+      30
+     ],
+     [
+      17530,
+      31
+     ],
+     [
+      18089,
+      32
+     ],
+     [
+      18709,
+      33
+     ],
+     [
+      19069,
+      34
+     ],
+     [
+      19789,
+      35
+     ],
+     [
+      20089,
+      36
+     ],
+     [
+      20389,
+      37
+     ],
+     [
+      21169,
+      38
+     ],
+     [
+      21469,
+      39
+     ],
+     [
+      21950,
+      40
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 187619,
+    "d": 2777,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      272,
+      1
+     ],
+     [
+      643,
+      2
+     ],
+     [
+      1323,
+      3
+     ],
+     [
+      1556,
+      4
+     ],
+     [
+      1927,
+      5
+     ],
+     [
+      2332,
+      6
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 190697,
+    "d": 1398,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      814,
+      1
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 192396,
+    "d": 1979,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p5h-ki": {
+    "s": 194675,
+    "d": 759,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-kk": {
+    "s": 195735,
+    "d": 1001,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      500,
+      1
+     ]
+    ]
+   },
+   "p5h-kumbara": {
+    "s": 197037,
+    "d": 2765,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1969,
+      3
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 200102,
+    "d": 1818,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      300,
+      1
+     ],
+     [
+      870,
+      2
+     ],
+     [
+      1131,
+      3
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 202220,
+    "d": 2629,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1869,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

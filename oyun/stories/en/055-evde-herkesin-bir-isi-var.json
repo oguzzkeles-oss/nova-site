@@ -1,0 +1,1699 @@
+{
+ "id": "055-evde-herkesin-bir-isi-var",
+ "lang": "en",
+ "title": "Everyone Has a Job at Home",
+ "theme": "Sharing jobs at home, responsibility and matching",
+ "blurb": "Spring is here and the winter clothes are being put away: Dad folds the towels, Mum waters the flowers. Every job Zeynep tries goes wrong; then she spots the tipped-over winter basket, matches the hats with the scarves by colour, and the family goes off on a picnic together.",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "baba": "Dad (Zeynep's dad)",
+  "anne": "Mum (Zeynep's mum)",
+  "pamuk": "Cotton (cat)"
+ },
+ "pages": [
+  {
+   "text": "Spring had come. Time to put the winter clothes away. Saturday morning, and the house was happily busy. Dad was folding towels, rustle rustle. Mum was watering the flowers, splish splash. Zeynep yawned: “What shall I do?”",
+   "hits": {
+    "baba": {
+     "say": "Fold, fold, one more towel!"
+    },
+    "anne": {
+     "say": "The flowers are thirsty too!"
+    },
+    "zeynep": {
+     "say": "Yaaawn! What shall I do?"
+    }
+   },
+   "hint": "Touch Dad!",
+   "ask": "Who does what jobs on Saturday mornings at your house?",
+   "cues": [
+    {
+     "w": 22,
+     "fx": "yaprak"
+    },
+    {
+     "w": 29,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep wanted to fold the towels. Whoops! They all tumbled onto the floor. She tried to lift the watering can. Oof, it was so heavy! Zeynep's lips went into a pout. “Everyone has a job. I don't!”",
+   "hits": {
+    "zeynep": {
+     "say": "I want a job too!"
+    },
+    "baba": {
+     "say": "Come here, sweetheart. First, a deep breath."
+    },
+    "sulama": {
+     "say": "Too heavy!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "How is Zeynep feeling now? How do you feel when you can't do something?"
+  },
+  {
+   "text": "Zeynep took a deep breath. And what did she see? The winter basket had tipped over. Hats and scarves all in a muddle. Cotton the cat was curled up in the yellow scarf, purr purr. “I'll do this one!” said Zeynep. Dad smiled: “It's all yours!”",
+   "hits": {
+    "baba": {
+     "say": "It's all yours, Zeynep!"
+    },
+    "pamuk": {
+     "say": "Purrr!"
+    },
+    "zeynep": {
+     "say": "I'll do this one!"
+    }
+   },
+   "predict": {
+    "q": "How do you think Zeynep will sort out this muddle?",
+    "res": "Zeynep has a bright idea. Let's see!",
+    "opts": [
+     {
+      "l": "She looks at the colours"
+     },
+     {
+      "l": "She tries them all one by one"
+     }
+    ]
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "What did Zeynep do when she saw the mess? What do you tidy up by yourself at home?"
+  },
+  {
+   "text": "Zeynep looked at the colours. Red hat, red scarf. Blue hat, blue scarf. Cotton let go of the yellow scarf. Yellow hat, yellow scarf! A match for every hat.",
+   "hits": {
+    "zeynep": {
+     "say": "A match for every hat!"
+    },
+    "pamuk": {
+     "say": "Meow! Here, have your yellow scarf."
+    }
+   },
+   "mech": {
+    "done": "They all found their match! Well done, Zeynep!",
+    "msg": "Every hat found its match!"
+   },
+   "hint": "Touch the red hat!",
+   "ask": "How did you find the red hat's match? What else could we match?"
+  },
+  {
+   "text": "All the jobs were done! Time for the picnic basket. Dad filled the water bottle. Mum washed the grapes. Zeynep opened the basket: bread, grapes, an orange, a boiled egg. Hop, hop, all into the basket!",
+   "hits": {
+    "anne": {
+     "say": "The grapes are squeaky clean!"
+    },
+    "baba": {
+     "say": "The water bottle's ready too!"
+    },
+    "zeynep": {
+     "say": "Hop, hop, into the basket!"
+    }
+   },
+   "mech": {
+    "done": "The basket is full! Off to the picnic!",
+    "msg": "The picnic basket is ready!"
+   },
+   "hint": "Touch the bread!",
+   "ask": "What else would you take on a picnic? Shall we count what we put in the basket together?"
+  },
+  {
+   "text": "They spread the blanket on the meadow. Zeynep thought about the morning: Dad folded the towels. Mum watered the flowers. Zeynep matched the hats! Zeynep felt a happy wiggle inside. “Together, it was done so fast!”",
+   "hits": {
+    "zeynep": {
+     "say": "Together, it was done so fast!"
+    },
+    "anne": {
+     "say": "Cotton is asleep at home with her yellow scarf!"
+    },
+    "baba": {
+     "say": "Great work, Zeynep!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "Why did Zeynep feel proud? Which job do you like doing at home?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "skill: SBAB5 Social Participation: joins in the family's shared work (tidying the home, getting ready for a picnic); takes on their own task and finishes it.",
+   "MAB.4 Making inferences about mathematical facts, events and objects (MAB.4.b Compares objects, facts and events): compares hats and scarves by colour and finds the ones of the same colour as a matching pair.",
+   "E2.2 Responsibility: takes on a job they noticed themselves (“I'll do this one!”), sees it through to the end and feels proud when it is finished.",
+   "SDB2.2 Cooperation: notices that family members contribute to the same goal (putting the winter clothes away and going on a picnic) through different jobs; says the conclusion “Together, it was done so fast!” in their own words.",
+   "D2 Family Unity and D16 Responsibility: sees that the jobs at home are shared between mum, dad and child; describes how doing their own share helps the family."
+  ],
+  "once": [
+   "Look at the cover: “Who is in this house? What might they be doing?” Talk about why winter clothes are put away in the cupboard in spring.",
+   "Ask: “Who does which job at your house?” In the answers, point out that every family member (children included) can have a job.",
+   "Explain the word “match”: things that come in twos or go together, like socks, shoes and gloves."
+  ],
+  "sirasi": [
+   "On page 1, make the sounds “rustle rustle” and “splish splash” together; copy Dad's folding and Mum's watering movements.",
+   "On page 2, look at Zeynep's face: “How is she feeling? How can you tell?” Give the feeling its name: disappointment.",
+   "On page 3, take a deep breath in through your nose with Zeynep and let it out slowly; then make the prediction choice.",
+   "On page 4, let the child touch the hat first, then the scarf of the same colour; say “Red hat, red scarf” with a rhythm.",
+   "On page 5, count each food as it goes into the basket together: one, two, three, four.",
+   "On page 6, remember the morning with Zeynep: “What did Dad do? Mum? Zeynep?” Ask where Cotton is, too."
+  ],
+  "sonra": [
+   "What happened first in the story, and what happened next? Let's put three pictures in order: the moment Zeynep was sad, the matching, the picnic.",
+   "How did Zeynep feel when she couldn't fold the towels? What did she do next?",
+   "How did she match the hats? Apart from colour, what else could we match by (size, pattern)?",
+   "Which job would you like to take on at home? How do you feel inside when a job is done?"
+  ],
+  "sinif": {
+   "ad": "Find the Match, Pop It in the Basket",
+   "sure": "20 min",
+   "materyal": "Mixed-up pairs of socks (or glove / hat-and-scarf cards cut from coloured paper), a laundry basket, three coloured boxes or cloths",
+   "adim": [
+    "Mix the socks or cards up in the basket; make a circle with the children.",
+    "Each child draws one from the basket, looks at its colour and pattern, and searches for its match among their friends.",
+    "The pair who find each other say “Red sock, red sock!” and put the pair together in the box of the matching colour.",
+    "Finally, ask “Who has a job in our class?” and share small tasks like watering the plants or collecting the books among the children."
+   ]
+  },
+  "evSoru": [
+   "What jobs were her dad and mum doing?",
+   "Why was Zeynep sad? Which job did she find for herself afterwards?",
+   "What did they put in the basket for the picnic?"
+  ],
+  "evEtk": {
+   "ad": "The Sock-Matching Job",
+   "d": "While folding the laundry, give your child the clean socks and ask them to find the pairs. Look at the colours, patterns and sizes together; you can also sort them by owner, asking “Whose sock is this?” When the job is done, name their effort (“All the socks found their match, and you found them!”) and talk about how nice it was to do the job together."
+  },
+  "aileNotu": "Today we read “Everyone Has a Job at Home.” While the winter clothes were being put away in spring, Zeynep's dad folded the towels and her mum watered the flowers. When Zeynep's first tries didn't work out, she felt sad and took a deep breath; then she noticed the tipped-over hat-and-scarf basket herself and matched them by colour. At home, you can give your child the chance to take on small jobs they notice themselves, and name their effort (“You matched the socks, that was a big help!”)."
+ },
+ "audio": {
+  "file": "audio/en/055-evde-herkesin-bir-isi-var.mp3",
+  "hash": "dce2af14",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15717,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2049,
+      7
+     ],
+     [
+      2329,
+      8
+     ],
+     [
+      2650,
+      9
+     ],
+     [
+      3589,
+      10
+     ],
+     [
+      4029,
+      11
+     ],
+     [
+      4569,
+      12
+     ],
+     [
+      4709,
+      13
+     ],
+     [
+      4850,
+      14
+     ],
+     [
+      5209,
+      15
+     ],
+     [
+      5489,
+      16
+     ],
+     [
+      5949,
+      17
+     ],
+     [
+      6769,
+      18
+     ],
+     [
+      7049,
+      19
+     ],
+     [
+      7229,
+      20
+     ],
+     [
+      7609,
+      21
+     ],
+     [
+      8509,
+      22
+     ],
+     [
+      8869,
+      23
+     ],
+     [
+      9709,
+      24
+     ],
+     [
+      10029,
+      25
+     ],
+     [
+      10209,
+      26
+     ],
+     [
+      10549,
+      27
+     ],
+     [
+      10649,
+      28
+     ],
+     [
+      11449,
+      29
+     ],
+     [
+      11869,
+      30
+     ],
+     [
+      12890,
+      31
+     ],
+     [
+      13369,
+      32
+     ],
+     [
+      14369,
+      33
+     ],
+     [
+      14569,
+      34
+     ],
+     [
+      14909,
+      35
+     ],
+     [
+      15069,
+      36
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 16017,
+    "d": 3001,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1889,
+      2
+     ],
+     [
+      2069,
+      3
+     ],
+     [
+      2309,
+      4
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 19318,
+    "d": 1995,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1389,
+      4
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 21613,
+    "d": 2455,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1109,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      1889,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24369,
+    "d": 14728,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      3589,
+      9
+     ],
+     [
+      4029,
+      10
+     ],
+     [
+      4249,
+      11
+     ],
+     [
+      4390,
+      12
+     ],
+     [
+      5330,
+      13
+     ],
+     [
+      5509,
+      14
+     ],
+     [
+      5769,
+      15
+     ],
+     [
+      5890,
+      16
+     ],
+     [
+      6089,
+      17
+     ],
+     [
+      6209,
+      18
+     ],
+     [
+      6669,
+      19
+     ],
+     [
+      7469,
+      20
+     ],
+     [
+      7969,
+      21
+     ],
+     [
+      8069,
+      22
+     ],
+     [
+      8369,
+      23
+     ],
+     [
+      8730,
+      24
+     ],
+     [
+      9709,
+      25
+     ],
+     [
+      10209,
+      26
+     ],
+     [
+      10569,
+      27
+     ],
+     [
+      10810,
+      28
+     ],
+     [
+      11049,
+      29
+     ],
+     [
+      11169,
+      30
+     ],
+     [
+      12169,
+      31
+     ],
+     [
+      12669,
+      32
+     ],
+     [
+      12890,
+      33
+     ],
+     [
+      13009,
+      34
+     ],
+     [
+      13930,
+      35
+     ],
+     [
+      14089,
+      36
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 39397,
+    "d": 1447,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      529,
+      3
+     ],
+     [
+      889,
+      4
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 41144,
+    "d": 3406,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      2569,
+      5
+     ],
+     [
+      2849,
+      6
+     ]
+    ]
+   },
+   "p1h-sulama": {
+    "s": 44851,
+    "d": 1012,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ]
+    ]
+   },
+   "p2": {
+    "s": 46163,
+    "d": 16853,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      2549,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      2949,
+      9
+     ],
+     [
+      3749,
+      10
+     ],
+     [
+      3910,
+      11
+     ],
+     [
+      4249,
+      12
+     ],
+     [
+      4689,
+      13
+     ],
+     [
+      4910,
+      14
+     ],
+     [
+      5249,
+      15
+     ],
+     [
+      5949,
+      16
+     ],
+     [
+      6289,
+      17
+     ],
+     [
+      6489,
+      18
+     ],
+     [
+      7089,
+      19
+     ],
+     [
+      7349,
+      20
+     ],
+     [
+      7469,
+      21
+     ],
+     [
+      7569,
+      22
+     ],
+     [
+      8310,
+      23
+     ],
+     [
+      8650,
+      24
+     ],
+     [
+      8789,
+      25
+     ],
+     [
+      9109,
+      26
+     ],
+     [
+      9310,
+      27
+     ],
+     [
+      9649,
+      28
+     ],
+     [
+      9789,
+      29
+     ],
+     [
+      9890,
+      30
+     ],
+     [
+      10009,
+      31
+     ],
+     [
+      10350,
+      32
+     ],
+     [
+      11069,
+      33
+     ],
+     [
+      11430,
+      34
+     ],
+     [
+      12430,
+      35
+     ],
+     [
+      12609,
+      36
+     ],
+     [
+      12749,
+      37
+     ],
+     [
+      13029,
+      38
+     ],
+     [
+      13509,
+      39
+     ],
+     [
+      13729,
+      40
+     ],
+     [
+      14589,
+      41
+     ],
+     [
+      14909,
+      42
+     ],
+     [
+      15789,
+      43
+     ],
+     [
+      16030,
+      44
+     ],
+     [
+      16270,
+      45
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 63316,
+    "d": 1729,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p2h-pamuk": {
+    "s": 65346,
+    "d": 1092,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 66739,
+    "d": 1011,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      236,
+      1
+     ],
+     [
+      432,
+      2
+     ],
+     [
+      629,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 68050,
+    "d": 2553,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      1129,
+      5
+     ],
+     [
+      1369,
+      6
+     ],
+     [
+      1629,
+      7
+     ],
+     [
+      1790,
+      8
+     ],
+     [
+      2029,
+      9
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 70904,
+    "d": 2653,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2209,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 73857,
+    "d": 11941,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2849,
+      7
+     ],
+     [
+      3089,
+      8
+     ],
+     [
+      4009,
+      9
+     ],
+     [
+      4290,
+      10
+     ],
+     [
+      4850,
+      11
+     ],
+     [
+      5129,
+      12
+     ],
+     [
+      6069,
+      13
+     ],
+     [
+      6489,
+      14
+     ],
+     [
+      6709,
+      15
+     ],
+     [
+      6949,
+      16
+     ],
+     [
+      7049,
+      17
+     ],
+     [
+      7169,
+      18
+     ],
+     [
+      7469,
+      19
+     ],
+     [
+      8350,
+      20
+     ],
+     [
+      8690,
+      21
+     ],
+     [
+      9190,
+      22
+     ],
+     [
+      9549,
+      23
+     ],
+     [
+      10369,
+      24
+     ],
+     [
+      10529,
+      25
+     ],
+     [
+      10850,
+      26
+     ],
+     [
+      11109,
+      27
+     ],
+     [
+      11449,
+      28
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 86099,
+    "d": 2115,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1529,
+      4
+     ]
+    ]
+   },
+   "p3h-pamuk": {
+    "s": 88515,
+    "d": 3164,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1189,
+      1
+     ],
+     [
+      1849,
+      2
+     ],
+     [
+      2069,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2609,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 91979,
+    "d": 3199,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2269,
+      6
+     ],
+     [
+      2630,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 95478,
+    "d": 13809,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      829,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1869,
+      6
+     ],
+     [
+      2009,
+      7
+     ],
+     [
+      2130,
+      8
+     ],
+     [
+      2509,
+      9
+     ],
+     [
+      3449,
+      10
+     ],
+     [
+      3729,
+      11
+     ],
+     [
+      3989,
+      12
+     ],
+     [
+      4089,
+      13
+     ],
+     [
+      4370,
+      14
+     ],
+     [
+      5069,
+      15
+     ],
+     [
+      5410,
+      16
+     ],
+     [
+      5709,
+      17
+     ],
+     [
+      5789,
+      18
+     ],
+     [
+      6649,
+      19
+     ],
+     [
+      7129,
+      20
+     ],
+     [
+      7410,
+      21
+     ],
+     [
+      7509,
+      22
+     ],
+     [
+      8369,
+      23
+     ],
+     [
+      9009,
+      24
+     ],
+     [
+      9669,
+      25
+     ],
+     [
+      9869,
+      26
+     ],
+     [
+      10509,
+      27
+     ],
+     [
+      10609,
+      28
+     ],
+     [
+      11029,
+      29
+     ],
+     [
+      11669,
+      30
+     ],
+     [
+      12109,
+      31
+     ],
+     [
+      12689,
+      32
+     ],
+     [
+      12930,
+      33
+     ],
+     [
+      13149,
+      34
+     ],
+     [
+      13270,
+      35
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 109588,
+    "d": 2220,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 112108,
+    "d": 1597,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1129,
+      4
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 114005,
+    "d": 2316,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 116622,
+    "d": 2618,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2009,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 119540,
+    "d": 14148,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1129,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      2189,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      2849,
+      9
+     ],
+     [
+      3089,
+      10
+     ],
+     [
+      3229,
+      11
+     ],
+     [
+      4129,
+      12
+     ],
+     [
+      4449,
+      13
+     ],
+     [
+      4810,
+      14
+     ],
+     [
+      4930,
+      15
+     ],
+     [
+      5789,
+      16
+     ],
+     [
+      6149,
+      17
+     ],
+     [
+      6489,
+      18
+     ],
+     [
+      6589,
+      19
+     ],
+     [
+      7529,
+      20
+     ],
+     [
+      7989,
+      21
+     ],
+     [
+      8289,
+      22
+     ],
+     [
+      8409,
+      23
+     ],
+     [
+      9390,
+      24
+     ],
+     [
+      9789,
+      25
+     ],
+     [
+      10029,
+      26
+     ],
+     [
+      10190,
+      27
+     ],
+     [
+      10569,
+      28
+     ],
+     [
+      10930,
+      29
+     ],
+     [
+      11810,
+      30
+     ],
+     [
+      12509,
+      31
+     ],
+     [
+      12609,
+      32
+     ],
+     [
+      12829,
+      33
+     ],
+     [
+      13169,
+      34
+     ],
+     [
+      13469,
+      35
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 133989,
+    "d": 2509,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      887,
+      1
+     ],
+     [
+      1162,
+      2
+     ],
+     [
+      1438,
+      3
+     ],
+     [
+      1917,
+      4
+     ],
+     [
+      2193,
+      5
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 136799,
+    "d": 2888,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1589,
+      6
+     ],
+     [
+      1749,
+      7
+     ],
+     [
+      2150,
+      8
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 139987,
+    "d": 1371,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

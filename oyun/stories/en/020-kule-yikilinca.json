@@ -1,0 +1,1270 @@
+{
+ "id": "020-kule-yikilinca",
+ "lang": "en",
+ "title": "When the Tower Fell Down",
+ "theme": "Anger and patience",
+ "blurb": "Zeynep's great big tower comes down with one touch from baby Ekin. Zeynep gets very angry; she breathes with Dad, calms down and builds the tower again with her baby sibling.",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "ekin": "Ekin (baby sibling)",
+  "baba": "Dad (Zeynep's dad)"
+ },
+ "pages": [
+  {
+   "text": "Clack! One block. Clack! One more block. Zeynep's tower grew taller and taller. “Up to the ceiling!” Baby Ekin watched with great big eyes.",
+   "hits": {
+    "zeynep": {
+     "say": "My tower will reach the ceiling!"
+    },
+    "ekin": {
+     "say": "Ooh! Tower!"
+    }
+   },
+   "hint": "Touch the tower!",
+   "ask": "What do you build with blocks? How tall does your tower get?"
+  },
+  {
+   "text": "Crawl, crawl, crawl. Ekin came to the tower. Tap! One tiny hand touched it. The tower wobbled, wobbled… Crash! Thud! Clatter clatter! Down came the tower.",
+   "hits": {
+    "ekin": {
+     "say": "Hee hee hee! Crash!"
+    },
+    "zeynep": {
+     "say": "Oh no! My tower!"
+    }
+   },
+   "hint": "Touch the blocks!",
+   "ask": "Why do you think Ekin touched the tower? What might Ekin have wanted to do?",
+   "cues": [
+    {
+     "w": 19,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep was so angry! Her cheeks went bright red. Her heart went boom, boom. She stamped her foot. “You knocked my tower down!” she shouted.",
+   "hits": {
+    "zeynep": {
+     "say": "I'm so angry!"
+    },
+    "ekin": {
+     "say": "Sis?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Zeynep will do now?",
+    "res": "It could be either! Let's see.",
+    "opts": [
+     {
+      "l": "Call her dad"
+     },
+     {
+      "l": "Take a deep breath"
+     }
+    ]
+   },
+   "hint": "Touch her heart and listen!",
+   "ask": "What happens in your body when you get angry? What do your face, your hands and your heart do?"
+  },
+  {
+   "text": "Dad came and sat beside her. “It's okay to be angry, sweetheart. Let's breathe together. My hand is a flower, my finger a candle. Smell the flower… Blow the candle…”",
+   "mech": {
+    "done": "Ahh! Zeynep feels calmer now."
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Mmmm… Fwoooo!"
+    }
+   },
+   "hint": "Smell the flower first!",
+   "ask": "Let's try it together: smell the flower… blow out the finger candle… Three times. How do you feel now?"
+  },
+  {
+   "text": "Zeynep felt better inside. She looked at Ekin. Ekin wanted to play too! “Ekin, come! One block for you, one block for me!” Clack, clack… The tower grew tall again.",
+   "mech": {
+    "done": "Five blocks! The tower is great big again."
+   },
+   "hits": {
+    "zeynep": {
+     "say": "One block for you, one block for me!"
+    },
+    "ekin": {
+     "say": "Me! Me!"
+    }
+   },
+   "hint": "Count the blocks: touch them one by one!",
+   "ask": "Do you take turns with your brother, sister or friend? How?"
+  },
+  {
+   "text": "Zeynep whispered: “Go on, Ekin, you knock it down now!” One! Two! Three! Crash! They both giggled and giggled. Zeynep picked up a block: “We'll build it again. Up to the ceiling!”",
+   "hits": {
+    "zeynep": {
+     "say": "We'll build it again. Up to the ceiling!"
+    },
+    "ekin": {
+     "say": "Hee hee! Sis!"
+    },
+    "baba": {
+     "say": "You two play so nicely!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "The tower fell down again, but this time nobody got angry. Why might that be?",
+   "cues": [
+    {
+     "w": 16,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.4 — Expresses feelings and thoughts about a story they hear or watch: describes Zeynep's anger, Ekin's surprise and the laughter at the end in their own words.",
+   "SDB1.2 Self-Regulation — Notices the signs in their body when angry (red cheeks, a booming heart, a stamping foot) and tries calming down with breathing.",
+   "E1.3 Perseverance and Determination — Rebuilds the fallen tower without giving up: “We'll build it again!”",
+   "D12 Patience — Plays together with a sibling by taking turns (“one block for you, one block for me”)."
+  ],
+  "once": [
+   "Point to the tower on the cover and ask: “How will Zeynep feel if this tower falls down?”",
+   "Say “What does an angry face look like?” and make an angry face together, then a calm one."
+  ],
+  "sirasi": [
+   "On page 3, touch the heart; talk about what happens in the body when we get angry (cheeks, hands, heart). Accept both answers to the prediction question.",
+   "On page 4, do the breathing game all together three times: smell the flower through the nose, blow out Dad's finger candle through the mouth. Do not light a real candle.",
+   "On page 5, talk about how Zeynep noticed that Ekin wanted to play too; count the blocks of the tower together from bottom to top: one, two, three, four, five."
+  ],
+  "sonra": [
+   "When did Zeynep get angry? How did she calm down afterwards?",
+   "Why do you think Ekin touched the tower? What might Ekin have wanted to do?",
+   "The tower fell down again at the end. Why did nobody get angry this time?"
+  ],
+  "sinif": {
+   "ad": "Build a Tower, Take a Breath",
+   "sure": "20 min",
+   "materyal": "Wooden or plastic blocks, angry–calm–happy face cards",
+   "adim": [
+    "Small groups build towers of five blocks; count the blocks together.",
+    "The teacher slowly knocks over their own tower. The children answer “How do you feel when the tower falls down?” with a face card and say why.",
+    "All together, do the “smell the flower, blow out the candle” breath three times. Then pair up and rebuild the tower in turns, saying “one block for you, one block for me.”"
+   ]
+  },
+  "evSoru": [
+   "Why did Zeynep get angry?",
+   "How did Dad help Zeynep?",
+   "What happens in your body when you get angry? What do you do next?"
+  ],
+  "evEtk": {
+   "ad": "Finger candle breathing",
+   "d": "Without lighting a real candle, hold up your index finger like a candle. Breathe in through your nose as if smelling a flower, and slowly blow out the finger candle through your mouth. Try it three times together in a calm moment; then it is easier to remember in angry moments."
+  },
+  "aileNotu": "Today we read “When the Tower Fell Down.” Zeynep gets very angry when her baby sibling knocks down her tower; she calms down by breathing with her dad and rebuilds the tower with Ekin, taking turns. At home, you can name and accept your child's anger: “Your tower fell down, and you got really angry.” You can try the “smell the flower, blow out the candle” breath together, using your finger as the candle instead of lighting a real one."
+ },
+ "audio": {
+  "file": "audio/en/020-kule-yikilinca.mp3",
+  "hash": "0012dcb2",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11318,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      989,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2890,
+      4
+     ],
+     [
+      3049,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      4209,
+      7
+     ],
+     [
+      4689,
+      8
+     ],
+     [
+      5089,
+      9
+     ],
+     [
+      5390,
+      10
+     ],
+     [
+      5949,
+      11
+     ],
+     [
+      6149,
+      12
+     ],
+     [
+      7109,
+      13
+     ],
+     [
+      7289,
+      14
+     ],
+     [
+      7430,
+      15
+     ],
+     [
+      7669,
+      16
+     ],
+     [
+      8829,
+      17
+     ],
+     [
+      9089,
+      18
+     ],
+     [
+      9390,
+      19
+     ],
+     [
+      9770,
+      20
+     ],
+     [
+      10029,
+      21
+     ],
+     [
+      10469,
+      22
+     ],
+     [
+      10770,
+      23
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 11618,
+    "d": 2321,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1689,
+      5
+     ]
+    ]
+   },
+   "p0h-ekin": {
+    "s": 14239,
+    "d": 1631,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      903,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 16171,
+    "d": 14864,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      2749,
+      3
+     ],
+     [
+      3150,
+      4
+     ],
+     [
+      3430,
+      5
+     ],
+     [
+      3569,
+      6
+     ],
+     [
+      3709,
+      7
+     ],
+     [
+      4569,
+      8
+     ],
+     [
+      5509,
+      9
+     ],
+     [
+      5789,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      7089,
+      13
+     ],
+     [
+      7689,
+      14
+     ],
+     [
+      7829,
+      15
+     ],
+     [
+      8289,
+      16
+     ],
+     [
+      9310,
+      17
+     ],
+     [
+      10430,
+      18
+     ],
+     [
+      11529,
+      19
+     ],
+     [
+      12029,
+      20
+     ],
+     [
+      12469,
+      21
+     ],
+     [
+      13390,
+      22
+     ],
+     [
+      13829,
+      23
+     ],
+     [
+      14129,
+      24
+     ],
+     [
+      14270,
+      25
+     ]
+    ]
+   },
+   "p1h-ekin": {
+    "s": 31335,
+    "d": 2391,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      485,
+      1
+     ],
+     [
+      931,
+      2
+     ],
+     [
+      1905,
+      3
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 34026,
+    "d": 2380,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 36707,
+    "d": 10695,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3089,
+      7
+     ],
+     [
+      3529,
+      8
+     ],
+     [
+      4149,
+      9
+     ],
+     [
+      4350,
+      10
+     ],
+     [
+      4649,
+      11
+     ],
+     [
+      4949,
+      12
+     ],
+     [
+      5390,
+      13
+     ],
+     [
+      6229,
+      14
+     ],
+     [
+      6489,
+      15
+     ],
+     [
+      6890,
+      16
+     ],
+     [
+      7089,
+      17
+     ],
+     [
+      7809,
+      18
+     ],
+     [
+      8089,
+      19
+     ],
+     [
+      8369,
+      20
+     ],
+     [
+      8589,
+      21
+     ],
+     [
+      9069,
+      22
+     ],
+     [
+      9890,
+      23
+     ],
+     [
+      10129,
+      24
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 47702,
+    "d": 1923,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1129,
+      2
+     ]
+    ]
+   },
+   "p2h-ekin": {
+    "s": 49926,
+    "d": 627,
+    "w": [
+     [
+      70,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 50853,
+    "d": 1877,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      189,
+      2
+     ],
+     [
+      329,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      989,
+      5
+     ],
+     [
+      1170,
+      6
+     ],
+     [
+      1349,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 53031,
+    "d": 2156,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1729,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 55488,
+    "d": 12155,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2349,
+      7
+     ],
+     [
+      2749,
+      8
+     ],
+     [
+      2869,
+      9
+     ],
+     [
+      3089,
+      10
+     ],
+     [
+      3549,
+      11
+     ],
+     [
+      4489,
+      12
+     ],
+     [
+      4789,
+      13
+     ],
+     [
+      5169,
+      14
+     ],
+     [
+      6089,
+      15
+     ],
+     [
+      6289,
+      16
+     ],
+     [
+      6569,
+      17
+     ],
+     [
+      6689,
+      18
+     ],
+     [
+      6789,
+      19
+     ],
+     [
+      7569,
+      20
+     ],
+     [
+      7809,
+      21
+     ],
+     [
+      8289,
+      22
+     ],
+     [
+      8409,
+      23
+     ],
+     [
+      9409,
+      24
+     ],
+     [
+      9770,
+      25
+     ],
+     [
+      9890,
+      26
+     ],
+     [
+      11049,
+      27
+     ],
+     [
+      11430,
+      28
+     ],
+     [
+      11569,
+      29
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 67943,
+    "d": 2004,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1359,
+      1
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 70248,
+    "d": 2971,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1269,
+      1
+     ],
+     [
+      1689,
+      2
+     ],
+     [
+      2049,
+      3
+     ],
+     [
+      2489,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 73519,
+    "d": 11955,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      3390,
+      8
+     ],
+     [
+      3729,
+      9
+     ],
+     [
+      3989,
+      10
+     ],
+     [
+      4109,
+      11
+     ],
+     [
+      4410,
+      12
+     ],
+     [
+      5269,
+      13
+     ],
+     [
+      5789,
+      14
+     ],
+     [
+      6529,
+      15
+     ],
+     [
+      6669,
+      16
+     ],
+     [
+      6949,
+      17
+     ],
+     [
+      7109,
+      18
+     ],
+     [
+      7649,
+      19
+     ],
+     [
+      7789,
+      20
+     ],
+     [
+      8049,
+      21
+     ],
+     [
+      8230,
+      22
+     ],
+     [
+      8949,
+      23
+     ],
+     [
+      9449,
+      24
+     ],
+     [
+      10249,
+      25
+     ],
+     [
+      10409,
+      26
+     ],
+     [
+      10850,
+      27
+     ],
+     [
+      11129,
+      28
+     ],
+     [
+      11469,
+      29
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 85774,
+    "d": 2636,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      481,
+      1
+     ],
+     [
+      735,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1393,
+      4
+     ],
+     [
+      1834,
+      5
+     ],
+     [
+      2088,
+      6
+     ],
+     [
+      2342,
+      7
+     ]
+    ]
+   },
+   "p4h-ekin": {
+    "s": 88710,
+    "d": 1490,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1007,
+      1
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 90501,
+    "d": 3498,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      2949,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 94300,
+    "d": 13880,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      2869,
+      7
+     ],
+     [
+      3009,
+      8
+     ],
+     [
+      3289,
+      9
+     ],
+     [
+      4229,
+      10
+     ],
+     [
+      4910,
+      11
+     ],
+     [
+      5669,
+      12
+     ],
+     [
+      6509,
+      13
+     ],
+     [
+      7789,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8369,
+      16
+     ],
+     [
+      8890,
+      17
+     ],
+     [
+      9109,
+      18
+     ],
+     [
+      10089,
+      19
+     ],
+     [
+      10489,
+      20
+     ],
+     [
+      10730,
+      21
+     ],
+     [
+      10869,
+      22
+     ],
+     [
+      10949,
+      23
+     ],
+     [
+      11689,
+      24
+     ],
+     [
+      11930,
+      25
+     ],
+     [
+      12149,
+      26
+     ],
+     [
+      12249,
+      27
+     ],
+     [
+      12909,
+      28
+     ],
+     [
+      13069,
+      29
+     ],
+     [
+      13189,
+      30
+     ],
+     [
+      13329,
+      31
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 108480,
+    "d": 2806,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      295,
+      1
+     ],
+     [
+      551,
+      2
+     ],
+     [
+      806,
+      3
+     ],
+     [
+      1554,
+      4
+     ],
+     [
+      1810,
+      5
+     ],
+     [
+      2065,
+      6
+     ],
+     [
+      2321,
+      7
+     ]
+    ]
+   },
+   "p5h-ekin": {
+    "s": 111586,
+    "d": 1608,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      405,
+      1
+     ],
+     [
+      1202,
+      2
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 113495,
+    "d": 2089,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1290,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

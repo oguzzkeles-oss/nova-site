@@ -1,0 +1,1630 @@
+{
+ "id": "049-can-biraz-kiskandi",
+ "lang": "en",
+ "title": "Ela Felt a Bit Jealous",
+ "theme": "Jealousy and friendship",
+ "blurb": "When Ela's best friend Zeynep plays ball with Elif, who is new to the park, a knot forms in Ela's tummy. Ela names her feeling, breathes with her mum and opens her heart to Zeynep; with the game Elif comes up with, all three play together.",
+ "voiceNames": {
+  "ela": "Ela",
+  "zeynep": "Zeynep",
+  "elif": "Elif",
+  "anne": "Mum (Ela's mum)"
+ },
+ "pages": [
+  {
+   "text": "Ela and Zeynep were the best of friends. Every day they met in the park. Creak, creak, the seesaw! Ela down, Zeynep up. Zeynep down, Ela up. “We're two peas in a pod!” they laughed.",
+   "hits": {
+    "ela": {
+     "say": "Whee, up!"
+    },
+    "zeynep": {
+     "say": "Whee, down!"
+    }
+   },
+   "hint": "Touch Ela!",
+   "ask": "Who is your closest friend? What do you play together most?"
+  },
+  {
+   "text": "One day a new girl came to the park. Her name was Elif. She had a red ball on her lap. The wheels of her wheelchair went clickety-clack. Zeynep ran over: “Hello! Shall we play ball?” The ball flew: from Zeynep to Elif, from Elif to Zeynep.",
+   "hits": {
+    "elif": {
+     "say": "Hello! I'm Elif."
+    },
+    "zeynep": {
+     "say": "Catch, Elif!"
+    },
+    "ela": {
+     "say": "What about me?"
+    }
+   },
+   "hint": "Touch the ball!",
+   "ask": "If a new child came to the park, what would you say to them?"
+  },
+  {
+   "text": "A knot formed in Ela's tummy. Her throat felt tight, her cheeks went hot. Her eyes filled with tears. “Zeynep is my friend!” she thought. What was this feeling?",
+   "hits": {
+    "ela": {
+     "say": "There's a knot inside me."
+    },
+    "zeynep": {
+     "say": "Hop! Got it!"
+    },
+    "elif": {
+     "say": "Well done, Zeynep!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Ela will do now?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Tell her mum"
+     },
+     {
+      "l": "Take a deep breath"
+     }
+    ]
+   },
+   "hint": "Touch Ela's heart!",
+   "ask": "Have you ever felt jealous? What happened in your body?"
+  },
+  {
+   "text": "Ela ran to Mum on the bench. “Mum, there's a knot in my tummy.” Mum sat her down beside her. “Do you know this feeling's name?” Ela whispered: “Jealousy…” Mum hugged her: “It's all right to feel jealous, my lamb. Come, let's untie the knot with our breath. Smell the flower… Blow out the candle…”",
+   "hits": {
+    "anne": {
+     "say": "It's all right to feel jealous. I'm here with you."
+    },
+    "ela": {
+     "say": "Hmmmm… Pfffff!"
+    }
+   },
+   "mech": {
+    "done": "Ahh! The knot slowly came loose."
+   },
+   "hint": "Smell the flower first!",
+   "ask": "What do you do when there's a knot inside you? Who do you go to?"
+  },
+  {
+   "text": "Ela felt lighter inside. She went to Zeynep: “I felt a bit jealous. I want to play too.” Zeynep smiled. “Come on, let's all three play!” Elif thought of a game. “Ball circle! Whoever throws the ball says the catcher's name!”",
+   "hits": {
+    "ela": {
+     "say": "I felt a bit jealous."
+    },
+    "zeynep": {
+     "say": "Come on, let's all three play!"
+    },
+    "elif": {
+     "say": "Let's make a ball circle!"
+    }
+   },
+   "hint": "Listen to Elif's idea!",
+   "ask": "Ela told Zeynep how she felt. Who do you tell about your feelings?"
+  },
+  {
+   "text": "“Zeynep!” Hop! “Elif!” Hop! “Ela!” Hop! Round and round the circle went the ball. Giggle, giggle, laughter filled the park. Ela's knot was untied. Her heart had room for everyone.",
+   "hits": {
+    "ela": {
+     "say": "Zeynep, catch!"
+    },
+    "zeynep": {
+     "say": "Elif, your turn!"
+    },
+    "elif": {
+     "say": "Ela, catch!"
+    }
+   },
+   "mech": {
+    "done": "The ball went through all three friends' hands!",
+    "msg": "Ball circle complete!"
+   },
+   "hint": "Throw the ball to Zeynep!",
+   "ask": "How do you bring a new friend into a game?",
+   "cues": [
+    {
+     "w": 14,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.2 — Builds new meaning from the story they listen to: makes inferences about the material (“Why did Ela suddenly go quiet?”) and links the information in the story to daily life (“When did I feel jealous?”).",
+   "SDB1.2 Self-Regulation — Notices the signs of jealousy in the body (a knot in the tummy, a tight throat, hot cheeks), names the feeling and tries calming down by breathing.",
+   "skill: SBAB5 Social Participation — Brings a newly arrived child into the game; sets up a shared game for three and follows the rule (“Whoever throws the ball says the catcher's name”).",
+   "E2.1 Empathy — Thinks about how both Ela, who is left out, and Elif, who is new to the park, feel.",
+   "D4 Friendship — Experiences that a friendship does not shrink with new friends, but grows through play."
+  ],
+  "once": [
+   "Point to the three girls on the cover: “Do you think they are friends? How can you tell?”",
+   "Ask: “What does being jealous mean?”; accept every answer, do not correct."
+  ],
+  "sirasi": [
+   "On page 2, draw attention to Ela looking on from a distance: “What is Ela's face saying?”",
+   "On page 3, touch Ela's heart; talk about what happens in the body when we are jealous (tummy, throat, cheeks). Leave the question “What was this feeling?” to the children. At the prediction, accept both answers; both are good ways.",
+   "On page 4, do the breathing game together three times: smell the flower through the nose, blow out the candle through the mouth.",
+   "On page 6, throw the ball in turn to Zeynep, Elif and Ela; say the name out loud with every throw."
+  ],
+  "sonra": [
+   "When did Ela feel jealous? What did she do when she felt jealous?",
+   "What did Ela say to Zeynep? What did Zeynep answer?",
+   "Who came up with the ball circle game? What game would you have come up with?",
+   "How might Elif, coming to the park for the first time, have felt?"
+  ],
+  "sinif": {
+   "ad": "Ball Circle",
+   "sure": "20 min",
+   "materyal": "A soft ball, chalk or a rope to mark a circle on the floor, feeling face cards",
+   "adim": [
+    "Make a circle with the children. Show the jealous, sad and calm face cards; ask “What is this face feeling?”",
+    "The children put their hands where they feel jealousy (tummy, throat, cheek) and say “My knot is here.”",
+    "All together, do the “smell the flower, blow out the candle” breath three times and “untie the knot”; ask how the knot is now.",
+    "Play ball circle with Elif's rule: whoever throws the ball says the catcher's name. Everyone catches the ball at least once; roll the ball for friends who play sitting down."
+   ]
+  },
+  "evSoru": [
+   "What was the knot in Ela's tummy?",
+   "How did Ela untie the knot?",
+   "What can you do when you feel jealous of a friend?"
+  ],
+  "evEtk": {
+   "ad": "Say the name, throw the ball",
+   "d": "At home, make a family circle with a soft ball or a sock ball. Whoever throws the ball says the catcher's name. Add a teddy bear to the game as the “new friend” and give it a turn too."
+  },
+  "aileNotu": "Today we read “Ela Felt a Bit Jealous.” Ela feels jealous when her best friend Zeynep plays with Elif, who is new to the park; she names her feeling, breathes with her mum and tells Zeynep “I felt a bit jealous.” Jealousy is a natural feeling every child has; at home you can accept the feeling by saying “I think you felt jealous, and that's all right,” and then look for a solution together. You can try the breathing game without lighting a real candle, using your finger as the candle."
+ },
+ "audio": {
+  "file": "audio/en/049-can-biraz-kiskandi.mp3",
+  "hash": "9511247a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13607,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1649,
+      6
+     ],
+     [
+      1790,
+      7
+     ],
+     [
+      2689,
+      8
+     ],
+     [
+      3029,
+      9
+     ],
+     [
+      3269,
+      10
+     ],
+     [
+      3449,
+      11
+     ],
+     [
+      3609,
+      12
+     ],
+     [
+      3709,
+      13
+     ],
+     [
+      3829,
+      14
+     ],
+     [
+      4609,
+      15
+     ],
+     [
+      5069,
+      16
+     ],
+     [
+      5749,
+      17
+     ],
+     [
+      6049,
+      18
+     ],
+     [
+      7009,
+      19
+     ],
+     [
+      7329,
+      20
+     ],
+     [
+      7989,
+      21
+     ],
+     [
+      8469,
+      22
+     ],
+     [
+      9150,
+      23
+     ],
+     [
+      9549,
+      24
+     ],
+     [
+      10149,
+      25
+     ],
+     [
+      10509,
+      26
+     ],
+     [
+      11189,
+      27
+     ],
+     [
+      11489,
+      28
+     ],
+     [
+      11749,
+      29
+     ],
+     [
+      12029,
+      30
+     ],
+     [
+      12149,
+      31
+     ],
+     [
+      12230,
+      32
+     ],
+     [
+      12869,
+      33
+     ],
+     [
+      13089,
+      34
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 13907,
+    "d": 1318,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      800,
+      1
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 15526,
+    "d": 1522,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      925,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17349,
+    "d": 16787,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1290,
+      5
+     ],
+     [
+      1509,
+      6
+     ],
+     [
+      1629,
+      7
+     ],
+     [
+      1749,
+      8
+     ],
+     [
+      2489,
+      9
+     ],
+     [
+      2670,
+      10
+     ],
+     [
+      2989,
+      11
+     ],
+     [
+      3229,
+      12
+     ],
+     [
+      4049,
+      13
+     ],
+     [
+      4209,
+      14
+     ],
+     [
+      4390,
+      15
+     ],
+     [
+      4509,
+      16
+     ],
+     [
+      4769,
+      17
+     ],
+     [
+      5069,
+      18
+     ],
+     [
+      5189,
+      19
+     ],
+     [
+      5350,
+      20
+     ],
+     [
+      6049,
+      21
+     ],
+     [
+      6169,
+      22
+     ],
+     [
+      6489,
+      23
+     ],
+     [
+      6609,
+      24
+     ],
+     [
+      6789,
+      25
+     ],
+     [
+      7390,
+      26
+     ],
+     [
+      7689,
+      27
+     ],
+     [
+      9009,
+      28
+     ],
+     [
+      9469,
+      29
+     ],
+     [
+      9709,
+      30
+     ],
+     [
+      10409,
+      31
+     ],
+     [
+      11109,
+      32
+     ],
+     [
+      11289,
+      33
+     ],
+     [
+      11430,
+      34
+     ],
+     [
+      11649,
+      35
+     ],
+     [
+      12409,
+      36
+     ],
+     [
+      12569,
+      37
+     ],
+     [
+      13029,
+      38
+     ],
+     [
+      13770,
+      39
+     ],
+     [
+      14049,
+      40
+     ],
+     [
+      14529,
+      41
+     ],
+     [
+      14729,
+      42
+     ],
+     [
+      15369,
+      43
+     ],
+     [
+      15629,
+      44
+     ],
+     [
+      16089,
+      45
+     ],
+     [
+      16249,
+      46
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 34436,
+    "d": 1419,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      731,
+      1
+     ],
+     [
+      967,
+      2
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 36155,
+    "d": 1131,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      542,
+      1
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 37587,
+    "d": 1042,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      297,
+      1
+     ],
+     [
+      744,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 38929,
+    "d": 12200,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1469,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      2609,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3309,
+      9
+     ],
+     [
+      4029,
+      10
+     ],
+     [
+      4229,
+      11
+     ],
+     [
+      4609,
+      12
+     ],
+     [
+      4870,
+      13
+     ],
+     [
+      5709,
+      14
+     ],
+     [
+      5969,
+      15
+     ],
+     [
+      6390,
+      16
+     ],
+     [
+      6749,
+      17
+     ],
+     [
+      6969,
+      18
+     ],
+     [
+      7989,
+      19
+     ],
+     [
+      8430,
+      20
+     ],
+     [
+      8569,
+      21
+     ],
+     [
+      8829,
+      22
+     ],
+     [
+      9730,
+      23
+     ],
+     [
+      9930,
+      24
+     ],
+     [
+      10690,
+      25
+     ],
+     [
+      10989,
+      26
+     ],
+     [
+      11289,
+      27
+     ],
+     [
+      11569,
+      28
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 51430,
+    "d": 1745,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      441,
+      1
+     ],
+     [
+      671,
+      2
+     ],
+     [
+      902,
+      3
+     ],
+     [
+      1474,
+      4
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 53476,
+    "d": 1374,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1009,
+      2
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 55150,
+    "d": 1513,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      322,
+      1
+     ],
+     [
+      981,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 56964,
+    "d": 1817,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      329,
+      3
+     ],
+     [
+      649,
+      4
+     ],
+     [
+      889,
+      5
+     ],
+     [
+      1069,
+      6
+     ],
+     [
+      1269,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 59082,
+    "d": 2359,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 61742,
+    "d": 21101,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      2110,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      2989,
+      9
+     ],
+     [
+      3150,
+      10
+     ],
+     [
+      3410,
+      11
+     ],
+     [
+      3549,
+      12
+     ],
+     [
+      3729,
+      13
+     ],
+     [
+      4810,
+      14
+     ],
+     [
+      5129,
+      15
+     ],
+     [
+      5370,
+      16
+     ],
+     [
+      5509,
+      17
+     ],
+     [
+      5769,
+      18
+     ],
+     [
+      6169,
+      19
+     ],
+     [
+      6890,
+      20
+     ],
+     [
+      7029,
+      21
+     ],
+     [
+      7149,
+      22
+     ],
+     [
+      7349,
+      23
+     ],
+     [
+      7549,
+      24
+     ],
+     [
+      8029,
+      25
+     ],
+     [
+      8890,
+      26
+     ],
+     [
+      9150,
+      27
+     ],
+     [
+      10169,
+      28
+     ],
+     [
+      11569,
+      29
+     ],
+     [
+      11909,
+      30
+     ],
+     [
+      12209,
+      31
+     ],
+     [
+      12930,
+      32
+     ],
+     [
+      13129,
+      33
+     ],
+     [
+      13350,
+      34
+     ],
+     [
+      13609,
+      35
+     ],
+     [
+      13749,
+      36
+     ],
+     [
+      14009,
+      37
+     ],
+     [
+      14469,
+      38
+     ],
+     [
+      14609,
+      39
+     ],
+     [
+      15409,
+      40
+     ],
+     [
+      16089,
+      41
+     ],
+     [
+      16350,
+      42
+     ],
+     [
+      16554,
+      43
+     ],
+     [
+      16829,
+      44
+     ],
+     [
+      17069,
+      45
+     ],
+     [
+      17229,
+      46
+     ],
+     [
+      17389,
+      47
+     ],
+     [
+      18409,
+      48
+     ],
+     [
+      18749,
+      49
+     ],
+     [
+      18869,
+      50
+     ],
+     [
+      19950,
+      51
+     ],
+     [
+      20249,
+      52
+     ],
+     [
+      20430,
+      53
+     ],
+     [
+      20549,
+      54
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 83143,
+    "d": 3025,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      729,
+      4
+     ],
+     [
+      989,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2209,
+      7
+     ],
+     [
+      2489,
+      8
+     ],
+     [
+      2689,
+      9
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 86469,
+    "d": 1596,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1080,
+      1
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 88365,
+    "d": 3089,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      1030,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2529,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 91755,
+    "d": 15107,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2430,
+      6
+     ],
+     [
+      2549,
+      7
+     ],
+     [
+      3469,
+      8
+     ],
+     [
+      3609,
+      9
+     ],
+     [
+      3869,
+      10
+     ],
+     [
+      3949,
+      11
+     ],
+     [
+      4169,
+      12
+     ],
+     [
+      5149,
+      13
+     ],
+     [
+      5229,
+      14
+     ],
+     [
+      5390,
+      15
+     ],
+     [
+      5489,
+      16
+     ],
+     [
+      5749,
+      17
+     ],
+     [
+      6689,
+      18
+     ],
+     [
+      7109,
+      19
+     ],
+     [
+      7890,
+      20
+     ],
+     [
+      8169,
+      21
+     ],
+     [
+      8650,
+      22
+     ],
+     [
+      8909,
+      23
+     ],
+     [
+      9129,
+      24
+     ],
+     [
+      9430,
+      25
+     ],
+     [
+      10430,
+      26
+     ],
+     [
+      10589,
+      27
+     ],
+     [
+      10810,
+      28
+     ],
+     [
+      10909,
+      29
+     ],
+     [
+      10989,
+      30
+     ],
+     [
+      11709,
+      31
+     ],
+     [
+      11989,
+      32
+     ],
+     [
+      12749,
+      33
+     ],
+     [
+      13129,
+      34
+     ],
+     [
+      13409,
+      35
+     ],
+     [
+      13529,
+      36
+     ],
+     [
+      13890,
+      37
+     ],
+     [
+      14149,
+      38
+     ],
+     [
+      14270,
+      39
+     ],
+     [
+      14709,
+      40
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 107162,
+    "d": 1535,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      889,
+      4
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 108998,
+    "d": 2336,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1849,
+      5
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 111634,
+    "d": 1724,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1069,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 113659,
+    "d": 13962,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1629,
+      2
+     ],
+     [
+      2449,
+      3
+     ],
+     [
+      3209,
+      4
+     ],
+     [
+      3889,
+      5
+     ],
+     [
+      4789,
+      6
+     ],
+     [
+      5169,
+      7
+     ],
+     [
+      5330,
+      8
+     ],
+     [
+      5649,
+      9
+     ],
+     [
+      5830,
+      10
+     ],
+     [
+      6229,
+      11
+     ],
+     [
+      6430,
+      12
+     ],
+     [
+      6569,
+      13
+     ],
+     [
+      7349,
+      14
+     ],
+     [
+      7749,
+      15
+     ],
+     [
+      8329,
+      16
+     ],
+     [
+      8909,
+      17
+     ],
+     [
+      9230,
+      18
+     ],
+     [
+      9369,
+      19
+     ],
+     [
+      10169,
+      20
+     ],
+     [
+      10529,
+      21
+     ],
+     [
+      10829,
+      22
+     ],
+     [
+      11029,
+      23
+     ],
+     [
+      11869,
+      24
+     ],
+     [
+      12109,
+      25
+     ],
+     [
+      12430,
+      26
+     ],
+     [
+      12669,
+      27
+     ],
+     [
+      12989,
+      28
+     ],
+     [
+      13310,
+      29
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 127921,
+    "d": 1326,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      749,
+      1
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 129547,
+    "d": 1478,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      792,
+      1
+     ],
+     [
+      1115,
+      2
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 131326,
+    "d": 1295,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      709,
+      1
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 132921,
+    "d": 2605,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      1529,
+      6
+     ],
+     [
+      1889,
+      7
+     ]
+    ]
+   }
+  }
+ }
+}

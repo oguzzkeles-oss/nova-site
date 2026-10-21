@@ -1,0 +1,2233 @@
+{
+ "id": "015-fener-alayinda-adim-adim",
+ "n": 15,
+ "title": "Fener Alayında Adım Adım",
+ "age": "48-60",
+ "area": "Sosyal",
+ "theme": "Cumhuriyet Bayramı ve birlikte yürümek",
+ "values": [
+  "D19 Vatanseverlik",
+  "D16 Sorumluluk"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 5,
+ "blurb": "Cumhuriyet Bayramı akşamı Zeynep ile Can fener sorumlusu olur. Alayda Can'ın adımları karışınca, uzanan bir el ve davulun ritmi her şeyi yoluna koyar.",
+ "codes": {
+  "maarif": [
+   "OB6 Vatandaşlık Okuryazarlığı",
+   "HSAB.6 Eşle/grupla ahenk içinde hareket örüntüleri sergileyebilme",
+   "TADB.3 Dinlediklerini/izlediklerini çözümleyebilme",
+   "SDB2.2 İş Birliği",
+   "E2.2 Sorumluluk",
+   "D19 Vatanseverlik",
+   "D16 Sorumluluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "can": "cocuk-erkek",
+  "baba": "baba",
+  "ela": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "can": "Can",
+  "baba": "Baba",
+  "ela": "Ela (komşu kızı)"
+ },
+ "pages": [
+  {
+   "text": "Bugün 29 Ekim, Cumhuriyet Bayramı! Sokakta bayraklar hışır hışır dalgalandı. Baba anlattı: “Cumhuriyetimizi Atatürk kurdu. Bu akşam fener alayıyla kutlayacağız!” Zeynep ile Can zıp zıp zıpladı.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "cast": [
+     {
+      "k": "baba",
+      "x": 72,
+      "y": 228,
+      "s": 1,
+      "pose": "wave",
+      "mood": "happy",
+      "hit": "baba"
+     },
+     {
+      "k": "zeynep",
+      "x": 168,
+      "y": 232,
+      "s": 1,
+      "pose": "jump",
+      "mood": "laugh",
+      "hit": "zeynep"
+     },
+     {
+      "k": "can",
+      "x": 250,
+      "y": 233,
+      "s": 1,
+      "pose": "jump",
+      "mood": "happy",
+      "flip": true,
+      "hit": "can",
+      "topType": "hoodie",
+      "bottomType": "pants",
+      "bottom": "#3E4A6E"
+     }
+    ],
+    "props": [
+     {
+      "k": "bayrak-dizisi",
+      "x": 200,
+      "y": 60,
+      "w": 340,
+      "n": 11
+     },
+     {
+      "k": "turk-bayragi",
+      "x": 345,
+      "y": 228,
+      "s": 0.85,
+      "hit": "bayrak"
+     }
+    ]
+   },
+   "hits": {
+    "bayrak": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    },
+    "zeynep": {
+     "say": "Yaşasın, bayram geldi!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "can": {
+     "say": "Fener alayı, fener alayı!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "baba": {
+     "say": "Cumhuriyet Bayramımız kutlu olsun!",
+     "voice": "baba",
+     "anim": "wiggle",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "bayrak",
+    "Bayrağa dokun!"
+   ],
+   "ask": "Sen hiç bayraklarla süslü bir sokak gördün mü? Neler vardı?",
+   "cues": [
+    {
+     "w": 7,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Hava karardı. Baba beş feneri sıraya dizdi. “Fener sorumlusu kim?” diye sordu. “Biz!” dedi Zeynep ile Can. Her fenerde minik, pilli bir ışık vardı. Düğmeye bas: çıt!",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "baba",
+      "x": 64,
+      "y": 226,
+      "s": 1,
+      "pose": "open",
+      "mood": "happy",
+      "hit": "baba"
+     },
+     {
+      "k": "zeynep",
+      "x": 134,
+      "y": 230,
+      "s": 1,
+      "pose": "jump",
+      "mood": "laugh",
+      "hit": "zeynep"
+     },
+     {
+      "k": "can",
+      "x": 360,
+      "y": 230,
+      "s": 1,
+      "pose": "clap",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "can",
+      "topType": "hoodie",
+      "bottomType": "pants",
+      "bottom": "#3E4A6E"
+     }
+    ],
+    "props": [
+     {
+      "k": "bayrak-dizisi",
+      "x": 200,
+      "y": 60,
+      "w": 340,
+      "n": 11
+     },
+     {
+      "k": "fener",
+      "kind": "kagit",
+      "x": 165,
+      "y": 237,
+      "s": 0.95,
+      "state": "off",
+      "hit": "f1"
+     },
+     {
+      "k": "fener",
+      "kind": "kagit",
+      "x": 201,
+      "y": 237,
+      "s": 0.95,
+      "state": "off",
+      "hit": "f2"
+     },
+     {
+      "k": "fener",
+      "kind": "kagit",
+      "x": 237,
+      "y": 237,
+      "s": 0.95,
+      "state": "off",
+      "hit": "f3"
+     },
+     {
+      "k": "fener",
+      "kind": "kagit",
+      "x": 273,
+      "y": 237,
+      "s": 0.95,
+      "state": "off",
+      "hit": "f4"
+     },
+     {
+      "k": "fener",
+      "kind": "kagit",
+      "x": 309,
+      "y": 237,
+      "s": 0.95,
+      "state": "off",
+      "hit": "f5"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Biz yakarız!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "can": {
+     "say": "Ben de sorumluyum!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "baba": {
+     "say": "Aferin, fener sorumlularım!",
+     "voice": "baba",
+     "anim": "wiggle",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "f1",
+     "f2",
+     "f3",
+     "f4",
+     "f5"
+    ],
+    "fx": "click",
+    "say": "Çıt! Işık yandı.",
+    "done": "Beş fener ışıl ışıl yandı!",
+    "msg": "Fenerler yandı!"
+   },
+   "hint": [
+    "f1",
+    "Fenerlere dokun, yansın!"
+   ],
+   "ask": "Sen evde hangi işin sorumlusu olmak isterdin?"
+  },
+  {
+   "text": "Güm güm güm! Baba davulu çaldı, alay yola çıktı. Can'ın ayakları karıştı: sağ, sol, sol, sağ! Fener fırıl fırıl döndü. Can geride kaldı ve telaşlandı. Kalbi küt küt attı.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "night",
+    "cast": [
+     {
+      "k": "baba",
+      "x": 330,
+      "y": 214,
+      "s": 0.85,
+      "pose": "hold",
+      "hold": "davul",
+      "holdS": 0.75,
+      "mood": "happy",
+      "hit": "baba"
+     },
+     {
+      "k": "zeynep",
+      "x": 245,
+      "y": 222,
+      "s": 0.92,
+      "pose": "walk",
+      "mood": "happy",
+      "hit": "zeynep",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdMode": "in",
+      "holdS": 0.95
+     },
+     {
+      "k": "can",
+      "x": 85,
+      "y": 234,
+      "s": 1.05,
+      "pose": "walk",
+      "mood": "scared",
+      "hit": "can",
+      "topType": "hoodie",
+      "bottomType": "pants",
+      "bottom": "#3E4A6E",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdMode": "in",
+      "holdS": 0.95
+     },
+     {
+      "k": "nine",
+      "x": 150,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "scarf": true,
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     },
+     {
+      "k": "dede",
+      "x": 185,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     },
+     {
+      "k": "anne",
+      "x": 290,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     }
+    ],
+    "props": [
+     {
+      "k": "bayrak-dizisi",
+      "x": 200,
+      "y": 60,
+      "w": 340,
+      "n": 11
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Kalbim küt küt! Bekleyin!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "step"
+    },
+    "baba": {
+     "say": "Güm güm, haydi alay!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "drum"
+    },
+    "zeynep": {
+     "say": "Fenerim ışıl ışıl!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "twinkle"
+    }
+   },
+   "predict": {
+    "q": "Sence Can ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Zeynep'in elini tutar",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "night",
+       "cast": [
+        {
+         "k": "can",
+         "x": 175,
+         "y": 232,
+         "s": 1.1,
+         "pose": "hug",
+         "mood": "happy",
+         "topType": "hoodie",
+         "bottomType": "pants",
+         "bottom": "#3E4A6E"
+        },
+        {
+         "k": "zeynep",
+         "x": 215,
+         "y": 232,
+         "s": 1.1,
+         "pose": "hug",
+         "flip": true,
+         "mood": "happy"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Davulu dinler",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "night",
+       "cast": [
+        {
+         "k": "can",
+         "x": 150,
+         "y": 232,
+         "s": 1.1,
+         "pose": "stand",
+         "mood": "think",
+         "topType": "hoodie",
+         "bottomType": "pants",
+         "bottom": "#3E4A6E"
+        },
+        {
+         "k": "baba",
+         "x": 255,
+         "y": 230,
+         "s": 1,
+         "pose": "hold",
+         "hold": "davul",
+         "holdS": 0.75,
+         "mood": "happy",
+         "flip": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Can neden telaşlandı? Sen telaşlanınca ne yaparsın?",
+   "cues": [
+    {
+     "w": 26,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep durdu, elini uzattı: “Tut elimi, Can! Davulu dinle.” Can derin bir nefes aldı. Güm, bir! Güm, iki! Güm, üç! Güm, dört! Can adım adım yaklaştı.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "night",
+    "cast": [
+     {
+      "k": "can",
+      "x": 90,
+      "y": 233,
+      "s": 1.02,
+      "pose": "walk",
+      "mood": "calm",
+      "hit": "can",
+      "topType": "hoodie",
+      "bottomType": "pants",
+      "bottom": "#3E4A6E",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdMode": "in",
+      "holdS": 0.95
+     },
+     {
+      "k": "zeynep",
+      "x": 248,
+      "y": 231,
+      "s": 1,
+      "pose": "point",
+      "flip": true,
+      "mood": "happy",
+      "hit": "zeynep"
+     },
+     {
+      "k": "baba",
+      "x": 345,
+      "y": 222,
+      "s": 0.9,
+      "pose": "hold",
+      "hold": "davul",
+      "holdS": 0.75,
+      "mood": "calm",
+      "flip": true,
+      "hit": "baba"
+     },
+     {
+      "k": "nine",
+      "x": 150,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "scarf": true,
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     },
+     {
+      "k": "dede",
+      "x": 195,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     },
+     {
+      "k": "anne",
+      "x": 300,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     }
+    ],
+    "props": [
+     {
+      "k": "bayrak-dizisi",
+      "x": 200,
+      "y": 60,
+      "w": 340,
+      "n": 11
+     },
+     {
+      "k": "fener",
+      "kind": "kagit",
+      "x": 280,
+      "y": 236,
+      "s": 0.9,
+      "state": "on"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Tut elimi, Can!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "baba": {
+     "say": "Güm… güm… yavaş yavaş.",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "drum"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "can",
+    "steps": 4,
+    "step": 30,
+    "say": "Güm! Bir adım daha.",
+    "done": "Can yetişti! El ele tutuştular.",
+    "msg": "Yetişti!"
+   },
+   "hint": [
+    "can",
+    "Can'a dokun, adım atsın!"
+   ],
+   "ask": "Zeynep, Can'a nasıl yardım etti?"
+  },
+  {
+   "text": "Artık adımlar bir oldu. Güm, sağ! Güm, sol! Komşular da katıldı, Zeynep'in arkadaşı Ela da! Fenerler sağa sola sallandı. Hep birlikte: “Bir adım sen, bir adım ben!”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "night",
+    "cast": [
+     {
+      "k": "baba",
+      "x": 345,
+      "y": 210,
+      "s": 0.8,
+      "pose": "hold",
+      "hold": "davul",
+      "holdS": 0.75,
+      "mood": "laugh",
+      "hit": "baba"
+     },
+     {
+      "k": "ela",
+      "x": 70,
+      "y": 216,
+      "s": 0.85,
+      "pose": "walk",
+      "mood": "happy",
+      "hit": "ela",
+      "sleeve": "long",
+      "tights": "#F4E3C8",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdMode": "in",
+      "holdS": 0.95
+     },
+     {
+      "k": "can",
+      "x": 150,
+      "y": 236,
+      "s": 1.15,
+      "pose": "walk",
+      "mood": "laugh",
+      "hit": "can",
+      "topType": "hoodie",
+      "bottomType": "pants",
+      "bottom": "#3E4A6E",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdMode": "in",
+      "holdS": 0.9
+     },
+     {
+      "k": "zeynep",
+      "x": 236,
+      "y": 236,
+      "s": 1.15,
+      "pose": "walk",
+      "mood": "laugh",
+      "hit": "zeynep",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdMode": "in",
+      "holdS": 0.9
+     },
+     {
+      "k": "nine",
+      "x": 110,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "scarf": true,
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     },
+     {
+      "k": "dede",
+      "x": 290,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     },
+     {
+      "k": "anne",
+      "x": 382,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     }
+    ],
+    "props": [
+     {
+      "k": "bayrak-dizisi",
+      "x": 200,
+      "y": 56,
+      "w": 360,
+      "n": 12
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Bir adım sen!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "can": {
+     "say": "Bir adım ben!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "baba": {
+     "say": "Güm, sağ! Güm, sol!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "drum"
+    },
+    "ela": {
+     "say": "Ben de geliyorum!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "baba",
+    "Önce davula dokun!"
+   ],
+   "ask": "“Bir adım sen, bir adım…” Sonunu sen söyler misin?",
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "baba",
+     "zeynep",
+     "can"
+    ],
+    "done": "Bir adım sen, bir adım ben!",
+    "msg": "Adımlar bir oldu!"
+   }
+  },
+  {
+   "text": "Alay büyük bayrağın önünde durdu. Herkes fenerini havaya kaldırdı. “İyi ki doğdun, Cumhuriyet!” dediler. Can fenerini yere bıraktı, Zeynep'e sarıldı. “Seninle adımlarım bir oldu!” Karanlık sokak fenerlerle ışıl ışıl oldu.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "night",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 62,
+      "y": 220,
+      "s": 0.85,
+      "pose": "wave",
+      "mood": "laugh",
+      "hit": "ela",
+      "sleeve": "long",
+      "tights": "#F4E3C8",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.95
+     },
+     {
+      "k": "can",
+      "x": 165,
+      "y": 233,
+      "s": 1.05,
+      "pose": "hug",
+      "mood": "laugh",
+      "hit": "can",
+      "topType": "hoodie",
+      "bottomType": "pants",
+      "bottom": "#3E4A6E"
+     },
+     {
+      "k": "zeynep",
+      "x": 208,
+      "y": 233,
+      "s": 1.05,
+      "pose": "hug",
+      "flip": true,
+      "mood": "happy",
+      "hit": "zeynep"
+     },
+     {
+      "k": "baba",
+      "x": 350,
+      "y": 226,
+      "s": 0.9,
+      "pose": "hold",
+      "hold": "davul",
+      "holdS": 0.75,
+      "mood": "laugh",
+      "flip": true,
+      "hit": "baba"
+     },
+     {
+      "k": "nine",
+      "x": 130,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "scarf": true,
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     },
+     {
+      "k": "dede",
+      "x": 240,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     },
+     {
+      "k": "anne",
+      "x": 305,
+      "y": 178,
+      "s": 0.34,
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "fener",
+      "holdO": {
+       "kind": "kagit",
+       "state": "on"
+      },
+      "holdS": 0.55
+     }
+    ],
+    "props": [
+     {
+      "k": "bayrak-dizisi",
+      "x": 200,
+      "y": 56,
+      "w": 360,
+      "n": 12
+     },
+     {
+      "k": "turk-bayragi",
+      "x": 262,
+      "y": 222,
+      "s": 0.95,
+      "hit": "bayrak"
+     },
+     {
+      "k": "fener",
+      "kind": "kagit",
+      "x": 112,
+      "y": 236,
+      "s": 0.9,
+      "state": "on"
+     }
+    ]
+   },
+   "hits": {
+    "bayrak": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    },
+    "can": {
+     "say": "Seninle adımlarım bir oldu!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "İyi ki doğdun Cumhuriyet!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "chime",
+     "hearts": true
+    },
+    "baba": {
+     "say": "Aferin benim fener sorumlularıma!",
+     "voice": "baba",
+     "anim": "wiggle",
+     "fx": "drum"
+    },
+    "ela": {
+     "say": "Fenerim havada!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "bayrak",
+    "Bayrağa dokun!"
+   ],
+   "ask": "Senin ailen bayramlarda neler yapar? Nasıl kutlarsınız?"
+  }
+ ],
+ "order": [
+  1,
+  2,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "OB6 Vatandaşlık Okuryazarlığı: Cumhuriyet Bayramı'nın toplumca birlikte kutlanan bir gün olduğunu fark eder; mahallesindeki bayram etkinliğinde görev alır.",
+   "HSAB.6 Eşle/grupla ahenk içinde hareket örüntüleri sergileyebilme: davulun ritmine uyarak arkadaşıyla el ele, adım adım yürür (\"Güm, bir! Güm, iki! Güm, üç! Güm, dört!\").",
+   "TADB.3 Dinlediklerini/izlediklerini çözümleyebilme: masalın olaylarını (fenerleri yakma, geride kalma, el ele yürüme) oluş sırasına göre söyler.",
+   "SDB2.2 İş Birliği ve E2.2 Sorumluluk: fener sorumlusu olur, arkadaşı geride kalınca elini uzatır; D19 Vatanseverlik ve D16 Sorumluluk değerlerini günlük bir bayram deneyiminde yaşar."
+  ],
+  "once": [
+   "Takvimde 29 Ekim'i gösterin: “Bugün Cumhuriyet'in doğum günü. Cumhuriyetimizi Atatürk kurdu.”",
+   "Kapağa bakın: “Bu çocuklar neye hazırlanıyor olabilir? Sokakta neler görüyorsun?”",
+   "Masaya ya da tefe vurarak “güm, güm” ritmi yapın; çocuk yerinde adım saysın."
+  ],
+  "sirasi": [
+   "2. sayfada fenerleri çocuğun yakmasını bekleyin: “Sen de fener sorumlususun!” deyin. Fenerlerin pilli olduğunu vurgulayın; gerçek alev yok.",
+   "3. sayfada Can'a dokunun, “Kalbim küt küt!” desin. “Telaşlanınca kalbimiz nasıl atar?” diye sorun. Tahmin sorusunda iki seçeneği de övün; ikisi de işe yarar.",
+   "4. sayfada her dokunuşta birlikte “Güm, bir! Güm, iki! Güm, üç! Güm, dört!” deyin ve dizlerinize vurun.",
+   "5. sayfada önce davula, sonra Zeynep'e, sonra Can'a dokunun; “Bir adım sen, bir adım ben!” tekerlemesini karşılıklı söyleyin. Arka kaldırımdaki komşuların fenerlerini gösterin."
+  ],
+  "sonra": [
+   "Can neden telaşlandı? Telaşlanınca bedeninde ne oldu? (Kalbi küt küt attı.) Ona ne iyi geldi?",
+   "Zeynep hangi fikri buldu? Sen olsan geride kalan bir arkadaşına ne yapardın?",
+   "Fener alayı bir bayram geleneği. Aileler bayramı nasıl kutlar? Resimli kartlarla (bayrak asma, fener alayı, bayram ziyareti) eşleştirin; çocuk kendi ailesinin geleneğini anlatsın."
+  ],
+  "sinif": {
+   "ad": "Sınıf Fener Alayı",
+   "sure": "20 dk",
+   "materyal": "Renkli kâğıt, yapıştırıcı, çubuk, pilli LED mum (gerçek mum ve kibrit yok), küçük kâğıt bayraklar, tef ya da davul",
+   "adim": [
+    "Kâğıttan fener yapın; içine pilli LED mumu öğretmen yerleştirsin.",
+    "Her çocuk fenerinin düğmesine basıp “fener sorumlusu” olsun.",
+    "Tef ritmiyle ikişerli el ele yürüyün: “Güm, bir! Güm, iki!”",
+    "Ritmi yavaşlatıp hızlandırın; eşler adımlarını birbirine uydursun, geride kalan eşini beklesin.",
+    "Bayrağın önünde halka olun, “İyi ki doğdun Cumhuriyet!” deyin ve kimin nasıl hissettiğini paylaşın."
+   ]
+  },
+  "evSoru": [
+   "Fenerleri kim yaktı? Nasıl yaktılar?",
+   "Can geride kalınca ne hissetti? Ona kim yardım etti?",
+   "Zeynep ile Can adımlarını nasıl birleştirdi?"
+  ],
+  "evEtk": {
+   "ad": "Evde fener alayı",
+   "d": "Bir kâğıt ya da kavanozdan fener yapın, içine pilli LED ışık koyun. Evin koridorunda el ele, bir tencere “davulun” ritmine uyarak yürüyün: “Bir adım sen, bir adım ben!” Sonra ailenizin bayram geleneklerini anlatın."
+  },
+  "aileNotu": "Bugün “Fener Alayında Adım Adım” masalını okuduk. Zeynep ile Can, Cumhuriyet Bayramı'nda fener sorumlusu oldu; Can alayda geride kalınca telaşlandı, Zeynep'in uzattığı el ve davulun ritmiyle yeniden adımlarını buldu. Evde 29 Ekim'i ve ailenizin bayram geleneklerini birlikte konuşabilirsiniz. Fener yaparsanız lütfen gerçek mum yerine pilli ışık kullanın."
+ },
+ "audio": {
+  "file": "audio/015-fener-alayinda-adim-adim.mp3",
+  "hash": "12a206dc",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17922,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      2150,
+      3
+     ],
+     [
+      2949,
+      4
+     ],
+     [
+      3809,
+      5
+     ],
+     [
+      4410,
+      6
+     ],
+     [
+      5209,
+      7
+     ],
+     [
+      5609,
+      8
+     ],
+     [
+      6009,
+      9
+     ],
+     [
+      7289,
+      10
+     ],
+     [
+      7649,
+      11
+     ],
+     [
+      8850,
+      12
+     ],
+     [
+      10390,
+      13
+     ],
+     [
+      10949,
+      14
+     ],
+     [
+      11829,
+      15
+     ],
+     [
+      12049,
+      16
+     ],
+     [
+      12850,
+      17
+     ],
+     [
+      13249,
+      18
+     ],
+     [
+      13810,
+      19
+     ],
+     [
+      15329,
+      20
+     ],
+     [
+      15850,
+      21
+     ],
+     [
+      16129,
+      22
+     ],
+     [
+      16469,
+      23
+     ],
+     [
+      16950,
+      24
+     ],
+     [
+      17289,
+      25
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 18222,
+    "d": 1982,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1410,
+      2
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 20505,
+    "d": 2085,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      426,
+      1
+     ],
+     [
+      1108,
+      2
+     ],
+     [
+      1494,
+      3
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 22890,
+    "d": 2021,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 25211,
+    "d": 14330,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3869,
+      7
+     ],
+     [
+      4290,
+      8
+     ],
+     [
+      4949,
+      9
+     ],
+     [
+      5589,
+      10
+     ],
+     [
+      5969,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7689,
+      13
+     ],
+     [
+      8029,
+      14
+     ],
+     [
+      8469,
+      15
+     ],
+     [
+      8709,
+      16
+     ],
+     [
+      9310,
+      17
+     ],
+     [
+      9609,
+      18
+     ],
+     [
+      10169,
+      19
+     ],
+     [
+      10869,
+      20
+     ],
+     [
+      11249,
+      21
+     ],
+     [
+      11449,
+      22
+     ],
+     [
+      11789,
+      23
+     ],
+     [
+      12589,
+      24
+     ],
+     [
+      13189,
+      25
+     ],
+     [
+      13869,
+      26
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 39841,
+    "d": 874,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      268,
+      1
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 41016,
+    "d": 1904,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      738,
+      2
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 43220,
+    "d": 1995,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1069,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 45516,
+    "d": 2075,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1430,
+      4
+     ]
+    ]
+   },
+   "p1ms": {
+    "s": 47891,
+    "d": 1623,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      635,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 49815,
+    "d": 16531,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      4370,
+      9
+     ],
+     [
+      4830,
+      10
+     ],
+     [
+      5410,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      7189,
+      13
+     ],
+     [
+      7969,
+      14
+     ],
+     [
+      8789,
+      15
+     ],
+     [
+      9529,
+      16
+     ],
+     [
+      10069,
+      17
+     ],
+     [
+      10469,
+      18
+     ],
+     [
+      10850,
+      19
+     ],
+     [
+      11629,
+      20
+     ],
+     [
+      11949,
+      21
+     ],
+     [
+      12390,
+      22
+     ],
+     [
+      12829,
+      23
+     ],
+     [
+      12989,
+      24
+     ],
+     [
+      14229,
+      25
+     ],
+     [
+      15049,
+      26
+     ],
+     [
+      15369,
+      27
+     ],
+     [
+      15689,
+      28
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 66647,
+    "d": 1630,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 68577,
+    "d": 1373,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      252,
+      1
+     ],
+     [
+      591,
+      2
+     ],
+     [
+      962,
+      3
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 70250,
+    "d": 1455,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      612,
+      1
+     ],
+     [
+      1013,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 72006,
+    "d": 1702,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      493,
+      1
+     ],
+     [
+      754,
+      2
+     ],
+     [
+      1015,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 74009,
+    "d": 2480,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      1949,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 76789,
+    "d": 15764,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2549,
+      4
+     ],
+     [
+      2849,
+      5
+     ],
+     [
+      3509,
+      6
+     ],
+     [
+      4189,
+      7
+     ],
+     [
+      4669,
+      8
+     ],
+     [
+      5569,
+      9
+     ],
+     [
+      6189,
+      10
+     ],
+     [
+      6589,
+      11
+     ],
+     [
+      6789,
+      12
+     ],
+     [
+      7249,
+      13
+     ],
+     [
+      7709,
+      14
+     ],
+     [
+      8430,
+      15
+     ],
+     [
+      9069,
+      16
+     ],
+     [
+      9850,
+      17
+     ],
+     [
+      10589,
+      18
+     ],
+     [
+      11350,
+      19
+     ],
+     [
+      12069,
+      20
+     ],
+     [
+      12789,
+      21
+     ],
+     [
+      13529,
+      22
+     ],
+     [
+      14129,
+      23
+     ],
+     [
+      14489,
+      24
+     ],
+     [
+      14850,
+      25
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 92853,
+    "d": 1175,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      255,
+      1
+     ],
+     [
+      919,
+      2
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 94329,
+    "d": 1752,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      505,
+      1
+     ],
+     [
+      970,
+      2
+     ],
+     [
+      1341,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 96382,
+    "d": 2590,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1629,
+      4
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 99272,
+    "d": 1933,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 101505,
+    "d": 14374,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2609,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      3910,
+      7
+     ],
+     [
+      4669,
+      8
+     ],
+     [
+      5330,
+      9
+     ],
+     [
+      5489,
+      10
+     ],
+     [
+      6309,
+      11
+     ],
+     [
+      6930,
+      12
+     ],
+     [
+      7549,
+      13
+     ],
+     [
+      7930,
+      14
+     ],
+     [
+      8549,
+      15
+     ],
+     [
+      9230,
+      16
+     ],
+     [
+      9529,
+      17
+     ],
+     [
+      9890,
+      18
+     ],
+     [
+      10949,
+      19
+     ],
+     [
+      11209,
+      20
+     ],
+     [
+      12230,
+      21
+     ],
+     [
+      12469,
+      22
+     ],
+     [
+      12829,
+      23
+     ],
+     [
+      13430,
+      24
+     ],
+     [
+      13669,
+      25
+     ],
+     [
+      14009,
+      26
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 116180,
+    "d": 1507,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      421,
+      1
+     ],
+     [
+      1085,
+      2
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 117987,
+    "d": 1297,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      365,
+      1
+     ],
+     [
+      931,
+      2
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 119584,
+    "d": 1469,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      387,
+      1
+     ],
+     [
+      863,
+      2
+     ],
+     [
+      1210,
+      3
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 121354,
+    "d": 1338,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      509,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 122992,
+    "d": 1876,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      262,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1003,
+      3
+     ],
+     [
+      1226,
+      4
+     ],
+     [
+      1613,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 125168,
+    "d": 16911,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      3910,
+      7
+     ],
+     [
+      4350,
+      8
+     ],
+     [
+      5549,
+      9
+     ],
+     [
+      5809,
+      10
+     ],
+     [
+      5989,
+      11
+     ],
+     [
+      6469,
+      12
+     ],
+     [
+      7489,
+      13
+     ],
+     [
+      8369,
+      14
+     ],
+     [
+      8669,
+      15
+     ],
+     [
+      9169,
+      16
+     ],
+     [
+      9409,
+      17
+     ],
+     [
+      10190,
+      18
+     ],
+     [
+      10770,
+      19
+     ],
+     [
+      11810,
+      20
+     ],
+     [
+      12350,
+      21
+     ],
+     [
+      12930,
+      22
+     ],
+     [
+      13249,
+      23
+     ],
+     [
+      14009,
+      24
+     ],
+     [
+      14589,
+      25
+     ],
+     [
+      15009,
+      26
+     ],
+     [
+      15789,
+      27
+     ],
+     [
+      16149,
+      28
+     ],
+     [
+      16530,
+      29
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 142380,
+    "d": 2182,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 144862,
+    "d": 1715,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      621,
+      2
+     ],
+     [
+      991,
+      3
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 146877,
+    "d": 2162,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 149340,
+    "d": 1381,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      690,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

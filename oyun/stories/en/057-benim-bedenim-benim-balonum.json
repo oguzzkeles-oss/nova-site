@@ -1,0 +1,1830 @@
+{
+ "id": "057-benim-bedenim-benim-balonum",
+ "lang": "en",
+ "title": "My Body, My Voice",
+ "theme": "Body safety: permission, saying no, telling a trusted grown-up",
+ "blurb": "Someone tickles Zeynep, doesn't stop when she says “Stop!” and tells her, “Don't tell anyone!” But Zeynep knows: we don't keep secrets about touching.",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "anne": "Mum",
+  "baba": "Dad",
+  "ogretmen": "The teacher",
+  "deniz": "Deniz"
+ },
+ "pages": [
+  {
+   "text": "That morning, Zeynep ran into the living room in her pyjamas. Mum opened her arms. “May I hug you?” Zeynep laughed. “Yes!” They hugged tight, so tight. “Your body is yours,” said Mum. “I always ask first.”",
+   "hits": {
+    "zeynep": {
+     "say": "Yes! Let's hug!"
+    },
+    "anne": {
+     "say": "May I hug you?"
+    }
+   },
+   "hint": "Touch Mum!",
+   "ask": "Who do you like hugging? Do you ask before you hug?"
+  },
+  {
+   "text": "That evening, Zeynep didn't say a word. She kept her toy Cotton close. Today, in the school playground, a big kid had tickled her. “Stop!” Zeynep had said. The kid hadn't stopped. And he had said, “Don't tell anyone!”",
+   "hits": {
+    "zeynep": {
+     "say": "I don't feel like talking."
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "Why might Zeynep be so quiet? What should we do when someone says “Stop!”?"
+  },
+  {
+   "text": "Zeynep's heart went thump, thump. Her tummy was tied up in knots. The big kid had said, “Don't tell anyone!” But Zeynep felt all squeezed up inside. She hugged Cotton tight. Then she stood up. “I'm going to tell a grown-up I trust!”",
+   "hits": {
+    "zeynep": {
+     "say": "I feel squeezed up inside. I'm going to tell!"
+    }
+   },
+   "predict": {
+    "q": "Who do you think Zeynep will tell?",
+    "res": "Both are right! You tell a grown-up you trust. Let's see.",
+    "opts": [
+     {
+      "l": "Her mum"
+     },
+     {
+      "l": "Her teacher"
+     }
+    ]
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "When you feel a knot inside, who do you tell?",
+   "cues": [
+    {
+     "w": 3,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep ran to her mum and told her everything. Her mum knelt down and listened carefully. “Thank you for telling me. It's not your fault. We don't keep secrets about touching.” The knot in Zeynep's tummy came undone. Ahhh!",
+   "hits": {
+    "zeynep": {
+     "say": "Mum, I want to tell you something."
+    },
+    "anne": {
+     "say": "It's not your fault, sweetheart."
+    }
+   },
+   "mech": {
+    "done": "She told, she was heard, and she felt better!",
+    "msg": "You did it in order: tell, listen, feel better!"
+   },
+   "hint": "Let Zeynep tell first!",
+   "ask": "What did her mum say to Zeynep? How did Zeynep feel after telling?"
+  },
+  {
+   "text": "Dad came too. Mum made up a game. “The parts your swimsuit covers are private. If someone touches them without asking, what do we do?” Zeynep said it in a strong voice: “No!” Then she walked away. She told Dad.",
+   "hits": {
+    "zeynep": {
+     "say": "No!"
+    },
+    "baba": {
+     "say": "Thank you for telling me!"
+    },
+    "anne": {
+     "say": "If someone touches without asking?"
+    }
+   },
+   "mech": {
+    "say": "Step, step!",
+    "done": "Say no, walk away, tell!",
+    "msg": "She reached her dad!"
+   },
+   "hint": "Touch Zeynep so she walks!",
+   "ask": "What does your voice sound like when you say “No!”? Shall we say a strong “No!” together?"
+  },
+  {
+   "text": "Next day, Mum talked to the teacher. “I'm glad you told me. I'll take care of it,” said the teacher. In class they made a trust hand. Five hearts, five trusted grown-ups. Zeynep counted: Mum, Dad, my teacher, Grandma, Grandpa!",
+   "hits": {
+    "zeynep": {
+     "say": "I have five trusted grown-ups!"
+    },
+    "ogretmen": {
+     "say": "I'm glad you told me!"
+    }
+   },
+   "mech": {
+    "done": "Five fingers, five trusted grown-ups!",
+    "msg": "Your trust hand is ready!"
+   },
+   "hint": "Count the hearts!",
+   "ask": "Who is on your trust hand? Shall we count them on your fingers?"
+  },
+  {
+   "text": "After school, at the park, Zeynep asked Deniz. “May I hug you?” Deniz smiled. “No, but let's high-five!” Zeynep smiled too. “Okay!” Slap! “My body is mine, your body is yours!” they said.",
+   "hits": {
+    "zeynep": {
+     "say": "May I hug you?"
+    },
+    "deniz": {
+     "say": "No, but let's high-five!"
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "What did Zeynep do when Deniz said “No”? How do you ask a friend for permission?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.11 Protecting oneself from danger and accidents (avoids dangerous behaviour and situations; knows what to do in a dangerous situation): says “No!” to an unwanted touch or one without permission, walks away and tells a grown-up they trust; says that the parts covered by a swimsuit are private.",
+   "SDB1.1 Self-Knowledge and E1.5 Self-Confidence: notices body signals such as a pounding heart or a tight tummy; knows that their body belongs to them and says “No” in a confident voice.",
+   "D8 Privacy and D14 Respect: asks permission before hugging; respects a friend's “No” and suggests another way to say hello."
+  ],
+  "once": [
+   "Show the cover: “What might Zeynep be doing? How do you say hello to the people you love: with a hug, a wave or a high-five?”",
+   "Talk about how our bodies belong to us and how we ask permission before a hug or a kiss. Try the word “permission” in a game: “May I hold your hand?”",
+   "Use a calm, positive tone of voice; this story is not meant to frighten, but to help the child feel strong."
+  ],
+  "sirasi": [
+   "On page 2, look at Zeynep's face: “How is she feeling? Why might that be?” Point out that Zeynep said “Stop!” and that this was the right thing to do.",
+   "On page 3, show the body signals together: “Her heart went thump, thump, her tummy was in knots.” For the prediction, say that both choices are right: a mum and a teacher are both trusted grown-ups.",
+   "On page 4, repeat Mum's words: “It's not your fault. We don't keep secrets about touching.” On page 5, say a strong “No!” with the child and walk three steps."
+  ],
+  "sonra": [
+   "Have the child tell the events in order: “What happened first? How did Zeynep feel? Who did she tell? What did the grown-ups do?”",
+   "Repeat the rule with hand movements: palm forward, “No!”; two steps back, “Walk away!”; hand to mouth, “Tell!”",
+   "Talk about the difference between a secret and a surprise: a surprise (a birthday present) is a happy thing that everyone finds out about in the end; a secret about touching is never kept, it is told straight away.",
+   "If a child tells you something: stay calm, say “Thank you for telling me, it's not your fault”; do not question them for details, do not ask leading questions, do not promise to keep it secret. Share the situation with the school management and the guidance service.",
+   "Every child's trust hand is different; at least one person should be from outside the family (such as a teacher)."
+  ],
+  "sinif": {
+   "ad": "My Trust Hand",
+   "sure": "20 min",
+   "materyal": "Coloured card, crayons, scissors (used by the teacher), five small heart stickers for each child",
+   "adim": [
+    "Remember the story; say the rule “Say no, walk away, tell” together with the hand movements.",
+    "Draw around each child's hand on card. On each finger, the child draws a grown-up they trust or sticks a heart sticker, saying that person's name.",
+    "“The permission game”: the children pair up; one asks “May I hug you?” and the other says “Yes” or “No, but let's high-five!” Both answers get a round of applause; swap roles.",
+    "Hang the trust hands on the board; to finish, each child says “My body is mine!”"
+   ]
+  },
+  "evSoru": [
+   "Zeynep was told “Don't tell anyone.” Why did she tell anyway?",
+   "What did her mum say to Zeynep? How did “It's not your ...” go on?",
+   "Who is on your trust hand? If something makes you feel squeezed up inside, who do you go to?"
+  ],
+  "evEtk": {
+   "ad": "Our Family Permission Game",
+   "d": "For a week, ask “Is it okay?” in the family before hugging, tickling or kissing. If your child says “No”, accept it with a smile and suggest another way to say hello (a high-five, a wave). During play, practise together that everyone stops straight away when someone says “Stop”."
+  },
+  "aileNotu": "Today we read “My Body, My Voice.” After some tickling she didn't want, Zeynep feels squeezed up inside and tells her mum; her mum says, “It's not your fault, we don't keep secrets about touching.” In a calm voice, you can talk with your child about how their body belongs to them, how the parts covered by a swimsuit are private, and the rule “Say no, walk away, tell a grown-up you trust.” When your child tells you something, listening without getting angry and saying “I'm glad you told me” is the strongest protection. Not forcing hugs or kisses with relatives supports this learning too. If your child tells you something, stay calm, say “Thank you for telling me, it's not your fault”; do not question them for details, do not ask leading questions, do not promise to keep it secret. For support, you can call the ALO 183 Social Support Line (Türkiye). Every child's trust hand is different; at least one person should be from outside the family."
+ },
+ "audio": {
+  "file": "audio/en/057-benim-bedenim-benim-balonum.mp3",
+  "hash": "c1eaca82",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16321,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2170,
+      7
+     ],
+     [
+      2370,
+      8
+     ],
+     [
+      2469,
+      9
+     ],
+     [
+      2609,
+      10
+     ],
+     [
+      3729,
+      11
+     ],
+     [
+      4149,
+      12
+     ],
+     [
+      4469,
+      13
+     ],
+     [
+      4689,
+      14
+     ],
+     [
+      5529,
+      15
+     ],
+     [
+      5749,
+      16
+     ],
+     [
+      5890,
+      17
+     ],
+     [
+      6149,
+      18
+     ],
+     [
+      6910,
+      19
+     ],
+     [
+      7410,
+      20
+     ],
+     [
+      8230,
+      21
+     ],
+     [
+      9190,
+      22
+     ],
+     [
+      9449,
+      23
+     ],
+     [
+      9869,
+      24
+     ],
+     [
+      10850,
+      25
+     ],
+     [
+      11149,
+      26
+     ],
+     [
+      12069,
+      27
+     ],
+     [
+      12329,
+      28
+     ],
+     [
+      12789,
+      29
+     ],
+     [
+      13029,
+      30
+     ],
+     [
+      13829,
+      31
+     ],
+     [
+      14049,
+      32
+     ],
+     [
+      14769,
+      33
+     ],
+     [
+      15009,
+      34
+     ],
+     [
+      15489,
+      35
+     ],
+     [
+      15789,
+      36
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 16621,
+    "d": 1832,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      954,
+      1
+     ],
+     [
+      1373,
+      2
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 18753,
+    "d": 938,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      254,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      683,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19992,
+    "d": 15466,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      3430,
+      9
+     ],
+     [
+      3589,
+      10
+     ],
+     [
+      3889,
+      11
+     ],
+     [
+      4370,
+      12
+     ],
+     [
+      5489,
+      13
+     ],
+     [
+      6069,
+      14
+     ],
+     [
+      6169,
+      15
+     ],
+     [
+      6289,
+      16
+     ],
+     [
+      6549,
+      17
+     ],
+     [
+      7349,
+      18
+     ],
+     [
+      7509,
+      19
+     ],
+     [
+      7749,
+      20
+     ],
+     [
+      8009,
+      21
+     ],
+     [
+      8190,
+      22
+     ],
+     [
+      8569,
+      23
+     ],
+     [
+      9270,
+      24
+     ],
+     [
+      10209,
+      25
+     ],
+     [
+      10589,
+      26
+     ],
+     [
+      10770,
+      27
+     ],
+     [
+      11509,
+      28
+     ],
+     [
+      11649,
+      29
+     ],
+     [
+      12009,
+      30
+     ],
+     [
+      12409,
+      31
+     ],
+     [
+      13209,
+      32
+     ],
+     [
+      13369,
+      33
+     ],
+     [
+      13489,
+      34
+     ],
+     [
+      13669,
+      35
+     ],
+     [
+      14229,
+      36
+     ],
+     [
+      14529,
+      37
+     ],
+     [
+      14829,
+      38
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 35758,
+    "d": 1522,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      869,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 37581,
+    "d": 16576,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3089,
+      6
+     ],
+     [
+      3449,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      3930,
+      9
+     ],
+     [
+      4069,
+      10
+     ],
+     [
+      4249,
+      11
+     ],
+     [
+      5209,
+      12
+     ],
+     [
+      5370,
+      13
+     ],
+     [
+      5589,
+      14
+     ],
+     [
+      5830,
+      15
+     ],
+     [
+      6009,
+      16
+     ],
+     [
+      6569,
+      17
+     ],
+     [
+      6930,
+      18
+     ],
+     [
+      7269,
+      19
+     ],
+     [
+      8209,
+      20
+     ],
+     [
+      8449,
+      21
+     ],
+     [
+      8890,
+      22
+     ],
+     [
+      9150,
+      23
+     ],
+     [
+      9409,
+      24
+     ],
+     [
+      9930,
+      25
+     ],
+     [
+      10109,
+      26
+     ],
+     [
+      11169,
+      27
+     ],
+     [
+      11409,
+      28
+     ],
+     [
+      11770,
+      29
+     ],
+     [
+      12149,
+      30
+     ],
+     [
+      13029,
+      31
+     ],
+     [
+      13449,
+      32
+     ],
+     [
+      13649,
+      33
+     ],
+     [
+      13909,
+      34
+     ],
+     [
+      14669,
+      35
+     ],
+     [
+      14829,
+      36
+     ],
+     [
+      15049,
+      37
+     ],
+     [
+      15149,
+      38
+     ],
+     [
+      15329,
+      39
+     ],
+     [
+      15430,
+      40
+     ],
+     [
+      15869,
+      41
+     ],
+     [
+      15989,
+      42
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 54457,
+    "d": 3692,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      622,
+      2
+     ],
+     [
+      1128,
+      3
+     ],
+     [
+      1420,
+      4
+     ],
+     [
+      2487,
+      5
+     ],
+     [
+      2778,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3360,
+      8
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 58449,
+    "d": 1781,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      649,
+      4
+     ],
+     [
+      1030,
+      5
+     ],
+     [
+      1249,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 60530,
+    "d": 3960,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1809,
+      6
+     ],
+     [
+      2229,
+      7
+     ],
+     [
+      2390,
+      8
+     ],
+     [
+      3309,
+      9
+     ],
+     [
+      3569,
+      10
+     ]
+    ]
+   },
+   "p3": {
+    "s": 64791,
+    "d": 14986,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      1849,
+      7
+     ],
+     [
+      2170,
+      8
+     ],
+     [
+      3209,
+      9
+     ],
+     [
+      3390,
+      10
+     ],
+     [
+      3629,
+      11
+     ],
+     [
+      3969,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      4529,
+      14
+     ],
+     [
+      4930,
+      15
+     ],
+     [
+      6109,
+      16
+     ],
+     [
+      6390,
+      17
+     ],
+     [
+      6509,
+      18
+     ],
+     [
+      6689,
+      19
+     ],
+     [
+      7049,
+      20
+     ],
+     [
+      7689,
+      21
+     ],
+     [
+      7910,
+      22
+     ],
+     [
+      8109,
+      23
+     ],
+     [
+      8289,
+      24
+     ],
+     [
+      9049,
+      25
+     ],
+     [
+      9209,
+      26
+     ],
+     [
+      9469,
+      27
+     ],
+     [
+      9730,
+      28
+     ],
+     [
+      10149,
+      29
+     ],
+     [
+      10409,
+      30
+     ],
+     [
+      11409,
+      31
+     ],
+     [
+      11569,
+      32
+     ],
+     [
+      11869,
+      33
+     ],
+     [
+      12029,
+      34
+     ],
+     [
+      12489,
+      35
+     ],
+     [
+      12909,
+      36
+     ],
+     [
+      13189,
+      37
+     ],
+     [
+      14017,
+      38
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 80077,
+    "d": 2497,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1930,
+      6
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 82874,
+    "d": 2177,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1430,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 85352,
+    "d": 3359,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      2849,
+      8
+     ]
+    ]
+   },
+   "p4": {
+    "s": 89012,
+    "d": 14789,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2089,
+      7
+     ],
+     [
+      2949,
+      8
+     ],
+     [
+      3089,
+      9
+     ],
+     [
+      3390,
+      10
+     ],
+     [
+      3569,
+      11
+     ],
+     [
+      4069,
+      12
+     ],
+     [
+      4529,
+      13
+     ],
+     [
+      4709,
+      14
+     ],
+     [
+      5549,
+      15
+     ],
+     [
+      5709,
+      16
+     ],
+     [
+      6049,
+      17
+     ],
+     [
+      6390,
+      18
+     ],
+     [
+      6549,
+      19
+     ],
+     [
+      6890,
+      20
+     ],
+     [
+      7649,
+      21
+     ],
+     [
+      7809,
+      22
+     ],
+     [
+      7910,
+      23
+     ],
+     [
+      8049,
+      24
+     ],
+     [
+      8869,
+      25
+     ],
+     [
+      9289,
+      26
+     ],
+     [
+      9489,
+      27
+     ],
+     [
+      9629,
+      28
+     ],
+     [
+      9749,
+      29
+     ],
+     [
+      9890,
+      30
+     ],
+     [
+      10329,
+      31
+     ],
+     [
+      11310,
+      32
+     ],
+     [
+      12189,
+      33
+     ],
+     [
+      12549,
+      34
+     ],
+     [
+      12749,
+      35
+     ],
+     [
+      13049,
+      36
+     ],
+     [
+      13850,
+      37
+     ],
+     [
+      14029,
+      38
+     ],
+     [
+      14310,
+      39
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 104101,
+    "d": 587,
+    "w": [
+     [
+      49,
+      0
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 104989,
+    "d": 1308,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      969,
+      4
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 106597,
+    "d": 1983,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1430,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 108881,
+    "d": 2869,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      2269,
+      4
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 112050,
+    "d": 1386,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      809,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 113737,
+    "d": 16586,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1629,
+      6
+     ],
+     [
+      2529,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      2930,
+      9
+     ],
+     [
+      3089,
+      10
+     ],
+     [
+      3369,
+      11
+     ],
+     [
+      3869,
+      12
+     ],
+     [
+      4069,
+      13
+     ],
+     [
+      4249,
+      14
+     ],
+     [
+      4430,
+      15
+     ],
+     [
+      4549,
+      16
+     ],
+     [
+      5029,
+      17
+     ],
+     [
+      5209,
+      18
+     ],
+     [
+      5350,
+      19
+     ],
+     [
+      6370,
+      20
+     ],
+     [
+      6529,
+      21
+     ],
+     [
+      6949,
+      22
+     ],
+     [
+      7129,
+      23
+     ],
+     [
+      7289,
+      24
+     ],
+     [
+      7390,
+      25
+     ],
+     [
+      7749,
+      26
+     ],
+     [
+      8489,
+      27
+     ],
+     [
+      8810,
+      28
+     ],
+     [
+      9529,
+      29
+     ],
+     [
+      10009,
+      30
+     ],
+     [
+      10509,
+      31
+     ],
+     [
+      11549,
+      32
+     ],
+     [
+      11989,
+      33
+     ],
+     [
+      12869,
+      34
+     ],
+     [
+      13569,
+      35
+     ],
+     [
+      14209,
+      36
+     ],
+     [
+      14409,
+      37
+     ],
+     [
+      15169,
+      38
+     ],
+     [
+      15807,
+      39
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 130624,
+    "d": 2393,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1689,
+      4
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 133317,
+    "d": 1504,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1069,
+      4
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 135122,
+    "d": 3025,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2289,
+      4
+     ]
+    ]
+   },
+   "p6": {
+    "s": 138447,
+    "d": 15301,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      3549,
+      8
+     ],
+     [
+      3769,
+      9
+     ],
+     [
+      3910,
+      10
+     ],
+     [
+      4169,
+      11
+     ],
+     [
+      4870,
+      12
+     ],
+     [
+      5249,
+      13
+     ],
+     [
+      6289,
+      14
+     ],
+     [
+      6809,
+      15
+     ],
+     [
+      6989,
+      16
+     ],
+     [
+      7209,
+      17
+     ],
+     [
+      8390,
+      18
+     ],
+     [
+      8829,
+      19
+     ],
+     [
+      9230,
+      20
+     ],
+     [
+      9969,
+      21
+     ],
+     [
+      10930,
+      22
+     ],
+     [
+      11930,
+      23
+     ],
+     [
+      12149,
+      24
+     ],
+     [
+      12449,
+      25
+     ],
+     [
+      12609,
+      26
+     ],
+     [
+      13229,
+      27
+     ],
+     [
+      13509,
+      28
+     ],
+     [
+      13829,
+      29
+     ],
+     [
+      14009,
+      30
+     ],
+     [
+      14669,
+      31
+     ],
+     [
+      14909,
+      32
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 154048,
+    "d": 1051,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      282,
+      1
+     ],
+     [
+      525,
+      2
+     ],
+     [
+      768,
+      3
+     ]
+    ]
+   },
+   "p6h-deniz": {
+    "s": 155400,
+    "d": 2110,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

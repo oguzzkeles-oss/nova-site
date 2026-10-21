@@ -1,0 +1,1704 @@
+{
+ "id": "093-yagmurun-sarkisi",
+ "n": 93,
+ "title": "Şap Şap Güm!",
+ "age": "36-48",
+ "area": "Müzik",
+ "theme": "Beden perküsyonu ve ses örüntüsü",
+ "values": [
+  "D7 Estetik"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 4,
+ "blurb": "Mırmır'ın davulu yok, ama Anne Ayı'ya göre davulu hep yanında: şap, şap, güm! Mırmır aceleyle karıştırınca durup nefes alıyor, dinliyor ve ritmi buluyor.",
+ "codes": {
+  "maarif": [
+   "MÇB3 Müziksel Çalma (teyitsiz): Duyduğu sesleri çalabilme; el çırpma ve ayak vurmayla (beden perküsyonu) duyduğu ritme eşlik eder",
+   "MDB.1 Çeşitli müzik eserlerini dinleyebilme: ritim kalıbını önce dinler, sonra tekrarlar",
+   "HSAB.6 Eşle/grupla ahenk içinde hareket örüntüleri sergileyebilme",
+   "SDB1.2 Kendini Düzenleme",
+   "D7 Estetik"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "mirmir": "kucuk-hayvan",
+  "anne": "anne",
+  "kipir": "hayvan-kiz"
+ },
+ "voiceNames": {
+  "mirmir": "Mırmır (ayı yavrusu)",
+  "anne": "Anne Ayı",
+  "kipir": "Kıpır (sincap)"
+ },
+ "pages": [
+  {
+   "text": "Orman sabahı cıvıl cıvıldı. Serçe cik cik öttü. Ayıcık Mırmır iç çekti. “Benim davulum yok!” Anne Ayı gülümsedi. “Davulun hep yanında!”",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "anneAyi",
+      "x": 108,
+      "y": 214,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "anne"
+     },
+     {
+      "k": "mirmir",
+      "x": 232,
+      "y": 230,
+      "s": 1.25,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "mirmir"
+     },
+     {
+      "k": "kus",
+      "x": 318,
+      "y": 128,
+      "s": 1.5,
+      "pose": "perch",
+      "flip": true,
+      "hit": "kus"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 300,
+      "y": 226,
+      "s": 0.55
+     },
+     {
+      "k": "flower",
+      "x": 40,
+      "y": 232,
+      "s": 0.5
+     },
+     {
+      "k": "cali",
+      "x": 350,
+      "y": 214,
+      "s": 1.1,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "mirmir": {
+     "say": "Ben de çalmak istiyorum!",
+     "voice": "mirmir",
+     "anim": "wiggle",
+     "fx": "ayi"
+    },
+    "anne": {
+     "say": "Davulun hep yanında!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "ayi"
+    },
+    "kus": {
+     "anim": "jump",
+     "fx": "tweet"
+    }
+   },
+   "hint": [
+    "kus",
+    "Serçeye dokun, dinle!"
+   ],
+   "ask": "Sence Mırmır'ın davulu nerede olabilir?"
+  },
+  {
+   "text": "Anne Ayı patilerini çırptı: şap, şap! Ayağını yere vurdu: güm! “İşte davulun!” Mırmır hızlı hızlı denedi: güm, şap, güm! Karmakarışık! Mırmır kızdı, yanakları ısındı.",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "anneAyi",
+      "x": 130,
+      "y": 222,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "anne"
+     },
+     {
+      "k": "mirmir",
+      "x": 288,
+      "y": 228,
+      "s": 1.2,
+      "mood": "angry",
+      "pose": "stand",
+      "hit": "mirmir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 370,
+      "y": 200,
+      "s": 0.9
+     },
+     {
+      "k": "flower",
+      "x": 60,
+      "y": 232,
+      "s": 0.5
+     },
+     {
+      "k": "mantar",
+      "x": 214,
+      "y": 214,
+      "s": 1.2,
+      "n": 2
+     }
+    ]
+   },
+   "hits": {
+    "anne": {
+     "say": "Şap, şap, güm!",
+     "voice": "anne",
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "mirmir": {
+     "say": "Güm, şap, güm! Olmuyor!",
+     "voice": "mirmir",
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "anne",
+    "Anne Ayı nasıl çalıyor?"
+   ],
+   "ask": "Sen kızınca bedeninde ne olur?"
+  },
+  {
+   "text": "“Dur, nefes al,” dedi Anne Ayı. Mırmır içine çekti, fıııı diye bıraktı. Yere yaprak ve taş dizdiler. Şap, şap, güm, şap, şap… Sırada ne var?",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "anneAyi",
+      "x": 72,
+      "y": 214,
+      "s": 0.92,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "anne"
+     },
+     {
+      "k": "mirmir",
+      "x": 124,
+      "y": 232,
+      "s": 1.05,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "mirmir"
+     }
+    ],
+    "props": [
+     {
+      "k": "yaprak",
+      "x": 168,
+      "y": 232,
+      "s": 1.9,
+      "color": "green",
+      "shape": "oval",
+      "hit": "y1",
+      "lbl": "Yaprak: şap"
+     },
+     {
+      "k": "yaprak",
+      "x": 212,
+      "y": 232,
+      "s": 1.9,
+      "color": "green",
+      "shape": "oval",
+      "hit": "y2",
+      "lbl": "Yaprak: şap"
+     },
+     {
+      "k": "tas",
+      "x": 258,
+      "y": 232,
+      "s": 2.2,
+      "v": 0,
+      "moss": true,
+      "hit": "t1",
+      "lbl": "Taş: güm"
+     },
+     {
+      "k": "yaprak",
+      "x": 304,
+      "y": 232,
+      "s": 1.9,
+      "color": "green",
+      "shape": "oval",
+      "hit": "y3",
+      "lbl": "Yaprak: şap"
+     },
+     {
+      "k": "yaprak",
+      "x": 348,
+      "y": 232,
+      "s": 1.9,
+      "color": "green",
+      "shape": "oval",
+      "hit": "y4",
+      "lbl": "Yaprak: şap"
+     }
+    ]
+   },
+   "hits": {
+    "y": {
+     "say": "Şap!",
+     "voice": "mirmir",
+     "anim": "jump",
+     "fx": "yaprak"
+    },
+    "t": {
+     "say": "Güm!",
+     "voice": "mirmir",
+     "anim": "jump",
+     "fx": "thump"
+    },
+    "anne": {
+     "say": "Dur, nefes al. Önce dinle.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "ayi"
+    },
+    "mirmir": {
+     "say": "Fıııı... Şimdi dinliyorum.",
+     "voice": "mirmir",
+     "anim": "boing",
+     "fx": "blow"
+    }
+   },
+   "predict": {
+    "q": "Sırada ne var: yaprak mı, taş mı?",
+    "res": "Hadi, birlikte çalıp duyalım!",
+    "opts": [
+     {
+      "l": "Taş: güm!",
+      "scene": {
+       "set": "orman",
+       "time": "day",
+       "season": "spring",
+       "cast": [
+        {
+         "k": "mirmir",
+         "x": 90,
+         "y": 214,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "stand"
+        }
+       ],
+       "props": [
+        {
+         "k": "yaprak",
+         "x": 168,
+         "y": 232,
+         "s": 1.9,
+         "color": "green",
+         "shape": "oval"
+        },
+        {
+         "k": "yaprak",
+         "x": 212,
+         "y": 232,
+         "s": 1.9,
+         "color": "green",
+         "shape": "oval"
+        },
+        {
+         "k": "tas",
+         "x": 258,
+         "y": 232,
+         "s": 2.2,
+         "v": 0,
+         "moss": true
+        },
+        {
+         "k": "yaprak",
+         "x": 304,
+         "y": 232,
+         "s": 1.9,
+         "color": "green",
+         "shape": "oval"
+        },
+        {
+         "k": "yaprak",
+         "x": 348,
+         "y": 232,
+         "s": 1.9,
+         "color": "green",
+         "shape": "oval"
+        },
+        {
+         "k": "tas",
+         "x": 392,
+         "y": 232,
+         "s": 2.2,
+         "v": 0,
+         "moss": true
+        }
+       ]
+      }
+     },
+     {
+      "l": "Yaprak: şap!",
+      "scene": {
+       "set": "orman",
+       "time": "day",
+       "season": "spring",
+       "cast": [
+        {
+         "k": "mirmir",
+         "x": 90,
+         "y": 214,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "stand"
+        }
+       ],
+       "props": [
+        {
+         "k": "yaprak",
+         "x": 168,
+         "y": 232,
+         "s": 1.9,
+         "color": "green",
+         "shape": "oval"
+        },
+        {
+         "k": "yaprak",
+         "x": 212,
+         "y": 232,
+         "s": 1.9,
+         "color": "green",
+         "shape": "oval"
+        },
+        {
+         "k": "tas",
+         "x": 258,
+         "y": 232,
+         "s": 2.2,
+         "v": 0,
+         "moss": true
+        },
+        {
+         "k": "yaprak",
+         "x": 304,
+         "y": 232,
+         "s": 1.9,
+         "color": "green",
+         "shape": "oval"
+        },
+        {
+         "k": "yaprak",
+         "x": 348,
+         "y": 232,
+         "s": 1.9,
+         "color": "green",
+         "shape": "oval"
+        },
+        {
+         "k": "yaprak",
+         "x": 390,
+         "y": 232,
+         "s": 1.9,
+         "color": "green",
+         "shape": "oval"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "y1",
+    "Yapraklara, taşa dokun!"
+   ],
+   "ask": "Nasıl bildin? Hadi, yüksek sesle birlikte söyleyelim: şap, şap, güm, şap, şap..."
+  },
+  {
+   "text": "Sırada taş vardı: güm! Şimdi Mırmır yavaşça çaldı. Yaprak şap, yaprak şap, taş güm! Mırmır gülümsedi: “Oldu!”",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "mirmir",
+      "x": 300,
+      "y": 226,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "mirmir"
+     },
+     {
+      "k": "anneAyi",
+      "x": 66,
+      "y": 200,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "anne"
+     }
+    ],
+    "props": [
+     {
+      "k": "yaprak",
+      "x": 134,
+      "y": 228,
+      "s": 2.9,
+      "color": "green",
+      "shape": "oval",
+      "hit": "y1",
+      "lbl": "Yaprak: şap"
+     },
+     {
+      "k": "yaprak",
+      "x": 186,
+      "y": 228,
+      "s": 2.9,
+      "color": "green",
+      "shape": "oval",
+      "hit": "y2",
+      "lbl": "Yaprak: şap"
+     },
+     {
+      "k": "tas",
+      "x": 244,
+      "y": 228,
+      "s": 3.2,
+      "v": 0,
+      "moss": true,
+      "hit": "t1",
+      "lbl": "Taş: güm"
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 234,
+      "s": 0.5
+     }
+    ]
+   },
+   "hits": {
+    "mirmir": {
+     "say": "Şap, şap, güm! Oldu!",
+     "voice": "mirmir",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "anne": {
+     "say": "Yavaş çaldın, dinledin; oldu işte!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "ayi"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "y1",
+     "y2",
+     "t1"
+    ],
+    "done": "Şap, şap, güm! Mırmır başardı!",
+    "msg": "Şap, şap, güm!"
+   },
+   "hint": [
+    "y1",
+    "Sırayla dokun: şap, şap, güm!"
+   ],
+   "ask": "Hadi, sen de çal: şap, şap, güm! Ellerin mi, ayakların mı daha güçlü ses çıkardı?"
+  },
+  {
+   "text": "Sincap Kıpır koşa koşa geldi. “Ben de çalayım!” Sırayla çaldılar. Kıpır şap! Mırmır şap! Anne Ayı güm!",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "sincap",
+      "x": 92,
+      "y": 228,
+      "s": 1.35,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "kipir"
+     },
+     {
+      "k": "mirmir",
+      "x": 196,
+      "y": 226,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "mirmir"
+     },
+     {
+      "k": "anneAyi",
+      "x": 314,
+      "y": 222,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "anne",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 204,
+      "s": 0.45
+     },
+     {
+      "k": "cali",
+      "x": 250,
+      "y": 196,
+      "s": 0.9,
+      "flowers": true
+     },
+     {
+      "k": "kutuk",
+      "x": 40,
+      "y": 206,
+      "s": 1.0
+     }
+    ]
+   },
+   "hits": {
+    "kipir": {
+     "say": "Şap!",
+     "voice": "kipir",
+     "anim": "jump",
+     "fx": "sincap"
+    },
+    "mirmir": {
+     "say": "Şap!",
+     "voice": "mirmir",
+     "anim": "jump",
+     "fx": "ayi"
+    },
+    "anne": {
+     "say": "Güm!",
+     "voice": "anne",
+     "anim": "jump",
+     "fx": "drum"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "kipir",
+     "mirmir",
+     "anne"
+    ],
+    "done": "Şap, şap, güm! Ne güzel bir şarkı!",
+    "msg": "Hep birlikte!"
+   },
+   "hint": [
+    "kipir",
+    "Önce Kıpır'a dokun!"
+   ],
+   "ask": "Kim şap dedi, kim güm dedi? Sen arkadaşınla hangisini çalmak isterdin?"
+  },
+  {
+   "text": "Şap, şap, güm! Şap, şap, güm! Bütün orman dans etti. Mırmır göbeğine vurdu: güm! “Davulum hep yanımdaymış!”",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "anneAyi",
+      "x": 92,
+      "y": 206,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "anne"
+     },
+     {
+      "k": "mirmir",
+      "x": 212,
+      "y": 234,
+      "s": 1.3,
+      "mood": "laugh",
+      "pose": "hold",
+      "hit": "mirmir"
+     },
+     {
+      "k": "sincap",
+      "x": 328,
+      "y": 174,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "kipir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 274,
+      "y": 226,
+      "s": 0.55,
+      "hit": "cicek"
+     },
+     {
+      "k": "flower",
+      "x": 362,
+      "y": 232,
+      "s": 0.5,
+      "hit": "cicek2"
+     },
+     {
+      "k": "flower",
+      "x": 30,
+      "y": 236,
+      "s": 0.5,
+      "hit": "cicek3"
+     },
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 204,
+      "s": 0.4
+     }
+    ]
+   },
+   "hits": {
+    "mirmir": {
+     "say": "Davulum hep yanımdaymış!",
+     "voice": "mirmir",
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "anne": {
+     "say": "Şap, şap, güm! Ne güzel!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "ayi"
+    },
+    "kipir": {
+     "say": "Bir daha çalalım!",
+     "voice": "kipir",
+     "anim": "jump",
+     "fx": "sincap"
+    },
+    "cicek": {
+     "anim": "wiggle",
+     "fx": "twinkle",
+     "fn": "dance"
+    }
+   },
+   "hint": [
+    "cicek",
+    "Çiçekleri dans ettir!"
+   ],
+   "ask": "Sen ellerinle ve ayaklarınla hangi sesleri çıkarabilirsin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "MÇB3 Müziksel Çalma (teyitsiz) · “Duyduğu sesleri çalabilme”: Masaldaki şap-şap-güm ritmini el çırpıp ayak vurarak, bedenini çalgı gibi kullanıp çalar.",
+   "MDB.1 · “Çeşitli müzik eserlerini dinleyebilme”: Bir ritmi çalmadan önce dikkatle dinler; ormandaki sesleri (cik cik, şap, güm) birbirinden ayırır.",
+   "HSAB.6 · “Eşle/grupla ahenk içinde hareket örüntüleri sergileyebilme”: Arkadaşlarıyla sırayla şap-şap-güm yaparak ortak bir ritim kurar.",
+   "SDB1.2 Kendini Düzenleme · Acele edip karıştırınca durur, nefes alır, önce dinler; öfkesinin bedende nasıl hissedildiğini (yanaklar ısınır) fark eder.",
+   "Değer · D7 Estetik: Kendi bedeninden çıkan seslerle güzel bir ritim yaratmanın keyfini yaşar."
+  ],
+  "once": [
+   "Kapağı gösterin: “Mırmır'ın elinde çalgı yok. Nasıl müzik yapabilir?” diye sorun.",
+   "Birlikte ellerinizi çırpın (şap) ve ayağınızı yere vurun (güm). Hangisinin sesi daha güçlü?",
+   "Birkaç yaprak ve bir taş gösterin: “Bugün yaprak şap, taş güm demek olacak.”"
+  ],
+  "sirasi": [
+   "Anne Ayı çaldığında siz de şap, şap, güm yapın; Mırmır karıştırınca birlikte gülümseyin, ama onun kızgınlığına da isim verin.",
+   "“Dur, nefes al” sayfasında hep birlikte burnunuzdan nefes alıp “fıııı” diye yavaşça verin.",
+   "Tahmin sayfasında çocuğun cevabını bekleyin; “Neden öyle düşündün?” diye sorun. Ritmi yüksek sesle tekrar etmek cevabı bulmayı kolaylaştırır.",
+   "Kıpır'ın geldiği sayfada çocuklarla sırayla çalın: bir kişi şap, bir kişi şap, bir kişi güm.",
+   "36-48 ayda önce AB (şap, güm, şap, güm) ile başlayın; çocuk rahatlayınca AAB'ye (şap, şap, güm) geçin."
+  ],
+  "sonra": [
+   "Resim sıralama oyunuyla masalı toparlayın: karmakarışık → yaprak ve taşla çalma → hep birlikte.",
+   "“Mırmır kızınca ne yaptı? İşe yaradı mı?” diye sorun (durdu, nefes aldı, önce dinledi). “Mırmır'ın davulu neredeymiş?” diye göbeğinize pat pat vurun.",
+   "Yeni örüntüler deneyin: önce AB (şap, güm, şap, güm), çocuk rahatlayınca AAB (şap, şap, güm). Çocuklar sırada ne geleceğini söylesin.",
+   "Çocukların kendi beden seslerini bulmalarını isteyin: dizlere pat pat, göğse tık tık, parmak şıklatma."
+  ],
+  "sinif": {
+   "ad": "Yaprak-Taş Orkestrası",
+   "sure": "15 dk",
+   "materyal": "Yeşil kartondan yapraklar, gri kartondan yassı taşlar (ya da gerçek büyük yapraklar), yere yapıştırmak için bant",
+   "adim": [
+    "Yere yaprak, yaprak, taş, yaprak, yaprak, taş dizin. Yaprakta el çırpılır (şap), taşta ayak vurulur (güm).",
+    "Çocuklar sırayla dizinin başından yürüyüp her karta basarken sesini çalar; grup hep birlikte söyler: şap, şap, güm!",
+    "Sonra dizinin sonunu boş bırakın: “Sırada ne var?” Çocuk doğru kartı koyup çalar.",
+    "Değerlendirme çemberinde sorun: “Acele edince ne oldu? Yavaş çalınca nasıl hissettin?”"
+   ]
+  },
+  "evSoru": [
+   "Mırmır'ın davulu neredeymiş?",
+   "Mırmır ritmi karıştırınca ne hissetti? Sonra ne yaptı?",
+   "Sen ellerinle ve ayaklarınla hangi sesleri çıkarabilirsin?"
+  ],
+  "evEtk": {
+   "ad": "Evde Şap Şap Güm",
+   "d": "Mutfakta ya da salonda iki havlu (şap) ve bir yastık (güm) dizin. Çocuğunuz dizinin üstünden geçerken şap, şap, güm çalsın. Sonra sırayı siz kurun, o sürdürsün; en sonda kendi ritmini o kursun, siz taklit edin."
+  },
+  "aileNotu": "Bugün “Şap Şap Güm!” masalını okuduk. Mırmır'ın davulu yoktu; Anne Ayı ona bedeninin de bir çalgı olduğunu gösterdi. Mırmır acele edip karıştırınca durdu, nefes aldı ve önce dinledi. Evde el çırpıp ayak vurarak şap, şap, güm çalabilir, sırayı birlikte sürdürebilirsiniz; acele edince durup nefes almak da oyunun bir parçası."
+ },
+ "audio": {
+  "file": "audio/093-yagmurun-sarkisi.mp3",
+  "hash": "bfaded1b",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11089,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2949,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      4169,
+      8
+     ],
+     [
+      4589,
+      9
+     ],
+     [
+      5209,
+      10
+     ],
+     [
+      5410,
+      11
+     ],
+     [
+      6309,
+      12
+     ],
+     [
+      6649,
+      13
+     ],
+     [
+      7149,
+      14
+     ],
+     [
+      8089,
+      15
+     ],
+     [
+      8409,
+      16
+     ],
+     [
+      8650,
+      17
+     ],
+     [
+      9730,
+      18
+     ],
+     [
+      10230,
+      19
+     ],
+     [
+      10509,
+      20
+     ]
+    ]
+   },
+   "p0h-mirmir": {
+    "s": 11389,
+    "d": 1529,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      809,
+      3
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 13219,
+    "d": 1455,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      612,
+      1
+     ],
+     [
+      842,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 14974,
+    "d": 14213,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      3170,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      4529,
+      9
+     ],
+     [
+      5509,
+      10
+     ],
+     [
+      5830,
+      11
+     ],
+     [
+      6769,
+      12
+     ],
+     [
+      7229,
+      13
+     ],
+     [
+      7629,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8749,
+      16
+     ],
+     [
+      9209,
+      17
+     ],
+     [
+      9690,
+      18
+     ],
+     [
+      10369,
+      19
+     ],
+     [
+      11869,
+      20
+     ],
+     [
+      12289,
+      21
+     ],
+     [
+      13069,
+      22
+     ],
+     [
+      13649,
+      23
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 29487,
+    "d": 1659,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      640,
+      1
+     ],
+     [
+      1241,
+      2
+     ]
+    ]
+   },
+   "p1h-mirmir": {
+    "s": 31447,
+    "d": 2992,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      2049,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 34740,
+    "d": 11950,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3249,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4489,
+      9
+     ],
+     [
+      5209,
+      10
+     ],
+     [
+      5489,
+      11
+     ],
+     [
+      6410,
+      12
+     ],
+     [
+      6729,
+      13
+     ],
+     [
+      7169,
+      14
+     ],
+     [
+      7309,
+      15
+     ],
+     [
+      7609,
+      16
+     ],
+     [
+      8569,
+      17
+     ],
+     [
+      8989,
+      18
+     ],
+     [
+      9469,
+      19
+     ],
+     [
+      10049,
+      20
+     ],
+     [
+      10430,
+      21
+     ],
+     [
+      11169,
+      22
+     ],
+     [
+      11529,
+      23
+     ],
+     [
+      11669,
+      24
+     ]
+    ]
+   },
+   "p2h-y": {
+    "s": 46990,
+    "d": 625,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2h-t": {
+    "s": 47915,
+    "d": 569,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 48785,
+    "d": 2839,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2329,
+      4
+     ]
+    ]
+   },
+   "p2h-mirmir": {
+    "s": 51924,
+    "d": 2168,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1209,
+      1
+     ],
+     [
+      1529,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 54393,
+    "d": 2842,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2589,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 57536,
+    "d": 1767,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 59604,
+    "d": 10846,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2749,
+      4
+     ],
+     [
+      3129,
+      5
+     ],
+     [
+      3629,
+      6
+     ],
+     [
+      4189,
+      7
+     ],
+     [
+      5189,
+      8
+     ],
+     [
+      5729,
+      9
+     ],
+     [
+      6370,
+      10
+     ],
+     [
+      6890,
+      11
+     ],
+     [
+      7569,
+      12
+     ],
+     [
+      8089,
+      13
+     ],
+     [
+      8909,
+      14
+     ],
+     [
+      9310,
+      15
+     ],
+     [
+      10350,
+      16
+     ]
+    ]
+   },
+   "p3h-mirmir": {
+    "s": 70750,
+    "d": 2222,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1629,
+      3
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 73272,
+    "d": 2920,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      2110,
+      3
+     ],
+     [
+      2449,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 76493,
+    "d": 2831,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2110,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 79625,
+    "d": 9288,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      3969,
+      9
+     ],
+     [
+      4949,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      6269,
+      12
+     ],
+     [
+      7029,
+      13
+     ],
+     [
+      7809,
+      14
+     ],
+     [
+      8169,
+      15
+     ],
+     [
+      8669,
+      16
+     ]
+    ]
+   },
+   "p4h-kipir": {
+    "s": 89214,
+    "d": 535,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4h-mirmir": {
+    "s": 90050,
+    "d": 640,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 90990,
+    "d": 605,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 91896,
+    "d": 3206,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1909,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2589,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 95402,
+    "d": 9514,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      3369,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4189,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      5330,
+      10
+     ],
+     [
+      5749,
+      11
+     ],
+     [
+      6269,
+      12
+     ],
+     [
+      6969,
+      13
+     ],
+     [
+      7809,
+      14
+     ],
+     [
+      8310,
+      15
+     ],
+     [
+      8549,
+      16
+     ]
+    ]
+   },
+   "p5h-mirmir": {
+    "s": 105216,
+    "d": 1857,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      849,
+      2
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 107374,
+    "d": 2592,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      1909,
+      4
+     ]
+    ]
+   },
+   "p5h-kipir": {
+    "s": 110267,
+    "d": 959,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      409,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

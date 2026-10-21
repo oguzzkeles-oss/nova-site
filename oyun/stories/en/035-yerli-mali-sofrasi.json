@@ -1,0 +1,2387 @@
+{
+ "id": "035-yerli-mali-sofrasi",
+ "lang": "en",
+ "title": "The Home-Grown Table",
+ "theme": "Home-grown food, where food comes from and not wasting it",
+ "blurb": "Can goes to the market for the Home-Grown Food table and wants to buy everything; one question from Elif gets him counting on his fingers, and he buys five Amasya apples for five people. At the table, when the milk, eggs, honey and apples find their “homes”, Can takes care of every drop and every bite.",
+ "voiceNames": {
+  "elif": "Elif",
+  "can": "Can",
+  "ogretmen": "Miss Nur",
+  "pazarci": "The market lady"
+ },
+ "pages": [
+  {
+   "text": "On a winter morning, the market was buzzing. “Bright red Amasya apples!” called the market lady. Elif, Can and Miss Nur were there too. Can held the class money box tight. Tomorrow at school they would lay the Home-Grown Food table. Everything on it would come from our own land.",
+   "hits": {
+    "elif": {
+     "say": "My basket's ready, right here in my arms!"
+    },
+    "can": {
+     "say": "Our money box goes jingle jingle!"
+    },
+    "ogretmen": {
+     "say": "Good morning! Have a good day at the stall!"
+    },
+    "tezgah": {
+     "say": "Amasya apples, Finike oranges!"
+    },
+    "kabak": {
+     "say": "Big round pumpkins!"
+    }
+   },
+   "hint": "Touch the stall!",
+   "ask": "Have you ever been to a market? What did you see and hear there?"
+  },
+  {
+   "text": "Can ran to the stall. “Apples, pomegranates, tangerines… Let's buy them all!” Elif smiled. “How many of us will be at the table?” Can counted on his fingers: “Me, you, Miss Nur, Zeynep, Deniz… Five!” Then he beamed: “So, five apples!” The money box jingled.",
+   "mech": {
+    "done": "Five apples, five people! The rest goes back in the box: jingle!",
+    "msg": "Five apples in the basket!"
+   },
+   "hits": {
+    "can": {
+     "say": "I paid, and the change goes in the box!"
+    },
+    "elif": {
+     "say": "How many of us will be at the table?"
+    },
+    "pazarci": {
+     "say": "Five apples, here you are! Enjoy!"
+    }
+   },
+   "hint": "Count, and put them in the basket!",
+   "ask": "Can wanted to buy everything. What do you want when you go shopping? Which things do you really need?"
+  },
+  {
+   "text": "Next morning, the table was laid in class. The apples came from the market. The milk, eggs and honey from home. Can lifted the milk bottle. “This milk came from the fridge!” Elif giggled. “And how did it get into the fridge?” Can thought and thought… Hmm!",
+   "hits": {
+    "can": {
+     "say": "This milk came from the fridge!"
+    },
+    "elif": {
+     "say": "And how did it get into the fridge?"
+    },
+    "kar": {
+     "say": "Big soft snowflakes are falling!"
+    },
+    "yum": {
+     "say": "Eggs from home."
+    },
+    "bal": {
+     "say": "Sweet-smelling honey from home."
+    },
+    "elma": {
+     "say": "Bright red apples from the market."
+    }
+   },
+   "predict": {
+    "q": "Where do you think the milk was before the fridge?",
+    "res": "Both are right! Let's go right back to the start.",
+    "opts": [
+     {
+      "l": "In a cow in the barn"
+     },
+     {
+      "l": "At the market"
+     }
+    ]
+   },
+   "hint": "Touch Can!",
+   "ask": "What's in your fridge at home? Where might those things have come from?"
+  },
+  {
+   "text": "Miss Nur put four pictures on the board: a cow, a hen, a beehive, an apple tree. “Let every food find its home!” Moo! Cluck cluck! Buzz! Rustle rustle! Milk, eggs, honey, apples… Which one came from where?",
+   "mech": {
+    "done": "Every food found its home!",
+    "msg": "They all found their homes!"
+   },
+   "hits": {
+    "ogretmen": {
+     "say": "Did you know cheese comes from cows too?"
+    },
+    "elif": {
+     "say": "Buzz buzz… This one's easy!"
+    },
+    "can": {
+     "say": "Moo! I know this one!"
+    }
+   },
+   "hint": "Touch the milk, then its home!",
+   "ask": "What did you eat for breakfast this morning? Where does it come from?",
+   "cues": [
+    {
+     "w": 27,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Can looked at the table. For this milk, a cow had eaten hay. A hen had laid the eggs. For the honey, bees had flown flower to flower. A farmer in Amasya had picked the apples. Can held the milk tight: “Not one drop must spill!” Elif added: “One glass each. If it's not enough, we'll pour more!” Glug, glug!",
+   "mech": {
+    "done": "Five glasses, five friends. Just enough!",
+    "msg": "A glass of milk for everyone!"
+   },
+   "hits": {
+    "can": {
+     "say": "Not one drop must spill!"
+    },
+    "elif": {
+     "say": "If it's not enough, we'll pour more!"
+    }
+   },
+   "hint": "Pour milk into the glasses!",
+   "ask": "What can we do so that no food is left over at the table?"
+  },
+  {
+   "text": "Chomp chomp, crunch crunch! The glasses were empty, and not one apple was left in the basket. Can giggled. “Good thing we didn't buy everything!” Then he waved at the pictures: “Thank you, cow! Thank you, hen! Thank you, bees! Thank you, farmer!” Five people, five empty glasses, five smiling faces.",
+   "hits": {
+    "can": {
+     "say": "Thank you, cow! Thank you, farmer!"
+    },
+    "elif": {
+     "say": "Enjoy your food!"
+    },
+    "ogretmen": {
+     "say": "Thank you to everyone who helped make this!"
+    },
+    "ki": {
+     "say": "Moo!"
+    },
+    "kk": {
+     "say": "Buzz buzz!"
+    },
+    "kumbara": {
+     "say": "Jingle! The leftover money is in the box."
+    },
+    "zeynep": {
+     "say": "Chomp chomp! Delicious!"
+    },
+    "deniz": {
+     "say": "Crunch crunch! Enjoy!"
+    }
+   },
+   "hint": "Touch the money box!",
+   "ask": "Why did Can thank the cow? Who do you thank at the table?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "OB5 Cultural Literacy: In the context of Thrift, Savings and Home-Grown Goods Week (popularly known as Home-Grown Food Week, 12–18 December), gets to know the local market, the shared table and everyday cultural phrases such as “Have a good day”, “Enjoy your food” and “Thank you for cooking”; notices foods grown in our country and produced nearby, such as Amasya apples and Finike oranges.",
+   "OB3 Financial Literacy: tells wants from needs (five apples for five people instead of “Let's buy them all!”); explains that the money saved in the money box is used to buy only what is needed and the change is saved again.",
+   "TAOB.2 Making meaning from visual materials; TAOB.2.a Connects the information in visual reading materials with daily life: matches the pictures on the board (cow, hen, beehive, apple tree) with the foods on the table, and predicts the milk's journey from the pictures on the prediction page.",
+   "HSAB.7 Showing healthy eating behaviours in daily life: takes only as much as they need at the table and asks for more if it isn't enough; recognises milk, eggs, honey and fruit as different food sources.",
+   "SDB2.3 Social Awareness: notices that before a food reaches the table it passes through the work of animals, the farmer and the market seller; makes sure there is enough for everyone at the table and says thank you for the work.",
+   "D17 Thrift: eats food without wasting it; spends only as much money as needed and saves the rest in the money box."
+  ],
+  "once": [
+   "Show the cover: “Where is this? What is sold at a market, and what do you hear there?” Listen to the children's market memories.",
+   "Put a bottle of milk or an egg on the table: “Where was this before it came to the table?” Note the answers; you will come back to them after the story.",
+   "Introduce the week briefly: “This week is Thrift, Savings and Home-Grown Goods Week. We call things that grow near us and are made on our own land home-grown.”"
+  ],
+  "sirasi": [
+   "On page 2, compare Can's wish, “Let's buy them all!”, with Elif's question, “How many of us will be at the table?”: “Which is a want, and which is a need?” Count the five people on your fingers with Can; say the numbers together as the apples go into the basket, and show that the change goes back into the money box.",
+   "Accept both answers to the prediction question on page 3: the milk was in the cow first, then it came to the market. Keep asking backwards: “And where was it before that?”",
+   "On page 4, make the sounds together before touching (moo, cluck cluck, buzz, rustle rustle); the child touches the food first, then its “home”.",
+   "On page 5, as the glasses are filled, stress one-to-one matching by saying “One glass for everyone”; ask “What do we do if it's not enough?”"
+  ],
+  "sonra": [
+   "Why did Can want to buy everything at the market? What did Elif ask? How many people did Can count? How many apples would you buy?",
+   "Who worked so that the milk, eggs, honey and apples could reach the table?",
+   "Why did Can say “Thank you!” to the picture of the cow? Who do you thank at the table?",
+   "Is there a taste that comes from your family's home town (another city or country)? Where does it come from?",
+   "Let's put the story in order with pictures: the apples at the market, the pictures on the board, the finished table."
+  ],
+  "sinif": {
+   "ad": "Foods Find Their Homes",
+   "sure": "25 min",
+   "materyal": "Source picture cards (cow, hen, beehive, apple tree, ear of wheat, grapevine, olive tree); food cards or empty packaging (milk, yoghurt, cheese, eggs, honey, apple, bread, grape molasses, olives); a basket, toy fruit, play money, a money box",
+   "adim": [
+    "Sit in a circle. Lay the source cards on the floor; make each card's sound or movement together (moo, cluck cluck, buzz, a tree swaying in the wind).",
+    "Draw the food cards from a bag one by one. The child puts the card next to its source and says: “Cheese comes from the cow!” Build chains together such as cheese–milk–cow, grape molasses–grapes, bread–wheat.",
+    "Set up a little market in the classroom. Each group first counts the people at its table, then buys only as much toy fruit as it needs; pays with play money and puts the change in the money box.",
+    "If you like, lay a small table with home-grown produce sent by families: check the food allergy list first and ask for no nuts (hazelnuts, walnuts, etc.); everyone takes a little and comes back for more if it isn't enough."
+   ]
+  },
+  "evSoru": [
+   "What did Can want to buy at the market? How many apples did they buy in the end? Why?",
+   "Where do milk, eggs and honey come from?",
+   "What can we do so that no food is left over at our table?"
+  ],
+  "evEtk": {
+   "ad": "Kitchen Detective",
+   "d": "Choose three foods from the kitchen (such as yoghurt, bread and olives) and find each one's “home” with your child: yoghurt–milk–cow, bread–flour–wheat, olives–olive tree. Before going to the market or the shop, draw a little picture list together; buy only what's on the list and put the leftover coins in the money box."
+  },
+  "aileNotu": "Today we read “The Home-Grown Table”. As part of Thrift, Savings and Home-Grown Goods Week we matched where the foods on the table come from (milk–cow, eggs–hen, honey–bees, apples–tree); we talked about buying only what we need and not wasting food. At home you can ask “Where did this come from?” at the table, and suggest putting a little on your child's plate and coming back for more if it's not enough. If you send food to school, please don't send nuts, and share your child's allergy information with the teacher."
+ },
+ "audio": {
+  "file": "audio/en/035-yerli-mali-sofrasi.mp3",
+  "hash": "142a842f",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17902,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      1769,
+      6
+     ],
+     [
+      2089,
+      7
+     ],
+     [
+      3089,
+      8
+     ],
+     [
+      3449,
+      9
+     ],
+     [
+      3670,
+      10
+     ],
+     [
+      4249,
+      11
+     ],
+     [
+      5089,
+      12
+     ],
+     [
+      5330,
+      13
+     ],
+     [
+      5449,
+      14
+     ],
+     [
+      5789,
+      15
+     ],
+     [
+      6669,
+      16
+     ],
+     [
+      7390,
+      17
+     ],
+     [
+      7529,
+      18
+     ],
+     [
+      7669,
+      19
+     ],
+     [
+      7910,
+      20
+     ],
+     [
+      8190,
+      21
+     ],
+     [
+      8369,
+      22
+     ],
+     [
+      8589,
+      23
+     ],
+     [
+      9629,
+      24
+     ],
+     [
+      9749,
+      25
+     ],
+     [
+      9969,
+      26
+     ],
+     [
+      10089,
+      27
+     ],
+     [
+      10469,
+      28
+     ],
+     [
+      10709,
+      29
+     ],
+     [
+      11069,
+      30
+     ],
+     [
+      11969,
+      31
+     ],
+     [
+      12390,
+      32
+     ],
+     [
+      12549,
+      33
+     ],
+     [
+      12949,
+      34
+     ],
+     [
+      13069,
+      35
+     ],
+     [
+      13270,
+      36
+     ],
+     [
+      13469,
+      37
+     ],
+     [
+      13649,
+      38
+     ],
+     [
+      14270,
+      39
+     ],
+     [
+      14549,
+      40
+     ],
+     [
+      15390,
+      41
+     ],
+     [
+      15969,
+      42
+     ],
+     [
+      16110,
+      43
+     ],
+     [
+      16249,
+      44
+     ],
+     [
+      16450,
+      45
+     ],
+     [
+      16669,
+      46
+     ],
+     [
+      16870,
+      47
+     ],
+     [
+      17110,
+      48
+     ],
+     [
+      17370,
+      49
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 18202,
+    "d": 2672,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      279,
+      1
+     ],
+     [
+      696,
+      2
+     ],
+     [
+      1256,
+      3
+     ],
+     [
+      1495,
+      4
+     ],
+     [
+      1912,
+      5
+     ],
+     [
+      2152,
+      6
+     ],
+     [
+      2392,
+      7
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 21175,
+    "d": 2511,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 23986,
+    "d": 2438,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      1629,
+      6
+     ],
+     [
+      1729,
+      7
+     ],
+     [
+      1869,
+      8
+     ]
+    ]
+   },
+   "p0h-tezgah": {
+    "s": 26724,
+    "d": 2741,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      1909,
+      3
+     ]
+    ]
+   },
+   "p0h-kabak": {
+    "s": 29765,
+    "d": 2038,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1030,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 32104,
+    "d": 20259,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2430,
+      6
+     ],
+     [
+      3249,
+      7
+     ],
+     [
+      4290,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      4709,
+      10
+     ],
+     [
+      4890,
+      11
+     ],
+     [
+      5729,
+      12
+     ],
+     [
+      6089,
+      13
+     ],
+     [
+      7049,
+      14
+     ],
+     [
+      7249,
+      15
+     ],
+     [
+      7469,
+      16
+     ],
+     [
+      7589,
+      17
+     ],
+     [
+      7729,
+      18
+     ],
+     [
+      7910,
+      19
+     ],
+     [
+      8009,
+      20
+     ],
+     [
+      8109,
+      21
+     ],
+     [
+      8230,
+      22
+     ],
+     [
+      9190,
+      23
+     ],
+     [
+      9449,
+      24
+     ],
+     [
+      9850,
+      25
+     ],
+     [
+      9969,
+      26
+     ],
+     [
+      10149,
+      27
+     ],
+     [
+      11049,
+      28
+     ],
+     [
+      11709,
+      29
+     ],
+     [
+      12369,
+      30
+     ],
+     [
+      12669,
+      31
+     ],
+     [
+      13289,
+      32
+     ],
+     [
+      13969,
+      33
+     ],
+     [
+      14909,
+      34
+     ],
+     [
+      15749,
+      35
+     ],
+     [
+      16009,
+      36
+     ],
+     [
+      16209,
+      37
+     ],
+     [
+      17009,
+      38
+     ],
+     [
+      17629,
+      39
+     ],
+     [
+      17989,
+      40
+     ],
+     [
+      18869,
+      41
+     ],
+     [
+      19030,
+      42
+     ],
+     [
+      19289,
+      43
+     ],
+     [
+      19669,
+      44
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 52663,
+    "d": 2581,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      1769,
+      6
+     ],
+     [
+      1869,
+      7
+     ],
+     [
+      1989,
+      8
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 55545,
+    "d": 2080,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      230,
+      1
+     ],
+     [
+      562,
+      2
+     ],
+     [
+      753,
+      3
+     ],
+     [
+      944,
+      4
+     ],
+     [
+      1135,
+      5
+     ],
+     [
+      1326,
+      6
+     ],
+     [
+      1517,
+      7
+     ],
+     [
+      1707,
+      8
+     ]
+    ]
+   },
+   "p1h-pazarci": {
+    "s": 57925,
+    "d": 2804,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      2069,
+      5
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 61029,
+    "d": 4910,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      3049,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      3390,
+      9
+     ],
+     [
+      3489,
+      10
+     ],
+     [
+      4249,
+      11
+     ]
+    ]
+   },
+   "p2": {
+    "s": 66240,
+    "d": 17920,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      1949,
+      7
+     ],
+     [
+      2809,
+      8
+     ],
+     [
+      3009,
+      9
+     ],
+     [
+      3449,
+      10
+     ],
+     [
+      3670,
+      11
+     ],
+     [
+      3809,
+      12
+     ],
+     [
+      3910,
+      13
+     ],
+     [
+      4669,
+      14
+     ],
+     [
+      4810,
+      15
+     ],
+     [
+      5370,
+      16
+     ],
+     [
+      5709,
+      17
+     ],
+     [
+      5870,
+      18
+     ],
+     [
+      6309,
+      19
+     ],
+     [
+      6509,
+      20
+     ],
+     [
+      7410,
+      21
+     ],
+     [
+      7669,
+      22
+     ],
+     [
+      7989,
+      23
+     ],
+     [
+      8109,
+      24
+     ],
+     [
+      8350,
+      25
+     ],
+     [
+      9109,
+      26
+     ],
+     [
+      9390,
+      27
+     ],
+     [
+      9629,
+      28
+     ],
+     [
+      9829,
+      29
+     ],
+     [
+      9989,
+      30
+     ],
+     [
+      10109,
+      31
+     ],
+     [
+      11009,
+      32
+     ],
+     [
+      11409,
+      33
+     ],
+     [
+      12230,
+      34
+     ],
+     [
+      12489,
+      35
+     ],
+     [
+      12689,
+      36
+     ],
+     [
+      12869,
+      37
+     ],
+     [
+      12989,
+      38
+     ],
+     [
+      13149,
+      39
+     ],
+     [
+      13350,
+      40
+     ],
+     [
+      13509,
+      41
+     ],
+     [
+      14489,
+      42
+     ],
+     [
+      14969,
+      43
+     ],
+     [
+      15729,
+      44
+     ],
+     [
+      16009,
+      45
+     ],
+     [
+      16894,
+      46
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 84460,
+    "d": 1953,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1269,
+      5
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 86714,
+    "d": 2195,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1170,
+      5
+     ],
+     [
+      1410,
+      6
+     ],
+     [
+      1550,
+      7
+     ]
+    ]
+   },
+   "p2h-kar": {
+    "s": 89209,
+    "d": 2602,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1829,
+      4
+     ]
+    ]
+   },
+   "p2h-yum": {
+    "s": 92111,
+    "d": 1042,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      529,
+      2
+     ]
+    ]
+   },
+   "p2h-bal": {
+    "s": 93453,
+    "d": 2113,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p2h-elma": {
+    "s": 95867,
+    "d": 2004,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1410,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 98172,
+    "d": 2612,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      769,
+      5
+     ],
+     [
+      1069,
+      6
+     ],
+     [
+      1369,
+      7
+     ],
+     [
+      1809,
+      8
+     ],
+     [
+      1949,
+      9
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 101085,
+    "d": 2942,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      2049,
+      6
+     ],
+     [
+      2249,
+      7
+     ],
+     [
+      2349,
+      8
+     ],
+     [
+      2469,
+      9
+     ]
+    ]
+   },
+   "p3": {
+    "s": 104328,
+    "d": 16767,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1689,
+      6
+     ],
+     [
+      1809,
+      7
+     ],
+     [
+      2569,
+      8
+     ],
+     [
+      2689,
+      9
+     ],
+     [
+      3309,
+      10
+     ],
+     [
+      3430,
+      11
+     ],
+     [
+      4029,
+      12
+     ],
+     [
+      4149,
+      13
+     ],
+     [
+      4969,
+      14
+     ],
+     [
+      5149,
+      15
+     ],
+     [
+      5430,
+      16
+     ],
+     [
+      6269,
+      17
+     ],
+     [
+      6589,
+      18
+     ],
+     [
+      6969,
+      19
+     ],
+     [
+      7430,
+      20
+     ],
+     [
+      7749,
+      21
+     ],
+     [
+      7930,
+      22
+     ],
+     [
+      8770,
+      23
+     ],
+     [
+      9589,
+      24
+     ],
+     [
+      9829,
+      25
+     ],
+     [
+      10369,
+      26
+     ],
+     [
+      11310,
+      27
+     ],
+     [
+      11669,
+      28
+     ],
+     [
+      12509,
+      29
+     ],
+     [
+      13209,
+      30
+     ],
+     [
+      13810,
+      31
+     ],
+     [
+      14469,
+      32
+     ],
+     [
+      15409,
+      33
+     ],
+     [
+      15689,
+      34
+     ],
+     [
+      15850,
+      35
+     ],
+     [
+      16069,
+      36
+     ],
+     [
+      16270,
+      37
+     ]
+    ]
+   },
+   "p3h-ogretmen": {
+    "s": 121395,
+    "d": 2685,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1550,
+      5
+     ],
+     [
+      1749,
+      6
+     ],
+     [
+      2229,
+      7
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 124380,
+    "d": 3054,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      427,
+      1
+     ],
+     [
+      1275,
+      2
+     ],
+     [
+      1663,
+      3
+     ],
+     [
+      2338,
+      4
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 127735,
+    "d": 2114,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      681,
+      1
+     ],
+     [
+      975,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1562,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 130150,
+    "d": 1803,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1269,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 132253,
+    "d": 22042,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2229,
+      7
+     ],
+     [
+      2789,
+      8
+     ],
+     [
+      2930,
+      9
+     ],
+     [
+      3269,
+      10
+     ],
+     [
+      3449,
+      11
+     ],
+     [
+      3789,
+      12
+     ],
+     [
+      4569,
+      13
+     ],
+     [
+      4689,
+      14
+     ],
+     [
+      5049,
+      15
+     ],
+     [
+      5209,
+      16
+     ],
+     [
+      5410,
+      17
+     ],
+     [
+      5589,
+      18
+     ],
+     [
+      6370,
+      19
+     ],
+     [
+      6529,
+      20
+     ],
+     [
+      6669,
+      21
+     ],
+     [
+      7289,
+      22
+     ],
+     [
+      7629,
+      23
+     ],
+     [
+      7809,
+      24
+     ],
+     [
+      8230,
+      25
+     ],
+     [
+      8709,
+      26
+     ],
+     [
+      8869,
+      27
+     ],
+     [
+      9749,
+      28
+     ],
+     [
+      9850,
+      29
+     ],
+     [
+      10230,
+      30
+     ],
+     [
+      10350,
+      31
+     ],
+     [
+      10850,
+      32
+     ],
+     [
+      11009,
+      33
+     ],
+     [
+      11230,
+      34
+     ],
+     [
+      11390,
+      35
+     ],
+     [
+      12409,
+      36
+     ],
+     [
+      12709,
+      37
+     ],
+     [
+      12949,
+      38
+     ],
+     [
+      13069,
+      39
+     ],
+     [
+      13390,
+      40
+     ],
+     [
+      14209,
+      41
+     ],
+     [
+      14629,
+      42
+     ],
+     [
+      14890,
+      43
+     ],
+     [
+      15310,
+      44
+     ],
+     [
+      15569,
+      45
+     ],
+     [
+      16589,
+      46
+     ],
+     [
+      16809,
+      47
+     ],
+     [
+      17589,
+      48
+     ],
+     [
+      17749,
+      49
+     ],
+     [
+      18129,
+      50
+     ],
+     [
+      18690,
+      51
+     ],
+     [
+      18809,
+      52
+     ],
+     [
+      18969,
+      53
+     ],
+     [
+      19149,
+      54
+     ],
+     [
+      19629,
+      55
+     ],
+     [
+      19829,
+      56
+     ],
+     [
+      20069,
+      57
+     ],
+     [
+      20869,
+      58
+     ],
+     [
+      21385,
+      59
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 154595,
+    "d": 2149,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 157045,
+    "d": 2347,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1550,
+      5
+     ],
+     [
+      1869,
+      6
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 159693,
+    "d": 3238,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      2709,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 163231,
+    "d": 21082,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2569,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4249,
+      9
+     ],
+     [
+      4709,
+      10
+     ],
+     [
+      4989,
+      11
+     ],
+     [
+      5330,
+      12
+     ],
+     [
+      5529,
+      13
+     ],
+     [
+      5729,
+      14
+     ],
+     [
+      5830,
+      15
+     ],
+     [
+      5949,
+      16
+     ],
+     [
+      6930,
+      17
+     ],
+     [
+      7349,
+      18
+     ],
+     [
+      8249,
+      19
+     ],
+     [
+      8489,
+      20
+     ],
+     [
+      8690,
+      21
+     ],
+     [
+      8810,
+      22
+     ],
+     [
+      9049,
+      23
+     ],
+     [
+      9310,
+      24
+     ],
+     [
+      10270,
+      25
+     ],
+     [
+      10609,
+      26
+     ],
+     [
+      10789,
+      27
+     ],
+     [
+      11089,
+      28
+     ],
+     [
+      11189,
+      29
+     ],
+     [
+      11289,
+      30
+     ],
+     [
+      12169,
+      31
+     ],
+     [
+      12409,
+      32
+     ],
+     [
+      12569,
+      33
+     ],
+     [
+      13189,
+      34
+     ],
+     [
+      13430,
+      35
+     ],
+     [
+      13609,
+      36
+     ],
+     [
+      14189,
+      37
+     ],
+     [
+      14449,
+      38
+     ],
+     [
+      14629,
+      39
+     ],
+     [
+      15369,
+      40
+     ],
+     [
+      15629,
+      41
+     ],
+     [
+      15789,
+      42
+     ],
+     [
+      16829,
+      43
+     ],
+     [
+      17169,
+      44
+     ],
+     [
+      17909,
+      45
+     ],
+     [
+      18289,
+      46
+     ],
+     [
+      18549,
+      47
+     ],
+     [
+      19430,
+      48
+     ],
+     [
+      19909,
+      49
+     ],
+     [
+      20430,
+      50
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 184613,
+    "d": 2579,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1969,
+      5
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 187492,
+    "d": 1269,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      689,
+      2
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 189062,
+    "d": 2620,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1550,
+      5
+     ],
+     [
+      1869,
+      6
+     ],
+     [
+      2089,
+      7
+     ]
+    ]
+   },
+   "p5h-ki": {
+    "s": 191982,
+    "d": 1052,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-kk": {
+    "s": 193335,
+    "d": 1136,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      568,
+      1
+     ]
+    ]
+   },
+   "p5h-kumbara": {
+    "s": 194772,
+    "d": 2926,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1109,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2370,
+      7
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 197998,
+    "d": 2260,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      424,
+      1
+     ],
+     [
+      1265,
+      2
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 200559,
+    "d": 1976,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1290,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

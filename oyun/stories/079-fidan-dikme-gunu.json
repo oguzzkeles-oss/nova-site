@@ -1,0 +1,1964 @@
+{
+ "id": "079-fidan-dikme-gunu",
+ "n": 79,
+ "title": "Fidan Dikme Günü",
+ "age": "48-60",
+ "area": "Fen",
+ "theme": "Fidan dikmek, canlılara yuva olmak ve birlikte çalışmak",
+ "values": [
+  "D5 Duyarlılık",
+  "D16 Sorumluluk"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 5,
+ "blurb": "Sınıf, bomboş bir çayıra fidan dikmeye gider. Tırmanacak ağaç bulamayan sincap Pıtır'ı görünce Zeynep ile Ali iş başına koyulur: biri tutar, biri toprağı bastırır, sonra can suyu verirler.",
+ "codes": {
+  "maarif": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme",
+   "OB8 Sürdürülebilirlik Okuryazarlığı",
+   "E2.2 Sorumluluk",
+   "SDB2.2 İş Birliği",
+   "D5 Duyarlılık",
+   "D16 Sorumluluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "ali": "cocuk-erkek",
+  "ogretmen": "ogretmen",
+  "pitir": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "ali": "Ali",
+  "ogretmen": "Selin Öğretmen",
+  "pitir": "Pıtır (sincap)"
+ },
+ "pages": [
+  {
+   "text": "Bugün Fidan Dikme Günü! Sınıf kocaman boş bir çayıra geldi. Zeynep bir fidan taşıdı. Ali de bir fidan. Selin Öğretmen, “Fidanlar ağaç bebekleridir,” dedi.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "trees": false,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 60,
+      "y": 46,
+      "hit": "gunes"
+     },
+     {
+      "k": "zeynep",
+      "x": 105,
+      "y": 228,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "tree",
+      "holdS": 0.55,
+      "turn": 0.6,
+      "hit": "zeynep",
+      "holdO": {
+       "y": 22
+      }
+     },
+     {
+      "k": "ali",
+      "x": 210,
+      "y": 220,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "tree",
+      "holdS": 0.55,
+      "turn": 0.6,
+      "hit": "ali",
+      "holdO": {
+       "y": 22
+      }
+     },
+     {
+      "k": "ogretmen",
+      "x": 325,
+      "y": 226,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "flip": true,
+      "hit": "ogretmen"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 380,
+      "y": 200,
+      "s": 0.8,
+      "flowers": true
+     },
+     {
+      "k": "tas",
+      "x": 40,
+      "y": 232,
+      "s": 1.4,
+      "v": 2
+     }
+    ]
+   },
+   "hits": {
+    "ogretmen": {
+     "say": "Fidanlar ağaç bebekleridir.",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Benim fidanım yapraklı!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ali": {
+     "say": "Benimki de hışır hışır!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "ogretmen",
+    "Öğretmene dokun!"
+   ],
+   "ask": "Fidan ne demek sence? Bir fidan büyüyünce neye dönüşür?"
+  },
+  {
+   "text": "Aaa, bir sincap! Adı Pıtır. Pıtır çayırda koştu, koştu. Tırmanacak bir ağaç yoktu. Saklanacak bir dal yoktu. Zeynep, “Sincaplar ağaçta yaşar. Burada evi yok!” dedi.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "trees": false,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 95,
+      "y": 230,
+      "s": 1.05,
+      "mood": "sorry",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "zeynep"
+     },
+     {
+      "k": "sincap",
+      "x": 235,
+      "y": 222,
+      "s": 1.25,
+      "mood": "sad",
+      "pose": "walk",
+      "hit": "pitir"
+     },
+     {
+      "k": "ali",
+      "x": 345,
+      "y": 214,
+      "s": 0.9,
+      "mood": "surprised",
+      "pose": "stand",
+      "flip": true,
+      "turn": 0.5,
+      "hit": "ali"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 170,
+      "y": 234,
+      "s": 1.6,
+      "v": 0,
+      "moss": true
+     },
+     {
+      "k": "cali",
+      "x": 385,
+      "y": 196,
+      "s": 0.7,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "pitir": {
+     "say": "Çik çik! Çik?",
+     "voice": "pitir",
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "zeynep": {
+     "say": "Yakında hiç ağaç yok!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "ali": {
+     "say": "Sincap nereye tırmansın?",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "pitir",
+    "Pıtır'a dokun!"
+   ],
+   "ask": "Pıtır neden üzgün olabilir? Sence sincaplar nerede yaşar?"
+  },
+  {
+   "text": "Zeynep fidanı çukura koydu. Bir eliyle tuttu. Öbür eliyle toprak doldurdu. Fidan sallandı, sallandı! “Offf, tek başıma olmuyor!” Zeynep kızdı, yanakları ısındı. Derin bir nefes aldı.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "trees": false,
+    "cast": [
+     {
+      "k": "sincap",
+      "x": 62,
+      "y": 226,
+      "s": 0.9,
+      "mood": "think",
+      "pose": "sit",
+      "hit": "pitir"
+     },
+     {
+      "k": "zeynep",
+      "x": 170,
+      "y": 232,
+      "s": 1.15,
+      "mood": "angry",
+      "pose": "hold",
+      "hold": "tree",
+      "holdS": 0.55,
+      "turn": 0.7,
+      "hit": "zeynep",
+      "holdO": {
+       "y": 22
+      }
+     },
+     {
+      "k": "ali",
+      "x": 330,
+      "y": 206,
+      "s": 0.85,
+      "mood": "think",
+      "pose": "stand",
+      "flip": true,
+      "turn": 0.6,
+      "hit": "ali"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 250,
+      "y": 234,
+      "s": 1.3,
+      "v": 2
+     },
+     {
+      "k": "cali",
+      "x": 385,
+      "y": 198,
+      "s": 0.75,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Burnumdan al… ağzımdan ver. Oh!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "ali": {
+     "say": "Zeynep, bir şey mi oldu?",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "pitir": {
+     "say": "Çik?",
+     "voice": "pitir",
+     "anim": "jump",
+     "fx": "tweet"
+    }
+   },
+   "predict": {
+    "q": "Sence Zeynep şimdi ne yapacak?",
+    "res": "Hadi, görelim!",
+    "opts": [
+     {
+      "l": "Ali'den yardım ister",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "trees": false,
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 140,
+         "y": 230,
+         "s": 1.1,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "tree",
+         "holdS": 0.55,
+         "turn": 0.7,
+         "holdO": {
+          "y": 22
+         }
+        },
+        {
+         "k": "ali",
+         "x": 260,
+         "y": 228,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "open",
+         "flip": true,
+         "turn": 0.6
+        }
+       ],
+       "props": [
+        {
+         "k": "tas",
+         "x": 205,
+         "y": 236,
+         "s": 1.2,
+         "v": 2
+        }
+       ]
+      }
+     },
+     {
+      "l": "Öğretmene sorar",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "trees": false,
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 140,
+         "y": 230,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "hold",
+         "hold": "tree",
+         "holdS": 0.55,
+         "turn": 0.7,
+         "holdO": {
+          "y": 22
+         }
+        },
+        {
+         "k": "ogretmen",
+         "x": 270,
+         "y": 226,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "point",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "tas",
+         "x": 205,
+         "y": 236,
+         "s": 1.2,
+         "v": 2
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'le nefes al!"
+   ],
+   "ask": "Zeynep neden kızdı? Sen bir işi tek başına yapamayınca ne yaparsın?"
+  },
+  {
+   "text": "Zeynep, “Ali, yardım eder misin?” diye sordu. Ali fidanı dimdik tuttu. Zeynep toprağı bastırdı. Bas, bas, bas! Sonra yer değiştirdiler. Arkadaşları da el ele verdi. Kaç fidan dikildi?",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "trees": false,
+    "cast": [
+     {
+      "k": "cocuk",
+      "look": 3,
+      "x": 300,
+      "y": 198,
+      "s": 0.7,
+      "mood": "happy",
+      "pose": "crawl",
+      "flip": true
+     },
+     {
+      "k": "ali",
+      "x": 150,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "sit",
+      "hold": "tree",
+      "holdS": 0.75,
+      "turn": 0.7,
+      "hit": "ali",
+      "holdMode": "in",
+      "holdO": {
+       "y": -8
+      }
+     },
+     {
+      "k": "zeynep",
+      "x": 240,
+      "y": 234,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "crawl",
+      "flip": true,
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 44,
+      "y": 204,
+      "s": 0.7
+     },
+     {
+      "k": "star",
+      "x": 44,
+      "y": 160,
+      "s": 3.0,
+      "r": 0.8,
+      "hit": "f2",
+      "z": 999
+     },
+     {
+      "k": "tree",
+      "x": 104,
+      "y": 192,
+      "s": 0.62
+     },
+     {
+      "k": "star",
+      "x": 104,
+      "y": 152,
+      "s": 2.7,
+      "r": 0.8,
+      "hit": "f5",
+      "z": 999
+     },
+     {
+      "k": "tree",
+      "x": 262,
+      "y": 196,
+      "s": 0.66
+     },
+     {
+      "k": "star",
+      "x": 262,
+      "y": 154,
+      "s": 2.8,
+      "r": 0.8,
+      "hit": "f3",
+      "z": 999
+     },
+     {
+      "k": "tree",
+      "x": 368,
+      "y": 230,
+      "s": 0.9
+     },
+     {
+      "k": "star",
+      "x": 368,
+      "y": 176,
+      "s": 3.4,
+      "r": 0.8,
+      "hit": "f4",
+      "z": 999
+     },
+     {
+      "k": "star",
+      "x": 166,
+      "y": 190,
+      "s": 2.6,
+      "r": 0.8,
+      "hit": "f1",
+      "z": 999
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "f1",
+     "f2",
+     "f3",
+     "f4",
+     "f5"
+    ],
+    "done": "Beş fidan dikildi! Birlikte başardık.",
+    "msg": "Beş fidan!"
+   },
+   "hits": {
+    "ali": {
+     "say": "Ben tutarım, sen bastır!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "zeynep": {
+     "say": "Bas, bas, bas!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "f1",
+    "Fidanları say!"
+   ],
+   "ask": "Zeynep ile Ali işi nasıl paylaştı? Sen arkadaşınla birlikte ne yaptın?"
+  },
+  {
+   "text": "Fidanlar susamıştı. Selin Öğretmen, “Sıra can suyunda!” dedi. Zeynep ile Ali birlikte suladı. Şırıl şırıl! Toprak suyu içti, lık lık. Pıtır da yumuşak toprağı eşeledi. Eşele, eşele!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "trees": false,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 88,
+      "y": 226,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "hold",
+      "turn": 0.7,
+      "hit": "zeynep"
+     },
+     {
+      "k": "ali",
+      "x": 238,
+      "y": 226,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "hold",
+      "turn": 0.7,
+      "hit": "ali"
+     },
+     {
+      "k": "ogretmen",
+      "x": 370,
+      "y": 204,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "point",
+      "flip": true,
+      "hit": "ogretmen"
+     },
+     {
+      "k": "sincap",
+      "x": 200,
+      "y": 238,
+      "s": 0.75,
+      "mood": "laugh",
+      "pose": "hold",
+      "hit": "pitir"
+     }
+    ],
+    "props": [
+     {
+      "k": "sulama-kabi",
+      "x": 104,
+      "y": 236,
+      "s": 1.25,
+      "state": "off",
+      "color": "#F2A33A",
+      "hit": "k1"
+     },
+     {
+      "k": "tree",
+      "x": 156,
+      "y": 230,
+      "s": 0.85
+     },
+     {
+      "k": "sulama-kabi",
+      "x": 252,
+      "y": 236,
+      "s": 1.25,
+      "state": "off",
+      "hit": "k2"
+     },
+     {
+      "k": "tree",
+      "x": 304,
+      "y": 230,
+      "s": 0.85
+     }
+    ]
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "k1",
+     "k2"
+    ],
+    "done": "Can suyu verildi! Fidanlar ferahladı.",
+    "msg": "Şırıl şırıl!"
+   },
+   "hits": {
+    "ogretmen": {
+     "say": "Sıra can suyunda!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Şırıl şırıl, iç fidancık!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "splash"
+    },
+    "ali": {
+     "say": "Lık lık lık!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "drip"
+    },
+    "pitir": {
+     "say": "Çik! Buraya bir palamut saklayayım!",
+     "voice": "pitir",
+     "anim": "jump",
+     "fx": "tweet"
+    }
+   },
+   "hint": [
+    "k1",
+    "Sulama kabına dokun!"
+   ],
+   "ask": "Fidanların büyümek için neye ihtiyacı var? Su olmasa ne olurdu?",
+   "cues": [
+    {
+     "w": 13,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Pıtır minik bir fidanın dibine oturdu. Selin Öğretmen, “Ağaç bebekleri yıllarca büyüyecek,” dedi. Zeynep güldü. “Bir gün burası orman olacak!” Ali ekledi: “Pıtır'a da yuva!”",
+   "scene": {
+    "set": "cayir",
+    "time": "sunset",
+    "season": "spring",
+    "trees": false,
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 80,
+      "y": 228,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "clap",
+      "turn": 0.5,
+      "hit": "zeynep"
+     },
+     {
+      "k": "ali",
+      "x": 150,
+      "y": 220,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "jump",
+      "turn": 0.5,
+      "hit": "ali"
+     },
+     {
+      "k": "sincap",
+      "x": 292,
+      "y": 232,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "pitir"
+     },
+     {
+      "k": "kelebek",
+      "x": 320,
+      "y": 110,
+      "hit": "kelebek"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 222,
+      "y": 226,
+      "s": 0.9
+     },
+     {
+      "k": "tree",
+      "x": 355,
+      "y": 228,
+      "s": 0.8
+     },
+     {
+      "k": "tree",
+      "x": 180,
+      "y": 192,
+      "s": 0.6
+     },
+     {
+      "k": "cali",
+      "x": 30,
+      "y": 200,
+      "s": 0.7,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "pitir": {
+     "say": "Çik çik! Çik çik çik!",
+     "voice": "pitir",
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "zeynep": {
+     "say": "Bir gün burası orman olacak!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "ali": {
+     "say": "Pıtır'a da yuva!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "kelebek": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "pitir",
+    "Pıtır'a dokun!"
+   ],
+   "ask": "Bu fidanlar büyüyünce kimler burada yaşayabilir? Sen bir fidan diksen nereye dikerdin?"
+  }
+ ],
+ "order": [
+  0,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 — Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme: Ağaçsız çayırda sincabın saklanacak yer bulamadığını gözler; fidanın toprağa dikilip bastırıldığını ve can suyuyla sulandığını izler; fidanın yıllar içinde yavaş büyüyeceğini konuşur.",
+   "OB8 Sürdürülebilirlik Okuryazarlığı — Ağaç dikmenin hayvanlara yuva, insanlara gölge sağladığını; bugün dikilen fidanın gelecekte orman olacağını fark eder.",
+   "E2.2 Sorumluluk — Diktiği fidana can suyu vererek bakımını üstlenir; sınıfta sulama çizelgesinde görev alır.",
+   "SDB2.2 İş Birliği — İki kişilik bir işte görev paylaşır (biri tutar, biri toprağı bastırır, sonra yer değiştirir); arkadaşından nazikçe yardım ister.",
+   "D5 Duyarlılık — Sincabın ihtiyacını fark eder ve çevresindeki canlılar için bir şey yapmak ister.",
+   "D16 Sorumluluk — Dikilen fidanların suyunu ve bakımını sahiplenir; sulama sırasını arkadaşlarıyla paylaşır."
+  ],
+  "once": [
+   "Gerçek bir fidan, saksıda bir bitki ya da bir fidan fotoğrafı gösterin: “Bu küçük ağacın adı fidan. Büyüyünce ne olur?”",
+   "“Sincaplar nerede yaşar? Ağaç olmasa ne yaparlar?” diye sorun; tahminleri not edin."
+  ],
+  "sirasi": [
+   "2. sayfada Pıtır'ın yüzünü gösterin: “Pıtır ne hissediyor olabilir? Neden?”",
+   "3. sayfada Zeynep'le birlikte derin bir nefes alın. Tahmin sorusunda iki cevabı da kabul edin: yardım istemenin iki güzel yolu var.",
+   "4. sayfada fidanları çocukla birlikte parmakla sayın; “Bas, bas, bas!” derken avuçlarınızla dizlerinize bastırın.",
+   "5. sayfada “can suyu” sözünü açıklayın: yeni dikilen fidana verilen ilk su. Sulama kaplarına sırayla dokunun."
+  ],
+  "sonra": [
+   "Zeynep fidanı neden tek başına dikemedi? Ali ile işi nasıl paylaştılar?",
+   "Fidanlar ne zaman kocaman ağaç olur? Hemen mi, yıllar sonra mı?",
+   "Bu ağaçlar büyüyünce kimler burada yaşayabilir? (sincap, kuş, arı, böcekler…)"
+  ],
+  "sinif": {
+   "ad": "İkili Fidan Ekibi",
+   "sure": "25 dk (sonra her gün 5 dk sulama)",
+   "materyal": "Okul bahçesinde uygun bir köşe ya da büyük saksılar, küçük fidanlar veya fasulye/nohut tohumu, toprak, küçük kürek (yetişkin kullanır), sulama kabı, resimli sorumluluk çizelgesi (çocukların sembol kartları)",
+   "adim": [
+    "Çocukları ikili ekiplere ayırın. Çukuru öğretmen açar; bir çocuk fidanı dik tutar, diğeri toprağı avuçlarıyla bastırır, sonra görev değiştirirler.",
+    "Her ekip fidanına “can suyu” verir. Fidanın yanına ekibin sembol kartlarını koyun.",
+    "Bir hafta boyunca sulama çizelgesini birlikte doldurun; her gün fidana bakıp gördüklerinizi konuşun (yeni yaprak var mı, toprak kuru mu, ıslak mı?)."
+   ]
+  },
+  "evSoru": [
+   "Zeynep ile Ali çayıra ne dikti?",
+   "Pıtır neden üzgündü, sonunda neden sevindi?",
+   "Sen bir arkadaşınla birlikte hangi işi yaptın?"
+  ],
+  "evEtk": {
+   "ad": "Balkonda minik bahçe",
+   "d": "Bir saksıya birlikte bir fide ya da tohum dikin: biri saksıyı tutsun, öbürü toprağı bastırsın, sonra yer değiştirin. Bir hafta boyunca sulamayı sırayla yapın ve bitkinin fotoğrafını çekip değişimi birlikte izleyin."
+  },
+  "aileNotu": "Bugün “Fidan Dikme Günü” masalını okuduk. Zeynep ile Ali, ağaçsız bir çayırda sincap Pıtır'ın saklanacak yer bulamadığını fark ediyor ve sınıfça fidan dikiyor. Zeynep tek başına zorlanınca kızıyor, derin bir nefes alıyor ve arkadaşından yardım istiyor. Evde birlikte yapılacak küçük işlerde (sofra kurmak, bitki sulamak) “Sen tut, ben bastırayım” gibi görev paylaşımını deneyebilir; 21-26 Mart Orman Haftası ya da 11 Kasım Millî Ağaçlandırma Günü'nde ailece bir fidan dikebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/079-fidan-dikme-gunu.mp3",
+  "hash": "26e2a2a9",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12169,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      3209,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      3729,
+      8
+     ],
+     [
+      4129,
+      9
+     ],
+     [
+      4989,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      5749,
+      12
+     ],
+     [
+      6109,
+      13
+     ],
+     [
+      6969,
+      14
+     ],
+     [
+      7169,
+      15
+     ],
+     [
+      7329,
+      16
+     ],
+     [
+      7529,
+      17
+     ],
+     [
+      8369,
+      18
+     ],
+     [
+      8709,
+      19
+     ],
+     [
+      9589,
+      20
+     ],
+     [
+      10350,
+      21
+     ],
+     [
+      10669,
+      22
+     ],
+     [
+      11770,
+      23
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 12469,
+    "d": 2021,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1050,
+      2
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 14790,
+    "d": 1865,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      909,
+      2
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 16956,
+    "d": 1971,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19228,
+    "d": 13364,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      4489,
+      8
+     ],
+     [
+      5370,
+      9
+     ],
+     [
+      5989,
+      10
+     ],
+     [
+      6149,
+      11
+     ],
+     [
+      6469,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      7930,
+      14
+     ],
+     [
+      8069,
+      15
+     ],
+     [
+      8350,
+      16
+     ],
+     [
+      9310,
+      17
+     ],
+     [
+      10109,
+      18
+     ],
+     [
+      10749,
+      19
+     ],
+     [
+      11169,
+      20
+     ],
+     [
+      11829,
+      21
+     ],
+     [
+      12149,
+      22
+     ],
+     [
+      12390,
+      23
+     ],
+     [
+      12969,
+      24
+     ]
+    ]
+   },
+   "p1h-pitir": {
+    "s": 32893,
+    "d": 1684,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      423,
+      1
+     ],
+     [
+      1260,
+      2
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 34877,
+    "d": 1912,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      770,
+      1
+     ],
+     [
+      1065,
+      2
+     ],
+     [
+      1577,
+      3
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 37089,
+    "d": 1907,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1050,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 39297,
+    "d": 14846,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      3569,
+      7
+     ],
+     [
+      3849,
+      8
+     ],
+     [
+      4229,
+      9
+     ],
+     [
+      4669,
+      10
+     ],
+     [
+      5709,
+      11
+     ],
+     [
+      6109,
+      12
+     ],
+     [
+      7069,
+      13
+     ],
+     [
+      8390,
+      14
+     ],
+     [
+      9129,
+      15
+     ],
+     [
+      9369,
+      16
+     ],
+     [
+      9789,
+      17
+     ],
+     [
+      10869,
+      18
+     ],
+     [
+      11289,
+      19
+     ],
+     [
+      12069,
+      20
+     ],
+     [
+      12629,
+      21
+     ],
+     [
+      13509,
+      22
+     ],
+     [
+      13909,
+      23
+     ],
+     [
+      14029,
+      24
+     ],
+     [
+      14449,
+      25
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 54444,
+    "d": 3754,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      922,
+      1
+     ],
+     [
+      1699,
+      2
+     ],
+     [
+      2581,
+      3
+     ],
+     [
+      3358,
+      4
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 58498,
+    "d": 1894,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1410,
+      4
+     ]
+    ]
+   },
+   "p2h-pitir": {
+    "s": 60692,
+    "d": 529,
+    "w": [
+     [
+      109,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 61522,
+    "d": 2097,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1489,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 63919,
+    "d": 979,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 65199,
+    "d": 14513,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4310,
+      8
+     ],
+     [
+      4749,
+      9
+     ],
+     [
+      5189,
+      10
+     ],
+     [
+      5969,
+      11
+     ],
+     [
+      6390,
+      12
+     ],
+     [
+      6850,
+      13
+     ],
+     [
+      7769,
+      14
+     ],
+     [
+      8289,
+      15
+     ],
+     [
+      8770,
+      16
+     ],
+     [
+      9649,
+      17
+     ],
+     [
+      10029,
+      18
+     ],
+     [
+      10270,
+      19
+     ],
+     [
+      11369,
+      20
+     ],
+     [
+      12029,
+      21
+     ],
+     [
+      12189,
+      22
+     ],
+     [
+      12310,
+      23
+     ],
+     [
+      12509,
+      24
+     ],
+     [
+      13289,
+      25
+     ],
+     [
+      13569,
+      26
+     ],
+     [
+      13909,
+      27
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 80013,
+    "d": 2084,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 82397,
+    "d": 1554,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      600,
+      1
+     ],
+     [
+      1161,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 84251,
+    "d": 2788,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2089,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 87340,
+    "d": 14910,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1790,
+      2
+     ],
+     [
+      2130,
+      3
+     ],
+     [
+      2969,
+      4
+     ],
+     [
+      3269,
+      5
+     ],
+     [
+      3549,
+      6
+     ],
+     [
+      4310,
+      7
+     ],
+     [
+      5049,
+      8
+     ],
+     [
+      5449,
+      9
+     ],
+     [
+      5689,
+      10
+     ],
+     [
+      6049,
+      11
+     ],
+     [
+      6569,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      7949,
+      14
+     ],
+     [
+      8669,
+      15
+     ],
+     [
+      9129,
+      16
+     ],
+     [
+      9449,
+      17
+     ],
+     [
+      10089,
+      18
+     ],
+     [
+      10469,
+      19
+     ],
+     [
+      11069,
+      20
+     ],
+     [
+      11469,
+      21
+     ],
+     [
+      11770,
+      22
+     ],
+     [
+      12230,
+      23
+     ],
+     [
+      12749,
+      24
+     ],
+     [
+      13589,
+      25
+     ],
+     [
+      14329,
+      26
+     ]
+    ]
+   },
+   "p4h-ogretmen": {
+    "s": 102551,
+    "d": 1420,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      809,
+      2
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 104272,
+    "d": 2381,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      570,
+      1
+     ],
+     [
+      1280,
+      2
+     ],
+     [
+      1585,
+      3
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 106953,
+    "d": 1137,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      392,
+      1
+     ],
+     [
+      744,
+      2
+     ]
+    ]
+   },
+   "p4h-pitir": {
+    "s": 108391,
+    "d": 2118,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1509,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 110809,
+    "d": 2752,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      2029,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 113861,
+    "d": 12274,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3829,
+      8
+     ],
+     [
+      4149,
+      9
+     ],
+     [
+      4749,
+      10
+     ],
+     [
+      5410,
+      11
+     ],
+     [
+      6249,
+      12
+     ],
+     [
+      6930,
+      13
+     ],
+     [
+      7390,
+      14
+     ],
+     [
+      8109,
+      15
+     ],
+     [
+      8270,
+      16
+     ],
+     [
+      8469,
+      17
+     ],
+     [
+      8909,
+      18
+     ],
+     [
+      9289,
+      19
+     ],
+     [
+      10169,
+      20
+     ],
+     [
+      10509,
+      21
+     ],
+     [
+      11249,
+      22
+     ],
+     [
+      11669,
+      23
+     ],
+     [
+      11810,
+      24
+     ]
+    ]
+   },
+   "p5h-pitir": {
+    "s": 126436,
+    "d": 1884,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1260,
+      3
+     ],
+     [
+      1552,
+      4
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 128620,
+    "d": 2383,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1729,
+      4
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 131303,
+    "d": 1582,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      753,
+      1
+     ],
+     [
+      1041,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

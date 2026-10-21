@@ -1,0 +1,2592 @@
+{
+ "id": "008-kapidaki-adimiz",
+ "lang": "en",
+ "title": "Where Is Ali's Apple?",
+ "theme": "First sounds",
+ "blurb": "In the classroom every cubby has a picture card, but one morning Ali's apple card goes missing. Ela the sound detective listens to first sounds, finds the lost cards and matches everyone with their own card.",
+ "voiceNames": {
+  "ela": "Ela",
+  "ali": "Ali",
+  "zeynep": "Zeynep",
+  "ogretmen": "Miss Nur",
+  "deniz": "Deniz"
+ },
+ "pages": [
+  {
+   "text": "In Ela's classroom, every cubby had a picture card. Ela's was a little blue elephant, Ali's was a shiny red apple. Zeynep in the pink blouse had a big round zero, and Deniz in the stripy T-shirt had a drum. Every morning Ela touched her card: “Eeela, eeelephant! My name and my picture start with the same sound!”",
+   "hits": {
+    "ela": {
+     "say": "Eeela, eeelephant!"
+    },
+    "ali": {
+     "say": "Aaali, aaapple! Crunch!"
+    },
+    "zeynep": {
+     "say": "I'm Zzzeynep! My card has a zero."
+    },
+    "deniz": {
+     "say": "I'm Deniz! D-d-Deniz, d-d-drum!"
+    },
+    "ke": {
+     "say": "Eeelephant! Ela's card."
+    },
+    "ka": {
+     "say": "Aaapple! Ali's card."
+    },
+    "kz": {
+     "say": "Zzzero! Zeynep's card."
+    },
+    "kd": {
+     "say": "D-d-drum! Deniz's card."
+    }
+   },
+   "hint": "Touch Ela!",
+   "ask": "Ela and elephant start with the same sound. What sound does your name start with?",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 58,
+      "y": 206,
+      "s": 0.84,
+      "mood": "happy",
+      "pose": "wave",
+      "turn": 0.4,
+      "hit": "zeynep"
+     },
+     {
+      "k": "deniz",
+      "x": 198,
+      "y": 204,
+      "s": 0.84,
+      "mood": "happy",
+      "pose": "stand",
+      "turn": 0.3,
+      "hit": "deniz"
+     },
+     {
+      "k": "ali",
+      "x": 128,
+      "y": 224,
+      "s": 0.97,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "ali"
+     },
+     {
+      "k": "ela",
+      "x": 262,
+      "y": 228,
+      "s": 1.06,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ela"
+     },
+     {
+      "k": "fil",
+      "x": 311,
+      "y": 154,
+      "s": 0.29,
+      "z": 143,
+      "pose": "stand",
+      "mood": "happy",
+      "hit": "ke"
+     }
+    ],
+    "props": [
+     {
+      "k": "apple",
+      "x": 343.5,
+      "y": 139,
+      "s": 0.67,
+      "z": 143,
+      "hit": "ka"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 343.5,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 376,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "sayi",
+      "n": 0,
+      "x": 376,
+      "y": 156,
+      "s": 0.48,
+      "z": 143,
+      "hit": "kz"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 165,
+      "s": 0.95
+     },
+     {
+      "k": "davul",
+      "x": 311,
+      "y": 163,
+      "s": 0.38,
+      "z": 166,
+      "hit": "kd"
+     }
+    ]
+   }
+  },
+  {
+   "text": "One morning Ali ran hop-skip-jump to his cubby. Oh! The apple card wasn't there. Ali felt so sad. He got a lump in his throat. He took a deep breath. “Ela, my card is lost!” he called. Ela looked: “Zeynep's zero and Deniz's drum are gone too!”",
+   "hits": {
+    "ali": {
+     "say": "Where is my apple card?"
+    },
+    "ela": {
+     "say": "Don't be sad, Ali, we'll look together!"
+    },
+    "ke": {
+     "say": "Eeelephant is in its place."
+    },
+    "dolap": {
+     "say": "Three cards are missing!"
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "Ali got a lump in his throat. What do you feel in your body when you are sad?",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "hot": {
+     "dolap": "dolap"
+    },
+    "cast": [
+     {
+      "k": "ali",
+      "x": 252,
+      "y": 230,
+      "s": 1.2,
+      "mood": "sad",
+      "pose": "stand",
+      "turn": 0.6,
+      "hit": "ali"
+     },
+     {
+      "k": "ela",
+      "x": 110,
+      "y": 210,
+      "s": 0.86,
+      "mood": "surprised",
+      "pose": "walk",
+      "hit": "ela"
+     },
+     {
+      "k": "fil",
+      "x": 311,
+      "y": 154,
+      "s": 0.29,
+      "z": 143,
+      "pose": "stand",
+      "mood": "happy",
+      "hit": "ke"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "qmark",
+      "x": 344,
+      "y": 131
+     }
+    ]
+   }
+  },
+  {
+   "text": "Ela narrowed her eyes like a detective. “Hmm… A card has no wings. A card doesn't fly, it falls! The tape must have come loose.” Ali's eyes lit up: “Come on, let's look on the floor!”",
+   "hits": {
+    "ela": {
+     "say": "Hmm… A card doesn't fly, it falls!"
+    },
+    "ali": {
+     "say": "Come on, let's look on the floor!"
+    }
+   },
+   "predict": {
+    "q": "Where do you think the cards fell?",
+    "res": "Let's look in both places!",
+    "opts": [
+     {
+      "l": "Under the table"
+     },
+     {
+      "l": "Behind the toy box"
+     }
+    ]
+   },
+   "hint": "Touch Ela!",
+   "ask": "When you lose something, where do you look first?",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 282,
+      "y": 206,
+      "s": 0.84,
+      "mood": "happy",
+      "pose": "point",
+      "turn": -0.4,
+      "hit": "ali"
+     },
+     {
+      "k": "ela",
+      "x": 160,
+      "y": 231,
+      "s": 1.28,
+      "mood": "think",
+      "pose": "stand",
+      "turn": 0.2,
+      "hit": "ela"
+     },
+     {
+      "k": "fil",
+      "x": 311,
+      "y": 154,
+      "s": 0.29,
+      "z": 143,
+      "pose": "stand",
+      "mood": "happy"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "qmark",
+      "x": 222,
+      "y": 104
+     }
+    ]
+   }
+  },
+  {
+   "text": "Rustle rustle! Ela crawled under the table and looked. Ali looked behind the toy box. We should look down by the bookcase too! The cards may have fallen and be hiding. Come on, you find all three!",
+   "mech": {
+    "done": "Apple, zero, drum: all three are here!",
+    "msg": "Three cards found!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Rustle rustle! Where are you, cards?"
+    },
+    "ali": {
+     "say": "Let's look behind the box!"
+    }
+   },
+   "hint": "Find the hiding cards!",
+   "ask": "Where did the cards turn up? Let's remember together.",
+   "cues": [
+    {
+     "w": 0,
+     "fx": "yaprak"
+    }
+   ],
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ela",
+      "x": 138,
+      "y": 231,
+      "s": 1.0,
+      "mood": "surprised",
+      "pose": "crawl",
+      "hit": "ela"
+     },
+     {
+      "k": "ali",
+      "x": 276,
+      "y": 222,
+      "s": 1.0,
+      "mood": "surprised",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "ali"
+     }
+    ],
+    "props": [
+     {
+      "k": "apple",
+      "x": 214,
+      "y": 203,
+      "s": 0.87,
+      "z": 205,
+      "hit": "ka"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 214,
+      "y": 207,
+      "s": 1.35,
+      "peek": true
+     },
+     {
+      "k": "masa",
+      "x": 212,
+      "y": 222,
+      "s": 1.35,
+      "cloth": true
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 356,
+      "y": 204,
+      "s": 1.35,
+      "peek": true
+     },
+     {
+      "k": "sayi",
+      "n": 0,
+      "x": 356,
+      "y": 206,
+      "s": 0.58,
+      "z": 205,
+      "hit": "kz"
+     },
+     {
+      "k": "oyuncak-kutusu",
+      "x": 350,
+      "y": 236,
+      "s": 0.95
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 72,
+      "y": 206,
+      "s": 1.35,
+      "peek": true
+     },
+     {
+      "k": "davul",
+      "x": 73,
+      "y": 198,
+      "s": 0.44,
+      "z": 207,
+      "hit": "kd"
+     },
+     {
+      "k": "top",
+      "color": "blue",
+      "x": 44,
+      "y": 226,
+      "s": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "text": "Zeynep in the pink blouse and Deniz in the stripy T-shirt came too. Ela held up the apple card: “Aaapple… Zzzeynep? No, that's not it!” They all giggled: tee-hee-hee! “Aaapple, Aaali! That's it!” Now it's your turn: whose is the zero? Whose is the drum?",
+   "mech": {
+    "done": "Everyone found their own card!",
+    "msg": "You matched them all!"
+   },
+   "hits": {
+    "ela": {
+     "say": "Listen to the first sound!"
+    },
+    "ali": {
+     "say": "Aaali, aaapple!"
+    },
+    "zeynep": {
+     "say": "I'm Zzzeynep!"
+    },
+    "deniz": {
+     "say": "I'm Deniz! D-d-Deniz!"
+    },
+    "ka": {
+     "say": "Aaapple, Aaali!"
+    },
+    "kz": {
+     "say": "Zzzero, Zzzeynep!"
+    },
+    "kd": {
+     "say": "D-d-drum, D-d-Deniz!"
+    }
+   },
+   "hint": "Touch Ali, then the apple!",
+   "ask": "What sound does “zzzero” start with? What else do you know that starts with the z sound?",
+   "cues": [
+    {
+     "w": 27,
+     "fx": "kahkaha"
+    }
+   ],
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 172,
+      "y": 205,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "ali"
+     },
+     {
+      "k": "zeynep",
+      "x": 256,
+      "y": 204,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "zeynep"
+     },
+     {
+      "k": "deniz",
+      "x": 340,
+      "y": 205,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "deniz"
+     },
+     {
+      "k": "ela",
+      "x": 62,
+      "y": 230,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "apple",
+      "x": 314,
+      "y": 230,
+      "s": 0.9,
+      "z": 237,
+      "hit": "ka"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 150,
+      "y": 233,
+      "s": 1.7
+     },
+     {
+      "k": "sayi",
+      "n": 0,
+      "x": 150,
+      "y": 247,
+      "s": 0.55,
+      "z": 237,
+      "hit": "kz"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 232,
+      "y": 233,
+      "s": 1.7
+     },
+     {
+      "k": "davul",
+      "x": 233,
+      "y": 231,
+      "s": 0.42,
+      "z": 237,
+      "hit": "kd"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 314,
+      "y": 233,
+      "s": 1.7
+     }
+    ]
+   }
+  },
+  {
+   "text": "Miss Nur stuck the cards firmly onto the cubbies. Ali touched his card: “Aaali, aaapple!” Then he hugged Ela. “Thank you, sound detective!” The apple card was back in place. And so was Ali: right next to his friends.",
+   "hits": {
+    "ali": {
+     "say": "This is my place!"
+    },
+    "ela": {
+     "say": "Sound detective on the job!"
+    },
+    "ogretmen": {
+     "say": "How well you listened to the sounds!"
+    },
+    "ka": {
+     "say": "Aaapple! Crunch crunch!"
+    },
+    "ke": {
+     "say": "Eeelephant!"
+    },
+    "kz": {
+     "say": "Zzzero!"
+    },
+    "kd": {
+     "say": "D-d-drum!"
+    }
+   },
+   "hint": "Touch the apple card!",
+   "ask": "How did Ela help her friend? How would you help a friend?",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ogretmen",
+      "x": 250,
+      "y": 214,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ogretmen"
+     },
+     {
+      "k": "ela",
+      "x": 108,
+      "y": 226,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "hug",
+      "hit": "ela"
+     },
+     {
+      "k": "ali",
+      "x": 158,
+      "y": 226,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "hug",
+      "flip": true,
+      "hit": "ali"
+     },
+     {
+      "k": "fil",
+      "x": 311,
+      "y": 154,
+      "s": 0.29,
+      "z": 143,
+      "pose": "stand",
+      "mood": "happy",
+      "hit": "ke"
+     }
+    ],
+    "props": [
+     {
+      "k": "apple",
+      "x": 343.5,
+      "y": 139,
+      "s": 0.67,
+      "z": 143,
+      "hit": "ka"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 343.5,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 376,
+      "y": 142,
+      "s": 0.95
+     },
+     {
+      "k": "sayi",
+      "n": 0,
+      "x": 376,
+      "y": 156,
+      "s": 0.48,
+      "z": 143,
+      "hit": "kz"
+     },
+     {
+      "k": "sekil",
+      "shape": "rectangle",
+      "color": "#FFF6E4",
+      "x": 311,
+      "y": 165,
+      "s": 0.95
+     },
+     {
+      "k": "davul",
+      "x": 311,
+      "y": 163,
+      "s": 0.38,
+      "z": 166,
+      "hit": "kd"
+     },
+     {
+      "k": "heart",
+      "x": 133,
+      "y": 104,
+      "s": 0.8
+     }
+    ]
+   }
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TAEOB.3 (unverified) Showing phonological awareness skills: notices the first sounds of words; matches words that start with the same sound, such as apple–Ali, zero–Zeynep, drum–Deniz.",
+   "TAOB.2 Making meaning from visual materials: works out whose picture symbol card is whose from the picture and the first sound; connects the card with their own symbol in the classroom, that is, with their daily life.",
+   "TADB.3 Analysing a story they hear: retells the events of losing, searching, finding and sticking back in the order they happened.",
+   "SDB1.1 Self-Awareness: recognises their name, the first sound of their name and their own symbol; notices and names how sadness feels in the body (a lump in the throat) and tries deep breathing and asking for help.",
+   "D4 Friendship: notices a friend's problem and looks for a solution together with them."
+  ],
+  "once": [
+   "Show the cover: ask “What might Ali be looking for? A real apple, or something else?”",
+   "Look at the symbol cards in your classroom together: “What is on your card? What sound does that picture start with?”",
+   "Introduce the sound-stretching game: “Tttable, sssun.” The children stretch the first sound together with you."
+  ],
+  "sirasi": [
+   "On page 1, say “Eeela, eeelephant” and stretch the first sound; the children stretch it with you. Introduce Zeynep and Deniz too.",
+   "On page 2, name Ali's feeling and take a deep breath together.",
+   "For the prediction question on page 3, accept both answers; the cards will turn up in both places.",
+   "On page 5, before matching, give a clue by stretching the first sound: “Zzzero… Zzzeynep!”; for sounds that can't be stretched, like D, repeat it: “d-d-drum.” Let the child do the touching."
+  ],
+  "sonra": [
+   "How did Ali feel when he couldn't see his card? What happened in his body? What did he do next?",
+   "How did Ela work out whose cards they were?",
+   "What sound does your name start with? Can you say something that starts with that sound?",
+   "Let's put the story in order with the pictures: what happened first, and what happened next?"
+  ],
+  "sinif": {
+   "ad": "My Symbol Card",
+   "sure": "20 min",
+   "materyal": "Card, crayons, tape, various objects from the classroom (apple, bell, ball, book, scissors, etc.)",
+   "adim": [
+    "Make a circle. Each child stretches the first sound as they say their name: “Aaali”, “Eeela”, “Zzzeynep”.",
+    "From the objects in the middle, each child finds one that starts with the first sound of their name (Ben–book, Sam–scissors). For names with a harder first sound (Ursula–umbrella, Yasmin–yo-yo), come up with ideas together.",
+    "Each child draws a picture of the object they chose on their card; write the name under the card for any child who wants it.",
+    "Stick the cards firmly onto the cubbies or coat pegs. The next morning, mix the cards up and play “Whose card is this?”"
+   ]
+  },
+  "evSoru": [
+   "How did Ali feel when his card went missing? How would you feel?",
+   "How did Ela find the cards? How did the first sounds help her?",
+   "What sound does your name start with? What things at home start with that sound?"
+  ],
+  "evEtk": {
+   "ad": "The Picture Card on My Door",
+   "d": "With your child, choose a picture that starts with the first sound of their name (such as Deniz–drum, Ela–elephant). Draw it together and hang it on their bedroom door. Make a card for everyone in the family too; during the day, play “What sound does this picture start with, and whose door is it?”"
+  },
+  "aileNotu": "Today in class we read “Where Is Ali's Apple?” In the story, Ela returned the lost picture cards to their owners by listening to the first sounds of words: apple–Ali, zero–Zeynep, drum–Deniz. We talked with the children about which sound our names start with. At home you can go on a sound hunt with everyday objects by asking “What sound does this start with?”, saying the sounds stretched out (tttable) rather than the letter names."
+ },
+ "audio": {
+  "file": "audio/en/008-kapidaki-adimiz.mp3",
+  "hash": "63ba786d",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 21412,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2670,
+      8
+     ],
+     [
+      3430,
+      9
+     ],
+     [
+      3889,
+      10
+     ],
+     [
+      4069,
+      11
+     ],
+     [
+      4149,
+      12
+     ],
+     [
+      4410,
+      13
+     ],
+     [
+      4689,
+      14
+     ],
+     [
+      5649,
+      15
+     ],
+     [
+      6109,
+      16
+     ],
+     [
+      6289,
+      17
+     ],
+     [
+      6449,
+      18
+     ],
+     [
+      6930,
+      19
+     ],
+     [
+      7269,
+      20
+     ],
+     [
+      8069,
+      21
+     ],
+     [
+      8529,
+      22
+     ],
+     [
+      8609,
+      23
+     ],
+     [
+      8730,
+      24
+     ],
+     [
+      9009,
+      25
+     ],
+     [
+      9449,
+      26
+     ],
+     [
+      9609,
+      27
+     ],
+     [
+      9770,
+      28
+     ],
+     [
+      10089,
+      29
+     ],
+     [
+      10509,
+      30
+     ],
+     [
+      11230,
+      31
+     ],
+     [
+      11409,
+      32
+     ],
+     [
+      11850,
+      33
+     ],
+     [
+      11949,
+      34
+     ],
+     [
+      12069,
+      35
+     ],
+     [
+      12489,
+      36
+     ],
+     [
+      13049,
+      37
+     ],
+     [
+      13209,
+      38
+     ],
+     [
+      13289,
+      39
+     ],
+     [
+      14129,
+      40
+     ],
+     [
+      14430,
+      41
+     ],
+     [
+      14930,
+      42
+     ],
+     [
+      15249,
+      43
+     ],
+     [
+      15569,
+      44
+     ],
+     [
+      15729,
+      45
+     ],
+     [
+      16850,
+      46
+     ],
+     [
+      17430,
+      47
+     ],
+     [
+      18469,
+      48
+     ],
+     [
+      18690,
+      49
+     ],
+     [
+      19009,
+      50
+     ],
+     [
+      19129,
+      51
+     ],
+     [
+      19329,
+      52
+     ],
+     [
+      19850,
+      53
+     ],
+     [
+      20129,
+      54
+     ],
+     [
+      20289,
+      55
+     ],
+     [
+      20430,
+      56
+     ],
+     [
+      20789,
+      57
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 21712,
+    "d": 2106,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1021,
+      1
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 24118,
+    "d": 3153,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1269,
+      1
+     ],
+     [
+      2289,
+      2
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 27572,
+    "d": 3203,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      363,
+      1
+     ],
+     [
+      1308,
+      2
+     ],
+     [
+      1631,
+      3
+     ],
+     [
+      1954,
+      4
+     ],
+     [
+      2277,
+      5
+     ],
+     [
+      2600,
+      6
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 31075,
+    "d": 3144,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      462,
+      1
+     ],
+     [
+      1697,
+      2
+     ],
+     [
+      2681,
+      3
+     ]
+    ]
+   },
+   "p0h-ke": {
+    "s": 34519,
+    "d": 2405,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1370,
+      1
+     ],
+     [
+      2002,
+      2
+     ]
+    ]
+   },
+   "p0h-ka": {
+    "s": 37225,
+    "d": 2221,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1349,
+      1
+     ],
+     [
+      1709,
+      2
+     ]
+    ]
+   },
+   "p0h-kz": {
+    "s": 39747,
+    "d": 2407,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1449,
+      1
+     ],
+     [
+      1930,
+      2
+     ]
+    ]
+   },
+   "p0h-kd": {
+    "s": 42455,
+    "d": 2494,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1110,
+      1
+     ],
+     [
+      1963,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 45250,
+    "d": 19533,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2549,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4209,
+      9
+     ],
+     [
+      4449,
+      10
+     ],
+     [
+      4749,
+      11
+     ],
+     [
+      5029,
+      12
+     ],
+     [
+      5370,
+      13
+     ],
+     [
+      6469,
+      14
+     ],
+     [
+      6689,
+      15
+     ],
+     [
+      7089,
+      16
+     ],
+     [
+      7469,
+      17
+     ],
+     [
+      8390,
+      18
+     ],
+     [
+      8529,
+      19
+     ],
+     [
+      8709,
+      20
+     ],
+     [
+      8829,
+      21
+     ],
+     [
+      9089,
+      22
+     ],
+     [
+      9209,
+      23
+     ],
+     [
+      9350,
+      24
+     ],
+     [
+      10249,
+      25
+     ],
+     [
+      10390,
+      26
+     ],
+     [
+      10589,
+      27
+     ],
+     [
+      10749,
+      28
+     ],
+     [
+      11049,
+      29
+     ],
+     [
+      12209,
+      30
+     ],
+     [
+      12810,
+      31
+     ],
+     [
+      13049,
+      32
+     ],
+     [
+      13409,
+      33
+     ],
+     [
+      13589,
+      34
+     ],
+     [
+      14310,
+      35
+     ],
+     [
+      14489,
+      36
+     ],
+     [
+      15509,
+      37
+     ],
+     [
+      15689,
+      38
+     ],
+     [
+      16549,
+      39
+     ],
+     [
+      17069,
+      40
+     ],
+     [
+      17549,
+      41
+     ],
+     [
+      17729,
+      42
+     ],
+     [
+      18249,
+      43
+     ],
+     [
+      18569,
+      44
+     ],
+     [
+      18729,
+      45
+     ],
+     [
+      19009,
+      46
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 65083,
+    "d": 1592,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1050,
+      4
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 66975,
+    "d": 2645,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      2029,
+      6
+     ]
+    ]
+   },
+   "p1h-ke": {
+    "s": 69921,
+    "d": 2002,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1410,
+      4
+     ]
+    ]
+   },
+   "p1h-dolap": {
+    "s": 72223,
+    "d": 1582,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      930,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 74106,
+    "d": 13824,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4009,
+      9
+     ],
+     [
+      4449,
+      10
+     ],
+     [
+      4729,
+      11
+     ],
+     [
+      4989,
+      12
+     ],
+     [
+      6029,
+      13
+     ],
+     [
+      6109,
+      14
+     ],
+     [
+      6390,
+      15
+     ],
+     [
+      6729,
+      16
+     ],
+     [
+      7410,
+      17
+     ],
+     [
+      7609,
+      18
+     ],
+     [
+      8489,
+      19
+     ],
+     [
+      8650,
+      20
+     ],
+     [
+      8930,
+      21
+     ],
+     [
+      9109,
+      22
+     ],
+     [
+      9249,
+      23
+     ],
+     [
+      9449,
+      24
+     ],
+     [
+      10369,
+      25
+     ],
+     [
+      10850,
+      26
+     ],
+     [
+      11249,
+      27
+     ],
+     [
+      11489,
+      28
+     ],
+     [
+      11989,
+      29
+     ],
+     [
+      12209,
+      30
+     ],
+     [
+      12689,
+      31
+     ],
+     [
+      12909,
+      32
+     ],
+     [
+      13069,
+      33
+     ],
+     [
+      13169,
+      34
+     ],
+     [
+      13270,
+      35
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 88231,
+    "d": 3571,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      2910,
+      6
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 92102,
+    "d": 1923,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      424,
+      1
+     ],
+     [
+      777,
+      2
+     ],
+     [
+      998,
+      3
+     ],
+     [
+      1219,
+      4
+     ],
+     [
+      1440,
+      5
+     ],
+     [
+      1661,
+      6
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 94325,
+    "d": 1685,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      449,
+      3
+     ],
+     [
+      649,
+      4
+     ],
+     [
+      789,
+      5
+     ],
+     [
+      1189,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 96311,
+    "d": 1640,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      930,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 98251,
+    "d": 11723,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      2969,
+      8
+     ],
+     [
+      3769,
+      9
+     ],
+     [
+      4069,
+      10
+     ],
+     [
+      4290,
+      11
+     ],
+     [
+      4569,
+      12
+     ],
+     [
+      4689,
+      13
+     ],
+     [
+      4910,
+      14
+     ],
+     [
+      5749,
+      15
+     ],
+     [
+      5850,
+      16
+     ],
+     [
+      6049,
+      17
+     ],
+     [
+      6209,
+      18
+     ],
+     [
+      6410,
+      19
+     ],
+     [
+      6529,
+      20
+     ],
+     [
+      6649,
+      21
+     ],
+     [
+      7149,
+      22
+     ],
+     [
+      7829,
+      23
+     ],
+     [
+      7949,
+      24
+     ],
+     [
+      8289,
+      25
+     ],
+     [
+      8409,
+      26
+     ],
+     [
+      8569,
+      27
+     ],
+     [
+      8969,
+      28
+     ],
+     [
+      9089,
+      29
+     ],
+     [
+      9209,
+      30
+     ],
+     [
+      9930,
+      31
+     ],
+     [
+      10109,
+      32
+     ],
+     [
+      10549,
+      33
+     ],
+     [
+      10749,
+      34
+     ],
+     [
+      11069,
+      35
+     ],
+     [
+      11289,
+      36
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 110275,
+    "d": 2435,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      421,
+      1
+     ],
+     [
+      1063,
+      2
+     ],
+     [
+      1444,
+      3
+     ],
+     [
+      1826,
+      4
+     ],
+     [
+      2175,
+      5
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 113011,
+    "d": 1602,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      969,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 114913,
+    "d": 3742,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      2609,
+      3
+     ],
+     [
+      2829,
+      4
+     ],
+     [
+      3089,
+      5
+     ],
+     [
+      3249,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 118956,
+    "d": 19868,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1550,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      2229,
+      7
+     ],
+     [
+      2309,
+      8
+     ],
+     [
+      2430,
+      9
+     ],
+     [
+      2849,
+      10
+     ],
+     [
+      3349,
+      11
+     ],
+     [
+      3609,
+      12
+     ],
+     [
+      4469,
+      13
+     ],
+     [
+      4789,
+      14
+     ],
+     [
+      5049,
+      15
+     ],
+     [
+      5189,
+      16
+     ],
+     [
+      5370,
+      17
+     ],
+     [
+      5649,
+      18
+     ],
+     [
+      6569,
+      19
+     ],
+     [
+      8449,
+      20
+     ],
+     [
+      9549,
+      21
+     ],
+     [
+      10009,
+      22
+     ],
+     [
+      10310,
+      23
+     ],
+     [
+      10529,
+      24
+     ],
+     [
+      11169,
+      25
+     ],
+     [
+      11390,
+      26
+     ],
+     [
+      11629,
+      27
+     ],
+     [
+      12289,
+      28
+     ],
+     [
+      13509,
+      29
+     ],
+     [
+      14350,
+      30
+     ],
+     [
+      15029,
+      31
+     ],
+     [
+      15390,
+      32
+     ],
+     [
+      16190,
+      33
+     ],
+     [
+      16370,
+      34
+     ],
+     [
+      16530,
+      35
+     ],
+     [
+      16749,
+      36
+     ],
+     [
+      17450,
+      37
+     ],
+     [
+      17709,
+      38
+     ],
+     [
+      17850,
+      39
+     ],
+     [
+      18009,
+      40
+     ],
+     [
+      18869,
+      41
+     ],
+     [
+      19129,
+      42
+     ],
+     [
+      19270,
+      43
+     ],
+     [
+      19389,
+      44
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 139125,
+    "d": 1696,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      530,
+      1
+     ],
+     [
+      811,
+      2
+     ],
+     [
+      1093,
+      3
+     ],
+     [
+      1374,
+      4
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 141122,
+    "d": 2032,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1157,
+      1
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 143455,
+    "d": 1162,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      434,
+      1
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 144917,
+    "d": 2120,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      400,
+      1
+     ],
+     [
+      1453,
+      2
+     ]
+    ]
+   },
+   "p4h-ka": {
+    "s": 147338,
+    "d": 1953,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1209,
+      1
+     ]
+    ]
+   },
+   "p4h-kz": {
+    "s": 149591,
+    "d": 2089,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1190,
+      1
+     ]
+    ]
+   },
+   "p4h-kd": {
+    "s": 151981,
+    "d": 2430,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1162,
+      1
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 154711,
+    "d": 1794,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1229,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 156805,
+    "d": 15575,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1889,
+      6
+     ],
+     [
+      2110,
+      7
+     ],
+     [
+      2229,
+      8
+     ],
+     [
+      3229,
+      9
+     ],
+     [
+      3549,
+      10
+     ],
+     [
+      3889,
+      11
+     ],
+     [
+      4069,
+      12
+     ],
+     [
+      4890,
+      13
+     ],
+     [
+      5890,
+      14
+     ],
+     [
+      6949,
+      15
+     ],
+     [
+      7329,
+      16
+     ],
+     [
+      7569,
+      17
+     ],
+     [
+      8069,
+      18
+     ],
+     [
+      8669,
+      19
+     ],
+     [
+      9009,
+      20
+     ],
+     [
+      9249,
+      21
+     ],
+     [
+      9549,
+      22
+     ],
+     [
+      10609,
+      23
+     ],
+     [
+      10810,
+      24
+     ],
+     [
+      11089,
+      25
+     ],
+     [
+      11430,
+      26
+     ],
+     [
+      11689,
+      27
+     ],
+     [
+      11930,
+      28
+     ],
+     [
+      12089,
+      29
+     ],
+     [
+      12869,
+      30
+     ],
+     [
+      13089,
+      31
+     ],
+     [
+      13310,
+      32
+     ],
+     [
+      13569,
+      33
+     ],
+     [
+      14229,
+      34
+     ],
+     [
+      14469,
+      35
+     ],
+     [
+      14709,
+      36
+     ],
+     [
+      14850,
+      37
+     ],
+     [
+      15009,
+      38
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 172681,
+    "d": 1637,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      604,
+      2
+     ],
+     [
+      930,
+      3
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 174618,
+    "d": 1957,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      299,
+      1
+     ],
+     [
+      1137,
+      2
+     ],
+     [
+      1397,
+      3
+     ],
+     [
+      1657,
+      4
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 176876,
+    "d": 2557,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1609,
+      5
+     ],
+     [
+      1790,
+      6
+     ]
+    ]
+   },
+   "p5h-ka": {
+    "s": 179733,
+    "d": 2419,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      1269,
+      1
+     ],
+     [
+      1769,
+      2
+     ]
+    ]
+   },
+   "p5h-ke": {
+    "s": 182453,
+    "d": 1153,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-kz": {
+    "s": 183906,
+    "d": 1249,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-kd": {
+    "s": 185456,
+    "d": 1391,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   }
+  }
+ }
+}

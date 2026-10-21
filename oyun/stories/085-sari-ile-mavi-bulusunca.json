@@ -1,0 +1,1961 @@
+{
+ "id": "085-sari-ile-mavi-bulusunca",
+ "n": 85,
+ "title": "Sarı ile Mavi Buluşunca",
+ "age": "48-60",
+ "area": "Sanat",
+ "theme": "Renk karıştırma ve birlikte resim",
+ "values": [
+  "D4 Dostluk"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 5,
+ "blurb": "Öğretmenler Günü için resim yapan Can'da yalnız sarı, Elif'te yalnız mavi boya var. Çayır için yeşil lazım! Sarı ile mavi buluşunca ne olacak?",
+ "codes": {
+  "maarif": [
+   "beceri: SNAB4 Sanatsal Uygulama Yapma",
+   "SNAB.2 Sanat eseri inceleyebilme (eserle ilgili duygu ve düşüncelerini ifade eder, SNAB.2.g)",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme (görsellerden tahmin yürütür; TAOB.2.a görsellerle günlük yaşamı arasında ilişki kurar)",
+   "SDB2.2 İş Birliği",
+   "D4 Dostluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "can": "cocuk-erkek",
+  "elif": "cocuk-kiz",
+  "nur": "ogretmen"
+ },
+ "voiceNames": {
+  "can": "Can",
+  "elif": "Elif",
+  "nur": "Nur Öğretmen"
+ },
+ "pages": [
+  {
+   "text": "Yarın Öğretmenler Günü. Can ile Elif fısır fısır konuştu. “Nur Öğretmen'e bir resim yapalım!” dedi Can. “Kocaman, rengârenk bir resim!” dedi Elif. Kocaman kâğıdı şövaleye taktılar. Fırçalar hazır. Hadi bakalım!",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 112,
+      "y": 228,
+      "s": 1.12,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "can",
+      "turn": 0.6
+     },
+     {
+      "k": "elif",
+      "x": 318,
+      "y": 226,
+      "s": 1.12,
+      "mood": "happy",
+      "pose": "clap",
+      "hit": "elif",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 215,
+      "y": 226,
+      "s": 1.1,
+      "hit": "kagit"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Nur Öğretmen'e bir resim yapalım!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Kocaman, rengârenk bir resim!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "kagit": {
+     "anim": "wiggle",
+     "fx": "page"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Sen öğretmenine bir hediye yapsan ne yapardın?"
+  },
+  {
+   "text": "Can'ın kabında yalnız sarı boya vardı. Elif'in kabında yalnız mavi. Can güneşi boyadı, Elif göğü. “Çayır yeşil olur,” dedi Can. Elif kabına baktı: “Ama yeşil yok!” Can'ın canı sıkıldı, Elif'in de. “Offf!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 92,
+      "y": 230,
+      "s": 1.12,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "can",
+      "turn": 0.5
+     },
+     {
+      "k": "elif",
+      "x": 330,
+      "y": 228,
+      "s": 1.12,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "elif",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 210,
+      "y": 224,
+      "s": 1.2
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#F6C742",
+      "x": 182,
+      "y": 146,
+      "z": 240,
+      "s": 0.75,
+      "hit": "sari"
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#4F8FD8",
+      "x": 242,
+      "y": 142,
+      "z": 240,
+      "s": 0.75,
+      "hit": "mavi"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Çayır yeşil olur.",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "elif": {
+     "say": "Ama yeşil yok! Offf!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "sari": {
+     "anim": "boing",
+     "fx": "drip"
+    },
+    "mavi": {
+     "anim": "boing",
+     "fx": "drip"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "can",
+      "sari"
+     ],
+     [
+      "elif",
+      "mavi"
+     ]
+    ],
+    "done": "Can'da sarı, Elif'te mavi var!",
+    "msg": "Renkleri buldun!"
+   },
+   "hint": [
+    "can",
+    "Can'ın rengi hangisi?"
+   ],
+   "ask": "Can ile Elif neden üzüldü? Senin de canın sıkılınca ne yaparsın?"
+  },
+  {
+   "text": "Elif derin bir nefes aldı: hıııh… Yavaşça verdi: puuuf. Sonra gözleri parladı. “Can, bir fikrim var! Sarı ile mavi buluşsa ne olur?” Can'ın kaşları kalktı. “Deneyelim!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "elif",
+      "x": 150,
+      "y": 230,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "elif",
+      "turn": 0.6
+     },
+     {
+      "k": "can",
+      "x": 325,
+      "y": 228,
+      "s": 1.08,
+      "mood": "surprised",
+      "pose": "open",
+      "hit": "can",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 245,
+      "y": 222,
+      "s": 1.0
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#F6C742",
+      "x": 226,
+      "y": 152,
+      "z": 240,
+      "s": 0.7,
+      "hit": "sari"
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#4F8FD8",
+      "x": 266,
+      "y": 150,
+      "z": 240,
+      "s": 0.7,
+      "hit": "mavi"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Bir fikrim var!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "can": {
+     "say": "Deneyelim!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "sari": {
+     "anim": "boing",
+     "fx": "drip"
+    },
+    "mavi": {
+     "anim": "boing",
+     "fx": "drip"
+    }
+   },
+   "predict": {
+    "q": "Sence sarı ile mavi buluşunca ne olur?",
+    "res": "Hadi görelim!",
+    "opts": [
+     {
+      "l": "Yeşil olur",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "tables": false,
+       "cast": [
+        {
+         "k": "elif",
+         "x": 110,
+         "y": 230,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "point",
+         "hit": "o1",
+         "turn": 0.6
+        }
+       ],
+       "props": [
+        {
+         "k": "tahta",
+         "kind": "beyaz",
+         "show": "bos",
+         "x": 230,
+         "y": 224,
+         "s": 1.15
+        },
+        {
+         "k": "leke",
+         "upright": true,
+         "color": "#F6C742",
+         "x": 200,
+         "y": 142,
+         "z": 240,
+         "s": 0.7
+        },
+        {
+         "k": "leke",
+         "upright": true,
+         "color": "#4F8FD8",
+         "x": 262,
+         "y": 140,
+         "z": 240,
+         "s": 0.7
+        },
+        {
+         "k": "leke",
+         "upright": true,
+         "color": "#5DB04A",
+         "x": 231,
+         "y": 170,
+         "z": 241,
+         "s": 0.75,
+         "hit": "o1"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Mor olur",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "tables": false,
+       "cast": [
+        {
+         "k": "can",
+         "x": 110,
+         "y": 230,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "point",
+         "hit": "o2",
+         "turn": 0.6
+        }
+       ],
+       "props": [
+        {
+         "k": "tahta",
+         "kind": "beyaz",
+         "show": "bos",
+         "x": 230,
+         "y": 224,
+         "s": 1.15
+        },
+        {
+         "k": "leke",
+         "upright": true,
+         "color": "#F6C742",
+         "x": 200,
+         "y": 142,
+         "z": 240,
+         "s": 0.7
+        },
+        {
+         "k": "leke",
+         "upright": true,
+         "color": "#4F8FD8",
+         "x": 262,
+         "y": 140,
+         "z": 240,
+         "s": 0.7
+        },
+        {
+         "k": "leke",
+         "upright": true,
+         "color": "#9C7BD8",
+         "x": 231,
+         "y": 170,
+         "z": 241,
+         "s": 0.75,
+         "hit": "o2"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Sence hangi renk olur? Neden öyle düşündün?"
+  },
+  {
+   "text": "Önce sarı boya: pıt! Sonra mavi boya: pıt! Şimdi karıştır: fır fır fır! Aaa! Sarı ile mavi buluştu. Yemyeşil oldu! Can ile Elif birbirine baktı: “Yaşasın!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 70,
+      "y": 232,
+      "s": 1.15,
+      "mood": "surprised",
+      "pose": "point",
+      "hit": "can",
+      "turn": 0.6
+     },
+     {
+      "k": "elif",
+      "x": 340,
+      "y": 230,
+      "s": 1.15,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "karistir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 205,
+      "y": 228,
+      "s": 1.4
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#F6C742",
+      "x": 192,
+      "y": 150,
+      "z": 240,
+      "s": 0.95,
+      "hit": "sari"
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#4F8FD8",
+      "x": 224,
+      "y": 150,
+      "z": 241,
+      "s": 0.95,
+      "hit": "mavi"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Önce sarı, sonra mavi!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "sari": {
+     "anim": "boing",
+     "fx": "drip"
+    },
+    "mavi": {
+     "anim": "boing",
+     "fx": "drip"
+    },
+    "karistir": {
+     "say": "Şimdi karıştır: fır fır fır!",
+     "voice": "elif",
+     "anim": "spinme",
+     "fx": "whoosh"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "sari",
+     "mavi",
+     "karistir"
+    ],
+    "done": "Fır fır fır! Yemyeşil oldu!",
+    "msg": "Karıştırdın!"
+   },
+   "hint": [
+    "sari",
+    "Önce sarıya dokun!"
+   ],
+   "ask": "Sen hiç iki rengi karıştırdın mı? Hangi renk çıktı?"
+  },
+  {
+   "text": "Can bir çimen boyadı, sonra Elif. Fış fış, sıra sıra! Bir, iki, üç, dört, beş. Çayır yemyeşil oldu. Can güldü, Elif güldü. Resim tamam!",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 95,
+      "y": 230,
+      "s": 1.08,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "can",
+      "turn": 0.6
+     },
+     {
+      "k": "elif",
+      "x": 335,
+      "y": 229,
+      "s": 1.08,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "elif",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 215,
+      "y": 226,
+      "s": 1.3
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#F6C742",
+      "x": 180,
+      "y": 124,
+      "z": 240,
+      "s": 0.7
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#4F8FD8",
+      "x": 250,
+      "y": 120,
+      "z": 240,
+      "s": 0.7
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 160,
+      "y": 156,
+      "z": 241,
+      "s": 0.62,
+      "hit": "g1"
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 187,
+      "y": 160,
+      "z": 241,
+      "s": 0.62,
+      "hit": "g2"
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 214,
+      "y": 156,
+      "z": 241,
+      "s": 0.62,
+      "hit": "g3"
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 241,
+      "y": 160,
+      "z": 241,
+      "s": 0.62,
+      "hit": "g4"
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 268,
+      "y": 156,
+      "z": 241,
+      "s": 0.62,
+      "hit": "g5"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Sıra sende, Elif!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Bir çimen de benden!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "g": {
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "g1",
+     "g2",
+     "g3",
+     "g4",
+     "g5"
+    ],
+    "done": "Beş çimen! Çayır yemyeşil oldu.",
+    "msg": "Beş çimen!"
+   },
+   "hint": [
+    "g1",
+    "Çimenleri say!"
+   ],
+   "ask": "Can ile Elif resmi nasıl birlikte bitirdi? Sen arkadaşınla ne yapmayı seversin?"
+  },
+  {
+   "text": "Öğretmenler Günü sabahı, Can ile Elif resmi Nur Öğretmen'e gösterdi. “İyi ki varsın!” dediler. Nur Öğretmen resme uzun uzun baktı. “Ne güzel bir çayır! Bu yeşili nasıl buldunuz?” İkisi birden güldü: “Birlikte!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "cast": [
+     {
+      "k": "can",
+      "x": 62,
+      "y": 232,
+      "s": 1.08,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "can",
+      "turn": 0.6
+     },
+     {
+      "k": "elif",
+      "x": 122,
+      "y": 236,
+      "s": 1.08,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "elif",
+      "turn": 0.6
+     },
+     {
+      "k": "ogretmen",
+      "x": 330,
+      "y": 230,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "open",
+      "hit": "nur",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 200,
+      "y": 226,
+      "s": 1.1
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#F6C742",
+      "x": 170,
+      "y": 140,
+      "z": 240,
+      "s": 0.59
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#4F8FD8",
+      "x": 230,
+      "y": 136,
+      "z": 240,
+      "s": 0.59
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 153,
+      "y": 167,
+      "z": 241,
+      "s": 0.52
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 176,
+      "y": 170,
+      "z": 241,
+      "s": 0.52
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 199,
+      "y": 167,
+      "z": 241,
+      "s": 0.52,
+      "hit": "resim"
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 222,
+      "y": 170,
+      "z": 241,
+      "s": 0.52
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#5DB04A",
+      "x": 245,
+      "y": 167,
+      "z": 241,
+      "s": 0.52
+     }
+    ],
+    "tables": false
+   },
+   "hits": {
+    "can": {
+     "say": "İyi ki varsın!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "elif": {
+     "say": "Birlikte yaptık!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "nur": {
+     "say": "Ne güzel bir çayır! Teşekkür ederim.",
+     "voice": "nur",
+     "anim": "wiggle",
+     "fx": "success"
+    },
+    "resim": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "nur",
+    "Nur Öğretmen'e dokun!"
+   ],
+   "ask": "Sen öğretmenine “İyi ki varsın” demek ister misin? Nasıl söylerdin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB4 Sanatsal Uygulama Yapma (alan becerisi): Yapacağı sanat etkinliğine karar verir (öğretmenine resim yapmak), eldeki materyali kullanır ve iki rengi karıştırarak yeni bir renk elde eder.",
+   "SNAB.2 Sanat eseri inceleyebilme: Can ile Elif'in resmini inceler, resim hakkında sorular sorar ve eserle ilgili duygu ve düşüncelerini ifade eder (SNAB.2.g).",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme: Sayfadaki boya lekelerine bakarak ne olacağını tahmin eder; renk karıştırmayı kendi günlük yaşamıyla ilişkilendirir (TAOB.2.a).",
+   "SDB2.2 İş Birliği ve D4 Dostluk: Tek başına çözülemeyen bir sorunu arkadaşıyla malzemesini birleştirerek çözer; sırayla boyar ve ortak eseri birlikte hediye eder."
+  ],
+  "once": [
+   "Kapağı gösterin: 'Sarı ile mavi buluşunca ne olur sence?' Tahminleri düzeltmeden dinleyin, sonra 'Masalda bakalım' deyin.",
+   "Sınıftaki sarı ve mavi nesneleri birlikte bulun.",
+   "'Öğretmenler Günü nedir? Öğretmenimize nasıl teşekkür edebiliriz?' diye sorun."
+  ],
+  "sirasi": [
+   "1. sayfada Öğretmenler Günü'nün 24 Kasım'da kutlandığını söyleyin.",
+   "2. sayfada çocuk önce Can'a, sonra onun rengine dokunsun; Elif için de aynısını yapsın. 'Çayır neden yeşil olmalı?' diye sorun.",
+   "3. sayfada Elif'le birlikte 'hıııh… puuuf' diye nefes alın. Tahmin sorusunda her iki cevabı da merakla karşılayın.",
+   "4. sayfada 'Önce sarı, sonra mavi, sonra karıştır' diye sırayı sesli söyleyin; karıştırmak için Elif'e dokunun.",
+   "5. sayfada çimenleri birlikte sayın: 'Bir, iki, üç, dört, beş!' Can ile Elif'in sırayla boyadığını fark ettirin.",
+   "6. sayfada \"Birlikte!\" kelimesini çocukla birlikte, bir ağızdan söyleyin."
+  ],
+  "sonra": [
+   "Can ile Elif'in canı neden sıkıldı? Elif ne yaptı da bir fikir buldu?",
+   "Yeşil boya nasıl ortaya çıktı? Tahminin doğru çıktı mı?",
+   "Resimdeki sarı güneş, mavi gök ve yeşil çayır sana neler hissettiriyor?",
+   "Resmi yakından inceleyin: Hangi rengi nerede görüyorsun? En çok hangi yeri sevdin, neden?"
+  ],
+  "sinif": {
+   "ad": "Renkler buluşuyor: ortak çayır resmi",
+   "sure": "20 dk",
+   "materyal": "Sarı ve mavi parmak boyası (ya da guaj), küçük kaplar, büyük kraft kâğıt, fırçalar, önlükler, ıslak bez",
+   "adim": [
+    "Çocukları ikişerli eşleyin; birine yalnız sarı, diğerine yalnız mavi boya verin.",
+    "Önce tahmin isteyin: 'İki rengi karıştırırsak ne olur?' Tahminleri tahtaya resimle (renkli nokta) not edin.",
+    "Eşler bir damla sarı, bir damla mavi koyup karıştırsın; çıkan rengi adlandırsınlar ve tahminle karşılaştırsınlar.",
+    "Tüm eşler büyük kâğıda sırayla yeşil çimenler boyasın; ortak çayır resmini birlikte inceleyip öğretmene ya da okul çalışanlarına teşekkür resmi olarak panoya asın."
+   ]
+  },
+  "evSoru": [
+   "Can'da hangi renk vardı, Elif'te hangi renk?",
+   "Sarı ile mavi buluşunca ne oldu?",
+   "Sen bir arkadaşınla birlikte ne yapmak istersin?"
+  ],
+  "evEtk": {
+   "ad": "Mutfakta renk buluşması",
+   "d": "İki şeffaf bardağa su koyun; birine sarı, birine mavi gıda boyası (ya da suluboya) damlatın. Çocuğunuza 'Karışınca ne olur?' diye sorun, tahminini dinleyin. Sonra üçüncü bardakta iki rengi birlikte karıştırın ve çıkan rengi konuşun. İsterseniz kırmızı-sarı, kırmızı-mavi ile de deneyin."
+  },
+  "aileNotu": "Bugün 'Sarı ile Mavi Buluşunca' masalını okuduk. Can ile Elif, Öğretmenler Günü için resim yaparken yalnız sarı ve mavi boyaları olduğunu fark etti; Elif'in fikriyle renkleri karıştırıp yeşili buldular ve resmi birlikte bitirdiler. Masal renk karıştırmayı, tahmin yürütmeyi ve iş birliğini destekliyor. Evde iki rengi birlikte karıştırıp 'Ne olacak sence?' diye sormanız bu merakı büyütür."
+ },
+ "audio": {
+  "file": "audio/085-sari-ile-mavi-bulusunca.mp3",
+  "hash": "ad96d2d9",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14978,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3369,
+      7
+     ],
+     [
+      3709,
+      8
+     ],
+     [
+      4609,
+      9
+     ],
+     [
+      4830,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5449,
+      12
+     ],
+     [
+      5809,
+      13
+     ],
+     [
+      6489,
+      14
+     ],
+     [
+      6769,
+      15
+     ],
+     [
+      7309,
+      16
+     ],
+     [
+      8169,
+      17
+     ],
+     [
+      9009,
+      18
+     ],
+     [
+      9150,
+      19
+     ],
+     [
+      9850,
+      20
+     ],
+     [
+      10149,
+      21
+     ],
+     [
+      10789,
+      22
+     ],
+     [
+      11329,
+      23
+     ],
+     [
+      11730,
+      24
+     ],
+     [
+      12249,
+      25
+     ],
+     [
+      13109,
+      26
+     ],
+     [
+      13669,
+      27
+     ],
+     [
+      14289,
+      28
+     ],
+     [
+      14509,
+      29
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 15278,
+    "d": 2124,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1509,
+      4
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 17703,
+    "d": 2701,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1909,
+      2
+     ],
+     [
+      2130,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20704,
+    "d": 16387,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2849,
+      6
+     ],
+     [
+      3229,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4330,
+      9
+     ],
+     [
+      5229,
+      10
+     ],
+     [
+      5529,
+      11
+     ],
+     [
+      5930,
+      12
+     ],
+     [
+      6729,
+      13
+     ],
+     [
+      7109,
+      14
+     ],
+     [
+      7890,
+      15
+     ],
+     [
+      8270,
+      16
+     ],
+     [
+      8609,
+      17
+     ],
+     [
+      9329,
+      18
+     ],
+     [
+      9469,
+      19
+     ],
+     [
+      10149,
+      20
+     ],
+     [
+      10469,
+      21
+     ],
+     [
+      10850,
+      22
+     ],
+     [
+      11649,
+      23
+     ],
+     [
+      11890,
+      24
+     ],
+     [
+      12289,
+      25
+     ],
+     [
+      12969,
+      26
+     ],
+     [
+      13310,
+      27
+     ],
+     [
+      13589,
+      28
+     ],
+     [
+      14489,
+      29
+     ],
+     [
+      14949,
+      30
+     ],
+     [
+      15569,
+      31
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 37392,
+    "d": 1507,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      515,
+      1
+     ],
+     [
+      991,
+      2
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 39199,
+    "d": 2314,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      623,
+      1
+     ],
+     [
+      1206,
+      2
+     ],
+     [
+      1938,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 41814,
+    "d": 2374,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 44489,
+    "d": 14172,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      2394,
+      5
+     ],
+     [
+      3469,
+      6
+     ],
+     [
+      4069,
+      7
+     ],
+     [
+      5104,
+      8
+     ],
+     [
+      6209,
+      9
+     ],
+     [
+      6649,
+      10
+     ],
+     [
+      7109,
+      11
+     ],
+     [
+      8029,
+      12
+     ],
+     [
+      8589,
+      13
+     ],
+     [
+      8730,
+      14
+     ],
+     [
+      9129,
+      15
+     ],
+     [
+      9770,
+      16
+     ],
+     [
+      10109,
+      17
+     ],
+     [
+      10270,
+      18
+     ],
+     [
+      10589,
+      19
+     ],
+     [
+      11029,
+      20
+     ],
+     [
+      11169,
+      21
+     ],
+     [
+      11930,
+      22
+     ],
+     [
+      12270,
+      23
+     ],
+     [
+      12749,
+      24
+     ],
+     [
+      13589,
+      25
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 58962,
+    "d": 1042,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      297,
+      1
+     ],
+     [
+      744,
+      2
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 60304,
+    "d": 789,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 61394,
+    "d": 2771,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2430,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 64465,
+    "d": 722,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 65488,
+    "d": 13400,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2789,
+      6
+     ],
+     [
+      3349,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4410,
+      9
+     ],
+     [
+      5189,
+      10
+     ],
+     [
+      5430,
+      11
+     ],
+     [
+      5649,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      7149,
+      14
+     ],
+     [
+      7509,
+      15
+     ],
+     [
+      7649,
+      16
+     ],
+     [
+      7989,
+      17
+     ],
+     [
+      8890,
+      18
+     ],
+     [
+      9549,
+      19
+     ],
+     [
+      10350,
+      20
+     ],
+     [
+      10669,
+      21
+     ],
+     [
+      10909,
+      22
+     ],
+     [
+      11289,
+      23
+     ],
+     [
+      11810,
+      24
+     ],
+     [
+      12529,
+      25
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 79188,
+    "d": 2366,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1769,
+      3
+     ]
+    ]
+   },
+   "p3h-karistir": {
+    "s": 81855,
+    "d": 2745,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      633,
+      1
+     ],
+     [
+      1681,
+      2
+     ],
+     [
+      2022,
+      3
+     ],
+     [
+      2363,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 84900,
+    "d": 2675,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2189,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 87876,
+    "d": 13191,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3229,
+      7
+     ],
+     [
+      3829,
+      8
+     ],
+     [
+      4149,
+      9
+     ],
+     [
+      4910,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      6309,
+      12
+     ],
+     [
+      6870,
+      13
+     ],
+     [
+      7469,
+      14
+     ],
+     [
+      8390,
+      15
+     ],
+     [
+      8850,
+      16
+     ],
+     [
+      9509,
+      17
+     ],
+     [
+      10270,
+      18
+     ],
+     [
+      10569,
+      19
+     ],
+     [
+      11310,
+      20
+     ],
+     [
+      11629,
+      21
+     ],
+     [
+      12369,
+      22
+     ],
+     [
+      12749,
+      23
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 101368,
+    "d": 1267,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      809,
+      2
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 102935,
+    "d": 1423,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      285,
+      1
+     ],
+     [
+      711,
+      2
+     ],
+     [
+      956,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 104658,
+    "d": 2778,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2390,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 107737,
+    "d": 15569,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      3049,
+      7
+     ],
+     [
+      3269,
+      8
+     ],
+     [
+      3789,
+      9
+     ],
+     [
+      4890,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5249,
+      12
+     ],
+     [
+      6009,
+      13
+     ],
+     [
+      6930,
+      14
+     ],
+     [
+      7149,
+      15
+     ],
+     [
+      7769,
+      16
+     ],
+     [
+      8289,
+      17
+     ],
+     [
+      8810,
+      18
+     ],
+     [
+      9150,
+      19
+     ],
+     [
+      10029,
+      20
+     ],
+     [
+      10169,
+      21
+     ],
+     [
+      10569,
+      22
+     ],
+     [
+      10709,
+      23
+     ],
+     [
+      11489,
+      24
+     ],
+     [
+      11629,
+      25
+     ],
+     [
+      12029,
+      26
+     ],
+     [
+      12369,
+      27
+     ],
+     [
+      13310,
+      28
+     ],
+     [
+      13669,
+      29
+     ],
+     [
+      14129,
+      30
+     ],
+     [
+      14890,
+      31
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 123606,
+    "d": 1068,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      423,
+      1
+     ],
+     [
+      644,
+      2
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 124974,
+    "d": 1270,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      739,
+      1
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 126544,
+    "d": 2410,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1969,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

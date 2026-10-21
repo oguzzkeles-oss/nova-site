@@ -1,0 +1,2115 @@
+{
+ "id": "091-meydandaki-heykel",
+ "n": 91,
+ "title": "Meydandaki Heykel",
+ "age": "48-60",
+ "area": "Sanat",
+ "theme": "Heykeli tanıma, resim ile heykeli ayırma, sanat eserini koruma",
+ "values": [
+  "D7 Estetik"
+ ],
+ "sdb": "SDB3.2 Esneklik",
+ "min": 6,
+ "blurb": "Ela meydanda kocaman bir serçe görür, seslenir, şarkı söyler. Ama serçe hiç kıpırdamaz! Yakından dikkatle bakınca serçenin sırrını kendisi keşfeder.",
+ "codes": {
+  "maarif": [
+   "SNAB.2 Sanat eseri inceleyebilme (SNAB.2.ç, SNAB.2.g)",
+   "SNAB.3 Sanat eserlerine ve sanatçılara değer verebilme",
+   "SNAB.1 Temel sanat kavramlarını ve türlerini anlayabilme (SNAB.1.a) (teyitsiz)",
+   "OB9 Sanat Okuryazarlığı",
+   "SDB3.2 Esneklik",
+   "D7 Estetik"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ela": "cocuk-kiz",
+  "nine": "nine"
+ },
+ "voiceNames": {
+  "ela": "Ela",
+  "nine": "Nine (Ela'nın ninesi)"
+ },
+ "pages": [
+  {
+   "text": "Ela ile ninesi mahalledeki küçük meydana geldi. Ortada kocaman bir serçe vardı! Yüksek bir taşın üstünde dimdik duruyordu. Ela el salladı: “Merhaba, kuşçuk! Cik cik!”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 112,
+      "y": 232,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "ela"
+     },
+     {
+      "k": "nine",
+      "x": 322,
+      "y": 234,
+      "s": 0.98,
+      "mood": "think",
+      "pose": "stand",
+      "flip": true,
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "heykel",
+      "subject": "kus",
+      "x": 212,
+      "y": 225,
+      "s": 2.0,
+      "hit": "heykel"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Merhaba kuşçuk! Cik cik!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "nine": {
+     "say": "Hmm, bu serçe pek sessiz…",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "heykel": {
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Sence bu serçenin tuhaf bir yanı var mı? Ne olabilir?"
+  },
+  {
+   "text": "Serçe hiç kıpırdamadı. Ela daha yüksek sesle çağırdı: “Kuşçuk, gel! Sana şarkı söylerim!” Serçe ne uçtu ne de göz kırptı. Ela üzüldü, dudakları büzüldü. “Nine, bana küstü mü?”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 70,
+      "y": 236,
+      "s": 1.0,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 215,
+      "y": 232,
+      "s": 1.05,
+      "mood": "sad",
+      "pose": "open",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "heykel",
+      "subject": "kus",
+      "x": 322,
+      "y": 225,
+      "s": 2.0,
+      "hit": "heykel"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Kuşçuk, gel! La la la!",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "xylo"
+    },
+    "nine": {
+     "say": "Hmm… Bir yakından bakalım mı?",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "heykel": {
+     "fx": "click"
+    }
+   },
+   "predict": {
+    "q": "Sence serçe neden hiç kıpırdamıyor?",
+    "res": "Hadi yakından bakalım!",
+    "opts": [
+     {
+      "l": "Uyuyor",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "day",
+       "cast": [
+        {
+         "k": "ela",
+         "x": 130,
+         "y": 232,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "stand"
+        },
+        {
+         "k": "kus",
+         "x": 270,
+         "y": 168,
+         "s": 2.4,
+         "mood": "sleep",
+         "pose": "stand"
+        }
+       ],
+       "props": [
+        {
+         "k": "tas",
+         "x": 270,
+         "y": 236,
+         "s": 3.6,
+         "v": 1,
+         "grass": false
+        }
+       ]
+      }
+     },
+     {
+      "l": "Taştan yapılmış",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "day",
+       "cast": [
+        {
+         "k": "ela",
+         "x": 130,
+         "y": 232,
+         "s": 1.1,
+         "mood": "surprised",
+         "pose": "point"
+        }
+       ],
+       "props": [
+        {
+         "k": "heykel",
+         "subject": "kus",
+         "x": 270,
+         "y": 236,
+         "s": 2.0
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Ela neden üzüldü? Sence serçe ona küstü mü?"
+  },
+  {
+   "text": "Ela yaklaştı, dikkatle baktı. Tüyleri de gözleri de taştandı! “Nine, bu serçe taştan!” Ninesi gülümsedi: “Evet, bu bir heykel. Bir sanatçı onu taştan yonttu. Tık tık tık!”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 62,
+      "y": 236,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "open",
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 318,
+      "y": 236,
+      "s": 1.2,
+      "mood": "surprised",
+      "pose": "point",
+      "flip": true,
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "heykel",
+      "subject": "kus",
+      "x": 208,
+      "y": 225,
+      "s": 2.4,
+      "hit": "heykel"
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Günlerce, sabırla çalışmış.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "heykel": {
+     "say": "Tık tık tık! Taştan bir serçe.",
+     "voice": "anlatici",
+     "fx": "click"
+    },
+    "ela": {
+     "say": "Kim yaptı? Kaç günde yaptı?",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "heykel",
+    "Heykele dokun!"
+   ],
+   "ask": "Sen bu heykeli yapan sanatçıya ne sormak isterdin?",
+   "cues": [
+    {
+     "w": 24,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Tam o sırada, cik cik cik! Gerçek serçeler geldi. Zıp zıp sektiler, pır pır kanat çırptılar. Ela güldü: “Bunlar kıpır kıpır! Heykel ise hep dimdik.” Ela uzaktan saydı: “Bir, iki…”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 166,
+      "y": 233,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "ela"
+     },
+     {
+      "k": "kus",
+      "x": 352,
+      "y": 176,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "perch",
+      "hit": "k1",
+      "z": 250
+     },
+     {
+      "k": "kus",
+      "x": 262,
+      "y": 110,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "fly",
+      "hit": "k2"
+     },
+     {
+      "k": "kus",
+      "x": 262,
+      "y": 228,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "k3"
+     },
+     {
+      "k": "kus",
+      "x": 316,
+      "y": 233,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "stand",
+      "flip": true,
+      "hit": "k4"
+     }
+    ],
+    "props": [
+     {
+      "k": "heykel",
+      "subject": "kus",
+      "x": 86,
+      "y": 225,
+      "s": 1.7,
+      "hit": "heykel"
+     },
+     {
+      "k": "tree",
+      "x": 374,
+      "y": 236,
+      "s": 1.3
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Kıpır kıpır serçeler!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "k": {
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "heykel": {
+     "say": "Ben taştanım, sayılmam!",
+     "voice": "anlatici",
+     "fx": "click"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "k1",
+     "k2",
+     "k3",
+     "k4"
+    ],
+    "done": "Dört gerçek serçe, bir de taş serçe!",
+    "msg": "Dört serçeyi saydın!"
+   },
+   "hint": [
+    "k1",
+    "Gerçek serçeleri say!"
+   ],
+   "ask": "Gerçek serçe ile heykel serçe nasıl ayrılır? Neden uzaktan bakıyoruz?"
+  },
+  {
+   "text": "Birden rüzgâr esti, vuuu! Yerdeki kâğıtlar uçuştu, heykelin dibine yığıldı. Ela kaşlarını çattı: “Heykele çöp yakışmaz!” Ninesiyle kâğıtları çöp kovasına attılar. Sonra ellerini yıkadılar.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 62,
+      "y": 236,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 140,
+      "y": 233,
+      "s": 1.05,
+      "mood": "angry",
+      "pose": "point",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "heykel",
+      "subject": "kus",
+      "x": 262,
+      "y": 236,
+      "s": 2.0
+     },
+     {
+      "k": "cop-kagit",
+      "x": 200,
+      "y": 236,
+      "s": 1.6,
+      "hit": "p1"
+     },
+     {
+      "k": "cop-kagit",
+      "x": 262,
+      "y": 238,
+      "s": 1.6,
+      "hit": "p2"
+     },
+     {
+      "k": "cop-kagit",
+      "x": 326,
+      "y": 240,
+      "s": 1.6,
+      "kind": "gazete",
+      "hit": "p3"
+     },
+     {
+      "k": "cop-kovasi",
+      "x": 362,
+      "y": 236,
+      "s": 1.5,
+      "hit": "kova"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Çöp heykele yakışmaz!",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "nine": {
+     "say": "İyi ki fark ettin, Ela.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "kova": {
+     "fx": "thump"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "p1",
+     "p2",
+     "p3"
+    ],
+    "to": [
+     362,
+     200
+    ],
+    "done": "Tertemiz! Heykel yine pırıl pırıl.",
+    "msg": "Kâğıtlar çöp kovasında!"
+   },
+   "hint": [
+    "p1",
+    "Kâğıtları topla!"
+   ],
+   "ask": "Meydandaki heykelleri ve parkları güzel tutmak için biz ne yapabiliriz?",
+   "cues": [
+    {
+     "w": 1,
+     "fx": "ruzgar"
+    }
+   ]
+  },
+  {
+   "text": "Ela heykeli eve götürmek istedi. Ninesi çantadan iki kuş resmi, iki minik taş kuş çıkardı. “Heykel herkesin. Ama resmini yapabilirsin! Hangisi dümdüz? Hangisinin etrafında dönebiliriz?” Resimler banka, taş kuşlar heykelin yanına!",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 66,
+      "y": 210,
+      "z": 233,
+      "s": 0.98,
+      "mood": "happy",
+      "pose": "seat",
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 122,
+      "y": 234,
+      "s": 1.0,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "heykel",
+      "subject": "kus",
+      "x": 354,
+      "y": 225,
+      "s": 1.5,
+      "hit": "heykel"
+     },
+     {
+      "k": "bank",
+      "x": 78,
+      "y": 232,
+      "s": 1.05,
+      "hit": "bank"
+     },
+     {
+      "k": "resim",
+      "theme": "sun",
+      "frame": true,
+      "x": 174,
+      "y": 236,
+      "s": 0.78,
+      "hit": "r1"
+     },
+     {
+      "k": "resim",
+      "theme": "house",
+      "frame": "#5B8FD8",
+      "x": 270,
+      "y": 236,
+      "s": 0.78,
+      "hit": "r2"
+     },
+     {
+      "k": "heykel",
+      "subject": "kus",
+      "x": 222,
+      "y": 225,
+      "s": 0.62,
+      "hit": "t1"
+     },
+     {
+      "k": "heykel",
+      "subject": "kus",
+      "x": 302,
+      "y": 225,
+      "s": 0.62,
+      "hit": "t2",
+      "flip": true
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Kuşçuğu eve götürebilir miyim?",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "nine": {
+     "say": "Dümdüz olan banka, etrafında döndüğün heykele!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "sort",
+    "items": {
+     "r1": "bank",
+     "r2": "bank",
+     "t1": "heykel",
+     "t2": "heykel"
+    },
+    "bins": {
+     "bank": [
+      92,
+      205
+     ],
+     "heykel": [
+      352,
+      234
+     ]
+    },
+    "done": "Resimler bankta, taş kuşlar heykelin yanında!",
+    "msg": "Resmi ve heykeli ayırdın!"
+   },
+   "hint": [
+    "r1",
+    "Dümdüz olanı seç!"
+   ],
+   "ask": "Evimizde dümdüz olan neler var? Etrafında dönebildiğimiz neler var?"
+  },
+  {
+   "text": "Ela banka oturdu, meydanın resmini yaptı: heykel, güneş, çiçekler, bulut. Sonra heykelin etrafında döndü, fır fır! “Resmim dümdüz, senin her yanın var!” dedi. Heykele göz kırptı: “Konuşmasan da çok güzelsin. Cik cik!”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 84,
+      "y": 210,
+      "z": 233,
+      "s": 0.98,
+      "mood": "laugh",
+      "pose": "seat",
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 212,
+      "y": 234,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "resim",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "heykel",
+      "subject": "kus",
+      "x": 300,
+      "y": 225,
+      "s": 2.1,
+      "hit": "heykel"
+     },
+     {
+      "k": "bank",
+      "x": 98,
+      "y": 232,
+      "s": 1.15
+     },
+     {
+      "k": "boya-kalemi",
+      "x": 112,
+      "y": 209,
+      "z": 233,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Bak Nine, benim resmim!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "nine": {
+     "say": "Resmin dümdüz, heykelin her yanı var!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "heykel": {
+     "say": "Konuşmasan da çok güzelsin. Cik cik!",
+     "voice": "ela",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "ela",
+    "Ela'nın resmine dokun!"
+   ],
+   "ask": "Sen bir heykel yapsaydın neyin heykelini yapardın?"
+  }
+ ],
+ "order": [
+  0,
+  2,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.2 Sanat eseri inceleyebilme — SNAB.2.ç sanat eserine ilişkin sorular sorar: Ela heykele yaklaşıp dikkatle bakar, “Kim yaptı? Kaç günde yaptı?” diye sorar; SNAB.2.g eserle ilgili duygu ve düşüncelerini ifade eder: “Konuşmasan da çok güzelsin.”",
+   "SNAB.3 Sanat eserlerine ve sanatçılara değer verebilme — eserlerin nasıl yapıldığına ilişkin tahmin yürütür: sanatçının taşı “tık tık” yontarak serçeyi sabırla yaptığını konuşur; meydandaki heykeli kâğıtlardan temizleyip korur.",
+   "SNAB.1.a (teyitsiz) Resim, heykel, mimari gibi sanat türlerini ayırt eder — masalda resim ile heykel: 6. sayfada dümdüz kuş resimlerini banka, etrafında dönülebilen minik taş kuşları heykelin yanına ayırır; 7. sayfada “Resmim dümdüz, senin her yanın var!” der. Mimari (binalar) sınıf etkinliğinde üçüncü kutu olarak eklenir.",
+   "OB9 Sanat Okuryazarlığı: gündelik hayattaki (meydandaki) bir sanat eserini fark eder, ne olduğunu ve nasıl yapıldığını sorgular.",
+   "SDB3.2 Esneklik: Ela kuşun gerçek olduğunu düşünür, yeni bilgiyle fikrini değiştirir; heykeli eve götüremeyeceğini kabul eder, isteğini yeni bir uğraşla (heykelin resmini yapma) dönüştürür. Değer: D7 Estetik — güzel bir eseri korumak için çöpleri toplar."
+  ],
+  "once": [
+   "Kapaktaki serçeyi gösterin: “Sence bu serçe gerçek mi? Nereden anlarız?” Cevapları not edin, masal sonunda geri dönün.",
+   "Evdeki ya da sınıftaki küçük bir biblo veya oyuncak figürü gösterin: “Bu neden yapılmış olabilir? Kim yapmış olabilir?”"
+  ],
+  "sirasi": [
+   "1. sayfada “Bu serçede tuhaf bir şey var mı?” diye sorun; çocukların ipuçlarını (hiç kıpırdamıyor, taşın üstünde) not edin.",
+   "2. sayfada Ela'nın büzülen dudaklarını gösterin: “Ela nasıl hissediyor?” Yanlış düşünmenin ayıp olmadığını, yakından bakınca yeni şeyler öğrendiğimizi söyleyin. Tahmin sorusunda iki cevabı da kabul edin; “Neden öyle düşündün?” diye sorun.",
+   "3. sayfada heykele dokunun, “tık tık” sesini birlikte taklit edin; sanatçının taşı nasıl yonttuğunu elinizle gösterin.",
+   "4. sayfada serçeleri sayarken hayvanlara uzaktan baktığımızı, onlara bir şey atmadığımızı ve dokunmadığımızı fark ettirin.",
+   "5. sayfada: Sokakta çöpü bir büyükle birlikte toplarız, sonra ellerimizi yıkarız. İsterseniz ekleyin: heykellere tırmanmayız, üstüne çizmeyiz.",
+   "6. sayfada Ela heykeli eve götürmek ister: “Meydandaki heykel kimin?” diye sorun. Ayırma oyununda çocuk bir nesne seçince sorun: “Bunun etrafında dönebilir miyiz?” Elinizle düz bir kâğıdı ve bir oyuncak figürü çevirip gösterin.",
+   "7. sayfada heykelin etrafında birlikte “fır fır” dönün (ya da bir oyuncağın etrafında parmakla dolaşın); sonra bir kâğıdın etrafında dönmeyi deneyin: “Kâğıdın arkası var mı?”"
+  ],
+  "sonra": [
+   "Ela serçenin gerçek olduğunu düşündü. Ne olunca fikrini değiştirdi?",
+   "Heykel ile resim arasında ne fark var? Meydandaki binalar da birinin yaptığı güzel eserler mi?",
+   "Heykeli korumak için Ela ne yaptı? Biz ne yapabiliriz?",
+   "Üç resmi masaldaki sıraya göre dizin: önce ne oldu, sonra ne oldu?"
+  ],
+  "sinif": {
+   "ad": "Sınıfımızın Heykel Meydanı",
+   "sure": "25 dk",
+   "materyal": "Oyun hamuru ya da kil; resim, heykel ve bina fotoğrafları (her birinden 2-3); üç kutu ya da sepet; boş bir masa (meydan); kâğıt ve pastel boya",
+   "adim": [
+    "Resim, heykel ve bina fotoğraflarını karıştırın. Çocuklar üç kutuya ayırsın: “Dümdüz resim mi, etrafında dönülen heykel mi, içine girilen bina mı?”",
+    "Her çocuk oyun hamurundan sevdiği bir hayvanın heykelini yapsın; çimdikle, bastır, yuvarla gibi hareketleri sözle birlikte yapın.",
+    "Heykelleri masaya dizip “meydan” kurun. Çocuklar sırayla bir heykelin etrafında dolaşıp sanatçısına bir soru sorsun.",
+    "Son olarak bir arkadaşının heykelinin resmini çizsin; resimle heykeli yan yana koyup farkları konuşun. Meydanı birlikte toplayın."
+   ]
+  },
+  "evSoru": [
+   "Ela neden serçenin ona küstüğünü düşündü?",
+   "Bir heykel nasıl yapılır? Sen neyden heykel yapardın?",
+   "Parkta ya da meydanda gördüğümüz güzel şeyleri nasıl koruruz?"
+  ],
+  "evEtk": {
+   "ad": "Mahallede heykel avı",
+   "d": "Bir yürüyüşte mahallenizde ya da şehrinizde bir heykel, güzel bir bina veya duvar resmi arayın. Etrafında dolaşın; çocuğunuz neden yapıldığını ve kimin yapmış olabileceğini tahmin etsin. Eve dönünce gördüğünüzü birlikte çizin ya da hamurdan yapın. Kuşları uzaktan izleyin, onlara ekmek ya da yiyecek atmayın."
+  },
+  "aileNotu": "Bugün “Meydandaki Heykel” masalını okuduk. Ela mahalledeki meydanda taş serçeyi gerçek sandı, seslendi; yakından dikkatle bakınca onun bir sanatçının yonttuğu heykel olduğunu kendisi fark etti. Çocuklarımız bir sanat eserini incelemeyi, soru sormayı, dümdüz resim ile etrafında dönülen heykeli ayırmayı ve ortak alanlardaki eserleri korumayı konuştu. Siz de gezerken birlikte heykel ve güzel binalar arayabilir, “Bunu kim, nasıl yapmış?” diye sohbet edebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/091-meydandaki-heykel.mp3",
+  "hash": "b8467505",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12376,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      3949,
+      8
+     ],
+     [
+      4609,
+      9
+     ],
+     [
+      4769,
+      10
+     ],
+     [
+      5229,
+      11
+     ],
+     [
+      6029,
+      12
+     ],
+     [
+      6449,
+      13
+     ],
+     [
+      6569,
+      14
+     ],
+     [
+      6930,
+      15
+     ],
+     [
+      7509,
+      16
+     ],
+     [
+      8029,
+      17
+     ],
+     [
+      9069,
+      18
+     ],
+     [
+      9489,
+      19
+     ],
+     [
+      9669,
+      20
+     ],
+     [
+      10549,
+      21
+     ],
+     [
+      11009,
+      22
+     ],
+     [
+      11770,
+      23
+     ],
+     [
+      11989,
+      24
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 12676,
+    "d": 2084,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      711,
+      1
+     ],
+     [
+      1502,
+      2
+     ],
+     [
+      1773,
+      3
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 15060,
+    "d": 2309,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17670,
+    "d": 14443,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2630,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3369,
+      7
+     ],
+     [
+      4209,
+      8
+     ],
+     [
+      4930,
+      9
+     ],
+     [
+      5529,
+      10
+     ],
+     [
+      5789,
+      11
+     ],
+     [
+      6189,
+      12
+     ],
+     [
+      7149,
+      13
+     ],
+     [
+      7709,
+      14
+     ],
+     [
+      7930,
+      15
+     ],
+     [
+      8650,
+      16
+     ],
+     [
+      8789,
+      17
+     ],
+     [
+      8930,
+      18
+     ],
+     [
+      9190,
+      19
+     ],
+     [
+      10089,
+      20
+     ],
+     [
+      10469,
+      21
+     ],
+     [
+      11209,
+      22
+     ],
+     [
+      11770,
+      23
+     ],
+     [
+      12789,
+      24
+     ],
+     [
+      13449,
+      25
+     ],
+     [
+      13729,
+      26
+     ],
+     [
+      14149,
+      27
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 32413,
+    "d": 2932,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      925,
+      1
+     ],
+     [
+      1754,
+      2
+     ],
+     [
+      2133,
+      3
+     ],
+     [
+      2512,
+      4
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 35645,
+    "d": 2269,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      562,
+      1
+     ],
+     [
+      802,
+      2
+     ],
+     [
+      1395,
+      3
+     ],
+     [
+      1989,
+      4
+     ]
+    ]
+   },
+   "p1q": {
+    "s": 38214,
+    "d": 2311,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1529,
+      4
+     ]
+    ]
+   },
+   "p1r": {
+    "s": 40826,
+    "d": 1444,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      969,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 42570,
+    "d": 14704,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2849,
+      4
+     ],
+     [
+      3369,
+      5
+     ],
+     [
+      3789,
+      6
+     ],
+     [
+      4310,
+      7
+     ],
+     [
+      4449,
+      8
+     ],
+     [
+      5649,
+      9
+     ],
+     [
+      6309,
+      10
+     ],
+     [
+      6469,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7930,
+      13
+     ],
+     [
+      8350,
+      14
+     ],
+     [
+      9390,
+      15
+     ],
+     [
+      10069,
+      16
+     ],
+     [
+      10209,
+      17
+     ],
+     [
+      10350,
+      18
+     ],
+     [
+      11329,
+      19
+     ],
+     [
+      11489,
+      20
+     ],
+     [
+      12049,
+      21
+     ],
+     [
+      12249,
+      22
+     ],
+     [
+      12770,
+      23
+     ],
+     [
+      13569,
+      24
+     ],
+     [
+      13969,
+      25
+     ],
+     [
+      14350,
+      26
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 57575,
+    "d": 2220,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1469,
+      2
+     ]
+    ]
+   },
+   "p2h-heykel": {
+    "s": 60096,
+    "d": 2489,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      1869,
+      5
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 62885,
+    "d": 2425,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1909,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 65611,
+    "d": 15363,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      4249,
+      9
+     ],
+     [
+      4509,
+      10
+     ],
+     [
+      4769,
+      11
+     ],
+     [
+      5609,
+      12
+     ],
+     [
+      5890,
+      13
+     ],
+     [
+      6109,
+      14
+     ],
+     [
+      6449,
+      15
+     ],
+     [
+      7489,
+      16
+     ],
+     [
+      7849,
+      17
+     ],
+     [
+      8529,
+      18
+     ],
+     [
+      9009,
+      19
+     ],
+     [
+      9409,
+      20
+     ],
+     [
+      10109,
+      21
+     ],
+     [
+      10549,
+      22
+     ],
+     [
+      10829,
+      23
+     ],
+     [
+      11109,
+      24
+     ],
+     [
+      11989,
+      25
+     ],
+     [
+      12369,
+      26
+     ],
+     [
+      12909,
+      27
+     ],
+     [
+      13770,
+      28
+     ],
+     [
+      14709,
+      29
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 81274,
+    "d": 1723,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      519,
+      1
+     ],
+     [
+      999,
+      2
+     ]
+    ]
+   },
+   "p3h-heykel": {
+    "s": 83297,
+    "d": 1751,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 85349,
+    "d": 2973,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2390,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 88623,
+    "d": 14384,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2910,
+      4
+     ],
+     [
+      3369,
+      5
+     ],
+     [
+      3869,
+      6
+     ],
+     [
+      4709,
+      7
+     ],
+     [
+      5189,
+      8
+     ],
+     [
+      5549,
+      9
+     ],
+     [
+      6509,
+      10
+     ],
+     [
+      6809,
+      11
+     ],
+     [
+      7390,
+      12
+     ],
+     [
+      8109,
+      13
+     ],
+     [
+      8589,
+      14
+     ],
+     [
+      8850,
+      15
+     ],
+     [
+      9909,
+      16
+     ],
+     [
+      10569,
+      17
+     ],
+     [
+      11129,
+      18
+     ],
+     [
+      11350,
+      19
+     ],
+     [
+      11829,
+      20
+     ],
+     [
+      12669,
+      21
+     ],
+     [
+      13189,
+      22
+     ],
+     [
+      13629,
+      23
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 103307,
+    "d": 1511,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      279,
+      1
+     ],
+     [
+      875,
+      2
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 105118,
+    "d": 1674,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      1249,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 107093,
+    "d": 2538,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      2170,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 109931,
+    "d": 16647,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3569,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      4109,
+      9
+     ],
+     [
+      4769,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5330,
+      12
+     ],
+     [
+      5589,
+      13
+     ],
+     [
+      5809,
+      14
+     ],
+     [
+      6669,
+      15
+     ],
+     [
+      7149,
+      16
+     ],
+     [
+      8150,
+      17
+     ],
+     [
+      8369,
+      18
+     ],
+     [
+      8770,
+      19
+     ],
+     [
+      9850,
+      20
+     ],
+     [
+      10310,
+      21
+     ],
+     [
+      11129,
+      22
+     ],
+     [
+      11709,
+      23
+     ],
+     [
+      12310,
+      24
+     ],
+     [
+      13449,
+      25
+     ],
+     [
+      14089,
+      26
+     ],
+     [
+      14869,
+      27
+     ],
+     [
+      15129,
+      28
+     ],
+     [
+      15649,
+      29
+     ],
+     [
+      16169,
+      30
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 126878,
+    "d": 2055,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1670,
+      3
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 129234,
+    "d": 3250,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2630,
+      5
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 132784,
+    "d": 3352,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2769,
+      5
+     ]
+    ]
+   },
+   "p6": {
+    "s": 136436,
+    "d": 17670,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      3369,
+      6
+     ],
+     [
+      4129,
+      7
+     ],
+     [
+      4850,
+      8
+     ],
+     [
+      5709,
+      9
+     ],
+     [
+      6649,
+      10
+     ],
+     [
+      7069,
+      11
+     ],
+     [
+      7549,
+      12
+     ],
+     [
+      8190,
+      13
+     ],
+     [
+      8829,
+      14
+     ],
+     [
+      9289,
+      15
+     ],
+     [
+      10109,
+      16
+     ],
+     [
+      10589,
+      17
+     ],
+     [
+      11409,
+      18
+     ],
+     [
+      11789,
+      19
+     ],
+     [
+      12089,
+      20
+     ],
+     [
+      12409,
+      21
+     ],
+     [
+      12969,
+      22
+     ],
+     [
+      13669,
+      23
+     ],
+     [
+      14109,
+      24
+     ],
+     [
+      14390,
+      25
+     ],
+     [
+      15109,
+      26
+     ],
+     [
+      15810,
+      27
+     ],
+     [
+      15950,
+      28
+     ],
+     [
+      16190,
+      29
+     ],
+     [
+      17169,
+      30
+     ],
+     [
+      17409,
+      31
+     ]
+    ]
+   },
+   "p6h-ela": {
+    "s": 154407,
+    "d": 2163,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      345,
+      1
+     ],
+     [
+      1058,
+      2
+     ],
+     [
+      1590,
+      3
+     ]
+    ]
+   },
+   "p6h-nine": {
+    "s": 156871,
+    "d": 3022,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2569,
+      5
+     ]
+    ]
+   },
+   "p6h-heykel": {
+    "s": 160193,
+    "d": 2961,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      892,
+      1
+     ],
+     [
+      1157,
+      2
+     ],
+     [
+      1421,
+      3
+     ],
+     [
+      2391,
+      4
+     ],
+     [
+      2656,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

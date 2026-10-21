@@ -1,0 +1,1705 @@
+{
+ "id": "082-bes-duyu-pazari",
+ "lang": "en",
+ "title": "The Five Senses Market",
+ "theme": "Observing with the five senses",
+ "blurb": "Deniz goes to the local market with her grandpa. When the noise gets too much, she takes a deep breath; she smells with her nose, knows things by touch, sorts with her eyes and tastes with her tongue. In the end she can tell the market even with her eyes closed.",
+ "voiceNames": {
+  "deniz": "Deniz",
+  "dede": "Grandpa Rıfat",
+  "pazarci": "Auntie Sevim at the market"
+ },
+ "pages": [
+  {
+   "text": "On Saturday morning Deniz came to the market with Grandpa. The stallholders called out: “Fresh graaapes!” “Lovely lemooons!” The scales went jingle jangle! Deniz listened carefully. “Grandpa, the market is singing!”",
+   "hits": {
+    "deniz": {
+     "say": "My ears heard it! The market is singing!"
+    },
+    "dede": {
+     "say": "What good hearing your ears have!"
+    },
+    "pazarci": {
+     "say": "Fresh grapes! Lovely lemons!"
+    },
+    "tezgah": {
+     "say": "Fresh graaapes!"
+    },
+    "terazi": {
+     "say": "Jingle jangle!"
+    }
+   },
+   "hint": "Touch the market lady and listen!",
+   "ask": "What sounds have you heard at the market or the shops?"
+  },
+  {
+   "text": "Noise, noise, noise! Deniz felt squeezed inside. She covered her ears. “My ears are full!” Grandpa bent down. “Breathe slowly.” Deniz's nose went twitch, twitch! Ooh, lovely! Where is that smell coming from?",
+   "mech": {
+    "done": "My nose found them! Three lovely lemons.",
+    "msg": "You found them all!"
+   },
+   "hits": {
+    "deniz": {
+     "say": "Lovely! My nose found it!"
+    },
+    "dede": {
+     "say": "Take a deep breath. Smell with your nose."
+    }
+   },
+   "hint": "Find the lemons!",
+   "ask": "How do you feel when there's a lot of noise? What helps you?"
+  },
+  {
+   "text": "Grandpa thought of a game. “Close your eyes, open your hand.” Something landed in Deniz's palm. Soft, round, fuzzy… What do you think it is?",
+   "predict": {
+    "q": "What do you think is in Deniz's hand?",
+    "res": "Come on, Deniz, open your eyes!",
+    "opts": [
+     {
+      "l": "A peach"
+     },
+     {
+      "l": "A ball of wool"
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Soft, round, fuzzy… My hand knows it!"
+    },
+    "dede": {
+     "say": "Guess what this is!"
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "What can you recognise with your hands when your eyes are closed?"
+  },
+  {
+   "text": "Deniz opened her eyes. A peach! “My hand knew!” On the stall were purple and green grapes. “My eyes can tell: purple ones for my basket, green ones for Grandpa's!”",
+   "mech": {
+    "done": "Grandpa paid. Purples and greens are ready!",
+    "msg": "You sorted them by colour!"
+   },
+   "hits": {
+    "sepetMor": {
+     "say": "My eyes can tell! Purple ones in my basket!"
+    },
+    "sepetYesil": {
+     "say": "Green ones come to me!"
+    }
+   },
+   "hint": "Put the grape in its basket!",
+   "ask": "How were the grapes the same, and how were they different?"
+  },
+  {
+   "text": "At home, Grandpa washed the grapes. Splish splash! Deniz tasted a purple grape. “Mmm, sweet! My tongue tasted it!” Grandpa tasted a green grape. “Ooh, a bit sour!” Tee-hee, tee-hee!",
+   "hits": {
+    "musluk": {
+     "say": "Splish splash! First we wash them."
+    },
+    "deniz": {
+     "say": "Mmm, sweet! My tongue tasted it!"
+    },
+    "dede": {
+     "say": "Ooh, a bit sour!"
+    },
+    "tabak": {
+     "say": "Sweet or sour?"
+    }
+   },
+   "hint": "Touch Grandpa!",
+   "ask": "Which taste do you like: sweet or sour?",
+   "cues": [
+    {
+     "w": 6,
+     "fx": "musluk"
+    },
+    {
+     "w": 28,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Next Saturday, Deniz held Grandpa's hand and closed her eyes. Jingle jangle! Lovely lemons! “Fresh graaapes!” There was lots of noise again. Deniz took a deep breath and laughed. “This is the market!”",
+   "hits": {
+    "deniz": {
+     "say": "My eyes were closed, but I knew!"
+    },
+    "dede": {
+     "say": "Your ears, your nose, your hands, your tongue, your eyes!"
+    },
+    "terazi": {
+     "say": "Jingle jangle! My ears heard it!"
+    },
+    "tezgah": {
+     "say": "Fresh grapes! My ears heard it again!"
+    },
+    "limon": {
+     "say": "Lovely! My nose found it!"
+    }
+   },
+   "hint": "Listen to the scales first!",
+   "ask": "Now close your eyes. What can you hear? What can you smell?",
+   "mech": {
+    "done": "Five senses, five friends!",
+    "msg": "Ears, nose, eyes: all hard at work!"
+   }
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 Making scientific observations of science-related events, facts and situations in daily life: Observes the local market with all five senses; notices and describes the sounds with their ears (hearing), the smell of lemons with their nose (smell), the peach with their hands (touch), the colours with their eyes (sight), and sweet and sour with their tongue (taste).",
+   "FAB.2 Classifying science-related objects, events and facts by their similarities and differences: Sorts the bunches of grapes into two baskets by colour (purple/green); compares them by taste (sweet/sour).",
+   "KB2.2 Observing: Focuses attention on a single sense (only the hands or only the ears while the eyes are closed) and puts what they perceive into words (“soft, round, fuzzy”).",
+   "SDB1.1 Self-Knowledge (Self-Awareness): Notices what their body feels when there is a lot of noise (“My ears are full!”) and calms down by breathing slowly; recognises which sense is telling them what.",
+   "D5 Sensitivity: Pays attention to the sounds, smells and colours around them; notices the market seller's work and calls."
+  ],
+  "once": [
+   "Show the cover: “Where is this? What do we see and hear at a market?”",
+   "Spread your five fingers and show a sense organ for each one: eyes, ears, nose, hands, tongue. “Today in the story we'll use all of them: seeing, hearing, smelling, touching and tasting.”",
+   "Hide a piece of lemon peel under a handkerchief; let the children smell it first, then look."
+  ],
+  "sirasi": [
+   "On page 1, call out the market seller's cry together, stretching it out: “Fresh graaapes!”",
+   "On page 2, breathe slowly together with Deniz: in through the nose, out through the mouth. Then look for the lemons: “Where is the smell coming from?”",
+   "On page 3, let the children close their eyes too; put something small in their palms and have them guess. Accept both answers.",
+   "On page 4, while sorting the grapes, ask “What colour is this one? Which basket?”",
+   "On page 5, point out that they washed the fruit first: “What did they do before eating?”",
+   "On page 6, touch the scales, the lemon, the market lady and Deniz in turn; for each one ask “Which part of us told us that?”"
+  ],
+  "sonra": [
+   "What did Deniz hear at the market? What did she find the lemons with?",
+   "How did Deniz feel when there was too much noise? What did Grandpa suggest? What do you do?",
+   "What did Deniz do this time when the noise got too much?",
+   "How do you recognise something with your eyes closed?",
+   "The purple grape was sweet, the green grape was a bit sour. Which taste do you like best?",
+   "Let's put the story in order with pictures: Deniz finding the lemons, Deniz sorting the grapes, Deniz knowing the market with her eyes closed."
+  ],
+  "sinif": {
+   "ad": "The Five Senses Market",
+   "sure": "20 min",
+   "materyal": "Four or five tables or cushions; a lemon (or lemon peel), purple and green grapes (or toy grapes), a closed box with rice inside, a soft piece of fabric, two baskets, a blindfold or a clean scarf",
+   "adim": [
+    "Set up little “sense stalls” in the classroom: a smell stall (lemon peel), a hearing stall (the box of rice), a touch stall (fabric, a peach), a seeing stall (purple and green grapes, two baskets).",
+    "The children visit the stalls in small groups. At each stall ask “Which part of us told us that?” and have them point to the sense organ.",
+    "Play the eyes-closed game with those who want to; a child who doesn't want to can keep their eyes open. If you do a tasting, wash the fruit beforehand and check the allergy list.",
+    "At the end, everyone closes their eyes and listens to the classroom for one minute, then counts what they heard (up to five)."
+   ]
+  },
+  "evSoru": [
+   "What did Deniz find the lemons with?",
+   "What did they do when Deniz's ears felt full?",
+   "What was the purple grape like, and what was the green grape like?"
+  ],
+  "evEtk": {
+   "ad": "Eyes-Closed Kitchen",
+   "d": "Have your child close their eyes. Let them smell safe things from the kitchen (lemon peel, a mint leaf, a cinnamon stick) or put something in their hand (an apple, a spoon, bread). Ask “How did you know?”: with your nose, or with your hand? Then swap roles and you guess. For tasting, wash the fruit together first."
+  },
+  "aileNotu": "Today we read “The Five Senses Market”. At the market with her grandpa, Deniz discovered the sounds with her ears, the lemon with her nose, the peach with her hands, the colours with her eyes and the taste with her tongue: hearing, smelling, touching, seeing and tasting. When the noise got too much, she breathed slowly and calmed down. At the market or in the kitchen you can ask your child “What can you hear right now? What can you smell?”, and wash and taste fruit together."
+ },
+ "audio": {
+  "file": "audio/en/082-bes-duyu-pazari.mp3",
+  "hash": "25b07339",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15368,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2069,
+      7
+     ],
+     [
+      2430,
+      8
+     ],
+     [
+      2589,
+      9
+     ],
+     [
+      3489,
+      10
+     ],
+     [
+      3650,
+      11
+     ],
+     [
+      4390,
+      12
+     ],
+     [
+      4689,
+      13
+     ],
+     [
+      5189,
+      14
+     ],
+     [
+      5589,
+      15
+     ],
+     [
+      6789,
+      16
+     ],
+     [
+      7269,
+      17
+     ],
+     [
+      8509,
+      18
+     ],
+     [
+      8709,
+      19
+     ],
+     [
+      9209,
+      20
+     ],
+     [
+      9549,
+      21
+     ],
+     [
+      10029,
+      22
+     ],
+     [
+      11109,
+      23
+     ],
+     [
+      11589,
+      24
+     ],
+     [
+      12009,
+      25
+     ],
+     [
+      13049,
+      26
+     ],
+     [
+      13949,
+      27
+     ],
+     [
+      14129,
+      28
+     ],
+     [
+      14509,
+      29
+     ],
+     [
+      14709,
+      30
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 15668,
+    "d": 3129,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      325,
+      1
+     ],
+     [
+      611,
+      2
+     ],
+     [
+      897,
+      3
+     ],
+     [
+      1522,
+      4
+     ],
+     [
+      1807,
+      5
+     ],
+     [
+      2305,
+      6
+     ],
+     [
+      2591,
+      7
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 19097,
+    "d": 2179,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1689,
+      5
+     ]
+    ]
+   },
+   "p0h-pazarci": {
+    "s": 21576,
+    "d": 2901,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      2110,
+      3
+     ]
+    ]
+   },
+   "p0h-tezgah": {
+    "s": 24778,
+    "d": 1536,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ]
+    ]
+   },
+   "p0h-terazi": {
+    "s": 26615,
+    "d": 1348,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      674,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 28263,
+    "d": 17568,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      2509,
+      3
+     ],
+     [
+      2910,
+      4
+     ],
+     [
+      3249,
+      5
+     ],
+     [
+      3889,
+      6
+     ],
+     [
+      4830,
+      7
+     ],
+     [
+      5029,
+      8
+     ],
+     [
+      5370,
+      9
+     ],
+     [
+      5549,
+      10
+     ],
+     [
+      6370,
+      11
+     ],
+     [
+      6669,
+      12
+     ],
+     [
+      6969,
+      13
+     ],
+     [
+      7189,
+      14
+     ],
+     [
+      8249,
+      15
+     ],
+     [
+      8730,
+      16
+     ],
+     [
+      8969,
+      17
+     ],
+     [
+      9789,
+      18
+     ],
+     [
+      10390,
+      19
+     ],
+     [
+      11609,
+      20
+     ],
+     [
+      12149,
+      21
+     ],
+     [
+      12509,
+      22
+     ],
+     [
+      12829,
+      23
+     ],
+     [
+      13329,
+      24
+     ],
+     [
+      14249,
+      25
+     ],
+     [
+      14789,
+      26
+     ],
+     [
+      15749,
+      27
+     ],
+     [
+      15989,
+      28
+     ],
+     [
+      16110,
+      29
+     ],
+     [
+      16389,
+      30
+     ],
+     [
+      16809,
+      31
+     ],
+     [
+      17129,
+      32
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 46131,
+    "d": 2327,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      989,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 48759,
+    "d": 3395,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2509,
+      6
+     ],
+     [
+      2729,
+      7
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 52454,
+    "d": 3535,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2809,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 56290,
+    "d": 10700,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      829,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      2029,
+      6
+     ],
+     [
+      2249,
+      7
+     ],
+     [
+      2930,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3369,
+      10
+     ],
+     [
+      4290,
+      11
+     ],
+     [
+      4709,
+      12
+     ],
+     [
+      5089,
+      13
+     ],
+     [
+      5229,
+      14
+     ],
+     [
+      5689,
+      15
+     ],
+     [
+      6629,
+      16
+     ],
+     [
+      7489,
+      17
+     ],
+     [
+      8469,
+      18
+     ],
+     [
+      9629,
+      19
+     ],
+     [
+      9770,
+      20
+     ],
+     [
+      9850,
+      21
+     ],
+     [
+      9949,
+      22
+     ],
+     [
+      10149,
+      23
+     ],
+     [
+      10270,
+      24
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 67290,
+    "d": 4193,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1849,
+      2
+     ],
+     [
+      2789,
+      3
+     ],
+     [
+      2989,
+      4
+     ],
+     [
+      3369,
+      5
+     ],
+     [
+      3829,
+      6
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 71784,
+    "d": 1333,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      869,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 73417,
+    "d": 2003,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      589,
+      4
+     ],
+     [
+      729,
+      5
+     ],
+     [
+      869,
+      6
+     ],
+     [
+      1369,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 75720,
+    "d": 2499,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 78520,
+    "d": 11812,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2930,
+      6
+     ],
+     [
+      3189,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4589,
+      9
+     ],
+     [
+      4729,
+      10
+     ],
+     [
+      4870,
+      11
+     ],
+     [
+      5269,
+      12
+     ],
+     [
+      5509,
+      13
+     ],
+     [
+      5969,
+      14
+     ],
+     [
+      6129,
+      15
+     ],
+     [
+      6489,
+      16
+     ],
+     [
+      7410,
+      17
+     ],
+     [
+      7649,
+      18
+     ],
+     [
+      7890,
+      19
+     ],
+     [
+      8069,
+      20
+     ],
+     [
+      8810,
+      21
+     ],
+     [
+      9190,
+      22
+     ],
+     [
+      9369,
+      23
+     ],
+     [
+      9529,
+      24
+     ],
+     [
+      9730,
+      25
+     ],
+     [
+      10449,
+      26
+     ],
+     [
+      10770,
+      27
+     ],
+     [
+      10949,
+      28
+     ],
+     [
+      11089,
+      29
+     ]
+    ]
+   },
+   "p3h-sepetMor": {
+    "s": 90632,
+    "d": 3611,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2630,
+      6
+     ],
+     [
+      2749,
+      7
+     ],
+     [
+      2930,
+      8
+     ]
+    ]
+   },
+   "p3h-sepetYesil": {
+    "s": 94544,
+    "d": 1626,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1229,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 96470,
+    "d": 2664,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2150,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 99435,
+    "d": 14528,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3949,
+      8
+     ],
+     [
+      4370,
+      9
+     ],
+     [
+      4789,
+      10
+     ],
+     [
+      4910,
+      11
+     ],
+     [
+      5310,
+      12
+     ],
+     [
+      6489,
+      13
+     ],
+     [
+      6890,
+      14
+     ],
+     [
+      7809,
+      15
+     ],
+     [
+      8029,
+      16
+     ],
+     [
+      8390,
+      17
+     ],
+     [
+      8850,
+      18
+     ],
+     [
+      9430,
+      19
+     ],
+     [
+      9969,
+      20
+     ],
+     [
+      10369,
+      21
+     ],
+     [
+      10449,
+      22
+     ],
+     [
+      10770,
+      23
+     ],
+     [
+      11489,
+      24
+     ],
+     [
+      12069,
+      25
+     ],
+     [
+      12169,
+      26
+     ],
+     [
+      12469,
+      27
+     ],
+     [
+      13329,
+      28
+     ],
+     [
+      13858,
+      29
+     ]
+    ]
+   },
+   "p4h-musluk": {
+    "s": 114264,
+    "d": 2726,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1889,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2410,
+      5
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 117290,
+    "d": 3249,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      585,
+      1
+     ],
+     [
+      1332,
+      2
+     ],
+     [
+      1675,
+      3
+     ],
+     [
+      2270,
+      4
+     ],
+     [
+      2866,
+      5
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 120840,
+    "d": 1931,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p4h-tabak": {
+    "s": 123071,
+    "d": 1431,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      869,
+      2
+     ]
+    ]
+   },
+   "p5": {
+    "s": 124803,
+    "d": 15261,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2769,
+      6
+     ],
+     [
+      2949,
+      7
+     ],
+     [
+      3329,
+      8
+     ],
+     [
+      3549,
+      9
+     ],
+     [
+      4330,
+      10
+     ],
+     [
+      4789,
+      11
+     ],
+     [
+      5789,
+      12
+     ],
+     [
+      6329,
+      13
+     ],
+     [
+      7329,
+      14
+     ],
+     [
+      7789,
+      15
+     ],
+     [
+      9230,
+      16
+     ],
+     [
+      9430,
+      17
+     ],
+     [
+      9690,
+      18
+     ],
+     [
+      10009,
+      19
+     ],
+     [
+      10149,
+      20
+     ],
+     [
+      10449,
+      21
+     ],
+     [
+      11270,
+      22
+     ],
+     [
+      11669,
+      23
+     ],
+     [
+      11850,
+      24
+     ],
+     [
+      12029,
+      25
+     ],
+     [
+      12310,
+      26
+     ],
+     [
+      12789,
+      27
+     ],
+     [
+      12989,
+      28
+     ],
+     [
+      13850,
+      29
+     ],
+     [
+      14169,
+      30
+     ],
+     [
+      14329,
+      31
+     ],
+     [
+      14509,
+      32
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 140364,
+    "d": 2642,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2089,
+      6
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 143306,
+    "d": 4838,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3129,
+      7
+     ],
+     [
+      3849,
+      8
+     ],
+     [
+      4149,
+      9
+     ]
+    ]
+   },
+   "p5h-terazi": {
+    "s": 148444,
+    "d": 2477,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2170,
+      5
+     ]
+    ]
+   },
+   "p5h-tezgah": {
+    "s": 151222,
+    "d": 2988,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2370,
+      6
+     ]
+    ]
+   },
+   "p5h-limon": {
+    "s": 154510,
+    "d": 2184,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1869,
+      4
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 156994,
+    "d": 2207,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

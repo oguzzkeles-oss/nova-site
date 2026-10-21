@@ -1,0 +1,933 @@
+{
+ "id": "piti",
+ "lang": "en",
+ "title": "Puffy the Cloud",
+ "blurb": "A tiny cloud calls her friends to help the thirsty flowers.",
+ "pages": [
+  {
+   "text": "Up in the sky there was a tiny cloud. Her name was Puffy. Puffy was as white as cotton wool.",
+   "hits": {
+    "piti": "“Hello! I'm Puffy!”",
+    "sun": "“Good morning!”"
+   },
+   "hint": "Touch Puffy!",
+   "ask": "What do clouds look like? Have you ever found shapes in the clouds?"
+  },
+  {
+   "text": "It had not rained for days. Down below, the flowers hung their heads. “We're thirsty, so thirsty!” they said.",
+   "hits": {
+    "f": "“We're thirsty!”",
+    "sun": "“Phew, it's so hot today!”"
+   },
+   "hint": "Touch the flowers!",
+   "ask": "Why might the flowers be hanging their heads?"
+  },
+  {
+   "text": "Puffy was very sad. “I'm only a tiny little cloud. What can I do?” she thought.",
+   "hits": {
+    "piti": "“Hmm… What can I do?”"
+   },
+   "predict": {
+    "q": "What do you think Puffy will do?",
+    "res": "Good guess! Let's turn the page and see.",
+    "opts": [
+     "She calls her friends",
+     "She goes to sleep"
+    ]
+   },
+   "hint": "Touch Puffy!",
+   "ask": "Have you ever felt small? What did you do?"
+  },
+  {
+   "text": "Puffy called her friends: “Come, clouds, come!” The clouds came and held hands.",
+   "hits": {},
+   "mech": {
+    "done": "Three clouds! They held hands."
+   },
+   "hint": "Count the clouds: touch them one by one!",
+   "ask": "How many clouds came? Let's count together."
+  },
+  {
+   "text": "Together they grew and grew… They became one great big, dark grey cloud. And pitter patter, pitter patter, down came the rain!",
+   "hits": {
+    "piti": "“Hello! I'm Puffy!”"
+   },
+   "mech": {
+    "done": "All the flowers had a drink!"
+   },
+   "hint": "Touch the flowers so they can drink the rain!",
+   "ask": "Let's make the sound of rain with our fingers: pitter patter, pitter patter!"
+  },
+  {
+   "text": "The flowers lifted their heads. “Thank you, Puffy!” they said. Puffy gave a great big smile: “When we work together, even little ones can do big things!”",
+   "hits": {
+    "rbw": "A rainbow! Red, orange, yellow, green, blue, purple.",
+    "f": "“Hooray!”",
+    "piti": "“Hello! I'm Puffy!”"
+   },
+   "hint": "Touch the rainbow!",
+   "ask": "Who have you helped? Tell me about something you did together with someone."
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "Notices and talks about natural events (rain, clouds).",
+   "Recognises the importance of helping and working together.",
+   "Repeats sound words (pitter patter) and retells what they heard.",
+   "Counts objects; puts events in the order they happened."
+  ],
+  "once": [
+   "Show the cover: “What might this cloud be thinking?”",
+   "Look up at the sky together through the window."
+  ],
+  "sirasi": [
+   "On page 3, ask the prediction question and accept all answers.",
+   "On page 4, count the clouds together; on page 5, water the flowers one by one."
+  ],
+  "sonra": [
+   "Why did Puffy call her friends?",
+   "What is something you couldn't do on your own, and who did you do it with?",
+   "Put the story in order with the pictures."
+  ],
+  "sinif": {
+   "ad": "Rain Orchestra",
+   "sure": "15 min",
+   "materyal": "Cotton wool, blue paper, glue",
+   "adim": [
+    "Sit in a circle. Make the sound of rain together by clicking your fingers, rubbing your palms and patting your knees.",
+    "Each child makes a “Puffy” out of cotton wool and sticks it onto blue paper.",
+    "Join the clouds together on the display board and call it “Our big cloud”."
+   ]
+  },
+  "evSoru": [
+   "How did Puffy feel? What changed afterwards?",
+   "What jobs do we do together at home?",
+   "What happens when it rains?"
+  ],
+  "evEtk": {
+   "ad": "Cloud hunt",
+   "d": "Look up at the sky together and give the clouds shapes and names. On a rainy day, watch the drops on the window and count them."
+  },
+  "aileNotu": "Today in class we read “Puffy the Cloud”. We talked about helping and working together, and we made an orchestra out of rain sounds. At home, you can look at the clouds with your child and find shapes in them, and talk about a job you did together."
+ },
+ "audio": {
+  "file": "audio/en/piti.mp3",
+  "hash": "10589956",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 6675,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1129,
+      5
+     ],
+     [
+      1290,
+      6
+     ],
+     [
+      1410,
+      7
+     ],
+     [
+      1889,
+      8
+     ],
+     [
+      2789,
+      9
+     ],
+     [
+      2989,
+      10
+     ],
+     [
+      3269,
+      11
+     ],
+     [
+      3489,
+      12
+     ],
+     [
+      4390,
+      13
+     ],
+     [
+      4810,
+      14
+     ],
+     [
+      4989,
+      15
+     ],
+     [
+      5249,
+      16
+     ],
+     [
+      5589,
+      17
+     ],
+     [
+      5809,
+      18
+     ],
+     [
+      6229,
+      19
+     ]
+    ]
+   },
+   "p0h-piti": {
+    "s": 6975,
+    "d": 1696,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      874,
+      1
+     ],
+     [
+      1159,
+      2
+     ]
+    ]
+   },
+   "p0h-sun": {
+    "s": 8971,
+    "d": 793,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 10065,
+    "d": 8919,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      2349,
+      6
+     ],
+     [
+      2589,
+      7
+     ],
+     [
+      3229,
+      8
+     ],
+     [
+      3390,
+      9
+     ],
+     [
+      3949,
+      10
+     ],
+     [
+      4189,
+      11
+     ],
+     [
+      4390,
+      12
+     ],
+     [
+      5269,
+      13
+     ],
+     [
+      5569,
+      14
+     ],
+     [
+      6669,
+      15
+     ],
+     [
+      7189,
+      16
+     ],
+     [
+      8230,
+      17
+     ],
+     [
+      8469,
+      18
+     ]
+    ]
+   },
+   "p1h-f": {
+    "s": 19285,
+    "d": 1113,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ]
+    ]
+   },
+   "p1h-sun": {
+    "s": 20699,
+    "d": 2604,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 23604,
+    "d": 6251,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3390,
+      9
+     ],
+     [
+      4350,
+      10
+     ],
+     [
+      4529,
+      11
+     ],
+     [
+      4709,
+      12
+     ],
+     [
+      4870,
+      13
+     ],
+     [
+      5569,
+      14
+     ],
+     [
+      5789,
+      15
+     ]
+    ]
+   },
+   "p2h-piti": {
+    "s": 30155,
+    "d": 2102,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      754,
+      1
+     ],
+     [
+      1081,
+      2
+     ],
+     [
+      1408,
+      3
+     ],
+     [
+      1735,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 32558,
+    "d": 1601,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      649,
+      4
+     ],
+     [
+      1009,
+      5
+     ],
+     [
+      1209,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 34459,
+    "d": 2506,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2089,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 37266,
+    "d": 5670,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      4609,
+      10
+     ],
+     [
+      4789,
+      11
+     ],
+     [
+      5069,
+      12
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 43237,
+    "d": 2779,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1649,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2150,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 46316,
+    "d": 9674,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3289,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      4209,
+      9
+     ],
+     [
+      4669,
+      10
+     ],
+     [
+      5029,
+      11
+     ],
+     [
+      5350,
+      12
+     ],
+     [
+      6269,
+      13
+     ],
+     [
+      6509,
+      14
+     ],
+     [
+      6789,
+      15
+     ],
+     [
+      7289,
+      16
+     ],
+     [
+      7589,
+      17
+     ],
+     [
+      8289,
+      18
+     ],
+     [
+      8709,
+      19
+     ],
+     [
+      8989,
+      20
+     ],
+     [
+      9150,
+      21
+     ]
+    ]
+   },
+   "p4h-piti": {
+    "s": 56291,
+    "d": 1713,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1089,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 58304,
+    "d": 1866,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1249,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 60471,
+    "d": 10360,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      2630,
+      7
+     ],
+     [
+      3390,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      4350,
+      10
+     ],
+     [
+      4769,
+      11
+     ],
+     [
+      4969,
+      12
+     ],
+     [
+      5129,
+      13
+     ],
+     [
+      5529,
+      14
+     ],
+     [
+      5809,
+      15
+     ],
+     [
+      6649,
+      16
+     ],
+     [
+      6829,
+      17
+     ],
+     [
+      6989,
+      18
+     ],
+     [
+      7229,
+      19
+     ],
+     [
+      8029,
+      20
+     ],
+     [
+      8390,
+      21
+     ],
+     [
+      8709,
+      22
+     ],
+     [
+      8949,
+      23
+     ],
+     [
+      9129,
+      24
+     ],
+     [
+      9430,
+      25
+     ],
+     [
+      9730,
+      26
+     ]
+    ]
+   },
+   "p5h-rbw": {
+    "s": 71132,
+    "d": 5289,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      2049,
+      3
+     ],
+     [
+      2729,
+      4
+     ],
+     [
+      3410,
+      5
+     ],
+     [
+      4069,
+      6
+     ],
+     [
+      4709,
+      7
+     ]
+    ]
+   },
+   "p5h-f": {
+    "s": 76722,
+    "d": 933,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-piti": {
+    "s": 77955,
+    "d": 1670,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1150,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

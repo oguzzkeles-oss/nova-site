@@ -1,0 +1,1761 @@
+{
+ "id": "041-ninni-soyleyen-ay",
+ "n": 41,
+ "title": "Ninemin Sazı",
+ "age": "36-48",
+ "area": "Müzik",
+ "theme": "Hızlı ve yavaş ezgi, sakinleşme",
+ "values": [
+  "D15 Sevgi"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 4,
+ "blurb": "Akşamüstü çiftlikte Nine sazını çalar. Hızlı ezgiyle kuzu Pamuk hop hop zıplar; ama uyku vakti gelince duramaz. Ela, Nine'nin sazındaki yavaş ezgiyi bulur: Pamuk da Ela'nın kalbi de yavaşlar.",
+ "codes": {
+  "maarif": [
+   "MDB.1 Çeşitli müzik eserlerini dinleyebilme",
+   "TADB.4 Dinledikleri/izledikleri materyaller ve dinleme/izleme ortamına ilişkin görüşlerini yansıtabilme (materyallere ilişkin duygu ve düşüncelerini söyler)",
+   "HSAB.8 Aktif ve sağlıklı yaşam için gereken zindelik becerilerinin neler olduğunu söyleyebilme (HSAB.8.a Hareket sırasında solunum, kalp atımı değişimlerini fark eder; HSAB.8.c Gerektiğinde dinlenme ihtiyacını ifade eder)",
+   "MHB Harekete ve dansa eşlik eden ritimlerdeki özellikleri fark eder; tempo farklılıklarını hareketle gösterir (teyitsiz)",
+   "OB5 Kültür Okuryazarlığı",
+   "SDB1.2 Kendini Düzenleme",
+   "D15 Sevgi"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ela": "cocuk-kiz",
+  "nine": "nine",
+  "pamuk": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "ela": "Ela",
+  "nine": "Nine",
+  "pamuk": "Pamuk (kuzu)"
+ },
+ "pages": [
+  {
+   "text": "Akşamüstü gökyüzü turuncuydu. Nine sazına dokundu: tıngır mıngır! Ela ile kuzu Pamuk koşa koşa geldi. “Nine, bize çal!” dedi Ela.",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 150,
+      "y": 224,
+      "s": 1,
+      "mood": "happy",
+      "pose": "sit",
+      "scarf": true,
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 312,
+      "y": 228,
+      "s": 1,
+      "mood": "laugh",
+      "pose": "run",
+      "flip": true,
+      "hit": "ela"
+     },
+     {
+      "k": "kuzu",
+      "x": 238,
+      "y": 232,
+      "s": 1,
+      "mood": "happy",
+      "pose": "jump",
+      "flip": true,
+      "hit": "pamuk"
+     }
+    ],
+    "props": [
+     {
+      "k": "baglama",
+      "x": 158,
+      "y": 222,
+      "s": 0.52,
+      "z": 225,
+      "hit": "saz"
+     }
+    ]
+   },
+   "hits": {
+    "saz": {
+     "anim": "wiggle",
+     "fx": "xylo"
+    },
+    "nine": {
+     "say": "Gel Ela! Sazım seni çağırıyor.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ela": {
+     "say": "Nine, bize çal!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "pamuk": {
+     "say": "Meee! Ben de geldim!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "baa"
+    }
+   },
+   "hint": [
+    "saz",
+    "Saza dokun!"
+   ],
+   "ask": "Sence saz nasıl bir ses çıkarır? Hadi birlikte “tıngır mıngır” diyelim."
+  },
+  {
+   "text": "Nine hızlı çaldı: tıngır mıngır, tıngır mıngır! Pamuk hop hop zıpladı. Bir, iki, üç civciv de zıpladı! Ela kahkaha attı.",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 96,
+      "y": 222,
+      "s": 1,
+      "mood": "laugh",
+      "pose": "sit",
+      "scarf": true,
+      "hit": "nine"
+     },
+     {
+      "k": "kuzu",
+      "x": 194,
+      "y": 222,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "pamuk"
+     },
+     {
+      "k": "civciv",
+      "x": 268,
+      "y": 234,
+      "s": 1.35,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "c1"
+     },
+     {
+      "k": "civciv",
+      "x": 302,
+      "y": 214,
+      "s": 1.35,
+      "mood": "happy",
+      "pose": "jump",
+      "hit": "c2"
+     },
+     {
+      "k": "civciv",
+      "x": 334,
+      "y": 236,
+      "s": 1.35,
+      "mood": "laugh",
+      "pose": "jump",
+      "flip": true,
+      "hit": "c3"
+     },
+     {
+      "k": "ela",
+      "x": 376,
+      "y": 226,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "baglama",
+      "x": 104,
+      "y": 220,
+      "s": 0.52,
+      "z": 223,
+      "hit": "saz"
+     }
+    ]
+   },
+   "hits": {
+    "saz": {
+     "anim": "wiggle",
+     "fx": "xylo"
+    },
+    "nine": {
+     "say": "Tıngır mıngır, hızlı hızlı!",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "xylo"
+    },
+    "pamuk": {
+     "say": "Hop hop! Meee!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "baa"
+    },
+    "ela": {
+     "say": "Hi hi! Çok komik!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "c": {
+     "anim": "jump",
+     "fx": "peep"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "done": "Üç civciv, hop hop hop!",
+    "msg": "Üç civciv!"
+   },
+   "hint": [
+    "c1",
+    "Civcivleri say!"
+   ],
+   "ask": "Hızlı bir şarkı duyunca senin bedenin ne yapmak ister?",
+   "cues": [
+    {
+     "w": 18,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Güneş batıyordu. Pamuk'un uyku vakti geldi. Ama Pamuk durmadı: hop, hop, hop! Ela'nın kalbi küt küt atıyordu. Çok heyecanlıydı.",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 330,
+      "y": 222,
+      "s": 1,
+      "mood": "think",
+      "pose": "sit",
+      "scarf": true,
+      "flip": true,
+      "hit": "nine"
+     },
+     {
+      "k": "kuzu",
+      "x": 150,
+      "y": 214,
+      "s": 1,
+      "mood": "surprised",
+      "pose": "jump",
+      "hit": "pamuk"
+     },
+     {
+      "k": "ela",
+      "x": 238,
+      "y": 230,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "jump",
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "baglama",
+      "x": 338,
+      "y": 220,
+      "s": 0.52,
+      "z": 223,
+      "hit": "saz"
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Hop hop! Duramıyorum!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "baa"
+    },
+    "ela": {
+     "say": "Kalbim küt küt atıyor!",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "drum"
+    },
+    "nine": {
+     "say": "Hımm… Pamuk hiç durmuyor.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "click"
+    },
+    "saz": {
+     "anim": "wiggle",
+     "fx": "xylo"
+    }
+   },
+   "predict": {
+    "q": "Sence Ela ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Yavaş ezgi ister",
+      "scene": {
+       "set": "ciftlik",
+       "time": "sunset",
+       "cast": [
+        {
+         "k": "nine",
+         "x": 300,
+         "y": 222,
+         "s": 1,
+         "mood": "happy",
+         "pose": "sit",
+         "scarf": true,
+         "flip": true
+        },
+        {
+         "k": "ela",
+         "x": 200,
+         "y": 228,
+         "s": 1,
+         "mood": "think",
+         "pose": "point"
+        }
+       ],
+       "props": [
+        {
+         "k": "baglama",
+         "x": 308,
+         "y": 220,
+         "s": 0.52,
+         "z": 223
+        }
+       ]
+      }
+     },
+     {
+      "l": "Pamuk'a sarılır",
+      "scene": {
+       "set": "ciftlik",
+       "time": "sunset",
+       "cast": [
+        {
+         "k": "ela",
+         "x": 226,
+         "y": 230,
+         "s": 1,
+         "mood": "calm",
+         "pose": "hug",
+         "turn": 0.4
+        },
+        {
+         "k": "kuzu",
+         "x": 170,
+         "y": 228,
+         "s": 1,
+         "mood": "calm",
+         "pose": "stand"
+        }
+       ],
+       "props": []
+      }
+     }
+    ]
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'a dokun!"
+   ],
+   "ask": "Sen çok heyecanlanınca kalbin nasıl atar? Ne yaparsın?",
+   "cues": [
+    {
+     "w": 14,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ela bir şey düşündü. “Nine, iki ezgin var: hızlı civciv ezgisi, yavaş salyangoz ezgisi. Hangisi uyutur?” Hadi, yüzlerini bul!",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 78,
+      "y": 224,
+      "s": 1,
+      "mood": "happy",
+      "pose": "sit",
+      "scarf": true,
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 160,
+      "y": 230,
+      "s": 1,
+      "mood": "think",
+      "pose": "point",
+      "hit": "ela"
+     },
+     {
+      "k": "civciv",
+      "x": 226,
+      "y": 214,
+      "s": 1.6,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "civciv"
+     },
+     {
+      "k": "salyangoz",
+      "x": 300,
+      "y": 204,
+      "s": 1.1,
+      "mood": "calm",
+      "pose": "walk",
+      "flip": true,
+      "hit": "salyangoz"
+     }
+    ],
+    "props": [
+     {
+      "k": "baglama",
+      "x": 86,
+      "y": 222,
+      "s": 0.52,
+      "z": 225
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F28C38",
+      "mood": "laugh",
+      "x": 370,
+      "y": 234,
+      "s": 1.7,
+      "hit": "gulen"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#B39DDB",
+      "mood": "sleep",
+      "x": 270,
+      "y": 234,
+      "s": 1.7,
+      "hit": "sakin"
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Tıngır mıngır hızlı mı? Tııın yavaş mı?",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "lullaby"
+    },
+    "ela": {
+     "say": "Salyangoz ezgisi uyutur!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "civciv",
+      "gulen"
+     ],
+     [
+      "salyangoz",
+      "sakin"
+     ]
+    ],
+    "done": "Salyangoz ezgisi sakin, uyku ezgisi!",
+    "msg": "Yüzleri buldun!"
+   },
+   "hint": [
+    "civciv",
+    "Civcive, sonra yüze dokun!"
+   ],
+   "ask": "Hızlı şarkıda yüzün nasıl olur? Yavaş şarkıda nasıl olur? Bana göster."
+  },
+  {
+   "text": "Ela, “Salyangoz ezgisini çal, Nine!” dedi. Nine yavaş çaldı: tııın… tııın… Ela derin nefes aldı. Pamuk ağır ağır yürüdü. Adım, adım, bir adım daha.",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "cast": [
+     {
+      "k": "kuzu",
+      "x": 210,
+      "y": 232,
+      "s": 1,
+      "mood": "calm",
+      "pose": "walk",
+      "flip": true,
+      "hit": "pamuk"
+     },
+     {
+      "k": "ela",
+      "x": 268,
+      "y": 212,
+      "s": 0.92,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "ela"
+     },
+     {
+      "k": "nine",
+      "x": 350,
+      "y": 224,
+      "s": 1,
+      "mood": "calm",
+      "pose": "sit",
+      "scarf": true,
+      "flip": true,
+      "hit": "nine"
+     },
+     {
+      "k": "salyangoz",
+      "x": 290,
+      "y": 236,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "walk",
+      "hit": "salyangoz"
+     }
+    ],
+    "props": [
+     {
+      "k": "baglama",
+      "x": 358,
+      "y": 222,
+      "s": 0.52,
+      "z": 225,
+      "hit": "saz"
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Tııın… Ezgiyle nefes al.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "lullaby"
+    },
+    "ela": {
+     "say": "Hıııh… Fuuu… Oh!",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "salyangoz": {
+     "anim": "wiggle",
+     "fx": "lullaby"
+    },
+    "saz": {
+     "anim": "wiggle",
+     "fx": "lullaby"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "pamuk",
+    "steps": 3,
+    "step": 38,
+    "say": "Adım, adım…",
+    "done": "Pamuk ahırın kapısına vardı.",
+    "msg": "Ahıra vardı!"
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'u yürüt!"
+   ],
+   "ask": "Hadi Ela gibi yavaşça nefes alalım: hııı… fuuu… Kalbin şimdi nasıl atıyor?"
+  },
+  {
+   "text": "Pamuk ahırda mışıl mışıl uyudu. Ela ninesine sarıldı. “Sazın kalbimi yavaşlattı,” dedi. Nine gülümsedi. “Seni hızlıyken de, yavaşken de seviyorum.”",
+   "scene": {
+    "set": "ciftlik",
+    "time": "night",
+    "cast": [
+     {
+      "k": "kuzu",
+      "x": 71,
+      "y": 194,
+      "s": 0.85,
+      "mood": "sleep",
+      "pose": "stand",
+      "hit": "pamuk"
+     },
+     {
+      "k": "nine",
+      "x": 236,
+      "y": 226,
+      "s": 1,
+      "mood": "happy",
+      "pose": "hug",
+      "scarf": true,
+      "flip": true,
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 214,
+      "y": 230,
+      "s": 1,
+      "mood": "calm",
+      "pose": "hug",
+      "hit": "ela",
+      "turn": 0.4
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 330,
+      "y": 220,
+      "s": 0.9
+     },
+     {
+      "k": "baglama",
+      "x": 290,
+      "y": 228,
+      "s": 0.6,
+      "hit": "saz"
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Mmm… İyi geceler.",
+     "voice": "pamuk",
+     "anim": "wiggle",
+     "fx": "lullaby"
+    },
+    "nine": {
+     "say": "Seni çok seviyorum, Ela'm.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ela": {
+     "say": "Nine, sazın kalbimi yavaşlattı. Artık tıp… tıp…",
+     "voice": "ela",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "saz": {
+     "anim": "wiggle",
+     "fx": "lullaby"
+    }
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'a dokun!"
+   ],
+   "ask": "Senin sevdiğin bir büyüğün sana hangi şarkıyı söyler?"
+  }
+ ],
+ "order": [
+  1,
+  4,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "MDB.1 Çeşitli müzik eserlerini dinleyebilme: Çocuk, Nine'nin bağlamayla çaldığı hızlı ve yavaş ezgileri dinler; masaldan sonra kısa bir türkü ya da ninni dinleme deneyimi yaşar.",
+   "TADB.4 Dinledikleri/izledikleri materyallere ilişkin görüşlerini yansıtabilme: Hızlı ezgi ile yavaş ezgiye ilişkin duygu ve düşüncelerini söyler (“Hızlı ezgi beni güldürdü.”).",
+   "HSAB.8.a / HSAB.8.c Solunum ve kalp atımı değişimlerini fark eder, dinlenme ihtiyacını ifade eder: Hızlı ezgide zıplayınca kalbinin küt küt attığını, yavaş ezgi ve derin nefesle yavaşladığını fark eder; “Uyku vakti, dinlenmeliyim.” gibi ifadeler kullanır.",
+   "MHB · Tempo farklılıklarını hareketle gösterir (teyitsiz): Hızlı ezgide civciv gibi zıplar, yavaş ezgide salyangoz gibi ağır ağır yürür.",
+   "OB5 Kültür Okuryazarlığı: Türk halk sazı bağlamayı tanır; köyde, ailede kuşaktan kuşağa aktarılan müziği fark eder.",
+   "SDB1.2 Kendini Düzenleme: Heyecanın bedendeki işaretini (küt küt atan kalp) fark eder; yavaş ezgi ve derin nefesle sakinleşmeyi dener.",
+   "D15 Sevgi: Nine ile Ela arasındaki sevgiyi ve sevginin çocuk hızlıyken de yavaşken de değişmediğini görür."
+  ],
+  "once": [
+   "Kapaktaki bağlamayı gösterin: “Bu ne olabilir? Kim çalıyor olabilir?” Evde ya da köyde saz duyan çocuklar anlatsın.",
+   "Ellerinizle önce hızlı (pıt pıt pıt), sonra yavaş (paat… paat…) vurun; çocuklar “Hangisi hızlı, hangisi yavaş?” diye bulsun.",
+   "“Heyecanlanınca kalbimiz nasıl atar?” diye sorun; elinizi göğsünüze koyup birlikte dinleyin."
+  ],
+  "sirasi": [
+   "Hızlı ezgi sayfasında “tıngır mıngır”ı hızlıca söyleyin; çocuklar civcivleri sayarken dizlerine hızlı hızlı vursun.",
+   "Tahmin sayfasında iki fikri de dinleyin; “Sen olsan ne yapardın?” diye sakinleşme yollarını toplayın.",
+   "Eşleştirme sayfasında Nine'ye dokunup hızlı ve yavaş ezgiyi sesinizle yapın; çocuk seçtiği yüzü kendi yüzüyle de göstersin.",
+   "Yavaş ezgi sayfasında kitabı bırakıp “tııın…” diyerek birlikte üç yavaş nefes alın; Pamuk'u adım adım, ağır ağır yürütün."
+  ],
+  "sonra": [
+   "Civciv–salyangoz oyunu: Hızlı müzikte civciv gibi zıplayın, yavaş müzikte salyangoz gibi ağır ağır yürüyün; müzik durunca heykel olun.",
+   "Gerçek bir bağlama kaydı (bir türkü ve bir ninni) dinleyin; “Bu hangi yüz, gülen mi uykulu mu?” diye sorun.",
+   "Çocuklara “Seni en çok ne sakinleştirir?” diye sorun; cevaplarını resimle çizsinler (yazı yok, sembol yeter).",
+   "Sıralama oyunundan sonra masalı kendi sözleriyle anlatsınlar: “Önce Nine hızlı çaldı, sonra…”"
+  ],
+  "sinif": {
+   "ad": "Hızlı Civciv, Yavaş Salyangoz",
+   "sure": "15 dk",
+   "materyal": "Bağlama ya da başka bir çalgının hızlı ve yavaş ezgi kaydı, turuncu gülen yıldız kartı ve lila uykulu yüz kartı, geniş bir alan",
+   "adim": [
+    "Gülen ve uykulu yüz kartlarını odanın iki ucuna koyun.",
+    "Hızlı ezgiyi çalın; çocuklar civciv gibi zıplayarak gülen yüze gitsin.",
+    "Yavaş ezgiyi çalın; çocuklar salyangoz gibi ağır ağır uykulu yüze yürüsün.",
+    "Birkaç kez değiştirin; son olarak yavaş ezgiyle yere uzanıp üç derin nefes alın.",
+    "Halkada sorun: “Hangi ezgide kalbin hızlandı, hangisinde yavaşladı?”"
+   ]
+  },
+  "evSoru": [
+   "Nine hızlı çalınca Pamuk ne yaptı? Ya yavaş çalınca?",
+   "Sen heyecanlanınca seni ne sakinleştirir?",
+   "Bizim ailemizde hangi şarkıları, türküleri, ninnileri söyleriz?"
+  ],
+  "evEtk": {
+   "ad": "Yavaş Ezgiyle Yatağa",
+   "d": "Yatmadan önce birlikte bir hızlı şarkıyla kısa bir dans yapın, ardından bir ninni ya da yavaş bir türkü açın. Ezginin temposuyla yavaşlayın, üç derin nefes alın. Varsa büyükanne ya da büyükbabadan bildiği bir ninniyi telefonla söylemesini isteyin."
+  },
+  "aileNotu": "Bugün “Ninemin Sazı” masalını okuduk. Nine'nin bağlamasıyla hızlı ve yavaş ezgileri dinledik; hızlı ezginin bizi neşelendirdiğini, yavaş ezginin sakinleştirdiğini keşfettik. Heyecanlanınca kalbin küt küt attığını ve yavaş bir ezgiyle, derin nefesle yavaşlayabildiğini konuştuk. Evde yatmadan önce birlikte bir ninni ya da yavaş bir türkü dinlemeniz bu öğrenmeyi güçlendirir."
+ },
+ "audio": {
+  "file": "audio/041-ninni-soyleyen-ay.mp3",
+  "hash": "41fbbc7a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11452,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      2549,
+      3
+     ],
+     [
+      2910,
+      4
+     ],
+     [
+      3390,
+      5
+     ],
+     [
+      4370,
+      6
+     ],
+     [
+      4949,
+      7
+     ],
+     [
+      5949,
+      8
+     ],
+     [
+      6329,
+      9
+     ],
+     [
+      6589,
+      10
+     ],
+     [
+      6930,
+      11
+     ],
+     [
+      7289,
+      12
+     ],
+     [
+      7649,
+      13
+     ],
+     [
+      8009,
+      14
+     ],
+     [
+      8989,
+      15
+     ],
+     [
+      9690,
+      16
+     ],
+     [
+      10049,
+      17
+     ],
+     [
+      10770,
+      18
+     ],
+     [
+      11129,
+      19
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 11752,
+    "d": 2347,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1709,
+      4
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 14400,
+    "d": 1332,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      615,
+      1
+     ],
+     [
+      1045,
+      2
+     ]
+    ]
+   },
+   "p0h-pamuk": {
+    "s": 16032,
+    "d": 1966,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      973,
+      1
+     ],
+     [
+      1228,
+      2
+     ],
+     [
+      1482,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18299,
+    "d": 11120,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      4009,
+      7
+     ],
+     [
+      4569,
+      8
+     ],
+     [
+      4850,
+      9
+     ],
+     [
+      5129,
+      10
+     ],
+     [
+      6109,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      7449,
+      13
+     ],
+     [
+      7949,
+      14
+     ],
+     [
+      8409,
+      15
+     ],
+     [
+      8609,
+      16
+     ],
+     [
+      9589,
+      17
+     ],
+     [
+      9949,
+      18
+     ],
+     [
+      10649,
+      19
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 29720,
+    "d": 1960,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      473,
+      1
+     ],
+     [
+      1053,
+      2
+     ],
+     [
+      1486,
+      3
+     ]
+    ]
+   },
+   "p1h-pamuk": {
+    "s": 31980,
+    "d": 1139,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      226,
+      1
+     ],
+     [
+      635,
+      2
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 33419,
+    "d": 1405,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      263,
+      1
+     ],
+     [
+      752,
+      2
+     ],
+     [
+      975,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 35125,
+    "d": 1794,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1349,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 37219,
+    "d": 10845,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      3509,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4169,
+      8
+     ],
+     [
+      5109,
+      9
+     ],
+     [
+      5689,
+      10
+     ],
+     [
+      6269,
+      11
+     ],
+     [
+      7009,
+      12
+     ],
+     [
+      7589,
+      13
+     ],
+     [
+      8049,
+      14
+     ],
+     [
+      8310,
+      15
+     ],
+     [
+      8569,
+      16
+     ],
+     [
+      9549,
+      17
+     ],
+     [
+      9829,
+      18
+     ]
+    ]
+   },
+   "p2h-pamuk": {
+    "s": 48365,
+    "d": 1734,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 50400,
+    "d": 2368,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      680,
+      1
+     ],
+     [
+      1047,
+      2
+     ],
+     [
+      1415,
+      3
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 53068,
+    "d": 2442,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      736,
+      1
+     ],
+     [
+      1291,
+      2
+     ],
+     [
+      1610,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 55811,
+    "d": 1513,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      398,
+      1
+     ],
+     [
+      756,
+      2
+     ],
+     [
+      962,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 57624,
+    "d": 2599,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 60523,
+    "d": 11090,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2630,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3410,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      4410,
+      9
+     ],
+     [
+      4890,
+      10
+     ],
+     [
+      5809,
+      11
+     ],
+     [
+      6249,
+      12
+     ],
+     [
+      7109,
+      13
+     ],
+     [
+      8029,
+      14
+     ],
+     [
+      8609,
+      15
+     ],
+     [
+      9489,
+      16
+     ],
+     [
+      10190,
+      17
+     ],
+     [
+      10810,
+      18
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 71914,
+    "d": 3170,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      465,
+      1
+     ],
+     [
+      891,
+      2
+     ],
+     [
+      1317,
+      3
+     ],
+     [
+      1852,
+      4
+     ],
+     [
+      2459,
+      5
+     ],
+     [
+      2885,
+      6
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 75385,
+    "d": 1808,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1290,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 77493,
+    "d": 3386,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      2269,
+      3
+     ],
+     [
+      2689,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 81180,
+    "d": 15797,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1749,
+      2
+     ],
+     [
+      2449,
+      3
+     ],
+     [
+      3229,
+      4
+     ],
+     [
+      4109,
+      5
+     ],
+     [
+      4890,
+      6
+     ],
+     [
+      5289,
+      7
+     ],
+     [
+      5769,
+      8
+     ],
+     [
+      6850,
+      9
+     ],
+     [
+      7829,
+      10
+     ],
+     [
+      8930,
+      11
+     ],
+     [
+      9230,
+      12
+     ],
+     [
+      9629,
+      13
+     ],
+     [
+      10089,
+      14
+     ],
+     [
+      10829,
+      15
+     ],
+     [
+      11329,
+      16
+     ],
+     [
+      11669,
+      17
+     ],
+     [
+      11949,
+      18
+     ],
+     [
+      12949,
+      19
+     ],
+     [
+      13829,
+      20
+     ],
+     [
+      14689,
+      21
+     ],
+     [
+      14930,
+      22
+     ],
+     [
+      15310,
+      23
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 97277,
+    "d": 2344,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      973,
+      1
+     ],
+     [
+      1605,
+      2
+     ],
+     [
+      2049,
+      3
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 99922,
+    "d": 2064,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      912,
+      1
+     ],
+     [
+      1785,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 102286,
+    "d": 1912,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 104499,
+    "d": 1292,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      734,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 106091,
+    "d": 13060,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2569,
+      5
+     ],
+     [
+      2910,
+      6
+     ],
+     [
+      3589,
+      7
+     ],
+     [
+      4689,
+      8
+     ],
+     [
+      5089,
+      9
+     ],
+     [
+      5689,
+      10
+     ],
+     [
+      7009,
+      11
+     ],
+     [
+      7689,
+      12
+     ],
+     [
+      8049,
+      13
+     ],
+     [
+      9310,
+      14
+     ],
+     [
+      9649,
+      15
+     ],
+     [
+      10430,
+      16
+     ],
+     [
+      10969,
+      17
+     ],
+     [
+      11749,
+      18
+     ],
+     [
+      12329,
+      19
+     ]
+    ]
+   },
+   "p5h-pamuk": {
+    "s": 119452,
+    "d": 1923,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      668,
+      1
+     ],
+     [
+      1169,
+      2
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 121675,
+    "d": 1574,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 123549,
+    "d": 5068,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      772,
+      1
+     ],
+     [
+      1318,
+      2
+     ],
+     [
+      2097,
+      3
+     ],
+     [
+      3481,
+      4
+     ],
+     [
+      4028,
+      5
+     ],
+     [
+      4714,
+      6
+     ]
+    ]
+   }
+  }
+ }
+}

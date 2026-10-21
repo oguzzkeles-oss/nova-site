@@ -1,0 +1,1665 @@
+{
+ "id": "027-dedem-ve-kaybolan-gozluk",
+ "lang": "en",
+ "title": "Grandpa and the Lost Glasses",
+ "theme": "Following clues and laughing at yourself",
+ "blurb": "Deniz wants to hear a story, but Grandpa's glasses are missing! The little detective asks questions and follows the clues; when the glasses turn up, it's Grandpa who laughs the hardest, at himself.",
+ "voiceNames": {
+  "dede": "Grandpa (Deniz's grandpa)",
+  "deniz": "Deniz",
+  "kaymak": "Creamy (cat)"
+ },
+ "pages": [
+  {
+   "text": "Deniz grabbed her storybook and ran to Grandpa. “Grandpa, will you read me a story?” she asked. “Top of my list!” said Grandpa. He reached into his pocket. Empty! “Where are my glasses?”",
+   "hits": {
+    "dede": {
+     "say": "Where are my glasses?"
+    },
+    "deniz": {
+     "say": "Grandpa, will you read me a story?"
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "Why might Grandpa wear glasses to read a story? Who wears glasses in your home?"
+  },
+  {
+   "text": "Grandpa and Deniz looked everywhere. Creamy the cat came along behind them. Behind the cushions, under the sofa… What a lot of things they found! A ball, a puzzle piece and a coin. But no glasses!",
+   "hits": {
+    "dede": {
+     "say": "Glasses, glasses, where are you?"
+    },
+    "deniz": {
+     "say": "There's something under the sofa!"
+    }
+   },
+   "mech": {
+    "done": "You found three things, but no glasses!",
+    "msg": "You found them all!"
+   },
+   "hint": "Find the hidden things!",
+   "ask": "Have you ever lost something at home? Where did you find it in the end?"
+  },
+  {
+   "text": "Grandpa squinted. Two round things were shining on the sofa. “Found them! Creamy is wearing my glasses!” “Grandpa, those are Creamy's eyes!” said Deniz. They both burst out giggling.",
+   "hits": {
+    "dede": {
+     "say": "Found them! Creamy is wearing my glasses!"
+    },
+    "kaymak": {
+     "say": "Meow? Glasses?"
+    },
+    "deniz": {
+     "say": "Grandpa, those are Creamy's eyes!"
+    }
+   },
+   "predict": {
+    "q": "Where do you think the glasses are?",
+    "res": "Good guess! Come on, let's follow the clues.",
+    "opts": [
+     {
+      "l": "In the kitchen"
+     },
+     {
+      "l": "On Grandpa's head"
+     }
+    ]
+   },
+   "hint": "Touch Creamy!",
+   "ask": "Why did Grandpa think Creamy's eyes were his glasses? What does everything look like without glasses?",
+   "cues": [
+    {
+     "w": 28,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Deniz became a detective. “Grandpa, what did you do last?” she asked. Grandpa thought: “I read the newspaper. I had my lentil soup. The steam fogged up my glasses. Then I stroked Creamy.”",
+   "hits": {
+    "dede": {
+     "say": "Hmm… First the newspaper, then the soup…"
+    },
+    "deniz": {
+     "say": "Grandpa, what did you do last?"
+    }
+   },
+   "mech": {
+    "done": "Where did the foggy glasses go, I wonder?",
+    "msg": "You found the clues in order!"
+   },
+   "hint": "What did Grandpa do? Touch them in order!",
+   "ask": "What did Grandpa do first, and what next? What does the steam from hot soup do to glasses?"
+  },
+  {
+   "text": "Deniz thought: “You can't see a thing with foggy glasses. Grandpa must have pushed them up!” She looked up. “Meow!” Creamy hopped up onto the chair too. Something was shining on Grandpa's head.",
+   "hits": {
+    "dede": {
+     "say": "On top of my head? Oh!"
+    },
+    "kaymak": {
+     "say": "Meow! Meow!"
+    },
+    "deniz": {
+     "say": "Grandpa must have pushed them up!"
+    }
+   },
+   "mech": {
+    "done": "The glasses were on top of Grandpa's head all along!",
+    "msg": "You found them!"
+   },
+   "hint": "Touch the shining glasses!",
+   "ask": "How did Deniz find the glasses? Which clues helped her?"
+  },
+  {
+   "text": "Grandpa laughed and laughed. “I said ‘top of my list’, and they were on top of my head!” Deniz laughed too. “I once hunted for my slipper on my foot!” Grandpa put his glasses on and opened the book: “Once upon a time…”",
+   "hits": {
+    "dede": {
+     "say": "Thank you, my detective! Everyone forgets sometimes."
+    },
+    "deniz": {
+     "say": "I once hunted for my slipper while it was on my foot!"
+    },
+    "kaymak": {
+     "say": "Purrr… purrr…"
+    }
+   },
+   "hint": "Touch Grandpa!",
+   "ask": "Have you ever forgotten something? What happened next? Did you laugh about it together?",
+   "cues": [
+    {
+     "w": 1,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.2 (learning outcome) · Building new meaning from materials such as stories they hear or watch — process components: makes inferences about the materials (from the order Grandpa describes, reaches the conclusion “the steam fogged up the glasses, and Grandpa pushed them up onto his head”); links information in the materials to daily life (talks about things lost at home and found in the most unlikely places).",
+   "TAOB.2 (learning outcome) · Making meaning from visual materials — TAOB.2.a links information in visual reading materials to daily life: notices from the picture the glasses sitting on Grandpa's head on every page, makes predictions from the pictures and connects the fogging of the glasses to their own experience.",
+   "OB5 Cultural Literacy: recognises the meaning of the saying “top of my list” and the story opening “Once upon a time”; notices the tradition of listening to Grandpa's stories and everyday cultural details such as lentil soup.",
+   "SDB2.1 Communication · KB2.10 Making Inferences · E3.8 Asking Questions: asks questions to solve a problem (“Grandpa, what did you do last?”), listens to the answer, says clearly what they see. Value: D10 Modesty — Grandpa does not hide his mistake, laughs at himself and thanks his granddaughter for her help; Deniz shares her own forgetfulness too."
+  ],
+  "once": [
+   "Point to Grandpa and Deniz on the cover and ask: “What might Grandpa be looking for?”",
+   "Talk about whether anyone at home wears glasses. What are glasses for?",
+   "Give the child a job: “In this story, look at the pictures like a detective. If you spot a hidden clue, say so straight away!”"
+  ],
+  "sirasi": [
+   "On page 1, stress the saying “Top of my list!” and ask what it means; it will come back at the end of the story.",
+   "On page 2, as you find the hidden things, ask: “How might these have got here?” If the child spots the glasses on Grandpa's head, share their delight.",
+   "On page 3, squint and look at Creamy through Grandpa's eyes; accept both ideas in the prediction question.",
+   "On page 4, count what Grandpa describes on your fingers: first the newspaper, then the soup, then Creamy. Ask: “What happens with foggy glasses?”",
+   "On page 5, say together how Deniz worked it out; let the child find the glasses and say it themselves: “On top of his head!”"
+  ],
+  "sonra": [
+   "Why were the glasses on top of Grandpa's head? (The steam fogged up the glasses; Grandpa pushed them up onto his head.)",
+   "What did Grandpa do when the glasses were found? Did he get cross, or did he laugh? What would you have done?",
+   "What does “top of my list” mean? Who would you say “Top of my list!” to?"
+  ],
+  "sinif": {
+   "ad": "Class Detectives: Glasses Hunt",
+   "sure": "20 min",
+   "materyal": "Toy or cardboard glasses, three picture clue cards (e.g. bookshelf, window, teacher's desk), a short story beginning “Once upon a time”",
+   "adim": [
+    "While the children close their eyes, put the glasses somewhere visible but surprising (on top of the teacher's head works too!).",
+    "Show the three picture clue cards one by one; the children put the cards in order and follow the trail.",
+    "Ask the child who finds the glasses: “How did you work it out?” Retell the clues together from the start.",
+    "To finish, sit in a circle; the teacher puts on the glasses and reads a short story beginning “Once upon a time…”"
+   ]
+  },
+  "evSoru": [
+   "Why couldn't Grandpa find his glasses?",
+   "What question did Deniz ask? Why did that question help?",
+   "What did you lose last? Where did you find it?"
+  ],
+  "evEtk": {
+   "ad": "Detective Game at Home",
+   "d": "A family member puts something from the home (a slipper, a spoon, a toy) somewhere visible but surprising. The child follows the trail by asking questions such as “What did you do last?” When it is found, swap roles. At the end of the day, ask a grown-up for a story that begins “Once upon a time…”"
+  },
+  "aileNotu": "Today we read “Grandpa and the Lost Glasses.” Deniz finds the missing glasses of her grandpa, who wants to read her a story, by asking questions and following the clues: the glasses were on top of Grandpa's head the whole time! We talked about Grandpa laughing at himself, saying “Everyone forgets sometimes” and thanking his granddaughter. When something goes missing at home, you can try thinking together, “What did we do last?”, and laughing together about little slips of memory."
+ },
+ "audio": {
+  "file": "audio/en/027-dedem-ve-kaybolan-gozluk.mp3",
+  "hash": "3d678297",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12916,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      2049,
+      6
+     ],
+     [
+      2170,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3769,
+      9
+     ],
+     [
+      3949,
+      10
+     ],
+     [
+      4089,
+      11
+     ],
+     [
+      4269,
+      12
+     ],
+     [
+      4390,
+      13
+     ],
+     [
+      4489,
+      14
+     ],
+     [
+      5229,
+      15
+     ],
+     [
+      5469,
+      16
+     ],
+     [
+      6209,
+      17
+     ],
+     [
+      6509,
+      18
+     ],
+     [
+      6649,
+      19
+     ],
+     [
+      6829,
+      20
+     ],
+     [
+      7529,
+      21
+     ],
+     [
+      7749,
+      22
+     ],
+     [
+      8690,
+      23
+     ],
+     [
+      8890,
+      24
+     ],
+     [
+      9209,
+      25
+     ],
+     [
+      9449,
+      26
+     ],
+     [
+      9609,
+      27
+     ],
+     [
+      10629,
+      28
+     ],
+     [
+      11649,
+      29
+     ],
+     [
+      11850,
+      30
+     ],
+     [
+      11969,
+      31
+     ],
+     [
+      12129,
+      32
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 13216,
+    "d": 1347,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      509,
+      3
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 14864,
+    "d": 2456,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      1909,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17621,
+    "d": 13658,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      3529,
+      9
+     ],
+     [
+      3809,
+      10
+     ],
+     [
+      4149,
+      11
+     ],
+     [
+      4749,
+      12
+     ],
+     [
+      5069,
+      13
+     ],
+     [
+      5189,
+      14
+     ],
+     [
+      6029,
+      15
+     ],
+     [
+      6249,
+      16
+     ],
+     [
+      6430,
+      17
+     ],
+     [
+      7410,
+      18
+     ],
+     [
+      7649,
+      19
+     ],
+     [
+      7789,
+      20
+     ],
+     [
+      8029,
+      21
+     ],
+     [
+      8230,
+      22
+     ],
+     [
+      8569,
+      23
+     ],
+     [
+      8810,
+      24
+     ],
+     [
+      9549,
+      25
+     ],
+     [
+      9709,
+      26
+     ],
+     [
+      10350,
+      27
+     ],
+     [
+      10469,
+      28
+     ],
+     [
+      10829,
+      29
+     ],
+     [
+      11270,
+      30
+     ],
+     [
+      11409,
+      31
+     ],
+     [
+      11489,
+      32
+     ],
+     [
+      12270,
+      33
+     ],
+     [
+      12609,
+      34
+     ],
+     [
+      12850,
+      35
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 31579,
+    "d": 2732,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1869,
+      2
+     ],
+     [
+      2130,
+      3
+     ],
+     [
+      2349,
+      4
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 34612,
+    "d": 1851,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1150,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 36763,
+    "d": 2920,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2110,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 39984,
+    "d": 12845,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1629,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      3410,
+      8
+     ],
+     [
+      3569,
+      9
+     ],
+     [
+      4489,
+      10
+     ],
+     [
+      4810,
+      11
+     ],
+     [
+      5410,
+      12
+     ],
+     [
+      5850,
+      13
+     ],
+     [
+      5989,
+      14
+     ],
+     [
+      6249,
+      15
+     ],
+     [
+      6410,
+      16
+     ],
+     [
+      7469,
+      17
+     ],
+     [
+      8230,
+      18
+     ],
+     [
+      8469,
+      19
+     ],
+     [
+      8589,
+      20
+     ],
+     [
+      9209,
+      21
+     ],
+     [
+      9969,
+      22
+     ],
+     [
+      10190,
+      23
+     ],
+     [
+      11029,
+      24
+     ],
+     [
+      11329,
+      25
+     ],
+     [
+      11689,
+      26
+     ],
+     [
+      12049,
+      27
+     ],
+     [
+      12249,
+      28
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 53129,
+    "d": 3008,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2170,
+      6
+     ]
+    ]
+   },
+   "p2h-kaymak": {
+    "s": 56438,
+    "d": 1915,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1089,
+      1
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 58654,
+    "d": 2673,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      747,
+      1
+     ],
+     [
+      1274,
+      2
+     ],
+     [
+      1802,
+      3
+     ],
+     [
+      2329,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 61627,
+    "d": 1612,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      729,
+      5
+     ],
+     [
+      1249,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 63540,
+    "d": 2902,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2349,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 66742,
+    "d": 13645,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3170,
+      7
+     ],
+     [
+      3329,
+      8
+     ],
+     [
+      3549,
+      9
+     ],
+     [
+      4310,
+      10
+     ],
+     [
+      4529,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      5850,
+      13
+     ],
+     [
+      6649,
+      14
+     ],
+     [
+      6769,
+      15
+     ],
+     [
+      6949,
+      16
+     ],
+     [
+      7069,
+      17
+     ],
+     [
+      8150,
+      18
+     ],
+     [
+      8249,
+      19
+     ],
+     [
+      8430,
+      20
+     ],
+     [
+      8569,
+      21
+     ],
+     [
+      8930,
+      22
+     ],
+     [
+      9649,
+      23
+     ],
+     [
+      9850,
+      24
+     ],
+     [
+      10390,
+      25
+     ],
+     [
+      10709,
+      26
+     ],
+     [
+      10829,
+      27
+     ],
+     [
+      11009,
+      28
+     ],
+     [
+      12109,
+      29
+     ],
+     [
+      12569,
+      30
+     ],
+     [
+      12709,
+      31
+     ],
+     [
+      13129,
+      32
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 80688,
+    "d": 3691,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      2650,
+      4
+     ],
+     [
+      2890,
+      5
+     ],
+     [
+      3129,
+      6
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 84679,
+    "d": 2194,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1849,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 87174,
+    "d": 2845,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2249,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 90319,
+    "d": 12483,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2209,
+      7
+     ],
+     [
+      2430,
+      8
+     ],
+     [
+      2789,
+      9
+     ],
+     [
+      3809,
+      10
+     ],
+     [
+      4249,
+      11
+     ],
+     [
+      4449,
+      12
+     ],
+     [
+      4609,
+      13
+     ],
+     [
+      4870,
+      14
+     ],
+     [
+      5069,
+      15
+     ],
+     [
+      5830,
+      16
+     ],
+     [
+      6029,
+      17
+     ],
+     [
+      6309,
+      18
+     ],
+     [
+      7044,
+      19
+     ],
+     [
+      7849,
+      20
+     ],
+     [
+      8289,
+      21
+     ],
+     [
+      8569,
+      22
+     ],
+     [
+      8730,
+      23
+     ],
+     [
+      8969,
+      24
+     ],
+     [
+      9089,
+      25
+     ],
+     [
+      9390,
+      26
+     ],
+     [
+      10270,
+      27
+     ],
+     [
+      10649,
+      28
+     ],
+     [
+      10890,
+      29
+     ],
+     [
+      11390,
+      30
+     ],
+     [
+      11529,
+      31
+     ],
+     [
+      12029,
+      32
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 103102,
+    "d": 2489,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p4h-kaymak": {
+    "s": 105892,
+    "d": 2034,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1380,
+      1
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 108226,
+    "d": 2030,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      452,
+      1
+     ],
+     [
+      690,
+      2
+     ],
+     [
+      1102,
+      3
+     ],
+     [
+      1515,
+      4
+     ],
+     [
+      1752,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 110556,
+    "d": 3030,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      1769,
+      7
+     ],
+     [
+      2110,
+      8
+     ],
+     [
+      2349,
+      9
+     ]
+    ]
+   },
+   "p5": {
+    "s": 113886,
+    "d": 15403,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2509,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      3829,
+      9
+     ],
+     [
+      4509,
+      10
+     ],
+     [
+      4629,
+      11
+     ],
+     [
+      4769,
+      12
+     ],
+     [
+      4930,
+      13
+     ],
+     [
+      5109,
+      14
+     ],
+     [
+      5330,
+      15
+     ],
+     [
+      5449,
+      16
+     ],
+     [
+      5649,
+      17
+     ],
+     [
+      6549,
+      18
+     ],
+     [
+      6989,
+      19
+     ],
+     [
+      7309,
+      20
+     ],
+     [
+      8150,
+      21
+     ],
+     [
+      8329,
+      22
+     ],
+     [
+      8529,
+      23
+     ],
+     [
+      8850,
+      24
+     ],
+     [
+      9009,
+      25
+     ],
+     [
+      9209,
+      26
+     ],
+     [
+      9690,
+      27
+     ],
+     [
+      9810,
+      28
+     ],
+     [
+      10029,
+      29
+     ],
+     [
+      10949,
+      30
+     ],
+     [
+      11369,
+      31
+     ],
+     [
+      11529,
+      32
+     ],
+     [
+      11669,
+      33
+     ],
+     [
+      12169,
+      34
+     ],
+     [
+      12350,
+      35
+     ],
+     [
+      12529,
+      36
+     ],
+     [
+      12810,
+      37
+     ],
+     [
+      12930,
+      38
+     ],
+     [
+      13989,
+      39
+     ],
+     [
+      14329,
+      40
+     ],
+     [
+      14629,
+      41
+     ],
+     [
+      14729,
+      42
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 129590,
+    "d": 3773,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2949,
+      6
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 133663,
+    "d": 3457,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1410,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2229,
+      7
+     ],
+     [
+      2329,
+      8
+     ],
+     [
+      2489,
+      9
+     ],
+     [
+      2630,
+      10
+     ],
+     [
+      2869,
+      11
+     ]
+    ]
+   },
+   "p5h-kaymak": {
+    "s": 137421,
+    "d": 2352,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1598,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

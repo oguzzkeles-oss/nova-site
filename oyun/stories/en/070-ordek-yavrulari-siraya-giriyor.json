@@ -1,0 +1,2005 @@
+{
+ "id": "070-ordek-yavrulari-siraya-giriyor",
+ "lang": "en",
+ "title": "The Ducklings Line Up",
+ "theme": "Ordinal numbers and waiting your turn",
+ "blurb": "When five ducklings try to jump into the lake all at once, they bump and tumble into each other. Croak the frog teaches them the line-up game, and little Pip, right at the back, finds a big surprise waiting at the end of his wait.",
+ "voiceNames": {
+  "pitpit": "Pip (duckling)",
+  "anneordek": "Mama Duck",
+  "vrak": "Croak (frog)",
+  "yavrular": "The ducklings"
+ },
+ "pages": [
+  {
+   "text": "Mama Duck was going to the lake with her five ducklings. Waddle waddle, quack quack! Right at the back was the littlest duckling: Pip. Pip had one wish: “I'll be the first in the water!”",
+   "hits": {
+    "anneordek": {
+     "say": "Waddle waddle, off to the lake!"
+    },
+    "y": {
+     "say": "Peep peep!"
+    },
+    "pitpit": {
+     "say": "I'll be the first in the water!"
+    }
+   },
+   "hint": "Touch Pip!",
+   "ask": "Why do you think the littlest duckling walks at the back? Where have you ended up last?"
+  },
+  {
+   "text": "At the lake, all five ducklings ran at once. “Me first!” “No, me!” Bump! Thud! They tumbled over on the bank. Not one got into the water. Pip's feathers puffed up. He was so cross.",
+   "hits": {
+    "y": {
+     "say": "Me first! No, me!"
+    },
+    "pitpit": {
+     "say": "Humph! I want to be first too!"
+    },
+    "anneordek": {
+     "say": "Oh, my ducklings, slow down!"
+    }
+   },
+   "hint": "Touch Pip!",
+   "ask": "What happens if everyone tries to go through a door at the same time? Has anything like that ever happened to you?",
+   "cues": [
+    {
+     "w": 14,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "A voice came from a lily pad: “Croooak! Stop right there!” It was Croak the frog. “I've got an idea!” he said.",
+   "hits": {
+    "vrak": {
+     "say": "Croooak! I've got an idea!"
+    },
+    "y": {
+     "say": "What idea? What idea?"
+    },
+    "pitpit": {
+     "say": "Can I be first?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Croak will do?",
+    "res": "Let's see! Croak has a game.",
+    "opts": [
+     {
+      "l": "Line them up"
+     },
+     {
+      "l": "Show them how to jump in"
+     }
+    ]
+   },
+   "hint": "Touch Croak!",
+   "ask": "What do you think Croak's idea is? How can the ducklings get into the water without bumping into each other?"
+  },
+  {
+   "text": "“Line up one behind the other!” said Croak. “First, second, third, fourth, fifth!” Pip was at the back again. “Do I always have to wait?” he grumbled.",
+   "mech": {
+    "done": "First, second, third, fourth, fifth! Done!",
+    "msg": "The ducklings are in line!"
+   },
+   "hits": {
+    "vrak": {
+     "say": "First at the front, fifth at the back!"
+    },
+    "pitpit": {
+     "say": "Do I always have to wait?"
+    },
+    "anneordek": {
+     "say": "Your turn will come, little Pip."
+    }
+   },
+   "hint": "Start with the first and touch them in order!",
+   "ask": "Which duckling is closest to the water? Which place is Pip in?"
+  },
+  {
+   "text": "Splish! The first duckling glided into the water. Splish! The second. Splish! The third. Splish! The fourth. Pip's feet were fidgeting. Mama Duck whispered, “Take a deep breath.” Then Pip thought of a game: he would count the ones going into the water! One, two, three, four!",
+   "mech": {
+    "done": "Four ducklings in the water! Whose turn is it?",
+    "msg": "You counted four ducklings!"
+   },
+   "hits": {
+    "pitpit": {
+     "say": "Offf… One, two…"
+    },
+    "anneordek": {
+     "say": "Take a deep breath, little Pip."
+    }
+   },
+   "hint": "Count the ones going into the water!",
+   "ask": "What do you do while you wait for something? How do you think counting helped Pip?"
+  },
+  {
+   "text": "At last Croak called out: “Your turn, fifth duckling!” Pip waddled along, waddle waddle. He reached the bank and… Splish! The water was cool and sparkly. Pip was so happy.",
+   "mech": {
+    "say": "Waddle waddle!",
+    "done": "Splish! Pip's in the water too!",
+    "msg": "It's Pip's turn!"
+   },
+   "hits": {
+    "vrak": {
+     "say": "Your turn, fifth duckling!"
+    },
+    "y": {
+     "say": "Come on, Pip, come on!"
+    },
+    "anneordek": {
+     "say": "Well done, little Pip!"
+    }
+   },
+   "hint": "Make Pip walk!",
+   "ask": "How did Pip feel when his turn finally came? How do you feel when it's your turn?"
+  },
+  {
+   "text": "As the sun went down, Mama Duck called: “Time to go home!” The ducklings turned towards the bank. And look: Pip was at the front! The duckling at the back grumbled, “Do I always have to wait?” Pip laughed: “Take a deep breath and count!”",
+   "hits": {
+    "pitpit": {
+     "say": "Take a deep breath and count! Peep peep!"
+    },
+    "anneordek": {
+     "say": "Time to go home, my ducklings!"
+    },
+    "y": {
+     "say": "Peep peep, in a line to the bank!"
+    },
+    "vrak": {
+     "say": "The line-up game again tomorrow!"
+    },
+    "kardes": {
+     "say": "Do I always have to wait?"
+    }
+   },
+   "hint": "Touch the first one!",
+   "ask": "How did Pip end up first? What did he tell his brother or sister to do while waiting?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.1 Counting rhythmically and by sight: finds how many objects or beings there are (1–20) by counting; the child counts the ducklings going into the water one by one by touching them and says how many there are.",
+   "MAB.1.f (unverified sub-outcome) Describes the order of objects or people with ordinal number words; points to the first, second, third, fourth and fifth duckling in order and notices that when the direction changes, the order changes too.",
+   "TADB.3 Analysing what they listen to: identifies the parts of events and retells what they heard in the order it happened (the sequencing game at the end of the story).",
+   "E3.2 Focus: keeps attention to the end during the line-up game and the counting.",
+   "SDB3.1 Adaptation and D12 Patience: waits for their turn in a group; uses a calming strategy such as breathing and counting while waiting, and shares that strategy with a friend."
+  ],
+  "once": [
+   "Look at the ducks on the cover: “How many ducklings are there? Where do you think they're going?”",
+   "Talk about the word “queue”: “Where do you wait your turn? At the slide, at the sink…”"
+  ],
+  "sirasi": [
+   "Stop on the page where the ducklings bump into each other: “What happened when they all ran at once?”",
+   "On the line-up page, point with your finger as you say first, second…; let the child say it with you.",
+   "While Pip waits, take a deep breath together and count to four."
+  ],
+  "sonra": [
+   "Ask: “Pip was at the back at first; how did he end up first?” Show with toys how the order changes when the direction changes.",
+   "Ask the child to tell the three scenes of the story in the order they happened: the bump, lining up, going home.",
+   "Talk about it: “Waiting is sometimes hard. What can you do while you wait?” Remind them of breathing and counting."
+  ],
+  "sinif": {
+   "ad": "The Duck Train",
+   "sure": "15 min",
+   "materyal": "Blue tape or fabric on the floor (the lake), five duck masks or yellow name badges, number cards 1–5 with numerals and dots",
+   "adim": [
+    "Five children are ducks; they take the number cards and line up one behind the other facing the “lake”; the class says “first, second… fifth” together.",
+    "Each time the teacher says “Splish!”, the next duck in line glides into the lake; the ones waiting take a breath and count the ducks in the water.",
+    "When the teacher says “Time to go home!”, the ducks turn round; the class names the new first and the new fifth.",
+    "Swap roles so that every child gets to be both first and last; talk about “How did you feel while you waited?”"
+   ]
+  },
+  "evSoru": [
+   "Why did the ducklings tumble over on the bank?",
+   "What did Pip do while he waited? Who did he teach this game to afterwards?",
+   "Who was first on the way home? Why?"
+  ],
+  "evEtk": {
+   "ad": "Line-up game at home",
+   "d": "Line up five toys or socks one behind the other. Let your child answer “Which is first? Which is third?” by pointing. Then turn the line round and find the new first one together."
+  },
+  "aileNotu": "Today we read “The Ducklings Line Up.” Five ducklings tried to get into the lake all at once and bumped into each other; with Croak the frog's line-up game they lined up as first, second, third and so on. Pip, at the back, took a deep breath while he waited and counted the ducklings going into the water; when he ended up at the front on the way home, he taught this trick to the sibling at the back. At home, you can play “Who's first, who's second?” on the way to the table or the bathroom, and breathe and count together in waiting moments."
+ },
+ "audio": {
+  "file": "audio/en/070-ordek-yavrulari-siraya-giriyor.mp3",
+  "hash": "575418a6",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11884,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1209,
+      5
+     ],
+     [
+      1349,
+      6
+     ],
+     [
+      1629,
+      7
+     ],
+     [
+      1769,
+      8
+     ],
+     [
+      1989,
+      9
+     ],
+     [
+      2349,
+      10
+     ],
+     [
+      3269,
+      11
+     ],
+     [
+      3644,
+      12
+     ],
+     [
+      4089,
+      13
+     ],
+     [
+      4430,
+      14
+     ],
+     [
+      5249,
+      15
+     ],
+     [
+      5449,
+      16
+     ],
+     [
+      5529,
+      17
+     ],
+     [
+      5669,
+      18
+     ],
+     [
+      6049,
+      19
+     ],
+     [
+      6229,
+      20
+     ],
+     [
+      6410,
+      21
+     ],
+     [
+      6870,
+      22
+     ],
+     [
+      7649,
+      23
+     ],
+     [
+      8430,
+      24
+     ],
+     [
+      8770,
+      25
+     ],
+     [
+      9190,
+      26
+     ],
+     [
+      9430,
+      27
+     ],
+     [
+      10230,
+      28
+     ],
+     [
+      10430,
+      29
+     ],
+     [
+      10549,
+      30
+     ],
+     [
+      10749,
+      31
+     ],
+     [
+      11109,
+      32
+     ],
+     [
+      11230,
+      33
+     ],
+     [
+      11350,
+      34
+     ]
+    ]
+   },
+   "p0h-anneordek": {
+    "s": 12184,
+    "d": 2035,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1550,
+      5
+     ]
+    ]
+   },
+   "p0h-y": {
+    "s": 14520,
+    "d": 714,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      357,
+      1
+     ]
+    ]
+   },
+   "p0h-pitpit": {
+    "s": 15535,
+    "d": 1807,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1249,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17642,
+    "d": 14226,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2269,
+      7
+     ],
+     [
+      2509,
+      8
+     ],
+     [
+      3209,
+      9
+     ],
+     [
+      3430,
+      10
+     ],
+     [
+      4149,
+      11
+     ],
+     [
+      4569,
+      12
+     ],
+     [
+      5330,
+      13
+     ],
+     [
+      6089,
+      14
+     ],
+     [
+      6890,
+      15
+     ],
+     [
+      7129,
+      16
+     ],
+     [
+      7589,
+      17
+     ],
+     [
+      7870,
+      18
+     ],
+     [
+      7989,
+      19
+     ],
+     [
+      8109,
+      20
+     ],
+     [
+      8829,
+      21
+     ],
+     [
+      9289,
+      22
+     ],
+     [
+      9569,
+      23
+     ],
+     [
+      9770,
+      24
+     ],
+     [
+      9989,
+      25
+     ],
+     [
+      10129,
+      26
+     ],
+     [
+      10989,
+      27
+     ],
+     [
+      11350,
+      28
+     ],
+     [
+      11829,
+      29
+     ],
+     [
+      12249,
+      30
+     ],
+     [
+      12770,
+      31
+     ],
+     [
+      12930,
+      32
+     ],
+     [
+      13249,
+      33
+     ],
+     [
+      13549,
+      34
+     ]
+    ]
+   },
+   "p1h-y": {
+    "s": 32169,
+    "d": 2094,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1469,
+      3
+     ]
+    ]
+   },
+   "p1h-pitpit": {
+    "s": 34563,
+    "d": 2256,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      620,
+      1
+     ],
+     [
+      886,
+      2
+     ],
+     [
+      1152,
+      3
+     ],
+     [
+      1418,
+      4
+     ],
+     [
+      1684,
+      5
+     ],
+     [
+      1950,
+      6
+     ]
+    ]
+   },
+   "p1h-anneordek": {
+    "s": 37120,
+    "d": 2524,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1790,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 39944,
+    "d": 7939,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      989,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      1969,
+      7
+     ],
+     [
+      2969,
+      8
+     ],
+     [
+      3309,
+      9
+     ],
+     [
+      3529,
+      10
+     ],
+     [
+      4290,
+      11
+     ],
+     [
+      4410,
+      12
+     ],
+     [
+      4629,
+      13
+     ],
+     [
+      5049,
+      14
+     ],
+     [
+      5169,
+      15
+     ],
+     [
+      6109,
+      16
+     ],
+     [
+      6309,
+      17
+     ],
+     [
+      6489,
+      18
+     ],
+     [
+      6649,
+      19
+     ],
+     [
+      7370,
+      20
+     ],
+     [
+      7549,
+      21
+     ]
+    ]
+   },
+   "p2h-vrak": {
+    "s": 48184,
+    "d": 2657,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1369,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      1969,
+      4
+     ]
+    ]
+   },
+   "p2h-y": {
+    "s": 51142,
+    "d": 2211,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      359,
+      1
+     ],
+     [
+      1294,
+      2
+     ],
+     [
+      1614,
+      3
+     ]
+    ]
+   },
+   "p2h-pitpit": {
+    "s": 53653,
+    "d": 1209,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      550,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 55163,
+    "d": 1584,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      969,
+      5
+     ],
+     [
+      1189,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 57048,
+    "d": 2507,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      1969,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 59856,
+    "d": 10929,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2150,
+      7
+     ],
+     [
+      2969,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      4249,
+      10
+     ],
+     [
+      4870,
+      11
+     ],
+     [
+      5509,
+      12
+     ],
+     [
+      6430,
+      13
+     ],
+     [
+      6709,
+      14
+     ],
+     [
+      6890,
+      15
+     ],
+     [
+      6989,
+      16
+     ],
+     [
+      7129,
+      17
+     ],
+     [
+      7410,
+      18
+     ],
+     [
+      8190,
+      19
+     ],
+     [
+      8409,
+      20
+     ],
+     [
+      8690,
+      21
+     ],
+     [
+      9089,
+      22
+     ],
+     [
+      9289,
+      23
+     ],
+     [
+      9449,
+      24
+     ],
+     [
+      10109,
+      25
+     ],
+     [
+      10289,
+      26
+     ]
+    ]
+   },
+   "p3h-vrak": {
+    "s": 71086,
+    "d": 2565,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      1869,
+      6
+     ],
+     [
+      1989,
+      7
+     ]
+    ]
+   },
+   "p3h-pitpit": {
+    "s": 73952,
+    "d": 1864,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1329,
+      5
+     ]
+    ]
+   },
+   "p3h-anneordek": {
+    "s": 76116,
+    "d": 2055,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1629,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 78471,
+    "d": 4054,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      2150,
+      3
+     ],
+     [
+      2829,
+      4
+     ],
+     [
+      3670,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 82826,
+    "d": 22085,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      1209,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3029,
+      7
+     ],
+     [
+      3949,
+      8
+     ],
+     [
+      4870,
+      9
+     ],
+     [
+      5049,
+      10
+     ],
+     [
+      5949,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7049,
+      13
+     ],
+     [
+      7870,
+      14
+     ],
+     [
+      8730,
+      15
+     ],
+     [
+      8930,
+      16
+     ],
+     [
+      9930,
+      17
+     ],
+     [
+      10310,
+      18
+     ],
+     [
+      10569,
+      19
+     ],
+     [
+      10789,
+      20
+     ],
+     [
+      11789,
+      21
+     ],
+     [
+      12089,
+      22
+     ],
+     [
+      12350,
+      23
+     ],
+     [
+      13209,
+      24
+     ],
+     [
+      13469,
+      25
+     ],
+     [
+      13629,
+      26
+     ],
+     [
+      13969,
+      27
+     ],
+     [
+      14949,
+      28
+     ],
+     [
+      15350,
+      29
+     ],
+     [
+      15589,
+      30
+     ],
+     [
+      15789,
+      31
+     ],
+     [
+      15890,
+      32
+     ],
+     [
+      15969,
+      33
+     ],
+     [
+      16690,
+      34
+     ],
+     [
+      16829,
+      35
+     ],
+     [
+      17030,
+      36
+     ],
+     [
+      17270,
+      37
+     ],
+     [
+      17549,
+      38
+     ],
+     [
+      17870,
+      39
+     ],
+     [
+      18129,
+      40
+     ],
+     [
+      18329,
+      41
+     ],
+     [
+      18469,
+      42
+     ],
+     [
+      19450,
+      43
+     ],
+     [
+      20049,
+      44
+     ],
+     [
+      20770,
+      45
+     ],
+     [
+      21530,
+      46
+     ]
+    ]
+   },
+   "p4h-pitpit": {
+    "s": 105211,
+    "d": 2735,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1091,
+      1
+     ],
+     [
+      2213,
+      2
+     ]
+    ]
+   },
+   "p4h-anneordek": {
+    "s": 108247,
+    "d": 2089,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 110636,
+    "d": 2847,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2410,
+      7
+     ],
+     [
+      2569,
+      8
+     ]
+    ]
+   },
+   "p5": {
+    "s": 113784,
+    "d": 13732,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2650,
+      7
+     ],
+     [
+      2930,
+      8
+     ],
+     [
+      3989,
+      9
+     ],
+     [
+      4390,
+      10
+     ],
+     [
+      4789,
+      11
+     ],
+     [
+      5509,
+      12
+     ],
+     [
+      5890,
+      13
+     ],
+     [
+      6709,
+      14
+     ],
+     [
+      6890,
+      15
+     ],
+     [
+      7189,
+      16
+     ],
+     [
+      7329,
+      17
+     ],
+     [
+      7809,
+      18
+     ],
+     [
+      8629,
+      19
+     ],
+     [
+      9730,
+      20
+     ],
+     [
+      9890,
+      21
+     ],
+     [
+      10230,
+      22
+     ],
+     [
+      10469,
+      23
+     ],
+     [
+      11009,
+      24
+     ],
+     [
+      11209,
+      25
+     ],
+     [
+      12249,
+      26
+     ],
+     [
+      12549,
+      27
+     ],
+     [
+      12829,
+      28
+     ],
+     [
+      13189,
+      29
+     ]
+    ]
+   },
+   "p5h-vrak": {
+    "s": 127816,
+    "d": 1829,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      367,
+      1
+     ],
+     [
+      890,
+      2
+     ],
+     [
+      1218,
+      3
+     ]
+    ]
+   },
+   "p5h-y": {
+    "s": 129946,
+    "d": 2067,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1790,
+      4
+     ]
+    ]
+   },
+   "p5h-anneordek": {
+    "s": 132313,
+    "d": 1647,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 134261,
+    "d": 2664,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      1170,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2089,
+      5
+     ]
+    ]
+   },
+   "p5ms": {
+    "s": 137225,
+    "d": 1070,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      535,
+      1
+     ]
+    ]
+   },
+   "p6": {
+    "s": 138596,
+    "d": 15555,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1729,
+      6
+     ],
+     [
+      1989,
+      7
+     ],
+     [
+      2729,
+      8
+     ],
+     [
+      3009,
+      9
+     ],
+     [
+      3109,
+      10
+     ],
+     [
+      3289,
+      11
+     ],
+     [
+      4209,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      4850,
+      14
+     ],
+     [
+      5149,
+      15
+     ],
+     [
+      5489,
+      16
+     ],
+     [
+      5609,
+      17
+     ],
+     [
+      6249,
+      18
+     ],
+     [
+      6449,
+      19
+     ],
+     [
+      7069,
+      20
+     ],
+     [
+      7329,
+      21
+     ],
+     [
+      7489,
+      22
+     ],
+     [
+      7589,
+      23
+     ],
+     [
+      7729,
+      24
+     ],
+     [
+      8549,
+      25
+     ],
+     [
+      8690,
+      26
+     ],
+     [
+      9069,
+      27
+     ],
+     [
+      9169,
+      28
+     ],
+     [
+      9310,
+      29
+     ],
+     [
+      9649,
+      30
+     ],
+     [
+      10449,
+      31
+     ],
+     [
+      10690,
+      32
+     ],
+     [
+      10909,
+      33
+     ],
+     [
+      11369,
+      34
+     ],
+     [
+      11549,
+      35
+     ],
+     [
+      11730,
+      36
+     ],
+     [
+      12589,
+      37
+     ],
+     [
+      12949,
+      38
+     ],
+     [
+      13669,
+      39
+     ],
+     [
+      13949,
+      40
+     ],
+     [
+      14089,
+      41
+     ],
+     [
+      14369,
+      42
+     ],
+     [
+      14769,
+      43
+     ],
+     [
+      14989,
+      44
+     ]
+    ]
+   },
+   "p6h-pitpit": {
+    "s": 154451,
+    "d": 3077,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      2689,
+      7
+     ]
+    ]
+   },
+   "p6h-anneordek": {
+    "s": 157828,
+    "d": 1936,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      406,
+      1
+     ],
+     [
+      617,
+      2
+     ],
+     [
+      827,
+      3
+     ],
+     [
+      1318,
+      4
+     ],
+     [
+      1529,
+      5
+     ]
+    ]
+   },
+   "p6h-y": {
+    "s": 160064,
+    "d": 2266,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1529,
+      6
+     ],
+     [
+      1649,
+      7
+     ]
+    ]
+   },
+   "p6h-vrak": {
+    "s": 162630,
+    "d": 2280,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      272,
+      1
+     ],
+     [
+      850,
+      2
+     ],
+     [
+      1256,
+      3
+     ],
+     [
+      1661,
+      4
+     ]
+    ]
+   },
+   "p6h-kardes": {
+    "s": 165211,
+    "d": 1992,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1410,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

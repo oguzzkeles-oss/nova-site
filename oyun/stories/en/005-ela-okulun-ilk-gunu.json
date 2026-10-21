@@ -1,0 +1,1580 @@
+{
+ "id": "005-ela-okulun-ilk-gunu",
+ "lang": "en",
+ "title": "Ela's First Day at School",
+ "theme": "Settling in at school",
+ "blurb": "On the first morning of school, Ela doesn't want to leave her mum, and her tummy is all in knots. She finds the shy toys, tells her new friend Can the order of the day, and Mum comes back just like she said.",
+ "voiceNames": {
+  "ela": "Ela",
+  "anne": "Mum (Ela's mum)",
+  "ogretmen": "Miss Nur",
+  "can": "Can",
+  "baba": "Dad (Can's dad)"
+ },
+ "pages": [
+  {
+   "text": "It was morning. Ela came to school. She would not let go of Mum's hand. She hugged Fluffy, her teddy bear. Miss Nur smiled: “Good morning, Ela!” Ela hid behind her mum.",
+   "hits": {
+    "ogretmen": {
+     "say": "Good morning, Ela! Welcome!"
+    },
+    "ela": {
+     "say": "Mummy, can we go home?"
+    },
+    "anne": {
+     "say": "Your teacher said good morning to you."
+    },
+    "saat": {
+     "say": "Tick tock! It's morning."
+    }
+   },
+   "hint": "Touch the teacher!",
+   "ask": "What do you say when you come to school in the morning? Who do you say it to?"
+  },
+  {
+   "text": "Ela was scared. She hugged Mum tight, tight, tight. Her tummy felt all in knots. Mum sat down beside her: “First play, then lunch, then a story. Then I come back!”",
+   "hits": {
+    "anne": {
+     "say": "Then I come back. I promise!"
+    },
+    "ela": {
+     "say": "Don't go, Mum!"
+    },
+    "oyun": {
+     "say": "First, play!"
+    },
+    "yemek": {
+     "say": "Then, lunch!"
+    },
+    "masal": {
+     "say": "Then, a story!"
+    }
+   },
+   "hint": "Touch Mum!",
+   "ask": "Why was Ela's tummy all in knots? Have you ever felt like that?"
+  },
+  {
+   "text": "One kiss, one hug, one wave… Mum went away. Ela felt so sad. Her eyes filled with tears. Fluffy's eyes did too.",
+   "hits": {
+    "anne": {
+     "say": "See you this afternoon, Ela!"
+    },
+    "ela": {
+     "say": "Bye-bye, Mum…"
+    },
+    "ogretmen": {
+     "say": "I'm here, Ela. Shall we look around together?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Ela will do now?",
+    "res": "It could be either one! Let's see.",
+    "opts": [
+     {
+      "l": "She hugs Fluffy"
+     },
+     {
+      "l": "She looks around the classroom"
+     }
+    ]
+   },
+   "hint": "Touch Ela!",
+   "ask": "What do you do when you say goodbye to someone?"
+  },
+  {
+   "text": "Ela hugged Fluffy. Miss Nur said, “Shall we show him the classroom?” But what was this? The toys were shy too! They were all hiding!",
+   "hits": {
+    "ela": {
+     "say": "Where are you, toys?"
+    },
+    "ogretmen": {
+     "say": "Shhh… Something moved over there!"
+    }
+   },
+   "mech": {
+    "done": "Good morning, toys! Ela giggled: tee-hee!",
+    "msg": "You found them all!"
+   },
+   "hint": "Find the hiding toys!",
+   "ask": "Why might the toys be hiding? Do they feel like Ela does?"
+  },
+  {
+   "text": "Can was sitting on the rug. He was new too. He missed his dad. Ela held out Fluffy: “First play, then lunch, then a story. Then your dad comes!”",
+   "hits": {
+    "ela": {
+     "say": "Fluffy likes you a lot!"
+    },
+    "can": {
+     "say": "Will my dad really come?"
+    }
+   },
+   "mech": {
+    "done": "Play, lunch, a story… The day flew by!",
+    "msg": "You found the order of the day!"
+   },
+   "hint": "First, play! Touch the blocks!",
+   "ask": "When will Can's dad come? What did Ela tell him?"
+  },
+  {
+   "text": "Play, lunch, a story… In the afternoon Mum came, just like she said! Can's dad came too. Ela's tummy had no knots left. She smiled a great big smile: “Mum, can we come again tomorrow?”",
+   "hits": {
+    "anne": {
+     "say": "I missed you so much, Ela!"
+    },
+    "ela": {
+     "say": "Mum, I found a friend!"
+    },
+    "can": {
+     "say": "See you tomorrow, Ela!"
+    },
+    "baba": {
+     "say": "Hello, Ela! Can told me all about you."
+    },
+    "saat": {
+     "say": "Tick tock! It's afternoon."
+    }
+   },
+   "hint": "Touch Can!",
+   "ask": "Does Ela want to come to school tomorrow? Why did she change her mind?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "SAB.1 (learning outcome) Using the concept of time appropriately in daily life; a) talks about what is done in the morning, at noon, in the evening and at night (process component): tells Ela's day in order (good morning in the morning → play → lunch → story → going home in the afternoon) and greets people in a way that fits the time of day.",
+   "TADB.2 (learning outcome) Building new meaning from a story they hear or watch: makes inferences about the story (why the toys hid, why Can was sad) and connects information in the story with their own school day.",
+   "TAKB.1 (learning outcome) Managing the speaking process: begins and ends a conversation with suitable greetings (Good morning, Goodbye, See you tomorrow, Have a nice day).",
+   "E2.4 Trust (disposition) and SDB3.1 Adaptation (social-emotional skill): names their worry at the moment of separation; adapts to a new setting by trusting the teacher and the promise given.",
+   "D4 Friendship (value): notices a new friend's feelings and offers them their own way of coping (the order of the day, the teddy bear)."
+  ],
+  "once": [
+   "Look at the cover picture together: 'Where is Ela? What is she holding? How do you think she feels?'",
+   "Ask the child: 'How does it feel inside when you go to a new place for the first time?' Accept every answer; fear and excitement are both normal.",
+   "Say 'First play, then lunch, then a story' once; tell the child you will be listening for it in the story."
+  ],
+  "sirasi": [
+   "Pause wherever “First play, then lunch, then a story” appears; let the child join in, counting on their fingers.",
+   "When Ela's tummy is in knots, point to your own tummy: 'When we are scared, we can feel like this too.'",
+   "On the prediction page, accept both options; when you turn the page, help the child notice that Ela did both.",
+   "Stop at the hiding toys: 'Could they be shy, like Ela?' The drum reminds us of the music corner, the palette of the art corner."
+  ],
+  "sonra": [
+   "In the ordering game, put the three pictures in order together: What happened first? Then? Who came at the very end?",
+   "Copy Ela's face on the first page and on the last page; talk about 'What changed, and why?'",
+   "What did Ela say to Can? How would you comfort a friend?",
+   "Who is picking you up today? Mum, Dad, Grandpa, Grandma, the school bus… Every answer is right."
+  ],
+  "sinif": {
+   "ad": "Our Picture Train of the Day",
+   "sure": "15 min",
+   "materyal": "Picture cards showing the parts of the day (arrival, play, lunch, story, going home), string, clothes pegs",
+   "adim": [
+    "Greet each other in the circle by saying 'Good morning'; each child says good morning to the child next to them.",
+    "Shuffle the cards and show them; ask 'What do we do first? Then?' and put them in order with the children, pegging them onto the string (the carriages).",
+    "Hang the 'going home, our family comes' card on the last carriage; at every transition during the day, one child turns that carriage over.",
+    "In the end-of-day circle, ask: 'Which carriage did you like best today? Which is the first carriage tomorrow?' and say goodbye with 'Goodbye, everyone!'"
+   ]
+  },
+  "evSoru": [
+   "Who did you say good morning to first at school today?",
+   "What did you do first at school, and what did you do next?",
+   "How did Ela comfort Can? What do you do when a friend is sad?"
+  ],
+  "evEtk": {
+   "ad": "Our Goodbye Promise",
+   "d": "Choose a short goodbye that is special to you and your child (for example, one kiss, one hug, one wave). Do it in the same order every morning and say when you will be back using the flow of the day: 'I'll come after lunch and the story.' Keep the goodbye short, never slip away secretly, and come back at the time you promised."
+  },
+  "aileNotu": "Today we read “Ela's First Day at School.” Ela was scared when she left her mum; she got to know the day with her teacher and her new friend Can, and her mum came in the afternoon, just like she said. During the settling-in days, a short goodbye that is the same every day, a clear return time told through the flow of the day, and keeping your promise all support your child's sense of trust. If your school allows it, a small toy from home can be a travelling companion in the first days. Settling in can take a few days, sometimes a few weeks; crying again is not a step backwards."
+ },
+ "audio": {
+  "file": "audio/en/005-ela-okulun-ilk-gunu.mp3",
+  "hash": "62581187",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16881,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2390,
+      6
+     ],
+     [
+      3869,
+      7
+     ],
+     [
+      4029,
+      8
+     ],
+     [
+      4229,
+      9
+     ],
+     [
+      4430,
+      10
+     ],
+     [
+      4689,
+      11
+     ],
+     [
+      4910,
+      12
+     ],
+     [
+      5089,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      6729,
+      15
+     ],
+     [
+      6930,
+      16
+     ],
+     [
+      7269,
+      17
+     ],
+     [
+      7989,
+      18
+     ],
+     [
+      8209,
+      19
+     ],
+     [
+      8569,
+      20
+     ],
+     [
+      10190,
+      21
+     ],
+     [
+      10509,
+      22
+     ],
+     [
+      10969,
+      23
+     ],
+     [
+      12649,
+      24
+     ],
+     [
+      12890,
+      25
+     ],
+     [
+      13350,
+      26
+     ],
+     [
+      15149,
+      27
+     ],
+     [
+      15509,
+      28
+     ],
+     [
+      15769,
+      29
+     ],
+     [
+      16209,
+      30
+     ],
+     [
+      16409,
+      31
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 17181,
+    "d": 1548,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 19030,
+    "d": 1480,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      501,
+      1
+     ],
+     [
+      699,
+      2
+     ],
+     [
+      897,
+      3
+     ],
+     [
+      1095,
+      4
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 20810,
+    "d": 2010,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1589,
+      6
+     ]
+    ]
+   },
+   "p0h-saat": {
+    "s": 23121,
+    "d": 1576,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1030,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24998,
+    "d": 16094,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2789,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      4189,
+      8
+     ],
+     [
+      5709,
+      9
+     ],
+     [
+      5910,
+      10
+     ],
+     [
+      6350,
+      11
+     ],
+     [
+      6729,
+      12
+     ],
+     [
+      6969,
+      13
+     ],
+     [
+      7149,
+      14
+     ],
+     [
+      8730,
+      15
+     ],
+     [
+      9109,
+      16
+     ],
+     [
+      9369,
+      17
+     ],
+     [
+      9649,
+      18
+     ],
+     [
+      10149,
+      19
+     ],
+     [
+      11329,
+      20
+     ],
+     [
+      11709,
+      21
+     ],
+     [
+      12409,
+      22
+     ],
+     [
+      12709,
+      23
+     ],
+     [
+      13409,
+      24
+     ],
+     [
+      13649,
+      25
+     ],
+     [
+      13770,
+      26
+     ],
+     [
+      14969,
+      27
+     ],
+     [
+      15229,
+      28
+     ],
+     [
+      15369,
+      29
+     ],
+     [
+      15589,
+      30
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 41392,
+    "d": 1736,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      216,
+      1
+     ],
+     [
+      392,
+      2
+     ],
+     [
+      698,
+      3
+     ],
+     [
+      1083,
+      4
+     ],
+     [
+      1259,
+      5
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 43428,
+    "d": 1203,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      709,
+      2
+     ]
+    ]
+   },
+   "p1h-oyun": {
+    "s": 44932,
+    "d": 1052,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      637,
+      1
+     ]
+    ]
+   },
+   "p1h-yemek": {
+    "s": 46285,
+    "d": 1012,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      612,
+      1
+     ]
+    ]
+   },
+   "p1h-masal": {
+    "s": 47598,
+    "d": 1230,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      462,
+      1
+     ],
+     [
+      728,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 49128,
+    "d": 11359,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      3629,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      5569,
+      10
+     ],
+     [
+      5870,
+      11
+     ],
+     [
+      6189,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      7529,
+      14
+     ],
+     [
+      7870,
+      15
+     ],
+     [
+      8249,
+      16
+     ],
+     [
+      8489,
+      17
+     ],
+     [
+      9749,
+      18
+     ],
+     [
+      10350,
+      19
+     ],
+     [
+      10649,
+      20
+     ],
+     [
+      10909,
+      21
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 60788,
+    "d": 1673,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      243,
+      1
+     ],
+     [
+      447,
+      2
+     ],
+     [
+      651,
+      3
+     ],
+     [
+      1278,
+      4
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 62761,
+    "d": 709,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      480,
+      1
+     ]
+    ]
+   },
+   "p2h-ogretmen": {
+    "s": 63771,
+    "d": 2462,
+    "w": [
+     [
+      79,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      1509,
+      6
+     ],
+     [
+      1849,
+      7
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 66534,
+    "d": 2109,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1410,
+      6
+     ],
+     [
+      1629,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 68943,
+    "d": 2383,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      278,
+      1
+     ],
+     [
+      516,
+      2
+     ],
+     [
+      754,
+      3
+     ],
+     [
+      1169,
+      4
+     ],
+     [
+      1866,
+      5
+     ],
+     [
+      2104,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 71627,
+    "d": 14204,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      2609,
+      3
+     ],
+     [
+      2890,
+      4
+     ],
+     [
+      3249,
+      5
+     ],
+     [
+      4469,
+      6
+     ],
+     [
+      4729,
+      7
+     ],
+     [
+      4910,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      5430,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      8029,
+      12
+     ],
+     [
+      8230,
+      13
+     ],
+     [
+      8430,
+      14
+     ],
+     [
+      8650,
+      15
+     ],
+     [
+      10109,
+      16
+     ],
+     [
+      10310,
+      17
+     ],
+     [
+      10770,
+      18
+     ],
+     [
+      11049,
+      19
+     ],
+     [
+      11569,
+      20
+     ],
+     [
+      12890,
+      21
+     ],
+     [
+      13069,
+      22
+     ],
+     [
+      13249,
+      23
+     ],
+     [
+      13529,
+      24
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 86132,
+    "d": 1079,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      689,
+      3
+     ]
+    ]
+   },
+   "p3h-ogretmen": {
+    "s": 87511,
+    "d": 1746,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1309,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 89557,
+    "d": 3620,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2670,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 93478,
+    "d": 16455,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      2769,
+      6
+     ],
+     [
+      2949,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      3449,
+      9
+     ],
+     [
+      5069,
+      10
+     ],
+     [
+      5269,
+      11
+     ],
+     [
+      5589,
+      12
+     ],
+     [
+      5809,
+      13
+     ],
+     [
+      7969,
+      14
+     ],
+     [
+      8390,
+      15
+     ],
+     [
+      8749,
+      16
+     ],
+     [
+      8989,
+      17
+     ],
+     [
+      10810,
+      18
+     ],
+     [
+      11230,
+      19
+     ],
+     [
+      12029,
+      20
+     ],
+     [
+      12350,
+      21
+     ],
+     [
+      13069,
+      22
+     ],
+     [
+      13310,
+      23
+     ],
+     [
+      13430,
+      24
+     ],
+     [
+      15009,
+      25
+     ],
+     [
+      15249,
+      26
+     ],
+     [
+      15469,
+      27
+     ],
+     [
+      15850,
+      28
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 110233,
+    "d": 1501,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      421,
+      1
+     ],
+     [
+      803,
+      2
+     ],
+     [
+      1022,
+      3
+     ],
+     [
+      1241,
+      4
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 112035,
+    "d": 1561,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1129,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 113897,
+    "d": 3505,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      3009,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 117703,
+    "d": 19750,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      3729,
+      4
+     ],
+     [
+      3869,
+      5
+     ],
+     [
+      4069,
+      6
+     ],
+     [
+      4769,
+      7
+     ],
+     [
+      5149,
+      8
+     ],
+     [
+      5609,
+      9
+     ],
+     [
+      5890,
+      10
+     ],
+     [
+      6129,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      7689,
+      13
+     ],
+     [
+      8009,
+      14
+     ],
+     [
+      8369,
+      15
+     ],
+     [
+      8709,
+      16
+     ],
+     [
+      10310,
+      17
+     ],
+     [
+      10770,
+      18
+     ],
+     [
+      11230,
+      19
+     ],
+     [
+      11469,
+      20
+     ],
+     [
+      11649,
+      21
+     ],
+     [
+      12069,
+      22
+     ],
+     [
+      13149,
+      23
+     ],
+     [
+      13390,
+      24
+     ],
+     [
+      13890,
+      25
+     ],
+     [
+      13969,
+      26
+     ],
+     [
+      14310,
+      27
+     ],
+     [
+      14629,
+      28
+     ],
+     [
+      16969,
+      29
+     ],
+     [
+      18309,
+      30
+     ],
+     [
+      18489,
+      31
+     ],
+     [
+      18669,
+      32
+     ],
+     [
+      18869,
+      33
+     ],
+     [
+      19169,
+      34
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 137753,
+    "d": 1721,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      1269,
+      5
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 139775,
+    "d": 1607,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1030,
+      4
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 141682,
+    "d": 1317,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      221,
+      1
+     ],
+     [
+      403,
+      2
+     ],
+     [
+      961,
+      3
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 143300,
+    "d": 2188,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      1649,
+      6
+     ],
+     [
+      1989,
+      7
+     ]
+    ]
+   },
+   "p5h-saat": {
+    "s": 145788,
+    "d": 1766,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1009,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

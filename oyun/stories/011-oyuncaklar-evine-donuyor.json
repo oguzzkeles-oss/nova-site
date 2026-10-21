@@ -1,0 +1,1746 @@
+{
+ "id": "011-oyuncaklar-evine-donuyor",
+ "n": 11,
+ "title": "Oyuncaklar Evine Dönüyor",
+ "age": "36-48",
+ "area": "Hareket ve Sağlık",
+ "theme": "Oyuncakları toplama ve düzen",
+ "values": [
+  "D16 Sorumluluk"
+ ],
+ "sdb": "SDB3.3 Sorumlu Karar Verme",
+ "min": 4,
+ "blurb": "Salon oyuncakla dolunca köpek Tarçın sarı topunu bulamaz. Elif derin bir nefes alır, her oyuncağı kendi evine yollar ve bir sürpriz ortaya çıkar!",
+ "codes": {
+  "maarif": [
+   "HSAB.10 Sağlıklı yaşam için temizliğe ve düzene dikkat edebilme (teyitsiz)",
+   "HSAB.2 Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme",
+   "KB2.5 Sınıflandırma",
+   "TADB.3 Dinledikleri/izledikleri materyalleri çözümleyebilme",
+   "SDB3.3 Sorumlu Karar Verme",
+   "E2.2 Sorumluluk",
+   "D16 Sorumluluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "elif": "cocuk-kiz",
+  "tarcin": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "elif": "Elif",
+  "tarcin": "Tarçın (köpek)"
+ },
+ "pages": [
+  {
+   "text": "Elif bütün gün oynadı. Tak tak bloklar! Vın vın arabalar! Hışır hışır kitaplar! Köpeği Tarçın sarı topunu kovaladı: “Hav hav!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 118,
+      "y": 226,
+      "s": 1.12,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "elif"
+     },
+     {
+      "k": "kopek",
+      "x": 285,
+      "y": 226,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 356,
+      "y": 232,
+      "s": 1.4,
+      "color": "yellow",
+      "hit": "top"
+     },
+     {
+      "k": "bloklar",
+      "x": 46,
+      "y": 234,
+      "s": 1.3,
+      "n": 4,
+      "hit": "blok"
+     },
+     {
+      "k": "oyuncak-araba",
+      "x": 176,
+      "y": 236,
+      "s": 1.4,
+      "color": "blue",
+      "hit": "araba"
+     },
+     {
+      "k": "kitap",
+      "x": 226,
+      "y": 208,
+      "s": 0.95,
+      "color": "red",
+      "open": true,
+      "hit": "kitap"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 232,
+      "y": 158,
+      "s": 0.85
+     },
+     {
+      "k": "kitaplik",
+      "x": 370,
+      "y": 203,
+      "s": 1.0
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Ne güzel oynadım!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "tarcin": {
+     "say": "Hav hav! Topum, topum!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    },
+    "top": {
+     "anim": "boing",
+     "fx": "boing"
+    },
+    "blok": {
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "araba": {
+     "anim": "wiggle",
+     "fx": "korna"
+    },
+    "kitap": {
+     "anim": "boing",
+     "fx": "page"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Sen en çok hangi oyuncakla oynarsın? O oyuncak ne ses çıkarır?",
+   "cues": [
+    {
+     "w": 10,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Tarçın topunu aradı. Fıs fıs kokladı. Bu blok! Bu kitap! Bu ayıcık! Ama top yok. Tarçın üzüldü, kulakları düştü. “Hav… Topum nerede?”",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "kopek",
+      "x": 205,
+      "y": 230,
+      "s": 1.25,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "tarcin"
+     },
+     {
+      "k": "elif",
+      "x": 352,
+      "y": 212,
+      "s": 0.85,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "bloklar",
+      "x": 118,
+      "y": 234,
+      "s": 1.4,
+      "n": 3,
+      "hit": "blok"
+     },
+     {
+      "k": "kitap",
+      "x": 308,
+      "y": 235,
+      "s": 1.4,
+      "color": "green",
+      "hit": "kitap"
+     },
+     {
+      "k": "oyuncak-araba",
+      "x": 52,
+      "y": 224,
+      "s": 1.2,
+      "color": "red"
+     },
+     {
+      "k": "top",
+      "x": 280,
+      "y": 203,
+      "s": 0.8,
+      "color": "yellow"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 266,
+      "y": 208,
+      "s": 1.0,
+      "hit": "ayi"
+     },
+     {
+      "k": "kitaplik",
+      "x": 370,
+      "y": 203,
+      "s": 1.0
+     }
+    ]
+   },
+   "hits": {
+    "tarcin": {
+     "say": "Hav... Topum nerede?",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "sniff"
+    },
+    "blok": {
+     "say": "Bu blok! Top değil.",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "sniff"
+    },
+    "kitap": {
+     "say": "Bu kitap! Top değil.",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "sniff"
+    },
+    "elif": {
+     "say": "Tarçın, neyin var?",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "ayi": {
+     "say": "Bu ayıcık! Top değil.",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "sniff"
+    }
+   },
+   "hint": [
+    "tarcin",
+    "Tarçın'a dokun!"
+   ],
+   "ask": "Tarçın neden üzüldü? Sence sarı top nerede olabilir?"
+  },
+  {
+   "text": "Elif etrafına baktı. Of, ne çok oyuncak! Elif biraz bunaldı. Derin bir nefes aldı. “Hmm… Ne yapsam?”",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 196,
+      "y": 226,
+      "s": 1.2,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "elif"
+     },
+     {
+      "k": "kopek",
+      "x": 330,
+      "y": 230,
+      "s": 0.95,
+      "mood": "sad",
+      "pose": "lie",
+      "flip": true,
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "bloklar",
+      "x": 70,
+      "y": 234,
+      "s": 1.3,
+      "n": 5
+     },
+     {
+      "k": "kitap",
+      "x": 118,
+      "y": 208,
+      "s": 1.1,
+      "color": "green"
+     },
+     {
+      "k": "oyuncak-araba",
+      "x": 128,
+      "y": 237,
+      "s": 1.3,
+      "color": "blue"
+     },
+     {
+      "k": "kitap",
+      "x": 310,
+      "y": 206,
+      "s": 0.95,
+      "color": "red",
+      "open": true
+     },
+     {
+      "k": "top",
+      "x": 268,
+      "y": 200,
+      "s": 0.75,
+      "color": "yellow"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 250,
+      "y": 204,
+      "s": 0.95
+     },
+     {
+      "k": "kitaplik",
+      "x": 370,
+      "y": 203,
+      "s": 1.0
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Of, ne çok oyuncak!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "blow"
+    },
+    "tarcin": {
+     "say": "Hav...",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "sniff"
+    }
+   },
+   "predict": {
+    "q": "Sence Elif ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Oyuncakları toplar",
+      "scene": {
+       "set": "salon",
+       "time": "evening",
+       "cast": [
+        {
+         "k": "elif",
+         "x": 160,
+         "y": 226,
+         "s": 1.1,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "bloklar",
+         "holdS": 0.8
+        },
+        {
+         "k": "kopek",
+         "x": 330,
+         "y": 228,
+         "s": 0.9,
+         "mood": "happy",
+         "pose": "sit",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "oyuncak-kutusu",
+         "x": 248,
+         "y": 232,
+         "s": 1.4,
+         "state": "off"
+        },
+        {
+         "k": "kitap",
+         "x": 70,
+         "y": 234,
+         "s": 1.2,
+         "color": "green"
+        },
+        {
+         "k": "kitaplik",
+         "x": 370,
+         "y": 203,
+         "s": 1.0
+        }
+       ]
+      }
+     },
+     {
+      "l": "Tarçın'la topu arar",
+      "scene": {
+       "set": "salon",
+       "time": "evening",
+       "cast": [
+        {
+         "k": "elif",
+         "x": 140,
+         "y": 224,
+         "s": 1.1,
+         "mood": "surprised",
+         "pose": "point"
+        },
+        {
+         "k": "kopek",
+         "x": 270,
+         "y": 230,
+         "s": 1.0,
+         "mood": "think",
+         "pose": "walk"
+        }
+       ],
+       "props": [
+        {
+         "k": "bloklar",
+         "x": 60,
+         "y": 234,
+         "s": 1.2,
+         "n": 3
+        },
+        {
+         "k": "kitap",
+         "x": 350,
+         "y": 234,
+         "s": 1.2,
+         "color": "red"
+        },
+        {
+         "k": "kitaplik",
+         "x": 370,
+         "y": 203,
+         "s": 1.0
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Sen de bazen “Of, çok fazla!” der misin? O zaman ne yaparsın?"
+  },
+  {
+   "text": "“Buldum!” dedi Elif. “Her oyuncağın bir evi var. Tek tek taşırım!” Tak tak, bloklar kutuya. Hışır hışır, kitaplar rafa.",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 150,
+      "y": 212,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "elif"
+     },
+     {
+      "k": "kopek",
+      "x": 352,
+      "y": 224,
+      "s": 0.82,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-kutusu",
+      "x": 62,
+      "y": 234,
+      "s": 1.5,
+      "state": "off",
+      "hit": "kutu"
+     },
+     {
+      "k": "kitaplik",
+      "x": 370,
+      "y": 202,
+      "s": 1.0,
+      "hit": "raf"
+     },
+     {
+      "k": "bloklar",
+      "x": 118,
+      "y": 237,
+      "s": 1.4,
+      "n": 2,
+      "hit": "blok1"
+     },
+     {
+      "k": "kitap",
+      "x": 204,
+      "y": 226,
+      "s": 1.3,
+      "color": "red",
+      "hit": "kitap1"
+     },
+     {
+      "k": "bloklar",
+      "x": 250,
+      "y": 237,
+      "s": 1.4,
+      "n": 3,
+      "hit": "blok2"
+     },
+     {
+      "k": "kitap",
+      "x": 296,
+      "y": 237,
+      "s": 1.3,
+      "color": "green",
+      "hit": "kitap2"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Her oyuncağın bir evi var!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "tarcin": {
+     "say": "Hav hav!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    }
+   },
+   "mech": {
+    "type": "sort",
+    "items": {
+     "blok1": "kutu",
+     "blok2": "kutu",
+     "kitap1": "raf",
+     "kitap2": "raf"
+    },
+    "bins": {
+     "kutu": [
+      62,
+      205
+     ],
+     "raf": [
+      370,
+      150
+     ]
+    },
+    "done": "Bloklar kutuda, kitaplar rafta!",
+    "msg": "Hepsi evinde!"
+   },
+   "hint": [
+    "blok1",
+    "Önce bloğa dokun!"
+   ],
+   "ask": "“Tak tak, bloklar...” Nereye? Kitaplar nereye gitti?",
+   "cues": [
+    {
+     "w": 15,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Sıra arabalarda ve ayıcıkta. Vın vın, arabalar kutuya! Hop, ayıcık kutuya! Tarçın kuyruğunu salladı. Bir şey mi gördü?",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 100,
+      "y": 210,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "elif"
+     },
+     {
+      "k": "kopek",
+      "x": 362,
+      "y": 230,
+      "s": 0.9,
+      "mood": "surprised",
+      "pose": "stand",
+      "flip": true,
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-kutusu",
+      "x": 288,
+      "y": 234,
+      "s": 1.5,
+      "state": "on",
+      "hit": "kutu"
+     },
+     {
+      "k": "oyuncak-araba",
+      "x": 50,
+      "y": 236,
+      "s": 1.4,
+      "color": "red",
+      "hit": "araba1"
+     },
+     {
+      "k": "oyuncak-araba",
+      "x": 146,
+      "y": 237,
+      "s": 1.4,
+      "color": "blue",
+      "flip": true,
+      "hit": "araba2"
+     },
+     {
+      "k": "top",
+      "x": 227,
+      "y": 226,
+      "s": 1.0,
+      "color": "yellow",
+      "hit": "top"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 212,
+      "y": 232,
+      "s": 1.3,
+      "hit": "ayi"
+     },
+     {
+      "k": "kitaplik",
+      "x": 370,
+      "y": 203,
+      "s": 1.0
+     }
+    ]
+   },
+   "hits": {
+    "tarcin": {
+     "say": "Hav! O sarı şey ne?",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    },
+    "elif": {
+     "say": "Vın vın, kutuya!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "top": {
+     "say": "Topum! Topum!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "araba1",
+     "araba2",
+     "ayi"
+    ],
+    "to": [
+     288,
+     205
+    ],
+    "done": "İşte orada! Sarı top!",
+    "msg": "Hepsi kutuda!"
+   },
+   "hint": [
+    "araba1",
+    "Arabaya dokun!"
+   ],
+   "ask": "Sence Tarçın ne gördü? Resimde sarı bir şey var mı?"
+  },
+  {
+   "text": "Sarı top ayıcığın arkasındaymış! Elif topu attı. “Hav hav!” Tarçın kaptı. Elif kendiyle gurur duydu. “Oyuncaklar evlerinde,” dedi, “biz de oyunda!”",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 245,
+      "y": 224,
+      "s": 1.12,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "elif"
+     },
+     {
+      "k": "kopek",
+      "x": 135,
+      "y": 228,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "top",
+      "holdColor": "yellow",
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-kutusu",
+      "x": 46,
+      "y": 234,
+      "s": 1.3,
+      "state": "on",
+      "hit": "kutu"
+     },
+     {
+      "k": "kitaplik",
+      "x": 370,
+      "y": 203,
+      "s": 1.0
+     }
+    ]
+   },
+   "hits": {
+    "tarcin": {
+     "say": "Hav hav! Bir daha at!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "woof"
+    },
+    "elif": {
+     "say": "Oyuncaklar evinde, biz de oyunda!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "kutu": {
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "tarcin",
+    "Tarçın'a dokun!"
+   ],
+   "ask": "Senin oyuncaklarının evi nerede? Toplamaya hangisinden başlarsın?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.10 (teyitsiz) · Sağlıklı yaşam için temizliğe ve düzene dikkat edebilme: Elif oyuncakları yerlerine koyarak salonu düzenler ve oyun için açık, güvenli bir alan açar.",
+   "HSAB.2 · Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme; a) Farklı büyüklükteki nesneleri kavrar: sınıf etkinliğinde blok, kitap, araba ve ayıcık gibi farklı büyüklükteki oyuncakları tutup taşır.",
+   "KB2.5 Sınıflandırma: oyuncakları türüne göre ayırır ve her oyuncağın hangi “evde” durduğunu söyler (bloklar kutuya, kitaplar rafa).",
+   "TADB.3 · Dinledikleri/izledikleri materyalleri çözümleyebilme (dinlediklerini oluş sırasına göre söyler): masal sonundaki sıralama oyununda olayları sırayla anlatır.",
+   "SDB3.3 Sorumlu Karar Verme · D16 Sorumluluk · E2.2 Sorumluluk: bir sorunu fark eder (dağınık salon, kayıp top), ne yapacağına karar verir ve işi küçük adımlara bölerek kendi oyuncaklarını toplar."
+  ],
+  "once": [
+   "Kapağı birlikte inceleyin: “Salonda neler görüyorsun? Bu oyuncaklar gece nerede uyur?”",
+   "“Ev” sözcüğünü eşyalar için oynayın: “Kalemin evi kalemlik, kaşığın evi çekmece. Topun evi nerede olabilir?”"
+  ],
+  "sirasi": [
+   "Oyuncak seslerini (tak tak, vın vın, hışır hışır) çocukla birlikte yüksek sesle söyleyin; her ses bir oyuncak türünü hatırlatır.",
+   "Tahmin sayfasında iki seçeneğin de iyi fikir olduğunu söyleyin; çocuğa “Neden öyle düşündün?” diye sorun.",
+   "Sıralama oyununda çocuk önce oyuncağa, sonra kutuya kendisi dokunsun. Yanlış kutuda “Bloklar nerede yaşıyordu?” diye nazikçe ipucu verin.",
+   "Ayıcığın arkasından görünen sarı topu erken fark eden çocuğu takdir edin: “Ne dikkatli gözlerin var!”"
+  ],
+  "sonra": [
+   "Sıralama oyunuyla olayları hatırlayın: Tarçın topunu arar → Elif oyuncakları evlerine taşır → Elif ile Tarçın top oynar.",
+   "“Elif ‘Of!’ dediğinde ne yaptı?” diye sorun: derin nefes aldı, bir fikir buldu, oyuncakları tek tek taşıdı.",
+   "Değerlendirme çemberinde çocukların kendi toplama yollarını paylaşmasına fırsat verin."
+  ],
+  "sinif": {
+   "ad": "Oyuncakların Evi",
+   "sure": "15 dk",
+   "materyal": "Bloklar, kitaplar, oyuncak arabalar; 3 kutu ya da sepet; her kutu için resimli sembol kartı (blok, kitap, araba resmi); bir yumuşak top",
+   "adim": [
+    "Kutuların önüne resimli sembol kartlarını koyun. Çocuklarla her kartın hangi oyuncakların “evi” olduğunu konuşun.",
+    "Oyuncakları halıya karıştırın. “Tak tak bloklar kutuya, hışır hışır kitaplar rafa, vın vın arabalar sepete!” tekerlemesiyle çocuklar sırayla bir oyuncak seçip doğru kutuya taşısın.",
+    "Büyük oyuncakları iki elle, küçükleri parmak uçlarıyla tutmayı birlikte deneyin; ağır kutuyu iki kişi taşıyabilir.",
+    "Halı açılınca Tarçın gibi yumuşak topla yuvarlama oyunu oynayın. Sonunda “Hangi oyuncağı hangi eve taşıdın?” diye sorun."
+   ]
+  },
+  "evSoru": [
+   "Senin oyuncaklarının evi nerede?",
+   "Elif çok oyuncak görünce ne yaptı? Sen de öyle yapar mısın?",
+   "Tarçın topunu bulunca ne hissetti? Sen neyi bulunca çok sevinirsin?"
+  ],
+  "evEtk": {
+   "ad": "Toplama Tekerlemesi",
+   "d": "Akşam oyuncakları toplarken masaldaki sesleri kullanın: “Tak tak bloklar kutuya, vın vın arabalar sepete!” Kutulara çocuğunuzla birlikte resimli işaretler çizip yapıştırın. Her oyuncağın evini çocuğunuz seçsin; siz yalnızca “Önce hangisi?” diye sorun. Bitince açılan yerde kısa bir top oyunu oynayın."
+  },
+  "aileNotu": "Bugün “Oyuncaklar Evine Dönüyor” masalını okuduk. Elif, köpeği Tarçın'ın topunu bulamadığını görünce çok oyuncak karşısında önce bunaldı; sonra derin bir nefes aldı ve her oyuncağı tek tek kendi evine taşıdı. Evde oyuncak kutularına resimli işaretler koymak, toplamayı türlere göre ayırma oyununa çevirir ve çocuğun sorumluluk almasını kolaylaştırır. Toplamayı bir ceza gibi değil, bir sonraki oyuna yer açmak gibi konuşabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/011-oyuncaklar-evine-donuyor.mp3",
+  "hash": "c37024e1",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 9622,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      3289,
+      7
+     ],
+     [
+      3549,
+      8
+     ],
+     [
+      3809,
+      9
+     ],
+     [
+      4649,
+      10
+     ],
+     [
+      5029,
+      11
+     ],
+     [
+      5370,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      6850,
+      14
+     ],
+     [
+      7329,
+      15
+     ],
+     [
+      7609,
+      16
+     ],
+     [
+      8029,
+      17
+     ],
+     [
+      8869,
+      18
+     ],
+     [
+      9169,
+      19
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 9922,
+    "d": 1444,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      749,
+      2
+     ]
+    ]
+   },
+   "p0h-tarcin": {
+    "s": 11666,
+    "d": 1637,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      254,
+      1
+     ],
+     [
+      723,
+      2
+     ],
+     [
+      1223,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 13604,
+    "d": 11420,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      3049,
+      6
+     ],
+     [
+      3209,
+      7
+     ],
+     [
+      4049,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      4949,
+      10
+     ],
+     [
+      5129,
+      11
+     ],
+     [
+      6009,
+      12
+     ],
+     [
+      6269,
+      13
+     ],
+     [
+      6609,
+      14
+     ],
+     [
+      7229,
+      15
+     ],
+     [
+      7749,
+      16
+     ],
+     [
+      8409,
+      17
+     ],
+     [
+      9049,
+      18
+     ],
+     [
+      9829,
+      19
+     ],
+     [
+      10409,
+      20
+     ],
+     [
+      10890,
+      21
+     ]
+    ]
+   },
+   "p1h-tarcin": {
+    "s": 25324,
+    "d": 1755,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1150,
+      2
+     ]
+    ]
+   },
+   "p1h-blok": {
+    "s": 27380,
+    "d": 1576,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      292,
+      1
+     ],
+     [
+      844,
+      2
+     ],
+     [
+      1096,
+      3
+     ]
+    ]
+   },
+   "p1h-kitap": {
+    "s": 29257,
+    "d": 1447,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      245,
+      1
+     ],
+     [
+      845,
+      2
+     ],
+     [
+      1050,
+      3
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 31005,
+    "d": 1408,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      650,
+      1
+     ],
+     [
+      1106,
+      2
+     ]
+    ]
+   },
+   "p1h-ayi": {
+    "s": 32713,
+    "d": 1531,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      235,
+      1
+     ],
+     [
+      954,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 34545,
+    "d": 8942,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      3629,
+      7
+     ],
+     [
+      3989,
+      8
+     ],
+     [
+      4390,
+      9
+     ],
+     [
+      5350,
+      10
+     ],
+     [
+      5709,
+      11
+     ],
+     [
+      5870,
+      12
+     ],
+     [
+      6329,
+      13
+     ],
+     [
+      7049,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8190,
+      16
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 43787,
+    "d": 1945,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      528,
+      1
+     ],
+     [
+      836,
+      2
+     ],
+     [
+      1143,
+      3
+     ]
+    ]
+   },
+   "p2h-tarcin": {
+    "s": 46032,
+    "d": 190,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 46523,
+    "d": 1420,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 48244,
+    "d": 2226,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1689,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 50770,
+    "d": 10267,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      2069,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3150,
+      6
+     ],
+     [
+      3449,
+      7
+     ],
+     [
+      4029,
+      8
+     ],
+     [
+      4330,
+      9
+     ],
+     [
+      4589,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      5870,
+      12
+     ],
+     [
+      6489,
+      13
+     ],
+     [
+      7129,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8430,
+      16
+     ],
+     [
+      9150,
+      17
+     ],
+     [
+      9829,
+      18
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 61337,
+    "d": 1911,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   },
+   "p3h-tarcin": {
+    "s": 63548,
+    "d": 946,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      473,
+      1
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 64795,
+    "d": 2071,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1550,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 67166,
+    "d": 8526,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      2189,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3569,
+      7
+     ],
+     [
+      4209,
+      8
+     ],
+     [
+      4589,
+      9
+     ],
+     [
+      5029,
+      10
+     ],
+     [
+      5709,
+      11
+     ],
+     [
+      6169,
+      12
+     ],
+     [
+      6689,
+      13
+     ],
+     [
+      7349,
+      14
+     ],
+     [
+      7529,
+      15
+     ],
+     [
+      7769,
+      16
+     ],
+     [
+      7930,
+      17
+     ]
+    ]
+   },
+   "p4h-tarcin": {
+    "s": 75993,
+    "d": 1740,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      563,
+      1
+     ],
+     [
+      803,
+      2
+     ],
+     [
+      1220,
+      3
+     ],
+     [
+      1460,
+      4
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 78033,
+    "d": 1388,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      297,
+      1
+     ],
+     [
+      708,
+      2
+     ]
+    ]
+   },
+   "p4h-top": {
+    "s": 79721,
+    "d": 1172,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      724,
+      1
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 81194,
+    "d": 1754,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 83248,
+    "d": 11588,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      2589,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4330,
+      8
+     ],
+     [
+      4930,
+      9
+     ],
+     [
+      5449,
+      10
+     ],
+     [
+      6350,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      7329,
+      13
+     ],
+     [
+      7689,
+      14
+     ],
+     [
+      8509,
+      15
+     ],
+     [
+      9329,
+      16
+     ],
+     [
+      10009,
+      17
+     ],
+     [
+      10390,
+      18
+     ],
+     [
+      10709,
+      19
+     ],
+     [
+      10930,
+      20
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 95137,
+    "d": 1720,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      276,
+      1
+     ],
+     [
+      794,
+      2
+     ],
+     [
+      1031,
+      3
+     ],
+     [
+      1443,
+      4
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 97157,
+    "d": 3439,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1189,
+      1
+     ],
+     [
+      2209,
+      2
+     ],
+     [
+      2589,
+      3
+     ],
+     [
+      2829,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

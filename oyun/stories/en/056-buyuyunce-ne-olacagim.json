@@ -1,0 +1,2188 @@
+{
+ "id": "056-buyuyunce-ne-olacagim",
+ "lang": "en",
+ "title": "What Will I Be When I Grow Up?",
+ "theme": "Jobs and dreams",
+ "blurb": "On Jobs Day, Dr Aslı comes to the class; the tools in her bag make Elif burst with curiosity. A stethoscope, a thermometer, a plaster... So what does Elif want to be when she grows up?",
+ "voiceNames": {
+  "elif": "Elif",
+  "asli": "Dr Aslı",
+  "nur": "Miss Nur"
+ },
+ "pages": [
+  {
+   "text": "Today is Jobs Day! Miss Nur said: “Tell us what you'll be when you grow up.” Elif thought. She had no idea! Knock knock! Dr Aslı came through the door. She was holding a red bag.",
+   "hits": {
+    "elif": {
+     "say": "Whirr! What's in the bag?"
+    },
+    "asli": {
+     "say": "Hello, children! I'm Dr Aslı."
+    },
+    "nur": {
+     "say": "What will you be when you grow up?"
+    },
+    "canta": {
+     "say": "Clickety-clack! There's something inside!"
+    }
+   },
+   "hint": "Touch the bag!",
+   "ask": "Why do you think Elif is thinking so hard? What's in Dr Aslı's bag?",
+   "cues": [
+    {
+     "w": 22,
+     "fx": "kapi-tik"
+    }
+   ]
+  },
+  {
+   "text": "Dr Aslı opened the bag. “What's this? And what's this?” A stethoscope, a thermometer, a plaster! Elif asked: “Where did you learn to use these?” Dr Aslı laughed: “At school! I studied for years.”",
+   "hits": {
+    "elif": {
+     "say": "Where did you learn to use these?"
+    },
+    "asli": {
+     "say": "At school! I studied for years."
+    },
+    "st": {
+     "say": "A stethoscope. It listens to your heart."
+    },
+    "tm": {
+     "say": "A thermometer. It takes your temperature. Beep beep!"
+    },
+    "yb": {
+     "say": "A plaster. It covers a scrape."
+    }
+   },
+   "hint": "Touch the tools!",
+   "ask": "Which of these tools have you seen when you went to the doctor?"
+  },
+  {
+   "text": "Elif picked up the stethoscope. The end was cool, so cool! “Now, what shall I listen to?” Dr Aslı winked: “Go on, try it!”",
+   "hits": {
+    "elif": {
+     "say": "Now, what shall I listen to?"
+    },
+    "asli": {
+     "say": "Go on, try it!"
+    },
+    "nur": {
+     "say": "Will you ask me before you listen?"
+    }
+   },
+   "predict": {
+    "q": "What do you think Elif will listen to?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "Her own heart"
+     },
+     {
+      "l": "The teacher's heart"
+     }
+    ]
+   },
+   "hint": "Touch Elif!",
+   "ask": "Have you ever heard your heart? What does it sound like?"
+  },
+  {
+   "text": "Thump thump, thump thump! Elif heard her own heart. Then the first patient arrived: Fluffy the teddy bear! His knee was scraped. Dr Aslı whispered: “Heart first, then temperature. Wash the scrape, and the plaster last.”",
+   "hits": {
+    "elif": {
+     "say": "Fluffy, may I listen to you?"
+    },
+    "asli": {
+     "say": "Well done, Dr Elif, one step at a time!"
+    },
+    "pofuduk": {
+     "say": "Fluffy is waiting patiently. His knee is sore."
+    },
+    "st": {
+     "say": "Thump thump!"
+    },
+    "tm": {
+     "say": "Beep beep! No fever."
+    },
+    "yb": {
+     "say": "Snap! The plaster is on his knee."
+    }
+   },
+   "mech": {
+    "done": "Thump thump, beep beep, snap! Fluffy is getting better.",
+    "msg": "You did the check-up in order!"
+   },
+   "hint": "Touch the stethoscope first!",
+   "ask": "What did Elif do first when she checked Fluffy? What did she do next?"
+  },
+  {
+   "text": "Miss Nur brought a basket. Inside were a paintbrush, a watering can and a great big wooden spoon. “These are tools for other jobs. Which is the painter's, which is the gardener's, which is the cook's?” Elif rolled up her sleeves.",
+   "hits": {
+    "elif": {
+     "say": "Which goes where? Found it!"
+    },
+    "nur": {
+     "say": "Let every tool find its job!"
+    }
+   },
+   "mech": {
+    "done": "Brush to the painting, can to the flower, spoon to the soup!",
+    "msg": "Every tool found its job!"
+   },
+   "hint": "Touch the tool, then its job!",
+   "ask": "Who uses a paintbrush, a watering can, a wooden spoon? What other jobs do you know?"
+  },
+  {
+   "text": "Miss Nur asked: “Elif, what will you be when you grow up?” Elif thought and thought. She lifted down the flowerpots. She pressed the stethoscope to one. “Shhh! This flower is thirsty, its head is drooping. I'll be a flower doctor!”",
+   "hits": {
+    "elif": {
+     "say": "I'll be a flower doctor!"
+    },
+    "cicek": {
+     "say": "Shhh! This flower is thirsty."
+    },
+    "nur": {
+     "say": "What will you be when you grow up?"
+    }
+   },
+   "hint": "Listen to the flower!",
+   "ask": "What do you want to be when you grow up? What tools would you use for that job?"
+  },
+  {
+   "text": "Elif watered the flowers one by one. Splish splash! The flowers stood up straight, and their leaves shone. Dr Aslı smiled, Miss Nur clapped. What will she be when she grows up? A flower doctor! She has already started work.",
+   "hits": {
+    "elif": {
+     "say": "Splish splash! Drink up, flowers!"
+    }
+   },
+   "mech": {
+    "say": "Splish splash!",
+    "done": "All three flowers stood up straight!",
+    "msg": "The flowers are smiling!"
+   },
+   "hint": "Water the flowers!",
+   "ask": "What was Elif's dream? What can you do today for your dream?",
+   "cues": [
+    {
+     "w": 7,
+     "fx": "musluk"
+    },
+    {
+     "w": 23,
+     "fx": "alkis"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "SBAB6 Entrepreneurship: recognises the tools of the doctor, the cook, the painter and the gardener; like Elif, invents the job of their own dreams (“flower doctor”) and takes the first step towards it.",
+   "TAKB.2 Building the content of the speaking process: connects the topic with prior knowledge and daily life by talking about days they went to the doctor and the tools at home and at school.",
+   "E1.1 Curiosity: like Elif, asks “What's this? And what's this?”; explores the tools by touching and listening.",
+   "SDB2.3 Social Awareness: notices how people doing different jobs in the community help us (doctor, teacher, cook, gardener, painter).",
+   "D3 Diligence: sees from Dr Aslı's words “At school! I studied for years.” that learning a job takes effort; does the check-up in order and with care."
+  ],
+  "once": [
+   "Show the cover: “Who could the person next to Elif be? How can you tell?” Listen to the guesses without correcting them.",
+   "Show a closed bag: “What might be in a doctor's bag?” Draw what the children say on the board.",
+   "Ask: “What job does someone you know do? What would you like to be when you grow up? It's fine if you don't know.” Accept every answer."
+  ],
+  "sirasi": [
+   "On page 1, point to Elif's thoughtful face: “Why is Elif thinking?” Say that it is perfectly natural not to know what you'll be when you grow up.",
+   "On page 2, let the children touch each tool and repeat what Dr Aslı says: “It listens to your heart, it takes your temperature, it covers a scrape.”",
+   "On page 3, touch Miss Nur: she says “Will you ask me before you listen?” Practise asking permission together, “May I listen?”, before listening to someone's heart; both predictions are good ideas.",
+   "On page 4, Elif asks Fluffy for permission too. Say the words “first, then, last” together; let the children find their own hearts with their hands.",
+   "On page 5, ask “Who works with this tool?”: painter, gardener, cook (the cook's wooden spoon). If anyone notices the droopy flowers on the shelf, keep it as a clue for the next page.",
+   "On page 6, Elif finds the answer herself; listen to her choice without commenting, then ask the children about their dreams."
+  ],
+  "sonra": [
+   "What was in Dr Aslı's bag? What was each thing for?",
+   "How did Dr Aslı learn her job? How do you learn something new?",
+   "What does Elif want to be when she grows up? Why do you think so? Which job would you like to do?"
+  ],
+  "sinif": {
+   "ad": "The Jobs Basket and My Dream Card",
+   "sure": "25 min",
+   "materyal": "Safe real tools such as a toy doctor's kit, a paintbrush, a watering can, a wooden spoon and a book; a basket; paper and crayons",
+   "adim": [
+    "Put the tools in the basket. Each child draws one tool, explores it by touch and says “This is for ...”.",
+    "As a class, talk about “Who uses this tool?”; discover that one tool can be used in more than one job.",
+    "Each child draws the job they want to do when they grow up and one tool for that job; it can also be a brand-new job they have imagined (like a flower doctor).",
+    "Hang the pictures on the “Dream Board”; the children take turns to talk about their own picture, and the others ask one question."
+   ]
+  },
+  "evSoru": [
+   "What tools do we use at home? Who uses them, and what for?",
+   "When you went to the doctor, which tools did the doctor use?",
+   "What do you want to be when you grow up? What would you need to learn for that?"
+  ],
+  "evEtk": {
+   "ad": "Jobs at Home, Tools at Home",
+   "d": "Take a walk around the house together and find three tools used for a job (like a ladle, a broom or a clothes peg). Look at sharp tools together without touching them. Ask your child who uses each one and what for. Then let your child ask someone in the family or your neighbourhood who does a different job a question they have prepared: “How did you learn this job?”"
+  },
+  "aileNotu": "Today we read “What Will I Be When I Grow Up?” On Jobs Day, Elif didn't know what she would be when she grew up. She explored Dr Aslı's tools with curiosity, checked the teddy bear step by step, and in the end found the answer herself: a flower doctor! At home, listening to your child's dreams without commenting and asking “What could we learn for that?” feeds their curiosity."
+ },
+ "audio": {
+  "file": "audio/en/056-buyuyunce-ne-olacagim.mp3",
+  "hash": "8179cba3",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13252,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2630,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3529,
+      8
+     ],
+     [
+      3670,
+      9
+     ],
+     [
+      3809,
+      10
+     ],
+     [
+      4049,
+      11
+     ],
+     [
+      4229,
+      12
+     ],
+     [
+      4370,
+      13
+     ],
+     [
+      4529,
+      14
+     ],
+     [
+      4789,
+      15
+     ],
+     [
+      5549,
+      16
+     ],
+     [
+      5890,
+      17
+     ],
+     [
+      6769,
+      18
+     ],
+     [
+      6969,
+      19
+     ],
+     [
+      7129,
+      20
+     ],
+     [
+      7549,
+      21
+     ],
+     [
+      8690,
+      22
+     ],
+     [
+      8890,
+      23
+     ],
+     [
+      9730,
+      24
+     ],
+     [
+      10289,
+      25
+     ],
+     [
+      10569,
+      26
+     ],
+     [
+      10770,
+      27
+     ],
+     [
+      10969,
+      28
+     ],
+     [
+      11069,
+      29
+     ],
+     [
+      11730,
+      30
+     ],
+     [
+      11869,
+      31
+     ],
+     [
+      12009,
+      32
+     ],
+     [
+      12369,
+      33
+     ],
+     [
+      12489,
+      34
+     ],
+     [
+      12749,
+      35
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 13552,
+    "d": 2027,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      989,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   },
+   "p0h-asli": {
+    "s": 15880,
+    "d": 2443,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1989,
+      4
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 18623,
+    "d": 1900,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      267,
+      1
+     ],
+     [
+      495,
+      2
+     ],
+     [
+      722,
+      3
+     ],
+     [
+      950,
+      4
+     ],
+     [
+      1177,
+      5
+     ],
+     [
+      1405,
+      6
+     ],
+     [
+      1632,
+      7
+     ]
+    ]
+   },
+   "p0h-canta": {
+    "s": 20823,
+    "d": 2424,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1709,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 23548,
+    "d": 15627,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3509,
+      8
+     ],
+     [
+      3849,
+      9
+     ],
+     [
+      4769,
+      10
+     ],
+     [
+      4910,
+      11
+     ],
+     [
+      5890,
+      12
+     ],
+     [
+      5989,
+      13
+     ],
+     [
+      7009,
+      14
+     ],
+     [
+      7109,
+      15
+     ],
+     [
+      8230,
+      16
+     ],
+     [
+      8609,
+      17
+     ],
+     [
+      9369,
+      18
+     ],
+     [
+      9609,
+      19
+     ],
+     [
+      9770,
+      20
+     ],
+     [
+      9909,
+      21
+     ],
+     [
+      10129,
+      22
+     ],
+     [
+      10310,
+      23
+     ],
+     [
+      10549,
+      24
+     ],
+     [
+      11350,
+      25
+     ],
+     [
+      11869,
+      26
+     ],
+     [
+      12189,
+      27
+     ],
+     [
+      13069,
+      28
+     ],
+     [
+      13289,
+      29
+     ],
+     [
+      14209,
+      30
+     ],
+     [
+      14350,
+      31
+     ],
+     [
+      14709,
+      32
+     ],
+     [
+      14949,
+      33
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 39475,
+    "d": 1842,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      372,
+      1
+     ],
+     [
+      563,
+      2
+     ],
+     [
+      754,
+      3
+     ],
+     [
+      945,
+      4
+     ],
+     [
+      1136,
+      5
+     ],
+     [
+      1469,
+      6
+     ]
+    ]
+   },
+   "p1h-asli": {
+    "s": 41617,
+    "d": 2954,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2170,
+      5
+     ]
+    ]
+   },
+   "p1h-st": {
+    "s": 44872,
+    "d": 2746,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2229,
+      6
+     ]
+    ]
+   },
+   "p1h-tm": {
+    "s": 47918,
+    "d": 3462,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3049,
+      7
+     ]
+    ]
+   },
+   "p1h-yb": {
+    "s": 51680,
+    "d": 2468,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      1869,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 54448,
+    "d": 10562,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      849,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      2569,
+      8
+     ],
+     [
+      3609,
+      9
+     ],
+     [
+      4049,
+      10
+     ],
+     [
+      5129,
+      11
+     ],
+     [
+      5850,
+      12
+     ],
+     [
+      6049,
+      13
+     ],
+     [
+      6309,
+      14
+     ],
+     [
+      6430,
+      15
+     ],
+     [
+      6809,
+      16
+     ],
+     [
+      7609,
+      17
+     ],
+     [
+      8150,
+      18
+     ],
+     [
+      8430,
+      19
+     ],
+     [
+      9249,
+      20
+     ],
+     [
+      9489,
+      21
+     ],
+     [
+      9969,
+      22
+     ],
+     [
+      10289,
+      23
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 65311,
+    "d": 2310,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1709,
+      5
+     ]
+    ]
+   },
+   "p2h-asli": {
+    "s": 67922,
+    "d": 1565,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1229,
+      3
+     ]
+    ]
+   },
+   "p2h-nur": {
+    "s": 69787,
+    "d": 2061,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      1550,
+      6
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 72148,
+    "d": 1922,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      1009,
+      5
+     ],
+     [
+      1189,
+      6
+     ],
+     [
+      1509,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 74371,
+    "d": 951,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      475,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 75623,
+    "d": 15032,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2489,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3229,
+      8
+     ],
+     [
+      4089,
+      9
+     ],
+     [
+      4430,
+      10
+     ],
+     [
+      4589,
+      11
+     ],
+     [
+      4930,
+      12
+     ],
+     [
+      5289,
+      13
+     ],
+     [
+      6129,
+      14
+     ],
+     [
+      6549,
+      15
+     ],
+     [
+      6689,
+      16
+     ],
+     [
+      7009,
+      17
+     ],
+     [
+      7749,
+      18
+     ],
+     [
+      7930,
+      19
+     ],
+     [
+      8190,
+      20
+     ],
+     [
+      8390,
+      21
+     ],
+     [
+      9289,
+      22
+     ],
+     [
+      9749,
+      23
+     ],
+     [
+      9989,
+      24
+     ],
+     [
+      10869,
+      25
+     ],
+     [
+      11149,
+      26
+     ],
+     [
+      11730,
+      27
+     ],
+     [
+      11969,
+      28
+     ],
+     [
+      12890,
+      29
+     ],
+     [
+      13189,
+      30
+     ],
+     [
+      13329,
+      31
+     ],
+     [
+      13810,
+      32
+     ],
+     [
+      13930,
+      33
+     ],
+     [
+      14049,
+      34
+     ],
+     [
+      14529,
+      35
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 90956,
+    "d": 2094,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1769,
+      5
+     ]
+    ]
+   },
+   "p3h-asli": {
+    "s": 93350,
+    "d": 3475,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      2829,
+      7
+     ],
+     [
+      2910,
+      8
+     ]
+    ]
+   },
+   "p3h-pofuduk": {
+    "s": 97126,
+    "d": 3534,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      2930,
+      7
+     ]
+    ]
+   },
+   "p3h-st": {
+    "s": 100960,
+    "d": 875,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      437,
+      1
+     ]
+    ]
+   },
+   "p3h-tm": {
+    "s": 102135,
+    "d": 1798,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1249,
+      3
+     ]
+    ]
+   },
+   "p3h-yb": {
+    "s": 104234,
+    "d": 2563,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2249,
+      6
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 107097,
+    "d": 4364,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2969,
+      5
+     ],
+     [
+      3410,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      3869,
+      8
+     ]
+    ]
+   },
+   "p4": {
+    "s": 111762,
+    "d": 14341,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      869,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2430,
+      6
+     ],
+     [
+      2630,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      3489,
+      9
+     ],
+     [
+      3589,
+      10
+     ],
+     [
+      4029,
+      11
+     ],
+     [
+      4529,
+      12
+     ],
+     [
+      4649,
+      13
+     ],
+     [
+      4789,
+      14
+     ],
+     [
+      5209,
+      15
+     ],
+     [
+      5529,
+      16
+     ],
+     [
+      5870,
+      17
+     ],
+     [
+      6850,
+      18
+     ],
+     [
+      7089,
+      19
+     ],
+     [
+      7229,
+      20
+     ],
+     [
+      7589,
+      21
+     ],
+     [
+      7829,
+      22
+     ],
+     [
+      8069,
+      23
+     ],
+     [
+      8869,
+      24
+     ],
+     [
+      9069,
+      25
+     ],
+     [
+      9190,
+      26
+     ],
+     [
+      9310,
+      27
+     ],
+     [
+      10109,
+      28
+     ],
+     [
+      10289,
+      29
+     ],
+     [
+      10409,
+      30
+     ],
+     [
+      10529,
+      31
+     ],
+     [
+      11390,
+      32
+     ],
+     [
+      11569,
+      33
+     ],
+     [
+      11669,
+      34
+     ],
+     [
+      11789,
+      35
+     ],
+     [
+      12890,
+      36
+     ],
+     [
+      13129,
+      37
+     ],
+     [
+      13409,
+      38
+     ],
+     [
+      13549,
+      39
+     ],
+     [
+      13729,
+      40
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 126403,
+    "d": 2221,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1869,
+      4
+     ]
+    ]
+   },
+   "p4h-nur": {
+    "s": 128924,
+    "d": 2433,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 131658,
+    "d": 3820,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      1909,
+      7
+     ],
+     [
+      2689,
+      8
+     ],
+     [
+      3089,
+      9
+     ],
+     [
+      3189,
+      10
+     ],
+     [
+      3369,
+      11
+     ]
+    ]
+   },
+   "p5": {
+    "s": 135778,
+    "d": 15933,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2509,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      2869,
+      8
+     ],
+     [
+      3009,
+      9
+     ],
+     [
+      3170,
+      10
+     ],
+     [
+      3410,
+      11
+     ],
+     [
+      4290,
+      12
+     ],
+     [
+      4649,
+      13
+     ],
+     [
+      5269,
+      14
+     ],
+     [
+      5509,
+      15
+     ],
+     [
+      6509,
+      16
+     ],
+     [
+      6689,
+      17
+     ],
+     [
+      7029,
+      18
+     ],
+     [
+      7249,
+      19
+     ],
+     [
+      7349,
+      20
+     ],
+     [
+      8489,
+      21
+     ],
+     [
+      8690,
+      22
+     ],
+     [
+      9009,
+      23
+     ],
+     [
+      9129,
+      24
+     ],
+     [
+      9730,
+      25
+     ],
+     [
+      9930,
+      26
+     ],
+     [
+      10649,
+      27
+     ],
+     [
+      11310,
+      28
+     ],
+     [
+      11589,
+      29
+     ],
+     [
+      12049,
+      30
+     ],
+     [
+      12189,
+      31
+     ],
+     [
+      13069,
+      32
+     ],
+     [
+      13270,
+      33
+     ],
+     [
+      13489,
+      34
+     ],
+     [
+      13629,
+      35
+     ],
+     [
+      14509,
+      36
+     ],
+     [
+      14709,
+      37
+     ],
+     [
+      14850,
+      38
+     ],
+     [
+      14949,
+      39
+     ],
+     [
+      15369,
+      40
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 152012,
+    "d": 1630,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      279,
+      1
+     ],
+     [
+      518,
+      2
+     ],
+     [
+      757,
+      3
+     ],
+     [
+      1173,
+      4
+     ]
+    ]
+   },
+   "p5h-cicek": {
+    "s": 153942,
+    "d": 2685,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 156928,
+    "d": 1845,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      260,
+      1
+     ],
+     [
+      481,
+      2
+     ],
+     [
+      701,
+      3
+     ],
+     [
+      922,
+      4
+     ],
+     [
+      1143,
+      5
+     ],
+     [
+      1363,
+      6
+     ],
+     [
+      1584,
+      7
+     ]
+    ]
+   },
+   "p6": {
+    "s": 159073,
+    "d": 15402,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      2029,
+      6
+     ],
+     [
+      2670,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      4029,
+      9
+     ],
+     [
+      4189,
+      10
+     ],
+     [
+      4669,
+      11
+     ],
+     [
+      4890,
+      12
+     ],
+     [
+      5069,
+      13
+     ],
+     [
+      5589,
+      14
+     ],
+     [
+      5709,
+      15
+     ],
+     [
+      5930,
+      16
+     ],
+     [
+      6350,
+      17
+     ],
+     [
+      7289,
+      18
+     ],
+     [
+      7829,
+      19
+     ],
+     [
+      8150,
+      20
+     ],
+     [
+      8949,
+      21
+     ],
+     [
+      9209,
+      22
+     ],
+     [
+      9529,
+      23
+     ],
+     [
+      10390,
+      24
+     ],
+     [
+      10529,
+      25
+     ],
+     [
+      10709,
+      26
+     ],
+     [
+      10909,
+      27
+     ],
+     [
+      11089,
+      28
+     ],
+     [
+      11249,
+      29
+     ],
+     [
+      11409,
+      30
+     ],
+     [
+      11709,
+      31
+     ],
+     [
+      12310,
+      32
+     ],
+     [
+      12449,
+      33
+     ],
+     [
+      12890,
+      34
+     ],
+     [
+      13649,
+      35
+     ],
+     [
+      13829,
+      36
+     ],
+     [
+      14069,
+      37
+     ],
+     [
+      14569,
+      38
+     ],
+     [
+      14989,
+      39
+     ]
+    ]
+   },
+   "p6h-elif": {
+    "s": 174775,
+    "d": 2535,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      1930,
+      4
+     ]
+    ]
+   },
+   "p6m": {
+    "s": 177611,
+    "d": 2371,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1689,
+      5
+     ]
+    ]
+   },
+   "p6ms": {
+    "s": 180283,
+    "d": 1307,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      529,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

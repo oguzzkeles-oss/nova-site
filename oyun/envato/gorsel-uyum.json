@@ -1,0 +1,32 @@
+{
+ "banyo": {
+  "ok": [
+   "010-kopuklu-eller",
+   "018-mirmir-dislerini-fircaliyor",
+   "033-denizin-resimli-tarifi",
+   "040-uyku-treni",
+   "076-damla-damla-musluk"
+  ],
+  "no": {
+   "058-tik-tik-girebilir-miyim": "p1: kapi (62,198) fotoğraftaki mobilyayla çakışıyor"
+  }
+ },
+ "mutfak": {
+  "ok": [
+   "010-kopuklu-eller",
+   "018-mirmir-dislerini-fircaliyor",
+   "023-sokakta-sekil-avi",
+   "027-dedem-ve-kaybolan-gozluk",
+   "033-denizin-resimli-tarifi",
+   "055-evde-herkesin-bir-isi-var",
+   "062-kana-kana-su",
+   "066-mirmir-buyuk-mu-kucuk-mu",
+   "076-damla-damla-musluk",
+   "082-bes-duyu-pazari"
+  ],
+  "no": {
+   "037-buz-nereye-gitti": "p1: seçenek windowHit=pencere",
+   "095-tencere-tava-orkestrasi": "p0: seçenek windowHit=pencere"
+  }
+ }
+}

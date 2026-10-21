@@ -1,0 +1,1884 @@
+{
+ "id": "006-soz-sirasi-kimde",
+ "lang": "en",
+ "title": "Whose Turn to Talk?",
+ "theme": "Taking turns to talk and listening",
+ "blurb": "At circle time everyone talks at once, and Deniz's tiny whisper gets lost. When Miss Selin's blue talking stone goes round from hand to hand, even the smallest voice is heard.",
+ "voiceNames": {
+  "selin": "Miss Selin",
+  "ali": "Ali",
+  "ela": "Ela",
+  "deniz": "Deniz"
+ },
+ "pages": [
+  {
+   "text": "Monday morning, circle time! Miss Selin smiled: “Good morning!” Everyone had some news to tell. Ali wriggled and wiggled. Ela hopped, hop hop! But Deniz's news was a tiny little whisper.",
+   "hits": {
+    "selin": {
+     "say": "Good morning, children! Circle time!"
+    },
+    "ali": {
+     "say": "I have some great big news!"
+    },
+    "ela": {
+     "say": "Me too! Me too!"
+    },
+    "deniz": {
+     "say": "I have some tiny little news too…"
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "What do you think Deniz's tiny little news could be?"
+  },
+  {
+   "text": "Everyone talked at once. “Grandpa and I…” “My kite…” “Look, look!” Chatter chatter, buzz buzz! The classroom turned into a beehive. Even the fish in the tank was surprised! Nobody could hear anybody. Deniz's whisper got lost. Her shoulders drooped. She felt so sad.",
+   "hits": {
+    "deniz": {
+     "say": "On our balcony… little… Can anyone hear me?"
+    },
+    "ali": {
+     "say": "Grandpa and I made bread! It smelled so good!"
+    },
+    "ela": {
+     "say": "My kite touched the clouds!"
+    },
+    "selin": {
+     "say": "Hmm… I have an idea!"
+    }
+   },
+   "hint": "Touch Deniz and listen!",
+   "ask": "What happened when everyone talked at once? How did Deniz feel?"
+  },
+  {
+   "text": "Miss Selin did not shout. She took a smooth blue stone out of her pocket. She held the stone up high and waited. The class went quiet, wondering. “This is a talking stone,” she said. Can a stone talk?",
+   "hits": {
+    "selin": {
+     "say": "This is a talking stone."
+    },
+    "ali": {
+     "say": "Can a stone talk?"
+    },
+    "ela": {
+     "say": "Maybe it whispers!"
+    },
+    "deniz": {
+     "say": "Hmm… What is it for?"
+    }
+   },
+   "predict": {
+    "q": "What do you think the talking stone is for?",
+    "res": "An interesting guess! Let's see.",
+    "opts": [
+     {
+      "l": "Whoever holds it talks"
+     },
+     {
+      "l": "The stone whispers"
+     }
+    ]
+   },
+   "hint": "Touch Miss Selin!",
+   "ask": "Why do you think Miss Selin didn't shout?"
+  },
+  {
+   "text": "Miss Selin said, “Whoever holds the stone gets to talk!” Ali told about the bread he made with Grandpa. Everyone listened. Ela wriggled. She took a deep breath and waited. Then the stone came to Ela. Ela told about her kite. Everyone listened. Whose turn is it now?",
+   "hits": {
+    "selin": {
+     "say": "Whoever holds the stone gets to talk!"
+    }
+   },
+   "mech": {
+    "done": "The stone went round and round… It's Deniz's turn!",
+    "msg": "The stone went round in turn!"
+   },
+   "hint": "Touch them in order: Ali, Ela, Deniz!",
+   "ask": "What did Ela do while she waited? What do you do when waiting feels hard?"
+  },
+  {
+   "text": "The stone came to Deniz. Her heart went thump, thump. Ali turned. Ela turned. Miss Selin turned too. All eyes were on Deniz. You could even hear the clock go tick tock. Deniz whispered: “Sparrows built a nest on our balcony!” Everyone heard!",
+   "hits": {
+    "deniz": {
+     "say": "There's a sparrow nest on our balcony! Cheep cheep!"
+    }
+   },
+   "mech": {
+    "done": "Three pairs of ears are listening to Deniz!",
+    "msg": "Everyone is listening!"
+   },
+   "hint": "Touch the listeners and count!",
+   "ask": "Now let's be quiet for a moment too. What can you hear?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "kalp"
+    },
+    {
+     "w": 30,
+     "fx": "saat"
+    }
+   ]
+  },
+  {
+   "text": "Everyone wanted to know about the sparrows. Hands went up; the questions came one by one. Ela asked: “Do you watch from far away?” Deniz nodded. She felt warm inside. Then she held the stone out to you: “Your turn to talk! What's your news?”",
+   "hits": {
+    "deniz": {
+     "say": "Your turn to talk! What's your news?"
+    },
+    "ali": {
+     "say": "How many eggs are in the nest?"
+    },
+    "ela": {
+     "say": "Do you watch from far away?"
+    }
+   },
+   "hint": "Touch Deniz!",
+   "ask": "What news do you want to tell today? It's your turn!"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TAKB.1 Managing the speaking process (learning outcome); process components: waits for their turn to speak, makes eye contact with the speaker, talks about a topic of interest (weekend news).",
+   "TADB.3 Analysing what they hear or watch (learning outcome); process components: identifies the parts of events, retells what they heard in the order it happened (the stone goes from Ali to Ela, from Ela to Deniz).",
+   "E2.4 Trust and SDB2.1 Communication: finds the courage to express themselves when they feel listened to; listens to the speaker without interrupting.",
+   "D14 Respect and D12 Patience: does not interrupt a friend, waits for their turn; uses a strategy such as taking a breath while waiting."
+  ],
+  "once": [
+   "Show the cover: “What might these children be doing? The title of the story is a question: Whose turn to talk?”",
+   "Get a small, smooth object ready (a stone, a ball or a spoon). You will use it as a talking stone after the story.",
+   "Ask “What happens if everyone talks at the same time?” and listen to the answers."
+  ],
+  "sirasi": [
+   "On page 2, say the two sentences first all together, then one at a time. Talk about the difference.",
+   "For the prediction question on page 3, accept both answers; ask “Why did you think that?”",
+   "On page 4, pass the stone round on the screen in order. If the wrong person is touched, ask “Whose turn to talk?”",
+   "On page 5, let everyone be quiet for a moment; listen to the tick tock of the clock or the sounds outside."
+  ],
+  "sonra": [
+   "What happened when everyone talked at once? What changed when the talking stone came?",
+   "What did Ela do while she waited? What do you do when waiting feels hard?",
+   "How did Deniz feel when everyone listened to her? How do you feel when someone listens to you?",
+   "Put the story in order with the pictures: the noise, the talking stone, Deniz's whisper."
+  ],
+  "sinif": {
+   "ad": "Talking Stone Circle and Chinese Whispers",
+   "sure": "20 min",
+   "materyal": "A smooth stone or a small ball as the talking stone, paper, crayons",
+   "adim": [
+    "Make a circle. Whoever holds the stone tells their weekend news; the others listen with their eyes and ears.",
+    "Pass the stone from hand to hand. Anyone who doesn't want to share can say “Pass” and give the stone to the next person.",
+    "Play the traditional game of Chinese Whispers: whisper a short sentence round the circle, like Deniz's whisper. If the sentence has changed by the end, laugh and ask: “Why was Deniz's news heard correctly when we took turns with the stone?”",
+    "Each child draws a picture of their news; once the pictures are on the board, they take turns to tell about them."
+   ]
+  },
+  "evSoru": [
+   "What was Deniz's tiny little news?",
+   "What happens when everyone talks at the same time?",
+   "How can we wait for our turn to talk at home?"
+  ],
+  "evEtk": {
+   "ad": "The talking spoon at the table",
+   "d": "At dinner, make one spoon the “talking spoon.” Whoever holds the spoon tells about their day while the others listen; then the spoon passes to the next person. For the one who is waiting, play the “Breathe in through your nose, wait for your turn” game together."
+  },
+  "aileNotu": "Today we read “Whose Turn to Talk?” We saw that when everyone talks at once, nobody is heard, and that when we take turns with a talking stone, even the tiniest voice is heard. At home you can try taking turns to talk with a “talking spoon” at the table. Don't push quiet children to talk; feeling listened to gives them courage."
+ },
+ "audio": {
+  "file": "audio/en/006-soz-sirasi-kimde.mp3",
+  "hash": "dd39989a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13760,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4169,
+      8
+     ],
+     [
+      5289,
+      9
+     ],
+     [
+      5789,
+      10
+     ],
+     [
+      5969,
+      11
+     ],
+     [
+      6149,
+      12
+     ],
+     [
+      6410,
+      13
+     ],
+     [
+      6549,
+      14
+     ],
+     [
+      7269,
+      15
+     ],
+     [
+      7649,
+      16
+     ],
+     [
+      8169,
+      17
+     ],
+     [
+      8350,
+      18
+     ],
+     [
+      9150,
+      19
+     ],
+     [
+      9529,
+      20
+     ],
+     [
+      10069,
+      21
+     ],
+     [
+      10289,
+      22
+     ],
+     [
+      10969,
+      23
+     ],
+     [
+      11169,
+      24
+     ],
+     [
+      11689,
+      25
+     ],
+     [
+      12069,
+      26
+     ],
+     [
+      12249,
+      27
+     ],
+     [
+      12409,
+      28
+     ],
+     [
+      12890,
+      29
+     ],
+     [
+      13169,
+      30
+     ]
+    ]
+   },
+   "p0h-selin": {
+    "s": 14060,
+    "d": 2594,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 16954,
+    "d": 2355,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      1629,
+      5
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 19609,
+    "d": 2038,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1489,
+      3
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 21948,
+    "d": 2472,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      1969,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24720,
+    "d": 19220,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      4029,
+      9
+     ],
+     [
+      4489,
+      10
+     ],
+     [
+      5269,
+      11
+     ],
+     [
+      5669,
+      12
+     ],
+     [
+      6189,
+      13
+     ],
+     [
+      6509,
+      14
+     ],
+     [
+      7289,
+      15
+     ],
+     [
+      7430,
+      16
+     ],
+     [
+      8009,
+      17
+     ],
+     [
+      8270,
+      18
+     ],
+     [
+      8529,
+      19
+     ],
+     [
+      8669,
+      20
+     ],
+     [
+      9669,
+      21
+     ],
+     [
+      9890,
+      22
+     ],
+     [
+      10029,
+      23
+     ],
+     [
+      10249,
+      24
+     ],
+     [
+      10350,
+      25
+     ],
+     [
+      10489,
+      26
+     ],
+     [
+      10829,
+      27
+     ],
+     [
+      10989,
+      28
+     ],
+     [
+      12089,
+      29
+     ],
+     [
+      12569,
+      30
+     ],
+     [
+      12770,
+      31
+     ],
+     [
+      13129,
+      32
+     ],
+     [
+      14029,
+      33
+     ],
+     [
+      14569,
+      34
+     ],
+     [
+      15049,
+      35
+     ],
+     [
+      15289,
+      36
+     ],
+     [
+      16169,
+      37
+     ],
+     [
+      16370,
+      38
+     ],
+     [
+      16870,
+      39
+     ],
+     [
+      17809,
+      40
+     ],
+     [
+      18009,
+      41
+     ],
+     [
+      18309,
+      42
+     ],
+     [
+      18629,
+      43
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 44241,
+    "d": 3941,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      314,
+      1
+     ],
+     [
+      588,
+      2
+     ],
+     [
+      1594,
+      3
+     ],
+     [
+      2397,
+      4
+     ],
+     [
+      2671,
+      5
+     ],
+     [
+      3352,
+      6
+     ],
+     [
+      3626,
+      7
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 48482,
+    "d": 3714,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2130,
+      6
+     ],
+     [
+      2689,
+      7
+     ],
+     [
+      3129,
+      8
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 52496,
+    "d": 2039,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p1h-selin": {
+    "s": 54835,
+    "d": 2099,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1509,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 57234,
+    "d": 14567,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2269,
+      6
+     ],
+     [
+      2469,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      3089,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      3849,
+      11
+     ],
+     [
+      3949,
+      12
+     ],
+     [
+      4049,
+      13
+     ],
+     [
+      4209,
+      14
+     ],
+     [
+      5029,
+      15
+     ],
+     [
+      5229,
+      16
+     ],
+     [
+      5449,
+      17
+     ],
+     [
+      5569,
+      18
+     ],
+     [
+      5850,
+      19
+     ],
+     [
+      6029,
+      20
+     ],
+     [
+      6549,
+      21
+     ],
+     [
+      6749,
+      22
+     ],
+     [
+      7589,
+      23
+     ],
+     [
+      7729,
+      24
+     ],
+     [
+      8109,
+      25
+     ],
+     [
+      8369,
+      26
+     ],
+     [
+      9150,
+      27
+     ],
+     [
+      10270,
+      28
+     ],
+     [
+      10730,
+      29
+     ],
+     [
+      10890,
+      30
+     ],
+     [
+      11009,
+      31
+     ],
+     [
+      11509,
+      32
+     ],
+     [
+      12189,
+      33
+     ],
+     [
+      12390,
+      34
+     ],
+     [
+      13129,
+      35
+     ],
+     [
+      13350,
+      36
+     ],
+     [
+      13489,
+      37
+     ],
+     [
+      13989,
+      38
+     ]
+    ]
+   },
+   "p2h-selin": {
+    "s": 72102,
+    "d": 1807,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1209,
+      4
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 74209,
+    "d": 1494,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      909,
+      3
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 76003,
+    "d": 1602,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      631,
+      1
+     ],
+     [
+      970,
+      2
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 77906,
+    "d": 2065,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 80272,
+    "d": 2220,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      550,
+      4
+     ],
+     [
+      709,
+      5
+     ],
+     [
+      1209,
+      6
+     ],
+     [
+      1589,
+      7
+     ],
+     [
+      1769,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 82793,
+    "d": 2471,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      1989,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 85565,
+    "d": 18950,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2529,
+      7
+     ],
+     [
+      2789,
+      8
+     ],
+     [
+      2930,
+      9
+     ],
+     [
+      3930,
+      10
+     ],
+     [
+      4209,
+      11
+     ],
+     [
+      4489,
+      12
+     ],
+     [
+      4709,
+      13
+     ],
+     [
+      4850,
+      14
+     ],
+     [
+      5149,
+      15
+     ],
+     [
+      5310,
+      16
+     ],
+     [
+      5489,
+      17
+     ],
+     [
+      5649,
+      18
+     ],
+     [
+      6729,
+      19
+     ],
+     [
+      7229,
+      20
+     ],
+     [
+      8270,
+      21
+     ],
+     [
+      8690,
+      22
+     ],
+     [
+      9609,
+      23
+     ],
+     [
+      9770,
+      24
+     ],
+     [
+      9969,
+      25
+     ],
+     [
+      10109,
+      26
+     ],
+     [
+      10390,
+      27
+     ],
+     [
+      10969,
+      28
+     ],
+     [
+      11189,
+      29
+     ],
+     [
+      12189,
+      30
+     ],
+     [
+      12589,
+      31
+     ],
+     [
+      12749,
+      32
+     ],
+     [
+      13169,
+      33
+     ],
+     [
+      13430,
+      34
+     ],
+     [
+      13729,
+      35
+     ],
+     [
+      14629,
+      36
+     ],
+     [
+      14850,
+      37
+     ],
+     [
+      15089,
+      38
+     ],
+     [
+      15329,
+      39
+     ],
+     [
+      15469,
+      40
+     ],
+     [
+      16329,
+      41
+     ],
+     [
+      16829,
+      42
+     ],
+     [
+      17789,
+      43
+     ],
+     [
+      18049,
+      44
+     ],
+     [
+      18249,
+      45
+     ],
+     [
+      18370,
+      46
+     ],
+     [
+      18489,
+      47
+     ]
+    ]
+   },
+   "p3h-selin": {
+    "s": 104815,
+    "d": 2422,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      1849,
+      6
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 107538,
+    "d": 4157,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3170,
+      7
+     ],
+     [
+      3650,
+      8
+     ]
+    ]
+   },
+   "p4": {
+    "s": 111995,
+    "d": 18741,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2130,
+      6
+     ],
+     [
+      2430,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      3369,
+      9
+     ],
+     [
+      4350,
+      10
+     ],
+     [
+      4669,
+      11
+     ],
+     [
+      5509,
+      12
+     ],
+     [
+      5830,
+      13
+     ],
+     [
+      6589,
+      14
+     ],
+     [
+      6789,
+      15
+     ],
+     [
+      7189,
+      16
+     ],
+     [
+      7509,
+      17
+     ],
+     [
+      8310,
+      18
+     ],
+     [
+      8730,
+      19
+     ],
+     [
+      9069,
+      20
+     ],
+     [
+      9270,
+      21
+     ],
+     [
+      9430,
+      22
+     ],
+     [
+      10329,
+      23
+     ],
+     [
+      10469,
+      24
+     ],
+     [
+      10690,
+      25
+     ],
+     [
+      10969,
+      26
+     ],
+     [
+      11169,
+      27
+     ],
+     [
+      11329,
+      28
+     ],
+     [
+      11749,
+      29
+     ],
+     [
+      12109,
+      30
+     ],
+     [
+      12529,
+      31
+     ],
+     [
+      13489,
+      32
+     ],
+     [
+      13890,
+      33
+     ],
+     [
+      14829,
+      34
+     ],
+     [
+      15390,
+      35
+     ],
+     [
+      15649,
+      36
+     ],
+     [
+      15789,
+      37
+     ],
+     [
+      16129,
+      38
+     ],
+     [
+      16289,
+      39
+     ],
+     [
+      16389,
+      40
+     ],
+     [
+      17549,
+      41
+     ],
+     [
+      18169,
+      42
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 131037,
+    "d": 3322,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      715,
+      2
+     ],
+     [
+      1145,
+      3
+     ],
+     [
+      1391,
+      4
+     ],
+     [
+      1638,
+      5
+     ],
+     [
+      1884,
+      6
+     ],
+     [
+      2788,
+      7
+     ],
+     [
+      3035,
+      8
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 134659,
+    "d": 2802,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1489,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2110,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 137761,
+    "d": 16064,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1469,
+      5
+     ],
+     [
+      1609,
+      6
+     ],
+     [
+      2630,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3589,
+      10
+     ],
+     [
+      3729,
+      11
+     ],
+     [
+      4290,
+      12
+     ],
+     [
+      4669,
+      13
+     ],
+     [
+      4890,
+      14
+     ],
+     [
+      5189,
+      15
+     ],
+     [
+      5989,
+      16
+     ],
+     [
+      6229,
+      17
+     ],
+     [
+      6930,
+      18
+     ],
+     [
+      7049,
+      19
+     ],
+     [
+      7229,
+      20
+     ],
+     [
+      7509,
+      21
+     ],
+     [
+      7769,
+      22
+     ],
+     [
+      8009,
+      23
+     ],
+     [
+      8890,
+      24
+     ],
+     [
+      9310,
+      25
+     ],
+     [
+      10129,
+      26
+     ],
+     [
+      10310,
+      27
+     ],
+     [
+      10629,
+      28
+     ],
+     [
+      10949,
+      29
+     ],
+     [
+      11930,
+      30
+     ],
+     [
+      12249,
+      31
+     ],
+     [
+      12449,
+      32
+     ],
+     [
+      12649,
+      33
+     ],
+     [
+      12770,
+      34
+     ],
+     [
+      13049,
+      35
+     ],
+     [
+      13209,
+      36
+     ],
+     [
+      13350,
+      37
+     ],
+     [
+      14009,
+      38
+     ],
+     [
+      14249,
+      39
+     ],
+     [
+      14469,
+      40
+     ],
+     [
+      14569,
+      41
+     ],
+     [
+      15209,
+      42
+     ],
+     [
+      15430,
+      43
+     ],
+     [
+      15609,
+      44
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 154125,
+    "d": 2423,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      326,
+      1
+     ],
+     [
+      612,
+      2
+     ],
+     [
+      898,
+      3
+     ],
+     [
+      1524,
+      4
+     ],
+     [
+      1810,
+      5
+     ],
+     [
+      2096,
+      6
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 156849,
+    "d": 1850,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1290,
+      6
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 159000,
+    "d": 1804,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1309,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,2408 @@
+{
+ "id": "097-yirmi-uc-nisan-sarkisi",
+ "lang": "en",
+ "title": "The 23 April Song",
+ "theme": "Writing a song together for 23 April, coping with nerves and singing hand in hand",
+ "blurb": "Miss Nur's class writes a song about the children of the world for 23 April, Children's Day. At rehearsal, Deniz's voice hides away from nerves. With Elif's balloon idea, her voice grows little by little!",
+ "voiceNames": {
+  "nur": "Miss Nur",
+  "ali": "Ali",
+  "deniz": "Deniz",
+  "elif": "Elif"
+ },
+ "pages": [
+  {
+   "text": "April came, and tulips bloomed outside the window. Miss Nur shook her tambourine: jingle jingle! “23 April is coming! Atatürk gave this special day to you, to all children. Shall we sing our own song on Children's Day?” “Yeees!” said Ali, Deniz and Elif.",
+   "hits": {
+    "nur": {
+     "say": "Atatürk gave this day to you as a gift!"
+    },
+    "ali": {
+     "say": "Hooray! I love singing!"
+    },
+    "deniz": {
+     "say": "Me too! But I'm a bit nervous."
+    },
+    "elif": {
+     "say": "Come on, let's start right away!"
+    },
+    "lale": {
+     "say": "The tulips are out!"
+    }
+   },
+   "hint": "Touch Miss Nur!",
+   "ask": "What do people do on 23 April? What would you like to do on Children's Day?"
+  },
+  {
+   "text": "Everyone made up a line. Ali sang: “Children of the world run in the sun!” Deniz sang: “Children of the world swim in the sea!” Elif sang: “Children of the world say hello, say hola!” Then all together: “Hand in hand, hand in hand, children of the world!”",
+   "hits": {
+    "ali": {
+     "say": "Children of the world run in the sun!"
+    },
+    "deniz": {
+     "say": "Children of the world swim in the sea!"
+    },
+    "elif": {
+     "say": "Children of the world say hello, say hola!"
+    },
+    "nakarat": {
+     "say": "Hand in hand, hand in hand, children of the world!"
+    }
+   },
+   "hint": "Listen to Ali's line!",
+   "ask": "Which line would you add to this song? What else do the children of the world do?"
+  },
+  {
+   "text": "Rehearsal began. Ali sang in a big, strong voice. Then it was Deniz's turn. Deniz felt so nervous. Her heart went thump, thump. Her hands shook. She opened her mouth, but her voice came out tiny, like a whisper. “My voice is hiding!” said Deniz.",
+   "hits": {
+    "deniz": {
+     "say": "I got nervous, and my voice hid away."
+    },
+    "ali": {
+     "say": "You can do it, Deniz!"
+    },
+    "elif": {
+     "say": "Wait, I've got an idea!"
+    },
+    "kalp": {
+     "say": "Thump, thump, thump!"
+    }
+   },
+   "predict": {
+    "q": "How do you think Deniz's voice will come back?",
+    "res": "Good guess! Let's find out!",
+    "opts": [
+     {
+      "l": "Elif sings beside her"
+     },
+     {
+      "l": "She takes a deep breath"
+     }
+    ]
+   },
+   "hint": "Touch Deniz!",
+   "ask": "What happens in your body when you get nervous? What do your heart and your hands do?",
+   "cues": [
+    {
+     "w": 21,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Elif had an idea. “Your voice is like a balloon. Let's blow it up little by little!” The two of them took a deep breath. Deniz sang, with Elif beside her: first in a whisper… then a bit louder… and at last in a great big, strong voice!",
+   "hits": {
+    "elif": {
+     "say": "First a whisper, then great big!"
+    },
+    "deniz": {
+     "say": "I took a breath. I'm ready!"
+    },
+    "v1": {
+     "say": "Hand in hand…"
+    },
+    "v2": {
+     "say": "Hand in hand, hand in hand!"
+    },
+    "v3": {
+     "say": "Hand in hand, children of the world!"
+    }
+   },
+   "mech": {
+    "done": "The voice is growing, growing!",
+    "msg": "The voice grew!"
+   },
+   "hint": "Start with the small balloon!",
+   "ask": "Will you try too? Say “Hand in hand!” first in a whisper, then in a strong voice. Which was easier, and why?"
+  },
+  {
+   "text": "Children's Day morning came! Ali hung up the flags. Deniz put pictures of children holding hands on the board. As she counted the balloons, she sang the song once more in a whisper. Elif tied the colourful balloons one by one. How many balloons are there? Count them!",
+   "hits": {
+    "ali": {
+     "say": "I hung up our flags! Look at them wave!"
+    },
+    "deniz": {
+     "say": "Look, the children are hand in hand!"
+    },
+    "elif": {
+     "say": "I tied the balloons!"
+    }
+   },
+   "mech": {
+    "done": "Six balloons! The class is ready for Children's Day!",
+    "msg": "You counted them all!"
+   },
+   "hint": "Count the balloons!",
+   "ask": "How would you decorate your classroom for Children's Day? Which colours would you choose?"
+  },
+  {
+   "text": "The party began! The tambourine played: jingle jingle! First Ali sang. Then it was Deniz's turn. She took a deep breath and thought of the balloon. First in a whisper, then in a strong voice! Then everyone sang together: “Hand in hand, hand in hand, children of the world!” Deniz's heart was going thump, thump again, but this time with joy!",
+   "hits": {
+    "ali": {
+     "say": "Children of the world run in the sun!"
+    },
+    "deniz": {
+     "say": "First soft, then strong! Children of the world swim…"
+    },
+    "elif": {
+     "say": "Children of the world say hello, say hola!"
+    },
+    "nur": {
+     "say": "Now all together!"
+    }
+   },
+   "mech": {
+    "done": "Hand in hand, hand in hand, children of the world!",
+    "msg": "The song is complete!"
+   },
+   "hint": "Let Ali sing first!",
+   "ask": "Have you ever sung in front of a crowd? How did you feel?",
+   "cues": [
+    {
+     "w": 53,
+     "fx": "kalp"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "skill: MSB2 Musical Singing: Sings the lines of the class song when it is their turn and joins the chorus with the group (MSB learning outcome: notices features of song forms, pronounces the lyrics correctly — unverified).",
+   "skill: MYB5 Musical Creativity: Adds their own line to the song; experiments with changing the volume from a whisper to a strong voice (MYB learning outcome: creating musical products based on their musical experiences and presenting them — unverified).",
+   "MDB.1 Listening to a variety of musical works: Listens to a children's song made of verses and a chorus, and notices that the chorus repeats.",
+   "OB6 Citizenship Literacy and D19 Patriotism: Says that 23 April is the holiday Atatürk gave to children as a gift; joins the celebration with our flag and the song.",
+   "SDB2.2 Cooperation: Writes the song together with friends, sings in turn, supports a friend who is nervous. SDB1.2 Self-Regulation: When nervous, takes a deep breath and grows the voice little by little."
+  ],
+  "once": [
+   "Look at the flag and the balloons on the cover: “What do you think this class is celebrating?”",
+   "Talk about 23 April: on 23 April 1920, the Grand National Assembly of Türkiye opened. Atatürk gave this day to children as a holiday. Today, children from all over the world come and celebrate with us too.",
+   "Ask which other languages you know “hello” in. If someone in the class or the family speaks a different language, learn their “hello”."
+  ],
+  "sirasi": [
+   "On page 2, touch each child and listen to their line; then sing the chorus together, clapping along.",
+   "On page 3, look at Deniz's body: touch the heart and Deniz, and name the feeling. In the prediction, both options are good ways; listen to the child's reason.",
+   "On page 4, as you touch the balloons in turn, grow your own voice from a whisper to a strong voice too. On page 5, count the balloons together."
+  ],
+  "sonra": [
+   "Why did Deniz get nervous? How did her voice come back? Why did Elif's balloon idea work?",
+   "Whose line was which in the song? How many times was the chorus sung? Make up one more line together.",
+   "What do you do when you get nervous? A deep breath, holding a friend's hand, starting in a whisper… Which one would you like to try?"
+  ],
+  "sinif": {
+   "ad": "Our 23 April Song",
+   "sure": "20 min",
+   "materyal": "Tambourine, pictures of balloons in three sizes (small, medium, large), big paper, crayons, small paper flags",
+   "adim": [
+    "Learn the chorus together: “Hand in hand, hand in hand, children of the world!” The teacher keeps the beat with the tambourine.",
+    "Each child, or a small group, makes up a line starting “Children of the world…” (run, sleep, paint, say hello). Draw the lines as pictures on the paper.",
+    "Show the balloon pictures: sing the chorus in a whisper for the small balloon, in a normal voice for the medium one, and in a strong voice for the large one. Nobody is made to sing alone; a child who prefers sings hand in hand with a friend.",
+    "Perform the song for the class or the families, singing the lines in turn and the chorus all together.",
+    "At the end, ask: “How did you feel while singing? What changed when we sang together?”"
+   ]
+  },
+  "evSoru": [
+   "Whose holiday is 23 April? Who gave it as a gift?",
+   "Why did Deniz's voice hide, and how did it come back?",
+   "What would your line be? “Children of the world…”"
+  ],
+  "evEtk": {
+   "ad": "Balloon Voice",
+   "d": "At home, sing a children's song three times: first in a whisper, then in a normal voice, then in a strong voice. Each time, draw a small, medium or large balloon in the air with your hand. Then add a line to the song as a family."
+  },
+  "aileNotu": "Today we read “The 23 April Song.” Miss Nur's class wrote a song about the children of the world for the holiday Atatürk gave to children. At rehearsal, Deniz got nervous and her voice hid away; Elif suggested taking a deep breath and growing the voice little by little, like a balloon. At home you can sing with your child from a whisper to a strong voice, and talk about how taking a breath and holding someone's hand helps when we feel nervous."
+ },
+ "audio": {
+  "file": "audio/en/097-yirmi-uc-nisan-sarkisi.mp3",
+  "hash": "4805d0d8",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17827,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2509,
+      6
+     ],
+     [
+      2609,
+      7
+     ],
+     [
+      3549,
+      8
+     ],
+     [
+      3789,
+      9
+     ],
+     [
+      4109,
+      10
+     ],
+     [
+      4330,
+      11
+     ],
+     [
+      4469,
+      12
+     ],
+     [
+      5469,
+      13
+     ],
+     [
+      5910,
+      14
+     ],
+     [
+      6375,
+      15
+     ],
+     [
+      6910,
+      16
+     ],
+     [
+      7829,
+      17
+     ],
+     [
+      7989,
+      18
+     ],
+     [
+      8829,
+      19
+     ],
+     [
+      9270,
+      20
+     ],
+     [
+      9489,
+      21
+     ],
+     [
+      9709,
+      22
+     ],
+     [
+      10169,
+      23
+     ],
+     [
+      10390,
+      24
+     ],
+     [
+      10589,
+      25
+     ],
+     [
+      11029,
+      26
+     ],
+     [
+      11310,
+      27
+     ],
+     [
+      11589,
+      28
+     ],
+     [
+      12469,
+      29
+     ],
+     [
+      12669,
+      30
+     ],
+     [
+      12829,
+      31
+     ],
+     [
+      13049,
+      32
+     ],
+     [
+      13229,
+      33
+     ],
+     [
+      13430,
+      34
+     ],
+     [
+      13749,
+      35
+     ],
+     [
+      13869,
+      36
+     ],
+     [
+      14310,
+      37
+     ],
+     [
+      14989,
+      38
+     ],
+     [
+      15969,
+      39
+     ],
+     [
+      16249,
+      40
+     ],
+     [
+      16690,
+      41
+     ],
+     [
+      17149,
+      42
+     ],
+     [
+      17430,
+      43
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 18127,
+    "d": 2994,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      2049,
+      6
+     ],
+     [
+      2209,
+      7
+     ],
+     [
+      2370,
+      8
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 21422,
+    "d": 2387,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1109,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1749,
+      3
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 24110,
+    "d": 2821,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      347,
+      1
+     ],
+     [
+      1018,
+      2
+     ],
+     [
+      1325,
+      3
+     ],
+     [
+      1632,
+      4
+     ],
+     [
+      1939,
+      5
+     ],
+     [
+      2246,
+      6
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 27231,
+    "d": 2233,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      504,
+      1
+     ],
+     [
+      928,
+      2
+     ],
+     [
+      1195,
+      3
+     ],
+     [
+      1462,
+      4
+     ],
+     [
+      1728,
+      5
+     ]
+    ]
+   },
+   "p0h-lale": {
+    "s": 29765,
+    "d": 1274,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      829,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 31340,
+    "d": 18364,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      869,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      2049,
+      6
+     ],
+     [
+      2809,
+      7
+     ],
+     [
+      3249,
+      8
+     ],
+     [
+      3369,
+      9
+     ],
+     [
+      3509,
+      10
+     ],
+     [
+      4049,
+      11
+     ],
+     [
+      4290,
+      12
+     ],
+     [
+      4410,
+      13
+     ],
+     [
+      4569,
+      14
+     ],
+     [
+      5509,
+      15
+     ],
+     [
+      5809,
+      16
+     ],
+     [
+      6489,
+      17
+     ],
+     [
+      6930,
+      18
+     ],
+     [
+      7049,
+      19
+     ],
+     [
+      7169,
+      20
+     ],
+     [
+      7649,
+      21
+     ],
+     [
+      7930,
+      22
+     ],
+     [
+      8049,
+      23
+     ],
+     [
+      8209,
+      24
+     ],
+     [
+      9009,
+      25
+     ],
+     [
+      9350,
+      26
+     ],
+     [
+      10009,
+      27
+     ],
+     [
+      10449,
+      28
+     ],
+     [
+      10549,
+      29
+     ],
+     [
+      10690,
+      30
+     ],
+     [
+      11149,
+      31
+     ],
+     [
+      11409,
+      32
+     ],
+     [
+      12109,
+      33
+     ],
+     [
+      12430,
+      34
+     ],
+     [
+      13310,
+      35
+     ],
+     [
+      13749,
+      36
+     ],
+     [
+      13949,
+      37
+     ],
+     [
+      14789,
+      38
+     ],
+     [
+      15109,
+      39
+     ],
+     [
+      15269,
+      40
+     ],
+     [
+      15869,
+      41
+     ],
+     [
+      16190,
+      42
+     ],
+     [
+      16370,
+      43
+     ],
+     [
+      16989,
+      44
+     ],
+     [
+      17530,
+      45
+     ],
+     [
+      17669,
+      46
+     ],
+     [
+      17809,
+      47
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 50004,
+    "d": 2720,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2110,
+      7
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 53025,
+    "d": 2930,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1924,
+      5
+     ],
+     [
+      2229,
+      6
+     ],
+     [
+      2449,
+      7
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 56256,
+    "d": 3591,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      3029,
+      7
+     ]
+    ]
+   },
+   "p1h-nakarat": {
+    "s": 60147,
+    "d": 3837,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      2989,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3249,
+      9
+     ]
+    ]
+   },
+   "p2": {
+    "s": 64285,
+    "d": 18769,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      3049,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      4910,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5169,
+      12
+     ],
+     [
+      5669,
+      13
+     ],
+     [
+      6449,
+      14
+     ],
+     [
+      6850,
+      15
+     ],
+     [
+      7249,
+      16
+     ],
+     [
+      7629,
+      17
+     ],
+     [
+      8549,
+      18
+     ],
+     [
+      8709,
+      19
+     ],
+     [
+      8989,
+      20
+     ],
+     [
+      9329,
+      21
+     ],
+     [
+      9810,
+      22
+     ],
+     [
+      10629,
+      23
+     ],
+     [
+      10829,
+      24
+     ],
+     [
+      11270,
+      25
+     ],
+     [
+      12009,
+      26
+     ],
+     [
+      12230,
+      27
+     ],
+     [
+      12509,
+      28
+     ],
+     [
+      12669,
+      29
+     ],
+     [
+      13169,
+      30
+     ],
+     [
+      13369,
+      31
+     ],
+     [
+      13549,
+      32
+     ],
+     [
+      13869,
+      33
+     ],
+     [
+      14049,
+      34
+     ],
+     [
+      14289,
+      35
+     ],
+     [
+      14969,
+      36
+     ],
+     [
+      15149,
+      37
+     ],
+     [
+      15269,
+      38
+     ],
+     [
+      16229,
+      39
+     ],
+     [
+      16430,
+      40
+     ],
+     [
+      16789,
+      41
+     ],
+     [
+      16969,
+      42
+     ],
+     [
+      17969,
+      43
+     ],
+     [
+      18169,
+      44
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 83354,
+    "d": 2883,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      299,
+      1
+     ],
+     [
+      558,
+      2
+     ],
+     [
+      1163,
+      3
+     ],
+     [
+      1422,
+      4
+     ],
+     [
+      1681,
+      5
+     ],
+     [
+      2132,
+      6
+     ],
+     [
+      2391,
+      7
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 86538,
+    "d": 1550,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      272,
+      1
+     ],
+     [
+      504,
+      2
+     ],
+     [
+      736,
+      3
+     ],
+     [
+      1105,
+      4
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 88389,
+    "d": 1894,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1349,
+      4
+     ]
+    ]
+   },
+   "p2h-kalp": {
+    "s": 90583,
+    "d": 1881,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      725,
+      1
+     ],
+     [
+      1410,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 92765,
+    "d": 2345,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      1170,
+      5
+     ],
+     [
+      1469,
+      6
+     ],
+     [
+      1670,
+      7
+     ],
+     [
+      1849,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 95410,
+    "d": 1961,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 97672,
+    "d": 16923,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2349,
+      7
+     ],
+     [
+      2529,
+      8
+     ],
+     [
+      2589,
+      9
+     ],
+     [
+      3529,
+      10
+     ],
+     [
+      3849,
+      11
+     ],
+     [
+      4129,
+      12
+     ],
+     [
+      4249,
+      13
+     ],
+     [
+      4569,
+      14
+     ],
+     [
+      4850,
+      15
+     ],
+     [
+      5049,
+      16
+     ],
+     [
+      5890,
+      17
+     ],
+     [
+      6049,
+      18
+     ],
+     [
+      6249,
+      19
+     ],
+     [
+      6350,
+      20
+     ],
+     [
+      6609,
+      21
+     ],
+     [
+      6809,
+      22
+     ],
+     [
+      7009,
+      23
+     ],
+     [
+      7309,
+      24
+     ],
+     [
+      8150,
+      25
+     ],
+     [
+      8569,
+      26
+     ],
+     [
+      9109,
+      27
+     ],
+     [
+      9329,
+      28
+     ],
+     [
+      9709,
+      29
+     ],
+     [
+      10129,
+      30
+     ],
+     [
+      10749,
+      31
+     ],
+     [
+      11129,
+      32
+     ],
+     [
+      11249,
+      33
+     ],
+     [
+      11329,
+      34
+     ],
+     [
+      12249,
+      35
+     ],
+     [
+      12609,
+      36
+     ],
+     [
+      12689,
+      37
+     ],
+     [
+      12909,
+      38
+     ],
+     [
+      13669,
+      39
+     ],
+     [
+      13810,
+      40
+     ],
+     [
+      13989,
+      41
+     ],
+     [
+      14409,
+      42
+     ],
+     [
+      14529,
+      43
+     ],
+     [
+      14709,
+      44
+     ],
+     [
+      15289,
+      45
+     ],
+     [
+      15689,
+      46
+     ],
+     [
+      16289,
+      47
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 114896,
+    "d": 3445,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2910,
+      5
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 118641,
+    "d": 2273,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      449,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1790,
+      5
+     ]
+    ]
+   },
+   "p3h-v1": {
+    "s": 121214,
+    "d": 1348,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      729,
+      2
+     ]
+    ]
+   },
+   "p3h-v2": {
+    "s": 122863,
+    "d": 2420,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p3h-v3": {
+    "s": 125584,
+    "d": 2763,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2249,
+      6
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 128648,
+    "d": 2554,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      1709,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 131503,
+    "d": 16533,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2489,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      2829,
+      7
+     ],
+     [
+      2949,
+      8
+     ],
+     [
+      3809,
+      9
+     ],
+     [
+      4189,
+      10
+     ],
+     [
+      4390,
+      11
+     ],
+     [
+      4769,
+      12
+     ],
+     [
+      4910,
+      13
+     ],
+     [
+      5350,
+      14
+     ],
+     [
+      5689,
+      15
+     ],
+     [
+      6029,
+      16
+     ],
+     [
+      6129,
+      17
+     ],
+     [
+      6249,
+      18
+     ],
+     [
+      7029,
+      19
+     ],
+     [
+      7149,
+      20
+     ],
+     [
+      7329,
+      21
+     ],
+     [
+      7629,
+      22
+     ],
+     [
+      7729,
+      23
+     ],
+     [
+      8430,
+      24
+     ],
+     [
+      8629,
+      25
+     ],
+     [
+      8869,
+      26
+     ],
+     [
+      9009,
+      27
+     ],
+     [
+      9409,
+      28
+     ],
+     [
+      9709,
+      29
+     ],
+     [
+      10089,
+      30
+     ],
+     [
+      10209,
+      31
+     ],
+     [
+      10289,
+      32
+     ],
+     [
+      11310,
+      33
+     ],
+     [
+      11669,
+      34
+     ],
+     [
+      11969,
+      35
+     ],
+     [
+      12109,
+      36
+     ],
+     [
+      12549,
+      37
+     ],
+     [
+      13169,
+      38
+     ],
+     [
+      13390,
+      39
+     ],
+     [
+      13669,
+      40
+     ],
+     [
+      14369,
+      41
+     ],
+     [
+      14549,
+      42
+     ],
+     [
+      14769,
+      43
+     ],
+     [
+      15209,
+      44
+     ],
+     [
+      15390,
+      45
+     ],
+     [
+      15950,
+      46
+     ],
+     [
+      16190,
+      47
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 148336,
+    "d": 2988,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      729,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2009,
+      7
+     ],
+     [
+      2269,
+      8
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 151624,
+    "d": 2572,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2069,
+      6
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 154497,
+    "d": 1413,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      709,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 156210,
+    "d": 3865,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2709,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      3430,
+      8
+     ]
+    ]
+   },
+   "p5": {
+    "s": 160376,
+    "d": 25020,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      3170,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      4709,
+      8
+     ],
+     [
+      5289,
+      9
+     ],
+     [
+      5469,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      6549,
+      12
+     ],
+     [
+      6629,
+      13
+     ],
+     [
+      6789,
+      14
+     ],
+     [
+      7289,
+      15
+     ],
+     [
+      8049,
+      16
+     ],
+     [
+      8190,
+      17
+     ],
+     [
+      8390,
+      18
+     ],
+     [
+      8509,
+      19
+     ],
+     [
+      8810,
+      20
+     ],
+     [
+      9369,
+      21
+     ],
+     [
+      9589,
+      22
+     ],
+     [
+      9829,
+      23
+     ],
+     [
+      9930,
+      24
+     ],
+     [
+      10049,
+      25
+     ],
+     [
+      11049,
+      26
+     ],
+     [
+      11409,
+      27
+     ],
+     [
+      11509,
+      28
+     ],
+     [
+      11589,
+      29
+     ],
+     [
+      12449,
+      30
+     ],
+     [
+      12810,
+      31
+     ],
+     [
+      12930,
+      32
+     ],
+     [
+      13089,
+      33
+     ],
+     [
+      13609,
+      34
+     ],
+     [
+      14469,
+      35
+     ],
+     [
+      14810,
+      36
+     ],
+     [
+      15369,
+      37
+     ],
+     [
+      15669,
+      38
+     ],
+     [
+      16610,
+      39
+     ],
+     [
+      16950,
+      40
+     ],
+     [
+      17110,
+      41
+     ],
+     [
+      17729,
+      42
+     ],
+     [
+      18069,
+      43
+     ],
+     [
+      18229,
+      44
+     ],
+     [
+      18850,
+      45
+     ],
+     [
+      19409,
+      46
+     ],
+     [
+      19549,
+      47
+     ],
+     [
+      19709,
+      48
+     ],
+     [
+      20610,
+      49
+     ],
+     [
+      21129,
+      50
+     ],
+     [
+      21389,
+      51
+     ],
+     [
+      21569,
+      52
+     ],
+     [
+      21950,
+      53
+     ],
+     [
+      22430,
+      54
+     ],
+     [
+      22770,
+      55
+     ],
+     [
+      23449,
+      56
+     ],
+     [
+      23649,
+      57
+     ],
+     [
+      23889,
+      58
+     ],
+     [
+      24190,
+      59
+     ],
+     [
+      24430,
+      60
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 185697,
+    "d": 2726,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2110,
+      7
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 188723,
+    "d": 4711,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2729,
+      4
+     ],
+     [
+      3229,
+      5
+     ],
+     [
+      3349,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      4149,
+      8
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 193735,
+    "d": 3627,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      3049,
+      7
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 197662,
+    "d": 1384,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      330,
+      1
+     ],
+     [
+      621,
+      2
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 199346,
+    "d": 3848,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3089,
+      8
+     ],
+     [
+      3249,
+      9
+     ]
+    ]
+   }
+  }
+ }
+}

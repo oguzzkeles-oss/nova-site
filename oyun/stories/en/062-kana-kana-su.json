@@ -1,0 +1,1505 @@
+{
+ "id": "062-kana-kana-su",
+ "lang": "en",
+ "title": "A Big Drink of Water",
+ "theme": "Healthy drinks: water when you're thirsty",
+ "blurb": "Zeynep comes home thirsty from the park, and her eye lands on the orange, sugary drink. With Dad, she listens to her tongue, has a big drink of water and makes up a game for sorting the drinks.",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "baba": "Dad"
+ },
+ "pages": [
+  {
+   "text": "Zeynep came running home from the park. Her cheeks were bright red, her tongue was bone dry. “Dad, I'm thirsty! Very, very, very thirsty!” Dad laughed: “Welcome home, little runner!”",
+   "hits": {
+    "zeynep": {
+     "say": "I'm thirsty! Very, very, very thirsty!"
+    },
+    "baba": {
+     "say": "Welcome home, little runner!"
+    },
+    "su": {
+     "say": "Cool water, right here!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "What happens in your body when you run and play?"
+  },
+  {
+   "text": "Zeynep ran to the fridge. Her eye landed on the orange, sugary drinks. “I'll have that one!” Dad lined up the drinks: water, milk and the sugary ones. “Let's count first. How many drinks?”",
+   "hits": {
+    "zeynep": {
+     "say": "I'll have that one! Sweet, so sweet!"
+    },
+    "baba": {
+     "say": "Let's count first!"
+    }
+   },
+   "mech": {
+    "done": "Five drinks, all in a row!",
+    "msg": "You counted to five!"
+   },
+   "hint": "Count the drinks!",
+   "ask": "Which drinks can you see on the table? Which ones do you think are sugary?"
+  },
+  {
+   "text": "Zeynep couldn't decide. Her eye was on the sweet drink, her tongue was bone dry. Dad winked: “Is your tongue like a desert? Listen to it. What does it want?”",
+   "hits": {
+    "zeynep": {
+     "say": "Which one shall I have?"
+    },
+    "baba": {
+     "say": "What does your tongue want? Listen to it."
+    },
+    "su": {
+     "say": "Cool water!"
+    },
+    "tatli": {
+     "say": "Sugary drink!"
+    }
+   },
+   "predict": {
+    "q": "Which one do you think Zeynep will drink?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "Cool water"
+     },
+     {
+      "l": "The sugary drink"
+     }
+    ]
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "How do your tongue and throat feel when you're thirsty?"
+  },
+  {
+   "text": "Zeynep shut her eyes and listened to her tongue. “Water!” Glug, glug, glug! She drank and drank. Her tongue went soft, her cheeks cooled. Ahh, that's better! “A big drink of water!”",
+   "hits": {
+    "zeynep": {
+     "say": "Ahh! A big drink of water!"
+    },
+    "baba": {
+     "say": "Glug glug glug! Enjoy!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "At first Zeynep couldn't decide. How does she feel now? What makes you think so?"
+  },
+  {
+   "text": "Zeynep made up a game: “Everyday drinks on the table! Sugary ones on the shelf, for now and then!” Water, milk: table. Sugary ones: shelf. Hop, hop, hop!",
+   "hits": {
+    "zeynep": {
+     "say": "Sugary ones on the shelf, just for now and then!"
+    },
+    "baba": {
+     "say": "What a great game you made up!"
+    }
+   },
+   "mech": {
+    "done": "Every drink in its place!",
+    "msg": "You sorted them all!"
+   },
+   "hint": "Is it sugary? Put it in its place!",
+   "ask": "Why do you think the water and the milk went to the table?"
+  },
+  {
+   "text": "Zeynep filled her water bottle and went back to the park with Dad. She slid, she ran, she jumped. And when she got thirsty? A big drink of water! Dad smiled from the bench. Zeynep lifted her bottle high: “I chose this myself!”",
+   "hits": {
+    "zeynep": {
+     "say": "I chose this myself!"
+    },
+    "baba": {
+     "say": "You chose it yourself, well done!"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "How does your body tell you when you're thirsty? What do you do then?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.7 (learning outcome) Showing healthy eating behaviours in daily life: the child sees in the story how to choose water when thirsty, to drink ayran (a yoghurt drink) and milk every day and sugary drinks only now and then, and talks about it in terms of their own day.",
+   "FAB.2 (learning outcome) Classifying objects and events/phenomena related to science by their similarities and differences: sorts drinks into two groups, “the ones we drink every day” (water and milk in the story; ayran too in the conversation) and “sugary ones”; says why they put each in that group.",
+   "E1.6 Selectivity (disposition): stops and thinks between the drink that looks appealing and what the body needs; makes a choice by asking “What does my tongue want?”",
+   "SDB3.3 Responsible Decision-Making and D13 Healthy Living: notices the feeling of not being able to decide, and makes the decision themselves by listening to their body's signals (dry tongue, hot cheeks)."
+  ],
+  "once": [
+   "Bring a glass of water. Ask: “How does our body tell us when we've been running and playing?” Listen for answers like a dry tongue, hot cheeks, feeling tired.",
+   "Read the title on the cover: “A big drink of water… What do you think that means?” Take a sip of water together and say “a big drink!”"
+  ],
+  "sirasi": [
+   "On page 1, point to Zeynep's cheeks: “Why have they gone bright red?”",
+   "In the counting game, count the drinks by name: “One water, two water, three milk…” Say that the orange drink isn't fresh fruit juice but a ready-made sugary drink or fizzy pop.",
+   "On page 3, explain the words “couldn't decide”: “When you want two things at once and can't choose, you can't decide.” For the prediction question, say “Let's see!” without saying right or wrong.",
+   "On page 4, close your eyes together and listen to your tongue, and make the sound “Glug, glug, glug!”",
+   "In the sorting game, ask the child about each drink: “Is it sugary? Why does it go there?” Milk lives in the fridge too; the shelf in the game is the place for the things we drink “now and then”."
+  ],
+  "sonra": [
+   "Remember Zeynep's game: which drinks went to the table, and which to the shelf? Ask about the ayran at home too: “Which group does ayran go in?” Sugary drinks aren't banned, we have them now and then.",
+   "Ask: “When are you most thirsty?”: at the park, on a summer's day, when you wake up… Talk about whether or not to wait until you're thirsty.",
+   "What do you do when you can't decide? Zeynep stopped, closed her eyes and listened to her body. Try a “stop and listen” moment together."
+  ],
+  "sinif": {
+   "ad": "I Sell Water, I Sell Ayran",
+   "sure": "20 min",
+   "materyal": "Picture cards of water, ayran, milk and sugary drinks (or empty, clean packaging), two big baskets (one with a tablecloth, one with a picture of a shelf), a glass of water for each child",
+   "adim": [
+    "The children make a circle. Play the traditional “drop the handkerchief” circle game, singing “I sell water, I sell ayran”. The child who is “it” walks around the outside of the circle and drops a drink card behind a friend; the child who notices the card chases “it”, and “it” tries to sit down in their place.",
+    "When the game is over, each child shows the card in their hand, thinks “Is it sugary?” and puts it in the right basket according to the question “Every day, or now and then?”",
+    "Count the cards in the baskets together and compare: “Which one has more?”",
+    "After the game, everyone drinks a glass of water; talk about “How does your tongue feel now?” In Green Crescent Week (1–7 March), you can display this activity on the healthy living board."
+   ]
+  },
+  "evSoru": [
+   "What happened in Zeynep's body when she came home from the park?",
+   "What did Zeynep do when she couldn't decide?",
+   "Which drinks do you think we have every day, and which ones now and then?"
+  ],
+  "evEtk": {
+   "ad": "My Water Bottle Comes Too",
+   "d": "For a week, let your child fill their own water bottle whenever you go out. Stick a water chart on the fridge; for every glass of water, your child draws or colours in a drop. Count the drops together in the evening."
+  },
+  "aileNotu": "Today we read “A Big Drink of Water.” Zeynep came home thirsty from the park and first wanted a sugary drink; her dad didn't forbid it, he said, “What does your tongue want? Listen to it.” Zeynep chose water for herself and made up a game that sorts drinks into “every day” and “now and then”. At home, keeping water somewhere easy to reach, letting your child fill their own water bottle and not using sugary drinks as a reward all support the habit."
+ },
+ "audio": {
+  "file": "audio/en/062-kana-kana-su.mp3",
+  "hash": "09ee072d",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13448,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      1670,
+      6
+     ],
+     [
+      2390,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      2930,
+      9
+     ],
+     [
+      3170,
+      10
+     ],
+     [
+      3609,
+      11
+     ],
+     [
+      4169,
+      12
+     ],
+     [
+      4350,
+      13
+     ],
+     [
+      4709,
+      14
+     ],
+     [
+      4949,
+      15
+     ],
+     [
+      5310,
+      16
+     ],
+     [
+      6189,
+      17
+     ],
+     [
+      6789,
+      18
+     ],
+     [
+      7069,
+      19
+     ],
+     [
+      8169,
+      20
+     ],
+     [
+      8589,
+      21
+     ],
+     [
+      9049,
+      22
+     ],
+     [
+      9509,
+      23
+     ],
+     [
+      10609,
+      24
+     ],
+     [
+      11009,
+      25
+     ],
+     [
+      11909,
+      26
+     ],
+     [
+      12409,
+      27
+     ],
+     [
+      12729,
+      28
+     ],
+     [
+      13009,
+      29
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 13748,
+    "d": 4338,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      392,
+      1
+     ],
+     [
+      1424,
+      2
+     ],
+     [
+      2247,
+      3
+     ],
+     [
+      3070,
+      4
+     ],
+     [
+      3684,
+      5
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 18387,
+    "d": 1622,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      501,
+      1
+     ],
+     [
+      934,
+      2
+     ],
+     [
+      1258,
+      3
+     ]
+    ]
+   },
+   "p0h-su": {
+    "s": 20309,
+    "d": 1888,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 22497,
+    "d": 12451,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2069,
+      6
+     ],
+     [
+      2289,
+      7
+     ],
+     [
+      2650,
+      8
+     ],
+     [
+      2729,
+      9
+     ],
+     [
+      2949,
+      10
+     ],
+     [
+      3449,
+      11
+     ],
+     [
+      3849,
+      12
+     ],
+     [
+      4629,
+      13
+     ],
+     [
+      4830,
+      14
+     ],
+     [
+      4989,
+      15
+     ],
+     [
+      5289,
+      16
+     ],
+     [
+      6009,
+      17
+     ],
+     [
+      6309,
+      18
+     ],
+     [
+      6569,
+      19
+     ],
+     [
+      6689,
+      20
+     ],
+     [
+      6789,
+      21
+     ],
+     [
+      7609,
+      22
+     ],
+     [
+      8249,
+      23
+     ],
+     [
+      8789,
+      24
+     ],
+     [
+      8969,
+      25
+     ],
+     [
+      9089,
+      26
+     ],
+     [
+      9509,
+      27
+     ],
+     [
+      10270,
+      28
+     ],
+     [
+      10569,
+      29
+     ],
+     [
+      10850,
+      30
+     ],
+     [
+      11589,
+      31
+     ],
+     [
+      11730,
+      32
+     ],
+     [
+      11930,
+      33
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 35248,
+    "d": 3815,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      404,
+      1
+     ],
+     [
+      1037,
+      2
+     ],
+     [
+      1401,
+      3
+     ],
+     [
+      2467,
+      4
+     ],
+     [
+      3046,
+      5
+     ],
+     [
+      3410,
+      6
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 39364,
+    "d": 1250,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      689,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 40914,
+    "d": 2400,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1829,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 43615,
+    "d": 11079,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1909,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      2670,
+      7
+     ],
+     [
+      2849,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3910,
+      10
+     ],
+     [
+      4129,
+      11
+     ],
+     [
+      4529,
+      12
+     ],
+     [
+      4810,
+      13
+     ],
+     [
+      5149,
+      14
+     ],
+     [
+      6229,
+      15
+     ],
+     [
+      6529,
+      16
+     ],
+     [
+      7370,
+      17
+     ],
+     [
+      7509,
+      18
+     ],
+     [
+      7749,
+      19
+     ],
+     [
+      8049,
+      20
+     ],
+     [
+      8209,
+      21
+     ],
+     [
+      8329,
+      22
+     ],
+     [
+      9230,
+      23
+     ],
+     [
+      9509,
+      24
+     ],
+     [
+      9690,
+      25
+     ],
+     [
+      10169,
+      26
+     ],
+     [
+      10369,
+      27
+     ],
+     [
+      10449,
+      28
+     ],
+     [
+      10589,
+      29
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 54995,
+    "d": 1305,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      558,
+      2
+     ],
+     [
+      747,
+      3
+     ],
+     [
+      936,
+      4
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 56600,
+    "d": 2725,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2449,
+      7
+     ]
+    ]
+   },
+   "p2h-su": {
+    "s": 59626,
+    "d": 1345,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ]
+    ]
+   },
+   "p2h-tatli": {
+    "s": 61271,
+    "d": 1264,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      883,
+      1
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 62836,
+    "d": 2033,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      930,
+      5
+     ],
+     [
+      1309,
+      6
+     ],
+     [
+      1509,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 65170,
+    "d": 969,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 66440,
+    "d": 14757,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1550,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2089,
+      7
+     ],
+     [
+      2249,
+      8
+     ],
+     [
+      3209,
+      9
+     ],
+     [
+      4149,
+      10
+     ],
+     [
+      4549,
+      11
+     ],
+     [
+      4910,
+      12
+     ],
+     [
+      5910,
+      13
+     ],
+     [
+      6149,
+      14
+     ],
+     [
+      6829,
+      15
+     ],
+     [
+      7029,
+      16
+     ],
+     [
+      7969,
+      17
+     ],
+     [
+      8150,
+      18
+     ],
+     [
+      8469,
+      19
+     ],
+     [
+      8770,
+      20
+     ],
+     [
+      9509,
+      21
+     ],
+     [
+      9730,
+      22
+     ],
+     [
+      10169,
+      23
+     ],
+     [
+      11209,
+      24
+     ],
+     [
+      11810,
+      25
+     ],
+     [
+      12230,
+      26
+     ],
+     [
+      13189,
+      27
+     ],
+     [
+      13430,
+      28
+     ],
+     [
+      13770,
+      29
+     ],
+     [
+      14049,
+      30
+     ],
+     [
+      14209,
+      31
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 81498,
+    "d": 2487,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      540,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 84285,
+    "d": 2483,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1790,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 87069,
+    "d": 11349,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2509,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      2729,
+      9
+     ],
+     [
+      3489,
+      10
+     ],
+     [
+      3949,
+      11
+     ],
+     [
+      4169,
+      12
+     ],
+     [
+      4269,
+      13
+     ],
+     [
+      4410,
+      14
+     ],
+     [
+      4870,
+      15
+     ],
+     [
+      5069,
+      16
+     ],
+     [
+      5249,
+      17
+     ],
+     [
+      5370,
+      18
+     ],
+     [
+      6249,
+      19
+     ],
+     [
+      6890,
+      20
+     ],
+     [
+      7569,
+      21
+     ],
+     [
+      8430,
+      22
+     ],
+     [
+      8890,
+      23
+     ],
+     [
+      9469,
+      24
+     ],
+     [
+      10270,
+      25
+     ],
+     [
+      10609,
+      26
+     ],
+     [
+      10930,
+      27
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 98718,
+    "d": 2980,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      601,
+      1
+     ],
+     [
+      995,
+      2
+     ],
+     [
+      1221,
+      3
+     ],
+     [
+      1448,
+      4
+     ],
+     [
+      1808,
+      5
+     ],
+     [
+      2034,
+      6
+     ],
+     [
+      2261,
+      7
+     ],
+     [
+      2487,
+      8
+     ],
+     [
+      2713,
+      9
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 101999,
+    "d": 2008,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1709,
+      6
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 104307,
+    "d": 1832,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1150,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 106440,
+    "d": 15536,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      1729,
+      6
+     ],
+     [
+      1930,
+      7
+     ],
+     [
+      2150,
+      8
+     ],
+     [
+      2249,
+      9
+     ],
+     [
+      2390,
+      10
+     ],
+     [
+      2689,
+      11
+     ],
+     [
+      2890,
+      12
+     ],
+     [
+      3670,
+      13
+     ],
+     [
+      3910,
+      14
+     ],
+     [
+      4629,
+      15
+     ],
+     [
+      4930,
+      16
+     ],
+     [
+      5549,
+      17
+     ],
+     [
+      5850,
+      18
+     ],
+     [
+      6649,
+      19
+     ],
+     [
+      6769,
+      20
+     ],
+     [
+      6910,
+      21
+     ],
+     [
+      7069,
+      22
+     ],
+     [
+      7249,
+      23
+     ],
+     [
+      8069,
+      24
+     ],
+     [
+      8350,
+      25
+     ],
+     [
+      8629,
+      26
+     ],
+     [
+      8930,
+      27
+     ],
+     [
+      9089,
+      28
+     ],
+     [
+      10049,
+      29
+     ],
+     [
+      10409,
+      30
+     ],
+     [
+      10850,
+      31
+     ],
+     [
+      11029,
+      32
+     ],
+     [
+      11149,
+      33
+     ],
+     [
+      12029,
+      34
+     ],
+     [
+      12489,
+      35
+     ],
+     [
+      12829,
+      36
+     ],
+     [
+      12989,
+      37
+     ],
+     [
+      13329,
+      38
+     ],
+     [
+      14129,
+      39
+     ],
+     [
+      14249,
+      40
+     ],
+     [
+      14549,
+      41
+     ],
+     [
+      14769,
+      42
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 122277,
+    "d": 1560,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      889,
+      3
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 124137,
+    "d": 2439,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

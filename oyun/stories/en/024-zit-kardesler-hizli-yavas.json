@@ -1,0 +1,1411 @@
+{
+ "id": "024-zit-kardesler-hizli-yavas",
+ "lang": "en",
+ "title": "Wet or Dry?",
+ "theme": "Opposites and respecting different preferences",
+ "blurb": "Jade the frog loves wet puddles, but Woolly the lamb wants to stay bone dry. One wet, one dry: how will two friends play together?",
+ "voiceNames": {
+  "yesim": "Jade (frog)",
+  "yumak": "Woolly (lamb)",
+  "badi": "Buddy (duck)"
+ },
+ "pages": [
+  {
+   "text": "Pitter patter, pitter patter! It was raining on the farm. Jade the frog jumped in a puddle. Splash! “Wet is wonderful!” she said. Woolly the lamb watched from the barn.",
+   "hits": {
+    "yesim": {
+     "say": "Splash splash! Wet is wonderful!"
+    },
+    "yumak": {
+     "say": "Baa! I'm Woolly. I'm dry!"
+    },
+    "badi": {
+     "say": "Quack quack! I'm Buddy!"
+    }
+   },
+   "hint": "Touch Jade!",
+   "ask": "What do you do when it rains? Do you go outside or stay inside?"
+  },
+  {
+   "text": "Jade called out: “Come on, Woolly, let's jump together!” Woolly shivered: “Brrr! The water's cold. I'll stay dry.”",
+   "hits": {
+    "yesim": {
+     "say": "Come on! Splash splash, it's lovely!"
+    },
+    "yumak": {
+     "say": "Brrr! My wool will get wet and I'll be cold."
+    }
+   },
+   "hint": "Touch Woolly!",
+   "ask": "Why doesn't Woolly want to go outside?"
+  },
+  {
+   "text": "“Wet is better!” said Jade. “No, dry is better!” said Woolly. They both got cross. Jade puffed out her cheeks. Woolly stamped his foot: stamp, stamp!",
+   "hits": {
+    "yesim": {
+     "say": "Humph! Wet is better!"
+    },
+    "yumak": {
+     "say": "Hmph! Dry is better!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Jade will do now?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Bring an umbrella"
+     },
+     {
+      "l": "Go into the barn"
+     }
+    ]
+   },
+   "hint": "Touch Jade!",
+   "ask": "Why did Jade and Woolly get cross? What do you do when you're cross?"
+  },
+  {
+   "text": "They both took a deep breath. Jade saw an umbrella beside the barn. But it was closed! Jade opened the umbrella. “Woolly, you can stay dry with this!”",
+   "hits": {
+    "yesim": {
+     "say": "Here, Woolly, it's for you!"
+    },
+    "yumak": {
+     "say": "An umbrella? What a good idea!"
+    }
+   },
+   "mech": {
+    "done": "Pop! The umbrella opened. Now it's open!",
+    "msg": "It was closed, now it's open!"
+   },
+   "hint": "Touch the umbrella to open it!",
+   "ask": "How did Jade help Woolly? How do you help your friends?"
+  },
+  {
+   "text": "Woolly went outside with the open umbrella: bone dry! Jade jumped into the puddle: splash! Woolly counted: “One, two, three, jump!” Buddy the duck laughed: “Quack! One dry, one wet!”",
+   "hits": {
+    "badi": {
+     "say": "Quack! My umbrella's closed. Ducks don't get wet!"
+    }
+   },
+   "mech": {
+    "done": "Dry and wet, open and closed!",
+    "msg": "You found the pairs!"
+   },
+   "hint": "Match dry with wet!",
+   "ask": "Would you rather play with the umbrella or in the puddle? Why?"
+  },
+  {
+   "text": "The rain stopped, the sun came out. Woolly warmed up in the hot sun. Jade cooled off in the cold water. One likes dry, one likes wet. But they always play together!",
+   "hits": {
+    "yumak": {
+     "say": "Ahh, nice and warm! I like dry."
+    },
+    "yesim": {
+     "say": "Ahh, nice and cool! I like wet."
+    },
+    "badi": {
+     "say": "Quack! I like both!"
+    },
+    "gunes": {
+     "say": "Hot sun!"
+    },
+    "su": {
+     "say": "Cold water, cool water!"
+    }
+   },
+   "hint": "Touch the friends!",
+   "ask": "Do you like wet or dry? Which does your friend like?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.2 (learning outcome): Building new meaning from materials such as poems, stories and rhymes they hear or watch; makes inferences about the materials and links the information in them to daily life (process components). The child infers why Woolly does not leave the barn and why Jade finds an umbrella, and talks about their own rainy-day preferences.",
+   "MAB.4 (learning outcome): Making inferences about mathematical facts, events and objects; MAB.4.b Compares objects, facts and events (process component). The child compares the open and closed umbrella, and bone-dry Woolly with soaking-wet Jade, and finds the opposite pairs.",
+   "E3.5 Open-Mindedness (disposition) and SDB2.3 Social Awareness (social-emotional learning skill): notices that a friend can like something different from them; listens to different preferences and looks for a way to play that makes both happy.",
+   "D14 Respect (value): sees two-way respect for different preferences and shared play through Jade finding Woolly an umbrella instead of pushing him, and Woolly going outside with his umbrella and joining Jade's puddle-jumping by counting “One, two, three, jump!”"
+  ],
+  "once": [
+   "Look out of the window or show a picture of rain: “Do you like going out in the rain, or staying inside?” Accept every answer.",
+   "Wet one napkin and leave another dry. Let the child touch both; say “wet” and “dry” together."
+  ],
+  "sirasi": [
+   "On page 1, make the “pitter patter” and “splash!” sounds together with your fingers and your palm.",
+   "On pages 2 and 3, name the feelings: “Woolly was cold and shivered. Then they both got cross.” Copy Jade puffing out her cheeks and Woolly stamping his foot together.",
+   "On the prediction question on page 3, accept every answer; ask: “What else could they do?”",
+   "On page 4, first take a deep breath. Then say “The umbrella is closed”; when the child touches it, say “Now it's open!” together.",
+   "On page 5, count “One, two, three, jump!” together with Woolly. Before matching, ask: “Who is dry? Who is wet?” When the child finds the pairs, repeat the opposite words out loud.",
+   "On page 6, touch the sun and the puddle and say “hot” and “cold”; then say the closing rhyme (“One likes dry, one likes wet. But they always play together!”) together."
+  ],
+  "sonra": [
+   "What did Jade like, and what did Woolly like? Which did Buddy like?",
+   "What did Jade do instead of pushing Woolly? How did Woolly join in Jade's game?",
+   "Is there something you like that your friend doesn't? How do you play together?"
+  ],
+  "sinif": {
+   "ad": "Opposite Friends Game",
+   "sure": "15 min",
+   "materyal": "A child's umbrella, one wet and one dry sponge, two bowls of warm and cool water (prepared by the teacher), opposite-pair picture cards (open–closed door, wet–dry sock, hot soup–cold yoghurt drink)",
+   "adim": [
+    "The children sit in a circle. The teacher opens and closes the umbrella; the children all say “Open!”, “Closed!” together.",
+    "The sponges and bowls of water are passed around. The children touch them and say “wet–dry”, “hot–cold”.",
+    "The picture cards are laid on the floor, mixed up. Each child picks a card, finds its opposite pair and says both words.",
+    "To finish, each child says “I like ….” Their friend replies “You like …, and I like ….”; nobody says “No way!”"
+   ]
+  },
+  "evSoru": [
+   "Why did Woolly go under the umbrella?",
+   "Why did Jade love the puddle?",
+   "Who at home likes hot soup, and who likes a cold yoghurt drink?"
+  ],
+  "evEtk": {
+   "ad": "Opposite Hunt at Home",
+   "d": "Look for opposite pairs together at home: an open–closed door, a wet–dry towel, warm–cool tap water. Each time you find a pair, clap and say both words. Then each family member takes a turn to say “I like …”; the others listen without saying “No way!”"
+  },
+  "aileNotu": "Today we read “Wet or Dry?” Jade the frog loved wet puddles, and Woolly the lamb loved staying dry; first they argued, then with an umbrella they found a shared game that made them both happy. The children matched opposite words such as wet–dry, hot–cold and open–closed, and talked about respecting different preferences. At home you can go on an opposite hunt together and listen to what each family member likes."
+ },
+ "audio": {
+  "file": "audio/en/024-zit-kardesler-hizli-yavas.mp3",
+  "hash": "15825134",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11606,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      2689,
+      7
+     ],
+     [
+      2789,
+      8
+     ],
+     [
+      2930,
+      9
+     ],
+     [
+      3809,
+      10
+     ],
+     [
+      4089,
+      11
+     ],
+     [
+      4209,
+      12
+     ],
+     [
+      4629,
+      13
+     ],
+     [
+      4949,
+      14
+     ],
+     [
+      5069,
+      15
+     ],
+     [
+      5149,
+      16
+     ],
+     [
+      5809,
+      17
+     ],
+     [
+      6930,
+      18
+     ],
+     [
+      7289,
+      19
+     ],
+     [
+      7649,
+      20
+     ],
+     [
+      8609,
+      21
+     ],
+     [
+      8829,
+      22
+     ],
+     [
+      9569,
+      23
+     ],
+     [
+      9909,
+      24
+     ],
+     [
+      10049,
+      25
+     ],
+     [
+      10449,
+      26
+     ],
+     [
+      10829,
+      27
+     ],
+     [
+      11009,
+      28
+     ],
+     [
+      11109,
+      29
+     ]
+    ]
+   },
+   "p0h-yesim": {
+    "s": 11906,
+    "d": 3523,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      2150,
+      3
+     ],
+     [
+      2589,
+      4
+     ]
+    ]
+   },
+   "p0h-yumak": {
+    "s": 15729,
+    "d": 3205,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1150,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      2469,
+      4
+     ]
+    ]
+   },
+   "p0h-badi": {
+    "s": 19235,
+    "d": 1732,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1209,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21268,
+    "d": 8648,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2489,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      3749,
+      9
+     ],
+     [
+      4229,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      6049,
+      12
+     ],
+     [
+      6189,
+      13
+     ],
+     [
+      6649,
+      14
+     ],
+     [
+      7669,
+      15
+     ],
+     [
+      7870,
+      16
+     ],
+     [
+      8109,
+      17
+     ]
+    ]
+   },
+   "p1h-yesim": {
+    "s": 30217,
+    "d": 3592,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2469,
+      4
+     ],
+     [
+      2890,
+      5
+     ]
+    ]
+   },
+   "p1h-yumak": {
+    "s": 34110,
+    "d": 4071,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1089,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2849,
+      6
+     ],
+     [
+      2989,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      3369,
+      9
+     ]
+    ]
+   },
+   "p2": {
+    "s": 38481,
+    "d": 11785,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2489,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3410,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4229,
+      9
+     ],
+     [
+      4449,
+      10
+     ],
+     [
+      5289,
+      11
+     ],
+     [
+      5589,
+      12
+     ],
+     [
+      5890,
+      13
+     ],
+     [
+      6129,
+      14
+     ],
+     [
+      7109,
+      15
+     ],
+     [
+      7489,
+      16
+     ],
+     [
+      7849,
+      17
+     ],
+     [
+      7989,
+      18
+     ],
+     [
+      8169,
+      19
+     ],
+     [
+      8890,
+      20
+     ],
+     [
+      9329,
+      21
+     ],
+     [
+      9730,
+      22
+     ],
+     [
+      9949,
+      23
+     ],
+     [
+      10609,
+      24
+     ],
+     [
+      11230,
+      25
+     ]
+    ]
+   },
+   "p2h-yesim": {
+    "s": 50567,
+    "d": 2050,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      766,
+      1
+     ],
+     [
+      1098,
+      2
+     ],
+     [
+      1431,
+      3
+     ]
+    ]
+   },
+   "p2h-yumak": {
+    "s": 52917,
+    "d": 1989,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      743,
+      1
+     ],
+     [
+      1066,
+      2
+     ],
+     [
+      1388,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 55207,
+    "d": 1799,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      329,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      889,
+      5
+     ],
+     [
+      1069,
+      6
+     ],
+     [
+      1249,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 57306,
+    "d": 2252,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1909,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 59858,
+    "d": 9800,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1209,
+      5
+     ],
+     [
+      2229,
+      6
+     ],
+     [
+      2529,
+      7
+     ],
+     [
+      2709,
+      8
+     ],
+     [
+      2829,
+      9
+     ],
+     [
+      3289,
+      10
+     ],
+     [
+      3609,
+      11
+     ],
+     [
+      3729,
+      12
+     ],
+     [
+      4469,
+      13
+     ],
+     [
+      4629,
+      14
+     ],
+     [
+      4709,
+      15
+     ],
+     [
+      4910,
+      16
+     ],
+     [
+      6049,
+      17
+     ],
+     [
+      6430,
+      18
+     ],
+     [
+      6709,
+      19
+     ],
+     [
+      6850,
+      20
+     ],
+     [
+      7729,
+      21
+     ],
+     [
+      8329,
+      22
+     ],
+     [
+      8469,
+      23
+     ],
+     [
+      8629,
+      24
+     ],
+     [
+      8869,
+      25
+     ],
+     [
+      9109,
+      26
+     ],
+     [
+      9270,
+      27
+     ]
+    ]
+   },
+   "p3h-yesim": {
+    "s": 69959,
+    "d": 2143,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1729,
+      4
+     ]
+    ]
+   },
+   "p3h-yumak": {
+    "s": 72402,
+    "d": 2729,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      1969,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 75432,
+    "d": 3193,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      2709,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 78926,
+    "d": 14789,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1569,
+      6
+     ],
+     [
+      2489,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3989,
+      9
+     ],
+     [
+      4390,
+      10
+     ],
+     [
+      4729,
+      11
+     ],
+     [
+      4949,
+      12
+     ],
+     [
+      5049,
+      13
+     ],
+     [
+      5729,
+      14
+     ],
+     [
+      6910,
+      15
+     ],
+     [
+      7269,
+      16
+     ],
+     [
+      8230,
+      17
+     ],
+     [
+      8709,
+      18
+     ],
+     [
+      9249,
+      19
+     ],
+     [
+      9869,
+      20
+     ],
+     [
+      10730,
+      21
+     ],
+     [
+      11029,
+      22
+     ],
+     [
+      11169,
+      23
+     ],
+     [
+      11529,
+      24
+     ],
+     [
+      12169,
+      25
+     ],
+     [
+      13189,
+      26
+     ],
+     [
+      13390,
+      27
+     ],
+     [
+      14109,
+      28
+     ],
+     [
+      14310,
+      29
+     ]
+    ]
+   },
+   "p4h-badi": {
+    "s": 94016,
+    "d": 3760,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3129,
+      7
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 98076,
+    "d": 2594,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 100971,
+    "d": 11018,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1769,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      2849,
+      8
+     ],
+     [
+      3209,
+      9
+     ],
+     [
+      3369,
+      10
+     ],
+     [
+      3469,
+      11
+     ],
+     [
+      3629,
+      12
+     ],
+     [
+      3969,
+      13
+     ],
+     [
+      4769,
+      14
+     ],
+     [
+      5149,
+      15
+     ],
+     [
+      5469,
+      16
+     ],
+     [
+      5689,
+      17
+     ],
+     [
+      5789,
+      18
+     ],
+     [
+      5910,
+      19
+     ],
+     [
+      6189,
+      20
+     ],
+     [
+      7049,
+      21
+     ],
+     [
+      7209,
+      22
+     ],
+     [
+      7489,
+      23
+     ],
+     [
+      8190,
+      24
+     ],
+     [
+      8350,
+      25
+     ],
+     [
+      8609,
+      26
+     ],
+     [
+      9289,
+      27
+     ],
+     [
+      9430,
+      28
+     ],
+     [
+      9770,
+      29
+     ],
+     [
+      10190,
+      30
+     ],
+     [
+      10469,
+      31
+     ]
+    ]
+   },
+   "p5h-yumak": {
+    "s": 112289,
+    "d": 3907,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2890,
+      4
+     ],
+     [
+      3029,
+      5
+     ],
+     [
+      3289,
+      6
+     ]
+    ]
+   },
+   "p5h-yesim": {
+    "s": 116496,
+    "d": 3311,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2789,
+      6
+     ]
+    ]
+   },
+   "p5h-badi": {
+    "s": 120108,
+    "d": 1697,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p5h-gunes": {
+    "s": 122106,
+    "d": 1281,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      550,
+      1
+     ]
+    ]
+   },
+   "p5h-su": {
+    "s": 123687,
+    "d": 2037,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

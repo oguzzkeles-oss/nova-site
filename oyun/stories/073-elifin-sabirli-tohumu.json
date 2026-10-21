@@ -1,0 +1,1419 @@
+{
+ "id": "073-elifin-sabirli-tohumu",
+ "n": 73,
+ "title": "Elif'in Sabırlı Tohumu",
+ "age": "36-48",
+ "area": "Fen",
+ "theme": "Tohumun büyümesini gözleme ve beklemeyi öğrenme",
+ "values": [
+  "D12 Sabır"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 4,
+ "blurb": "Elif dedesiyle bostana minicik bir ayçiçeği tohumu eker ve ertesi sabah hemen çiçek ister. Beklemek zordur ama Elif kendi sulama şarkısını uydurur; su, güneş ve biraz sabırla tohum filiz, yaprak ve kocaman bir çiçek olur.",
+ "codes": {
+  "maarif": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme",
+   "TAOB.2 Görsel materyallerden anlamlar üretebilme (TAOB.2.a)",
+   "E1.1 Merak",
+   "SDB1.2 Kendini Düzenleme",
+   "D12 Sabır"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "elif": "cocuk-kiz",
+  "dede": "dede"
+ },
+ "voiceNames": {
+  "elif": "Elif",
+  "dede": "Dede (Elif'in dedesi)"
+ },
+ "pages": [
+  {
+   "text": "Dede, Elif'e minicik bir ayçiçeği tohumu verdi. “Hadi, ekelim!” Elif toprağı eşeledi. Tohumu yatırdı. Pıt! Üstünü toprakla örttü. “Yarın çiçek olur mu?” diye sordu. Dede gülümsedi.",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 212,
+      "y": 232,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "crawl",
+      "hit": "elif",
+      "turn": 0.7
+     },
+     {
+      "k": "dede",
+      "x": 330,
+      "y": 224,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "point",
+      "flip": true,
+      "hit": "dede"
+     },
+     {
+      "k": "gunes",
+      "x": 60,
+      "y": 48
+     }
+    ],
+    "props": [
+     {
+      "k": "tohum",
+      "x": 262,
+      "y": 224,
+      "s": 1.5,
+      "hit": "tohum"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Yarın çiçek olur mu?",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "dede": {
+     "say": "Hadi, ekelim!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tohum": {
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "tohum",
+    "Tohuma dokun!"
+   ],
+   "ask": "Sence bu minicik tohumdan ne çıkacak? Sen hiç tohum ektin mi?"
+  },
+  {
+   "text": "Ertesi sabah vınn, Elif geldi! Toprak bomboş! “Tohumcuk, uyandın mı?” Tık tık. Ses yok! Elif sabırsızlandı. Yanakları ısındı. “Tohum toprağın altında uyanıyor,” dedi dede.",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 300,
+      "y": 232,
+      "s": 1.12,
+      "mood": "angry",
+      "pose": "crawl",
+      "flip": true,
+      "hit": "elif",
+      "turn": 0.7
+     },
+     {
+      "k": "dede",
+      "x": 110,
+      "y": 214,
+      "s": 0.85,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "tohum",
+      "x": 248,
+      "y": 226,
+      "s": 1.5,
+      "hit": "tohum"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Tohumcuk, uyandın mı?",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "dede": {
+     "say": "Tohum toprağın altında uyanıyor.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tohum": {
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Elif neden sabırsızlandı? Sen beklerken bedeninde ne hissedersin?",
+   "cues": [
+    {
+     "w": 10,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Elif derin bir nefes aldı. Ohhh… Beklemek zordu. Sonra aklına bir fikir geldi!",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 160,
+      "y": 232,
+      "s": 1.3,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "elif"
+     },
+     {
+      "k": "gunes",
+      "x": 350,
+      "y": 52
+     }
+    ],
+    "props": [
+     {
+      "k": "tohum",
+      "x": 290,
+      "y": 224,
+      "s": 1.7,
+      "hit": "tohum"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Ohhh… Beklemek zor!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "tohum": {
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "predict": {
+    "q": "Sence Elif beklerken ne yapacak?",
+    "res": "Hadi, görelim!",
+    "opts": [
+     {
+      "l": "Tohumu sular",
+      "scene": {
+       "set": "bostan",
+       "season": "spring",
+       "time": "day",
+       "can": false,
+       "cast": [
+        {
+         "k": "elif",
+         "x": 150,
+         "y": 232,
+         "s": 1.15,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "sulama-kabi",
+         "holdS": 0.7
+        }
+       ],
+       "props": [
+        {
+         "k": "tohum",
+         "x": 270,
+         "y": 224,
+         "s": 1.6
+        }
+       ]
+      }
+     },
+     {
+      "l": "Şarkı söyler",
+      "scene": {
+       "set": "bostan",
+       "season": "spring",
+       "time": "day",
+       "cast": [
+        {
+         "k": "elif",
+         "x": 150,
+         "y": 232,
+         "s": 1.15,
+         "mood": "laugh",
+         "pose": "open"
+        },
+        {
+         "k": "gunes",
+         "x": 330,
+         "y": 50
+        }
+       ],
+       "props": [
+        {
+         "k": "tohum",
+         "x": 270,
+         "y": 224,
+         "s": 1.6
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "elif",
+    "Elif'le nefes al!"
+   ],
+   "ask": "Sen beklemek zor gelince ne yaparsın?"
+  },
+  {
+   "text": "Elif her sabah tohumu suladı. Şırıl şırıl! Güneş ısıttı. Elif bir şarkı uydurdu: “Su, güneş, biraz sabır. Tohumcuk yavaş uyanır!”",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "can": false,
+    "cast": [
+     {
+      "k": "elif",
+      "x": 160,
+      "y": 232,
+      "s": 1.08,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "elif",
+      "turn": 0.7
+     },
+     {
+      "k": "dede",
+      "x": 358,
+      "y": 222,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "clap",
+      "flip": true,
+      "hit": "dede"
+     },
+     {
+      "k": "gunes",
+      "x": 280,
+      "y": 48,
+      "hit": "gunes"
+     }
+    ],
+    "props": [
+     {
+      "k": "sulama-kabi",
+      "x": 220,
+      "y": 228,
+      "s": 1.0,
+      "state": "off",
+      "hit": "kab"
+     },
+     {
+      "k": "tohum",
+      "x": 262,
+      "y": 226,
+      "s": 1.5,
+      "hit": "tohum"
+     }
+    ]
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "kab"
+    ],
+    "done": "Şırıl şırıl! Tohum suyunu içti.",
+    "msg": "Aferin, suladın!"
+   },
+   "hits": {
+    "elif": {
+     "say": "Su, güneş, biraz sabır!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "xylo"
+    },
+    "dede": {
+     "say": "Ne güzel bir şarkı!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    },
+    "tohum": {
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "kab",
+    "Kabı eğ, sula!"
+   ],
+   "ask": "Bir tohumun büyümek için nelere ihtiyacı var?",
+   "cues": [
+    {
+     "w": 5,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Günler, haftalar geçti. Elif her gün şarkısını söyledi. Önce minik bir filiz! Sonra yapraklar, tomurcuk… “Su, güneş, biraz sabır…”",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 280,
+      "y": 232,
+      "s": 1.1,
+      "mood": "surprised",
+      "pose": "point",
+      "flip": true,
+      "hit": "elif",
+      "turn": 0.6
+     },
+     {
+      "k": "dede",
+      "x": 372,
+      "y": 216,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "clap",
+      "flip": true,
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "tohum",
+      "x": 150,
+      "y": 228,
+      "s": 1.5,
+      "hit": "tohum"
+     }
+    ]
+   },
+   "mech": {
+    "type": "grow",
+    "key": "tohum",
+    "done": "Kocaman bir ayçiçeği açtı!",
+    "msg": "Tohum büyüdü!"
+   },
+   "hits": {
+    "elif": {
+     "say": "Dede, bak! Filiz çıktı!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "dede": {
+     "say": "Sen bekledin, o büyüdü!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "tohum",
+    "Tohuma dokun, büyüsün!"
+   ],
+   "ask": "Tohum önce ne oldu, sonra ne oldu?"
+  },
+  {
+   "text": "Ayçiçeği Elif'ten de uzun oldu. Vızz, bir arı geldi! Ayçiçeği güneşe gülümsedi. Elif dedesine sarıldı. “Beklemek zordu. Ama ben bekledim!”",
+   "scene": {
+    "set": "bostan",
+    "season": "summer",
+    "time": "day",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 112,
+      "y": 234,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "hug",
+      "hit": "elif"
+     },
+     {
+      "k": "dede",
+      "x": 170,
+      "y": 226,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "hug",
+      "flip": true,
+      "hit": "dede"
+     },
+     {
+      "k": "ari",
+      "x": 296,
+      "y": 100,
+      "s": 1.0,
+      "pose": "stand",
+      "hit": "ari"
+     },
+     {
+      "k": "gunes",
+      "x": 360,
+      "y": 45
+     }
+    ],
+    "props": [
+     {
+      "k": "tohum",
+      "x": 292,
+      "y": 230,
+      "s": 1.5,
+      "stage": 3,
+      "hit": "cicek"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Beklemek zordu. Ama ben bekledim!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "dede": {
+     "say": "Seninle gurur duyuyorum!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ari": {
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "cicek": {
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "cicek",
+    "Ayçiçeğine dokun!"
+   ],
+   "ask": "Sen neyi sabırla bekledin? Beklerken ne yaptın?"
+  }
+ ],
+ "order": [
+  0,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 — Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme: Tohumun toprakta beklediğini, suyla ve güneşle önce filiz, sonra yaprak, tomurcuk ve çiçek olduğunu gözler; büyüme aşamalarını sırayla söyler.",
+   "TAOB.2 — Görsel materyallerden anlamlar üretebilme (TAOB.2.a): Sayfalardaki resimlerden tohumun nasıl değiştiğini okur; resimdeki bostanı kendi bahçesi, balkonu ya da saksısıyla ilişkilendirir ve “Elif beklerken ne yapacak?” sorusunda görsellerden tahmin yürütür.",
+   "SDB1.2 Kendini Düzenleme — Elif gibi sabırsızlandığını fark eder (yanaklar ısınır), derin nefes alma ve şarkı söyleme gibi bekleme yolları dener.",
+   "E1.1 Merak — “Tohumun içinde ne oluyor?” diye merak eder, her gün gidip bakmanın keyfini yaşar.",
+   "D12 Sabır — Bir şeyin olması için zaman gerektiğini fark eder; beklerken kendi işini (sulama) sürdürür."
+  ],
+  "once": [
+   "Kapaktaki tohumu gösterin: “Bu minicik tohumdan ne çıkar sence? Ne kadar sürede?” diye sorun.",
+   "Mümkünse gerçek bir ayçiçeği ya da fasulye tohumunu gösterin ve büyüteçle bakın. Tohumları bir yetişkin dağıtsın ve toplasın; tohumlar ağza, buruna, kulağa konmaz. Büyüteçle bakarken tohum tabakta dursun."
+  ],
+  "sirasi": [
+   "2. sayfada Elif'in yüzünü gösterin: “Elif ne hissediyor? Yanakların ısınınca sen ne yaparsın?”",
+   "3. sayfada Elif'le birlikte derin bir nefes alın: burundan al, “ohhh” diye bırak. Tahmin sorusunda iki cevabı da kabul edin.",
+   "4. sayfada Elif'in şarkısını birlikte söyleyin: “Su, güneş, biraz sabır. Tohumcuk yavaş uyanır!”",
+   "5. sayfada her dokunuşta “Bir gün geçti… bir hafta geçti…” diyerek zamanın geçtiğini hissettirin; Elif'in şarkısını yine birlikte söyleyin."
+  ],
+  "sonra": [
+   "Tohum ertesi sabah neden çiçek olmadı?",
+   "Elif beklerken hangi yolları buldu?",
+   "Tohum önce ne oldu, sonra ne oldu, en son ne oldu?"
+  ],
+  "sinif": {
+   "ad": "Sabır Saksısı ve Gözlem Takvimi",
+   "sure": "20 dk (sonra her gün 5 dk)",
+   "materyal": "Şeffaf plastik bardaklar, pamuk ya da toprak, fasulye tohumları, sulama kabı, resimli gözlem takvimi (çizim kutuları)",
+   "adim": [
+    "Tohumları öğretmen tek tek verir; iş bitince artanları toplar.",
+    "Her çocuk şeffaf bardağa pamuk/toprak koyup kenara bir fasulye tohumu yerleştirsin; sulama sorumlusu sırayla seçilsin.",
+    "Her sabah çember saatinde bardaklara bakın; çocuklar gördüklerini gözlem takviminin o günkü kutusuna çizsin (tohum, filiz, yaprak).",
+    "Beklemek zor geldiğinde sınıfça Elif'in şarkısını söyleyin; bir hafta sonra çizimleri sırayla dizip “Önce… sonra…” diye anlatın. Fasulye 3–7 günde filizlenir; ayçiçeğinin çiçek açması ise aylar sürer. Masaldaki “günler geçti” bunu anlatır."
+   ]
+  },
+  "evSoru": [
+   "Elif ve dedesi bostana ne ekti?",
+   "Elif beklemek zor gelince ne yaptı?",
+   "Sen en son neyi sabırla bekledin?"
+  ],
+  "evEtk": {
+   "ad": "Mutfak penceresinde fasulye",
+   "d": "Tohumu çocuğunuzla birlikte, gözetiminizde yerleştirin: ıslak pamuğa bir kuru fasulye koyun, şeffaf bir kavanozda pencere önüne bırakın. Fasulye 3–7 günde filizlenir. Her gün birlikte bakın; çocuğunuz gördüğünü bir kâğıda çizsin. Bekleme zorlaşınca Elif'in şarkısını söyleyin."
+  },
+  "aileNotu": "Bugün “Elif'in Sabırlı Tohumu” masalını okuduk. Elif dedesiyle bir tohum ekiyor, ertesi gün çiçek çıkmayınca sabırsızlanıyor; derin nefes alıyor ve beklerken kendi sulama şarkısını uyduruyor. Evde bekleme anlarında (yemek pişerken, sıra beklerken) çocuğunuzun duygusunu adlandırıp “Elif gibi bir nefes alalım mı?” diyebilirsiniz. Birlikte ekeceğiniz küçük bir tohum, beklemenin keyfini gösteren güzel bir deneyim olur."
+ },
+ "audio": {
+  "file": "audio/073-elifin-sabirli-tohumu.mp3",
+  "hash": "ffac9495",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13605,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4709,
+      9
+     ],
+     [
+      5049,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      6410,
+      12
+     ],
+     [
+      6829,
+      13
+     ],
+     [
+      7689,
+      14
+     ],
+     [
+      8350,
+      15
+     ],
+     [
+      8749,
+      16
+     ],
+     [
+      9350,
+      17
+     ],
+     [
+      10129,
+      18
+     ],
+     [
+      10430,
+      19
+     ],
+     [
+      10770,
+      20
+     ],
+     [
+      11049,
+      21
+     ],
+     [
+      11469,
+      22
+     ],
+     [
+      11749,
+      23
+     ],
+     [
+      12569,
+      24
+     ],
+     [
+      12869,
+      25
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 13905,
+    "d": 1562,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1249,
+      3
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 15768,
+    "d": 1045,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ]
+    ]
+   },
+   "p1": {
+    "s": 17114,
+    "d": 14249,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1184,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      3089,
+      5
+     ],
+     [
+      3549,
+      6
+     ],
+     [
+      4649,
+      7
+     ],
+     [
+      5410,
+      8
+     ],
+     [
+      5910,
+      9
+     ],
+     [
+      6469,
+      10
+     ],
+     [
+      6669,
+      11
+     ],
+     [
+      7430,
+      12
+     ],
+     [
+      7769,
+      13
+     ],
+     [
+      8469,
+      14
+     ],
+     [
+      8749,
+      15
+     ],
+     [
+      9909,
+      16
+     ],
+     [
+      10469,
+      17
+     ],
+     [
+      11329,
+      18
+     ],
+     [
+      11789,
+      19
+     ],
+     [
+      12310,
+      20
+     ],
+     [
+      12749,
+      21
+     ],
+     [
+      13569,
+      22
+     ],
+     [
+      13850,
+      23
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 31664,
+    "d": 1722,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1431,
+      2
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 33686,
+    "d": 2020,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 36007,
+    "d": 7080,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      2474,
+      5
+     ],
+     [
+      3469,
+      6
+     ],
+     [
+      4029,
+      7
+     ],
+     [
+      5109,
+      8
+     ],
+     [
+      5729,
+      9
+     ],
+     [
+      6109,
+      10
+     ],
+     [
+      6249,
+      11
+     ],
+     [
+      6569,
+      12
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 43387,
+    "d": 2229,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1629,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 45917,
+    "d": 2391,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1790,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 48608,
+    "d": 1050,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 49958,
+    "d": 10993,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      4029,
+      8
+     ],
+     [
+      4949,
+      9
+     ],
+     [
+      5330,
+      10
+     ],
+     [
+      5449,
+      11
+     ],
+     [
+      5890,
+      12
+     ],
+     [
+      6949,
+      13
+     ],
+     [
+      7390,
+      14
+     ],
+     [
+      8049,
+      15
+     ],
+     [
+      8449,
+      16
+     ],
+     [
+      9230,
+      17
+     ],
+     [
+      10049,
+      18
+     ],
+     [
+      10390,
+      19
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 61252,
+    "d": 2628,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      587,
+      1
+     ],
+     [
+      1390,
+      2
+     ],
+     [
+      1989,
+      3
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 64181,
+    "d": 1182,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      241,
+      1
+     ],
+     [
+      591,
+      2
+     ],
+     [
+      792,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 65663,
+    "d": 2795,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      484,
+      1
+     ],
+     [
+      1231,
+      2
+     ],
+     [
+      1676,
+      3
+     ],
+     [
+      2310,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 68758,
+    "d": 11151,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      2269,
+      3
+     ],
+     [
+      2650,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4629,
+      8
+     ],
+     [
+      4969,
+      9
+     ],
+     [
+      5289,
+      10
+     ],
+     [
+      5489,
+      11
+     ],
+     [
+      6289,
+      12
+     ],
+     [
+      6649,
+      13
+     ],
+     [
+      7609,
+      14
+     ],
+     [
+      8749,
+      15
+     ],
+     [
+      9369,
+      16
+     ],
+     [
+      10169,
+      17
+     ],
+     [
+      10589,
+      18
+     ]
+    ]
+   },
+   "p4h-elif": {
+    "s": 80210,
+    "d": 2266,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      677,
+      1
+     ],
+     [
+      1274,
+      2
+     ],
+     [
+      1750,
+      3
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 82776,
+    "d": 1951,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 85028,
+    "d": 2188,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 87517,
+    "d": 10883,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3170,
+      7
+     ],
+     [
+      3390,
+      8
+     ],
+     [
+      4310,
+      9
+     ],
+     [
+      4969,
+      10
+     ],
+     [
+      5410,
+      11
+     ],
+     [
+      6469,
+      12
+     ],
+     [
+      6809,
+      13
+     ],
+     [
+      7349,
+      14
+     ],
+     [
+      8230,
+      15
+     ],
+     [
+      8789,
+      16
+     ],
+     [
+      9649,
+      17
+     ],
+     [
+      9930,
+      18
+     ],
+     [
+      10249,
+      19
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 98700,
+    "d": 2822,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2089,
+      4
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 101823,
+    "d": 1510,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

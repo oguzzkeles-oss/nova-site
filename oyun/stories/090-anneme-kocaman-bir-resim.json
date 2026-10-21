@@ -1,0 +1,1844 @@
+{
+ "id": "090-anneme-kocaman-bir-resim",
+ "n": 90,
+ "title": "Anneme Kocaman Bir Resim",
+ "age": "36-48",
+ "area": "Sanat",
+ "theme": "Sevgiyi resimle ve sözle anlatmak",
+ "values": [
+  "D15 Sevgi"
+ ],
+ "sdb": "SDB2.1 İletişim",
+ "min": 4,
+ "blurb": "Deniz, Anneler Günü için babasıyla gizlice kocaman bir resim yapar. Anne az kalsın görüyordu! Sonunda Deniz resmi uzatır ve annesini neden sevdiğini kendi sözleriyle söyler.",
+ "codes": {
+  "maarif": [
+   "SNAB.4 Sanat etkinliği uygulayabilme: yapacağı sanat etkinliğinin türüne karar verir, gerekli materyalleri seçer (teyitsiz)",
+   "TAKB.1 Konuşma sürecini yönetebilme: ilgi alanına giren bir konuda konuşur, göz teması kurar",
+   "E3.3 Yaratıcılık",
+   "SDB2.1 İletişim",
+   "D15 Sevgi"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "deniz": "cocuk-kiz",
+  "baba": "baba",
+  "anne": "anne"
+ },
+ "voiceNames": {
+  "deniz": "Deniz",
+  "baba": "Baba",
+  "anne": "Anne"
+ },
+ "pages": [
+  {
+   "text": "Cumartesi akşamı. Yarın Anneler Günü! Deniz fısıl fısıl konuştu. “Anneme kocaman bir resim yapalım!” Babası göz kırptı: “Şşşt! Bu bir sır.”",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "baba",
+      "x": 262,
+      "y": 158,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "turn": 0.5,
+      "hit": "baba"
+     },
+     {
+      "k": "deniz",
+      "x": 196,
+      "y": 228,
+      "s": 1.1,
+      "mood": "shy",
+      "pose": "stand",
+      "turn": 0.6,
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 304,
+      "y": 158,
+      "s": 0.9,
+      "color": "#F2A07E"
+     },
+     {
+      "k": "kitap",
+      "x": 64,
+      "y": 232,
+      "s": 1.1,
+      "color": "#4E9A6B",
+      "open": true
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 350,
+      "y": 232,
+      "s": 1.0,
+      "color": "#E4574F"
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Anneme kocaman bir resim!",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "baba": {
+     "say": "Şşşt! Bu bir sır.",
+     "voice": "baba",
+     "anim": "wiggle",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Sence Deniz ile babası neden fısıl fısıl konuşuyor?"
+  },
+  {
+   "text": "Boyalar nerede? Deniz kanepenin altına baktı. Babası kitaplığa baktı. “Buldum!” dedi. Bir kutu boya, bir fırça, iki kutu kalem.",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 160,
+      "y": 230,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "crawl",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "baba",
+      "x": 318,
+      "y": 228,
+      "s": 0.95,
+      "mood": "think",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "palet",
+      "x": 232,
+      "y": 202,
+      "s": 1.1,
+      "peek": true,
+      "hit": "palet"
+     },
+     {
+      "k": "boya-kalemi",
+      "x": 372,
+      "y": 154,
+      "s": 0.7,
+      "color": "#4F8FD8",
+      "peek": true,
+      "hit": "kalem1"
+     },
+     {
+      "k": "boya-kalemi",
+      "x": 226,
+      "y": 158,
+      "s": 0.75,
+      "color": "#E4574F",
+      "peek": true,
+      "hit": "kalem2"
+     },
+     {
+      "k": "yastik",
+      "x": 240,
+      "y": 160,
+      "s": 1.1,
+      "color": "#9CC8F0"
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Buldum! Kanepenin altında!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "baba": {
+     "say": "Kitaplığa bakalım!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "whoosh"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "palet",
+     "kalem1",
+     "kalem2"
+    ],
+    "done": "Bir palet, iki kutu kalem. Hazırız!",
+    "msg": "Hepsini buldun!"
+   },
+   "hint": [
+    "palet",
+    "Boyaları bul!"
+   ],
+   "ask": "Resim yapmak için başka neler gerekir?"
+  },
+  {
+   "text": "Kocaman kâğıdı kanepeye dayadılar. Deniz fırçayı aldı. Şap şap şap! Çiçekleri kıpkırmızı boyadı. Bir de sapsarı güneş!",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "curtains": "closed",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 104,
+      "y": 232,
+      "s": 1.12,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "palet",
+      "holdS": 0.7,
+      "turn": 0.6,
+      "hit": "deniz"
+     },
+     {
+      "k": "baba",
+      "x": 340,
+      "y": 226,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "turn": 0.4,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "theme": "sun",
+      "x": 216,
+      "y": 214,
+      "s": 2.6
+     },
+     {
+      "k": "flower",
+      "x": 182,
+      "y": 208,
+      "s": 0.6,
+      "color": "#E4574F",
+      "z": 230,
+      "hit": "c1",
+      "state": "off"
+     },
+     {
+      "k": "flower",
+      "x": 216,
+      "y": 208,
+      "s": 0.6,
+      "color": "#E4574F",
+      "z": 230,
+      "hit": "c2",
+      "state": "off"
+     },
+     {
+      "k": "flower",
+      "x": 250,
+      "y": 208,
+      "s": 0.6,
+      "color": "#E4574F",
+      "z": 230,
+      "hit": "c3",
+      "state": "off"
+     },
+     {
+      "k": "boya-kalemi",
+      "x": 292,
+      "y": 236,
+      "s": 0.8,
+      "color": "#E4574F"
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Şap şap şap!",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "splash"
+    },
+    "baba": {
+     "say": "Ne güzel çiçekler!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "done": "Çiçekler kıpkırmızı oldu!",
+    "msg": "Çiçekleri boyadın!"
+   },
+   "hint": [
+    "c1",
+    "Çiçekleri boya!"
+   ],
+   "ask": "Deniz resme neler yaptı? Sen olsan ne çizerdin?"
+  },
+  {
+   "text": "Birden ayak sesleri: tak tuk, tak tuk! “Eyvah, annen geliyor!” dedi babası. Resim ne olacak?",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "curtains": "closed",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 136,
+      "y": 230,
+      "s": 1.08,
+      "mood": "surprised",
+      "pose": "open",
+      "turn": -0.5,
+      "hit": "deniz"
+     },
+     {
+      "k": "baba",
+      "x": 332,
+      "y": 228,
+      "s": 0.97,
+      "mood": "surprised",
+      "pose": "open",
+      "flip": true,
+      "turn": 0.5,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "theme": "sun",
+      "x": 238,
+      "y": 214,
+      "s": 2.5,
+      "hit": "resim"
+     },
+     {
+      "k": "flower",
+      "x": 206,
+      "y": 208,
+      "s": 0.6,
+      "color": "#E4574F",
+      "z": 230
+     },
+     {
+      "k": "flower",
+      "x": 238,
+      "y": 208,
+      "s": 0.6,
+      "color": "#E4574F",
+      "z": 230
+     },
+     {
+      "k": "flower",
+      "x": 270,
+      "y": 208,
+      "s": 0.6,
+      "color": "#E4574F",
+      "z": 230
+     },
+     {
+      "k": "palet",
+      "x": 70,
+      "y": 236,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "baba": {
+     "say": "Eyvah, annen geliyor!",
+     "voice": "baba",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "deniz": {
+     "say": "Tak tuk, tak tuk!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "resim": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    }
+   },
+   "predict": {
+    "q": "Sence resmi nereye saklayacaklar?",
+    "res": "Hadi görelim!",
+    "opts": [
+     {
+      "l": "Kanepenin arkasına",
+      "scene": {
+       "set": "salon",
+       "time": "evening",
+       "cast": [
+        {
+         "k": "deniz",
+         "x": 130,
+         "y": 230,
+         "s": 1.05,
+         "mood": "laugh",
+         "pose": "stand",
+         "turn": 0.3
+        },
+        {
+         "k": "baba",
+         "x": 204,
+         "y": 226,
+         "s": 0.95,
+         "mood": "happy",
+         "pose": "stand",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "resim",
+         "theme": "sun",
+         "x": 300,
+         "y": 150,
+         "s": 1.6,
+         "z": 150
+        }
+       ],
+       "curtains": "closed"
+      }
+     },
+     {
+      "l": "Babanın arkasına",
+      "scene": {
+       "set": "salon",
+       "time": "evening",
+       "cast": [
+        {
+         "k": "baba",
+         "x": 210,
+         "y": 228,
+         "s": 1.0,
+         "mood": "laugh",
+         "pose": "open"
+        },
+        {
+         "k": "deniz",
+         "x": 120,
+         "y": 232,
+         "s": 1.05,
+         "mood": "laugh",
+         "pose": "clap",
+         "turn": 0.4
+        }
+       ],
+       "props": [
+        {
+         "k": "resim",
+         "theme": "sun",
+         "x": 210,
+         "y": 214,
+         "s": 2.4
+        }
+       ],
+       "curtains": "closed"
+      }
+     }
+    ]
+   },
+   "hint": [
+    "baba",
+    "Babaya dokun!"
+   ],
+   "ask": "Ayak sesleri kimin? Sence şimdi ne olacak?"
+  },
+  {
+   "text": "Babası resmin önüne dikildi. Deniz de yanına. Anne sordu: “Neler oluyor burada?” “Hiiç!” dediler. Kıkır kıkır! Anne gülümsedi, çiçeklerini sulamaya gitti.",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 78,
+      "y": 230,
+      "s": 1.0,
+      "mood": "think",
+      "pose": "stand",
+      "turn": 0.5,
+      "hit": "anne"
+     },
+     {
+      "k": "baba",
+      "x": 262,
+      "y": 226,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "open",
+      "flip": true,
+      "hit": "baba"
+     },
+     {
+      "k": "deniz",
+      "x": 352,
+      "y": 232,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "turn": 0.4,
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "theme": "sun",
+      "x": 270,
+      "y": 212,
+      "s": 2.4,
+      "hit": "resim"
+     }
+    ],
+    "curtains": "closed"
+   },
+   "hits": {
+    "anne": {
+     "say": "Neler oluyor burada?",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "baba": {
+     "say": "Hiiç!",
+     "voice": "baba",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "deniz": {
+     "say": "Hiiç! Kıkır kıkır!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "resim": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "anne",
+    "Anneye dokun!"
+   ],
+   "ask": "Neden “Hiiç!” dediler? Sen hiç sürpriz hazırladın mı?",
+   "cues": [
+    {
+     "w": 14,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Anne gidince hemen işe koyuldular. Babası kâğıttan kalpler kesti. Deniz kalpleri resme yapıştırdı. Bir, iki, üç, dört, beş!",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "curtains": "closed",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 212,
+      "y": 234,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "point",
+      "flip": true,
+      "turn": 0.4,
+      "hit": "deniz"
+     },
+     {
+      "k": "baba",
+      "x": 372,
+      "y": 228,
+      "s": 0.92,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "makas",
+      "holdO": {
+       "open": true,
+       "color": "#E4574F"
+      },
+      "holdS": 1.6,
+      "flip": true,
+      "turn": 0.4,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "resim",
+      "theme": "sun",
+      "x": 100,
+      "y": 214,
+      "s": 2.6,
+      "hit": "resim"
+     },
+     {
+      "k": "flower",
+      "x": 66,
+      "y": 208,
+      "s": 0.6,
+      "color": "#E4574F",
+      "z": 230
+     },
+     {
+      "k": "flower",
+      "x": 100,
+      "y": 208,
+      "s": 0.6,
+      "color": "#E4574F",
+      "z": 230
+     },
+     {
+      "k": "flower",
+      "x": 134,
+      "y": 208,
+      "s": 0.6,
+      "color": "#E4574F",
+      "z": 230
+     },
+     {
+      "k": "kagit",
+      "x": 318,
+      "y": 176,
+      "s": 1.3,
+      "color": "#F4A6C4"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "color": "#E4574F",
+      "x": 246,
+      "y": 236,
+      "s": 0.7,
+      "hit": "h1"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "color": "#F08BB0",
+      "x": 268,
+      "y": 212,
+      "s": 0.7,
+      "hit": "h2"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "color": "#E4574F",
+      "x": 292,
+      "y": 236,
+      "s": 0.7,
+      "hit": "h3"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "color": "#F08BB0",
+      "x": 314,
+      "y": 212,
+      "s": 0.7,
+      "hit": "h4"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "color": "#C94C8A",
+      "x": 334,
+      "y": 236,
+      "s": 0.7,
+      "hit": "h5"
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Bir kalp daha!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "baba": {
+     "say": "Kalpler hazır!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "click"
+    },
+    "resim": {
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "h1",
+     "h2",
+     "h3",
+     "h4",
+     "h5"
+    ],
+    "to": [
+     100,
+     150
+    ],
+    "done": "Beş kalp! Resim rengârenk oldu.",
+    "msg": "Beş kalp yapıştı!"
+   },
+   "hint": [
+    "h1",
+    "Kalpleri resme yapıştır!"
+   ],
+   "ask": "Kaç kalp yapıştırdı? Sen resme ne yapıştırırdın?"
+  },
+  {
+   "text": "Pazar sabahı Deniz resmi uzattı: “Bu senin için, anneciğim. Seni seviyorum, çünkü bana masal okuyorsun.” Anne çok sevindi. “Demek ‘hiiç’ buymuş!” Sımsıkı sarıldı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 170,
+      "y": 234,
+      "s": 1.28,
+      "mood": "happy",
+      "pose": "open",
+      "turn": 0.6,
+      "hit": "deniz"
+     },
+     {
+      "k": "anne",
+      "x": 260,
+      "y": 230,
+      "s": 1.12,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "resim",
+      "holdO": {
+       "theme": "sun"
+      },
+      "holdS": 1.0,
+      "flip": true,
+      "turn": 0.5,
+      "hit": "anne"
+     },
+     {
+      "k": "baba",
+      "x": 356,
+      "y": 208,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "baba"
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 232,
+      "y": 158,
+      "s": 0.9,
+      "color": "#F2A07E"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 50,
+      "y": 232,
+      "s": 1.0,
+      "color": "#E4574F"
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Seni seviyorum, anneciğim!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "chime",
+     "hearts": true
+    },
+    "anne": {
+     "say": "Demek “hiiç” buymuş!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "twinkle",
+     "hearts": true
+    },
+    "baba": {
+     "say": "Sürpriiiz!",
+     "voice": "baba",
+     "anim": "jump",
+     "fx": "success"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Sen sevdiğin birine “Seni seviyorum, çünkü…” desen, nasıl bitirirdin?"
+  }
+ ],
+ "order": [
+  0,
+  2,
+  6
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.4 Sanat etkinliği uygulayabilme (teyitsiz): Deniz ne yapacağına karar verir (“kocaman bir resim”), gerekli materyalleri seçer (palet, boya kalemleri, kâğıt kalpler), çiçekleri boyar ve resmi tamamlar.",
+   "TAKB.1 Konuşma sürecini yönetebilme: Deniz ilgi alanına giren bir konuda konuşur; annesinin gözüne bakarak onu neden sevdiğini kendi cümlesiyle söyler.",
+   "E3.3 Yaratıcılık: Çiçek, güneş ve kalplerle kendine özgü bir hediye tasarlar.",
+   "SDB2.1 İletişim: Duygusunu hem resimle hem sözle, “Seni seviyorum, çünkü…” kalıbıyla anlatır.",
+   "D15 Sevgi: Sevgiyi emek vererek hazırlanan bir hediye ve sıcak bir sarılmayla gösterir."
+  ],
+  "once": [
+   "Kapaktaki kocaman resmi gösterin: “Bu resim kimin için olabilir?”",
+   "“Sürpriz nedir? Sürprizi gizli tutmak kolay mı?” diye konuşun.",
+   "Annesi yanında olmayan çocuklar olabilir; “sevdiğimiz bir büyük” ifadesini de kullanın."
+  ],
+  "sirasi": [
+   "1. sayfada “Şşşt!” deyip parmağınızı dudağınıza götürün; birlikte fısıldayın.",
+   "2. sayfada boyaları çocuk bulsun; “Kanepenin altında ne var?” diye sorun.",
+   "3. sayfada çocuk çiçeklere dokunurken birlikte “şap şap şap!” deyin.",
+   "4. sayfadaki tahminde iki cevabın da güzel bir saklama fikri olduğunu söyleyin.",
+   "6. sayfada kalpleri parmakla birlikte sayın: bir, iki, üç, dört, beş."
+  ],
+  "sonra": [
+   "“Deniz annesine ne dedi? Neden onu seviyordu?” diye hatırlayın.",
+   "Çocuğunuzdan “Seni seviyorum, çünkü…” cümlesini sevdiği biri için tamamlamasını isteyin.",
+   "“Anne resmi görünce ne hissetti? Yüzü nasıldı?” diye konuşun."
+  ],
+  "sinif": {
+   "ad": "Kocaman Sevgi Resmi",
+   "sure": "20 dk",
+   "materyal": "Büyük kraft ya da karton kâğıt, parmak boyası veya pastel boya, önceden kesilmiş kâğıt kalpler, yapıştırıcı",
+   "adim": [
+    "Masalı hatırlayın: Deniz resme neler çizdi, neler yapıştırdı?",
+    "Çocuklar küçük gruplarla kocaman kâğıda sevdikleri bir büyüğe resim yapar.",
+    "Her çocuk kendi kâğıt kalbini seçer ve resme yapıştırır.",
+    "Çember saatinde her çocuk resmini gösterir ve “Bu resmi ... için yaptım, çünkü ...” cümlesini tamamlar; konuşan çocuğa bakılır, söz sırası beklenir. İsteyen çocuk yalnızca resmini gösterebilir.",
+    "Resimler eve gönderilir; ailelere çocukların cümleleri not edilir."
+   ]
+  },
+  "evSoru": [
+   "Deniz ile babası neyi gizli yaptı?",
+   "Anne gelince resmi nereye sakladılar?",
+   "Deniz annesini neden seviyordu?"
+  ],
+  "evEtk": {
+   "ad": "Seni Seviyorum Çünkü Kartı",
+   "d": "Çocuğunuzla bir kâğıda sevdiği bir aile büyüğü için resim yapın. Çocuğunuz “Seni seviyorum, çünkü…” cümlesini söylesin, siz kâğıdın arkasına aynen yazın. Kartı birlikte o kişiye verin."
+  },
+  "aileNotu": "Bugün “Anneme Kocaman Bir Resim” masalını okuduk. Deniz, Anneler Günü için babasıyla gizlice bir resim hazırladı ve annesine onu neden sevdiğini kendi sözleriyle söyledi. Evde çocuğunuzun “Seni seviyorum, çünkü…” cümlesini dinleyin; hangi cevabı verirse versin sevinçle karşılayın. Anne yerine başka bir sevilen büyük de olabilir; önemli olan duyguyu resimle ve sözle anlatmaktır."
+ },
+ "audio": {
+  "file": "audio/090-anneme-kocaman-bir-resim.mp3",
+  "hash": "8056a83a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10522,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2989,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      3869,
+      7
+     ],
+     [
+      4249,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      5649,
+      10
+     ],
+     [
+      6229,
+      11
+     ],
+     [
+      6370,
+      12
+     ],
+     [
+      6709,
+      13
+     ],
+     [
+      7469,
+      14
+     ],
+     [
+      7910,
+      15
+     ],
+     [
+      8190,
+      16
+     ],
+     [
+      9029,
+      17
+     ],
+     [
+      9649,
+      18
+     ],
+     [
+      9810,
+      19
+     ],
+     [
+      10049,
+      20
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 10822,
+    "d": 2263,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 13386,
+    "d": 1566,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      666,
+      1
+     ],
+     [
+      952,
+      2
+     ],
+     [
+      1239,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 15252,
+    "d": 9756,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2430,
+      4
+     ],
+     [
+      2809,
+      5
+     ],
+     [
+      3529,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4529,
+      8
+     ],
+     [
+      5249,
+      9
+     ],
+     [
+      6009,
+      10
+     ],
+     [
+      6649,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7169,
+      13
+     ],
+     [
+      7829,
+      14
+     ],
+     [
+      8049,
+      15
+     ],
+     [
+      8829,
+      16
+     ],
+     [
+      9049,
+      17
+     ],
+     [
+      9310,
+      18
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 25308,
+    "d": 2281,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      786,
+      1
+     ],
+     [
+      1608,
+      2
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 27890,
+    "d": 1020,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 29210,
+    "d": 2778,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      2189,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 32288,
+    "d": 9553,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2489,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      4149,
+      7
+     ],
+     [
+      4529,
+      8
+     ],
+     [
+      4870,
+      9
+     ],
+     [
+      5549,
+      10
+     ],
+     [
+      6229,
+      11
+     ],
+     [
+      6969,
+      12
+     ],
+     [
+      7689,
+      13
+     ],
+     [
+      7949,
+      14
+     ],
+     [
+      8310,
+      15
+     ],
+     [
+      8890,
+      16
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 42142,
+    "d": 1299,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      446,
+      1
+     ],
+     [
+      852,
+      2
+     ]
+    ]
+   },
+   "p2h-baba": {
+    "s": 43741,
+    "d": 1525,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      749,
+      2
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 45566,
+    "d": 1916,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1389,
+      2
+     ]
+    ]
+   },
+   "p3": {
+    "s": 47783,
+    "d": 7061,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      3289,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4209,
+      9
+     ],
+     [
+      4949,
+      10
+     ],
+     [
+      5189,
+      11
+     ],
+     [
+      6009,
+      12
+     ],
+     [
+      6350,
+      13
+     ],
+     [
+      6489,
+      14
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 55145,
+    "d": 1673,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1129,
+      2
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 57118,
+    "d": 1576,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1249,
+      3
+     ]
+    ]
+   },
+   "p3q": {
+    "s": 58995,
+    "d": 2352,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p3r": {
+    "s": 61648,
+    "d": 731,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      308,
+      1
+     ]
+    ]
+   },
+   "p4": {
+    "s": 62679,
+    "d": 11637,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3629,
+      8
+     ],
+     [
+      4489,
+      9
+     ],
+     [
+      4789,
+      10
+     ],
+     [
+      5129,
+      11
+     ],
+     [
+      5890,
+      12
+     ],
+     [
+      6809,
+      13
+     ],
+     [
+      7509,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8850,
+      16
+     ],
+     [
+      9129,
+      17
+     ],
+     [
+      10069,
+      18
+     ],
+     [
+      10690,
+      19
+     ],
+     [
+      11189,
+      20
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 74616,
+    "d": 1253,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      709,
+      2
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 76170,
+    "d": 929,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 77399,
+    "d": 2019,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      925,
+      1
+     ],
+     [
+      1452,
+      2
+     ]
+    ]
+   },
+   "p5": {
+    "s": 79719,
+    "d": 10987,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      4169,
+      8
+     ],
+     [
+      5049,
+      9
+     ],
+     [
+      5390,
+      10
+     ],
+     [
+      5910,
+      11
+     ],
+     [
+      6249,
+      12
+     ],
+     [
+      7430,
+      13
+     ],
+     [
+      8190,
+      14
+     ],
+     [
+      9049,
+      15
+     ],
+     [
+      9669,
+      16
+     ],
+     [
+      10369,
+      17
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 91006,
+    "d": 1158,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      328,
+      1
+     ],
+     [
+      616,
+      2
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 92464,
+    "d": 1195,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      649,
+      1
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 93960,
+    "d": 2783,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2390,
+      4
+     ]
+    ]
+   },
+   "p6": {
+    "s": 97044,
+    "d": 12258,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      2569,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3329,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      4489,
+      10
+     ],
+     [
+      5249,
+      11
+     ],
+     [
+      5549,
+      12
+     ],
+     [
+      5789,
+      13
+     ],
+     [
+      6129,
+      14
+     ],
+     [
+      7149,
+      15
+     ],
+     [
+      7549,
+      16
+     ],
+     [
+      7849,
+      17
+     ],
+     [
+      8749,
+      18
+     ],
+     [
+      9329,
+      19
+     ],
+     [
+      9989,
+      20
+     ],
+     [
+      11029,
+      21
+     ],
+     [
+      11649,
+      22
+     ]
+    ]
+   },
+   "p6h-deniz": {
+    "s": 109602,
+    "d": 1566,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      909,
+      2
+     ]
+    ]
+   },
+   "p6h-anne": {
+    "s": 111469,
+    "d": 2732,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      924,
+      1
+     ],
+     [
+      1808,
+      2
+     ]
+    ]
+   },
+   "p6h-baba": {
+    "s": 114501,
+    "d": 1091,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   }
+  }
+ }
+}

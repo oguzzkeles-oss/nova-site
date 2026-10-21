@@ -1,0 +1,1646 @@
+{
+ "id": "021-bes-minik-civciv",
+ "lang": "en",
+ "title": "Five Little Chicks",
+ "theme": "Counting (1–5) and compassion",
+ "blurb": "When evening comes, Can counts the chicks into the coop: one, two, three, four… Where is Sweetie, the fifth chick? Can and Grandma set off to find the littlest chick for the worried mama hen.",
+ "voiceNames": {
+  "nine": "Grandma",
+  "can": "Can",
+  "tavuk": "Mama Hen",
+  "lokum": "Sweetie (the littlest chick)",
+  "civciv": "The chicks"
+ },
+ "pages": [
+  {
+   "text": "Evening was coming. Can's grandma called her five chicks. “Come, come, come, little chicks!” Cheep cheep, cheep cheep! The chicks came running. But Sweetie, the littlest one, was busy chasing a butterfly.",
+   "hits": {
+    "nine": {
+     "say": "Come, come, come! Bedtime!"
+    },
+    "can": {
+     "say": "Come on, chicks, into the coop!"
+    },
+    "c": {
+     "say": "Cheep cheep!"
+    },
+    "tavuk": {
+     "say": "Cluck cluck! Come, my babies!"
+    },
+    "lokum": {
+     "say": "Cheep! Butterfly, wait for me!"
+    }
+   },
+   "hint": "Touch Grandma!",
+   "ask": "Look at the picture: what is Sweetie doing? Why do you think she stayed behind?"
+  },
+  {
+   "text": "Can counted the chicks in front of the coop. “One, two, three, four…” Four? “Grandma, one chick is missing!”",
+   "mech": {
+    "done": "Four chicks. One is missing!"
+   },
+   "hits": {
+    "can": {
+     "say": "Four? One is missing!"
+    },
+    "nine": {
+     "say": "Oh! Which one is gone, I wonder?"
+    }
+   },
+   "hint": "Count the chicks one by one!",
+   "ask": "You count too: how many chicks are there? How many more do we need to make five?"
+  },
+  {
+   "text": "Sweetie was nowhere to be seen! “Cluck cluck, where is my baby?” Mama Hen flapped about. Can got worried. His heart went thump, thump. Grandma said, “Don't worry, let's look together.”",
+   "hits": {
+    "tavuk": {
+     "say": "Cluck cluck! Where is my baby?"
+    },
+    "can": {
+     "say": "Sweetie must be scared right now."
+    },
+    "nine": {
+     "say": "Don't worry, let's look together."
+    }
+   },
+   "predict": {
+    "q": "Where do you think Sweetie is?",
+    "res": "Come on, let's look together!",
+    "opts": [
+     {
+      "l": "Behind the bush"
+     },
+     {
+      "l": "Behind the fence"
+     }
+    ]
+   },
+   "hint": "Touch Mama Hen!",
+   "ask": "How is Mama Hen feeling? How can you tell from her face and her wings?",
+   "cues": [
+    {
+     "w": 22,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Grandma looked behind the bush. Not there! Can looked behind the log. Not there! Then a tiny voice came from behind the fence: “Cheep… cheep…”",
+   "mech": {
+    "done": "There's Sweetie! Stuck behind the fence."
+   },
+   "hits": {
+    "cali": {
+     "say": "Not behind the bush!"
+    },
+    "kutuk": {
+     "say": "Not behind the log either!"
+    },
+    "cit": {
+     "say": "Cheep… cheep…"
+    },
+    "nine": {
+     "say": "Sweetie, where are you?"
+    },
+    "can": {
+     "say": "Shhh! I hear something."
+    }
+   },
+   "hint": "Look for Sweetie!",
+   "ask": "Why might Sweetie have gone behind the fence? Remember the first picture!"
+  },
+  {
+   "text": "Sweetie was scared, shivering all over. Can knelt down slowly. “I know you were scared, Sweetie,” he whispered. “Your mum is waiting for you.” Step by step, Sweetie walked to her mum.",
+   "mech": {
+    "say": "One more step!",
+    "done": "Cheep cheep! Sweetie is back with her mum!"
+   },
+   "hits": {
+    "can": {
+     "say": "Don't be scared, Sweetie. Your mum is waiting."
+    },
+    "tavuk": {
+     "say": "Cluck cluck! Come, my baby, come!"
+    },
+    "nine": {
+     "say": "Slowly, slowly… Very good, Can."
+    }
+   },
+   "hint": "Touch Sweetie to make her walk!",
+   "ask": "Why did Can speak slowly, in a whisper? What do you say to someone who is scared?"
+  },
+  {
+   "text": "Can counted again: “One, two, three, four, five!” Mama Hen opened her wings. They all snuggled underneath, warm and cosy! “Good night, five little chicks!” said Can.",
+   "mech": {
+    "done": "Five chicks! They're all here."
+   },
+   "hits": {
+    "can": {
+     "say": "Good night, five little chicks!"
+    },
+    "nine": {
+     "say": "Ah, they're all in the nest!"
+    },
+    "tavuk": {
+     "say": "Cluck cluck… Good night, my babies."
+    }
+   },
+   "hint": "Count the chicks again!",
+   "ask": "How did Sweetie feel when she got back to her mum? Who do you say “Good night” to before you sleep?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.1 Counting rhythmically and by sight: counts the chicks one by one by touching them and finds how many objects there are (1–5) by counting; compares four and five and notices that “one is missing” (the 1–5 range for 36–48 months).",
+   "TADB.3 Analysing what they hear or watch: identifies the parts of the story's events (counting, going missing, searching, finding) and tells the events in the order they happened (ordering game).",
+   "E2.1 Empathy and SDB2.3 Social Awareness: notices Mama Hen's worry and Sweetie's fear from face and body clues, and answers the question “How do you think they feel?”",
+   "D9 Compassion (linked to the programme): observes ways of approaching a frightened little creature slowly, quietly and gently, and connects them to their own life."
+  ],
+  "once": [
+   "Look at the cover picture together: “How many chicks can you see here? Let's count, pointing with your finger.”",
+   "Open five fingers: “There are five little chicks in this story. Let's count on our fingers: one, two, three, four, five.”",
+   "Ask: “What is a coop? Where do chicks spend the night?” Introduce the words coop, bush, log and fence."
+  ],
+  "sirasi": [
+   "On page 1, stress the last sentence and point to Sweetie in the picture: the littlest chick is busy chasing a butterfly and has stayed behind. This clue will be useful on page 4.",
+   "On page 2, let the child count by touching each chick one by one; stop at the fourth and ask: “Four? How many should there be?”",
+   "On page 3, look closely at Mama Hen's face and wings: “How does she feel? How can you tell?” After the prediction is chosen, do not give the answer straight away.",
+   "On page 4, let the child touch the bush and the log first; say “Not there!” together with a rhythm. When they touch the fence, listen to the “Cheep… cheep…” sound, then let them find Sweetie themselves.",
+   "On page 5, lower your voice; whisper “Don't be scared, Sweetie” like Can. On page 6, count slowly to five together."
+  ],
+  "sonra": [
+   "What happened first in the story, and what happened next? Let's put the three pictures in order: counting, searching, sleeping.",
+   "How many chicks were there? When one went missing, how many were left? Let's show it on our fingers.",
+   "How did Mama Hen feel when she couldn't find Sweetie? How did she feel when Sweetie was found?",
+   "How did Can approach frightened Sweetie? How would you help a friend who is scared?"
+  ],
+  "sinif": {
+   "ad": "Who's Missing from the Coop?",
+   "sure": "15 min",
+   "materyal": "Five yellow pompoms or paper chicks, a cardboard box as the coop, a small potted plant (bush), a wooden block or tube (log), a small fence made of blocks",
+   "adim": [
+    "In the circle, count the five chicks together by touching them and put them in the coop box.",
+    "While the children close their eyes, hide one chick behind the bush, the log or the fence.",
+    "Count the chicks in the coop together; when they notice one is missing, listen to their guesses: “Where could it be?”",
+    "Search in turns; use position words such as “Not behind the log!”",
+    "The child who finds the chick brings it back to the coop, whispering “Don't be scared, come”; count to five together one last time."
+   ]
+  },
+  "evSoru": [
+   "How many chicks were there? Let's count on our fingers together.",
+   "How did Mama Hen feel when she couldn't find Sweetie?",
+   "How did Can talk to Sweetie? Why did he speak slowly and quietly?"
+  ],
+  "evEtk": {
+   "ad": "Where Are the Five Socks?",
+   "d": "Count five socks or five small toys together and put them in a basket. While your child closes their eyes, hide one behind a plant pot, a cushion or a chair. Count what is in the basket together, then look for the missing one, giving clues with the words “behind, under, inside.”"
+  },
+  "aileNotu": "Today we read “Five Little Chicks.” While counting the chicks into the coop in the evening, Can noticed that one was missing; he lowered his voice and patiently brought frightened little Sweetie back to her mum. The story supports counting from 1 to 5 by touching, and noticing other people's feelings. At home you can count the stairs, the spoons on the table or toys together, and when an animal or a friend looks sad, you can ask: “How do you think they feel?”"
+ },
+ "audio": {
+  "file": "audio/en/021-bes-minik-civciv.mp3",
+  "hash": "1e8c64eb",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12480,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      4029,
+      9
+     ],
+     [
+      4330,
+      10
+     ],
+     [
+      4609,
+      11
+     ],
+     [
+      4910,
+      12
+     ],
+     [
+      5149,
+      13
+     ],
+     [
+      5930,
+      14
+     ],
+     [
+      6169,
+      15
+     ],
+     [
+      6529,
+      16
+     ],
+     [
+      6769,
+      17
+     ],
+     [
+      7370,
+      18
+     ],
+     [
+      7529,
+      19
+     ],
+     [
+      7890,
+      20
+     ],
+     [
+      8249,
+      21
+     ],
+     [
+      9029,
+      22
+     ],
+     [
+      9249,
+      23
+     ],
+     [
+      9850,
+      24
+     ],
+     [
+      9989,
+      25
+     ],
+     [
+      10509,
+      26
+     ],
+     [
+      10850,
+      27
+     ],
+     [
+      11069,
+      28
+     ],
+     [
+      11369,
+      29
+     ],
+     [
+      11749,
+      30
+     ],
+     [
+      11810,
+      31
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 12780,
+    "d": 2635,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1354,
+      2
+     ],
+     [
+      1809,
+      3
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 15716,
+    "d": 1962,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1449,
+      5
+     ]
+    ]
+   },
+   "p0h-c": {
+    "s": 17979,
+    "d": 1002,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      501,
+      1
+     ]
+    ]
+   },
+   "p0h-tavuk": {
+    "s": 19281,
+    "d": 2449,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      326,
+      1
+     ],
+     [
+      953,
+      2
+     ],
+     [
+      1622,
+      3
+     ],
+     [
+      1909,
+      4
+     ]
+    ]
+   },
+   "p0h-lokum": {
+    "s": 22031,
+    "d": 2773,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1809,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2249,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 25105,
+    "d": 8826,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      1629,
+      7
+     ],
+     [
+      1749,
+      8
+     ],
+     [
+      2709,
+      9
+     ],
+     [
+      3309,
+      10
+     ],
+     [
+      4089,
+      11
+     ],
+     [
+      4850,
+      12
+     ],
+     [
+      5949,
+      13
+     ],
+     [
+      6890,
+      14
+     ],
+     [
+      7669,
+      15
+     ],
+     [
+      7849,
+      16
+     ],
+     [
+      8069,
+      17
+     ],
+     [
+      8230,
+      18
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 34231,
+    "d": 2014,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 36546,
+    "d": 2638,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2069,
+      6
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 39484,
+    "d": 2309,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1689,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 42094,
+    "d": 13699,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      2529,
+      6
+     ],
+     [
+      2809,
+      7
+     ],
+     [
+      3369,
+      8
+     ],
+     [
+      3609,
+      9
+     ],
+     [
+      3749,
+      10
+     ],
+     [
+      3969,
+      11
+     ],
+     [
+      4930,
+      12
+     ],
+     [
+      5249,
+      13
+     ],
+     [
+      5589,
+      14
+     ],
+     [
+      5989,
+      15
+     ],
+     [
+      6890,
+      16
+     ],
+     [
+      7229,
+      17
+     ],
+     [
+      7430,
+      18
+     ],
+     [
+      8289,
+      19
+     ],
+     [
+      8489,
+      20
+     ],
+     [
+      8789,
+      21
+     ],
+     [
+      9129,
+      22
+     ],
+     [
+      9789,
+      23
+     ],
+     [
+      10669,
+      24
+     ],
+     [
+      11129,
+      25
+     ],
+     [
+      11770,
+      26
+     ],
+     [
+      12029,
+      27
+     ],
+     [
+      12689,
+      28
+     ],
+     [
+      12949,
+      29
+     ],
+     [
+      13129,
+      30
+     ]
+    ]
+   },
+   "p2h-tavuk": {
+    "s": 56094,
+    "d": 2436,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1790,
+      5
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 58831,
+    "d": 2089,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 61220,
+    "d": 1996,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      285,
+      1
+     ],
+     [
+      857,
+      2
+     ],
+     [
+      1102,
+      3
+     ],
+     [
+      1347,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 63516,
+    "d": 1732,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1269,
+      5
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 65549,
+    "d": 1731,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      407,
+      1
+     ],
+     [
+      744,
+      2
+     ],
+     [
+      955,
+      3
+     ],
+     [
+      1166,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 67580,
+    "d": 10339,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1009,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2949,
+      7
+     ],
+     [
+      3229,
+      8
+     ],
+     [
+      3449,
+      9
+     ],
+     [
+      3729,
+      10
+     ],
+     [
+      3849,
+      11
+     ],
+     [
+      4649,
+      12
+     ],
+     [
+      4910,
+      13
+     ],
+     [
+      5910,
+      14
+     ],
+     [
+      6390,
+      15
+     ],
+     [
+      6549,
+      16
+     ],
+     [
+      7029,
+      17
+     ],
+     [
+      7410,
+      18
+     ],
+     [
+      7609,
+      19
+     ],
+     [
+      7789,
+      20
+     ],
+     [
+      8089,
+      21
+     ],
+     [
+      8209,
+      22
+     ],
+     [
+      8849,
+      23
+     ],
+     [
+      9524,
+      24
+     ]
+    ]
+   },
+   "p3h-cali": {
+    "s": 78219,
+    "d": 1574,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      869,
+      3
+     ]
+    ]
+   },
+   "p3h-kutuk": {
+    "s": 80094,
+    "d": 1711,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1129,
+      4
+     ]
+    ]
+   },
+   "p3h-cit": {
+    "s": 82105,
+    "d": 1570,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1062,
+      1
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 83975,
+    "d": 1841,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1410,
+      3
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 86116,
+    "d": 1932,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 88349,
+    "d": 2622,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      1989,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 91272,
+    "d": 13353,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      3469,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4149,
+      8
+     ],
+     [
+      4489,
+      9
+     ],
+     [
+      5589,
+      10
+     ],
+     [
+      5689,
+      11
+     ],
+     [
+      5930,
+      12
+     ],
+     [
+      6069,
+      13
+     ],
+     [
+      6269,
+      14
+     ],
+     [
+      6709,
+      15
+     ],
+     [
+      7529,
+      16
+     ],
+     [
+      7689,
+      17
+     ],
+     [
+      8609,
+      18
+     ],
+     [
+      8810,
+      19
+     ],
+     [
+      9049,
+      20
+     ],
+     [
+      9209,
+      21
+     ],
+     [
+      9609,
+      22
+     ],
+     [
+      9850,
+      23
+     ],
+     [
+      10669,
+      24
+     ],
+     [
+      11009,
+      25
+     ],
+     [
+      11249,
+      26
+     ],
+     [
+      11949,
+      27
+     ],
+     [
+      12350,
+      28
+     ],
+     [
+      12629,
+      29
+     ],
+     [
+      12770,
+      30
+     ],
+     [
+      12930,
+      31
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 104926,
+    "d": 2846,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2329,
+      7
+     ]
+    ]
+   },
+   "p4h-tavuk": {
+    "s": 108073,
+    "d": 2726,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      835,
+      2
+     ],
+     [
+      1418,
+      3
+     ],
+     [
+      1668,
+      4
+     ],
+     [
+      2251,
+      5
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 111099,
+    "d": 4186,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      1269,
+      1
+     ],
+     [
+      2809,
+      2
+     ],
+     [
+      3289,
+      3
+     ],
+     [
+      3650,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 115586,
+    "d": 2673,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2089,
+      7
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 118559,
+    "d": 1112,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      550,
+      2
+     ]
+    ]
+   },
+   "p5": {
+    "s": 119972,
+    "d": 13450,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      3069,
+      5
+     ],
+     [
+      3769,
+      6
+     ],
+     [
+      4370,
+      7
+     ],
+     [
+      5370,
+      8
+     ],
+     [
+      5689,
+      9
+     ],
+     [
+      6069,
+      10
+     ],
+     [
+      6410,
+      11
+     ],
+     [
+      6589,
+      12
+     ],
+     [
+      7329,
+      13
+     ],
+     [
+      7589,
+      14
+     ],
+     [
+      7949,
+      15
+     ],
+     [
+      8430,
+      16
+     ],
+     [
+      9209,
+      17
+     ],
+     [
+      9690,
+      18
+     ],
+     [
+      9890,
+      19
+     ],
+     [
+      10969,
+      20
+     ],
+     [
+      11169,
+      21
+     ],
+     [
+      11489,
+      22
+     ],
+     [
+      11770,
+      23
+     ],
+     [
+      12009,
+      24
+     ],
+     [
+      12749,
+      25
+     ],
+     [
+      13089,
+      26
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 133722,
+    "d": 1988,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1430,
+      4
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 136011,
+    "d": 2247,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1550,
+      5
+     ]
+    ]
+   },
+   "p5h-tavuk": {
+    "s": 138559,
+    "d": 2460,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      319,
+      1
+     ],
+     [
+      929,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1654,
+      4
+     ],
+     [
+      1933,
+      5
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 141319,
+    "d": 2331,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1790,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

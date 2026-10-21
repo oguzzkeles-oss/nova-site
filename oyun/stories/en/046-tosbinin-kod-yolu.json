@@ -1,0 +1,1811 @@
+{
+ "id": "046-tosbinin-kod-yolu",
+ "lang": "en",
+ "title": "Shelly's Code Path",
+ "theme": "A code path with symbols, finding and fixing the bug",
+ "blurb": "Shelly the thirsty tortoise wants to get to the pond; Hoppy the rabbit lays out a code path of shape cards on the ground. But there's a “jump!” card in the code, and Shelly can't jump! The two friends find the mistake, fix the code and reach the pond by a new path.",
+ "voiceNames": {
+  "tosbi": "Shelly (tortoise)",
+  "zipzip": "Hoppy (rabbit)"
+ },
+ "pages": [
+  {
+   "text": "It was a hot summer's day. Shelly the tortoise was so thirsty. “I'll go to the pond for a drink!” he said. But the meadow grass was so tall. Shelly stretched his neck up, and up… No pond in sight! A big rock sat in the way. “Oh dear, which way now?”",
+   "hits": {
+    "tosbi": {
+     "say": "Where's the pond? I can't see it at all!"
+    },
+    "tas": {
+     "say": "This rock is so big!"
+    }
+   },
+   "hint": "Touch Shelly!",
+   "ask": "Why can't Shelly see the pond? How do you get to a place you can't see?"
+  },
+  {
+   "text": "Hop, hop! Hoppy the rabbit jumped up high. “The pond is over there! I'll make you a code path!” She laid cards on the ground. “Blue square: one step forward. Yellow star: jump!” The code was ready: square, square, star, square.",
+   "hits": {
+    "zipzip": {
+     "say": "The pond's over there! Follow the code, Shelly!"
+    },
+    "tosbi": {
+     "say": "A code path? How lovely!"
+    },
+    "k": {
+     "say": "One step forward!"
+    },
+    "yildiz": {
+     "say": "Jump!"
+    }
+   },
+   "hint": "What does the star say?",
+   "ask": "What shapes are on the cards? What does the blue square mean? And the yellow star?"
+  },
+  {
+   "text": "Shelly followed the code. Square: one step. Square: one more step. Now it was the star's turn. “Jump? But I can't jump!” Shelly stood stuck in front of the rock. He was so cross. “Humph! This code is broken!”",
+   "hits": {
+    "tosbi": {
+     "say": "But I can't jump!"
+    },
+    "zipzip": {
+     "say": "Hmm… There's a mistake in the code!"
+    },
+    "yildiz": {
+     "say": "Jump!"
+    }
+   },
+   "predict": {
+    "q": "What do you think they'll do now?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Fix the code"
+     },
+     {
+      "l": "Look for another way"
+     }
+    ]
+   },
+   "hint": "Touch Shelly!",
+   "ask": "Why did Shelly stop? How do you feel when a plan doesn't work?"
+  },
+  {
+   "text": "Hoppy scratched her ear. “My mistake! I made the code for a rabbit.” Shelly took a deep breath. “I can't jump, but I can go around!” They took the star away and put a red circle in its place. Circle: go around the rock!",
+   "hits": {
+    "tosbi": {
+     "say": "I can go around!"
+    },
+    "zipzip": {
+     "say": "My mistake, let's fix it!"
+    },
+    "k": {
+     "say": "One step forward!"
+    },
+    "daire": {
+     "say": "Go around the rock!"
+    }
+   },
+   "mech": {
+    "done": "Code done: square, square, circle, square!",
+    "msg": "The code is fixed!"
+   },
+   "hint": "Read the new code in order!",
+   "ask": "What did Hoppy do when she made a mistake? How do you fix a mistake?"
+  },
+  {
+   "text": "Shelly followed the new code. Square: plod, plod, one step. Square: one more step. Circle: around the rock he went. Last square: one more step. Hoppy clapped: “The code works!” The pond was right under Shelly's nose.",
+   "hits": {
+    "tosbi": {
+     "say": "Plod, plod, I'm following the code!"
+    },
+    "zipzip": {
+     "say": "The code works! Hooray!"
+    }
+   },
+   "mech": {
+    "done": "The code works! Shelly reached the pond.",
+    "msg": "You reached the pond!"
+   },
+   "hint": "Make Shelly walk!",
+   "ask": "Which cards took Shelly to the pond? Can you say the cards in order?",
+   "cues": [
+    {
+     "w": 26,
+     "fx": "alkis"
+    }
+   ]
+  },
+  {
+   "text": "Glug, glug! Shelly drank and drank the cool water. “Ahh, lovely!” he said. Hoppy hopped on the bank: “My first code was broken, wasn't it?” Shelly laughed: “Never mind! If it breaks, we fix it. If one way doesn't work, we find another way!”",
+   "hits": {
+    "tosbi": {
+     "say": "Glug, glug! If it breaks, we fix it!"
+    },
+    "zipzip": {
+     "say": "Let's make a new code tomorrow!"
+    }
+   },
+   "hint": "Touch Shelly!",
+   "ask": "If you made a code path, what shapes would you put on your cards? What would each shape mean?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.3 Interpreting mathematical facts, events and objects — process component MAB.3.a: expresses mathematical facts and events with different materials and symbols. Shows movements with shape cards (blue square = one step forward, red circle = go around) and reads the sequence of cards in order.",
+   "KB3.2 Problem Solving: finds where the code does not work (a “jump” card for a tortoise that cannot jump), removes the wrong card, puts a suitable one in its place and tries the code again.",
+   "skill: SBAB7 Spatial Thinking — describes and follows a path using position and direction words such as forward, in front of, around, towards the pond.",
+   "SDB3.2 Flexibility: when the plan does not work, stops, breathes and changes the plan, saying “If one way doesn't work, we find another way.” Value: D3 Diligence — does not give up when the first code breaks; looks for the mistake, changes the card and tries the code again."
+  ],
+  "once": [
+   "Point to the tortoise and the rabbit on the cover: “The rabbit hops; what does the tortoise do? Can they both go the same way in the same manner?”",
+   "Explain the word “code”: “Signs that tell someone what to do, in order, are called a code. If I draw a square and say ‘This means one step forward’, can you make me walk?” Try a tiny two-step code in the room."
+  ],
+  "sirasi": [
+   "On page 1, talk about why Shelly can't see the pond: “Shelly is down on the ground, the grass is tall. What does Hoppy see when she jumps?”",
+   "On page 2, touch the cards one by one; say together what each card says: square, square, star, square. If the child spots the mistake straight away, say “Let's see what Shelly does!” and keep them waiting.",
+   "On page 3, name Shelly's frustration: “His plan didn't work, he's upset.” At the prediction question, accept both answers; both are good solutions.",
+   "On page 4, let the child read the new code in order. Point out Hoppy saying “My mistake”: making mistakes and fixing them are both normal.",
+   "On page 5, say the name of the card at every touch of Shelly: “Square… square… circle… square!” If the child likes, they can do the steps on the spot themselves.",
+   "On page 6, say the sentence “If it breaks, we fix it” together, with rhythm; the child tells about a time they fixed their own mistake."
+  ],
+  "sonra": [
+   "Why didn't the first code work? What did Shelly and Hoppy change?",
+   "What did Shelly do when he was upset? What do you do when something doesn't work out?",
+   "If we made a code for Hoppy, which card could we use? And which one for Shelly?",
+   "Put the three pictures from the story in the order the events happened: first, next, last."
+  ],
+  "sinif": {
+   "ad": "Body Robot Code Path",
+   "sure": "20 min",
+   "materyal": "Blue squares, red circles and yellow stars cut from card; a “rock” placed on the floor (a cushion or a box); a “pond” at the end of the path (blue fabric or paper)",
+   "adim": [
+    "Choose the meaning of the cards together and hang them on the board as pictures: blue square = one step forward, red circle = go around the obstacle, yellow star = jump or another movement the children choose.",
+    "One child is the “coder” and lays the cards on the floor; another child is “Shelly” and reads the cards in order and walks. A friend who uses a wheelchair can move along the same code too; everyone does the movement in their own way.",
+    "The teacher deliberately puts one card wrong; the children read the code card by card asking “Where's the mistake?”, find it and fix it.",
+    "To close, swap roles; give each child a chance to be the coder once and the walker once. Finish with the question “What do we do if the code breaks?”"
+   ]
+  },
+  "evSoru": [
+   "In Hoppy's first code, which card didn't suit Shelly?",
+   "Which card did they put in place of the star? What did that card mean?",
+   "What do you do when a plan of yours doesn't work out?"
+  ],
+  "evEtk": {
+   "ad": "Code path at home",
+   "d": "Cut a few squares and circles out of paper. In the living room, pick a toy as the target and make obstacles with cushions. Your child lays the cards on the floor and “codes” you to the target; you follow the cards in order. Now and then, deliberately follow a card wrongly or lay a wrong card; your child finds the mistake and fixes the code."
+  },
+  "aileNotu": "Today we read “Shelly's Code Path.” Hoppy the rabbit laid out a code of shape cards on the ground to get Shelly the tortoise to the pond; but she had put a “jump” card in the code that Shelly couldn't do. The two friends found the mistake, changed the card and reached the pond with the new code. Our children practised building a sequence of steps with symbols, finding and fixing a mistake, and being flexible when a plan doesn't work. At home you can play with simple card codes and use the sentence “If it breaks, we fix it” together."
+ },
+ "audio": {
+  "file": "audio/en/046-tosbinin-kod-yolu.mp3",
+  "hash": "51e0da9a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 19329,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      449,
+      3
+     ],
+     [
+      829,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2469,
+      7
+     ],
+     [
+      2630,
+      8
+     ],
+     [
+      3089,
+      9
+     ],
+     [
+      3410,
+      10
+     ],
+     [
+      3809,
+      11
+     ],
+     [
+      4890,
+      12
+     ],
+     [
+      5069,
+      13
+     ],
+     [
+      5209,
+      14
+     ],
+     [
+      5310,
+      15
+     ],
+     [
+      5430,
+      16
+     ],
+     [
+      5769,
+      17
+     ],
+     [
+      5949,
+      18
+     ],
+     [
+      6029,
+      19
+     ],
+     [
+      6689,
+      20
+     ],
+     [
+      6890,
+      21
+     ],
+     [
+      7529,
+      22
+     ],
+     [
+      7689,
+      23
+     ],
+     [
+      7829,
+      24
+     ],
+     [
+      8129,
+      25
+     ],
+     [
+      8469,
+      26
+     ],
+     [
+      8730,
+      27
+     ],
+     [
+      9029,
+      28
+     ],
+     [
+      9989,
+      29
+     ],
+     [
+      10390,
+      30
+     ],
+     [
+      10890,
+      31
+     ],
+     [
+      11089,
+      32
+     ],
+     [
+      11489,
+      33
+     ],
+     [
+      12089,
+      34
+     ],
+     [
+      12449,
+      35
+     ],
+     [
+      13350,
+      36
+     ],
+     [
+      13549,
+      37
+     ],
+     [
+      13890,
+      38
+     ],
+     [
+      14109,
+      39
+     ],
+     [
+      14989,
+      40
+     ],
+     [
+      15169,
+      41
+     ],
+     [
+      15509,
+      42
+     ],
+     [
+      15890,
+      43
+     ],
+     [
+      16129,
+      44
+     ],
+     [
+      16209,
+      45
+     ],
+     [
+      16329,
+      46
+     ],
+     [
+      17289,
+      47
+     ],
+     [
+      17469,
+      48
+     ],
+     [
+      18309,
+      49
+     ],
+     [
+      18549,
+      50
+     ],
+     [
+      18789,
+      51
+     ]
+    ]
+   },
+   "p0h-tosbi": {
+    "s": 19629,
+    "d": 2541,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2029,
+      7
+     ],
+     [
+      2150,
+      8
+     ]
+    ]
+   },
+   "p0h-tas": {
+    "s": 22470,
+    "d": 2264,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1596,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 25034,
+    "d": 16333,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2509,
+      7
+     ],
+     [
+      3269,
+      8
+     ],
+     [
+      3390,
+      9
+     ],
+     [
+      3689,
+      10
+     ],
+     [
+      3829,
+      11
+     ],
+     [
+      4029,
+      12
+     ],
+     [
+      4689,
+      13
+     ],
+     [
+      4870,
+      14
+     ],
+     [
+      5029,
+      15
+     ],
+     [
+      5169,
+      16
+     ],
+     [
+      5269,
+      17
+     ],
+     [
+      5529,
+      18
+     ],
+     [
+      6370,
+      19
+     ],
+     [
+      6549,
+      20
+     ],
+     [
+      6829,
+      21
+     ],
+     [
+      7209,
+      22
+     ],
+     [
+      7289,
+      23
+     ],
+     [
+      7410,
+      24
+     ],
+     [
+      8310,
+      25
+     ],
+     [
+      8609,
+      26
+     ],
+     [
+      9350,
+      27
+     ],
+     [
+      9549,
+      28
+     ],
+     [
+      9850,
+      29
+     ],
+     [
+      10669,
+      30
+     ],
+     [
+      11009,
+      31
+     ],
+     [
+      11709,
+      32
+     ],
+     [
+      12549,
+      33
+     ],
+     [
+      12709,
+      34
+     ],
+     [
+      13029,
+      35
+     ],
+     [
+      13249,
+      36
+     ],
+     [
+      14029,
+      37
+     ],
+     [
+      14589,
+      38
+     ],
+     [
+      15249,
+      39
+     ],
+     [
+      15810,
+      40
+     ]
+    ]
+   },
+   "p1h-zipzip": {
+    "s": 41668,
+    "d": 2862,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1684,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2390,
+      7
+     ]
+    ]
+   },
+   "p1h-tosbi": {
+    "s": 44831,
+    "d": 2237,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p1h-k": {
+    "s": 47368,
+    "d": 1450,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      789,
+      2
+     ]
+    ]
+   },
+   "p1h-yildiz": {
+    "s": 49118,
+    "d": 586,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 50005,
+    "d": 16349,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      2910,
+      6
+     ],
+     [
+      3709,
+      7
+     ],
+     [
+      4589,
+      8
+     ],
+     [
+      4769,
+      9
+     ],
+     [
+      5009,
+      10
+     ],
+     [
+      5890,
+      11
+     ],
+     [
+      6249,
+      12
+     ],
+     [
+      6350,
+      13
+     ],
+     [
+      6509,
+      14
+     ],
+     [
+      6669,
+      15
+     ],
+     [
+      7089,
+      16
+     ],
+     [
+      7890,
+      17
+     ],
+     [
+      8650,
+      18
+     ],
+     [
+      8810,
+      19
+     ],
+     [
+      8949,
+      20
+     ],
+     [
+      9329,
+      21
+     ],
+     [
+      10249,
+      22
+     ],
+     [
+      10609,
+      23
+     ],
+     [
+      11009,
+      24
+     ],
+     [
+      11390,
+      25
+     ],
+     [
+      11509,
+      26
+     ],
+     [
+      11689,
+      27
+     ],
+     [
+      11789,
+      28
+     ],
+     [
+      11930,
+      29
+     ],
+     [
+      12629,
+      30
+     ],
+     [
+      12770,
+      31
+     ],
+     [
+      13029,
+      32
+     ],
+     [
+      13329,
+      33
+     ],
+     [
+      14310,
+      34
+     ],
+     [
+      14969,
+      35
+     ],
+     [
+      15209,
+      36
+     ],
+     [
+      15469,
+      37
+     ],
+     [
+      15689,
+      38
+     ]
+    ]
+   },
+   "p2h-tosbi": {
+    "s": 66655,
+    "d": 1221,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      325,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      895,
+      3
+     ]
+    ]
+   },
+   "p2h-zipzip": {
+    "s": 68176,
+    "d": 2750,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2229,
+      6
+     ]
+    ]
+   },
+   "p2h-yildiz": {
+    "s": 71226,
+    "d": 574,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 72101,
+    "d": 1535,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      569,
+      4
+     ],
+     [
+      829,
+      5
+     ],
+     [
+      1009,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 73936,
+    "d": 2446,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 76682,
+    "d": 15976,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3229,
+      7
+     ],
+     [
+      3410,
+      8
+     ],
+     [
+      3529,
+      9
+     ],
+     [
+      3809,
+      10
+     ],
+     [
+      4009,
+      11
+     ],
+     [
+      4149,
+      12
+     ],
+     [
+      5249,
+      13
+     ],
+     [
+      5629,
+      14
+     ],
+     [
+      5830,
+      15
+     ],
+     [
+      5989,
+      16
+     ],
+     [
+      6289,
+      17
+     ],
+     [
+      7249,
+      18
+     ],
+     [
+      7370,
+      19
+     ],
+     [
+      7689,
+      20
+     ],
+     [
+      8350,
+      21
+     ],
+     [
+      8529,
+      22
+     ],
+     [
+      8669,
+      23
+     ],
+     [
+      9029,
+      24
+     ],
+     [
+      9209,
+      25
+     ],
+     [
+      10209,
+      26
+     ],
+     [
+      10390,
+      27
+     ],
+     [
+      10589,
+      28
+     ],
+     [
+      10730,
+      29
+     ],
+     [
+      11049,
+      30
+     ],
+     [
+      11529,
+      31
+     ],
+     [
+      11669,
+      32
+     ],
+     [
+      11829,
+      33
+     ],
+     [
+      11989,
+      34
+     ],
+     [
+      12270,
+      35
+     ],
+     [
+      12669,
+      36
+     ],
+     [
+      12789,
+      37
+     ],
+     [
+      12949,
+      38
+     ],
+     [
+      13909,
+      39
+     ],
+     [
+      14769,
+      40
+     ],
+     [
+      14989,
+      41
+     ],
+     [
+      15350,
+      42
+     ],
+     [
+      15489,
+      43
+     ]
+    ]
+   },
+   "p3h-tosbi": {
+    "s": 92959,
+    "d": 1180,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      569,
+      3
+     ]
+    ]
+   },
+   "p3h-zipzip": {
+    "s": 94440,
+    "d": 2127,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1218,
+      2
+     ],
+     [
+      1508,
+      3
+     ],
+     [
+      1797,
+      4
+     ]
+    ]
+   },
+   "p3h-k": {
+    "s": 96867,
+    "d": 1454,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      829,
+      2
+     ]
+    ]
+   },
+   "p3h-daire": {
+    "s": 98621,
+    "d": 1411,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      320,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1090,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 100332,
+    "d": 3383,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2829,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 104016,
+    "d": 17298,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      4410,
+      8
+     ],
+     [
+      4609,
+      9
+     ],
+     [
+      5390,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      6449,
+      12
+     ],
+     [
+      6669,
+      13
+     ],
+     [
+      7549,
+      14
+     ],
+     [
+      8310,
+      15
+     ],
+     [
+      8709,
+      16
+     ],
+     [
+      8850,
+      17
+     ],
+     [
+      9129,
+      18
+     ],
+     [
+      9289,
+      19
+     ],
+     [
+      10049,
+      20
+     ],
+     [
+      10390,
+      21
+     ],
+     [
+      11249,
+      22
+     ],
+     [
+      11409,
+      23
+     ],
+     [
+      11649,
+      24
+     ],
+     [
+      12449,
+      25
+     ],
+     [
+      12829,
+      26
+     ],
+     [
+      13569,
+      27
+     ],
+     [
+      13729,
+      28
+     ],
+     [
+      14069,
+      29
+     ],
+     [
+      15029,
+      30
+     ],
+     [
+      15169,
+      31
+     ],
+     [
+      15529,
+      32
+     ],
+     [
+      15810,
+      33
+     ],
+     [
+      16089,
+      34
+     ],
+     [
+      16350,
+      35
+     ],
+     [
+      16770,
+      36
+     ]
+    ]
+   },
+   "p4h-tosbi": {
+    "s": 121615,
+    "d": 3028,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2449,
+      5
+     ]
+    ]
+   },
+   "p4h-zipzip": {
+    "s": 124943,
+    "d": 2258,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1349,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 127502,
+    "d": 2819,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2269,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 130622,
+    "d": 18815,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1829,
+      2
+     ],
+     [
+      2249,
+      3
+     ],
+     [
+      2769,
+      4
+     ],
+     [
+      3009,
+      5
+     ],
+     [
+      3509,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      5009,
+      9
+     ],
+     [
+      5949,
+      10
+     ],
+     [
+      6910,
+      11
+     ],
+     [
+      7089,
+      12
+     ],
+     [
+      7930,
+      13
+     ],
+     [
+      8310,
+      14
+     ],
+     [
+      8589,
+      15
+     ],
+     [
+      8690,
+      16
+     ],
+     [
+      8789,
+      17
+     ],
+     [
+      9609,
+      18
+     ],
+     [
+      9789,
+      19
+     ],
+     [
+      10089,
+      20
+     ],
+     [
+      10329,
+      21
+     ],
+     [
+      10549,
+      22
+     ],
+     [
+      11089,
+      23
+     ],
+     [
+      11409,
+      24
+     ],
+     [
+      12089,
+      25
+     ],
+     [
+      12509,
+      26
+     ],
+     [
+      13390,
+      27
+     ],
+     [
+      13749,
+      28
+     ],
+     [
+      14489,
+      29
+     ],
+     [
+      14629,
+      30
+     ],
+     [
+      14769,
+      31
+     ],
+     [
+      15310,
+      32
+     ],
+     [
+      15489,
+      33
+     ],
+     [
+      15789,
+      34
+     ],
+     [
+      16350,
+      35
+     ],
+     [
+      16589,
+      36
+     ],
+     [
+      16729,
+      37
+     ],
+     [
+      16909,
+      38
+     ],
+     [
+      17209,
+      39
+     ],
+     [
+      17669,
+      40
+     ],
+     [
+      17889,
+      41
+     ],
+     [
+      18149,
+      42
+     ],
+     [
+      18469,
+      43
+     ]
+    ]
+   },
+   "p5h-tosbi": {
+    "s": 149737,
+    "d": 3309,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      2999,
+      7
+     ]
+    ]
+   },
+   "p5h-zipzip": {
+    "s": 153347,
+    "d": 1957,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1309,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

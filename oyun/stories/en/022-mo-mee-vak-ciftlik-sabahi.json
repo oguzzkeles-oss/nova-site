@@ -1,0 +1,1465 @@
+{
+ "id": "022-mo-mee-vak-ciftlik-sabahi",
+ "lang": "en",
+ "title": "Moo, Baa, Quack: Morning on the Farm",
+ "theme": "Animal sounds and taking turns to speak",
+ "blurb": "Every morning on the farm there's a song: “Moo, baa, quack, cheep!” But today everyone sings so loudly that Cotton the lamb's little voice gets lost.",
+ "voiceNames": {
+  "pamuk": "Cotton (lamb)",
+  "benek": "Dotty (cow)",
+  "paytak": "Waddle (duck)",
+  "limon": "Lemon (chick)"
+ },
+ "pages": [
+  {
+   "text": "The sun rose from behind the hills. Cotton the lamb went hop, hop, hop. The morning song began: “Moo, baa, quack, cheep! Good morning, farm!”",
+   "hits": {
+    "pamuk": {
+     "say": "Baa! Good morning!"
+    },
+    "benek": {
+     "say": "Moooo! I'm Dotty. Good morning!"
+    },
+    "paytak": {
+     "say": "Quack quack! I'm Waddle!"
+    },
+    "limon": {
+     "say": "Cheep cheep! I'm Lemon!"
+    }
+   },
+   "hint": "Touch Cotton!",
+   "ask": "What sound does a cow make? And a lamb? Shall we do them together?"
+  },
+  {
+   "text": "Today everyone was very cheerful. They sang at the top of their voices: “Moooo! Quack quack! Cheep cheep!” Cotton said “baa” too. But nobody heard her.",
+   "hits": {
+    "benek": {
+     "say": "Moooooo!"
+    },
+    "paytak": {
+     "say": "Quack quack quack!"
+    },
+    "limon": {
+     "say": "Cheep cheep cheep!"
+    },
+    "pamuk": {
+     "say": "Baa… Can anyone hear me?"
+    }
+   },
+   "hint": "Listen to Cotton!",
+   "ask": "Why do you think nobody heard Cotton? Say “baa” shouting first, then whispering. Which one was easier to hear?"
+  },
+  {
+   "text": "Cotton felt very sad. Her eyes filled with tears. Lemon the chick asked: “Why are you sad?” Cotton sighed. “My voice is too small. What if I try a different sound?”",
+   "hits": {
+    "pamuk": {
+     "say": "My voice is too small."
+    },
+    "limon": {
+     "say": "Don't be sad, Cotton. I'm here."
+    }
+   },
+   "predict": {
+    "q": "Which sound do you think Cotton will try?",
+    "res": "It could be either! Let's see.",
+    "opts": [
+     {
+      "l": "Moooo!"
+     },
+     {
+      "l": "Quack quack!"
+     }
+    ]
+   },
+   "hint": "Touch Cotton!",
+   "ask": "How would you feel if you were Cotton?"
+  },
+  {
+   "text": "Cotton tried: “Cheep cheep! Moooo! Quack quack!” Everyone giggled and giggled. Cotton did too! But whose sounds are these?",
+   "hits": {
+    "pamuk": {
+     "say": "Moooo! Quack! Hee hee hee!"
+    },
+    "benek": {
+     "say": "Moooo! That's my sound!"
+    },
+    "paytak": {
+     "say": "Quack quack! That's mine!"
+    },
+    "limon": {
+     "say": "Cheep cheep! Mine!"
+    }
+   },
+   "mech": {
+    "done": "Cheep is the chick's, moo is the cow's, quack is the duck's!",
+    "msg": "You knew them all by their sounds!"
+   },
+   "hint": "Whose is cheep cheep? Touch!",
+   "ask": "Whose sound is “moooo”? Whose is “cheep cheep”? Which one can you do?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "So whose is “baa”? Cotton's! Then she had an idea. “Shall we take turns?” Everyone went quiet. Cotton climbed onto the log. She took a deep breath: “Baaaa!” Everyone heard her!",
+   "hits": {
+    "pamuk": {
+     "say": "Baaaa! Good morning, farm!"
+    },
+    "benek": {
+     "say": "Shhh! It's Cotton's turn."
+    },
+    "paytak": {
+     "say": "I heard it, I heard it!"
+    },
+    "limon": {
+     "say": "What a lovely sound!"
+    }
+   },
+   "hint": "Touch Cotton and listen!",
+   "ask": "What was Cotton's idea? What happened when everyone went quiet?"
+  },
+  {
+   "text": "Now they sang in turns: “Moo, baa, quack, cheep! Good morning, farm!” Cotton wiggled with joy. Lemon giggled, cheep cheep: “Even the smallest voice was heard!”",
+   "hits": {
+    "benek": {
+     "say": "Moo!"
+    },
+    "pamuk": {
+     "say": "Baa!"
+    },
+    "paytak": {
+     "say": "Quack!"
+    },
+    "limon": {
+     "say": "Cheep!"
+    }
+   },
+   "mech": {
+    "done": "Moo, baa, quack, cheep! Good morning, farm!",
+    "msg": "You made them sing in turns!"
+   },
+   "hint": "Make them sing in turns!",
+   "ask": "Have you ever sung a song taking turns? Where?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TAKB.1 (learning outcome): Managing the speaking process; waits for their turn to speak (process component). The strongest outcome of the story: with Cotton's own idea, “Shall we take turns?”, everyone waits their turn; on the last page the child makes the chorus sing in turns and experiences turn-taking.",
+   "MDB.1 (learning outcome): Listening to a variety of musical pieces. At 36–48 months, listening to and joining in with a short refrain: the child listens to the morning song “Moo, baa, quack, cheep! Good morning, farm!” and joins in with the repeated refrain with their voice.",
+   "TADB.1 (learning outcome): Managing materials such as stories and rhymes they will listen to or watch; b) listens to the material they have chosen (process component). The child listens to the narrated story and, by touching, chooses and listens to the animals' sounds again.",
+   "E1.1 Curiosity (disposition) and SDB2.1 Communication (social-emotional learning skill): wonders who a sound is coming from; experiences the place of listening and taking turns to speak in communication.",
+   "D5 Sensitivity (value): sees sensitivity to someone else's needs through Lemon noticing a sad friend and everyone going quiet to listen to the smallest voice."
+  ],
+  "once": [
+   "Show the cover: “Who lives on this farm? What sounds do you think they make?”",
+   "Try animal sounds together: a deep “moooo”, a high “cheep cheep”. Then say the same sound once shouting and once whispering."
+  ],
+  "sirasi": [
+   "On page 1, read the refrain (“Moo, baa, quack, cheep! Good morning, farm!”) twice; the children join in the second time.",
+   "Pause on page 2: “Why wasn't Cotton heard?” Say “baa” shouting first, then whispering. Which one was easier to hear?",
+   "On page 3, name Cotton's feeling: “Cotton is sad. Her eyes filled with tears. Lemon noticed her.”",
+   "On page 4, make the sound yourself before each touch (“cheep cheep”, “moooo”, “quack quack”); the child listens to the sound and touches its owner.",
+   "On page 5, stress that the idea came from Cotton, then say “Shhh” and be quiet together for a moment. On page 6, let the child lead the chorus: at each touch, say the sound of the animal whose turn it is together."
+  ],
+  "sonra": [
+   "Why did Cotton's voice get lost? How was it heard in the end?",
+   "Has there ever been a time when you couldn't make your voice heard? What did you do then?",
+   "What can we do in class so that everyone's voice is heard?"
+  ],
+  "sinif": {
+   "ad": "Guess the Sound: Who's That?",
+   "sure": "15 min",
+   "materyal": "Animal picture cards (cow, lamb, duck, chick), a blindfold or scarf for anyone who wants one",
+   "adim": [
+    "The children sit in a circle. Each child secretly takes an animal card.",
+    "A volunteer covers their eyes with their hands (a blindfold is not compulsory). The child the teacher points to makes the sound of the animal on their card.",
+    "The volunteer says which animal the sound belongs to and where it came from. Then it is another child's turn.",
+    "At the end, the animal groups sing the morning song, first all together shouting, then in turns. Talk about it: “In which one did we hear everyone better?”"
+   ]
+  },
+  "evSoru": [
+   "When was Cotton's voice heard?",
+   "Which animal's sound did you like best? Shall we do it together?",
+   "What happens at home when everyone talks at the same time?"
+  ],
+  "evEtk": {
+   "ad": "Morning Song",
+   "d": "At breakfast, let each family member choose an animal. Say your own sounds in turns: “Moo, baa, quack, cheep! Good morning, home!” Then sing it once all together and once in a whisper, and talk about the difference."
+  },
+  "aileNotu": "Today we read “Moo, Baa, Quack: Morning on the Farm.” Cotton the lamb's little voice got lost when everyone sang at the top of their voices. Then Cotton had an idea: “Shall we take turns?” When her friends went quiet, her voice reached everyone. The children listened to animal sounds, found who they belonged to and talked about waiting for your turn; at home you can play a taking-turns-to-talk game at the table, or make up your own morning song."
+ },
+ "audio": {
+  "file": "audio/en/022-mo-mee-vak-ciftlik-sabahi.mp3",
+  "hash": "c7cbefc0",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10107,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      1569,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      2789,
+      8
+     ],
+     [
+      2910,
+      9
+     ],
+     [
+      3269,
+      10
+     ],
+     [
+      3589,
+      11
+     ],
+     [
+      3949,
+      12
+     ],
+     [
+      4269,
+      13
+     ],
+     [
+      5029,
+      14
+     ],
+     [
+      5169,
+      15
+     ],
+     [
+      5549,
+      16
+     ],
+     [
+      5890,
+      17
+     ],
+     [
+      6829,
+      18
+     ],
+     [
+      7349,
+      19
+     ],
+     [
+      7910,
+      20
+     ],
+     [
+      8409,
+      21
+     ],
+     [
+      9009,
+      22
+     ],
+     [
+      9209,
+      23
+     ],
+     [
+      9589,
+      24
+     ]
+    ]
+   },
+   "p0h-pamuk": {
+    "s": 10407,
+    "d": 1850,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      825,
+      1
+     ],
+     [
+      1184,
+      2
+     ]
+    ]
+   },
+   "p0h-benek": {
+    "s": 12558,
+    "d": 3113,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      1449,
+      1
+     ],
+     [
+      1629,
+      2
+     ],
+     [
+      2329,
+      3
+     ],
+     [
+      2509,
+      4
+     ]
+    ]
+   },
+   "p0h-paytak": {
+    "s": 15972,
+    "d": 1814,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p0h-limon": {
+    "s": 18086,
+    "d": 1881,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      343,
+      1
+     ],
+     [
+      1008,
+      2
+     ],
+     [
+      1311,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20268,
+    "d": 11588,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      2930,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      3349,
+      8
+     ],
+     [
+      3529,
+      9
+     ],
+     [
+      3829,
+      10
+     ],
+     [
+      3930,
+      11
+     ],
+     [
+      4109,
+      12
+     ],
+     [
+      5129,
+      13
+     ],
+     [
+      6109,
+      14
+     ],
+     [
+      6410,
+      15
+     ],
+     [
+      6969,
+      16
+     ],
+     [
+      7249,
+      17
+     ],
+     [
+      8009,
+      18
+     ],
+     [
+      8430,
+      19
+     ],
+     [
+      8810,
+      20
+     ],
+     [
+      9529,
+      21
+     ],
+     [
+      10350,
+      22
+     ],
+     [
+      10649,
+      23
+     ],
+     [
+      11009,
+      24
+     ],
+     [
+      11270,
+      25
+     ]
+    ]
+   },
+   "p1h-benek": {
+    "s": 32156,
+    "d": 1648,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p1h-paytak": {
+    "s": 34104,
+    "d": 1218,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      670,
+      2
+     ]
+    ]
+   },
+   "p1h-limon": {
+    "s": 35622,
+    "d": 1067,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      698,
+      2
+     ]
+    ]
+   },
+   "p1h-pamuk": {
+    "s": 36989,
+    "d": 2351,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      687,
+      1
+     ],
+     [
+      983,
+      2
+     ],
+     [
+      1718,
+      3
+     ],
+     [
+      2014,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 39641,
+    "d": 12690,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3209,
+      7
+     ],
+     [
+      3410,
+      8
+     ],
+     [
+      4569,
+      9
+     ],
+     [
+      4870,
+      10
+     ],
+     [
+      4989,
+      11
+     ],
+     [
+      5350,
+      12
+     ],
+     [
+      6109,
+      13
+     ],
+     [
+      6329,
+      14
+     ],
+     [
+      6449,
+      15
+     ],
+     [
+      6669,
+      16
+     ],
+     [
+      7569,
+      17
+     ],
+     [
+      8029,
+      18
+     ],
+     [
+      8989,
+      19
+     ],
+     [
+      9190,
+      20
+     ],
+     [
+      9549,
+      21
+     ],
+     [
+      9730,
+      22
+     ],
+     [
+      9989,
+      23
+     ],
+     [
+      11109,
+      24
+     ],
+     [
+      11270,
+      25
+     ],
+     [
+      11409,
+      26
+     ],
+     [
+      11509,
+      27
+     ],
+     [
+      11749,
+      28
+     ],
+     [
+      11850,
+      29
+     ],
+     [
+      12230,
+      30
+     ]
+    ]
+   },
+   "p2h-pamuk": {
+    "s": 52631,
+    "d": 1824,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1290,
+      4
+     ]
+    ]
+   },
+   "p2h-limon": {
+    "s": 54756,
+    "d": 2511,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2009,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 57567,
+    "d": 2124,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      1050,
+      5
+     ],
+     [
+      1410,
+      6
+     ],
+     [
+      1609,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 59992,
+    "d": 2069,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1649,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 62361,
+    "d": 9947,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      3289,
+      5
+     ],
+     [
+      3670,
+      6
+     ],
+     [
+      4569,
+      7
+     ],
+     [
+      5189,
+      8
+     ],
+     [
+      5769,
+      9
+     ],
+     [
+      6029,
+      10
+     ],
+     [
+      6850,
+      11
+     ],
+     [
+      7309,
+      12
+     ],
+     [
+      7469,
+      13
+     ],
+     [
+      8270,
+      14
+     ],
+     [
+      8669,
+      15
+     ],
+     [
+      8969,
+      16
+     ],
+     [
+      9329,
+      17
+     ],
+     [
+      9449,
+      18
+     ]
+    ]
+   },
+   "p3h-pamuk": {
+    "s": 72609,
+    "d": 3071,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      926,
+      1
+     ],
+     [
+      1813,
+      2
+     ],
+     [
+      2219,
+      3
+     ],
+     [
+      2625,
+      4
+     ]
+    ]
+   },
+   "p3h-benek": {
+    "s": 75980,
+    "d": 2738,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1449,
+      1
+     ],
+     [
+      1749,
+      2
+     ],
+     [
+      2009,
+      3
+     ]
+    ]
+   },
+   "p3h-paytak": {
+    "s": 79019,
+    "d": 1803,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1209,
+      3
+     ]
+    ]
+   },
+   "p3h-limon": {
+    "s": 81122,
+    "d": 1445,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      317,
+      1
+     ],
+     [
+      922,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 82868,
+    "d": 4043,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      1909,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      3229,
+      9
+     ],
+     [
+      3369,
+      10
+     ],
+     [
+      3489,
+      11
+     ]
+    ]
+   },
+   "p4": {
+    "s": 87211,
+    "d": 15076,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      3430,
+      5
+     ],
+     [
+      3650,
+      6
+     ],
+     [
+      3849,
+      7
+     ],
+     [
+      4029,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      5109,
+      10
+     ],
+     [
+      5289,
+      11
+     ],
+     [
+      5430,
+      12
+     ],
+     [
+      5629,
+      13
+     ],
+     [
+      6669,
+      14
+     ],
+     [
+      7149,
+      15
+     ],
+     [
+      7390,
+      16
+     ],
+     [
+      8329,
+      17
+     ],
+     [
+      8730,
+      18
+     ],
+     [
+      9109,
+      19
+     ],
+     [
+      9369,
+      20
+     ],
+     [
+      9489,
+      21
+     ],
+     [
+      10230,
+      22
+     ],
+     [
+      10390,
+      23
+     ],
+     [
+      10589,
+      24
+     ],
+     [
+      10730,
+      25
+     ],
+     [
+      11029,
+      26
+     ],
+     [
+      12149,
+      27
+     ],
+     [
+      13829,
+      28
+     ],
+     [
+      14369,
+      29
+     ],
+     [
+      14669,
+      30
+     ]
+    ]
+   },
+   "p4h-pamuk": {
+    "s": 102587,
+    "d": 2465,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      839,
+      1
+     ],
+     [
+      1205,
+      2
+     ],
+     [
+      2059,
+      3
+     ]
+    ]
+   },
+   "p4h-benek": {
+    "s": 105353,
+    "d": 1966,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p4h-paytak": {
+    "s": 107620,
+    "d": 1797,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1489,
+      5
+     ]
+    ]
+   },
+   "p4h-limon": {
+    "s": 109717,
+    "d": 1802,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      1069,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 111819,
+    "d": 11782,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      3129,
+      7
+     ],
+     [
+      3729,
+      8
+     ],
+     [
+      4330,
+      9
+     ],
+     [
+      4549,
+      10
+     ],
+     [
+      4949,
+      11
+     ],
+     [
+      5870,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      6809,
+      14
+     ],
+     [
+      7029,
+      15
+     ],
+     [
+      7930,
+      16
+     ],
+     [
+      8310,
+      17
+     ],
+     [
+      8890,
+      18
+     ],
+     [
+      9169,
+      19
+     ],
+     [
+      9850,
+      20
+     ],
+     [
+      10109,
+      21
+     ],
+     [
+      10289,
+      22
+     ],
+     [
+      10869,
+      23
+     ],
+     [
+      11169,
+      24
+     ],
+     [
+      11329,
+      25
+     ]
+    ]
+   },
+   "p5h-benek": {
+    "s": 123902,
+    "d": 826,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-pamuk": {
+    "s": 125028,
+    "d": 789,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-paytak": {
+    "s": 126117,
+    "d": 470,
+    "w": [
+     [
+      0,
+      0
+     ]
+    ]
+   },
+   "p5h-limon": {
+    "s": 126888,
+    "d": 540,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 127728,
+    "d": 4197,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1569,
+      2
+     ],
+     [
+      2229,
+      3
+     ],
+     [
+      2989,
+      4
+     ],
+     [
+      3229,
+      5
+     ],
+     [
+      3650,
+      6
+     ]
+    ]
+   }
+  }
+ }
+}

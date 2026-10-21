@@ -1,0 +1,1166 @@
+{
+ "id": "092-kilden-kaplumbaga",
+ "lang": "en",
+ "title": "The Clay Tortoise",
+ "theme": "Making things patiently",
+ "blurb": "Ali wants to make the tortoise in the picture out of clay, but his hurried tortoise falls apart. With Miss Nur's words he slows down: roll, press, and put the legs on one by one.",
+ "voiceNames": {
+  "ali": "Ali",
+  "ogretmen": "Miss Nur",
+  "arkadas": "Defne (classmate)"
+ },
+ "pages": [
+  {
+   "text": "Today is clay day in class! Miss Nur showed a picture. In the picture was a tortoise. Ali's eyes lit up: “I'm going to make one too!”",
+   "hits": {
+    "ogretmen": {
+     "say": "Look, a tortoise!"
+    },
+    "ali": {
+     "say": "I'm going to make one too!"
+    }
+   },
+   "hint": "Touch the picture!",
+   "ask": "What do you see in the picture? What have you made with clay or dough?"
+  },
+  {
+   "text": "Ali kneaded fast, fast, and stuck quick, quick. But plop! A leg fell off. Plop! The head fell off too. “Oh, it fell apart!”",
+   "hits": {
+    "ali": {
+     "say": "Oh, it fell apart!"
+    }
+   },
+   "hint": "Touch the fallen pieces!",
+   "ask": "Why do you think the tortoise fell apart?"
+  },
+  {
+   "text": "Ali was so sad. His lips pouted. His shoulders drooped. “I can't do it!” Miss Nur sat down beside him. “That was hard, wasn't it? You can't do it yet. Tortoises never hurry.”",
+   "hits": {
+    "ali": {
+     "say": "I can't do it…"
+    },
+    "ogretmen": {
+     "say": "You can't do it yet. No hurry."
+    }
+   },
+   "predict": {
+    "q": "What do you think Ali will do now?",
+    "res": "Both are good ideas! Let's find out.",
+    "opts": [
+     {
+      "l": "Try again slowly"
+     },
+     {
+      "l": "Look at the picture again"
+     }
+    ]
+   },
+   "hint": "Touch Ali's heart!",
+   "ask": "How do you feel when you can't do something? What do you do then?"
+  },
+  {
+   "text": "Ali took a deep breath. This time, slowly, slowly. Roll… a ball. Press… a shell. One more tiny ball: the head!",
+   "hits": {
+    "ali": {
+     "say": "Slowly, slowly, no hurry."
+    }
+   },
+   "mech": {
+    "done": "Roll, press, stick! There it is.",
+    "msg": "You did it in order!"
+   },
+   "hint": "Touch the ball first!",
+   "ask": "What did Ali do differently this time?"
+  },
+  {
+   "text": "Now for the legs. Ali pressed each leg on, one by one. One, two, three, four! This time, not one fell off.",
+   "hits": {
+    "ali": {
+     "say": "Press, wait… it's stuck!"
+    }
+   },
+   "mech": {
+    "done": "Four legs! All nice and strong.",
+    "msg": "Four legs!"
+   },
+   "hint": "Count the legs!",
+   "ask": "You count too! How many legs does the tortoise have?"
+  },
+  {
+   "text": "The clay tortoise was ready. Slow, but strong! Ali felt so proud. “I did it like a tortoise: slowly, slowly!”",
+   "hits": {
+    "ali": {
+     "say": "I did it slowly, slowly!"
+    },
+    "ogretmen": {
+     "say": "You worked hard, and there it is!"
+    },
+    "arkadas": {
+     "say": "What a lovely tortoise!"
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "Can you tell me about something you worked hard to finish? How did you feel?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.4 Carrying out an art activity (unverified): Decides what to make by looking at a picture and designs a three-dimensional tortoise with a modelling material (clay).",
+   "HSAB.2 Using objects of different sizes and features effectively: Rolls and presses the clay and joins small pieces together (HSAB.2.b Shapes objects; HSAB.2.ç Creates original products using a variety of objects).",
+   "E1.3 Perseverance and Determination: Doesn't give up when his first try falls apart; slows down, tries again and finishes the job.",
+   "SDB1.3 Self-Adjustment (Self-Reflection): Thinks “Why did it fall apart?” and changes his speed and method (roll → press → stick on one by one).",
+   "D3 Diligence and D12 Patience: Takes pride in a product finished through effort; works step by step without hurrying."
+  ],
+  "once": [
+   "Point to the tortoise on the cover: “How does a tortoise walk? Let's walk slowly, slowly.”",
+   "Show a piece of play dough or clay and ask “What could we make with this?”"
+  ],
+  "sirasi": [
+   "Stop on page 2 as the pieces fall off: “Why might it have fallen apart?”",
+   "On page 3, look at Ali's face and shoulders together and name the feeling.",
+   "For the prediction question, say that both answers are good ideas.",
+   "On pages 4 and 5, do the “roll, press” movements with your hands in the air."
+  ],
+  "sonra": [
+   "Compare: “What did Ali do the first time, and what did he do the second time?”",
+   "Remember the words “Tortoises never hurry”: which jobs do you do slowly, slowly?",
+   "Remember Miss Nur's words “You can't do it yet”; try saying “yet” together about something you can't do."
+  ],
+  "sinif": {
+   "ad": "Clay Tortoise Workshop",
+   "sure": "20 min",
+   "materyal": "Clay or play dough, a picture of a tortoise, damp cloths, small wooden boards",
+   "adim": [
+    "Look at the tortoise picture together: where are the shell, the head and the four legs?",
+    "The children make the shell and the head, saying “roll, press”.",
+    "They put the legs on one by one, saying “press, wait, it's stuck”; count to four together.",
+    "Draw a pattern on the shell with a finger; if one falls apart, say “Slowly, slowly, try again”.",
+    "Display the tortoises on a shelf; each child tells in one sentence how they made theirs."
+   ]
+  },
+  "evSoru": [
+   "Why did Ali's tortoise fall apart?",
+   "What did Miss Nur say to Ali?",
+   "Which jobs do you do slowly, slowly?"
+  ],
+  "evEtk": {
+   "ad": "Dough Tortoise in the Kitchen",
+   "d": "Knead a soft dough from flour, water and a little salt. Together with your child, make a shell, a head and four legs. Without hurrying, press the pieces together one by one and count the legs together. Stay close so the dough doesn't go in their mouth; wash hands together when you finish."
+  },
+  "aileNotu": "Today we read “The Clay Tortoise.” Ali was sad when the tortoise he made in a hurry fell apart; then he took a deep breath and tried again slowly, slowly. When your child can't do something, you can remind them of the word “yet” and of trying “slowly, slowly”. Praising the effort rather than the finished product supports perseverance."
+ },
+ "audio": {
+  "file": "audio/en/092-kilden-kaplumbaga.mp3",
+  "hash": "7796e3da",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 9175,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      2829,
+      8
+     ],
+     [
+      3089,
+      9
+     ],
+     [
+      3150,
+      10
+     ],
+     [
+      3989,
+      11
+     ],
+     [
+      4129,
+      12
+     ],
+     [
+      4249,
+      13
+     ],
+     [
+      4669,
+      14
+     ],
+     [
+      4850,
+      15
+     ],
+     [
+      4930,
+      16
+     ],
+     [
+      5949,
+      17
+     ],
+     [
+      6449,
+      18
+     ],
+     [
+      6870,
+      19
+     ],
+     [
+      7129,
+      20
+     ],
+     [
+      7729,
+      21
+     ],
+     [
+      7890,
+      22
+     ],
+     [
+      8109,
+      23
+     ],
+     [
+      8230,
+      24
+     ],
+     [
+      8430,
+      25
+     ],
+     [
+      8609,
+      26
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 9475,
+    "d": 1602,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      769,
+      2
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 11377,
+    "d": 1509,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      989,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 13187,
+    "d": 10677,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3229,
+      7
+     ],
+     [
+      3989,
+      8
+     ],
+     [
+      4430,
+      9
+     ],
+     [
+      5269,
+      10
+     ],
+     [
+      5390,
+      11
+     ],
+     [
+      5669,
+      12
+     ],
+     [
+      5949,
+      13
+     ],
+     [
+      6569,
+      14
+     ],
+     [
+      7349,
+      15
+     ],
+     [
+      7529,
+      16
+     ],
+     [
+      7769,
+      17
+     ],
+     [
+      8009,
+      18
+     ],
+     [
+      8209,
+      19
+     ],
+     [
+      9049,
+      20
+     ],
+     [
+      9469,
+      21
+     ],
+     [
+      9649,
+      22
+     ],
+     [
+      9909,
+      23
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 24164,
+    "d": 1926,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 26391,
+    "d": 14525,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3709,
+      7
+     ],
+     [
+      3930,
+      8
+     ],
+     [
+      4469,
+      9
+     ],
+     [
+      5509,
+      10
+     ],
+     [
+      5689,
+      11
+     ],
+     [
+      6189,
+      12
+     ],
+     [
+      6529,
+      13
+     ],
+     [
+      7529,
+      14
+     ],
+     [
+      7769,
+      15
+     ],
+     [
+      8089,
+      16
+     ],
+     [
+      8350,
+      17
+     ],
+     [
+      8609,
+      18
+     ],
+     [
+      9009,
+      19
+     ],
+     [
+      9669,
+      20
+     ],
+     [
+      9869,
+      21
+     ],
+     [
+      10069,
+      22
+     ],
+     [
+      10489,
+      23
+     ],
+     [
+      10829,
+      24
+     ],
+     [
+      11489,
+      25
+     ],
+     [
+      11649,
+      26
+     ],
+     [
+      11930,
+      27
+     ],
+     [
+      12109,
+      28
+     ],
+     [
+      12270,
+      29
+     ],
+     [
+      12909,
+      30
+     ],
+     [
+      13649,
+      31
+     ],
+     [
+      14029,
+      32
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 41216,
+    "d": 1397,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p2h-ogretmen": {
+    "s": 42914,
+    "d": 2328,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      1790,
+      6
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 45543,
+    "d": 1832,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      369,
+      3
+     ],
+     [
+      649,
+      4
+     ],
+     [
+      889,
+      5
+     ],
+     [
+      1089,
+      6
+     ],
+     [
+      1269,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 47675,
+    "d": 2428,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      2049,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 50404,
+    "d": 11439,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2809,
+      7
+     ],
+     [
+      3930,
+      8
+     ],
+     [
+      5350,
+      9
+     ],
+     [
+      6249,
+      10
+     ],
+     [
+      6390,
+      11
+     ],
+     [
+      7509,
+      12
+     ],
+     [
+      8230,
+      13
+     ],
+     [
+      8369,
+      14
+     ],
+     [
+      9409,
+      15
+     ],
+     [
+      9589,
+      16
+     ],
+     [
+      9810,
+      17
+     ],
+     [
+      10209,
+      18
+     ],
+     [
+      10850,
+      19
+     ],
+     [
+      11009,
+      20
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 62143,
+    "d": 2755,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      2049,
+      2
+     ],
+     [
+      2269,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 65199,
+    "d": 3078,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      2269,
+      3
+     ],
+     [
+      2529,
+      4
+     ],
+     [
+      2650,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 68578,
+    "d": 10282,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2410,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3509,
+      9
+     ],
+     [
+      3729,
+      10
+     ],
+     [
+      4049,
+      11
+     ],
+     [
+      4890,
+      12
+     ],
+     [
+      5589,
+      13
+     ],
+     [
+      6370,
+      14
+     ],
+     [
+      7149,
+      15
+     ],
+     [
+      8069,
+      16
+     ],
+     [
+      8329,
+      17
+     ],
+     [
+      8909,
+      18
+     ],
+     [
+      9329,
+      19
+     ],
+     [
+      9569,
+      20
+     ],
+     [
+      9869,
+      21
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 79160,
+    "d": 2539,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      717,
+      1
+     ],
+     [
+      1647,
+      2
+     ],
+     [
+      2073,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 81999,
+    "d": 2823,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2170,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 85123,
+    "d": 9682,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2769,
+      6
+     ],
+     [
+      3109,
+      7
+     ],
+     [
+      4269,
+      8
+     ],
+     [
+      4609,
+      9
+     ],
+     [
+      4989,
+      10
+     ],
+     [
+      5310,
+      11
+     ],
+     [
+      6289,
+      12
+     ],
+     [
+      6449,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      6749,
+      15
+     ],
+     [
+      6949,
+      16
+     ],
+     [
+      7029,
+      17
+     ],
+     [
+      7949,
+      18
+     ],
+     [
+      8930,
+      19
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 95106,
+    "d": 3022,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 98428,
+    "d": 2542,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1909,
+      5
+     ],
+     [
+      2049,
+      6
+     ]
+    ]
+   },
+   "p5h-arkadas": {
+    "s": 101271,
+    "d": 1752,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      280,
+      1
+     ],
+     [
+      520,
+      2
+     ],
+     [
+      1116,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

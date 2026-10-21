@@ -1,0 +1,1860 @@
+{
+ "id": "100-elifin-rampasi",
+ "n": 100,
+ "title": "Elif'in Rampası",
+ "age": "60-72",
+ "area": "Sosyal",
+ "theme": "Erişilebilirlik: park herkes için",
+ "values": [
+  "D1 Adalet",
+  "D14 Saygı"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 5,
+ "blurb": "Yeni parktaki kaydırağın yalnızca merdiveni var; Elif'in tekerlekli sandalyesi basamak çıkamaz. Elif eğik yolları arar, rampa fikrini bulur ve belediyeye bir mektup söyler: “Herkes kaysın!”",
+ "codes": {
+  "maarif": [
+   "beceri: SBAB5 Sosyal Katılım",
+   "KB3.2 Problem Çözme",
+   "OB6 Vatandaşlık Okuryazarlığı",
+   "TAEOB.1 Yazı farkındalığına ilişkin becerileri gösterebilme",
+   "SDB2.3 Sosyal Farkındalık",
+   "D1 Adalet",
+   "D14 Saygı"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "elif": "cocuk-kiz",
+  "can": "cocuk-erkek",
+  "ogretmen": "ogretmen"
+ },
+ "voiceNames": {
+  "elif": "Elif",
+  "can": "Can",
+  "ogretmen": "Nur Öğretmen"
+ },
+ "pages": [
+  {
+   "text": "Sınıfça yeni parka geldiler. Kırmızı çatılı, kocaman bir kaydırak vardı! “Yarışalım mı?” dedi Can. Pat pat pat, Can koştu. Vın vın vın, Elif tekerleklerini itti. Nur Öğretmen güldü: “Yavaş olun, serçelerim!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "slideHit": "kaydirak",
+    "cast": [
+     {
+      "k": "can",
+      "x": 150,
+      "y": 226,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "run",
+      "hit": "can",
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 218,
+      "y": 212,
+      "s": 0.76,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "ogretmen",
+      "flip": true
+     },
+     {
+      "k": "elif",
+      "x": 271,
+      "y": 220,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "elif",
+      "flip": true,
+      "z": 237
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 34,
+      "y": 232
+     },
+     {
+      "k": "top",
+      "x": 84,
+      "y": 230,
+      "s": 1.1
+     },
+     {
+      "k": "rampa",
+      "x": 286,
+      "y": 236,
+      "s": 0.9,
+      "len": 110
+     },
+     {
+      "k": "basamak",
+      "x": 364,
+      "y": 236,
+      "s": 0.85,
+      "n": 3,
+      "v": "front"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Yarışalım mı? Hadi!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "elif": {
+     "say": "Vın vın vın! Geliyorum!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "whoosh"
+    },
+    "ogretmen": {
+     "say": "Yavaş olun, serçelerim!",
+     "voice": "ogretmen",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "kaydirak": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Sen parka gidince ilk neyle oynarsın? Neden?"
+  },
+  {
+   "text": "Can merdiveni tık tık tık çıktı. “Gelsene, Elif!” Elif merdivenin dibinde durdu. Tekerlekler basamak çıkamaz ki! Boğazı düğümlendi, gözleri doldu. Elif çok üzüldü, biraz da kızdı. “Bu kaydırak herkes için değil mi?”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "slideTop": true,
+    "cast": [
+     {
+      "k": "can",
+      "x": 60,
+      "y": 131,
+      "s": 0.48,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "can",
+      "slideTop": true
+     },
+     {
+      "k": "elif",
+      "x": 76,
+      "y": 228,
+      "s": 1.02,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "elif",
+      "turn": 0.6
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 382,
+      "y": 232
+     },
+     {
+      "k": "kova-kurek",
+      "x": 300,
+      "y": 226,
+      "s": 1.1
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Gelsene Elif! Hadi, yukarı gel!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "elif": {
+     "say": "Tekerlekler basamak çıkamaz ki…",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "drip"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Elif ne hissediyor? Yüzünden nasıl anlıyorsun?",
+   "cues": [
+    {
+     "w": 2,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Can kaydıraktan vıııjjj diye indi. Elif'in yanına geldi. Elif derin bir nefes aldı: burnundan içeri, ağzından fuuu. Sonra kaydırağa uzun uzun baktı. Kaydırak eğikti. Elif'in gözleri parladı. “Buldum!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "cast": [
+     {
+      "k": "can",
+      "x": 150,
+      "y": 212,
+      "s": 0.9,
+      "mood": "sorry",
+      "pose": "walk",
+      "hit": "can",
+      "flip": true
+     },
+     {
+      "k": "elif",
+      "x": 215,
+      "y": 230,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "elif",
+      "turn": -0.7
+     }
+    ],
+    "props": [
+     {
+      "k": "sparkle",
+      "x": 196,
+      "y": 114,
+      "s": 2
+     },
+     {
+      "k": "sparkle",
+      "x": 236,
+      "y": 104,
+      "s": 1.5
+     },
+     {
+      "k": "flower",
+      "x": 382,
+      "y": 234
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Fuuu… Buldum! Buldum!",
+     "voice": "elif",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "can": {
+     "say": "Ben buradayım. Ne buldun, Elif?",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence Elif şimdi ne yapacak?",
+    "res": "İkisi de güzel yol! Hadi görelim!",
+    "opts": [
+     {
+      "l": "Eğik yolları gösterir",
+      "scene": {
+       "set": "oyun-parki",
+       "time": "day",
+       "season": "summer",
+       "still": true,
+       "cast": [
+        {
+         "k": "elif",
+         "x": 200,
+         "y": 230,
+         "s": 1.2,
+         "mood": "happy",
+         "pose": "point",
+         "flip": true,
+         "turn": 0.6
+        },
+        {
+         "k": "can",
+         "x": 92,
+         "y": 222,
+         "s": 0.95,
+         "mood": "surprised",
+         "pose": "stand"
+        }
+       ],
+       "props": [
+        {
+         "k": "sparkle",
+         "x": 110,
+         "y": 120
+        }
+       ]
+      }
+     },
+     {
+      "l": "Öğretmenine söyler",
+      "scene": {
+       "set": "oyun-parki",
+       "time": "day",
+       "season": "summer",
+       "still": true,
+       "cast": [
+        {
+         "k": "elif",
+         "x": 170,
+         "y": 230,
+         "s": 1.2,
+         "mood": "happy",
+         "pose": "open"
+        },
+        {
+         "k": "ogretmen",
+         "x": 262,
+         "y": 228,
+         "s": 0.9,
+         "mood": "happy",
+         "pose": "stand",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "heart",
+         "x": 216,
+         "y": 110
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Sen üzülünce sakinleşmek için ne yaparsın?"
+  },
+  {
+   "text": "“Ben rampayı iyi bilirim,” dedi Elif. “Marketin kapısında var, otobüste de var. Rampa eğik bir yoldur.” Kaydırak eğik. Tahterevallinin bir ucu yerde, o da eğik. Kovaya yaslanan kürek de eğik! “Merdivenin yanına bir rampa olsa, ben de çıkarım!”",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "slideHit": "kaydirak",
+    "cast": [
+     {
+      "k": "elif",
+      "x": 186,
+      "y": 234,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "elif",
+      "flip": true,
+      "turn": 0.5
+     },
+     {
+      "k": "can",
+      "x": 372,
+      "y": 214,
+      "s": 0.82,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "can",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tahterevalli",
+      "x": 292,
+      "y": 228,
+      "s": 0.75,
+      "state": "left",
+      "hit": "tahterevalli"
+     },
+     {
+      "k": "kova-kurek",
+      "x": 232,
+      "y": 202,
+      "s": 1.3,
+      "hit": "kurek"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Merdivenin yanına bir rampa!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "can": {
+     "say": "Rampa mı? Göster bana, Elif!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "kaydirak",
+     "tahterevalli",
+     "kurek"
+    ],
+    "done": "Aferin! Üç eğik yolu da buldun.",
+    "msg": "Rampa fikri bulundu!"
+   },
+   "hint": [
+    "kaydirak",
+    "Eğik yolları bul!"
+   ],
+   "ask": "Sen evde ya da sokakta nerede eğik bir yol gördün?"
+  },
+  {
+   "text": "Şimdilik rampa yoktu. Elif parka dikkatle baktı. Çimde tekerlekler batar, kumda saplanır. Ama şu yol düz ve sert! “Kum havuzuna bu yoldan gidelim!” Önde Elif, arkada Can. Vın vın, pıt pıt!",
+   "scene": {
+    "set": "oyun-parki",
+    "time": "day",
+    "season": "summer",
+    "still": true,
+    "cast": [
+     {
+      "k": "can",
+      "x": 40,
+      "y": 222,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "can"
+     },
+     {
+      "k": "elif",
+      "x": 128,
+      "y": 232,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "walk",
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "kova-kurek",
+      "x": 226,
+      "y": 203,
+      "s": 1.1
+     },
+     {
+      "k": "flower",
+      "x": 382,
+      "y": 234
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Kaptan Elif, peşindeyim!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "step"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "elif",
+    "steps": 3,
+    "step": 36,
+    "say": "Vın vın, bu yoldan!",
+    "done": "Kum havuzuna geldik! Haydi kale yapalım!",
+    "msg": "Elif yolu buldu!"
+   },
+   "hint": [
+    "elif",
+    "Elif'i ilerlet!"
+   ],
+   "ask": "Elif neden çimden değil de bu yoldan gitti?"
+  },
+  {
+   "text": "Sınıfta Elif söyledi, Nur Öğretmen yazdı: “Sevgili Belediye Başkanımız, yeni parkımız çok güzel. Merdivenin yanına bir rampa yapar mısınız? Herkes kaysın!” Herkes mektuba bir resim ekledi. Elif gülümsedi: “Rampa gelince birlikte kayalım, Can!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 70,
+      "y": 222,
+      "s": 0.92,
+      "mood": "laugh",
+      "pose": "hold",
+      "hit": "can",
+      "hold": "resim"
+     },
+     {
+      "k": "elif",
+      "x": 160,
+      "y": 232,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "elif"
+     },
+     {
+      "k": "ogretmen",
+      "x": 285,
+      "y": 228,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "kagit",
+      "hit": "ogretmen",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "boya-kalemi",
+      "x": 214,
+      "y": 236,
+      "s": 1.0
+     },
+     {
+      "k": "resim",
+      "x": 352,
+      "y": 236,
+      "s": 0.9,
+      "theme": "house"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Herkes kaysın, herkes oynasın!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "can": {
+     "say": "Rampa gelince birlikte kayarız!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ogretmen": {
+     "say": "Yazdım: Herkes kaysın!",
+     "voice": "ogretmen",
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Sen de bir mektup yazsan, parka ne eklenmesini isterdin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "SBAB5 Sosyal Katılım (alan becerisi): Sınıfın park gezisinde ortak alanın herkesin katılımına açık olup olmadığını fark eder; Elif gibi yakın çevresine ilişkin bir öneriyi grupla paylaşır ve ortak bir mektupla katılım gösterir.",
+   "KB3.2 Problem Çözme: “Tekerlekli sandalye merdiven çıkamıyor” sorununu tanımlar; bildiği rampayı parktaki eğik yollarla (kaydırak, tahterevalli, kürek) açıklar, rampa çözümünü önerir ve o gün için düz, sert bir alternatif yol seçer.",
+   "OB6 Vatandaşlık Okuryazarlığı: Parkın herkesin ortak alanı olduğunu, bir aksaklığın belediyeye nazik bir mektupla iletilebileceğini deneyimler.",
+   "TAEOB.1 Yazı farkındalığına ilişkin becerileri gösterebilme (görsel semboller arasında yazıyı fark eder): Elif'in söylediklerinin öğretmen tarafından yazıya dönüştürülmesini izler; söylenenin yazılabileceğini fark eder.",
+   "SDB2.3 Sosyal Farkındalık ve D1 Adalet, D14 Saygı: Aynı parkta herkesin aynı oyuna ulaşamadığını fark eder; “Herkes kaysın!” diyerek herkese eşit erişim ister."
+  ],
+  "once": [
+   "Kapaktaki Elif'i gösterin: “Elif parka neyle gidiyor? Tekerlekli sandalye nerelerden kolayca geçer, nerelerden geçemez?”",
+   "“Sen hiç bir yere ulaşamadın mı? Yüksek bir raf, ağır bir kapı… Ne yaptın?” diye sorun.",
+   "Masal Engelliler Haftası'nda (Mayıs) da okunabilir."
+  ],
+  "sirasi": [
+   "2. sayfada Elif'in yüzünü gösterin: “Elif ne hissediyor? Neden?” Duyguyu adlandırın: üzülmek, haksızlığa kızmak.",
+   "3. sayfada Elif'le birlikte nefes alın: burundan içeri, ağızdan “fuuu”. Tahmin sorusunda iki seçeneğin de iyi yol olduğunu söyleyin.",
+   "4. sayfada Elif rampayı anlatırken elinizi eğik tutarak “eğik” sözcüğünü gösterin; “rampa” sözcüğünü birlikte tekrarlayın. Elif rampayı market ve otobüsten zaten tanıyor: bu konunun uzmanı o.",
+   "6. sayfada mektubu yavaş okuyun; “Elif söyledi, öğretmen yazdı” cümlesinde parmağınızla yazıyı gösterin."
+  ],
+  "sonra": [
+   "Olayları sırayla anlattırın: Elif merdivende durdu → nefes aldı → rampayı anlattı, eğik yolları gösterdi → düz yoldan kum havuzuna gitti → mektubu söyledi.",
+   "“Bizim okulda ya da sokağımızda tekerlekli sandalyeyle, bebek arabasıyla geçmesi zor bir yer var mı?” diye sorun.",
+   "“Elif'in fikri neden herkesin işine yarar?” diye konuşun: bebek arabası, bavul, dedesinin bastonu…",
+   "“Tekerlekli sandalye kullanan” deyin; “zavallı” ya da acıma dili kullanmayın. Birinin sandalyesini izin almadan itmeyiz; önce “Yardım ister misin?” diye sorarız."
+  ],
+  "sinif": {
+   "ad": "Rampa Dedektifleri",
+   "sure": "20 dk",
+   "materyal": "Bir tahta ya da kalın karton, birkaç kitap, oyuncak araba, kâğıt ve boya kalemleri",
+   "adim": [
+    "Kitapları üst üste koyup bir “basamak” yapın; oyuncak arabayı basamaktan çıkarmayı deneyin.",
+    "Tahtayı kitaplara yaslayıp rampa yapın; araba bu kez yukarı itilebiliyor mu, birlikte bakın.",
+    "Sınıfta ve bahçede “eğik yol” ve “basamak” arayın; çocuklar bulduklarını gösterir.",
+    "Çocuklar söylesin, öğretmen yazsın: okula ya da parka bir “öneri mektubu”. Herkes mektuba bir resim ekler."
+   ]
+  },
+  "evSoru": [
+   "Elif merdivenin dibinde ne hissetti?",
+   "Elif hangi eğik yolları buldu?",
+   "Elif mektupta ne istedi? Sen olsan ne eklerdin?"
+  ],
+  "evEtk": {
+   "ad": "Mahallede Rampa Avı",
+   "d": "Çocuğunuzla kısa bir yürüyüşe çıkın. Kaldırımlarda, market ve apartman girişlerinde rampa ya da yalnızca basamak olan yerleri birlikte bulun. Eve dönünce çocuğunuz anlatsın, siz yazın: “Bizim mahallede…”"
+  },
+  "aileNotu": "Bugün “Elif'in Rampası” masalını okuduk. Tekerlekli sandalye kullanan Elif, yeni parktaki kaydırağın yalnızca merdiveni olduğunu görüyor; üzülüyor, biraz da kızıyor, nefes alıp sakinleşiyor. Rampayı iyi bilen Elif, arkadaşına eğik yolları gösterip rampa fikrini kendisi öneriyor; sonra söylüyor, öğretmeni yazıyor: belediye başkanına nazik bir mektup. Masal, farklılıklara saygıyı, sorun çözmeyi ve ortak alanların herkes için olduğunu fark etmeyi destekliyor; Engelliler Haftası'nda (Mayıs) da okunabilir."
+ },
+ "audio": {
+  "file": "audio/100-elifin-rampasi.mp3",
+  "hash": "1f2e653d",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16168,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2569,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      4469,
+      9
+     ],
+     [
+      5330,
+      10
+     ],
+     [
+      5870,
+      11
+     ],
+     [
+      6329,
+      12
+     ],
+     [
+      6609,
+      13
+     ],
+     [
+      7169,
+      14
+     ],
+     [
+      7549,
+      15
+     ],
+     [
+      7890,
+      16
+     ],
+     [
+      8489,
+      17
+     ],
+     [
+      8810,
+      18
+     ],
+     [
+      9569,
+      19
+     ],
+     [
+      9930,
+      20
+     ],
+     [
+      10310,
+      21
+     ],
+     [
+      11069,
+      22
+     ],
+     [
+      11369,
+      23
+     ],
+     [
+      12230,
+      24
+     ],
+     [
+      12969,
+      25
+     ],
+     [
+      13209,
+      26
+     ],
+     [
+      13770,
+      27
+     ],
+     [
+      14509,
+      28
+     ],
+     [
+      14909,
+      29
+     ],
+     [
+      15310,
+      30
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 16468,
+    "d": 1711,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1170,
+      2
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 18479,
+    "d": 2781,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      404,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1566,
+      3
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 21560,
+    "d": 1764,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 23624,
+    "d": 15770,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3489,
+      7
+     ],
+     [
+      4229,
+      8
+     ],
+     [
+      4609,
+      9
+     ],
+     [
+      5189,
+      10
+     ],
+     [
+      5609,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      7749,
+      14
+     ],
+     [
+      8270,
+      15
+     ],
+     [
+      8810,
+      16
+     ],
+     [
+      9209,
+      17
+     ],
+     [
+      10129,
+      18
+     ],
+     [
+      10629,
+      19
+     ],
+     [
+      11350,
+      20
+     ],
+     [
+      11669,
+      21
+     ],
+     [
+      11909,
+      22
+     ],
+     [
+      12649,
+      23
+     ],
+     [
+      12989,
+      24
+     ],
+     [
+      13129,
+      25
+     ],
+     [
+      13890,
+      26
+     ],
+     [
+      14009,
+      27
+     ],
+     [
+      14549,
+      28
+     ],
+     [
+      14969,
+      29
+     ],
+     [
+      15209,
+      30
+     ],
+     [
+      15449,
+      31
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 39694,
+    "d": 2799,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      641,
+      1
+     ],
+     [
+      1350,
+      2
+     ],
+     [
+      1915,
+      3
+     ],
+     [
+      2516,
+      4
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 42794,
+    "d": 2430,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      2089,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 45524,
+    "d": 16633,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      3089,
+      5
+     ],
+     [
+      3489,
+      6
+     ],
+     [
+      3869,
+      7
+     ],
+     [
+      4789,
+      8
+     ],
+     [
+      5229,
+      9
+     ],
+     [
+      5609,
+      10
+     ],
+     [
+      5749,
+      11
+     ],
+     [
+      6149,
+      12
+     ],
+     [
+      6769,
+      13
+     ],
+     [
+      7349,
+      14
+     ],
+     [
+      8209,
+      15
+     ],
+     [
+      9114,
+      16
+     ],
+     [
+      10089,
+      17
+     ],
+     [
+      10549,
+      18
+     ],
+     [
+      11230,
+      19
+     ],
+     [
+      11749,
+      20
+     ],
+     [
+      12069,
+      21
+     ],
+     [
+      12850,
+      22
+     ],
+     [
+      13449,
+      23
+     ],
+     [
+      14289,
+      24
+     ],
+     [
+      14669,
+      25
+     ],
+     [
+      15129,
+      26
+     ],
+     [
+      15950,
+      27
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 62458,
+    "d": 2731,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1206,
+      1
+     ],
+     [
+      2137,
+      2
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 65489,
+    "d": 2365,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1889,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 68155,
+    "d": 1964,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1369,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 70419,
+    "d": 2099,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 72818,
+    "d": 16586,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2630,
+      6
+     ],
+     [
+      3109,
+      7
+     ],
+     [
+      3670,
+      8
+     ],
+     [
+      4129,
+      9
+     ],
+     [
+      4649,
+      10
+     ],
+     [
+      4789,
+      11
+     ],
+     [
+      5370,
+      12
+     ],
+     [
+      5809,
+      13
+     ],
+     [
+      6129,
+      14
+     ],
+     [
+      6249,
+      15
+     ],
+     [
+      7189,
+      16
+     ],
+     [
+      7789,
+      17
+     ],
+     [
+      8489,
+      18
+     ],
+     [
+      9409,
+      19
+     ],
+     [
+      9569,
+      20
+     ],
+     [
+      9829,
+      21
+     ],
+     [
+      10549,
+      22
+     ],
+     [
+      10649,
+      23
+     ],
+     [
+      10829,
+      24
+     ],
+     [
+      11509,
+      25
+     ],
+     [
+      11909,
+      26
+     ],
+     [
+      12449,
+      27
+     ],
+     [
+      12829,
+      28
+     ],
+     [
+      12989,
+      29
+     ],
+     [
+      13789,
+      30
+     ],
+     [
+      14369,
+      31
+     ],
+     [
+      14689,
+      32
+     ],
+     [
+      14850,
+      33
+     ],
+     [
+      15209,
+      34
+     ],
+     [
+      15749,
+      35
+     ],
+     [
+      15950,
+      36
+     ],
+     [
+      16089,
+      37
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 89704,
+    "d": 2129,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 92134,
+    "d": 2381,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1930,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 94816,
+    "d": 2313,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1809,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 97429,
+    "d": 14929,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3229,
+      6
+     ],
+     [
+      4109,
+      7
+     ],
+     [
+      4430,
+      8
+     ],
+     [
+      5169,
+      9
+     ],
+     [
+      5809,
+      10
+     ],
+     [
+      6189,
+      11
+     ],
+     [
+      7169,
+      12
+     ],
+     [
+      7410,
+      13
+     ],
+     [
+      7609,
+      14
+     ],
+     [
+      7910,
+      15
+     ],
+     [
+      8310,
+      16
+     ],
+     [
+      8489,
+      17
+     ],
+     [
+      9230,
+      18
+     ],
+     [
+      9449,
+      19
+     ],
+     [
+      9890,
+      20
+     ],
+     [
+      10009,
+      21
+     ],
+     [
+      10430,
+      22
+     ],
+     [
+      11169,
+      23
+     ],
+     [
+      11549,
+      24
+     ],
+     [
+      12169,
+      25
+     ],
+     [
+      12629,
+      26
+     ],
+     [
+      13249,
+      27
+     ],
+     [
+      13609,
+      28
+     ],
+     [
+      14189,
+      29
+     ],
+     [
+      14489,
+      30
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 112659,
+    "d": 2063,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1150,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 115023,
+    "d": 2654,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2150,
+      5
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 117978,
+    "d": 1778,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 120056,
+    "d": 16349,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      3390,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4290,
+      8
+     ],
+     [
+      5330,
+      9
+     ],
+     [
+      5549,
+      10
+     ],
+     [
+      6109,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      7049,
+      13
+     ],
+     [
+      7609,
+      14
+     ],
+     [
+      7930,
+      15
+     ],
+     [
+      8089,
+      16
+     ],
+     [
+      8409,
+      17
+     ],
+     [
+      8749,
+      18
+     ],
+     [
+      9449,
+      19
+     ],
+     [
+      9890,
+      20
+     ],
+     [
+      10770,
+      21
+     ],
+     [
+      11369,
+      22
+     ],
+     [
+      11810,
+      23
+     ],
+     [
+      11969,
+      24
+     ],
+     [
+      12310,
+      25
+     ],
+     [
+      13109,
+      26
+     ],
+     [
+      13409,
+      27
+     ],
+     [
+      14369,
+      28
+     ],
+     [
+      14709,
+      29
+     ],
+     [
+      15129,
+      30
+     ],
+     [
+      15569,
+      31
+     ],
+     [
+      16009,
+      32
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 136706,
+    "d": 2633,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1949,
+      3
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 139640,
+    "d": 2312,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 142253,
+    "d": 2061,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1329,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

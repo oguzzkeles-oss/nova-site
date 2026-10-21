@@ -1,0 +1,1497 @@
+{
+ "id": "041-ninni-soyleyen-ay",
+ "lang": "en",
+ "title": "Grandma's Saz",
+ "theme": "Fast and slow tunes, calming down",
+ "blurb": "One evening on the farm, Grandma plays her saz. With the fast tune, Cotton the lamb goes hop, hop, hop; but when bedtime comes, she can't stop. Ela finds the slow tune on Grandma's saz, and Cotton slows down, and so does Ela's heart.",
+ "voiceNames": {
+  "ela": "Ela",
+  "nine": "Grandma",
+  "pamuk": "Cotton (lamb)"
+ },
+ "pages": [
+  {
+   "text": "The evening sky was orange. Grandma touched the strings of her saz, her long-necked lute: plinka plonka! Ela and Cotton the lamb came running. “Grandma, play for us!” said Ela.",
+   "hits": {
+    "nine": {
+     "say": "Come, Ela! My saz is calling you."
+    },
+    "ela": {
+     "say": "Grandma, play for us!"
+    },
+    "pamuk": {
+     "say": "Baaa! I'm here too!"
+    }
+   },
+   "hint": "Touch the saz!",
+   "ask": "What kind of sound do you think a saz makes? Let's say “plinka plonka” together."
+  },
+  {
+   "text": "Grandma played fast: plinka plonka, plinka plonka! Cotton went hop, hop, hop. One, two, three chicks hopped too! Ela laughed out loud: ha ha ha!",
+   "hits": {
+    "nine": {
+     "say": "Plinka plonka, fast, fast!"
+    },
+    "pamuk": {
+     "say": "Hop hop! Baaa!"
+    },
+    "ela": {
+     "say": "Hee hee! So funny!"
+    }
+   },
+   "mech": {
+    "done": "Three chicks, hop hop hop!",
+    "msg": "Three chicks!"
+   },
+   "hint": "Count the chicks!",
+   "ask": "When you hear a fast song, what does your body want to do?",
+   "cues": [
+    {
+     "w": 19,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "The sun was going down. It was Cotton's bedtime. But Cotton didn't stop: hop, hop, hop! Ela's heart went thump, thump, thump. She was so excited!",
+   "hits": {
+    "pamuk": {
+     "say": "Hop hop! I can't stop!"
+    },
+    "ela": {
+     "say": "My heart is going thump, thump!"
+    },
+    "nine": {
+     "say": "Hmm… Cotton just won't stop."
+    }
+   },
+   "predict": {
+    "q": "What do you think Ela will do?",
+    "res": "Both are lovely ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Ask for a slow tune"
+     },
+     {
+      "l": "Give Cotton a hug"
+     }
+    ]
+   },
+   "hint": "Touch Cotton!",
+   "ask": "When you get very excited, how does your heart beat? What do you do?",
+   "cues": [
+    {
+     "w": 19,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ela had a thought. “Grandma, you have two tunes: the fast chick tune and the slow snail tune. Which one makes you sleepy?” Come on, find their faces!",
+   "hits": {
+    "nine": {
+     "say": "Plinka plonka, is that fast? Twaaang, is that slow?"
+    },
+    "ela": {
+     "say": "The snail tune makes you sleepy!"
+    }
+   },
+   "mech": {
+    "done": "The snail tune is calm, a sleepy tune!",
+    "msg": "You found the faces!"
+   },
+   "hint": "Touch the chick, then the face!",
+   "ask": "What does your face do in a fast song? And in a slow song? Show me."
+  },
+  {
+   "text": "“Play the snail tune, Grandma!” said Ela. Grandma played slowly: twaaang… twaaang… Ela took a deep breath. Cotton walked slowly, slowly. Step, step, one more step.",
+   "hits": {
+    "nine": {
+     "say": "Twaaang… Breathe with the tune."
+    },
+    "ela": {
+     "say": "Hhhhh… Fwooo… Ahh!"
+    }
+   },
+   "mech": {
+    "say": "Step, step…",
+    "done": "Cotton reached the barn door.",
+    "msg": "At the barn!"
+   },
+   "hint": "Make Cotton walk!",
+   "ask": "Let's breathe slowly like Ela: hhhhh… fwooo… How is your heart beating now?"
+  },
+  {
+   "text": "Cotton slept snug in the barn. Ela hugged her grandma. “Your saz slowed my heart down.” Grandma smiled. “I love you when you're fast, and when you're slow.”",
+   "hits": {
+    "pamuk": {
+     "say": "Mmm… Good night."
+    },
+    "nine": {
+     "say": "I love you so much, my Ela."
+    },
+    "ela": {
+     "say": "Grandma, your saz slowed my heart down. Now it goes tip… tip…"
+    }
+   },
+   "hint": "Touch Cotton!",
+   "ask": "Which song does a grown-up you love sing to you?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MDB.1 Listening to a variety of pieces of music: the child listens to the fast and slow tunes Grandma plays on the saz (bağlama); after the story, they listen to a short folk song or lullaby.",
+   "TADB.4 Expressing their views on what they listen to or watch: says how the fast tune and the slow tune make them feel and what they think of them (“The fast tune made me laugh.”).",
+   "HSAB.8.a / HSAB.8.c Notices changes in breathing and heartbeat and expresses the need to rest: notices that their heart goes thump, thump when they hop to the fast tune and slows down with the slow tune and deep breathing; uses phrases like “It's bedtime, I need to rest.”",
+   "MHB · Shows differences in tempo through movement (unverified): hops like a chick to the fast tune and walks slowly like a snail to the slow tune.",
+   "OB5 Cultural Literacy: recognises the saz, a Turkish folk instrument; notices music that is passed down from one generation to the next in the village and the family.",
+   "SDB1.2 Self-Regulation: notices the sign of excitement in the body (a thumping heart); tries calming down with a slow tune and deep breaths.",
+   "D15 Love: sees the love between Grandma and Ela, and that this love does not change whether the child is fast or slow."
+  ],
+  "once": [
+   "Point to the saz on the cover: “What could this be? Who might be playing it?” Children who have heard a saz at home or in a village can tell about it.",
+   "Clap with your hands, first fast (pit pit pit), then slowly (paat… paat…); the children work out “Which one is fast, which one is slow?”",
+   "Ask: “How does our heart beat when we get excited?” Put a hand on your chest and listen together."
+  ],
+  "sirasi": [
+   "On the fast-tune page, say “plinka plonka” quickly; while the children count the chicks, they tap their knees fast, fast.",
+   "On the prediction page, listen to both ideas; collect ways of calming down with “What would you do?”",
+   "On the matching page, touch Grandma and make the fast and slow tunes with your voice; the child shows the face they chose with their own face too.",
+   "On the slow-tune page, put the book down and take three slow breaths together, saying “twaaang…”; walk Cotton step by step, slowly, slowly."
+  ],
+  "sonra": [
+   "Chick and snail game: hop like chicks to fast music, walk slowly like snails to slow music; when the music stops, freeze like a statue.",
+   "Listen to a real recording of a saz (one folk song and one lullaby); ask: “Which face is this, the smiling one or the sleepy one?”",
+   "Ask the children: “What calms you down the most?” They draw their answers as a picture (no writing, a symbol is enough).",
+   "After the ordering game, they retell the story in their own words: “First Grandma played fast, then…”"
+  ],
+  "sinif": {
+   "ad": "Fast Chick, Slow Snail",
+   "sure": "15 min",
+   "materyal": "A recording of a fast and a slow tune on the saz or another instrument, an orange smiling-star card and a lilac sleepy-face card, a wide open space",
+   "adim": [
+    "Put the smiling-face and sleepy-face cards at the two ends of the room.",
+    "Play the fast tune; the children hop like chicks to the smiling face.",
+    "Play the slow tune; the children walk slowly like snails to the sleepy face.",
+    "Switch a few times; finally, lie down on the floor to the slow tune and take three deep breaths.",
+    "Ask in the circle: “Which tune made your heart go faster, and which made it slow down?”"
+   ]
+  },
+  "evSoru": [
+   "What did Cotton do when Grandma played fast? And when she played slowly?",
+   "What calms you down when you get excited?",
+   "Which songs, folk songs and lullabies do we sing in our family?"
+  ],
+  "evEtk": {
+   "ad": "Off to Bed with a Slow Tune",
+   "d": "Before bed, do a short dance together to a fast song, then put on a lullaby or a slow folk song. Slow down with the tempo of the tune and take three deep breaths. If you can, ask a grandparent to sing a lullaby they know over the phone."
+  },
+  "aileNotu": "Today we read “Grandma's Saz.” We listened to fast and slow tunes on Grandma's saz; we discovered that the fast tune cheers us up and the slow tune calms us down. We talked about how our heart goes thump, thump when we are excited, and how it can slow down with a slow tune and deep breathing. Listening to a lullaby or a slow folk song together before bed at home will strengthen this learning."
+ },
+ "audio": {
+  "file": "audio/en/041-ninni-soyleyen-ay.mp3",
+  "hash": "99a43017",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12403,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1309,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3029,
+      7
+     ],
+     [
+      3170,
+      8
+     ],
+     [
+      3549,
+      9
+     ],
+     [
+      3650,
+      10
+     ],
+     [
+      3849,
+      11
+     ],
+     [
+      4489,
+      12
+     ],
+     [
+      4689,
+      13
+     ],
+     [
+      5330,
+      14
+     ],
+     [
+      6009,
+      15
+     ],
+     [
+      6529,
+      16
+     ],
+     [
+      7589,
+      17
+     ],
+     [
+      7949,
+      18
+     ],
+     [
+      8129,
+      19
+     ],
+     [
+      8449,
+      20
+     ],
+     [
+      8589,
+      21
+     ],
+     [
+      8909,
+      22
+     ],
+     [
+      9230,
+      23
+     ],
+     [
+      10009,
+      24
+     ],
+     [
+      10629,
+      25
+     ],
+     [
+      10930,
+      26
+     ],
+     [
+      11169,
+      27
+     ],
+     [
+      11730,
+      28
+     ],
+     [
+      12009,
+      29
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 12703,
+    "d": 2662,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2329,
+      6
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 15665,
+    "d": 1697,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      747,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1353,
+      3
+     ]
+    ]
+   },
+   "p0h-pamuk": {
+    "s": 17662,
+    "d": 2198,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1170,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1609,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20160,
+    "d": 11318,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      2910,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4229,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      4870,
+      10
+     ],
+     [
+      5149,
+      11
+     ],
+     [
+      5969,
+      12
+     ],
+     [
+      6249,
+      13
+     ],
+     [
+      6609,
+      14
+     ],
+     [
+      7069,
+      15
+     ],
+     [
+      7410,
+      16
+     ],
+     [
+      7749,
+      17
+     ],
+     [
+      8669,
+      18
+     ],
+     [
+      9069,
+      19
+     ],
+     [
+      9469,
+      20
+     ],
+     [
+      9709,
+      21
+     ],
+     [
+      10041,
+      22
+     ],
+     [
+      10397,
+      23
+     ],
+     [
+      10787,
+      24
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 31779,
+    "d": 2205,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1550,
+      3
+     ]
+    ]
+   },
+   "p1h-pamuk": {
+    "s": 34285,
+    "d": 1899,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      474,
+      1
+     ],
+     [
+      1424,
+      2
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 36485,
+    "d": 2132,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      386,
+      1
+     ],
+     [
+      1142,
+      2
+     ],
+     [
+      1489,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 38917,
+    "d": 1938,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1509,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 41155,
+    "d": 10938,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      1969,
+      7
+     ],
+     [
+      2370,
+      8
+     ],
+     [
+      3369,
+      9
+     ],
+     [
+      3609,
+      10
+     ],
+     [
+      4049,
+      11
+     ],
+     [
+      4390,
+      12
+     ],
+     [
+      5169,
+      13
+     ],
+     [
+      5569,
+      14
+     ],
+     [
+      5969,
+      15
+     ],
+     [
+      6729,
+      16
+     ],
+     [
+      7089,
+      17
+     ],
+     [
+      7390,
+      18
+     ],
+     [
+      7709,
+      19
+     ],
+     [
+      8169,
+      20
+     ],
+     [
+      8609,
+      21
+     ],
+     [
+      9390,
+      22
+     ],
+     [
+      9569,
+      23
+     ],
+     [
+      9869,
+      24
+     ],
+     [
+      10149,
+      25
+     ]
+    ]
+   },
+   "p2h-pamuk": {
+    "s": 52393,
+    "d": 2282,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 54975,
+    "d": 2548,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 57824,
+    "d": 2979,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1030,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      1889,
+      3
+     ],
+     [
+      2269,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 61103,
+    "d": 1626,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      270,
+      2
+     ],
+     [
+      409,
+      3
+     ],
+     [
+      749,
+      4
+     ],
+     [
+      1030,
+      5
+     ],
+     [
+      1229,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 63030,
+    "d": 3108,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      2650,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 66439,
+    "d": 10629,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2670,
+      7
+     ],
+     [
+      2949,
+      8
+     ],
+     [
+      3709,
+      9
+     ],
+     [
+      3869,
+      10
+     ],
+     [
+      4209,
+      11
+     ],
+     [
+      4469,
+      12
+     ],
+     [
+      4910,
+      13
+     ],
+     [
+      5089,
+      14
+     ],
+     [
+      5269,
+      15
+     ],
+     [
+      5709,
+      16
+     ],
+     [
+      6129,
+      17
+     ],
+     [
+      6930,
+      18
+     ],
+     [
+      7169,
+      19
+     ],
+     [
+      7309,
+      20
+     ],
+     [
+      7529,
+      21
+     ],
+     [
+      7689,
+      22
+     ],
+     [
+      8669,
+      23
+     ],
+     [
+      8930,
+      24
+     ],
+     [
+      9390,
+      25
+     ],
+     [
+      9629,
+      26
+     ],
+     [
+      9850,
+      27
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 77368,
+    "d": 5368,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      4310,
+      6
+     ],
+     [
+      4449,
+      7
+     ],
+     [
+      4769,
+      8
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 83037,
+    "d": 2391,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1649,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 85729,
+    "d": 3233,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2709,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 89263,
+    "d": 16406,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3549,
+      8
+     ],
+     [
+      3969,
+      9
+     ],
+     [
+      5029,
+      10
+     ],
+     [
+      6410,
+      11
+     ],
+     [
+      8109,
+      12
+     ],
+     [
+      8409,
+      13
+     ],
+     [
+      8629,
+      14
+     ],
+     [
+      8789,
+      15
+     ],
+     [
+      9109,
+      16
+     ],
+     [
+      10089,
+      17
+     ],
+     [
+      10549,
+      18
+     ],
+     [
+      10949,
+      19
+     ],
+     [
+      12049,
+      20
+     ],
+     [
+      13350,
+      21
+     ],
+     [
+      14329,
+      22
+     ],
+     [
+      15489,
+      23
+     ],
+     [
+      15669,
+      24
+     ],
+     [
+      15930,
+      25
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 105969,
+    "d": 3500,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1014,
+      1
+     ],
+     [
+      1791,
+      2
+     ],
+     [
+      2237,
+      3
+     ],
+     [
+      2683,
+      4
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 109769,
+    "d": 2614,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1071,
+      1
+     ],
+     [
+      2102,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 112684,
+    "d": 1622,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1109,
+      4
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 114606,
+    "d": 1793,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1129,
+      1
+     ]
+    ]
+   },
+   "p5": {
+    "s": 116700,
+    "d": 11024,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      2769,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3229,
+      9
+     ],
+     [
+      4149,
+      10
+     ],
+     [
+      4430,
+      11
+     ],
+     [
+      4850,
+      12
+     ],
+     [
+      5189,
+      13
+     ],
+     [
+      5370,
+      14
+     ],
+     [
+      5649,
+      15
+     ],
+     [
+      6549,
+      16
+     ],
+     [
+      7029,
+      17
+     ],
+     [
+      8049,
+      18
+     ],
+     [
+      8270,
+      19
+     ],
+     [
+      8509,
+      20
+     ],
+     [
+      8650,
+      21
+     ],
+     [
+      8789,
+      22
+     ],
+     [
+      9029,
+      23
+     ],
+     [
+      9850,
+      24
+     ],
+     [
+      10169,
+      25
+     ],
+     [
+      10350,
+      26
+     ],
+     [
+      10549,
+      27
+     ]
+    ]
+   },
+   "p5h-pamuk": {
+    "s": 128024,
+    "d": 2026,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1056,
+      1
+     ],
+     [
+      1521,
+      2
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 130350,
+    "d": 2339,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1649,
+      5
+     ],
+     [
+      1909,
+      6
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 132990,
+    "d": 6121,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      897,
+      1
+     ],
+     [
+      1264,
+      2
+     ],
+     [
+      1631,
+      3
+     ],
+     [
+      2271,
+      4
+     ],
+     [
+      2638,
+      5
+     ],
+     [
+      3006,
+      6
+     ],
+     [
+      3808,
+      7
+     ],
+     [
+      4176,
+      8
+     ],
+     [
+      4543,
+      9
+     ],
+     [
+      4910,
+      10
+     ],
+     [
+      5713,
+      11
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,2020 @@
+{
+ "id": "094-kalin-ses-ince-ses",
+ "n": 94,
+ "title": "Kalın Ses, İnce Ses",
+ "age": "48-60",
+ "area": "Müzik",
+ "theme": "Kalın ve ince sesleri ayırt etme; farklı seslere saygı",
+ "values": [
+  "D14 Saygı"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 4,
+ "blurb": "Fil Bombo'nun sesi kalın mı kalın: Buuum! Orman konserinde incecik öten Cıvıl'a özenip susunca şarkı eksik kalır. Kalın ses, ince ses ve orta ses bir araya gelince ne olacak?",
+ "codes": {
+  "maarif": [
+   "MDB.1 Çeşitli müzik eserlerini dinleyebilme (48-60 ay: çocuk şarkıları ve çocuk şarkısı formları dinlenir)",
+   "beceri: MDB1 Müziksel Dinleme",
+   "TADB.4 Dinledikleri/izledikleri materyaller ve dinleme/izleme ortamına ilişkin görüşlerini yansıtabilme (materyallere ilişkin duygu ve düşüncelerini söyler)",
+   "SDB2.3 Sosyal Farkındalık",
+   "D14 Saygı"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "bombo": "iri-hayvan",
+  "civil": "hayvan-kiz",
+  "vizir": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "bombo": "Bombo (yavru fil)",
+  "civil": "Cıvıl (serçe)",
+  "vizir": "Vızır (arı)"
+ },
+ "pages": [
+  {
+   "text": "Ormanda konser günüydü. Serçe Cıvıl ince ince öttü. “Cik cik cik!” Arı Vızır vızıldadı. “Vızzz!” Fil Bombo hortumunu kaldırdı. “Buuum!” Sesi kalın mı kalın!",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "ari",
+      "x": 92,
+      "y": 176,
+      "s": 1.9,
+      "mood": "laugh",
+      "pose": "fly",
+      "hit": "vizir"
+     },
+     {
+      "k": "fil",
+      "x": 206,
+      "y": 228,
+      "s": 1.2,
+      "mood": "laugh",
+      "pose": "trunkup",
+      "hit": "bombo"
+     },
+     {
+      "k": "kus",
+      "x": 332,
+      "y": 172,
+      "s": 2.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "civil",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 40,
+      "y": 234,
+      "s": 0.5,
+      "color": "#E86A92"
+     },
+     {
+      "k": "flower",
+      "x": 132,
+      "y": 236,
+      "s": 0.42,
+      "color": "#F2C94C"
+     },
+     {
+      "k": "cali",
+      "x": 376,
+      "y": 214,
+      "s": 1.0,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 300,
+      "y": 236,
+      "s": 0.4,
+      "color": "#9B7BE0"
+     }
+    ]
+   },
+   "hits": {
+    "civil": {
+     "say": "Cik cik cik! İncecik sesim!",
+     "voice": "civil",
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "vizir": {
+     "say": "Vızzz! Benim sesim ortada!",
+     "voice": "vizir",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "bombo": {
+     "say": "Buuum! Benim sesim kalın!",
+     "voice": "bombo",
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "bombo",
+    "Bombo'ya dokun!"
+   ],
+   "ask": "Kimin sesi ince, kimin sesi kalın? Hadi sen de Bombo gibi kalın sesle “Buuum!” de."
+  },
+  {
+   "text": "Cıvıl cıvıldadı. “Birazdan birlikte şarkı söyleyeceğiz!” Bombo ince ince denedi. “Cik…” Ama yine kalın bir ses çıktı. “Buuum!” Fısıldadı. “Buuum…” Kısık ama yine kalın! Bombo utandı. Kulakları düştü. “Benim sesim güzel değil.”",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 250,
+      "y": 228,
+      "s": 1.3,
+      "mood": "shy",
+      "pose": "sit",
+      "hit": "bombo",
+      "flip": true
+     },
+     {
+      "k": "kus",
+      "x": 96,
+      "y": 222,
+      "s": 2.1,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "civil"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 40,
+      "y": 212,
+      "s": 1.1
+     },
+     {
+      "k": "flower",
+      "x": 160,
+      "y": 236,
+      "s": 0.45,
+      "color": "#E86A92"
+     },
+     {
+      "k": "flower",
+      "x": 370,
+      "y": 236,
+      "s": 0.4,
+      "color": "#F2C94C"
+     }
+    ]
+   },
+   "hits": {
+    "bombo": {
+     "say": "buuum… Fısıldasam da kalın!",
+     "voice": "bombo",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "civil": {
+     "say": "Birazdan birlikte söyleyeceğiz!",
+     "voice": "civil",
+     "anim": "jump",
+     "fx": "tweet"
+    }
+   },
+   "hint": [
+    "bombo",
+    "Bombo'ya dokun!"
+   ],
+   "ask": "Bombo fısıldayınca sesi inceldi mi? Bombo neden utandı? Sen hiç “Ben bunu yapamam” diye düşündün mü?"
+  },
+  {
+   "text": "Konser vakti geldi. Kütük sahne oldu. Cıvıl ile Vızır şarkıya başladı. Bombo çalının arkasına saklandı, sustu. Şarkı güzeldi ama bir şey eksikti. Cıvıl durdu: “Bombo nerede?”",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 96,
+      "y": 206,
+      "s": 0.9,
+      "mood": "shy",
+      "pose": "stand",
+      "hit": "bombo"
+     },
+     {
+      "k": "kus",
+      "x": 330,
+      "y": 172,
+      "s": 1.8,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "civil",
+      "flip": true
+     },
+     {
+      "k": "ari",
+      "x": 250,
+      "y": 184,
+      "s": 1.7,
+      "mood": "happy",
+      "pose": "fly",
+      "hit": "vizir",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 96,
+      "y": 230,
+      "s": 2.3,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 190,
+      "y": 236,
+      "s": 0.42,
+      "color": "#F2C94C"
+     },
+     {
+      "k": "flower",
+      "x": 376,
+      "y": 236,
+      "s": 0.4,
+      "color": "#E86A92"
+     },
+     {
+      "k": "davul",
+      "x": 268,
+      "y": 232,
+      "s": 0.7
+     },
+     {
+      "k": "zil",
+      "x": 214,
+      "y": 232,
+      "s": 0.7
+     }
+    ]
+   },
+   "hits": {
+    "civil": {
+     "say": "Bombo nerede? Şarkımız eksik!",
+     "voice": "civil",
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "vizir": {
+     "say": "Vızzz… Bir ses kayıp!",
+     "voice": "vizir",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "bombo": {
+     "say": "Şşş… Ben susayım.",
+     "voice": "bombo",
+     "anim": "wiggle",
+     "fx": "fil"
+    }
+   },
+   "predict": {
+    "q": "Sence şimdi ne olacak?",
+    "res": "İkisi de olabilir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Arkadaşları Bombo'yu çağırır",
+      "scene": {
+       "set": "orman",
+       "time": "day",
+       "season": "spring",
+       "cast": [
+        {
+         "k": "fil",
+         "x": 96,
+         "y": 212,
+         "s": 1.0,
+         "mood": "surprised",
+         "pose": "stand"
+        },
+        {
+         "k": "kus",
+         "x": 200,
+         "y": 232,
+         "s": 1.9,
+         "mood": "happy",
+         "pose": "wave",
+         "flip": true
+        },
+        {
+         "k": "ari",
+         "x": 250,
+         "y": 190,
+         "s": 1.7,
+         "mood": "laugh",
+         "pose": "wave",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "cali",
+         "x": 40,
+         "y": 226,
+         "s": 1.3
+        },
+        {
+         "k": "flower",
+         "x": 330,
+         "y": 236,
+         "s": 0.45,
+         "color": "#E86A92"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Bombo kendisi gelir",
+      "scene": {
+       "set": "orman",
+       "time": "day",
+       "season": "spring",
+       "cast": [
+        {
+         "k": "fil",
+         "x": 220,
+         "y": 228,
+         "s": 1.15,
+         "mood": "happy",
+         "pose": "walk"
+        },
+        {
+         "k": "kus",
+         "x": 330,
+         "y": 172,
+         "s": 1.8,
+         "mood": "surprised",
+         "pose": "stand",
+         "flip": true
+        },
+        {
+         "k": "ari",
+         "x": 120,
+         "y": 170,
+         "s": 1.7,
+         "mood": "happy",
+         "pose": "fly"
+        }
+       ],
+       "props": [
+        {
+         "k": "cali",
+         "x": 40,
+         "y": 226,
+         "s": 1.3
+        },
+        {
+         "k": "flower",
+         "x": 160,
+         "y": 236,
+         "s": 0.45,
+         "color": "#F2C94C"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "civil",
+    "Cıvıl'a dokun!"
+   ],
+   "ask": "Şarkıda ne eksikti? Bombo susunca arkadaşları ne hissetti?"
+  },
+  {
+   "text": "Cıvıl ile Vızır, Bombo'yu buldu. Vızır sahnedeki çalgıları gösterdi: “Davul güm güm, kalın. Zil çın çın, ince. Bağlama tın tın, orta!” Hangi ses kime benziyor?",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 96,
+      "y": 232,
+      "s": 1.35,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "bombo"
+     },
+     {
+      "k": "ari",
+      "x": 226,
+      "y": 130,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "vizir"
+     },
+     {
+      "k": "kus",
+      "x": 332,
+      "y": 172,
+      "s": 1.8,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "civil",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "davul",
+      "x": 196,
+      "y": 236,
+      "s": 1.0,
+      "hit": "davul"
+     },
+     {
+      "k": "baglama",
+      "x": 262,
+      "y": 236,
+      "s": 0.6,
+      "hit": "baglama"
+     },
+     {
+      "k": "zil",
+      "x": 330,
+      "y": 236,
+      "s": 1.0,
+      "hit": "zil"
+     }
+    ]
+   },
+   "hits": {
+    "vizir": {
+     "say": "Bağlama tın tın, benim gibi orta!",
+     "voice": "vizir",
+     "anim": "jump",
+     "fx": "buzz"
+    },
+    "civil": {
+     "say": "Zil de benim gibi incecik!",
+     "voice": "civil",
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "bombo": {
+     "say": "Davul… benim gibi kalın mı?",
+     "voice": "bombo",
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "davul": {
+     "anim": "boing",
+     "fx": "drum"
+    },
+    "zil": {
+     "anim": "wiggle",
+     "fx": "bell"
+    },
+    "baglama": {
+     "anim": "wiggle",
+     "fx": "xylo"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "davul",
+      "bombo"
+     ],
+     [
+      "zil",
+      "civil"
+     ],
+     [
+      "baglama",
+      "vizir"
+     ]
+    ],
+    "done": "Davul güm güm, zil çın çın, bağlama tın tın!",
+    "msg": "Sesleri eşleştirdin!"
+   },
+   "hint": [
+    "davul",
+    "Davul kime benziyor?"
+   ],
+   "ask": "Davul nasıl ses çıkarır? Zil nasıl? Bağlama nasıl? Sen hangisinin sesini daha çok seversin?"
+  },
+  {
+   "text": "Cıvıl gülümsedi: “Sesin kalın, hem de güzel. Şarkının kalbi o!” Bombo derin nefes aldı. Şarkı yeniden başladı. Önce ince ses: cik cik! Sonra orta ses: vızzz! En son kalın ses: buuum!",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 196,
+      "y": 227,
+      "s": 1.45,
+      "mood": "laugh",
+      "pose": "trunkup",
+      "hit": "bombo"
+     },
+     {
+      "k": "ari",
+      "x": 80,
+      "y": 150,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "vizir"
+     },
+     {
+      "k": "kus",
+      "x": 354,
+      "y": 172,
+      "s": 1.9,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "civil",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "davul",
+      "x": 96,
+      "y": 238,
+      "s": 0.8,
+      "hit": "davul"
+     },
+     {
+      "k": "zil",
+      "x": 318,
+      "y": 238,
+      "s": 0.8,
+      "hit": "zil",
+      "ring": true
+     },
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 236,
+      "s": 0.42,
+      "color": "#F2C94C"
+     }
+    ]
+   },
+   "hits": {
+    "bombo": {
+     "say": "Buuum! Ben de söylüyorum!",
+     "voice": "bombo",
+     "anim": "boing",
+     "fx": "drum"
+    },
+    "civil": {
+     "say": "Cik cik! Sesin şarkının kalbi!",
+     "voice": "civil",
+     "anim": "jump",
+     "fx": "tweet"
+    },
+    "vizir": {
+     "say": "Vızzz! Orta ses benim!",
+     "voice": "vizir",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "davul": {
+     "anim": "boing",
+     "fx": "drum"
+    },
+    "zil": {
+     "anim": "wiggle",
+     "fx": "bell"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "civil",
+     "vizir",
+     "bombo"
+    ],
+    "done": "Cik cik, vızzz, buuum! İşte şarkımız!",
+    "msg": "Şarkı tamam!"
+   },
+   "hint": [
+    "civil",
+    "Önce ince sese dokun!"
+   ],
+   "ask": "Önce hangi ses geldi, en son hangisi? Hadi sırayla söyleyelim: cik cik, vızzz, buuum!"
+  },
+  {
+   "text": "Şarkı bitti. Kelebekler dans etti, çiçekler sallandı. Bombo'nun içi kıpır kıpır oldu, gururlandı. Cıvıl güldü: “Kalın ses, ince ses, orta ses… Hepsi birleşince şarkı tamam oldu!” Bombo sordu: “Bir daha söyleyelim mi?”",
+   "scene": {
+    "set": "orman",
+    "time": "day",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "fil",
+      "x": 262,
+      "y": 230,
+      "s": 1.25,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "bombo",
+      "flip": true
+     },
+     {
+      "k": "kus",
+      "x": 92,
+      "y": 112,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "fly",
+      "hit": "civil"
+     },
+     {
+      "k": "ari",
+      "x": 116,
+      "y": 214,
+      "s": 1.8,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "vizir"
+     },
+     {
+      "k": "kelebek",
+      "x": 222,
+      "y": 48,
+      "s": 2.3
+     },
+     {
+      "k": "kelebek",
+      "x": 330,
+      "y": 74,
+      "s": 2.3
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 44,
+      "y": 236,
+      "s": 0.5,
+      "hit": "c1",
+      "color": "#E86A92"
+     },
+     {
+      "k": "flower",
+      "x": 182,
+      "y": 234,
+      "s": 0.5,
+      "hit": "c2",
+      "color": "#F2C94C"
+     },
+     {
+      "k": "flower",
+      "x": 370,
+      "y": 236,
+      "s": 0.5,
+      "hit": "c3",
+      "color": "#9B7BE0"
+     }
+    ]
+   },
+   "hits": {
+    "bombo": {
+     "say": "Bir daha söyleyelim mi? Buuum!",
+     "voice": "bombo",
+     "anim": "jump",
+     "fx": "thump",
+     "hearts": true
+    },
+    "civil": {
+     "say": "Hepimizin sesi bir arada!",
+     "voice": "civil",
+     "anim": "jump",
+     "fx": "tweet",
+     "hearts": true
+    },
+    "vizir": {
+     "say": "Vızzz! Yine söyleyelim!",
+     "voice": "vizir",
+     "anim": "wiggle",
+     "fx": "buzz",
+     "hearts": true
+    },
+    "c": {
+     "anim": "wiggle",
+     "fx": "chime",
+     "fn": "dance"
+    }
+   },
+   "hint": [
+    "bombo",
+    "Bombo'ya dokun!"
+   ],
+   "ask": "Senin sesin nasıl bir ses? Arkadaşlarınla birlikte hangi şarkıyı söylemek istersin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "MDB.1 (öğrenme çıktısı) Çeşitli müzik eserlerini dinleyebilme; 48-60 ayda çocuk şarkıları ve çocuk şarkısı formları dinlenir. Çocuk masaldaki üç sesli orman şarkısını (cik cik, vızzz, BUUUM) dinler, sonra kısa bir çocuk şarkısında kalın ve ince sesleri dinleyerek fark eder (beceri: MDB1 Müziksel Dinleme).",
+   "TADB.4 (öğrenme çıktısı) Dinledikleri/izledikleri materyaller ve dinleme/izleme ortamına ilişkin görüşlerini yansıtabilme; materyallere ilişkin duygu ve düşüncelerini söyler. Çocuk hangi sesi daha çok sevdiğini, Bombo susunca şarkının neden eksik kaldığını kendi cümleleriyle anlatır.",
+   "SDB2.3 Sosyal Farkındalık (sosyal-duygusal öğrenme becerisi): Cıvıl ile Vızır, Bombo'nun sustuğunu ve saklandığını fark eder, onu arayıp bulur. Çocuk arkadaşının sessizliğinin ardındaki duyguyu (utanma) tahmin eder.",
+   "D14 Saygı (değer): Kimse Bombo'nun sesiyle alay etmez; Cıvıl onun farklı sesine değer verir: 'Kalın sesin şarkının kalbi!' Çocuk farklı seslerin ve farklı kişilerin bir arada değerli olduğunu görür."
+  ],
+  "once": [
+   "Sesinizi önce kalınlaştırıp “Buuum!”, sonra inceltip “Cik cik!” deyin. “Hangisi kalın, hangisi ince?” diye sorun.",
+   "Kapaktaki üç hayvanı gösterin: “Sence fil nasıl bir sesle konuşur? Serçe nasıl? Arı nasıl?”"
+  ],
+  "sirasi": [
+   "1. sayfada her hayvana dokunup sesini birlikte taklit edin; kalın seste elleri yere, ince seste elleri havaya kaldırın.",
+   "2. sayfada Bombo fısıldayınca sesinin yine kalın kaldığını birlikte deneyin: kalın sesle bir bağırmadan, bir fısıldayarak “buuum” deyin. Sonra Bombo'nun kulaklarına bakın: “Nasıl hissediyor?” Utanınca bedenimizde neler olduğunu (yanaklar ısınır, başımız eğilir) konuşun.",
+   "3. sayfadaki tahminde çocuğun seçimini gerekçesiyle dinleyin; iki seçenek de güzel, “Hadi görelim!” deyin.",
+   "4. sayfada eşleştirmeden önce davulu (güm güm), zili (çın çın) ve bağlamayı (tın tın) sesinizle taklit edin; çocuk sesleri dinleyip kime benzediğini bulsun. Eşleştirme bitince çalgılara dokunup seslerini dinleyin.",
+   "5. sayfada şarkıyı sırayla söyleyin: önce ince, sonra orta, en son kalın ses. Davula ve zile dokunup gerçek seslerini de dinleyin."
+  ],
+  "sonra": [
+   "Masalı sırayla anlatın: Bombo utanıp susar → arkadaşları onu bulur, sesleri eşleştirir → üçü birlikte şarkı söyler.",
+   "Sorun: “Şarkıda en çok hangi ses hoşuna gitti? Neden?” Her cevabı kabul edin; beğenilerin farklı olabileceğini söyleyin.",
+   "Merak eden çocuklara: Büyük davul, büyük hayvan gibi çoğu zaman kalın ses çıkarır; küçük zil, küçük kuş gibi ince ses çıkarır. Bağlamanın teli ve arının vızıltısı ikisinin arasında, orta seste durur.",
+   "Yetişkin için not: Kalın ses bağırmak değildir; fısıltı da kalın olabilir, bağırış da ince olabilir. Kalın/ince sesin kendisidir, yüksek/alçak (bağırma/fısıltı) sesin gücüdür. Çocuğa “Kalın sesle fısılda!”, “İnce sesle fısılda!” gibi oyunlarla bu farkı yaşatın.",
+   "Kendi sesini beğenmeyen çocuklar için: “Senin sesin sana özel. Şarkı herkesin sesiyle tamamlanır.” deyin; kimsenin sesiyle alay edilmemesi gerektiğini birlikte kararlaştırın."
+  ],
+  "sinif": {
+   "ad": "Kalın Ses Yerde, İnce Ses Havada",
+   "sure": "15 dk",
+   "materyal": "Davul ya da ters çevrilmiş kova, zil ya da metal kaşık ve bardak, isteğe bağlı bağlama/gitar kaydı, kısa bir çocuk şarkısı kaydı",
+   "adim": [
+    "Çocuklarla halka olun. Davulu ve zili hep aynı güçte, ne çok sert ne çok yavaş çalın (fark yalnız kalınlıkta olsun). Önce davul: kalın seste herkes çömelip elleriyle yere dokunur, fil gibi “Buuum!” der.",
+    "Sonra zili çalın: ince seste herkes parmak ucunda kalkıp ellerini havaya uzatır, serçe gibi “Cik cik!” der. Sesleri karışık sırayla çalarak oyunu sürdürün.",
+    "Kısa bir çocuk şarkısını birlikte dinleyin; kalın ve ince sesleri duydukça aynı hareketleri yapın.",
+    "Sınıfı üç gruba ayırın (Bombolar, Cıvıllar, Vızırlar). Sırayla katılarak orman şarkısını söyleyin; sonunda “Hangi ses olmasa şarkı eksik kalırdı?” diye konuşun."
+   ]
+  },
+  "evSoru": [
+   "Bombo neden sustu? Arkadaşları ne yaptı?",
+   "Evde kalın ses çıkaran bir şey bul. İnce ses çıkaran bir şey bul.",
+   "Senin sesin nasıl? Hadi bir kalın, bir ince konuşalım!"
+  ],
+  "evEtk": {
+   "ad": "Evdeki Orman Konseri",
+   "d": "Ters çevrilmiş tencereye tahta kaşıkla vurun (kalın ses); metal kaşıkla bardağa hafifçe vurun (ince ses). İkisini de aynı güçte çalmaya çalışın. Birlikte kısa bir çocuk şarkısı dinleyin; aile bireyleri sırayla kalın ya da ince sesle katılsın. Sonunda çocuğunuza hangi sesi daha çok beğendiğini ve nedenini sorun."
+  },
+  "aileNotu": "Bugün “Kalın Ses, İnce Ses” masalını okuduk. Fil Bombo kalın sesini beğenmeyip susuyor, arkadaşları onu arayıp buluyor ve şarkının herkesin sesiyle tamamlandığını keşfediyorlar. Çocuklarımız kalın ve ince sesleri dinleyip ayırt etmeye çalıştı. Evde birlikte şarkı dinlerken kalın ve ince sesleri bulmaya çalışabilir, çocuğunuzun sesinin değerli olduğunu ona hissettirebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/094-kalin-ses-ince-ses.mp3",
+  "hash": "e8c235b7",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13531,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3390,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4469,
+      8
+     ],
+     [
+      4729,
+      9
+     ],
+     [
+      4989,
+      10
+     ],
+     [
+      5749,
+      11
+     ],
+     [
+      6149,
+      12
+     ],
+     [
+      6549,
+      13
+     ],
+     [
+      7449,
+      14
+     ],
+     [
+      8650,
+      15
+     ],
+     [
+      8890,
+      16
+     ],
+     [
+      9369,
+      17
+     ],
+     [
+      9949,
+      18
+     ],
+     [
+      10869,
+      19
+     ],
+     [
+      12049,
+      20
+     ],
+     [
+      12430,
+      21
+     ],
+     [
+      12909,
+      22
+     ],
+     [
+      13049,
+      23
+     ]
+    ]
+   },
+   "p0h-civil": {
+    "s": 13831,
+    "d": 2454,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      322,
+      1
+     ],
+     [
+      604,
+      2
+     ],
+     [
+      1221,
+      3
+     ],
+     [
+      1922,
+      4
+     ]
+    ]
+   },
+   "p0h-vizir": {
+    "s": 16585,
+    "d": 2377,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1709,
+      3
+     ]
+    ]
+   },
+   "p0h-bombo": {
+    "s": 19263,
+    "d": 2348,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1069,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1769,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21911,
+    "d": 18596,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3930,
+      6
+     ],
+     [
+      4589,
+      7
+     ],
+     [
+      5029,
+      8
+     ],
+     [
+      5350,
+      9
+     ],
+     [
+      6229,
+      10
+     ],
+     [
+      7189,
+      11
+     ],
+     [
+      7469,
+      12
+     ],
+     [
+      7789,
+      13
+     ],
+     [
+      8129,
+      14
+     ],
+     [
+      8270,
+      15
+     ],
+     [
+      8529,
+      16
+     ],
+     [
+      9289,
+      17
+     ],
+     [
+      10249,
+      18
+     ],
+     [
+      11310,
+      19
+     ],
+     [
+      12350,
+      20
+     ],
+     [
+      13029,
+      21
+     ],
+     [
+      13310,
+      22
+     ],
+     [
+      13609,
+      23
+     ],
+     [
+      14390,
+      24
+     ],
+     [
+      14810,
+      25
+     ],
+     [
+      15629,
+      26
+     ],
+     [
+      16229,
+      27
+     ],
+     [
+      16989,
+      28
+     ],
+     [
+      17309,
+      29
+     ],
+     [
+      17690,
+      30
+     ],
+     [
+      18110,
+      31
+     ]
+    ]
+   },
+   "p1h-bombo": {
+    "s": 40807,
+    "d": 2703,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1038,
+      1
+     ],
+     [
+      1916,
+      2
+     ],
+     [
+      2188,
+      3
+     ]
+    ]
+   },
+   "p1h-civil": {
+    "s": 43811,
+    "d": 1922,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1150,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 46034,
+    "d": 13932,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2969,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      3509,
+      8
+     ],
+     [
+      3930,
+      9
+     ],
+     [
+      4430,
+      10
+     ],
+     [
+      5370,
+      11
+     ],
+     [
+      5890,
+      12
+     ],
+     [
+      6370,
+      13
+     ],
+     [
+      6870,
+      14
+     ],
+     [
+      7829,
+      15
+     ],
+     [
+      8730,
+      16
+     ],
+     [
+      9150,
+      17
+     ],
+     [
+      10049,
+      18
+     ],
+     [
+      10409,
+      19
+     ],
+     [
+      10569,
+      20
+     ],
+     [
+      10789,
+      21
+     ],
+     [
+      11829,
+      22
+     ],
+     [
+      12169,
+      23
+     ],
+     [
+      13029,
+      24
+     ],
+     [
+      13390,
+      25
+     ]
+    ]
+   },
+   "p2h-civil": {
+    "s": 60267,
+    "d": 2392,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1829,
+      3
+     ]
+    ]
+   },
+   "p2h-vizir": {
+    "s": 62959,
+    "d": 2299,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      858,
+      1
+     ],
+     [
+      1232,
+      2
+     ],
+     [
+      1607,
+      3
+     ]
+    ]
+   },
+   "p2h-bombo": {
+    "s": 65558,
+    "d": 1600,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      626,
+      1
+     ],
+     [
+      894,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 67459,
+    "d": 1567,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      989,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 69326,
+    "d": 2092,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 71719,
+    "d": 13509,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      5249,
+      9
+     ],
+     [
+      5729,
+      10
+     ],
+     [
+      6089,
+      11
+     ],
+     [
+      6589,
+      12
+     ],
+     [
+      7390,
+      13
+     ],
+     [
+      7849,
+      14
+     ],
+     [
+      8150,
+      15
+     ],
+     [
+      8690,
+      16
+     ],
+     [
+      9489,
+      17
+     ],
+     [
+      10249,
+      18
+     ],
+     [
+      10569,
+      19
+     ],
+     [
+      11089,
+      20
+     ],
+     [
+      11930,
+      21
+     ],
+     [
+      12289,
+      22
+     ],
+     [
+      12589,
+      23
+     ],
+     [
+      12850,
+      24
+     ]
+    ]
+   },
+   "p3h-vizir": {
+    "s": 85529,
+    "d": 2556,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2009,
+      5
+     ]
+    ]
+   },
+   "p3h-civil": {
+    "s": 88385,
+    "d": 1790,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1170,
+      4
+     ]
+    ]
+   },
+   "p3h-bombo": {
+    "s": 90475,
+    "d": 2273,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1969,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 93049,
+    "d": 4288,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3589,
+      7
+     ],
+     [
+      3930,
+      8
+     ]
+    ]
+   },
+   "p4": {
+    "s": 97638,
+    "d": 16554,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2449,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      2769,
+      6
+     ],
+     [
+      3529,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      5109,
+      10
+     ],
+     [
+      5689,
+      11
+     ],
+     [
+      6029,
+      12
+     ],
+     [
+      6430,
+      13
+     ],
+     [
+      7149,
+      14
+     ],
+     [
+      7569,
+      15
+     ],
+     [
+      8009,
+      16
+     ],
+     [
+      8930,
+      17
+     ],
+     [
+      9329,
+      18
+     ],
+     [
+      9649,
+      19
+     ],
+     [
+      10350,
+      20
+     ],
+     [
+      10669,
+      21
+     ],
+     [
+      11230,
+      22
+     ],
+     [
+      11789,
+      23
+     ],
+     [
+      12109,
+      24
+     ],
+     [
+      12810,
+      25
+     ],
+     [
+      13989,
+      26
+     ],
+     [
+      14209,
+      27
+     ],
+     [
+      14549,
+      28
+     ],
+     [
+      14949,
+      29
+     ],
+     [
+      15629,
+      30
+     ]
+    ]
+   },
+   "p4h-bombo": {
+    "s": 114492,
+    "d": 2054,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1369,
+      3
+     ]
+    ]
+   },
+   "p4h-civil": {
+    "s": 116847,
+    "d": 2674,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p4h-vizir": {
+    "s": 119822,
+    "d": 2189,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1189,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1749,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 122311,
+    "d": 3869,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2789,
+      4
+     ],
+     [
+      3109,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 126481,
+    "d": 17250,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2949,
+      5
+     ],
+     [
+      3549,
+      6
+     ],
+     [
+      4629,
+      7
+     ],
+     [
+      5189,
+      8
+     ],
+     [
+      5509,
+      9
+     ],
+     [
+      5930,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      6890,
+      12
+     ],
+     [
+      8089,
+      13
+     ],
+     [
+      8509,
+      14
+     ],
+     [
+      9249,
+      15
+     ],
+     [
+      9649,
+      16
+     ],
+     [
+      10209,
+      17
+     ],
+     [
+      10589,
+      18
+     ],
+     [
+      11169,
+      19
+     ],
+     [
+      11509,
+      20
+     ],
+     [
+      12129,
+      21
+     ],
+     [
+      12489,
+      22
+     ],
+     [
+      13270,
+      23
+     ],
+     [
+      13669,
+      24
+     ],
+     [
+      14049,
+      25
+     ],
+     [
+      14810,
+      26
+     ],
+     [
+      15209,
+      27
+     ],
+     [
+      16030,
+      28
+     ],
+     [
+      16149,
+      29
+     ],
+     [
+      16389,
+      30
+     ],
+     [
+      16989,
+      31
+     ]
+    ]
+   },
+   "p5h-bombo": {
+    "s": 144032,
+    "d": 2427,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1529,
+      4
+     ]
+    ]
+   },
+   "p5h-civil": {
+    "s": 146760,
+    "d": 1831,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      708,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1276,
+      3
+     ]
+    ]
+   },
+   "p5h-vizir": {
+    "s": 148891,
+    "d": 2158,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1109,
+      1
+     ],
+     [
+      1430,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

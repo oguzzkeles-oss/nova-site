@@ -1,0 +1,1945 @@
+{
+ "id": "021-bes-minik-civciv",
+ "n": 21,
+ "title": "Beş Minik Civciv",
+ "age": "36-48",
+ "area": "Matematik",
+ "theme": "Sayma (1-5) ve merhamet",
+ "values": [
+  "D9 Merhamet"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 4,
+ "blurb": "Akşam olunca Can civcivleri kümese sayar: bir, iki, üç, dört… Beşinci civciv Lokum nerede? Can ile Nine, telaşlanan anne tavuk için en minik civcivi aramaya koyulur.",
+ "codes": {
+  "maarif": [
+   "MAB.1 Ritmik ve algısal sayabilme",
+   "TADB.3 Dinlediklerini/izlediklerini çözümleyebilme",
+   "E2.1 Empati",
+   "SDB2.3 Sosyal Farkındalık",
+   "D9 Merhamet"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "nine": "nine",
+  "can": "cocuk-erkek",
+  "tavuk": "hayvan-kiz",
+  "lokum": "kucuk-hayvan",
+  "civciv": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "nine": "Nine",
+  "can": "Can",
+  "tavuk": "Anne tavuk",
+  "lokum": "Lokum (en minik civciv)",
+  "civciv": "Civcivler"
+ },
+ "pages": [
+  {
+   "text": "Akşam oluyordu. Can'ın ninesi beş civcivine seslendi. “Gel gel gel, civcivler!” Cik cik, cik cik! Civcivler koşa koşa geldi. En miniği Lokum ise kelebeğe dalmıştı.",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 70,
+      "y": 228,
+      "s": 1,
+      "pose": "wave",
+      "mood": "happy",
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 132,
+      "y": 234,
+      "s": 0.95,
+      "pose": "clap",
+      "mood": "laugh",
+      "hit": "can"
+     },
+     {
+      "k": "tavuk",
+      "x": 196,
+      "y": 226,
+      "s": 1.0,
+      "pose": "walk",
+      "mood": "happy",
+      "flip": true,
+      "hit": "tavuk"
+     },
+     {
+      "k": "civciv",
+      "x": 234,
+      "y": 230,
+      "s": 0.9,
+      "pose": "walk",
+      "mood": "happy",
+      "flip": true,
+      "hit": "c1"
+     },
+     {
+      "k": "civciv",
+      "x": 262,
+      "y": 234,
+      "s": 0.9,
+      "pose": "jump",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "c2"
+     },
+     {
+      "k": "civciv",
+      "x": 290,
+      "y": 229,
+      "s": 0.9,
+      "pose": "walk",
+      "mood": "happy",
+      "flip": true,
+      "hit": "c3"
+     },
+     {
+      "k": "civciv",
+      "x": 318,
+      "y": 234,
+      "s": 0.9,
+      "pose": "walk",
+      "mood": "happy",
+      "flip": true,
+      "hit": "c4"
+     },
+     {
+      "k": "civciv",
+      "x": 352,
+      "y": 232,
+      "s": 0.7,
+      "pose": "jump",
+      "mood": "laugh",
+      "flip": false,
+      "hit": "lokum"
+     },
+     {
+      "k": "kelebek",
+      "x": 374,
+      "y": 200,
+      "hit": "kelebek"
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Gel gel gel! Uyku vakti!",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "can": {
+     "say": "Haydi civcivler, kümese!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "c": {
+     "say": "Cik cik!",
+     "voice": "civciv",
+     "anim": "jump",
+     "fx": "peep"
+    },
+    "tavuk": {
+     "say": "Gıt gıdak! Gelin yavrularım!",
+     "voice": "tavuk",
+     "anim": "wiggle",
+     "fx": "cluck"
+    },
+    "lokum": {
+     "say": "Cik! Kelebek, bekle beni!",
+     "voice": "lokum",
+     "anim": "jump",
+     "fx": "peep"
+    },
+    "kelebek": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "nine",
+    "Nine'ye dokun!"
+   ],
+   "ask": "Resme bak: Lokum ne yapıyor? Sence neden geride kaldı?"
+  },
+  {
+   "text": "Can kümesin önünde civcivleri saydı. “Bir, iki, üç, dört…” Dört mü? “Nineciğim, bir civciv eksik!”",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "cast": [
+     {
+      "k": "tavuk",
+      "x": 214,
+      "y": 201,
+      "s": 0.55,
+      "pose": "stand",
+      "mood": "calm"
+     },
+     {
+      "k": "can",
+      "x": 82,
+      "y": 233,
+      "s": 1,
+      "pose": "point",
+      "mood": "think",
+      "hit": "can"
+     },
+     {
+      "k": "civciv",
+      "x": 158,
+      "y": 226,
+      "s": 1.0,
+      "pose": "stand",
+      "mood": "happy",
+      "hit": "c1"
+     },
+     {
+      "k": "civciv",
+      "x": 202,
+      "y": 231,
+      "s": 1.0,
+      "pose": "stand",
+      "mood": "laugh",
+      "hit": "c2"
+     },
+     {
+      "k": "civciv",
+      "x": 246,
+      "y": 226,
+      "s": 1.0,
+      "pose": "stand",
+      "mood": "happy",
+      "hit": "c3"
+     },
+     {
+      "k": "civciv",
+      "x": 290,
+      "y": 231,
+      "s": 1.0,
+      "pose": "peck",
+      "mood": "calm",
+      "hit": "c4"
+     },
+     {
+      "k": "nine",
+      "x": 348,
+      "y": 228,
+      "s": 0.95,
+      "pose": "stand",
+      "mood": "surprised",
+      "flip": true,
+      "hit": "nine"
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "c1",
+     "c2",
+     "c3",
+     "c4"
+    ],
+    "done": "Dört civciv var. Biri eksik!"
+   },
+   "hits": {
+    "can": {
+     "say": "Dört mü? Biri eksik!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "nine": {
+     "say": "Aaa! Hangisi yok acaba?",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "c1",
+    "Civcivleri tek tek say!"
+   ],
+   "ask": "Sen de say: Kaç civciv var? Beş olması için kaç tane daha gerek?"
+  },
+  {
+   "text": "Lokum ortada yoktu! “Gıt gıdak, yavrum nerede?” diye çırpındı anne tavuk. Can telaşlandı, kalbi küt küt attı. Nine, “Merak etme, birlikte arayalım,” dedi.",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "cast": [
+     {
+      "k": "civciv",
+      "x": 250,
+      "y": 200,
+      "s": 0.45,
+      "pose": "stand",
+      "mood": "sad"
+     },
+     {
+      "k": "civciv",
+      "x": 266,
+      "y": 202,
+      "s": 0.45,
+      "pose": "stand",
+      "mood": "sad",
+      "flip": true
+     },
+     {
+      "k": "civciv",
+      "x": 283,
+      "y": 200,
+      "s": 0.45,
+      "pose": "sit",
+      "mood": "sad"
+     },
+     {
+      "k": "civciv",
+      "x": 298,
+      "y": 203,
+      "s": 0.45,
+      "pose": "stand",
+      "mood": "sad",
+      "flip": true
+     },
+     {
+      "k": "tavuk",
+      "x": 200,
+      "y": 232,
+      "s": 1.05,
+      "pose": "wave",
+      "mood": "scared",
+      "hit": "tavuk"
+     },
+     {
+      "k": "can",
+      "x": 78,
+      "y": 233,
+      "s": 1,
+      "pose": "stand",
+      "mood": "scared",
+      "hit": "can"
+     },
+     {
+      "k": "nine",
+      "x": 336,
+      "y": 229,
+      "s": 1,
+      "pose": "open",
+      "mood": "calm",
+      "flip": true,
+      "hit": "nine"
+     }
+    ]
+   },
+   "hits": {
+    "tavuk": {
+     "say": "Gıt gıdak! Yavrum nerede?",
+     "voice": "tavuk",
+     "anim": "wiggle",
+     "fx": "cluck"
+    },
+    "can": {
+     "say": "Lokum şimdi korkuyordur.",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "boing"
+    },
+    "nine": {
+     "say": "Merak etme, birlikte arayalım.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence Lokum nerede?",
+    "res": "Hadi, birlikte arayalım!",
+    "opts": [
+     {
+      "l": "Çalının arkasında",
+      "scene": {
+       "set": "ciftlik",
+       "time": "sunset",
+       "props": [
+        {
+         "k": "cali",
+         "x": 180,
+         "y": 230,
+         "s": 1.8,
+         "flowers": true
+        }
+       ],
+       "cast": [
+        {
+         "k": "civciv",
+         "x": 248,
+         "y": 226,
+         "s": 1.8,
+         "pose": "stand",
+         "mood": "shy",
+         "flip": true
+        }
+       ]
+      }
+     },
+     {
+      "l": "Çitin arkasında",
+      "scene": {
+       "set": "ciftlik",
+       "time": "sunset",
+       "props": [
+        {
+         "k": "cit",
+         "x": 200,
+         "y": 232,
+         "s": 1.0,
+         "w": 110
+        }
+       ],
+       "cast": [
+        {
+         "k": "civciv",
+         "x": 212,
+         "y": 218,
+         "s": 1.9,
+         "pose": "stand",
+         "mood": "scared",
+         "flip": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "tavuk",
+    "Anne tavuğa dokun!"
+   ],
+   "ask": "Anne tavuk nasıl hissediyor? Yüzünden, kanatlarından nasıl anladın?",
+   "cues": [
+    {
+     "w": 14,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Nine çalının arkasına baktı. Yok! Can kütüğün arkasına baktı. Yok! Çitin arkasından ince bir ses geldi: “Cik… cik…”",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "props": [
+     {
+      "k": "cali",
+      "x": 122,
+      "y": 231,
+      "s": 1.1,
+      "flowers": true,
+      "hit": "cali"
+     },
+     {
+      "k": "kutuk",
+      "x": 170,
+      "y": 230,
+      "s": 1,
+      "hit": "kutuk"
+     },
+     {
+      "k": "cit",
+      "x": 285,
+      "y": 236,
+      "s": 0.85,
+      "w": 90,
+      "hit": "cit"
+     }
+    ],
+    "cast": [
+     {
+      "k": "nine",
+      "x": 60,
+      "y": 228,
+      "s": 0.95,
+      "pose": "point",
+      "mood": "think",
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 218,
+      "y": 234,
+      "s": 0.95,
+      "pose": "crawl",
+      "mood": "think",
+      "hit": "can"
+     },
+     {
+      "k": "civciv",
+      "x": 288,
+      "y": 222,
+      "s": 0.95,
+      "pose": "stand",
+      "mood": "scared",
+      "flip": true,
+      "hit": "lokum"
+     }
+    ]
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "lokum"
+    ],
+    "done": "İşte Lokum! Çitin arkasında kalmış."
+   },
+   "hits": {
+    "cali": {
+     "say": "Çalının arkasında yok!",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "kutuk": {
+     "say": "Kütüğün arkasında da yok!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "cit": {
+     "say": "Cik… cik…",
+     "voice": "lokum",
+     "anim": "wiggle",
+     "fx": "tweet"
+    },
+    "nine": {
+     "say": "Lokum, neredesin?",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "can": {
+     "say": "Şşşt! Bir ses geliyor.",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "cali",
+    "Lokum'u ara!"
+   ],
+   "ask": "Lokum neden çitin arkasına gitmiş olabilir? İlk resmi hatırla!"
+  },
+  {
+   "text": "Lokum korkmuştu, tir tir titriyordu. Can yavaşça diz çöktü. “Korktun, biliyorum, Lokum,” diye fısıldadı. “Annen seni bekliyor.” Lokum adım adım annesine yürüdü.",
+   "scene": {
+    "set": "ciftlik",
+    "time": "sunset",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 40,
+      "y": 222,
+      "s": 0.95,
+      "pose": "stand",
+      "mood": "happy",
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 102,
+      "y": 234,
+      "s": 1,
+      "pose": "crawl",
+      "mood": "calm",
+      "hit": "can"
+     },
+     {
+      "k": "civciv",
+      "x": 190,
+      "y": 231,
+      "s": 0.9,
+      "pose": "walk",
+      "mood": "scared",
+      "hit": "lokum"
+     },
+     {
+      "k": "tavuk",
+      "x": 330,
+      "y": 230,
+      "s": 1.15,
+      "pose": "spread",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "tavuk"
+     }
+    ]
+   },
+   "mech": {
+    "type": "walk",
+    "key": "lokum",
+    "steps": 3,
+    "step": 35,
+    "say": "Bir adım daha!",
+    "done": "Cik cik! Lokum annesine kavuştu!"
+   },
+   "hits": {
+    "can": {
+     "say": "Korkma, Lokum. Annen seni bekliyor.",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "tavuk": {
+     "say": "Gıt gıdak! Gel yavrum, gel!",
+     "voice": "tavuk",
+     "anim": "wiggle",
+     "fx": "cluck"
+    },
+    "nine": {
+     "say": "Yavaş yavaş… Çok güzel, Can.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "lokum",
+    "Lokum'a dokun, yürüsün!"
+   ],
+   "ask": "Can neden yavaşça, fısıltıyla konuştu? Sen korkan birine ne dersin?"
+  },
+  {
+   "text": "Can bir daha saydı: “Bir, iki, üç, dört, beş!” Anne tavuk kanatlarını açtı. Hepsi altına sokuldu, sıcacık! “İyi geceler, beş minik civciv!” dedi Can.",
+   "scene": {
+    "set": "ciftlik",
+    "time": "night",
+    "cast": [
+     {
+      "k": "tavuk",
+      "x": 230,
+      "y": 226,
+      "s": 1.1,
+      "pose": "spread",
+      "mood": "calm",
+      "hit": "tavuk"
+     },
+     {
+      "k": "civciv",
+      "x": 192,
+      "y": 229,
+      "s": 0.95,
+      "pose": "stand",
+      "mood": "happy",
+      "hit": "c1"
+     },
+     {
+      "k": "civciv",
+      "x": 211,
+      "y": 233,
+      "s": 0.95,
+      "pose": "sit",
+      "mood": "calm",
+      "hit": "c2"
+     },
+     {
+      "k": "civciv",
+      "x": 250,
+      "y": 233,
+      "s": 0.95,
+      "pose": "sit",
+      "mood": "sleep",
+      "flip": true,
+      "hit": "c3"
+     },
+     {
+      "k": "civciv",
+      "x": 269,
+      "y": 229,
+      "s": 0.95,
+      "pose": "stand",
+      "mood": "happy",
+      "flip": true,
+      "hit": "c4"
+     },
+     {
+      "k": "civciv",
+      "x": 231,
+      "y": 236,
+      "s": 0.8,
+      "pose": "sit",
+      "mood": "laugh",
+      "hit": "c5"
+     },
+     {
+      "k": "can",
+      "x": 62,
+      "y": 233,
+      "s": 0.95,
+      "pose": "point",
+      "mood": "happy",
+      "hit": "can"
+     },
+     {
+      "k": "nine",
+      "x": 345,
+      "y": 228,
+      "s": 0.95,
+      "pose": "hug",
+      "mood": "happy",
+      "flip": true,
+      "hit": "nine"
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "c1",
+     "c2",
+     "c3",
+     "c4",
+     "c5"
+    ],
+    "done": "Beş civciv! Hepsi burada."
+   },
+   "hits": {
+    "can": {
+     "say": "İyi geceler, beş minik civciv!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "nine": {
+     "say": "Oh, hepsi yuvada!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tavuk": {
+     "say": "Gıt gıdak… İyi geceler yavrularım.",
+     "voice": "tavuk",
+     "anim": "wiggle",
+     "fx": "lullaby"
+    }
+   },
+   "hint": [
+    "c1",
+    "Civcivleri bir daha say!"
+   ],
+   "ask": "Lokum annesine kavuşunca ne hissetti? Sen uyumadan önce kime “İyi geceler” dersin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.1 Ritmik ve algısal sayabilme: Civcivleri birer birer dokunarak sayar, 1-5 arasındaki nesne miktarını sayarak belirler; dört ile beşi karşılaştırıp “bir eksik” olduğunu fark eder (36-48 ay için 1-5 aralığı).",
+   "TADB.3 Dinlediklerini/izlediklerini çözümleyebilme: Masaldaki olayların parçalarını (sayma, kaybolma, arama, bulma) belirler ve olayları oluş sırasına göre söyler (sıralama oyunu).",
+   "E2.1 Empati ve SDB2.3 Sosyal Farkındalık: Anne tavuğun telaşını ve Lokum'un korkusunu yüz ve beden ipuçlarından fark eder, “Sence ne hissediyor?” sorusuna yanıt verir.",
+   "D9 Merhamet (programla ilişkilendirilmiştir): Korkan küçük bir canlıya yavaş, sessiz ve nazik yaklaşmanın yollarını gözlemler ve kendi hayatıyla ilişkilendirir."
+  ],
+  "once": [
+   "Kapak resmine birlikte bakın: “Burada kaç civciv görüyorsun? Parmağınla göstererek sayalım.”",
+   "Beş parmağınızı açın: “Bu masalda beş minik civciv var. Parmaklarımızla sayalım: bir, iki, üç, dört, beş.”",
+   "“Kümes ne demek? Civcivler geceyi nerede geçirir?” diye sorun; kümes, çalı, kütük, çit sözcüklerini tanıtın."
+  ],
+  "sirasi": [
+   "1. sayfada son cümleyi vurgulayın ve resimde Lokum'u gösterin: En minik civciv kelebeğe dalmış, geride kalmış. Bu ipucu 4. sayfada işe yarayacak.",
+   "2. sayfada çocuk her civcive tek tek dokunarak saysın; dördüncüde durup “Dört mü? Kaç olmalıydı?” diye sorun.",
+   "3. sayfada anne tavuğun yüzünü ve kanatlarını inceleyin: “Nasıl hissediyor? Nereden anladın?” Tahmin seçiminden sonra yanıtı hemen söylemeyin.",
+   "4. sayfada çocuk önce çalıya ve kütüğe dokunsun; “Yok!” sözcüğünü birlikte, ritimle söyleyin. Çite dokununca gelen “Cik… cik…” sesini dinleyin, sonra Lokum'u kendisi bulsun.",
+   "5. sayfada sesinizi alçaltın; Can gibi fısıltıyla “Korkma, Lokum” deyin. 6. sayfada beşe kadar yavaşça, birlikte sayın."
+  ],
+  "sonra": [
+   "Masalda önce ne oldu, sonra ne oldu? Üç resmi sıraya koyalım: saymak, aramak, uyumak.",
+   "Kaç civciv vardı? Biri kaybolunca kaç kaldı? Parmaklarımızla gösterelim.",
+   "Anne tavuk Lokum'u bulamayınca ne hissetti? Lokum bulununca ne hissetti?",
+   "Can korkan Lokum'a nasıl yaklaştı? Sen korkan bir arkadaşına nasıl yardım edersin?"
+  ],
+  "sinif": {
+   "ad": "Kümeste Kim Eksik?",
+   "sure": "15 dk",
+   "materyal": "Beş sarı ponpon ya da kâğıttan civciv, kümes olarak bir karton kutu, küçük bir saksı bitkisi (çalı), bir tahta blok ya da rulo (kütük), bloklardan küçük bir çit",
+   "adim": [
+    "Çemberde beş civcivi birlikte, dokunarak sayın ve kümes kutusuna koyun.",
+    "Çocuklar gözlerini kapatınca bir civcivi çalının, kütüğün ya da çitin arkasına saklayın.",
+    "Kümesteki civcivleri birlikte sayın; eksik olanı fark edince “Nerede olabilir?” diye tahminleri dinleyin.",
+    "Sırayla arayın; “Kütüğün arkasında yok!” gibi konum sözcükleriyle konuşun.",
+    "Bulan çocuk civcivi fısıltıyla “Korkma, gel” diyerek kümese getirsin; son kez hep birlikte beşe kadar sayın."
+   ]
+  },
+  "evSoru": [
+   "Kaç civciv vardı? Birlikte parmaklarımızla sayalım.",
+   "Anne tavuk Lokum'u bulamayınca ne hissetti?",
+   "Can, Lokum'la nasıl konuştu? Neden yavaş ve sessiz konuştu?"
+  ],
+  "evEtk": {
+   "ad": "Beş Çorap Nerede?",
+   "d": "Beş çorabı ya da beş küçük oyuncağı birlikte sayıp bir sepete koyun. Çocuk gözlerini kapatınca birini saksının, yastığın ya da sandalyenin arkasına saklayın. Sepettekileri birlikte sayın, eksik olanı “arkasında, altında, içinde” sözcükleriyle ipucu vererek arayın."
+  },
+  "aileNotu": "Bugün “Beş Minik Civciv” masalını okuduk. Can, akşam civcivleri kümese sayarken birinin eksik olduğunu fark etti; korkan minik Lokum'u sesini alçaltarak, sabırla annesine kavuşturdu. Masal, 1'den 5'e kadar dokunarak saymayı ve başkalarının duygularını fark etmeyi destekliyor. Evde basamakları, sofradaki kaşıkları ya da oyuncakları birlikte sayabilir; bir hayvan ya da arkadaş üzgün göründüğünde “Sence ne hissediyor?” diye sorabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/021-bes-minik-civciv.mp3",
+  "hash": "c3b30115",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14315,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2769,
+      4
+     ],
+     [
+      3089,
+      5
+     ],
+     [
+      3769,
+      6
+     ],
+     [
+      4930,
+      7
+     ],
+     [
+      5330,
+      8
+     ],
+     [
+      5689,
+      9
+     ],
+     [
+      6089,
+      10
+     ],
+     [
+      7349,
+      11
+     ],
+     [
+      7629,
+      12
+     ],
+     [
+      8249,
+      13
+     ],
+     [
+      8549,
+      14
+     ],
+     [
+      9209,
+      15
+     ],
+     [
+      9930,
+      16
+     ],
+     [
+      10270,
+      17
+     ],
+     [
+      10649,
+      18
+     ],
+     [
+      11489,
+      19
+     ],
+     [
+      11709,
+      20
+     ],
+     [
+      12109,
+      21
+     ],
+     [
+      12489,
+      22
+     ],
+     [
+      13069,
+      23
+     ],
+     [
+      13629,
+      24
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 14615,
+    "d": 1675,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      248,
+      1
+     ],
+     [
+      456,
+      2
+     ],
+     [
+      910,
+      3
+     ],
+     [
+      1272,
+      4
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 16590,
+    "d": 1599,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      949,
+      2
+     ]
+    ]
+   },
+   "p0h-c": {
+    "s": 18490,
+    "d": 605,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      302,
+      1
+     ]
+    ]
+   },
+   "p0h-tavuk": {
+    "s": 19396,
+    "d": 1786,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      989,
+      3
+     ]
+    ]
+   },
+   "p0h-lokum": {
+    "s": 21483,
+    "d": 1863,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      485,
+      1
+     ],
+     [
+      1112,
+      2
+     ],
+     [
+      1467,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 23646,
+    "d": 9431,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2989,
+      5
+     ],
+     [
+      3509,
+      6
+     ],
+     [
+      4189,
+      7
+     ],
+     [
+      4789,
+      8
+     ],
+     [
+      5549,
+      9
+     ],
+     [
+      5949,
+      10
+     ],
+     [
+      6729,
+      11
+     ],
+     [
+      7769,
+      12
+     ],
+     [
+      8089,
+      13
+     ],
+     [
+      8730,
+      14
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 33377,
+    "d": 1825,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1050,
+      3
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 35503,
+    "d": 1651,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 37454,
+    "d": 2175,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 39930,
+    "d": 12785,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      4029,
+      7
+     ],
+     [
+      4330,
+      8
+     ],
+     [
+      4949,
+      9
+     ],
+     [
+      5289,
+      10
+     ],
+     [
+      6069,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      7449,
+      13
+     ],
+     [
+      7910,
+      14
+     ],
+     [
+      8169,
+      15
+     ],
+     [
+      8449,
+      16
+     ],
+     [
+      9209,
+      17
+     ],
+     [
+      9969,
+      18
+     ],
+     [
+      10469,
+      19
+     ],
+     [
+      11129,
+      20
+     ],
+     [
+      11689,
+      21
+     ],
+     [
+      12409,
+      22
+     ]
+    ]
+   },
+   "p2h-tavuk": {
+    "s": 53015,
+    "d": 1866,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 55181,
+    "d": 1807,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      849,
+      2
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 57288,
+    "d": 1927,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 59516,
+    "d": 1555,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      470,
+      1
+     ],
+     [
+      901,
+      2
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 61372,
+    "d": 1697,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1069,
+      2
+     ]
+    ]
+   },
+   "p3": {
+    "s": 63370,
+    "d": 10321,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2989,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4390,
+      8
+     ],
+     [
+      5049,
+      9
+     ],
+     [
+      5949,
+      10
+     ],
+     [
+      6390,
+      11
+     ],
+     [
+      7109,
+      12
+     ],
+     [
+      7410,
+      13
+     ],
+     [
+      7669,
+      14
+     ],
+     [
+      7969,
+      15
+     ],
+     [
+      9009,
+      16
+     ],
+     [
+      9850,
+      17
+     ]
+    ]
+   },
+   "p3h-cali": {
+    "s": 73991,
+    "d": 1447,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1249,
+      2
+     ]
+    ]
+   },
+   "p3h-kutuk": {
+    "s": 75738,
+    "d": 1687,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p3h-cit": {
+    "s": 77726,
+    "d": 218,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      134,
+      1
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 78244,
+    "d": 1181,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      502,
+      1
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 79725,
+    "d": 1543,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      519,
+      1
+     ],
+     [
+      738,
+      2
+     ],
+     [
+      958,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 81569,
+    "d": 2851,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2170,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 84720,
+    "d": 13142,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      3170,
+      5
+     ],
+     [
+      3489,
+      6
+     ],
+     [
+      4049,
+      7
+     ],
+     [
+      4350,
+      8
+     ],
+     [
+      5149,
+      9
+     ],
+     [
+      6029,
+      10
+     ],
+     [
+      6870,
+      11
+     ],
+     [
+      7469,
+      12
+     ],
+     [
+      7769,
+      13
+     ],
+     [
+      9029,
+      14
+     ],
+     [
+      9509,
+      15
+     ],
+     [
+      9810,
+      16
+     ],
+     [
+      10770,
+      17
+     ],
+     [
+      11270,
+      18
+     ],
+     [
+      11569,
+      19
+     ],
+     [
+      11949,
+      20
+     ],
+     [
+      12629,
+      21
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 98163,
+    "d": 2858,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2049,
+      4
+     ]
+    ]
+   },
+   "p4h-tavuk": {
+    "s": 101321,
+    "d": 2249,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      302,
+      1
+     ],
+     [
+      1071,
+      2
+     ],
+     [
+      1333,
+      3
+     ],
+     [
+      1946,
+      4
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 103871,
+    "d": 2835,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      572,
+      1
+     ],
+     [
+      1468,
+      2
+     ],
+     [
+      1774,
+      3
+     ],
+     [
+      2488,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 107006,
+    "d": 2770,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 110077,
+    "d": 1055,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      257,
+      1
+     ],
+     [
+      636,
+      2
+     ]
+    ]
+   },
+   "p5": {
+    "s": 111432,
+    "d": 13693,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3849,
+      7
+     ],
+     [
+      4649,
+      8
+     ],
+     [
+      5549,
+      9
+     ],
+     [
+      5890,
+      10
+     ],
+     [
+      6209,
+      11
+     ],
+     [
+      6930,
+      12
+     ],
+     [
+      7609,
+      13
+     ],
+     [
+      8049,
+      14
+     ],
+     [
+      8469,
+      15
+     ],
+     [
+      9289,
+      16
+     ],
+     [
+      10390,
+      17
+     ],
+     [
+      10569,
+      18
+     ],
+     [
+      11449,
+      19
+     ],
+     [
+      11770,
+      20
+     ],
+     [
+      12129,
+      21
+     ],
+     [
+      13109,
+      22
+     ],
+     [
+      13331,
+      23
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 125425,
+    "d": 2275,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      451,
+      1
+     ],
+     [
+      1176,
+      2
+     ],
+     [
+      1412,
+      3
+     ],
+     [
+      1823,
+      4
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 128001,
+    "d": 1366,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      392,
+      1
+     ],
+     [
+      777,
+      2
+     ]
+    ]
+   },
+   "p5h-tavuk": {
+    "s": 129667,
+    "d": 2906,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2130,
+      4
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 132873,
+    "d": 2224,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      303,
+      1
+     ],
+     [
+      1073,
+      2
+     ],
+     [
+      1531,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

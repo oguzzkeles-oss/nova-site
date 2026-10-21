@@ -1,0 +1,2298 @@
+{
+ "id": "028-ninemin-masal-sandigi",
+ "lang": "en",
+ "title": "Grandma's Story Chest",
+ "theme": "Storytelling and family bonds",
+ "blurb": "When Zeynep can't sleep, her grandma tells her the tale of a snowy village with a lantern, a bell and a scarf from her old story chest. But the end of the tale is up to Zeynep!",
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "nine": "Grandma",
+  "kiz": "The little girl in the story",
+  "dede": "The grandpa in the story",
+  "kuzu": "Lamb"
+ },
+ "pages": [
+  {
+   "text": "One winter night, Zeynep was staying at Grandma's. But she couldn't sleep. She turned to the right, she turned to the left. “Grandma, will you tell me a story?” Grandma pulled an old chest out from under the bed. Creeeak! “This is my story chest!”",
+   "hits": {
+    "zeynep": {
+     "say": "I can't sleep! Will you tell me a story?"
+    },
+    "nine": {
+     "say": "Come on then, let's open my chest!"
+    },
+    "sandik": {
+     "say": "Creeeak!"
+    }
+   },
+   "hint": "Touch the chest!",
+   "ask": "What do you think is in Grandma's chest?"
+  },
+  {
+   "text": "The lid of the chest opened. Mmm, the sweet smell of lavender! Grandma smiled: “Tonight's story is hidden in three things. One gives light, one goes ding-a-ling, and one keeps you warm and snug. See if you can find them!” Zeynep leaned in and looked, and looked…",
+   "hits": {
+    "zeynep": {
+     "say": "Wow! This is a treasure chest!"
+    },
+    "nine": {
+     "say": "One gives light, one goes ding-a-ling, and one keeps you warm!"
+    },
+    "sandik": {
+     "say": "Mmm, sweet lavender!"
+    }
+   },
+   "mech": {
+    "done": "A lantern, a bell and a scarf!",
+    "msg": "You found all three things!"
+   },
+   "hint": "Which one gives light?",
+   "ask": "Is there an old, special thing in your home? Who did it belong to, and what is its story?"
+  },
+  {
+   "text": "Grandma lifted the lantern: “Once upon a time, long, long ago, when the sieve sat in the straw… In a snowy village there lived a little girl. One evening, the girl's lamb went missing! The girl was very scared, and her heart went boom, boom.” Zeynep hugged her pillow tight.",
+   "hits": {
+    "nine": {
+     "say": "Once upon a time…"
+    },
+    "zeynep": {
+     "say": "Oh no! Where's the lamb?"
+    }
+   },
+   "predict": {
+    "q": "Where do you think the little lamb went?",
+    "res": "Good guess! Come on, let's listen to the story.",
+    "opts": [
+     {
+      "l": "Behind the bush"
+     },
+     {
+      "l": "Under the tree"
+     }
+    ]
+   },
+   "hint": "Touch Grandma and listen!",
+   "ask": "How did the little girl feel when her lamb went missing? Have you ever lost something?"
+  },
+  {
+   "text": "The girl's grandpa took her hand: “We'll find it together.” He lit the lantern. Crunch, crunch, step by step, they walked through the snow. The girl rang her bell: ding-a-ling! From under the bush came a sound: “Baaa!” The lamb was shivering. The girl wrapped her scarf around the lamb.",
+   "hits": {
+    "kiz": {
+     "say": "Ding-a-ling! Where are you, little lamb?"
+    },
+    "kuzu": {
+     "say": "Baaa… ahh, warm and snug!"
+    },
+    "dede": {
+     "say": "Don't be scared, we'll find it together."
+    }
+   },
+   "hint": "Touch the girl and ring the bell!",
+   "ask": "How did the girl find her lamb? Why do you think the sound of the bell helped?",
+   "cues": [
+    {
+     "w": 14,
+     "fx": "kar-adim"
+    }
+   ]
+  },
+  {
+   "text": "Grandma suddenly went quiet. Then she pretended to snore: “Snorrre, fwooo!” Zeynep giggled and giggled: “Grandma, don't fall asleep! The story isn't finished!” Grandma opened one eye: “First put the story in order. Then you tell the ending!”",
+   "hits": {
+    "nine": {
+     "say": "Snorrre… fwooo…"
+    },
+    "zeynep": {
+     "say": "Grandma, don't fall asleep! The story isn't finished!"
+    }
+   },
+   "mech": {
+    "done": "First the lantern, then the bell, and last the scarf!",
+    "msg": "The story is in order!"
+   },
+   "hint": "Which one first? Put them in order!",
+   "ask": "What happened first in the story, what happened next, and what happened last?",
+   "cues": [
+    {
+     "w": 8,
+     "fx": "horul"
+    },
+    {
+     "w": 12,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Zeynep put the things in order: “First the lantern, then the bell, and last the scarf!” Then she finished the story: “The lamb got warm and said ‘Baaa!’ to say thank you. They all went home together and drank hot milk!” Grandma gave the scarf to Zeynep. Zeynep's eyes went wide. “Was that girl you, Grandma?” Grandma winked: “The very same!”",
+   "hits": {
+    "zeynep": {
+     "say": "Was that girl you, Grandma?"
+    },
+    "nine": {
+     "say": "The very same! That little girl was me."
+    }
+   },
+   "hint": "Touch Grandma!",
+   "ask": "How did Zeynep work out that the girl in the story was Grandma? When did you notice?"
+  },
+  {
+   "text": "Zeynep put her teddy bear in the chest. “Tomorrow night I'll tell this bear's story!” Then she whispered: “Three apples fell from the sky. One for me, one for you, and one for whoever listened to the tale!” The moon smiled. Zeynep slept snug and sound.",
+   "hits": {
+    "zeynep": {
+     "say": "Once upon a time…"
+    },
+    "nine": {
+     "say": "Good night, my little storyteller."
+    }
+   },
+   "mech": {
+    "done": "One for me, one for you, and one for the listener!",
+    "msg": "Three apples, three story listeners!"
+   },
+   "hint": "Count the apples slowly.",
+   "ask": "Which of your things would be in your story chest? Can you tell its story?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.3 Analysing what they hear or watch (learning outcome); process components: identifies the parts of the events (the lamb goes missing, is searched for with the lantern, called with the bell, warmed with the scarf) and tells what they heard in the order it happened (the lantern–bell–scarf ordering on page 5 and the ordering game at the end of the story).",
+   "TAKB.2 Building the content of their speech (learning outcome); process component: connects the topic they will talk about to their prior knowledge and daily life (tells the story of an old object or toy in their own home, adds their own ending to the story they heard).",
+   "OB5 Cultural Literacy: recognises traditional story rhymes (“Once upon a time”, “Long, long ago, when the sieve sat in the straw”, “Three apples fell from the sky”) and uses them when telling a story; notices the cultural value of stories told by family elders and of old objects.",
+   "SDB2.1 Communication and E3.3 Creativity: builds the story together with a grown-up through back-and-forth conversation; gives the story they heard an original ending in their own words.",
+   "D2 Family Unity and D15 Love: is curious about the childhood memories of family elders; notices family bonds and love through objects and stories passed down between generations."
+  ],
+  "once": [
+   "Show the cover: “What might be inside this chest? The story is called Grandma's Story Chest.”",
+   "Put three old or interesting things in a box (a bell, a scarf and a lantern or torch would work). After the story, you will make up a story together with these things.",
+   "Ask: “Do you have a grown-up who tells you stories? How do stories begin?” Say the rhyme “Once upon a time” together."
+  ],
+  "sirasi": [
+   "On page 2, repeat Grandma's riddle together: “One gives light, one goes ding-a-ling, and one keeps you warm.” After each clue, let the child find the object and say its name out loud: lantern, bell, scarf. Talk about why the book and the hat are not part of the story.",
+   "On page 3, repeat the rhyme “Long, long ago, when the sieve sat in the straw” with a rhythm. Accept both answers to the prediction question; ask: “Why might it be there?”",
+   "On page 4, make the bell sound (ding-a-ling) and the lamb's sound (baaa) together. Talk about the girl's fear and the grandpa's words, “We'll find it together.”",
+   "On page 5, before the ordering game, retell the story out loud: “What happened first? Then what?”",
+   "Before reading page 6, pause: “How would you end the story?” Then read Zeynep's ending and compare."
+  ],
+  "sonra": [
+   "What happened first in the story, what happened next, and what happened last? Tell it by putting the objects in order.",
+   "How did the little girl feel when her lamb went missing? How did her grandpa help her? Who do you ask for help when you are scared?",
+   "How did Zeynep work out that the girl in the story was her grandma?",
+   "How do stories begin, and how do they end? Do you know any other story rhymes?",
+   "Play the story-ending ordering game: the chest opens, the lamb is found, Zeynep finishes the story."
+  ],
+  "sinif": {
+   "ad": "Our Class Story Chest",
+   "sure": "25 min",
+   "materyal": "A box or basket with a lid (the story chest), a cloth, small objects from the classroom or from home (ball, spoon, hat, bell, etc.), paper, coloured pencils",
+   "adim": [
+    "Sit in a circle. The teacher opens the chest and takes out the first object, saying “Once upon a time”.",
+    "The “What's under the cloth?” game: hide an object under the cloth; one child guesses by touch, the others give clues.",
+    "Choose three objects from the chest. Each child adds one sentence in turn to build a shared story with these three objects.",
+    "Put the objects in story order and retell the story with the words “first, then, last”.",
+    "The last child ends the story with the rhyme “Three apples fell from the sky…”; everyone draws a picture of their own story ending."
+   ]
+  },
+  "evSoru": [
+   "Which things came out of Grandma's chest? In what order were they used in the story?",
+   "Who was the little girl in the story?",
+   "Is there an old, special object in our family? What is its story?"
+  ],
+  "evEtk": {
+   "ad": "Our family story chest",
+   "d": "Make a box at home into a “story chest”. Ask family elders (grandma, grandpa, mum or dad) for an object from their own childhood and a short memory; those who live far away can tell it over a video call. Let your child put the objects in order, retell the story to you and make up the ending themselves."
+  },
+  "aileNotu": "Today we read “Grandma's Story Chest.” Zeynep listened to a story told with the lantern, bell and scarf from her grandma's chest, put the story in order and told the ending herself; in the end she realised that the little girl in the story was her grandma. At home, you can tell your child a memory from your own childhood beginning “Once upon a time” and leave the ending to them. Retelling what they hear and making up their own ending strengthens your child's language development and family bonds."
+ },
+ "audio": {
+  "file": "audio/en/028-ninemin-masal-sandigi.mp3",
+  "hash": "f35abe94",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16580,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2189,
+      6
+     ],
+     [
+      2309,
+      7
+     ],
+     [
+      3410,
+      8
+     ],
+     [
+      3589,
+      9
+     ],
+     [
+      3749,
+      10
+     ],
+     [
+      4109,
+      11
+     ],
+     [
+      5009,
+      12
+     ],
+     [
+      5189,
+      13
+     ],
+     [
+      5430,
+      14
+     ],
+     [
+      5529,
+      15
+     ],
+     [
+      5689,
+      16
+     ],
+     [
+      6329,
+      17
+     ],
+     [
+      6509,
+      18
+     ],
+     [
+      6749,
+      19
+     ],
+     [
+      6850,
+      20
+     ],
+     [
+      7029,
+      21
+     ],
+     [
+      7949,
+      22
+     ],
+     [
+      8669,
+      23
+     ],
+     [
+      8850,
+      24
+     ],
+     [
+      8989,
+      25
+     ],
+     [
+      9169,
+      26
+     ],
+     [
+      9310,
+      27
+     ],
+     [
+      9430,
+      28
+     ],
+     [
+      10430,
+      29
+     ],
+     [
+      10850,
+      30
+     ],
+     [
+      11109,
+      31
+     ],
+     [
+      11310,
+      32
+     ],
+     [
+      11549,
+      33
+     ],
+     [
+      11949,
+      34
+     ],
+     [
+      12089,
+      35
+     ],
+     [
+      12289,
+      36
+     ],
+     [
+      12489,
+      37
+     ],
+     [
+      12609,
+      38
+     ],
+     [
+      13289,
+      39
+     ],
+     [
+      14689,
+      40
+     ],
+     [
+      15149,
+      41
+     ],
+     [
+      15329,
+      42
+     ],
+     [
+      15569,
+      43
+     ],
+     [
+      16030,
+      44
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 16880,
+    "d": 3105,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2410,
+      7
+     ],
+     [
+      2549,
+      8
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 20285,
+    "d": 2534,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      1889,
+      6
+     ]
+    ]
+   },
+   "p0h-sandik": {
+    "s": 23119,
+    "d": 1151,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24571,
+    "d": 19348,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      430,
+      3
+     ],
+     [
+      589,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1914,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      3049,
+      8
+     ],
+     [
+      3569,
+      9
+     ],
+     [
+      3889,
+      10
+     ],
+     [
+      4109,
+      11
+     ],
+     [
+      5310,
+      12
+     ],
+     [
+      5769,
+      13
+     ],
+     [
+      6729,
+      14
+     ],
+     [
+      7129,
+      15
+     ],
+     [
+      7589,
+      16
+     ],
+     [
+      7769,
+      17
+     ],
+     [
+      8129,
+      18
+     ],
+     [
+      8350,
+      19
+     ],
+     [
+      8730,
+      20
+     ],
+     [
+      9709,
+      21
+     ],
+     [
+      9890,
+      22
+     ],
+     [
+      10169,
+      23
+     ],
+     [
+      10890,
+      24
+     ],
+     [
+      11069,
+      25
+     ],
+     [
+      11409,
+      26
+     ],
+     [
+      12249,
+      27
+     ],
+     [
+      12549,
+      28
+     ],
+     [
+      12789,
+      29
+     ],
+     [
+      13049,
+      30
+     ],
+     [
+      13270,
+      31
+     ],
+     [
+      13649,
+      32
+     ],
+     [
+      13850,
+      33
+     ],
+     [
+      14669,
+      34
+     ],
+     [
+      14829,
+      35
+     ],
+     [
+      14930,
+      36
+     ],
+     [
+      15049,
+      37
+     ],
+     [
+      15209,
+      38
+     ],
+     [
+      15449,
+      39
+     ],
+     [
+      16329,
+      40
+     ],
+     [
+      16809,
+      41
+     ],
+     [
+      17169,
+      42
+     ],
+     [
+      17450,
+      43
+     ],
+     [
+      17669,
+      44
+     ],
+     [
+      18549,
+      45
+     ],
+     [
+      18770,
+      46
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 44219,
+    "d": 2688,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1989,
+      5
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 47208,
+    "d": 4699,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3629,
+      8
+     ],
+     [
+      3930,
+      9
+     ],
+     [
+      4129,
+      10
+     ]
+    ]
+   },
+   "p1h-sandik": {
+    "s": 52208,
+    "d": 2333,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1569,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 54842,
+    "d": 2656,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      1989,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 57798,
+    "d": 19094,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      3509,
+      8
+     ],
+     [
+      4129,
+      9
+     ],
+     [
+      4469,
+      10
+     ],
+     [
+      5169,
+      11
+     ],
+     [
+      5350,
+      12
+     ],
+     [
+      5549,
+      13
+     ],
+     [
+      5969,
+      14
+     ],
+     [
+      6229,
+      15
+     ],
+     [
+      6350,
+      16
+     ],
+     [
+      6469,
+      17
+     ],
+     [
+      7430,
+      18
+     ],
+     [
+      7549,
+      19
+     ],
+     [
+      7689,
+      20
+     ],
+     [
+      8109,
+      21
+     ],
+     [
+      8589,
+      22
+     ],
+     [
+      8789,
+      23
+     ],
+     [
+      9069,
+      24
+     ],
+     [
+      9169,
+      25
+     ],
+     [
+      9449,
+      26
+     ],
+     [
+      10369,
+      27
+     ],
+     [
+      10529,
+      28
+     ],
+     [
+      11049,
+      29
+     ],
+     [
+      11169,
+      30
+     ],
+     [
+      11549,
+      31
+     ],
+     [
+      11850,
+      32
+     ],
+     [
+      12109,
+      33
+     ],
+     [
+      12989,
+      34
+     ],
+     [
+      13109,
+      35
+     ],
+     [
+      13390,
+      36
+     ],
+     [
+      13669,
+      37
+     ],
+     [
+      14089,
+      38
+     ],
+     [
+      14749,
+      39
+     ],
+     [
+      14890,
+      40
+     ],
+     [
+      15089,
+      41
+     ],
+     [
+      15390,
+      42
+     ],
+     [
+      15709,
+      43
+     ],
+     [
+      16209,
+      44
+     ],
+     [
+      17249,
+      45
+     ],
+     [
+      17729,
+      46
+     ],
+     [
+      18030,
+      47
+     ],
+     [
+      18169,
+      48
+     ],
+     [
+      18549,
+      49
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 77193,
+    "d": 1428,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 78922,
+    "d": 2460,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      383,
+      1
+     ],
+     [
+      1134,
+      2
+     ],
+     [
+      1732,
+      3
+     ],
+     [
+      2076,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 81682,
+    "d": 1854,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      449,
+      3
+     ],
+     [
+      689,
+      4
+     ],
+     [
+      809,
+      5
+     ],
+     [
+      1089,
+      6
+     ],
+     [
+      1389,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 83836,
+    "d": 2954,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2349,
+      7
+     ],
+     [
+      2469,
+      8
+     ]
+    ]
+   },
+   "p3": {
+    "s": 87091,
+    "d": 20105,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2430,
+      7
+     ],
+     [
+      2729,
+      8
+     ],
+     [
+      2849,
+      9
+     ],
+     [
+      3930,
+      10
+     ],
+     [
+      4109,
+      11
+     ],
+     [
+      4330,
+      12
+     ],
+     [
+      4449,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      6229,
+      15
+     ],
+     [
+      7209,
+      16
+     ],
+     [
+      7589,
+      17
+     ],
+     [
+      7829,
+      18
+     ],
+     [
+      8409,
+      19
+     ],
+     [
+      8650,
+      20
+     ],
+     [
+      8989,
+      21
+     ],
+     [
+      9190,
+      22
+     ],
+     [
+      9329,
+      23
+     ],
+     [
+      10249,
+      24
+     ],
+     [
+      10369,
+      25
+     ],
+     [
+      10709,
+      26
+     ],
+     [
+      10930,
+      27
+     ],
+     [
+      11069,
+      28
+     ],
+     [
+      11669,
+      29
+     ],
+     [
+      12890,
+      30
+     ],
+     [
+      13129,
+      31
+     ],
+     [
+      13369,
+      32
+     ],
+     [
+      13489,
+      33
+     ],
+     [
+      13810,
+      34
+     ],
+     [
+      14029,
+      35
+     ],
+     [
+      14149,
+      36
+     ],
+     [
+      14969,
+      37
+     ],
+     [
+      16149,
+      38
+     ],
+     [
+      16350,
+      39
+     ],
+     [
+      16669,
+      40
+     ],
+     [
+      16930,
+      41
+     ],
+     [
+      17950,
+      42
+     ],
+     [
+      18069,
+      43
+     ],
+     [
+      18409,
+      44
+     ],
+     [
+      18690,
+      45
+     ],
+     [
+      18869,
+      46
+     ],
+     [
+      19270,
+      47
+     ],
+     [
+      19530,
+      48
+     ],
+     [
+      19649,
+      49
+     ]
+    ]
+   },
+   "p3h-kiz": {
+    "s": 107496,
+    "d": 2903,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      941,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1797,
+      3
+     ],
+     [
+      2189,
+      4
+     ],
+     [
+      2617,
+      5
+     ]
+    ]
+   },
+   "p3h-kuzu": {
+    "s": 110700,
+    "d": 4235,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1379,
+      1
+     ],
+     [
+      2355,
+      2
+     ],
+     [
+      2968,
+      3
+     ],
+     [
+      3581,
+      4
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 115235,
+    "d": 2493,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1489,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      1869,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 118029,
+    "d": 17629,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2589,
+      5
+     ],
+     [
+      2769,
+      6
+     ],
+     [
+      3229,
+      7
+     ],
+     [
+      3390,
+      8
+     ],
+     [
+      4310,
+      9
+     ],
+     [
+      5203,
+      10
+     ],
+     [
+      6131,
+      11
+     ],
+     [
+      7129,
+      12
+     ],
+     [
+      7669,
+      13
+     ],
+     [
+      7910,
+      14
+     ],
+     [
+      8770,
+      15
+     ],
+     [
+      9409,
+      16
+     ],
+     [
+      9649,
+      17
+     ],
+     [
+      9890,
+      18
+     ],
+     [
+      10730,
+      19
+     ],
+     [
+      10890,
+      20
+     ],
+     [
+      11249,
+      21
+     ],
+     [
+      11509,
+      22
+     ],
+     [
+      12529,
+      23
+     ],
+     [
+      13029,
+      24
+     ],
+     [
+      13469,
+      25
+     ],
+     [
+      13669,
+      26
+     ],
+     [
+      14409,
+      27
+     ],
+     [
+      14829,
+      28
+     ],
+     [
+      14989,
+      29
+     ],
+     [
+      15129,
+      30
+     ],
+     [
+      15509,
+      31
+     ],
+     [
+      15689,
+      32
+     ],
+     [
+      16350,
+      33
+     ],
+     [
+      16669,
+      34
+     ],
+     [
+      16829,
+      35
+     ],
+     [
+      17030,
+      36
+     ],
+     [
+      17169,
+      37
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 135958,
+    "d": 2479,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1827,
+      1
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 138738,
+    "d": 3814,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      686,
+      1
+     ],
+     [
+      963,
+      2
+     ],
+     [
+      1240,
+      3
+     ],
+     [
+      2050,
+      4
+     ],
+     [
+      2327,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3086,
+      7
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 142852,
+    "d": 3704,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1609,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2449,
+      7
+     ],
+     [
+      2930,
+      8
+     ],
+     [
+      3089,
+      9
+     ]
+    ]
+   },
+   "p5": {
+    "s": 146857,
+    "d": 23657,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2509,
+      8
+     ],
+     [
+      3269,
+      9
+     ],
+     [
+      3469,
+      10
+     ],
+     [
+      3569,
+      11
+     ],
+     [
+      4129,
+      12
+     ],
+     [
+      4370,
+      13
+     ],
+     [
+      4830,
+      14
+     ],
+     [
+      4969,
+      15
+     ],
+     [
+      5949,
+      16
+     ],
+     [
+      6249,
+      17
+     ],
+     [
+      6469,
+      18
+     ],
+     [
+      6850,
+      19
+     ],
+     [
+      6969,
+      20
+     ],
+     [
+      7789,
+      21
+     ],
+     [
+      7949,
+      22
+     ],
+     [
+      8249,
+      23
+     ],
+     [
+      8509,
+      24
+     ],
+     [
+      8869,
+      25
+     ],
+     [
+      9029,
+      26
+     ],
+     [
+      9489,
+      27
+     ],
+     [
+      10350,
+      28
+     ],
+     [
+      10509,
+      29
+     ],
+     [
+      10730,
+      30
+     ],
+     [
+      11029,
+      31
+     ],
+     [
+      11669,
+      32
+     ],
+     [
+      11909,
+      33
+     ],
+     [
+      12129,
+      34
+     ],
+     [
+      12329,
+      35
+     ],
+     [
+      12549,
+      36
+     ],
+     [
+      13009,
+      37
+     ],
+     [
+      13189,
+      38
+     ],
+     [
+      13549,
+      39
+     ],
+     [
+      13850,
+      40
+     ],
+     [
+      14729,
+      41
+     ],
+     [
+      15169,
+      42
+     ],
+     [
+      15409,
+      43
+     ],
+     [
+      15549,
+      44
+     ],
+     [
+      15950,
+      45
+     ],
+     [
+      16069,
+      46
+     ],
+     [
+      17009,
+      47
+     ],
+     [
+      17610,
+      48
+     ],
+     [
+      17909,
+      49
+     ],
+     [
+      18209,
+      50
+     ],
+     [
+      19069,
+      51
+     ],
+     [
+      19309,
+      52
+     ],
+     [
+      19549,
+      53
+     ],
+     [
+      19930,
+      54
+     ],
+     [
+      20270,
+      55
+     ],
+     [
+      21209,
+      56
+     ],
+     [
+      21690,
+      57
+     ],
+     [
+      22509,
+      58
+     ],
+     [
+      22729,
+      59
+     ],
+     [
+      23149,
+      60
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 170814,
+    "d": 1774,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1209,
+      4
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 172889,
+    "d": 3510,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      340,
+      1
+     ],
+     [
+      864,
+      2
+     ],
+     [
+      1743,
+      3
+     ],
+     [
+      2044,
+      4
+     ],
+     [
+      2567,
+      5
+     ],
+     [
+      2868,
+      6
+     ],
+     [
+      3169,
+      7
+     ]
+    ]
+   },
+   "p6": {
+    "s": 176700,
+    "d": 17611,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1290,
+      5
+     ],
+     [
+      1389,
+      6
+     ],
+     [
+      1509,
+      7
+     ],
+     [
+      2370,
+      8
+     ],
+     [
+      2829,
+      9
+     ],
+     [
+      3249,
+      10
+     ],
+     [
+      3449,
+      11
+     ],
+     [
+      3769,
+      12
+     ],
+     [
+      4069,
+      13
+     ],
+     [
+      4410,
+      14
+     ],
+     [
+      5289,
+      15
+     ],
+     [
+      5509,
+      16
+     ],
+     [
+      5709,
+      17
+     ],
+     [
+      6669,
+      18
+     ],
+     [
+      7129,
+      19
+     ],
+     [
+      7629,
+      20
+     ],
+     [
+      7910,
+      21
+     ],
+     [
+      8109,
+      22
+     ],
+     [
+      8249,
+      23
+     ],
+     [
+      9129,
+      24
+     ],
+     [
+      9310,
+      25
+     ],
+     [
+      9529,
+      26
+     ],
+     [
+      10149,
+      27
+     ],
+     [
+      10310,
+      28
+     ],
+     [
+      10529,
+      29
+     ],
+     [
+      11089,
+      30
+     ],
+     [
+      11369,
+      31
+     ],
+     [
+      11589,
+      32
+     ],
+     [
+      11770,
+      33
+     ],
+     [
+      12329,
+      34
+     ],
+     [
+      12669,
+      35
+     ],
+     [
+      12789,
+      36
+     ],
+     [
+      12930,
+      37
+     ],
+     [
+      13850,
+      38
+     ],
+     [
+      13989,
+      39
+     ],
+     [
+      14409,
+      40
+     ],
+     [
+      15449,
+      41
+     ],
+     [
+      15930,
+      42
+     ],
+     [
+      16350,
+      43
+     ],
+     [
+      16829,
+      44
+     ],
+     [
+      17049,
+      45
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 194612,
+    "d": 1285,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      744,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p6h-nine": {
+    "s": 196197,
+    "d": 2156,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1290,
+      4
+     ]
+    ]
+   },
+   "p6m": {
+    "s": 198654,
+    "d": 3394,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      1949,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      2549,
+      8
+     ],
+     [
+      2689,
+      9
+     ],
+     [
+      2809,
+      10
+     ]
+    ]
+   }
+  }
+ }
+}

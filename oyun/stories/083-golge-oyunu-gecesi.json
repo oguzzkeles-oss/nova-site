@@ -1,0 +1,2333 @@
+{
+ "id": "083-golge-oyunu-gecesi",
+ "n": 83,
+ "title": "Gölge Oyunu Gecesi",
+ "age": "60-72",
+ "area": "Sanat",
+ "theme": "Geleneksel gölge oyunu, şekil ve gölge, izleyici önünde anlatma",
+ "values": [
+  "D7 Estetik"
+ ],
+ "sdb": "SDB2.1 İletişim",
+ "min": 5,
+ "blurb": "Aylı bir gece dede, Deniz'e çocukluğundaki Karagöz perdesini anlatır ve odada küçük bir gölge oyunu kurar. Deniz kartondan kendi kalbini keser, gölgeleri figürleriyle eşleştirir, sonra heyecanını yenip kendi minik oyununu sahneler.",
+ "codes": {
+  "maarif": [
+   "SNAB.3 Sanat eserlerine ve sanatçılara değer verebilme",
+   "SNAB.2 Sanat eseri inceleyebilme",
+   "OB5 Kültür Okuryazarlığı",
+   "SNAB.1 Temel sanat kavramlarını ve türlerini anlayabilme (teyitsiz)",
+   "SDB2.1 İletişim",
+   "D7 Estetik"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "deniz": "cocuk-kiz",
+  "dede": "dede",
+  "pamuk": "kucuk-hayvan",
+  "ay": "anne"
+ },
+ "voiceNames": {
+  "deniz": "Deniz",
+  "dede": "Dede (Deniz'in dedesi)",
+  "pamuk": "Pamuk (kedi)",
+  "ay": "Ay"
+ },
+ "pages": [
+  {
+   "text": "Gece oldu. İnce ay pencereden içeri gülümsüyordu. Pamuk kedi yastığa kıvrıldı. Deniz'in uykusu hiç yoktu. Dede göz kırptı: “Büyük ışığı söndürelim. Bu gece gölge oyunu gecesi!” Hadi, el fenerini yak!",
+   "scene": {
+    "set": "oda-gece",
+    "time": "night",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 128,
+      "y": 234,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "open",
+      "turn": 0.4,
+      "hit": "deniz"
+     },
+     {
+      "k": "dede",
+      "x": 300,
+      "y": 226,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "point",
+      "flip": true,
+      "hit": "dede"
+     },
+     {
+      "k": "kedi",
+      "x": 52,
+      "y": 214,
+      "s": 0.75,
+      "mood": "sleep",
+      "pose": "lie",
+      "hit": "pamuk",
+      "z": 240
+     },
+     {
+      "k": "ay",
+      "x": 132,
+      "y": 62,
+      "s": 0.62,
+      "phase": "hilal",
+      "mood": "happy",
+      "hit": "ay"
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 54,
+      "y": 236,
+      "s": 1.3
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 374,
+      "y": 232,
+      "s": 0.9
+     },
+     {
+      "k": "el-feneri",
+      "x": 206,
+      "y": 166,
+      "s": 0.85,
+      "len": 150,
+      "state": "off",
+      "z": 200,
+      "hit": "fener"
+     }
+    ],
+    "lamp": false,
+    "moon": false
+   },
+   "hits": {
+    "dede": {
+     "say": "Bu gece gölge oyunu var!",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "deniz": {
+     "say": "Gölge oyunu mu? O ne ki?",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "ay": {
+     "say": "Ben de izleyeceğim!",
+     "voice": "ay",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "pamuk": {
+     "say": "Mırrr...",
+     "voice": "pamuk",
+     "anim": "wiggle",
+     "fx": "meow"
+    },
+    "fener": {
+     "fn": "toggle",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "fener",
+    "Feneri yak!"
+   ],
+   "ask": "Sence gölge oyunu nasıl bir oyun? Sen hiç gölgenle oynadın mı?"
+  },
+  {
+   "text": "Dede, Deniz'in beyaz yazı tahtasını perde yaptı. Kutudan karton bir yıldız, yuvarlak bir ay çıkardı. Deniz de çocuk makasıyla kartondan bir kalp kesti. Dede anlattı: “Ben senin yaşındayken Karagöz izlerdim. Herkes kahkahalarla gülerdi!”",
+   "scene": {
+    "set": "oda-gece",
+    "time": "night",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 92,
+      "y": 234,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "sekil",
+      "holdO": {
+       "shape": "heart"
+      },
+      "turn": 0.5,
+      "hit": "deniz",
+      "holdS": 0.85
+     },
+     {
+      "k": "dede",
+      "x": 196,
+      "y": 228,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "open",
+      "turn": 0.4,
+      "hit": "dede"
+     },
+     {
+      "k": "ay",
+      "x": 132,
+      "y": 62,
+      "s": 0.62,
+      "phase": "hilal",
+      "mood": "happy"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 348,
+      "y": 227,
+      "s": 1.2,
+      "hit": "perde",
+      "z": 236
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "x": 300,
+      "y": 236,
+      "s": 1.3,
+      "hit": "f1"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "x": 356,
+      "y": 236,
+      "s": 1.25,
+      "color": "#F4D35A",
+      "hit": "f2"
+     },
+     {
+      "k": "makas",
+      "x": 50,
+      "y": 232,
+      "s": 1.1,
+      "open": true
+     },
+     {
+      "k": "kagit",
+      "x": 140,
+      "y": 236,
+      "s": 1.0,
+      "color": "#F6B8C8"
+     },
+     {
+      "k": "el-feneri",
+      "x": 206,
+      "y": 166,
+      "s": 0.85,
+      "len": 150,
+      "state": "off",
+      "z": 200
+     }
+    ],
+    "lamp": false,
+    "moon": false
+   },
+   "hits": {
+    "dede": {
+     "say": "Ninen de Hacivat'ı ne güzel seslendirirdi!",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "deniz": {
+     "say": "Ben de oynatabilir miyim? Ya beceremezsem?",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "f": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "perde": {
+     "anim": "wiggle",
+     "fx": "whoosh"
+    }
+   },
+   "hint": [
+    "dede",
+    "Dedeye dokun!"
+   ],
+   "ask": "Sen hiç Karagöz ile Hacivat'ı duydun mu? Büyüklerin küçükken neler izlermiş?",
+   "cues": [
+    {
+     "w": 31,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Dede turuncu yıldızı fenerin önüne tuttu. Deniz nefesini tuttu. Işık yıldıza çarpacak. Perdeye bir gölge düşecek. Ama o gölge ne renk olacak?",
+   "scene": {
+    "set": "oda-gece",
+    "time": "night",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 268,
+      "y": 228,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "sekil",
+      "holdO": {
+       "shape": "star"
+      },
+      "turn": 0.5,
+      "hit": "dede",
+      "holdS": 1.05
+     },
+     {
+      "k": "deniz",
+      "x": 112,
+      "y": 234,
+      "s": 1.05,
+      "mood": "think",
+      "pose": "stand",
+      "turn": 0.5,
+      "hit": "deniz"
+     },
+     {
+      "k": "ay",
+      "x": 132,
+      "y": 62,
+      "s": 0.62,
+      "phase": "hilal",
+      "mood": "happy"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 348,
+      "y": 227,
+      "s": 1.2,
+      "hit": "perde",
+      "z": 236
+     },
+     {
+      "k": "qmark",
+      "x": 348,
+      "y": 150,
+      "s": 1.2,
+      "z": 260
+     },
+     {
+      "k": "el-feneri",
+      "x": 206,
+      "y": 166,
+      "s": 0.85,
+      "len": 150,
+      "state": "on",
+      "z": 200,
+      "hit": "fener"
+     }
+    ],
+    "lamp": false,
+    "moon": false
+   },
+   "hits": {
+    "dede": {
+     "say": "Hazır mısın? Bir, iki, üç!",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "deniz": {
+     "say": "Hmm, turuncu mu olacak acaba?",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "fener": {
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "predict": {
+    "q": "Sence gölge ne renk olacak?",
+    "res": "Karton ışığı geçirmez, gölgesi koyu olur. Şekli kalır, rengi kalmaz!",
+    "opts": [
+     {
+      "l": "Turuncu",
+      "scene": {
+       "set": "oda-gece",
+       "time": "night",
+       "cast": [
+        {
+         "k": "deniz",
+         "x": 112,
+         "y": 234,
+         "s": 1.05,
+         "mood": "surprised",
+         "pose": "point",
+         "turn": 0.5
+        },
+        {
+         "k": "dede",
+         "x": 262,
+         "y": 228,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "sekil",
+         "holdO": {
+          "shape": "star"
+         },
+         "turn": 0.5,
+         "holdS": 1.05
+        },
+        {
+         "k": "ay",
+         "x": 132,
+         "y": 62,
+         "s": 0.62,
+         "phase": "hilal",
+         "mood": "happy"
+        }
+       ],
+       "props": [
+        {
+         "k": "tahta",
+         "kind": "beyaz",
+         "show": "bos",
+         "x": 348,
+         "y": 236,
+         "s": 1.2,
+         "z": 236
+        },
+        {
+         "k": "sekil",
+         "shape": "star",
+         "x": 348,
+         "y": 164,
+         "s": 1.8,
+         "z": 260
+        },
+        {
+         "k": "el-feneri",
+         "x": 206,
+         "y": 166,
+         "s": 0.85,
+         "len": 150,
+         "state": "on",
+         "z": 200
+        }
+       ],
+       "lamp": false,
+       "moon": false
+      }
+     },
+     {
+      "l": "Kapkara",
+      "scene": {
+       "set": "oda-gece",
+       "time": "night",
+       "cast": [
+        {
+         "k": "deniz",
+         "x": 112,
+         "y": 234,
+         "s": 1.05,
+         "mood": "surprised",
+         "pose": "point",
+         "turn": 0.5
+        },
+        {
+         "k": "dede",
+         "x": 262,
+         "y": 228,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "sekil",
+         "holdO": {
+          "shape": "star"
+         },
+         "turn": 0.5,
+         "holdS": 1.05
+        },
+        {
+         "k": "ay",
+         "x": 132,
+         "y": 62,
+         "s": 0.62,
+         "phase": "hilal",
+         "mood": "happy"
+        }
+       ],
+       "props": [
+        {
+         "k": "tahta",
+         "kind": "beyaz",
+         "show": "bos",
+         "x": 348,
+         "y": 236,
+         "s": 1.2,
+         "z": 236
+        },
+        {
+         "k": "sekil",
+         "shape": "star",
+         "x": 348,
+         "y": 164,
+         "s": 1.8,
+         "color": "#2A2438",
+         "z": 260
+        },
+        {
+         "k": "el-feneri",
+         "x": 206,
+         "y": 166,
+         "s": 0.85,
+         "len": 150,
+         "state": "on",
+         "z": 200
+        }
+       ],
+       "lamp": false,
+       "moon": false
+      }
+     }
+    ]
+   },
+   "hint": [
+    "dede",
+    "Dedeye dokun!"
+   ],
+   "ask": "Sence gölge neden koyu olur? Kendi gölgeni hiç renkli gördün mü?"
+  },
+  {
+   "text": "Vıpp! Perdede kapkara bir yıldız belirdi. Sonra bir kalp, sonra yuvarlak bir ay. Renkler kayboldu, şekiller kaldı! Pamuk fenerin önüne zıpladı. Perdede kocaman kulaklı bir gölge! Dede kahkahayı bastı.",
+   "scene": {
+    "set": "oda-gece",
+    "time": "night",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 272,
+      "y": 226,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "sekil",
+      "holdO": {
+       "shape": "heart"
+      },
+      "turn": 0.5,
+      "hit": "dede",
+      "holdS": 0.95
+     },
+     {
+      "k": "deniz",
+      "x": 140,
+      "y": 234,
+      "s": 1.1,
+      "mood": "think",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "deniz"
+     },
+     {
+      "k": "kedi",
+      "x": 214,
+      "y": 226,
+      "s": 0.7,
+      "mood": "happy",
+      "pose": "jump",
+      "hit": "pamuk"
+     },
+     {
+      "k": "ay",
+      "x": 132,
+      "y": 62,
+      "s": 0.62,
+      "phase": "hilal",
+      "mood": "happy"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 348,
+      "y": 227,
+      "s": 1.2,
+      "hit": "perde",
+      "z": 236
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "color": "#2A2438",
+      "x": 316,
+      "y": 160,
+      "s": 1.15,
+      "z": 260,
+      "hit": "g2"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#2A2438",
+      "x": 345,
+      "y": 160,
+      "s": 1.15,
+      "z": 260,
+      "hit": "g3"
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#2A2438",
+      "x": 374,
+      "y": 160,
+      "s": 1.15,
+      "z": 260,
+      "hit": "g1"
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "x": 40,
+      "y": 238,
+      "s": 1.3,
+      "hit": "f1"
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "x": 78,
+      "y": 238,
+      "s": 1.3,
+      "hit": "f2"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "x": 116,
+      "y": 238,
+      "s": 1.2,
+      "color": "#F4D35A",
+      "hit": "f3"
+     },
+     {
+      "k": "el-feneri",
+      "x": 206,
+      "y": 166,
+      "s": 0.85,
+      "len": 150,
+      "state": "on",
+      "z": 200
+     }
+    ],
+    "lamp": false,
+    "moon": false
+   },
+   "hits": {
+    "dede": {
+     "say": "Şekline bak, rengine değil!",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "deniz": {
+     "say": "Bu sivri uçlar yıldızın!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "pamuk": {
+     "say": "Miyav! Kulaklarım kocaman!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "meow"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "f1",
+      "g1"
+     ],
+     [
+      "f2",
+      "g2"
+     ],
+     [
+      "f3",
+      "g3"
+     ]
+    ],
+    "done": "Her figür kendi gölgesini buldu!",
+    "msg": "Gölgeler eşleşti!"
+   },
+   "hint": [
+    "f1",
+    "Figürü gölgesiyle eşleştir!"
+   ],
+   "ask": "Gölge ile figür neyle aynı, neyle farklı?",
+   "cues": [
+    {
+     "w": 27,
+     "fx": "kahkaha"
+    }
+   ]
+  },
+  {
+   "text": "Sıra Deniz'deydi. Deniz heyecanlandı, dizleri titredi. “Ya unutursam?” Dede fısıldadı: “Önce derin bir nefes.” Deniz nefes aldı, üfledi. Sonra başladı: “Önce yıldız doğdu. Sonra ay geldi. En sonda kalp: İyi geceler!”",
+   "scene": {
+    "set": "oda-gece",
+    "time": "night",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 258,
+      "y": 234,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "sekil",
+      "holdO": {
+       "shape": "heart"
+      },
+      "turn": 0.6,
+      "hit": "deniz",
+      "holdS": 0.85
+     },
+     {
+      "k": "dede",
+      "x": 72,
+      "y": 210,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "sit",
+      "turn": 0.5,
+      "hit": "dede"
+     },
+     {
+      "k": "kedi",
+      "x": 140,
+      "y": 232,
+      "s": 0.72,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "pamuk"
+     },
+     {
+      "k": "ay",
+      "x": 132,
+      "y": 62,
+      "s": 0.62,
+      "phase": "hilal",
+      "mood": "happy"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 348,
+      "y": 227,
+      "s": 1.2,
+      "hit": "perde",
+      "z": 236
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "color": "#2A2438",
+      "x": 316,
+      "y": 160,
+      "s": 1.15,
+      "z": 260,
+      "hit": "g3"
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#2A2438",
+      "x": 345,
+      "y": 160,
+      "s": 1.15,
+      "z": 260,
+      "hit": "g1"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#2A2438",
+      "x": 374,
+      "y": 160,
+      "s": 1.15,
+      "z": 260,
+      "hit": "g2"
+     },
+     {
+      "k": "el-feneri",
+      "x": 206,
+      "y": 166,
+      "s": 0.85,
+      "len": 150,
+      "state": "on",
+      "z": 200
+     }
+    ],
+    "lamp": false,
+    "moon": false
+   },
+   "hits": {
+    "deniz": {
+     "say": "Hazır mısınız? Oyun başlıyor!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "dede": {
+     "say": "Acele yok, Denizim. Seni dinliyoruz.",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "pamuk": {
+     "say": "Miyav!",
+     "voice": "pamuk",
+     "anim": "boing",
+     "fx": "meow"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "g1",
+     "g2",
+     "g3"
+    ],
+    "done": "Yıldız, ay, kalp. Oyun bitti!",
+    "msg": "Ne güzel sıraladın!"
+   },
+   "hint": [
+    "g1",
+    "Gölgelere sırayla dokun!"
+   ],
+   "ask": "Herkesin önünde konuşurken sen nasıl hissedersin? Heyecanlanınca ne yaparsın?"
+  },
+  {
+   "text": "Dede alkışladı: şak şak şak! Pamuk kuyruğunu dikti. “Ne güzel anlattın, Deniz'im!” dedi Dede. “Yarın sana gerçek Karagöz göstereyim. Onun figürleri ışık geçiren ince deriden yapılır; perdede renkli görünür.” Deniz'in içi ışıl ışıl oldu. Fener söndü, gölgeler de uyudu. İyi geceler!",
+   "scene": {
+    "set": "oda-gece",
+    "time": "night",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 246,
+      "y": 228,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "hit": "dede"
+     },
+     {
+      "k": "deniz",
+      "x": 170,
+      "y": 234,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "wave",
+      "turn": 0.3,
+      "hit": "deniz"
+     },
+     {
+      "k": "kedi",
+      "x": 330,
+      "y": 236,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true,
+      "hit": "pamuk"
+     },
+     {
+      "k": "ay",
+      "x": 132,
+      "y": 62,
+      "s": 0.62,
+      "phase": "hilal",
+      "mood": "sleep",
+      "hit": "ay"
+     }
+    ],
+    "props": [
+     {
+      "k": "tahta",
+      "kind": "beyaz",
+      "show": "bos",
+      "x": 350,
+      "y": 204,
+      "s": 1.1
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "x": 64,
+      "y": 232,
+      "s": 1.1
+     },
+     {
+      "k": "sekil",
+      "shape": "heart",
+      "x": 100,
+      "y": 234,
+      "s": 1.1
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "color": "#F4D35A",
+      "x": 136,
+      "y": 234,
+      "s": 1.05
+     },
+     {
+      "k": "el-feneri",
+      "x": 206,
+      "y": 166,
+      "s": 0.85,
+      "len": 150,
+      "state": "off",
+      "z": 200
+     }
+    ],
+    "lamp": false,
+    "moon": false
+   },
+   "hits": {
+    "dede": {
+     "say": "Karagöz figürleri ince deriden, ışık geçer!",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "success"
+    },
+    "deniz": {
+     "say": "Yarın gerçek Karagöz izleyelim mi?",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "pamuk": {
+     "say": "Miyavv!",
+     "voice": "pamuk",
+     "anim": "boing",
+     "fx": "meow"
+    },
+    "ay": {
+     "say": "İyi geceler, Deniz!",
+     "voice": "ay",
+     "anim": "wiggle",
+     "fx": "lullaby"
+    }
+   },
+   "hint": [
+    "ay",
+    "Aya iyi geceler de!"
+   ],
+   "ask": "Sen bir gölge oyunu yapsan hangi figürü keserdin? Ne anlatırdı?",
+   "cues": [
+    {
+     "w": 1,
+     "fx": "alkis"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.3 Sanat eserlerine ve sanatçılara değer verebilme: Gölge oyununun ışık, perde ve figürle nasıl yapıldığına ilişkin tahmin yürütür; karton gölgeyle Karagöz'ün renkli deri figürlerini karşılaştırır; dedenin anlattığı geleneksel eseri merakla dinler ve ona değer verir.",
+   "SNAB.2 Sanat eseri inceleyebilme: Perdedeki gölgeleri inceler, eserle ilgili sorular sorar (SNAB.2.ç); izlediği ve sergilediği oyunla ilgili duygu ve düşüncelerini ifade eder (SNAB.2.g).",
+   "OB5 Kültür Okuryazarlığı: Karagöz ile Hacivat'ı Türkiye'nin geleneksel gölge oyunu olarak tanır; figürlerinin ince, boyalı deriden yapıldığını ve perdede renkli göründüğünü öğrenir; büyüklerinin çocukluğundaki eğlencelerle bugünkü oyunlarını karşılaştırır.",
+   "SNAB.1 Temel sanat kavramlarını ve türlerini anlayabilme (teyitsiz): Gölge oyununu resimden, heykelden farklı bir sanat türü olarak ayırt eder (ışık + perde + figür).",
+   "SDB2.1 İletişim: Dinleyicilerin önünde heyecanını fark edip adını koyar, derin nefesle sakinleşir; kısa bir öyküyü sırayla (önce–sonra–en sonda) anlatır, dinleyenlere göz teması kurar.",
+   "D7 Estetik: Işık, gölge ve şekillerin oluşturduğu güzelliği fark eder; kartondan kestiği kendi figürüyle estetik bir ürün ortaya koyar."
+  ],
+  "once": [
+   "Kapak resmine bakın: “Oda neden karanlık? Dede ne hazırlıyor olabilir?”",
+   "Bir el feneriyle duvarda elinizin gölgesini gösterin; “Gölge nereden geliyor?” diye sorun.",
+   "Karagöz ile Hacivat'ı kısaca tanıtın: “Çok eskiden beri insanlar perdenin arkasında ışık yakıp figürlerle masal oynatır.”"
+  ],
+  "sirasi": [
+   "1. sayfada el fenerine dokunmadan önce “Işığı yakınca ne olacak?” diye sorun.",
+   "2. sayfada Deniz'in “Ya beceremezsem?” endişesini fark ettirin: “Sen yeni bir şey denerken nasıl hissedersin?”",
+   "3. sayfada tahmini söylettikten sonra hemen yanıtı vermeyin; nedenini soruşturun. Yanıttan sonra “Karton ışığı geçirir mi?” diye sorun.",
+   "4. sayfada çocuk önce renkli figüre, sonra gölgesine dokunsun; “Sivri uçlar, yuvarlak kenar” gibi şekil sözcükleri kullanın. Pamuk'un kulaklı gölgesine birlikte gülün.",
+   "5. sayfada Deniz'le birlikte derin bir nefes alın; sonra “Önce… sonra… en sonda…” diye oyunu birlikte anlatın. Gölgeler karışık dizili; çocuk sırayı masaldan hatırlasın."
+  ],
+  "sonra": [
+   "Masalda önce ne oldu, sonra ne oldu? Üç resmi sıraya koyalım: dedenin anısı, gölge eşleştirme, Deniz'in oyunu.",
+   "Gölgeler neden kapkaraydı? Karton figürden gölgeye ne kaldı?",
+   "Gerçek Karagöz tasvirlerinin fotoğrafına ya da kısa bir videosuna birlikte bakın: “Bunlar ince deriden, ışık içinden geçiyor. Perdede renkleri görebiliyor musun?”",
+   "Deniz heyecanlanınca ne yaptı? Sen heyecanlanınca ne yaparsın?",
+   "Karagöz'ü dedenle, ninenle ya da bir büyüğünle konuşsan ona ne sorardın?"
+  ],
+  "sinif": {
+   "ad": "Sınıfta Gölge Perdesi",
+   "sure": "30 dk",
+   "materyal": "Beyaz çarşaf ya da aydınger kâğıdı, LED el feneri, karton, renkli asetat ya da aydınger, güvenlikli makas, dondurma çubukları, bant; Karagöz tasvirlerinin fotoğrafı ya da kısa videosu",
+   "adim": [
+    "Çarşafı iki sandalye arasına gerin; LED el fenerini arkaya yerleştirin (sıcak ampul kullanmayın).",
+    "Dijital ortamda gerçek Karagöz tasvirlerini inceleyin: “Neden perdede renkli görünüyorlar?”",
+    "Her çocuk kartondan bir şekil ya da hayvan figürü kessin ve çubuğa yapıştırsın; kesimi öğretmen desteklesin.",
+    "Figürleri fener ile perde arasında tutun; çocuklar sırayla perdedeki gölgeyi doğru figürle eşleştirsin.",
+    "Renkli asetat ya da aydınger bir figürle kartonu karşılaştırın: Hangisinin gölgesi renkli?",
+    "Küçük gruplar “Önce… sonra… en sonda…” kalıbıyla üç sahnelik bir oyun sergilesin; izleyiciler alkışlasın ve beğendikleri bir şeyi söylesin."
+   ]
+  },
+  "evSoru": [
+   "Dede küçükken ne izlermiş?",
+   "Karton yıldızın gölgesi neden turuncu değil de koyuydu?",
+   "Deniz heyecanlanınca ne yaptı?"
+  ],
+  "evEtk": {
+   "ad": "Yatak odasında gölge gecesi",
+   "d": "Akşam büyük ışığı kapatıp bir el fenerini duvara tutun. Ellerinizle kuş, tavşan, köpek gölgeleri yapın ya da kartondan bir figür kesin. Çocuğunuz kısa bir öykü anlatsın; siz izleyici olun, sonunda alkışlayın."
+  },
+  "aileNotu": "Bugün “Gölge Oyunu Gecesi” masalını okuduk. Deniz, dedesinden Karagöz geleneğini dinledi, kartondan kendi kalbini kesti, gölgeleri figürleriyle eşleştirdi ve heyecanına rağmen kendi küçük oyununu sergiledi. Evde bir el feneriyle gölge oyunu oynayabilir, birlikte gerçek Karagöz figürlerinin renkli perde görüntülerine bakabilir, çocuğunuza kendi çocukluğunuzdaki eğlenceleri anlatabilirsiniz. Lütfen sıcak ampul ya da mum yerine LED ışık kullanın."
+ },
+ "audio": {
+  "file": "audio/083-golge-oyunu-gecesi.mp3",
+  "hash": "320d59f6",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15053,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2849,
+      6
+     ],
+     [
+      4169,
+      7
+     ],
+     [
+      4489,
+      8
+     ],
+     [
+      4769,
+      9
+     ],
+     [
+      5269,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      6729,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      7609,
+      14
+     ],
+     [
+      8489,
+      15
+     ],
+     [
+      8789,
+      16
+     ],
+     [
+      9049,
+      17
+     ],
+     [
+      9949,
+      18
+     ],
+     [
+      10230,
+      19
+     ],
+     [
+      10569,
+      20
+     ],
+     [
+      11509,
+      21
+     ],
+     [
+      11649,
+      22
+     ],
+     [
+      12069,
+      23
+     ],
+     [
+      12469,
+      24
+     ],
+     [
+      12729,
+      25
+     ],
+     [
+      13549,
+      26
+     ],
+     [
+      14089,
+      27
+     ],
+     [
+      14249,
+      28
+     ],
+     [
+      14689,
+      29
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 15353,
+    "d": 1673,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1249,
+      4
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 17327,
+    "d": 2193,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1849,
+      5
+     ]
+    ]
+   },
+   "p0h-ay": {
+    "s": 19821,
+    "d": 1168,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      222,
+      1
+     ],
+     [
+      404,
+      2
+     ]
+    ]
+   },
+   "p0h-pamuk": {
+    "s": 21290,
+    "d": 1012,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p1": {
+    "s": 22603,
+    "d": 17238,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2390,
+      5
+     ],
+     [
+      2789,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      4629,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      6089,
+      12
+     ],
+     [
+      6370,
+      13
+     ],
+     [
+      6569,
+      14
+     ],
+     [
+      7569,
+      15
+     ],
+     [
+      7930,
+      16
+     ],
+     [
+      8190,
+      17
+     ],
+     [
+      8509,
+      18
+     ],
+     [
+      9129,
+      19
+     ],
+     [
+      9770,
+      20
+     ],
+     [
+      9969,
+      21
+     ],
+     [
+      10270,
+      22
+     ],
+     [
+      11230,
+      23
+     ],
+     [
+      11529,
+      24
+     ],
+     [
+      12509,
+      25
+     ],
+     [
+      12770,
+      26
+     ],
+     [
+      13069,
+      27
+     ],
+     [
+      13829,
+      28
+     ],
+     [
+      14329,
+      29
+     ],
+     [
+      15209,
+      30
+     ],
+     [
+      15769,
+      31
+     ],
+     [
+      16610,
+      32
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 40141,
+    "d": 2673,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1349,
+      4
+     ],
+     [
+      1670,
+      5
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 43115,
+    "d": 3065,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      255,
+      1
+     ],
+     [
+      470,
+      2
+     ],
+     [
+      1324,
+      3
+     ],
+     [
+      1955,
+      4
+     ],
+     [
+      2171,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 46481,
+    "d": 10524,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3449,
+      7
+     ],
+     [
+      3969,
+      8
+     ],
+     [
+      4850,
+      9
+     ],
+     [
+      5209,
+      10
+     ],
+     [
+      5629,
+      11
+     ],
+     [
+      6569,
+      12
+     ],
+     [
+      7009,
+      13
+     ],
+     [
+      7189,
+      14
+     ],
+     [
+      7569,
+      15
+     ],
+     [
+      8529,
+      16
+     ],
+     [
+      8969,
+      17
+     ],
+     [
+      9069,
+      18
+     ],
+     [
+      9549,
+      19
+     ],
+     [
+      9690,
+      20
+     ],
+     [
+      9969,
+      21
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 57306,
+    "d": 2964,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      563,
+      1
+     ],
+     [
+      1443,
+      2
+     ],
+     [
+      1921,
+      3
+     ],
+     [
+      2623,
+      4
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 60570,
+    "d": 2413,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1829,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 63283,
+    "d": 2107,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 65691,
+    "d": 5287,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2630,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      4310,
+      8
+     ],
+     [
+      4649,
+      9
+     ]
+    ]
+   },
+   "p3": {
+    "s": 71279,
+    "d": 14992,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2370,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      3589,
+      7
+     ],
+     [
+      3769,
+      8
+     ],
+     [
+      4509,
+      9
+     ],
+     [
+      4830,
+      10
+     ],
+     [
+      5390,
+      11
+     ],
+     [
+      5629,
+      12
+     ],
+     [
+      6289,
+      13
+     ],
+     [
+      6749,
+      14
+     ],
+     [
+      7709,
+      15
+     ],
+     [
+      8249,
+      16
+     ],
+     [
+      9049,
+      17
+     ],
+     [
+      9369,
+      18
+     ],
+     [
+      9810,
+      19
+     ],
+     [
+      10129,
+      20
+     ],
+     [
+      10890,
+      21
+     ],
+     [
+      11390,
+      22
+     ],
+     [
+      11949,
+      23
+     ],
+     [
+      12390,
+      24
+     ],
+     [
+      12589,
+      25
+     ],
+     [
+      13449,
+      26
+     ],
+     [
+      13829,
+      27
+     ],
+     [
+      14449,
+      28
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 86572,
+    "d": 2046,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 88918,
+    "d": 2068,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1249,
+      3
+     ]
+    ]
+   },
+   "p3h-pamuk": {
+    "s": 91286,
+    "d": 2411,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1550,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 93998,
+    "d": 2165,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 96463,
+    "d": 18161,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2930,
+      4
+     ],
+     [
+      3390,
+      5
+     ],
+     [
+      4330,
+      6
+     ],
+     [
+      4509,
+      7
+     ],
+     [
+      5709,
+      8
+     ],
+     [
+      5989,
+      9
+     ],
+     [
+      7049,
+      10
+     ],
+     [
+      7509,
+      11
+     ],
+     [
+      8029,
+      12
+     ],
+     [
+      8169,
+      13
+     ],
+     [
+      9169,
+      14
+     ],
+     [
+      9549,
+      15
+     ],
+     [
+      9969,
+      16
+     ],
+     [
+      10709,
+      17
+     ],
+     [
+      11669,
+      18
+     ],
+     [
+      12009,
+      19
+     ],
+     [
+      12969,
+      20
+     ],
+     [
+      13329,
+      21
+     ],
+     [
+      13749,
+      22
+     ],
+     [
+      14469,
+      23
+     ],
+     [
+      14949,
+      24
+     ],
+     [
+      15149,
+      25
+     ],
+     [
+      15930,
+      26
+     ],
+     [
+      16149,
+      27
+     ],
+     [
+      16589,
+      28
+     ],
+     [
+      17370,
+      29
+     ],
+     [
+      17509,
+      30
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 114925,
+    "d": 2337,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      447,
+      1
+     ],
+     [
+      1307,
+      2
+     ],
+     [
+      1715,
+      3
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 117562,
+    "d": 2146,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1489,
+      4
+     ]
+    ]
+   },
+   "p4h-pamuk": {
+    "s": 120008,
+    "d": 758,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 121066,
+    "d": 3045,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      2289,
+      3
+     ],
+     [
+      2569,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 124412,
+    "d": 20015,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      4149,
+      8
+     ],
+     [
+      4290,
+      9
+     ],
+     [
+      4629,
+      10
+     ],
+     [
+      5149,
+      11
+     ],
+     [
+      5910,
+      12
+     ],
+     [
+      6169,
+      13
+     ],
+     [
+      6809,
+      14
+     ],
+     [
+      7129,
+      15
+     ],
+     [
+      7410,
+      16
+     ],
+     [
+      7849,
+      17
+     ],
+     [
+      8310,
+      18
+     ],
+     [
+      9249,
+      19
+     ],
+     [
+      9529,
+      20
+     ],
+     [
+      10249,
+      21
+     ],
+     [
+      10549,
+      22
+     ],
+     [
+      11049,
+      23
+     ],
+     [
+      11329,
+      24
+     ],
+     [
+      11810,
+      25
+     ],
+     [
+      12469,
+      26
+     ],
+     [
+      13029,
+      27
+     ],
+     [
+      13409,
+      28
+     ],
+     [
+      14270,
+      29
+     ],
+     [
+      14769,
+      30
+     ],
+     [
+      15129,
+      31
+     ],
+     [
+      15489,
+      32
+     ],
+     [
+      15810,
+      33
+     ],
+     [
+      16509,
+      34
+     ],
+     [
+      16930,
+      35
+     ],
+     [
+      17749,
+      36
+     ],
+     [
+      18329,
+      37
+     ],
+     [
+      18489,
+      38
+     ],
+     [
+      19270,
+      39
+     ],
+     [
+      19409,
+      40
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 144727,
+    "d": 3252,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      2689,
+      5
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 148280,
+    "d": 2365,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2089,
+      4
+     ]
+    ]
+   },
+   "p5h-pamuk": {
+    "s": 150946,
+    "d": 844,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-ay": {
+    "s": 152091,
+    "d": 1193,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      335,
+      1
+     ],
+     [
+      857,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

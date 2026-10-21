@@ -1,0 +1,2079 @@
+{
+ "id": "081-batar-mi-yuzer-mi",
+ "lang": "en",
+ "title": "Sink or Float?",
+ "theme": "Sinking and floating: predict, try, observe, sort; being able to say honestly that you were wrong",
+ "blurb": "Ali and Zeynep think big things sink and small things float. When the huge block floats in Miss Selin's bowl of water and the tiny coin sinks, they both laugh and say, “I was wrong!”",
+ "voiceNames": {
+  "ali": "Ali",
+  "zeynep": "Zeynep",
+  "ogretmen": "Miss Selin"
+ },
+ "pages": [
+  {
+   "text": "In the science corner of the classroom stood a big glass bowl. It was full of water. Miss Selin brought a plate. “Today we're doing an experiment with water!” What's on the plate?",
+   "mech": {
+    "done": "Four things: a leaf, a stone, a block, a coin!",
+    "msg": "Four things!"
+   },
+   "hits": {
+    "ogretmen": {
+     "say": "Today we're doing an experiment with water!"
+    },
+    "zeynep": {
+     "say": "Hooray, water play!"
+    },
+    "ali": {
+     "say": "This bowl is so big!"
+    },
+    "kap": {
+     "say": "The bowl is full of water."
+    }
+   },
+   "hint": "Count the things on the plate!",
+   "ask": "What's on the plate? What would you like to put in the water?"
+  },
+  {
+   "text": "Ali put up his finger. “Big things sink, small things float!” Zeynep nodded. “I think so too! The huge block will sink for sure.” Miss Selin smiled. “First we guess. Then we try it and see.”",
+   "hits": {
+    "ali": {
+     "say": "Big things sink, small things float!"
+    },
+    "zeynep": {
+     "say": "The huge block will sink for sure!"
+    },
+    "ogretmen": {
+     "say": "First guess, then try!"
+    },
+    "blok": {
+     "say": "A great big wooden block."
+    },
+    "para": {
+     "say": "A tiny little coin."
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "Do you think big things always sink? Why do you think so?"
+  },
+  {
+   "text": "Zeynep picked up the big wooden block. She came to the bowl. Now she'll drop it in! Everyone held their breath. What will the block do?",
+   "predict": {
+    "q": "What do you think the wooden block will do?",
+    "res": "Let's find out!",
+    "opts": [
+     {
+      "l": "Sink"
+     },
+     {
+      "l": "Float"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "It'll sink, watch!"
+    },
+    "ali": {
+     "say": "Hmmm! Let's wait!"
+    },
+    "ogretmen": {
+     "say": "Keep your eyes on it."
+    },
+    "kap": {
+     "say": "The water is sparkly and still."
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "What's your guess? Why do you think so?"
+  },
+  {
+   "text": "Plop! The block didn't sink. It bobbed and bobbed on the water. Zeynep felt shy. Her cheeks went hot. Then she took a deep breath: “I was wrong!” “Wonderful!” said Miss Selin. “That's what scientists say too.”",
+   "hits": {
+    "zeynep": {
+     "say": "I was wrong!"
+    },
+    "ogretmen": {
+     "say": "Wonderful! That's what scientists say too."
+    },
+    "ali": {
+     "say": "Wow! The huge block is floating!"
+    },
+    "blok": {
+     "say": "The block is bobbing on the water."
+    }
+   },
+   "hint": "Touch the block!",
+   "ask": "Have you ever said “I was wrong!”? How did you feel at that moment?"
+  },
+  {
+   "text": "Ali's turn. He showed the tiny coin. “This one will float for sure!” Let's drop the coin, the stone and the leaf in the water. Plop! Plop! Plop!",
+   "mech": {
+    "done": "Plop! Now let's see what happened!",
+    "msg": "All in the water!"
+   },
+   "hits": {
+    "ali": {
+     "say": "This one will float for sure!"
+    },
+    "zeynep": {
+     "say": "Come on, Ali, let's try!"
+    },
+    "blok": {
+     "say": "The block is still floating."
+    }
+   },
+   "hint": "Drop the coin in the water!",
+   "ask": "What do you think the coin will do? And the stone? And the leaf?"
+  },
+  {
+   "text": "The coin sank to the bottom! The stone sank too. But the leaf floated like a boat. Ali laughed. “I was wrong too! Small things can sink as well!” Let's put the floaters on the blue plate, the sinkers on the red plate.",
+   "mech": {
+    "done": "Floaters on one side, sinkers on the other!",
+    "msg": "All in place!"
+   },
+   "hits": {
+    "ali": {
+     "say": "I was wrong too!"
+    },
+    "zeynep": {
+     "say": "We were both wrong!"
+    }
+   },
+   "hint": "Put the floaters on the blue plate!",
+   "ask": "Why might the block have floated? Why did the coin sink? What do you think?"
+  },
+  {
+   "text": "Zeynep took an apple from the basket. “I think this one sinks!” she said. Ali winked. “Maybe you'll be wrong again!” They both burst out laughing. Miss Selin pointed to the bowl: “Come on, let's try it!”",
+   "hits": {
+    "zeynep": {
+     "say": "I think this apple sinks!"
+    },
+    "ali": {
+     "say": "Maybe you'll be wrong again!"
+    },
+    "ogretmen": {
+     "say": "Come on, let's try it!"
+    },
+    "kap": {
+     "say": "Does an apple sink or float?"
+    }
+   },
+   "hint": "Touch Zeynep!",
+   "ask": "Do you think an apple sinks or floats? Shall we try it together at home?",
+   "cues": [
+    {
+     "w": 25,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 — Making scientific observations of science-related events, facts and situations in daily life: Watches carefully what the block, coin, stone and leaf do in the water; states the observation as 'it sank' or 'it floated' (pages 4–6).",
+   "FAB.2 — Classifying science-related objects, events and facts by their similarities and differences: After the experiment, the child sorts the leaf, stone, wooden block and coin into two groups, 'floaters' and 'sinkers' (page 6).",
+   "FAB.3 (unverified) — Making predictions based on scientific observation of science events in daily life: First predicts what the wooden block and the coin will do in the water, and gives a reason (pages 3 and 5).",
+   "SDB1.3 Self-Adaptation (Self-Reflection): Compares the prediction with the result, looks at their own thinking with 'Why did I think that?' and changes their mind in the light of new information.",
+   "D6 Honesty: When the prediction turns out wrong, doesn't hide it but says so openly: 'I was wrong!'"
+  ],
+  "once": [
+   "Read the title on the cover: 'Sink or float?' What do you think these words mean? Make 'sinking' and 'floating' movements with your hands.",
+   "Ask the child: 'What happens if we throw a stone into water? If we put in a leaf?' Listen to the answers without judging; say you'll look again at the end of the story."
+  ],
+  "sirasi": [
+   "On page 2, repeat Ali's idea together: 'Big things sink, small things float.' Ask the child whether they agree; don't say right or wrong.",
+   "For the prediction question on page 3, ask for the child's choice and their reason ('Why do you think so?'). Both answers are worth thinking about.",
+   "On page 4, talk about the moment Zeynep felt shy: her cheeks went hot, she took a deep breath, then she said it. Take a deep breath together and say 'I was wrong!'",
+   "On pages 5 and 6, get the child's prediction for each object first, then try it by touching; sort the results onto the plates together."
+  ],
+  "sonra": [
+   "Remember the objects in the story: Which ones floated, which ones sank? Did the big one always sink?",
+   "Floating doesn't only depend on size; what something is made of matters too: wood and leaf floated, stone and metal coin sank. Listen to the child's ideas without correcting them, and suggest new things to try.",
+   "What does it feel like to say 'I was wrong!'? What did Zeynep and Ali do when they were wrong? What do you do when you're wrong?",
+   "Make a prediction about the apple at the end of the story; then try it together in a bowl (an apple floats)."
+  ],
+  "sinif": {
+   "ad": "Sink or Float in the Science Corner",
+   "sure": "20 min",
+   "materyal": "A clear, wide basin or bowl half full of water; objects such as a wooden block, a cork, a leaf, a plastic toy, a pebble, a metal spoon and an apple (do not use objects small enough to swallow); two trays, one blue and one red; a towel; aprons",
+   "adim": [
+    "Show the objects one at a time; for each one the children show their 'sinks' or 'floats' prediction with thumbs up or down.",
+    "Put the objects into the water one by one (gently, not thrown). After each try, ask 'Who guessed what?'",
+    "Celebrate a child whose prediction was wrong: 'Thank you for saying I was wrong! Now we've learned something new.' Be a model by saying you were wrong once too.",
+    "Sort the objects onto the blue tray (floaters) and the red tray (sinkers); count how many objects are on each tray together and draw them on a picture chart."
+   ]
+  },
+  "evSoru": [
+   "Did the big wooden block sink or float?",
+   "What did the tiny coin do? What was your guess?",
+   "How did Zeynep feel when she was wrong? What did she say next?"
+  ],
+  "evEtk": {
+   "ad": "Sink or Float in the Kitchen",
+   "d": "Fill a bowl with water. Choose safe objects from the kitchen: a spoon, an apple, a cork, a plastic lid, a carrot. Before dropping each one in, make a guess with your child; then try it. When your guess is wrong, laugh and say 'I was wrong!' too. Stay next to your child during water play."
+  },
+  "aileNotu": "Today we read 'Sink or Float?' Ali and Zeynep thought big things would sink; but the huge wooden block floated and the tiny coin sank. When their guesses turned out wrong, neither of them hid it: they said 'I was wrong!' At home, you can do little experiments with a bowl of water and discover together, with a laugh, that being wrong is part of learning. Make sure your child doesn't put small objects in their mouth, and that an adult is beside the water."
+ },
+ "audio": {
+  "file": "audio/en/081-batar-mi-yuzer-mi.mp3",
+  "hash": "1e990b21",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 11237,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      969,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1189,
+      6
+     ],
+     [
+      1849,
+      7
+     ],
+     [
+      2089,
+      8
+     ],
+     [
+      2269,
+      9
+     ],
+     [
+      2589,
+      10
+     ],
+     [
+      3029,
+      11
+     ],
+     [
+      3769,
+      12
+     ],
+     [
+      3889,
+      13
+     ],
+     [
+      4129,
+      14
+     ],
+     [
+      4370,
+      15
+     ],
+     [
+      4529,
+      16
+     ],
+     [
+      5390,
+      17
+     ],
+     [
+      5589,
+      18
+     ],
+     [
+      5989,
+      19
+     ],
+     [
+      6209,
+      20
+     ],
+     [
+      6289,
+      21
+     ],
+     [
+      7129,
+      22
+     ],
+     [
+      7749,
+      23
+     ],
+     [
+      7989,
+      24
+     ],
+     [
+      8249,
+      25
+     ],
+     [
+      8350,
+      26
+     ],
+     [
+      9009,
+      27
+     ],
+     [
+      9230,
+      28
+     ],
+     [
+      10230,
+      29
+     ],
+     [
+      10489,
+      30
+     ],
+     [
+      10609,
+      31
+     ],
+     [
+      10730,
+      32
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 11537,
+    "d": 2882,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2289,
+      6
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 14720,
+    "d": 2130,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1389,
+      2
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 17150,
+    "d": 2105,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1509,
+      4
+     ]
+    ]
+   },
+   "p0h-kap": {
+    "s": 19555,
+    "d": 1829,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1290,
+      5
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 21684,
+    "d": 4256,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2789,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      3689,
+      9
+     ]
+    ]
+   },
+   "p1": {
+    "s": 26240,
+    "d": 14549,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      829,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      1989,
+      6
+     ],
+     [
+      2349,
+      7
+     ],
+     [
+      3029,
+      8
+     ],
+     [
+      3410,
+      9
+     ],
+     [
+      3729,
+      10
+     ],
+     [
+      4769,
+      11
+     ],
+     [
+      5249,
+      12
+     ],
+     [
+      6069,
+      13
+     ],
+     [
+      6189,
+      14
+     ],
+     [
+      6410,
+      15
+     ],
+     [
+      6609,
+      16
+     ],
+     [
+      7390,
+      17
+     ],
+     [
+      7569,
+      18
+     ],
+     [
+      7969,
+      19
+     ],
+     [
+      8270,
+      20
+     ],
+     [
+      8529,
+      21
+     ],
+     [
+      8829,
+      22
+     ],
+     [
+      9089,
+      23
+     ],
+     [
+      10009,
+      24
+     ],
+     [
+      10209,
+      25
+     ],
+     [
+      10649,
+      26
+     ],
+     [
+      11649,
+      27
+     ],
+     [
+      12049,
+      28
+     ],
+     [
+      12230,
+      29
+     ],
+     [
+      12989,
+      30
+     ],
+     [
+      13430,
+      31
+     ],
+     [
+      13609,
+      32
+     ],
+     [
+      13890,
+      33
+     ],
+     [
+      14009,
+      34
+     ],
+     [
+      14169,
+      35
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 41090,
+    "d": 2987,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2410,
+      5
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 44378,
+    "d": 2721,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1829,
+      5
+     ],
+     [
+      2110,
+      6
+     ]
+    ]
+   },
+   "p1h-ogretmen": {
+    "s": 47399,
+    "d": 2011,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p1h-blok": {
+    "s": 49710,
+    "d": 2378,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1729,
+      4
+     ]
+    ]
+   },
+   "p1h-para": {
+    "s": 52389,
+    "d": 1750,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1050,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 54440,
+    "d": 8630,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1709,
+      6
+     ],
+     [
+      2469,
+      7
+     ],
+     [
+      2650,
+      8
+     ],
+     [
+      2869,
+      9
+     ],
+     [
+      2969,
+      10
+     ],
+     [
+      3089,
+      11
+     ],
+     [
+      3869,
+      12
+     ],
+     [
+      4089,
+      13
+     ],
+     [
+      4350,
+      14
+     ],
+     [
+      4629,
+      15
+     ],
+     [
+      4769,
+      16
+     ],
+     [
+      5569,
+      17
+     ],
+     [
+      6069,
+      18
+     ],
+     [
+      6329,
+      19
+     ],
+     [
+      6529,
+      20
+     ],
+     [
+      7349,
+      21
+     ],
+     [
+      7509,
+      22
+     ],
+     [
+      7689,
+      23
+     ],
+     [
+      7789,
+      24
+     ],
+     [
+      8109,
+      25
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 63370,
+    "d": 1767,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1129,
+      2
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 65438,
+    "d": 1942,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1129,
+      1
+     ],
+     [
+      1449,
+      2
+     ]
+    ]
+   },
+   "p2h-ogretmen": {
+    "s": 67680,
+    "d": 1268,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      889,
+      4
+     ]
+    ]
+   },
+   "p2h-kap": {
+    "s": 69248,
+    "d": 2559,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      1989,
+      5
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 72108,
+    "d": 2045,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      610,
+      4
+     ],
+     [
+      749,
+      5
+     ],
+     [
+      1089,
+      6
+     ],
+     [
+      1430,
+      7
+     ],
+     [
+      1649,
+      8
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 74453,
+    "d": 1003,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      569,
+      2
+     ]
+    ]
+   },
+   "p3": {
+    "s": 75756,
+    "d": 16209,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      1030,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2769,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      3749,
+      8
+     ],
+     [
+      4189,
+      9
+     ],
+     [
+      4310,
+      10
+     ],
+     [
+      4430,
+      11
+     ],
+     [
+      5449,
+      12
+     ],
+     [
+      5910,
+      13
+     ],
+     [
+      6269,
+      14
+     ],
+     [
+      7189,
+      15
+     ],
+     [
+      7390,
+      16
+     ],
+     [
+      7729,
+      17
+     ],
+     [
+      7989,
+      18
+     ],
+     [
+      8810,
+      19
+     ],
+     [
+      9190,
+      20
+     ],
+     [
+      9350,
+      21
+     ],
+     [
+      9549,
+      22
+     ],
+     [
+      9709,
+      23
+     ],
+     [
+      10009,
+      24
+     ],
+     [
+      11009,
+      25
+     ],
+     [
+      11109,
+      26
+     ],
+     [
+      11270,
+      27
+     ],
+     [
+      12350,
+      28
+     ],
+     [
+      13369,
+      29
+     ],
+     [
+      13589,
+      30
+     ],
+     [
+      13789,
+      31
+     ],
+     [
+      14509,
+      32
+     ],
+     [
+      14749,
+      33
+     ],
+     [
+      14969,
+      34
+     ],
+     [
+      15569,
+      35
+     ],
+     [
+      15749,
+      36
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 92266,
+    "d": 1167,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      469,
+      2
+     ]
+    ]
+   },
+   "p3h-ogretmen": {
+    "s": 93733,
+    "d": 3032,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1129,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      2489,
+      5
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 97066,
+    "d": 2755,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      1969,
+      5
+     ]
+    ]
+   },
+   "p3h-blok": {
+    "s": 100122,
+    "d": 2035,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      1469,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 102457,
+    "d": 10703,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2949,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      3410,
+      9
+     ],
+     [
+      3609,
+      10
+     ],
+     [
+      3910,
+      11
+     ],
+     [
+      4169,
+      12
+     ],
+     [
+      5209,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      5749,
+      15
+     ],
+     [
+      5890,
+      16
+     ],
+     [
+      6430,
+      17
+     ],
+     [
+      6589,
+      18
+     ],
+     [
+      7109,
+      19
+     ],
+     [
+      7289,
+      20
+     ],
+     [
+      7410,
+      21
+     ],
+     [
+      7769,
+      22
+     ],
+     [
+      7870,
+      23
+     ],
+     [
+      8009,
+      24
+     ],
+     [
+      8810,
+      25
+     ],
+     [
+      9529,
+      26
+     ],
+     [
+      10046,
+      27
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 113460,
+    "d": 2007,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1410,
+      5
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 115768,
+    "d": 1951,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      464,
+      1
+     ],
+     [
+      853,
+      2
+     ],
+     [
+      1422,
+      3
+     ],
+     [
+      1666,
+      4
+     ]
+    ]
+   },
+   "p4h-blok": {
+    "s": 118019,
+    "d": 1786,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1069,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 120105,
+    "d": 2534,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 122940,
+    "d": 15111,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1089,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2170,
+      7
+     ],
+     [
+      2529,
+      8
+     ],
+     [
+      2829,
+      9
+     ],
+     [
+      3629,
+      10
+     ],
+     [
+      3809,
+      11
+     ],
+     [
+      3989,
+      12
+     ],
+     [
+      4549,
+      13
+     ],
+     [
+      5009,
+      14
+     ],
+     [
+      5209,
+      15
+     ],
+     [
+      5310,
+      16
+     ],
+     [
+      6289,
+      17
+     ],
+     [
+      6709,
+      18
+     ],
+     [
+      7649,
+      19
+     ],
+     [
+      7769,
+      20
+     ],
+     [
+      7949,
+      21
+     ],
+     [
+      8289,
+      22
+     ],
+     [
+      9089,
+      23
+     ],
+     [
+      9390,
+      24
+     ],
+     [
+      9749,
+      25
+     ],
+     [
+      10109,
+      26
+     ],
+     [
+      10369,
+      27
+     ],
+     [
+      10509,
+      28
+     ],
+     [
+      11390,
+      29
+     ],
+     [
+      11629,
+      30
+     ],
+     [
+      11789,
+      31
+     ],
+     [
+      11909,
+      32
+     ],
+     [
+      12390,
+      33
+     ],
+     [
+      12489,
+      34
+     ],
+     [
+      12609,
+      35
+     ],
+     [
+      12869,
+      36
+     ],
+     [
+      13509,
+      37
+     ],
+     [
+      13669,
+      38
+     ],
+     [
+      14229,
+      39
+     ],
+     [
+      14329,
+      40
+     ],
+     [
+      14449,
+      41
+     ],
+     [
+      14649,
+      42
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 138352,
+    "d": 1322,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      749,
+      3
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 139975,
+    "d": 1374,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      312,
+      1
+     ],
+     [
+      788,
+      2
+     ],
+     [
+      1061,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 141649,
+    "d": 2829,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2229,
+      6
+     ],
+     [
+      2370,
+      7
+     ]
+    ]
+   },
+   "p6": {
+    "s": 144779,
+    "d": 13710,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1069,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      1329,
+      6
+     ],
+     [
+      2349,
+      7
+     ],
+     [
+      2469,
+      8
+     ],
+     [
+      2729,
+      9
+     ],
+     [
+      3009,
+      10
+     ],
+     [
+      3289,
+      11
+     ],
+     [
+      4049,
+      12
+     ],
+     [
+      4249,
+      13
+     ],
+     [
+      5049,
+      14
+     ],
+     [
+      5390,
+      15
+     ],
+     [
+      6249,
+      16
+     ],
+     [
+      6529,
+      17
+     ],
+     [
+      6749,
+      18
+     ],
+     [
+      6870,
+      19
+     ],
+     [
+      7189,
+      20
+     ],
+     [
+      8009,
+      21
+     ],
+     [
+      8329,
+      22
+     ],
+     [
+      8770,
+      23
+     ],
+     [
+      9169,
+      24
+     ],
+     [
+      9369,
+      25
+     ],
+     [
+      10390,
+      26
+     ],
+     [
+      10569,
+      27
+     ],
+     [
+      10989,
+      28
+     ],
+     [
+      11369,
+      29
+     ],
+     [
+      11489,
+      30
+     ],
+     [
+      11609,
+      31
+     ],
+     [
+      12310,
+      32
+     ],
+     [
+      12489,
+      33
+     ],
+     [
+      12930,
+      34
+     ],
+     [
+      13169,
+      35
+     ],
+     [
+      13449,
+      36
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 158789,
+    "d": 1991,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1369,
+      4
+     ]
+    ]
+   },
+   "p6h-ali": {
+    "s": 161080,
+    "d": 1735,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      484,
+      1
+     ],
+     [
+      739,
+      2
+     ],
+     [
+      995,
+      3
+     ],
+     [
+      1250,
+      4
+     ]
+    ]
+   },
+   "p6h-ogretmen": {
+    "s": 163116,
+    "d": 1680,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1329,
+      4
+     ]
+    ]
+   },
+   "p6h-kap": {
+    "s": 165096,
+    "d": 2206,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

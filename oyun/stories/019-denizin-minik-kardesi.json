@@ -1,0 +1,1728 @@
+{
+ "id": "019-denizin-minik-kardesi",
+ "n": 19,
+ "title": "Deniz'in Minik Kardeşi",
+ "age": "36-48",
+ "area": "Sosyal",
+ "theme": "Yeni kardeş",
+ "values": [
+  "D2 Aile Bütünlüğü",
+  "D15 Sevgi"
+ ],
+ "sdb": "SDB3.1 Uyum",
+ "min": 4,
+ "blurb": "Eve minik Ekin gelince herkes ona koşar; Deniz “Ingaa!” diye bağırınca kimse gelmez. Deniz duygusunu annesine söyler; eski bir kutudan çıkan mini minnacık eşyalar, büyük kardeş olmanın tadını gösterir.",
+ "codes": {
+  "maarif": [
+   "TADB.2 Dinlediği/izlediği hikâyeyle ilgili yeni anlamlar oluşturabilme (çıkarım yapar; günlük hayatla ilişki kurar)",
+   "TAKB.2 Konuşma sürecinin içeriğini oluşturabilme (konuşacağı konu ile günlük yaşamı arasında bağlantı kurar)",
+   "E2.1 Empati",
+   "SDB3.1 Uyum",
+   "D2 Aile Bütünlüğü"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "deniz": "cocuk-kiz",
+  "ekin": "bebek",
+  "anne": "anne",
+  "baba": "baba"
+ },
+ "voiceNames": {
+  "deniz": "Deniz",
+  "ekin": "Ekin (bebek kardeş)",
+  "anne": "Anne",
+  "baba": "Baba"
+ },
+ "pages": [
+  {
+   "text": "Deniz'in evine minik bir kardeş geldi. Adı Ekin'di. Mini minnacık elleri, mini minnacık ayakları vardı. Herkes “Ne tatlı!” dedi.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 222,
+      "y": 222,
+      "pose": "hold",
+      "hold": "bebek",
+      "mood": "happy",
+      "hit": "ekin"
+     },
+     {
+      "k": "baba",
+      "x": 314,
+      "y": 218,
+      "pose": "wave",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "baba"
+     },
+     {
+      "k": "deniz",
+      "x": 112,
+      "y": 230,
+      "s": 1.1,
+      "pose": "point",
+      "mood": "surprised",
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "balon",
+      "x": 44,
+      "y": 208,
+      "color": "#F4677E"
+     },
+     {
+      "k": "balon",
+      "x": 54,
+      "y": 212,
+      "color": "#FFC93C",
+      "s": 0.9
+     },
+     {
+      "k": "hediye",
+      "x": 278,
+      "y": 230,
+      "color": "#7FB6E0"
+     }
+    ]
+   },
+   "hits": {
+    "ekin": {
+     "say": "Agu!",
+     "voice": "ekin",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Ne kadar küçük!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "baba": {
+     "say": "Deniz, gel kardeşini gör!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "ekin",
+    "Ekin'e dokun!"
+   ],
+   "ask": "Ekin nasıl bir bebek? Sen hiç minik bir bebek gördün mü?"
+  },
+  {
+   "text": "Ekin ağladı: “Ingaa!” Anne koştu. Ekin yine ağladı: “Ingaa!” Baba süt şişesiyle koştu. Deniz de bağırdı: “Ingaa!” Ama kimse koşmadı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "bebek",
+      "x": 256,
+      "y": 192,
+      "pose": "lie",
+      "mood": "sad",
+      "hit": "ekin"
+     },
+     {
+      "k": "anne",
+      "x": 188,
+      "y": 214,
+      "pose": "run",
+      "mood": "surprised",
+      "hit": "anne"
+     },
+     {
+      "k": "baba",
+      "x": 326,
+      "y": 216,
+      "pose": "run",
+      "mood": "surprised",
+      "flip": true,
+      "hold": "sut",
+      "hit": "baba",
+      "holdMode": "hang"
+     },
+     {
+      "k": "deniz",
+      "x": 78,
+      "y": 232,
+      "s": 1.15,
+      "pose": "open",
+      "mood": "sad",
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "bloklar",
+      "x": 136,
+      "y": 234,
+      "n": 4
+     },
+     {
+      "k": "oyuncak-araba",
+      "x": 40,
+      "y": 236,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "ekin": {
+     "say": "Ingaa! Ingaa!",
+     "voice": "ekin",
+     "anim": "wiggle",
+     "fx": "bebek"
+    },
+    "anne": {
+     "say": "Geldim, geldim!",
+     "voice": "anne",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "baba": {
+     "say": "Süt geldi, süt!",
+     "voice": "baba",
+     "anim": "jump",
+     "fx": "step"
+    },
+    "deniz": {
+     "say": "Ingaa! Bana da bakın!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Deniz neden “Ingaa!” diye bağırdı? Sence ne istiyor?",
+   "cues": [
+    {
+     "w": 2,
+     "fx": "bebek"
+    }
+   ]
+  },
+  {
+   "text": "Deniz bir köşeye oturdu. Tıp tıp, yağmur yağıyordu. Deniz biraz üzüldü, biraz kıskandı. Boğazı düğüm düğüm oldu. “Peki ya ben?” diye düşündü.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 262,
+      "y": 191,
+      "s": 0.92,
+      "pose": "seat",
+      "mood": "calm",
+      "hit": "anne"
+     },
+     {
+      "k": "bebek",
+      "x": 267,
+      "y": 164,
+      "z": 250,
+      "s": 0.85,
+      "pose": "sit",
+      "mood": "sleep",
+      "hit": "ekin"
+     },
+     {
+      "k": "deniz",
+      "x": 104,
+      "y": 228,
+      "s": 1.15,
+      "pose": "sit",
+      "mood": "sad",
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "bloklar",
+      "x": 160,
+      "y": 232,
+      "n": 2
+     },
+     {
+      "k": "kitap",
+      "x": 50,
+      "y": 232,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Peki ya ben?",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "anne": {
+     "say": "Ninni, ninni, minik Ekin.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "lullaby"
+    },
+    "ekin": {
+     "anim": "wiggle",
+     "fx": "bebek"
+    }
+   },
+   "predict": {
+    "q": "Sence Deniz şimdi ne yapacak?",
+    "res": "Hadi görelim!",
+    "opts": [
+     {
+      "l": "Anneye anlatır",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "anne",
+         "x": 250,
+         "y": 194,
+         "pose": "seat",
+         "mood": "calm"
+        },
+        {
+         "k": "deniz",
+         "x": 172,
+         "y": 228,
+         "s": 1.1,
+         "pose": "open",
+         "mood": "shy"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Babaya sarılır",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "baba",
+         "x": 240,
+         "y": 222,
+         "pose": "hug",
+         "mood": "happy",
+         "flip": true
+        },
+        {
+         "k": "deniz",
+         "x": 206,
+         "y": 228,
+         "s": 1.1,
+         "pose": "hug",
+         "mood": "calm"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Deniz ne hissediyor? Sen hiç böyle hissettin mi?"
+  },
+  {
+   "text": "Deniz derin bir nefes aldı. Adım adım annesine gitti. “Anne, ben üzüldüm. Bana da sarılır mısın?”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 66,
+      "y": 230,
+      "s": 1.1,
+      "pose": "walk",
+      "mood": "shy",
+      "hit": "deniz"
+     },
+     {
+      "k": "anne",
+      "x": 214,
+      "y": 222,
+      "pose": "open",
+      "mood": "happy",
+      "flip": true,
+      "hit": "anne"
+     },
+     {
+      "k": "baba",
+      "x": 290,
+      "y": 194,
+      "s": 0.92,
+      "pose": "seat",
+      "mood": "calm",
+      "hit": "baba"
+     },
+     {
+      "k": "bebek",
+      "x": 296,
+      "y": 166,
+      "z": 250,
+      "s": 0.85,
+      "pose": "sit",
+      "mood": "sleep",
+      "hit": "ekin"
+     }
+    ],
+    "props": [
+     {
+      "k": "zzz",
+      "x": 322,
+      "y": 138
+     },
+     {
+      "k": "bloklar",
+      "x": 356,
+      "y": 236,
+      "n": 2
+     }
+    ]
+   },
+   "mech": {
+    "type": "walk",
+    "key": "deniz",
+    "steps": 3,
+    "step": 32,
+    "say": "Derin nefes… adım, adım!",
+    "done": "Deniz annesine geldi!"
+   },
+   "hits": {
+    "anne": {
+     "say": "Gel bir tanem, kollarım açık!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "baba": {
+     "say": "Şşşt, Ekin uyuyor.",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "lullaby"
+    },
+    "ekin": {
+     "anim": "wiggle",
+     "fx": "bebek"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Nefes al, Deniz'e dokun!"
+   ],
+   "ask": "Deniz duygusunu annesine nasıl söyledi? Sen üzülünce kime anlatırsın?"
+  },
+  {
+   "text": "Anne, Deniz'e sımsıkı sarıldı. Eski bir kutu açtı: gıcırr! İçinden mini minnacık şeyler çıktı. “Bunlar senin bebeklik eşyaların!” dedi anne. Deniz güldü: “Ekin'e verelim!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "anne",
+      "x": 126,
+      "y": 230,
+      "pose": "hug",
+      "mood": "happy",
+      "hit": "anne"
+     },
+     {
+      "k": "deniz",
+      "x": 156,
+      "y": 232,
+      "s": 1.1,
+      "pose": "hug",
+      "mood": "happy",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "baba",
+      "x": 286,
+      "y": 191,
+      "s": 0.85,
+      "pose": "seat",
+      "mood": "calm",
+      "hit": "baba"
+     },
+     {
+      "k": "bebek",
+      "x": 291,
+      "y": 165,
+      "z": 200,
+      "s": 0.8,
+      "pose": "sit",
+      "mood": "sleep",
+      "hit": "ekin"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-kutusu",
+      "x": 204,
+      "y": 222,
+      "state": "off",
+      "color": "#E98AA8"
+     },
+     {
+      "k": "bere",
+      "x": 240,
+      "y": 236,
+      "s": 1.2,
+      "color": "#7FB6E0",
+      "pom": "#FFFFFF",
+      "hit": "bere"
+     },
+     {
+      "k": "eldiven",
+      "x": 272,
+      "y": 236,
+      "s": 1.3,
+      "color": "#FFC93C",
+      "hit": "eldiven"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 306,
+      "y": 232,
+      "s": 0.95,
+      "color": "#7FB6E0",
+      "hit": "ayi"
+     },
+     {
+      "k": "basket",
+      "x": 356,
+      "y": 232,
+      "s": 1.3
+     }
+    ]
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "bere",
+     "eldiven",
+     "ayi"
+    ],
+    "to": [
+     350,
+     196
+    ],
+    "done": "Ekin'in sepeti hazır!"
+   },
+   "hits": {
+    "anne": {
+     "say": "Sen de böyle minicik bir bebektin!",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "deniz": {
+     "say": "Benim başım bu kadar küçük müydü?",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "baba": {
+     "say": "Ne güzel fikir, Deniz!",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ekin": {
+     "anim": "wiggle",
+     "fx": "bebek"
+    }
+   },
+   "hint": [
+    "bere",
+    "Sepete koy!"
+   ],
+   "ask": "Sen bebekken neler kullanırdın? Evde büyüklerine sorar mısın?"
+  },
+  {
+   "text": "Ekin, Deniz'in parmağını sımsıkı tuttu. Sonra ilk kez gülümsedi! “Ben senin büyük kardeşinim,” dedi Deniz. Evdeki sevgi büyüdü, büyüdü, herkese yetti.",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "curtains": "closed",
+    "cast": [
+     {
+      "k": "baba",
+      "x": 184,
+      "y": 234,
+      "pose": "sit",
+      "mood": "happy",
+      "hit": "baba"
+     },
+     {
+      "k": "bebek",
+      "x": 216,
+      "y": 204,
+      "z": 260,
+      "s": 0.9,
+      "pose": "sit",
+      "mood": "laugh",
+      "hit": "ekin"
+     },
+     {
+      "k": "anne",
+      "x": 330,
+      "y": 218,
+      "pose": "clap",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "anne"
+     },
+     {
+      "k": "deniz",
+      "x": 256,
+      "y": 234,
+      "s": 1.1,
+      "pose": "point",
+      "mood": "laugh",
+      "flip": true,
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "oyuncak-ayi",
+      "x": 160,
+      "y": 236,
+      "s": 0.8,
+      "color": "#7FB6E0"
+     },
+     {
+      "k": "bere",
+      "x": 100,
+      "y": 206,
+      "z": 231,
+      "s": 1.0,
+      "color": "#7FB6E0",
+      "pom": "#FFFFFF"
+     },
+     {
+      "k": "eldiven",
+      "x": 124,
+      "y": 208,
+      "z": 231.5,
+      "s": 1.0,
+      "color": "#FFC93C"
+     },
+     {
+      "k": "basket",
+      "x": 110,
+      "y": 232,
+      "s": 1.2
+     }
+    ]
+   },
+   "hits": {
+    "ekin": {
+     "say": "Agu! Hı hı hı!",
+     "voice": "ekin",
+     "anim": "jump",
+     "fx": "bebek"
+    },
+    "deniz": {
+     "say": "Ben senin büyük kardeşinim!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "baba": {
+     "say": "Dandini dandini dastana…",
+     "voice": "baba",
+     "anim": "boing",
+     "fx": "lullaby"
+    },
+    "anne": {
+     "say": "Seni de çok seviyoruz, Deniz.",
+     "voice": "anne",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "ekin",
+    "Ekin'e dokun!"
+   ],
+   "ask": "Senin ailende kimler var? Bize onları anlatır mısın?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.2 (öğrenme çıktısı) Dinlediği/izlediği hikâye gibi materyallerle ilgili yeni anlamlar oluşturabilme. Süreç bileşenleri: materyale ilişkin çıkarım yapar (Deniz neden “Ingaa!” diye bağırdı?); materyaldeki bilgilerle günlük hayatı arasında ilişki kurar (masaldaki kardeş gelişini kendi ailesindeki ya da çevresindeki bir bebekle ilişkilendirir).",
+   "TAKB.2 (öğrenme çıktısı) Konuşma sürecinin içeriğini oluşturabilme. Süreç bileşeni: konuşacağı konu ile ön bilgileri/günlük yaşamı arasında bağlantı kurar (kendi bebekliğini, kardeşini ya da ailesini anlatır).",
+   "E2.1 Empati: hem Deniz'in üzüntüsünü hem de bebeğin ağlayarak derdini anlattığını fark eder; iki tarafın da sevgiye ihtiyacı olduğunu söyler.",
+   "SDB3.1 Uyum: ailedeki yeni duruma uyum sağlamanın yollarını görür; duygusunu söylemek, sarılma istemek ve “büyük kardeş” rolünü üstlenmek.",
+   "D2 Aile Bütünlüğü: anne, baba, Deniz ve Ekin'in birbirini gözettiği bir aileyi tanır; bakım işlerini anne ile babanın birlikte yaptığını görür."
+  ],
+  "once": [
+   "Kapaktaki minik bebeği gösterin: “Sence bu kim? Deniz onu görünce ne hissetmiş olabilir?”",
+   "Çocuklara sorun: “Evinizde ya da tanıdığınız birinin evinde bebek var mı? Bebekler neler yapar?”"
+  ],
+  "sirasi": [
+   "2. sayfada “Ingaa!” sesini birlikte yapın; ardından “Deniz neden bağırdı?” diye sorun.",
+   "3. sayfada Deniz'in yüzüne bakın; “üzüldü” ve “kıskandı” sözcüklerini yüz ifadesiyle gösterin. “Boğazı düğüm düğüm oldu” ifadesini boğaza el koyarak anlatın.",
+   "4. sayfada Deniz'le birlikte derin bir nefes alın ve “Adım, adım!” diyerek yürütün."
+  ],
+  "sonra": [
+   "“Deniz üzülünce ne yaptı?” sorusuyla üç yolu hatırlayın: derin nefes, söylemek, sarılma istemek.",
+   "Duygu yüzleri çizin (üzgün, kıskanç, mutlu); çocuklar Deniz'in her sayfada nasıl hissettiğini göstersin.",
+   "“Kıskanmak da bir duygu; söyleyince hafifler” diyerek her duygunun kabul edildiğini hissettirin.",
+   "“Sen ne düşündün? Masalın en çok hangi sayfasını sevdin?” diye sorarak görüşünü söylemesine fırsat verin."
+  ],
+  "sinif": {
+   "ad": "Bebek Sepeti Oyunu",
+   "sure": "20 dk",
+   "materyal": "Oyuncak bebek, sepet ya da kutu, bebek eşyaları (küçük bere, çorap, battaniye, yumuşak kitap), kâğıt, pastel boya",
+   "adim": [
+    "Çember olun; oyuncak bebeği elden ele dolaştırın. Bebeği tutan çocuk “Ben bebekken...” diye bir cümle kursun ya da evdeki bir bebeği anlatsın (TAKB.2).",
+    "Sırayla bebek sepetini hazırlayın: her çocuk bir eşya seçip sepete koysun ve neden seçtiğini söylesin.",
+    "Hep birlikte “Dandini dandini dastana” ninnisini fısıltıyla söyleyip bebeği uyutun.",
+    "Herkes ailesinin resmini çizsin ve resmindeki kişileri arkadaşlarına tanıtsın. Kardeşi olmayan, evlat edinilmiş ya da farklı aile yapısındaki çocuklar için “evinde kimlerle yaşıyorsan onları çiz” deyin."
+   ]
+  },
+  "evSoru": [
+   "Ben bebekken neler yapardım, ilk oyuncağım neydi?",
+   "Deniz üzülünce ne yaptı? Sen üzülünce ne yaparsın?",
+   "Ailemizde kimler var? Onlarla en sevdiğin şey ne?"
+  ],
+  "evEtk": {
+   "ad": "Bebeklik Kutusu",
+   "d": "Çocuğunuzla birlikte onun bebeklik eşyalarına ya da fotoğraflarına bakın: “Sen de böyle minicik bir bebektin.” Eve bebek geldiyse ya da gelecekse, büyük çocuğun bebek için bir eşya ya da ninni seçmesine izin verin; seçim onun olsun."
+  },
+  "aileNotu": "Bugün “Deniz'in Minik Kardeşi” masalını okuduk. Eve yeni bir bebek gelince Deniz biraz üzülüp kıskanıyor, sonra derin bir nefes alıp duygusunu annesine sözle söylüyor ve büyük kardeş olmanın tadını çıkarıyor. Kardeş kıskançlığı çok doğaldır: çocuğunuzun duygusunu adıyla söyleyin (“Biraz kıskandın galiba”) ve her gün ona özel kısa bir sarılma ya da oyun zamanı ayırın. Bebek bakımında ona küçük görevler vermek (ninni söylemek, eşya seçmek) “büyük kardeş” rolünü güçlendirir."
+ },
+ "audio": {
+  "file": "audio/019-denizin-minik-kardesi.mp3",
+  "hash": "4e6a4c31",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10641,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3129,
+      7
+     ],
+     [
+      4089,
+      8
+     ],
+     [
+      4370,
+      9
+     ],
+     [
+      5089,
+      10
+     ],
+     [
+      5830,
+      11
+     ],
+     [
+      6109,
+      12
+     ],
+     [
+      6749,
+      13
+     ],
+     [
+      7309,
+      14
+     ],
+     [
+      8169,
+      15
+     ],
+     [
+      9129,
+      16
+     ],
+     [
+      9329,
+      17
+     ],
+     [
+      10209,
+      18
+     ]
+    ]
+   },
+   "p0h-ekin": {
+    "s": 10941,
+    "d": 565,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 11807,
+    "d": 1350,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      323,
+      1
+     ],
+     [
+      816,
+      2
+     ]
+    ]
+   },
+   "p0h-baba": {
+    "s": 13457,
+    "d": 1798,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1309,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 15556,
+    "d": 12388,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      2229,
+      3
+     ],
+     [
+      2589,
+      4
+     ],
+     [
+      3489,
+      5
+     ],
+     [
+      3869,
+      6
+     ],
+     [
+      4189,
+      7
+     ],
+     [
+      5330,
+      8
+     ],
+     [
+      6089,
+      9
+     ],
+     [
+      6430,
+      10
+     ],
+     [
+      6709,
+      11
+     ],
+     [
+      7430,
+      12
+     ],
+     [
+      8329,
+      13
+     ],
+     [
+      8709,
+      14
+     ],
+     [
+      8869,
+      15
+     ],
+     [
+      10109,
+      16
+     ],
+     [
+      10909,
+      17
+     ],
+     [
+      11209,
+      18
+     ],
+     [
+      11689,
+      19
+     ]
+    ]
+   },
+   "p1h-ekin": {
+    "s": 28244,
+    "d": 1049,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      617,
+      1
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 29594,
+    "d": 1077,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      611,
+      1
+     ]
+    ]
+   },
+   "p1h-baba": {
+    "s": 30972,
+    "d": 1229,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      305,
+      1
+     ],
+     [
+      923,
+      2
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 32502,
+    "d": 1657,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1086,
+      2
+     ],
+     [
+      1280,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 34459,
+    "d": 10944,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      4310,
+      8
+     ],
+     [
+      4669,
+      9
+     ],
+     [
+      5009,
+      10
+     ],
+     [
+      5449,
+      11
+     ],
+     [
+      5830,
+      12
+     ],
+     [
+      6870,
+      13
+     ],
+     [
+      7390,
+      14
+     ],
+     [
+      7749,
+      15
+     ],
+     [
+      8089,
+      16
+     ],
+     [
+      8869,
+      17
+     ],
+     [
+      9230,
+      18
+     ],
+     [
+      9390,
+      19
+     ],
+     [
+      10029,
+      20
+     ],
+     [
+      10329,
+      21
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 45703,
+    "d": 947,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      443,
+      1
+     ],
+     [
+      675,
+      2
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 46951,
+    "d": 1353,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      404,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1041,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 48605,
+    "d": 1933,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1309,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 50838,
+    "d": 852,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 51991,
+    "d": 7445,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2650,
+      7
+     ],
+     [
+      3229,
+      8
+     ],
+     [
+      4109,
+      9
+     ],
+     [
+      4870,
+      10
+     ],
+     [
+      5129,
+      11
+     ],
+     [
+      5989,
+      12
+     ],
+     [
+      6269,
+      13
+     ],
+     [
+      6469,
+      14
+     ],
+     [
+      6949,
+      15
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 59737,
+    "d": 1635,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1150,
+      4
+     ]
+    ]
+   },
+   "p3h-baba": {
+    "s": 61672,
+    "d": 1118,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      324,
+      1
+     ],
+     [
+      635,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 63091,
+    "d": 1592,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 64983,
+    "d": 2736,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      568,
+      1
+     ],
+     [
+      1458,
+      2
+     ],
+     [
+      2167,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 68019,
+    "d": 14189,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      2729,
+      4
+     ],
+     [
+      3109,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      3689,
+      7
+     ],
+     [
+      4410,
+      8
+     ],
+     [
+      5370,
+      9
+     ],
+     [
+      5930,
+      10
+     ],
+     [
+      6189,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7370,
+      13
+     ],
+     [
+      8249,
+      14
+     ],
+     [
+      8709,
+      15
+     ],
+     [
+      9049,
+      16
+     ],
+     [
+      9629,
+      17
+     ],
+     [
+      10709,
+      18
+     ],
+     [
+      11089,
+      19
+     ],
+     [
+      11669,
+      20
+     ],
+     [
+      12089,
+      21
+     ],
+     [
+      13029,
+      22
+     ],
+     [
+      13509,
+      23
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 82508,
+    "d": 2129,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1389,
+      5
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 84938,
+    "d": 2587,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p4h-baba": {
+    "s": 87825,
+    "d": 1287,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      809,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 89413,
+    "d": 1553,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1030,
+      2
+     ]
+    ]
+   },
+   "p5": {
+    "s": 91267,
+    "d": 13552,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      1969,
+      3
+     ],
+     [
+      2549,
+      4
+     ],
+     [
+      3430,
+      5
+     ],
+     [
+      3910,
+      6
+     ],
+     [
+      4149,
+      7
+     ],
+     [
+      4489,
+      8
+     ],
+     [
+      5769,
+      9
+     ],
+     [
+      6069,
+      10
+     ],
+     [
+      6449,
+      11
+     ],
+     [
+      6749,
+      12
+     ],
+     [
+      8049,
+      13
+     ],
+     [
+      8350,
+      14
+     ],
+     [
+      9369,
+      15
+     ],
+     [
+      9909,
+      16
+     ],
+     [
+      10390,
+      17
+     ],
+     [
+      11329,
+      18
+     ],
+     [
+      12329,
+      19
+     ],
+     [
+      12989,
+      20
+     ]
+    ]
+   },
+   "p5h-ekin": {
+    "s": 105119,
+    "d": 1190,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      588,
+      1
+     ],
+     [
+      775,
+      2
+     ],
+     [
+      962,
+      3
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 106610,
+    "d": 2000,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1030,
+      3
+     ]
+    ]
+   },
+   "p5h-baba": {
+    "s": 108910,
+    "d": 1538,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      526,
+      1
+     ],
+     [
+      1012,
+      2
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 110749,
+    "d": 1738,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1229,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

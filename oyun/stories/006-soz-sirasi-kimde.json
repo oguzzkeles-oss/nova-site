@@ -1,0 +1,1936 @@
+{
+ "id": "006-soz-sirasi-kimde",
+ "n": 6,
+ "title": "Söz Sırası Kimde?",
+ "age": "48-60",
+ "area": "Türkçe",
+ "theme": "Söz sırası ve dinleme",
+ "values": [
+  "D14 Saygı",
+  "D12 Sabır"
+ ],
+ "sdb": "SDB2.1 İletişim",
+ "min": 5,
+ "blurb": "Çember saatinde herkes aynı anda konuşunca Deniz'in minicik fısıltısı kaybolur. Selin Öğretmen'in mavi konuşma taşı elden ele dolaşınca en küçük ses bile duyulur.",
+ "codes": {
+  "maarif": [
+   "TAKB.1 Konuşma sürecini yönetebilme (söz sırasını bekler, göz teması kurar)",
+   "TADB.3 Dinlediklerini çözümleyebilme (olayları oluş sırasına göre söyler)",
+   "E2.4 Güven",
+   "SDB2.1 İletişim",
+   "D14 Saygı",
+   "D12 Sabır"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "selin": "ogretmen",
+  "ali": "cocuk-erkek",
+  "ela": "cocuk-kiz",
+  "deniz": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "selin": "Selin Öğretmen",
+  "ali": "Ali",
+  "ela": "Ela",
+  "deniz": "Deniz"
+ },
+ "pages": [
+  {
+   "text": "Pazartesi sabahı, çember saati! Selin Öğretmen gülümsedi: “Günaydın!” Herkesin anlatacak bir haberi vardı. Ali kıpır kıpırdı. Ela zıp zıp zıplıyordu. Deniz'in haberi ise minicik bir fısıltıydı.",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "hot": {
+     "saat": "saat"
+    },
+    "cast": [
+     {
+      "k": "ogretmen",
+      "x": 62,
+      "y": 212,
+      "s": 0.9,
+      "pose": "wave",
+      "mood": "happy",
+      "hit": "selin"
+     },
+     {
+      "k": "ali",
+      "x": 150,
+      "y": 224,
+      "s": 0.95,
+      "pose": "clap",
+      "mood": "laugh",
+      "hit": "ali"
+     },
+     {
+      "k": "ela",
+      "x": 240,
+      "y": 218,
+      "s": 0.95,
+      "pose": "jump",
+      "mood": "laugh",
+      "hit": "ela"
+     },
+     {
+      "k": "deniz",
+      "x": 326,
+      "y": 231,
+      "s": 1.02,
+      "pose": "sit",
+      "mood": "shy",
+      "hit": "deniz",
+      "flip": true
+     }
+    ]
+   },
+   "hits": {
+    "selin": {
+     "say": "Günaydın çocuklar! Çember saati!",
+     "voice": "selin",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "Benim kocaman bir haberim var!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "ela": {
+     "say": "Benim de! Benim de!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "deniz": {
+     "say": "Benim de minicik bir haberim var…",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "saat": {
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Sence Deniz'in minicik haberi ne olabilir?"
+  },
+  {
+   "text": "Herkes aynı anda konuştu. “Dedemle ekmek…” “Uçurtmam…” “Bakın bakın!” Bıdı bıdı, vızz vızz! Sınıf arı kovanına döndü. Akvaryumdaki balık bile şaşırdı! Kimse kimseyi duyamadı. Deniz'in fısıltısı kayboldu. Omuzları düştü, çok üzüldü.",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "hot": {
+     "akvaryum": "balik"
+    },
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 100,
+      "y": 233,
+      "s": 1.08,
+      "pose": "sit",
+      "mood": "sad",
+      "hit": "deniz"
+     },
+     {
+      "k": "ali",
+      "x": 192,
+      "y": 220,
+      "s": 0.95,
+      "pose": "open",
+      "mood": "laugh",
+      "hit": "ali"
+     },
+     {
+      "k": "ela",
+      "x": 272,
+      "y": 216,
+      "s": 0.95,
+      "pose": "jump",
+      "mood": "laugh",
+      "hit": "ela",
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 352,
+      "y": 210,
+      "s": 0.88,
+      "pose": "stand",
+      "mood": "surprised",
+      "hit": "selin",
+      "flip": true
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Balkonumuza… küçük… Duyan var mı?",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "ali": {
+     "say": "Dedemle ekmek yaptık! Mis gibi!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "ela": {
+     "say": "Uçurtmam bulutlara değdi!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "whoosh"
+    },
+    "selin": {
+     "say": "Hmm… Bir fikrim var!",
+     "voice": "selin",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "balik": {
+     "anim": "wiggle",
+     "fx": "splash"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun, dinle!"
+   ],
+   "ask": "Herkes aynı anda konuşunca ne oldu? Deniz nasıl hissetti?"
+  },
+  {
+   "text": "Selin Öğretmen bağırmadı. Cebinden mavi, pürüzsüz bir taş çıkardı. Taşı havaya kaldırdı ve bekledi. Sınıf merakla sustu. “Bu bir konuşma taşı,” dedi. Taş konuşur mu hiç?",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 86,
+      "y": 226,
+      "s": 0.95,
+      "pose": "sit",
+      "mood": "surprised",
+      "hit": "ali"
+     },
+     {
+      "k": "deniz",
+      "x": 168,
+      "y": 232,
+      "s": 1.0,
+      "pose": "sit",
+      "mood": "think",
+      "hit": "deniz"
+     },
+     {
+      "k": "ogretmen",
+      "x": 262,
+      "y": 214,
+      "s": 0.98,
+      "pose": "wave",
+      "hold": "tas",
+      "holdS": 1.0,
+      "holdO": {
+       "color": "#3E9BE0",
+       "grass": false
+      },
+      "mood": "happy",
+      "hit": "selin"
+     },
+     {
+      "k": "ela",
+      "x": 350,
+      "y": 228,
+      "s": 0.95,
+      "pose": "sit",
+      "mood": "surprised",
+      "hit": "ela",
+      "flip": true
+     }
+    ]
+   },
+   "hits": {
+    "selin": {
+     "say": "Bu bir konuşma taşı.",
+     "voice": "selin",
+     "anim": "boing",
+     "fx": "twinkle",
+     "spark": true
+    },
+    "ali": {
+     "say": "Taş konuşur mu hiç?",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "ela": {
+     "say": "Belki fısıldar!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "deniz": {
+     "say": "Hmm… Acaba ne işe yarar?",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence konuşma taşı ne işe yarar?",
+    "res": "İlginç bir tahmin! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Tutan konuşur",
+      "scene": {
+       "set": "sinif",
+       "tables": false,
+       "cast": [
+        {
+         "k": "ela",
+         "x": 105,
+         "y": 226,
+         "s": 0.95,
+         "pose": "sit",
+         "mood": "calm"
+        },
+        {
+         "k": "ali",
+         "x": 200,
+         "y": 222,
+         "s": 1.0,
+         "pose": "hold",
+         "hold": "tas",
+         "holdS": 0.95,
+         "holdO": {
+          "color": "#3E9BE0",
+          "grass": false
+         },
+         "mood": "happy"
+        },
+        {
+         "k": "deniz",
+         "x": 298,
+         "y": 226,
+         "s": 0.95,
+         "pose": "sit",
+         "mood": "happy",
+         "flip": true
+        }
+       ]
+      }
+     },
+     {
+      "l": "Taş fısıldar",
+      "scene": {
+       "set": "sinif",
+       "tables": false,
+       "cast": [
+        {
+         "k": "ali",
+         "x": 112,
+         "y": 226,
+         "s": 0.95,
+         "pose": "sit",
+         "mood": "surprised"
+        },
+        {
+         "k": "deniz",
+         "x": 200,
+         "y": 210,
+         "s": 0.82,
+         "pose": "sit",
+         "mood": "think"
+        },
+        {
+         "k": "ela",
+         "x": 292,
+         "y": 226,
+         "s": 0.95,
+         "pose": "sit",
+         "mood": "laugh",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "tas",
+         "x": 202,
+         "y": 228,
+         "s": 1.1,
+         "color": "#3E9BE0",
+         "grass": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "selin",
+    "Selin Öğretmen'e dokun!"
+   ],
+   "ask": "Selin Öğretmen neden bağırmadı sence?"
+  },
+  {
+   "text": "Selin Öğretmen, “Taş kimdeyse söz onda!” dedi. Ali dedesiyle yaptığı ekmeği anlattı. Herkes dinledi. Ela kıpır kıpırdı. Derin bir nefes aldı, bekledi. Sonra taş Ela'ya geldi. Ela uçurtmasını anlattı. Herkes dinledi. Sıra kimde?",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 96,
+      "y": 226,
+      "s": 1.0,
+      "pose": "hold",
+      "hold": "tas",
+      "holdS": 0.95,
+      "holdO": {
+       "color": "#3E9BE0",
+       "grass": false
+      },
+      "mood": "happy",
+      "hit": "ali",
+      "turn": 0.5
+     },
+     {
+      "k": "ela",
+      "x": 196,
+      "y": 228,
+      "s": 0.95,
+      "pose": "sit",
+      "mood": "think",
+      "hit": "ela"
+     },
+     {
+      "k": "deniz",
+      "x": 288,
+      "y": 231,
+      "s": 1.0,
+      "pose": "sit",
+      "mood": "shy",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 362,
+      "y": 208,
+      "s": 0.85,
+      "pose": "stand",
+      "mood": "happy",
+      "hit": "selin",
+      "flip": true
+     }
+    ]
+   },
+   "hits": {
+    "selin": {
+     "say": "Taş kimdeyse söz onda!",
+     "voice": "selin",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "ali",
+     "ela",
+     "deniz"
+    ],
+    "done": "Taş dolaştı, dolaştı… Sıra Deniz'de!",
+    "msg": "Taş sırayla dolaştı!"
+   },
+   "hint": [
+    "ali",
+    "Sırayla dokun: Ali, Ela, Deniz!"
+   ],
+   "ask": "Ela beklerken ne yaptı? Sen beklemek zor gelince ne yaparsın?"
+  },
+  {
+   "text": "Taş Deniz'e geldi. Kalbi küt küt attı. Ali döndü. Ela döndü. Selin Öğretmen de döndü. Herkesin gözü Deniz'deydi. Saatin tik tak sesi bile duyuldu. Deniz fısıldadı: “Balkonumuza serçeler yuva yaptı!” Herkes duydu!",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "hot": {
+     "saat": "saat"
+    },
+    "cast": [
+     {
+      "k": "ali",
+      "x": 88,
+      "y": 230,
+      "s": 0.95,
+      "pose": "sit",
+      "mood": "calm",
+      "hit": "ali",
+      "turn": 0.7
+     },
+     {
+      "k": "ela",
+      "x": 170,
+      "y": 226,
+      "s": 0.93,
+      "pose": "sit",
+      "mood": "happy",
+      "hit": "ela",
+      "turn": 0.7
+     },
+     {
+      "k": "deniz",
+      "x": 268,
+      "y": 226,
+      "s": 1.12,
+      "pose": "hold",
+      "hold": "tas",
+      "holdS": 0.9,
+      "holdO": {
+       "color": "#3E9BE0",
+       "grass": false
+      },
+      "mood": "shy",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 352,
+      "y": 210,
+      "s": 0.88,
+      "pose": "stand",
+      "mood": "calm",
+      "hit": "selin",
+      "flip": true
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Balkonumuzda serçe yuvası var! Cik cik!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "tweet",
+     "hearts": true
+    },
+    "saat": {
+     "anim": "wiggle",
+     "fx": "click"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "ali",
+     "ela",
+     "selin"
+    ],
+    "done": "Üç çift kulak Deniz'i dinliyor!",
+    "msg": "Herkes dinliyor!"
+   },
+   "hint": [
+    "ali",
+    "Dinleyenlere dokun, say!"
+   ],
+   "ask": "Şimdi biz de bir an susalım. Sen neler duyuyorsun?",
+   "cues": [
+    {
+     "w": 4,
+     "fx": "kalp"
+    },
+    {
+     "w": 19,
+     "fx": "saat"
+    }
+   ]
+  },
+  {
+   "text": "Herkes serçeleri merak etti. Eller kalktı, sorular sırayla geldi. Ela sordu: “Uzaktan mı bakıyorsunuz?” Deniz başını salladı. İçi sıcacık oldu. Sonra taşı sana uzattı: “Söz sırası sende! Senin haberin ne?”",
+   "scene": {
+    "set": "sinif",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 88,
+      "y": 214,
+      "s": 0.9,
+      "pose": "wave",
+      "mood": "happy",
+      "hit": "ali"
+     },
+     {
+      "k": "ela",
+      "x": 316,
+      "y": 214,
+      "s": 0.9,
+      "pose": "wave",
+      "mood": "laugh",
+      "hit": "ela",
+      "flip": true
+     },
+     {
+      "k": "deniz",
+      "x": 200,
+      "y": 236,
+      "s": 1.25,
+      "pose": "hold",
+      "hold": "tas",
+      "holdS": 0.95,
+      "holdO": {
+       "color": "#3E9BE0",
+       "grass": false
+      },
+      "mood": "happy",
+      "hit": "deniz"
+     }
+    ]
+   },
+   "hits": {
+    "deniz": {
+     "say": "Söz sırası sende! Senin haberin ne?",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "chime",
+     "spark": true
+    },
+    "ali": {
+     "say": "Yuvada kaç yumurta var?",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "ela": {
+     "say": "Uzaktan mı bakıyorsunuz?",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Senin bugün anlatmak istediğin haber ne? Söz sende!"
+  }
+ ],
+ "order": [
+  1,
+  2,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "TAKB.1 Konuşma sürecini yönetebilme (öğrenme çıktısı); süreç bileşenleri: söz sırasını bekler, konuşana göz teması kurar, ilgi alanına giren bir konuda (hafta sonu haberi) konuşur.",
+   "TADB.3 Dinlediklerini/izlediklerini çözümleyebilme (öğrenme çıktısı); süreç bileşenleri: olayların parçalarını belirler, dinlediklerini oluş sırasına göre söyler (taş Ali'den Ela'ya, Ela'dan Deniz'e geçer).",
+   "E2.4 Güven ve SDB2.1 İletişim: Dinlendiğini hissedince kendini ifade etmeye cesaret eder; konuşanı sözünü kesmeden dinler.",
+   "D14 Saygı ve D12 Sabır: Arkadaşının sözünü kesmez, sırasını bekler; beklerken nefes almak gibi bir yol kullanır."
+  ],
+  "once": [
+   "Kapağı göster: “Bu çocuklar ne yapıyor olabilir? Masalın adı bir soru: Söz sırası kimde?”",
+   "Küçük, pürüzsüz bir nesne hazırla (taş, top ya da kaşık). Masaldan sonra konuşma taşı olarak kullanacaksın.",
+   "“Herkes aynı anda konuşursa ne olur?” diye sor, cevapları dinle."
+  ],
+  "sirasi": [
+   "2. sayfada iki cümleyi önce hep bir ağızdan, sonra tek tek söyleyin. Farkı konuşun.",
+   "3. sayfadaki tahmin sorusunda iki cevabı da kabul et; “Neden öyle düşündün?” diye sor.",
+   "4. sayfada taşı ekranda sırayla dolaştırın. Yanlış kişiye dokunulunca “Söz sırası kimde?” diye sorun.",
+   "5. sayfada herkes bir an sussun; saatin tik takını ya da dışarıdaki sesleri dinleyin."
+  ],
+  "sonra": [
+   "Herkes aynı anda konuşunca ne oldu? Konuşma taşı gelince ne değişti?",
+   "Ela beklerken ne yaptı? Sen beklemek zor gelince ne yaparsın?",
+   "Deniz herkes onu dinleyince nasıl hissetti? Sen dinlendiğinde ne hissedersin?",
+   "Masalı resimlerle sıralayın: gürültü, konuşma taşı, Deniz'in fısıltısı."
+  ],
+  "sinif": {
+   "ad": "Konuşma Taşı Çemberi ve Kulaktan Kulağa",
+   "sure": "20 dk",
+   "materyal": "Konuşma taşı olarak pürüzsüz bir taş ya da küçük bir top, kâğıt, boya kalemleri",
+   "adim": [
+    "Çember olun. Taşı tutan hafta sonu haberini anlatsın, ötekiler gözleri ve kulaklarıyla dinlesin.",
+    "Taş elden ele dolaşsın. Anlatmak istemeyen “Pas” deyip taşı yanındakine verebilir.",
+    "Geleneksel “Kulaktan Kulağa” oyununu oynayın: Deniz'in fısıltısı gibi kısa bir cümleyi sırayla fısıldayın. Oyunun sonunda cümle değiştiyse gülün ve sorun: “Taşla sırayla konuşunca Deniz'in haberi neden doğru duyuldu?”",
+    "Her çocuk haberinin resmini yapsın; resimler panoya asılınca sırayla anlatılsın."
+   ]
+  },
+  "evSoru": [
+   "Deniz'in minicik haberi neydi?",
+   "Herkes aynı anda konuşunca ne oluyor?",
+   "Bizim evde söz sırasını nasıl bekleyebiliriz?"
+  ],
+  "evEtk": {
+   "ad": "Sofrada konuşma kaşığı",
+   "d": "Akşam yemeğinde bir kaşığı “konuşma kaşığı” yapın. Kaşığı tutan gününü anlatsın, ötekiler dinlesin, sonra kaşık yanındakine geçsin. Bekleyen için “Burnundan nefes al, sıranı bekle” oyununu birlikte oynayın."
+  },
+  "aileNotu": "Bugün “Söz Sırası Kimde?” masalını okuduk. Herkes aynı anda konuşunca kimsenin duyulmadığını, bir konuşma taşıyla sırayla konuşunca en minik sesin bile duyulduğunu gördük. Evde sofrada bir “konuşma kaşığı” ile sırayla konuşmayı deneyebilirsiniz. Sessiz çocukları konuşmaya zorlamayın; dinlendiğini hissetmek onlara cesaret verir."
+ },
+ "audio": {
+  "file": "audio/006-soz-sirasi-kimde.mp3",
+  "hash": "3f442e18",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15151,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2849,
+      4
+     ],
+     [
+      3249,
+      5
+     ],
+     [
+      3889,
+      6
+     ],
+     [
+      5029,
+      7
+     ],
+     [
+      5989,
+      8
+     ],
+     [
+      6549,
+      9
+     ],
+     [
+      7149,
+      10
+     ],
+     [
+      7329,
+      11
+     ],
+     [
+      7669,
+      12
+     ],
+     [
+      8489,
+      13
+     ],
+     [
+      8730,
+      14
+     ],
+     [
+      9089,
+      15
+     ],
+     [
+      10029,
+      16
+     ],
+     [
+      10409,
+      17
+     ],
+     [
+      10709,
+      18
+     ],
+     [
+      10949,
+      19
+     ],
+     [
+      12029,
+      20
+     ],
+     [
+      12529,
+      21
+     ],
+     [
+      12949,
+      22
+     ],
+     [
+      13589,
+      23
+     ],
+     [
+      14069,
+      24
+     ],
+     [
+      14270,
+      25
+     ]
+    ]
+   },
+   "p0h-selin": {
+    "s": 15451,
+    "d": 2438,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1790,
+      3
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 18189,
+    "d": 2132,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      450,
+      1
+     ],
+     [
+      1035,
+      2
+     ],
+     [
+      1271,
+      3
+     ],
+     [
+      1856,
+      4
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 20622,
+    "d": 1587,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      433,
+      1
+     ],
+     [
+      927,
+      2
+     ],
+     [
+      1320,
+      3
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 22510,
+    "d": 1957,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      1529,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24768,
+    "d": 17787,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      3589,
+      6
+     ],
+     [
+      4689,
+      7
+     ],
+     [
+      5029,
+      8
+     ],
+     [
+      5769,
+      9
+     ],
+     [
+      6029,
+      10
+     ],
+     [
+      6589,
+      11
+     ],
+     [
+      6890,
+      12
+     ],
+     [
+      7529,
+      13
+     ],
+     [
+      7910,
+      14
+     ],
+     [
+      8069,
+      15
+     ],
+     [
+      8629,
+      16
+     ],
+     [
+      9409,
+      17
+     ],
+     [
+      10249,
+      18
+     ],
+     [
+      10569,
+      19
+     ],
+     [
+      10829,
+      20
+     ],
+     [
+      11730,
+      21
+     ],
+     [
+      12149,
+      22
+     ],
+     [
+      12649,
+      23
+     ],
+     [
+      13529,
+      24
+     ],
+     [
+      13989,
+      25
+     ],
+     [
+      14649,
+      26
+     ],
+     [
+      15669,
+      27
+     ],
+     [
+      16270,
+      28
+     ],
+     [
+      16969,
+      29
+     ],
+     [
+      17270,
+      30
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 42855,
+    "d": 3457,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1511,
+      1
+     ],
+     [
+      2347,
+      2
+     ],
+     [
+      2845,
+      3
+     ],
+     [
+      3131,
+      4
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 46613,
+    "d": 2272,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 49185,
+    "d": 1962,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1209,
+      2
+     ]
+    ]
+   },
+   "p1h-selin": {
+    "s": 51448,
+    "d": 1644,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      616,
+      1
+     ],
+     [
+      880,
+      2
+     ],
+     [
+      1340,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 53392,
+    "d": 13374,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      2049,
+      3
+     ],
+     [
+      2689,
+      4
+     ],
+     [
+      3410,
+      5
+     ],
+     [
+      4029,
+      6
+     ],
+     [
+      4229,
+      7
+     ],
+     [
+      4529,
+      8
+     ],
+     [
+      5469,
+      9
+     ],
+     [
+      5789,
+      10
+     ],
+     [
+      6189,
+      11
+     ],
+     [
+      6729,
+      12
+     ],
+     [
+      6850,
+      13
+     ],
+     [
+      7749,
+      14
+     ],
+     [
+      8109,
+      15
+     ],
+     [
+      8650,
+      16
+     ],
+     [
+      9589,
+      17
+     ],
+     [
+      9730,
+      18
+     ],
+     [
+      9989,
+      19
+     ],
+     [
+      10529,
+      20
+     ],
+     [
+      11230,
+      21
+     ],
+     [
+      11969,
+      22
+     ],
+     [
+      12270,
+      23
+     ],
+     [
+      12829,
+      24
+     ],
+     [
+      12969,
+      25
+     ]
+    ]
+   },
+   "p2h-selin": {
+    "s": 67067,
+    "d": 1705,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1030,
+      3
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 69072,
+    "d": 1764,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      969,
+      3
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 71136,
+    "d": 1310,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 72747,
+    "d": 1854,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      463,
+      1
+     ],
+     [
+      944,
+      2
+     ],
+     [
+      1138,
+      3
+     ],
+     [
+      1476,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 74901,
+    "d": 2160,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 77362,
+    "d": 2229,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1709,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 79892,
+    "d": 20215,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2729,
+      4
+     ],
+     [
+      3150,
+      5
+     ],
+     [
+      3969,
+      6
+     ],
+     [
+      4910,
+      7
+     ],
+     [
+      5169,
+      8
+     ],
+     [
+      5809,
+      9
+     ],
+     [
+      6289,
+      10
+     ],
+     [
+      6789,
+      11
+     ],
+     [
+      7829,
+      12
+     ],
+     [
+      8390,
+      13
+     ],
+     [
+      9329,
+      14
+     ],
+     [
+      9749,
+      15
+     ],
+     [
+      10129,
+      16
+     ],
+     [
+      10850,
+      17
+     ],
+     [
+      11209,
+      18
+     ],
+     [
+      11390,
+      19
+     ],
+     [
+      11829,
+      20
+     ],
+     [
+      12509,
+      21
+     ],
+     [
+      13430,
+      22
+     ],
+     [
+      13829,
+      23
+     ],
+     [
+      14529,
+      24
+     ],
+     [
+      15049,
+      25
+     ],
+     [
+      15890,
+      26
+     ],
+     [
+      16289,
+      27
+     ],
+     [
+      17049,
+      28
+     ],
+     [
+      18049,
+      29
+     ],
+     [
+      18610,
+      30
+     ],
+     [
+      19409,
+      31
+     ],
+     [
+      19729,
+      32
+     ]
+    ]
+   },
+   "p3h-selin": {
+    "s": 100407,
+    "d": 1735,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 102443,
+    "d": 3030,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2329,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 105773,
+    "d": 18230,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3749,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      4930,
+      9
+     ],
+     [
+      5209,
+      10
+     ],
+     [
+      5989,
+      11
+     ],
+     [
+      6390,
+      12
+     ],
+     [
+      6930,
+      13
+     ],
+     [
+      7089,
+      14
+     ],
+     [
+      7910,
+      15
+     ],
+     [
+      8549,
+      16
+     ],
+     [
+      8869,
+      17
+     ],
+     [
+      10009,
+      18
+     ],
+     [
+      10569,
+      19
+     ],
+     [
+      10810,
+      20
+     ],
+     [
+      11069,
+      21
+     ],
+     [
+      11369,
+      22
+     ],
+     [
+      11649,
+      23
+     ],
+     [
+      12649,
+      24
+     ],
+     [
+      13089,
+      25
+     ],
+     [
+      14310,
+      26
+     ],
+     [
+      15169,
+      27
+     ],
+     [
+      15890,
+      28
+     ],
+     [
+      16169,
+      29
+     ],
+     [
+      17110,
+      30
+     ],
+     [
+      17690,
+      31
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 124304,
+    "d": 2711,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2370,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 127315,
+    "d": 2638,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1849,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 130253,
+    "d": 16104,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      3469,
+      6
+     ],
+     [
+      3969,
+      7
+     ],
+     [
+      4529,
+      8
+     ],
+     [
+      5330,
+      9
+     ],
+     [
+      5629,
+      10
+     ],
+     [
+      6649,
+      11
+     ],
+     [
+      7189,
+      12
+     ],
+     [
+      7349,
+      13
+     ],
+     [
+      8549,
+      14
+     ],
+     [
+      8890,
+      15
+     ],
+     [
+      9289,
+      16
+     ],
+     [
+      10129,
+      17
+     ],
+     [
+      10430,
+      18
+     ],
+     [
+      10969,
+      19
+     ],
+     [
+      11549,
+      20
+     ],
+     [
+      11890,
+      21
+     ],
+     [
+      12189,
+      22
+     ],
+     [
+      12489,
+      23
+     ],
+     [
+      13369,
+      24
+     ],
+     [
+      13649,
+      25
+     ],
+     [
+      14129,
+      26
+     ],
+     [
+      14969,
+      27
+     ],
+     [
+      15310,
+      28
+     ],
+     [
+      15810,
+      29
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 146658,
+    "d": 2015,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1769,
+      5
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 148973,
+    "d": 1724,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1109,
+      3
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 150997,
+    "d": 1663,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      709,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

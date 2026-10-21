@@ -1,0 +1,1759 @@
+{
+ "id": "043-tabagimdaki-gokkusagi",
+ "n": 43,
+ "title": "Tabağımdaki Gökkuşağı",
+ "age": "48-60",
+ "area": "Hareket ve Sağlık",
+ "theme": "Sağlıklı beslenme: renkli tabak",
+ "values": [
+  "D13 Sağlıklı Yaşam"
+ ],
+ "sdb": "SDB3.3 Sorumlu Karar Verme",
+ "min": 5,
+ "blurb": "Ela'ya sorsan sabah, öğlen, akşam hep makarna yer! Nine'siyle bostanda gökkuşağı avına çıkınca turuncu havuçları, kırmızı elmayı, yeşil ve mor üzümleri toplar; renkleri ayırır ve hangi rengi tadacağına kendisi karar verir.",
+ "codes": {
+  "maarif": [
+   "HSAB.7 Günlük yaşamında sağlıklı beslenme davranışları gösterebilme",
+   "FAB.2 Fene yönelik nesne, olayları/olguları benzerlik ve farklılıklarına göre sınıflandırabilme",
+   "E1.1 Merak",
+   "SDB3.3 Sorumlu Karar Verme",
+   "D13 Sağlıklı Yaşam"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ela": "cocuk-kiz",
+  "nine": "nine"
+ },
+ "voiceNames": {
+  "ela": "Ela",
+  "nine": "Nine"
+ },
+ "pages": [
+  {
+   "text": "Ela yaz tatilinde ninesinin köyüne geldi. Ela'ya sorsan: sabah makarna, öğlen makarna, akşam yine makarna! Nine göz kırptı: “Bostanda bir gökkuşağı saklı. Bulalım mı?”",
+   "scene": {
+    "set": "bostan",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 148,
+      "y": 228,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "open",
+      "hit": "ela"
+     },
+     {
+      "k": "nine",
+      "x": 286,
+      "y": 230,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "wave",
+      "flip": true,
+      "scarf": "#6C8FD0",
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "basket",
+      "x": 344,
+      "y": 234,
+      "s": 1.0
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Makarna, makarna, bir de makarna!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "nine": {
+     "say": "Bostanda bir gökkuşağı saklı!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Sence bir bostanda gökkuşağı nerede saklanır?"
+  },
+  {
+   "text": "Ela gökyüzüne baktı. Gökkuşağı yok ki! Nine yaprakları araladı. Vay! Turuncu havuçlar, kıpkırmızı bir elma, yeşil ve mor üzümler! Ela zıpladı: “Hepsini sepete toplayalım!”",
+   "scene": {
+    "set": "bostan",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 58,
+      "y": 230,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "point",
+      "scarf": "#6C8FD0",
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 272,
+      "y": 230,
+      "s": 1.0,
+      "mood": "surprised",
+      "pose": "open",
+      "hit": "ela"
+     },
+     {
+      "k": "gunes",
+      "x": 340,
+      "y": 44,
+      "s": 0.8,
+      "mood": "happy",
+      "hit": "gunes"
+     }
+    ],
+    "props": [
+     {
+      "k": "basket",
+      "x": 212,
+      "y": 238,
+      "s": 1.05
+     },
+     {
+      "k": "havuc",
+      "planted": true,
+      "x": 126,
+      "y": 205,
+      "s": 1.5,
+      "hit": "h1"
+     },
+     {
+      "k": "havuc",
+      "planted": true,
+      "x": 164,
+      "y": 205,
+      "s": 1.5,
+      "hit": "h2"
+     },
+     {
+      "k": "apple",
+      "x": 98,
+      "y": 94,
+      "s": 1.05,
+      "hit": "e1"
+     },
+     {
+      "k": "uzum",
+      "color": "green",
+      "x": 326,
+      "y": 168,
+      "s": 1.05,
+      "hit": "u1"
+     },
+     {
+      "k": "uzum",
+      "x": 362,
+      "y": 168,
+      "s": 1.05,
+      "hit": "u2"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Gökkuşağı yok ki!",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "nine": {
+     "say": "Yaprakların arasına bak!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "h1",
+     "h2",
+     "e1",
+     "u1",
+     "u2"
+    ],
+    "to": [
+     212,
+     218
+    ],
+    "done": "Hoop, çıt! Sepette bir gökkuşağı var!",
+    "msg": "Hepsini topladın!"
+   },
+   "hint": [
+    "h1",
+    "Renkleri sepete topla!"
+   ],
+   "ask": "Havuç nerede yetişir: toprağın altında mı, dalda mı?"
+  },
+  {
+   "text": "Nine hepsini yıkadı, küçük küçük doğradı, örtüye dizdi. Ela baktı, baktı… Ya tadı tuhafsa? Ela biraz çekindi, dudaklarını sıktı. Nine gülümsedi: “Acele yok. Sen seç, sen karar ver.”",
+   "scene": {
+    "set": "bostan",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 108,
+      "y": 230,
+      "s": 1.0,
+      "mood": "shy",
+      "pose": "sit",
+      "hit": "ela"
+     },
+     {
+      "k": "nine",
+      "x": 344,
+      "y": 228,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "scarf": "#6C8FD0",
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "picnic"
+     },
+     {
+      "k": "apple",
+      "x": 162,
+      "y": 232,
+      "s": 1.15,
+      "hit": "y1"
+     },
+     {
+      "k": "havuc",
+      "x": 196,
+      "y": 220,
+      "s": 1.05,
+      "hit": "y2"
+     },
+     {
+      "k": "uzum",
+      "color": "green",
+      "x": 226,
+      "y": 234,
+      "s": 1.0,
+      "hit": "y3"
+     },
+     {
+      "k": "havuc",
+      "x": 258,
+      "y": 220,
+      "s": 1.05,
+      "hit": "y4"
+     },
+     {
+      "k": "uzum",
+      "x": 290,
+      "y": 234,
+      "s": 1.0,
+      "hit": "y5"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Ya tadı tuhafsa?",
+     "voice": "ela",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "nine": {
+     "say": "Acele yok, sen karar ver.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "y": {
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence Ela hangi rengi seçecek?",
+    "res": "Hadi görelim!",
+    "opts": [
+     {
+      "l": "Turuncu havuç",
+      "scene": {
+       "set": "bostan",
+       "time": "day",
+       "props": [
+        {
+         "k": "picnic"
+        }
+       ],
+       "cast": [
+        {
+         "k": "ela",
+         "x": 200,
+         "y": 232,
+         "s": 1.3,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "havuc",
+         "holdS": 1.3
+        }
+       ]
+      }
+     },
+     {
+      "l": "Mor üzüm",
+      "scene": {
+       "set": "bostan",
+       "time": "day",
+       "props": [
+        {
+         "k": "picnic"
+        }
+       ],
+       "cast": [
+        {
+         "k": "ela",
+         "x": 200,
+         "y": 232,
+         "s": 1.3,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "uzum",
+         "holdS": 1.3
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Sen yeni bir yemeği ilk kez görünce ne hissedersin?"
+  },
+  {
+   "text": "Ela turuncu havucu seçti. Önce baktı: parlak! Sonra kokladı: mis gibi! Sonra minik bir ısırık… Kıtır kıtır! Ela'nın gözleri kocaman oldu: “Tatlıymış!”",
+   "scene": {
+    "set": "bostan",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 164,
+      "y": 236,
+      "s": 1.5,
+      "mood": "surprised",
+      "pose": "wave",
+      "hold": "havuc",
+      "holdS": 1.1,
+      "hit": "ela"
+     },
+     {
+      "k": "nine",
+      "x": 330,
+      "y": 226,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "sit",
+      "flip": true,
+      "scarf": "#6C8FD0",
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "picnic"
+     },
+     {
+      "k": "havuc",
+      "x": 258,
+      "y": 232,
+      "s": 1.3,
+      "hit": "havuc"
+     },
+     {
+      "k": "sparkle",
+      "x": 222,
+      "y": 112
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Kıtır kıtır! Tatlıymış!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "Kendin seçtin, kendin tattın!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "havuc": {
+     "say": "Kıtır kıtır!",
+     "voice": "anlatici",
+     "anim": "jump",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "ela",
+    "Ela'ya dokun!"
+   ],
+   "ask": "Ela havucu tatmadan önce neler yaptı?"
+  },
+  {
+   "text": "Ela'nın aklına bir fikir geldi. “Gökkuşağı için önce renkleri ayıralım!” Kırmızı kırmızıya, turuncu turuncuya. Yeşil yeşile, mor mora. Hop, hop, hop! Nine güldü: “Ne düzenli bir bostancı!”",
+   "scene": {
+    "set": "bostan",
+    "time": "day",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 58,
+      "y": 232,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ela"
+     },
+     {
+      "k": "nine",
+      "x": 360,
+      "y": 230,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "stand",
+      "flip": true,
+      "scarf": "#6C8FD0",
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "picnic"
+     },
+     {
+      "k": "kase",
+      "state": "off",
+      "color": "#E4574F",
+      "x": 132,
+      "y": 216,
+      "s": 1.6,
+      "hit": "kk"
+     },
+     {
+      "k": "kase",
+      "state": "off",
+      "color": "#F39A3C",
+      "x": 178,
+      "y": 211,
+      "s": 1.6,
+      "hit": "kt"
+     },
+     {
+      "k": "kase",
+      "state": "off",
+      "color": "#6DB54B",
+      "x": 226,
+      "y": 211,
+      "s": 1.6,
+      "hit": "ky"
+     },
+     {
+      "k": "kase",
+      "state": "off",
+      "color": "#9C6BC8",
+      "x": 272,
+      "y": 216,
+      "s": 1.6,
+      "hit": "km"
+     },
+     {
+      "k": "havuc",
+      "x": 124,
+      "y": 234,
+      "s": 1.2,
+      "hit": "h1"
+     },
+     {
+      "k": "uzum",
+      "x": 166,
+      "y": 234,
+      "s": 1.0,
+      "hit": "u2"
+     },
+     {
+      "k": "apple",
+      "x": 206,
+      "y": 234,
+      "s": 1.2,
+      "hit": "e1"
+     },
+     {
+      "k": "uzum",
+      "color": "green",
+      "x": 246,
+      "y": 234,
+      "s": 1.0,
+      "hit": "u1"
+     },
+     {
+      "k": "havuc",
+      "x": 290,
+      "y": 234,
+      "s": 1.2,
+      "hit": "h2"
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Kırmızı kırmızıya!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "Ne düzenli bir bostancı!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "sort",
+    "items": {
+     "e1": "kk",
+     "h1": "kt",
+     "h2": "kt",
+     "u1": "ky",
+     "u2": "km"
+    },
+    "bins": {
+     "kk": [
+      132,
+      206
+     ],
+     "kt": [
+      178,
+      201
+     ],
+     "ky": [
+      226,
+      201
+     ],
+     "km": [
+      272,
+      206
+     ]
+    },
+    "done": "Her renk kendi kâsesinde!",
+    "msg": "Renkleri ayırdın!"
+   },
+   "hint": [
+    "e1",
+    "Önce yiyeceğe, sonra kâseye dokun!"
+   ],
+   "ask": "Kırmızı başka neler yiyebiliriz? Ya yeşil?"
+  },
+  {
+   "text": "Ela renkleri tabağına sıra sıra dizdi. Tabağında bir gökkuşağı açtı! “Sarı eksik,” dedi Ela. Sonra güldü: “Sarı da makarnam olsun!” Nine kahkahayı bastı. Afiyet olsun!",
+   "scene": {
+    "set": "bostan",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 70,
+      "y": 228,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "sit",
+      "scarf": "#6C8FD0",
+      "hit": "nine"
+     },
+     {
+      "k": "ela",
+      "x": 318,
+      "y": 232,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "sit",
+      "flip": true,
+      "hit": "ela"
+     }
+    ],
+    "props": [
+     {
+      "k": "picnic"
+     },
+     {
+      "k": "tabak",
+      "x": 196,
+      "y": 230,
+      "s": 4.4,
+      "hit": "tabak"
+     },
+     {
+      "k": "apple",
+      "x": 146,
+      "y": 216,
+      "s": 1.05,
+      "z": 260
+     },
+     {
+      "k": "havuc",
+      "x": 166,
+      "y": 204,
+      "s": 1.0,
+      "z": 258
+     },
+     {
+      "k": "uzum",
+      "color": "green",
+      "x": 226,
+      "y": 206,
+      "s": 0.95,
+      "z": 258
+     },
+     {
+      "k": "uzum",
+      "x": 248,
+      "y": 218,
+      "s": 0.95,
+      "z": 260
+     },
+     {
+      "k": "sparkle",
+      "x": 196,
+      "y": 168
+     }
+    ]
+   },
+   "hits": {
+    "ela": {
+     "say": "Sarı da makarnam olsun!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "nine": {
+     "say": "Afiyet olsun, minik bostancım!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tabak": {
+     "say": "Kırmızı, turuncu, yeşil, mor!",
+     "voice": "anlatici",
+     "anim": "jump",
+     "fx": "xylo"
+    }
+   },
+   "hint": [
+    "tabak",
+    "Gökkuşağı tabağına dokun!"
+   ],
+   "ask": "Senin tabağında bugün hangi renkler vardı? Sarı için ne koyardın?",
+   "cues": [
+    {
+     "w": 21,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.7 (öğrenme çıktısı) Günlük yaşamında sağlıklı beslenme davranışları gösterebilme: Çocuk, tabağına farklı renklerde meyve ve sebze koymayı kendisi seçer; yeni bir yiyeceği önce bakıp koklayarak, sonra küçük bir ısırıkla tatmayı dener.",
+   "FAB.2 (öğrenme çıktısı) Fene yönelik nesne, olayları/olguları benzerlik ve farklılıklarına göre sınıflandırabilme: Bostandan toplanan ürünleri renklerine (kırmızı, turuncu, yeşil, mor) göre ayırır; havucun toprağın altında, elmanın dalda, üzümün asmada yetiştiğini karşılaştırır.",
+   "E1.1 Merak (eğilim): 'Bostanda gökkuşağı nerede saklı?' sorusunun peşine düşer; yeni bir tadı merak edip dener.",
+   "SDB3.3 Sorumlu Karar Verme ve D13 Sağlıklı Yaşam: Zorlanmadan, hangi rengi tadacağına kendisi karar verir; sevdiği makarnayı dışlamadan tabağını renklendirip dengeler."
+  ],
+  "once": [
+   "Mutfaktan farklı renkte birkaç meyve ve sebze getirin (ör. domates, havuç, salatalık, üzüm). 'Bunlar hangi renk? Hangisini hiç tatmadın?' diye sorun.",
+   "Kapağı gösterin: 'Sence bir tabakta gökkuşağı nasıl olur?' Tahminleri dinleyin, masal bitince yeniden sorun."
+  ],
+  "sirasi": [
+   "2. sayfada Ela gökyüzüne bakarken durun: 'Gökkuşağı nerede olabilir?' Çocuğun gösterdiği renkleri ve sebzeleri adlandırın.",
+   "3. sayfada Ela'nın yüzünü gösterin: 'Ela nasıl hissediyor?' Çekinmek sözcüğünü birlikte söyleyin. Tahmin sorusunda doğru-yanlış demeden 'Hadi görelim!' deyin.",
+   "4. sayfada Ela'nın adımlarını parmaklarınızla sayın: bak, kokla, minik bir ısırık.",
+   "Ayırma oyununda renkleri yüksek sesle söyleyin: 'Kırmızı kırmızıya, turuncu turuncuya!'"
+  ],
+  "sonra": [
+   "Ela'nın tabağındaki renkleri sırayla hatırlayın. 'Sarı için başka neler koyabilirdik?' (mısır, sarı biber, muz, kavun…)",
+   "Yeni bir yiyeceği denemek cesaret ister. 'Sen bir yiyeceği ilk kez ne zaman tattın? Beğendin mi?' Beğenmemek de olur; bir tadı sevmek için onu birçok kez denemek gerekebilir.",
+   "Havuç toprağın altında, elma dalda, üzüm asmada yetişir. Evdeki meyve ve sebzelerin nerede yetiştiğini birlikte tahmin edin."
+  ],
+  "sinif": {
+   "ad": "Gökkuşağı Tabağı",
+   "sure": "20 dk",
+   "materyal": "Yıkanmış, küçük doğranmış farklı renklerde meyve ve sebzeler (ör. domates, havuç, mısır, salatalık, mor üzüm), kırmızı-turuncu-sarı-yeşil-mor renkli kâseler ya da renkli kâğıtlar, her çocuğa bir tabak",
+   "adim": [
+    "Herkes ellerini yıkasın. Alerji ve beslenme kısıtlarını ailelerden önceden öğrenin; üzüm gibi yuvarlak besinleri boylamasına dörde bölün.",
+    "Meyve ve sebzeleri renklerine göre kâselere ayırın; her rengin adını birlikte söyleyin.",
+    "Her çocuk kendi tabağına istediği renklerden bir gökkuşağı dizsin. Kimseyi tatmaya zorlamayın: 'Bak, kokla, istersen minik bir ısırık al.'",
+    "Tabakları masada sergileyin; çocuklar tabaklarındaki renkleri ve tattıkları yeni yiyeceği arkadaşlarına anlatsın."
+   ]
+  },
+  "evSoru": [
+   "Ela bostanda gökkuşağını nerede buldu?",
+   "Ela havucu tatmadan önce neler yaptı?",
+   "Senin tabağında bugün hangi renkler vardı? Hangi renk eksikti?"
+  ],
+  "evEtk": {
+   "ad": "Renk Avcıları",
+   "d": "Bir hafta boyunca akşam yemeğinde tabaktaki renkleri birlikte sayın; buzdolabına astığınız kâğıda o gün yenen her renk için bir renkli nokta koyun. Pazara ya da manava gidince çocuğunuz haftanın yeni rengini kendisi seçsin; birlikte yıkayıp hazırlayın."
+  },
+  "aileNotu": "Bugün 'Tabağımdaki Gökkuşağı' masalını okuduk. Yalnızca makarna yemek isteyen Ela, Nine'siyle bostanda renkli meyve ve sebzeler topladı, onları renklerine göre ayırdı ve bir havucu önce bakıp koklayarak, sonra minik bir ısırıkla kendisi tattı. Çocuklar yeni bir yiyeceği çoğu zaman birçok kez gördükten ve tattıktan sonra sever; zorlamak ya da ödül-ceza yerine birlikte hazırlamak ve seçim hakkı tanımak daha çok işe yarar. Evde tabağa eklenecek yeni rengi çocuğunuzun seçmesine izin verebilirsiniz. Üzüm gibi yuvarlak besinleri küçük çocuklar için boylamasına dörde bölmenizi öneririz."
+ },
+ "audio": {
+  "file": "audio/043-tabagimdaki-gokkusagi.mp3",
+  "hash": "9e171f6a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 12890,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3729,
+      7
+     ],
+     [
+      4649,
+      8
+     ],
+     [
+      5009,
+      9
+     ],
+     [
+      5890,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      7129,
+      12
+     ],
+     [
+      7569,
+      13
+     ],
+     [
+      7829,
+      14
+     ],
+     [
+      8810,
+      15
+     ],
+     [
+      9109,
+      16
+     ],
+     [
+      9390,
+      17
+     ],
+     [
+      10249,
+      18
+     ],
+     [
+      10789,
+      19
+     ],
+     [
+      10930,
+      20
+     ],
+     [
+      11549,
+      21
+     ],
+     [
+      12230,
+      22
+     ],
+     [
+      12649,
+      23
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 13190,
+    "d": 3048,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      898,
+      1
+     ],
+     [
+      1756,
+      2
+     ],
+     [
+      2035,
+      3
+     ],
+     [
+      2315,
+      4
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 16539,
+    "d": 2067,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18906,
+    "d": 13386,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      2630,
+      5
+     ],
+     [
+      3369,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      4310,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      6169,
+      10
+     ],
+     [
+      6629,
+      11
+     ],
+     [
+      7549,
+      12
+     ],
+     [
+      8230,
+      13
+     ],
+     [
+      8390,
+      14
+     ],
+     [
+      9109,
+      15
+     ],
+     [
+      9529,
+      16
+     ],
+     [
+      9690,
+      17
+     ],
+     [
+      9930,
+      18
+     ],
+     [
+      10850,
+      19
+     ],
+     [
+      11189,
+      20
+     ],
+     [
+      11930,
+      21
+     ],
+     [
+      12369,
+      22
+     ],
+     [
+      12729,
+      23
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 32593,
+    "d": 1557,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      951,
+      1
+     ],
+     [
+      1234,
+      2
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 34450,
+    "d": 1530,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1209,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 36280,
+    "d": 3169,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2769,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 39750,
+    "d": 15555,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      3049,
+      6
+     ],
+     [
+      3469,
+      7
+     ],
+     [
+      4449,
+      8
+     ],
+     [
+      4810,
+      9
+     ],
+     [
+      5709,
+      10
+     ],
+     [
+      6809,
+      11
+     ],
+     [
+      6949,
+      12
+     ],
+     [
+      7209,
+      13
+     ],
+     [
+      8449,
+      14
+     ],
+     [
+      8730,
+      15
+     ],
+     [
+      9089,
+      16
+     ],
+     [
+      9930,
+      17
+     ],
+     [
+      10569,
+      18
+     ],
+     [
+      11469,
+      19
+     ],
+     [
+      11749,
+      20
+     ],
+     [
+      12770,
+      21
+     ],
+     [
+      13189,
+      22
+     ],
+     [
+      13749,
+      23
+     ],
+     [
+      14049,
+      24
+     ],
+     [
+      14629,
+      25
+     ],
+     [
+      14869,
+      26
+     ],
+     [
+      15229,
+      27
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 55606,
+    "d": 1470,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      306,
+      1
+     ],
+     [
+      769,
+      2
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 57377,
+    "d": 1913,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 59590,
+    "d": 2232,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 62122,
+    "d": 729,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 63152,
+    "d": 13431,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      4390,
+      7
+     ],
+     [
+      4729,
+      8
+     ],
+     [
+      5749,
+      9
+     ],
+     [
+      6129,
+      10
+     ],
+     [
+      6969,
+      11
+     ],
+     [
+      7529,
+      12
+     ],
+     [
+      7870,
+      13
+     ],
+     [
+      8029,
+      14
+     ],
+     [
+      8810,
+      15
+     ],
+     [
+      9270,
+      16
+     ],
+     [
+      10149,
+      17
+     ],
+     [
+      10609,
+      18
+     ],
+     [
+      11089,
+      19
+     ],
+     [
+      11649,
+      20
+     ],
+     [
+      12329,
+      21
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 76883,
+    "d": 2558,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      643,
+      1
+     ],
+     [
+      1657,
+      2
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 79742,
+    "d": 2322,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1749,
+      3
+     ]
+    ]
+   },
+   "p3h-havuc": {
+    "s": 82364,
+    "d": 1200,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      600,
+      1
+     ]
+    ]
+   },
+   "p4": {
+    "s": 83865,
+    "d": 14239,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2930,
+      6
+     ],
+     [
+      3309,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      4089,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      5370,
+      11
+     ],
+     [
+      6309,
+      12
+     ],
+     [
+      6789,
+      13
+     ],
+     [
+      7769,
+      14
+     ],
+     [
+      8190,
+      15
+     ],
+     [
+      9009,
+      16
+     ],
+     [
+      9369,
+      17
+     ],
+     [
+      10009,
+      18
+     ],
+     [
+      10350,
+      19
+     ],
+     [
+      10649,
+      20
+     ],
+     [
+      11469,
+      21
+     ],
+     [
+      11789,
+      22
+     ],
+     [
+      12629,
+      23
+     ],
+     [
+      12789,
+      24
+     ],
+     [
+      13289,
+      25
+     ],
+     [
+      13409,
+      26
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 98404,
+    "d": 1468,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      643,
+      1
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 100173,
+    "d": 1619,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      261,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1030,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 102093,
+    "d": 1922,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1050,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 104316,
+    "d": 12758,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4290,
+      9
+     ],
+     [
+      5149,
+      10
+     ],
+     [
+      5449,
+      11
+     ],
+     [
+      6169,
+      12
+     ],
+     [
+      6469,
+      13
+     ],
+     [
+      7169,
+      14
+     ],
+     [
+      7569,
+      15
+     ],
+     [
+      8369,
+      16
+     ],
+     [
+      8650,
+      17
+     ],
+     [
+      8789,
+      18
+     ],
+     [
+      9390,
+      19
+     ],
+     [
+      10069,
+      20
+     ],
+     [
+      10390,
+      21
+     ],
+     [
+      11029,
+      22
+     ],
+     [
+      11829,
+      23
+     ],
+     [
+      12289,
+      24
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 117374,
+    "d": 1509,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      397,
+      1
+     ],
+     [
+      602,
+      2
+     ],
+     [
+      1111,
+      3
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 119183,
+    "d": 2004,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1290,
+      3
+     ]
+    ]
+   },
+   "p5h-tabak": {
+    "s": 121488,
+    "d": 2853,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1649,
+      2
+     ],
+     [
+      2410,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

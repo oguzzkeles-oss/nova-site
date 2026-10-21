@@ -1,0 +1,2240 @@
+{
+ "id": "084-suyun-ustundeki-renkler",
+ "n": 84,
+ "title": "Suyun Üstündeki Renkler",
+ "age": "60-72",
+ "area": "Sanat",
+ "theme": "Ebru sanatı ve sabırla, yavaş çalışma",
+ "values": [
+  "D12 Sabır",
+  "D7 Estetik"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 5,
+ "blurb": "Yağmurlu bir günde ninesi Elif'e suyun üstüne resim yapmayı, ebruyu gösterir. Acele edince boyalar çamur gibi karışır; Elif derin bir nefes alıp “salyangoz ellerini” bulur ve sabırla kendi laleli ebrusunu yapar.",
+ "codes": {
+  "maarif": [
+   "SNAB.3 Sanat eserlerine ve sanatçılara değer verebilme",
+   "SNAB.2.g Eserle ilgili duygu ve düşüncelerini ifade eder",
+   "SNAB.4 Sanat etkinliği uygulayabilme",
+   "beceri: SNAB4 Sanatsal Uygulama Yapma",
+   "OB5 Kültür Okuryazarlığı",
+   "SDB1.2 Kendini Düzenleme",
+   "D12 Sabır",
+   "D7 Estetik"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "elif": "cocuk-kiz",
+  "nine": "nine",
+  "tarcin": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "elif": "Elif",
+  "nine": "Nine (Elif'in ninesi)",
+  "tarcin": "Tarçın (kedi)"
+ },
+ "pages": [
+  {
+   "text": "Dışarıda yağmur pıtır pıtır yağıyordu. Camda bir salyangoz ağır ağır yürüyordu. Elif'in ninesi masaya özel suyla dolu bir tepsi koydu. “Bugün suyun üstüne resim yapacağız, Elif. Adı ebru.” Elif kıkırdadı. “Suya resim mi olur? Su kaçar ki!” Kedi Tarçın da masaya zıpladı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "nine",
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "point",
+      "x": 58,
+      "y": 232,
+      "hit": "nine"
+     },
+     {
+      "k": "elif",
+      "s": 1.12,
+      "mood": "laugh",
+      "pose": "open",
+      "x": 340,
+      "y": 234,
+      "flip": true,
+      "hit": "elif"
+     },
+     {
+      "k": "kedi",
+      "s": 0.42,
+      "mood": "surprised",
+      "pose": "jump",
+      "x": 280,
+      "y": 155,
+      "z": 245,
+      "flip": true,
+      "hit": "tarcin"
+     },
+     {
+      "k": "salyangoz",
+      "x": 118,
+      "y": 138,
+      "s": 0.72,
+      "pose": "walk",
+      "trail": true,
+      "hit": "salyangoz"
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "x": 200,
+      "y": 232,
+      "s": 1.8
+     },
+     {
+      "k": "tepsi",
+      "fill": "water",
+      "x": 196,
+      "y": 164,
+      "z": 240,
+      "s": 1.2,
+      "hit": "tepsi"
+     },
+     {
+      "k": "palet",
+      "x": 160,
+      "y": 160,
+      "z": 243,
+      "s": 0.8,
+      "hit": "palet"
+     },
+     {
+      "k": "bardak",
+      "fill": "water",
+      "x": 230,
+      "y": 163,
+      "z": 244,
+      "s": 0.5
+     },
+     {
+      "k": "kagit",
+      "x": 262,
+      "y": 164,
+      "z": 242,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Bugün suyun üstüne resim yapacağız!",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "elif": {
+     "say": "Suya resim mi olur?",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "tepsi": {
+     "anim": "wiggle",
+     "fx": "splash"
+    },
+    "palet": {
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "salyangoz": {
+     "say": "Ağır ağır, yavaş yavaş…",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "tarcin": {
+     "say": "Miyav? Su mu bu?",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "meow"
+    }
+   },
+   "hint": [
+    "salyangoz",
+    "Camdaki salyangoza dokun!"
+   ],
+   "ask": "Sence suyun üstüne resim yapılabilir mi? Nasıl olur?"
+  },
+  {
+   "text": "Elif fırçayı kaptı. Şlap! Şlap! Şlap! Boyaları hızlı hızlı serpti. Boya her yere sıçradı. Renkler dibe battı, çamur gibi karıştı. Kedi Tarçın bile kaçtı! Elif'in yanakları ısındı. “Olmadı! Hiç güzel olmadı!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "elif",
+      "s": 1.15,
+      "mood": "angry",
+      "pose": "point",
+      "hold": "<g transform=\"rotate(-20)\"><path d=\"M0 -13 L0 7\" stroke=\"#B5793C\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><path d=\"M0 -13 L0 -4\" stroke=\"#D9A066\" stroke-width=\"1\" stroke-linecap=\"round\" opacity=\".7\"/><rect x=\"-1.9\" y=\"6\" width=\"3.8\" height=\"3\" rx=\".8\" fill=\"#8A7A62\"/><path d=\"M-2.2 9 C-2.6 13 -1 16.5 0 18 C1 16.5 2.6 13 2.2 9Z\" fill=\"#6B4E32\" stroke=\"#4A3422\" stroke-width=\".5\"/><path d=\"M-.8 15.5 C-.3 17 .3 17 .8 15.5\" stroke=\"#E4574F\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/></g>",
+      "holdS": 1,
+      "x": 140,
+      "y": 236,
+      "hit": "elif"
+     },
+     {
+      "k": "kedi",
+      "s": 0.55,
+      "mood": "scared",
+      "pose": "jump",
+      "x": 372,
+      "y": 226,
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "x": 252,
+      "y": 232,
+      "s": 1.8
+     },
+     {
+      "k": "tepsi",
+      "fill": "water",
+      "x": 252,
+      "y": 164,
+      "z": 240,
+      "s": 1.2,
+      "hit": "tepsi"
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "grass": false,
+      "color": "#6B5B4B",
+      "x": 242,
+      "y": 147,
+      "z": 242,
+      "s": 1.25,
+      "hit": "camur"
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "grass": false,
+      "color": "#5E6A55",
+      "x": 257,
+      "y": 149,
+      "z": 243,
+      "s": 1.2
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "grass": false,
+      "color": "#7A5A5E",
+      "x": 226,
+      "y": 149,
+      "z": 243,
+      "s": 0.8
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "grass": false,
+      "color": "#6B6250",
+      "x": 278,
+      "y": 148,
+      "z": 243,
+      "s": 0.8
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#E4574F",
+      "x": 196,
+      "y": 112,
+      "s": 0.8,
+      "state": "off",
+      "hit": "l1"
+     },
+     {
+      "k": "leke",
+      "upright": true,
+      "color": "#4F8FD8",
+      "x": 318,
+      "y": 118,
+      "s": 0.75,
+      "state": "off",
+      "hit": "l2"
+     },
+     {
+      "k": "leke",
+      "color": "#6B5540",
+      "x": 300,
+      "y": 230,
+      "s": 0.9,
+      "state": "off",
+      "hit": "l3"
+     },
+     {
+      "k": "palet",
+      "x": 206,
+      "y": 234,
+      "s": 0.9,
+      "hit": "palet"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Olmadı! Hiç güzel olmadı!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "tarcin": {
+     "say": "Miyaaav!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "meow"
+    },
+    "camur": {
+     "anim": "wiggle",
+     "fx": "drip"
+    },
+    "tepsi": {
+     "anim": "wiggle",
+     "fx": "splash"
+    },
+    "l": {
+     "anim": "boing",
+     "fx": "splash"
+    },
+    "palet": {
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'e dokun!"
+   ],
+   "ask": "Elif neden kızdı? Sen bir şey istediğin gibi olmayınca ne hissedersin?"
+  },
+  {
+   "text": "Ninesi yanına geldi. “Kızdın, değil mi? İlk ebrumda ben de kızmıştım. Su acele sevmez, kuzum.” Elif burnundan derin bir nefes aldı. Ağzından yavaşça verdi. Sonra camdaki salyangoza baktı. Gözleri parladı. Aklına bir fikir gelmişti!",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "nine",
+      "s": 1.02,
+      "mood": "calm",
+      "pose": "hug",
+      "x": 300,
+      "y": 230,
+      "flip": true,
+      "hit": "nine"
+     },
+     {
+      "k": "elif",
+      "s": 1.12,
+      "mood": "surprised",
+      "pose": "point",
+      "x": 226,
+      "y": 234,
+      "flip": true,
+      "hit": "elif"
+     },
+     {
+      "k": "kedi",
+      "s": 0.5,
+      "mood": "sleep",
+      "pose": "lie",
+      "x": 368,
+      "y": 232,
+      "flip": true,
+      "hit": "tarcin"
+     },
+     {
+      "k": "salyangoz",
+      "x": 118,
+      "y": 138,
+      "s": 0.7,
+      "pose": "walk",
+      "trail": true,
+      "hit": "salyangoz"
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "nine": {
+     "say": "Su acele sevmez, kuzum.",
+     "voice": "nine",
+     "anim": "wiggle",
+     "fx": "chime",
+     "hearts": true
+    },
+    "elif": {
+     "say": "Burnumdan aldım… ağzımdan verdim. Ooh.",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "blow"
+    },
+    "tarcin": {
+     "say": "Mırr…",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "meow"
+    },
+    "salyangoz": {
+     "say": "Ağır ağır, yavaş yavaş…",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "predict": {
+    "q": "Sence Elif'in aklına ne geldi?",
+    "res": "Güzel tahmin! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Salyangoz gibi yavaş boyamak",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "elif",
+         "s": 1.12,
+         "mood": "laugh",
+         "pose": "point",
+         "x": 240,
+         "y": 234,
+         "flip": true
+        },
+        {
+         "k": "salyangoz",
+         "x": 118,
+         "y": 138,
+         "s": 1.1,
+         "pose": "wave",
+         "trail": true
+        }
+       ],
+       "props": []
+      }
+     },
+     {
+      "l": "Önce ninesini izlemek",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "nine",
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "point",
+         "x": 130,
+         "y": 232
+        },
+        {
+         "k": "elif",
+         "s": 1.12,
+         "mood": "think",
+         "pose": "stand",
+         "x": 290,
+         "y": 234,
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "palet",
+         "x": 205,
+         "y": 232,
+         "s": 1.1
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "elif",
+    "Elif'le nefes al!"
+   ],
+   "ask": "Elif sakinleşmek için ne yaptı? Hadi biz de burnumuzdan alıp ağzımızdan verelim."
+  },
+  {
+   "text": "“Salyangoz ellerim geldi!” dedi Elif. Fırçayı yavaş yavaş salladı. Pıt! Kırmızı. Pıt! Sarı. Pıt! Mavi. Pıt! Pembe. Pıt! Yeşil. Damlalar batmadı. Suyun üstünde yuvarlak yuvarlak açıldı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "nine",
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "clap",
+      "x": 352,
+      "y": 212,
+      "flip": true,
+      "hit": "nine"
+     },
+     {
+      "k": "elif",
+      "s": 1.2,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "<g transform=\"rotate(-20)\"><path d=\"M0 -13 L0 7\" stroke=\"#B5793C\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><path d=\"M0 -13 L0 -4\" stroke=\"#D9A066\" stroke-width=\"1\" stroke-linecap=\"round\" opacity=\".7\"/><rect x=\"-1.9\" y=\"6\" width=\"3.8\" height=\"3\" rx=\".8\" fill=\"#8A7A62\"/><path d=\"M-2.2 9 C-2.6 13 -1 16.5 0 18 C1 16.5 2.6 13 2.2 9Z\" fill=\"#6B4E32\" stroke=\"#4A3422\" stroke-width=\".5\"/><path d=\"M-.8 15.5 C-.3 17 .3 17 .8 15.5\" stroke=\"#E4574F\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/></g>",
+      "holdS": 1.1,
+      "x": 292,
+      "y": 236,
+      "flip": true,
+      "hit": "elif"
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "x": 160,
+      "y": 234,
+      "s": 2.1
+     },
+     {
+      "k": "tepsi",
+      "fill": "water",
+      "x": 160,
+      "y": 154,
+      "z": 240,
+      "s": 1.45,
+      "hit": "tepsi"
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "grass": false,
+      "color": "#E4574F",
+      "x": 130,
+      "y": 135,
+      "z": 242,
+      "s": 0.9,
+      "hit": "d1"
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "grass": false,
+      "color": "#F6C742",
+      "x": 145,
+      "y": 127,
+      "z": 242,
+      "s": 0.9,
+      "hit": "d2"
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "grass": false,
+      "color": "#4F8FD8",
+      "x": 160,
+      "y": 137,
+      "z": 242,
+      "s": 0.9,
+      "hit": "d3"
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "grass": false,
+      "color": "#EE6F9C",
+      "x": 175,
+      "y": 128,
+      "z": 242,
+      "s": 0.9,
+      "hit": "d4"
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "grass": false,
+      "color": "#6DB54B",
+      "x": 190,
+      "y": 135,
+      "z": 242,
+      "s": 0.9,
+      "hit": "d5"
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Salyangoz ellerim geldi!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "İşte böyle, yavaş yavaş.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "d": {
+     "anim": "boing",
+     "fx": "drip"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "d1",
+     "d2",
+     "d3",
+     "d4",
+     "d5"
+    ],
+    "done": "Beş damla, beş renkli daire!",
+    "msg": "Beş renk!"
+   },
+   "hint": [
+    "d1",
+    "Damlaları tek tek say!"
+   ],
+   "ask": "Elif hangi renkleri damlattı? Sen hangi rengi damlatmak isterdin?"
+  },
+  {
+   "text": "Elif fırçanın sapıyla renkleri çekti. Kırmızı daireler lale oldu! Ninesi beyaz bir kâğıt uzattı. Elif kâğıdı suya yatırdı. “Bir… iki… üç…” Acele yok. Sonra kâğıdı ucundan tutup yavaşça kaldırdı.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "nine",
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "hold",
+      "x": 70,
+      "y": 232,
+      "hold": "<g transform=\"translate(0 14) scale(.86)\"><rect x=\"-27\" y=\"-38\" width=\"54\" height=\"38\" rx=\"1.4\" fill=\"#FFFDF6\" stroke=\"#A89C84\" stroke-width=\".8\"/><path d=\"M-24 -34 H10\" stroke=\"#fff\" stroke-width=\"1.4\" opacity=\".8\"/></g>",
+      "hit": "kagit"
+     },
+     {
+      "k": "elif",
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "<g transform=\"rotate(-20)\"><path d=\"M0 -13 L0 7\" stroke=\"#B5793C\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><path d=\"M0 -13 L0 -4\" stroke=\"#D9A066\" stroke-width=\"1\" stroke-linecap=\"round\" opacity=\".7\"/><rect x=\"-1.9\" y=\"6\" width=\"3.8\" height=\"3\" rx=\".8\" fill=\"#8A7A62\"/><path d=\"M-2.2 9 C-2.6 13 -1 16.5 0 18 C1 16.5 2.6 13 2.2 9Z\" fill=\"#6B4E32\" stroke=\"#4A3422\" stroke-width=\".5\"/><path d=\"M-.8 15.5 C-.3 17 .3 17 .8 15.5\" stroke=\"#E4574F\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/></g>",
+      "holdS": 1.05,
+      "x": 300,
+      "y": 236,
+      "flip": true,
+      "hit": "firca"
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "x": 206,
+      "y": 232,
+      "s": 1.8
+     },
+     {
+      "k": "tepsi",
+      "fill": "ebru",
+      "x": 206,
+      "y": 164,
+      "z": 240,
+      "s": 1.2,
+      "hit": "tepsi"
+     },
+     {
+      "k": "palet",
+      "x": 150,
+      "y": 160,
+      "z": 243,
+      "s": 0.7
+     }
+    ]
+   },
+   "hits": {
+    "firca": {
+     "say": "Çek… çek… lale oldu!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "whoosh"
+    },
+    "kagit": {
+     "say": "Al kuzum, beyaz kâğıt.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "page"
+    },
+    "tepsi": {
+     "say": "Bir… iki… üç… Acele yok!",
+     "voice": "elif",
+     "anim": "wiggle",
+     "fx": "page"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "firca",
+     "kagit",
+     "tepsi"
+    ],
+    "done": "Şimdi yavaşça kaldır bakalım!",
+    "msg": "Sırayla yaptın!"
+   },
+   "hint": [
+    "firca",
+    "Elif'in fırçasına dokun!"
+   ],
+   "ask": "Elif ebruyu hangi sırayla yaptı? Önce ne, sonra ne, en son ne?"
+  },
+  {
+   "text": "Kâğıtta renkler dans ediyordu! Kırmızı laleler, mavi dalgalar, sarı benekler. Elif'in kalbi pır pır etti. Tarçın da geri geldi. “Mırrr!” diye laleleri kokladı. “Nine, bunu salyangoz ellerim yaptı!” Ninesi güldü. “Sen suyu bekledin. Su da sana çiçek verdi.”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "weather": "rain",
+    "cast": [
+     {
+      "k": "nine",
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "clap",
+      "x": 96,
+      "y": 232,
+      "flip": false,
+      "hit": "nine"
+     },
+     {
+      "k": "elif",
+      "s": 1.2,
+      "mood": "laugh",
+      "pose": "hold",
+      "x": 204,
+      "y": 236,
+      "hold": "<g transform=\"translate(0 17) scale(.86)\"><rect x=\"-27\" y=\"-38\" width=\"54\" height=\"38\" rx=\"1.4\" fill=\"#FFFDF6\" stroke=\"#A89C84\" stroke-width=\".8\"/><clipPath id=\"ebru84\"><rect x=\"-26\" y=\"-37\" width=\"52\" height=\"36\"/></clipPath><g clip-path=\"url(#ebru84)\"><rect x=\"-26\" y=\"-37\" width=\"52\" height=\"36\" fill=\"#EAF4FA\"/><path d=\"M-28 -30 C-20 -36 -12 -24 -4 -30 S12 -36 20 -30 S30 -26 30 -26 V-22 C22 -27 14 -17 6 -23 S-10 -28 -18 -22 S-28 -20 -28 -20Z\" fill=\"#6FA8DC\" opacity=\".85\"/><path d=\"M-28 -12 C-20 -18 -12 -6 -4 -12 S12 -18 20 -12 S30 -10 30 -10 V-1 H-28Z\" fill=\"#7CC4B8\" opacity=\".8\"/><path d=\"M-28 -21 C-18 -17 -10 -25 0 -20 S18 -16 30 -21\" stroke=\"#F4B2C8\" stroke-width=\"1.6\" fill=\"none\" opacity=\".9\"/><path d=\"M-28 -26 C-18 -22 -10 -30 0 -25 S18 -21 30 -26\" stroke=\"#fff\" stroke-width=\".7\" fill=\"none\" opacity=\".8\"/><path d=\"M-28 -7 C-18 -3 -10 -11 0 -6 S18 -2 30 -7\" stroke=\"#fff\" stroke-width=\".7\" fill=\"none\" opacity=\".7\"/><circle cx=\"-20\" cy=\"-33\" r=\"1.6\" fill=\"#F6C742\" stroke=\"#fff\" stroke-width=\".5\"/><circle cx=\"-8\" cy=\"-35\" r=\"1.2\" fill=\"#F6C742\" stroke=\"#fff\" stroke-width=\".5\"/><circle cx=\"9\" cy=\"-33\" r=\"1.5\" fill=\"#EE6F9C\" stroke=\"#fff\" stroke-width=\".5\"/><circle cx=\"21\" cy=\"-35\" r=\"1.2\" fill=\"#F6C742\" stroke=\"#fff\" stroke-width=\".5\"/><circle cx=\"-21\" cy=\"-4\" r=\"1.3\" fill=\"#F6C742\" stroke=\"#fff\" stroke-width=\".5\"/><circle cx=\"-5\" cy=\"-3\" r=\"1.1\" fill=\"#F6C742\" stroke=\"#fff\" stroke-width=\".5\"/><circle cx=\"8\" cy=\"-4\" r=\"1.5\" fill=\"#EE6F9C\" stroke=\"#fff\" stroke-width=\".5\"/><circle cx=\"21\" cy=\"-4\" r=\"1.3\" fill=\"#F6C742\" stroke=\"#fff\" stroke-width=\".5\"/><g transform=\"translate(-12 -11) scale(1)\"><path d=\"M0 0 C-.4 3 0 5 .6 7\" stroke=\"#3F8F4A\" stroke-width=\"1.1\" fill=\"none\"/><path d=\"M0 0 C-4.6 -1.2 -5.2 -6.4 -3.4 -9.6 L-1.6 -6.4 L0 -10.4 L1.6 -6.4 L3.4 -9.6 C5.2 -6.4 4.6 -1.2 0 0Z\" fill=\"#E4574F\" stroke=\"#8A2A3A\" stroke-width=\".5\"/><path d=\"M-1.6 -3 C-1 -5 1 -5 1.6 -3\" stroke=\"#fff\" stroke-width=\".6\" fill=\"none\" opacity=\".7\"/></g><g transform=\"translate(1 -13) scale(1.1)\"><path d=\"M0 0 C-.4 3 0 5 .6 7\" stroke=\"#3F8F4A\" stroke-width=\"1.1\" fill=\"none\"/><path d=\"M0 0 C-4.6 -1.2 -5.2 -6.4 -3.4 -9.6 L-1.6 -6.4 L0 -10.4 L1.6 -6.4 L3.4 -9.6 C5.2 -6.4 4.6 -1.2 0 0Z\" fill=\"#EE6F9C\" stroke=\"#8A2A3A\" stroke-width=\".5\"/><path d=\"M-1.6 -3 C-1 -5 1 -5 1.6 -3\" stroke=\"#fff\" stroke-width=\".6\" fill=\"none\" opacity=\".7\"/></g><g transform=\"translate(14 -11) scale(1)\"><path d=\"M0 0 C-.4 3 0 5 .6 7\" stroke=\"#3F8F4A\" stroke-width=\"1.1\" fill=\"none\"/><path d=\"M0 0 C-4.6 -1.2 -5.2 -6.4 -3.4 -9.6 L-1.6 -6.4 L0 -10.4 L1.6 -6.4 L3.4 -9.6 C5.2 -6.4 4.6 -1.2 0 0Z\" fill=\"#E4574F\" stroke=\"#8A2A3A\" stroke-width=\".5\"/><path d=\"M-1.6 -3 C-1 -5 1 -5 1.6 -3\" stroke=\"#fff\" stroke-width=\".6\" fill=\"none\" opacity=\".7\"/></g></g></g>",
+      "turn": 0,
+      "hit": "elif"
+     },
+     {
+      "k": "kedi",
+      "s": 0.55,
+      "mood": "happy",
+      "pose": "sit",
+      "x": 292,
+      "y": 230,
+      "flip": true,
+      "hit": "tarcin"
+     },
+     {
+      "k": "salyangoz",
+      "x": 128,
+      "y": 138,
+      "s": 0.6,
+      "pose": "walk",
+      "trail": true,
+      "hit": "salyangoz"
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "x": 320,
+      "y": 232,
+      "s": 1.5
+     },
+     {
+      "k": "tepsi",
+      "fill": "water",
+      "x": 320,
+      "y": 174,
+      "z": 240,
+      "s": 1.15,
+      "hit": "tepsi"
+     },
+     {
+      "k": "palet",
+      "x": 292,
+      "y": 170,
+      "z": 243,
+      "s": 0.6
+     },
+     {
+      "k": "bardak",
+      "fill": "water",
+      "x": 349,
+      "y": 173,
+      "z": 244,
+      "s": 0.5
+     }
+    ]
+   },
+   "hits": {
+    "elif": {
+     "say": "Nine, bunu salyangoz ellerim yaptı!",
+     "voice": "elif",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "nine": {
+     "say": "Sen suyu bekledin, su da sana çiçek verdi.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime",
+     "hearts": true
+    },
+    "tarcin": {
+     "say": "Mırrr! Lale kokusu mu?",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "sniff"
+    },
+    "tepsi": {
+     "anim": "wiggle",
+     "fx": "splash"
+    },
+    "salyangoz": {
+     "say": "Ağır ağır, yavaş yavaş…",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "elif",
+    "Elif'in ebrusuna dokun!"
+   ],
+   "ask": "Elif'in ebrusunda neler görüyorsun? Sana nasıl bir duygu veriyor?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.3 (öğrenme çıktısı) · Sanat eserlerine ve sanatçılara değer verebilme — eserlerin nasıl yapıldığına ilişkin tahmin yürütür (“Suya resim nasıl yapılır?”); geleneksel eserleri tanır (ebru).",
+   "SNAB.2 (öğrenme çıktısı) · Sanat eseri inceleyebilme — SNAB.2.g eserle ilgili duygu ve düşüncelerini ifade eder ve nedenlerini açıklar: çocuk Elif'in laleli ebrusunda gördüklerini ve kendisine verdiği duyguyu anlatır.",
+   "SNAB.4 (öğrenme çıktısı; ifade teyitsiz) · Sanat etkinliği uygulayabilme — yapacağı sanat etkinliğinin türüne karar verir, gerekli materyalleri seçer: Elif fırça, boya, su tepsisi ve kâğıtla kendi ebrusunu yapar; çocuk sınıfta aynı adımları uygular.",
+   "beceri: SNAB4 Sanatsal Uygulama Yapma · OB5 Kültür Okuryazarlığı — ebru gibi kültürel mirası tanıma ve deneyimleme.",
+   "SDB1.2 Kendini Düzenleme · Değer: D12 Sabır (ayrıca D7 Estetik) — Elif kızgınlığını fark eder, derin nefesle sakinleşir, “salyangoz eller” diye kendi yavaşlama yolunu bulur ve beklemeyi öğrenir."
+  ],
+  "once": [
+   "Kapaktaki tepsiyi gösterin: “Tepside ne var? Suyun üstüne resim yapılabilir mi?” diye sorun; tahminleri kabul edin.",
+   "Öğretmene not: Ebru, 2014'te UNESCO İnsanlığın Somut Olmayan Kültürel Mirası listesine girmiş geleneksel bir sanatımızdır; mümkünse ebru teknesi, at kılı fırça ve gül dalından tarak fotoğrafı gösterin.",
+   "Mümkünse gerçek bir ebru örneği ya da fotoğrafı gösterin: “Bu desenler sence nasıl yapılmış?”",
+   "“Acele edince bir işin bozulduğu oldu mu hiç?” diye kısa bir sohbet açın."
+  ],
+  "sirasi": [
+   "1. sayfada yağmuru “pıtır pıtır” diye parmak uçlarınızla masaya vurarak canlandırın; camdaki salyangozu birlikte bulun ve “ağır ağır” diye yavaşça parmağınızla yürütün.",
+   "2. sayfada “Şlap! Şlap! Şlap!” sesini hızlı, 4. sayfadaki “Pıt!” seslerini yavaş söyleyin; farkı çocuk hissetsin. Elif'in yüzüne bakın: “Yanakları neden ısındı? Sen kızınca vücudunda ne olur?”",
+   "3. sayfada Elif'le birlikte iki kez burundan alıp ağızdan verin. Sonra Elif'in neye baktığını sorun: camdaki salyangoz! Tahmin sorusunda iki fikri de övün.",
+   "4. sayfada damlaları sayarken her renkte bir nefes bekleyin: “Salyangoz eller!”",
+   "5. sayfada önce fırçaya, sonra ninenin kâğıdına, en son tepsiye dokunun; “Bir… iki… üç…” diye birlikte yavaşça sayın, sonra sayfayı çevirin."
+  ],
+  "sonra": [
+   "Elif ilk seferde neden olmadı sandı? İkinci seferde ne değişti?",
+   "“Salyangoz eller” ne demek? Sen başka hangi işte salyangoz ellerini kullanabilirsin?",
+   "Elif'in ebrusunda neler var? En çok hangi rengi sevdin, neden?"
+  ],
+  "sinif": {
+   "ad": "Salyangoz Ellerle Renk Dansı",
+   "sure": "25 dk",
+   "materyal": "Geniş, sığ tepsiler; çocuklara uygun hazır ebru seti (kıvamlı su ve ebru boyası) ya da tıraş köpüğü ve sulandırılmış suluboya; damlalık veya fırça; kürdan ya da tarak; A5 kâğıtlar; önlükler",
+   "adim": [
+    "Tepsileri öğretmen hazırlar; çocuklarla “Su acele sevmez” kuralını ve boyaların ağza alınmadığını konuşun.",
+    "Her çocuk “salyangoz eller” ile üç–beş damla damlatır; her damlada “Pıt!” der ve bir nefes bekler.",
+    "Kürdan ya da tarakla renkleri yavaşça çekip dalga veya çiçek yapar.",
+    "Kâğıdı suya yatırır, hep birlikte “Bir… iki… üç…” sayar, kâğıdı ucundan tutup yavaşça kaldırır.",
+    "Kuruyan ebrularla küçük bir sergi açın; her çocuk eserinde gördüğünü ve nasıl hissettiğini anlatsın."
+   ]
+  },
+  "evSoru": [
+   "Ninesi Elif'e hangi sanatı gösterdi?",
+   "Elif kızınca nasıl sakinleşti?",
+   "Senin de sabırla, yavaş yavaş yaptığın bir iş var mı?"
+  ],
+  "evEtk": {
+   "ad": "Mutfakta Renk Dansı",
+   "d": "Bir yetişkin eşliğinde düz bir tabağa biraz su ya da süt koyun, üç–dört damla gıda boyası damlatın. Çocuk, bulaşık deterjanına batırılmış bir kulak çubuğunu ortaya yavaşça değdirsin ve renklerin dansını izlesin. Her damlada birlikte “Pıt!” deyip bir nefes bekleyin; sonra gördüğünüz desene bir ad verin."
+  },
+  "aileNotu": "Bugün “Suyun Üstündeki Renkler” masalını okuduk. Elif, ninesiyle ilk kez ebru yapıyor; acele edince boyalar karışıyor ve çok kızıyor. Derin bir nefes alıp “salyangoz eller” diye kendi yavaşlama yolunu buluyor ve sabırla laleli bir ebru yapıyor. Evde çocuğunuz bir işte sabırsızlanınca “Salyangoz ellerin nerede?” diye gülümseyerek hatırlatabilir, birlikte bir nefes alabilirsiniz. Ebru ya da başka geleneksel sanatlar hakkında ailenizde bilinen hikâyeleri de paylaşabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/084-suyun-ustundeki-renkler.mp3",
+  "hash": "b63dbc29",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 19020,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      4350,
+      8
+     ],
+     [
+      4689,
+      9
+     ],
+     [
+      4989,
+      10
+     ],
+     [
+      6029,
+      11
+     ],
+     [
+      6430,
+      12
+     ],
+     [
+      7089,
+      13
+     ],
+     [
+      7649,
+      14
+     ],
+     [
+      8029,
+      15
+     ],
+     [
+      8369,
+      16
+     ],
+     [
+      8609,
+      17
+     ],
+     [
+      8749,
+      18
+     ],
+     [
+      9109,
+      19
+     ],
+     [
+      9850,
+      20
+     ],
+     [
+      10209,
+      21
+     ],
+     [
+      10509,
+      22
+     ],
+     [
+      10869,
+      23
+     ],
+     [
+      11189,
+      24
+     ],
+     [
+      11689,
+      25
+     ],
+     [
+      12289,
+      26
+     ],
+     [
+      12609,
+      27
+     ],
+     [
+      13390,
+      28
+     ],
+     [
+      13709,
+      29
+     ],
+     [
+      14689,
+      30
+     ],
+     [
+      15029,
+      31
+     ],
+     [
+      15390,
+      32
+     ],
+     [
+      15549,
+      33
+     ],
+     [
+      16069,
+      34
+     ],
+     [
+      16229,
+      35
+     ],
+     [
+      16709,
+      36
+     ],
+     [
+      17249,
+      37
+     ],
+     [
+      17509,
+      38
+     ],
+     [
+      17950,
+      39
+     ],
+     [
+      18089,
+      40
+     ],
+     [
+      18450,
+      41
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 19320,
+    "d": 2293,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p0h-elif": {
+    "s": 21914,
+    "d": 1266,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      909,
+      3
+     ]
+    ]
+   },
+   "p0h-salyangoz": {
+    "s": 23480,
+    "d": 2544,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      607,
+      1
+     ],
+     [
+      1368,
+      2
+     ],
+     [
+      1936,
+      3
+     ]
+    ]
+   },
+   "p0h-tarcin": {
+    "s": 26324,
+    "d": 1628,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      804,
+      1
+     ],
+     [
+      1065,
+      2
+     ],
+     [
+      1326,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 28253,
+    "d": 16283,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4249,
+      8
+     ],
+     [
+      4589,
+      9
+     ],
+     [
+      5449,
+      10
+     ],
+     [
+      5809,
+      11
+     ],
+     [
+      6129,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      7229,
+      14
+     ],
+     [
+      7709,
+      15
+     ],
+     [
+      7989,
+      16
+     ],
+     [
+      8690,
+      17
+     ],
+     [
+      9109,
+      18
+     ],
+     [
+      9329,
+      19
+     ],
+     [
+      10249,
+      20
+     ],
+     [
+      10549,
+      21
+     ],
+     [
+      11009,
+      22
+     ],
+     [
+      11249,
+      23
+     ],
+     [
+      12230,
+      24
+     ],
+     [
+      12609,
+      25
+     ],
+     [
+      13169,
+      26
+     ],
+     [
+      14189,
+      27
+     ],
+     [
+      15029,
+      28
+     ],
+     [
+      15469,
+      29
+     ],
+     [
+      15649,
+      30
+     ]
+    ]
+   },
+   "p1h-elif": {
+    "s": 44836,
+    "d": 2538,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1170,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1869,
+      3
+     ]
+    ]
+   },
+   "p1h-tarcin": {
+    "s": 47675,
+    "d": 1018,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 48993,
+    "d": 17042,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      3089,
+      6
+     ],
+     [
+      3329,
+      7
+     ],
+     [
+      3749,
+      8
+     ],
+     [
+      3949,
+      9
+     ],
+     [
+      4069,
+      10
+     ],
+     [
+      5009,
+      11
+     ],
+     [
+      5229,
+      12
+     ],
+     [
+      5609,
+      13
+     ],
+     [
+      6129,
+      14
+     ],
+     [
+      6989,
+      15
+     ],
+     [
+      7370,
+      16
+     ],
+     [
+      8029,
+      17
+     ],
+     [
+      8449,
+      18
+     ],
+     [
+      8650,
+      19
+     ],
+     [
+      9049,
+      20
+     ],
+     [
+      9810,
+      21
+     ],
+     [
+      10409,
+      22
+     ],
+     [
+      10989,
+      23
+     ],
+     [
+      11789,
+      24
+     ],
+     [
+      12289,
+      25
+     ],
+     [
+      12749,
+      26
+     ],
+     [
+      13390,
+      27
+     ],
+     [
+      14109,
+      28
+     ],
+     [
+      14569,
+      29
+     ],
+     [
+      15430,
+      30
+     ],
+     [
+      15810,
+      31
+     ],
+     [
+      15950,
+      32
+     ],
+     [
+      16270,
+      33
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 66335,
+    "d": 1908,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      281,
+      1
+     ],
+     [
+      882,
+      2
+     ],
+     [
+      1446,
+      3
+     ]
+    ]
+   },
+   "p2h-elif": {
+    "s": 68544,
+    "d": 4179,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1930,
+      2
+     ],
+     [
+      2650,
+      3
+     ],
+     [
+      3344,
+      4
+     ]
+    ]
+   },
+   "p2h-tarcin": {
+    "s": 73023,
+    "d": 982,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2h-salyangoz": {
+    "s": 74306,
+    "d": 2480,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      592,
+      1
+     ],
+     [
+      1334,
+      2
+     ],
+     [
+      1887,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 77086,
+    "d": 2208,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1670,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 79594,
+    "d": 1926,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p3": {
+    "s": 81821,
+    "d": 16600,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2809,
+      5
+     ],
+     [
+      3349,
+      6
+     ],
+     [
+      3789,
+      7
+     ],
+     [
+      4169,
+      8
+     ],
+     [
+      5109,
+      9
+     ],
+     [
+      5789,
+      10
+     ],
+     [
+      6709,
+      11
+     ],
+     [
+      7390,
+      12
+     ],
+     [
+      8169,
+      13
+     ],
+     [
+      8810,
+      14
+     ],
+     [
+      9669,
+      15
+     ],
+     [
+      10249,
+      16
+     ],
+     [
+      11129,
+      17
+     ],
+     [
+      11689,
+      18
+     ],
+     [
+      12669,
+      19
+     ],
+     [
+      13209,
+      20
+     ],
+     [
+      14089,
+      21
+     ],
+     [
+      14430,
+      22
+     ],
+     [
+      14989,
+      23
+     ],
+     [
+      15589,
+      24
+     ],
+     [
+      16069,
+      25
+     ]
+    ]
+   },
+   "p3h-elif": {
+    "s": 98721,
+    "d": 1734,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1089,
+      2
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 100755,
+    "d": 2229,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1670,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 103285,
+    "d": 2402,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1790,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 105987,
+    "d": 16931,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2829,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4370,
+      8
+     ],
+     [
+      5229,
+      9
+     ],
+     [
+      5870,
+      10
+     ],
+     [
+      6249,
+      11
+     ],
+     [
+      6449,
+      12
+     ],
+     [
+      6789,
+      13
+     ],
+     [
+      7749,
+      14
+     ],
+     [
+      8169,
+      15
+     ],
+     [
+      8609,
+      16
+     ],
+     [
+      8909,
+      17
+     ],
+     [
+      9890,
+      18
+     ],
+     [
+      10789,
+      19
+     ],
+     [
+      11689,
+      20
+     ],
+     [
+      12449,
+      21
+     ],
+     [
+      12829,
+      22
+     ],
+     [
+      13609,
+      23
+     ],
+     [
+      14189,
+      24
+     ],
+     [
+      14629,
+      25
+     ],
+     [
+      15129,
+      26
+     ],
+     [
+      15629,
+      27
+     ],
+     [
+      16249,
+      28
+     ]
+    ]
+   },
+   "p4h-firca": {
+    "s": 123219,
+    "d": 3145,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1069,
+      1
+     ],
+     [
+      2110,
+      2
+     ],
+     [
+      2569,
+      3
+     ]
+    ]
+   },
+   "p4h-kagit": {
+    "s": 126665,
+    "d": 1643,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p4h-tepsi": {
+    "s": 128608,
+    "d": 3521,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      737,
+      1
+     ],
+     [
+      1671,
+      2
+     ],
+     [
+      2369,
+      3
+     ],
+     [
+      3161,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 132429,
+    "d": 2097,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 134827,
+    "d": 19500,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3569,
+      6
+     ],
+     [
+      3949,
+      7
+     ],
+     [
+      4769,
+      8
+     ],
+     [
+      5069,
+      9
+     ],
+     [
+      6169,
+      10
+     ],
+     [
+      6569,
+      11
+     ],
+     [
+      7029,
+      12
+     ],
+     [
+      7309,
+      13
+     ],
+     [
+      7529,
+      14
+     ],
+     [
+      8329,
+      15
+     ],
+     [
+      8749,
+      16
+     ],
+     [
+      8869,
+      17
+     ],
+     [
+      9109,
+      18
+     ],
+     [
+      9989,
+      19
+     ],
+     [
+      11069,
+      20
+     ],
+     [
+      11350,
+      21
+     ],
+     [
+      11890,
+      22
+     ],
+     [
+      12829,
+      23
+     ],
+     [
+      13449,
+      24
+     ],
+     [
+      13689,
+      25
+     ],
+     [
+      14270,
+      26
+     ],
+     [
+      14669,
+      27
+     ],
+     [
+      15449,
+      28
+     ],
+     [
+      15890,
+      29
+     ],
+     [
+      16669,
+      30
+     ],
+     [
+      16969,
+      31
+     ],
+     [
+      17229,
+      32
+     ],
+     [
+      18089,
+      33
+     ],
+     [
+      18249,
+      34
+     ],
+     [
+      18389,
+      35
+     ],
+     [
+      18649,
+      36
+     ],
+     [
+      19030,
+      37
+     ]
+    ]
+   },
+   "p5h-elif": {
+    "s": 154628,
+    "d": 2902,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2269,
+      4
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 157831,
+    "d": 3084,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2609,
+      7
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 161215,
+    "d": 2365,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1229,
+      1
+     ],
+     [
+      1609,
+      2
+     ],
+     [
+      2049,
+      3
+     ]
+    ]
+   },
+   "p5h-salyangoz": {
+    "s": 163880,
+    "d": 2510,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      599,
+      1
+     ],
+     [
+      1350,
+      2
+     ],
+     [
+      1910,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

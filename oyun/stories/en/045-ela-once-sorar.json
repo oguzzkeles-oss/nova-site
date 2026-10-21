@@ -1,0 +1,1768 @@
+{
+ "id": "045-ela-once-sorar",
+ "lang": "en",
+ "title": "Ela Asks First",
+ "theme": "Digital safety: asking a grown-up first",
+ "blurb": "While Ela is playing a balloon game, a sparkly box pops open on the screen with a great big present inside. Ela's finger stops in mid-air. She runs to her mum, and together they find a rule: Stop, ask, decide together!",
+ "voiceNames": {
+  "ela": "Ela",
+  "anne": "Mum (Ela's mum)"
+ },
+ "pages": [
+  {
+   "text": "Rain went pitter patter on the window. Ela sat cross-legged on the rug. She had a balloon game on her tablet. Pop! Pop! Pop them all! Her teddy bear Fluffy was watching too. Mum was reading on the sofa. Now and then she looked up and smiled.",
+   "hits": {
+    "ela": {
+     "say": "Pop! One more balloon!"
+    },
+    "anne": {
+     "say": "How many balloons have you popped?"
+    }
+   },
+   "hint": "Touch the tablet!",
+   "ask": "Which games do you like? Who do you play with?"
+  },
+  {
+   "text": "Suddenly the screen flashed. Beep beep beep! A sparkly box popped open in the middle. Inside was a great big present. It was winking at her. Ela felt all fizzy inside. “A present? For me?”",
+   "hits": {
+    "ela": {
+     "say": "A present? For me?"
+    }
+   },
+   "hint": "Look at the picture in the box!",
+   "ask": "There are no words on the screen, only a picture. What could this box be saying to Ela?",
+   "cues": [
+    {
+     "w": 4,
+     "fx": "korna"
+    }
+   ]
+  },
+  {
+   "text": "Ela's finger reached out for the box. Then it stopped in mid-air. Her heart went thump, thump. Her tummy felt a bit tight. “Whose box is this? What is it telling me? I don't know!”",
+   "hits": {
+    "ela": {
+     "say": "My heart's going thump, thump! My tummy feels tight."
+    },
+    "kalp": {
+     "say": "Thump, thump, thump!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Ela will do now?",
+    "res": "Both are safe ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Ask her mum"
+     },
+     {
+      "l": "Turn the tablet off"
+     }
+    ]
+   },
+   "hint": "Touch Ela's heart!",
+   "ask": "What happens in your body when you see something you don't know? What do you do?",
+   "cues": [
+    {
+     "w": 15,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Ela picked up the tablet and ran to Mum. “Mum, look! A box popped up. Shall I press it?” Mum smiled. “I'm glad you asked! Boxes like this sometimes ask for your name or your photo. Your name and your photo are private, just for you.” Together they closed the box. Click! Now they had a rule: Stop. Ask. Decide together.",
+   "hits": {
+    "ela": {
+     "say": "First I stopped, then I asked!"
+    },
+    "anne": {
+     "say": "I'm glad you asked! Let's close it together."
+    }
+   },
+   "mech": {
+    "done": "Stop, ask, decide together! Click, it's closed.",
+    "msg": "You did the rule in order!"
+   },
+   "hint": "Ela first: Stop!",
+   "ask": "Why did Ela ask her mum first? Who could you ask?",
+   "cues": [
+    {
+     "w": 51,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Ela thought of a game. “Which things can I do by myself, and which do I ask about first?” Looking at a book? By myself! Playing ball? By myself! Pressing a box that pops up on the screen? Ask first! Spending money in a game? Ask first!",
+   "hits": {
+    "ela": {
+     "say": "I can do this by myself!"
+    },
+    "anne": {
+     "say": "Let's decide this one together."
+    }
+   },
+   "mech": {
+    "done": "I do it myself, and when I need to, I ask first!",
+    "msg": "You put them all in the right place!"
+   },
+   "hint": "Choose something first!",
+   "ask": "Which things do you do by yourself? Which do you ask about first?"
+  },
+  {
+   "text": "Evening came. Ela hugged Fluffy. “Fluffy, if a box pops up on the screen, what do we do?” Fluffy didn't say a word, of course. So Ela said it herself: “Stop, ask, decide together!” Mum winked. “Fluffy asks first too.” Ela giggled, tee-hee, and hugged Fluffy even tighter.",
+   "hits": {
+    "ela": {
+     "say": "Stop, ask, decide together!"
+    },
+    "anne": {
+     "say": "Fluffy asks first too."
+    }
+   },
+   "hint": "Say the rule with Ela!",
+   "ask": "“Stop, ask, decide…” How did it go on? Who would you teach this rule to?",
+   "cues": [
+    {
+     "w": 41,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.11 Protecting themselves from danger and accidents: avoids dangerous behaviour and situations; stops before touching a box that opens unexpectedly on the screen and tells a trusted grown-up.",
+   "TAOB.1 Choosing visual materials (TAOB.1.a Examines the visual reading materials presented; TAOB.1.b Chooses from among options): examines the wordless box that opens on the screen and the picture of the present inside it, guesses what the box wants; chooses between “I do it myself” and “I ask first”.",
+   "OB2 Digital Literacy and D8 Privacy: says that their photo, their name and their home are private to them and are not shared with screen boxes they don't know.",
+   "SDB3.3 Responsible Decision-Making and E3.8 Asking Questions: follows the steps “Stop, ask, decide together” in order; notices that asking a question is a strong choice when unsure. D16 Responsibility: takes on the things they can do on their own."
+  ],
+  "once": [
+   "Show the cover: “What is Ela doing? What do you play on a tablet or a phone?”",
+   "Show a picture of a present (no words): “If a picture like this came up on the screen, what would it be saying? Who might have sent it?”",
+   "Talk: “Has there been a time you wanted to ask someone something? Who did you ask?”"
+  ],
+  "sirasi": [
+   "Pause on page 2: “There are no words on the screen, only a picture. What could this box be saying to Ela?”",
+   "On page 3, touch Ela's heart and look at her body together: “Her heart is thumping, her tummy is tight. What could that mean?” At the prediction, stress that both choices are safe.",
+   "On page 4, show the rule with your hands: palm forward for “Stop”, hand behind the ear for “Ask”, two hands joined for “Decide together”."
+  ],
+  "sonra": [
+   "Have them tell the events in order: “What happened first? How did Ela feel? Then what did she do?”",
+   "Repeat the “Stop, ask, decide together” rule with the hand movements.",
+   "Talk about what is private: our photo, our name, where our home is. “We don't share these with places we don't know on the screen.”"
+  ],
+  "sinif": {
+   "ad": "By Myself, or Ask First?",
+   "sure": "20 min",
+   "materyal": "Wordless picture cards (book, ball, crayon, toothbrush, a box opening on a screen, a present symbol, a camera, money), two baskets: a “By myself” basket with a hand symbol on it, an “Ask first” basket with a question mark on it",
+   "adim": [
+    "Remember the story; the teacher shows the “Stop, ask, decide together” rule with hand movements and the children repeat it.",
+    "Each child draws a card, examines the picture and puts the card in the right basket. Ask “Why did you put it in this basket?” and accept different reasons.",
+    "Role play: one child is the “box on the screen” and says “Give me your photo!”; the other child stops, asks the teacher and they close it together. Swap roles.",
+    "To close, each child says the name of a trusted grown-up they could ask."
+   ]
+  },
+  "evSoru": [
+   "What did Ela see on the screen? What picture was in the box?",
+   "Why did Ela stop? What happened in her body at that moment?",
+   "At our house, if something you don't know comes up on the screen, who do you ask?"
+  ],
+  "evEtk": {
+   "ad": "Our Family Screen Rule",
+   "d": "Together, draw three pictures on a sheet of paper: a hand saying stop, an ear asking a question, two hands holding each other. Hang the picture next to the tablet or the television. When an unexpected box pops up on the screen and your child comes to you, praise them warmly: “I'm glad you asked!”"
+  },
+  "aileNotu": "Today we read “Ela Asks First.” While Ela is playing a game, a box with a picture of a present opens on the screen; Ela stops and asks her mum. Her mum explains that these boxes sometimes ask for a name and a photo, and that these are private; together they find the rule “Stop, ask, decide together.” Boxes like this are usually adverts. You can check the child mode on the tablet, the in-app purchase lock and the ad-free settings together. When your child sees something they don't know on the screen and comes to you, respond calmly and with praise, not anger."
+ },
+ "audio": {
+  "file": "audio/en/045-ela-once-sorar.mp3",
+  "hash": "15662b04",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15754,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1529,
+      6
+     ],
+     [
+      2529,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3170,
+      9
+     ],
+     [
+      3809,
+      10
+     ],
+     [
+      3889,
+      11
+     ],
+     [
+      4029,
+      12
+     ],
+     [
+      4749,
+      13
+     ],
+     [
+      4910,
+      14
+     ],
+     [
+      5049,
+      15
+     ],
+     [
+      5129,
+      16
+     ],
+     [
+      5509,
+      17
+     ],
+     [
+      5769,
+      18
+     ],
+     [
+      5890,
+      19
+     ],
+     [
+      6029,
+      20
+     ],
+     [
+      6850,
+      21
+     ],
+     [
+      7329,
+      22
+     ],
+     [
+      7910,
+      23
+     ],
+     [
+      8190,
+      24
+     ],
+     [
+      8369,
+      25
+     ],
+     [
+      9169,
+      26
+     ],
+     [
+      9329,
+      27
+     ],
+     [
+      9589,
+      28
+     ],
+     [
+      9829,
+      29
+     ],
+     [
+      10289,
+      30
+     ],
+     [
+      10449,
+      31
+     ],
+     [
+      10850,
+      32
+     ],
+     [
+      11770,
+      33
+     ],
+     [
+      12069,
+      34
+     ],
+     [
+      12270,
+      35
+     ],
+     [
+      12569,
+      36
+     ],
+     [
+      12669,
+      37
+     ],
+     [
+      12810,
+      38
+     ],
+     [
+      13669,
+      39
+     ],
+     [
+      13869,
+      40
+     ],
+     [
+      13969,
+      41
+     ],
+     [
+      14270,
+      42
+     ],
+     [
+      14469,
+      43
+     ],
+     [
+      14749,
+      44
+     ],
+     [
+      14949,
+      45
+     ],
+     [
+      15129,
+      46
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 16054,
+    "d": 1932,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      586,
+      1
+     ],
+     [
+      1021,
+      2
+     ],
+     [
+      1456,
+      3
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 18286,
+    "d": 1840,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1030,
+      4
+     ],
+     [
+      1170,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20426,
+    "d": 13843,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2349,
+      6
+     ],
+     [
+      3089,
+      7
+     ],
+     [
+      3229,
+      8
+     ],
+     [
+      3789,
+      9
+     ],
+     [
+      4189,
+      10
+     ],
+     [
+      4529,
+      11
+     ],
+     [
+      4789,
+      12
+     ],
+     [
+      4870,
+      13
+     ],
+     [
+      4969,
+      14
+     ],
+     [
+      5749,
+      15
+     ],
+     [
+      6329,
+      16
+     ],
+     [
+      6509,
+      17
+     ],
+     [
+      6649,
+      18
+     ],
+     [
+      7109,
+      19
+     ],
+     [
+      7390,
+      20
+     ],
+     [
+      8270,
+      21
+     ],
+     [
+      8390,
+      22
+     ],
+     [
+      8589,
+      23
+     ],
+     [
+      9009,
+      24
+     ],
+     [
+      9150,
+      25
+     ],
+     [
+      9930,
+      26
+     ],
+     [
+      10129,
+      27
+     ],
+     [
+      10409,
+      28
+     ],
+     [
+      10730,
+      29
+     ],
+     [
+      11129,
+      30
+     ],
+     [
+      12049,
+      31
+     ],
+     [
+      12209,
+      32
+     ],
+     [
+      13129,
+      33
+     ],
+     [
+      13390,
+      34
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 34570,
+    "d": 1851,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 36721,
+    "d": 12892,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      3029,
+      8
+     ],
+     [
+      3249,
+      9
+     ],
+     [
+      3629,
+      10
+     ],
+     [
+      3769,
+      11
+     ],
+     [
+      4789,
+      12
+     ],
+     [
+      4989,
+      13
+     ],
+     [
+      5249,
+      14
+     ],
+     [
+      5629,
+      15
+     ],
+     [
+      6109,
+      16
+     ],
+     [
+      6949,
+      17
+     ],
+     [
+      7129,
+      18
+     ],
+     [
+      7509,
+      19
+     ],
+     [
+      7749,
+      20
+     ],
+     [
+      7829,
+      21
+     ],
+     [
+      8029,
+      22
+     ],
+     [
+      8989,
+      23
+     ],
+     [
+      9350,
+      24
+     ],
+     [
+      9709,
+      25
+     ],
+     [
+      9869,
+      26
+     ],
+     [
+      10609,
+      27
+     ],
+     [
+      10749,
+      28
+     ],
+     [
+      10869,
+      29
+     ],
+     [
+      11009,
+      30
+     ],
+     [
+      11369,
+      31
+     ],
+     [
+      12009,
+      32
+     ],
+     [
+      12089,
+      33
+     ],
+     [
+      12289,
+      34
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 49914,
+    "d": 4734,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2869,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3569,
+      7
+     ],
+     [
+      4089,
+      8
+     ]
+    ]
+   },
+   "p2h-kalp": {
+    "s": 54949,
+    "d": 1922,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      740,
+      1
+     ],
+     [
+      1441,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 57171,
+    "d": 1884,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      969,
+      5
+     ],
+     [
+      1150,
+      6
+     ],
+     [
+      1349,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 59356,
+    "d": 2517,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2110,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 62174,
+    "d": 22205,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      749,
+      4
+     ],
+     [
+      1170,
+      5
+     ],
+     [
+      1410,
+      6
+     ],
+     [
+      1670,
+      7
+     ],
+     [
+      1809,
+      8
+     ],
+     [
+      2449,
+      9
+     ],
+     [
+      2949,
+      10
+     ],
+     [
+      3629,
+      11
+     ],
+     [
+      3769,
+      12
+     ],
+     [
+      4089,
+      13
+     ],
+     [
+      4410,
+      14
+     ],
+     [
+      4850,
+      15
+     ],
+     [
+      5029,
+      16
+     ],
+     [
+      5149,
+      17
+     ],
+     [
+      5410,
+      18
+     ],
+     [
+      5969,
+      19
+     ],
+     [
+      6289,
+      20
+     ],
+     [
+      7229,
+      21
+     ],
+     [
+      7449,
+      22
+     ],
+     [
+      7729,
+      23
+     ],
+     [
+      7949,
+      24
+     ],
+     [
+      8789,
+      25
+     ],
+     [
+      9209,
+      26
+     ],
+     [
+      9390,
+      27
+     ],
+     [
+      9629,
+      28
+     ],
+     [
+      10129,
+      29
+     ],
+     [
+      10350,
+      30
+     ],
+     [
+      10489,
+      31
+     ],
+     [
+      10690,
+      32
+     ],
+     [
+      10969,
+      33
+     ],
+     [
+      11089,
+      34
+     ],
+     [
+      11270,
+      35
+     ],
+     [
+      12049,
+      36
+     ],
+     [
+      12249,
+      37
+     ],
+     [
+      12489,
+      38
+     ],
+     [
+      12609,
+      39
+     ],
+     [
+      12770,
+      40
+     ],
+     [
+      13109,
+      41
+     ],
+     [
+      13310,
+      42
+     ],
+     [
+      14029,
+      43
+     ],
+     [
+      14289,
+      44
+     ],
+     [
+      14469,
+      45
+     ],
+     [
+      15169,
+      46
+     ],
+     [
+      15749,
+      47
+     ],
+     [
+      15930,
+      48
+     ],
+     [
+      16270,
+      49
+     ],
+     [
+      16389,
+      50
+     ],
+     [
+      17169,
+      51
+     ],
+     [
+      18030,
+      52
+     ],
+     [
+      18289,
+      53
+     ],
+     [
+      18489,
+      54
+     ],
+     [
+      18669,
+      55
+     ],
+     [
+      18770,
+      56
+     ],
+     [
+      19530,
+      57
+     ],
+     [
+      20389,
+      58
+     ],
+     [
+      21030,
+      59
+     ],
+     [
+      21589,
+      60
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 84680,
+    "d": 2728,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2170,
+      5
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 87708,
+    "d": 2758,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2209,
+      7
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 90767,
+    "d": 4640,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      889,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      2110,
+      3
+     ],
+     [
+      3129,
+      4
+     ],
+     [
+      3849,
+      5
+     ],
+     [
+      4029,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 95708,
+    "d": 17009,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      709,
+      4
+     ],
+     [
+      1649,
+      5
+     ],
+     [
+      1889,
+      6
+     ],
+     [
+      2170,
+      7
+     ],
+     [
+      2329,
+      8
+     ],
+     [
+      2469,
+      9
+     ],
+     [
+      2630,
+      10
+     ],
+     [
+      2789,
+      11
+     ],
+     [
+      3629,
+      12
+     ],
+     [
+      3989,
+      13
+     ],
+     [
+      4209,
+      14
+     ],
+     [
+      4390,
+      15
+     ],
+     [
+      4529,
+      16
+     ],
+     [
+      4749,
+      17
+     ],
+     [
+      5049,
+      18
+     ],
+     [
+      5969,
+      19
+     ],
+     [
+      6289,
+      20
+     ],
+     [
+      6390,
+      21
+     ],
+     [
+      6469,
+      22
+     ],
+     [
+      7109,
+      23
+     ],
+     [
+      7309,
+      24
+     ],
+     [
+      8310,
+      25
+     ],
+     [
+      8669,
+      26
+     ],
+     [
+      9350,
+      27
+     ],
+     [
+      9609,
+      28
+     ],
+     [
+      10730,
+      29
+     ],
+     [
+      11089,
+      30
+     ],
+     [
+      11169,
+      31
+     ],
+     [
+      11489,
+      32
+     ],
+     [
+      11689,
+      33
+     ],
+     [
+      11969,
+      34
+     ],
+     [
+      12109,
+      35
+     ],
+     [
+      12230,
+      36
+     ],
+     [
+      12329,
+      37
+     ],
+     [
+      13169,
+      38
+     ],
+     [
+      13509,
+      39
+     ],
+     [
+      14469,
+      40
+     ],
+     [
+      14890,
+      41
+     ],
+     [
+      15169,
+      42
+     ],
+     [
+      15269,
+      43
+     ],
+     [
+      15350,
+      44
+     ],
+     [
+      16049,
+      45
+     ],
+     [
+      16409,
+      46
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 113017,
+    "d": 1692,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      1069,
+      5
+     ]
+    ]
+   },
+   "p4h-anne": {
+    "s": 115009,
+    "d": 1741,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1109,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 117051,
+    "d": 3602,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      289,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1389,
+      5
+     ],
+     [
+      1550,
+      6
+     ],
+     [
+      1670,
+      7
+     ],
+     [
+      1909,
+      8
+     ],
+     [
+      2430,
+      9
+     ],
+     [
+      2650,
+      10
+     ],
+     [
+      3009,
+      11
+     ]
+    ]
+   },
+   "p5": {
+    "s": 120954,
+    "d": 21134,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      3109,
+      5
+     ],
+     [
+      3849,
+      6
+     ],
+     [
+      4009,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      4509,
+      9
+     ],
+     [
+      4810,
+      10
+     ],
+     [
+      4969,
+      11
+     ],
+     [
+      5069,
+      12
+     ],
+     [
+      5209,
+      13
+     ],
+     [
+      5870,
+      14
+     ],
+     [
+      6009,
+      15
+     ],
+     [
+      6129,
+      16
+     ],
+     [
+      6269,
+      17
+     ],
+     [
+      7069,
+      18
+     ],
+     [
+      7430,
+      19
+     ],
+     [
+      7689,
+      20
+     ],
+     [
+      7890,
+      21
+     ],
+     [
+      7989,
+      22
+     ],
+     [
+      8329,
+      23
+     ],
+     [
+      8469,
+      24
+     ],
+     [
+      9209,
+      25
+     ],
+     [
+      9649,
+      26
+     ],
+     [
+      9949,
+      27
+     ],
+     [
+      10129,
+      28
+     ],
+     [
+      10230,
+      29
+     ],
+     [
+      11270,
+      30
+     ],
+     [
+      12049,
+      31
+     ],
+     [
+      12629,
+      32
+     ],
+     [
+      13189,
+      33
+     ],
+     [
+      14249,
+      34
+     ],
+     [
+      14589,
+      35
+     ],
+     [
+      15449,
+      36
+     ],
+     [
+      15869,
+      37
+     ],
+     [
+      16190,
+      38
+     ],
+     [
+      16509,
+      39
+     ],
+     [
+      17270,
+      40
+     ],
+     [
+      17589,
+      41
+     ],
+     [
+      18229,
+      42
+     ],
+     [
+      19009,
+      43
+     ],
+     [
+      19229,
+      44
+     ],
+     [
+      19530,
+      45
+     ],
+     [
+      20049,
+      46
+     ],
+     [
+      20389,
+      47
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 142388,
+    "d": 2794,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1589,
+      2
+     ],
+     [
+      2150,
+      3
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 145483,
+    "d": 1760,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

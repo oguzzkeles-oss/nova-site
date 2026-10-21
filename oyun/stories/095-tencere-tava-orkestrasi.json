@@ -1,0 +1,2380 @@
+{
+ "id": "095-tencere-tava-orkestrasi",
+ "n": 95,
+ "title": "Kaşık Kâse Orkestrası",
+ "age": "60-72",
+ "area": "Müzik",
+ "theme": "Mutfak eşyalarıyla ritim yaratma, dinleme ve sırayla tekrar etme",
+ "values": [
+  "D11 Özgürlük"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 5,
+ "blurb": "Yağmurlu bir günde Dede mutfakta çelik kâselerden, kırılmaz tabaklardan ve kaşıklardan bir orkestra kurar. Ali ile Zeynep kendi ritimlerini uydurur; ama ikisi birden çalınca ritimler kaybolur. Bir nefesten sonra çocuklar yankı oyununu ve sırayla çalmayı kendileri bulur.",
+ "codes": {
+  "maarif": [
+   "beceri: MÇB3 Müziksel Çalma",
+   "beceri: MYB5 Müziksel Yaratıcılık",
+   "MÇB (numara teyitsiz): Duyduğu sesleri ve müzik eserlerini çalabilme; hızlı ve yavaş tempo farklılıklarına vurmalı çalgılarla eşlik eder (teyitsiz)",
+   "MYB (numara teyitsiz): Müziksel deneyimlerine dayalı müziksel ürünler oluşturabilme ve bunları sergileme (teyitsiz)",
+   "E3.3 Yaratıcılık",
+   "SDB2.2 İş Birliği",
+   "D11 Özgürlük"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "dede": "dede",
+  "ali": "cocuk-erkek",
+  "zeynep": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "dede": "Dede",
+  "ali": "Ali",
+  "zeynep": "Zeynep"
+ },
+ "pages": [
+  {
+   "text": "Yağmur cama vuruyordu: tıp tıp tıp. Dede mutfakta çorba karıştırıyordu. Ali ile Zeynep camdaki damlaları seyrettiler. “Çok sıkıldık, Dede!” dediler. Dede kaşığıyla bardağa hafifçe dokundu: tın! “Dinleyin bakalım. Bu mutfakta bir orkestra saklı!”",
+   "scene": {
+    "set": "mutfak",
+    "time": "day",
+    "weather": "rain",
+    "windowHit": "pencere",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 96,
+      "y": 222,
+      "s": 1,
+      "mood": "sorry",
+      "pose": "stand",
+      "hit": "zeynep",
+      "turn": -0.4
+     },
+     {
+      "k": "ali",
+      "x": 168,
+      "y": 230,
+      "s": 1.02,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "ali",
+      "turn": -0.4
+     },
+     {
+      "k": "dede",
+      "x": 286,
+      "y": 218,
+      "s": 1.02,
+      "mood": "happy",
+      "pose": "hold",
+      "hit": "dede",
+      "flip": true,
+      "hold": "kasik",
+      "holdS": 1.3,
+      "holdO": {
+       "color": "#E4574F"
+      }
+     }
+    ],
+    "props": [
+     {
+      "k": "saat",
+      "x": 330,
+      "y": 74,
+      "s": 1,
+      "hour": 10,
+      "min": 10
+     },
+     {
+      "k": "kase",
+      "x": 250,
+      "y": 132,
+      "s": 1.5,
+      "state": "on",
+      "fill": "soup",
+      "color": "#E4574F",
+      "hit": "corba"
+     },
+     {
+      "k": "bardak",
+      "x": 244,
+      "y": 150,
+      "s": 1.2,
+      "state": "on",
+      "fill": "water",
+      "hit": "bardak"
+     }
+    ],
+    "tea": false
+   },
+   "hits": {
+    "pencere": {
+     "anim": "wiggle",
+     "fx": "splash"
+    },
+    "dede": {
+     "say": "Tın! Bardak da şarkı söyler!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "Yağmur hiç durmuyor!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "zeynep": {
+     "say": "Çok sıkıldık, Dede!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "corba": {
+     "say": "Mmm, mercimek çorbası!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "sniff"
+    },
+    "bardak": {
+     "anim": "jump",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "dede",
+    "Dede'ye dokun!"
+   ],
+   "ask": "Sence mutfakta hangi eşyalar ses çıkarır? Birini söyle, sesini yap!"
+  },
+  {
+   "text": "Dede dolabı açtı. Yere iki çelik kâse, iki kırılmaz tabak koydu. Bir de su dolu bir bardak. “Buna yalnız hafifçe dokunulur!” dedi. Ali ile Zeynep birer kaşık aldı. “Herkes kendi ritmini bulsun!” dedi Dede.",
+   "scene": {
+    "set": "mutfak",
+    "time": "day",
+    "weather": "rain",
+    "windowHit": "pencere",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 206,
+      "y": 204,
+      "s": 0.92,
+      "mood": "laugh",
+      "pose": "open",
+      "hit": "dede"
+     },
+     {
+      "k": "ali",
+      "x": 78,
+      "y": 228,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "ali",
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#F2B640"
+      },
+      "turn": 0.4
+     },
+     {
+      "k": "zeynep",
+      "x": 330,
+      "y": 228,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "zeynep",
+      "flip": true,
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#9B6BD8"
+      },
+      "turn": 0.4
+     }
+    ],
+    "props": [
+     {
+      "k": "kase",
+      "x": 130,
+      "y": 230,
+      "s": 1.6,
+      "state": "off",
+      "color": "#B8C2CC",
+      "hit": "ks1"
+     },
+     {
+      "k": "tabak",
+      "x": 168,
+      "y": 234,
+      "s": 1.9,
+      "color": "#E4574F",
+      "hit": "tb1"
+     },
+     {
+      "k": "bardak",
+      "x": 206,
+      "y": 230,
+      "s": 1.25,
+      "state": "on",
+      "fill": "water",
+      "hit": "br1"
+     },
+     {
+      "k": "tabak",
+      "x": 244,
+      "y": 234,
+      "s": 1.9,
+      "color": "#7BC67E",
+      "hit": "tb2"
+     },
+     {
+      "k": "kase",
+      "x": 284,
+      "y": 230,
+      "s": 1.6,
+      "state": "off",
+      "color": "#9AA7B3",
+      "hit": "ks2"
+     }
+    ]
+   },
+   "hits": {
+    "ks": {
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "tb": {
+     "anim": "jump",
+     "fx": "bell"
+    },
+    "br": {
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "dede": {
+     "say": "Herkes kendi ritmini bulsun!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "ali": {
+     "say": "Ben kâseyi seçtim!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "zeynep": {
+     "say": "Ben de tabağı!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "ks1",
+     "tb1",
+     "br1",
+     "tb2",
+     "ks2"
+    ],
+    "done": "Beş çalgı! Hepsinin sesi başka!",
+    "msg": "Beş çalgı!"
+   },
+   "hint": [
+    "ks1",
+    "Say ve dinle!"
+   ],
+   "ask": "Hangisi tak der, hangisi çın? Sesini yap!"
+  },
+  {
+   "text": "Ali kâseye vurdu: tak tak tak! Zeynep tabağa vurdu: çın çın çın! Sonra ikisi birden çaldı. Herkes kendi sesini duyurmak istedi: daha hızlı, daha güçlü! Takır tukur, çangır çungur! Zeynep yüzünü buruşturdu. Ali'nin başı zonkladı. İkisi de bunaldı.",
+   "scene": {
+    "set": "mutfak",
+    "time": "day",
+    "weather": "rain",
+    "windowHit": "pencere",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 330,
+      "y": 212,
+      "s": 0.95,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "dede",
+      "flip": true
+     },
+     {
+      "k": "ali",
+      "x": 100,
+      "y": 230,
+      "s": 1.12,
+      "mood": "sorry",
+      "pose": "sit",
+      "hit": "ali",
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#F2B640"
+      },
+      "turn": 0.5
+     },
+     {
+      "k": "zeynep",
+      "x": 236,
+      "y": 230,
+      "s": 1.12,
+      "mood": "angry",
+      "pose": "sit",
+      "hit": "zeynep",
+      "flip": true,
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#9B6BD8"
+      },
+      "turn": 0.5
+     }
+    ],
+    "props": [
+     {
+      "k": "kase",
+      "x": 152,
+      "y": 232,
+      "s": 1.8,
+      "state": "off",
+      "color": "#B8C2CC",
+      "hit": "kase"
+     },
+     {
+      "k": "tabak",
+      "x": 190,
+      "y": 236,
+      "s": 2.1,
+      "color": "#E4574F",
+      "hit": "tabak"
+     }
+    ]
+   },
+   "hits": {
+    "kase": {
+     "anim": "wiggle",
+     "fx": "drum"
+    },
+    "tabak": {
+     "anim": "wiggle",
+     "fx": "bell"
+    },
+    "ali": {
+     "say": "Ritmim kayboldu! Başım zonkluyor!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "zeynep": {
+     "say": "Çok gürültü! Bunaldım!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "dede": {
+     "say": "Hımm… Bir yolu olmalı.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence şimdi ne yapacaklar?",
+    "res": "Hadi, görelim!",
+    "opts": [
+     {
+      "l": "Sırayla çalalım",
+      "scene": {
+       "set": "mutfak",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "dede",
+         "x": 300,
+         "y": 212,
+         "s": 1,
+         "mood": "happy",
+         "pose": "point",
+         "hit": "dede",
+         "flip": true
+        },
+        {
+         "k": "ali",
+         "x": 110,
+         "y": 228,
+         "s": 1.08,
+         "mood": "happy",
+         "pose": "sit",
+         "hit": "ali",
+         "hold": "kasik",
+         "holdS": 1.15,
+         "holdO": {
+          "color": "#F2B640"
+         },
+         "turn": 0.5
+        },
+        {
+         "k": "zeynep",
+         "x": 205,
+         "y": 230,
+         "s": 1.05,
+         "mood": "calm",
+         "pose": "sit",
+         "hit": "zeynep",
+         "flip": true,
+         "hold": "kasik",
+         "holdS": 1.15,
+         "holdO": {
+          "color": "#9B6BD8"
+         },
+         "turn": 0.4
+        }
+       ],
+       "props": [
+        {
+         "k": "kase",
+         "x": 160,
+         "y": 232,
+         "s": 1.8,
+         "state": "off",
+         "color": "#B8C2CC",
+         "hit": "x1"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Önce dinleyelim",
+      "scene": {
+       "set": "mutfak",
+       "time": "day",
+       "weather": "rain",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 110,
+         "y": 228,
+         "s": 1.05,
+         "mood": "calm",
+         "pose": "sit",
+         "hit": "ali"
+        },
+        {
+         "k": "dede",
+         "x": 210,
+         "y": 214,
+         "s": 1,
+         "mood": "calm",
+         "pose": "sit",
+         "hit": "dede"
+        },
+        {
+         "k": "zeynep",
+         "x": 310,
+         "y": 228,
+         "s": 1.05,
+         "mood": "calm",
+         "pose": "sit",
+         "hit": "zeynep",
+         "flip": true
+        }
+       ],
+       "props": []
+      }
+     }
+    ]
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Çok gürültü olunca senin bedeninde neler olur? Ne yaparsın?"
+  },
+  {
+   "text": "Dede elini kaldırdı: “Önce bir nefes alalım.” Burundan aldılar, ağızdan üflediler: fuuu. Zeynep'in aklına bir fikir geldi. “Dede, sen çal! Biz yankı gibi tekrar edelim!” Dede çaldı: tak, çın, tın! Ali ile Zeynep aynısını çaldı.",
+   "scene": {
+    "set": "mutfak",
+    "time": "day",
+    "weather": "rain",
+    "windowHit": "pencere",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 206,
+      "y": 212,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "dede",
+      "hold": "kasik",
+      "holdS": 1.15
+     },
+     {
+      "k": "ali",
+      "x": 82,
+      "y": 230,
+      "s": 1.05,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "ali",
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#F2B640"
+      },
+      "turn": 0.5
+     },
+     {
+      "k": "zeynep",
+      "x": 326,
+      "y": 230,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "zeynep",
+      "flip": true,
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#9B6BD8"
+      },
+      "turn": 0.5
+     }
+    ],
+    "props": [
+     {
+      "k": "kase",
+      "x": 146,
+      "y": 234,
+      "s": 1.8,
+      "state": "off",
+      "color": "#B8C2CC",
+      "hit": "kase"
+     },
+     {
+      "k": "tabak",
+      "x": 206,
+      "y": 236,
+      "s": 2.1,
+      "color": "#7BC67E",
+      "hit": "tabak"
+     },
+     {
+      "k": "bardak",
+      "x": 266,
+      "y": 234,
+      "s": 1.35,
+      "state": "on",
+      "fill": "water",
+      "hit": "bardak"
+     }
+    ]
+   },
+   "hits": {
+    "dede": {
+     "say": "Zeynep'in fikri harika!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "Fuuu… Oh, rahatladım!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "zeynep": {
+     "say": "Sen çal, biz tekrar edelim!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "xylo"
+    },
+    "kase": {
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "tabak": {
+     "anim": "jump",
+     "fx": "bell"
+    },
+    "bardak": {
+     "anim": "jump",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "kase",
+     "tabak",
+     "bardak"
+    ],
+    "done": "Tak, çın, tın! Aynısını çaldın!",
+    "msg": "Ritmi tekrar ettin!"
+   },
+   "hint": [
+    "kase",
+    "Tak, çın, tın!"
+   ],
+   "ask": "Sence Dede neden önce nefes aldırdı? Hadi birlikte fuuu diye üfleyelim, sonra elimizle çalalım: tak, çın, tın!"
+  },
+  {
+   "text": "“Şimdi sıra bizde!” dedi Ali. “Önce Zeynep, sonra ben.” Zeynep yavaş bir ritim uydurdu: çın… tın… tak. Yağmur damlası gibi! Ali hızlı bir ritim uydurdu: tak tak tak, çın! Dede ikisini de yankı gibi tekrar etti.",
+   "scene": {
+    "set": "mutfak",
+    "time": "day",
+    "weather": "rain",
+    "windowHit": "pencere",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 70,
+      "y": 230,
+      "s": 1.12,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "zeynep",
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#9B6BD8"
+      },
+      "turn": 0.4
+     },
+     {
+      "k": "ali",
+      "x": 296,
+      "y": 230,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "ali",
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#F2B640"
+      },
+      "turn": 0.4,
+      "flip": true
+     },
+     {
+      "k": "dede",
+      "x": 350,
+      "y": 204,
+      "s": 0.9,
+      "mood": "laugh",
+      "pose": "clap",
+      "hit": "dede",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tabak",
+      "x": 118,
+      "y": 236,
+      "s": 1.9,
+      "color": "#9B6BD8",
+      "hit": "tabak"
+     },
+     {
+      "k": "bardak",
+      "x": 176,
+      "y": 232,
+      "s": 1.35,
+      "state": "on",
+      "fill": "water",
+      "hit": "bardak"
+     },
+     {
+      "k": "kase",
+      "x": 230,
+      "y": 234,
+      "s": 1.7,
+      "state": "off",
+      "color": "#B8C2CC",
+      "hit": "kase"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Çın… tın… tak. Yavaşça!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "bell"
+    },
+    "ali": {
+     "say": "Önce Zeynep, sonra ben!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "dede": {
+     "say": "Ben de tekrar ediyorum!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "xylo"
+    },
+    "tabak": {
+     "anim": "jump",
+     "fx": "bell"
+    },
+    "bardak": {
+     "anim": "jump",
+     "fx": "chime"
+    },
+    "kase": {
+     "anim": "jump",
+     "fx": "drum"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "tabak",
+     "bardak",
+     "kase"
+    ],
+    "done": "Çın… tın… tak! Zeynep'in yavaş ritmi!",
+    "msg": "Yankı gibi tekrar ettin!"
+   },
+   "hint": [
+    "tabak",
+    "Çın, tın, tak!"
+   ],
+   "ask": "Sen yavaş bir ritim mi, hızlı bir ritim mi uydururdun? Bize çal, biz tekrar edelim!"
+  },
+  {
+   "text": "Yağmur dindi, güneş çıktı. Ama orkestra durmadı! Bir yavaş, bir hızlı; bir Ali, bir Zeynep, bir Dede. Sonra hep birlikte: tak, çın, tın! Bu kez hiçbir ritim kaybolmadı. “Yarın da çalalım mı?” dedi Zeynep. Dede göz kırptı: “Önce çorbamızı içelim!”",
+   "scene": {
+    "set": "mutfak",
+    "time": "day",
+    "windowHit": "pencere",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 92,
+      "y": 226,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "ali",
+      "turn": 0.3,
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#F2B640"
+      }
+     },
+     {
+      "k": "zeynep",
+      "x": 192,
+      "y": 230,
+      "s": 1.08,
+      "mood": "laugh",
+      "pose": "hold",
+      "hit": "zeynep",
+      "turn": 0.2,
+      "hold": "kasik",
+      "holdS": 1.15,
+      "holdO": {
+       "color": "#9B6BD8"
+      }
+     },
+     {
+      "k": "dede",
+      "x": 292,
+      "y": 216,
+      "s": 1.02,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "dede",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "kase",
+      "x": 326,
+      "y": 147,
+      "s": 1.0,
+      "state": "on",
+      "fill": "soup",
+      "color": "#F2B640",
+      "hit": "corba"
+     },
+     {
+      "k": "kase",
+      "x": 350,
+      "y": 147,
+      "s": 0.9,
+      "state": "on",
+      "fill": "soup",
+      "color": "#4F8FD8"
+     },
+     {
+      "k": "kase",
+      "x": 140,
+      "y": 232,
+      "s": 1.7,
+      "state": "off",
+      "color": "#B8C2CC",
+      "hit": "kase"
+     },
+     {
+      "k": "tabak",
+      "x": 236,
+      "y": 236,
+      "s": 2.0,
+      "color": "#7BC67E",
+      "hit": "tabak"
+     },
+     {
+      "k": "sparkle",
+      "x": 170,
+      "y": 90,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "pencere": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    },
+    "ali": {
+     "say": "Tak, çın, tın! Yaşasın!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "zeynep": {
+     "say": "Yarın da çalalım mı?",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "bell"
+    },
+    "dede": {
+     "say": "Önce çorbamızı içelim!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "corba": {
+     "say": "Afiyet olsun!",
+     "voice": "dede",
+     "anim": "wiggle",
+     "fx": "sniff"
+    },
+    "kase": {
+     "anim": "jump",
+     "fx": "drum"
+    },
+    "tabak": {
+     "anim": "jump",
+     "fx": "bell"
+    }
+   },
+   "hint": [
+    "corba",
+    "Çorbaya dokun!"
+   ],
+   "ask": "Bu orkestrada en çok neyi sevdin? Evde sen hangi eşyalarla müzik yapardın?"
+  }
+ ],
+ "order": [
+  2,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "MÇB3 Müziksel Çalma (alan becerisi) · MÇB öğrenme çıktısı “Duyduğu sesleri ve müzik eserlerini çalabilme”: Dedenin çaldığı “tak, çın, tın” ritmini dinler ve kâse-tabak-bardakla aynı sırayla tekrar eder; hızlı ve yavaş tempo farklılıklarına vurmalı (mutfak) çalgılarla eşlik eder.",
+   "MYB5 Müziksel Yaratıcılık (alan becerisi) · MYB öğrenme çıktısı “Müziksel deneyimlerine dayalı müziksel ürünler oluşturabilme ve bunları sergileme”: Mutfak eşyalarıyla kendi yavaş ya da hızlı ritmini uydurur ve arkadaşlarına çalarak sergiler.",
+   "E3.3 Yaratıcılık ve D11 Özgürlük: Sıradan eşyalardan çalgı yaratır; kendi ritmini seçme özgürlüğünü kullanırken başkalarının da sesini duyurma hakkını fark eder.",
+   "SDB2.2 İş Birliği: Birlikte çalarken sırayla çalma fikrini kendileri bulur, birbirini dinler; önce dinleyip sonra tekrar ederek ortak bir ritim kurar."
+  ],
+  "once": [
+   "Mutfakta ses çıkaran eşyaları birlikte sayın: Bunlarla müzik yapılabilir mi?",
+   "Masaya vurmadan önce dizlerinize yavaşça, sonra hızlıca vurun; farkı birlikte adlandırın: yavaş, hızlı."
+  ],
+  "sirasi": [
+   "2. sayfada çalgıları sayarken her birinin sesini ağızla taklit edin: tak, çın, tın.",
+   "3. sayfada gürültünün bedende nasıl hissettirdiğini sorun; tahmin sorusunda her cevabı kabul edin.",
+   "4. sayfada Dede'yle birlikte nefes alın (burundan al, ağızdan fuuu), sonra ritmi ekranda ve ellerinizle tekrar edin.",
+   "5. sayfada Zeynep'in yavaş, Ali'nin hızlı ritmini sırayla çalın; sırayla çalma fikrini kimin bulduğunu sorun."
+  ],
+  "sonra": [
+   "Ali ile Zeynep neden bunaldı? Ne yapınca rahatladılar?",
+   "Yankı oyunu kimin fikriydi? Sırayla çalmayı kim önerdi? Neden işe yaradı?",
+   "Olayları resimlerle sıralayın: ikisi birden çaldı → nefes aldılar → sırayla çaldılar."
+  ],
+  "sinif": {
+   "ad": "Mutfak Orkestrası Yankı Oyunu",
+   "sure": "20 dk",
+   "materyal": "Plastik ya da metal kâseler, kırılmaz tabaklar, tahta ve metal kaşıklar, plastik şişe içinde kuru bakliyat (sıkıca kapalı)",
+   "adim": [
+    "Çocuklar çember olur; her çocuk bir mutfak eşyası ve bir kaşık seçer. Kırılabilir cam ve porselen kullanılmaz.",
+    "Sese duyarlı çocuklar için ‘fısıltı ritmi’ (parmak uçlarıyla) seçeneği sunun; isteyen çocuk dinleyici/şef olabilir.",
+    "Öğretmen üç vuruşluk kısa bir ritim çalar (ör. tak-tak-çın); çocuklar önce dinler, sonra hep birlikte tekrar eder.",
+    "Sırayla her çocuk kendi yavaş ya da hızlı ritmini uydurur; grup “yankı” olup tekrar eder.",
+    "Bir tur herkes aynı anda çalar; sonra “Hangisinde ritimleri duyabildik?” diye konuşulur.",
+    "Kapanışta tüm sınıf aynı ritimle yavaş başlayıp hızlanır, sonra fısıltı gibi yavaşlayıp durur."
+   ]
+  },
+  "evSoru": [
+   "Dede mutfakta hangi eşyalarla orkestra kurdu?",
+   "Ali ile Zeynep bunalınca ne yaptı?",
+   "Sen hangi ritmi uydurmak isterdin? Bana çal, ben tekrar edeyim!"
+  ],
+  "evEtk": {
+   "ad": "Evde Yankı Orkestrası",
+   "d": "Mutfaktan kırılmaz iki eşya (plastik kâse, tahta kaşık, tencere kapağı) seçin. Sırayla kısa ritimler uydurup birbirinizi yankı gibi tekrar edin; bir yavaş, bir hızlı çalın. Bitince eşyaları birlikte yerine koyun. Evde cam bardak yerine çelik ya da plastik bardak kullanın."
+  },
+  "aileNotu": "Bugün “Kaşık Kâse Orkestrası” masalını okuduk. Dede yağmurlu bir günde mutfakta çorba pişirirken torunlarıyla çelik kâse, kırılmaz tabak ve kaşıklardan bir orkestra kurdu. Çocuklar kendi ritimlerini uydurdu; ikisi birden çalınca bunaldılar, nefes aldılar; sonra yankı oyununu ve sırayla çalmayı kendileri önerdiler. Evde kırılmaz mutfak eşyalarıyla “dinle ve tekrar et” oyununu oynayabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/095-tencere-tava-orkestrasi.mp3",
+  "hash": "77fc9990",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 18981,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3749,
+      6
+     ],
+     [
+      4169,
+      7
+     ],
+     [
+      4729,
+      8
+     ],
+     [
+      5069,
+      9
+     ],
+     [
+      6390,
+      10
+     ],
+     [
+      6649,
+      11
+     ],
+     [
+      6809,
+      12
+     ],
+     [
+      7370,
+      13
+     ],
+     [
+      7829,
+      14
+     ],
+     [
+      8369,
+      15
+     ],
+     [
+      9489,
+      16
+     ],
+     [
+      9770,
+      17
+     ],
+     [
+      10329,
+      18
+     ],
+     [
+      11029,
+      19
+     ],
+     [
+      11969,
+      20
+     ],
+     [
+      12390,
+      21
+     ],
+     [
+      12989,
+      22
+     ],
+     [
+      13509,
+      23
+     ],
+     [
+      14029,
+      24
+     ],
+     [
+      14909,
+      25
+     ],
+     [
+      15629,
+      26
+     ],
+     [
+      16069,
+      27
+     ],
+     [
+      16789,
+      28
+     ],
+     [
+      16930,
+      29
+     ],
+     [
+      17610,
+      30
+     ],
+     [
+      17850,
+      31
+     ],
+     [
+      18489,
+      32
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 19281,
+    "d": 2288,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1309,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1729,
+      4
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 21869,
+    "d": 1798,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      612,
+      1
+     ],
+     [
+      941,
+      2
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 23968,
+    "d": 1637,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      307,
+      1
+     ],
+     [
+      1130,
+      2
+     ]
+    ]
+   },
+   "p0h-corba": {
+    "s": 25905,
+    "d": 2315,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      582,
+      1
+     ],
+     [
+      1428,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 28520,
+    "d": 15291,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      3529,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      4350,
+      9
+     ],
+     [
+      4709,
+      10
+     ],
+     [
+      5529,
+      11
+     ],
+     [
+      5749,
+      12
+     ],
+     [
+      6089,
+      13
+     ],
+     [
+      6229,
+      14
+     ],
+     [
+      6489,
+      15
+     ],
+     [
+      6669,
+      16
+     ],
+     [
+      7549,
+      17
+     ],
+     [
+      7829,
+      18
+     ],
+     [
+      8329,
+      19
+     ],
+     [
+      8829,
+      20
+     ],
+     [
+      9690,
+      21
+     ],
+     [
+      10430,
+      22
+     ],
+     [
+      10690,
+      23
+     ],
+     [
+      10850,
+      24
+     ],
+     [
+      11390,
+      25
+     ],
+     [
+      11730,
+      26
+     ],
+     [
+      12129,
+      27
+     ],
+     [
+      12770,
+      28
+     ],
+     [
+      13270,
+      29
+     ],
+     [
+      13589,
+      30
+     ],
+     [
+      13989,
+      31
+     ],
+     [
+      14629,
+      32
+     ],
+     [
+      14909,
+      33
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 44112,
+    "d": 1628,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 46040,
+    "d": 1548,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      321,
+      1
+     ],
+     [
+      1018,
+      2
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 47889,
+    "d": 1061,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      258,
+      1
+     ],
+     [
+      477,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 49250,
+    "d": 2591,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2009,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 52142,
+    "d": 18592,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3269,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      4290,
+      9
+     ],
+     [
+      4569,
+      10
+     ],
+     [
+      4870,
+      11
+     ],
+     [
+      5629,
+      12
+     ],
+     [
+      6129,
+      13
+     ],
+     [
+      6469,
+      14
+     ],
+     [
+      6890,
+      15
+     ],
+     [
+      7689,
+      16
+     ],
+     [
+      8169,
+      17
+     ],
+     [
+      8469,
+      18
+     ],
+     [
+      8829,
+      19
+     ],
+     [
+      9270,
+      20
+     ],
+     [
+      9969,
+      21
+     ],
+     [
+      10230,
+      22
+     ],
+     [
+      10749,
+      23
+     ],
+     [
+      11029,
+      24
+     ],
+     [
+      11749,
+      25
+     ],
+     [
+      12149,
+      26
+     ],
+     [
+      12629,
+      27
+     ],
+     [
+      13169,
+      28
+     ],
+     [
+      14109,
+      29
+     ],
+     [
+      14549,
+      30
+     ],
+     [
+      14909,
+      31
+     ],
+     [
+      15869,
+      32
+     ],
+     [
+      16270,
+      33
+     ],
+     [
+      16549,
+      34
+     ],
+     [
+      17409,
+      35
+     ],
+     [
+      17809,
+      36
+     ],
+     [
+      17950,
+      37
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 71034,
+    "d": 3169,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1790,
+      2
+     ],
+     [
+      2189,
+      3
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 74504,
+    "d": 2710,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1729,
+      2
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 77515,
+    "d": 2073,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      627,
+      1
+     ],
+     [
+      896,
+      2
+     ],
+     [
+      1365,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 79888,
+    "d": 1820,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      989,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 82009,
+    "d": 1050,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      550,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 83360,
+    "d": 18273,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      3349,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4729,
+      9
+     ],
+     [
+      5249,
+      10
+     ],
+     [
+      6404,
+      11
+     ],
+     [
+      7629,
+      12
+     ],
+     [
+      8129,
+      13
+     ],
+     [
+      8549,
+      14
+     ],
+     [
+      8690,
+      15
+     ],
+     [
+      9029,
+      16
+     ],
+     [
+      9810,
+      17
+     ],
+     [
+      10409,
+      18
+     ],
+     [
+      10669,
+      19
+     ],
+     [
+      11209,
+      20
+     ],
+     [
+      11469,
+      21
+     ],
+     [
+      11789,
+      22
+     ],
+     [
+      12029,
+      23
+     ],
+     [
+      12489,
+      24
+     ],
+     [
+      13209,
+      25
+     ],
+     [
+      13529,
+      26
+     ],
+     [
+      14329,
+      27
+     ],
+     [
+      14810,
+      28
+     ],
+     [
+      15310,
+      29
+     ],
+     [
+      16149,
+      30
+     ],
+     [
+      16430,
+      31
+     ],
+     [
+      16589,
+      32
+     ],
+     [
+      17229,
+      33
+     ],
+     [
+      17749,
+      34
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 101934,
+    "d": 1601,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      869,
+      2
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 103835,
+    "d": 3083,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1338,
+      1
+     ],
+     [
+      1902,
+      2
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 107218,
+    "d": 2060,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 109579,
+    "d": 2880,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2269,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 112759,
+    "d": 16861,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3749,
+      8
+     ],
+     [
+      4529,
+      9
+     ],
+     [
+      5029,
+      10
+     ],
+     [
+      5449,
+      11
+     ],
+     [
+      5629,
+      12
+     ],
+     [
+      5969,
+      13
+     ],
+     [
+      6930,
+      14
+     ],
+     [
+      7649,
+      15
+     ],
+     [
+      8289,
+      16
+     ],
+     [
+      9029,
+      17
+     ],
+     [
+      9430,
+      18
+     ],
+     [
+      9909,
+      19
+     ],
+     [
+      10649,
+      20
+     ],
+     [
+      11009,
+      21
+     ],
+     [
+      11350,
+      22
+     ],
+     [
+      11509,
+      23
+     ],
+     [
+      11810,
+      24
+     ],
+     [
+      12549,
+      25
+     ],
+     [
+      12770,
+      26
+     ],
+     [
+      12969,
+      27
+     ],
+     [
+      13409,
+      28
+     ],
+     [
+      14229,
+      29
+     ],
+     [
+      14709,
+      30
+     ],
+     [
+      15169,
+      31
+     ],
+     [
+      15369,
+      32
+     ],
+     [
+      15749,
+      33
+     ],
+     [
+      15989,
+      34
+     ],
+     [
+      16469,
+      35
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 129920,
+    "d": 3562,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      881,
+      1
+     ],
+     [
+      1723,
+      2
+     ],
+     [
+      2565,
+      3
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 133783,
+    "d": 2175,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1749,
+      3
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 136259,
+    "d": 1340,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 137899,
+    "d": 3777,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      2189,
+      3
+     ],
+     [
+      2829,
+      4
+     ],
+     [
+      3289,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 141976,
+    "d": 19829,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      2630,
+      5
+     ],
+     [
+      3329,
+      6
+     ],
+     [
+      4330,
+      7
+     ],
+     [
+      4589,
+      8
+     ],
+     [
+      5209,
+      9
+     ],
+     [
+      5430,
+      10
+     ],
+     [
+      6229,
+      11
+     ],
+     [
+      6529,
+      12
+     ],
+     [
+      7069,
+      13
+     ],
+     [
+      7309,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8249,
+      16
+     ],
+     [
+      8949,
+      17
+     ],
+     [
+      9329,
+      18
+     ],
+     [
+      9549,
+      19
+     ],
+     [
+      10390,
+      20
+     ],
+     [
+      10789,
+      21
+     ],
+     [
+      11209,
+      22
+     ],
+     [
+      12069,
+      23
+     ],
+     [
+      12209,
+      24
+     ],
+     [
+      12589,
+      25
+     ],
+     [
+      13069,
+      26
+     ],
+     [
+      13409,
+      27
+     ],
+     [
+      14609,
+      28
+     ],
+     [
+      14869,
+      29
+     ],
+     [
+      15009,
+      30
+     ],
+     [
+      15449,
+      31
+     ],
+     [
+      15810,
+      32
+     ],
+     [
+      16089,
+      33
+     ],
+     [
+      17009,
+      34
+     ],
+     [
+      17309,
+      35
+     ],
+     [
+      17569,
+      36
+     ],
+     [
+      18469,
+      37
+     ],
+     [
+      18770,
+      38
+     ],
+     [
+      19369,
+      39
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 162106,
+    "d": 2967,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      625,
+      1
+     ],
+     [
+      1211,
+      2
+     ],
+     [
+      2014,
+      3
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 165373,
+    "d": 1261,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      370,
+      1
+     ],
+     [
+      560,
+      2
+     ],
+     [
+      1031,
+      3
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 166935,
+    "d": 1457,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      969,
+      2
+     ]
+    ]
+   },
+   "p5h-corba": {
+    "s": 168693,
+    "d": 859,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      497,
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

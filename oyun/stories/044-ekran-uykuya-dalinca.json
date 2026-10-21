@@ -1,0 +1,1805 @@
+{
+ "id": "044-ekran-uykuya-dalinca",
+ "n": 44,
+ "title": "Ekran Uykuya Dalınca",
+ "age": "48-60",
+ "area": "Hareket ve Sağlık",
+ "theme": "Ekran süresi ve hareketli oyun",
+ "values": [
+  "D13 Sağlıklı Yaşam"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 5,
+ "blurb": "Zeynep tabletten bir türlü ayrılamaz. Kum saatinin kumu bitince kızar; Dede'yle nefes alır ve tableti kendi eliyle uyutur. Sonra salonda zıplama, saklambaç ve masal saati başlar!",
+ "codes": {
+  "maarif": [
+   "HSAB.9 Aktif ve sağlıklı yaşam için hareket edebilme",
+   "HSAB.8.a Hareket sırasında solunum, kalp atımı ve terleme değişimlerini fark eder",
+   "OB2 Dijital Okuryazarlık",
+   "E1.2 Bağımsızlık"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "zeynep": "cocuk-kiz",
+  "dede": "dede"
+ },
+ "voiceNames": {
+  "zeynep": "Zeynep",
+  "dede": "Dede"
+ },
+ "pages": [
+  {
+   "text": "Zeynep halıda oturmuş, tablete bakıyordu. Yanında kum saati akıyordu. Ekranda renkli şekiller dans ediyordu: dın dın, pıt pıt! Dede topu gösterdi: “Oynayalım mı, Zeynep?” Zeynep bakmadı bile. “Birazcık daha, Dede!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 80,
+      "y": 224,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "dede"
+     },
+     {
+      "k": "zeynep",
+      "x": 232,
+      "y": 222,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "sit",
+      "turn": 0.8,
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "tablet",
+      "x": 270,
+      "y": 234,
+      "s": 1.0,
+      "color": "#8A6FD1",
+      "hit": "tablet"
+     },
+     {
+      "k": "top",
+      "x": 160,
+      "y": 232,
+      "s": 1.2,
+      "color": "#E4574F",
+      "hit": "top"
+     },
+     {
+      "k": "kum-saati",
+      "x": 318,
+      "y": 236,
+      "s": 1.2,
+      "state": "on",
+      "hit": "kum"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Birazcık daha, Dede!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "dede": {
+     "say": "Oynayalım mı, Zeynep?",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "tablet": {
+     "anim": "wiggle",
+     "fx": "xylo"
+    },
+    "top": {
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "kum": {
+     "anim": "wiggle",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "tablet",
+    "Tablete dokun!"
+   ],
+   "ask": "Sence Zeynep Dede'yi duydu mu? Neden başını kaldırmadı?"
+  },
+  {
+   "text": "Dede kum saatini gösterdi. “Kum aşağı inince tablet dinlenecek.” Şırr, şırr… Kum bitti. Zeynep kızdı. Yanakları ısındı, elleri yumruk oldu. “Ama daha bitmedi!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 96,
+      "y": 224,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "point",
+      "hit": "dede"
+     },
+     {
+      "k": "zeynep",
+      "x": 290,
+      "y": 226,
+      "s": 1.05,
+      "mood": "angry",
+      "pose": "hold",
+      "hold": "tablet",
+      "holdS": 0.9,
+      "holdO": {
+       "color": "#8A6FD1"
+      },
+      "flip": true,
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "kum-saati",
+      "x": 180,
+      "y": 236,
+      "s": 1.5,
+      "state": "off",
+      "hit": "kum"
+     },
+     {
+      "k": "top",
+      "x": 128,
+      "y": 234,
+      "s": 1.1,
+      "color": "#E4574F"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Ama daha bitmedi!",
+     "voice": "zeynep",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "dede": {
+     "say": "Kum bitti, bak.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "kum": {
+     "anim": "wiggle",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "kum",
+    "Kum saatine dokun!"
+   ],
+   "ask": "Zeynep kızınca bedeninde neler oldu? Sen kızınca neler hissedersin?"
+  },
+  {
+   "text": "Dede kanepeye oturdu: “Kızdın, biliyorum. Ekran da dinlenmeli, gözlerin de.” Burundan çek… ağızdan üfle: fuuu! Bir daha: fuuu! Zeynep'in omuzları gevşedi.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 222,
+      "y": 158,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "dede"
+     },
+     {
+      "k": "zeynep",
+      "x": 278,
+      "y": 158,
+      "s": 0.9,
+      "mood": "calm",
+      "pose": "sit",
+      "hit": "zeynep",
+      "turn": -0.4
+     }
+    ],
+    "props": [
+     {
+      "k": "kum-saati",
+      "x": 120,
+      "y": 236,
+      "s": 1.2,
+      "state": "off"
+     },
+     {
+      "k": "tablet",
+      "x": 306,
+      "y": 158,
+      "s": 0.7,
+      "color": "#8A6FD1",
+      "state": "on"
+     }
+    ]
+   },
+   "hits": {
+    "dede": {
+     "say": "Ekran da dinlenmeli, gözlerin de.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "zeynep": {
+     "say": "Fuuu!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "blow"
+    }
+   },
+   "predict": {
+    "q": "Sence Zeynep tableti ne yapacak?",
+    "res": "Hadi görelim!",
+    "opts": [
+     {
+      "l": "Kendisi kapatır",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 200,
+         "y": 230,
+         "s": 1.3,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "tablet",
+         "holdS": 1.0,
+         "holdO": {
+          "color": "#8A6FD1",
+          "state": "off"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "l": "Dede'ye verir",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "zeynep",
+         "x": 140,
+         "y": 230,
+         "s": 1.2,
+         "mood": "happy",
+         "pose": "wave"
+        },
+        {
+         "k": "dede",
+         "x": 262,
+         "y": 230,
+         "s": 1.15,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "tablet",
+         "holdS": 0.9,
+         "holdO": {
+          "color": "#8A6FD1",
+          "state": "off"
+         },
+         "flip": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "zeynep",
+    "Zeynep'le nefes al!"
+   ],
+   "ask": "Hadi birlikte deneyelim: burundan çek, ağızdan üfle. Nasıl hissettin?"
+  },
+  {
+   "text": "Zeynep tablete baktı: “Sen de yoruldun, değil mi?” Düğmeye kendisi bastı. Çıt! Ekran karardı. “İyi uykular, tablet!” Dede göz kırptı: “Şimdi oyun zamanı!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 150,
+      "y": 224,
+      "s": 1.1,
+      "mood": "calm",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "zeynep"
+     },
+     {
+      "k": "dede",
+      "x": 330,
+      "y": 222,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "wave",
+      "flip": true,
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "tablet",
+      "x": 234,
+      "y": 234,
+      "s": 1.6,
+      "color": "#8A6FD1",
+      "state": "on",
+      "hit": "tablet"
+     }
+    ]
+   },
+   "hits": {
+    "tablet": {
+     "fn": "toggle",
+     "fx": "click",
+     "anim": "wiggle"
+    },
+    "zeynep": {
+     "say": "İyi uykular, tablet!",
+     "voice": "zeynep",
+     "anim": "boing",
+     "fx": "lullaby"
+    },
+    "dede": {
+     "say": "Şimdi oyun zamanı!",
+     "voice": "dede",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "tablet",
+    "Tableti uyut: çıt!"
+   ],
+   "ask": "Zeynep tableti kendisi kapattı. Sen bir işi kendin yapınca ne hissedersin?"
+  },
+  {
+   "text": "Dede yastıkları halıya dizdi: “Beş yastık, beş zıplama!” Zeynep zıpladı: hop! Bir, iki, üç, dört, beş! Kalbi küt küt attı. Yanakları pembeleşti.",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 252,
+      "y": 158,
+      "s": 0.92,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "dede"
+     },
+     {
+      "k": "zeynep",
+      "x": 108,
+      "y": 226,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "jump",
+      "turn": 0.6,
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 150,
+      "y": 236,
+      "s": 1.25,
+      "color": "#8FC1E8",
+      "hit": "y1"
+     },
+     {
+      "k": "yastik",
+      "x": 200,
+      "y": 236,
+      "s": 1.25,
+      "color": "#F2B84B",
+      "hit": "y2"
+     },
+     {
+      "k": "yastik",
+      "x": 250,
+      "y": 236,
+      "s": 1.25,
+      "color": "#EE8FB0",
+      "hit": "y3"
+     },
+     {
+      "k": "yastik",
+      "x": 300,
+      "y": 236,
+      "s": 1.25,
+      "color": "#9BD08A",
+      "hit": "y4"
+     },
+     {
+      "k": "yastik",
+      "x": 350,
+      "y": 236,
+      "s": 1.25,
+      "color": "#B79BE0",
+      "hit": "y5"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Hop! Kalbim küt küt!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "dede": {
+     "say": "Hop, hop! Sonraki yastık!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "y1",
+     "y2",
+     "y3",
+     "y4",
+     "y5"
+    ],
+    "done": "Hop hop hop! Tam beş zıplama!",
+    "msg": "Beşe kadar saydın!"
+   },
+   "hint": [
+    "y1",
+    "Yastıkları say: hop!"
+   ],
+   "ask": "Hadi sen de beş kez zıpla! Şimdi elini kalbine koy. Nasıl atıyor?",
+   "cues": [
+    {
+     "w": 17,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Sıra saklambaçta! Dede üç oyuncak sakladı. Zeynep gözlerini yumdu: “Önüm, arkam, sağım, solum, sobe!” Kanepede mi? Masanın altında mı? “Buldum, buldum, buldum!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "zeynep",
+      "x": 250,
+      "y": 224,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "open",
+      "hit": "zeynep"
+     },
+     {
+      "k": "dede",
+      "x": 44,
+      "y": 226,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "masa",
+      "x": 150,
+      "y": 230,
+      "s": 1.0,
+      "cloth": true
+     },
+     {
+      "k": "top",
+      "x": 150,
+      "y": 232,
+      "s": 1.1,
+      "color": "#E4574F",
+      "peek": true,
+      "hit": "o1"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 300,
+      "y": 158,
+      "s": 0.9,
+      "color": "#E4574F",
+      "peek": true,
+      "hit": "o2"
+     },
+     {
+      "k": "oyuncak-araba",
+      "x": 326,
+      "y": 224,
+      "s": 1.0,
+      "color": "#3E8ED0",
+      "peek": true,
+      "hit": "o3",
+      "flip": false
+     },
+     {
+      "k": "yastik",
+      "x": 352,
+      "y": 236,
+      "s": 1.3,
+      "color": "#8FC1E8"
+     }
+    ]
+   },
+   "hits": {
+    "zeynep": {
+     "say": "Önüm, arkam, sağım, solum, sobe!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "dede": {
+     "say": "Sıcak, sıcak, çok sıcak!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "o1",
+     "o2",
+     "o3"
+    ],
+    "done": "Buldum! Üç oyuncağı da buldun!",
+    "msg": "Hepsini buldun!"
+   },
+   "hint": [
+    "o1",
+    "Saklanan oyuncakları bul!"
+   ],
+   "ask": "Sen saklambaçta en çok nereye saklanırsın?"
+  },
+  {
+   "text": "Akşam oldu, masal saati geldi. Dede lambayı yaktı. Zeynep Dede'ye sokuldu. Tablet rafta mışıl mışıl uyuyordu. Zeynep güldü: “Ekran uyuyunca oyunlar uyandı, Dede!”",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "curtains": "closed",
+    "lampHit": "lamba",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 226,
+      "y": 158,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "dede"
+     },
+     {
+      "k": "zeynep",
+      "x": 278,
+      "y": 158,
+      "s": 0.88,
+      "mood": "laugh",
+      "pose": "sit",
+      "turn": -0.5,
+      "hit": "zeynep"
+     }
+    ],
+    "props": [
+     {
+      "k": "kitap",
+      "x": 252,
+      "y": 172,
+      "s": 0.95,
+      "open": true,
+      "hit": "kitap"
+     },
+     {
+      "k": "tablet",
+      "x": 362,
+      "y": 120,
+      "s": 0.6,
+      "color": "#8A6FD1",
+      "state": "off",
+      "hit": "tablet"
+     },
+     {
+      "k": "zzz",
+      "x": 368,
+      "y": 104
+     }
+    ]
+   },
+   "hits": {
+    "lamba": {
+     "fn": "lamp",
+     "fx": "click"
+    },
+    "dede": {
+     "say": "Bir varmış, bir yokmuş…",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "page"
+    },
+    "zeynep": {
+     "say": "Ekran uyuyunca oyunlar uyandı!",
+     "voice": "zeynep",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "tablet": {
+     "anim": "wiggle",
+     "fx": "lullaby"
+    },
+    "kitap": {
+     "anim": "boing",
+     "fx": "page"
+    }
+   },
+   "hint": [
+    "lamba",
+    "Lambayı yak!"
+   ],
+   "ask": "Tablet uyuyunca siz evde hangi oyunları oynarsınız?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  6
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.9 (öğrenme çıktısı) Aktif ve sağlıklı yaşam için hareket edebilme: Çocuk, ekran başında uzun süre oturmak yerine yastıklardan zıplama ve saklambaç gibi hareketli oyunlara katılır; evde hareket etmenin keyifli yollarını söyler.",
+   "HSAB.8.a (alt öğrenme çıktısı) Hareket sırasında solunum, kalp atımı ve terleme değişimlerini fark eder: Beş zıplamadan sonra elini kalbine koyar, kalbinin 'küt küt' hızlandığını ve yanaklarının ısındığını fark edip anlatır.",
+   "OB2 Dijital Okuryazarlık (okuryazarlık becerisi): Ekran kullanımının bir süresi olduğunu, 'ekranın da gözlerin de dinlenmesi gerektiğini' konuşur; tableti kapatma zamanını kum saati gibi somut bir işaretle ilişkilendirir.",
+   "E1.2 Bağımsızlık (eğilim): Tableti bir yetişkinin elinden almasını beklemeden, kendi eliyle kapatır ve 'İyi uykular, tablet!' diyerek geçişi kendisi yönetir.",
+   "SDB1.2 Kendini Düzenleme ve D13 Sağlıklı Yaşam: Kızgınlığını adlandırır, bedenindeki işaretleri (yanakların ısınması, ellerin yumruk olması) fark eder ve 'burundan çek, ağızdan üfle' nefesiyle sakinleşir."
+  ],
+  "once": [
+   "Çocuğa sorun: 'Evde ekranı kapatma zamanı geldiğini nereden anlıyorsun?' Cevapları yargılamadan dinleyin.",
+   "Kapağı gösterin: 'Bir ekran nasıl uykuya dalar? Ekran uyuyunca neler olabilir?' Tahminleri not edin, masal bitince yeniden bakın."
+  ],
+  "sirasi": [
+   "1. sayfada Dede seslenirken durun: 'Zeynep Dede'yi duydu mu?' Ekrana dalınca etrafı duymamayı konuşun.",
+   "2. sayfada kum saatini ve Zeynep'in yüzünü, ellerini gösterin: 'Kum bitti. Zeynep nasıl hissediyor? Bedeninin neresinde belli oluyor?' Kızgınlık sözcüğünü birlikte söyleyin.",
+   "3. sayfada nefesi birlikte yapın: burundan çek… ağızdan üfle, fuuu! Tahmin sorusunda iki cevabı da kabul edin, 'Hadi görelim!' deyin.",
+   "5. sayfada yastıkları sayarken siz de yerinizde beş kez zıplayın; sonra elinizi kalbinize koyun.",
+   "6. sayfada 'Önüm, arkam, sağım, solum, sobe!' tekerlemesini birlikte söyleyin."
+  ],
+  "sonra": [
+   "Zeynep tableti nasıl kapattı? Kimse zorlamadan kendisi kapatınca ne hissetmiş olabilir?",
+   "Tablet uyuyunca Zeynep ile Dede hangi üç şeyi yaptı? (zıplama, saklambaç, masal saati) Siz hangisini yapmak istersiniz?",
+   "Kızınca işe yarayan başka yollar neler olabilir? (nefes almak, sarılmak, bir büyüğe söylemek, saymak)",
+   "Masalı sıralama kartlarıyla anlatın: kum saati, tabletin uyuması, masal saati."
+  ],
+  "sinif": {
+   "ad": "Ekran Uyurken Oyun Parkuru",
+   "sure": "20 dk",
+   "materyal": "5 minder ya da yastık, 1 kum saati ya da zamanlayıcı, kapalı bir tablet resmi (karton), 3 küçük oyuncak, fon müziği",
+   "adim": [
+    "Çember olun. Karton tablet resmini gösterin, 'Şimdi ekranımız uyuyor, bedenlerimiz uyanıyor!' deyip hep birlikte 'İyi uykular, tablet!' deyin.",
+    "Minderleri yere dizin. Her çocuk sırayla minderlere basarak beş kez zıplasın, sınıf birlikte 'bir, iki, üç, dört, beş' diye saysın.",
+    "Zıplamadan sonra herkes elini kalbine koysun: 'Kalbimiz nasıl atıyor? Nefesimiz nasıl?' Değişimi konuşun.",
+    "Üç oyuncağı sınıfa saklayın; bir çocuk 'Önüm, arkam, sağım, solum, sobe!' deyip arasın, diğerleri 'sıcak-soğuk' ipucu versin.",
+    "Kum saatini ters çevirip sessizce bir masal dinleyerek etkinliği sakin bir dinlenmeyle bitirin."
+   ]
+  },
+  "evSoru": [
+   "Dede, tabletin dinlenme zamanını neyle gösterdi?",
+   "Zeynep kızınca ne yaptı da sakinleşti?",
+   "Bizim evde ekran uyuyunca hangi oyunları oynayabiliriz?"
+  ],
+  "evEtk": {
+   "ad": "Ekran Uyku Saati",
+   "d": "Ekranın ne zaman kapanacağını önceden birlikte kararlaştırın ve bir kum saati, zamanlayıcı ya da duvar saatindeki bir işaretle somutlaştırın. Süre bitince tableti çocuğunuz kendisi kapatsın ve 'İyi uykular, tablet!' desin. Ardından hazır bir hareket seçeneği sunun: beş zıplama, saklambaç ya da birlikte bir masal."
+  },
+  "aileNotu": "Bugün 'Ekran Uykuya Dalınca' masalını okuduk. Tabletten ayrılmak istemeyen Zeynep, kum saatinin kumu bitince kızdı; Dede'siyle nefes alıp sakinleşti ve tableti kendisi kapattı. Sonra birlikte zıpladılar, saklambaç oynadılar ve masal okudular. Ekrandan ayrılmak küçük çocuklar için zordur: süreyi önceden birlikte belirlemek, bitişi kum saati gibi bir işaretle görünür kılmak ve ardından hareketli bir oyun sunmak geçişi kolaylaştırır; çocuğunuz kızarsa duygusunu adlandırıp birlikte nefes alabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/044-ekran-uykuya-dalinca.mp3",
+  "hash": "a7280a0d",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15535,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      3069,
+      5
+     ],
+     [
+      3509,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4169,
+      8
+     ],
+     [
+      5169,
+      9
+     ],
+     [
+      5689,
+      10
+     ],
+     [
+      6029,
+      11
+     ],
+     [
+      6529,
+      12
+     ],
+     [
+      6850,
+      13
+     ],
+     [
+      7729,
+      14
+     ],
+     [
+      8029,
+      15
+     ],
+     [
+      8609,
+      16
+     ],
+     [
+      8890,
+      17
+     ],
+     [
+      9690,
+      18
+     ],
+     [
+      10009,
+      19
+     ],
+     [
+      10310,
+      20
+     ],
+     [
+      11369,
+      21
+     ],
+     [
+      11850,
+      22
+     ],
+     [
+      11989,
+      23
+     ],
+     [
+      12829,
+      24
+     ],
+     [
+      13249,
+      25
+     ],
+     [
+      13729,
+      26
+     ],
+     [
+      14270,
+      27
+     ],
+     [
+      14810,
+      28
+     ],
+     [
+      15069,
+      29
+     ]
+    ]
+   },
+   "p0h-zeynep": {
+    "s": 15835,
+    "d": 1659,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      637,
+      1
+     ],
+     [
+      1199,
+      2
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 17795,
+    "d": 1232,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      789,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19327,
+    "d": 13078,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      3809,
+      8
+     ],
+     [
+      4930,
+      9
+     ],
+     [
+      5629,
+      10
+     ],
+     [
+      6589,
+      11
+     ],
+     [
+      6870,
+      12
+     ],
+     [
+      7789,
+      13
+     ],
+     [
+      8230,
+      14
+     ],
+     [
+      8989,
+      15
+     ],
+     [
+      9549,
+      16
+     ],
+     [
+      10289,
+      17
+     ],
+     [
+      10709,
+      18
+     ],
+     [
+      11129,
+      19
+     ],
+     [
+      11869,
+      20
+     ],
+     [
+      12069,
+      21
+     ],
+     [
+      12329,
+      22
+     ]
+    ]
+   },
+   "p1h-zeynep": {
+    "s": 32705,
+    "d": 1331,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      405,
+      1
+     ],
+     [
+      770,
+      2
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 34336,
+    "d": 1316,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      325,
+      1
+     ],
+     [
+      990,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 35953,
+    "d": 13781,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2630,
+      4
+     ],
+     [
+      3569,
+      5
+     ],
+     [
+      3930,
+      6
+     ],
+     [
+      4049,
+      7
+     ],
+     [
+      5029,
+      8
+     ],
+     [
+      5629,
+      9
+     ],
+     [
+      6249,
+      10
+     ],
+     [
+      6829,
+      11
+     ],
+     [
+      7589,
+      12
+     ],
+     [
+      8190,
+      13
+     ],
+     [
+      9025,
+      14
+     ],
+     [
+      9930,
+      15
+     ],
+     [
+      10069,
+      16
+     ],
+     [
+      11054,
+      17
+     ],
+     [
+      12109,
+      18
+     ],
+     [
+      12649,
+      19
+     ],
+     [
+      13149,
+      20
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 50034,
+    "d": 2210,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1930,
+      4
+     ]
+    ]
+   },
+   "p2h-zeynep": {
+    "s": 52545,
+    "d": 739,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 53584,
+    "d": 2183,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1609,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 56068,
+    "d": 729,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 57098,
+    "d": 11871,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1909,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      2949,
+      7
+     ],
+     [
+      3509,
+      8
+     ],
+     [
+      4009,
+      9
+     ],
+     [
+      4469,
+      10
+     ],
+     [
+      5310,
+      11
+     ],
+     [
+      6049,
+      12
+     ],
+     [
+      6410,
+      13
+     ],
+     [
+      7349,
+      14
+     ],
+     [
+      7529,
+      15
+     ],
+     [
+      7989,
+      16
+     ],
+     [
+      8969,
+      17
+     ],
+     [
+      9310,
+      18
+     ],
+     [
+      9569,
+      19
+     ],
+     [
+      10449,
+      20
+     ],
+     [
+      10949,
+      21
+     ],
+     [
+      11270,
+      22
+     ]
+    ]
+   },
+   "p3h-zeynep": {
+    "s": 69269,
+    "d": 1591,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      441,
+      1
+     ],
+     [
+      1149,
+      2
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 71160,
+    "d": 1501,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 72962,
+    "d": 12592,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      2529,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      4449,
+      8
+     ],
+     [
+      4870,
+      9
+     ],
+     [
+      5609,
+      10
+     ],
+     [
+      6329,
+      11
+     ],
+     [
+      6930,
+      12
+     ],
+     [
+      7629,
+      13
+     ],
+     [
+      8109,
+      14
+     ],
+     [
+      8690,
+      15
+     ],
+     [
+      9469,
+      16
+     ],
+     [
+      9949,
+      17
+     ],
+     [
+      10230,
+      18
+     ],
+     [
+      10489,
+      19
+     ],
+     [
+      11230,
+      20
+     ],
+     [
+      11770,
+      21
+     ]
+    ]
+   },
+   "p4h-zeynep": {
+    "s": 85854,
+    "d": 2516,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      938,
+      1
+     ],
+     [
+      1653,
+      2
+     ],
+     [
+      2064,
+      3
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 88671,
+    "d": 1913,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 90884,
+    "d": 2606,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1604,
+      4
+     ],
+     [
+      2009,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 93790,
+    "d": 12917,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1609,
+      2
+     ],
+     [
+      2069,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      3629,
+      6
+     ],
+     [
+      4089,
+      7
+     ],
+     [
+      4669,
+      8
+     ],
+     [
+      5449,
+      9
+     ],
+     [
+      6089,
+      10
+     ],
+     [
+      6749,
+      11
+     ],
+     [
+      7390,
+      12
+     ],
+     [
+      7949,
+      13
+     ],
+     [
+      8669,
+      14
+     ],
+     [
+      9230,
+      15
+     ],
+     [
+      9730,
+      16
+     ],
+     [
+      10209,
+      17
+     ],
+     [
+      10629,
+      18
+     ],
+     [
+      11069,
+      19
+     ],
+     [
+      11689,
+      20
+     ],
+     [
+      12189,
+      21
+     ]
+    ]
+   },
+   "p5h-zeynep": {
+    "s": 107008,
+    "d": 3346,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      2089,
+      3
+     ],
+     [
+      2789,
+      4
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 110654,
+    "d": 2504,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      803,
+      1
+     ],
+     [
+      1567,
+      2
+     ],
+     [
+      1894,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 113458,
+    "d": 2342,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p6": {
+    "s": 116101,
+    "d": 12432,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      2949,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      4229,
+      8
+     ],
+     [
+      4729,
+      9
+     ],
+     [
+      5109,
+      10
+     ],
+     [
+      6009,
+      11
+     ],
+     [
+      6469,
+      12
+     ],
+     [
+      6890,
+      13
+     ],
+     [
+      7410,
+      14
+     ],
+     [
+      7809,
+      15
+     ],
+     [
+      8869,
+      16
+     ],
+     [
+      9310,
+      17
+     ],
+     [
+      10069,
+      18
+     ],
+     [
+      10489,
+      19
+     ],
+     [
+      11089,
+      20
+     ],
+     [
+      11529,
+      21
+     ],
+     [
+      11949,
+      22
+     ]
+    ]
+   },
+   "p6h-dede": {
+    "s": 128834,
+    "d": 2068,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p6h-zeynep": {
+    "s": 131202,
+    "d": 2630,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1930,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

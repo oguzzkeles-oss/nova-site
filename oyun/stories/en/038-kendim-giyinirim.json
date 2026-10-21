@@ -1,0 +1,1297 @@
+{
+ "id": "038-kendim-giyinirim",
+ "lang": "en",
+ "title": "I Can Dress Myself!",
+ "theme": "Getting dressed on your own",
+ "blurb": "Big soft snowflakes are falling! Ali wants to get dressed all by himself, but when he puts his mittens on first he can't hold anything. He takes a deep breath, finds the right order himself and walks in the snow in the purple hat he chose.",
+ "voiceNames": {
+  "ali": "Ali",
+  "anne": "Mum"
+ },
+ "pages": [
+  {
+   "text": "Ali ran to the window. Big soft snowflakes were falling! “Let's go outside!” he jumped. Hop, hop! “Let's get dressed first,” said Mum. Ali puffed out his chest: “I can dress myself!”",
+   "hits": {
+    "ali": {
+     "say": "I can dress myself!"
+    },
+    "anne": {
+     "say": "First we get dressed, then the snow!"
+    }
+   },
+   "hint": "Touch the window!",
+   "ask": "When it snows, what do you want to do outside?"
+  },
+  {
+   "text": "Ali put on his coat. Then his mittens. Fluffy and warm! He pulled his boot. Whoops, slipped! He grabbed the zip. Zzzt, that slipped too! “Oh no, where are my fingers?”",
+   "hits": {
+    "ali": {
+     "say": "Oh no, where are my fingers?"
+    },
+    "anne": {
+     "say": "If it's hard, tell me, I'm here."
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "Why can't Ali hold his boot? What's hard to do in mittens?",
+   "cues": [
+    {
+     "w": 20,
+     "fx": "fermuar"
+    }
+   ]
+  },
+  {
+   "text": "“I can't get dressed!” Ali felt flustered, then cross. His cheeks grew hot. He stamped his feet: stomp, stomp! Mum sat beside him. Together they took a deep breath. Hhhhh, fwooo!",
+   "hits": {
+    "ali": {
+     "say": "Hhhhh… fwooo."
+    },
+    "anne": {
+     "say": "Let's breathe together."
+    }
+   },
+   "predict": {
+    "q": "What do you think Ali will do now?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "He takes off the mittens"
+     },
+     {
+      "l": "He asks his mum"
+     }
+    ]
+   },
+   "hint": "Breathe with Ali!",
+   "ask": "What happens in your body when you're cross? Let's take a deep breath together."
+  },
+  {
+   "text": "Ali took off his mittens. Ah, free fingers! Hats on the sofa. Which one will he choose? Count first!",
+   "hits": {
+    "ali": {
+     "say": "Ah, here are my fingers!"
+    },
+    "anne": {
+     "say": "Whichever you like, you choose."
+    }
+   },
+   "mech": {
+    "done": "Three hats! Ali chose the purple one with the pompom.",
+    "msg": "You counted three hats!"
+   },
+   "hint": "Count the hats one by one!",
+   "ask": "Which hat would you choose? Why?"
+  },
+  {
+   "text": "Ali thought: “Which one first?” Boots first, stomp stomp! Zip, zzzt! Then the purple hat, hop! Last of all, mittens, fluffy!",
+   "hits": {
+    "ali": {
+     "say": "Which one first? Hmm…"
+    }
+   },
+   "mech": {
+    "done": "In order, one by one. Ali is ready!",
+    "msg": "You got dressed in order!"
+   },
+   "hint": "Touch the boots first!",
+   "ask": "When you get dressed, what do you put on first? What goes last?",
+   "cues": [
+    {
+     "w": 9,
+     "fx": "fermuar"
+    }
+   ]
+  },
+  {
+   "text": "Crunch, crunch, crunch! Ali walked in the snow. His nose was icy, his heart was warm. Ali felt proud of himself. He called to the snowman: “Look, I dressed myself!”",
+   "hits": {
+    "ali": {
+     "say": "Look, I dressed myself!"
+    },
+    "anne": {
+     "say": "You found the order yourself!"
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "What can you put on all by yourself? What's still hard?",
+   "cues": [
+    {
+     "w": 0,
+     "fx": "kar-adim"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.2 Using objects of different sizes and features effectively: Grasps and uses clothes of different sizes such as a coat, boots, a hat and mittens (HSAB.2.a, HSAB.2.c); notices why holding things is harder in mittens.",
+   "TADB.3 Says what they listened to in the order it happened: Follows and tells the dressing steps in the story's order (first the coat, then the boots, then the hat, and mittens last).",
+   "MAB.1 Counting rhythmically and by sight: Says how many objects there are between 1 and 5 (the three hats on the sofa).",
+   "SDB1.1 Self-Knowledge (Self-Awareness): Names the feelings of being flustered and cross, and notices how they feel in the body (hot cheeks, stamping feet).",
+   "SDB1.2 Self-Regulation: Calms down by taking a deep breath when something is hard, then tries again to solve the problem.",
+   "E1.2 Independence and E1.5 Self-Confidence: Tries to get dressed on their own, tries again when it's hard and feels proud when they succeed. D11 Freedom: Chooses their own hat; experiences their choice being respected."
+  ],
+  "once": [
+   "Point to the window on the first page: “What's happening outside? What do we wear to go out in the snow?”",
+   "Bring a real mitten. Let the child try to hold a pencil or pull a zip with the mitten on: “Is it easy or hard?”",
+   "Share something you said “I'll do it myself!” about; the child says something they can do on their own too."
+  ],
+  "sirasi": [
+   "On page 1, jump together on “Hop, hop!”",
+   "On page 2, ask “Where are my fingers?”; the child hides their fingers in a fist, then opens them.",
+   "On page 3, copy Ali's cross face together, then breathe twice: “Hhhhh, fwooo”. Leave the prediction question to the child; both options are right.",
+   "On page 5, let the child say the order: “First…, then…, last of all…”"
+  ],
+  "sonra": [
+   "Why couldn't Ali hold his boot and the zip? How did he solve the problem?",
+   "What happened in Ali's body when he was cross? What did he do to calm down?",
+   "Which hat did Ali choose? Which would you choose?"
+  ],
+  "sinif": {
+   "ad": "The Dressing Train",
+   "sure": "20 min",
+   "materyal": "The children's own coats, boots, hats and mittens; wordless picture sequence cards of the clothes; a basket",
+   "adim": [
+    "The children put on mittens and try to pick up a hat or pull a zip; they describe what happens.",
+    "Lay out the picture cards in the story's order: first the coat, then the boots, then the hat, and mittens last.",
+    "The “Dressing Train” game: the children line up. Each one puts on one item of clothing in the order on the cards, says “Choo choo, your turn!” and passes the turn to a friend.",
+    "If a child finds it hard, first ask “How did you try?”, then “Would you like some help?” Everyone who finishes the train strikes a victory pose and says “I dressed myself!”"
+   ]
+  },
+  "evSoru": [
+   "What can you put on all by yourself?",
+   "What do you find hardest when getting dressed? How could it get easier?",
+   "How did Ali calm down when he was cross? Will you try it too?"
+  ],
+  "evEtk": {
+   "ad": "I Chose It, I Put It On",
+   "d": "In the evening, offer your child two choices for the next day's clothes and leave the final decision to them. Lay the chosen clothes out on the floor in the order they go on. In the morning, let your child follow the order themselves; you only ask “What's next?” When you go out, remember together that the mittens come last."
+  },
+  "aileNotu": "Today we read “I Can Dress Myself!”. Ali wanted to get dressed on his own to go out in the snow; when he put his mittens on first he couldn't hold anything, he got cross, took a deep breath and found the right order himself. At this age children learn to get dressed by trying; a slow morning is part of that learning. At home, offer two choices and leave the decision to your child, wait patiently and notice their effort: “You found the order yourself!”"
+ },
+ "audio": {
+  "file": "audio/en/038-kendim-giyinirim.mp3",
+  "hash": "01ff8730",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13380,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      869,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      3249,
+      8
+     ],
+     [
+      3489,
+      9
+     ],
+     [
+      4390,
+      10
+     ],
+     [
+      4609,
+      11
+     ],
+     [
+      4769,
+      12
+     ],
+     [
+      5589,
+      13
+     ],
+     [
+      5749,
+      14
+     ],
+     [
+      6430,
+      15
+     ],
+     [
+      6870,
+      16
+     ],
+     [
+      7569,
+      17
+     ],
+     [
+      7809,
+      18
+     ],
+     [
+      8009,
+      19
+     ],
+     [
+      8329,
+      20
+     ],
+     [
+      9009,
+      21
+     ],
+     [
+      9249,
+      22
+     ],
+     [
+      10089,
+      23
+     ],
+     [
+      10350,
+      24
+     ],
+     [
+      10669,
+      25
+     ],
+     [
+      10810,
+      26
+     ],
+     [
+      11009,
+      27
+     ],
+     [
+      11810,
+      28
+     ],
+     [
+      11930,
+      29
+     ],
+     [
+      12169,
+      30
+     ],
+     [
+      12509,
+      31
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 13680,
+    "d": 1647,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      749,
+      3
+     ]
+    ]
+   },
+   "p0h-anne": {
+    "s": 15628,
+    "d": 2509,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      1909,
+      6
+     ]
+    ]
+   },
+   "p1": {
+    "s": 18438,
+    "d": 13117,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      649,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1569,
+      5
+     ],
+     [
+      1790,
+      6
+     ],
+     [
+      1949,
+      7
+     ],
+     [
+      2789,
+      8
+     ],
+     [
+      3390,
+      9
+     ],
+     [
+      3650,
+      10
+     ],
+     [
+      4629,
+      11
+     ],
+     [
+      4789,
+      12
+     ],
+     [
+      5089,
+      13
+     ],
+     [
+      5269,
+      14
+     ],
+     [
+      5930,
+      15
+     ],
+     [
+      6629,
+      16
+     ],
+     [
+      7509,
+      17
+     ],
+     [
+      7669,
+      18
+     ],
+     [
+      8009,
+      19
+     ],
+     [
+      8129,
+      20
+     ],
+     [
+      8730,
+      21
+     ],
+     [
+      9489,
+      22
+     ],
+     [
+      9789,
+      23
+     ],
+     [
+      10129,
+      24
+     ],
+     [
+      10989,
+      25
+     ],
+     [
+      11249,
+      26
+     ],
+     [
+      11909,
+      27
+     ],
+     [
+      12089,
+      28
+     ],
+     [
+      12189,
+      29
+     ],
+     [
+      12390,
+      30
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 31855,
+    "d": 2480,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1729,
+      5
+     ]
+    ]
+   },
+   "p1h-anne": {
+    "s": 34635,
+    "d": 2742,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      2150,
+      5
+     ],
+     [
+      2349,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 37678,
+    "d": 14879,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      3369,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      4609,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      5229,
+      11
+     ],
+     [
+      5529,
+      12
+     ],
+     [
+      6269,
+      13
+     ],
+     [
+      6469,
+      14
+     ],
+     [
+      6850,
+      15
+     ],
+     [
+      7049,
+      16
+     ],
+     [
+      7689,
+      17
+     ],
+     [
+      8249,
+      18
+     ],
+     [
+      9289,
+      19
+     ],
+     [
+      9609,
+      20
+     ],
+     [
+      9869,
+      21
+     ],
+     [
+      10270,
+      22
+     ],
+     [
+      10909,
+      23
+     ],
+     [
+      11430,
+      24
+     ],
+     [
+      11609,
+      25
+     ],
+     [
+      11810,
+      26
+     ],
+     [
+      11949,
+      27
+     ],
+     [
+      12230,
+      28
+     ],
+     [
+      13043,
+      29
+     ],
+     [
+      13891,
+      30
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 52858,
+    "d": 1876,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1272,
+      1
+     ]
+    ]
+   },
+   "p2h-anne": {
+    "s": 55034,
+    "d": 1454,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      829,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 56788,
+    "d": 1864,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      189,
+      2
+     ],
+     [
+      329,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      930,
+      5
+     ],
+     [
+      1129,
+      6
+     ],
+     [
+      1329,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 58953,
+    "d": 2358,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 61611,
+    "d": 7404,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      849,
+      4
+     ],
+     [
+      1729,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      2789,
+      7
+     ],
+     [
+      3849,
+      8
+     ],
+     [
+      4129,
+      9
+     ],
+     [
+      4229,
+      10
+     ],
+     [
+      4350,
+      11
+     ],
+     [
+      5129,
+      12
+     ],
+     [
+      5390,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      5669,
+      15
+     ],
+     [
+      5809,
+      16
+     ],
+     [
+      6589,
+      17
+     ],
+     [
+      6850,
+      18
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 69315,
+    "d": 1916,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1209,
+      4
+     ]
+    ]
+   },
+   "p3h-anne": {
+    "s": 71532,
+    "d": 2035,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 73867,
+    "d": 3746,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2069,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2650,
+      6
+     ],
+     [
+      2829,
+      7
+     ],
+     [
+      2949,
+      8
+     ],
+     [
+      3069,
+      9
+     ]
+    ]
+   },
+   "p4": {
+    "s": 77914,
+    "d": 10333,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2749,
+      5
+     ],
+     [
+      3069,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4850,
+      9
+     ],
+     [
+      5410,
+      10
+     ],
+     [
+      6229,
+      11
+     ],
+     [
+      6430,
+      12
+     ],
+     [
+      6549,
+      13
+     ],
+     [
+      6890,
+      14
+     ],
+     [
+      7390,
+      15
+     ],
+     [
+      8109,
+      16
+     ],
+     [
+      8409,
+      17
+     ],
+     [
+      8509,
+      18
+     ],
+     [
+      8989,
+      19
+     ],
+     [
+      9690,
+      20
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 88548,
+    "d": 2344,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      422,
+      1
+     ],
+     [
+      1087,
+      2
+     ],
+     [
+      1921,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 91192,
+    "d": 3299,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      2829,
+      7
+     ]
+    ]
+   },
+   "p5": {
+    "s": 94792,
+    "d": 12850,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      2549,
+      3
+     ],
+     [
+      2949,
+      4
+     ],
+     [
+      3269,
+      5
+     ],
+     [
+      3369,
+      6
+     ],
+     [
+      3529,
+      7
+     ],
+     [
+      4390,
+      8
+     ],
+     [
+      4649,
+      9
+     ],
+     [
+      4989,
+      10
+     ],
+     [
+      5310,
+      11
+     ],
+     [
+      5910,
+      12
+     ],
+     [
+      6169,
+      13
+     ],
+     [
+      6489,
+      14
+     ],
+     [
+      6729,
+      15
+     ],
+     [
+      7589,
+      16
+     ],
+     [
+      7870,
+      17
+     ],
+     [
+      8129,
+      18
+     ],
+     [
+      8409,
+      19
+     ],
+     [
+      8509,
+      20
+     ],
+     [
+      9469,
+      21
+     ],
+     [
+      9649,
+      22
+     ],
+     [
+      9890,
+      23
+     ],
+     [
+      10009,
+      24
+     ],
+     [
+      10129,
+      25
+     ],
+     [
+      11069,
+      26
+     ],
+     [
+      11689,
+      27
+     ],
+     [
+      11829,
+      28
+     ],
+     [
+      12189,
+      29
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 107943,
+    "d": 1994,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p5h-anne": {
+    "s": 110238,
+    "d": 1747,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      629,
+      3
+     ],
+     [
+      909,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

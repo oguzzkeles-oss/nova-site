@@ -1,0 +1,1497 @@
+{
+ "id": "043-tabagimdaki-gokkusagi",
+ "lang": "en",
+ "title": "A Rainbow on My Plate",
+ "theme": "Healthy eating: a colourful plate",
+ "blurb": "Ask Ela, and she would eat pasta for breakfast, lunch and dinner! When she goes rainbow hunting with Grandma in the vegetable garden, she picks orange carrots, a red apple and green and purple grapes; she sorts the colours and decides for herself which colour to taste.",
+ "voiceNames": {
+  "ela": "Ela",
+  "nine": "Grandma"
+ },
+ "pages": [
+  {
+   "text": "In the summer holidays, Ela came to Grandma's village. Ask Ela, and it's pasta for breakfast, pasta for lunch, pasta for dinner again! Grandma winked: “There's a rainbow hiding in the vegetable garden. Shall we find it?”",
+   "hits": {
+    "ela": {
+     "say": "Pasta, pasta, and more pasta!"
+    },
+    "nine": {
+     "say": "There's a rainbow hiding in the vegetable garden!"
+    }
+   },
+   "hint": "Touch Ela!",
+   "ask": "Where do you think a rainbow could hide in a vegetable garden?"
+  },
+  {
+   "text": "Ela looked up at the sky. No rainbow there! Grandma parted the leaves. Wow! Orange carrots, a bright red apple, green grapes and purple grapes! Ela jumped: “Let's pick them all for the basket!”",
+   "hits": {
+    "ela": {
+     "say": "There's no rainbow!"
+    },
+    "nine": {
+     "say": "Look between the leaves!"
+    }
+   },
+   "mech": {
+    "done": "Hup, snap! There's a rainbow in the basket!",
+    "msg": "You picked them all!"
+   },
+   "hint": "Pick the colours into the basket!",
+   "ask": "Where do carrots grow: under the ground, or on a branch?"
+  },
+  {
+   "text": "Grandma washed everything, chopped it small, and laid it out on the cloth. Ela looked and looked… What if it tasted funny? Ela felt a bit shy and pressed her lips together. Grandma smiled: “No hurry. You choose. You decide.”",
+   "hits": {
+    "ela": {
+     "say": "What if it tastes funny?"
+    },
+    "nine": {
+     "say": "No hurry, you decide."
+    }
+   },
+   "predict": {
+    "q": "Which colour do you think Ela will choose?",
+    "res": "Let's see!",
+    "opts": [
+     {
+      "l": "Orange carrot"
+     },
+     {
+      "l": "Purple grapes"
+     }
+    ]
+   },
+   "hint": "Touch Ela!",
+   "ask": "How do you feel when you see a new food for the first time?"
+  },
+  {
+   "text": "Ela chose the orange carrot. First she looked: shiny! Then she sniffed: smells lovely! Then one tiny bite… Crunch, crunch! Ela's eyes went wide: “It's sweet!”",
+   "hits": {
+    "ela": {
+     "say": "Crunch, crunch! It's sweet!"
+    },
+    "nine": {
+     "say": "You chose it, you tasted it!"
+    },
+    "havuc": {
+     "say": "Crunch, crunch!"
+    }
+   },
+   "hint": "Touch Ela!",
+   "ask": "What did Ela do before she tasted the carrot?"
+  },
+  {
+   "text": "Ela had an idea. “For a rainbow, first let's sort the colours!” Red with red, orange with orange. Green with green, purple with purple. Hop, hop, hop! Grandma laughed: “What a tidy little gardener!”",
+   "hits": {
+    "ela": {
+     "say": "Red with red!"
+    },
+    "nine": {
+     "say": "What a tidy little gardener!"
+    }
+   },
+   "mech": {
+    "done": "Every colour in its own bowl!",
+    "msg": "You sorted the colours!"
+   },
+   "hint": "Touch the food first, then the bowl!",
+   "ask": "What else can we eat that's red? And green?"
+  },
+  {
+   "text": "Ela lined the colours up on her plate. A rainbow bloomed on her plate! “Yellow is missing,” said Ela. Then she giggled: “My pasta can be the yellow!” Grandma burst out laughing. Enjoy your meal!",
+   "hits": {
+    "ela": {
+     "say": "My pasta can be the yellow!"
+    },
+    "nine": {
+     "say": "Enjoy your meal, my little gardener!"
+    },
+    "tabak": {
+     "say": "Red, orange, green, purple!"
+    }
+   },
+   "hint": "Touch the rainbow plate!",
+   "ask": "What colours were on your plate today? What would you put for yellow?",
+   "cues": [
+    {
+     "w": 31,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "HSAB.7 (learning outcome) Showing healthy eating behaviours in daily life: the child chooses for themselves to put fruit and vegetables of different colours on their plate; tries a new food by first looking and smelling, then taking a small bite.",
+   "FAB.2 (learning outcome) Classifying science-related objects, events and phenomena by their similarities and differences: sorts the produce picked from the garden by colour (red, orange, green, purple); compares how carrots grow under the ground, apples on a branch and grapes on a vine.",
+   "E1.1 Curiosity (disposition): follows the question “Where is the rainbow hiding in the vegetable garden?”; is curious about a new taste and tries it.",
+   "SDB3.3 Responsible Decision-Making and D13 Healthy Living: decides for themselves, without being forced, which colour to taste; adds colour to their plate and balances it without leaving out the pasta they love."
+  ],
+  "once": [
+   "Bring a few fruits and vegetables of different colours from the kitchen (e.g. tomato, carrot, cucumber, grapes). Ask: “What colour are these? Which one have you never tasted?”",
+   "Show the cover: “How do you think a rainbow could be on a plate?” Listen to the guesses and ask again when the story is over."
+  ],
+  "sirasi": [
+   "On page 2, pause while Ela looks at the sky: “Where could the rainbow be?” Name the colours and vegetables the child points to.",
+   "On page 3, point to Ela's face: “How is Ela feeling?” Say the word “shy” together. At the prediction question, say “Let's see!” without saying right or wrong.",
+   "On page 4, count Ela's steps on your fingers: look, smell, one tiny bite.",
+   "In the sorting game, say the colours out loud: “Red with red, orange with orange!”"
+  ],
+  "sonra": [
+   "Remember the colours on Ela's plate in order. “What else could we have put for yellow?” (sweetcorn, yellow pepper, banana, melon…)",
+   "Trying a new food takes courage. “When did you first taste a food for the first time? Did you like it?” Not liking it is fine too; you may need to try a taste many times before you like it.",
+   "Carrots grow under the ground, apples on a branch, grapes on a vine. Guess together where the fruits and vegetables at home grow."
+  ],
+  "sinif": {
+   "ad": "Rainbow Plate",
+   "sure": "20 min",
+   "materyal": "Washed, finely chopped fruit and vegetables in different colours (e.g. tomato, carrot, sweetcorn, cucumber, purple grapes), red, orange, yellow, green and purple bowls or coloured paper, a plate for each child",
+   "adim": [
+    "Everyone washes their hands. Find out about allergies and dietary restrictions from the families beforehand; cut round foods like grapes lengthways into quarters.",
+    "Sort the fruit and vegetables into the bowls by colour; say the name of each colour together.",
+    "Each child lays out a rainbow of the colours they choose on their own plate. Do not force anyone to taste: “Look, smell, and if you like, take a tiny bite.”",
+    "Display the plates on the table; the children tell their friends about the colours on their plates and the new food they tasted."
+   ]
+  },
+  "evSoru": [
+   "Where did Ela find the rainbow in the vegetable garden?",
+   "What did Ela do before she tasted the carrot?",
+   "What colours were on your plate today? Which colour was missing?"
+  ],
+  "evEtk": {
+   "ad": "Colour Hunters",
+   "d": "For a week, count the colours on the plate together at dinner; on a sheet of paper on the fridge, put a coloured dot for every colour eaten that day. When you go to the market or the greengrocer's, let your child choose the new colour of the week themselves; wash and prepare it together."
+  },
+  "aileNotu": "Today we read “A Rainbow on My Plate.” Ela, who only wanted to eat pasta, picked colourful fruit and vegetables in the garden with Grandma, sorted them by colour, and tasted a carrot herself by first looking and smelling, then taking a tiny bite. Children usually come to like a new food after seeing and tasting it many times; preparing food together and giving them a choice works better than forcing, rewards or punishments. At home, you can let your child choose the new colour to add to the plate. We recommend cutting round foods like grapes lengthways into quarters for young children."
+ },
+ "audio": {
+  "file": "audio/en/043-tabagimdaki-gokkusagi.mp3",
+  "hash": "240ea8e6",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13967,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      89,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      1969,
+      6
+     ],
+     [
+      2069,
+      7
+     ],
+     [
+      2529,
+      8
+     ],
+     [
+      3449,
+      9
+     ],
+     [
+      3789,
+      10
+     ],
+     [
+      4189,
+      11
+     ],
+     [
+      4350,
+      12
+     ],
+     [
+      4569,
+      13
+     ],
+     [
+      4969,
+      14
+     ],
+     [
+      5129,
+      15
+     ],
+     [
+      5830,
+      16
+     ],
+     [
+      6249,
+      17
+     ],
+     [
+      6430,
+      18
+     ],
+     [
+      6969,
+      19
+     ],
+     [
+      7410,
+      20
+     ],
+     [
+      7649,
+      21
+     ],
+     [
+      8009,
+      22
+     ],
+     [
+      9029,
+      23
+     ],
+     [
+      9509,
+      24
+     ],
+     [
+      10329,
+      25
+     ],
+     [
+      10609,
+      26
+     ],
+     [
+      10770,
+      27
+     ],
+     [
+      11310,
+      28
+     ],
+     [
+      11649,
+      29
+     ],
+     [
+      11730,
+      30
+     ],
+     [
+      11850,
+      31
+     ],
+     [
+      12329,
+      32
+     ],
+     [
+      13089,
+      33
+     ],
+     [
+      13270,
+      34
+     ],
+     [
+      13430,
+      35
+     ],
+     [
+      13729,
+      36
+     ]
+    ]
+   },
+   "p0h-ela": {
+    "s": 14267,
+    "d": 3142,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1649,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2370,
+      4
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 17709,
+    "d": 2842,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1649,
+      6
+     ],
+     [
+      2209,
+      7
+     ]
+    ]
+   },
+   "p1": {
+    "s": 20851,
+    "d": 13828,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      789,
+      4
+     ],
+     [
+      930,
+      5
+     ],
+     [
+      1849,
+      6
+     ],
+     [
+      2069,
+      7
+     ],
+     [
+      2489,
+      8
+     ],
+     [
+      3349,
+      9
+     ],
+     [
+      3829,
+      10
+     ],
+     [
+      4189,
+      11
+     ],
+     [
+      4330,
+      12
+     ],
+     [
+      5189,
+      13
+     ],
+     [
+      6149,
+      14
+     ],
+     [
+      6549,
+      15
+     ],
+     [
+      7249,
+      16
+     ],
+     [
+      7390,
+      17
+     ],
+     [
+      7769,
+      18
+     ],
+     [
+      8029,
+      19
+     ],
+     [
+      8609,
+      20
+     ],
+     [
+      8949,
+      21
+     ],
+     [
+      9329,
+      22
+     ],
+     [
+      9529,
+      23
+     ],
+     [
+      9989,
+      24
+     ],
+     [
+      10850,
+      25
+     ],
+     [
+      11209,
+      26
+     ],
+     [
+      11949,
+      27
+     ],
+     [
+      12230,
+      28
+     ],
+     [
+      12409,
+      29
+     ],
+     [
+      12669,
+      30
+     ],
+     [
+      12909,
+      31
+     ],
+     [
+      13049,
+      32
+     ],
+     [
+      13169,
+      33
+     ]
+    ]
+   },
+   "p1h-ela": {
+    "s": 34980,
+    "d": 1537,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      749,
+      2
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 36818,
+    "d": 1525,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 38643,
+    "d": 2896,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2249,
+      7
+     ]
+    ]
+   },
+   "p2": {
+    "s": 41840,
+    "d": 16375,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2749,
+      6
+     ],
+     [
+      2949,
+      7
+     ],
+     [
+      3170,
+      8
+     ],
+     [
+      3289,
+      9
+     ],
+     [
+      3449,
+      10
+     ],
+     [
+      3549,
+      11
+     ],
+     [
+      3670,
+      12
+     ],
+     [
+      4810,
+      13
+     ],
+     [
+      5089,
+      14
+     ],
+     [
+      5669,
+      15
+     ],
+     [
+      5969,
+      16
+     ],
+     [
+      7029,
+      17
+     ],
+     [
+      7209,
+      18
+     ],
+     [
+      7329,
+      19
+     ],
+     [
+      7509,
+      20
+     ],
+     [
+      8029,
+      21
+     ],
+     [
+      9109,
+      22
+     ],
+     [
+      9310,
+      23
+     ],
+     [
+      9569,
+      24
+     ],
+     [
+      9629,
+      25
+     ],
+     [
+      9869,
+      26
+     ],
+     [
+      10310,
+      27
+     ],
+     [
+      10549,
+      28
+     ],
+     [
+      10850,
+      29
+     ],
+     [
+      10989,
+      30
+     ],
+     [
+      11230,
+      31
+     ],
+     [
+      12209,
+      32
+     ],
+     [
+      12629,
+      33
+     ],
+     [
+      13669,
+      34
+     ],
+     [
+      13909,
+      35
+     ],
+     [
+      14649,
+      36
+     ],
+     [
+      14850,
+      37
+     ],
+     [
+      15629,
+      38
+     ],
+     [
+      15810,
+      39
+     ]
+    ]
+   },
+   "p2h-ela": {
+    "s": 58516,
+    "d": 1674,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      285,
+      1
+     ],
+     [
+      531,
+      2
+     ],
+     [
+      777,
+      3
+     ],
+     [
+      1205,
+      4
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 60490,
+    "d": 1771,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 62562,
+    "d": 2181,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1349,
+      6
+     ],
+     [
+      1550,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 65043,
+    "d": 945,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 66289,
+    "d": 13935,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      2670,
+      7
+     ],
+     [
+      3410,
+      8
+     ],
+     [
+      4489,
+      9
+     ],
+     [
+      4729,
+      10
+     ],
+     [
+      4930,
+      11
+     ],
+     [
+      5769,
+      12
+     ],
+     [
+      6390,
+      13
+     ],
+     [
+      7430,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8350,
+      16
+     ],
+     [
+      8829,
+      17
+     ],
+     [
+      9549,
+      18
+     ],
+     [
+      10089,
+      19
+     ],
+     [
+      11149,
+      20
+     ],
+     [
+      11489,
+      21
+     ],
+     [
+      11789,
+      22
+     ],
+     [
+      12049,
+      23
+     ],
+     [
+      12909,
+      24
+     ],
+     [
+      13189,
+      25
+     ]
+    ]
+   },
+   "p3h-ela": {
+    "s": 80524,
+    "d": 2671,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      754,
+      1
+     ],
+     [
+      1734,
+      2
+     ],
+     [
+      2182,
+      3
+     ]
+    ]
+   },
+   "p3h-nine": {
+    "s": 83496,
+    "d": 2426,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1449,
+      4
+     ],
+     [
+      2049,
+      5
+     ]
+    ]
+   },
+   "p3h-havuc": {
+    "s": 86222,
+    "d": 1599,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      973,
+      1
+     ]
+    ]
+   },
+   "p4": {
+    "s": 88121,
+    "d": 14737,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1649,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      1969,
+      6
+     ],
+     [
+      2769,
+      7
+     ],
+     [
+      3349,
+      8
+     ],
+     [
+      3650,
+      9
+     ],
+     [
+      3910,
+      10
+     ],
+     [
+      4029,
+      11
+     ],
+     [
+      5069,
+      12
+     ],
+     [
+      5289,
+      13
+     ],
+     [
+      5529,
+      14
+     ],
+     [
+      6169,
+      15
+     ],
+     [
+      6549,
+      16
+     ],
+     [
+      6729,
+      17
+     ],
+     [
+      7549,
+      18
+     ],
+     [
+      7849,
+      19
+     ],
+     [
+      8049,
+      20
+     ],
+     [
+      8730,
+      21
+     ],
+     [
+      9169,
+      22
+     ],
+     [
+      9390,
+      23
+     ],
+     [
+      10129,
+      24
+     ],
+     [
+      10469,
+      25
+     ],
+     [
+      10770,
+      26
+     ],
+     [
+      11589,
+      27
+     ],
+     [
+      12129,
+      28
+     ],
+     [
+      12949,
+      29
+     ],
+     [
+      13249,
+      30
+     ],
+     [
+      13449,
+      31
+     ],
+     [
+      13890,
+      32
+     ],
+     [
+      14129,
+      33
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 103159,
+    "d": 1551,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1030,
+      2
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 105010,
+    "d": 1971,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1249,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 107281,
+    "d": 2083,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1529,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 109664,
+    "d": 13511,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1209,
+      5
+     ],
+     [
+      1329,
+      6
+     ],
+     [
+      1469,
+      7
+     ],
+     [
+      2309,
+      8
+     ],
+     [
+      2509,
+      9
+     ],
+     [
+      3069,
+      10
+     ],
+     [
+      3509,
+      11
+     ],
+     [
+      3629,
+      12
+     ],
+     [
+      3769,
+      13
+     ],
+     [
+      4789,
+      14
+     ],
+     [
+      5149,
+      15
+     ],
+     [
+      5310,
+      16
+     ],
+     [
+      6009,
+      17
+     ],
+     [
+      6390,
+      18
+     ],
+     [
+      7009,
+      19
+     ],
+     [
+      7249,
+      20
+     ],
+     [
+      7449,
+      21
+     ],
+     [
+      8289,
+      22
+     ],
+     [
+      8549,
+      23
+     ],
+     [
+      9029,
+      24
+     ],
+     [
+      9209,
+      25
+     ],
+     [
+      9350,
+      26
+     ],
+     [
+      9469,
+      27
+     ],
+     [
+      10310,
+      28
+     ],
+     [
+      10949,
+      29
+     ],
+     [
+      11369,
+      30
+     ],
+     [
+      11569,
+      31
+     ],
+     [
+      12449,
+      32
+     ],
+     [
+      12890,
+      33
+     ],
+     [
+      13029,
+      34
+     ]
+    ]
+   },
+   "p5h-ela": {
+    "s": 123476,
+    "d": 1918,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1349,
+      5
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 125695,
+    "d": 2181,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1290,
+      4
+     ],
+     [
+      1569,
+      5
+     ]
+    ]
+   },
+   "p5h-tabak": {
+    "s": 128176,
+    "d": 2893,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      2249,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

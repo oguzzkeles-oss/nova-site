@@ -1,0 +1,2093 @@
+{
+ "id": "012-tekirin-su-kabi",
+ "n": 12,
+ "title": "Tekir'in Su Kabı",
+ "age": "48-60",
+ "area": "Fen",
+ "theme": "Sıcakta hayvanlara şefkat",
+ "values": [
+  "D9 Merhamet",
+  "D16 Sorumluluk"
+ ],
+ "sdb": "SDB2.3 Sosyal Farkındalık",
+ "min": 5,
+ "blurb": "Sıcak mı sıcak bir günde Ali, sokağın kedisi Tekir'in su kabının bomboş olduğunu fark eder. Dedesiyle birlikte dokunmadan, uzaktan yardım etmenin serin bir yolunu bulur.",
+ "codes": {
+  "maarif": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme",
+   "TADB.2 Dinledikleri/izledikleri şiir, hikâye, tekerleme, video, tiyatro, animasyon gibi materyaller ile ilgili yeni anlamlar oluşturabilme",
+   "E2.1 Empati",
+   "SDB2.3 Sosyal Farkındalık",
+   "D9 Merhamet",
+   "D16 Sorumluluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ali": "cocuk-erkek",
+  "dede": "dede",
+  "tekir": "kucuk-hayvan",
+  "boncuk": "hayvan-erkek"
+ },
+ "voiceNames": {
+  "ali": "Ali",
+  "dede": "Dede",
+  "tekir": "Tekir (sokağın kedisi)",
+  "boncuk": "Boncuk (Ali'nin köpeği)"
+ },
+ "pages": [
+  {
+   "text": "Sıcak mı sıcak bir gündü! Ali dedesiyle yürüyüşe çıktı. Tasmalı köpekleri Boncuk da yanlarındaydı. Boncuk dilini çıkarıp soludu: hah hah hah! Ali, “Dede, Boncuk gülüyor mu?” diye sordu. Dede güldü: “Yok, serinliyor!”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 340,
+      "y": 44,
+      "mood": "hot",
+      "hit": "sun"
+     },
+     {
+      "k": "ali",
+      "x": 70,
+      "y": 236,
+      "s": 1,
+      "mood": "surprised",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "ali"
+     },
+     {
+      "k": "dede",
+      "x": 160,
+      "y": 234,
+      "s": 1,
+      "mood": "laugh",
+      "pose": "hold",
+      "hit": "dede"
+     },
+     {
+      "k": "kopek",
+      "x": 244,
+      "y": 237,
+      "s": 1,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "boncuk",
+      "flip": true,
+      "leash": {
+       "to": [
+        -83,
+        -62
+       ]
+      }
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "boncuk": {
+     "say": "Hah hah hah!",
+     "voice": "boncuk",
+     "anim": "wiggle",
+     "fx": "woof"
+    },
+    "ali": {
+     "say": "Dede, Boncuk gülüyor mu?",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "dede": {
+     "say": "Yok, dilini çıkarıp serinliyor!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "sun": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "boncuk",
+    "Boncuk'a dokun!"
+   ],
+   "ask": "Sen çok ısınınca nasıl serinlersin?"
+  },
+  {
+   "text": "Ali etrafına dikkatle baktı. Sıcaktan kimler saklanmış? Sokağın kedisi Tekir bankın altındaki gölgeye uzanmıştı. Serçeler ağaçlarda, gagaları açık bekliyordu. Hepsi serin bir yer arıyordu.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ali",
+      "x": 300,
+      "y": 236,
+      "s": 1,
+      "mood": "surprised",
+      "pose": "point",
+      "flip": true,
+      "hit": "ali"
+     },
+     {
+      "k": "kopek",
+      "x": 362,
+      "y": 237,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "sit",
+      "flip": true,
+      "leash": {
+       "to": [
+        -49,
+        -30
+       ]
+      }
+     },
+     {
+      "k": "kedi",
+      "x": 120,
+      "y": 231,
+      "s": 0.85,
+      "mood": "calm",
+      "pose": "lie",
+      "peek": true,
+      "hit": "tekir"
+     },
+     {
+      "k": "kus",
+      "x": 160,
+      "y": 120,
+      "s": 0.95,
+      "mood": "surprised",
+      "pose": "perch",
+      "peek": true,
+      "hit": "kus1"
+     },
+     {
+      "k": "kus",
+      "x": 346,
+      "y": 114,
+      "s": 0.95,
+      "mood": "surprised",
+      "pose": "perch",
+      "flip": true,
+      "peek": true,
+      "hit": "kus2"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 120,
+      "y": 236,
+      "s": 1.55
+     }
+    ]
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "tekir",
+     "kus1",
+     "kus2"
+    ],
+    "done": "Hepsi gölgede serinliyor!",
+    "msg": "Hepsini buldun!"
+   },
+   "hits": {
+    "ali": {
+     "say": "Herkes gölgeye kaçmış!",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "tekir",
+    "Saklananları bul!"
+   ],
+   "ask": "Hayvanlar sıcakta neden gölgeye gidiyor olabilir?"
+  },
+  {
+   "text": "Tekir'in su kabı güneşte kalmış, bomboştu. Tekir halsizce miyavladı. Ali üzüldü, içi cız etti. Tekir'i okşamak istedi. Dedesi, “Dokunmadan, uzaktan bakalım,” dedi. “Sokak kedisi ürkebilir. Boncuk, sen de burada otur.”",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 352,
+      "y": 42,
+      "mood": "hot",
+      "hit": "sun"
+     },
+     {
+      "k": "kopek",
+      "x": 40,
+      "y": 237,
+      "s": 0.75,
+      "mood": "calm",
+      "pose": "sit",
+      "leash": {
+       "to": [
+        29,
+        -48
+       ]
+      }
+     },
+     {
+      "k": "dede",
+      "x": 88,
+      "y": 234,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "point",
+      "hit": "dede"
+     },
+     {
+      "k": "ali",
+      "x": 150,
+      "y": 236,
+      "s": 1.05,
+      "mood": "sorry",
+      "pose": "stand",
+      "hit": "ali"
+     },
+     {
+      "k": "kedi",
+      "x": 262,
+      "y": 231,
+      "s": 0.9,
+      "mood": "sad",
+      "pose": "lie",
+      "flip": true,
+      "hit": "tekir"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 262,
+      "y": 235,
+      "s": 1.55
+     },
+     {
+      "k": "kase",
+      "x": 365,
+      "y": 238,
+      "s": 1.4,
+      "state": "off",
+      "hit": "kap"
+     }
+    ]
+   },
+   "hits": {
+    "tekir": {
+     "say": "Miyav…",
+     "voice": "tekir",
+     "anim": "wiggle",
+     "fx": "meow"
+    },
+    "kap": {
+     "say": "Kap bomboş!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "click"
+    },
+    "ali": {
+     "say": "Tekir susamış, dede!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "dede": {
+     "say": "Dokunmadan, uzaktan bakalım.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "sun": {
+     "say": "Güneş, boş kabı ısıtıyor.",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "predict": {
+    "q": "Sence Ali, Tekir'e nasıl yardım edecek?",
+    "res": "İki fikir de güzel! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Su getirir",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "day",
+       "cast": [
+        {
+         "k": "ali",
+         "x": 190,
+         "y": 237,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "stand",
+         "hold": "sulama-kabi",
+         "holdS": 0.6,
+         "holdO": {
+          "state": "on"
+         }
+        },
+        {
+         "k": "kedi",
+         "x": 348,
+         "y": 236,
+         "s": 0.8,
+         "mood": "surprised",
+         "pose": "sit",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "bank",
+         "x": 290,
+         "y": 234,
+         "s": 1.55
+        },
+        {
+         "k": "kase",
+         "x": 236,
+         "y": 236,
+         "s": 1.25,
+         "state": "off"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Dedesine sorar",
+      "scene": {
+       "set": "sehir-sokak",
+       "time": "day",
+       "cast": [
+        {
+         "k": "dede",
+         "x": 70,
+         "y": 234,
+         "s": 1,
+         "mood": "happy",
+         "pose": "stand"
+        },
+        {
+         "k": "ali",
+         "x": 160,
+         "y": 236,
+         "s": 1.05,
+         "mood": "happy",
+         "pose": "point",
+         "flip": true
+        },
+        {
+         "k": "kedi",
+         "x": 290,
+         "y": 231,
+         "s": 0.85,
+         "mood": "calm",
+         "pose": "lie",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "bank",
+         "x": 290,
+         "y": 235,
+         "s": 1.55
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "tekir",
+    "Tekir'e dokun!"
+   ],
+   "ask": "Tekir nasıl hissediyor? Nereden anladın?"
+  },
+  {
+   "text": "Ali'nin aklına bir fikir geldi! “Dede, kabı gölgeye taşıyalım. Güneşte su ısınır, gölgede serin kalır!” Kabı gölgeye taşıdılar. Köşedeki manav amca sulama kabını doldurdu. Ali kaba su döktü: şırıl şırıl! Serçelere sığ bir tabak su koydu.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kopek",
+      "x": 46,
+      "y": 237,
+      "s": 0.75,
+      "mood": "happy",
+      "pose": "sit",
+      "leash": {
+       "to": [
+        46,
+        -48
+       ]
+      }
+     },
+     {
+      "k": "dede",
+      "x": 108,
+      "y": 234,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "dede"
+     },
+     {
+      "k": "ali",
+      "x": 220,
+      "y": 237,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hold": "sulama-kabi",
+      "holdS": 0.6,
+      "holdO": {
+       "state": "off"
+      },
+      "hit": "ali"
+     },
+     {
+      "k": "kedi",
+      "x": 380,
+      "y": 236,
+      "s": 0.72,
+      "mood": "surprised",
+      "pose": "sit",
+      "flip": true,
+      "hit": "tekir"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 306,
+      "y": 236,
+      "s": 1.5
+     },
+     {
+      "k": "kase",
+      "x": 266,
+      "y": 229,
+      "s": 1.2,
+      "state": "off"
+     }
+    ]
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "ali"
+    ],
+    "done": "Su, kaba şırıl şırıl aktı!",
+    "msg": "Kap doldu, serin su hazır!"
+   },
+   "hits": {
+    "dede": {
+     "say": "Gölge, çok iyi bir fikir!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "tekir": {
+     "say": "Miyav?",
+     "voice": "tekir",
+     "anim": "boing",
+     "fx": "meow"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun, su döksün!"
+   ],
+   "ask": "Ali kabı neden gölgeye koydu? Güneşte kalan su nasıl olur?",
+   "cues": [
+    {
+     "w": 28,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Tekir yavaşça geldi. Dilini suya daldırdı: şap şap şap! Serçeler de tabağa geldi. Gaga suya daldır, baş havaya kaldır! Ali ile dedesi uzaktan, sessizce izledi.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "day",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "kopek",
+      "x": 34,
+      "y": 237,
+      "s": 0.7,
+      "mood": "calm",
+      "pose": "sit",
+      "leash": {
+       "to": [
+        21,
+        -48
+       ]
+      }
+     },
+     {
+      "k": "dede",
+      "x": 74,
+      "y": 234,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "dede"
+     },
+     {
+      "k": "ali",
+      "x": 122,
+      "y": 236,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "ali"
+     },
+     {
+      "k": "kedi",
+      "x": 222,
+      "y": 237,
+      "s": 0.85,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "tekir"
+     },
+     {
+      "k": "kus",
+      "x": 298,
+      "y": 237,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "s1"
+     },
+     {
+      "k": "kus",
+      "x": 316,
+      "y": 226,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "s2"
+     },
+     {
+      "k": "kus",
+      "x": 354,
+      "y": 226,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true,
+      "hit": "s3"
+     },
+     {
+      "k": "kus",
+      "x": 374,
+      "y": 237,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "stand",
+      "flip": true,
+      "hit": "s4"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 240,
+      "y": 236,
+      "s": 1.5
+     },
+     {
+      "k": "kase",
+      "x": 256,
+      "y": 229,
+      "s": 1.2,
+      "state": "off"
+     },
+     {
+      "k": "birikinti",
+      "x": 256,
+      "y": 215.2,
+      "z": 300,
+      "s": 0.36
+     },
+     {
+      "k": "tabak",
+      "x": 336,
+      "y": 233,
+      "s": 1.5
+     },
+     {
+      "k": "birikinti",
+      "x": 336,
+      "y": 230.8,
+      "z": 300,
+      "s": 0.45
+     },
+     {
+      "k": "damla",
+      "x": 248,
+      "y": 213,
+      "z": 301,
+      "s": 0.3
+     },
+     {
+      "k": "damla",
+      "x": 265,
+      "y": 209,
+      "z": 301,
+      "s": 0.26
+     },
+     {
+      "k": "damla",
+      "x": 326,
+      "y": 222,
+      "z": 301,
+      "s": 0.26
+     },
+     {
+      "k": "damla",
+      "x": 347,
+      "y": 219,
+      "z": 301,
+      "s": 0.26
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "s1",
+     "s2",
+     "s3",
+     "s4"
+    ],
+    "done": "Dört serçe su içti!"
+   },
+   "hits": {
+    "tekir": {
+     "say": "Şap şap şap!",
+     "voice": "tekir",
+     "anim": "boing",
+     "fx": "splash"
+    },
+    "ali": {
+     "say": "Şşş, sessizce izleyelim.",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "dede": {
+     "say": "Bak, Tekir serinliyor.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "s1",
+    "Serçeleri say!"
+   ],
+   "ask": "Tekir nasıl su içti? Serçeler nasıl içti?"
+  },
+  {
+   "text": "Güneş alçaldı, sokak serinledi. Ali uzaktan el salladı. “Yarın dedemle yine geliriz, Tekir!” Tekir de patisini kaldırdı. Boncuk havladı: “Hav! Bana da su!” Herkes güldü. Dedesi Boncuk'a da su verdi.",
+   "scene": {
+    "set": "sehir-sokak",
+    "time": "evening",
+    "lampHit": "fener",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 56,
+      "y": 234,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "dede"
+     },
+     {
+      "k": "kopek",
+      "x": 112,
+      "y": 237,
+      "s": 0.8,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "boncuk",
+      "leash": {
+       "to": [
+        -56,
+        -57
+       ]
+      }
+     },
+     {
+      "k": "ali",
+      "x": 180,
+      "y": 236,
+      "s": 1,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "ali"
+     },
+     {
+      "k": "kedi",
+      "x": 340,
+      "y": 236,
+      "s": 0.9,
+      "mood": "calm",
+      "pose": "wave",
+      "flip": true,
+      "hit": "tekir"
+     }
+    ],
+    "props": [
+     {
+      "k": "bank",
+      "x": 318,
+      "y": 233,
+      "s": 1.55
+     },
+     {
+      "k": "kase",
+      "x": 300,
+      "y": 236,
+      "s": 1.2,
+      "state": "off"
+     },
+     {
+      "k": "birikinti",
+      "x": 300,
+      "y": 222.2,
+      "z": 300,
+      "s": 0.36
+     }
+    ]
+   },
+   "hits": {
+    "tekir": {
+     "say": "Mırrr.",
+     "voice": "tekir",
+     "anim": "wiggle",
+     "fx": "meow"
+    },
+    "ali": {
+     "say": "Yarın dedemle yine geliriz, Tekir!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "boncuk": {
+     "say": "Hav! Bana da su!",
+     "voice": "boncuk",
+     "anim": "jump",
+     "fx": "woof"
+    },
+    "dede": {
+     "say": "Evde senin kabın da dolu, Boncuk!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "fener": {
+     "fn": "lamp",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Sen bir hayvana nasıl yardım edebilirsin?"
+  }
+ ],
+ "order": [
+  2,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 (öğrenme çıktısı) · “Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme”: sıcakta köpeğin soluyarak, kedinin gölgeye uzanarak, serçelerin gagasını açarak serinlediğini gözlemler; suyun güneşte ısınıp gölgede serin kaldığını söyler.",
+   "TADB.2 (öğrenme çıktısı) · “Dinledikleri/izledikleri şiir, hikâye, tekerleme, video, tiyatro, animasyon gibi materyaller ile ilgili yeni anlamlar oluşturabilme”: Tekir'in neden halsiz olduğuna ilişkin çıkarım yapar; masaldaki bilgilerle günlük hayatı arasında ilişki kurar (kendi sokağındaki hayvanlar, sıcak günler).",
+   "E2.1 Empati · SDB2.3 Sosyal Farkındalık · D9 Merhamet · D16 Sorumluluk: bir hayvanın ihtiyacını beden dilinden fark eder; “dokunmadan, uzaktan” yardım etmenin yollarını önerir ve yardımı sürdürmeye söz verir."
+  ],
+  "once": [
+   "Kapaktaki kediyi göster: “Bu kedi nerede yaşıyor olabilir? Neye ihtiyacı var?”",
+   "Çok sıcak bir günde bedenimizde neler olduğunu konuşun: terleriz, susarız, gölge ararız.",
+   "4 Ekim Hayvanları Koruma Günü'ne yakın okuyorsanız günün adını tanıtın."
+  ],
+  "sirasi": [
+   "1. sayfada “hah hah hah” sesini birlikte yapın; köpeklerin böyle serinlediğini söyleyin.",
+   "2. sayfada saklanan hayvanları bulurken “Neden gölgeyi seçmişler?” diye sorun.",
+   "3. sayfada Tekir'in kulaklarına ve yüzüne bakıp nasıl hissettiğini konuşun; tahmin sorusunda iki fikri de kabul edin.",
+   "4. sayfada Ali'ye dokunup suyu kaba dökün; 5. sayfada serçeleri sayarken “Gaga suya daldır, baş havaya kaldır!” hareketini başınızla birlikte yapın."
+  ],
+  "sonra": [
+   "Tekir'in susadığını nereden anladık?",
+   "Ali kabı neden gölgeye koydu? Güneşte kalan su nasıl olur?",
+   "Sokakta bir hayvan görünce ne yaparız? Ürken bir hayvan tırmalayabilir ya da ısırabilir; bu yüzden sokak hayvanlarına dokunmayız, bir büyüğümüzle uzaktan su ve gölge sağlarız."
+  ],
+  "sinif": {
+   "ad": "Güneşte mi, Gölgede mi?",
+   "sure": "20 dk",
+   "materyal": "İki aynı kap, su, güneş ve bulut sembollü tahmin kartları, pano",
+   "adim": [
+    "Sabah iki kaba aynı miktarda su koyun; birini güneşe, birini gölgeye yerleştirin.",
+    "Çocuklar hangi suyun daha serin kalacağını tahmin etsin; kartlarını panoda güneşin ya da bulutun altına koysun.",
+    "Öğle vakti suya parmak ucuyla dokunup karşılaştırın; sonucu tahminlerle birlikte konuşun.",
+    "Kapanışta hayvanların serinleme yollarını canlandırın: köpek gibi solu, kedi gibi uzan, serçe gibi daldır-kaldır."
+   ]
+  },
+  "evSoru": [
+   "Tekir nasıl hissediyordu? Sonra ne değişti?",
+   "Boncuk neden dilini çıkarıp soluyordu?",
+   "Sen sıcak bir günde nasıl serinlersin?"
+  ],
+  "evEtk": {
+   "ad": "Pencere önü gözlemi",
+   "d": "Sıcak bir günde balkona ya da pencere önüne, gölgeye sığ bir kap su koyun. Gelen kuşları dokunmadan, uzaktan birlikte izleyin; kaç kuş geldiğini sayın ve nasıl su içtiklerini konuşun. Suyu her gün birlikte tazeleyin."
+  },
+  "aileNotu": "Bugün “Tekir'in Su Kabı” masalını okuduk. Ali, sıcak bir günde sokağın kedisi Tekir'in susadığını fark ediyor ve dedesiyle gölgeye serin bir kap su koyuyor. Hayvanların sıcakta nasıl serinlediğini gözlemledik ve “dokunmadan, uzaktan” kuralını konuştuk. Ürken bir hayvan tırmalayabilir ya da ısırabilir; bu yüzden sokak hayvanlarına dokunmayız, bir büyüğümüzle uzaktan su ve gölge sağlarız. Bir hayvana dokunulduysa elleri yıkamayı hatırlatabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/012-tekirin-su-kabi.mp3",
+  "hash": "7583f6e7",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17022,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1369,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4269,
+      9
+     ],
+     [
+      4870,
+      10
+     ],
+     [
+      5569,
+      11
+     ],
+     [
+      6089,
+      12
+     ],
+     [
+      6249,
+      13
+     ],
+     [
+      7489,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8430,
+      16
+     ],
+     [
+      8949,
+      17
+     ],
+     [
+      9730,
+      18
+     ],
+     [
+      10549,
+      19
+     ],
+     [
+      10784,
+      20
+     ],
+     [
+      11089,
+      21
+     ],
+     [
+      11649,
+      22
+     ],
+     [
+      12029,
+      23
+     ],
+     [
+      12549,
+      24
+     ],
+     [
+      13129,
+      25
+     ],
+     [
+      13469,
+      26
+     ],
+     [
+      13829,
+      27
+     ],
+     [
+      14609,
+      28
+     ],
+     [
+      15009,
+      29
+     ],
+     [
+      15729,
+      30
+     ],
+     [
+      16089,
+      31
+     ]
+    ]
+   },
+   "p0h-boncuk": {
+    "s": 17322,
+    "d": 954,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      622,
+      2
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 18576,
+    "d": 1663,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      889,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 20539,
+    "d": 1896,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1089,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 22736,
+    "d": 15756,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      2689,
+      4
+     ],
+     [
+      3430,
+      5
+     ],
+     [
+      3930,
+      6
+     ],
+     [
+      5129,
+      7
+     ],
+     [
+      5669,
+      8
+     ],
+     [
+      6370,
+      9
+     ],
+     [
+      6769,
+      10
+     ],
+     [
+      7249,
+      11
+     ],
+     [
+      7910,
+      12
+     ],
+     [
+      8509,
+      13
+     ],
+     [
+      9669,
+      14
+     ],
+     [
+      10409,
+      15
+     ],
+     [
+      11489,
+      16
+     ],
+     [
+      12149,
+      17
+     ],
+     [
+      12489,
+      18
+     ],
+     [
+      13649,
+      19
+     ],
+     [
+      14089,
+      20
+     ],
+     [
+      14489,
+      21
+     ],
+     [
+      14729,
+      22
+     ],
+     [
+      15009,
+      23
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 38792,
+    "d": 1835,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 40927,
+    "d": 1529,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      849,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 42757,
+    "d": 17795,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      3549,
+      6
+     ],
+     [
+      3989,
+      7
+     ],
+     [
+      4689,
+      8
+     ],
+     [
+      5769,
+      9
+     ],
+     [
+      6089,
+      10
+     ],
+     [
+      6930,
+      11
+     ],
+     [
+      7209,
+      12
+     ],
+     [
+      7509,
+      13
+     ],
+     [
+      8129,
+      14
+     ],
+     [
+      8629,
+      15
+     ],
+     [
+      9190,
+      16
+     ],
+     [
+      10009,
+      17
+     ],
+     [
+      10869,
+      18
+     ],
+     [
+      11930,
+      19
+     ],
+     [
+      12549,
+      20
+     ],
+     [
+      13270,
+      21
+     ],
+     [
+      13949,
+      22
+     ],
+     [
+      14409,
+      23
+     ],
+     [
+      14869,
+      24
+     ],
+     [
+      15769,
+      25
+     ],
+     [
+      16489,
+      26
+     ],
+     [
+      16749,
+      27
+     ],
+     [
+      16909,
+      28
+     ],
+     [
+      17289,
+      29
+     ]
+    ]
+   },
+   "p2h-tekir": {
+    "s": 60852,
+    "d": 679,
+    "w": [
+     [
+      29,
+      0
+     ]
+    ]
+   },
+   "p2h-kap": {
+    "s": 61832,
+    "d": 1439,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      535,
+      1
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 63572,
+    "d": 1746,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 65618,
+    "d": 1753,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1209,
+      2
+     ]
+    ]
+   },
+   "p2h-sun": {
+    "s": 67672,
+    "d": 2136,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 70108,
+    "d": 2317,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1790,
+      5
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 72725,
+    "d": 2369,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1809,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 75394,
+    "d": 18885,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2589,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3609,
+      7
+     ],
+     [
+      4129,
+      8
+     ],
+     [
+      5109,
+      9
+     ],
+     [
+      5729,
+      10
+     ],
+     [
+      6009,
+      11
+     ],
+     [
+      6689,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      7649,
+      14
+     ],
+     [
+      8369,
+      15
+     ],
+     [
+      8669,
+      16
+     ],
+     [
+      9209,
+      17
+     ],
+     [
+      10270,
+      18
+     ],
+     [
+      10909,
+      19
+     ],
+     [
+      11430,
+      20
+     ],
+     [
+      11810,
+      21
+     ],
+     [
+      12249,
+      22
+     ],
+     [
+      12689,
+      23
+     ],
+     [
+      13770,
+      24
+     ],
+     [
+      13989,
+      25
+     ],
+     [
+      14329,
+      26
+     ],
+     [
+      14509,
+      27
+     ],
+     [
+      15289,
+      28
+     ],
+     [
+      15749,
+      29
+     ],
+     [
+      16469,
+      30
+     ],
+     [
+      17229,
+      31
+     ],
+     [
+      17509,
+      32
+     ],
+     [
+      17729,
+      33
+     ],
+     [
+      18129,
+      34
+     ],
+     [
+      18289,
+      35
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 94580,
+    "d": 1597,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1089,
+      4
+     ]
+    ]
+   },
+   "p3h-tekir": {
+    "s": 96477,
+    "d": 769,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 97547,
+    "d": 1811,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      1249,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 99659,
+    "d": 13304,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      3609,
+      6
+     ],
+     [
+      3969,
+      7
+     ],
+     [
+      4330,
+      8
+     ],
+     [
+      4830,
+      9
+     ],
+     [
+      5469,
+      10
+     ],
+     [
+      5629,
+      11
+     ],
+     [
+      6069,
+      12
+     ],
+     [
+      6949,
+      13
+     ],
+     [
+      7309,
+      14
+     ],
+     [
+      7629,
+      15
+     ],
+     [
+      8310,
+      16
+     ],
+     [
+      8589,
+      17
+     ],
+     [
+      9009,
+      18
+     ],
+     [
+      9969,
+      19
+     ],
+     [
+      10310,
+      20
+     ],
+     [
+      10489,
+      21
+     ],
+     [
+      10969,
+      22
+     ],
+     [
+      11890,
+      23
+     ],
+     [
+      12629,
+      24
+     ]
+    ]
+   },
+   "p4h-tekir": {
+    "s": 113264,
+    "d": 876,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      305,
+      1
+     ],
+     [
+      570,
+      2
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 114441,
+    "d": 2091,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      1329,
+      2
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 116832,
+    "d": 1483,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      709,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 118616,
+    "d": 1387,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      869,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 120303,
+    "d": 16012,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2809,
+      4
+     ],
+     [
+      3089,
+      5
+     ],
+     [
+      3709,
+      6
+     ],
+     [
+      3930,
+      7
+     ],
+     [
+      4830,
+      8
+     ],
+     [
+      5229,
+      9
+     ],
+     [
+      5789,
+      10
+     ],
+     [
+      6089,
+      11
+     ],
+     [
+      6629,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      7649,
+      14
+     ],
+     [
+      7809,
+      15
+     ],
+     [
+      8409,
+      16
+     ],
+     [
+      9409,
+      17
+     ],
+     [
+      9890,
+      18
+     ],
+     [
+      10749,
+      19
+     ],
+     [
+      11489,
+      20
+     ],
+     [
+      11789,
+      21
+     ],
+     [
+      12009,
+      22
+     ],
+     [
+      12609,
+      23
+     ],
+     [
+      13169,
+      24
+     ],
+     [
+      13930,
+      25
+     ],
+     [
+      14469,
+      26
+     ],
+     [
+      15049,
+      27
+     ],
+     [
+      15249,
+      28
+     ],
+     [
+      15430,
+      29
+     ]
+    ]
+   },
+   "p5h-tekir": {
+    "s": 136615,
+    "d": 756,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 137671,
+    "d": 2832,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p5h-boncuk": {
+    "s": 140804,
+    "d": 1325,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      989,
+      3
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 142430,
+    "d": 2742,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1170,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

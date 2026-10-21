@@ -1,0 +1,1633 @@
+{
+ "id": "078-kurbaga-nasil-buyur",
+ "lang": "en",
+ "title": "How Does a Frog Grow?",
+ "theme": "Observing the life cycle of a frog and adapting to change",
+ "blurb": "Cotton the duck finds jelly-like eggs in the pond. When tiny tailed creatures hatch, she thinks they are baby fish and gives them swimming lessons. But the little ones change a bit every day: legs grow, tails shrink, and one morning they hop onto the shore!",
+ "voiceNames": {
+  "pamuk": "Cotton (duck)",
+  "yosun": "Moss (frog)",
+  "minik": "Little Frog"
+ },
+ "pages": [
+  {
+   "text": "Spring came, and the pond woke up. Cotton the duck dived into the water. Splash! Down among the reeds was a heap like jelly. Inside it, tiny black dots! Moss the frog whispered: “Shhh! Let's look without touching.”",
+   "hits": {
+    "pamuk": {
+     "say": "Like jelly! Whose are these?"
+    },
+    "yosun": {
+     "say": "Shhh! Let's look without touching."
+    }
+   },
+   "hint": "Touch Cotton!",
+   "ask": "What do you think the black dots inside the jelly heap could be?"
+  },
+  {
+   "text": "A few days later, the dots wriggled. Wriggle wriggle, whizz whizz! Tiny tailed creatures glided into the water. “Baby fish!” said Cotton. “I'll teach them to swim!” Moss giggled: “They're tadpoles. I was a tadpole once too!” Cotton's beak fell open: “You? No way!”",
+   "hits": {
+    "pamuk": {
+     "say": "Baby fish! I'll teach them to swim!"
+    },
+    "yosun": {
+     "say": "I was a tadpole once too!"
+    }
+   },
+   "hint": "Touch Moss!",
+   "ask": "What did Cotton think the little ones were? Do you think Moss is right? Why?"
+  },
+  {
+   "text": "Every day Cotton gave lessons: “Tail to the right, tail to the left!” The tadpoles grew and grew. One morning Cotton blinked her eyes. Next to the tails were tiny little legs! “Can a fish have legs?”",
+   "hits": {
+    "pamuk": {
+     "say": "Can a fish have legs?"
+    },
+    "yosun": {
+     "say": "Wait and see, Cotton."
+    }
+   },
+   "predict": {
+    "q": "What do you think the tadpoles with legs will become when they grow up?",
+    "res": "Come on, let's wait and see!",
+    "opts": [
+     {
+      "l": "A fish"
+     },
+     {
+      "l": "A frog"
+     }
+    ]
+   },
+   "hint": "Touch Cotton!",
+   "ask": "What do you think the tadpoles with legs will turn into? Why do you think so?"
+  },
+  {
+   "text": "Days went by. The back legs grew long, the front legs came out, the tails got shorter. One morning a tiny someone poked its head out of the water. Its tail was almost gone! Then it hopped onto the shore. Hop, hop, hop! “Oh! It looks like Moss!” said Cotton.",
+   "mech": {
+    "done": "Hop! It's a little frog now!",
+    "msg": "The tadpole became a frog!"
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Oh! It looks like Moss!"
+    },
+    "yosun": {
+     "say": "Welcome, little frog!"
+    }
+   },
+   "hint": "Touch it and watch it grow!",
+   "ask": "What happened to the tadpole's tail? What are its new legs for?"
+  },
+  {
+   "text": "Hop! Hop! The shore and the pond filled up with little frogs. How many? Come on, let's count together! Cotton laughed: “I was wrong. You're frogs!” Then, all at once, her heart sank. “Won't you swim with me any more?”",
+   "mech": {
+    "done": "Six little frogs, exactly!",
+    "msg": "You counted them all!"
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Won't you swim with me any more?"
+    }
+   },
+   "hint": "Count the frogs!",
+   "ask": "Why was Cotton sad? How do you feel when something changes?"
+  },
+  {
+   "text": "Moss smiled: “Frogs can hop and swim!” Cotton thought for a moment. Then she spread her wings: “Then first you teach me to hop!” Waddle waddle, hop! Splash, splash! The pond filled with laughter.",
+   "hits": {
+    "pamuk": {
+     "say": "Waddle waddle, hop!"
+    },
+    "minik": {
+     "say": "We'll teach you to hop!"
+    },
+    "yosun": {
+     "say": "We hop and we swim!"
+    }
+   },
+   "hint": "Hop with Cotton!",
+   "ask": "What did Cotton do when she felt sad? When something changes, how do you find a new game?",
+   "cues": [
+    {
+     "w": 33,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 — Making scientific observations of science-related events, facts and situations in daily life: Follows, through the observations in the story, how a frog changes from a jelly-like egg to a tadpole, and from a tadpole with legs to a little frog; describes the change with “first, then, last”.",
+   "FAB.3 (unverified) — Making predictions based on scientific observation of science events in daily life: Predicts what the tadpoles with legs will become, based on what they have seen, and compares the prediction with the rest of the story.",
+   "E1.1 Curiosity — Asks questions such as “What's inside the jelly heap?” and “Can a fish have legs?”; watches the pond creatures with curiosity.",
+   "SDB1.3 Self-Adaptation — Like Cotton, realises that a first idea can be wrong (“I was wrong!”); adapts to the changed situation and suggests a new way (“First you teach me to hop!”).",
+   "D5 Sensitivity — Notices how important it is to look at living things from a distance without touching; leaves the eggs and tadpoles where they are."
+  ],
+  "once": [
+   "Show the cover and ask: “What do you think frogs look like when they are little? Do they hatch from eggs too?” Note the answers.",
+   "If possible, look together at real photos of the life cycle of a frog (egg, tadpole, tadpole with legs, little frog)."
+  ],
+  "sirasi": [
+   "On page 1, stress Moss's words “Let's look without touching”: “Why are they looking without touching?”",
+   "On page 2, laugh at Cotton's mistake: “What did Cotton think they were? Do you think she's right?”",
+   "For the prediction question on page 3, accept both answers; ask for a reason with “Why do you think so?”",
+   "On page 5, count the frogs together; then look at Cotton's face and ask “How is Cotton feeling? Why did her heart sink?”",
+   "Information note: In real life, frog eggs hatch in 1–3 weeks; a tadpole takes a few months to turn into a frog. Cotton in the story is an imaginary friend; real ducks may feed on tadpoles."
+  ],
+  "sonra": [
+   "What was the frog first, what did it become next, and what did it become last?",
+   "Why did Cotton say “I was wrong!”?",
+   "What did Cotton do when she was sad? What would you have done?"
+  ],
+  "sinif": {
+   "ad": "The Frog's Growing Strip",
+   "sure": "20 min",
+   "materyal": "Photos of the frog life cycle (egg, tadpole, tadpole with legs, little frog, frog), a long paper strip, glue, pastel crayons",
+   "adim": [
+    "Spread the photos on the carpet in a jumbled order; the children say what they see in each photo and compare the tadpole with the frog (is there a tail? are there legs?).",
+    "The children glue the photos onto the paper strip in order and tell the story with “first… then… last…”.",
+    "Movement game: the teacher names a stage; the children curl up like an egg, wiggle like a tadpole and hop like a frog."
+   ]
+  },
+  "evSoru": [
+   "What did Cotton find in the pond?",
+   "What did the tadpoles turn into when they grew?",
+   "What did Cotton do when she was sad?"
+  ],
+  "evEtk": {
+   "ad": "Watching at the pond",
+   "d": "Always with an adult, and standing a few steps back from the water's edge, look at a park pond or a stream. Can you see a tadpole, a frog or a duck? Don't touch the creatures, and don't collect eggs or tadpoles to bring home; the pond is their home. When you get home, draw what you saw."
+  },
+  "aileNotu": "Today we read “How Does a Frog Grow?” Cotton the duck thinks the tadpoles that hatch from the jelly-like eggs are baby fish; when she sees them grow legs and turn into frogs, she realises she was wrong. Even though her heart sinks, she finds a new way: “First you teach me to hop!” At home, you can talk with your child about other changes using “first, then, last” (seed to flower, egg to chick), and watch living things in nature with an adult, from a distance and without touching."
+ },
+ "audio": {
+  "file": "audio/en/078-kurbaga-nasil-buyur.mp3",
+  "hash": "4f224730",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15793,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      1989,
+      6
+     ],
+     [
+      2729,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3609,
+      10
+     ],
+     [
+      4029,
+      11
+     ],
+     [
+      4249,
+      12
+     ],
+     [
+      4370,
+      13
+     ],
+     [
+      5089,
+      14
+     ],
+     [
+      6329,
+      15
+     ],
+     [
+      6589,
+      16
+     ],
+     [
+      6829,
+      17
+     ],
+     [
+      6969,
+      18
+     ],
+     [
+      7349,
+      19
+     ],
+     [
+      7529,
+      20
+     ],
+     [
+      7649,
+      21
+     ],
+     [
+      8029,
+      22
+     ],
+     [
+      8310,
+      23
+     ],
+     [
+      9169,
+      24
+     ],
+     [
+      9649,
+      25
+     ],
+     [
+      10089,
+      26
+     ],
+     [
+      10489,
+      27
+     ],
+     [
+      10810,
+      28
+     ],
+     [
+      11789,
+      29
+     ],
+     [
+      12089,
+      30
+     ],
+     [
+      12230,
+      31
+     ],
+     [
+      12589,
+      32
+     ],
+     [
+      13549,
+      33
+     ],
+     [
+      14310,
+      34
+     ],
+     [
+      14649,
+      35
+     ],
+     [
+      14869,
+      36
+     ],
+     [
+      15229,
+      37
+     ]
+    ]
+   },
+   "p0h-pamuk": {
+    "s": 16093,
+    "d": 2379,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      1989,
+      4
+     ]
+    ]
+   },
+   "p0h-yosun": {
+    "s": 18772,
+    "d": 2706,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1009,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2130,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 21779,
+    "d": 19927,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1309,
+      5
+     ],
+     [
+      1729,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3469,
+      8
+     ],
+     [
+      3549,
+      9
+     ],
+     [
+      3789,
+      10
+     ],
+     [
+      4789,
+      11
+     ],
+     [
+      5229,
+      12
+     ],
+     [
+      5629,
+      13
+     ],
+     [
+      6249,
+      14
+     ],
+     [
+      6749,
+      15
+     ],
+     [
+      6949,
+      16
+     ],
+     [
+      7089,
+      17
+     ],
+     [
+      7910,
+      18
+     ],
+     [
+      8350,
+      19
+     ],
+     [
+      9029,
+      20
+     ],
+     [
+      9270,
+      21
+     ],
+     [
+      10009,
+      22
+     ],
+     [
+      10230,
+      23
+     ],
+     [
+      10509,
+      24
+     ],
+     [
+      10669,
+      25
+     ],
+     [
+      10810,
+      26
+     ],
+     [
+      11789,
+      27
+     ],
+     [
+      12129,
+      28
+     ],
+     [
+      12890,
+      29
+     ],
+     [
+      13229,
+      30
+     ],
+     [
+      14409,
+      31
+     ],
+     [
+      14489,
+      32
+     ],
+     [
+      14689,
+      33
+     ],
+     [
+      14769,
+      34
+     ],
+     [
+      15229,
+      35
+     ],
+     [
+      15489,
+      36
+     ],
+     [
+      16289,
+      37
+     ],
+     [
+      16770,
+      38
+     ],
+     [
+      17110,
+      39
+     ],
+     [
+      17430,
+      40
+     ],
+     [
+      18190,
+      41
+     ],
+     [
+      19049,
+      42
+     ],
+     [
+      19389,
+      43
+     ]
+    ]
+   },
+   "p1h-pamuk": {
+    "s": 42007,
+    "d": 2754,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2069,
+      5
+     ],
+     [
+      2249,
+      6
+     ]
+    ]
+   },
+   "p1h-yosun": {
+    "s": 45061,
+    "d": 1882,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      469,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1430,
+      5
+     ]
+    ]
+   },
+   "p2": {
+    "s": 47243,
+    "d": 14345,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      2829,
+      8
+     ],
+     [
+      3430,
+      9
+     ],
+     [
+      3670,
+      10
+     ],
+     [
+      3789,
+      11
+     ],
+     [
+      3949,
+      12
+     ],
+     [
+      4870,
+      13
+     ],
+     [
+      5029,
+      14
+     ],
+     [
+      5709,
+      15
+     ],
+     [
+      6249,
+      16
+     ],
+     [
+      6449,
+      17
+     ],
+     [
+      7489,
+      18
+     ],
+     [
+      7649,
+      19
+     ],
+     [
+      8129,
+      20
+     ],
+     [
+      8509,
+      21
+     ],
+     [
+      8789,
+      22
+     ],
+     [
+      8989,
+      23
+     ],
+     [
+      9850,
+      24
+     ],
+     [
+      10089,
+      25
+     ],
+     [
+      10230,
+      26
+     ],
+     [
+      10369,
+      27
+     ],
+     [
+      10850,
+      28
+     ],
+     [
+      11109,
+      29
+     ],
+     [
+      11549,
+      30
+     ],
+     [
+      11850,
+      31
+     ],
+     [
+      12770,
+      32
+     ],
+     [
+      12949,
+      33
+     ],
+     [
+      13129,
+      34
+     ],
+     [
+      13449,
+      35
+     ],
+     [
+      13749,
+      36
+     ]
+    ]
+   },
+   "p2h-pamuk": {
+    "s": 61889,
+    "d": 1402,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      500,
+      2
+     ],
+     [
+      730,
+      3
+     ],
+     [
+      1131,
+      4
+     ]
+    ]
+   },
+   "p2h-yosun": {
+    "s": 63592,
+    "d": 1379,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      283,
+      1
+     ],
+     [
+      527,
+      2
+     ],
+     [
+      915,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 65272,
+    "d": 3290,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      369,
+      3
+     ],
+     [
+      569,
+      4
+     ],
+     [
+      709,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      1529,
+      7
+     ],
+     [
+      1829,
+      8
+     ],
+     [
+      2009,
+      9
+     ],
+     [
+      2329,
+      10
+     ],
+     [
+      2489,
+      11
+     ],
+     [
+      2650,
+      12
+     ],
+     [
+      2910,
+      13
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 68862,
+    "d": 1699,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      424,
+      1
+     ],
+     [
+      775,
+      2
+     ],
+     [
+      996,
+      3
+     ],
+     [
+      1217,
+      4
+     ],
+     [
+      1438,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 70862,
+    "d": 18650,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2269,
+      6
+     ],
+     [
+      2529,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      3329,
+      9
+     ],
+     [
+      3609,
+      10
+     ],
+     [
+      3910,
+      11
+     ],
+     [
+      4189,
+      12
+     ],
+     [
+      4709,
+      13
+     ],
+     [
+      4850,
+      14
+     ],
+     [
+      5310,
+      15
+     ],
+     [
+      5529,
+      16
+     ],
+     [
+      6629,
+      17
+     ],
+     [
+      6809,
+      18
+     ],
+     [
+      7269,
+      19
+     ],
+     [
+      7410,
+      20
+     ],
+     [
+      7969,
+      21
+     ],
+     [
+      8489,
+      22
+     ],
+     [
+      8810,
+      23
+     ],
+     [
+      8969,
+      24
+     ],
+     [
+      9190,
+      25
+     ],
+     [
+      9310,
+      26
+     ],
+     [
+      9409,
+      27
+     ],
+     [
+      9529,
+      28
+     ],
+     [
+      10289,
+      29
+     ],
+     [
+      10529,
+      30
+     ],
+     [
+      10890,
+      31
+     ],
+     [
+      11129,
+      32
+     ],
+     [
+      11549,
+      33
+     ],
+     [
+      12449,
+      34
+     ],
+     [
+      12689,
+      35
+     ],
+     [
+      12850,
+      36
+     ],
+     [
+      13149,
+      37
+     ],
+     [
+      13390,
+      38
+     ],
+     [
+      13529,
+      39
+     ],
+     [
+      14249,
+      40
+     ],
+     [
+      14709,
+      41
+     ],
+     [
+      15129,
+      42
+     ],
+     [
+      15969,
+      43
+     ],
+     [
+      16569,
+      44
+     ],
+     [
+      16690,
+      45
+     ],
+     [
+      16930,
+      46
+     ],
+     [
+      17169,
+      47
+     ],
+     [
+      17950,
+      48
+     ],
+     [
+      18190,
+      49
+     ]
+    ]
+   },
+   "p3h-pamuk": {
+    "s": 89813,
+    "d": 1879,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      1449,
+      4
+     ]
+    ]
+   },
+   "p3h-yosun": {
+    "s": 91992,
+    "d": 1482,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      781,
+      1
+     ],
+     [
+      1200,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 93775,
+    "d": 2096,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1670,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 96171,
+    "d": 16068,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2569,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3049,
+      9
+     ],
+     [
+      3249,
+      10
+     ],
+     [
+      3509,
+      11
+     ],
+     [
+      4469,
+      12
+     ],
+     [
+      4669,
+      13
+     ],
+     [
+      5370,
+      14
+     ],
+     [
+      5589,
+      15
+     ],
+     [
+      5969,
+      16
+     ],
+     [
+      6229,
+      17
+     ],
+     [
+      6430,
+      18
+     ],
+     [
+      7390,
+      19
+     ],
+     [
+      7809,
+      20
+     ],
+     [
+      8690,
+      21
+     ],
+     [
+      8829,
+      22
+     ],
+     [
+      9029,
+      23
+     ],
+     [
+      9810,
+      24
+     ],
+     [
+      10049,
+      25
+     ],
+     [
+      11230,
+      26
+     ],
+     [
+      11789,
+      27
+     ],
+     [
+      11989,
+      28
+     ],
+     [
+      12189,
+      29
+     ],
+     [
+      12810,
+      30
+     ],
+     [
+      13009,
+      31
+     ],
+     [
+      13390,
+      32
+     ],
+     [
+      14310,
+      33
+     ],
+     [
+      14549,
+      34
+     ],
+     [
+      14789,
+      35
+     ],
+     [
+      15069,
+      36
+     ],
+     [
+      15269,
+      37
+     ],
+     [
+      15430,
+      38
+     ],
+     [
+      15609,
+      39
+     ]
+    ]
+   },
+   "p4h-pamuk": {
+    "s": 112539,
+    "d": 1852,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      248,
+      1
+     ],
+     [
+      457,
+      2
+     ],
+     [
+      666,
+      3
+     ],
+     [
+      875,
+      4
+     ],
+     [
+      1084,
+      5
+     ],
+     [
+      1448,
+      6
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 114691,
+    "d": 2384,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 117376,
+    "d": 15064,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1909,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      3629,
+      7
+     ],
+     [
+      4069,
+      8
+     ],
+     [
+      4350,
+      9
+     ],
+     [
+      4529,
+      10
+     ],
+     [
+      4589,
+      11
+     ],
+     [
+      5489,
+      12
+     ],
+     [
+      5890,
+      13
+     ],
+     [
+      6129,
+      14
+     ],
+     [
+      6469,
+      15
+     ],
+     [
+      6629,
+      16
+     ],
+     [
+      7509,
+      17
+     ],
+     [
+      7789,
+      18
+     ],
+     [
+      8369,
+      19
+     ],
+     [
+      8609,
+      20
+     ],
+     [
+      8890,
+      21
+     ],
+     [
+      9009,
+      22
+     ],
+     [
+      9190,
+      23
+     ],
+     [
+      10089,
+      24
+     ],
+     [
+      10430,
+      25
+     ],
+     [
+      10930,
+      26
+     ],
+     [
+      11609,
+      27
+     ],
+     [
+      12189,
+      28
+     ],
+     [
+      13149,
+      29
+     ],
+     [
+      13310,
+      30
+     ],
+     [
+      13829,
+      31
+     ],
+     [
+      14249,
+      32
+     ],
+     [
+      14449,
+      33
+     ]
+    ]
+   },
+   "p5h-pamuk": {
+    "s": 132741,
+    "d": 1562,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1150,
+      2
+     ]
+    ]
+   },
+   "p5h-minik": {
+    "s": 134603,
+    "d": 1463,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      316,
+      1
+     ],
+     [
+      593,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1146,
+      4
+     ]
+    ]
+   },
+   "p5h-yosun": {
+    "s": 136367,
+    "d": 1879,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1209,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

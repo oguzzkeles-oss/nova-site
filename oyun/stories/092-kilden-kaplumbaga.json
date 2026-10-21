@@ -1,0 +1,1473 @@
+{
+ "id": "092-kilden-kaplumbaga",
+ "n": 92,
+ "title": "Kilden Kaplumbağa",
+ "age": "36-48",
+ "area": "Sanat",
+ "theme": "Sabırla üretmek",
+ "values": [
+  "D3 Çalışkanlık",
+  "D12 Sabır"
+ ],
+ "sdb": "SDB1.3 Kendine Uyarlama (Öz Yansıtma)",
+ "min": 4,
+ "blurb": "Ali resimdeki kaplumbağayı kilden yapmak ister ama aceleyle yaptığı kaplumbağa dağılır. Nur Öğretmen'in sözüyle yavaşlar: yuvarlar, bastırır, bacakları tek tek takar.",
+ "codes": {
+  "maarif": [
+   "SNAB.4 Sanat etkinliği uygulayabilme: modelleme materyalleriyle iki veya üç boyutlu tasarım yapar (teyitsiz)",
+   "HSAB.2 Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme (HSAB.2.b Nesneleri şekillendirir; HSAB.2.ç Çeşitli nesneleri kullanarak özgün ürünler oluşturur)",
+   "E1.3 Azim ve Kararlılık",
+   "SDB1.3 Kendine Uyarlama (Öz Yansıtma)",
+   "D3 Çalışkanlık"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "ali": "cocuk-erkek",
+  "ogretmen": "ogretmen",
+  "arkadas": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "ali": "Ali",
+  "ogretmen": "Nur Öğretmen",
+  "arkadas": "Defne (sınıf arkadaşı)"
+ },
+ "pages": [
+  {
+   "text": "Bugün sınıfta kil günü! Nur Öğretmen bir resim gösterdi. Resimde bir kaplumbağa vardı. Ali'nin gözleri parladı: “Ben de yapacağım!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 80,
+      "y": 234,
+      "s": 1.02,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "ali",
+      "turn": 0.6
+     },
+     {
+      "k": "ogretmen",
+      "x": 326,
+      "y": 232,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "hold",
+      "hold": "<g><rect x=\"-23\" y=\"-24\" width=\"46\" height=\"34\" rx=\"2.5\" fill=\"#FFFDF6\" stroke=\"#B9A27E\" stroke-width=\"1.2\"/><rect x=\"-19\" y=\"-20\" width=\"38\" height=\"26\" fill=\"#DDF0FA\"/><path d=\"M-19 0 H19 V6 H-19Z\" fill=\"#A9D98A\"/><ellipse cx=\"-8\" cy=\"1\" rx=\"2.8\" ry=\"2.2\" fill=\"#8BC96B\" stroke=\"#3F7F34\" stroke-width=\".7\"/><ellipse cx=\"5\" cy=\"1\" rx=\"2.8\" ry=\"2.2\" fill=\"#8BC96B\" stroke=\"#3F7F34\" stroke-width=\".7\"/><ellipse cx=\"12\" cy=\"-5\" rx=\"4.4\" ry=\"3.6\" fill=\"#8BC96B\" stroke=\"#3F7F34\" stroke-width=\".8\"/><circle cx=\"13.6\" cy=\"-5.8\" r=\".9\" fill=\"#2B2A33\"/><path d=\"M-14 0 Q-13 -15 -2 -15 Q9 -15 9 0 Z\" fill=\"#5E9A40\" stroke=\"#2F6A2A\" stroke-width=\".9\"/><path d=\"M-9 -1 L-7 -9 L-1 -11 L4 -8 L4 -1 M-7 -9 L-12 -4 M-1 -11 L-1 -1\" stroke=\"#2F6A2A\" stroke-width=\".7\" fill=\"none\"/><circle cx=\"-15\" cy=\"-15\" r=\"3\" fill=\"#F6C742\"/></g>",
+      "flip": true,
+      "hit": "ogretmen"
+     }
+    ],
+    "props": [
+     {
+      "k": "sira",
+      "x": 205,
+      "y": 226,
+      "s": 1.3,
+      "color": "#F2A541"
+     },
+     {
+      "k": "tas",
+      "v": 0,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 178,
+      "y": 164.9,
+      "s": 1.0,
+      "hit": "k1",
+      "z": 227
+     },
+     {
+      "k": "tas",
+      "v": 1,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 207,
+      "y": 164.9,
+      "s": 0.8,
+      "hit": "k2",
+      "z": 227
+     },
+     {
+      "k": "tas",
+      "v": 0,
+      "color": "#B5764C",
+      "grass": false,
+      "x": 233,
+      "y": 164.9,
+      "s": 0.85,
+      "hit": "k3",
+      "z": 227
+     }
+    ]
+   },
+   "hits": {
+    "ogretmen": {
+     "say": "Bakın, bir kaplumbağa!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "ali": {
+     "say": "Ben de yapacağım!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "k": {
+     "anim": "wiggle",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "ogretmen",
+    "Resme dokun!"
+   ],
+   "ask": "Resimde neler görüyorsun? Sen kille ya da hamurla neler yaptın?"
+  },
+  {
+   "text": "Ali hızlı hızlı yoğurdu, çabuk çabuk yapıştırdı. Ama pıt! Bir bacak düştü. Pat! Kafası da düştü. “Of, dağıldı!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 300,
+      "y": 232,
+      "s": 1.05,
+      "mood": "surprised",
+      "pose": "open",
+      "hit": "ali",
+      "turn": 0.5,
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "sira",
+      "x": 118,
+      "y": 218,
+      "s": 1.4,
+      "color": "#F2A541"
+     },
+     {
+      "k": "tas",
+      "v": 0,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 118,
+      "y": 152.2,
+      "s": 1.9,
+      "hit": "govde",
+      "z": 219
+     },
+     {
+      "k": "tas",
+      "v": 1,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 178,
+      "y": 228,
+      "s": 1.2,
+      "hit": "p1"
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "color": "#B5764C",
+      "grass": false,
+      "x": 206,
+      "y": 234,
+      "s": 1.1,
+      "hit": "p2"
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "color": "#B5764C",
+      "grass": false,
+      "x": 160,
+      "y": 237,
+      "s": 1.0,
+      "hit": "p3"
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Of, dağıldı!",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "govde": {
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "p": {
+     "anim": "jump",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "p1",
+    "Düşen parçalara dokun!"
+   ],
+   "ask": "Sence kaplumbağa neden dağıldı?"
+  },
+  {
+   "text": "Ali çok üzüldü. Dudakları büzüldü, omuzları düştü. “Yapamıyorum!” Nur Öğretmen yanına oturdu. “Zor geldi, değil mi? Henüz yapamıyorsun. Kaplumbağalar hiç acele etmez.”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 168,
+      "y": 230,
+      "s": 1.05,
+      "mood": "sad",
+      "pose": "sit",
+      "hit": "ali",
+      "turn": 0.4
+     },
+     {
+      "k": "ogretmen",
+      "x": 252,
+      "y": 230,
+      "s": 1.08,
+      "mood": "calm",
+      "pose": "sit",
+      "flip": true,
+      "hit": "ogretmen",
+      "turn": 0.4
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 208,
+      "y": 112,
+      "s": 1.0,
+      "hit": "kalp"
+     },
+     {
+      "k": "sira",
+      "x": 58,
+      "y": 222,
+      "s": 1.0,
+      "color": "#F2A541"
+     },
+     {
+      "k": "tas",
+      "v": 0,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 58,
+      "y": 175.0,
+      "s": 1.2,
+      "z": 223
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Yapamıyorum…",
+     "voice": "ali",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "ogretmen": {
+     "say": "Henüz yapamıyorsun. Acele yok.",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "kalp": {
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "predict": {
+    "q": "Sence Ali şimdi ne yapacak?",
+    "res": "İkisi de güzel fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Yavaşça yeniden dener",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "tables": false,
+       "cast": [
+        {
+         "k": "ali",
+         "x": 150,
+         "y": 232,
+         "s": 1.05,
+         "mood": "calm",
+         "pose": "point",
+         "turn": 0.6
+        }
+       ],
+       "props": [
+        {
+         "k": "sira",
+         "x": 260,
+         "y": 226,
+         "s": 1.3,
+         "color": "#F2A541"
+        },
+        {
+         "k": "tas",
+         "v": 0,
+         "color": "#C98A5E",
+         "grass": false,
+         "x": 250,
+         "y": 164.9,
+         "s": 1.3,
+         "z": 227
+        }
+       ]
+      }
+     },
+     {
+      "l": "Resme bir daha bakar",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "tables": false,
+       "cast": [
+        {
+         "k": "ali",
+         "x": 140,
+         "y": 232,
+         "s": 1.05,
+         "mood": "think",
+         "pose": "stand",
+         "turn": 0.6
+        },
+        {
+         "k": "ogretmen",
+         "x": 290,
+         "y": 230,
+         "s": 1.1,
+         "mood": "happy",
+         "pose": "hold",
+         "hold": "<g><rect x=\"-23\" y=\"-24\" width=\"46\" height=\"34\" rx=\"2.5\" fill=\"#FFFDF6\" stroke=\"#B9A27E\" stroke-width=\"1.2\"/><rect x=\"-19\" y=\"-20\" width=\"38\" height=\"26\" fill=\"#DDF0FA\"/><path d=\"M-19 0 H19 V6 H-19Z\" fill=\"#A9D98A\"/><ellipse cx=\"-8\" cy=\"1\" rx=\"2.8\" ry=\"2.2\" fill=\"#8BC96B\" stroke=\"#3F7F34\" stroke-width=\".7\"/><ellipse cx=\"5\" cy=\"1\" rx=\"2.8\" ry=\"2.2\" fill=\"#8BC96B\" stroke=\"#3F7F34\" stroke-width=\".7\"/><ellipse cx=\"12\" cy=\"-5\" rx=\"4.4\" ry=\"3.6\" fill=\"#8BC96B\" stroke=\"#3F7F34\" stroke-width=\".8\"/><circle cx=\"13.6\" cy=\"-5.8\" r=\".9\" fill=\"#2B2A33\"/><path d=\"M-14 0 Q-13 -15 -2 -15 Q9 -15 9 0 Z\" fill=\"#5E9A40\" stroke=\"#2F6A2A\" stroke-width=\".9\"/><path d=\"M-9 -1 L-7 -9 L-1 -11 L4 -8 L4 -1 M-7 -9 L-12 -4 M-1 -11 L-1 -1\" stroke=\"#2F6A2A\" stroke-width=\".7\" fill=\"none\"/><circle cx=\"-15\" cy=\"-15\" r=\"3\" fill=\"#F6C742\"/></g>",
+         "flip": true
+        }
+       ],
+       "props": []
+      }
+     }
+    ]
+   },
+   "hint": [
+    "kalp",
+    "Ali'nin kalbine dokun!"
+   ],
+   "ask": "Sen bir şeyi yapamayınca ne hissedersin? O zaman ne yaparsın?"
+  },
+  {
+   "text": "Ali derin bir nefes aldı. Bu kez yavaş yavaş. Yuvarla… top oldu. Bastır… kabuk oldu. Minik bir top daha: kafa!",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 118,
+      "y": 236,
+      "s": 1.25,
+      "mood": "calm",
+      "pose": "point",
+      "hit": "ali",
+      "turn": 0.6
+     }
+    ],
+    "props": [
+     {
+      "k": "sira",
+      "x": 236,
+      "y": 232,
+      "s": 2.0,
+      "color": "#F2A541"
+     },
+     {
+      "k": "tas",
+      "v": 1,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 184,
+      "y": 138.0,
+      "s": 1.2,
+      "hit": "top",
+      "z": 233
+     },
+     {
+      "k": "tas",
+      "v": 0,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 244,
+      "y": 138.0,
+      "s": 2.0,
+      "hit": "kabuk",
+      "z": 233
+     },
+     {
+      "k": "tas",
+      "v": 0,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 266,
+      "y": 136.0,
+      "s": 0.8,
+      "hit": "kafa",
+      "z": 234
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Yavaş yavaş, acele yok.",
+     "voice": "ali",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "top",
+     "kabuk",
+     "kafa"
+    ],
+    "done": "Yuvarla, bastır, tak! Oldu işte.",
+    "msg": "Sırayla yaptın!"
+   },
+   "hint": [
+    "top",
+    "Önce topa dokun!"
+   ],
+   "ask": "Ali bu kez neyi farklı yaptı?"
+  },
+  {
+   "text": "Sıra bacaklarda. Ali her bacağı tek tek bastırdı. Bir, iki, üç, dört! Bu kez hiçbiri düşmedi.",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 340,
+      "y": 234,
+      "s": 1.1,
+      "mood": "happy",
+      "pose": "point",
+      "flip": true,
+      "hit": "ali",
+      "turn": 0.6
+     }
+    ],
+    "props": [
+     {
+      "k": "sira",
+      "x": 200,
+      "y": 226,
+      "s": 1.9,
+      "color": "#F2A541"
+     },
+     {
+      "k": "tas",
+      "v": 0,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 200,
+      "y": 136.7,
+      "s": 2.2,
+      "hit": "kabuk",
+      "z": 227
+     },
+     {
+      "k": "tas",
+      "v": 0,
+      "color": "#C98A5E",
+      "grass": false,
+      "x": 240,
+      "y": 128.7,
+      "s": 0.85,
+      "hit": "kafa",
+      "z": 228
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "color": "#B5764C",
+      "grass": false,
+      "x": 138,
+      "y": 143.7,
+      "s": 0.9,
+      "hit": "l1",
+      "z": 229
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "color": "#B5764C",
+      "grass": false,
+      "x": 168,
+      "y": 145.7,
+      "s": 0.9,
+      "hit": "l2",
+      "z": 229
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "color": "#B5764C",
+      "grass": false,
+      "x": 226,
+      "y": 145.7,
+      "s": 0.9,
+      "hit": "l3",
+      "z": 229
+     },
+     {
+      "k": "tas",
+      "v": 2,
+      "color": "#B5764C",
+      "grass": false,
+      "x": 256,
+      "y": 143.7,
+      "s": 0.9,
+      "hit": "l4",
+      "z": 229
+     }
+    ]
+   },
+   "hits": {
+    "ali": {
+     "say": "Bastır, bekle… yapıştı!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "kabuk": {
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "kafa": {
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "l1",
+     "l2",
+     "l3",
+     "l4"
+    ],
+    "done": "Dört bacak! Hepsi sapasağlam.",
+    "msg": "Dört bacak!"
+   },
+   "hint": [
+    "l1",
+    "Bacakları say!"
+   ],
+   "ask": "Hadi sen de say! Kaplumbağanın kaç bacağı var?"
+  },
+  {
+   "text": "Kilden kaplumbağa hazırdı. Yavaş ama sapasağlam! Ali çok gururlandı. “Kaplumbağa gibi yaptım: yavaş yavaş!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "ali",
+      "x": 200,
+      "y": 236,
+      "s": 1.1,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "<g transform=\"translate(0 4)\"><g transform=\"scale(0.95)\"><ellipse cx=\"0\" cy=\"3\" rx=\"20\" ry=\"3\" fill=\"#000\" opacity=\".15\"/><ellipse cx=\"-12\" cy=\"1\" rx=\"4.5\" ry=\"3.2\" fill=\"#B5764C\" stroke=\"#8A5634\" stroke-width=\".9\"/><ellipse cx=\"9\" cy=\"1\" rx=\"4.5\" ry=\"3.2\" fill=\"#B5764C\" stroke=\"#8A5634\" stroke-width=\".9\"/><ellipse cx=\"18\" cy=\"-7\" rx=\"6\" ry=\"5.2\" fill=\"#C98A5E\" stroke=\"#8A5634\" stroke-width=\".9\"/><circle cx=\"20\" cy=\"-8.2\" r=\"1.1\" fill=\"#2B2A33\"/><path d=\"M18.5 -4.8 Q20.5 -3.4 22.5 -5\" stroke=\"#2B2A33\" stroke-width=\".8\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-18 0 Q-17 -21 -1 -21 Q15 -21 15 0 Z\" fill=\"#C98A5E\" stroke=\"#8A5634\" stroke-width=\"1\"/><path d=\"M-11 -12 Q-6 -18 1 -18\" stroke=\"#DDA37A\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".8\"/><circle cx=\"-10\" cy=\"-6\" r=\"1.4\" fill=\"#B5764C\"/><circle cx=\"-4\" cy=\"-10\" r=\"1.4\" fill=\"#B5764C\"/><circle cx=\"3\" cy=\"-10\" r=\"1.4\" fill=\"#B5764C\"/><circle cx=\"8\" cy=\"-5\" r=\"1.4\" fill=\"#B5764C\"/><circle cx=\"-3\" cy=\"-4\" r=\"1.4\" fill=\"#B5764C\"/><circle cx=\"3\" cy=\"-3\" r=\"1.4\" fill=\"#B5764C\"/></g></g>",
+      "hit": "ali",
+      "turn": 0.2,
+      "holdS": 1.0
+     },
+     {
+      "k": "ogretmen",
+      "x": 300,
+      "y": 212,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "clap",
+      "flip": true,
+      "hit": "ogretmen"
+     },
+     {
+      "k": "cocuk",
+      "look": 3,
+      "x": 100,
+      "y": 214,
+      "s": 0.85,
+      "mood": "surprised",
+      "pose": "clap",
+      "hit": "arkadas"
+     }
+    ],
+    "props": []
+   },
+   "hits": {
+    "ali": {
+     "say": "Yavaş yavaş yaptım!",
+     "voice": "ali",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "ogretmen": {
+     "say": "Emek verdin, işte oldu!",
+     "voice": "ogretmen",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "arkadas": {
+     "say": "Ne güzel kaplumbağa!",
+     "voice": "arkadas",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "ali",
+    "Ali'ye dokun!"
+   ],
+   "ask": "Sen de uğraşıp bitirdiğin bir şeyi anlatır mısın? Nasıl hissettin?"
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "SNAB.4 Sanat etkinliği uygulayabilme (teyitsiz): Bir resme bakarak ne yapacağına karar verir ve modelleme materyaliyle (kil) üç boyutlu bir kaplumbağa tasarlar.",
+   "HSAB.2 Farklı ebat ve özellikteki nesneleri etkin bir şekilde kullanabilme: Kili yuvarlar, bastırır, küçük parçaları birleştirir (HSAB.2.b Nesneleri şekillendirir; HSAB.2.ç Çeşitli nesneleri kullanarak özgün ürünler oluşturur).",
+   "E1.3 Azim ve Kararlılık: İlk denemesi dağılınca vazgeçmez; yavaşlayıp yeniden dener ve işini bitirir.",
+   "SDB1.3 Kendine Uyarlama (Öz Yansıtma): “Neden dağıldı?” diye düşünür, hızını ve yöntemini değiştirir (yuvarla → bastır → tek tek tak).",
+   "D3 Çalışkanlık ve D12 Sabır: Emek vererek bitirdiği ürünle gurur duyar; acele etmeden adım adım çalışır."
+  ],
+  "once": [
+   "Kapaktaki kaplumbağayı gösterin: “Kaplumbağa nasıl yürür? Hadi yavaş yavaş yürüyelim.”",
+   "Bir parça oyun hamuru ya da kil gösterin, “Bununla neler yapılabilir?” diye sorun."
+  ],
+  "sirasi": [
+   "2. sayfada parçalar düşerken durun: “Neden dağılmış olabilir?”",
+   "3. sayfada Ali'nin yüzüne ve omuzlarına birlikte bakın, duyguyu adlandırın.",
+   "Tahmin sorusunda iki cevabın da iyi bir fikir olduğunu söyleyin.",
+   "4. ve 5. sayfada “yuvarla, bastır” hareketlerini ellerinizle havada yapın."
+  ],
+  "sonra": [
+   "“Ali ilk seferde ne yaptı, ikinci seferde ne yaptı?” diye karşılaştırın.",
+   "“Kaplumbağalar acele etmez” sözünü hatırlayın: Siz hangi işi yavaş yavaş yaparsınız?",
+   "Nur Öğretmen'in “Henüz yapamıyorsun” sözünü hatırlayın; yapamadığınız bir şey için “henüz” demeyi birlikte deneyin."
+  ],
+  "sinif": {
+   "ad": "Kilden Kaplumbağa Atölyesi",
+   "sure": "20 dk",
+   "materyal": "Kil ya da oyun hamuru, kaplumbağa resmi, ıslak bez, küçük tahta altlıklar",
+   "adim": [
+    "Kaplumbağa resmine birlikte bakın: kabuk, kafa, dört bacak nerede?",
+    "Çocuklar “yuvarla, bastır” diyerek kabuğu ve kafayı yapar.",
+    "Bacakları tek tek, “bastır, bekle, yapıştı” diyerek takarlar; birlikte dörde kadar sayılır.",
+    "Kabuğa parmakla desen çizilir; dağılan olursa “Yavaş yavaş, yeniden” denir.",
+    "Kaplumbağalar bir rafta sergilenir; her çocuk kendi yapım yolunu bir cümleyle anlatır."
+   ]
+  },
+  "evSoru": [
+   "Ali'nin kaplumbağası neden dağıldı?",
+   "Nur Öğretmen Ali'ye ne dedi?",
+   "Sen hangi işi yavaş yavaş yaparsın?"
+  ],
+  "evEtk": {
+   "ad": "Mutfakta Hamur Kaplumbağa",
+   "d": "Un, su ve biraz tuzla yumuşak bir hamur yoğurun. Çocuğunuzla birlikte bir kabuk, bir kafa ve dört bacak yapın. Acele etmeden, parçaları tek tek bastırarak birleştirin ve bacakları birlikte sayın. Hamuru ağza almaması için yanında olun; bitince elleri birlikte yıkayın."
+  },
+  "aileNotu": "Bugün “Kilden Kaplumbağa” masalını okuduk. Ali aceleyle yaptığı kaplumbağa dağılınca üzüldü, sonra derin bir nefes alıp yavaş yavaş yeniden denedi. Çocuğunuz bir işi yapamadığında “henüz” sözcüğünü ve “yavaş yavaş” denemeyi hatırlatabilirsiniz. Bitmiş üründen çok, verdiği emeği övmek azmi destekler."
+ },
+ "audio": {
+  "file": "audio/092-kilden-kaplumbaga.mp3",
+  "hash": "fa2b241a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 9189,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1170,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3349,
+      8
+     ],
+     [
+      4370,
+      9
+     ],
+     [
+      4830,
+      10
+     ],
+     [
+      4969,
+      11
+     ],
+     [
+      5609,
+      12
+     ],
+     [
+      6449,
+      13
+     ],
+     [
+      6850,
+      14
+     ],
+     [
+      7309,
+      15
+     ],
+     [
+      8209,
+      16
+     ],
+     [
+      8449,
+      17
+     ],
+     [
+      8569,
+      18
+     ]
+    ]
+   },
+   "p0h-ogretmen": {
+    "s": 9489,
+    "d": 1714,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      621,
+      1
+     ],
+     [
+      870,
+      2
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 11504,
+    "d": 1137,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      242,
+      1
+     ],
+     [
+      444,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 12941,
+    "d": 9418,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      2049,
+      5
+     ],
+     [
+      2370,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      3829,
+      8
+     ],
+     [
+      4569,
+      9
+     ],
+     [
+      4689,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5830,
+      12
+     ],
+     [
+      6469,
+      13
+     ],
+     [
+      6870,
+      14
+     ],
+     [
+      6989,
+      15
+     ],
+     [
+      8009,
+      16
+     ],
+     [
+      8650,
+      17
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 22660,
+    "d": 1680,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      665,
+      1
+     ]
+    ]
+   },
+   "p2": {
+    "s": 24640,
+    "d": 12950,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2930,
+      5
+     ],
+     [
+      3509,
+      6
+     ],
+     [
+      4430,
+      7
+     ],
+     [
+      5809,
+      8
+     ],
+     [
+      6049,
+      9
+     ],
+     [
+      6669,
+      10
+     ],
+     [
+      7029,
+      11
+     ],
+     [
+      7949,
+      12
+     ],
+     [
+      8230,
+      13
+     ],
+     [
+      8629,
+      14
+     ],
+     [
+      8850,
+      15
+     ],
+     [
+      9350,
+      16
+     ],
+     [
+      9669,
+      17
+     ],
+     [
+      10789,
+      18
+     ],
+     [
+      11669,
+      19
+     ],
+     [
+      11969,
+      20
+     ],
+     [
+      12329,
+      21
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 37891,
+    "d": 1100,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2h-ogretmen": {
+    "s": 39291,
+    "d": 2278,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      1849,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 41870,
+    "d": 1868,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1389,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 44039,
+    "d": 2208,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1709,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 46547,
+    "d": 10222,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1009,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2349,
+      6
+     ],
+     [
+      2769,
+      7
+     ],
+     [
+      3170,
+      8
+     ],
+     [
+      4089,
+      9
+     ],
+     [
+      5229,
+      10
+     ],
+     [
+      5549,
+      11
+     ],
+     [
+      6329,
+      12
+     ],
+     [
+      7289,
+      13
+     ],
+     [
+      7649,
+      14
+     ],
+     [
+      8409,
+      15
+     ],
+     [
+      8709,
+      16
+     ],
+     [
+      8909,
+      17
+     ],
+     [
+      9150,
+      18
+     ],
+     [
+      9770,
+      19
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 57069,
+    "d": 2366,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      566,
+      1
+     ],
+     [
+      1272,
+      2
+     ],
+     [
+      2023,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 59736,
+    "d": 3344,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1849,
+      2
+     ],
+     [
+      2589,
+      3
+     ],
+     [
+      2930,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 63381,
+    "d": 9305,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1649,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2269,
+      4
+     ],
+     [
+      2809,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      4509,
+      8
+     ],
+     [
+      5249,
+      9
+     ],
+     [
+      6169,
+      10
+     ],
+     [
+      6809,
+      11
+     ],
+     [
+      7689,
+      12
+     ],
+     [
+      7829,
+      13
+     ],
+     [
+      8209,
+      14
+     ],
+     [
+      8709,
+      15
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 72986,
+    "d": 3243,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1109,
+      1
+     ],
+     [
+      2529,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 76529,
+    "d": 2377,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1550,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 79206,
+    "d": 8881,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2749,
+      4
+     ],
+     [
+      3109,
+      5
+     ],
+     [
+      4430,
+      6
+     ],
+     [
+      4769,
+      7
+     ],
+     [
+      5069,
+      8
+     ],
+     [
+      6209,
+      9
+     ],
+     [
+      6829,
+      10
+     ],
+     [
+      7049,
+      11
+     ],
+     [
+      7769,
+      12
+     ],
+     [
+      8289,
+      13
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 88388,
+    "d": 1542,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      527,
+      1
+     ],
+     [
+      1014,
+      2
+     ]
+    ]
+   },
+   "p5h-ogretmen": {
+    "s": 90230,
+    "d": 1989,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   },
+   "p5h-arkadas": {
+    "s": 92519,
+    "d": 1826,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      332,
+      1
+     ],
+     [
+      842,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

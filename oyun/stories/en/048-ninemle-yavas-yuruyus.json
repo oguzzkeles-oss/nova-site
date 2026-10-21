@@ -1,0 +1,1536 @@
+{
+ "id": "048-ninemle-yavas-yuruyus",
+ "lang": "en",
+ "title": "A Slow Walk with Grandma",
+ "theme": "Keeping pace with an elderly grandparent and helping",
+ "blurb": "Can wants to run to the park, but Grandma walks slowly with her stick. Can carries Grandma's basket and makes a plan to rest at the benches; at the rest stops, Grandma shows him hidden treasures too.",
+ "voiceNames": {
+  "can": "Can",
+  "nine": "Grandma (Can's grandma)",
+  "pamuk": "Cotton (cat)"
+ },
+ "pages": [
+  {
+   "text": "Can's feet were itching. “Grandma, let's run to the park!” Grandma took her stick and basket. “Tap tap, slowly, slowly, my lamb. My knees forgot how to run. They like to stroll.”",
+   "hits": {
+    "can": {
+     "say": "Grandma, let's run to the park!"
+    },
+    "nine": {
+     "say": "Tap tap, slowly, slowly, my lamb."
+    }
+   },
+   "hint": "Touch Can!",
+   "ask": "Why is Can in such a hurry? Do you run or walk to the park?",
+   "cues": [
+    {
+     "w": 16,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Can ran and ran. At the corner he stopped; you always stop at the corner. He looked back. Grandma was far behind, leaning on her stick, puffing: puff, puff. Can's heart gave a twist. “I think Grandma's tired.”",
+   "hits": {
+    "can": {
+     "say": "My heart gave a twist. I think Grandma's tired."
+    },
+    "nine": {
+     "say": "Puff… puff… I'm a bit tired, my lamb."
+    }
+   },
+   "predict": {
+    "q": "What do you think Can will do now?",
+    "res": "Good thinking! Let's see.",
+    "opts": [
+     {
+      "l": "Go back to Grandma"
+     },
+     {
+      "l": "Look for a place to sit"
+     }
+    ]
+   },
+   "hint": "Touch Grandma!",
+   "ask": "How is Grandma feeling? How can you tell?"
+  },
+  {
+   "text": "Can ran back. “Grandma, I'll carry your basket!” Then he pointed along the road. “I've made a plan. There are benches on the way. We'll rest at every bench, all right?”",
+   "hits": {
+    "can": {
+     "say": "We'll rest at every bench, all right?"
+    },
+    "nine": {
+     "say": "All right, my lamb. What a lovely plan!"
+    }
+   },
+   "mech": {
+    "done": "Three benches, three rests. The plan is ready!",
+    "msg": "Three benches!"
+   },
+   "hint": "Count the benches!",
+   "ask": "What plan did Can make for Grandma? What else would you do?"
+  },
+  {
+   "text": "Can waited by the first bench. “Come on, Grandma, nearly there!” Grandma walked: tap, step, tap, step. Can clapped along: “Tap, step!”",
+   "hits": {
+    "can": {
+     "say": "Come on, Grandma, nearly there!"
+    }
+   },
+   "mech": {
+    "done": "Phew! A rest at the first bench.",
+    "msg": "She made it!"
+   },
+   "hint": "Touch Grandma to make her walk!",
+   "ask": "What did Can do while Grandma walked slowly? What do you do while you wait for someone?",
+   "cues": [
+    {
+     "w": 13,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "They rested at the second bench. Grandma fixed her glasses. “Shhh, look! Two pointy ears behind the bush.” Can found things too. A nest in the tree, and purple flowers down below.",
+   "hits": {
+    "pamuk": {
+     "say": "Meow!"
+    },
+    "can": {
+     "say": "A nest in the tree! Purple flowers!"
+    },
+    "nine": {
+     "say": "I watch this nest every spring."
+    }
+   },
+   "mech": {
+    "done": "Look at everything at the resting place!",
+    "msg": "You found them all!"
+   },
+   "hint": "What is Grandma pointing at?",
+   "ask": "What did Grandma show Can at the rest stop? What do your grown-ups show you?"
+  },
+  {
+   "text": "The third bench was in the park! Grandma settled down on it. Can went down the slide, wheeee! “Grandma, shall we take the bench road tomorrow too?” Grandma laughed. “You are my very best walking buddy.”",
+   "hits": {
+    "nine": {
+     "say": "You are my very best walking buddy."
+    },
+    "can": {
+     "say": "Grandma, shall we take the bench road tomorrow too?"
+    }
+   },
+   "hint": "Touch Grandma!",
+   "ask": "How do Can and Grandma feel now? How do you help a grown-up when you walk together?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "skill: SBAB5 Social Participation (field skill; the official wording of the linked learning outcome is unverified) · Active participation in community life: Can turns the trip to the park with Grandma into a shared walk; carries the basket, plans the rests.",
+   "skill: SBAB7 Spatial Thinking (field skill; the official wording of the linked learning outcome is unverified) · Thinking about place and order along a familiar route: Can points out the benches in the neighbourhood in order and builds a route plan: “first, second, third rest.”",
+   "TADB.2 (learning outcome) · Building new meaning from materials such as stories they listen to or watch — process components: makes inferences about the material (infers from Grandma stopping and puffing that she is tired); links the information in the material to daily life (tells about walks with their own grandpa, grandma or neighbour).",
+   "HSAB.8 (learning outcome) · Saying what fitness skills are needed for an active and healthy life — HSAB.8.c expresses the need to rest when necessary: Grandma says “Let me catch my breath”; the child talks about taking a rest when tired being natural for everyone.",
+   "E2.1 Empathy · SDB3.1 Adjustment · Value: D20 Helpfulness — Can sets his own hurry aside and matches Grandma's steps, does not take charge without asking her, and helps willingly."
+  ],
+  "once": [
+   "Point to Can and Grandma on the cover: ask “What is Grandma holding? What is a walking stick for?”",
+   "Talk: “Do you have a grandma, a grandpa or an elderly neighbour? Where do you walk with them?”",
+   "The story is also suitable for reading during Older People's Week (18–24 March)."
+  ],
+  "sirasi": [
+   "On page 1, say “Tap tap, slowly, slowly” with the child, with rhythm; it will come back throughout the story.",
+   "On page 2, look at Grandma's face and posture: “How is Grandma feeling?” The child imitates Grandma's tired face and Can's twisted-heart face. At the prediction question, accept both ideas.",
+   "Why did Can stop at the corner? On the street, we walk beside our grown-up.",
+   "On page 3, count the benches together: “First rest, second rest, third rest.”",
+   "On page 4, every time Grandma takes a step, all say “Tap, step!” together and clap.",
+   "On page 5, the child finds what Grandma points out; ask “How does Grandma know about this nest?”"
+  ],
+  "sonra": [
+   "How did Can help Grandma? (He carried the basket, made a plan for rests, waited for her.)",
+   "How did Can feel at the start of the story, and how did he feel at the end? Why did it change?",
+   "What did Grandma show Can at the rest stop? What do your grown-ups show you, what do they teach you?"
+  ],
+  "sinif": {
+   "ad": "Tap-Step Walk",
+   "sure": "20 min",
+   "materyal": "Three chairs or mats (instead of benches), a basket, picture cards of a cat, a nest and a flower",
+   "adim": [
+    "Place three “benches” (chairs) in the classroom; hide the cards along the route.",
+    "The children pair up: one is “grandma/grandpa”, the other is the “walking buddy”. Grandma/grandpa walks slowly, the walking buddy carries the basket and keeps the beat with “Tap, step!”",
+    "At each bench, sit and take two deep breaths; the pairs look for the hidden cards nearby.",
+    "Swap roles. Make a circle and ask: “How did it feel to walk slowly? How did your partner help you?”"
+   ]
+  },
+  "evSoru": [
+   "Why did Can decide to wait for Grandma?",
+   "How many benches were there on the way? What did they do at each bench?",
+   "How can you help one of your grown-ups?"
+  ],
+  "evEtk": {
+   "ad": "A Walk with Rest Stops",
+   "d": "Plan a short walk with one of your elders (grandma, grandpa or a neighbour). Your child finds the places to sit along the way and makes the rest plan, and carries a small bag."
+  },
+  "aileNotu": "Today we read “A Slow Walk with Grandma.” Can, who wants to run to the park, stops at the corner, looks back and notices that Grandma is tired; he carries her basket, asks her and makes a plan to rest at the benches, and keeps pace with her steps. At the rest stop, Grandma shows him the bird's nest she watches every spring and the hiding cat. At home, when walking with one of your elders, you can give your child a small job (carrying a bag, choosing a place to rest)."
+ },
+ "audio": {
+  "file": "audio/en/048-ninemle-yavas-yuruyus.mp3",
+  "hash": "d4e13d18",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13437,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2769,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3150,
+      7
+     ],
+     [
+      3269,
+      8
+     ],
+     [
+      3390,
+      9
+     ],
+     [
+      4310,
+      10
+     ],
+     [
+      4729,
+      11
+     ],
+     [
+      4949,
+      12
+     ],
+     [
+      5129,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      5649,
+      15
+     ],
+     [
+      6569,
+      16
+     ],
+     [
+      6910,
+      17
+     ],
+     [
+      7709,
+      18
+     ],
+     [
+      8509,
+      19
+     ],
+     [
+      9049,
+      20
+     ],
+     [
+      9249,
+      21
+     ],
+     [
+      10149,
+      22
+     ],
+     [
+      10310,
+      23
+     ],
+     [
+      10669,
+      24
+     ],
+     [
+      11069,
+      25
+     ],
+     [
+      11230,
+      26
+     ],
+     [
+      11390,
+      27
+     ],
+     [
+      12169,
+      28
+     ],
+     [
+      12369,
+      29
+     ],
+     [
+      12589,
+      30
+     ],
+     [
+      12749,
+      31
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 13737,
+    "d": 2135,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1569,
+      5
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 16173,
+    "d": 3309,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1249,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2650,
+      4
+     ],
+     [
+      2849,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19783,
+    "d": 16359,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2370,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      3009,
+      7
+     ],
+     [
+      3189,
+      8
+     ],
+     [
+      4009,
+      9
+     ],
+     [
+      4189,
+      10
+     ],
+     [
+      4529,
+      11
+     ],
+     [
+      4789,
+      12
+     ],
+     [
+      4870,
+      13
+     ],
+     [
+      4989,
+      14
+     ],
+     [
+      5910,
+      15
+     ],
+     [
+      6049,
+      16
+     ],
+     [
+      6309,
+      17
+     ],
+     [
+      7089,
+      18
+     ],
+     [
+      7529,
+      19
+     ],
+     [
+      7769,
+      20
+     ],
+     [
+      8069,
+      21
+     ],
+     [
+      8810,
+      22
+     ],
+     [
+      9150,
+      23
+     ],
+     [
+      9249,
+      24
+     ],
+     [
+      9449,
+      25
+     ],
+     [
+      10049,
+      26
+     ],
+     [
+      10949,
+      27
+     ],
+     [
+      11649,
+      28
+     ],
+     [
+      12689,
+      29
+     ],
+     [
+      13069,
+      30
+     ],
+     [
+      13430,
+      31
+     ],
+     [
+      13609,
+      32
+     ],
+     [
+      13729,
+      33
+     ],
+     [
+      14749,
+      34
+     ],
+     [
+      14869,
+      35
+     ],
+     [
+      15129,
+      36
+     ],
+     [
+      15669,
+      37
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 36443,
+    "d": 3653,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      889,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2229,
+      6
+     ],
+     [
+      2469,
+      7
+     ],
+     [
+      3009,
+      8
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 40397,
+    "d": 3956,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1119,
+      1
+     ],
+     [
+      2189,
+      2
+     ],
+     [
+      2370,
+      3
+     ],
+     [
+      2430,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      3430,
+      7
+     ]
+    ]
+   },
+   "p1q": {
+    "s": 44653,
+    "d": 1829,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      229,
+      2
+     ],
+     [
+      369,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      909,
+      5
+     ],
+     [
+      1089,
+      6
+     ],
+     [
+      1269,
+      7
+     ]
+    ]
+   },
+   "p1r": {
+    "s": 46783,
+    "d": 2019,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      1569,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 49102,
+    "d": 10631,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2130,
+      5
+     ],
+     [
+      2390,
+      6
+     ],
+     [
+      2549,
+      7
+     ],
+     [
+      3529,
+      8
+     ],
+     [
+      3849,
+      9
+     ],
+     [
+      4009,
+      10
+     ],
+     [
+      4390,
+      11
+     ],
+     [
+      4669,
+      12
+     ],
+     [
+      4789,
+      13
+     ],
+     [
+      5549,
+      14
+     ],
+     [
+      5769,
+      15
+     ],
+     [
+      5949,
+      16
+     ],
+     [
+      6049,
+      17
+     ],
+     [
+      6789,
+      18
+     ],
+     [
+      6989,
+      19
+     ],
+     [
+      7129,
+      20
+     ],
+     [
+      7569,
+      21
+     ],
+     [
+      7669,
+      22
+     ],
+     [
+      7809,
+      23
+     ],
+     [
+      8409,
+      24
+     ],
+     [
+      8669,
+      25
+     ],
+     [
+      8989,
+      26
+     ],
+     [
+      9230,
+      27
+     ],
+     [
+      9569,
+      28
+     ],
+     [
+      10089,
+      29
+     ],
+     [
+      10249,
+      30
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 60034,
+    "d": 2442,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      300,
+      1
+     ],
+     [
+      560,
+      2
+     ],
+     [
+      820,
+      3
+     ],
+     [
+      1466,
+      4
+     ],
+     [
+      1881,
+      5
+     ],
+     [
+      2141,
+      6
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 62777,
+    "d": 3033,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1430,
+      4
+     ],
+     [
+      1670,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2390,
+      7
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 66111,
+    "d": 3638,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3129,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 70049,
+    "d": 10970,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      2110,
+      6
+     ],
+     [
+      2329,
+      7
+     ],
+     [
+      2529,
+      8
+     ],
+     [
+      3209,
+      9
+     ],
+     [
+      3569,
+      10
+     ],
+     [
+      4430,
+      11
+     ],
+     [
+      4910,
+      12
+     ],
+     [
+      5749,
+      13
+     ],
+     [
+      6309,
+      14
+     ],
+     [
+      7049,
+      15
+     ],
+     [
+      7589,
+      16
+     ],
+     [
+      8529,
+      17
+     ],
+     [
+      8829,
+      18
+     ],
+     [
+      9169,
+      19
+     ],
+     [
+      9909,
+      20
+     ],
+     [
+      10390,
+      21
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 81320,
+    "d": 2316,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1809,
+      4
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 83936,
+    "d": 2702,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      2170,
+      6
+     ]
+    ]
+   },
+   "p4": {
+    "s": 86939,
+    "d": 12505,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      849,
+      4
+     ],
+     [
+      1170,
+      5
+     ],
+     [
+      2029,
+      6
+     ],
+     [
+      2529,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      2910,
+      9
+     ],
+     [
+      3989,
+      10
+     ],
+     [
+      4469,
+      11
+     ],
+     [
+      5289,
+      12
+     ],
+     [
+      5569,
+      13
+     ],
+     [
+      6069,
+      14
+     ],
+     [
+      6390,
+      15
+     ],
+     [
+      6689,
+      16
+     ],
+     [
+      6809,
+      17
+     ],
+     [
+      7769,
+      18
+     ],
+     [
+      8069,
+      19
+     ],
+     [
+      8329,
+      20
+     ],
+     [
+      8629,
+      21
+     ],
+     [
+      9369,
+      22
+     ],
+     [
+      9529,
+      23
+     ],
+     [
+      9829,
+      24
+     ],
+     [
+      9930,
+      25
+     ],
+     [
+      10069,
+      26
+     ],
+     [
+      10690,
+      27
+     ],
+     [
+      10869,
+      28
+     ],
+     [
+      11230,
+      29
+     ],
+     [
+      11730,
+      30
+     ],
+     [
+      11949,
+      31
+     ]
+    ]
+   },
+   "p4h-pamuk": {
+    "s": 99744,
+    "d": 886,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 100931,
+    "d": 2907,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      729,
+      4
+     ],
+     [
+      1609,
+      5
+     ],
+     [
+      2049,
+      6
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 104139,
+    "d": 2241,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1670,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 106680,
+    "d": 2320,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      1689,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 109301,
+    "d": 13662,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      909,
+      4
+     ],
+     [
+      1009,
+      5
+     ],
+     [
+      1129,
+      6
+     ],
+     [
+      2150,
+      7
+     ],
+     [
+      2630,
+      8
+     ],
+     [
+      2969,
+      9
+     ],
+     [
+      3229,
+      10
+     ],
+     [
+      3369,
+      11
+     ],
+     [
+      3969,
+      12
+     ],
+     [
+      4209,
+      13
+     ],
+     [
+      4410,
+      14
+     ],
+     [
+      4629,
+      15
+     ],
+     [
+      4749,
+      16
+     ],
+     [
+      5469,
+      17
+     ],
+     [
+      6809,
+      18
+     ],
+     [
+      7489,
+      19
+     ],
+     [
+      7669,
+      20
+     ],
+     [
+      7809,
+      21
+     ],
+     [
+      8009,
+      22
+     ],
+     [
+      8150,
+      23
+     ],
+     [
+      8430,
+      24
+     ],
+     [
+      8669,
+      25
+     ],
+     [
+      9129,
+      26
+     ],
+     [
+      9829,
+      27
+     ],
+     [
+      10369,
+      28
+     ],
+     [
+      11149,
+      29
+     ],
+     [
+      11449,
+      30
+     ],
+     [
+      11609,
+      31
+     ],
+     [
+      11930,
+      32
+     ],
+     [
+      12449,
+      33
+     ],
+     [
+      12850,
+      34
+     ],
+     [
+      13249,
+      35
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 123263,
+    "d": 2799,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2329,
+      6
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 126363,
+    "d": 2901,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1550,
+      5
+     ],
+     [
+      1849,
+      6
+     ],
+     [
+      2069,
+      7
+     ],
+     [
+      2489,
+      8
+     ]
+    ]
+   }
+  }
+ }
+}

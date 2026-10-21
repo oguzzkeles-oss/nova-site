@@ -1,0 +1,1758 @@
+{
+ "id": "071-ugurbocegi-benekleri",
+ "lang": "en",
+ "title": "The Ladybird's Spot Game",
+ "theme": "Part and whole: the hidden and visible parts of five",
+ "blurb": "Dotty the ladybird loves counting. She plays hide-and-seek with Flutter the butterfly using five black spot stones: if three stones can be seen, how many are hidden behind the bush?",
+ "voiceNames": {
+  "benek": "Dotty (ladybird)",
+  "pirpir": "Flutter (butterfly)"
+ },
+ "pages": [
+  {
+   "text": "The sun rose over the meadow. Dotty the ladybird stretched and counted her spots: “One, two, three, four, five, six, seven! I'm Dotty! I have seven spots, and I love counting!” Flutter, flutter! Flutter the butterfly came along. “Good morning, Dotty! Shall we play a game?”",
+   "hits": {
+    "benek": {
+     "say": "I'm Dotty! I love counting!"
+    },
+    "pirpir": {
+     "say": "Good morning, Dotty! Shall we play a game?"
+    }
+   },
+   "hint": "Touch Dotty!",
+   "ask": "What was the first thing Dotty did in the morning? What's the first thing you do when you wake up?"
+  },
+  {
+   "text": "Flutter found some black, perfectly round pebbles at the foot of a bush. “Look, Dotty, just like your spots! Let's make them our spot stones.” Dotty counted the stones one by one. How many spot stones were there? Exactly five!",
+   "hits": {
+    "benek": {
+     "say": "Just like my spots!"
+    },
+    "pirpir": {
+     "say": "These are our spot stones!"
+    }
+   },
+   "mech": {
+    "done": "There are five spot stones!",
+    "msg": "Five stones!"
+   },
+   "hint": "Count the stones one by one!",
+   "ask": "What do the stones look like? What spotty things are there around you?"
+  },
+  {
+   "text": "“Close your eyes!” said Flutter. Dotty shut her eyes tight. Rustle rustle! Flutter hid some of the stones behind the bush. Dotty opened her eyes. Only three stones were there! Her antennae wiggled and waggled. Where were the other stones? Dotty was so curious.",
+   "hits": {
+    "benek": {
+     "say": "How many stones are hidden, I wonder?"
+    },
+    "pirpir": {
+     "say": "Guess how many!"
+    }
+   },
+   "predict": {
+    "q": "How many stones do you think are hidden behind the bush?",
+    "res": "Three and two, or three and three? Let's count!",
+    "opts": [
+     {
+      "l": "Two stones"
+     },
+     {
+      "l": "Three stones"
+     }
+    ]
+   },
+   "hint": "Touch Dotty!",
+   "ask": "How is Dotty feeling? What do you do when you're curious?",
+   "cues": [
+    {
+     "w": 10,
+     "fx": "yaprak"
+    }
+   ]
+  },
+  {
+   "text": "Dotty looked at the stones. “Three stones here!” she said. Then she lifted her legs one by one: “Four, five!” Two legs stayed up in the air. “So two stones are hidden!” Go on, look behind the bush. Is it really two?",
+   "hits": {
+    "benek": {
+     "say": "Three here. Four, five!"
+    },
+    "pirpir": {
+     "say": "Let's see if you can guess!"
+    }
+   },
+   "mech": {
+    "done": "Three and two, that's five!",
+    "msg": "You found two stones!"
+   },
+   "hint": "Look behind the bush!",
+   "ask": "How did Dotty find the hidden stones? How would you count them?"
+  },
+  {
+   "text": "“Now it's my turn!” said Dotty. Flutter covered her eyes with her wings: “One, two, three…” Dotty carried four stones behind the daisy. Clickety-clack! One stone stayed outside. “…Nine, ten! Ready or not, here I come!”",
+   "hits": {
+    "benek": {
+     "say": "Now it's my turn!"
+    },
+    "pirpir": {
+     "say": "One, two, three… My eyes are closed!"
+    }
+   },
+   "mech": {
+    "done": "Four stones hidden, one stone outside!",
+    "msg": "You hid four stones!"
+   },
+   "hint": "Carry four stones to the daisy!",
+   "ask": "How many stones did Dotty hide? How many stones stayed outside?"
+  },
+  {
+   "text": "Flutter saw the one stone. “Hmm… Are ten stones hidden?” Dotty smiled: “Count with your legs!” Flutter counted: “One here… Two, three, four, five!” Four legs stayed up in the air. She looked behind the daisy. Exactly four stones! “Shall we play again tomorrow?” asked Flutter.",
+   "hits": {
+    "benek": {
+     "say": "Count with your legs, Flutter!"
+    },
+    "pirpir": {
+     "say": "One here… Two, three, four, five!"
+    }
+   },
+   "hint": "Look behind the daisy!",
+   "ask": "If one of five stones can be seen, how many are hidden? What did Dotty do when Flutter found it hard?",
+   "mech": {
+    "done": "One and four, that's five!",
+    "msg": "You found four stones!"
+   }
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.1 Counting rhythmically and by sight — counts forwards by ones from 1 to 20; finds how many objects or beings there are by counting; says how many objects there are (1–5) at a glance: counts Dotty's seven spots and the five spot stones one by one, counts rhythmically with Flutter “one, two… ten!”, and says three stones at a glance.",
+   "MAB.4 Making inferences about mathematical facts, events and objects — MAB.4.b Compares objects, facts and events: compares the visible stones (3, 1) with the whole (5) and works out how many are in the hidden part (3 and 2, 1 and 4); uses the “counting on” strategy.",
+   "SDB1.1 Self-awareness — introduces themselves like Dotty (“I'm Dotty! I have seven spots, and I love counting!”); notices how curiosity feels in the body (wiggling antennae) and names the feeling.",
+   "E3.5 Open-mindedness — listens to different guesses on the prediction page; lets go of the first guess (“Are ten stones hidden?”), tries a new way (counting on with legs/fingers) and checks the result by looking.",
+   "D4 Friendship — in the game of hiding and finding in turns, shows the way (“Count with your legs!”) instead of giving the answer when a friend finds it hard; suggests playing the game again tomorrow."
+  ],
+  "once": [
+   "Point to the ladybird on the cover: “This is Dotty. How many spots do you think she has on her back? Where do we see ladybirds?”",
+   "Hold five small objects (buttons, beans) in your palm; cover a few and play a quick trial game of “How many are hidden?”"
+  ],
+  "sirasi": [
+   "On page 1, count Dotty's seven spots together, rhythmically; show how Dotty introduces herself and ask: “What do you like counting?”",
+   "On page 2, point with your finger as the stones are touched one by one; stress that the last number said tells “how many”: “Five!”",
+   "On page 3, point to Dotty's antennae: “When Dotty is curious, her antennae wiggle. What wiggles on you?” Accept both answers in the prediction and ask: “Why did you think that?”",
+   "On page 4, count on with your fingers like Dotty: “Three here… four, five!” Show the two raised fingers and say “Two are hidden.”",
+   "On page 5, count aloud to ten together with Flutter, and at the end all say “Ready or not, here I come!”; then ask how many stones stayed outside.",
+   "On page 6, don't give the answer straight away; wait for your child to find it with their fingers, then check the guess together by touching the stones behind the daisy. To close: “When evening came, they put the spot stones back at the foot of the bush.”"
+  ],
+  "sonra": [
+   "Three of the five stones could be seen. How many were hidden? How did you find out?",
+   "How did Dotty introduce herself? What do you say when you introduce yourself?",
+   "What did Dotty do when Flutter found it hard? What do you do when a friend finds something hard?",
+   "Where should the spot stones go when the game is over? Why do we leave stones in nature where they are?"
+  ],
+  "sinif": {
+   "ad": "Dotty's Hide-and-Seek",
+   "sure": "15–20 min",
+   "materyal": "For each pair: 5 black buttons or pebbles painted in class (too big to put in the mouth; not collected from nature), a paper leaf or a cup, a ladybird body cut from red card",
+   "adim": [
+    "Children work in pairs; give each pair five “spots” and a paper leaf. First they count the spots together and arrange them on the card ladybird.",
+    "While one child closes their eyes and counts to ten, the other hides some spots under the leaf; the child who opens their eyes counts the visible ones, guesses the hidden ones, then lifts the leaf to check.",
+    "Swap roles. At the end, talk in the circle: “How many different ways did we hide five?”; draw the parts, such as 4 and 1, 3 and 2, as dots on the board."
+   ]
+  },
+  "evSoru": [
+   "How many spots did Dotty have?",
+   "What did the black stones Flutter found look like?",
+   "What way did Dotty show for finding the hidden stones?"
+  ],
+  "evEtk": {
+   "ad": "Hide-and-seek in your hands",
+   "d": "Share five small objects (beans, buttons) between your two hands and open one hand. Your child counts the visible ones and guesses how many are in the closed hand, then you open it and look together. Then swap roles; encourage counting on with fingers."
+  },
+  "aileNotu": "Today we read “The Ladybird's Spot Game.” Dotty the ladybird and Flutter the butterfly hide some of five black stones, work out how many are hidden, and then look to check their guesses. This game helps children notice that a number is made of parts (3 and 2, 1 and 4 = 5) and supports “counting on.” At home, you can play hide-and-seek in your hands with buttons or beans, and when the game is over, talk together about leaving stones in nature where they are."
+ },
+ "audio": {
+  "file": "audio/en/071-ugurbocegi-benekleri.mp3",
+  "hash": "c50b04a0",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 19988,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      1269,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2469,
+      7
+     ],
+     [
+      2609,
+      8
+     ],
+     [
+      3229,
+      9
+     ],
+     [
+      3789,
+      10
+     ],
+     [
+      3989,
+      11
+     ],
+     [
+      4370,
+      12
+     ],
+     [
+      4549,
+      13
+     ],
+     [
+      5689,
+      14
+     ],
+     [
+      6269,
+      15
+     ],
+     [
+      6949,
+      16
+     ],
+     [
+      7609,
+      17
+     ],
+     [
+      8230,
+      18
+     ],
+     [
+      8850,
+      19
+     ],
+     [
+      9409,
+      20
+     ],
+     [
+      10310,
+      21
+     ],
+     [
+      10589,
+      22
+     ],
+     [
+      11409,
+      23
+     ],
+     [
+      11509,
+      24
+     ],
+     [
+      11789,
+      25
+     ],
+     [
+      12169,
+      26
+     ],
+     [
+      12629,
+      27
+     ],
+     [
+      12829,
+      28
+     ],
+     [
+      13129,
+      29
+     ],
+     [
+      13529,
+      30
+     ],
+     [
+      14549,
+      31
+     ],
+     [
+      14930,
+      32
+     ],
+     [
+      15810,
+      33
+     ],
+     [
+      16190,
+      34
+     ],
+     [
+      16289,
+      35
+     ],
+     [
+      16789,
+      36
+     ],
+     [
+      17009,
+      37
+     ],
+     [
+      17829,
+      38
+     ],
+     [
+      18009,
+      39
+     ],
+     [
+      18350,
+      40
+     ],
+     [
+      18989,
+      41
+     ],
+     [
+      19169,
+      42
+     ],
+     [
+      19289,
+      43
+     ],
+     [
+      19489,
+      44
+     ],
+     [
+      19569,
+      45
+     ]
+    ]
+   },
+   "p0h-benek": {
+    "s": 20288,
+    "d": 2831,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2130,
+      4
+     ]
+    ]
+   },
+   "p0h-pirpir": {
+    "s": 23419,
+    "d": 2665,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2150,
+      7
+     ]
+    ]
+   },
+   "p1": {
+    "s": 26385,
+    "d": 14678,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      2729,
+      7
+     ],
+     [
+      2829,
+      8
+     ],
+     [
+      2969,
+      9
+     ],
+     [
+      3150,
+      10
+     ],
+     [
+      3269,
+      11
+     ],
+     [
+      3349,
+      12
+     ],
+     [
+      4209,
+      13
+     ],
+     [
+      4489,
+      14
+     ],
+     [
+      5089,
+      15
+     ],
+     [
+      5330,
+      16
+     ],
+     [
+      5489,
+      17
+     ],
+     [
+      5669,
+      18
+     ],
+     [
+      6529,
+      19
+     ],
+     [
+      6769,
+      20
+     ],
+     [
+      6930,
+      21
+     ],
+     [
+      7069,
+      22
+     ],
+     [
+      7249,
+      23
+     ],
+     [
+      7589,
+      24
+     ],
+     [
+      8629,
+      25
+     ],
+     [
+      8969,
+      26
+     ],
+     [
+      9289,
+      27
+     ],
+     [
+      9409,
+      28
+     ],
+     [
+      9969,
+      29
+     ],
+     [
+      10169,
+      30
+     ],
+     [
+      10449,
+      31
+     ],
+     [
+      11129,
+      32
+     ],
+     [
+      11270,
+      33
+     ],
+     [
+      11549,
+      34
+     ],
+     [
+      11850,
+      35
+     ],
+     [
+      12189,
+      36
+     ],
+     [
+      12390,
+      37
+     ],
+     [
+      13310,
+      38
+     ],
+     [
+      14029,
+      39
+     ]
+    ]
+   },
+   "p1h-benek": {
+    "s": 41363,
+    "d": 1315,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p1h-pirpir": {
+    "s": 42978,
+    "d": 2032,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      510,
+      1
+     ],
+     [
+      980,
+      2
+     ],
+     [
+      1251,
+      3
+     ],
+     [
+      1521,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 45311,
+    "d": 1927,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1229,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 47538,
+    "d": 17632,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3109,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      3589,
+      9
+     ],
+     [
+      4489,
+      10
+     ],
+     [
+      4850,
+      11
+     ],
+     [
+      5689,
+      12
+     ],
+     [
+      6069,
+      13
+     ],
+     [
+      6289,
+      14
+     ],
+     [
+      6469,
+      15
+     ],
+     [
+      6569,
+      16
+     ],
+     [
+      6729,
+      17
+     ],
+     [
+      7149,
+      18
+     ],
+     [
+      7469,
+      19
+     ],
+     [
+      7569,
+      20
+     ],
+     [
+      8509,
+      21
+     ],
+     [
+      8930,
+      22
+     ],
+     [
+      9209,
+      23
+     ],
+     [
+      9409,
+      24
+     ],
+     [
+      10169,
+      25
+     ],
+     [
+      10509,
+      26
+     ],
+     [
+      10890,
+      27
+     ],
+     [
+      11310,
+      28
+     ],
+     [
+      11469,
+      29
+     ],
+     [
+      12129,
+      30
+     ],
+     [
+      12289,
+      31
+     ],
+     [
+      12850,
+      32
+     ],
+     [
+      13270,
+      33
+     ],
+     [
+      13449,
+      34
+     ],
+     [
+      14289,
+      35
+     ],
+     [
+      14489,
+      36
+     ],
+     [
+      14649,
+      37
+     ],
+     [
+      14789,
+      38
+     ],
+     [
+      15049,
+      39
+     ],
+     [
+      15950,
+      40
+     ],
+     [
+      16270,
+      41
+     ],
+     [
+      16530,
+      42
+     ],
+     [
+      16829,
+      43
+     ]
+    ]
+   },
+   "p2h-benek": {
+    "s": 65471,
+    "d": 2675,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1229,
+      4
+     ],
+     [
+      2009,
+      5
+     ],
+     [
+      2130,
+      6
+     ]
+    ]
+   },
+   "p2h-pirpir": {
+    "s": 68447,
+    "d": 1157,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      327,
+      1
+     ],
+     [
+      615,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 69904,
+    "d": 2900,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      1469,
+      6
+     ],
+     [
+      1609,
+      7
+     ],
+     [
+      1889,
+      8
+     ],
+     [
+      2209,
+      9
+     ],
+     [
+      2329,
+      10
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 73105,
+    "d": 3726,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1729,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2130,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3249,
+      8
+     ]
+    ]
+   },
+   "p3": {
+    "s": 77132,
+    "d": 15871,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      849,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2670,
+      7
+     ],
+     [
+      3249,
+      8
+     ],
+     [
+      3449,
+      9
+     ],
+     [
+      4149,
+      10
+     ],
+     [
+      4410,
+      11
+     ],
+     [
+      4629,
+      12
+     ],
+     [
+      4930,
+      13
+     ],
+     [
+      5109,
+      14
+     ],
+     [
+      5569,
+      15
+     ],
+     [
+      5769,
+      16
+     ],
+     [
+      6049,
+      17
+     ],
+     [
+      6809,
+      18
+     ],
+     [
+      7809,
+      19
+     ],
+     [
+      8789,
+      20
+     ],
+     [
+      9029,
+      21
+     ],
+     [
+      9350,
+      22
+     ],
+     [
+      9609,
+      23
+     ],
+     [
+      9749,
+      24
+     ],
+     [
+      9829,
+      25
+     ],
+     [
+      9969,
+      26
+     ],
+     [
+      10709,
+      27
+     ],
+     [
+      11029,
+      28
+     ],
+     [
+      11369,
+      29
+     ],
+     [
+      11749,
+      30
+     ],
+     [
+      11909,
+      31
+     ],
+     [
+      12810,
+      32
+     ],
+     [
+      13029,
+      33
+     ],
+     [
+      13529,
+      34
+     ],
+     [
+      13709,
+      35
+     ],
+     [
+      13969,
+      36
+     ],
+     [
+      14069,
+      37
+     ],
+     [
+      14729,
+      38
+     ],
+     [
+      14869,
+      39
+     ],
+     [
+      15089,
+      40
+     ],
+     [
+      15469,
+      41
+     ]
+    ]
+   },
+   "p3h-benek": {
+    "s": 93303,
+    "d": 2618,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1269,
+      2
+     ],
+     [
+      2089,
+      3
+     ]
+    ]
+   },
+   "p3h-pirpir": {
+    "s": 96222,
+    "d": 1527,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      425,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      749,
+      4
+     ],
+     [
+      949,
+      5
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 98049,
+    "d": 2161,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 100511,
+    "d": 17010,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      2569,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      3509,
+      9
+     ],
+     [
+      3769,
+      10
+     ],
+     [
+      3930,
+      11
+     ],
+     [
+      4069,
+      12
+     ],
+     [
+      5109,
+      13
+     ],
+     [
+      5850,
+      14
+     ],
+     [
+      6709,
+      15
+     ],
+     [
+      7769,
+      16
+     ],
+     [
+      8109,
+      17
+     ],
+     [
+      8529,
+      18
+     ],
+     [
+      8869,
+      19
+     ],
+     [
+      9310,
+      20
+     ],
+     [
+      9649,
+      21
+     ],
+     [
+      9749,
+      22
+     ],
+     [
+      10569,
+      23
+     ],
+     [
+      11829,
+      24
+     ],
+     [
+      12049,
+      25
+     ],
+     [
+      12430,
+      26
+     ],
+     [
+      12709,
+      27
+     ],
+     [
+      13770,
+      28
+     ],
+     [
+      14449,
+      29
+     ],
+     [
+      15310,
+      30
+     ],
+     [
+      15549,
+      31
+     ],
+     [
+      15669,
+      32
+     ],
+     [
+      16110,
+      33
+     ],
+     [
+      16350,
+      34
+     ],
+     [
+      16509,
+      35
+     ]
+    ]
+   },
+   "p4h-benek": {
+    "s": 117822,
+    "d": 1451,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      382,
+      1
+     ],
+     [
+      725,
+      2
+     ],
+     [
+      1068,
+      3
+     ]
+    ]
+   },
+   "p4h-pirpir": {
+    "s": 119573,
+    "d": 4115,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1709,
+      2
+     ],
+     [
+      2809,
+      3
+     ],
+     [
+      3049,
+      4
+     ],
+     [
+      3289,
+      5
+     ],
+     [
+      3430,
+      6
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 123989,
+    "d": 2901,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2189,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 127191,
+    "d": 22001,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1150,
+      4
+     ],
+     [
+      2194,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      3489,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4249,
+      9
+     ],
+     [
+      5089,
+      10
+     ],
+     [
+      5449,
+      11
+     ],
+     [
+      6390,
+      12
+     ],
+     [
+      6649,
+      13
+     ],
+     [
+      6789,
+      14
+     ],
+     [
+      6949,
+      15
+     ],
+     [
+      7890,
+      16
+     ],
+     [
+      8249,
+      17
+     ],
+     [
+      9289,
+      18
+     ],
+     [
+      9549,
+      19
+     ],
+     [
+      10390,
+      20
+     ],
+     [
+      11169,
+      21
+     ],
+     [
+      11909,
+      22
+     ],
+     [
+      12589,
+      23
+     ],
+     [
+      13609,
+      24
+     ],
+     [
+      13890,
+      25
+     ],
+     [
+      14249,
+      26
+     ],
+     [
+      14569,
+      27
+     ],
+     [
+      14709,
+      28
+     ],
+     [
+      14789,
+      29
+     ],
+     [
+      14949,
+      30
+     ],
+     [
+      15649,
+      31
+     ],
+     [
+      15810,
+      32
+     ],
+     [
+      16049,
+      33
+     ],
+     [
+      16370,
+      34
+     ],
+     [
+      16489,
+      35
+     ],
+     [
+      17329,
+      36
+     ],
+     [
+      18129,
+      37
+     ],
+     [
+      18489,
+      38
+     ],
+     [
+      19589,
+      39
+     ],
+     [
+      19770,
+      40
+     ],
+     [
+      19909,
+      41
+     ],
+     [
+      20129,
+      42
+     ],
+     [
+      20389,
+      43
+     ],
+     [
+      21249,
+      44
+     ],
+     [
+      21530,
+      45
+     ]
+    ]
+   },
+   "p5h-benek": {
+    "s": 149492,
+    "d": 2115,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      361,
+      1
+     ],
+     [
+      682,
+      2
+     ],
+     [
+      1003,
+      3
+     ],
+     [
+      1515,
+      4
+     ]
+    ]
+   },
+   "p5h-pirpir": {
+    "s": 151907,
+    "d": 4194,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      2110,
+      3
+     ],
+     [
+      2890,
+      4
+     ],
+     [
+      3609,
+      5
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 156402,
+    "d": 2145,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,2285 @@
+{
+ "id": "025-gunaydin-iyi-geceler",
+ "lang": "en",
+ "title": "Good Morning, Good Night",
+ "theme": "Greetings for the time of day",
+ "blurb": "Sleepy Ali blurts out “Good night!” to his neighbour Granny Nazlı one morning and feels embarrassed. With Grandpa's secret, he finds the right greeting all day long: Look at the sky, find the greeting!",
+ "voiceNames": {
+  "ali": "Ali",
+  "dede": "Grandpa (Ali's grandpa)",
+  "nine": "Granny Nazlı (neighbour)",
+  "nur": "Miss Nur",
+  "aylin": "Dr Aylin (neighbour)",
+  "boncuk": "Buttons (Ali's dog)"
+ },
+ "pages": [
+  {
+   "text": "Morning came and the sun rose. Ali's eyes were still sleepy. He went out into the street with Grandpa and his dog Buttons. “Good morning, Ali!” said Granny Nazlı. Out it popped from Ali's mouth: “Good night!”",
+   "hits": {
+    "gunes": {
+     "say": "The sun has just risen, low in the sky. Good morning time!"
+    },
+    "ali": {
+     "say": "Good night, Granny Nazlı!"
+    },
+    "nine": {
+     "say": "Good morning, Ali! Good morning, Buttons!"
+    },
+    "dede": {
+     "say": "Good morning, Nazlı!"
+    },
+    "boncuk": {
+     "say": "Woof! Woof in the morning, woof at night!"
+    }
+   },
+   "hint": "Touch the sun!",
+   "ask": "Why did Ali get mixed up? What do we say when we meet someone in the morning?"
+  },
+  {
+   "text": "“Good night?” said Granny. “I've only just woken up!” Ali felt embarrassed. His cheeks went warm. He hid behind Grandpa. Granny smiled: “Good morning, Buttons! Good morning, Ali!”",
+   "hits": {
+    "ali": {
+     "say": "I got mixed up… My cheeks are warm."
+    },
+    "nine": {
+     "say": "That happens, sweetheart. Good morning!"
+    },
+    "dede": {
+     "say": "It's okay to feel shy, Ali. I'm right here."
+    },
+    "boncuk": {
+     "say": "Woof! Woof!"
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "Why did Ali hide? What do you do when you feel embarrassed?"
+  },
+  {
+   "text": "At midday they went to the market. Suddenly, Miss Nur appeared! Ali's heart went thump, thump. Grandpa whispered: “Look at the sky, find the greeting!”",
+   "hits": {
+    "gunes": {
+     "say": "The sun is right overhead. Good afternoon time!"
+    },
+    "ali": {
+     "say": "What if I get mixed up again?"
+    },
+    "dede": {
+     "say": "Look at the sky, find the greeting!"
+    },
+    "nur": {
+     "say": "Oh, look who I can see at the market!"
+    }
+   },
+   "predict": {
+    "q": "What do you think Ali will do?",
+    "res": "Both are good ideas! Let's see.",
+    "opts": [
+     {
+      "l": "Look at the sky"
+     },
+     {
+      "l": "Hug his grandpa"
+     }
+    ]
+   },
+   "hint": "Touch Ali!",
+   "ask": "Why did Ali's heart go thump, thump? What might Grandpa's secret mean?",
+   "cues": [
+    {
+     "w": 14,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "First Ali hugged his grandpa. Then he looked up: the sun was right overhead! One step, two steps, three steps. He looked his teacher in the eyes and smiled: “Good afternoon, Miss Nur!”",
+   "hits": {
+    "gunes": {
+     "say": "The sun is right overhead. Good afternoon time!"
+    },
+    "nur": {
+     "say": "Good afternoon, Ali! Have you come to the market?"
+    },
+    "dede": {
+     "say": "Step by step, that's the way!"
+    },
+    "ali": {
+     "say": "Good afternoon, Miss Nur!"
+    }
+   },
+   "mech": {
+    "say": "Step!",
+    "done": "“Good afternoon, Ali!” said Miss Nur.",
+    "msg": "You said hello!"
+   },
+   "hint": "Touch Ali to make him walk!",
+   "ask": "What did Ali do before he said hello? What do you say when you see your teacher?"
+  },
+  {
+   "text": "Evening came, the sun went down. Dr Aylin was coming home from work. This time Ali didn't hide. He smiled big and spoke first: “Good evening!”",
+   "hits": {
+    "fener": {
+     "say": "The street lamps are on. Good evening time!"
+    },
+    "aylin": {
+     "say": "Good evening, Ali! Good evening to Buttons too!"
+    },
+    "ali": {
+     "say": "Good evening, Dr Aylin!"
+    },
+    "dede": {
+     "say": "Welcome back, Aylin!"
+    },
+    "boncuk": {
+     "say": "Woof woof! Woof in the evening too!"
+    }
+   },
+   "hint": "Touch Dr Aylin!",
+   "ask": "How did you know it was evening? What do we say when we meet someone in the evening?"
+  },
+  {
+   "text": "At home, Grandpa asked: “Who did you say what to today?” Ali closed his eyes. The rising sun, the sun overhead, the setting sun… He remembered them all! You help too!",
+   "hits": {
+    "sabah": {
+     "say": "The sun is rising: Good morning!"
+    },
+    "ogle": {
+     "say": "The sun is right overhead: Good afternoon!"
+    },
+    "aksam": {
+     "say": "The street lamps are on: Good evening!"
+    },
+    "nine": {
+     "say": "Good morning, Ali!"
+    },
+    "nur": {
+     "say": "Good afternoon, Ali!"
+    },
+    "aylin": {
+     "say": "Good evening, Ali!"
+    },
+    "ali": {
+     "say": "Morning, midday, evening… I remember!"
+    }
+   },
+   "mech": {
+    "done": "A greeting for every time of day!",
+    "msg": "You found the greetings!"
+   },
+   "hint": "Touch the sky first!",
+   "ask": "What did he say to whom in the morning? At midday? In the evening? Who did you say hello to today?"
+  },
+  {
+   "text": "Night came and the moon came out. Ali counted the stars: one, two, three. “Good night, stars! Good night, Grandpa!” Sleepily he mumbled: “Tomorrow… Good morning, Granny Nazlı!”",
+   "hits": {
+    "ay": {
+     "say": "The moon is out. Good night time!"
+    },
+    "dede": {
+     "say": "Good night, Ali. Sweet dreams."
+    },
+    "ali": {
+     "say": "Tomorrow… Good morning, Granny Nazlı!"
+    },
+    "boncuk": {
+     "say": "Wooof… woof."
+    }
+   },
+   "mech": {
+    "done": "One, two, three… Good night, stars!",
+    "msg": "Good night to them all!"
+   },
+   "hint": "Count the stars!",
+   "ask": "Who do you say good night to before you sleep? Who will you say good morning to first tomorrow?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "TAKB.1 Managing the speaking process: begins and ends a conversation with suitable greeting expressions; makes eye contact. Ali looks his teacher in the eyes and says “Good afternoon!”, and closes the day with “Good night!”",
+   "SAB.1 Using the concept of time appropriately in daily life (SAB.1.a Describes what is done in the morning, at midday, in the evening and at night): walking the dog in the morning, the market at midday, coming home in the evening, sleep at night; chooses the greeting that fits the time using sky clues (the low sun in the morning, the sun overhead at midday, the lit street lamps in the evening, the moon at night). Matches the sample activity in the programme: day and night pictures are examined and time-appropriate greetings are practised.",
+   "skill: SBAB1 Perceiving Time and Chronological Thinking: puts the parts of the day in before-and-after order (the ordering game at the end of the story: morning, midday, night).",
+   "E2.4 Confidence: after an embarrassing moment, grows braver step by step; in the evening he is the one who greets first.",
+   "SDB2.1 Communication and D14 Respect: shows respect and warmth by greeting neighbours, teacher and family with suitable words."
+  ],
+  "once": [
+   "Read the title: “Good Morning, Good Night.” Ask: “Do we say these two things at the same time? When do we say each one?”",
+   "Look at the sky through the window or in a picture: “Is it morning, midday, evening or night now? How can you tell?”",
+   "Ask: “What do we say when we wake up in the morning? What do we say when we go to bed?” Listen to the answers without correcting them."
+  ],
+  "sirasi": [
+   "At the end of page 1, pause when Ali says “Good night!” Wait for the children's reaction and let them laugh: “Is that what we say in the morning?”",
+   "On page 2, name Ali's feeling: “Ali felt embarrassed, his cheeks went warm. What happens in your body when you feel embarrassed?” Touch Granny's and Grandpa's kind words.",
+   "On page 3, say that both options in the prediction question are good ideas. Repeat Grandpa's secret together: “Look at the sky, find the greeting!”",
+   "Compare the sun on pages 1 and 3: in the morning the sun is low, at midday it is right overhead.",
+   "On page 4, count Ali's steps together. Before the greeting, do the “look in their eyes, smile” action with the child, facing each other.",
+   "On page 6, let the child match each sky clue with the right person; at each match, say the greeting out loud together.",
+   "On the last page, count the stars one by one with a finger and whisper “good night”.",
+   "On the last page, say that “Good night” is said when going to bed or when leaving, and that we can also say “Hello” at any time of day.",
+   "Do not force shy children to say hello. Waving, smiling and making eye contact are greetings too; courage comes step by step."
+  ],
+  "sonra": [
+   "What did Ali say to Granny Nazlı in the morning? Why did he feel embarrassed afterwards?",
+   "What was Grandpa's secret? What do we say when the sun is low, when it is right overhead, when the street lamps are on and when the moon is out?",
+   "Why was Ali the first to say hello in the evening? What helped him?"
+  ],
+  "sinif": {
+   "ad": "Look at the Sky, Find the Greeting",
+   "sure": "15 min",
+   "materyal": "Four big sky cards (rising sun, sun overhead, setting sun with a lit street lamp, moon and stars); activity pictures showing four moments of the day (waking up, lunch, coming home, going to bed); string and pegs",
+   "adim": [
+    "Put the sky cards in the middle of the circle and teach the rhyme: “The sun is up: Good morning! The sun's overhead: Good afternoon! The sun's gone down: Good evening! The moon is out: Good night!”",
+    "Hold up one card. The children look their neighbour in the eyes, smile and say the greeting for that time; their friend replies with the same greeting.",
+    "Mix up the activity pictures. The children hang them on the string in before-and-after order and say the right greeting for each picture.",
+    "In the reflection circle, ask: “Who did you greet today, and how? What can you do when you feel embarrassed?” Offer shy children the option of waving."
+   ]
+  },
+  "evSoru": [
+   "Who did you say good morning to first at home this morning?",
+   "How do we know which greeting to use when we look at the sky?",
+   "What did Ali do when he felt embarrassed? What do you do when you feel embarrassed?"
+  ],
+  "evEtk": {
+   "ad": "Greetings from the window",
+   "d": "Over one day, look at the sky from the window with your child four times (morning, midday, evening, night). Talk about where the sun or the moon is, then give everyone at home the greeting for that time. At night, before bed, say “Good night” together to the moon, the stars and everyone at home from the window."
+  },
+  "aileNotu": "Today we read “Good Morning, Good Night.” Sleepy Ali says “Good night!” to his neighbour one morning and feels embarrassed; with his grandpa's secret, “Look at the sky, find the greeting!”, he finds the right greeting all day long and grows braver. The story supports time-appropriate greetings, making eye contact and the concepts of morning, midday, evening and night. At home, instead of pushing your child to say hello, set an example yourself; waving and smiling are a good start too. “Hello” can be said at any time of day; “Good night” is mostly said when saying goodbye at night or going to bed."
+ },
+ "audio": {
+  "file": "audio/en/025-gunaydin-iyi-geceler.mp3",
+  "hash": "a54e2ca7",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 13633,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1249,
+      4
+     ],
+     [
+      1589,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      3029,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      3569,
+      9
+     ],
+     [
+      3930,
+      10
+     ],
+     [
+      4890,
+      11
+     ],
+     [
+      5009,
+      12
+     ],
+     [
+      5209,
+      13
+     ],
+     [
+      5370,
+      14
+     ],
+     [
+      5569,
+      15
+     ],
+     [
+      5709,
+      16
+     ],
+     [
+      6029,
+      17
+     ],
+     [
+      6209,
+      18
+     ],
+     [
+      6769,
+      19
+     ],
+     [
+      6890,
+      20
+     ],
+     [
+      7069,
+      21
+     ],
+     [
+      7349,
+      22
+     ],
+     [
+      8249,
+      23
+     ],
+     [
+      8449,
+      24
+     ],
+     [
+      8829,
+      25
+     ],
+     [
+      9509,
+      26
+     ],
+     [
+      9730,
+      27
+     ],
+     [
+      10049,
+      28
+     ],
+     [
+      10989,
+      29
+     ],
+     [
+      11169,
+      30
+     ],
+     [
+      11329,
+      31
+     ],
+     [
+      11669,
+      32
+     ],
+     [
+      12029,
+      33
+     ],
+     [
+      12289,
+      34
+     ],
+     [
+      12989,
+      35
+     ],
+     [
+      13149,
+      36
+     ]
+    ]
+   },
+   "p0h-gunes": {
+    "s": 13933,
+    "d": 4381,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1889,
+      5
+     ],
+     [
+      2170,
+      6
+     ],
+     [
+      2269,
+      7
+     ],
+     [
+      2410,
+      8
+     ],
+     [
+      3309,
+      9
+     ],
+     [
+      3489,
+      10
+     ],
+     [
+      3849,
+      11
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 18615,
+    "d": 1428,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      292,
+      1
+     ],
+     [
+      695,
+      2
+     ],
+     [
+      1135,
+      3
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 20343,
+    "d": 2633,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 23277,
+    "d": 1186,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      569,
+      2
+     ]
+    ]
+   },
+   "p0h-boncuk": {
+    "s": 24763,
+    "d": 3109,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      669,
+      1
+     ],
+     [
+      957,
+      2
+     ],
+     [
+      1245,
+      3
+     ],
+     [
+      1533,
+      4
+     ],
+     [
+      2205,
+      5
+     ],
+     [
+      2493,
+      6
+     ],
+     [
+      2781,
+      7
+     ]
+    ]
+   },
+   "p1": {
+    "s": 28173,
+    "d": 12752,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      2689,
+      7
+     ],
+     [
+      3049,
+      8
+     ],
+     [
+      3910,
+      9
+     ],
+     [
+      4229,
+      10
+     ],
+     [
+      4489,
+      11
+     ],
+     [
+      5569,
+      12
+     ],
+     [
+      5850,
+      13
+     ],
+     [
+      6189,
+      14
+     ],
+     [
+      6449,
+      15
+     ],
+     [
+      7329,
+      16
+     ],
+     [
+      7529,
+      17
+     ],
+     [
+      7769,
+      18
+     ],
+     [
+      8109,
+      19
+     ],
+     [
+      9129,
+      20
+     ],
+     [
+      9529,
+      21
+     ],
+     [
+      10409,
+      22
+     ],
+     [
+      10609,
+      23
+     ],
+     [
+      10989,
+      24
+     ],
+     [
+      11749,
+      25
+     ],
+     [
+      11949,
+      26
+     ],
+     [
+      12310,
+      27
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 41225,
+    "d": 3042,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1949,
+      5
+     ],
+     [
+      2289,
+      6
+     ],
+     [
+      2469,
+      7
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 44568,
+    "d": 2550,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p1h-dede": {
+    "s": 47418,
+    "d": 3397,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1089,
+      4
+     ],
+     [
+      1609,
+      5
+     ],
+     [
+      2529,
+      6
+     ],
+     [
+      2729,
+      7
+     ],
+     [
+      2949,
+      8
+     ]
+    ]
+   },
+   "p1h-boncuk": {
+    "s": 51116,
+    "d": 1159,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      780,
+      1
+     ]
+    ]
+   },
+   "p2": {
+    "s": 52575,
+    "d": 10320,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1170,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      2170,
+      7
+     ],
+     [
+      2849,
+      8
+     ],
+     [
+      3150,
+      9
+     ],
+     [
+      3449,
+      10
+     ],
+     [
+      4449,
+      11
+     ],
+     [
+      4810,
+      12
+     ],
+     [
+      5109,
+      13
+     ],
+     [
+      5430,
+      14
+     ],
+     [
+      5870,
+      15
+     ],
+     [
+      6729,
+      16
+     ],
+     [
+      7169,
+      17
+     ],
+     [
+      8009,
+      18
+     ],
+     [
+      8190,
+      19
+     ],
+     [
+      8289,
+      20
+     ],
+     [
+      8449,
+      21
+     ],
+     [
+      9289,
+      22
+     ],
+     [
+      9454,
+      23
+     ],
+     [
+      9690,
+      24
+     ]
+    ]
+   },
+   "p2h-gunes": {
+    "s": 63196,
+    "d": 3193,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      930,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2209,
+      6
+     ],
+     [
+      2670,
+      7
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 66690,
+    "d": 1724,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      469,
+      3
+     ],
+     [
+      670,
+      4
+     ],
+     [
+      1030,
+      5
+     ],
+     [
+      1150,
+      6
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 68714,
+    "d": 2533,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      490,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1909,
+      6
+     ]
+    ]
+   },
+   "p2h-nur": {
+    "s": 71547,
+    "d": 2348,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1329,
+      5
+     ],
+     [
+      1469,
+      6
+     ],
+     [
+      1569,
+      7
+     ],
+     [
+      1689,
+      8
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 74196,
+    "d": 1613,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      210,
+      2
+     ],
+     [
+      349,
+      3
+     ],
+     [
+      689,
+      4
+     ],
+     [
+      969,
+      5
+     ],
+     [
+      1189,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 76109,
+    "d": 2413,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1989,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 78822,
+    "d": 12943,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      2609,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3489,
+      9
+     ],
+     [
+      3729,
+      10
+     ],
+     [
+      4029,
+      11
+     ],
+     [
+      4310,
+      12
+     ],
+     [
+      4569,
+      13
+     ],
+     [
+      5749,
+      14
+     ],
+     [
+      5969,
+      15
+     ],
+     [
+      6689,
+      16
+     ],
+     [
+      6969,
+      17
+     ],
+     [
+      7729,
+      18
+     ],
+     [
+      8069,
+      19
+     ],
+     [
+      8989,
+      20
+     ],
+     [
+      9129,
+      21
+     ],
+     [
+      9369,
+      22
+     ],
+     [
+      9529,
+      23
+     ],
+     [
+      9869,
+      24
+     ],
+     [
+      9969,
+      25
+     ],
+     [
+      10149,
+      26
+     ],
+     [
+      10469,
+      27
+     ],
+     [
+      10690,
+      28
+     ],
+     [
+      11569,
+      29
+     ],
+     [
+      11770,
+      30
+     ],
+     [
+      12270,
+      31
+     ],
+     [
+      12536,
+      32
+     ]
+    ]
+   },
+   "p3h-gunes": {
+    "s": 92065,
+    "d": 3109,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1969,
+      5
+     ],
+     [
+      2150,
+      6
+     ],
+     [
+      2609,
+      7
+     ]
+    ]
+   },
+   "p3h-nur": {
+    "s": 95475,
+    "d": 2730,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1749,
+      5
+     ],
+     [
+      1930,
+      6
+     ],
+     [
+      2029,
+      7
+     ],
+     [
+      2150,
+      8
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 98505,
+    "d": 2368,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      1949,
+      5
+     ]
+    ]
+   },
+   "p3h-ali": {
+    "s": 101174,
+    "d": 1607,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 103082,
+    "d": 2450,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p3ms": {
+    "s": 105832,
+    "d": 655,
+    "w": [
+     [
+      70,
+      0
+     ]
+    ]
+   },
+   "p4": {
+    "s": 106787,
+    "d": 10040,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1209,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      2529,
+      6
+     ],
+     [
+      2910,
+      7
+     ],
+     [
+      3229,
+      8
+     ],
+     [
+      3390,
+      9
+     ],
+     [
+      3650,
+      10
+     ],
+     [
+      3849,
+      11
+     ],
+     [
+      4069,
+      12
+     ],
+     [
+      4850,
+      13
+     ],
+     [
+      5089,
+      14
+     ],
+     [
+      5629,
+      15
+     ],
+     [
+      5870,
+      16
+     ],
+     [
+      6209,
+      17
+     ],
+     [
+      6870,
+      18
+     ],
+     [
+      7069,
+      19
+     ],
+     [
+      7549,
+      20
+     ],
+     [
+      7930,
+      21
+     ],
+     [
+      8129,
+      22
+     ],
+     [
+      8489,
+      23
+     ],
+     [
+      9289,
+      24
+     ],
+     [
+      9449,
+      25
+     ]
+    ]
+   },
+   "p4h-fener": {
+    "s": 117128,
+    "d": 2592,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      849,
+      4
+     ],
+     [
+      1449,
+      5
+     ],
+     [
+      1609,
+      6
+     ],
+     [
+      1969,
+      7
+     ]
+    ]
+   },
+   "p4h-aylin": {
+    "s": 120021,
+    "d": 3021,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2029,
+      6
+     ],
+     [
+      2489,
+      7
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 123342,
+    "d": 1647,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      269,
+      1
+     ],
+     [
+      976,
+      2
+     ],
+     [
+      1206,
+      3
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 125290,
+    "d": 1458,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1009,
+      2
+     ]
+    ]
+   },
+   "p4h-boncuk": {
+    "s": 127048,
+    "d": 2838,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1129,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1769,
+      5
+     ],
+     [
+      2249,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 130187,
+    "d": 12815,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1269,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2189,
+      5
+     ],
+     [
+      2329,
+      6
+     ],
+     [
+      2509,
+      7
+     ],
+     [
+      2769,
+      8
+     ],
+     [
+      3029,
+      9
+     ],
+     [
+      3289,
+      10
+     ],
+     [
+      4229,
+      11
+     ],
+     [
+      4589,
+      12
+     ],
+     [
+      4989,
+      13
+     ],
+     [
+      5189,
+      14
+     ],
+     [
+      6049,
+      15
+     ],
+     [
+      6209,
+      16
+     ],
+     [
+      6709,
+      17
+     ],
+     [
+      7349,
+      18
+     ],
+     [
+      7509,
+      19
+     ],
+     [
+      7729,
+      20
+     ],
+     [
+      8629,
+      21
+     ],
+     [
+      8850,
+      22
+     ],
+     [
+      9270,
+      23
+     ],
+     [
+      10109,
+      24
+     ],
+     [
+      10289,
+      25
+     ],
+     [
+      10730,
+      26
+     ],
+     [
+      10969,
+      27
+     ],
+     [
+      11810,
+      28
+     ],
+     [
+      12049,
+      29
+     ],
+     [
+      12329,
+      30
+     ]
+    ]
+   },
+   "p5h-sabah": {
+    "s": 143302,
+    "d": 2284,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1729,
+      5
+     ]
+    ]
+   },
+   "p5h-ogle": {
+    "s": 145887,
+    "d": 2929,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2209,
+      6
+     ]
+    ]
+   },
+   "p5h-aksam": {
+    "s": 149116,
+    "d": 2317,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      829,
+      4
+     ],
+     [
+      1629,
+      5
+     ],
+     [
+      1790,
+      6
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 151734,
+    "d": 1122,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      629,
+      2
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 153156,
+    "d": 1230,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      749,
+      2
+     ]
+    ]
+   },
+   "p5h-aylin": {
+    "s": 154687,
+    "d": 1179,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      810,
+      2
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 156167,
+    "d": 3542,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      723,
+      1
+     ],
+     [
+      1407,
+      2
+     ],
+     [
+      2481,
+      3
+     ],
+     [
+      2774,
+      4
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 160009,
+    "d": 2092,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1469,
+      5
+     ],
+     [
+      1609,
+      6
+     ]
+    ]
+   },
+   "p6": {
+    "s": 162402,
+    "d": 13897,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1489,
+      5
+     ],
+     [
+      1769,
+      6
+     ],
+     [
+      2549,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3249,
+      9
+     ],
+     [
+      3390,
+      10
+     ],
+     [
+      4509,
+      11
+     ],
+     [
+      5129,
+      12
+     ],
+     [
+      5949,
+      13
+     ],
+     [
+      6930,
+      14
+     ],
+     [
+      7089,
+      15
+     ],
+     [
+      7329,
+      16
+     ],
+     [
+      8150,
+      17
+     ],
+     [
+      8310,
+      18
+     ],
+     [
+      8489,
+      19
+     ],
+     [
+      9549,
+      20
+     ],
+     [
+      10149,
+      21
+     ],
+     [
+      10289,
+      22
+     ],
+     [
+      11129,
+      23
+     ],
+     [
+      12329,
+      24
+     ],
+     [
+      12549,
+      25
+     ],
+     [
+      12909,
+      26
+     ],
+     [
+      13509,
+      27
+     ]
+    ]
+   },
+   "p6h-ay": {
+    "s": 176599,
+    "d": 2194,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      409,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1430,
+      5
+     ],
+     [
+      1670,
+      6
+     ]
+    ]
+   },
+   "p6h-dede": {
+    "s": 179094,
+    "d": 2112,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1489,
+      4
+     ]
+    ]
+   },
+   "p6h-ali": {
+    "s": 181507,
+    "d": 2622,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      996,
+      1
+     ],
+     [
+      1257,
+      2
+     ],
+     [
+      1866,
+      3
+     ],
+     [
+      2321,
+      4
+     ]
+    ]
+   },
+   "p6h-boncuk": {
+    "s": 184430,
+    "d": 1455,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      983,
+      1
+     ]
+    ]
+   },
+   "p6m": {
+    "s": 186185,
+    "d": 3791,
+    "w": [
+     [
+      109,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1629,
+      2
+     ],
+     [
+      2609,
+      3
+     ],
+     [
+      2789,
+      4
+     ],
+     [
+      3069,
+      5
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1702 @@
+{
+ "id": "051-deniz-dogruyu-soyledi",
+ "n": 51,
+ "title": "Deniz Doğruyu Söyledi",
+ "age": "60-72",
+ "area": "Sosyal",
+ "theme": "Dürüstlük ve sorumluluk",
+ "values": [
+  "D6 Dürüstlük",
+  "D16 Sorumluluk"
+ ],
+ "sdb": "SDB3.3 Sorumlu Karar Verme",
+ "min": 5,
+ "blurb": "Deniz'in topu dedesinin çiçeklerine çarpar ve kimse görmez. Topu saklamak aklından geçer; ama karnındaki düğüm büyüdükçe doğruyu söylemeye karar verir. Dedesiyle çiçekleri doğrulturlar, kırılanın yerine yeni bir tohum ekerler.",
+ "codes": {
+  "maarif": [
+   "TADB.2 Dinledikleri/izledikleri materyaller ile ilgili yeni anlamlar oluşturabilme (materyallere ilişkin çıkarım yapar; materyallerdeki bilgilerle günlük hayatı arasında ilişki kurar)",
+   "TAKB.1 Konuşma sürecini yönetebilme (göz teması kurar; söz sırasını bekler)",
+   "E2.2 Sorumluluk",
+   "SDB3.3 Sorumlu Karar Verme",
+   "D6 Dürüstlük",
+   "D16 Sorumluluk"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "deniz": "cocuk-kiz",
+  "dede": "dede"
+ },
+ "voiceNames": {
+  "deniz": "Deniz",
+  "dede": "Dede"
+ },
+ "pages": [
+  {
+   "text": "Bahar sabahıydı. Dede bahçede çiçeklerini suluyordu. Deniz topuyla geldi: güp, güp, güp! “Dede, bak! Topum ne yüksek zıplıyor!” Dede gülümsedi. “Topu çimde oynat, Denizciğim. Çiçeklerim daha yavrucuk.”",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "cast": [
+     {
+      "k": "dede",
+      "x": 70,
+      "y": 236,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "sulama-kabi",
+      "holdS": 0.75,
+      "hit": "dede"
+     },
+     {
+      "k": "deniz",
+      "x": 318,
+      "y": 230,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "top",
+      "flip": true,
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 122,
+      "y": 214,
+      "s": 0.8,
+      "hit": "f1",
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "flower",
+      "x": 152,
+      "y": 214,
+      "s": 0.8,
+      "hit": "f2",
+      "color": "#F6C742"
+     },
+     {
+      "k": "flower",
+      "x": 182,
+      "y": 214,
+      "s": 0.8,
+      "hit": "f3",
+      "color": "#9B7BE0"
+     }
+    ],
+    "can": false
+   },
+   "hits": {
+    "deniz": {
+     "say": "Güp, güp, güp! Bak dede!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "dede": {
+     "say": "Topu çimde oynat, Denizciğim.",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "drip"
+    },
+    "f": {
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "deniz",
+    "Deniz'e dokun!"
+   ],
+   "ask": "Dede çiçekleri neden suluyor? Sizin evde bitkilere kim bakıyor?"
+  },
+  {
+   "text": "Deniz topa bir tekme attı. Top yükseldi, yükseldi… Pat! Çiçeklerin üstüne düştü. İki çiçek boynunu büktü. Mor çiçeğin sapı çıt diye kırıldı! Deniz dondu kaldı. Dede uzaktaydı. Kimse görmemişti.",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 300,
+      "y": 232,
+      "s": 1.05,
+      "mood": "scared",
+      "pose": "open",
+      "flip": true,
+      "hit": "deniz"
+     },
+     {
+      "k": "dede",
+      "x": 208,
+      "y": 162,
+      "s": 0.55,
+      "mood": "calm",
+      "pose": "walk",
+      "flip": true,
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 112,
+      "y": 232,
+      "s": 0.95,
+      "hit": "f1",
+      "state": "off",
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "flower",
+      "x": 152,
+      "y": 236,
+      "s": 1.0,
+      "hit": "f2",
+      "state": "off",
+      "color": "#F6C742"
+     },
+     {
+      "k": "flower",
+      "x": 192,
+      "y": 232,
+      "s": 0.95,
+      "hit": "f3",
+      "state": "off",
+      "color": "#9B7BE0"
+     },
+     {
+      "k": "top",
+      "x": 232,
+      "y": 234,
+      "s": 1.1,
+      "hit": "top"
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "f1",
+     "f2",
+     "f3"
+    ],
+    "done": "Üç çiçek de ezildi.",
+    "msg": "Üç çiçek!"
+   },
+   "hits": {
+    "deniz": {
+     "say": "Eyvah! Çiçekler!",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "top": {
+     "anim": "jump",
+     "fx": "thump"
+    },
+    "dede": {
+     "anim": "boing",
+     "fx": "step"
+    }
+   },
+   "hint": [
+    "f1",
+    "Ezilen çiçekleri say!"
+   ],
+   "ask": "Kaç çiçek ezildi? Deniz şimdi ne hissediyor olabilir?"
+  },
+  {
+   "text": "Deniz'in kalbi güm güm attı. Karnında kocaman bir düğüm vardı. “Kimse görmedi,” diye düşündü. “Topu saklasam mı? Yoksa dedeme mi söylesem?”",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 180,
+      "y": 234,
+      "s": 1.35,
+      "mood": "sorry",
+      "pose": "stand",
+      "hit": "deniz"
+     }
+    ],
+    "props": [
+     {
+      "k": "heart",
+      "x": 246,
+      "y": 120,
+      "s": 1.2,
+      "hit": "kalp"
+     },
+     {
+      "k": "qmark",
+      "x": 128,
+      "y": 82
+     },
+     {
+      "k": "top",
+      "x": 270,
+      "y": 234,
+      "s": 1.2,
+      "hit": "top"
+     },
+     {
+      "k": "flower",
+      "x": 316,
+      "y": 228,
+      "s": 0.8,
+      "state": "off",
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "flower",
+      "x": 344,
+      "y": 232,
+      "s": 0.85,
+      "state": "off",
+      "color": "#F6C742"
+     }
+    ]
+   },
+   "hits": {
+    "kalp": {
+     "anim": "boing",
+     "fx": "thump"
+    },
+    "deniz": {
+     "say": "Ne yapsam?",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "top": {
+     "anim": "wiggle",
+     "fx": "boing"
+    }
+   },
+   "predict": {
+    "q": "Sence Deniz ne yapacak?",
+    "res": "Hadi, görelim!",
+    "opts": [
+     {
+      "l": "Topu saklar",
+      "scene": {
+       "set": "bostan",
+       "season": "spring",
+       "time": "day",
+       "cast": [
+        {
+         "k": "deniz",
+         "x": 290,
+         "y": 230,
+         "s": 1.1,
+         "mood": "sorry",
+         "pose": "hold",
+         "hold": "top",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "flower",
+         "x": 90,
+         "y": 228,
+         "s": 0.85,
+         "state": "off",
+         "color": "#EE6F9C"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Dedesine söyler",
+      "scene": {
+       "set": "bostan",
+       "season": "spring",
+       "time": "day",
+       "cast": [
+        {
+         "k": "deniz",
+         "x": 130,
+         "y": 230,
+         "s": 1.05,
+         "mood": "sorry",
+         "pose": "walk"
+        },
+        {
+         "k": "dede",
+         "x": 290,
+         "y": 226,
+         "s": 1.0,
+         "mood": "calm",
+         "pose": "stand",
+         "flip": true
+        }
+       ],
+       "props": []
+      }
+     }
+    ]
+   },
+   "hint": [
+    "kalp",
+    "Kalbini dinle!"
+   ],
+   "ask": "Sen bir şeyi yanlışlıkla bozunca içinde neler olur? Karnın, kalbin ne yapar?"
+  },
+  {
+   "text": "Deniz topu fıçının arkasına sakladı. Ama düğüm gitmedi, büyüdü de büyüdü. Deniz derin bir nefes aldı. Bir… iki… üç… Sonra topu sakladığı yerden geri aldı.",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 290,
+      "y": 232,
+      "s": 1.15,
+      "mood": "sorry",
+      "pose": "stand",
+      "hit": "deniz",
+      "turn": 0.7
+     }
+    ],
+    "props": [
+     {
+      "k": "top",
+      "x": 382,
+      "y": 226,
+      "s": 1.0,
+      "peek": true,
+      "hit": "top"
+     },
+     {
+      "k": "heart",
+      "x": 240,
+      "y": 120,
+      "s": 0.9,
+      "hit": "kalp"
+     },
+     {
+      "k": "flower",
+      "x": 90,
+      "y": 228,
+      "s": 0.85,
+      "state": "off",
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "flower",
+      "x": 126,
+      "y": 232,
+      "s": 0.9,
+      "state": "off",
+      "color": "#F6C742"
+     }
+    ]
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "top"
+    ],
+    "done": "Deniz topu aldı. Artık hazır.",
+    "msg": "Topu buldun!"
+   },
+   "hits": {
+    "deniz": {
+     "say": "Bir… iki… üç… Tamam.",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "kalp": {
+     "anim": "boing",
+     "fx": "thump"
+    }
+   },
+   "hint": [
+    "top",
+    "Saklanan topu bul!"
+   ],
+   "ask": "Deniz topu neden geri aldı? Düğüm neden büyüdü sence?"
+  },
+  {
+   "text": "Deniz dedesine koştu. Gözlerine baktı. “Dede, topa tekme attım, çiçeklerine düştü. Özür dilerim.” Dede Deniz'e sarıldı. “Doğruyu söylediğin için teşekkür ederim.” Sonra göz kırptı. “Demek çiçeklerim de top oynamak istemiş! Hadi, birlikte düzeltelim.” Çiçekleri tek tek doğrulttular.",
+   "scene": {
+    "set": "bostan",
+    "season": "spring",
+    "time": "day",
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 150,
+      "y": 234,
+      "s": 1.0,
+      "mood": "shy",
+      "pose": "stand",
+      "hit": "deniz"
+     },
+     {
+      "k": "dede",
+      "x": 205,
+      "y": 226,
+      "s": 1.05,
+      "mood": "laugh",
+      "pose": "point",
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "flower",
+      "x": 262,
+      "y": 232,
+      "s": 1.05,
+      "hit": "f1",
+      "state": "off",
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "flower",
+      "x": 312,
+      "y": 234,
+      "s": 1.1,
+      "hit": "f2",
+      "state": "off",
+      "color": "#F6C742"
+     }
+    ]
+   },
+   "mech": {
+    "type": "restore",
+    "keys": [
+     "f1",
+     "f2"
+    ],
+    "done": "İki çiçek doğruldu! Mor çiçek yok ama.",
+    "msg": "Çiçekler doğruldu!"
+   },
+   "hits": {
+    "dede": {
+     "say": "Çiçeklerim de top oynamak istemiş!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "deniz": {
+     "say": "Özür dilerim, dede.",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "f1",
+    "Çiçekleri doğrult!"
+   ],
+   "ask": "Deniz dedesine ne dedi? Sen özür dilerken neler söylersin?"
+  },
+  {
+   "text": "Mor çiçek için Deniz'in aklına bir fikir geldi. Saksıya bir tohum ekti. Her gün suladı. Filiz çıktı, boy attı… Bir sabah kocaman bir ayçiçeği açtı! Ayçiçeği gülümsedi. Deniz de gülümsedi.",
+   "scene": {
+    "set": "bostan",
+    "season": "summer",
+    "time": "day",
+    "can": false,
+    "cast": [
+     {
+      "k": "deniz",
+      "x": 150,
+      "y": 236,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "point",
+      "hold": "sulama-kabi",
+      "holdS": 0.7,
+      "hit": "deniz"
+     },
+     {
+      "k": "dede",
+      "x": 322,
+      "y": 226,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "stand",
+      "flip": true,
+      "hit": "dede"
+     }
+    ],
+    "props": [
+     {
+      "k": "tohum",
+      "x": 214,
+      "y": 212,
+      "s": 0.9,
+      "pot": true,
+      "potColor": "#D9774A",
+      "hit": "tohum"
+     },
+     {
+      "k": "flower",
+      "x": 46,
+      "y": 226,
+      "s": 0.72,
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "flower",
+      "x": 80,
+      "y": 232,
+      "s": 0.75,
+      "color": "#F6C742"
+     }
+    ]
+   },
+   "mech": {
+    "type": "grow",
+    "key": "tohum",
+    "done": "Kocaman bir ayçiçeği! Deniz'in içi tüy gibi.",
+    "msg": "Ayçiçeği açtı!"
+   },
+   "hits": {
+    "deniz": {
+     "say": "Dede, çiçeğimiz bana gülüyor!",
+     "voice": "deniz",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "dede": {
+     "say": "Bak, bana değil, sana gülüyor!",
+     "voice": "dede",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "tohum",
+    "Her gün sula: dokun!"
+   ],
+   "ask": "Doğruyu söyledikten sonra Deniz nasıl hissetti? Sen hiç böyle hissettin mi?"
+  }
+ ],
+ "order": [
+  1,
+  4,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "TADB.2 — Dinledikleri/izledikleri materyaller ile ilgili yeni anlamlar oluşturabilme: Deniz'in topu neden sakladığına ve neden geri aldığına ilişkin çıkarım yapar; masaldaki durumu kendi günlük hayatıyla ilişkilendirir (“Ben de bir şeyi yanlışlıkla bozduğumda…”).",
+   "TAKB.1 — Konuşma sürecini yönetebilme: Deniz gibi karşısındakinin gözüne bakarak (göz teması kurar) olanı anlatır; sohbet sırasında söz sırasını bekler.",
+   "SDB3.3 Sorumlu Karar Verme — “Topu saklamak” ile “dedeye söylemek” arasında düşünür, sonuçlarını tahmin eder ve doğruyu söylemeyi seçer.",
+   "E2.2 Sorumluluk — Kazayı üstlenir; eğilen çiçekleri doğrultmaya ve kırılanın yerine tohum ekip her gün sulamaya katılır.",
+   "D6 Dürüstlük — Kimse görmese de olanı dürüstçe anlatır; doğruyu söyleyince içinin hafiflediğini fark eder."
+  ],
+  "once": [
+   "Kapaktaki topu ve çiçekleri gösterin: “Bu masalda top ile çiçeklerin başına ne gelebilir?” diye sorun.",
+   "“Hiç bir şeyi yanlışlıkla bozdun mu? O zaman ne hissettin?” diye kısa bir sohbet açın; her cevabı yargılamadan dinleyin."
+  ],
+  "sirasi": [
+   "2. sayfada ezilen çiçekleri birlikte sayın: bir, iki, üç. Mor çiçeğin kırıldığını fark edin.",
+   "3. sayfadaki tahmin sorusunda iki cevabı da kabul edin; “Neden öyle düşündün?” diye sorun. Kalbe dokunup “güm güm” sesini birlikte taklit edin.",
+   "4. sayfada Deniz'le birlikte derin nefes alın: bir… iki… üç…; sonra saklanan topu çocuk bulsun.",
+   "5. sayfada Deniz'in dedesinin gözüne baktığını gösterin; dedenin şakasına birlikte gülün, iki çiçeği tek tek doğrultun.",
+   "6. sayfada tohuma dokunarak “Her gün sula” deyin; filiz, fide, çiçek aşamalarını birlikte sayın ve Deniz'in yüzündeki ifadeyi konuşun."
+  ],
+  "sonra": [
+   "Deniz topu sakladığında karnındaki düğüm ne oldu? Neden?",
+   "Dede, Deniz doğruyu söyleyince ne yaptı? Kızdı mı?",
+   "Bir çiçek kırılmıştı. Deniz bunu nasıl telafi etti?"
+  ],
+  "sinif": {
+   "ad": "Düğüm Çözme Çemberi",
+   "sure": "20 dk",
+   "materyal": "Bir ip parçası, bir saksı, toprak, ayçiçeği ya da fasulye tohumu, sulama kabı",
+   "adim": [
+    "Çember olun. Öğretmen ipe bir düğüm atsın: “Deniz'in karnındaki düğüm böyleydi.” Çocuklar düğüm olunca bedende neler hissedildiğini söylesin.",
+    "İp elden ele dolaşsın; ipi tutan çocuk göz teması kurarak “Bir keresinde … bozmuştum, … dedim” diye kısa bir anısını anlatsın, diğerleri söz sırasını beklesin. İstemeyen “pas” diyebilir.",
+    "Sonunda düğümü birlikte çözün ve sınıfça bir saksıya tohum ekin. Her gün sulama sorumlusunu sırayla seçin."
+   ]
+  },
+  "evSoru": [
+   "Deniz'in topu neye çarptı?",
+   "Deniz neden önce topu sakladı, sonra neden geri aldı?",
+   "Sen doğruyu söyledikten sonra nasıl hissedersin?"
+  ],
+  "evEtk": {
+   "ad": "Telafi saksısı",
+   "d": "Evde küçük bir saksıya birlikte bir tohum ekin. Sulama işini çocuğunuza verin ve her gün birlikte bakın. Filiz çıkınca Deniz'in ayçiçeğini hatırlayıp “Doğruyu söylediğin bir günü” konuşabilirsiniz."
+  },
+  "aileNotu": "Bugün “Deniz Doğruyu Söyledi” masalını okuduk. Deniz'in topu dedesinin çiçeklerine çarpıyor; önce saklamak istiyor, sonra doğruyu söylüyor. Dedesi kızmıyor, teşekkür ediyor ve birlikte çiçekleri onarıyorlar. Çocuğunuz bir kazayı itiraf ettiğinde önce “Söylediğin için teşekkür ederim” demeniz, bir dahaki sefere de doğruyu söyleme cesaretini büyütür. Ardından birlikte nasıl düzeltebileceğinizi konuşabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/051-deniz-dogruyu-soyledi.mp3",
+  "hash": "48098cdf",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14651,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1930,
+      3
+     ],
+     [
+      2410,
+      4
+     ],
+     [
+      3049,
+      5
+     ],
+     [
+      4129,
+      6
+     ],
+     [
+      4430,
+      7
+     ],
+     [
+      4870,
+      8
+     ],
+     [
+      5589,
+      9
+     ],
+     [
+      5949,
+      10
+     ],
+     [
+      6289,
+      11
+     ],
+     [
+      7009,
+      12
+     ],
+     [
+      7609,
+      13
+     ],
+     [
+      8109,
+      14
+     ],
+     [
+      8469,
+      15
+     ],
+     [
+      8609,
+      16
+     ],
+     [
+      8989,
+      17
+     ],
+     [
+      9969,
+      18
+     ],
+     [
+      10270,
+      19
+     ],
+     [
+      11249,
+      20
+     ],
+     [
+      11589,
+      21
+     ],
+     [
+      11969,
+      22
+     ],
+     [
+      12310,
+      23
+     ],
+     [
+      13209,
+      24
+     ],
+     [
+      13829,
+      25
+     ],
+     [
+      14069,
+      26
+     ]
+    ]
+   },
+   "p0h-deniz": {
+    "s": 14951,
+    "d": 2231,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      462,
+      1
+     ],
+     [
+      884,
+      2
+     ],
+     [
+      1464,
+      3
+     ],
+     [
+      1729,
+      4
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 17482,
+    "d": 1717,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19499,
+    "d": 16588,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      989,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      2170,
+      5
+     ],
+     [
+      2509,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      4890,
+      8
+     ],
+     [
+      5689,
+      9
+     ],
+     [
+      6350,
+      10
+     ],
+     [
+      6769,
+      11
+     ],
+     [
+      7589,
+      12
+     ],
+     [
+      7809,
+      13
+     ],
+     [
+      8249,
+      14
+     ],
+     [
+      8709,
+      15
+     ],
+     [
+      9489,
+      16
+     ],
+     [
+      9730,
+      17
+     ],
+     [
+      10230,
+      18
+     ],
+     [
+      10709,
+      19
+     ],
+     [
+      11029,
+      20
+     ],
+     [
+      11289,
+      21
+     ],
+     [
+      12230,
+      22
+     ],
+     [
+      12689,
+      23
+     ],
+     [
+      13089,
+      24
+     ],
+     [
+      13989,
+      25
+     ],
+     [
+      14270,
+      26
+     ],
+     [
+      15369,
+      27
+     ],
+     [
+      15769,
+      28
+     ]
+    ]
+   },
+   "p1h-deniz": {
+    "s": 36388,
+    "d": 1907,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1028,
+      1
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 38595,
+    "d": 1335,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      789,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 40231,
+    "d": 10569,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2509,
+      5
+     ],
+     [
+      3049,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      3789,
+      8
+     ],
+     [
+      4149,
+      9
+     ],
+     [
+      5069,
+      10
+     ],
+     [
+      5469,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      6609,
+      13
+     ],
+     [
+      7509,
+      14
+     ],
+     [
+      7789,
+      15
+     ],
+     [
+      8390,
+      16
+     ],
+     [
+      8989,
+      17
+     ],
+     [
+      9469,
+      18
+     ],
+     [
+      9850,
+      19
+     ],
+     [
+      9969,
+      20
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 51101,
+    "d": 830,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      313,
+      1
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 52231,
+    "d": 1548,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      989,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 54079,
+    "d": 1005,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      490,
+      1
+     ]
+    ]
+   },
+   "p3": {
+    "s": 55385,
+    "d": 13613,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2609,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      3150,
+      7
+     ],
+     [
+      4089,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      4870,
+      10
+     ],
+     [
+      5749,
+      11
+     ],
+     [
+      6249,
+      12
+     ],
+     [
+      6669,
+      13
+     ],
+     [
+      6809,
+      14
+     ],
+     [
+      7229,
+      15
+     ],
+     [
+      8089,
+      16
+     ],
+     [
+      9089,
+      17
+     ],
+     [
+      10149,
+      18
+     ],
+     [
+      11049,
+      19
+     ],
+     [
+      11629,
+      20
+     ],
+     [
+      11909,
+      21
+     ],
+     [
+      12449,
+      22
+     ],
+     [
+      12909,
+      23
+     ],
+     [
+      13249,
+      24
+     ]
+    ]
+   },
+   "p3h-deniz": {
+    "s": 69299,
+    "d": 3294,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      949,
+      1
+     ],
+     [
+      1864,
+      2
+     ],
+     [
+      2849,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 72893,
+    "d": 2187,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1709,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 75381,
+    "d": 19881,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2289,
+      4
+     ],
+     [
+      3109,
+      5
+     ],
+     [
+      3849,
+      6
+     ],
+     [
+      4149,
+      7
+     ],
+     [
+      4569,
+      8
+     ],
+     [
+      5169,
+      9
+     ],
+     [
+      5830,
+      10
+     ],
+     [
+      6469,
+      11
+     ],
+     [
+      6769,
+      12
+     ],
+     [
+      7669,
+      13
+     ],
+     [
+      8169,
+      14
+     ],
+     [
+      8589,
+      15
+     ],
+     [
+      9409,
+      16
+     ],
+     [
+      9850,
+      17
+     ],
+     [
+      10409,
+      18
+     ],
+     [
+      10709,
+      19
+     ],
+     [
+      11209,
+      20
+     ],
+     [
+      11930,
+      21
+     ],
+     [
+      12430,
+      22
+     ],
+     [
+      12709,
+      23
+     ],
+     [
+      13469,
+      24
+     ],
+     [
+      13810,
+      25
+     ],
+     [
+      14409,
+      26
+     ],
+     [
+      14529,
+      27
+     ],
+     [
+      14769,
+      28
+     ],
+     [
+      15149,
+      29
+     ],
+     [
+      15950,
+      30
+     ],
+     [
+      16350,
+      31
+     ],
+     [
+      16770,
+      32
+     ],
+     [
+      17729,
+      33
+     ],
+     [
+      18450,
+      34
+     ],
+     [
+      18729,
+      35
+     ],
+     [
+      18989,
+      36
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 95562,
+    "d": 1950,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1309,
+      4
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 97813,
+    "d": 1680,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      464,
+      1
+     ],
+     [
+      1215,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 99793,
+    "d": 2873,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      1689,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2329,
+      5
+     ],
+     [
+      2529,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 102967,
+    "d": 14676,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      969,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1790,
+      5
+     ],
+     [
+      1909,
+      6
+     ],
+     [
+      2269,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      3769,
+      10
+     ],
+     [
+      4129,
+      11
+     ],
+     [
+      4890,
+      12
+     ],
+     [
+      5209,
+      13
+     ],
+     [
+      5489,
+      14
+     ],
+     [
+      6390,
+      15
+     ],
+     [
+      6769,
+      16
+     ],
+     [
+      7569,
+      17
+     ],
+     [
+      7809,
+      18
+     ],
+     [
+      8789,
+      19
+     ],
+     [
+      8949,
+      20
+     ],
+     [
+      9469,
+      21
+     ],
+     [
+      10129,
+      22
+     ],
+     [
+      10350,
+      23
+     ],
+     [
+      10969,
+      24
+     ],
+     [
+      11850,
+      25
+     ],
+     [
+      12430,
+      26
+     ],
+     [
+      13489,
+      27
+     ],
+     [
+      13829,
+      28
+     ],
+     [
+      13949,
+      29
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 117943,
+    "d": 2510,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      789,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1769,
+      3
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 120754,
+    "d": 2384,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 123438,
+    "d": 3804,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      749,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      2269,
+      3
+     ],
+     [
+      2769,
+      4
+     ],
+     [
+      3049,
+      5
+     ],
+     [
+      3369,
+      6
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1890 @@
+{
+ "id": "078-kurbaga-nasil-buyur",
+ "n": 78,
+ "title": "Kurbağa Nasıl Büyür?",
+ "age": "60-72",
+ "area": "Fen",
+ "theme": "Kurbağanın yaşam döngüsünü gözleme ve değişime uyum sağlama",
+ "values": [
+  "D5 Duyarlılık"
+ ],
+ "sdb": "SDB1.3 Kendine Uyarlama",
+ "min": 5,
+ "blurb": "Ördek Pamuk gölde jöle gibi yumurtalar bulur; içinden çıkan kuyruklu minikleri yavru balık sanıp onlara yüzme dersi verir. Ama minikler her gün biraz değişir: bacaklar çıkar, kuyruklar küçülür ve bir sabah kıyıya zıplarlar!",
+ "codes": {
+  "maarif": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme",
+   "FAB.3 Günlük yaşamında fen olaylarına yönelik bilimsel gözleme dayalı tahminlerde bulunabilme (teyitsiz)",
+   "E1.1 Merak",
+   "SDB1.3 Kendine Uyarlama",
+   "D5 Duyarlılık"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "pamuk": "hayvan-kiz",
+  "yosun": "bilge-hayvan",
+  "minik": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "pamuk": "Pamuk (ördek)",
+  "yosun": "Yosun (kurbağa)",
+  "minik": "Minik kurbağa"
+ },
+ "pages": [
+  {
+   "text": "Bahar geldi, göl uyandı. Ördek Pamuk suya daldı. Cup! Sazların dibinde jöle gibi bir yığın vardı. İçinde minicik siyah noktalar! Kurbağa Yosun fısıldadı: “Şşş! Dokunmadan bakalım.”",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "weather": "sun",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 60,
+      "y": 46,
+      "hit": "gunes"
+     },
+     {
+      "k": "ordek",
+      "x": 300,
+      "y": 190,
+      "s": 1.7,
+      "mood": "surprised",
+      "pose": "swim",
+      "hit": "pamuk",
+      "flip": true
+     },
+     {
+      "k": "kurbaga",
+      "x": 150,
+      "y": 230,
+      "s": 1.6,
+      "mood": "calm",
+      "pose": "wave",
+      "hit": "yosun"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 40,
+      "y": 212,
+      "s": 1.2,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 100,
+      "y": 234,
+      "s": 0.4
+     },
+     {
+      "k": "tas",
+      "x": 205,
+      "y": 226,
+      "s": 1.4,
+      "v": 0,
+      "moss": true
+     },
+     {
+      "k": "flower",
+      "x": 62,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "iribas",
+      "x": 236,
+      "y": 194,
+      "s": 2.0
+     },
+     {
+      "k": "nilufer",
+      "x": 376,
+      "y": 200,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Jöle gibi! Bunlar kimin?",
+     "voice": "pamuk",
+     "anim": "wiggle",
+     "fx": "splash"
+    },
+    "yosun": {
+     "say": "Şşş! Dokunmadan bakalım.",
+     "voice": "yosun",
+     "anim": "boing",
+     "fx": "ribbit"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'a dokun!"
+   ],
+   "ask": "Sence jöle gibi yığının içindeki siyah noktalar ne olabilir?"
+  },
+  {
+   "text": "Birkaç gün sonra noktalar kıpırdadı. Kıpır kıpır, fır fır! Kuyruklu minikler suya süzüldü. “Yavru balıklar!” dedi Pamuk. “Yüzmeyi ben öğretirim!” Yosun kıkırdadı: “Onlar iribaş. Ben de bir zamanlar iribaştım!” Pamuk'un gagası açık kaldı: “Sen mi? Olamaz!”",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "weather": "sun",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "ordek",
+      "x": 300,
+      "y": 192,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "swim",
+      "hit": "pamuk",
+      "flip": true
+     },
+     {
+      "k": "kurbaga",
+      "x": 128,
+      "y": 226,
+      "s": 1.8,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "yosun"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 36,
+      "y": 210,
+      "s": 1.1
+     },
+     {
+      "k": "flower",
+      "x": 70,
+      "y": 234,
+      "s": 0.4
+     },
+     {
+      "k": "tas",
+      "x": 214,
+      "y": 232,
+      "s": 1.3,
+      "v": 2
+     },
+     {
+      "k": "iribas",
+      "stage": 1,
+      "x": 206,
+      "y": 192,
+      "s": 1.3,
+      "hit": "i1"
+     },
+     {
+      "k": "iribas",
+      "stage": 1,
+      "x": 248,
+      "y": 200,
+      "s": 1.2,
+      "hit": "i2",
+      "flip": true
+     },
+     {
+      "k": "iribas",
+      "stage": 1,
+      "x": 376,
+      "y": 188,
+      "s": 1.0,
+      "hit": "i3",
+      "flip": true
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Yavru balıklar! Yüzmeyi ben öğretirim!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "quack"
+    },
+    "yosun": {
+     "say": "Ben de bir zamanlar iribaştım!",
+     "voice": "yosun",
+     "anim": "boing",
+     "fx": "ribbit"
+    },
+    "i": {
+     "anim": "wiggle",
+     "fx": "splash"
+    }
+   },
+   "hint": [
+    "yosun",
+    "Yosun'a dokun!"
+   ],
+   "ask": "Pamuk minikleri ne sandı? Sence Yosun doğru mu söylüyor? Neden?"
+  },
+  {
+   "text": "Pamuk her gün ders verdi: “Kuyruk sağa, kuyruk sola!” İribaşlar büyüdü, büyüdü. Bir sabah Pamuk gözlerini kırpıştırdı. Kuyrukların yanında minik bacaklar vardı! “Balığın bacağı olur mu?”",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "weather": "sun",
+    "season": "spring",
+    "cast": [
+     {
+      "k": "ordek",
+      "x": 250,
+      "y": 192,
+      "s": 1.7,
+      "mood": "surprised",
+      "pose": "swim",
+      "hit": "pamuk"
+     },
+     {
+      "k": "kurbaga",
+      "x": 350,
+      "y": 194,
+      "s": 1.4,
+      "mood": "think",
+      "pose": "sit",
+      "hit": "yosun",
+      "pad": true,
+      "flip": true
+     },
+     {
+      "k": "gunes",
+      "x": 60,
+      "y": 50
+     }
+    ],
+    "props": [
+     {
+      "k": "qmark",
+      "x": 268,
+      "y": 118
+     },
+     {
+      "k": "cali",
+      "x": 60,
+      "y": 214,
+      "s": 1.2,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 140,
+      "y": 234,
+      "s": 0.4
+     },
+     {
+      "k": "iribas",
+      "stage": 2,
+      "x": 200,
+      "y": 202,
+      "s": 1.4,
+      "hit": "i1"
+     },
+     {
+      "k": "iribas",
+      "stage": 2,
+      "x": 306,
+      "y": 196,
+      "s": 1.3,
+      "hit": "i2"
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Balığın bacağı olur mu?",
+     "voice": "pamuk",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "yosun": {
+     "say": "Bekle ve gör, Pamuk.",
+     "voice": "yosun",
+     "anim": "boing",
+     "fx": "ribbit"
+    },
+    "i": {
+     "anim": "wiggle",
+     "fx": "splash"
+    }
+   },
+   "predict": {
+    "q": "Sence bacaklı iribaşlar büyüyünce ne olacak?",
+    "res": "Hadi, bekleyip görelim!",
+    "opts": [
+     {
+      "l": "Balık olur",
+      "scene": {
+       "set": "gol",
+       "time": "day",
+       "weather": "sun",
+       "season": "spring",
+       "cast": [
+        {
+         "k": "ordek",
+         "x": 250,
+         "y": 192,
+         "s": 1.6,
+         "mood": "happy",
+         "pose": "swim"
+        },
+        {
+         "k": "gunes",
+         "x": 60,
+         "y": 46
+        }
+       ],
+       "props": [
+        {
+         "k": "qmark",
+         "x": 300,
+         "y": 124
+        },
+        {
+         "k": "cali",
+         "x": 60,
+         "y": 214,
+         "s": 1.1
+        }
+       ]
+      }
+     },
+     {
+      "l": "Kurbağa olur",
+      "scene": {
+       "set": "gol",
+       "time": "day",
+       "weather": "sun",
+       "season": "summer",
+       "cast": [
+        {
+         "k": "kurbaga",
+         "x": 110,
+         "y": 228,
+         "s": 1.7,
+         "mood": "happy",
+         "pose": "wave"
+        },
+        {
+         "k": "kurbaga",
+         "x": 200,
+         "y": 226,
+         "s": 0.9,
+         "mood": "laugh",
+         "pose": "jump"
+        },
+        {
+         "k": "kurbaga",
+         "x": 262,
+         "y": 196,
+         "s": 0.9,
+         "mood": "happy",
+         "pose": "sit",
+         "pad": true
+        }
+       ],
+       "props": [
+        {
+         "k": "qmark",
+         "x": 300,
+         "y": 124
+        },
+        {
+         "k": "cali",
+         "x": 40,
+         "y": 212,
+         "s": 1.1
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'a dokun!"
+   ],
+   "ask": "Sence bacakları çıkan iribaşlar neye dönüşecek? Neden öyle düşündün?"
+  },
+  {
+   "text": "Günler geçti. Arka bacaklar uzadı, ön bacaklar çıktı, kuyruklar kısaldı. Bir sabah minicik biri sudan başını çıkardı. Kuyruğu neredeyse yok olmuştu! Sonra kıyıya zıpladı. Hop, hop, hop! “Aaa! Yosun'a benziyor!” dedi Pamuk.",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "weather": "sun",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "ordek",
+      "x": 346,
+      "y": 190,
+      "s": 1.5,
+      "mood": "surprised",
+      "pose": "swim",
+      "hit": "pamuk",
+      "flip": true
+     },
+     {
+      "k": "kurbaga",
+      "x": 74,
+      "y": 228,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "yosun"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 372,
+      "y": 232,
+      "s": 1.0,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 130,
+      "y": 236,
+      "s": 0.4
+     },
+     {
+      "k": "tas",
+      "x": 140,
+      "y": 226,
+      "s": 1.2,
+      "v": 2
+     },
+     {
+      "k": "iribas",
+      "x": 258,
+      "y": 192,
+      "s": 2.2,
+      "hit": "iribas"
+     },
+     {
+      "k": "nilufer",
+      "x": 206,
+      "y": 180,
+      "s": 0.6,
+      "flower": false
+     }
+    ]
+   },
+   "mech": {
+    "type": "grow",
+    "key": "iribas",
+    "done": "Hop! Minik bir kurbağa oldu!",
+    "msg": "İribaş kurbağa oldu!"
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Aaa! Yosun'a benziyor!",
+     "voice": "pamuk",
+     "anim": "wiggle",
+     "fx": "quack"
+    },
+    "yosun": {
+     "say": "Hoş geldin, minik kurbağa!",
+     "voice": "yosun",
+     "anim": "boing",
+     "fx": "ribbit"
+    }
+   },
+   "hint": [
+    "iribas",
+    "Dokun, büyüsün!"
+   ],
+   "ask": "İribaşın kuyruğuna ne oldu? Yeni bacakları ne işe yarıyor?"
+  },
+  {
+   "text": "Hop! Hop! Kıyı da göl de minik kurbağalarla doldu. Kaç tane? Haydi, birlikte sayalım! Pamuk güldü: “Ben yanılmışım, siz kurbağaymışsınız!” Sonra birden içi burkuldu. “Artık benimle yüzmeyecek misiniz?”",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "weather": "sun",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "ordek",
+      "x": 72,
+      "y": 232,
+      "s": 1.7,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "pamuk"
+     },
+     {
+      "k": "kurbaga",
+      "x": 150,
+      "y": 232,
+      "s": 0.95,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "k1"
+     },
+     {
+      "k": "kurbaga",
+      "x": 212,
+      "y": 234,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "k2"
+     },
+     {
+      "k": "kurbaga",
+      "x": 250,
+      "y": 192,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "k3",
+      "pad": true
+     },
+     {
+      "k": "kurbaga",
+      "x": 274,
+      "y": 234,
+      "s": 0.95,
+      "mood": "surprised",
+      "pose": "sit",
+      "hit": "k4",
+      "flip": true
+     },
+     {
+      "k": "kurbaga",
+      "x": 336,
+      "y": 234,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "k5"
+     },
+     {
+      "k": "kurbaga",
+      "x": 350,
+      "y": 194,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "k6",
+      "pad": true
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 30,
+      "y": 206,
+      "s": 1.0
+     },
+     {
+      "k": "flower",
+      "x": 388,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "nilufer",
+      "x": 302,
+      "y": 186,
+      "s": 0.7
+     }
+    ]
+   },
+   "mech": {
+    "type": "count",
+    "keys": [
+     "k1",
+     "k2",
+     "k3",
+     "k4",
+     "k5",
+     "k6"
+    ],
+    "done": "Tam altı minik kurbağa!",
+    "msg": "Hepsini saydın!"
+   },
+   "hits": {
+    "k": {
+     "anim": "jump",
+     "fx": "ribbit"
+    },
+    "pamuk": {
+     "say": "Benimle yüzmeyecek misiniz?",
+     "voice": "pamuk",
+     "anim": "wiggle",
+     "fx": "drip"
+    }
+   },
+   "hint": [
+    "k1",
+    "Kurbağaları say!"
+   ],
+   "ask": "Pamuk neden üzüldü? Bir şey değişince sen ne hissedersin?"
+  },
+  {
+   "text": "Yosun gülümsedi: “Kurbağalar hem zıplar hem yüzer!” Pamuk bir an düşündü. Sonra kanatlarını açtı: “O zaman önce siz bana zıplamayı öğretin!” Paytak paytak, hop! Cup, cup! Göl kahkahayla doldu.",
+   "scene": {
+    "set": "gol",
+    "time": "day",
+    "weather": "sun",
+    "season": "summer",
+    "cast": [
+     {
+      "k": "ordek",
+      "x": 300,
+      "y": 192,
+      "s": 1.7,
+      "mood": "laugh",
+      "pose": "swim",
+      "hit": "pamuk",
+      "flip": true
+     },
+     {
+      "k": "kurbaga",
+      "x": 226,
+      "y": 196,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "minik"
+     },
+     {
+      "k": "kurbaga",
+      "x": 90,
+      "y": 230,
+      "s": 1.6,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "yosun"
+     },
+     {
+      "k": "gunes",
+      "x": 340,
+      "y": 48
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 36,
+      "y": 212,
+      "s": 1.1,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 236,
+      "s": 0.35
+     },
+     {
+      "k": "sparkle",
+      "x": 262,
+      "y": 200
+     },
+     {
+      "k": "nilufer",
+      "x": 376,
+      "y": 184,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "pamuk": {
+     "say": "Paytak paytak, hop!",
+     "voice": "pamuk",
+     "anim": "jump",
+     "fx": "quack"
+    },
+    "minik": {
+     "say": "Zıplamayı biz öğretiriz!",
+     "voice": "minik",
+     "anim": "jump",
+     "fx": "ribbit"
+    },
+    "yosun": {
+     "say": "Hem zıplarız hem yüzeriz!",
+     "voice": "yosun",
+     "anim": "boing",
+     "fx": "ribbit"
+    }
+   },
+   "hint": [
+    "pamuk",
+    "Pamuk'la zıpla!"
+   ],
+   "ask": "Pamuk üzülünce ne yaptı? Sen bir şey değişince nasıl yeni bir oyun bulursun?",
+   "cues": [
+    {
+     "w": 27,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "order": [
+  0,
+  3,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 — Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme: Kurbağanın jöle gibi yumurtadan iribaşa, bacaklı iribaştan minik kurbağaya dönüştüğünü masaldaki gözlemlerle izler; değişimi “önce, sonra, en son” diye anlatır.",
+   "FAB.3 (teyitsiz) — Günlük yaşamında fen olaylarına yönelik bilimsel gözleme dayalı tahminlerde bulunabilme: Bacakları çıkan iribaşların neye dönüşeceğini gördüklerine dayanarak tahmin eder, tahminini masalın devamıyla karşılaştırır.",
+   "E1.1 Merak — “Jöle gibi yığının içinde ne var?”, “Balığın bacağı olur mu?” gibi sorular sorar; göldeki canlıları merakla izler.",
+   "SDB1.3 Kendine Uyarlama — Pamuk gibi ilk düşüncesinin yanlış olabileceğini fark eder (“Ben yanılmışım!”); değişen duruma uyum sağlayıp yeni bir yol önerir (“Önce siz bana zıplamayı öğretin!”).",
+   "D5 Duyarlılık — Canlılara dokunmadan, uzaktan bakmanın önemini fark eder; yumurtaları ve iribaşları yerinde bırakır."
+  ],
+  "once": [
+   "Kapağı gösterin: “Kurbağalar küçükken nasıl görünür sence? Onlar da yumurtadan mı çıkar?” diye sorun; cevapları not alın.",
+   "Mümkünse kurbağanın yaşam döngüsünü gösteren gerçek fotoğraflara (yumurta, iribaş, bacaklı iribaş, minik kurbağa) birlikte bakın."
+  ],
+  "sirasi": [
+   "1. sayfada Yosun'un “Dokunmadan bakalım” sözünü vurgulayın: “Neden dokunmadan bakıyorlar?”",
+   "2. sayfada Pamuk'un yanılgısına gülün: “Pamuk onları ne sandı? Sence haklı mı?”",
+   "3. sayfadaki tahmin sorusunda iki cevabı da kabul edin; “Neden öyle düşündün?” diye gerekçe isteyin.",
+   "5. sayfada kurbağaları birlikte sayın; sonra Pamuk'un yüzüne bakıp “Pamuk ne hissediyor? İçi neden burkuldu?” diye sorun.",
+   "Bilgi notu: Gerçekte kurbağa yumurtaları 1-3 haftada açılır; iribaşın kurbağaya dönüşmesi birkaç ay sürer. Masaldaki Pamuk hayalî bir arkadaş; gerçek ördekler iribaşlarla beslenebilir."
+  ],
+  "sonra": [
+   "Kurbağa önce neydi, sonra ne oldu, en son ne oldu?",
+   "Pamuk neden “Ben yanılmışım!” dedi?",
+   "Pamuk üzülünce ne yaptı? Siz olsaydınız ne yapardınız?"
+  ],
+  "sinif": {
+   "ad": "Kurbağanın Büyüme Şeridi",
+   "sure": "20 dk",
+   "materyal": "Kurbağanın yaşam döngüsü fotoğrafları (yumurta, iribaş, bacaklı iribaş, minik kurbağa, kurbağa), uzun kâğıt şerit, yapıştırıcı, pastel boya",
+   "adim": [
+    "Fotoğrafları karışık olarak halıya yayın; çocuklar her fotoğrafta ne gördüklerini anlatsın ve iribaşla kurbağayı karşılaştırsın (kuyruk var mı, bacak var mı?).",
+    "Çocuklar fotoğrafları sırayla kâğıt şeride yapıştırsın ve “önce… sonra… en son…” diyerek anlatsın.",
+    "Hareket oyunu: öğretmen bir aşama söylesin; çocuklar yumurta gibi büzülsün, iribaş gibi kıvrılsın, kurbağa gibi zıplasın."
+   ]
+  },
+  "evSoru": [
+   "Pamuk gölde ne buldu?",
+   "İribaşlar büyüyünce neye dönüştü?",
+   "Pamuk üzülünce ne yaptı?"
+  ],
+  "evEtk": {
+   "ad": "Göl kenarında gözlem",
+   "d": "Mutlaka bir yetişkinle, suyun kenarından birkaç adım geride durarak bir park göletine ya da dere kenarına bakın. İribaş, kurbağa ya da ördek görebilir misiniz? Canlılara dokunmayın, yumurta ya da iribaş toplayıp eve getirmeyin; onların evi göl. Eve dönünce gördüklerinizi resmedin."
+  },
+  "aileNotu": "Bugün “Kurbağa Nasıl Büyür?” masalını okuduk. Ördek Pamuk, jöle gibi yumurtalardan çıkan iribaşları yavru balık sanıyor; onların bacaklanıp kurbağaya dönüştüğünü görünce yanıldığını fark ediyor. İçi burkulsa da yeni bir yol buluyor: “Önce siz bana zıplamayı öğretin!” Evde çocuğunuzla “önce, sonra, en son” diyerek başka değişimleri (tohum-çiçek, yumurta-civciv) konuşabilir; doğada canlıları bir yetişkinle, dokunmadan ve uzaktan izleyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/078-kurbaga-nasil-buyur.mp3",
+  "hash": "3ecb5da8",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 14482,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2529,
+      4
+     ],
+     [
+      2910,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      3569,
+      7
+     ],
+     [
+      4430,
+      8
+     ],
+     [
+      5229,
+      9
+     ],
+     [
+      5769,
+      10
+     ],
+     [
+      6390,
+      11
+     ],
+     [
+      6769,
+      12
+     ],
+     [
+      7009,
+      13
+     ],
+     [
+      7189,
+      14
+     ],
+     [
+      7529,
+      15
+     ],
+     [
+      8350,
+      16
+     ],
+     [
+      8829,
+      17
+     ],
+     [
+      9310,
+      18
+     ],
+     [
+      9649,
+      19
+     ],
+     [
+      10649,
+      20
+     ],
+     [
+      11129,
+      21
+     ],
+     [
+      11509,
+      22
+     ],
+     [
+      12404,
+      23
+     ],
+     [
+      13369,
+      24
+     ],
+     [
+      14049,
+      25
+     ]
+    ]
+   },
+   "p0h-pamuk": {
+    "s": 14782,
+    "d": 2004,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1589,
+      3
+     ]
+    ]
+   },
+   "p0h-yosun": {
+    "s": 17087,
+    "d": 1909,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1410,
+      2
+     ]
+    ]
+   },
+   "p1": {
+    "s": 19297,
+    "d": 18734,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      629,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2609,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3509,
+      7
+     ],
+     [
+      3809,
+      8
+     ],
+     [
+      4549,
+      9
+     ],
+     [
+      5029,
+      10
+     ],
+     [
+      5589,
+      11
+     ],
+     [
+      5890,
+      12
+     ],
+     [
+      6809,
+      13
+     ],
+     [
+      7209,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8270,
+      16
+     ],
+     [
+      8890,
+      17
+     ],
+     [
+      9329,
+      18
+     ],
+     [
+      9529,
+      19
+     ],
+     [
+      10430,
+      20
+     ],
+     [
+      10850,
+      21
+     ],
+     [
+      11789,
+      22
+     ],
+     [
+      12270,
+      23
+     ],
+     [
+      13109,
+      24
+     ],
+     [
+      13289,
+      25
+     ],
+     [
+      13409,
+      26
+     ],
+     [
+      13529,
+      27
+     ],
+     [
+      14069,
+      28
+     ],
+     [
+      14989,
+      29
+     ],
+     [
+      15430,
+      30
+     ],
+     [
+      15869,
+      31
+     ],
+     [
+      16169,
+      32
+     ],
+     [
+      16969,
+      33
+     ],
+     [
+      17309,
+      34
+     ],
+     [
+      17930,
+      35
+     ]
+    ]
+   },
+   "p1h-pamuk": {
+    "s": 38331,
+    "d": 2736,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      1790,
+      3
+     ],
+     [
+      2029,
+      4
+     ]
+    ]
+   },
+   "p1h-yosun": {
+    "s": 41368,
+    "d": 1904,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      329,
+      2
+     ],
+     [
+      509,
+      3
+     ],
+     [
+      1069,
+      4
+     ]
+    ]
+   },
+   "p2": {
+    "s": 43572,
+    "d": 13990,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4350,
+      9
+     ],
+     [
+      5169,
+      10
+     ],
+     [
+      6009,
+      11
+     ],
+     [
+      6949,
+      12
+     ],
+     [
+      7149,
+      13
+     ],
+     [
+      7649,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8489,
+      16
+     ],
+     [
+      9629,
+      17
+     ],
+     [
+      10270,
+      18
+     ],
+     [
+      10730,
+      19
+     ],
+     [
+      11029,
+      20
+     ],
+     [
+      11609,
+      21
+     ],
+     [
+      12509,
+      22
+     ],
+     [
+      12949,
+      23
+     ],
+     [
+      13390,
+      24
+     ],
+     [
+      13709,
+      25
+     ]
+    ]
+   },
+   "p2h-pamuk": {
+    "s": 57863,
+    "d": 1712,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      565,
+      1
+     ],
+     [
+      1091,
+      2
+     ],
+     [
+      1460,
+      3
+     ]
+    ]
+   },
+   "p2h-yosun": {
+    "s": 59875,
+    "d": 1530,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1129,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 61706,
+    "d": 3246,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2509,
+      4
+     ],
+     [
+      2670,
+      5
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 65252,
+    "d": 1534,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1050,
+      2
+     ]
+    ]
+   },
+   "p3": {
+    "s": 67087,
+    "d": 17422,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2189,
+      4
+     ],
+     [
+      2949,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3709,
+      7
+     ],
+     [
+      4449,
+      8
+     ],
+     [
+      5029,
+      9
+     ],
+     [
+      6089,
+      10
+     ],
+     [
+      6249,
+      11
+     ],
+     [
+      6789,
+      12
+     ],
+     [
+      7269,
+      13
+     ],
+     [
+      7649,
+      14
+     ],
+     [
+      7989,
+      15
+     ],
+     [
+      8369,
+      16
+     ],
+     [
+      9270,
+      17
+     ],
+     [
+      9749,
+      18
+     ],
+     [
+      10369,
+      19
+     ],
+     [
+      10609,
+      20
+     ],
+     [
+      11629,
+      21
+     ],
+     [
+      11969,
+      22
+     ],
+     [
+      12350,
+      23
+     ],
+     [
+      13029,
+      24
+     ],
+     [
+      13469,
+      25
+     ],
+     [
+      13890,
+      26
+     ],
+     [
+      14709,
+      27
+     ],
+     [
+      15390,
+      28
+     ],
+     [
+      15810,
+      29
+     ],
+     [
+      16709,
+      30
+     ],
+     [
+      16969,
+      31
+     ]
+    ]
+   },
+   "p3h-pamuk": {
+    "s": 84809,
+    "d": 1911,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1129,
+      2
+     ]
+    ]
+   },
+   "p3h-yosun": {
+    "s": 87020,
+    "d": 1621,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1030,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 88941,
+    "d": 1990,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1050,
+      3
+     ],
+     [
+      1550,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 91231,
+    "d": 14799,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1369,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      1869,
+      5
+     ],
+     [
+      2089,
+      6
+     ],
+     [
+      2370,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3829,
+      9
+     ],
+     [
+      4109,
+      10
+     ],
+     [
+      4870,
+      11
+     ],
+     [
+      5410,
+      12
+     ],
+     [
+      5850,
+      13
+     ],
+     [
+      6629,
+      14
+     ],
+     [
+      6989,
+      15
+     ],
+     [
+      7809,
+      16
+     ],
+     [
+      8069,
+      17
+     ],
+     [
+      9029,
+      18
+     ],
+     [
+      9249,
+      19
+     ],
+     [
+      10709,
+      20
+     ],
+     [
+      11089,
+      21
+     ],
+     [
+      11629,
+      22
+     ],
+     [
+      11869,
+      23
+     ],
+     [
+      12869,
+      24
+     ],
+     [
+      13189,
+      25
+     ],
+     [
+      13569,
+      26
+     ],
+     [
+      14129,
+      27
+     ]
+    ]
+   },
+   "p4h-pamuk": {
+    "s": 106331,
+    "d": 1542,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1069,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 108174,
+    "d": 1804,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      849,
+      2
+     ],
+     [
+      1170,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 110279,
+    "d": 14912,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1449,
+      2
+     ],
+     [
+      2170,
+      3
+     ],
+     [
+      2430,
+      4
+     ],
+     [
+      3029,
+      5
+     ],
+     [
+      3289,
+      6
+     ],
+     [
+      4089,
+      7
+     ],
+     [
+      4509,
+      8
+     ],
+     [
+      4689,
+      9
+     ],
+     [
+      4870,
+      10
+     ],
+     [
+      5830,
+      11
+     ],
+     [
+      6229,
+      12
+     ],
+     [
+      6870,
+      13
+     ],
+     [
+      7569,
+      14
+     ],
+     [
+      7689,
+      15
+     ],
+     [
+      8190,
+      16
+     ],
+     [
+      8509,
+      17
+     ],
+     [
+      8709,
+      18
+     ],
+     [
+      8969,
+      19
+     ],
+     [
+      9549,
+      20
+     ],
+     [
+      10230,
+      21
+     ],
+     [
+      10730,
+      22
+     ],
+     [
+      11430,
+      23
+     ],
+     [
+      12069,
+      24
+     ],
+     [
+      12529,
+      25
+     ],
+     [
+      13209,
+      26
+     ],
+     [
+      13589,
+      27
+     ],
+     [
+      14390,
+      28
+     ]
+    ]
+   },
+   "p5h-pamuk": {
+    "s": 125492,
+    "d": 1819,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1430,
+      2
+     ]
+    ]
+   },
+   "p5h-minik": {
+    "s": 127611,
+    "d": 1711,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      949,
+      2
+     ]
+    ]
+   },
+   "p5h-yosun": {
+    "s": 129622,
+    "d": 1813,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1189,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

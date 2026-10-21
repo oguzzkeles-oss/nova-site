@@ -1,0 +1,998 @@
+{
+ "id": "mirmir",
+ "lang": "en",
+ "title": "Mumble the Bear Cub Can't Sleep",
+ "blurb": "A sound in the night frightens Mumble. His mum teaches him a little trick for dealing with fear.",
+ "pages": [
+  {
+   "text": "The forest was dark. Everyone was asleep. But Mumble the bear cub's eyes were wide open.",
+   "hits": {
+    "bear": "“I can't sleep!”",
+    "star": "A twinkly, sparkly star!"
+   },
+   "hint": "Touch the stars in the window!",
+   "ask": "What do you do when you can't sleep?"
+  },
+  {
+   "text": "“Hoo hoooo!” There was a sound. Mumble hid under his blanket. “What's that sound?”",
+   "hits": {
+    "owl": "“Hoo hoooo!”",
+    "bear": "“I'm so scared…”"
+   },
+   "hint": "Touch the sound at the window!",
+   "ask": "Let's make the “hoo hoooo” sound together. Who could be making it?"
+  },
+  {
+   "text": "Mumble's heart went thump thump. He called out to his mum: “Mummy, I'm scared!”",
+   "hits": {
+    "heart": "Thump thump, thump thump…",
+    "bear": "“I'm so scared…”"
+   },
+   "predict": {
+    "q": "Whose sound do you think it is?",
+    "res": "It could be either! Let's see.",
+    "opts": [
+     "A little owl",
+     "A sweet monster"
+    ]
+   },
+   "hint": "Touch the heart and listen to it!",
+   "ask": "What happens in our bodies when we're scared? How does your heart beat?"
+  },
+  {
+   "text": "His mum came and opened the window. “Look,” she said. There was a little owl in the tree. “Hoo hoooo, good night!”",
+   "hits": {
+    "owl": "“Hoo hoooo, good night, Mumble!”",
+    "mom": "“I'm here, sweetheart. Don't be scared.”",
+    "bear": "“I can't sleep!”"
+   },
+   "hint": "Touch Mama Bear!",
+   "ask": "How did Mumble feel when he saw the owl?"
+  },
+  {
+   "text": "His mum gave Mumble a hug: “It's all right to be scared. When you're scared, take a deep breath. Smell the flower through your nose, blow out the candle through your mouth.”",
+   "hits": {},
+   "mech": {
+    "done": "“Well done, Mumble! You're calmer now.”"
+   },
+   "hint": "First smell the flower, then blow out the candle!",
+   "ask": "Let's try it together: smell the flower… blow out the candle… Three times."
+  },
+  {
+   "text": "Mumble smelled the flower through his nose and blew out the candle through his mouth. Then he smiled. “Good night, owl!” His eyes slowly closed. He slept snug and sound.",
+   "hits": {
+    "moon": "The Moon is sleeping too. Shhh…",
+    "bear": "Shhh, Mumble is sleeping."
+   },
+   "hint": "Touch the Moon!",
+   "ask": "What helps you feel calm before you go to sleep?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "Recognises and expresses feelings (fear, relief).",
+   "Uses a simple breathing strategy to cope with difficult feelings.",
+   "Guesses where a sound is coming from.",
+   "Works out how a story character feels from their facial expressions."
+  ],
+  "once": [
+   "Ask: “Have you ever heard a sound at night and felt scared?”",
+   "Dim the lights a little to set the scene for the story."
+  ],
+  "sirasi": [
+   "On page 2, make the “hoo hoooo” sound together.",
+   "On page 5, do the breathing game on the screen three times with the whole class."
+  ],
+  "sonra": [
+   "When was Mumble scared, and when did he feel better?",
+   "What do you do when you're scared? Who do you tell?",
+   "When could we use the “smell the flower, blow out the candle” breath?"
+  ],
+  "sinif": {
+   "ad": "Whose Sound Is It?",
+   "sure": "15 min",
+   "materyal": "A recording of animal sounds or the teacher's voice, feelings cards",
+   "adim": [
+    "The children close their eyes, the teacher imitates animal sounds and the children guess.",
+    "Pick the scared and calm faces from the feelings cards and copy them.",
+    "To finish, the whole class does the “smell the flower, blow out the candle” breath together."
+   ]
+  },
+  "evSoru": [
+   "Why was Mumble scared? What happened next?",
+   "What helps you feel calm at night?",
+   "How do you tell me when you're scared?"
+  ],
+  "evEtk": {
+   "ad": "Bedtime breathing",
+   "d": "Before bed, do the “smell the flower, blow out the candle” breath together three times. Listen to the sounds you hear at night and name them together."
+  },
+  "aileNotu": "Today we read “Mumble the Bear Cub Can't Sleep”. We talked about feeling scared and learned the “smell the flower, blow out the candle” breath. You can try this breath with your child before bedtime."
+ },
+ "audio": {
+  "file": "audio/en/mirmir.mp3",
+  "hash": "4bd4fedc",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 6229,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1809,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2430,
+      6
+     ],
+     [
+      3410,
+      7
+     ],
+     [
+      3650,
+      8
+     ],
+     [
+      3989,
+      9
+     ],
+     [
+      4109,
+      10
+     ],
+     [
+      4370,
+      11
+     ],
+     [
+      4769,
+      12
+     ],
+     [
+      5069,
+      13
+     ],
+     [
+      5370,
+      14
+     ],
+     [
+      5749,
+      15
+     ]
+    ]
+   },
+   "p0h-bear": {
+    "s": 6529,
+    "d": 1473,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      670,
+      2
+     ]
+    ]
+   },
+   "p0h-star": {
+    "s": 8303,
+    "d": 2397,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      949,
+      2
+     ],
+     [
+      1649,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 11001,
+    "d": 6317,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1769,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2110,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      3889,
+      8
+     ],
+     [
+      4069,
+      9
+     ],
+     [
+      4229,
+      10
+     ],
+     [
+      5189,
+      11
+     ],
+     [
+      5430,
+      12
+     ],
+     [
+      5709,
+      13
+     ]
+    ]
+   },
+   "p1h-owl": {
+    "s": 17618,
+    "d": 1475,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      737,
+      1
+     ]
+    ]
+   },
+   "p1h-bear": {
+    "s": 19393,
+    "d": 1634,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      769,
+      2
+     ]
+    ]
+   },
+   "p2": {
+    "s": 21328,
+    "d": 6062,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1129,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2589,
+      6
+     ],
+     [
+      2869,
+      7
+     ],
+     [
+      3009,
+      8
+     ],
+     [
+      3150,
+      9
+     ],
+     [
+      3309,
+      10
+     ],
+     [
+      4089,
+      11
+     ],
+     [
+      4969,
+      12
+     ],
+     [
+      5209,
+      13
+     ]
+    ]
+   },
+   "p2h-heart": {
+    "s": 27690,
+    "d": 1941,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      445,
+      1
+     ],
+     [
+      1090,
+      2
+     ],
+     [
+      1495,
+      3
+     ]
+    ]
+   },
+   "p2h-bear": {
+    "s": 29931,
+    "d": 1623,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      789,
+      2
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 31855,
+    "d": 1579,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      589,
+      2
+     ],
+     [
+      689,
+      3
+     ],
+     [
+      809,
+      4
+     ],
+     [
+      1030,
+      5
+     ],
+     [
+      1170,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 33734,
+    "d": 2157,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      569,
+      3
+     ],
+     [
+      1410,
+      4
+     ],
+     [
+      1709,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 36192,
+    "d": 8240,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      969,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      1349,
+      6
+     ],
+     [
+      2229,
+      7
+     ],
+     [
+      2890,
+      8
+     ],
+     [
+      3109,
+      9
+     ],
+     [
+      3809,
+      10
+     ],
+     [
+      3989,
+      11
+     ],
+     [
+      4129,
+      12
+     ],
+     [
+      4209,
+      13
+     ],
+     [
+      4629,
+      14
+     ],
+     [
+      4949,
+      15
+     ],
+     [
+      5069,
+      16
+     ],
+     [
+      5189,
+      17
+     ],
+     [
+      6029,
+      18
+     ],
+     [
+      6370,
+      19
+     ],
+     [
+      7410,
+      20
+     ],
+     [
+      7609,
+      21
+     ]
+    ]
+   },
+   "p3h-owl": {
+    "s": 44733,
+    "d": 2569,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2029,
+      4
+     ]
+    ]
+   },
+   "p3h-mom": {
+    "s": 47602,
+    "d": 2577,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      1849,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p3h-bear": {
+    "s": 50480,
+    "d": 1480,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      670,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 52260,
+    "d": 10489,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      769,
+      3
+     ],
+     [
+      1129,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      2069,
+      6
+     ],
+     [
+      2249,
+      7
+     ],
+     [
+      2469,
+      8
+     ],
+     [
+      2729,
+      9
+     ],
+     [
+      2849,
+      10
+     ],
+     [
+      3049,
+      11
+     ],
+     [
+      3869,
+      12
+     ],
+     [
+      4029,
+      13
+     ],
+     [
+      4249,
+      14
+     ],
+     [
+      4949,
+      15
+     ],
+     [
+      5149,
+      16
+     ],
+     [
+      5310,
+      17
+     ],
+     [
+      5629,
+      18
+     ],
+     [
+      6529,
+      19
+     ],
+     [
+      6870,
+      20
+     ],
+     [
+      6989,
+      21
+     ],
+     [
+      7390,
+      22
+     ],
+     [
+      7629,
+      23
+     ],
+     [
+      7789,
+      24
+     ],
+     [
+      8569,
+      25
+     ],
+     [
+      8829,
+      26
+     ],
+     [
+      8989,
+      27
+     ],
+     [
+      9129,
+      28
+     ],
+     [
+      9569,
+      29
+     ],
+     [
+      9810,
+      30
+     ],
+     [
+      9969,
+      31
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 63049,
+    "d": 2557,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      1769,
+      4
+     ],
+     [
+      2170,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 65906,
+    "d": 11641,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1529,
+      5
+     ],
+     [
+      1749,
+      6
+     ],
+     [
+      2309,
+      7
+     ],
+     [
+      2509,
+      8
+     ],
+     [
+      2749,
+      9
+     ],
+     [
+      2890,
+      10
+     ],
+     [
+      3029,
+      11
+     ],
+     [
+      3430,
+      12
+     ],
+     [
+      3689,
+      13
+     ],
+     [
+      3869,
+      14
+     ],
+     [
+      4749,
+      15
+     ],
+     [
+      5009,
+      16
+     ],
+     [
+      5189,
+      17
+     ],
+     [
+      6169,
+      18
+     ],
+     [
+      6350,
+      19
+     ],
+     [
+      6629,
+      20
+     ],
+     [
+      7529,
+      21
+     ],
+     [
+      7829,
+      22
+     ],
+     [
+      8230,
+      23
+     ],
+     [
+      8730,
+      24
+     ],
+     [
+      9690,
+      25
+     ],
+     [
+      9869,
+      26
+     ],
+     [
+      10289,
+      27
+     ],
+     [
+      10850,
+      28
+     ],
+     [
+      11089,
+      29
+     ]
+    ]
+   },
+   "p5h-moon": {
+    "s": 77848,
+    "d": 2882,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1189,
+      4
+     ],
+     [
+      1965,
+      5
+     ]
+    ]
+   },
+   "p5h-bear": {
+    "s": 81031,
+    "d": 2169,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1509,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

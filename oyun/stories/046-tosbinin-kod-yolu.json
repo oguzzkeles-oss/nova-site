@@ -1,0 +1,1993 @@
+{
+ "id": "046-tosbinin-kod-yolu",
+ "n": 46,
+ "title": "Tosbi'nin Kod Yolu",
+ "age": "60-72",
+ "area": "Matematik",
+ "theme": "Sembollerle kod yolu, hatayı bulup düzeltme",
+ "values": [
+  "D3 Çalışkanlık"
+ ],
+ "sdb": "SDB3.2 Esneklik",
+ "min": 5,
+ "blurb": "Susayan kaplumbağa Tosbi göle gitmek ister; tavşan Zıpzıp yere şekil kartlarından bir kod yolu dizer. Ama kodda bir “zıpla!” kartı vardır ve Tosbi zıplayamaz! İki arkadaş hatayı bulur, kodu düzeltir, göle yeni bir yoldan varır.",
+ "codes": {
+  "maarif": [
+   "MAB.3 Matematiksel olgu, olay ve nesneleri yorumlayabilme — MAB.3.a Matematiksel olgu ve olayları farklı materyal/sembollerle ifade eder (şekil kartlarıyla yön ve hareket kodu)",
+   "KB3.2 Problem Çözme",
+   "beceri: SBAB7 Mekânsal Düşünme",
+   "SDB3.2 Esneklik",
+   "D3 Çalışkanlık"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "tosbi": "hayvan-erkek",
+  "zipzip": "hayvan-kiz"
+ },
+ "voiceNames": {
+  "tosbi": "Tosbi (kaplumbağa)",
+  "zipzip": "Zıpzıp (tavşan)"
+ },
+ "pages": [
+  {
+   "text": "Sıcak bir yaz günüydü. Kaplumbağa Tosbi'nin boğazı kupkuru olmuştu. “Göle gidip su içsem!” dedi. Ama çayırın otları upuzundu. Tosbi boynunu uzattı, uzattı… Gölü göremedi! Yolda da kocaman bir taş vardı. “Offf, nereden gideyim?”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "hot",
+    "lake": true,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 350,
+      "y": 44,
+      "hit": "gunes"
+     },
+     {
+      "k": "tosbi",
+      "x": 80,
+      "y": 232,
+      "s": 1.2,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "tosbi"
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 250,
+      "y": 222,
+      "s": 3.6,
+      "v": 0,
+      "hit": "tas"
+     },
+     {
+      "k": "cali",
+      "x": 170,
+      "y": 214,
+      "s": 1.3,
+      "flowers": true
+     },
+     {
+      "k": "cali",
+      "x": 330,
+      "y": 210,
+      "s": 1.4
+     },
+     {
+      "k": "cali",
+      "x": 36,
+      "y": 204,
+      "s": 1.0,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 140,
+      "y": 236,
+      "s": 0.32
+     },
+     {
+      "k": "flower",
+      "x": 370,
+      "y": 236,
+      "s": 0.34
+     }
+    ]
+   },
+   "hits": {
+    "tosbi": {
+     "say": "Göl nerede? Hiç göremiyorum!",
+     "voice": "tosbi",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "tas": {
+     "say": "Bu taş çok kocaman!",
+     "voice": "tosbi",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "gunes": {
+     "anim": "spinme",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "tosbi",
+    "Tosbi'ye dokun!"
+   ],
+   "ask": "Tosbi neden gölü göremiyor? Sen görmediğin bir yere nasıl gidersin?"
+  },
+  {
+   "text": "Hop, hop! Tavşan Zıpzıp yükseğe zıpladı. “Göl şurada! Sana bir kod yolu yapayım!” Yere kartlar dizdi. “Mavi kare: bir adım ileri. Sarı yıldız: zıpla!” Kod hazırdı: kare, kare, yıldız, kare.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "tosbi",
+      "x": 58,
+      "y": 230,
+      "s": 0.82,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "tosbi"
+     },
+     {
+      "k": "zipzip",
+      "x": 250,
+      "y": 150,
+      "s": 0.72,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "zipzip",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 118,
+      "y": 234,
+      "s": 1.25,
+      "hit": "k1"
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 163,
+      "y": 234,
+      "s": 1.25,
+      "hit": "k2"
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F6C83A",
+      "x": 208,
+      "y": 234,
+      "s": 1.25,
+      "hit": "yildiz"
+     },
+     {
+      "k": "tas",
+      "x": 264,
+      "y": 220,
+      "s": 2.6,
+      "v": 0
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 320,
+      "y": 234,
+      "s": 1.25,
+      "hit": "k3"
+     }
+    ]
+   },
+   "hits": {
+    "zipzip": {
+     "say": "Göl şurada! Kodu izle, Tosbi!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "tosbi": {
+     "say": "Kod yolu mu? Ne güzel!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "k": {
+     "say": "Bir adım ileri!",
+     "voice": "zipzip",
+     "anim": "boing",
+     "fx": "click"
+    },
+    "yildiz": {
+     "say": "Zıpla!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "yildiz",
+    "Yıldız ne diyor?"
+   ],
+   "ask": "Kartlarda hangi şekiller var? Mavi kare ne demek, sarı yıldız ne demek?"
+  },
+  {
+   "text": "Tosbi kodu izledi. Kare: bir adım. Kare: bir adım daha. Sıra yıldızdaydı. “Zıpla mı? Ama ben zıplayamam ki!” Tosbi taşın önünde kalakaldı. Çok kızdı. “Hıh! Bu kod bozuk!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "zipzip",
+      "x": 40,
+      "y": 204,
+      "s": 0.54,
+      "mood": "surprised",
+      "pose": "stand",
+      "hit": "zipzip"
+     },
+     {
+      "k": "tosbi",
+      "x": 170,
+      "y": 232,
+      "s": 1.0,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "tosbi"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 62,
+      "y": 236,
+      "s": 1.2
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 108,
+      "y": 236,
+      "s": 1.2
+     },
+     {
+      "k": "tas",
+      "x": 326,
+      "y": 228,
+      "s": 3.6,
+      "v": 0,
+      "hit": "tas"
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F6C83A",
+      "x": 262,
+      "y": 236,
+      "s": 1.25,
+      "hit": "yildiz"
+     },
+     {
+      "k": "flower",
+      "x": 372,
+      "y": 236,
+      "s": 0.3
+     }
+    ]
+   },
+   "hits": {
+    "tosbi": {
+     "say": "Ben zıplayamam ki!",
+     "voice": "tosbi",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "zipzip": {
+     "say": "Hımm… Kodda bir hata var!",
+     "voice": "zipzip",
+     "anim": "boing",
+     "fx": "boing"
+    },
+    "yildiz": {
+     "say": "Zıpla!",
+     "voice": "zipzip",
+     "anim": "wiggle",
+     "fx": "boing"
+    },
+    "tas": {
+     "anim": "wiggle",
+     "fx": "thump"
+    }
+   },
+   "predict": {
+    "q": "Sence şimdi ne yapacaklar?",
+    "res": "İkisi de iyi fikir! Hadi görelim.",
+    "opts": [
+     {
+      "l": "Kodu düzeltirler",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "summer",
+       "lake": true,
+       "cast": [
+        {
+         "k": "tosbi",
+         "x": 110,
+         "y": 230,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "stand"
+        },
+        {
+         "k": "zipzip",
+         "x": 270,
+         "y": 228,
+         "s": 0.66,
+         "mood": "think",
+         "pose": "stand",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "sekil",
+         "shape": "square",
+         "x": 170,
+         "y": 236,
+         "s": 1.3
+        },
+        {
+         "k": "sekil",
+         "shape": "circle",
+         "x": 215,
+         "y": 236,
+         "s": 1.3
+        },
+        {
+         "k": "qmark",
+         "x": 192,
+         "y": 120,
+         "s": 1
+        }
+       ]
+      }
+     },
+     {
+      "l": "Başka yol ararlar",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "summer",
+       "lake": true,
+       "cast": [
+        {
+         "k": "tosbi",
+         "x": 120,
+         "y": 232,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "walk"
+        },
+        {
+         "k": "zipzip",
+         "x": 50,
+         "y": 214,
+         "s": 0.58,
+         "mood": "happy",
+         "pose": "run"
+        }
+       ],
+       "props": [
+        {
+         "k": "tas",
+         "x": 250,
+         "y": 212,
+         "s": 2.6,
+         "v": 0
+        },
+        {
+         "k": "flower",
+         "x": 320,
+         "y": 234,
+         "s": 0.32
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "tosbi",
+    "Tosbi'ye dokun!"
+   ],
+   "ask": "Tosbi neden durdu? Bir planın işe yaramayınca sen ne hissedersin?"
+  },
+  {
+   "text": "Zıpzıp kulağını kaşıdı. “Hata bende! Kodu tavşana göre yapmışım.” Tosbi derin bir nefes aldı. “Ben zıplayamam ama dolaşabilirim!” Yıldızı kaldırdılar. Yerine kırmızı daire koydular. Daire: taşın etrafından dolaş!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "tosbi",
+      "x": 60,
+      "y": 230,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "tosbi"
+     },
+     {
+      "k": "zipzip",
+      "x": 356,
+      "y": 198,
+      "s": 0.55,
+      "mood": "laugh",
+      "pose": "stand",
+      "hit": "zipzip",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 125,
+      "y": 235,
+      "s": 1.25,
+      "hit": "k1"
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 170,
+      "y": 235,
+      "s": 1.25,
+      "hit": "k2"
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "x": 215,
+      "y": 235,
+      "s": 1.25,
+      "hit": "daire"
+     },
+     {
+      "k": "tas",
+      "x": 266,
+      "y": 220,
+      "s": 2.6,
+      "v": 0
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 315,
+      "y": 235,
+      "s": 1.25,
+      "hit": "k3"
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F6C83A",
+      "x": 330,
+      "y": 200,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "tosbi": {
+     "say": "Ben dolaşabilirim!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "zipzip": {
+     "say": "Hata bende, hadi düzeltelim!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "k": {
+     "say": "Bir adım ileri!",
+     "voice": "zipzip"
+    },
+    "daire": {
+     "say": "Taşın etrafından dolaş!",
+     "voice": "zipzip"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "k1",
+     "k2",
+     "daire",
+     "k3"
+    ],
+    "done": "Kod tamam: kare, kare, daire, kare!",
+    "msg": "Kod düzeldi!"
+   },
+   "hint": [
+    "k1",
+    "Yeni kodu sırayla oku!"
+   ],
+   "ask": "Zıpzıp hata yapınca ne yaptı? Sen bir hata yapınca nasıl düzeltirsin?"
+  },
+  {
+   "text": "Tosbi yeni kodu izledi. Kare: tıpış tıpış bir adım. Kare: bir adım daha. Daire: taşın etrafından dolaştı. Son kare: bir adım daha. Zıpzıp alkışladı: “Kod çalıştı!” Göl, Tosbi'nin burnunun ucundaydı.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "tosbi",
+      "x": 60,
+      "y": 232,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "walk",
+      "hit": "tosbi"
+     },
+     {
+      "k": "zipzip",
+      "x": 350,
+      "y": 214,
+      "s": 0.62,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "zipzip",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tas",
+      "x": 185,
+      "y": 198,
+      "s": 1.8,
+      "v": 0
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 100,
+      "y": 236,
+      "s": 1.1
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 140,
+      "y": 236,
+      "s": 1.1
+     },
+     {
+      "k": "sekil",
+      "shape": "circle",
+      "x": 180,
+      "y": 236,
+      "s": 1.1
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "x": 220,
+      "y": 236,
+      "s": 1.1
+     },
+     {
+      "k": "cali",
+      "x": 30,
+      "y": 200,
+      "s": 0.9,
+      "flowers": true
+     }
+    ]
+   },
+   "hits": {
+    "tosbi": {
+     "say": "Tıpış tıpış, kodu izliyorum!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "step"
+    },
+    "zipzip": {
+     "say": "Kod çalıştı! Yaşasın!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    }
+   },
+   "mech": {
+    "type": "walk",
+    "key": "tosbi",
+    "steps": 4,
+    "step": 40,
+    "done": "Kod çalıştı! Tosbi göle vardı.",
+    "msg": "Göle vardın!"
+   },
+   "hint": [
+    "tosbi",
+    "Tosbi'yi yürüt!"
+   ],
+   "ask": "Tosbi göle hangi kartlarla vardı? Kartları sırayla söyleyebilir misin?",
+   "cues": [
+    {
+     "w": 23,
+     "fx": "alkis"
+    }
+   ]
+  },
+  {
+   "text": "Lıkır lıkır! Tosbi serin sudan kana kana içti. “Ohh, mis gibi!” dedi. Zıpzıp kıyıda hopladı: “İlk kodum bozuktu, değil mi?” Tosbi güldü: “Olsun! Bozulursa düzeltiriz. Bir yol olmazsa başka yol buluruz!”",
+   "scene": {
+    "set": "cayir",
+    "time": "sunset",
+    "season": "summer",
+    "weather": "sun",
+    "lake": true,
+    "cast": [
+     {
+      "k": "zipzip",
+      "x": 96,
+      "y": 228,
+      "s": 0.7,
+      "mood": "laugh",
+      "pose": "jump",
+      "hit": "zipzip"
+     },
+     {
+      "k": "tosbi",
+      "x": 250,
+      "y": 196,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "tosbi"
+     }
+    ],
+    "props": [
+     {
+      "k": "cali",
+      "x": 30,
+      "y": 212,
+      "s": 1,
+      "flowers": true
+     },
+     {
+      "k": "flower",
+      "x": 160,
+      "y": 236,
+      "s": 0.32
+     },
+     {
+      "k": "flower",
+      "x": 350,
+      "y": 236,
+      "s": 0.3
+     },
+     {
+      "k": "heart",
+      "x": 170,
+      "y": 120,
+      "s": 0.9,
+      "hit": "kalp"
+     }
+    ]
+   },
+   "hits": {
+    "tosbi": {
+     "say": "Lıkır lıkır! Bozulursa düzeltiriz!",
+     "voice": "tosbi",
+     "anim": "boing",
+     "fx": "splash"
+    },
+    "zipzip": {
+     "say": "Yarın yeni bir kod yapalım!",
+     "voice": "zipzip",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "kalp": {
+     "anim": "boing",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "tosbi",
+    "Tosbi'ye dokun!"
+   ],
+   "ask": "Sen bir kod yolu yapsan, kartlarına hangi şekilleri koyardın? Her şekil ne anlama gelirdi?"
+  }
+ ],
+ "order": [
+  1,
+  2,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.3 Matematiksel olgu, olay ve nesneleri yorumlayabilme — süreç bileşeni MAB.3.a: matematiksel olgu ve olayları farklı materyal/sembollerle ifade eder. Hareketleri şekil kartlarıyla gösterir (mavi kare = bir adım ileri, kırmızı daire = etrafından dolaş) ve kart dizisini sırayla okur.",
+   "KB3.2 Problem Çözme: kodun nerede işlemediğini bulur (zıplayamayan bir kaplumbağaya “zıpla” kartı), hatalı kartı çıkarır, yerine uygun olanı koyar ve kodu yeniden dener.",
+   "beceri: SBAB7 Mekânsal Düşünme — ileri, önünde, etrafından, göle doğru gibi konum ve yön ifadeleriyle bir yolu tarif eder ve izler.",
+   "SDB3.2 Esneklik: plan işe yaramayınca durur, nefes alır ve “Bir yol olmazsa başka yol buluruz” diyerek planını değiştirir. Değer: D3 Çalışkanlık — ilk kod bozulunca vazgeçmez; hatayı arar, kartı değiştirir ve kodu yeniden dener."
+  ],
+  "once": [
+   "Kapaktaki kaplumbağa ile tavşanı gösterin: “Tavşan hoplar, kaplumbağa ne yapar? İkisi aynı yoldan aynı biçimde gidebilir mi?”",
+   "“Kod” sözcüğünü açıklayın: “Birine ne yapacağını sırayla söyleyen işaretlere kod diyoruz. Bir kare çizsem ve ‘Bu bir adım ileri demek’ desem, beni yürütebilir misin?” Odada iki adımlık minik bir kod deneyin."
+  ],
+  "sirasi": [
+   "1. sayfada Tosbi'nin neden gölü göremediğini konuşun: “Tosbi yerde, otlar uzun. Zıpzıp zıplayınca ne görür?”",
+   "2. sayfada kartlara tek tek dokunun; her kartın ne dediğini birlikte söyleyin: kare, kare, yıldız, kare. Çocuk hatayı hemen fark ederse “Bakalım Tosbi ne yapacak?” deyip bekletin.",
+   "3. sayfada Tosbi'nin canının sıkılmasını adlandırın: “Planı işe yaramadı, canı sıkıldı.” Tahmin sorusunda iki cevabı da kabul edin; ikisi de güzel bir çözüm.",
+   "4. sayfada yeni kodu çocuk sırayla okusun. Zıpzıp'ın “Hata bende” demesine dikkat çekin: Hata yapmak da düzeltmek de olağan.",
+   "5. sayfada Tosbi'ye her dokunuşta kartın adını söyleyin: “Kare… kare… daire… kare!” Çocuk isterse kendi yerinde adımları yapsın.",
+   "6. sayfada “Bozulursa düzeltiriz” cümlesini birlikte, ritimle söyleyin; çocuk kendi hatasını düzelttiği bir anı anlatsın."
+  ],
+  "sonra": [
+   "İlk kod neden işe yaramadı? Tosbi ile Zıpzıp ne değiştirdi?",
+   "Tosbi'nin canı sıkılınca ne yaptı? Sen bir şey olmayınca ne yaparsın?",
+   "Zıpzıp için bir kod yapsak hangi kartı kullanabilirdik? Tosbi için hangisini?",
+   "Masaldaki üç resmi olayların sırasına göre dizin: önce, sonra, en son."
+  ],
+  "sinif": {
+   "ad": "Beden Robotu Kod Yolu",
+   "sure": "20 dk",
+   "materyal": "Kartondan kesilmiş mavi kareler, kırmızı daireler, sarı yıldızlar; yere konan bir “taş” (minder ya da kutu); yolun sonuna bir “göl” (mavi kumaş ya da kâğıt)",
+   "adim": [
+    "Kartların anlamını birlikte seçin ve tahtaya resimle asın: mavi kare = bir adım ileri, kırmızı daire = engelin etrafından dolaş, sarı yıldız = zıpla ya da çocukların seçtiği başka bir hareket.",
+    "Bir çocuk “kodcu” olur, kartları yere dizer; bir başka çocuk “Tosbi” olur, kartları sırayla okuyup yürür. Tekerlekli sandalye kullanan bir arkadaş da aynı kodla ilerleyebilir; hareketi herkes kendi yolunca yapar.",
+    "Öğretmen bilerek bir kartı yanlış koyar; çocuklar “Hata nerede?” diye kodu kart kart okuyup hatayı bulur ve düzeltir.",
+    "Kapanışta rolleri değiştirin; her çocuğa bir kez kodcu, bir kez yürüyen olma fırsatı verin. “Kod bozulursa ne yaparız?” sorusuyla bitirin."
+   ]
+  },
+  "evSoru": [
+   "Zıpzıp'ın ilk kodunda hangi kart Tosbi'ye uymadı?",
+   "Yıldızın yerine hangi kartı koydular? O kart ne demekti?",
+   "Senin bir planın olmayınca ne yaparsın?"
+  ],
+  "evEtk": {
+   "ad": "Evde kod yolu",
+   "d": "Kâğıttan birkaç kare ve daire kesin. Salonda bir oyuncağı hedef seçin, yastıkları engel yapın. Çocuğunuz kartları yere dizip sizi hedefe “kodlasın”; siz kartları sırayla uygulayın. Arada bir kartı bilerek yanlış uygulayın ya da yanlış bir kart koyun; çocuğunuz hatayı bulsun ve kodu düzeltsin."
+  },
+  "aileNotu": "Bugün “Tosbi'nin Kod Yolu” masalını okuduk. Tavşan Zıpzıp, kaplumbağa Tosbi'yi göle ulaştırmak için yere şekil kartlarından bir kod dizdi; ama koda Tosbi'nin yapamayacağı bir “zıpla” kartı koymuştu. İki arkadaş hatayı buldu, kartı değiştirdi ve yeni kodla göle vardı. Çocuklarımız sembollerle adım sırası kurmayı, hatayı bulup düzeltmeyi ve plan işe yaramayınca esnek davranmayı denedi. Evde basit kart kodlarıyla oynayabilir, “Bozulursa düzeltiriz” cümlesini birlikte kullanabilirsiniz."
+ },
+ "audio": {
+  "file": "audio/046-tosbinin-kod-yolu.mp3",
+  "hash": "447042dd",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17956,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      829,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2809,
+      6
+     ],
+     [
+      3229,
+      7
+     ],
+     [
+      3809,
+      8
+     ],
+     [
+      4769,
+      9
+     ],
+     [
+      5049,
+      10
+     ],
+     [
+      5370,
+      11
+     ],
+     [
+      5549,
+      12
+     ],
+     [
+      6329,
+      13
+     ],
+     [
+      7009,
+      14
+     ],
+     [
+      7390,
+      15
+     ],
+     [
+      7829,
+      16
+     ],
+     [
+      8270,
+      17
+     ],
+     [
+      9270,
+      18
+     ],
+     [
+      9709,
+      19
+     ],
+     [
+      10230,
+      20
+     ],
+     [
+      11329,
+      21
+     ],
+     [
+      12589,
+      22
+     ],
+     [
+      12850,
+      23
+     ],
+     [
+      13789,
+      24
+     ],
+     [
+      14129,
+      25
+     ],
+     [
+      14310,
+      26
+     ],
+     [
+      14930,
+      27
+     ],
+     [
+      15069,
+      28
+     ],
+     [
+      15409,
+      29
+     ],
+     [
+      16190,
+      30
+     ],
+     [
+      16950,
+      31
+     ],
+     [
+      17430,
+      32
+     ]
+    ]
+   },
+   "p0h-tosbi": {
+    "s": 18256,
+    "d": 2188,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p0h-tas": {
+    "s": 20745,
+    "d": 1840,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      361,
+      1
+     ],
+     [
+      682,
+      2
+     ],
+     [
+      1003,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 22885,
+    "d": 15122,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2469,
+      5
+     ],
+     [
+      3269,
+      6
+     ],
+     [
+      3549,
+      7
+     ],
+     [
+      4290,
+      8
+     ],
+     [
+      4529,
+      9
+     ],
+     [
+      4649,
+      10
+     ],
+     [
+      4890,
+      11
+     ],
+     [
+      5109,
+      12
+     ],
+     [
+      5890,
+      13
+     ],
+     [
+      6189,
+      14
+     ],
+     [
+      6689,
+      15
+     ],
+     [
+      7469,
+      16
+     ],
+     [
+      7849,
+      17
+     ],
+     [
+      8509,
+      18
+     ],
+     [
+      8709,
+      19
+     ],
+     [
+      9029,
+      20
+     ],
+     [
+      9810,
+      21
+     ],
+     [
+      10089,
+      22
+     ],
+     [
+      10789,
+      23
+     ],
+     [
+      11549,
+      24
+     ],
+     [
+      11850,
+      25
+     ],
+     [
+      12749,
+      26
+     ],
+     [
+      13350,
+      27
+     ],
+     [
+      14029,
+      28
+     ],
+     [
+      14729,
+      29
+     ]
+    ]
+   },
+   "p1h-zipzip": {
+    "s": 38308,
+    "d": 2653,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      2049,
+      4
+     ]
+    ]
+   },
+   "p1h-tosbi": {
+    "s": 41261,
+    "d": 1734,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1189,
+      4
+     ]
+    ]
+   },
+   "p1h-k": {
+    "s": 43296,
+    "d": 1210,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      709,
+      2
+     ]
+    ]
+   },
+   "p1h-yildiz": {
+    "s": 44806,
+    "d": 682,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 45789,
+    "d": 14229,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2229,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4009,
+      8
+     ],
+     [
+      4269,
+      9
+     ],
+     [
+      5109,
+      10
+     ],
+     [
+      5410,
+      11
+     ],
+     [
+      6709,
+      12
+     ],
+     [
+      7129,
+      13
+     ],
+     [
+      7689,
+      14
+     ],
+     [
+      7870,
+      15
+     ],
+     [
+      8089,
+      16
+     ],
+     [
+      8730,
+      17
+     ],
+     [
+      9390,
+      18
+     ],
+     [
+      9969,
+      19
+     ],
+     [
+      10310,
+      20
+     ],
+     [
+      10690,
+      21
+     ],
+     [
+      11689,
+      22
+     ],
+     [
+      11969,
+      23
+     ],
+     [
+      12574,
+      24
+     ],
+     [
+      13249,
+      25
+     ],
+     [
+      13409,
+      26
+     ],
+     [
+      13689,
+      27
+     ]
+    ]
+   },
+   "p2h-tosbi": {
+    "s": 60318,
+    "d": 1261,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p2h-zipzip": {
+    "s": 61880,
+    "d": 2372,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      693,
+      1
+     ],
+     [
+      1213,
+      2
+     ],
+     [
+      1512,
+      3
+     ],
+     [
+      2033,
+      4
+     ]
+    ]
+   },
+   "p2h-yildiz": {
+    "s": 64553,
+    "d": 671,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 65524,
+    "d": 1662,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      809,
+      3
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 67486,
+    "d": 2110,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      469,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1389,
+      4
+     ],
+     [
+      1609,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 69897,
+    "d": 16261,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1829,
+      3
+     ],
+     [
+      2189,
+      4
+     ],
+     [
+      3049,
+      5
+     ],
+     [
+      3309,
+      6
+     ],
+     [
+      3769,
+      7
+     ],
+     [
+      4029,
+      8
+     ],
+     [
+      4890,
+      9
+     ],
+     [
+      5449,
+      10
+     ],
+     [
+      5850,
+      11
+     ],
+     [
+      5969,
+      12
+     ],
+     [
+      6410,
+      13
+     ],
+     [
+      7069,
+      14
+     ],
+     [
+      7309,
+      15
+     ],
+     [
+      8289,
+      16
+     ],
+     [
+      8650,
+      17
+     ],
+     [
+      9810,
+      18
+     ],
+     [
+      10249,
+      19
+     ],
+     [
+      11310,
+      20
+     ],
+     [
+      11789,
+      21
+     ],
+     [
+      12249,
+      22
+     ],
+     [
+      12649,
+      23
+     ],
+     [
+      13589,
+      24
+     ],
+     [
+      14489,
+      25
+     ],
+     [
+      14909,
+      26
+     ],
+     [
+      15669,
+      27
+     ]
+    ]
+   },
+   "p3h-tosbi": {
+    "s": 86459,
+    "d": 1263,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      329,
+      1
+     ]
+    ]
+   },
+   "p3h-zipzip": {
+    "s": 88023,
+    "d": 2204,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      997,
+      2
+     ],
+     [
+      1406,
+      3
+     ]
+    ]
+   },
+   "p3h-k": {
+    "s": 90527,
+    "d": 1215,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      709,
+      2
+     ]
+    ]
+   },
+   "p3h-daire": {
+    "s": 92043,
+    "d": 1861,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1209,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 94204,
+    "d": 3109,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2709,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 97614,
+    "d": 16220,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      529,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      1069,
+      3
+     ],
+     [
+      1949,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      3049,
+      6
+     ],
+     [
+      3410,
+      7
+     ],
+     [
+      3589,
+      8
+     ],
+     [
+      4229,
+      9
+     ],
+     [
+      4930,
+      10
+     ],
+     [
+      5109,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      6069,
+      13
+     ],
+     [
+      6890,
+      14
+     ],
+     [
+      7249,
+      15
+     ],
+     [
+      7949,
+      16
+     ],
+     [
+      8930,
+      17
+     ],
+     [
+      9190,
+      18
+     ],
+     [
+      9829,
+      19
+     ],
+     [
+      10009,
+      20
+     ],
+     [
+      10310,
+      21
+     ],
+     [
+      11049,
+      22
+     ],
+     [
+      11589,
+      23
+     ],
+     [
+      12549,
+      24
+     ],
+     [
+      12810,
+      25
+     ],
+     [
+      13829,
+      26
+     ],
+     [
+      14350,
+      27
+     ],
+     [
+      14949,
+      28
+     ],
+     [
+      15449,
+      29
+     ]
+    ]
+   },
+   "p4h-tosbi": {
+    "s": 114134,
+    "d": 2090,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1410,
+      3
+     ]
+    ]
+   },
+   "p4h-zipzip": {
+    "s": 116524,
+    "d": 2122,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1229,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 118946,
+    "d": 2488,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      1969,
+      4
+     ]
+    ]
+   },
+   "p5": {
+    "s": 121735,
+    "d": 15662,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2309,
+      4
+     ],
+     [
+      2769,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3449,
+      7
+     ],
+     [
+      4350,
+      8
+     ],
+     [
+      5009,
+      9
+     ],
+     [
+      5330,
+      10
+     ],
+     [
+      6009,
+      11
+     ],
+     [
+      6729,
+      12
+     ],
+     [
+      7269,
+      13
+     ],
+     [
+      7649,
+      14
+     ],
+     [
+      8569,
+      15
+     ],
+     [
+      8749,
+      16
+     ],
+     [
+      9069,
+      17
+     ],
+     [
+      9529,
+      18
+     ],
+     [
+      9749,
+      19
+     ],
+     [
+      10310,
+      20
+     ],
+     [
+      10730,
+      21
+     ],
+     [
+      11509,
+      22
+     ],
+     [
+      12209,
+      23
+     ],
+     [
+      12789,
+      24
+     ],
+     [
+      13789,
+      25
+     ],
+     [
+      13909,
+      26
+     ],
+     [
+      14109,
+      27
+     ],
+     [
+      14749,
+      28
+     ],
+     [
+      15069,
+      29
+     ],
+     [
+      15269,
+      30
+     ]
+    ]
+   },
+   "p5h-tosbi": {
+    "s": 137698,
+    "d": 2585,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1749,
+      3
+     ]
+    ]
+   },
+   "p5h-zipzip": {
+    "s": 140583,
+    "d": 1629,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      869,
+      3
+     ],
+     [
+      1170,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

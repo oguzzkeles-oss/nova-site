@@ -1,0 +1,2107 @@
+{
+ "id": "077-ari-vizvizin-uzun-yolu",
+ "n": 77,
+ "title": "Arı Vızvız'ın Uzun Yolu",
+ "age": "60-72",
+ "area": "Fen",
+ "theme": "Arılar, çiçek tozu ve meyvenin oluşumu",
+ "values": [
+  "D3 Çalışkanlık"
+ ],
+ "sdb": "SDB2.2 İş Birliği",
+ "min": 6,
+ "blurb": "Minik arı Vızvız, sarı çiçek tozlarını çayırın ucundaki yalnız elma ağacına götürmek ister. Yol uzundur ama kelebek Pırpır'la birlikte uçunca çiçekler bir gün kıpkırmızı elmalara dönüşür.",
+ "codes": {
+  "maarif": [
+   "FAB.1 Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme",
+   "FAB.7 Günlük hayatındaki fene yönelik olaylar hakkında gözlemlerine dayalı basit düzeyde bilimsel çıkarımlar yapabilme (teyitsiz)",
+   "OB8 Sürdürülebilirlik Okuryazarlığı",
+   "SDB2.2 İş Birliği",
+   "D3 Çalışkanlık",
+   "E1.1 Merak"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "vizviz": "kucuk-hayvan",
+  "pirpir": "hayvan-kiz",
+  "ela": "cocuk-kiz"
+ },
+ "voiceNames": {
+  "vizviz": "Vızvız (arı)",
+  "pirpir": "Pırpır (kelebek)",
+  "ela": "Ela"
+ },
+ "pages": [
+  {
+   "text": "Bahar gelmişti. Vızz, vızz! Arı Vızvız kovandan çıktı, elma çiçeğine kondu. Bacaklarına sarı çiçek tozları yapıştı. Çayırın ucunda yalnız bir elma ağacı vardı. Çok uzaktı; oraya hiç arı gitmemişti. “Ben giderim!” dedi Vızvız.",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "trees": false,
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 48,
+      "y": 44,
+      "hit": "sun"
+     },
+     {
+      "k": "ari",
+      "x": 150,
+      "y": 98,
+      "s": 1.6,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "vizviz",
+      "z": 310
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 136,
+      "y": 212,
+      "s": 2.4,
+      "season": "spring"
+     },
+     {
+      "k": "flower",
+      "x": 150,
+      "y": 132,
+      "s": 0.5,
+      "color": "#FFFFFF",
+      "hit": "cicek",
+      "z": 300
+     },
+     {
+      "k": "tree",
+      "x": 360,
+      "y": 196,
+      "s": 0.8,
+      "season": "spring"
+     },
+     {
+      "k": "kovan",
+      "x": 54,
+      "y": 228,
+      "s": 1.5,
+      "type": "kutu",
+      "hit": "kovan"
+     },
+     {
+      "k": "flower",
+      "x": 270,
+      "y": 232,
+      "s": 0.5
+     },
+     {
+      "k": "flower",
+      "x": 306,
+      "y": 226,
+      "s": 0.42,
+      "color": "#FFFFFF"
+     },
+     {
+      "k": "flower",
+      "x": 236,
+      "y": 236,
+      "s": 0.45,
+      "color": "#F7C6D6"
+     }
+    ]
+   },
+   "hits": {
+    "vizviz": {
+     "say": "Ben giderim! Vızz!",
+     "voice": "vizviz",
+     "anim": "jump",
+     "fx": "buzz"
+    },
+    "kovan": {
+     "say": "Vızz vızz, kovanda herkes çalışıyor.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "sun": {
+     "say": "Bahar güneşi ısıtıyor.",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "chime"
+    },
+    "cicek": {
+     "say": "Sarı tozlar Vızvız'ın bacaklarına yapıştı.",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "vizviz",
+    "Vızvız'a dokun!"
+   ],
+   "ask": "Vızvız'ın bacaklarına ne yapıştı? Sence bu sarı tozlar ne işe yarar?"
+  },
+  {
+   "text": "Yol çok uzundu. Vızz… vızz… vız. Vızvız'ın kanatları ağırlaştı. “Ben çok küçüğüm, varamam,” dedi üzgün üzgün. Mor bir kelebek süzüldü. “Ben Pırpır! Birlikte uçalım, yorulunca dinleniriz. Oraya varınca sen bir çiçeğe, ben bir çiçeğe!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ari",
+      "x": 142,
+      "y": 180,
+      "s": 1.9,
+      "mood": "sad",
+      "pose": "stand",
+      "hit": "vizviz",
+      "z": 310
+     },
+     {
+      "k": "kelebek",
+      "x": 272,
+      "y": 122,
+      "s": 1.4,
+      "hit": "pirpir",
+      "z": 400
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 360,
+      "y": 186,
+      "s": 0.9,
+      "season": "spring"
+     },
+     {
+      "k": "flower",
+      "x": 142,
+      "y": 226,
+      "s": 0.8,
+      "color": "#EE6F9C",
+      "hit": "mola",
+      "z": 300
+     },
+     {
+      "k": "flower",
+      "x": 56,
+      "y": 232,
+      "s": 0.7,
+      "color": "#F9A93E"
+     },
+     {
+      "k": "flower",
+      "x": 250,
+      "y": 234,
+      "s": 0.7,
+      "color": "#9C82E0"
+     },
+     {
+      "k": "flower",
+      "x": 300,
+      "y": 222,
+      "s": 0.6,
+      "color": "#FFFFFF"
+     },
+     {
+      "k": "cali",
+      "x": 330,
+      "y": 232,
+      "s": 0.9,
+      "flowers": true
+     }
+    ],
+    "trees": false
+   },
+   "hits": {
+    "vizviz": {
+     "say": "Vızz... vız... Kanatlarım yoruldu.",
+     "voice": "vizviz",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "pirpir": {
+     "say": "Sen bir çiçeğe, ben bir çiçeğe!",
+     "voice": "pirpir",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "mola": {
+     "say": "Oh be! Biraz dinlendim.",
+     "voice": "vizviz",
+     "anim": "wiggle",
+     "fx": "pop"
+    }
+   },
+   "hint": [
+    "pirpir",
+    "Pırpır'a dokun!"
+   ],
+   "ask": "Vızvız yorulunca ne hissetti? Sen çok yorulunca kimden yardım istersin?"
+  },
+  {
+   "text": "Sonunda uzaktaki ağaca vardılar. Vızvız çiçekten çiçeğe kondu: vızz, kon! Vızz, kon! Sarı tozlar yeni çiçeklere geçti. Pırpır da pır pır uçup toz taşıdı. Bir Vızvız, bir Pırpır… Beş çiçeğin hepsine toz ulaştı!",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "spring",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ari",
+      "x": 166,
+      "y": 104,
+      "s": 1.5,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "vizviz",
+      "z": 310
+     },
+     {
+      "k": "kelebek",
+      "x": 336,
+      "y": 118,
+      "s": 1.4,
+      "hit": "pirpir",
+      "z": 400
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 230,
+      "y": 208,
+      "s": 2.7,
+      "season": "spring"
+     },
+     {
+      "k": "flower",
+      "x": 166,
+      "y": 128,
+      "s": 0.38,
+      "color": "#FFFFFF",
+      "hit": "b1",
+      "z": 300
+     },
+     {
+      "k": "flower",
+      "x": 206,
+      "y": 152,
+      "s": 0.38,
+      "color": "#F7C6D6",
+      "hit": "b2",
+      "z": 300
+     },
+     {
+      "k": "flower",
+      "x": 250,
+      "y": 156,
+      "s": 0.38,
+      "color": "#FFFFFF",
+      "hit": "b3",
+      "z": 300
+     },
+     {
+      "k": "flower",
+      "x": 292,
+      "y": 146,
+      "s": 0.38,
+      "color": "#F7C6D6",
+      "hit": "b4",
+      "z": 300
+     },
+     {
+      "k": "flower",
+      "x": 300,
+      "y": 96,
+      "s": 0.38,
+      "color": "#FFFFFF",
+      "hit": "b5",
+      "z": 300
+     },
+     {
+      "k": "flower",
+      "x": 40,
+      "y": 232,
+      "s": 0.5
+     },
+     {
+      "k": "flower",
+      "x": 360,
+      "y": 234,
+      "s": 0.45,
+      "color": "#F7C6D6"
+     }
+    ],
+    "trees": false
+   },
+   "hits": {
+    "vizviz": {
+     "say": "Vızz, vızz! Tozlar yerine ulaştı!",
+     "voice": "vizviz",
+     "anim": "jump",
+     "fx": "buzz"
+    },
+    "pirpir": {
+     "say": "Ben de taşıdım!",
+     "voice": "pirpir",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "b": {
+     "say": "Vızz, kon! Toz geçti!",
+     "voice": "vizviz",
+     "anim": "wiggle",
+     "fx": "buzz"
+    }
+   },
+   "predict": {
+    "q": "Sence bu çiçeklere ne olacak?",
+    "res": "Güzel tahmin! Hadi sayfayı çevirip görelim.",
+    "opts": [
+     {
+      "l": "Elmaya dönüşecek",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "summer",
+       "weather": "sun",
+       "cast": [],
+       "props": [
+        {
+         "k": "tree",
+         "x": 200,
+         "y": 210,
+         "s": 2.6
+        },
+        {
+         "k": "apple",
+         "x": 160,
+         "y": 110,
+         "s": 1.3,
+         "z": 300
+        },
+        {
+         "k": "apple",
+         "x": 214,
+         "y": 86,
+         "s": 1.3,
+         "z": 300
+        },
+        {
+         "k": "apple",
+         "x": 250,
+         "y": 124,
+         "s": 1.3,
+         "z": 300
+        }
+       ],
+       "trees": false
+      }
+     },
+     {
+      "l": "Yine çiçek kalacak",
+      "scene": {
+       "set": "cayir",
+       "time": "day",
+       "season": "spring",
+       "weather": "sun",
+       "cast": [],
+       "props": [
+        {
+         "k": "tree",
+         "x": 200,
+         "y": 210,
+         "s": 2.6,
+         "season": "spring"
+        },
+        {
+         "k": "flower",
+         "x": 164,
+         "y": 130,
+         "s": 0.42,
+         "color": "#FFFFFF",
+         "z": 300
+        },
+        {
+         "k": "flower",
+         "x": 222,
+         "y": 108,
+         "s": 0.42,
+         "color": "#F7C6D6",
+         "z": 300
+        },
+        {
+         "k": "flower",
+         "x": 252,
+         "y": 146,
+         "s": 0.42,
+         "color": "#FFFFFF",
+         "z": 300
+        }
+       ],
+       "trees": false
+      }
+     }
+    ]
+   },
+   "hint": [
+    "b1",
+    "Çiçeklere dokun, toz taşı!"
+   ],
+   "ask": "Sarı tozlar nereden nereye taşındı? Kim taşıdı?",
+   "mech": {
+    "type": "count",
+    "keys": [
+     "b1",
+     "b2",
+     "b3",
+     "b4",
+     "b5"
+    ],
+    "done": "Beş çiçeğe de toz geçti!",
+    "msg": "Tozları taşıdın!"
+   }
+  },
+  {
+   "text": "Günler geçti. Çiçek yaprakları uçup döküldü. Yerlerinde minicik yeşil toplar belirdi. Güneş ısıttı, yağmur suladı. Toplar büyüdü, büyüdü, kızardı. Yaz bitmek üzereydi! Ağaçta kaç elma vardı dersin?",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "gunes",
+      "x": 352,
+      "y": 46,
+      "hit": "sun"
+     },
+     {
+      "k": "ari",
+      "x": 84,
+      "y": 200,
+      "s": 1.6,
+      "mood": "surprised",
+      "pose": "fly",
+      "hit": "vizviz"
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 206,
+      "y": 212,
+      "s": 2.8
+     },
+     {
+      "k": "apple",
+      "x": 160,
+      "y": 118,
+      "s": 1.4,
+      "z": 300
+     },
+     {
+      "k": "apple",
+      "x": 206,
+      "y": 84,
+      "s": 1.4,
+      "z": 300
+     },
+     {
+      "k": "apple",
+      "x": 252,
+      "y": 110,
+      "s": 1.4,
+      "z": 300
+     },
+     {
+      "k": "apple",
+      "x": 186,
+      "y": 150,
+      "s": 1.4,
+      "z": 300
+     },
+     {
+      "k": "apple",
+      "x": 266,
+      "y": 152,
+      "s": 1.4,
+      "z": 300
+     },
+     {
+      "k": "flower",
+      "x": 330,
+      "y": 232,
+      "s": 0.5,
+      "color": "#F9A93E"
+     }
+    ],
+    "trees": false
+   },
+   "hits": {
+    "vizviz": {
+     "say": "Vay! Çiçekler elma olmuş!",
+     "voice": "vizviz",
+     "anim": "jump",
+     "fx": "buzz"
+    },
+    "sun": {
+     "say": "Güneş elmaları ısıtıyor.",
+     "voice": "anlatici",
+     "anim": "spinme",
+     "fx": "chime"
+    }
+   },
+   "hint": [
+    "vizviz",
+    "Vızvız'a dokun!"
+   ],
+   "ask": "Beş çiçek vardı. Şimdi kaç elma var? Sence neden aynı?"
+  },
+  {
+   "text": "Ela sepetiyle çayırın ucuna geldi. Elmalar kıpkırmızı, mis gibiydi! Tek tek sepete topladı. Vızvız'ı görünce ona dokunmadı, uzaktan el salladı. “Teşekkürler, Vızvız! Bu elmalar senin minik bacaklarından geldi!”",
+   "scene": {
+    "set": "cayir",
+    "time": "day",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ela",
+      "x": 80,
+      "y": 228,
+      "s": 1.15,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "ela",
+      "turn": 0.6
+     },
+     {
+      "k": "ari",
+      "x": 214,
+      "y": 118,
+      "s": 1.5,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "vizviz",
+      "flip": true,
+      "z": 400
+     }
+    ],
+    "props": [
+     {
+      "k": "tree",
+      "x": 282,
+      "y": 206,
+      "s": 2.6
+     },
+     {
+      "k": "apple",
+      "x": 246,
+      "y": 112,
+      "s": 1.4,
+      "hit": "a1",
+      "z": 300
+     },
+     {
+      "k": "apple",
+      "x": 292,
+      "y": 86,
+      "s": 1.4,
+      "hit": "a2",
+      "z": 300
+     },
+     {
+      "k": "apple",
+      "x": 330,
+      "y": 118,
+      "s": 1.4,
+      "hit": "a3",
+      "z": 300
+     },
+     {
+      "k": "apple",
+      "x": 262,
+      "y": 150,
+      "s": 1.4,
+      "hit": "a4",
+      "z": 300
+     },
+     {
+      "k": "apple",
+      "x": 332,
+      "y": 156,
+      "s": 1.4,
+      "hit": "a5",
+      "z": 300
+     },
+     {
+      "k": "basket",
+      "x": 150,
+      "y": 232,
+      "s": 1.3,
+      "fill": "empty",
+      "full": 0
+     }
+    ],
+    "trees": false
+   },
+   "hits": {
+    "ela": {
+     "say": "Teşekkürler Vızvız!",
+     "voice": "ela",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "vizviz": {
+     "say": "Rica ederim, Ela!",
+     "voice": "vizviz",
+     "anim": "boing",
+     "fx": "buzz"
+    }
+   },
+   "mech": {
+    "type": "collect",
+    "keys": [
+     "a1",
+     "a2",
+     "a3",
+     "a4",
+     "a5"
+    ],
+    "to": [
+     150,
+     210
+    ],
+    "done": "Beş çiçek, beş elma, bir sepet!",
+    "msg": "Hepsini topladın!"
+   },
+   "hint": [
+    "a1",
+    "Elmaları sepete topla!"
+   ],
+   "ask": "Ela neden Vızvız'a dokunmadı? Sen bir arı görünce ne yaparsın?"
+  },
+  {
+   "text": "O akşam Vızvız kovana döndü. Göğsü gururla kabardı. Arkadaşlarına elma ağacının yolunu dans ederek anlattı: sağa, sola, vızz! “Gelecek bahar hep birlikte gidelim. Pırpır da gelsin!” Vızz, vızz, vızz! Bütün kovan sevinçle vızıldadı.",
+   "scene": {
+    "set": "cayir",
+    "time": "sunset",
+    "season": "summer",
+    "weather": "sun",
+    "cast": [
+     {
+      "k": "ari",
+      "x": 214,
+      "y": 192,
+      "s": 2.0,
+      "mood": "laugh",
+      "pose": "wave",
+      "hit": "vizviz",
+      "flip": true
+     },
+     {
+      "k": "kelebek",
+      "x": 318,
+      "y": 112,
+      "hit": "pirpir",
+      "z": 400,
+      "s": 1.4
+     }
+    ],
+    "props": [
+     {
+      "k": "kovan",
+      "x": 110,
+      "y": 228,
+      "s": 1.9,
+      "type": "kutu",
+      "hit": "kovan"
+     },
+     {
+      "k": "tree",
+      "x": 352,
+      "y": 196,
+      "s": 1.3
+     },
+     {
+      "k": "flower",
+      "x": 36,
+      "y": 234,
+      "s": 0.5,
+      "color": "#EE6F9C"
+     },
+     {
+      "k": "flower",
+      "x": 312,
+      "y": 232,
+      "s": 0.45,
+      "color": "#FFFFFF"
+     },
+     {
+      "k": "flower",
+      "x": 262,
+      "y": 234,
+      "s": 0.5,
+      "color": "#F9A93E"
+     }
+    ],
+    "trees": false
+   },
+   "hits": {
+    "vizviz": {
+     "say": "Sağa, sola, vızz! Yol böyle!",
+     "voice": "vizviz",
+     "anim": "jump",
+     "fx": "buzz"
+    },
+    "kovan": {
+     "say": "Vızz, vızz, vızz!",
+     "voice": "anlatici",
+     "anim": "wiggle",
+     "fx": "buzz"
+    },
+    "pirpir": {
+     "say": "Ben de gelirim!",
+     "voice": "pirpir",
+     "anim": "jump",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "kovan",
+    "Kovana dokun!"
+   ],
+   "ask": "Vızvız neden gururlandı? Sen bir işi arkadaşınla birlikte bitirince ne hissedersin?"
+  }
+ ],
+ "order": [
+  0,
+  2,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 (öğrenme çıktısı) Gündelik yaşamda fenle ilgili olaylara/olgulara ve durumlara yönelik bilimsel gözlem yapabilme: Çocuk, arının çiçeğe konduğunu, bacaklarına sarı çiçek tozu yapıştığını ve çiçeklerin yerinde zamanla meyve oluştuğunu resimlerde gözlemler ve anlatır.",
+   "FAB.7 (öğrenme çıktısı, teyitsiz) Günlük hayatındaki fene yönelik olaylar hakkında gözlemlerine dayalı basit düzeyde bilimsel çıkarımlar yapabilme: 'Beş çiçek, beş elma' gözleminden yola çıkarak 'Arı çiçek tozunu taşıdığı için elma oldu' çıkarımını yapar.",
+   "OB8 Sürdürülebilirlik Okuryazarlığı: Arıların ve çiçeklerin yiyeceklerimiz için önemini fark eder; arıya dokunmadan uzaktan izlemeyi ve çiçek dikmeyi arıları korumanın bir yolu olarak söyler.",
+   "SDB2.2 İş Birliği ve D3 Çalışkanlık: Vızvız ile Pırpır'ın uzun yolu birlikte, mola vere vere tamamlamasını; Vızvız'ın 'Gelecek bahar hep birlikte gidelim' önerisini yorumlar; emek verilen işin sonucunu (sepet dolusu elma) görür."
+  ],
+  "once": [
+   "Bir elma ya da elma resmi gösterin: 'Bu elma nereden geldi? Ağaçta elmadan önce ne vardı?' Tahminleri not edin.",
+   "Kapaktaki arıyı gösterin: 'Arılar çiçeklerde ne yapar?' Bal yapmaktan başka bir işleri olabilir mi, birlikte merak edin."
+  ],
+  "sirasi": [
+   "1. sayfada Vızvız'ın bacaklarındaki sarı tozları gösterin; 'çiçek tozu' sözcüğünü birlikte söyleyin. Uzaktaki yalnız ağacı birlikte bulun.",
+   "2. sayfada 'Vızz... vızz... vız' sesini giderek kısılan bir sesle okuyun. 'Nasıl hissediyor? Kanatları neden ağırlaştı?' Mola vermenin ve yardım istemenin iyi geldiğini fark ettirin. Pırpır'ın planını birlikte söyleyin: 'Sen bir çiçeğe, ben bir çiçeğe!'",
+   "3. sayfada çocuk her çiçeğe dokunarak Vızvız'ın tozu taşımasına yardım eder; tahminde çocuğun seçimini gerekçesiyle dinleyin, doğru ya da yanlış demeden 'Hadi görelim!' deyin.",
+   "4. sayfada ağaçtaki elmaları parmakla gösterip birlikte sayın, 3. sayfadaki beş çiçeği hatırlatın: 'Kaç çiçek vardı? Kaç elma oldu?'",
+   "5. sayfada Ela'nın arıya neden dokunmadığını konuşun: 'Arıyı uzaktan izleriz.'",
+   "6. sayfada: 'Vızvız tek başına gidebilir miydi? Birlikte olunca ne değişti?'"
+  ],
+  "sonra": [
+   "Masaldaki sırayı birlikte anlatın: çiçek → arı tozu taşır → çiçek yaprakları dökülür → küçük yeşil meyve → kırmızı elma.",
+   "Merak eden çocuklara: Arı çiçekten nektar içerken tüylerine çiçek tozu yapışır. Başka bir çiçeğe konunca bu toz oraya geçer. Buna tozlaşma denir; pek çok meyve ve sebze böyle oluşur. Kelebekler de çiçek tozu taşıyabilir.",
+   "Arılar yolu birbirine dans ederek anlatır. Çocuklarla 'sağa, sola, vızz!' diye arı dansı yapın.",
+   "Güvenlik: Arıya dokunmayın, kovanın yakınına gitmeyin; arı yanınızdan geçerse sakin durun, kollarınızı sallamayın. Arı alerjisi olan çocuklar için özel önlemleri aileyle konuşun.",
+   "Baştaki tahminlere dönün: 'Elma nereden geliyormuş? Fikrin değişti mi?'"
+  ],
+  "sinif": {
+   "ad": "Tozlaşma Oyunu: Minik Arılar",
+   "sure": "20 dk",
+   "materyal": "Kâğıttan büyük çiçekler (4-5 tane), her çiçeğin ortasında sarı kâğıt ya da ponpon, kırmızı top ya da kâğıt elmalar",
+   "adim": [
+    "Kâğıt çiçekleri sınıfın farklı köşelerine koyun. Çocuklar ikişerli 'arı ve kelebek' takımı olur.",
+    "Takımlar bir çiçekten sarı ponponu alıp başka bir çiçeğe bırakır; 'Vızz vızz!' diye uçarak, gerekince bir çiçekte mola verir.",
+    "Sarı toz ulaşan her çiçeğin yerine öğretmen bir kırmızı elma koyar; çocuklar elmaları birlikte sayar.",
+    "Sonunda sorun: 'Arılar olmasaydı kaç elma olurdu? Sen arılara nasıl yardım edebilirsin?' Cevapları resimle bir panoya asın."
+   ]
+  },
+  "evSoru": [
+   "Vızvız'ın bacaklarına ne yapıştı? Onları nereye götürdü?",
+   "Yol uzun gelince Vızvız ne yaptı? Pırpır ona nasıl yardım etti?",
+   "Çiçekler nasıl elmaya dönüştü? Arılar olmasa ne olurdu?"
+  ],
+  "evEtk": {
+   "ad": "Arı Dostu Saksı",
+   "d": "Balkonda ya da pencere önünde bir saksıya lavanta, fesleğen ya da papatya ekin. Çiçek açınca arıları birlikte, dokunmadan ve uzaktan izleyin. Mutfaktaki bir elmayı ya da domatesi gösterip 'Bunun çiçeğine hangi arı konmuş olabilir?' diye sohbet edin."
+  },
+  "aileNotu": "Bugün 'Arı Vızvız'ın Uzun Yolu' masalını okuduk. Minik arı Vızvız, sarı çiçek tozlarını uzaktaki bir elma ağacına taşıdı; yolda yorulunca kelebek Pırpır'la birlikte, mola vere vere uçtu. Çiçekler zamanla elmaya dönüştü. Evde meyve yerken 'Bu meyve önce bir çiçekti' sohbetini sürdürebilir, arıları dokunmadan ve uzaktan birlikte gözlemleyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/077-ari-vizvizin-uzun-yolu.mp3",
+  "hash": "2fc82f4a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 17297,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      2069,
+      3
+     ],
+     [
+      3069,
+      4
+     ],
+     [
+      3309,
+      5
+     ],
+     [
+      3849,
+      6
+     ],
+     [
+      4430,
+      7
+     ],
+     [
+      5169,
+      8
+     ],
+     [
+      5449,
+      9
+     ],
+     [
+      5949,
+      10
+     ],
+     [
+      6709,
+      11
+     ],
+     [
+      7430,
+      12
+     ],
+     [
+      7709,
+      13
+     ],
+     [
+      8069,
+      14
+     ],
+     [
+      8529,
+      15
+     ],
+     [
+      9409,
+      16
+     ],
+     [
+      9850,
+      17
+     ],
+     [
+      10409,
+      18
+     ],
+     [
+      10869,
+      19
+     ],
+     [
+      11049,
+      20
+     ],
+     [
+      11409,
+      21
+     ],
+     [
+      11689,
+      22
+     ],
+     [
+      12430,
+      23
+     ],
+     [
+      12649,
+      24
+     ],
+     [
+      13529,
+      25
+     ],
+     [
+      13909,
+      26
+     ],
+     [
+      14209,
+      27
+     ],
+     [
+      14409,
+      28
+     ],
+     [
+      15469,
+      29
+     ],
+     [
+      15709,
+      30
+     ],
+     [
+      16489,
+      31
+     ],
+     [
+      16729,
+      32
+     ]
+    ]
+   },
+   "p0h-vizviz": {
+    "s": 17597,
+    "d": 1777,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      339,
+      1
+     ],
+     [
+      1437,
+      2
+     ]
+    ]
+   },
+   "p0h-kovan": {
+    "s": 19675,
+    "d": 2870,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1209,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2229,
+      4
+     ]
+    ]
+   },
+   "p0h-sun": {
+    "s": 22845,
+    "d": 1612,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      809,
+      2
+     ]
+    ]
+   },
+   "p0h-cicek": {
+    "s": 24757,
+    "d": 2801,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      1550,
+      3
+     ],
+     [
+      2209,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 27858,
+    "d": 18800,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1529,
+      3
+     ],
+     [
+      2589,
+      4
+     ],
+     [
+      3549,
+      5
+     ],
+     [
+      4689,
+      6
+     ],
+     [
+      5209,
+      7
+     ],
+     [
+      5850,
+      8
+     ],
+     [
+      7009,
+      9
+     ],
+     [
+      7229,
+      10
+     ],
+     [
+      7469,
+      11
+     ],
+     [
+      8169,
+      12
+     ],
+     [
+      9049,
+      13
+     ],
+     [
+      9350,
+      14
+     ],
+     [
+      9709,
+      15
+     ],
+     [
+      10469,
+      16
+     ],
+     [
+      10730,
+      17
+     ],
+     [
+      10930,
+      18
+     ],
+     [
+      11409,
+      19
+     ],
+     [
+      12289,
+      20
+     ],
+     [
+      12549,
+      21
+     ],
+     [
+      13329,
+      22
+     ],
+     [
+      13770,
+      23
+     ],
+     [
+      14409,
+      24
+     ],
+     [
+      14930,
+      25
+     ],
+     [
+      15890,
+      26
+     ],
+     [
+      16209,
+      27
+     ],
+     [
+      16870,
+      28
+     ],
+     [
+      17129,
+      29
+     ],
+     [
+      17249,
+      30
+     ],
+     [
+      17930,
+      31
+     ],
+     [
+      18149,
+      32
+     ],
+     [
+      18270,
+      33
+     ]
+    ]
+   },
+   "p1h-vizviz": {
+    "s": 46959,
+    "d": 3453,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1410,
+      1
+     ],
+     [
+      2110,
+      2
+     ],
+     [
+      2809,
+      3
+     ]
+    ]
+   },
+   "p1h-pirpir": {
+    "s": 50712,
+    "d": 2524,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1689,
+      4
+     ],
+     [
+      1930,
+      5
+     ]
+    ]
+   },
+   "p1h-mola": {
+    "s": 53537,
+    "d": 2142,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1430,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 55980,
+    "d": 17172,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      2630,
+      4
+     ],
+     [
+      3209,
+      5
+     ],
+     [
+      3809,
+      6
+     ],
+     [
+      4269,
+      7
+     ],
+     [
+      4969,
+      8
+     ],
+     [
+      5509,
+      9
+     ],
+     [
+      6249,
+      10
+     ],
+     [
+      6809,
+      11
+     ],
+     [
+      7609,
+      12
+     ],
+     [
+      7870,
+      13
+     ],
+     [
+      8489,
+      14
+     ],
+     [
+      8749,
+      15
+     ],
+     [
+      9350,
+      16
+     ],
+     [
+      10089,
+      17
+     ],
+     [
+      10549,
+      18
+     ],
+     [
+      10850,
+      19
+     ],
+     [
+      11169,
+      20
+     ],
+     [
+      11449,
+      21
+     ],
+     [
+      11810,
+      22
+     ],
+     [
+      12089,
+      23
+     ],
+     [
+      12890,
+      24
+     ],
+     [
+      13149,
+      25
+     ],
+     [
+      13909,
+      26
+     ],
+     [
+      14149,
+      27
+     ],
+     [
+      14989,
+      28
+     ],
+     [
+      15249,
+      29
+     ],
+     [
+      15769,
+      30
+     ],
+     [
+      16289,
+      31
+     ],
+     [
+      16530,
+      32
+     ]
+    ]
+   },
+   "p2h-vizviz": {
+    "s": 73452,
+    "d": 3029,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1949,
+      3
+     ],
+     [
+      2309,
+      4
+     ]
+    ]
+   },
+   "p2h-pirpir": {
+    "s": 76781,
+    "d": 1095,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      266,
+      1
+     ],
+     [
+      492,
+      2
+     ]
+    ]
+   },
+   "p2h-b": {
+    "s": 78177,
+    "d": 2279,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1670,
+      3
+     ]
+    ]
+   },
+   "p2m": {
+    "s": 80756,
+    "d": 1850,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1249,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 82906,
+    "d": 2045,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1469,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 85252,
+    "d": 2989,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1709,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2529,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 88541,
+    "d": 15807,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1670,
+      3
+     ],
+     [
+      2349,
+      4
+     ],
+     [
+      2709,
+      5
+     ],
+     [
+      3650,
+      6
+     ],
+     [
+      4350,
+      7
+     ],
+     [
+      4850,
+      8
+     ],
+     [
+      5189,
+      9
+     ],
+     [
+      5649,
+      10
+     ],
+     [
+      6489,
+      11
+     ],
+     [
+      6910,
+      12
+     ],
+     [
+      7789,
+      13
+     ],
+     [
+      8310,
+      14
+     ],
+     [
+      9150,
+      15
+     ],
+     [
+      9730,
+      16
+     ],
+     [
+      10469,
+      17
+     ],
+     [
+      11209,
+      18
+     ],
+     [
+      12249,
+      19
+     ],
+     [
+      12529,
+      20
+     ],
+     [
+      12930,
+      21
+     ],
+     [
+      13890,
+      22
+     ],
+     [
+      14409,
+      23
+     ],
+     [
+      14669,
+      24
+     ],
+     [
+      14949,
+      25
+     ],
+     [
+      15289,
+      26
+     ]
+    ]
+   },
+   "p3h-vizviz": {
+    "s": 104649,
+    "d": 2494,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1489,
+      2
+     ],
+     [
+      1849,
+      3
+     ]
+    ]
+   },
+   "p3h-sun": {
+    "s": 107444,
+    "d": 1809,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1150,
+      2
+     ]
+    ]
+   },
+   "p4": {
+    "s": 109553,
+    "d": 15373,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      1030,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2670,
+      5
+     ],
+     [
+      3249,
+      6
+     ],
+     [
+      4310,
+      7
+     ],
+     [
+      4609,
+      8
+     ],
+     [
+      5589,
+      9
+     ],
+     [
+      5890,
+      10
+     ],
+     [
+      6109,
+      11
+     ],
+     [
+      6509,
+      12
+     ],
+     [
+      7449,
+      13
+     ],
+     [
+      7890,
+      14
+     ],
+     [
+      8469,
+      15
+     ],
+     [
+      8669,
+      16
+     ],
+     [
+      9569,
+      17
+     ],
+     [
+      10109,
+      18
+     ],
+     [
+      10289,
+      19
+     ],
+     [
+      11209,
+      20
+     ],
+     [
+      11909,
+      21
+     ],
+     [
+      12709,
+      22
+     ],
+     [
+      12869,
+      23
+     ],
+     [
+      13430,
+      24
+     ],
+     [
+      13770,
+      25
+     ],
+     [
+      14049,
+      26
+     ],
+     [
+      14869,
+      27
+     ]
+    ]
+   },
+   "p4h-ela": {
+    "s": 125227,
+    "d": 1276,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      1089,
+      1
+     ]
+    ]
+   },
+   "p4h-vizviz": {
+    "s": 126804,
+    "d": 1344,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      375,
+      1
+     ],
+     [
+      968,
+      2
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 128448,
+    "d": 2815,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2269,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 131563,
+    "d": 17440,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      689,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1569,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      2729,
+      6
+     ],
+     [
+      3229,
+      7
+     ],
+     [
+      4169,
+      8
+     ],
+     [
+      5049,
+      9
+     ],
+     [
+      5350,
+      10
+     ],
+     [
+      5809,
+      11
+     ],
+     [
+      6229,
+      12
+     ],
+     [
+      6529,
+      13
+     ],
+     [
+      6910,
+      14
+     ],
+     [
+      7789,
+      15
+     ],
+     [
+      8409,
+      16
+     ],
+     [
+      9009,
+      17
+     ],
+     [
+      9890,
+      18
+     ],
+     [
+      10350,
+      19
+     ],
+     [
+      10709,
+      20
+     ],
+     [
+      10930,
+      21
+     ],
+     [
+      11369,
+      22
+     ],
+     [
+      11989,
+      23
+     ],
+     [
+      12350,
+      24
+     ],
+     [
+      12489,
+      25
+     ],
+     [
+      13289,
+      26
+     ],
+     [
+      14289,
+      27
+     ],
+     [
+      14609,
+      28
+     ],
+     [
+      15149,
+      29
+     ],
+     [
+      15589,
+      30
+     ],
+     [
+      16110,
+      31
+     ],
+     [
+      16709,
+      32
+     ]
+    ]
+   },
+   "p5h-vizviz": {
+    "s": 149303,
+    "d": 3198,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      2269,
+      3
+     ],
+     [
+      2589,
+      4
+     ]
+    ]
+   },
+   "p5h-kovan": {
+    "s": 152802,
+    "d": 1694,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      654,
+      1
+     ],
+     [
+      1268,
+      2
+     ]
+    ]
+   },
+   "p5h-pirpir": {
+    "s": 154797,
+    "d": 1002,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      409,
+      2
+     ]
+    ]
+   }
+  }
+ }
+}

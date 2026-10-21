@@ -1,0 +1,2067 @@
+{
+ "id": "031-kutuphanede-can",
+ "n": 31,
+ "title": "Can Kitabını Seçiyor",
+ "age": "48-60",
+ "area": "Türkçe",
+ "theme": "Kitap seçme: kapak resimlerini okuma",
+ "values": [
+  "D11 Özgürlük"
+ ],
+ "sdb": "SDB3.3 Sorumlu Karar Verme",
+ "min": 5,
+ "blurb": "Kitap saatinde top yuvarlanır, kitaplar raftan düşer. Can hangisini seçeceğini bilemez. Derin bir nefes, kapaklardaki resimler... Can kitabını kendisi seçebilecek mi?",
+ "codes": {
+  "maarif": [
+   "TAOB.1 Resimli öykü kitabı gibi görsel materyalleri seçebilme (TAOB.1.a sunulan görsel okuma materyallerini inceler; TAOB.1.b seçenekler arasından seçer)",
+   "TADB.1 Dinleyeceği/izleyeceği materyalleri yönetebilme (TADB.1.a sunulan seçenekler arasından dinleyeceği materyali seçer)",
+   "OB1 Bilgi Okuryazarlığı",
+   "OB4 Görsel Okuryazarlık",
+   "SDB3.3 Sorumlu Karar Verme",
+   "D11 Özgürlük"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "can": "cocuk-erkek",
+  "deniz": "cocuk-kiz",
+  "nur": "ogretmen"
+ },
+ "voiceNames": {
+  "can": "Can",
+  "deniz": "Deniz",
+  "nur": "Nur Öğretmen"
+ },
+ "pages": [
+  {
+   "text": "Kitap saati geldi! Nur Öğretmen gülümsedi: “Herkes bir kitap seçsin.” Can yerinde zıpladı. Hop hop! Kitap köşesine koştu. Ama o da ne?",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "hot": {
+     "kitaplik": "raf"
+    },
+    "cast": [
+     {
+      "k": "can",
+      "x": 205,
+      "y": 226,
+      "s": 1.08,
+      "mood": "laugh",
+      "pose": "run",
+      "hit": "can",
+      "flip": true
+     },
+     {
+      "k": "ogretmen",
+      "x": 330,
+      "y": 220,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "nur",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 120,
+      "y": 236,
+      "s": 1.4,
+      "color": "#F6C742"
+     },
+     {
+      "k": "canta",
+      "x": 372,
+      "y": 236,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Kitap saati! Yaşasın!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "boing"
+    },
+    "nur": {
+     "say": "Herkes bir kitap seçsin.",
+     "voice": "nur",
+     "anim": "wiggle",
+     "fx": "chime"
+    },
+    "raf": {
+     "anim": "wiggle",
+     "fx": "page"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Senin sınıfında da kitap köşesi var mı? Orada neler var?"
+  },
+  {
+   "text": "Birinin topu yuvarlandı, güm! Kitaplar raftan düştü, karmakarışık oldu. Biri masanın altına, biri yastığın arkasına, biri kutunun yanına! Can'ın kafası karıştı, kalbi pıt pıt attı. “Hangisini seçeceğim şimdi?”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "cast": [
+     {
+      "k": "can",
+      "x": 165,
+      "y": 228,
+      "s": 1.08,
+      "mood": "think",
+      "pose": "stand",
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 78,
+      "y": 236,
+      "s": 1.7,
+      "color": "#9CC8F0"
+     },
+     {
+      "k": "oyuncak-kutusu",
+      "x": 352,
+      "y": 234,
+      "s": 1.4,
+      "state": "on",
+      "color": "#E4574F"
+     },
+     {
+      "k": "kitap",
+      "x": 110,
+      "y": 226,
+      "s": 1.3,
+      "color": "#6DB54B",
+      "hit": "k1",
+      "peek": true
+     },
+     {
+      "k": "kitap",
+      "x": 225,
+      "y": 205,
+      "s": 1.3,
+      "color": "#E4574F",
+      "hit": "k2",
+      "peek": true
+     },
+     {
+      "k": "kitap",
+      "x": 305,
+      "y": 237,
+      "s": 1.3,
+      "color": "#9C7BD8",
+      "hit": "k3",
+      "peek": true
+     },
+     {
+      "k": "top",
+      "x": 268,
+      "y": 236,
+      "s": 1.1,
+      "color": "#4F8FD8",
+      "hit": "top"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Hangisini seçeceğim şimdi?",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "top": {
+     "say": "Güm! Top rafa çarptı.",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "thump"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "k1",
+     "k2",
+     "k3"
+    ],
+    "done": "Üç kitabın hepsi bulundu!",
+    "msg": "Hepsini buldun!"
+   },
+   "hint": [
+    "k2",
+    "Saklanan kitapları bul!"
+   ],
+   "ask": "Kitaplar nerelere düşmüş? Can'ın kafası neden karıştı sence?"
+  },
+  {
+   "text": "Arkadaşı Deniz yanına geldi. “Önce nefes al.” Can burnundan derin bir nefes çekti: Hıııh… Ağzından yavaşça üfledi: Fuuuh! Omuzları gevşedi. Sonra düşen üç kitabı toplayıp yan yana dizdi.",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 115,
+      "y": 228,
+      "s": 1.08,
+      "mood": "calm",
+      "pose": "stand",
+      "hit": "can",
+      "turn": 0.6
+     },
+     {
+      "k": "deniz",
+      "x": 298,
+      "y": 226,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "deniz",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "kitap",
+      "x": 175,
+      "y": 236,
+      "s": 1.7,
+      "color": "#4F8FD8"
+     },
+     {
+      "k": "kitap",
+      "x": 210,
+      "y": 236,
+      "s": 1.7,
+      "color": "#E4574F"
+     },
+     {
+      "k": "kitap",
+      "x": 245,
+      "y": 236,
+      "s": 1.7,
+      "color": "#9C7BD8"
+     },
+     {
+      "k": "kitaplik",
+      "x": 365,
+      "y": 200,
+      "s": 0.8
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Hıııh… Fuuuh! Oh, rahatladım.",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "deniz": {
+     "say": "Önce nefes al. Hıııh… Fuuuh!",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    }
+   },
+   "predict": {
+    "q": "Sence Can kitabını nasıl seçecek?",
+    "res": "Can bir kitabı çevirdi. “Aaa, kapakta ayı var!”",
+    "opts": [
+     {
+      "l": "Kapak resimlerine bakarak",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "tables": false,
+       "cast": [
+        {
+         "k": "can",
+         "x": 130,
+         "y": 228,
+         "s": 1.1,
+         "mood": "think",
+         "pose": "point",
+         "hit": "can"
+        }
+       ],
+       "props": [
+        {
+         "k": "kitap",
+         "x": 215,
+         "y": 236,
+         "s": 1.8,
+         "color": "#4F8FD8",
+         "hit": "o1"
+        },
+        {
+         "k": "oyuncak-ayi",
+         "x": 212.3,
+         "y": 222.6,
+         "s": 0.5,
+         "z": 237,
+         "color": "#E4574F",
+         "hit": "o1"
+        },
+        {
+         "k": "kitap",
+         "x": 285,
+         "y": 236,
+         "s": 1.8,
+         "color": "#E4574F",
+         "hit": "o2"
+        },
+        {
+         "k": "oyuncak-araba",
+         "x": 282.3,
+         "y": 219.7,
+         "s": 0.52,
+         "z": 237,
+         "color": "#E4574F",
+         "hit": "o2"
+        }
+       ]
+      }
+     },
+     {
+      "l": "Nur Öğretmen'e sorarak",
+      "scene": {
+       "set": "sinif",
+       "time": "day",
+       "tables": false,
+       "cast": [
+        {
+         "k": "can",
+         "x": 140,
+         "y": 228,
+         "s": 1.08,
+         "mood": "think",
+         "pose": "wave",
+         "hit": "can"
+        },
+        {
+         "k": "ogretmen",
+         "x": 270,
+         "y": 222,
+         "s": 1.0,
+         "mood": "happy",
+         "pose": "point",
+         "hit": "nur",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "kitap",
+         "x": 200,
+         "y": 238,
+         "s": 1.5,
+         "color": "#9C7BD8",
+         "hit": "o3"
+        },
+        {
+         "k": "sekil",
+         "shape": "star",
+         "color": "#F6C742",
+         "x": 197.8,
+         "y": 225.2,
+         "s": 0.57,
+         "z": 239,
+         "face": true,
+         "mood": "happy",
+         "hit": "o3"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "can",
+    "Can'la nefes al!"
+   ],
+   "ask": "Sen kafan karışınca ne yaparsın? Hadi birlikte derin bir nefes alalım."
+  },
+  {
+   "text": "Can kapakları tek tek çevirdi. Ayı, araba, yıldız! Rafların üstünde de resimler vardı: kedi, otobüs, güneş. “Ayı da hayvan, kedili rafa!” Tık, tık, tık! Kitaplar yerli yerinde. “Artık hepsini görebiliyorum!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 236,
+      "y": 222,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "point",
+      "hit": "can"
+     },
+     {
+      "k": "kedi",
+      "x": 330,
+      "y": 226,
+      "s": 0.45,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "r1",
+      "z": 240
+     }
+    ],
+    "props": [
+     {
+      "k": "kitaplik",
+      "x": 330,
+      "y": 234,
+      "s": 1.35
+     },
+     {
+      "k": "kitap",
+      "x": 48,
+      "y": 236,
+      "s": 1.8,
+      "color": "#4F8FD8",
+      "hit": "k1"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 45.3,
+      "y": 222.6,
+      "s": 0.5,
+      "z": 237,
+      "color": "#E4574F",
+      "hit": "k1"
+     },
+     {
+      "k": "kitap",
+      "x": 112,
+      "y": 236,
+      "s": 1.8,
+      "color": "#E4574F",
+      "hit": "k2"
+     },
+     {
+      "k": "oyuncak-araba",
+      "x": 109.3,
+      "y": 219.7,
+      "s": 0.52,
+      "z": 237,
+      "color": "#E4574F",
+      "hit": "k2"
+     },
+     {
+      "k": "kitap",
+      "x": 176,
+      "y": 236,
+      "s": 1.8,
+      "color": "#9C7BD8",
+      "hit": "k3"
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F6C742",
+      "x": 173.3,
+      "y": 220.7,
+      "s": 0.68,
+      "z": 237,
+      "face": true,
+      "mood": "happy",
+      "hit": "k3"
+     },
+     {
+      "k": "otobus",
+      "type": "sehir",
+      "kids": 0,
+      "driver": false,
+      "x": 330,
+      "y": 184,
+      "s": 0.2,
+      "z": 240,
+      "hit": "r2"
+     },
+     {
+      "k": "resim",
+      "theme": "sun",
+      "frame": "#F6C742",
+      "x": 330,
+      "y": 140,
+      "s": 0.85,
+      "z": 240,
+      "hit": "r3"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Artık hepsini görebiliyorum!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "pop"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "k1",
+      "r1"
+     ],
+     [
+      "k2",
+      "r2"
+     ],
+     [
+      "k3",
+      "r3"
+     ]
+    ],
+    "done": "Her kitap kendi rafında!",
+    "msg": "Kitapları raflarına yerleştirdin!"
+   },
+   "hint": [
+    "k1",
+    "Kitaba, sonra rafa dokun!"
+   ],
+   "ask": "Yıldızlı kitap neden güneşli rafa gitti? Sen nasıl anladın?",
+   "cues": [
+    {
+     "w": 21,
+     "fx": "click"
+    }
+   ]
+  },
+  {
+   "text": "Can rafın önünde durdu. Ayılı kitap ne sevimli! Arabalı kitap vın vın! Yıldızlı kitabın yıldızı gülüyor. Deniz ayılıyı seçti. Can düşündü. “Yıldızlıyı seçtim! Çünkü yıldız bana gülüyor!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 112,
+      "y": 228,
+      "s": 1.1,
+      "mood": "think",
+      "pose": "point",
+      "hit": "can",
+      "turn": 0.6
+     },
+     {
+      "k": "deniz",
+      "x": 358,
+      "y": 226,
+      "s": 1.0,
+      "mood": "happy",
+      "pose": "wave",
+      "hit": "deniz",
+      "flip": true
+     },
+     {
+      "k": "kedi",
+      "x": 214,
+      "y": 224.9,
+      "s": 0.4,
+      "mood": "happy",
+      "pose": "sit",
+      "z": 300
+     }
+    ],
+    "props": [
+     {
+      "k": "kitaplik",
+      "x": 250,
+      "y": 236,
+      "s": 1.5,
+      "z": 100
+     },
+     {
+      "k": "kitap",
+      "x": 272,
+      "y": 224.9,
+      "s": 1.3,
+      "color": "#4F8FD8",
+      "hit": "b1",
+      "z": 300
+     },
+     {
+      "k": "oyuncak-ayi",
+      "s": 0.36,
+      "color": "#E4574F",
+      "x": 270.1,
+      "y": 215.3,
+      "z": 301,
+      "hit": "b1"
+     },
+     {
+      "k": "kitap",
+      "x": 272,
+      "y": 180.5,
+      "s": 1.3,
+      "color": "#E4574F",
+      "hit": "b2",
+      "z": 300
+     },
+     {
+      "k": "oyuncak-araba",
+      "s": 0.38,
+      "color": "#E4574F",
+      "x": 270.1,
+      "y": 168.7,
+      "z": 301,
+      "hit": "b2"
+     },
+     {
+      "k": "kitap",
+      "x": 272,
+      "y": 134.9,
+      "s": 1.3,
+      "color": "#9C7BD8",
+      "hit": "b3",
+      "z": 300
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F6C742",
+      "face": true,
+      "mood": "happy",
+      "s": 0.49,
+      "x": 270.1,
+      "y": 123.8,
+      "z": 301,
+      "hit": "b3"
+     },
+     {
+      "k": "otobus",
+      "type": "sehir",
+      "kids": 0,
+      "driver": false,
+      "x": 214,
+      "y": 180.5,
+      "s": 0.15,
+      "z": 300
+     },
+     {
+      "k": "resim",
+      "theme": "sun",
+      "frame": "#F6C742",
+      "x": 214,
+      "y": 133.9,
+      "s": 0.7,
+      "z": 300
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Yıldızlıyı seçtim! Yıldız bana gülüyor!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "twinkle"
+    },
+    "deniz": {
+     "say": "Ben ayılıyı seçtim!",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "b1": {
+     "say": "Ayılı kitap çok sevimli.",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "page"
+    },
+    "b2": {
+     "say": "Arabalı kitap! Vın vın!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "korna"
+    },
+    "b3": {
+     "say": "Yıldızlı kitap! Bak, gülüyor!",
+     "voice": "can",
+     "anim": "spinme",
+     "fx": "twinkle"
+    }
+   },
+   "hint": [
+    "b3",
+    "Kapaklara tek tek dokun!"
+   ],
+   "ask": "Sen olsan hangisini seçerdin? Neden?"
+  },
+  {
+   "text": "Deniz ayılı kitabını, Can yıldızlı kitabını aldı. İkisi mindere oturdu. Can sayfaları çevirdi. Hışır hışır! Kitabın içinde, gökte bir yıldız vardı. Pırıl pırıl! Can'ın yüzü güldü: “Kitabımı kendim seçtim!”",
+   "scene": {
+    "set": "sinif",
+    "time": "day",
+    "tables": false,
+    "cast": [
+     {
+      "k": "can",
+      "x": 150,
+      "y": 226,
+      "s": 1.08,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "can",
+      "turn": 0.5
+     },
+     {
+      "k": "deniz",
+      "x": 262,
+      "y": 226,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "sit",
+      "hit": "deniz",
+      "flip": true,
+      "turn": 0.5
+     },
+     {
+      "k": "ogretmen",
+      "x": 350,
+      "y": 214,
+      "s": 0.9,
+      "mood": "happy",
+      "pose": "stand",
+      "hit": "nur",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 150,
+      "y": 236,
+      "s": 1.6,
+      "color": "#F6C742",
+      "z": 200
+     },
+     {
+      "k": "yastik",
+      "x": 262,
+      "y": 236,
+      "s": 1.6,
+      "color": "#9CC8F0",
+      "z": 200
+     },
+     {
+      "k": "kitap",
+      "x": 206,
+      "y": 236,
+      "s": 1.4,
+      "open": true,
+      "color": "#9C7BD8",
+      "hit": "acik"
+     },
+     {
+      "k": "heart",
+      "x": 206,
+      "y": 150,
+      "s": 0.8
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F6C742",
+      "face": true,
+      "mood": "laugh",
+      "x": 197,
+      "y": 224,
+      "s": 0.5,
+      "z": 238,
+      "hit": "acik"
+     },
+     {
+      "k": "kitap",
+      "x": 305,
+      "y": 237,
+      "s": 1.3,
+      "color": "#4F8FD8",
+      "hit": "dkitap"
+     },
+     {
+      "k": "oyuncak-ayi",
+      "x": 303,
+      "y": 224,
+      "s": 0.38,
+      "z": 238,
+      "color": "#E4574F",
+      "hit": "dkitap"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Kitabımı kendim seçtim!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "deniz": {
+     "say": "Benimkinde ayıcık var, bak!",
+     "voice": "deniz",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "nur": {
+     "say": "Ne güzel seçmişsiniz!",
+     "voice": "nur",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "acik": {
+     "say": "Yıldız pırıl pırıl parlıyor!",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "twinkle"
+    },
+    "dkitap": {
+     "say": "Benimkinde ayıcık var, bak!",
+     "voice": "deniz",
+     "anim": "boing",
+     "fx": "page"
+    }
+   },
+   "hint": [
+    "acik",
+    "Kitabı aç, dinle!"
+   ],
+   "ask": "Can kendi kitabını seçince nasıl hissetti? Sen en son hangi kitabı seçtin?",
+   "cues": [
+    {
+     "w": 13,
+     "fx": "yaprak"
+    }
+   ]
+  }
+ ],
+ "order": [
+  1,
+  3,
+  5
+ ],
+ "guide": {
+  "kazanim": [
+   "TAOB.1 Resimli öykü kitabı gibi görsel materyalleri seçebilme: Kapaklardaki resimleri tek tek inceler (TAOB.1.a) ve seçenekler arasından okumak istediği kitabı seçer (TAOB.1.b).",
+   "TADB.1 Dinleyeceği/izleyeceği materyalleri yönetebilme: Sunulan kitaplar arasından dinlemek istediğini seçer (TADB.1.a).",
+   "OB1 Bilgi Okuryazarlığı ve OB4 Görsel Okuryazarlık: Kapak resminin neyi gösterdiğini söyler (ayı, araba, yıldız) ve kitabı aynı gruptan resmi taşıyan rafa koyar (ayı → kedili hayvan rafı).",
+   "SDB3.3 Sorumlu Karar Verme ve D11 Özgürlük: Kafası karışınca durur, nefes alır, seçenekleri karşılaştırır ve seçimini gerekçesiyle söyler ('Çünkü yıldız bana gülüyor'); arkadaşının farklı seçimine saygı duyar."
+  ],
+  "once": [
+   "Kapağa bakın: 'Can nerede? Sence bugün ne yapacak?' Tahminleri düzeltmeden dinleyin.",
+   "Sınıfın kitap köşesine birlikte bakın: 'Burada bir kitabı nasıl seçiyoruz?'",
+   "'Kafan karışınca ne yaparsın?' diye sorun; birlikte bir kez derin nefes alıp verin."
+  ],
+  "sirasi": [
+   "2. sayfada saklanan kitapları çocuk bulsun; 'masanın altında, yastığın arkasında, kutunun yanında' gibi konum sözcüklerini birlikte tekrarlayın.",
+   "3. sayfada Can'la birlikte burundan çekip (Hıııh…) ağızdan üfleyin (Fuuuh!). Tahmin sorusunda iki seçeneğin de iyi bir fikir olduğunu söyleyin.",
+   "4. sayfada çocuk önce kitaba, sonra aynı gruptan resmi olan rafa dokunsun (ayı ile kedi ikisi de hayvan). 'Nasıl anladın?' diye sorun; yıldız-güneş eşini (ikisi de gökte) birlikte konuşun.",
+   "5. sayfada 'Sen olsan hangisini seçerdin?' sorusunda her cevabı kabul edin; 'çünkü...' diye gerekçe istemeniz yeterli."
+  ],
+  "sonra": [
+   "Can'ın kafası neden karıştı? Sonra ne yaptı da rahatladı?",
+   "Kapaktaki resim bize ne söyler? Ayılı kitapta ne anlatılıyor olabilir?",
+   "Can yıldızlı kitabı, Deniz ayılı kitabı seçti. İkisi de doğru mu? Neden?"
+  ],
+  "sinif": {
+   "ad": "Resimli raf işaretleri ve kapak dedektifleri",
+   "sure": "20 dk",
+   "materyal": "Sınıf kütüphanesinden 9-12 resimli kitap; üç resimli raf kartı (hayvan için kedi, taşıt için otobüs, gökyüzü için güneş); bant; kitap minderi",
+   "adim": [
+    "Üç resimli kartı kitaplığın üç rafına bantlayın; çocuklarla her kartın ne demek olduğunu konuşun.",
+    "Kitapları halıya yayın. Her çocuk bir kitap alsın, kapağını incelesin ve 'Bu kitapta ... var, çünkü kapakta ... gördüm' desin.",
+    "Çocuk kitabı kapağındaki resimle aynı gruba giren resimli rafa koysun (ayılı kitap kedili hayvan rafına); kararsız kalan kitaplar için sınıfça konuşun (bir kitap iki rafa da uyabilir!).",
+    "Sonunda her çocuk raftan bir kitap seçsin, neden seçtiğini bir cümleyle söylesin ve kitap minderinde arkadaşıyla baksın."
+   ]
+  },
+  "evSoru": [
+   "Evdeki kitaplarından hangisi en sevdiğin? Kapağında ne var?",
+   "Bir kitabın ne anlattığını kapağından nasıl tahmin edersin?",
+   "Seçmekte zorlandığın bir an oldu mu? Ne yaptın?"
+  ],
+  "evEtk": {
+   "ad": "Akşam kitabını sen seç",
+   "d": "Her akşam çocuğunuza iki ya da üç kitap sunun ve okunacak kitabı ona seçtirin. Seçmeden önce kapakları birlikte inceleyin: 'Burada ne görüyorsun? Sence ne anlatıyor?' Seçince 'Neden bunu seçtin?' diye sorun ve cevabını kabul edin. Hafta sonu evdeki kitapları resimli kartlarla (hayvan, taşıt, gökyüzü) küçük raflara ayırabilirsiniz."
+  },
+  "aileNotu": "Bugün 'Can Kitabını Seçiyor' masalını okuduk. Top yuvarlanıp kitaplar dağılınca Can kararsız kaldı; derin bir nefes aldı, kapaklardaki resimleri inceledi ve kitabını gerekçesiyle kendisi seçti. Masal görsel okumayı (kapak resminden anlam çıkarma), kitap seçmeyi ve sorumlu karar vermeyi destekliyor. Evde okunacak kitabı çocuğunuza seçtirmeniz ve 'neden bunu seçtin?' diye sormanız bu becerileri güçlendirir."
+ },
+ "audio": {
+  "file": "audio/031-kutuphanede-can.mp3",
+  "hash": "b88dbd52",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 10761,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1790,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      3589,
+      6
+     ],
+     [
+      4089,
+      7
+     ],
+     [
+      4290,
+      8
+     ],
+     [
+      4709,
+      9
+     ],
+     [
+      5569,
+      10
+     ],
+     [
+      5870,
+      11
+     ],
+     [
+      6350,
+      12
+     ],
+     [
+      7189,
+      13
+     ],
+     [
+      7469,
+      14
+     ],
+     [
+      8009,
+      15
+     ],
+     [
+      8409,
+      16
+     ],
+     [
+      9009,
+      17
+     ],
+     [
+      9930,
+      18
+     ],
+     [
+      10190,
+      19
+     ],
+     [
+      10270,
+      20
+     ],
+     [
+      10449,
+      21
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 11061,
+    "d": 1907,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      443,
+      1
+     ],
+     [
+      1292,
+      2
+     ]
+    ]
+   },
+   "p0h-nur": {
+    "s": 13269,
+    "d": 1315,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      829,
+      3
+     ]
+    ]
+   },
+   "p1": {
+    "s": 14884,
+    "d": 16225,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1889,
+      3
+     ],
+     [
+      2569,
+      4
+     ],
+     [
+      3229,
+      5
+     ],
+     [
+      3729,
+      6
+     ],
+     [
+      4449,
+      7
+     ],
+     [
+      5370,
+      8
+     ],
+     [
+      6109,
+      9
+     ],
+     [
+      6410,
+      10
+     ],
+     [
+      6949,
+      11
+     ],
+     [
+      7689,
+      12
+     ],
+     [
+      7969,
+      13
+     ],
+     [
+      8549,
+      14
+     ],
+     [
+      9449,
+      15
+     ],
+     [
+      9749,
+      16
+     ],
+     [
+      10289,
+      17
+     ],
+     [
+      10890,
+      18
+     ],
+     [
+      11270,
+      19
+     ],
+     [
+      11709,
+      20
+     ],
+     [
+      12629,
+      21
+     ],
+     [
+      13129,
+      22
+     ],
+     [
+      13390,
+      23
+     ],
+     [
+      13669,
+      24
+     ],
+     [
+      14430,
+      25
+     ],
+     [
+      15089,
+      26
+     ],
+     [
+      15729,
+      27
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 31410,
+    "d": 1916,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      670,
+      1
+     ],
+     [
+      1430,
+      2
+     ]
+    ]
+   },
+   "p1h-top": {
+    "s": 33626,
+    "d": 2157,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      720,
+      1
+     ],
+     [
+      1032,
+      2
+     ],
+     [
+      1574,
+      3
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 36084,
+    "d": 1720,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1050,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 38104,
+    "d": 16415,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      969,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      2689,
+      5
+     ],
+     [
+      3129,
+      6
+     ],
+     [
+      3749,
+      7
+     ],
+     [
+      4049,
+      8
+     ],
+     [
+      4749,
+      9
+     ],
+     [
+      5129,
+      10
+     ],
+     [
+      5330,
+      11
+     ],
+     [
+      5769,
+      12
+     ],
+     [
+      6769,
+      13
+     ],
+     [
+      8289,
+      14
+     ],
+     [
+      8989,
+      15
+     ],
+     [
+      9609,
+      16
+     ],
+     [
+      10509,
+      17
+     ],
+     [
+      11529,
+      18
+     ],
+     [
+      12129,
+      19
+     ],
+     [
+      13069,
+      20
+     ],
+     [
+      13449,
+      21
+     ],
+     [
+      13850,
+      22
+     ],
+     [
+      14029,
+      23
+     ],
+     [
+      14449,
+      24
+     ],
+     [
+      15329,
+      25
+     ],
+     [
+      15629,
+      26
+     ],
+     [
+      15909,
+      27
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 54820,
+    "d": 3854,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1179,
+      1
+     ],
+     [
+      2318,
+      2
+     ],
+     [
+      2812,
+      3
+     ]
+    ]
+   },
+   "p2h-deniz": {
+    "s": 58974,
+    "d": 2958,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      464,
+      1
+     ],
+     [
+      888,
+      2
+     ],
+     [
+      1420,
+      3
+     ],
+     [
+      2313,
+      4
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 62233,
+    "d": 2450,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1749,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 64984,
+    "d": 4090,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      2089,
+      4
+     ],
+     [
+      2789,
+      5
+     ],
+     [
+      3430,
+      6
+     ],
+     [
+      3670,
+      7
+     ]
+    ]
+   },
+   "p3": {
+    "s": 69374,
+    "d": 19160,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      2650,
+      5
+     ],
+     [
+      3449,
+      6
+     ],
+     [
+      4310,
+      7
+     ],
+     [
+      5330,
+      8
+     ],
+     [
+      5830,
+      9
+     ],
+     [
+      6289,
+      10
+     ],
+     [
+      6430,
+      11
+     ],
+     [
+      7069,
+      12
+     ],
+     [
+      7829,
+      13
+     ],
+     [
+      8669,
+      14
+     ],
+     [
+      9649,
+      15
+     ],
+     [
+      10649,
+      16
+     ],
+     [
+      10909,
+      17
+     ],
+     [
+      11089,
+      18
+     ],
+     [
+      11869,
+      19
+     ],
+     [
+      12350,
+      20
+     ],
+     [
+      13149,
+      21
+     ],
+     [
+      13789,
+      22
+     ],
+     [
+      14469,
+      23
+     ],
+     [
+      15109,
+      24
+     ],
+     [
+      15829,
+      25
+     ],
+     [
+      16209,
+      26
+     ],
+     [
+      17190,
+      27
+     ],
+     [
+      17669,
+      28
+     ],
+     [
+      18209,
+      29
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 88835,
+    "d": 1832,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      889,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 90967,
+    "d": 1748,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1069,
+      3
+     ]
+    ]
+   },
+   "p4": {
+    "s": 93016,
+    "d": 14935,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1989,
+      4
+     ],
+     [
+      2370,
+      5
+     ],
+     [
+      2789,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3989,
+      8
+     ],
+     [
+      4489,
+      9
+     ],
+     [
+      4930,
+      10
+     ],
+     [
+      5209,
+      11
+     ],
+     [
+      5830,
+      12
+     ],
+     [
+      6410,
+      13
+     ],
+     [
+      6949,
+      14
+     ],
+     [
+      7469,
+      15
+     ],
+     [
+      8190,
+      16
+     ],
+     [
+      8569,
+      17
+     ],
+     [
+      9069,
+      18
+     ],
+     [
+      9930,
+      19
+     ],
+     [
+      10289,
+      20
+     ],
+     [
+      11350,
+      21
+     ],
+     [
+      12149,
+      22
+     ],
+     [
+      13029,
+      23
+     ],
+     [
+      13430,
+      24
+     ],
+     [
+      13930,
+      25
+     ],
+     [
+      14249,
+      26
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 108251,
+    "d": 3354,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      2130,
+      3
+     ],
+     [
+      2489,
+      4
+     ]
+    ]
+   },
+   "p4h-deniz": {
+    "s": 111906,
+    "d": 1698,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      930,
+      2
+     ]
+    ]
+   },
+   "p4h-b1": {
+    "s": 113905,
+    "d": 1772,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      769,
+      2
+     ],
+     [
+      1109,
+      3
+     ]
+    ]
+   },
+   "p4h-b2": {
+    "s": 115977,
+    "d": 1576,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      631,
+      1
+     ],
+     [
+      1168,
+      2
+     ],
+     [
+      1352,
+      3
+     ]
+    ]
+   },
+   "p4h-b3": {
+    "s": 117853,
+    "d": 2736,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1829,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 120890,
+    "d": 16326,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      649,
+      2
+     ],
+     [
+      1569,
+      3
+     ],
+     [
+      1909,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2989,
+      6
+     ],
+     [
+      3729,
+      7
+     ],
+     [
+      4149,
+      8
+     ],
+     [
+      4669,
+      9
+     ],
+     [
+      5529,
+      10
+     ],
+     [
+      5830,
+      11
+     ],
+     [
+      6509,
+      12
+     ],
+     [
+      7430,
+      13
+     ],
+     [
+      7890,
+      14
+     ],
+     [
+      8650,
+      15
+     ],
+     [
+      9169,
+      16
+     ],
+     [
+      9909,
+      17
+     ],
+     [
+      10369,
+      18
+     ],
+     [
+      10589,
+      19
+     ],
+     [
+      11049,
+      20
+     ],
+     [
+      11829,
+      21
+     ],
+     [
+      12249,
+      22
+     ],
+     [
+      12969,
+      23
+     ],
+     [
+      13390,
+      24
+     ],
+     [
+      13709,
+      25
+     ],
+     [
+      14509,
+      26
+     ],
+     [
+      15109,
+      27
+     ],
+     [
+      15649,
+      28
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 137517,
+    "d": 1792,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      589,
+      1
+     ],
+     [
+      1109,
+      2
+     ]
+    ]
+   },
+   "p5h-deniz": {
+    "s": 139610,
+    "d": 2001,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      786,
+      1
+     ],
+     [
+      1360,
+      2
+     ],
+     [
+      1729,
+      3
+     ]
+    ]
+   },
+   "p5h-nur": {
+    "s": 141911,
+    "d": 1422,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      509,
+      2
+     ]
+    ]
+   },
+   "p5h-acik": {
+    "s": 143633,
+    "d": 2275,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      989,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p5h-dkitap": {
+    "s": 146208,
+    "d": 2020,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      793,
+      1
+     ],
+     [
+      1373,
+      2
+     ],
+     [
+      1746,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

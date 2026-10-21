@@ -1,0 +1,1872 @@
+{
+ "id": "012-tekirin-su-kabi",
+ "lang": "en",
+ "title": "Tabby's Water Bowl",
+ "theme": "Kindness to animals in the heat",
+ "blurb": "On a hot, hot day, Ali notices that the street cat Tabby's water bowl is completely empty. Together with Grandpa, he finds a cool way to help without touching, from far away.",
+ "voiceNames": {
+  "ali": "Ali",
+  "dede": "Grandpa",
+  "tekir": "Tabby (the street cat)",
+  "boncuk": "Buttons (Ali's dog)"
+ },
+ "pages": [
+  {
+   "text": "It was a hot, hot day! Ali went for a walk with Grandpa. Their dog Buttons came along on her lead. Buttons stuck out her tongue and panted: hah hah hah! Ali asked, “Grandpa, is Buttons laughing?” Grandpa laughed: “No, she's cooling down!”",
+   "hits": {
+    "boncuk": {
+     "say": "Hah hah hah!"
+    },
+    "ali": {
+     "say": "Grandpa, is Buttons laughing?"
+    },
+    "dede": {
+     "say": "No, she's sticking her tongue out to cool down!"
+    }
+   },
+   "hint": "Touch Buttons!",
+   "ask": "How do you cool down when you get very hot?"
+  },
+  {
+   "text": "Ali looked around carefully. Who was hiding from the heat? Tabby the street cat lay in the shade under the bench. The sparrows waited in the trees, beaks open. They were all looking for somewhere cool.",
+   "mech": {
+    "done": "They're all cooling down in the shade!",
+    "msg": "You found them all!"
+   },
+   "hits": {
+    "ali": {
+     "say": "Everyone has run to the shade!"
+    }
+   },
+   "hint": "Find the ones hiding!",
+   "ask": "Why might the animals go into the shade when it's hot?"
+  },
+  {
+   "text": "Tabby's water bowl sat in the sun, bone dry. Tabby gave a weak meow. Ali felt sad; his heart ached. He wanted to stroke Tabby. Grandpa said, “Let's look without touching, from far away. A street cat can get scared. Buttons, you sit here too.”",
+   "hits": {
+    "tekir": {
+     "say": "Meow…"
+    },
+    "kap": {
+     "say": "The bowl is empty!"
+    },
+    "ali": {
+     "say": "Tabby is thirsty, Grandpa!"
+    },
+    "dede": {
+     "say": "Let's look without touching, from far away."
+    },
+    "sun": {
+     "say": "The sun is heating up the empty bowl."
+    }
+   },
+   "predict": {
+    "q": "How do you think Ali will help Tabby?",
+    "res": "Both ideas are good! Let's see.",
+    "opts": [
+     {
+      "l": "He brings water"
+     },
+     {
+      "l": "He asks Grandpa"
+     }
+    ]
+   },
+   "hint": "Touch Tabby!",
+   "ask": "How is Tabby feeling? How can you tell?"
+  },
+  {
+   "text": "Ali had an idea! “Grandpa, let's move the bowl into the shade. Water gets warm in the sun and stays cool in the shade!” They moved the bowl. The greengrocer on the corner filled the watering can. Ali poured water into the bowl: splish splash! He put out a shallow dish of water for the sparrows.",
+   "mech": {
+    "done": "The water went splish splash into the bowl!",
+    "msg": "The bowl is full, cool water is ready!"
+   },
+   "hits": {
+    "dede": {
+     "say": "The shade, what a good idea!"
+    },
+    "tekir": {
+     "say": "Meow?"
+    }
+   },
+   "hint": "Touch Ali so he pours the water!",
+   "ask": "Why did Ali put the bowl in the shade? What happens to water left in the sun?",
+   "cues": [
+    {
+     "w": 43,
+     "fx": "musluk"
+    }
+   ]
+  },
+  {
+   "text": "Tabby came slowly. She dipped her tongue in the water: lap lap lap! The sparrows came to the dish too. Dip your beak in, tip your head up! Ali and Grandpa watched from far away, quietly.",
+   "mech": {
+    "done": "Four sparrows drank water!"
+   },
+   "hits": {
+    "tekir": {
+     "say": "Lap lap lap!"
+    },
+    "ali": {
+     "say": "Shhh, let's watch quietly."
+    },
+    "dede": {
+     "say": "Look, Tabby is cooling down."
+    }
+   },
+   "hint": "Count the sparrows!",
+   "ask": "How did Tabby drink the water? How did the sparrows drink?"
+  },
+  {
+   "text": "The sun went down, and the street cooled off. Ali waved from far away. “Grandpa and I will come again tomorrow, Tabby!” Tabby lifted her paw. Buttons barked: “Woof! Water for me too!” Everyone laughed. Grandpa gave Buttons some water too.",
+   "hits": {
+    "tekir": {
+     "say": "Purrr."
+    },
+    "ali": {
+     "say": "Grandpa and I will come again tomorrow, Tabby!"
+    },
+    "boncuk": {
+     "say": "Woof! Water for me too!"
+    },
+    "dede": {
+     "say": "Your bowl at home is full too, Buttons!"
+    }
+   },
+   "hint": "Touch Ali!",
+   "ask": "How could you help an animal?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "FAB.1 (learning outcome) · “Making scientific observations of science-related events, facts and situations in daily life”: observes that in the heat a dog cools down by panting, a cat by lying in the shade and sparrows by opening their beaks; says that water warms up in the sun and stays cool in the shade.",
+   "TADB.2 (learning outcome) · “Building new meaning from materials they hear or watch, such as poems, stories, rhymes, videos, theatre and animations”: makes an inference about why Tabby was weak; connects information in the story with daily life (the animals in their own street, hot days).",
+   "E2.1 Empathy · SDB2.3 Social Awareness · D9 Compassion · D16 Responsibility: notices an animal's need from its body language; suggests ways to help “without touching, from far away” and promises to keep helping."
+  ],
+  "once": [
+   "Point to the cat on the cover: “Where might this cat live? What does it need?”",
+   "Talk about what happens in our bodies on a very hot day: we sweat, we get thirsty, we look for shade.",
+   "If you are reading close to World Animal Day on 4 October, introduce the name of the day."
+  ],
+  "sirasi": [
+   "On page 1, make the “hah hah hah” sound together; say that this is how dogs cool down.",
+   "On page 2, while finding the hiding animals, ask “Why did they choose the shade?”",
+   "On page 3, look at Tabby's ears and face and talk about how she feels; for the prediction question, accept both ideas.",
+   "On page 4, touch Ali and pour the water into the bowl; on page 5, while counting the sparrows, do the “Dip your beak in, tip your head up!” movement with your heads together."
+  ],
+  "sonra": [
+   "How did we know Tabby was thirsty?",
+   "Why did Ali put the bowl in the shade? What happens to water left in the sun?",
+   "What do we do when we see an animal in the street? A frightened animal can scratch or bite; that's why we don't touch street animals, and we provide water and shade from far away with a grown-up."
+  ],
+  "sinif": {
+   "ad": "In the Sun or in the Shade?",
+   "sure": "20 min",
+   "materyal": "Two identical bowls, water, prediction cards with sun and cloud symbols, a board",
+   "adim": [
+    "In the morning, put the same amount of water in two bowls; place one in the sun and one in the shade.",
+    "The children predict which water will stay cooler; they put their cards under the sun or the cloud on the board.",
+    "At midday, touch the water with a fingertip and compare; talk about the result together with the predictions.",
+    "To close, act out the ways animals cool down: pant like a dog, stretch out like a cat, dip and lift like a sparrow."
+   ]
+  },
+  "evSoru": [
+   "How was Tabby feeling? What changed afterwards?",
+   "Why was Buttons sticking her tongue out and panting?",
+   "How do you cool down on a hot day?"
+  ],
+  "evEtk": {
+   "ad": "Window-sill watching",
+   "d": "On a hot day, put a shallow bowl of water in the shade on the balcony or by the window. Watch the birds that come, together, without touching and from far away; count how many birds come and talk about how they drink. Refresh the water together every day."
+  },
+  "aileNotu": "Today we read “Tabby's Water Bowl.” On a hot day, Ali notices that the street cat Tabby is thirsty and, with Grandpa, puts a cool bowl of water in the shade. We observed how animals cool down in the heat and talked about the rule “without touching, from far away.” A frightened animal can scratch or bite; that's why we don't touch street animals, and we provide water and shade from far away with a grown-up. If an animal has been touched, you can remind your child to wash their hands."
+ },
+ "audio": {
+  "file": "audio/en/012-tekirin-su-kabi.mp3",
+  "hash": "512f3d2a",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 16860,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      589,
+      3
+     ],
+     [
+      1209,
+      4
+     ],
+     [
+      1689,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      3069,
+      8
+     ],
+     [
+      3249,
+      9
+     ],
+     [
+      3329,
+      10
+     ],
+     [
+      3569,
+      11
+     ],
+     [
+      3729,
+      12
+     ],
+     [
+      4589,
+      13
+     ],
+     [
+      4789,
+      14
+     ],
+     [
+      5049,
+      15
+     ],
+     [
+      5529,
+      16
+     ],
+     [
+      5729,
+      17
+     ],
+     [
+      6049,
+      18
+     ],
+     [
+      6149,
+      19
+     ],
+     [
+      6309,
+      20
+     ],
+     [
+      7049,
+      21
+     ],
+     [
+      7469,
+      22
+     ],
+     [
+      7769,
+      23
+     ],
+     [
+      7930,
+      24
+     ],
+     [
+      8089,
+      25
+     ],
+     [
+      8409,
+      26
+     ],
+     [
+      8569,
+      27
+     ],
+     [
+      10430,
+      28
+     ],
+     [
+      10460,
+      29
+     ],
+     [
+      10490,
+      30
+     ],
+     [
+      10529,
+      31
+     ],
+     [
+      10749,
+      32
+     ],
+     [
+      11469,
+      33
+     ],
+     [
+      12189,
+      34
+     ],
+     [
+      12430,
+      35
+     ],
+     [
+      12869,
+      36
+     ],
+     [
+      13749,
+      37
+     ],
+     [
+      14229,
+      38
+     ],
+     [
+      15009,
+      39
+     ],
+     [
+      15669,
+      40
+     ],
+     [
+      15930,
+      41
+     ],
+     [
+      16309,
+      42
+     ]
+    ]
+   },
+   "p0h-boncuk": {
+    "s": 17160,
+    "d": 1049,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      363,
+      1
+     ],
+     [
+      686,
+      2
+     ]
+    ]
+   },
+   "p0h-ali": {
+    "s": 18510,
+    "d": 2325,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1930,
+      3
+     ]
+    ]
+   },
+   "p0h-dede": {
+    "s": 21135,
+    "d": 3050,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      709,
+      1
+     ],
+     [
+      930,
+      2
+     ],
+     [
+      1290,
+      3
+     ],
+     [
+      1509,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      2009,
+      6
+     ],
+     [
+      2150,
+      7
+     ],
+     [
+      2449,
+      8
+     ]
+    ]
+   },
+   "p1": {
+    "s": 24486,
+    "d": 12255,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      289,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      909,
+      3
+     ],
+     [
+      2009,
+      4
+     ],
+     [
+      2229,
+      5
+     ],
+     [
+      2449,
+      6
+     ],
+     [
+      2809,
+      7
+     ],
+     [
+      2989,
+      8
+     ],
+     [
+      3129,
+      9
+     ],
+     [
+      4089,
+      10
+     ],
+     [
+      4430,
+      11
+     ],
+     [
+      4569,
+      12
+     ],
+     [
+      4890,
+      13
+     ],
+     [
+      5209,
+      14
+     ],
+     [
+      5390,
+      15
+     ],
+     [
+      5489,
+      16
+     ],
+     [
+      5629,
+      17
+     ],
+     [
+      5989,
+      18
+     ],
+     [
+      6189,
+      19
+     ],
+     [
+      6309,
+      20
+     ],
+     [
+      7089,
+      21
+     ],
+     [
+      7249,
+      22
+     ],
+     [
+      7809,
+      23
+     ],
+     [
+      8129,
+      24
+     ],
+     [
+      8230,
+      25
+     ],
+     [
+      8329,
+      26
+     ],
+     [
+      8989,
+      27
+     ],
+     [
+      9390,
+      28
+     ],
+     [
+      10149,
+      29
+     ],
+     [
+      10310,
+      30
+     ],
+     [
+      10589,
+      31
+     ],
+     [
+      10850,
+      32
+     ],
+     [
+      11149,
+      33
+     ],
+     [
+      11350,
+      34
+     ],
+     [
+      11749,
+      35
+     ]
+    ]
+   },
+   "p1h-ali": {
+    "s": 37041,
+    "d": 2056,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      750,
+      1
+     ],
+     [
+      970,
+      2
+     ],
+     [
+      1191,
+      3
+     ],
+     [
+      1411,
+      4
+     ],
+     [
+      1632,
+      5
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 39397,
+    "d": 1890,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      389,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1129,
+      5
+     ],
+     [
+      1269,
+      6
+     ]
+    ]
+   },
+   "p2": {
+    "s": 41588,
+    "d": 18182,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1030,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1369,
+      5
+     ],
+     [
+      1509,
+      6
+     ],
+     [
+      2209,
+      7
+     ],
+     [
+      2569,
+      8
+     ],
+     [
+      3609,
+      9
+     ],
+     [
+      4009,
+      10
+     ],
+     [
+      4229,
+      11
+     ],
+     [
+      4370,
+      12
+     ],
+     [
+      4729,
+      13
+     ],
+     [
+      5910,
+      14
+     ],
+     [
+      6209,
+      15
+     ],
+     [
+      6529,
+      16
+     ],
+     [
+      7370,
+      17
+     ],
+     [
+      7589,
+      18
+     ],
+     [
+      7989,
+      19
+     ],
+     [
+      8789,
+      20
+     ],
+     [
+      8949,
+      21
+     ],
+     [
+      9230,
+      22
+     ],
+     [
+      9390,
+      23
+     ],
+     [
+      9770,
+      24
+     ],
+     [
+      10709,
+      25
+     ],
+     [
+      11169,
+      26
+     ],
+     [
+      11890,
+      27
+     ],
+     [
+      12189,
+      28
+     ],
+     [
+      12430,
+      29
+     ],
+     [
+      12789,
+      30
+     ],
+     [
+      13430,
+      31
+     ],
+     [
+      13649,
+      32
+     ],
+     [
+      13869,
+      33
+     ],
+     [
+      14669,
+      34
+     ],
+     [
+      14769,
+      35
+     ],
+     [
+      15069,
+      36
+     ],
+     [
+      15329,
+      37
+     ],
+     [
+      15469,
+      38
+     ],
+     [
+      15689,
+      39
+     ],
+     [
+      16610,
+      40
+     ],
+     [
+      17289,
+      41
+     ],
+     [
+      17469,
+      42
+     ],
+     [
+      17669,
+      43
+     ],
+     [
+      17850,
+      44
+     ]
+    ]
+   },
+   "p2h-tekir": {
+    "s": 60070,
+    "d": 1042,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p2h-kap": {
+    "s": 61413,
+    "d": 1422,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      729,
+      3
+     ]
+    ]
+   },
+   "p2h-ali": {
+    "s": 63135,
+    "d": 1969,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      522,
+      1
+     ],
+     [
+      799,
+      2
+     ],
+     [
+      1446,
+      3
+     ]
+    ]
+   },
+   "p2h-dede": {
+    "s": 65405,
+    "d": 3194,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1249,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2670,
+      6
+     ]
+    ]
+   },
+   "p2h-sun": {
+    "s": 68900,
+    "d": 2132,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      169,
+      1
+     ],
+     [
+      430,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      989,
+      4
+     ],
+     [
+      1170,
+      5
+     ],
+     [
+      1329,
+      6
+     ],
+     [
+      1629,
+      7
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 71333,
+    "d": 2129,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      309,
+      2
+     ],
+     [
+      449,
+      3
+     ],
+     [
+      829,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1349,
+      6
+     ],
+     [
+      1589,
+      7
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 73762,
+    "d": 2478,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      749,
+      2
+     ],
+     [
+      930,
+      3
+     ],
+     [
+      1749,
+      4
+     ],
+     [
+      2029,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 76540,
+    "d": 18346,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      729,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2430,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      2890,
+      7
+     ],
+     [
+      3029,
+      8
+     ],
+     [
+      3309,
+      9
+     ],
+     [
+      3529,
+      10
+     ],
+     [
+      3670,
+      11
+     ],
+     [
+      4449,
+      12
+     ],
+     [
+      4749,
+      13
+     ],
+     [
+      5029,
+      14
+     ],
+     [
+      5310,
+      15
+     ],
+     [
+      5410,
+      16
+     ],
+     [
+      5569,
+      17
+     ],
+     [
+      5930,
+      18
+     ],
+     [
+      6129,
+      19
+     ],
+     [
+      6449,
+      20
+     ],
+     [
+      6769,
+      21
+     ],
+     [
+      6870,
+      22
+     ],
+     [
+      6989,
+      23
+     ],
+     [
+      7870,
+      24
+     ],
+     [
+      8089,
+      25
+     ],
+     [
+      8430,
+      26
+     ],
+     [
+      8549,
+      27
+     ],
+     [
+      9230,
+      28
+     ],
+     [
+      9350,
+      29
+     ],
+     [
+      10009,
+      30
+     ],
+     [
+      10109,
+      31
+     ],
+     [
+      10230,
+      32
+     ],
+     [
+      10669,
+      33
+     ],
+     [
+      10949,
+      34
+     ],
+     [
+      11049,
+      35
+     ],
+     [
+      11469,
+      36
+     ],
+     [
+      12270,
+      37
+     ],
+     [
+      12589,
+      38
+     ],
+     [
+      12909,
+      39
+     ],
+     [
+      13270,
+      40
+     ],
+     [
+      13489,
+      41
+     ],
+     [
+      13609,
+      42
+     ],
+     [
+      14249,
+      43
+     ],
+     [
+      14810,
+      44
+     ],
+     [
+      15669,
+      45
+     ],
+     [
+      15810,
+      46
+     ],
+     [
+      16030,
+      47
+     ],
+     [
+      16190,
+      48
+     ],
+     [
+      16309,
+      49
+     ],
+     [
+      16690,
+      50
+     ],
+     [
+      16909,
+      51
+     ],
+     [
+      17049,
+      52
+     ],
+     [
+      17389,
+      53
+     ],
+     [
+      17530,
+      54
+     ],
+     [
+      17669,
+      55
+     ]
+    ]
+   },
+   "p3h-dede": {
+    "s": 95186,
+    "d": 2558,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1410,
+      3
+     ],
+     [
+      1589,
+      4
+     ],
+     [
+      1889,
+      5
+     ]
+    ]
+   },
+   "p3h-tekir": {
+    "s": 98045,
+    "d": 638,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 98984,
+    "d": 2710,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      789,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1809,
+      5
+     ],
+     [
+      2029,
+      6
+     ],
+     [
+      2150,
+      7
+     ]
+    ]
+   },
+   "p4": {
+    "s": 101994,
+    "d": 13118,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2049,
+      4
+     ],
+     [
+      2289,
+      5
+     ],
+     [
+      2469,
+      6
+     ],
+     [
+      2749,
+      7
+     ],
+     [
+      2849,
+      8
+     ],
+     [
+      2969,
+      9
+     ],
+     [
+      3749,
+      10
+     ],
+     [
+      4069,
+      11
+     ],
+     [
+      4370,
+      12
+     ],
+     [
+      5129,
+      13
+     ],
+     [
+      5289,
+      14
+     ],
+     [
+      5789,
+      15
+     ],
+     [
+      5989,
+      16
+     ],
+     [
+      6109,
+      17
+     ],
+     [
+      6229,
+      18
+     ],
+     [
+      6489,
+      19
+     ],
+     [
+      7249,
+      20
+     ],
+     [
+      7469,
+      21
+     ],
+     [
+      7629,
+      22
+     ],
+     [
+      7949,
+      23
+     ],
+     [
+      8329,
+      24
+     ],
+     [
+      8549,
+      25
+     ],
+     [
+      8709,
+      26
+     ],
+     [
+      8930,
+      27
+     ],
+     [
+      9749,
+      28
+     ],
+     [
+      10049,
+      29
+     ],
+     [
+      10149,
+      30
+     ],
+     [
+      10690,
+      31
+     ],
+     [
+      11049,
+      32
+     ],
+     [
+      11329,
+      33
+     ],
+     [
+      11649,
+      34
+     ],
+     [
+      12430,
+      35
+     ]
+    ]
+   },
+   "p4h-tekir": {
+    "s": 115412,
+    "d": 1147,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      395,
+      1
+     ],
+     [
+      751,
+      2
+     ]
+    ]
+   },
+   "p4h-ali": {
+    "s": 116860,
+    "d": 2260,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1529,
+      3
+     ]
+    ]
+   },
+   "p4h-dede": {
+    "s": 119421,
+    "d": 2109,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      689,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 121830,
+    "d": 1943,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p5": {
+    "s": 124074,
+    "d": 16275,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      129,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      610,
+      3
+     ],
+     [
+      1109,
+      4
+     ],
+     [
+      1229,
+      5
+     ],
+     [
+      1369,
+      6
+     ],
+     [
+      1749,
+      7
+     ],
+     [
+      2110,
+      8
+     ],
+     [
+      2989,
+      9
+     ],
+     [
+      3349,
+      10
+     ],
+     [
+      3729,
+      11
+     ],
+     [
+      4009,
+      12
+     ],
+     [
+      4310,
+      13
+     ],
+     [
+      5149,
+      14
+     ],
+     [
+      5589,
+      15
+     ],
+     [
+      5749,
+      16
+     ],
+     [
+      5830,
+      17
+     ],
+     [
+      6029,
+      18
+     ],
+     [
+      6209,
+      19
+     ],
+     [
+      6449,
+      20
+     ],
+     [
+      6989,
+      21
+     ],
+     [
+      7949,
+      22
+     ],
+     [
+      8369,
+      23
+     ],
+     [
+      8730,
+      24
+     ],
+     [
+      8890,
+      25
+     ],
+     [
+      9709,
+      26
+     ],
+     [
+      10109,
+      27
+     ],
+     [
+      10789,
+      28
+     ],
+     [
+      11409,
+      29
+     ],
+     [
+      11689,
+      30
+     ],
+     [
+      11869,
+      31
+     ],
+     [
+      12049,
+      32
+     ],
+     [
+      12969,
+      33
+     ],
+     [
+      13509,
+      34
+     ],
+     [
+      14310,
+      35
+     ],
+     [
+      14769,
+      36
+     ],
+     [
+      15009,
+      37
+     ],
+     [
+      15390,
+      38
+     ],
+     [
+      15549,
+      39
+     ],
+     [
+      15890,
+      40
+     ]
+    ]
+   },
+   "p5h-tekir": {
+    "s": 140649,
+    "d": 996,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5h-ali": {
+    "s": 141945,
+    "d": 2537,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      368,
+      1
+     ],
+     [
+      556,
+      2
+     ],
+     [
+      744,
+      3
+     ],
+     [
+      933,
+      4
+     ],
+     [
+      1261,
+      5
+     ],
+     [
+      1589,
+      6
+     ],
+     [
+      2168,
+      7
+     ]
+    ]
+   },
+   "p5h-boncuk": {
+    "s": 144783,
+    "d": 2071,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      809,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1329,
+      3
+     ],
+     [
+      1569,
+      4
+     ]
+    ]
+   },
+   "p5h-dede": {
+    "s": 147155,
+    "d": 2448,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      949,
+      4
+     ],
+     [
+      1109,
+      5
+     ],
+     [
+      1430,
+      6
+     ],
+     [
+      1790,
+      7
+     ]
+    ]
+   }
+  }
+ }
+}

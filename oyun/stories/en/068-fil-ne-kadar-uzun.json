@@ -1,0 +1,1960 @@
+{
+ "id": "068-fil-ne-kadar-uzun",
+ "lang": "en",
+ "title": "How Long Is the Elephant?",
+ "theme": "Measuring length with non-standard units",
+ "blurb": "Buttons the baby elephant boasts, “I'm the longest in the meadow!” But when Hoppy measures her as three and Spike measures her as eight, she gets confused: has she grown, or are the steps just different?",
+ "voiceNames": {
+  "boncuk": "Buttons (baby elephant)",
+  "zipzip": "Hoppy (rabbit)",
+  "diken": "Spike (hedgehog)"
+ },
+ "pages": [
+  {
+   "text": "Buttons the baby elephant lifted her trunk high. “I'm the longest in the meadow! From the tip of my trunk to my tail, I'm looong!” Hoppy the rabbit pricked up his ears. Spike the hedgehog scratched his nose: “So… how long are you?” Buttons stopped. She had never thought about that.",
+   "hits": {
+    "boncuk": {
+     "say": "I could reach the sun!"
+    },
+    "zipzip": {
+     "say": "How long is that, then?"
+    },
+    "diken": {
+     "say": "Hmmm… How many steps, I wonder?"
+    }
+   },
+   "hint": "Touch Buttons!",
+   "ask": "Buttons says, “I'm the longest!” How do you think we can find out how long something is?"
+  },
+  {
+   "text": "Hoppy jumped right in: “I'll measure! I'll start at your tail and hop to your trunk.” Hop! Hop! Hop! Hoppy reached the tip of the trunk. “Three hops!” Buttons' ears drooped. “Only three? I thought I was enormous!”",
+   "hits": {
+    "zipzip": {
+     "say": "Hop! One more hop!"
+    },
+    "boncuk": {
+     "say": "I'm not moving, go on, measure!"
+    },
+    "diken": {
+     "say": "I'm counting: one, two, three!"
+    }
+   },
+   "mech": {
+    "say": "Hop!",
+    "done": "Three hops! Buttons' ears drooped.",
+    "msg": "Three hops!"
+   },
+   "hint": "Touch Hoppy three times!",
+   "ask": "How many times did Hoppy hop? Why did Buttons feel sad?"
+  },
+  {
+   "text": "Spike giggled: “Now let me measure!” But Spike's steps were tiny. Pitter, patter… Hoppy's hop is huge, Spike's step is teeny. Buttons waited, curious. How many would it be this time?",
+   "hits": {
+    "diken": {
+     "say": "My steps are tiny, but there are lots!"
+    },
+    "zipzip": {
+     "say": "Fewer than me, or more?"
+    },
+    "boncuk": {
+     "say": "How many will it be this time?"
+    }
+   },
+   "predict": {
+    "q": "Do you think Spike will take more than three steps, or fewer?",
+    "res": "Good guess! Let's count and see.",
+    "opts": [
+     {
+      "l": "More"
+     },
+     {
+      "l": "Fewer"
+     }
+    ]
+   },
+   "hint": "Touch Spike!",
+   "ask": "Hoppy got there in three hops. Spike's steps are small. How many steps do you think Spike will take?"
+  },
+  {
+   "text": "Spike walked, pitter patter. So he wouldn't lose count, he put a leaf on the ground at every step. Leaves lined up from tail to trunk. Come on, let's count the leaves one by one! How many steps did Spike take?",
+   "hits": {
+    "diken": {
+     "say": "Pitter patter, I made it!"
+    },
+    "boncuk": {
+     "say": "That many?"
+    },
+    "zipzip": {
+     "say": "Let's count together!"
+    }
+   },
+   "mech": {
+    "done": "Eight leaves, eight hedgehog steps!",
+    "msg": "Eight steps!"
+   },
+   "hint": "Count the leaves one by one!",
+   "ask": "Hoppy took three hops, Spike took eight steps. Which is more? Why did that happen?"
+  },
+  {
+   "text": "Buttons was puzzled. “Just now I was three, and now I'm eight. Have I grown?” Hoppy laughed: “You haven't changed a bit! The steps changed.” Buttons thought. “Spike, put one leaf at the tip of my tail and one at the tip of my trunk. I'll measure the way between them with my own steps!” Boom! Boom!",
+   "hits": {
+    "boncuk": {
+     "say": "Boom! One more elephant step!"
+    },
+    "zipzip": {
+     "say": "Everyone's step is different!"
+    },
+    "diken": {
+     "say": "Go on, Buttons, count!"
+    }
+   },
+   "mech": {
+    "say": "Boom!",
+    "done": "Two elephant steps! Still the same Buttons.",
+    "msg": "Two elephant steps!"
+   },
+   "hint": "Touch Buttons twice!",
+   "ask": "Did Buttons grow? Why was it sometimes three, sometimes eight and sometimes two?"
+  },
+  {
+   "text": "Evening came. This time Buttons didn't say “I'm the longest!” “Without you I'd never have known how long I am,” she said. “Three hops, eight pitter-patters, two booms! Now shall I measure you?” All three burst out laughing. Still the same Buttons, lots of numbers!",
+   "hits": {
+    "boncuk": {
+     "say": "Without you I'd never have known how long I am!"
+    },
+    "zipzip": {
+     "say": "Shall we measure the log tomorrow?"
+    },
+    "diken": {
+     "say": "Everyone with their own steps!"
+    }
+   },
+   "hint": "Touch the friends!",
+   "ask": "How many of your steps would it take to measure your bed? How many do you think it would be in a grown-up's steps?",
+   "cues": [
+    {
+     "w": 37,
+     "fx": "kahkaha"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.4 Making inferences about mathematical facts, events and objects — MAB.4.b Compares objects, facts and events: measures the same elephant as three rabbit hops, eight hedgehog steps and two elephant steps; compares the results and infers that “the bigger the step, the smaller the number.”",
+   "MAB.1 Counting rhythmically and by sight — finds how many objects or beings there are by counting: counts Hoppy's hops (3) and the leaves Spike left behind (8) one by one, touching each.",
+   "KB2.12 Predicting from existing knowledge/data: uses Hoppy's three hops as information to predict whether Spike's small steps will come to more or fewer than three, then tests the prediction by counting.",
+   "SDB2.3 Social Awareness and D10 Humility: notices how Buttons' boasting softens through her friends' measuring; sees that everyone has their own “step” and that the answer is reached together."
+  ],
+  "once": [
+   "Point to the elephant on the cover: “This is Buttons. How long do you think she is? How can we find out without a tape measure?”",
+   "With your child, measure the length of a rug or a cushion first with hands, then with feet; say the numbers out loud."
+  ],
+  "sirasi": [
+   "On page 1, give Buttons a deep, boastful voice; ask the question “So, how long are you?” together with your child.",
+   "On page 2, count together at every touch: “Hop, one! Hop, two! Hop, three!” Talk about why Buttons' ears drooped.",
+   "On page 3, before asking for a prediction, show Hoppy's huge hop and Spike's tiny step with your hand. Accept both predictions and ask: “Why did you think that?”",
+   "On page 4, count the leaves from left to right, one by one, with a finger. Compare: “Which is more, three or eight?” Then ask: “Why did Spike leave a leaf at every step?” Try together how we measure with steps placed end to end, leaving no gaps.",
+   "On page 5, laugh at Buttons' question “Have I grown?” and leave the answer to your child: Buttons didn't change, the steps did."
+  ],
+  "sonra": [
+   "How many rabbit hops long was Buttons? How many hedgehog steps? How many elephant steps?",
+   "Why did Spike take more steps?",
+   "Why didn't Buttons say “I'm the longest!” at the end? How did she feel?",
+   "Put the three pictures from the story in order: who measured first, who next, and what happened last?"
+  ],
+  "sinif": {
+   "ad": "Log Measuring Day",
+   "sure": "20 min",
+   "materyal": "A “log” strip marked on the floor with tape (about 2 metres), picture cards of a rabbit, a hedgehog and an elephant, leaves cut from paper",
+   "adim": [
+    "Sit in a circle; the teacher shows a big rabbit hop and a tiny hedgehog step, as in the story.",
+    "Volunteers measure the log in turn: one with big steps, one with tiny heel-to-toe steps, one hopping like a rabbit. A friend who uses a wheelchair can measure with wheel turns. A paper leaf is placed on the floor at every step (up to 10).",
+    "The class counts the leaves together, and the results are stuck up as rows of leaves next to the picture cards.",
+    "To finish, ask: “Did the log get longer or shorter? Why were the numbers different?” Say together that every measurement was right; only the steps were different."
+   ]
+  },
+  "evSoru": [
+   "How many hops did Hoppy take to measure Buttons?",
+   "What did Spike put on the ground at every step? Why?",
+   "Did Buttons grow, or were the steps different?"
+  ],
+  "evEtk": {
+   "ad": "Step by step at home",
+   "d": "Measure the hallway or the bed first with your child's steps, then with your own. Put a sock or a spoon on the floor at every step, then count them together. Talk about which steps gave more and which gave fewer."
+  },
+  "aileNotu": "Today we read “How Long Is the Elephant?” Buttons the baby elephant boasted that she was the longest; when her friends measured her with rabbit hops and hedgehog steps, and then Buttons measured herself with her own steps, they found different numbers: three, eight and two. We noticed that the bigger the step, the smaller the number. The children discovered that the same length gives different numbers with different steps; they predicted and counted. At home, you can play measuring games together with your steps, your hands or toys."
+ },
+ "audio": {
+  "file": "audio/en/068-fil-ne-kadar-uzun.mp3",
+  "hash": "d39f0f9b",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 19786,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      550,
+      2
+     ],
+     [
+      889,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1849,
+      5
+     ],
+     [
+      2049,
+      6
+     ],
+     [
+      2489,
+      7
+     ],
+     [
+      3489,
+      8
+     ],
+     [
+      3689,
+      9
+     ],
+     [
+      3949,
+      10
+     ],
+     [
+      4469,
+      11
+     ],
+     [
+      4569,
+      12
+     ],
+     [
+      4729,
+      13
+     ],
+     [
+      5469,
+      14
+     ],
+     [
+      5649,
+      15
+     ],
+     [
+      5809,
+      16
+     ],
+     [
+      6009,
+      17
+     ],
+     [
+      6149,
+      18
+     ],
+     [
+      6329,
+      19
+     ],
+     [
+      6649,
+      20
+     ],
+     [
+      6769,
+      21
+     ],
+     [
+      6969,
+      22
+     ],
+     [
+      7689,
+      23
+     ],
+     [
+      8089,
+      24
+     ],
+     [
+      9449,
+      25
+     ],
+     [
+      9770,
+      26
+     ],
+     [
+      9930,
+      27
+     ],
+     [
+      10369,
+      28
+     ],
+     [
+      10649,
+      29
+     ],
+     [
+      10789,
+      30
+     ],
+     [
+      10949,
+      31
+     ],
+     [
+      11829,
+      32
+     ],
+     [
+      12169,
+      33
+     ],
+     [
+      12310,
+      34
+     ],
+     [
+      12869,
+      35
+     ],
+     [
+      13289,
+      36
+     ],
+     [
+      13449,
+      37
+     ],
+     [
+      14509,
+      38
+     ],
+     [
+      15409,
+      39
+     ],
+     [
+      15669,
+      40
+     ],
+     [
+      16009,
+      41
+     ],
+     [
+      16229,
+      42
+     ],
+     [
+      17009,
+      43
+     ],
+     [
+      17430,
+      44
+     ],
+     [
+      18370,
+      45
+     ],
+     [
+      18530,
+      46
+     ],
+     [
+      18669,
+      47
+     ],
+     [
+      18889,
+      48
+     ],
+     [
+      19149,
+      49
+     ],
+     [
+      19389,
+      50
+     ]
+    ]
+   },
+   "p0h-boncuk": {
+    "s": 20086,
+    "d": 1682,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      809,
+      3
+     ],
+     [
+      1069,
+      4
+     ]
+    ]
+   },
+   "p0h-zipzip": {
+    "s": 22069,
+    "d": 1332,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      610,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      949,
+      4
+     ]
+    ]
+   },
+   "p0h-diken": {
+    "s": 23701,
+    "d": 2900,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1069,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      2209,
+      4
+     ],
+     [
+      2370,
+      5
+     ]
+    ]
+   },
+   "p1": {
+    "s": 26902,
+    "d": 15370,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      389,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1089,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1930,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      2869,
+      7
+     ],
+     [
+      3109,
+      8
+     ],
+     [
+      3189,
+      9
+     ],
+     [
+      3369,
+      10
+     ],
+     [
+      3809,
+      11
+     ],
+     [
+      4029,
+      12
+     ],
+     [
+      4310,
+      13
+     ],
+     [
+      4410,
+      14
+     ],
+     [
+      4569,
+      15
+     ],
+     [
+      5370,
+      16
+     ],
+     [
+      5850,
+      17
+     ],
+     [
+      6309,
+      18
+     ],
+     [
+      7069,
+      19
+     ],
+     [
+      7449,
+      20
+     ],
+     [
+      7749,
+      21
+     ],
+     [
+      7890,
+      22
+     ],
+     [
+      8109,
+      23
+     ],
+     [
+      8209,
+      24
+     ],
+     [
+      8329,
+      25
+     ],
+     [
+      9150,
+      26
+     ],
+     [
+      9469,
+      27
+     ],
+     [
+      10329,
+      28
+     ],
+     [
+      10829,
+      29
+     ],
+     [
+      11230,
+      30
+     ],
+     [
+      12209,
+      31
+     ],
+     [
+      12629,
+      32
+     ],
+     [
+      13789,
+      33
+     ],
+     [
+      13890,
+      34
+     ],
+     [
+      14109,
+      35
+     ],
+     [
+      14209,
+      36
+     ],
+     [
+      14390,
+      37
+     ]
+    ]
+   },
+   "p1h-zipzip": {
+    "s": 42573,
+    "d": 1817,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      869,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1389,
+      3
+     ]
+    ]
+   },
+   "p1h-boncuk": {
+    "s": 44690,
+    "d": 2529,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      1189,
+      3
+     ],
+     [
+      1469,
+      4
+     ],
+     [
+      1989,
+      5
+     ]
+    ]
+   },
+   "p1h-diken": {
+    "s": 47519,
+    "d": 3555,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      1329,
+      2
+     ],
+     [
+      2130,
+      3
+     ],
+     [
+      2969,
+      4
+     ]
+    ]
+   },
+   "p1m": {
+    "s": 51375,
+    "d": 3117,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      1989,
+      3
+     ],
+     [
+      2410,
+      4
+     ]
+    ]
+   },
+   "p1ms": {
+    "s": 54793,
+    "d": 595,
+    "w": [
+     [
+      29,
+      0
+     ]
+    ]
+   },
+   "p2": {
+    "s": 55688,
+    "d": 13941,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1889,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2930,
+      6
+     ],
+     [
+      3150,
+      7
+     ],
+     [
+      3609,
+      8
+     ],
+     [
+      3910,
+      9
+     ],
+     [
+      4129,
+      10
+     ],
+     [
+      5089,
+      11
+     ],
+     [
+      5569,
+      12
+     ],
+     [
+      6489,
+      13
+     ],
+     [
+      6910,
+      14
+     ],
+     [
+      7149,
+      15
+     ],
+     [
+      7390,
+      16
+     ],
+     [
+      8209,
+      17
+     ],
+     [
+      8609,
+      18
+     ],
+     [
+      8989,
+      19
+     ],
+     [
+      9209,
+      20
+     ],
+     [
+      10230,
+      21
+     ],
+     [
+      10649,
+      22
+     ],
+     [
+      11329,
+      23
+     ],
+     [
+      12369,
+      24
+     ],
+     [
+      12569,
+      25
+     ],
+     [
+      12770,
+      26
+     ],
+     [
+      12930,
+      27
+     ],
+     [
+      13049,
+      28
+     ],
+     [
+      13209,
+      29
+     ],
+     [
+      13449,
+      30
+     ]
+    ]
+   },
+   "p2h-diken": {
+    "s": 69930,
+    "d": 2958,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1969,
+      6
+     ],
+     [
+      2229,
+      7
+     ]
+    ]
+   },
+   "p2h-zipzip": {
+    "s": 73188,
+    "d": 2044,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      523,
+      1
+     ],
+     [
+      800,
+      2
+     ],
+     [
+      1243,
+      3
+     ],
+     [
+      1520,
+      4
+     ]
+    ]
+   },
+   "p2h-boncuk": {
+    "s": 75532,
+    "d": 1607,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      220,
+      1
+     ],
+     [
+      533,
+      2
+     ],
+     [
+      713,
+      3
+     ],
+     [
+      893,
+      4
+     ],
+     [
+      1073,
+      5
+     ],
+     [
+      1253,
+      6
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 77440,
+    "d": 3625,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      869,
+      4
+     ],
+     [
+      1069,
+      5
+     ],
+     [
+      1389,
+      6
+     ],
+     [
+      1609,
+      7
+     ],
+     [
+      1790,
+      8
+     ],
+     [
+      2049,
+      9
+     ],
+     [
+      2809,
+      10
+     ],
+     [
+      3089,
+      11
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 81365,
+    "d": 2161,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1609,
+      4
+     ],
+     [
+      1769,
+      5
+     ]
+    ]
+   },
+   "p3": {
+    "s": 83827,
+    "d": 13331,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      2390,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2670,
+      6
+     ],
+     [
+      2969,
+      7
+     ],
+     [
+      3269,
+      8
+     ],
+     [
+      3809,
+      9
+     ],
+     [
+      3949,
+      10
+     ],
+     [
+      4149,
+      11
+     ],
+     [
+      4249,
+      12
+     ],
+     [
+      4509,
+      13
+     ],
+     [
+      4609,
+      14
+     ],
+     [
+      4729,
+      15
+     ],
+     [
+      5049,
+      16
+     ],
+     [
+      5269,
+      17
+     ],
+     [
+      5629,
+      18
+     ],
+     [
+      6430,
+      19
+     ],
+     [
+      6809,
+      20
+     ],
+     [
+      7109,
+      21
+     ],
+     [
+      7309,
+      22
+     ],
+     [
+      7589,
+      23
+     ],
+     [
+      7969,
+      24
+     ],
+     [
+      8109,
+      25
+     ],
+     [
+      8869,
+      26
+     ],
+     [
+      9049,
+      27
+     ],
+     [
+      9529,
+      28
+     ],
+     [
+      9770,
+      29
+     ],
+     [
+      9969,
+      30
+     ],
+     [
+      10089,
+      31
+     ],
+     [
+      10529,
+      32
+     ],
+     [
+      10690,
+      33
+     ],
+     [
+      10930,
+      34
+     ],
+     [
+      11589,
+      35
+     ],
+     [
+      11730,
+      36
+     ],
+     [
+      12029,
+      37
+     ],
+     [
+      12390,
+      38
+     ],
+     [
+      12589,
+      39
+     ],
+     [
+      12909,
+      40
+     ]
+    ]
+   },
+   "p3h-diken": {
+    "s": 97458,
+    "d": 1935,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      453,
+      1
+     ],
+     [
+      1007,
+      2
+     ],
+     [
+      1244,
+      3
+     ],
+     [
+      1657,
+      4
+     ]
+    ]
+   },
+   "p3h-boncuk": {
+    "s": 99694,
+    "d": 717,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      272,
+      1
+     ]
+    ]
+   },
+   "p3h-zipzip": {
+    "s": 100711,
+    "d": 1341,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      670,
+      2
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 102353,
+    "d": 2420,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1849,
+      4
+     ]
+    ]
+   },
+   "p4": {
+    "s": 105073,
+    "d": 21163,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      709,
+      2
+     ],
+     [
+      1809,
+      3
+     ],
+     [
+      2130,
+      4
+     ],
+     [
+      2410,
+      5
+     ],
+     [
+      2509,
+      6
+     ],
+     [
+      2749,
+      7
+     ],
+     [
+      3469,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      3849,
+      10
+     ],
+     [
+      4290,
+      11
+     ],
+     [
+      4890,
+      12
+     ],
+     [
+      5069,
+      13
+     ],
+     [
+      5229,
+      14
+     ],
+     [
+      6269,
+      15
+     ],
+     [
+      6709,
+      16
+     ],
+     [
+      7549,
+      17
+     ],
+     [
+      7789,
+      18
+     ],
+     [
+      8129,
+      19
+     ],
+     [
+      8529,
+      20
+     ],
+     [
+      8650,
+      21
+     ],
+     [
+      9329,
+      22
+     ],
+     [
+      9509,
+      23
+     ],
+     [
+      9930,
+      24
+     ],
+     [
+      10989,
+      25
+     ],
+     [
+      11449,
+      26
+     ],
+     [
+      12430,
+      27
+     ],
+     [
+      13149,
+      28
+     ],
+     [
+      13509,
+      29
+     ],
+     [
+      13709,
+      30
+     ],
+     [
+      13969,
+      31
+     ],
+     [
+      14049,
+      32
+     ],
+     [
+      14189,
+      33
+     ],
+     [
+      14369,
+      34
+     ],
+     [
+      14489,
+      35
+     ],
+     [
+      14669,
+      36
+     ],
+     [
+      15129,
+      37
+     ],
+     [
+      15409,
+      38
+     ],
+     [
+      15589,
+      39
+     ],
+     [
+      15669,
+      40
+     ],
+     [
+      15789,
+      41
+     ],
+     [
+      15969,
+      42
+     ],
+     [
+      16069,
+      43
+     ],
+     [
+      16249,
+      44
+     ],
+     [
+      16989,
+      45
+     ],
+     [
+      17190,
+      46
+     ],
+     [
+      17469,
+      47
+     ],
+     [
+      17589,
+      48
+     ],
+     [
+      17770,
+      49
+     ],
+     [
+      18149,
+      50
+     ],
+     [
+      18329,
+      51
+     ],
+     [
+      18489,
+      52
+     ],
+     [
+      18649,
+      53
+     ],
+     [
+      18869,
+      54
+     ],
+     [
+      19564,
+      55
+     ],
+     [
+      20293,
+      56
+     ]
+    ]
+   },
+   "p4h-boncuk": {
+    "s": 126537,
+    "d": 2371,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      969,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1949,
+      4
+     ]
+    ]
+   },
+   "p4h-zipzip": {
+    "s": 129208,
+    "d": 2056,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      629,
+      1
+     ],
+     [
+      1089,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p4h-diken": {
+    "s": 131565,
+    "d": 1909,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1269,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 133775,
+    "d": 3315,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      469,
+      1
+     ],
+     [
+      1009,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2329,
+      4
+     ],
+     [
+      2449,
+      5
+     ],
+     [
+      2689,
+      6
+     ]
+    ]
+   },
+   "p4ms": {
+    "s": 137390,
+    "d": 747,
+    "w": [
+     [
+      40,
+      0
+     ]
+    ]
+   },
+   "p5": {
+    "s": 138437,
+    "d": 18179,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      1229,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      1869,
+      4
+     ],
+     [
+      2269,
+      5
+     ],
+     [
+      2609,
+      6
+     ],
+     [
+      3129,
+      7
+     ],
+     [
+      3309,
+      8
+     ],
+     [
+      3430,
+      9
+     ],
+     [
+      4469,
+      10
+     ],
+     [
+      4890,
+      11
+     ],
+     [
+      5249,
+      12
+     ],
+     [
+      5549,
+      13
+     ],
+     [
+      5850,
+      14
+     ],
+     [
+      6009,
+      15
+     ],
+     [
+      6249,
+      16
+     ],
+     [
+      6469,
+      17
+     ],
+     [
+      6769,
+      18
+     ],
+     [
+      6910,
+      19
+     ],
+     [
+      7390,
+      20
+     ],
+     [
+      7609,
+      21
+     ],
+     [
+      8329,
+      22
+     ],
+     [
+      8609,
+      23
+     ],
+     [
+      9150,
+      24
+     ],
+     [
+      9369,
+      25
+     ],
+     [
+      10209,
+      26
+     ],
+     [
+      10609,
+      27
+     ],
+     [
+      11569,
+      28
+     ],
+     [
+      11909,
+      29
+     ],
+     [
+      12129,
+      30
+     ],
+     [
+      12230,
+      31
+     ],
+     [
+      12509,
+      32
+     ],
+     [
+      13209,
+      33
+     ],
+     [
+      13489,
+      34
+     ],
+     [
+      13930,
+      35
+     ],
+     [
+      14329,
+      36
+     ],
+     [
+      14509,
+      37
+     ],
+     [
+      15390,
+      38
+     ],
+     [
+      15769,
+      39
+     ],
+     [
+      15950,
+      40
+     ],
+     [
+      16270,
+      41
+     ],
+     [
+      17089,
+      42
+     ],
+     [
+      17409,
+      43
+     ],
+     [
+      17549,
+      44
+     ]
+    ]
+   },
+   "p5h-boncuk": {
+    "s": 156917,
+    "d": 2990,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1229,
+      3
+     ],
+     [
+      1529,
+      4
+     ],
+     [
+      1709,
+      5
+     ],
+     [
+      1969,
+      6
+     ],
+     [
+      2189,
+      7
+     ],
+     [
+      2509,
+      8
+     ],
+     [
+      2670,
+      9
+     ]
+    ]
+   },
+   "p5h-zipzip": {
+    "s": 160208,
+    "d": 1914,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      244,
+      1
+     ],
+     [
+      449,
+      2
+     ],
+     [
+      957,
+      3
+     ],
+     [
+      1161,
+      4
+     ],
+     [
+      1366,
+      5
+     ]
+    ]
+   },
+   "p5h-diken": {
+    "s": 162423,
+    "d": 2141,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      649,
+      1
+     ],
+     [
+      809,
+      2
+     ],
+     [
+      1109,
+      3
+     ],
+     [
+      1369,
+      4
+     ]
+    ]
+   }
+  }
+ }
+}

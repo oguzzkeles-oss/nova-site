@@ -1,0 +1,2153 @@
+{
+ "id": "072-ninemin-oruntulu-kilimi",
+ "n": 72,
+ "title": "Ninemin Örüntülü Kilimi",
+ "age": "60-72",
+ "area": "Matematik",
+ "theme": "Örüntü (AB-AB) ve öfkeyle baş etme",
+ "values": [
+  "D7 Estetik"
+ ],
+ "sdb": "SDB1.2 Kendini Düzenleme",
+ "min": 5,
+ "blurb": "Can ile ninesi yeni kilimin desenini yere dizer: yıldız, üçgen, yıldız, üçgen. Kedi Tarçın iki motifi kapıp kaçınca Can çok kızar; ama bir nefes alır, motifleri bulur ve örüntüyü okuyarak boşlukları doğru sırayla doldurur.",
+ "codes": {
+  "maarif": [
+   "MAB.4 Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme (MAB.4.b)",
+   "OB5 Kültür Okuryazarlığı",
+   "E3.2 Odaklanma",
+   "SDB1.2 Kendini Düzenleme",
+   "D7 Estetik"
+  ]
+ },
+ "voices": {
+  "anlatici": "anlatici",
+  "can": "cocuk-erkek",
+  "nine": "nine",
+  "tarcin": "kucuk-hayvan"
+ },
+ "voiceNames": {
+  "can": "Can",
+  "nine": "Nine (Can'ın ninesi)",
+  "tarcin": "Tarçın (kedi)"
+ },
+ "pages": [
+  {
+   "text": "Nine yeni kilimin desenini halıya dizdi. Keçeden yıldızlar, keçeden üçgenler. “Yıldız köyümün göğü, üçgen köyümün dağları,” dedi. Can parmağıyla okudu: “Yıldız, üçgen, yıldız, üçgen…” Hep aynı sıra! Nine güldü: “Buna örüntü denir.”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 236,
+      "y": 158,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "sit",
+      "scarf": true,
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 62,
+      "y": 222,
+      "s": 1.05,
+      "mood": "happy",
+      "pose": "point",
+      "turn": 0.5,
+      "hit": "can"
+     },
+     {
+      "k": "kedi",
+      "x": 352,
+      "y": 212,
+      "s": 0.8,
+      "mood": "sleep",
+      "pose": "lie",
+      "flip": true,
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F2B632",
+      "x": 110,
+      "y": 232,
+      "s": 1.25,
+      "hit": "y1"
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 152,
+      "y": 232,
+      "s": 1.25,
+      "hit": "u1"
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F2B632",
+      "x": 194,
+      "y": 232,
+      "s": 1.25,
+      "hit": "y2"
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 236,
+      "y": 232,
+      "s": 1.25,
+      "hit": "u2"
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F2B632",
+      "x": 278,
+      "y": 232,
+      "s": 1.25,
+      "hit": "y3"
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 320,
+      "y": 232,
+      "s": 1.25,
+      "hit": "u3"
+     },
+     {
+      "k": "yumak",
+      "color": "#D8483A",
+      "x": 288,
+      "y": 178,
+      "s": 1.0
+     },
+     {
+      "k": "yumak",
+      "color": "#F2B632",
+      "x": 306,
+      "y": 184,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Köyümüzde kilimler hep böyle dokunur.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "can": {
+     "say": "Yıldız, üçgen, yıldız, üçgen!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "pop"
+    },
+    "tarcin": {
+     "say": "Mırrr… mırrr…",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "meow"
+    }
+   },
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "y1",
+     "u1",
+     "y2",
+     "u2",
+     "y3",
+     "u3"
+    ],
+    "done": "Yıldız, üçgen! Hep aynı sırayla.",
+    "msg": "Örüntüyü okudun!"
+   },
+   "hint": [
+    "y1",
+    "Soldan sağa oku!"
+   ],
+   "ask": "Yıldızdan sonra hep ne geliyor? Senin evinde desenli bir şey var mı?"
+  },
+  {
+   "text": "Kedi Tarçın uyandı. Hop! Desenin üstüne atladı. Bir üçgen, bir yıldız kaptı, pıt pıt kaçtı. Desende iki boşluk kaldı. Can çok kızdı. Yanakları ısındı, elleri yumruk oldu. Kalbi küt küt attı. “Tarçın! Desenimizi bozdun!”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "can",
+      "x": 96,
+      "y": 214,
+      "s": 1.0,
+      "mood": "angry",
+      "pose": "stand",
+      "turn": 0.4,
+      "hit": "can"
+     },
+     {
+      "k": "kedi",
+      "x": 324,
+      "y": 224,
+      "s": 0.95,
+      "mood": "laugh",
+      "pose": "hold",
+      "hold": "<polygon points=\"0.0,-13.0 3.4,-4.7 12.4,-4.0 5.5,1.8 7.6,10.5 0.0,5.8 -7.6,10.5 -5.5,1.8 -12.4,-4.0 -3.4,-4.7\" fill=\"#F2B632\" stroke=\"#8A5E0E\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/>",
+      "flip": true,
+      "hit": "tarcin"
+     },
+     {
+      "k": "nine",
+      "x": 236,
+      "y": 158,
+      "s": 0.8,
+      "mood": "surprised",
+      "pose": "sit",
+      "scarf": true,
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F2B632",
+      "x": 54,
+      "y": 234,
+      "s": 1.2
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 96,
+      "y": 234,
+      "s": 1.2
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F2B632",
+      "x": 138,
+      "y": 234,
+      "s": 1.2
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#F4EEE3",
+      "x": 180,
+      "y": 234,
+      "s": 1.2,
+      "hit": "b1"
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#F4EEE3",
+      "x": 222,
+      "y": 234,
+      "s": 1.2,
+      "hit": "b2"
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 264,
+      "y": 234,
+      "s": 1.2
+     },
+     {
+      "k": "qmark",
+      "x": 180,
+      "y": 192
+     },
+     {
+      "k": "qmark",
+      "x": 222,
+      "y": 192,
+      "d": 0.5
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 372,
+      "y": 208,
+      "s": 1.0
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Tarçın! Desenimizi bozdun!",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "thump"
+    },
+    "tarcin": {
+     "say": "Miyav! Yakala beni!",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "meow"
+    },
+    "nine": {
+     "say": "Aaa, iki motif kaçmış!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "boing"
+    },
+    "b": {
+     "anim": "wiggle",
+     "fx": "boing"
+    }
+   },
+   "hint": [
+    "can",
+    "Can'a dokun!"
+   ],
+   "ask": "Can ne hissediyor? Sen kızınca bedeninde ne olur?",
+   "cues": [
+    {
+     "w": 28,
+     "fx": "kalp"
+    }
+   ]
+  },
+  {
+   "text": "Nine, Can'ın yanına geldi. “Önce bir nefes alalım.” Burundan içeri, ağızdan dışarı: ohhh. Kalbi yavaşladı, yumrukları açıldı. “Tarçın oyun sandı,” dedi Can. “Peki motifleri nereye götürdü?”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 164,
+      "y": 212,
+      "s": 0.95,
+      "mood": "calm",
+      "pose": "hug",
+      "scarf": true,
+      "turn": 0.4,
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 214,
+      "y": 228,
+      "s": 1.0,
+      "mood": "calm",
+      "pose": "stand",
+      "turn": -0.3,
+      "flip": true,
+      "hit": "can"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#F4EEE3",
+      "x": 290,
+      "y": 232,
+      "s": 1.2
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#F4EEE3",
+      "x": 332,
+      "y": 232,
+      "s": 1.2
+     },
+     {
+      "k": "qmark",
+      "x": 290,
+      "y": 194
+     },
+     {
+      "k": "qmark",
+      "x": 332,
+      "y": 194,
+      "d": 0.5
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Burundan al… ağızdan bırak… ohhh.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "blow"
+    },
+    "can": {
+     "say": "Ohhh… Şimdi daha iyiyim.",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "predict": {
+    "q": "Sence Tarçın motifleri nereye götürdü?",
+    "res": "İkisi de olabilir! Hadi arayalım.",
+    "opts": [
+     {
+      "l": "Kanepenin altına",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "kedi",
+         "x": 200,
+         "y": 222,
+         "s": 1.1,
+         "mood": "happy",
+         "pose": "walk",
+         "flip": true
+        }
+       ],
+       "props": [
+        {
+         "k": "sekil",
+         "shape": "star",
+         "color": "#F2B632",
+         "x": 262,
+         "y": 206,
+         "s": 1.2
+        }
+       ]
+      }
+     },
+     {
+      "l": "Yastığın arkasına",
+      "scene": {
+       "set": "salon",
+       "time": "day",
+       "cast": [
+        {
+         "k": "kedi",
+         "x": 190,
+         "y": 224,
+         "s": 1.1,
+         "mood": "laugh",
+         "pose": "sit"
+        }
+       ],
+       "props": [
+        {
+         "k": "yastik",
+         "x": 280,
+         "y": 226,
+         "s": 1.4,
+         "color": "#6FA8DC"
+        },
+        {
+         "k": "sekil",
+         "shape": "triangle",
+         "color": "#D8483A",
+         "x": 306,
+         "y": 222,
+         "s": 1.1
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "hint": [
+    "can",
+    "Can'la nefes al!"
+   ],
+   "ask": "Can nasıl sakinleşti? Hadi birlikte bir nefes alalım."
+  },
+  {
+   "text": "Can dizlerinin üstünde aradı. Kanepenin altında sarı bir uç parladı: yıldız! Mavi yastığın arkasında kırmızı bir köşe: üçgen! Tarçın kuyruğunu salladı. “Miyav! Saklambaç bitti mi?”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "can",
+      "x": 150,
+      "y": 226,
+      "s": 1.0,
+      "mood": "think",
+      "pose": "crawl",
+      "hit": "can"
+     },
+     {
+      "k": "kedi",
+      "x": 52,
+      "y": 224,
+      "s": 0.85,
+      "mood": "laugh",
+      "pose": "sit",
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F2B632",
+      "x": 250,
+      "y": 204,
+      "s": 1.2,
+      "peek": true,
+      "hit": "ky"
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 366,
+      "y": 214,
+      "s": 1.2,
+      "peek": true,
+      "hit": "ku"
+     },
+     {
+      "k": "yastik",
+      "x": 334,
+      "y": 228,
+      "s": 1.5,
+      "color": "#6FA8DC"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Neredesiniz motifler?",
+     "voice": "can",
+     "anim": "wiggle",
+     "fx": "pop"
+    },
+    "tarcin": {
+     "say": "Miyav! Saklambaç bitti mi?",
+     "voice": "tarcin",
+     "anim": "jump",
+     "fx": "meow"
+    }
+   },
+   "mech": {
+    "type": "find",
+    "keys": [
+     "ky",
+     "ku"
+    ],
+    "done": "Buldun! Yıldız da üçgen de burada.",
+    "msg": "İkisini de buldun!"
+   },
+   "hint": [
+    "ky",
+    "Saklanan motifleri bul!"
+   ],
+   "ask": "Motifler nerede saklanıyordu? Sen bir şey kaybedince nerelere bakarsın?"
+  },
+  {
+   "text": "Can motifleri desenin yanına koydu. Ama hangisi nereye? Parmağıyla baştan okudu: “Yıldız, üçgen, yıldız…” Sırada ne var? Nine gülümsedi: “Acele yok. Sen okudukça desen konuşuyor.”",
+   "scene": {
+    "set": "salon",
+    "time": "day",
+    "cast": [
+     {
+      "k": "can",
+      "x": 48,
+      "y": 222,
+      "s": 1.0,
+      "mood": "think",
+      "pose": "point",
+      "turn": 0.6,
+      "hit": "can"
+     },
+     {
+      "k": "nine",
+      "x": 270,
+      "y": 158,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "sit",
+      "scarf": true,
+      "turn": -0.3,
+      "hit": "nine"
+     }
+    ],
+    "props": [
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F2B632",
+      "x": 104,
+      "y": 236,
+      "s": 1.2
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 142,
+      "y": 236,
+      "s": 1.2
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F2B632",
+      "x": 180,
+      "y": 236,
+      "s": 1.2
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#F4EEE3",
+      "x": 218,
+      "y": 236,
+      "s": 1.2,
+      "hit": "b1"
+     },
+     {
+      "k": "sekil",
+      "shape": "square",
+      "color": "#F4EEE3",
+      "x": 256,
+      "y": 236,
+      "s": 1.2,
+      "hit": "b2"
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 294,
+      "y": 236,
+      "s": 1.2
+     },
+     {
+      "k": "qmark",
+      "x": 218,
+      "y": 196
+     },
+     {
+      "k": "qmark",
+      "x": 256,
+      "y": 196,
+      "d": 0.5
+     },
+     {
+      "k": "sekil",
+      "shape": "star",
+      "color": "#F2B632",
+      "x": 334,
+      "y": 210,
+      "s": 1.25,
+      "hit": "ky"
+     },
+     {
+      "k": "sekil",
+      "shape": "triangle",
+      "color": "#D8483A",
+      "x": 372,
+      "y": 210,
+      "s": 1.25,
+      "hit": "ku"
+     }
+    ]
+   },
+   "hits": {
+    "can": {
+     "say": "Yıldız, üçgen, yıldız… sırada ne var?",
+     "voice": "can",
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "nine": {
+     "say": "Acele yok. Desen konuşuyor.",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    }
+   },
+   "mech": {
+    "type": "match",
+    "pairs": [
+     [
+      "ku",
+      "b1"
+     ],
+     [
+      "ky",
+      "b2"
+     ]
+    ],
+    "done": "Yıldız, üçgen, yıldız, üçgen! Desen tamam!",
+    "msg": "Boşluklar doldu!"
+   },
+   "hint": [
+    "b1",
+    "Sırada ne var?"
+   ],
+   "ask": "Boşluklara hangi motif gelmeli? Nasıl anladın?"
+  },
+  {
+   "text": "İki boşluk da doldu. Nine deseni tezgâhta sıra sıra dokuyacaktı, tıpkı kendi ninesi gibi. Can da kendi örüntüsünü yaptı: kırmızı yastık, mavi yastık, kırmızı yastık, mavi yastık. Tarçın ortalarına kıvrıldı. Can kıkırdadı: “Kırmızı, mavi, Tarçın, kırmızı, mavi!” Can'ın içi sıcacık oldu.",
+   "scene": {
+    "set": "salon",
+    "time": "evening",
+    "cast": [
+     {
+      "k": "nine",
+      "x": 236,
+      "y": 158,
+      "s": 0.8,
+      "mood": "happy",
+      "pose": "sit",
+      "scarf": true,
+      "hit": "nine"
+     },
+     {
+      "k": "can",
+      "x": 332,
+      "y": 224,
+      "s": 1.0,
+      "mood": "laugh",
+      "pose": "clap",
+      "flip": true,
+      "turn": 0.4,
+      "hit": "can"
+     },
+     {
+      "k": "kedi",
+      "x": 176,
+      "y": 232,
+      "s": 0.8,
+      "mood": "sleep",
+      "pose": "lie",
+      "hit": "tarcin"
+     }
+    ],
+    "props": [
+     {
+      "k": "yastik",
+      "x": 60,
+      "y": 230,
+      "s": 1.25,
+      "color": "#D8483A",
+      "hit": "r1"
+     },
+     {
+      "k": "yastik",
+      "x": 112,
+      "y": 230,
+      "s": 1.25,
+      "color": "#6FA8DC",
+      "hit": "m1"
+     },
+     {
+      "k": "yastik",
+      "x": 240,
+      "y": 230,
+      "s": 1.25,
+      "color": "#D8483A",
+      "hit": "r2"
+     },
+     {
+      "k": "yastik",
+      "x": 292,
+      "y": 230,
+      "s": 1.25,
+      "color": "#6FA8DC",
+      "hit": "m2"
+     },
+     {
+      "k": "yumak",
+      "color": "#D8483A",
+      "x": 276,
+      "y": 180,
+      "s": 1.0
+     },
+     {
+      "k": "yumak",
+      "color": "#F2B632",
+      "x": 292,
+      "y": 184,
+      "s": 0.9
+     },
+     {
+      "k": "yumak",
+      "color": "#6FA8DC",
+      "x": 186,
+      "y": 184,
+      "s": 0.9
+     }
+    ]
+   },
+   "hits": {
+    "nine": {
+     "say": "Ne güzel olmuş, Can!",
+     "voice": "nine",
+     "anim": "boing",
+     "fx": "chime"
+    },
+    "can": {
+     "say": "Kırmızı, mavi, Tarçın, kırmızı, mavi!",
+     "voice": "can",
+     "anim": "jump",
+     "fx": "success"
+    },
+    "tarcin": {
+     "say": "Mırrr… Ben de desenim!",
+     "voice": "tarcin",
+     "anim": "wiggle",
+     "fx": "meow"
+    },
+    "r": {
+     "anim": "boing",
+     "fx": "pop"
+    },
+    "m": {
+     "anim": "boing",
+     "fx": "click"
+    }
+   },
+   "hint": [
+    "r1",
+    "Yastıkları sırayla oku!"
+   ],
+   "ask": "Tarçın örüntüye uydu mu? Sen olsan Tarçın'ı nereye koyardın?",
+   "mech": {
+    "type": "sequence",
+    "keys": [
+     "r1",
+     "m1",
+     "r2",
+     "m2"
+    ],
+    "done": "Kırmızı, mavi, kırmızı, mavi!",
+    "msg": "Yastıkları okudun!"
+   }
+  }
+ ],
+ "order": [
+  0,
+  1,
+  4
+ ],
+ "guide": {
+  "kazanim": [
+   "MAB.4 — Matematiksel olgu, olay ve nesnelere ilişkin çıkarım yapabilme (MAB.4.b: Nesneleri, olguları ve olayları karşılaştırır): Yıldız ve üçgen motiflerini karşılaştırır; “yıldız, üçgen” biriminin tekrar ettiğini fark eder ve boşluğa hangi motifin geleceğine örüntüye bakarak karar verir.",
+   "OB5 Kültür Okuryazarlığı — Kilim motiflerinin tekrar ettiğini, ninenin motiflere köyüyle ilgili anlamlar verdiğini (yıldız: köyün göğü, üçgen: dağlar) ve kilimin kuşaktan kuşağa dokunduğunu fark eder; kendi evindeki desenli eşyalarla ilişkilendirir.",
+   "E3.2 Odaklanma — Örüntüyü soldan sağa, parmağıyla izleyerek baştan okur; acele etmeden sıradaki motifi bulur.",
+   "SDB1.2 Kendini Düzenleme — Can gibi kızgınlığını adlandırır (yanaklar ısınır, eller yumruk olur, kalp küt küt atar), nefes alarak sakinleşir ve sorunu çözmeye döner.",
+   "D7 Estetik — Renklerin ve şekillerin düzenli tekrarının güzel bir desen oluşturduğunu fark eder, bozulan deseni özenle onarır."
+  ],
+  "once": [
+   "Evden ya da sınıftan desenli bir kumaş, kilim, yazma veya çorap gösterin: “Burada tekrar eden bir şey var mı?”",
+   "Kâğıttan kesilmiş sarı yıldız ve kırmızı üçgenleri halıya dizin, masalın desenini birlikte hazırlayın."
+  ],
+  "sirasi": [
+   "1. sayfada motiflere soldan sağa sırayla dokunurken hep birlikte ritimle okuyun: “yıl-dız, üç-gen…”",
+   "2. sayfada durun: “Can ne hissediyor? Bedeninde nasıl belli oluyor?” Yanakları, yumrukları gösterin. Soru işaretli soluk yerlerin boşluk olduğunu söyleyin: “Soru işaretli yerler boşluk.”",
+   "3. sayfada ninenin nefesini birlikte yapın: burundan al, “ohhh” diye bırak. Tahminde iki cevabı da kabul edin.",
+   "5. sayfada eşleştirmeden önce çocuğa örüntüyü baştan parmağıyla okutun; “Sırada ne var?” diye sorun, cevabı siz söylemeyin, kendisi bulsun.",
+   "6. sayfada yastıkları sırayla okuyun; Tarçın araya girince gülün ve sorun: “Tarçın örüntüye uydu mu?”"
+  ],
+  "sonra": [
+   "Ninenin deseninde hangi iki şekil sırayla tekrar ediyordu?",
+   "Can kızınca ne yaptı, nasıl sakinleşti?",
+   "Tarçın motifleri neden almış olabilir? Kızmak yerine ne söyleyebiliriz?"
+  ],
+  "sinif": {
+   "ad": "Sınıf Kilimi: Örüntü Şeridi",
+   "sure": "20 dk",
+   "materyal": "Uzun kraft kâğıt şeridi, renkli kartondan kesilmiş yıldız ve üçgenler (ya da iki renk kapak/düğme), yapıştırıcı, gerçek bir kilim ya da kilim fotoğrafı",
+   "adim": [
+    "Kilimi ya da fotoğrafını inceleyin; çocuklar tekrar eden motifleri göstersin, öğretmen “Bu motif neye benziyor?” diye sorsun.",
+    "Şeridin başına öğretmen “yıldız, üçgen, yıldız, üçgen” dizer; çocuklar sırayla gelip örüntüyü sürdürür, her eklemede hep birlikte baştan okunur.",
+    "Öğretmen iki motifi gizlice alır (Tarçın oyunu); çocuklar boşluklara hangisinin geleceğini örüntüyü okuyarak bulur. İsteyen çocuk kendi iki renkli örüntüsünü kurar."
+   ]
+  },
+  "evSoru": [
+   "Ninenin deseninde hangi şekiller vardı?",
+   "Can kızgınken nasıl sakinleşti?",
+   "Evimizde tekrar eden bir desen bulabilir misin?"
+  ],
+  "evEtk": {
+   "ad": "Evde örüntü avı ve çorap dizisi",
+   "d": "Evde desenli eşyalara (perde, halı, tabak, çorap) birlikte bakın ve tekrar eden şekli parmakla izleyin. Sonra iki renk çorap, kaşık-çatal ya da makarnayla “bir o, bir bu” örüntüsü kurun; bir parçayı saklayıp çocuğunuzun eksik olanı bulmasını isteyin."
+  },
+  "aileNotu": "Bugün “Ninemin Örüntülü Kilimi” masalını okuduk. Can, ninesiyle kilim desenini dizerken yıldız ve üçgenin sırayla tekrar ettiğini, yani bir örüntü olduğunu keşfetti. Kedi iki motifi kaçırınca çok kızdı; derin bir nefes alıp sakinleşti ve örüntüyü okuyarak boşlukları kendisi doldurdu. Evde halı, yazma ya da tabak desenlerindeki tekrarları birlikte arayabilir, çocuğunuz kızdığında “Can gibi bir nefes alalım mı?” diyebilirsiniz."
+ },
+ "audio": {
+  "file": "audio/072-ninemin-oruntulu-kilimi.mp3",
+  "hash": "9f6def96",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 19378,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      490,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1150,
+      3
+     ],
+     [
+      1670,
+      4
+     ],
+     [
+      2029,
+      5
+     ],
+     [
+      2869,
+      6
+     ],
+     [
+      3390,
+      7
+     ],
+     [
+      4310,
+      8
+     ],
+     [
+      4890,
+      9
+     ],
+     [
+      6049,
+      10
+     ],
+     [
+      6469,
+      11
+     ],
+     [
+      6969,
+      12
+     ],
+     [
+      7589,
+      13
+     ],
+     [
+      8069,
+      14
+     ],
+     [
+      8529,
+      15
+     ],
+     [
+      9329,
+      16
+     ],
+     [
+      10109,
+      17
+     ],
+     [
+      10369,
+      18
+     ],
+     [
+      11049,
+      19
+     ],
+     [
+      11869,
+      20
+     ],
+     [
+      12789,
+      21
+     ],
+     [
+      13689,
+      22
+     ],
+     [
+      14609,
+      23
+     ],
+     [
+      15489,
+      24
+     ],
+     [
+      15810,
+      25
+     ],
+     [
+      16149,
+      26
+     ],
+     [
+      16930,
+      27
+     ],
+     [
+      17229,
+      28
+     ],
+     [
+      18049,
+      29
+     ],
+     [
+      18450,
+      30
+     ],
+     [
+      18869,
+      31
+     ]
+    ]
+   },
+   "p0h-nine": {
+    "s": 19678,
+    "d": 2312,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      569,
+      1
+     ],
+     [
+      1189,
+      2
+     ],
+     [
+      1430,
+      3
+     ],
+     [
+      1769,
+      4
+     ]
+    ]
+   },
+   "p0h-can": {
+    "s": 22291,
+    "d": 3451,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      939,
+      1
+     ],
+     [
+      1839,
+      2
+     ],
+     [
+      2739,
+      3
+     ]
+    ]
+   },
+   "p0h-tarcin": {
+    "s": 26042,
+    "d": 2385,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1621,
+      1
+     ]
+    ]
+   },
+   "p0m": {
+    "s": 28727,
+    "d": 3035,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      849,
+      1
+     ],
+     [
+      1729,
+      2
+     ],
+     [
+      2029,
+      3
+     ],
+     [
+      2329,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 32063,
+    "d": 17427,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2609,
+      5
+     ],
+     [
+      3009,
+      6
+     ],
+     [
+      3829,
+      7
+     ],
+     [
+      4029,
+      8
+     ],
+     [
+      4689,
+      9
+     ],
+     [
+      4850,
+      10
+     ],
+     [
+      5269,
+      11
+     ],
+     [
+      5930,
+      12
+     ],
+     [
+      6209,
+      13
+     ],
+     [
+      6469,
+      14
+     ],
+     [
+      7349,
+      15
+     ],
+     [
+      7870,
+      16
+     ],
+     [
+      8069,
+      17
+     ],
+     [
+      8509,
+      18
+     ],
+     [
+      9350,
+      19
+     ],
+     [
+      9649,
+      20
+     ],
+     [
+      9909,
+      21
+     ],
+     [
+      10649,
+      22
+     ],
+     [
+      11230,
+      23
+     ],
+     [
+      11989,
+      24
+     ],
+     [
+      12409,
+      25
+     ],
+     [
+      12869,
+      26
+     ],
+     [
+      13489,
+      27
+     ],
+     [
+      13969,
+      28
+     ],
+     [
+      14270,
+      29
+     ],
+     [
+      14569,
+      30
+     ],
+     [
+      15369,
+      31
+     ],
+     [
+      16229,
+      32
+     ],
+     [
+      16829,
+      33
+     ]
+    ]
+   },
+   "p1h-can": {
+    "s": 49790,
+    "d": 2192,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1569,
+      2
+     ]
+    ]
+   },
+   "p1h-tarcin": {
+    "s": 52283,
+    "d": 1736,
+    "w": [
+     [
+      89,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1349,
+      2
+     ]
+    ]
+   },
+   "p1h-nine": {
+    "s": 54319,
+    "d": 2005,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      753,
+      1
+     ],
+     [
+      1157,
+      2
+     ],
+     [
+      1561,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 56624,
+    "d": 15346,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      769,
+      1
+     ],
+     [
+      1109,
+      2
+     ],
+     [
+      1469,
+      3
+     ],
+     [
+      2469,
+      4
+     ],
+     [
+      2729,
+      5
+     ],
+     [
+      2849,
+      6
+     ],
+     [
+      3170,
+      7
+     ],
+     [
+      4089,
+      8
+     ],
+     [
+      4589,
+      9
+     ],
+     [
+      5410,
+      10
+     ],
+     [
+      5910,
+      11
+     ],
+     [
+      6769,
+      12
+     ],
+     [
+      7989,
+      13
+     ],
+     [
+      8369,
+      14
+     ],
+     [
+      9449,
+      15
+     ],
+     [
+      10069,
+      16
+     ],
+     [
+      10969,
+      17
+     ],
+     [
+      11469,
+      18
+     ],
+     [
+      11770,
+      19
+     ],
+     [
+      12489,
+      20
+     ],
+     [
+      12749,
+      21
+     ],
+     [
+      13329,
+      22
+     ],
+     [
+      13850,
+      23
+     ],
+     [
+      14390,
+      24
+     ],
+     [
+      14749,
+      25
+     ]
+    ]
+   },
+   "p2h-nine": {
+    "s": 72270,
+    "d": 3696,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      850,
+      1
+     ],
+     [
+      1563,
+      2
+     ],
+     [
+      2374,
+      3
+     ],
+     [
+      3329,
+      4
+     ]
+    ]
+   },
+   "p2h-can": {
+    "s": 76266,
+    "d": 2447,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      674,
+      1
+     ],
+     [
+      1180,
+      2
+     ],
+     [
+      1686,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 79014,
+    "d": 2635,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      610,
+      1
+     ],
+     [
+      1050,
+      2
+     ],
+     [
+      1629,
+      3
+     ],
+     [
+      1989,
+      4
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 81949,
+    "d": 2096,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      1309,
+      3
+     ],
+     [
+      1589,
+      4
+     ]
+    ]
+   },
+   "p3": {
+    "s": 84346,
+    "d": 13428,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      909,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2749,
+      5
+     ],
+     [
+      3349,
+      6
+     ],
+     [
+      3650,
+      7
+     ],
+     [
+      3849,
+      8
+     ],
+     [
+      4069,
+      9
+     ],
+     [
+      4989,
+      10
+     ],
+     [
+      5949,
+      11
+     ],
+     [
+      6329,
+      12
+     ],
+     [
+      6769,
+      13
+     ],
+     [
+      7370,
+      14
+     ],
+     [
+      7829,
+      15
+     ],
+     [
+      7969,
+      16
+     ],
+     [
+      8730,
+      17
+     ],
+     [
+      9609,
+      18
+     ],
+     [
+      10029,
+      19
+     ],
+     [
+      10529,
+      20
+     ],
+     [
+      11369,
+      21
+     ],
+     [
+      12249,
+      22
+     ],
+     [
+      12869,
+      23
+     ],
+     [
+      13189,
+      24
+     ]
+    ]
+   },
+   "p3h-can": {
+    "s": 98075,
+    "d": 1542,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      939,
+      1
+     ]
+    ]
+   },
+   "p3h-tarcin": {
+    "s": 99918,
+    "d": 2162,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      930,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      1849,
+      3
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 102380,
+    "d": 2761,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      909,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1729,
+      3
+     ],
+     [
+      2170,
+      4
+     ],
+     [
+      2309,
+      5
+     ]
+    ]
+   },
+   "p4": {
+    "s": 105441,
+    "d": 14792,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      869,
+      2
+     ],
+     [
+      1349,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2549,
+      5
+     ],
+     [
+      2890,
+      6
+     ],
+     [
+      3410,
+      7
+     ],
+     [
+      4310,
+      8
+     ],
+     [
+      4989,
+      9
+     ],
+     [
+      5430,
+      10
+     ],
+     [
+      6209,
+      11
+     ],
+     [
+      7189,
+      12
+     ],
+     [
+      8150,
+      13
+     ],
+     [
+      9350,
+      14
+     ],
+     [
+      9709,
+      15
+     ],
+     [
+      9869,
+      16
+     ],
+     [
+      10489,
+      17
+     ],
+     [
+      10770,
+      18
+     ],
+     [
+      11749,
+      19
+     ],
+     [
+      12169,
+      20
+     ],
+     [
+      12810,
+      21
+     ],
+     [
+      13069,
+      22
+     ],
+     [
+      13749,
+      23
+     ],
+     [
+      14129,
+      24
+     ]
+    ]
+   },
+   "p4h-can": {
+    "s": 120534,
+    "d": 4427,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1109,
+      1
+     ],
+     [
+      2170,
+      2
+     ],
+     [
+      3410,
+      3
+     ],
+     [
+      3809,
+      4
+     ],
+     [
+      3989,
+      5
+     ]
+    ]
+   },
+   "p4h-nine": {
+    "s": 125261,
+    "d": 2144,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      369,
+      1
+     ],
+     [
+      1069,
+      2
+     ],
+     [
+      1469,
+      3
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 127706,
+    "d": 3846,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      729,
+      1
+     ],
+     [
+      1469,
+      2
+     ],
+     [
+      2229,
+      3
+     ],
+     [
+      3049,
+      4
+     ],
+     [
+      3430,
+      5
+     ]
+    ]
+   },
+   "p5": {
+    "s": 131852,
+    "d": 22389,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      189,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      749,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2489,
+      6
+     ],
+     [
+      3109,
+      7
+     ],
+     [
+      3390,
+      8
+     ],
+     [
+      3629,
+      9
+     ],
+     [
+      4689,
+      10
+     ],
+     [
+      5129,
+      11
+     ],
+     [
+      5449,
+      12
+     ],
+     [
+      5870,
+      13
+     ],
+     [
+      6569,
+      14
+     ],
+     [
+      6829,
+      15
+     ],
+     [
+      7029,
+      16
+     ],
+     [
+      7370,
+      17
+     ],
+     [
+      7949,
+      18
+     ],
+     [
+      8709,
+      19
+     ],
+     [
+      9190,
+      20
+     ],
+     [
+      9969,
+      21
+     ],
+     [
+      10329,
+      22
+     ],
+     [
+      11049,
+      23
+     ],
+     [
+      11529,
+      24
+     ],
+     [
+      12209,
+      25
+     ],
+     [
+      12569,
+      26
+     ],
+     [
+      13430,
+      27
+     ],
+     [
+      14009,
+      28
+     ],
+     [
+      14609,
+      29
+     ],
+     [
+      15549,
+      30
+     ],
+     [
+      15829,
+      31
+     ],
+     [
+      16870,
+      32
+     ],
+     [
+      17749,
+      33
+     ],
+     [
+      18430,
+      34
+     ],
+     [
+      19169,
+      35
+     ],
+     [
+      19809,
+      36
+     ],
+     [
+      20690,
+      37
+     ],
+     [
+      21089,
+      38
+     ],
+     [
+      21450,
+      39
+     ],
+     [
+      22009,
+      40
+     ]
+    ]
+   },
+   "p5h-nine": {
+    "s": 154541,
+    "d": 1588,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      529,
+      2
+     ],
+     [
+      1109,
+      3
+     ]
+    ]
+   },
+   "p5h-can": {
+    "s": 156430,
+    "d": 4355,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      1086,
+      1
+     ],
+     [
+      1881,
+      2
+     ],
+     [
+      2675,
+      3
+     ],
+     [
+      3722,
+      4
+     ]
+    ]
+   },
+   "p5h-tarcin": {
+    "s": 161086,
+    "d": 2099,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1050,
+      1
+     ],
+     [
+      1290,
+      2
+     ],
+     [
+      1449,
+      3
+     ]
+    ]
+   },
+   "p5m": {
+    "s": 163485,
+    "d": 3124,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      829,
+      1
+     ],
+     [
+      1649,
+      2
+     ],
+     [
+      2509,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}

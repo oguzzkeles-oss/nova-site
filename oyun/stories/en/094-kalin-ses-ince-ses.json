@@ -1,0 +1,1706 @@
+{
+ "id": "094-kalin-ses-ince-ses",
+ "lang": "en",
+ "title": "Low Voice, High Voice",
+ "theme": "Telling low and high sounds apart; respecting different voices",
+ "blurb": "Bombo the elephant has a very low voice: Booom! At the forest concert he longs to sing high like Tweet, so he goes quiet, and the song isn't complete. What will happen when the low voice, the high voice and the middle voice come together?",
+ "voiceNames": {
+  "bombo": "Bombo (baby elephant)",
+  "civil": "Tweet (sparrow)",
+  "vizir": "Buzzy (bee)"
+ },
+ "pages": [
+  {
+   "text": "It was concert day in the forest. Tweet the sparrow sang high and sweet. “Cheep cheep cheep!” Buzzy the bee buzzed. “Buzzz!” Bombo the elephant lifted his trunk. “Booom!” What a low, low voice!",
+   "hits": {
+    "civil": {
+     "say": "Cheep cheep cheep! My voice is high!"
+    },
+    "vizir": {
+     "say": "Buzzz! My voice is in the middle!"
+    },
+    "bombo": {
+     "say": "Booom! My voice is low!"
+    }
+   },
+   "hint": "Touch Bombo!",
+   "ask": "Whose voice is high, and whose is low? Go on, say “Booom!” in a low voice like Bombo."
+  },
+  {
+   "text": "Tweet chirped. “Soon we'll all sing together!” Bombo tried to sing high. “Cheep…” But out came a low voice again. “Booom!” He whispered. “Booom…” Soft, but still low! Bombo was embarrassed. His ears drooped. “My voice isn't nice.”",
+   "hits": {
+    "bombo": {
+     "say": "booom… Even my whisper is low!"
+    },
+    "civil": {
+     "say": "Soon we'll sing together!"
+    }
+   },
+   "hint": "Touch Bombo!",
+   "ask": "Did Bombo's voice get higher when he whispered? Why was Bombo embarrassed? Have you ever thought “I can't do this”?"
+  },
+  {
+   "text": "Concert time came. A log was the stage. Tweet and Buzzy began the song. Bombo hid behind a bush and kept quiet. The song was lovely, but something was missing. Tweet stopped: “Where's Bombo?”",
+   "hits": {
+    "civil": {
+     "say": "Where's Bombo? Our song isn't complete!"
+    },
+    "vizir": {
+     "say": "Buzzz… A voice is missing!"
+    },
+    "bombo": {
+     "say": "Shhh… I'll stay quiet."
+    }
+   },
+   "predict": {
+    "q": "What do you think will happen now?",
+    "res": "It could be either! Let's find out.",
+    "opts": [
+     {
+      "l": "His friends call Bombo"
+     },
+     {
+      "l": "Bombo comes by himself"
+     }
+    ]
+   },
+   "hint": "Touch Tweet!",
+   "ask": "What was missing from the song? How did his friends feel when Bombo went quiet?"
+  },
+  {
+   "text": "Tweet and Buzzy found Bombo. Buzzy pointed at the instruments: “Drum, boom boom, low. Bell, ting ting, high. Saz, twang twang, middle!” Which sound is like whose voice?",
+   "hits": {
+    "vizir": {
+     "say": "Saz, twang twang, middle like me!"
+    },
+    "civil": {
+     "say": "The bell is high like me!"
+    },
+    "bombo": {
+     "say": "The drum… is it low like me?"
+    }
+   },
+   "mech": {
+    "done": "Drum boom boom, bell ting ting, saz twang twang!",
+    "msg": "You matched the sounds!"
+   },
+   "hint": "Who sounds like the drum?",
+   "ask": "What sound does the drum make? And the bell? And the saz? Which sound do you like best?"
+  },
+  {
+   "text": "Tweet smiled: “Your voice is low, and it's beautiful. It's the heart of the song!” Bombo took a deep breath. The song began again. First the high voice: cheep cheep! Then the middle voice: buzzz! And last, the low voice: booom!",
+   "hits": {
+    "bombo": {
+     "say": "Booom! I'm singing too!"
+    },
+    "civil": {
+     "say": "Cheep cheep! Your voice is the heart of the song!"
+    },
+    "vizir": {
+     "say": "Buzzz! The middle voice is me!"
+    }
+   },
+   "mech": {
+    "done": "Cheep cheep, buzzz, booom! That's our song!",
+    "msg": "The song is complete!"
+   },
+   "hint": "Touch the high voice first!",
+   "ask": "Which voice came first, and which came last? Let's say them in order: cheep cheep, buzzz, booom!"
+  },
+  {
+   "text": "The song was over. Butterflies danced, flowers swayed. Bombo felt all fizzy inside, and proud. Tweet laughed: “Low voice, high voice, middle voice… When they all came together, the song was complete!” Bombo asked: “Shall we sing it again?”",
+   "hits": {
+    "bombo": {
+     "say": "Shall we sing it again? Booom!"
+    },
+    "civil": {
+     "say": "All our voices together!"
+    },
+    "vizir": {
+     "say": "Buzzz! Let's sing again!"
+    }
+   },
+   "hint": "Touch Bombo!",
+   "ask": "What is your voice like? Which song would you like to sing with your friends?"
+  }
+ ],
+ "guide": {
+  "kazanim": [
+   "MDB.1 (learning outcome) Listening to a variety of musical works; at 48–60 months, children's songs and song forms are listened to. The child listens to the three-voice forest song in the story (cheep cheep, buzzz, BOOOM), then listens for and notices low and high sounds in a short children's song (skill: MDB1 Musical Listening).",
+   "TADB.4 (learning outcome) Reflecting their views on what they listen to/watch and on the listening/watching setting; says what they feel and think about the material. The child explains in their own words which voice they liked best and why the song wasn't complete when Bombo went quiet.",
+   "SDB2.3 Social Awareness (social-emotional learning skill): Tweet and Buzzy notice that Bombo has gone quiet and is hiding, and they go and find him. The child guesses the feeling behind a friend's silence (embarrassment).",
+   "D14 Respect (value): Nobody makes fun of Bombo's voice; Tweet values his different voice: 'Your low voice is the heart of the song!' The child sees that different voices and different people are valuable together."
+  ],
+  "once": [
+   "Make your voice low and say “Booom!”, then make it high and say “Cheep cheep!” Ask: “Which one is low, and which one is high?”",
+   "Point to the three animals on the cover: “What kind of voice do you think an elephant has? A sparrow? A bee?”"
+  ],
+  "sirasi": [
+   "On page 1, touch each animal and copy its sound together; put your hands on the floor for the low voice and up in the air for the high voice.",
+   "On page 2, when Bombo whispers, try it together and notice that his voice stays low: say “booom” in a low voice, once shouting, once whispering. Then look at Bombo's ears: “How is he feeling?” Talk about what happens in our bodies when we feel embarrassed (cheeks go hot, head goes down).",
+   "For the prediction on page 3, listen to the child's choice and their reason; both options are fine, say “Let's find out!”",
+   "On page 4, before matching, copy the drum (boom boom), the bell (ting ting) and the saz (bağlama) (twang twang) with your voice; let the child listen to the sounds and work out who each one is like. Once the matching is done, touch the instruments and listen to their sounds.",
+   "On page 5, sing the song in order: first the high voice, then the middle, and the low voice last. Touch the drum and the bell and listen to their real sounds too."
+  ],
+  "sonra": [
+   "Tell the story in order: Bombo is embarrassed and goes quiet → his friends find him and match the sounds → the three sing together.",
+   "Ask: “Which voice in the song did you like most? Why?” Accept every answer; say that people can like different things.",
+   "For curious children: Big things, like a big drum or a big animal, usually make a low sound; small things, like a little bell or a little bird, make a high sound. The string of the saz and the buzz of the bee sit in between, in the middle.",
+   "Note for the adult: A low voice is not shouting; a whisper can be low, and a shout can be high. Low/high is the sound itself; loud/quiet (shouting/whispering) is the strength of the sound. Let the child feel this difference with games like “Whisper in a low voice!” and “Whisper in a high voice!”",
+   "For children who don't like their own voice: say “Your voice is special to you. The song is complete with everyone's voice.”; decide together that nobody's voice should be made fun of."
+  ],
+  "sinif": {
+   "ad": "Low Voice Down, High Voice Up",
+   "sure": "15 min",
+   "materyal": "A drum or an upturned bucket, a bell or a metal spoon and a glass, optionally a saz/guitar recording, a recording of a short children's song",
+   "adim": [
+    "Make a circle with the children. Play the drum and the bell always at the same strength, neither too hard nor too soft (so the only difference is low/high). First the drum: on the low sound, everyone crouches, touches the floor with their hands and says “Booom!” like an elephant.",
+    "Then play the bell: on the high sound, everyone rises on tiptoe, stretches their hands up in the air and says “Cheep cheep!” like a sparrow. Keep the game going by playing the sounds in a mixed order.",
+    "Listen to a short children's song together; do the same movements as you hear low and high sounds.",
+    "Split the class into three groups (Bombos, Tweets, Buzzies). Sing the forest song, joining in one group at a time; at the end talk about “Which voice would the song be missing without?”"
+   ]
+  },
+  "evSoru": [
+   "Why did Bombo go quiet? What did his friends do?",
+   "Find something at home that makes a low sound. Find something that makes a high sound.",
+   "What is your voice like? Let's talk once in a low voice and once in a high voice!"
+  ],
+  "evEtk": {
+   "ad": "A Forest Concert at Home",
+   "d": "Tap an upturned saucepan with a wooden spoon (low sound); gently tap a glass with a metal spoon (high sound). Try to play both at the same strength. Listen to a short children's song together; family members take turns joining in with a low or a high voice. At the end, ask your child which sound they liked best and why."
+  },
+  "aileNotu": "Today we read “Low Voice, High Voice.” Bombo the elephant doesn't like his low voice and goes quiet; his friends go and find him, and they discover that the song is only complete with everyone's voice. The children practised listening to and telling apart low and high sounds. When you listen to songs together at home, you can try to find the low and high sounds, and let your child feel that their voice is valuable."
+ },
+ "audio": {
+  "file": "audio/en/094-kalin-ses-ince-ses.mp3",
+  "hash": "9d08373d",
+  "clips": {
+   "p0": {
+    "s": 0,
+    "d": 15717,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      109,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      849,
+      3
+     ],
+     [
+      1050,
+      4
+     ],
+     [
+      1150,
+      5
+     ],
+     [
+      1269,
+      6
+     ],
+     [
+      2189,
+      7
+     ],
+     [
+      2509,
+      8
+     ],
+     [
+      2630,
+      9
+     ],
+     [
+      3150,
+      10
+     ],
+     [
+      3529,
+      11
+     ],
+     [
+      3969,
+      12
+     ],
+     [
+      4169,
+      13
+     ],
+     [
+      4989,
+      14
+     ],
+     [
+      5249,
+      15
+     ],
+     [
+      5529,
+      16
+     ],
+     [
+      6410,
+      17
+     ],
+     [
+      6769,
+      18
+     ],
+     [
+      6910,
+      19
+     ],
+     [
+      7269,
+      20
+     ],
+     [
+      8150,
+      21
+     ],
+     [
+      9629,
+      22
+     ],
+     [
+      10029,
+      23
+     ],
+     [
+      10190,
+      24
+     ],
+     [
+      10730,
+      25
+     ],
+     [
+      11109,
+      26
+     ],
+     [
+      11310,
+      27
+     ],
+     [
+      12109,
+      28
+     ],
+     [
+      13449,
+      29
+     ],
+     [
+      13709,
+      30
+     ],
+     [
+      13949,
+      31
+     ],
+     [
+      14569,
+      32
+     ],
+     [
+      14989,
+      33
+     ]
+    ]
+   },
+   "p0h-civil": {
+    "s": 16017,
+    "d": 2775,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      270,
+      1
+     ],
+     [
+      569,
+      2
+     ],
+     [
+      1389,
+      3
+     ],
+     [
+      1629,
+      4
+     ],
+     [
+      1989,
+      5
+     ],
+     [
+      2189,
+      6
+     ]
+    ]
+   },
+   "p0h-vizir": {
+    "s": 19093,
+    "d": 2887,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      674,
+      1
+     ],
+     [
+      964,
+      2
+     ],
+     [
+      1470,
+      3
+     ],
+     [
+      1760,
+      4
+     ],
+     [
+      2051,
+      5
+     ],
+     [
+      2341,
+      6
+     ]
+    ]
+   },
+   "p0h-bombo": {
+    "s": 22281,
+    "d": 2760,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1249,
+      1
+     ],
+     [
+      1509,
+      2
+     ],
+     [
+      1869,
+      3
+     ],
+     [
+      2150,
+      4
+     ]
+    ]
+   },
+   "p1": {
+    "s": 25342,
+    "d": 19657,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      1170,
+      2
+     ],
+     [
+      1489,
+      3
+     ],
+     [
+      1829,
+      4
+     ],
+     [
+      2110,
+      5
+     ],
+     [
+      2390,
+      6
+     ],
+     [
+      3430,
+      7
+     ],
+     [
+      3869,
+      8
+     ],
+     [
+      4209,
+      9
+     ],
+     [
+      4350,
+      10
+     ],
+     [
+      4649,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      6689,
+      13
+     ],
+     [
+      6930,
+      14
+     ],
+     [
+      7149,
+      15
+     ],
+     [
+      7430,
+      16
+     ],
+     [
+      7569,
+      17
+     ],
+     [
+      7870,
+      18
+     ],
+     [
+      8230,
+      19
+     ],
+     [
+      9029,
+      20
+     ],
+     [
+      10249,
+      21
+     ],
+     [
+      10409,
+      22
+     ],
+     [
+      11270,
+      23
+     ],
+     [
+      12609,
+      24
+     ],
+     [
+      13249,
+      25
+     ],
+     [
+      13489,
+      26
+     ],
+     [
+      13869,
+      27
+     ],
+     [
+      14869,
+      28
+     ],
+     [
+      15269,
+      29
+     ],
+     [
+      15449,
+      30
+     ],
+     [
+      16469,
+      31
+     ],
+     [
+      16729,
+      32
+     ],
+     [
+      17110,
+      33
+     ],
+     [
+      18089,
+      34
+     ],
+     [
+      18309,
+      35
+     ],
+     [
+      18649,
+      36
+     ],
+     [
+      18969,
+      37
+     ]
+    ]
+   },
+   "p1h-bombo": {
+    "s": 45299,
+    "d": 2827,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      1269,
+      1
+     ],
+     [
+      1550,
+      2
+     ],
+     [
+      1769,
+      3
+     ],
+     [
+      2249,
+      4
+     ],
+     [
+      2430,
+      5
+     ]
+    ]
+   },
+   "p1h-civil": {
+    "s": 48427,
+    "d": 1789,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      509,
+      1
+     ],
+     [
+      829,
+      2
+     ],
+     [
+      1150,
+      3
+     ]
+    ]
+   },
+   "p2": {
+    "s": 50517,
+    "d": 14101,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      430,
+      1
+     ],
+     [
+      729,
+      2
+     ],
+     [
+      1589,
+      3
+     ],
+     [
+      1709,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2249,
+      6
+     ],
+     [
+      2390,
+      7
+     ],
+     [
+      3289,
+      8
+     ],
+     [
+      3589,
+      9
+     ],
+     [
+      3749,
+      10
+     ],
+     [
+      4129,
+      11
+     ],
+     [
+      4469,
+      12
+     ],
+     [
+      4589,
+      13
+     ],
+     [
+      5449,
+      14
+     ],
+     [
+      5870,
+      15
+     ],
+     [
+      6069,
+      16
+     ],
+     [
+      6390,
+      17
+     ],
+     [
+      6489,
+      18
+     ],
+     [
+      6850,
+      19
+     ],
+     [
+      7029,
+      20
+     ],
+     [
+      7309,
+      21
+     ],
+     [
+      8310,
+      22
+     ],
+     [
+      8529,
+      23
+     ],
+     [
+      8869,
+      24
+     ],
+     [
+      9190,
+      25
+     ],
+     [
+      9989,
+      26
+     ],
+     [
+      10350,
+      27
+     ],
+     [
+      10730,
+      28
+     ],
+     [
+      10930,
+      29
+     ],
+     [
+      11890,
+      30
+     ],
+     [
+      12209,
+      31
+     ],
+     [
+      13169,
+      32
+     ],
+     [
+      13509,
+      33
+     ]
+    ]
+   },
+   "p2h-civil": {
+    "s": 64919,
+    "d": 3037,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      1389,
+      2
+     ],
+     [
+      1649,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2269,
+      5
+     ]
+    ]
+   },
+   "p2h-vizir": {
+    "s": 68256,
+    "d": 2849,
+    "w": [
+     [
+      120,
+      0
+     ],
+     [
+      1449,
+      1
+     ],
+     [
+      1609,
+      2
+     ],
+     [
+      2009,
+      3
+     ],
+     [
+      2189,
+      4
+     ]
+    ]
+   },
+   "p2h-bombo": {
+    "s": 71405,
+    "d": 1819,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      772,
+      1
+     ],
+     [
+      1108,
+      2
+     ],
+     [
+      1443,
+      3
+     ]
+    ]
+   },
+   "p2q": {
+    "s": 73525,
+    "d": 1628,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      249,
+      2
+     ],
+     [
+      389,
+      3
+     ],
+     [
+      569,
+      4
+     ],
+     [
+      769,
+      5
+     ],
+     [
+      1109,
+      6
+     ]
+    ]
+   },
+   "p2r": {
+    "s": 75453,
+    "d": 2178,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      349,
+      2
+     ],
+     [
+      550,
+      3
+     ],
+     [
+      1269,
+      4
+     ],
+     [
+      1509,
+      5
+     ],
+     [
+      1809,
+      6
+     ]
+    ]
+   },
+   "p3": {
+    "s": 77931,
+    "d": 13788,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      329,
+      1
+     ],
+     [
+      509,
+      2
+     ],
+     [
+      949,
+      3
+     ],
+     [
+      1329,
+      4
+     ],
+     [
+      2349,
+      5
+     ],
+     [
+      2689,
+      6
+     ],
+     [
+      3069,
+      7
+     ],
+     [
+      3170,
+      8
+     ],
+     [
+      3309,
+      9
+     ],
+     [
+      4390,
+      10
+     ],
+     [
+      5109,
+      11
+     ],
+     [
+      5390,
+      12
+     ],
+     [
+      6009,
+      13
+     ],
+     [
+      6829,
+      14
+     ],
+     [
+      7449,
+      15
+     ],
+     [
+      7709,
+      16
+     ],
+     [
+      8329,
+      17
+     ],
+     [
+      9169,
+      18
+     ],
+     [
+      9850,
+      19
+     ],
+     [
+      10209,
+      20
+     ],
+     [
+      10890,
+      21
+     ],
+     [
+      11810,
+      22
+     ],
+     [
+      12089,
+      23
+     ],
+     [
+      12489,
+      24
+     ],
+     [
+      12649,
+      25
+     ],
+     [
+      12890,
+      26
+     ],
+     [
+      13209,
+      27
+     ]
+    ]
+   },
+   "p3h-vizir": {
+    "s": 92020,
+    "d": 3154,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      604,
+      1
+     ],
+     [
+      959,
+      2
+     ],
+     [
+      1524,
+      3
+     ],
+     [
+      2141,
+      4
+     ],
+     [
+      2759,
+      5
+     ]
+    ]
+   },
+   "p3h-civil": {
+    "s": 95474,
+    "d": 2116,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      229,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      709,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      1709,
+      5
+     ]
+    ]
+   },
+   "p3h-bombo": {
+    "s": 97890,
+    "d": 2590,
+    "w": [
+     [
+      40,
+      0
+     ],
+     [
+      321,
+      1
+     ],
+     [
+      935,
+      2
+     ],
+     [
+      1216,
+      3
+     ],
+     [
+      1498,
+      4
+     ],
+     [
+      1779,
+      5
+     ],
+     [
+      2268,
+      6
+     ]
+    ]
+   },
+   "p3m": {
+    "s": 100780,
+    "d": 4809,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      449,
+      1
+     ],
+     [
+      789,
+      2
+     ],
+     [
+      1509,
+      3
+     ],
+     [
+      1969,
+      4
+     ],
+     [
+      2309,
+      5
+     ],
+     [
+      3109,
+      6
+     ],
+     [
+      3670,
+      7
+     ],
+     [
+      4089,
+      8
+     ]
+    ]
+   },
+   "p4": {
+    "s": 105890,
+    "d": 17667,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      309,
+      1
+     ],
+     [
+      1369,
+      2
+     ],
+     [
+      1609,
+      3
+     ],
+     [
+      2029,
+      4
+     ],
+     [
+      2209,
+      5
+     ],
+     [
+      2829,
+      6
+     ],
+     [
+      2949,
+      7
+     ],
+     [
+      3209,
+      8
+     ],
+     [
+      4290,
+      9
+     ],
+     [
+      4509,
+      10
+     ],
+     [
+      4669,
+      11
+     ],
+     [
+      4930,
+      12
+     ],
+     [
+      5049,
+      13
+     ],
+     [
+      5209,
+      14
+     ],
+     [
+      6249,
+      15
+     ],
+     [
+      6689,
+      16
+     ],
+     [
+      6910,
+      17
+     ],
+     [
+      7069,
+      18
+     ],
+     [
+      7370,
+      19
+     ],
+     [
+      8249,
+      20
+     ],
+     [
+      8409,
+      21
+     ],
+     [
+      8749,
+      22
+     ],
+     [
+      9089,
+      23
+     ],
+     [
+      9969,
+      24
+     ],
+     [
+      10289,
+      25
+     ],
+     [
+      10430,
+      26
+     ],
+     [
+      10649,
+      27
+     ],
+     [
+      11310,
+      28
+     ],
+     [
+      11569,
+      29
+     ],
+     [
+      12249,
+      30
+     ],
+     [
+      12509,
+      31
+     ],
+     [
+      12609,
+      32
+     ],
+     [
+      12869,
+      33
+     ],
+     [
+      13549,
+      34
+     ],
+     [
+      14649,
+      35
+     ],
+     [
+      14850,
+      36
+     ],
+     [
+      15469,
+      37
+     ],
+     [
+      15649,
+      38
+     ],
+     [
+      15890,
+      39
+     ],
+     [
+      16708,
+      40
+     ]
+    ]
+   },
+   "p4h-bombo": {
+    "s": 123857,
+    "d": 2359,
+    "w": [
+     [
+      29,
+      0
+     ],
+     [
+      1170,
+      1
+     ],
+     [
+      1410,
+      2
+     ],
+     [
+      1790,
+      3
+     ]
+    ]
+   },
+   "p4h-civil": {
+    "s": 126517,
+    "d": 3614,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      349,
+      1
+     ],
+     [
+      1150,
+      2
+     ],
+     [
+      1449,
+      3
+     ],
+     [
+      1930,
+      4
+     ],
+     [
+      2089,
+      5
+     ],
+     [
+      2309,
+      6
+     ],
+     [
+      2709,
+      7
+     ],
+     [
+      2849,
+      8
+     ],
+     [
+      3049,
+      9
+     ]
+    ]
+   },
+   "p4h-vizir": {
+    "s": 130432,
+    "d": 2914,
+    "w": [
+     [
+      70,
+      0
+     ],
+     [
+      1269,
+      1
+     ],
+     [
+      1430,
+      2
+     ],
+     [
+      1749,
+      3
+     ],
+     [
+      2150,
+      4
+     ],
+     [
+      2390,
+      5
+     ]
+    ]
+   },
+   "p4m": {
+    "s": 133646,
+    "d": 4082,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      249,
+      1
+     ],
+     [
+      1349,
+      2
+     ],
+     [
+      1849,
+      3
+     ],
+     [
+      3009,
+      4
+     ],
+     [
+      3369,
+      5
+     ],
+     [
+      3509,
+      6
+     ]
+    ]
+   },
+   "p5": {
+    "s": 138028,
+    "d": 17432,
+    "w": [
+     [
+      0,
+      0
+     ],
+     [
+      149,
+      1
+     ],
+     [
+      490,
+      2
+     ],
+     [
+      670,
+      3
+     ],
+     [
+      1550,
+      4
+     ],
+     [
+      2249,
+      5
+     ],
+     [
+      3029,
+      6
+     ],
+     [
+      3629,
+      7
+     ],
+     [
+      4589,
+      8
+     ],
+     [
+      5009,
+      9
+     ],
+     [
+      5289,
+      10
+     ],
+     [
+      5589,
+      11
+     ],
+     [
+      5969,
+      12
+     ],
+     [
+      6749,
+      13
+     ],
+     [
+      7009,
+      14
+     ],
+     [
+      8029,
+      15
+     ],
+     [
+      8409,
+      16
+     ],
+     [
+      9409,
+      17
+     ],
+     [
+      9669,
+      18
+     ],
+     [
+      10230,
+      19
+     ],
+     [
+      10509,
+      20
+     ],
+     [
+      11049,
+      21
+     ],
+     [
+      11329,
+      22
+     ],
+     [
+      12049,
+      23
+     ],
+     [
+      12189,
+      24
+     ],
+     [
+      12409,
+      25
+     ],
+     [
+      12629,
+      26
+     ],
+     [
+      12869,
+      27
+     ],
+     [
+      13489,
+      28
+     ],
+     [
+      13669,
+      29
+     ],
+     [
+      13949,
+      30
+     ],
+     [
+      14109,
+      31
+     ],
+     [
+      15169,
+      32
+     ],
+     [
+      15589,
+      33
+     ],
+     [
+      16309,
+      34
+     ],
+     [
+      16509,
+      35
+     ],
+     [
+      16669,
+      36
+     ],
+     [
+      16850,
+      37
+     ],
+     [
+      16950,
+      38
+     ]
+    ]
+   },
+   "p5h-bombo": {
+    "s": 155760,
+    "d": 2536,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      210,
+      1
+     ],
+     [
+      369,
+      2
+     ],
+     [
+      529,
+      3
+     ],
+     [
+      629,
+      4
+     ],
+     [
+      1529,
+      5
+     ]
+    ]
+   },
+   "p5h-civil": {
+    "s": 158597,
+    "d": 2084,
+    "w": [
+     [
+      9,
+      0
+     ],
+     [
+      409,
+      1
+     ],
+     [
+      670,
+      2
+     ],
+     [
+      1329,
+      3
+     ]
+    ]
+   },
+   "p5h-vizir": {
+    "s": 160982,
+    "d": 2450,
+    "w": [
+     [
+      49,
+      0
+     ],
+     [
+      1189,
+      1
+     ],
+     [
+      1529,
+      2
+     ],
+     [
+      1749,
+      3
+     ]
+    ]
+   }
+  }
+ }
+}
