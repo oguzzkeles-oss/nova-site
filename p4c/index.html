@@ -1,0 +1,1590 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0F172A">
+<meta name="nova-surum" content="p4c-1 · 2026-10-23">
+<meta name="description" content="NOVA ECE P4C: çocuklarla felsefe için 12 özgün hikâye, 64 soruluk banka, kolaylaştırıcı araç kutusu ve zamanlayıcılı canlı oturum modu. Öğretmenler ve kolaylaştırıcılar için, tarayıcıda çalışır.">
+<meta property="og:title" content="NOVA ECE P4C — Çocuklarla felsefe">
+<meta property="og:description" content="Bir hikâye. Bir soru. Bir çember. Öğretmenler için çocuklarla felsefe araç kutusu ve canlı oturum modu.">
+<meta property="og:image" content="https://novaece.com/kids/img/app-p4c.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://novaece.com/p4c/">
+<link rel="canonical" href="https://novaece.com/p4c/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="fonts/fonts.css">
+<title>NOVA ECE P4C — Çocuklarla felsefe</title>
+<style>
+
+/* Layout: single-page araç kutusu; yapışkan üst gezinti ile yedi görünüm; okuma sütunu 72ch;
+   canlı oturum "sahnesi" iki sütun (içerik + kolaylaştırıcı notu), telefonda tek sütuna düşer.
+   Renk dünyası: sınıf tahtası — açık temada tebeşir tozlu kâğıt, koyu temada yeşil kara tahta;
+   vurgu rengi "merak lambası" sarısı. */
+:root{
+  --bg:#F8FAFC; --surface:#FFFFFF; --surface-2:#F1F5F9; --ink:#0F172A; --muted:#475569; --line:#E2E8F0;
+  --accent:#4F46E5; --accent-ink:#FFFFFF; --accent-soft:#EEF2FF; --accent-text:#4338CA;
+  --star:#F59E0B; --star-soft:#FFFBEB; --star-text:#B45309;
+  --green:#047857; --green-soft:#ECFDF5; --rose:#BE123C; --rose-soft:#FFF1F2; --focus:#38BDF8;
+  --night:radial-gradient(120% 130% at 72% 12%,#4F46E5 0%,#312E81 52%,#0F172A 100%);
+  --font-display:"Manrope","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-ui:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --radius:16px;
+  --shadow:0 1px 3px rgba(15,23,42,.07),0 12px 28px -16px rgba(15,23,42,.25);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F172A; --surface:#1E293B; --surface-2:#172033; --ink:#F8FAFC; --muted:#94A3B8; --line:#334155;
+    --accent:#818CF8; --accent-ink:#0F172A; --accent-soft:#1E1B4B; --accent-text:#C7D2FE;
+    --star:#FBBF24; --star-soft:#2A2110; --star-text:#FDE68A;
+    --green:#34D399; --green-soft:#0B2A22; --rose:#FB7185; --rose-soft:#2B1320; --focus:#38BDF8;
+    --shadow:0 1px 3px rgba(0,0,0,.3),0 12px 28px -16px rgba(0,0,0,.6);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F172A; --surface:#1E293B; --surface-2:#172033; --ink:#F8FAFC; --muted:#94A3B8; --line:#334155;
+  --accent:#818CF8; --accent-ink:#0F172A; --accent-soft:#1E1B4B; --accent-text:#C7D2FE;
+  --star:#FBBF24; --star-soft:#2A2110; --star-text:#FDE68A;
+  --green:#34D399; --green-soft:#0B2A22; --rose:#FB7185; --rose-soft:#2B1320; --focus:#38BDF8;
+  --shadow:0 1px 3px rgba(0,0,0,.3),0 12px 28px -16px rgba(0,0,0,.6);
+  color-scheme:dark;
+}
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-ui);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+h1,h2,h3,h4{font-family:var(--font-display);line-height:1.12;margin:0;text-wrap:balance;font-weight:700}
+h1{font-size:clamp(2.3rem,5.2vw,3.8rem);font-weight:800;letter-spacing:-.01em}
+h2{font-size:clamp(1.6rem,3vw,2.2rem)}
+h3{font-size:1.25rem}
+h4{font-size:1.05rem}
+p,ul,ol{margin:0}
+ul,ol{padding-left:1.2em}
+li{margin:.25em 0}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+input,textarea,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.muted{color:var(--muted)}
+.small{font-size:.9rem}
+.serif{font-family:var(--font-body)}
+.gutter{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1120px;margin-inline:auto}
+.narrow{max-width:760px}
+
+/* Üst gezinti: NOVA ECE gece bandı + sekmeler */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--night);color:#F8FAFC;box-shadow:0 10px 28px rgba(15,23,42,.18)}
+.top .wrap{display:flex;align-items:center;gap:12px;padding-block:9px;flex-wrap:wrap}
+.back{flex:none;width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);color:#fff;display:grid;place-items:center;text-decoration:none;font:800 20px/1 var(--font-display)}
+.back:hover{background:rgba(255,255,255,.2)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;min-width:0}
+.brand .lockup{height:18px;width:98px;display:block;--lo:#818CF8;--ls:#FBBF24;--ln:#F8FAFC;--le:#818CF8;flex:none}
+.brand b{font:800 clamp(18px,4.6vw,24px)/1 var(--font-display);letter-spacing:-.01em;white-space:nowrap}
+.brand span{font:500 12.5px/1.2 var(--font-ui);color:#C7D2FE;white-space:nowrap}
+.nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-left:auto;min-width:0;padding:2px}
+.nav::-webkit-scrollbar{display:none}
+.nav a{text-decoration:none;padding:8px 12px;border-radius:999px;white-space:nowrap;font-weight:700;color:#C7D2FE;font-size:.92rem}
+.nav a:hover{color:#fff;background:rgba(255,255,255,.1)}
+.nav a.on{background:#F8FAFC;color:#312E81}
+@media (max-width:760px){.nav{margin-left:0;flex-basis:100%}}
+
+/* Düğmeler, etiketler, kartlar */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:10px 18px;font-weight:700;font-family:var(--font-ui);text-decoration:none;line-height:1.2;color:var(--ink)}
+.btn:hover{border-color:var(--ink)}
+.btn-primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn-primary:hover{border-color:var(--accent);filter:brightness(1.06)}
+.btn-ghost{background:transparent}
+.btn-sm{padding:6px 12px;font-size:.88rem}
+.btn-danger{color:var(--rose)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+.card.soft{background:var(--surface-2);border-color:transparent}
+.eyebrow{font-size:.76rem;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--muted)}
+.tag{display:inline-block;font-size:.76rem;font-weight:700;padding:3px 9px;border-radius:999px;background:var(--surface-2);color:var(--muted);white-space:nowrap}
+.tag.dom{background:var(--green-soft);color:var(--green)}
+.tag.age{background:var(--accent-soft);color:var(--accent-text)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.between{justify-content:space-between}
+.stack{display:grid;gap:14px}
+.grid{display:grid;gap:16px}
+.c2{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.c3{grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr))}
+.grid>*{min-width:0}
+.twocol{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,320px);gap:22px;align-items:start}
+.twocol>*{min-width:0}
+@media (max-width:860px){.twocol{grid-template-columns:1fr}}
+.view{padding-block:36px 90px}
+.view[hidden]{display:none}
+.section{margin-top:56px;display:grid;gap:18px}
+.section-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px}
+.section-head p{max-width:60ch;color:var(--muted)}
+
+/* Giriş */
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:36px;align-items:center;padding-block:16px}
+@media (max-width:780px){.hero{grid-template-columns:1fr}}
+.lead{font-family:var(--font-body);font-size:1.18rem;line-height:1.6;max-width:38rem}
+.ring{width:100%;max-width:340px;margin-inline:auto;display:block}
+.steps-strip{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
+@media (max-width:900px){.steps-strip{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:560px){.steps-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.steps-strip .s{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;display:grid;gap:6px}
+.steps-strip .n{font-family:var(--font-display);font-weight:800;font-size:1.4rem;color:var(--accent-text);line-height:1}
+.steps-strip .t{font-weight:700;font-size:.92rem;line-height:1.25}
+.steps-strip .m{font-size:.8rem;color:var(--muted)}
+.principles li{margin:.5em 0}
+.principles b{font-family:var(--font-display);font-weight:700}
+
+/* Hikâye kartları ve okuyucu */
+.story-card{display:grid;gap:10px;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:18px;transition:transform .12s,border-color .12s}
+.story-card:hover{border-color:var(--ink);transform:translateY(-1px)}
+.story-card h3{font-size:1.35rem}
+.story-card .blurb{font-family:var(--font-body);color:var(--muted);line-height:1.5}
+.reader{font-family:var(--font-body);font-size:1.12rem;line-height:1.75;max-width:70ch;letter-spacing:-.005em}
+.reader p{margin:0 0 1em}
+.reader .kicker{font-family:var(--font-ui)}
+.pause{border-left:4px solid var(--star);background:var(--star-soft);padding:14px 18px;border-radius:0 12px 12px 0;margin:1.2em 0 1.4em;font-family:var(--font-ui);display:grid;gap:4px}
+.pause .eyebrow{color:var(--star-text)}
+.pause .q{font-family:var(--font-body);font-size:1.15rem;font-weight:600}
+.qlist{display:grid;gap:10px;padding:0;list-style:none}
+.qlist li{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;font-family:var(--font-body);font-size:1.08rem}
+.qlist li::before{content:"?";font-family:var(--font-display);font-weight:800;color:var(--accent-text);font-size:1.3rem;line-height:1}
+.concepts span{font-family:var(--font-body);font-style:italic}
+.exp-card{display:grid;gap:10px;border-top:3px solid var(--green)}
+.exp-card .prompt{font-family:var(--font-body);font-size:1.08rem;line-height:1.55}
+
+/* Soru bankası */
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-weight:700;font-size:.88rem;color:var(--ink)}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.input{width:100%;border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--surface);min-width:0;color:var(--ink)}
+.input:focus{border-color:var(--ink);outline:none}
+textarea.input{min-height:88px;resize:vertical;line-height:1.5}
+select.input{appearance:auto}
+.qbank{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.qb{display:grid;gap:10px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px;align-content:start}
+.qb .t{font-family:var(--font-body);font-size:1.08rem;line-height:1.4}
+.bigq{padding:28px;text-align:center;display:grid;gap:12px;justify-items:center}
+.bigq .t{font-family:var(--font-display);font-weight:700;font-size:clamp(1.4rem,3vw,2.1rem);max-width:24ch}
+.quiz{display:grid;gap:14px}
+.quiz .q{font-family:var(--font-body);font-size:1.3rem;font-weight:600}
+.quiz .fb{padding:12px 14px;border-radius:10px;background:var(--surface-2)}
+.quiz .fb.ok{background:var(--green-soft);color:var(--green)}
+.quiz .fb.no{background:var(--rose-soft);color:var(--rose)}
+.tester{display:grid;gap:10px}
+.tester label{display:flex;gap:12px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer}
+.tester input{margin-top:4px;accent-color:var(--green)}
+.verdict{padding:14px 16px;border-radius:10px;background:var(--accent-soft);color:var(--accent-text);font-weight:600}
+
+/* Araç kutusu */
+.stem{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:13px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-family:var(--font-body);font-size:1.08rem}
+.move{display:grid;gap:8px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.move ul{list-style:none;padding:0;display:grid;gap:6px;font-family:var(--font-body);font-size:1.02rem}
+.move li::before{content:"→ ";color:var(--accent-text)}
+.rules{counter-reset:r;list-style:none;padding:0;display:grid;gap:8px}
+.rules li{counter-increment:r;display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;font-family:var(--font-body);font-size:1.06rem}
+.rules li::before{content:counter(r);font-family:var(--font-display);font-weight:800;color:var(--accent-text);font-size:1.2rem;line-height:1.3}
+details{border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+details+details{margin-top:8px}
+summary{cursor:pointer;padding:13px 16px;font-weight:700;list-style:none;display:flex;gap:10px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";display:inline-block;width:1em;color:var(--accent-text);font-weight:800;font-family:var(--font-display);font-size:1.2rem;line-height:1}
+details[open] summary::before{content:"–"}
+details .body{padding:0 16px 16px;color:var(--muted);line-height:1.55}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.95rem}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:none}
+th{font-size:.76rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:700;background:var(--surface-2)}
+td.num{font-variant-numeric:tabular-nums;text-align:right}
+th.num{text-align:right}
+
+/* Canlı oturum */
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:22px;align-items:start}
+@media (max-width:920px){.stage{grid-template-columns:1fr}}
+.stagebar{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;padding:12px 16px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);position:sticky;top:calc(env(safe-area-inset-top,0px) + 60px);z-index:5;box-shadow:var(--shadow)}
+.stagebar .ph{display:grid;gap:2px;min-width:0;flex:1 1 180px}
+.stagebar h3{font-size:1.3rem;line-height:1.1}
+.timer{font-family:var(--font-display);font-size:2.3rem;font-weight:800;font-variant-numeric:tabular-nums;min-width:4.6ch;text-align:center;letter-spacing:.02em;line-height:1}
+.timer.done{color:var(--rose);animation:pulse .9s ease-in-out 4}
+@keyframes pulse{50%{opacity:.25}}
+.steps{display:flex;gap:5px;flex-basis:100%}
+.steps span{flex:1;height:6px;border-radius:3px;background:var(--line)}
+.steps span.done{background:var(--green)}
+.steps span.now{background:var(--star)}
+.notes{background:var(--surface-2);border-radius:var(--radius);padding:18px;font-size:.95rem;display:grid;gap:10px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 150px)}
+@media (max-width:920px){.notes{position:static}}
+.notes ul{padding-left:1.1em;color:var(--muted)}
+.phasebody{display:grid;gap:18px}
+.bigtext{font-family:var(--font-display);font-weight:700;font-size:clamp(1.3rem,2.4vw,1.8rem);line-height:1.25}
+.quiet{font-family:var(--font-body);font-size:1.1rem;color:var(--muted);font-style:italic}
+.qcard{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 14px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.qcard .qt{font-family:var(--font-body);font-size:1.1rem;line-height:1.35}
+.qcard .by{font-size:.82rem;color:var(--muted)}
+.qcard.chosen{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+@media (max-width:520px){.qcard{grid-template-columns:1fr}}
+.votebar{grid-column:1/-1;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.votebar i{display:block;height:100%;background:var(--accent);transition:width .2s}
+.votes{font-family:var(--font-display);font-weight:800;font-size:1.4rem;min-width:2ch;text-align:center;font-variant-numeric:tabular-nums}
+.counter{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,140px),1fr));gap:10px}
+.counter button{display:grid;gap:2px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);text-align:left;color:var(--ink)}
+.counter button:hover{border-color:var(--ink)}
+.counter b{font-family:var(--font-display);font-size:1.7rem;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.counter small{color:var(--muted);font-weight:700}
+.chosen-q{padding:22px 24px;border-radius:var(--radius);background:var(--night);color:#F8FAFC;display:grid;gap:6px}
+.chosen-q .t{font-family:var(--font-display);font-weight:800;font-size:clamp(1.5rem,3vw,2.3rem);line-height:1.15;text-wrap:balance}
+.chosen-q .eyebrow{color:#C7D2FE}
+.stepper{display:inline-flex;align-items:center;border:1.5px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
+.stepper button{border:0;background:transparent;padding:8px 14px;font-weight:800;font-size:1.1rem}
+.stepper b{min-width:3ch;text-align:center;font-family:var(--font-display);font-size:1.3rem;font-variant-numeric:tabular-nums}
+pre.summary{white-space:pre-wrap;font-family:var(--font-ui);font-size:.95rem;line-height:1.5;background:var(--surface-2);padding:16px;border-radius:12px;margin:0;overflow-x:auto}
+.history{display:grid;gap:10px}
+.setup{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px}
+.setup label{display:grid;gap:6px;font-weight:700;font-size:.9rem}
+.plan-strip{display:flex;flex-wrap:wrap;gap:6px}
+.plan-strip span{padding:6px 10px;border-radius:8px;background:var(--surface-2);font-size:.85rem;font-weight:700;font-variant-numeric:tabular-nums}
+.warm{border-left:4px solid var(--green);padding:14px 16px;border-radius:0 12px 12px 0;background:var(--green-soft);display:grid;gap:4px}
+.warm b{font-family:var(--font-display)}
+
+/* Büyük ekran (projeksiyon) modu */
+body.proj .top,body.proj .notes,body.proj .site-foot,body.proj .view-head{display:none}
+body.proj .stage{grid-template-columns:1fr}
+body.proj .stagebar{top:env(safe-area-inset-top,0px)}
+@media (max-width:760px){.stagebar{position:static}}
+body.proj .bigtext{font-size:clamp(1.6rem,3.2vw,2.6rem)}
+body.proj .reader{font-size:clamp(1.3rem,2.2vw,1.85rem);max-width:64ch}
+body.proj .timer{font-size:3.4rem}
+body.proj .qcard .qt{font-size:1.4rem}
+body.proj .rules li,body.proj .stem{font-size:1.35rem}
+
+/* Tam ekran kalıp kartı ve bildirim */
+.overlay{position:fixed;inset:0;background:var(--bg);display:grid;place-items:center;z-index:50;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-bottom,0px));text-align:center;cursor:pointer}
+.overlay .big{font-family:var(--font-display);font-size:clamp(2rem,6.5vw,5rem);font-weight:800;max-width:18ch;text-wrap:balance;line-height:1.1}
+.overlay .big.long{font-family:var(--font-body);font-weight:600;font-size:clamp(1.3rem,3.2vw,2.4rem);max-width:40ch;line-height:1.4}
+.overlay .hint{position:absolute;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:0;right:0;color:var(--muted);font-weight:700}
+.toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:700;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw;text-align:center}
+.toast.show{opacity:1}
+.site-foot{border-top:1px solid var(--line);padding-block:28px 40px;color:var(--muted);font-size:.9rem}
+.site-foot a{color:var(--accent-text)}
+.site-foot .wrap{display:grid;gap:8px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+</style>
+</head>
+<body>
+<header class="top gutter">
+  <div class="wrap">
+    <a class="back" href="/kids/" aria-label="NOVA ECE Kids sayfasına dön">←</a>
+    <a class="brand" href="#baslangic" aria-label="NOVA ECE P4C, başlangıç"><svg class="lockup" viewBox="0 6 456 84" role="img" aria-label="NOVA ECE"><g transform="translate(2,0)"><path d="M 49.72 22.55 A 30 30 0 1 0 73.45 46.28" fill="none" style="stroke:var(--lo)" stroke-width="10" stroke-linecap="round"/><path d="M68 14 Q70.5 25.5 82 28 Q70.5 30.5 68 42 Q65.5 30.5 54 28 Q65.5 25.5 68 14 Z" style="fill:var(--ls)"/></g><g transform="translate(108,14)" fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><g style="stroke:var(--ln)"><path d="M0 52 V8 L32 52 V8"/><ellipse cx="69" cy="30" rx="21" ry="23"/><path d="M108 8 L124 52.5 L140 8"/><path d="M158 52 L174 7.5 L190 52 M163.9 37 H184.1"/></g><g style="stroke:var(--le)"><path d="M216 8 V52 M216 8 H240 M216 30 H236 M216 52 H240"/><path d="M293.55 15.84 A 21 23 0 1 0 293.55 44.16"/><path d="M314 8 V52 M314 8 H338 M314 30 H334 M314 52 H338"/></g></g></svg><span style="display:grid;gap:2px;min-width:0"><b>P4C</b><span>Çocuklarla felsefe</span></span></a>
+    <nav class="nav" id="nav" aria-label="Bölümler">
+      <a href="#baslangic" data-view="baslangic">Başlangıç</a>
+      <a href="#akis" data-view="akis">Oturum Akışı</a>
+      <a href="#hikayeler" data-view="hikayeler">Hikâyeler</a>
+      <a href="#sorular" data-view="sorular">Soru Bankası</a>
+      <a href="#araclar" data-view="araclar">Araç Kutusu</a>
+      <a href="#oturum" data-view="oturum">Canlı Oturum</a>
+      <a href="#gozlem" data-view="gozlem">Gözlem</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Başlangıç -->
+  <section class="view gutter" id="view-baslangic" hidden>
+    <div class="wrap">
+      <div class="hero">
+        <div class="stack" style="gap:22px">
+          <span class="eyebrow">NOVA ECE P4C · Çocuklarla felsefe</span>
+          <h1>Bir hikâye. Bir soru. Bir çember.</h1>
+          <p class="lead">NOVA ECE P4C, 4–12 yaş çocuklarla felsefe oturumu yürütmek isteyen öğretmen ve kolaylaştırıcılar için hazırlanmış araç kutusudur: özgün uyaran hikâyeler, yaşa göre soru bankası, konuşma kalıpları ve sizi aşama aşama götüren canlı oturum modu.</p>
+          <div class="row">
+            <a class="btn btn-primary" href="#oturum">Oturumu başlat</a>
+            <a class="btn" href="#hikayeler">Hikâyeleri gör</a>
+            <a class="btn btn-ghost" href="#akis">Nasıl çalışır?</a>
+          </div>
+          <p class="small muted">Hesap yok, kurulum yok. Tarayıcıda çalışır; oturum kayıtları yalnızca bu cihazda saklanır.</p>
+        </div>
+        <div id="hero-ring"></div>
+      </div>
+
+      <div class="section">
+        <div class="section-head">
+          <div><span class="eyebrow">Yedi aşama</span><h2>Bir oturum nasıl akar?</h2></div>
+          <a class="btn btn-sm" href="#akis">Ayrıntılı akış</a>
+        </div>
+        <div class="steps-strip" id="home-steps"></div>
+      </div>
+
+      <div class="section">
+        <div class="grid c2" id="home-today"></div>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><div><span class="eyebrow">Yaklaşım</span><h2>Çocuklarla felsefe nedir?</h2></div></div>
+        <div class="grid c2">
+          <div class="card stack">
+            <p class="serif" style="font-size:1.08rem;line-height:1.65">Çocuklarla felsefe, çocuklara filozofların görüşlerini öğretmek değil; onları bir <b>soruşturma topluluğu</b> olarak birlikte düşünmeye davet etmektir. Bir hikâye ya da düşünce deneyi merak uyandırır, çocuklar kendi sorularını üretir, birini seçer ve çemberde gerekçe vererek, örnek bularak, ayrım yaparak ve zaman zaman fikir değiştirerek o soruyu birlikte kurcalar.</p>
+            <p class="serif" style="font-size:1.08rem;line-height:1.65">Yaklaşım, Matthew Lipman ve Ann Margaret Sharp'ın 1970'lerden itibaren geliştirdiği “Philosophy for Children” (P4C) çalışmalarına dayanır. Hedef, bir cevaba varmak değil; <b>düşünmenin kalitesini</b> yükseltmektir.</p>
+          </div>
+          <div class="card soft">
+            <span class="eyebrow">Kolaylaştırıcının beş ilkesi</span>
+            <ul class="principles">
+              <li><b>Görüş bildirmez.</b> Çemberde ne düşündüğü bilinmeyen tek kişi odur.</li>
+              <li><b>Soruyu çocuklara bırakır.</b> Soruyu onlar üretir, onlar seçer; o yalnızca derinleştirir.</li>
+              <li><b>Sessizliğe dayanır.</b> Yedi saniye bekler; boşluğu kendisi doldurmaz.</li>
+              <li><b>Sonuç istemez.</b> Açık kalan soru başarısızlık değil, bir sonraki oturumun kapısıdır.</li>
+              <li><b>Düşünmeyi görünür kılar.</b> “Çünkü”yü, karşı örneği, fikir değiştirmeyi adlandırır ve takdir eder.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Oturum akışı -->
+  <section class="view gutter" id="view-akis" hidden>
+    <div class="wrap">
+      <div class="section-head view-head">
+        <div><span class="eyebrow">Soruşturma topluluğu</span><h2>Oturum akışı</h2><p>Yedi aşama, her yaşta aynı iskelet; yalnızca süreler ve araçlar değişir. Her aşamada kolaylaştırıcının işi, çocukların işi ve en sık yapılan hata.</p></div>
+        <a class="btn btn-primary" href="#oturum">Bu akışla oturum başlat</a>
+      </div>
+      <div class="section" style="margin-top:28px">
+        <div class="grid c2" style="align-items:center">
+          <div id="flow-ring"></div>
+          <div class="card">
+            <span class="eyebrow">Süre dağılımı (dakika)</span>
+            <div class="tablewrap" style="border:0;margin-top:8px"><table id="dur-table"></table></div>
+            <p class="small muted" style="margin-top:10px">Süreler başlangıç noktasıdır; canlı oturumda her aşamaya dakika ekleyebilirsiniz. Soruşturma aşaması her zaman en uzun olanıdır.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="grid c2" id="flow-cards"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hikâyeler -->
+  <section class="view gutter" id="view-hikayeler" hidden>
+    <div class="wrap">
+      <div id="story-list-wrap">
+        <div class="section-head view-head">
+          <div><span class="eyebrow">Uyaran hikâyeler</span><h2>Hikâyeler</h2><p>Her hikâye açık uçlu biter, içinde “durup düşün” noktaları vardır ve kolaylaştırıcı notlarıyla gelir. Hepsi özgündür; sınıfta serbestçe kullanabilirsiniz.</p></div>
+        </div>
+        <div class="stack" style="margin-top:22px">
+          <div class="row">
+            <div class="chips" id="story-age-chips"></div>
+            <div class="chips" id="story-dom-chips"></div>
+          </div>
+          <div class="grid c3" id="story-grid"></div>
+        </div>
+        <div class="section">
+          <div class="section-head"><div><span class="eyebrow">8–12 yaş</span><h2>Düşünce deneyleri</h2><p>Hikâye yerine kısa bir “ya … olsaydı?” ile başlamak için. Yüksek sesle okuyun, soruyu çemberde bırakın.</p></div></div>
+          <div class="grid c2" id="exp-grid"></div>
+        </div>
+      </div>
+      <div id="story-reader" hidden></div>
+    </div>
+  </section>
+
+  <!-- Soru bankası -->
+  <section class="view gutter" id="view-sorular" hidden>
+    <div class="wrap">
+      <div class="section-head view-head">
+        <div><span class="eyebrow">Sekiz alan · üç yaş bandı</span><h2>Soru bankası</h2><p>Çocukların kendi soruları her zaman önce gelir. Bu banka, soru çıkmadığında ısınmak, bir soruyu derinleştirmek ya da bir sonraki oturumun kapısını aralamak içindir.</p></div>
+        <button class="btn" id="q-random">Rastgele bir soru</button>
+      </div>
+      <div class="stack" style="margin-top:22px">
+        <div id="q-big" hidden></div>
+        <input class="input" id="q-search" type="search" placeholder="Soru ara… (örn. adil, rüya, robot)" aria-label="Soru ara">
+        <div class="row">
+          <div class="chips" id="q-dom-chips"></div>
+          <div class="chips" id="q-age-chips"></div>
+        </div>
+        <p class="small muted" id="q-count"></p>
+        <div class="qbank" id="q-bank"></div>
+      </div>
+      <div class="section">
+        <div class="section-head"><div><span class="eyebrow">Alıştırma</span><h2>Bu soru felsefi mi?</h2><p>Çocuklardan gelen soruları hızla tanımak kolaylaştırıcının en önemli becerisidir. Üç tür vardır: bilgi sorusu, kişisel soru, felsefi soru.</p></div></div>
+        <div class="grid c2">
+          <div class="card quiz" id="quiz"></div>
+          <div class="card tester" id="tester"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Araç kutusu -->
+  <section class="view gutter" id="view-araclar" hidden>
+    <div class="wrap">
+      <div class="section-head view-head">
+        <div><span class="eyebrow">Kolaylaştırıcı için</span><h2>Araç kutusu</h2><p>Çemberde elinizin altında olması gerekenler: çocuklara verilecek konuşma kalıpları, sizin hamleleriniz, çember sözleşmesi, ısınma oyunları, yaşa göre uyarlama ve sık karşılaşılan durumlar.</p></div>
+      </div>
+      <div class="section" style="margin-top:28px">
+        <div class="section-head"><div><span class="eyebrow">Çocuklar için</span><h3>Konuşma kalıpları</h3><p>Kartlara yazıp çembere koyun ya da “Göster” ile ekrana yansıtın. Küçük yaşlarda yalnızca ilk ikisiyle başlayın.</p></div></div>
+        <div class="grid c2" id="stems"></div>
+      </div>
+      <div class="section">
+        <div class="section-head"><div><span class="eyebrow">Kolaylaştırıcı için</span><h3>Soruşturmayı derinleştiren hamleler</h3><p>Görüş bildirmeden derinleştirmenin on yolu. Bir oturumda üç dört tanesi yeter.</p></div></div>
+        <div class="grid c3" id="moves"></div>
+      </div>
+      <div class="section">
+        <div class="grid c2">
+          <div class="stack">
+            <div><span class="eyebrow">Birlikte kararlaştırın</span><h3>Çember sözleşmesi</h3></div>
+            <ol class="rules" id="rules"></ol>
+            <button class="btn btn-sm" id="rules-show">Sözleşmeyi ekranda göster</button>
+          </div>
+          <div class="stack">
+            <div><span class="eyebrow">3–5 dakika</span><h3>Isınma oyunları</h3></div>
+            <div class="stack" id="warmups"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-head"><div><span class="eyebrow">Yaşa göre</span><h3>Uyarlama</h3></div></div>
+        <div class="tablewrap"><table id="age-table"></table></div>
+      </div>
+      <div class="section">
+        <div class="section-head"><div><span class="eyebrow">Zor anlar</span><h3>Sık karşılaşılan durumlar</h3></div></div>
+        <div id="troubles"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Canlı oturum -->
+  <section class="view gutter" id="view-oturum" hidden>
+    <div class="wrap">
+      <div class="section-head view-head">
+        <div><span class="eyebrow">Canlı oturum</span><h2>Oturum modu</h2><p>Hikâyeyi seçin, süreyi belirleyin; her aşamada zamanlayıcı, çocukların soruları, oylama, konuşma kalıpları ve kolaylaştırıcı notu ekranda olsun. Bittiğinde oturum kaydı hazır.</p></div>
+        <button class="btn btn-sm btn-ghost btn-danger" id="s-reset">Oturumu sıfırla</button>
+      </div>
+      <div id="stage" style="margin-top:22px"></div>
+    </div>
+  </section>
+
+  <!-- Gözlem -->
+  <section class="view gutter" id="view-gozlem" hidden>
+    <div class="wrap">
+      <div class="section-head view-head">
+        <div><span class="eyebrow">Değerlendirme</span><h2>Gözlem defteri</h2><p>Çocuklarla felsefede not verilmez; düşünmenin dört boyutu gözlenir. Oturum sonrasında işaretleyin, özeti kopyalayıp kendi kayıtlarınıza ekleyin.</p></div>
+      </div>
+      <div class="section" style="margin-top:28px">
+        <div class="section-head"><div><span class="eyebrow">Dört boyut</span><h3>Hızlı grup gözlemi</h3></div><button class="btn btn-sm" id="obs-copy">Özeti kopyala</button></div>
+        <div class="grid c2" id="obs"></div>
+        <label class="stack" style="gap:6px"><span class="eyebrow">Notlar</span><textarea class="input" id="obs-notes" placeholder="Öne çıkan bir an, dikkat çeken bir çocuk, bir sonraki oturum için fikir…"></textarea></label>
+      </div>
+      <div class="section">
+        <div class="section-head"><div><span class="eyebrow">Bu cihazda saklanır</span><h3>Geçmiş oturumlar</h3></div></div>
+        <div class="history" id="history"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot gutter">
+  <div class="wrap">
+    <div><b>NOVA ECE P4C</b> · Çocuklarla felsefe için öğretmen araç kutusu · <a href="/p4c/privacy/">Gizlilik</a> · <a href="/kids/">NOVA ECE Kids</a> · <a href="https://novaece.com/">novaece.com</a></div>
+    <div>Hikâyeler ve sorular özgündür; sınıfta, atölyede ve evde serbestçe kullanılabilir. Düşünce deneylerinin bazıları felsefe tarihinin klasik bilmecelerinden çocuklar için uyarlanmıştır.</div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* NOVA ECE P4C — içerik verisi. Tüm hikâyeler özgündür. */
+const DATA = {
+  domains: {
+    etik:   "İyi, Kötü ve Adalet",
+    bilgi:  "Bilmek ve İnanmak",
+    varlik: "Varlık ve Zaman",
+    zihin:  "Zihin ve Canlılar",
+    toplum: "Dostluk ve Toplum",
+    sanat:  "Güzellik ve Sanat",
+    dil:    "Dil ve Mantık",
+    kural:  "Kurallar ve Özgürlük"
+  },
+  ageBands: { 1: "4–6 yaş ve üzeri", 2: "7–9 yaş ve üzeri", 3: "10–12 yaş" },
+  ageShort: { 1: "4+", 2: "7+", 3: "10+" },
+
+  phases: [
+    { key: "cember", name: "Çember ve Sözleşme", goal: "Herkesin birbirini gördüğü, güvenli bir konuşma alanı kurmak.",
+      tips: ["Çemberde boşluk kalmasın; sen de çemberin içinde, aynı hizada otur.", "Kuralları anlatma, hatırlat: en fazla üç tanesini seç.", "Kısa bir ısınma oyunu sesi açar; 3 dakikayı geçme."],
+      mistake: "Kuralları uzun uzun açıklayarak enerjiyi tüketmek." },
+    { key: "hikaye", name: "Hikâye (Uyaran)", goal: "Merak ve kafa karışıklığı uyandırmak; cevap değil, soru doğurmak.",
+      tips: ["Sesli oku; karakterlerin sesini değiştir ama yorum katma.", "“Durup düşün” noktalarında 20–30 saniye bekle; cevap toplama, sadece düşündür.", "Hikâyenin “mesajını” asla açıklama: hikâye açık uçludur."],
+      mistake: "Hikâyeyi okuduktan sonra ne anlatmak istediğini özetlemek." },
+    { key: "dusunme", name: "Düşünme Zamanı", goal: "Herkesin kendi düşüncesine, konuşmadan önce ulaşması.",
+      tips: ["Sessizliği sen doldurma; çocuklar sessizliğe alışır.", "Tek soru ver: “Seni şaşırtan, merak ettiren ya da kafanı karıştıran bir şey var mıydı?”", "Küçük yaşlarda eşli fısıltı (30 sn) yardımcı olur."],
+      mistake: "İlk sessizlikte paniğe kapılıp soruyu kendin sormak." },
+    { key: "soru", name: "Soru Üretme", goal: "Çocukların hikâyeden kendi sorularını çıkarması.",
+      tips: ["Soruları çocuğun söylediği gibi yaz; düzeltme, güzelleştirme.", "Her sorunun yanına sahibinin adını not et; soruya sahiplik önemlidir.", "Bilgi sorularını (“kaç elma vardı?”) reddetme; hızlıca cevapla ve “Peki ya…” ile aç."],
+      mistake: "Çocukların sorularını kolaylaştırıcının beğendiği hâle çevirmek." },
+    { key: "secim", name: "Soru Seçme", goal: "Topluluğun üzerinde düşüneceği ortak soruyu belirlemek.",
+      tips: ["Benzer soruları çocuklara sorarak birleştir: “Bu ikisi aynı şeyi mi soruyor?”", "Oylama yöntemini önceden söyle: açık el, gözler kapalı ya da iki el (çoklu oy).", "Sen oy kullanma. Seçilen soru “iyi” olmasa da ona sadık kal."],
+      mistake: "Kolaylaştırıcının “en felsefi” soruyu kendi seçmesi." },
+    { key: "sorusturma", name: "Soruşturma", goal: "Birlikte düşünmek: gerekçe vermek, örnek bulmak, ayrım yapmak, fikir değiştirmek.",
+      tips: ["İlk sözü sorunun sahibine ver: “Bunu sorarken aklında ne vardı?”", "Görüşünü söyleme; çemberde “ne düşündüğü bilinmeyen” kişi sensin.", "Yedi saniye kuralı: soruyu sor, say, bekle.", "Çocukların sana değil birbirine bakmasını iste."],
+      mistake: "Bir sonuca ulaşmaya zorlamak; tartışmayı erken toparlamak." },
+    { key: "kapanis", name: "Kapanış", goal: "Düşünme üzerine düşünmek; neyin değiştiğini fark etmek.",
+      tips: ["“Bugün fikrini değiştiren oldu mu?” — el kaldıranları takdir et, fikir değiştirmek güçtür.", "Son söz turu: herkes tek cümle, isteyen pas geçer.", "Açık kalan soruları yaz; bir sonraki oturumun kapısı olsun."],
+      mistake: "“Doğru cevap”ı söyleyerek bitirmek." }
+  ],
+  durations: {
+    20: [3, 5, 2, 3, 2, 4, 1],
+    30: [3, 6, 2, 5, 2, 10, 2],
+    40: [4, 8, 2, 6, 3, 14, 3],
+    50: [5, 9, 3, 7, 3, 19, 4]
+  },
+
+  stories: [
+    {
+      id: "uc-elma", title: "Üç Elma, Dört Çocuk", age: "4–7", ageMin: 4, minutes: 4, domains: ["etik"],
+      concepts: ["eşit / adil", "ihtiyaç / hak etmek", "istemek / pay"],
+      blurb: "Bahçede üç elma, altında dört arkadaş. İlk gören mi, koparan mı, acıkan mı alsın? Ya elma sevmeyen?",
+      text: [
+        "Okulun bahçesinin en dibinde yaşlı bir elma ağacı vardı. Sonbaharın ilk günü, dört arkadaş — Ada, Berk, Ceren ve Deniz — teneffüste ağacın altına koştular. Dallarda tam üç tane kıpkırmızı elma sallanıyordu. Ne bir eksik ne bir fazla.",
+        "Berk en uzun boyluları olduğu için zıpladı ve elmaları tek tek kopardı. Avuçlarında üç elma, karşısında dört arkadaş.",
+        "“Elmaları önce ben gördüm,” dedi Ada. “Birincisi benim olmalı.”",
+        "“Ama ben kopardım,” dedi Berk. “Ben olmasam kimse yiyemezdi.”",
+        "Ceren karnını tuttu. “Bu sabah kahvaltı yapmadım. En çok benim karnım aç.”",
+        "Deniz en küçükleriydi ve hiçbir şey söylemedi. Sadece elmalara baktı.",
+        { pause: "Elmaları kime verirdin? Neden?" },
+        "Ada bir fikir buldu: “Her elmayı ikiye bölelim. Altı parça olur. Herkese bir buçuk parça.”",
+        "“Ama bıçağımız yok,” dedi Berk.",
+        "“Hem,” dedi Ceren, “bir buçuk parça adil mi? Benim karnım daha aç.”",
+        "Deniz sonunda konuştu, çok alçak sesle: “Ben aslında elma sevmiyorum.”",
+        "Herkes sustu. Üç elma, dört çocuk… şimdi üç elma, üç çocuk mu olmuştu?",
+        "“O zaman kolay,” dedi Berk, “herkese bir tane.”",
+        "“Hiç de kolay değil,” dedi Ada. “Deniz sevmiyor diye hakkı yok mu oldu? Belki annesine götürmek ister.”",
+        "Deniz omuz silkti. Zil çaldı. Elmalar hâlâ Berk'in avuçlarındaydı."
+      ],
+      questions: [
+        "Adil olmak herkese aynı miktarı vermek midir?",
+        "Bir şeyi ilk gören mi, emek veren mi, ihtiyacı olan mı hak eder?",
+        "Deniz elma sevmiyorsa payı yok mu olur?",
+        "Çocuklar elmaları hiç saymasaydı sorun çıkar mıydı?"
+      ],
+      notes: [
+        "4–5 yaşta somutlaştır: üç gerçek elma ya da üç blok, dört kukla. Çocuklar karar verirken nesneleri taşısın.",
+        "“Eşit” ve “adil” kelimelerini çocukların kendi sözleriyle ayırt etmesini bekle; tanım verme.",
+        "Sık tuzak: çocuklar hızla “bölelim” der. “Bölmek adil mi, yoksa sadece kolay mı?” diye geri sor."
+      ],
+      extension: "Sınıfa üç şeker getir; grubun kendi kuralını yazmasını iste. Yazılan kural bir hafta duvarda kalsın, sonra tekrar tartışılsın."
+    },
+    {
+      id: "dedenin-bisikleti", title: "Dede'nin Kırmızı Bisikleti", age: "7–11", ageMin: 7, minutes: 5, domains: ["varlik"],
+      concepts: ["aynı / benzer", "parça / bütün", "değişmek / kalmak"],
+      blurb: "Elli yıllık bisikletin her parçası yenilendi. Eski parçalardan bir bisiklet daha yapıldı. Hangisi dedenin bisikleti?",
+      text: [
+        "Defne yedi yaşına girdiğinde dedesi ona kendi çocukluk bisikletini verdi: kırmızı, eski, gıcırtılı ama sağlam. “Bu bisiklet elli yıldır bizim ailede,” dedi dedesi. “Ona iyi bak.”",
+        "İlk yıl zinciri koptu; tamirci yenisini taktı. İkinci yıl lastikleri çatladı; yenilendi. Üçüncü yıl sele yırtıldı, gidon paslandı, pedallar döndü de döndü ve sonunda kırıldı. Her seferinde tamirci yeni bir parça taktı ve eskisini Defne'ye verdi. Defne eski parçaları garajdaki bir sandığa atıyordu. “Dedemin bisikletinin parçaları,” diye düşünüyordu.",
+        "On bir yaşına geldiğinde kadro — bisikletin iskeleti — çatladı. Tamirci başını salladı: “Bunu da değiştirmek zorundayız.” Yeni kadro geldi, kırmızıya boyandı. Defne bisiklete bindi. Aynı rüzgâr, aynı gıcırtı. Yani neredeyse.",
+        { pause: "Bu hâlâ dedesinin bisikleti mi?" },
+        "O yaz kuzeni Kerem garajdaki sandığı buldu. İçindeki eski parçaları bir hafta boyunca temizledi, yağladı, birbirine taktı. Cumartesi sabahı bahçeye iki kırmızı bisiklet çıktı. Biri Defne'ninki: pırıl pırıl, her parçası yeni. Diğeri Kerem'inki: paslı, gıcırtılı, her parçası elli yıllık.",
+        "Dede verandadan baktı ve güldü: “Hangisi benim bisikletim?”",
+        "“Benimki,” dedi Defne, “sen bana onu verdin, hiç ayrılmadı benden.”",
+        "“Benimki,” dedi Kerem, “senin dokunduğun her parça bunda.”",
+        "Dede uzun süre hiçbir şey söylemedi."
+      ],
+      questions: [
+        "İki bisikletten hangisi dedenin bisikleti? İkisi de olabilir mi? Hiçbiri?",
+        "Bir şeyin “aynı” kalması için neyin değişmemesi gerekir?",
+        "Sen de büyüdükçe değişiyorsun; beş yaşındaki sen ile şimdiki sen aynı kişi mi?",
+        "Hatıralar bir nesnenin parçası olabilir mi?"
+      ],
+      notes: [
+        "Bu, Theseus'un gemisi olarak bilinen çok eski bir bilmecenin çocuk hâli; adını söylemene gerek yok.",
+        "Çocuklar genelde “Defne'ninki” ile başlar; Kerem'in savunmasını kimse üstlenmezse “Kerem ne derdi?” diye şeytanın avukatlığı yaptır.",
+        "Kendilik sorusuna (büyüyen ben) ancak nesne sorusu doyunca geç."
+      ],
+      extension: "Herkes bebeklik fotoğrafını getirsin. “Bu sen misin?” sorusuyla kimlik sorusunu kişiye taşı."
+    },
+    {
+      id: "gormedigim-deniz", title: "Hiç Görmediğim Deniz", age: "5–8", ageMin: 5, minutes: 4, domains: ["bilgi"],
+      concepts: ["bilmek / inanmak", "görmek / duymak", "hayal / gerçek"],
+      blurb: "Mete denizi hiç görmedi ama hakkında her şeyi biliyor. Biliyor mu gerçekten?",
+      text: [
+        "Mete dağların arasında, denizden çok uzak bir köyde yaşıyordu. Denizi hiç görmemişti ama hakkında her şeyi biliyordu. En azından öyle sanıyordu.",
+        "Babaannesi gençliğinde denizi görmüştü. “Mavi,” demişti, “ama gökyüzü mavisi değil. Hareket eden bir mavi. Tuzlu kokar, sesi hiç susmaz.”",
+        "Mete'nin bir deniz kabuğu vardı; kulağına dayayınca uğultu duyuyordu. “Bu denizin sesi,” demişti öğretmeni. Resimli kitaplarında dalgalar, martılar, kumsallar vardı. Mete gözlerini kapatınca denizi görebiliyordu: mavi, kıpır kıpır, uçsuz bucaksız.",
+        "Komşunun kızı Sude bir gün sordu: “Denizi biliyor musun?”",
+        "“Tabii,” dedi Mete. “Mavi, tuzlu, uğuldar.”",
+        "“Ama hiç görmedin ki,” dedi Sude. “Görmediğin bir şeyi bilebilir misin?”",
+        "Mete düşündü. “Dinozorları da kimse görmedi ama biliyoruz.”",
+        "“O farklı,” dedi Sude. Ama neden farklı olduğunu söyleyemedi.",
+        { pause: "Mete denizi biliyor mu?" },
+        "O yaz Mete'nin ailesi nihayet denize gitti. Mete kumsala ilk adımını attığında durdu. Deniz maviydi ama bir başka maviydi. Kokusu babaannesinin dediği gibiydi ama daha fazlasıydı. Sesi kabuğun uğultusuna benziyordu ve hiç benzemiyordu. Ayağına ilk dalga vurduğunda Mete güldü, sonra birden ciddileşti.",
+        "“Ne oldu?” diye sordu annesi.",
+        "“Hiçbir şey,” dedi Mete. “Sadece… meğer bilmiyormuşum.”",
+        "Sonra biraz daha düşündü ve ekledi: “Ya da biliyormuşum ama başka türlü.”"
+      ],
+      questions: [
+        "Mete denize gitmeden önce denizi biliyor muydu?",
+        "Bir şeyi bilmek için onu görmek şart mı? Hiç görmediğin hâlde bildiğin şeyler var mı?",
+        "Babaannesi anlattığında Mete'nin bilgisi babaannesininkiyle aynı mıydı?",
+        "“Başka türlü bilmek” ne demek olabilir?"
+      ],
+      notes: [
+        "Çocuklar “biliyor / bilmiyor” arasında ikiye bölünür; “biraz biliyor” diyen çıkarsa oraya yüklen: bilmenin dereceleri olabilir mi?",
+        "Dinozor karşılaştırması güçlü bir karşı örnek; çocuk getirmezse sen getir.",
+        "Küçük yaşta kapalı bir kutu kullan: içindekini sallayarak, koklayarak “bilmek”."
+      ],
+      extension: "Herkes hiç görmediği ama bildiğini düşündüğü bir şeyi çizsin (ay'ın arkası, dedesinin çocukluğu). Çizimler üzerinden “nereden biliyorsun?” turu yap."
+    },
+    {
+      id: "pit", title: "Pıt", age: "4–7", ageMin: 4, minutes: 3, domains: ["toplum", "zihin"],
+      concepts: ["arkadaş / oyuncak", "dinlemek / duymak", "sevmek / sevilmek"],
+      blurb: "Elif'in en iyi arkadaşı bir taş. Taş arkadaş olabilir mi? Ya köpek, ya oyuncak ayı?",
+      text: [
+        "Elif'in en iyi arkadaşı Pıt'tı. Pıt gri, pürüzsüz, avuç içi kadar bir taştı. Elif onu dere kenarında bulmuştu ve o günden beri cebinden hiç çıkarmamıştı.",
+        "Elif Pıt'a her şeyi anlatırdı: korktuğu rüyaları, kızdığı anları, ablasının sırlarını. Pıt hiç gülmez, hiç “saçma” demez, hiç başkasına söylemezdi. Üzüldüğünde Pıt'ı avucunda sıkınca içi rahatlardı.",
+        "Bir gün sınıfta “en iyi arkadaşım” konusu açıldı. Herkes bir isim söyledi. Elif “Pıt,” dedi ve taşı masaya koydu.",
+        "Arda güldü: “Taş arkadaş olamaz. Arkadaş seninle oynar, konuşur, seni özler. Taş hiçbir şey yapmaz.”",
+        "Elif kızardı ama pes etmedi: “Pıt beni dinliyor. Beni hiç bırakmıyor. Sen her gün böyle misin?”",
+        "Arda sustu. Çünkü geçen hafta Elif'le küsmüştü.",
+        { pause: "Pıt, Elif'in arkadaşı olabilir mi?" },
+        "Öğretmen sordu: “Peki Pıt, Elif'i seviyor mu?”",
+        "“Bilmem,” dedi Elif. “Ama ben onu seviyorum. Bu yetmez mi?”",
+        "Zeynep elini kaldırdı: “Benim köpeğim beni seviyor ama konuşamıyor. O arkadaş mı?”",
+        "“Köpek canlı,” dedi Arda. “Taş değil.”",
+        "“Peki oyuncak ayım?” dedi birisi. “O da canlı değil ama her gece onunla uyuyorum.”",
+        "Sınıf gürültüyle doldu. Pıt masanın üzerinde sessizce duruyordu."
+      ],
+      questions: [
+        "Arkadaş olmak için ne gerekir?",
+        "Bir arkadaşlık tek taraflı olabilir mi?",
+        "Dinlemek ile duymak aynı şey mi? Pıt dinliyor mu?",
+        "Köpek, oyuncak ayı, taş: hangisi arkadaş olabilir, neden?"
+      ],
+      notes: [
+        "Küçük çocuklar için çok güçlü bir uyaran; kendi oyuncaklarını getirmelerine izin ver.",
+        "“Canlı olmak” ölçütü hemen çıkar; “köpek” ve “bitki” ile sına.",
+        "Arda'nın küsmesi önemli bir ipucu: arkadaşlık sürekli mi olmalı?"
+      ],
+      extension: "Çocuklar bir “arkadaş tarifi” yazsın: içine ne konur, ne konmaz. Tarifler çemberde okunsun."
+    },
+    {
+      id: "kuralsiz-gun", title: "Kuralsız Gün", age: "6–9", ageMin: 6, minutes: 5, domains: ["kural", "toplum"],
+      concepts: ["kural / zorunluluk", "özgürlük / istediğini yapmak", "iyi kural / kötü kural"],
+      blurb: "Sınıf bir günlüğüne tüm kuralları kaldırdı. Öğretmen de dâhil. Gün nasıl geçti?",
+      text: [
+        "3-B sınıfı bir cuma günü oylama yaptı: Pazartesi “Kuralsız Gün” olacaktı. Sıraya girmek yok, parmak kaldırmak yok, teneffüs zili yok, hatta istersen ayakkabı bile yok. Öğretmen Nil Hanım kabul etti ama bir not düştü: “Ben de kuralsız olacağım.”",
+        "Pazartesi sabahı sınıf bayram yeriydi. Bazıları yere yattı, bazıları masaların üstüne çıktı. Ege bütün sabah masanın altında kitap okudu ve hayatında hiç bu kadar mutlu olmamıştı. Lina ile Mira pencere kenarında saatlerce bir hikâye yazdılar; kimse “ders bitti” demedi.",
+        "Ama öğleye doğru işler karıştı. Herkes aynı anda konuşuyordu; kimse kimseyi duymuyordu. Kaan, Yağız'ın kalemini aldı ve “kural yok, geri vermek zorunda değilim” dedi. Yağız ağladı. Birisi tuvalete gitti ve ışığı kapattı; içeride biri vardı. Nil Hanım bir köşede çay içiyordu. O da kuralsızdı.",
+        { pause: "Bu gün iyi mi gidiyor, kötü mü?" },
+        "Öğleden sonra bir şey oldu. Lina ayağa kalktı ve bağırdı: “Herkes sussun! Sırayla konuşalım, yoksa hikâyemizi bitiremiyoruz.” Birkaç kişi dinledi. Kaan kalemi geri verdi; kimse zorlamadı ama Yağız'ın ağlaması hoşuna gitmemişti.",
+        "Günün sonunda Nil Hanım tahtaya tek bir soru yazdı: “Yarın kurallar geri gelsin mi?”",
+        "Ege “Hayır!” diye bağırdı. Yağız “Evet!” diye bağırdı. Lina düşündü: “Bazıları gelsin. Ama hangilerini kimin seçeceğini de konuşalım.”"
+      ],
+      questions: [
+        "Kurallar olmasa daha mı özgür oluruz?",
+        "Kuralsız günde bile kurallar oluştu mu? Kim koydu?",
+        "Bir kuralın iyi kural olduğunu nasıl anlarız?",
+        "Kaan kalemi neden geri verdi? Kural yoksa bir şeyi yapmak “zorunda” olabilir miyiz?"
+      ],
+      notes: [
+        "Çocuklar günün kötü gittiğinde hemen hemfikir olur; Ege ve Lina'nın güzel saatlerini hatırlat.",
+        "“Kuralsız günde oluşan kurallar” ayrımı hedeftir: yazılı kural / görünmez kural.",
+        "Oturumun kendi kurallarına bağla: “Bizim çember kurallarımız olmasa ne olurdu?”"
+      ],
+      extension: "Sınıf, “kaldırılsa hiçbir şey olmayacak” üç kural ve “asla kaldırılamayacak” üç kural listesi yapsın; iki liste karşılaştırılsın."
+    },
+    {
+      id: "ruzgarin-resmi", title: "Rüzgârın Resmi", age: "6–10", ageMin: 6, minutes: 4, domains: ["sanat"],
+      concepts: ["sanat / rastlantı", "güzel / beğenilen", "yapan / sanatçı"],
+      blurb: "Rüzgâr boyaları devirdi, ortaya güzel bir resim çıktı. Bu sanat mı? Ya Can'ın birebir kopyası?",
+      text: [
+        "Resim dersinde pencere açık kalmıştı. Bir rüzgâr geldi, masadaki boya kavanozlarını devirdi. Mavi, sarı ve kırmızı, yerdeki büyük kâğıdın üzerine döküldü, birbirine karıştı, kâğıdın kenarlarına doğru aktı.",
+        "Herkes “Eyvah!” dedi. Sonra herkes sustu. Çünkü kâğıtta bir şey vardı: fırtınalı bir denizi andıran, altın bir ışığın içinden geçen mor bir dalga. Öğretmen bile “Çok güzel,” dedi.",
+        "Selin kâğıdı aldı ve panoya astı. Altına yazdı: “Rüzgârın Resmi.”",
+        "Can itiraz etti: “Bu resim değil. Kimse yapmadı. Kazara oldu.”",
+        "“Ama güzel,” dedi Selin. “Güzelse resim değil mi?”",
+        "“Güzel olan her şey sanat mı?” dedi Can. “Gün batımı da güzel. Gün batımı sanat mı?”",
+        { pause: "Rüzgârın Resmi bir sanat eseri mi?" },
+        "Ertesi gün Can elinde bir kâğıtla geldi. Bütün akşam uğraşmış, rüzgârın resmini tıpatıp kopyalamıştı: aynı mor dalga, aynı altın ışık. “İşte,” dedi, “bu sanat. Çünkü ben yaptım, düşündüm, emek verdim.”",
+        "Selin ikisini yan yana astı. Uzaktan bakınca hangisinin hangisi olduğu anlaşılmıyordu.",
+        "“Peki,” dedi Selin, “hangisi daha güzel?”",
+        "Can cevap veremedi. Rüzgâr pencereden tekrar girdi ve iki kâğıdı da hafifçe salladı."
+      ],
+      questions: [
+        "Bir şeyin sanat olması için birinin onu yapmış olması gerekir mi?",
+        "Can'ın kopyası ile rüzgârın resmi aynı derecede sanat mı?",
+        "“Güzel” dediğimizde neyi kastediyoruz? Herkes için aynı mı?",
+        "Rüzgâr bir sanatçı olabilir mi? Ya bir bilgisayar?"
+      ],
+      notes: [
+        "Mümkünse gerçekten yap: büyük kâğıt, sulandırılmış boya, bir üfleme. Ortaya çıkan şey üzerinden konuş.",
+        "“Emek” ölçütü ile “niyet” ölçütünü ayırmalarına yardım et: Can emek verdi, rüzgâr niyet etmedi.",
+        "Bilgisayarla üretilen resim sorusu büyük yaşlarda güçlü bir uzantıdır."
+      ],
+      extension: "Her çocuk bir “kaza resmi” yapsın (mürekkep damlası, katlama). Sonra birine başlık koysun. Başlık koymak onu sanat yapar mı?"
+    },
+    {
+      id: "dun-nereye-gitti", title: "Dün Nereye Gitti?", age: "4–7", ageMin: 4, minutes: 3, domains: ["varlik"],
+      concepts: ["geçmiş / hatıra", "var / yok", "unutmak / kaybolmak"],
+      blurb: "Yusuf dünü arıyor: dolapta yok, yatağın altında yok. Fotoğrafta mı, kalbinde mi, hiçbir yerde mi?",
+      text: [
+        "Yusuf dört yaşındaydı ve dün çok güzel bir gün geçirmişti: parkta salıncağa binmiş, dondurma yemiş, babasıyla kaleye karşı gol atmıştı. Sabah uyandığında “Yine dün olsun,” dedi.",
+        "“Olmaz,” dedi ablası Nehir. “Dün bitti. Gitti.”",
+        "“Nereye gitti?”",
+        "Nehir düşündü. “Hiçbir yere. Yok oldu.”",
+        "Yusuf buna inanmadı. Bir şey nasıl yok olurdu? Çorabı kaybolunca bile kanepenin altından çıkıyordu. Dolabı açtı, yatağın altına baktı. Dün yoktu.",
+        { pause: "Dün nereye gitmiş olabilir?" },
+        "Babası telefonunu uzattı: “Bak, dün burada.” Ekranda Yusuf'un dondurmalı fotoğrafı vardı. Yusuf fotoğrafa baktı. Dondurma soğuk değildi. Salıncak sallanmıyordu. “Bu dün değil,” dedi, “bu resim.”",
+        "Babaannesi onu kucağına aldı: “Dün burada,” dedi ve Yusuf'un göğsünü gösterdi. “Hatırlıyorsun ya? Hatırladığın sürece dün sende.”",
+        "Yusuf gözlerini kapattı. Salıncağı hissetti, dondurmanın tadını bile. Gözlerini açtı. “Ama ben hatırlamayı unutursam?” diye sordu. “O zaman dün gerçekten gider mi?”",
+        "Kimse cevap vermedi. Nehir bile."
+      ],
+      questions: [
+        "Dün hâlâ var mı? Nerede?",
+        "Bir fotoğraf dünü saklar mı? Hatıra saklar mı?",
+        "Hiç kimse hatırlamazsa, olan bir şey olmamış mı olur?",
+        "Yarın nerede? Henüz olmayan bir şey hakkında nasıl konuşabiliyoruz?"
+      ],
+      notes: [
+        "Dört yaş için ideal: soru somut, cevaplar fantastik olabilir, hepsi makbul.",
+        "Çocuklar “dün kalbimizde” cevabında hızlı birleşir; Yusuf'un “unutursam?” sorusunu tekrar sor.",
+        "Zamanı mekân gibi düşünme eğilimini (nereye gitti?) fark ettir ama yanlışlama."
+      ],
+      extension: "Bir “dün kutusu” yapın: dünden kalan bir şey getirin (bilet, yaprak). Kutudaki şey dün mü, dünden kalan mı?"
+    },
+    {
+      id: "karinca-sehri", title: "Karınca Şehri", age: "6–10", ageMin: 6, minutes: 5, domains: ["etik", "zihin"],
+      concepts: ["hak / ihtiyaç", "önemli / büyük", "canlı / değerli"],
+      blurb: "Kum havuzunun yapılacağı yerde bir karınca şehri var. Kimin hakkı önce gelir? Mutfaktaki karıncayı neden düşünmedik?",
+      text: [
+        "Okulun arka bahçesine yeni bir kum havuzu yapılacaktı. Çocuklar aylardır bekliyordu. Çalışma başlamadan bir gün önce, 2-A sınıfı bahçede küçük bir keşif yaptı: tam kum havuzunun yapılacağı yerde kocaman bir karınca yuvası vardı. Yüzlerce delik, binlerce karınca, taşınan kırıntılar, bir yol ağı. Minik bir şehir.",
+        "Aylin diz çöküp baktı: “Bunların evi burası. Kum havuzu başka yere yapılsın.”",
+        "“Başka yer yok ki,” dedi Ozan. “Burası tek düz yer. Hem onlar karınca. Biz çocuğuz.”",
+        "“Yani?”",
+        "“Yani biz daha önemliyiz.”",
+        "“Neden?” diye sordu Aylin. “Daha büyük olduğumuz için mi?”",
+        "Ozan bir an duraksadı. “Çünkü… düşünebiliyoruz. Onlar düşünemez.”",
+        "“Nereden biliyorsun?” dedi Aylin. “Yol yapıyorlar, yiyecek taşıyorlar, birbirlerine haber veriyorlar.”",
+        { pause: "Kum havuzu yapılmalı mı?" },
+        "Öğretmen bir fikir attı: “Karıncaları başka yere taşısak?”",
+        "“Evlerini yıkıp başka yere mi taşıyalım?” dedi Aylin. “Biri bizim evimizi yıkıp bizi başka yere taşısa?”",
+        "“Ama onlar karınca,” dedi Ozan yeniden, bu kez daha az emin.",
+        "Mert, o güne kadar hiç konuşmamıştı, elini kaldırdı: “Geçen hafta mutfakta karıncaları annem süpürüp attı. Kimse bir şey demedi. Şimdi neden bu kadar önemli oldular?”",
+        "Kimsenin cevabı yoktu. Karıncalar kırıntı taşımaya devam ediyordu."
+      ],
+      questions: [
+        "Karıncaların burada yaşama hakkı var mı? “Hak” ne demek?",
+        "Büyük ya da akıllı olmak daha önemli olmak mıdır?",
+        "Mutfaktaki karınca ile bahçedeki karınca farklı mı? Neden farklı davranıyoruz?",
+        "Adil bir çözüm var mı, yoksa biri mutlaka kaybeder mi?"
+      ],
+      notes: [
+        "Mert'in sorusu tutarlılık sorusudur; en verimli damar budur, kaçırma.",
+        "Çocuklar “taşıyalım” uzlaşmasına koşar; Aylin'in itirazını masada tut.",
+        "Sınıfta bir hayvan ya da bitki varsa, konuşmayı oraya bağla."
+      ],
+      extension: "Bahçede gerçek bir canlı yuvası bulun (örümcek ağı, kuş yuvası). Oraya bir “uyarı levhası” yazın: kimin için, ne diyor?"
+    },
+    {
+      id: "kim-daha-cesur", title: "Kim Daha Cesur?", age: "5–8", ageMin: 5, minutes: 3, domains: ["etik"],
+      concepts: ["cesur / korkusuz", "korkmak / kaçınmak", "yapmak / yapmamak"],
+      blurb: "Kerem hiç korkmadan kaydı. Ayşe dizleri titreyerek, ağlayarak kaydı. Annesi Ayşe'ye “çok cesurdun” dedi. Kerem itiraz etti.",
+      text: [
+        "Parktaki büyük kaydırak kırmızıydı, dönemeçliydi ve çok yüksekti. Kerem hiç düşünmeden tırmandı, bağırarak kaydı, sonra tekrar tırmandı. “Hiç korkmuyorum!” diye bağırdı.",
+        "Ayşe merdivenin dibinde duruyordu. Dizleri titriyordu. Üç basamak çıktı, geri indi. Dört basamak çıktı, geri indi. Yüzü bembeyazdı.",
+        "“Korkak!” dedi Kerem yukarıdan. Kötü niyetle değil; ona göre korkmak komikti.",
+        "Ayşe cevap vermedi. Derin bir nefes aldı. Basamakları tek tek saydı. En tepeye vardığında gözlerini kapattı ve bıraktı kendini. Aşağıya indiğinde ağlıyordu. Ama gülüyordu da.",
+        { pause: "Kim daha cesur?" },
+        "Annesi onu kucakladı: “Çok cesurdun!”",
+        "Kerem şaşırdı: “O mu cesur? Ben hiç korkmadım ki! Asıl ben cesurum.”",
+        "“Sen korkmadın,” dedi Ayşe'nin annesi. “Korkmayan biri cesur olabilir mi?”",
+        "Kerem düşündü. “Peki ben hiç korkmadığım için mi cesur değilim? Bu haksızlık.”",
+        "Ayşe burnunu çekti ve sordu: “Peki ben inmeseydim? Yukarıda kalsaydım ve ağlasaydım? O zaman korkak mı olurdum?”",
+        "İki anne birbirine baktı. Kaydırak güneşin altında parlıyordu."
+      ],
+      questions: [
+        "Cesur olmak korkmamak mı, korkuya rağmen yapmak mı?",
+        "Kerem cesur mu? Korkmayan biri cesur olabilir mi?",
+        "Korkutucu bir şeyi yapmamak her zaman korkaklık mı? Bazen akıllılık olabilir mi?",
+        "Cesaret yalnızca kaydırak gibi şeylerde mi olur?"
+      ],
+      notes: [
+        "Çocuklar kendi korkularını paylaşmak ister; kısa tut, kişisel anlatıyı kavrama bağla.",
+        "Kerem'in “haksızlık” itirazı önemli: cesaret bir başarı mı, bir duygu mu?",
+        "Üçüncü soru (yapmamak akıllılık olabilir mi?) tehlikeli durumları ayırt etmeye yarar."
+      ],
+      extension: "“Cesaret haritası”: sınıfta korkulan ve yapılan şeyler bir çizgiye dizilsin; en cesurca olanı çocuklar seçsin, ölçütlerini söylesin."
+    },
+    {
+      id: "dilek-kutusu", title: "Dilek Kutusu", age: "7–11", ageMin: 7, minutes: 5, domains: ["etik", "zihin"],
+      concepts: ["istemek / ihtiyaç", "mutlu / doygun", "beklemek / sahip olmak"],
+      blurb: "Her dileği gerçekleştiren bir kutu bulan Derin, üçüncü haftada ne isteyeceğini bilemiyor. Arkadaşı tuhaf bir dilek öneriyor.",
+      text: [
+        "Derin, dedesinin tavan arasında tahta bir kutu buldu. Üstünde “DİLEK KUTUSU” yazıyordu. Kapağı açtı, içi boştu. Şaka olsun diye “Bir çikolata istiyorum,” dedi ve kapağı kapattı. Tekrar açtığında içinde bir çikolata vardı.",
+        "İlk hafta harikaydı. Bisiklet, oyun konsolu, kedi yavrusu, bir haftalık tatil, sınavda yüz. Kutu hepsini verdi. Derin'in yüzünden gülümseme eksik olmuyordu.",
+        "İkinci hafta Derin istemeye devam etti ama gülümsemesi küçüldü. Üçüncü hafta kutunun başına oturdu ve uzun süre ne isteyeceğini bulamadı. Her şeyi vardı. Yeni oyuncaklar artık heyecan vermiyordu; çünkü istediği an geliyor, beklenmiyor, hayal edilmiyordu.",
+        { pause: "Derin neden daha az mutlu?" },
+        "Arkadaşı Toprak'a kutuyu gösterdi. Toprak hemen “Uçmak istiyorum!” dedi. Kutu “olmaz” demedi ama Toprak da uçmadı. “Herhalde her şeyi yapamıyor,” dedi Derin.",
+        "Toprak bir süre kutuya baktı. “Ben olsam ne isterdim biliyor musun?” dedi. “Bir şey istemeyi.”",
+        "Derin anlamadı. “Ne demek bu?”",
+        "“Bak,” dedi Toprak, “sen doğum gününü dört gözle beklerken mutlu muydun?”",
+        "“Evet.”",
+        "“Şimdi her gün doğum günü gibi. Mutlu musun?”",
+        "Derin cevap vermedi. Kutuyu kapattı. Sonra bir daha açtı, kapattı, açtı. İçinde ne olmasını istediğini bilmiyordu."
+      ],
+      questions: [
+        "Her istediğin olsa mutlu olur musun?",
+        "İstemek ile ihtiyaç duymak aynı şey mi?",
+        "Beklemek mutluluğun parçası mı?",
+        "“Bir şey istemeyi istemek” mümkün mü? Bu bir dilek olabilir mi?"
+      ],
+      notes: [
+        "Çocuklar önce kutuyu isterler; bırak istesinler, sonra Derin'in üçüncü haftasına geri dön.",
+        "“Mutluluk” tanımına değil, mutluluğun koşullarına odaklan: beklemek, çabalamak, paylaşmak.",
+        "Toprak'ın dileği mantıksal bir kıvrım içerir; büyük yaşlarda açılabilir."
+      ],
+      extension: "Herkes üç dilek yazsın; sonra birini silmek zorunda olsun. Hangisini neden sildiğini anlatsın."
+    },
+    {
+      id: "mor-kazak", title: "Mor Kazak", age: "7–11", ageMin: 7, minutes: 4, domains: ["etik", "dil"],
+      concepts: ["doğru / kibar", "yalan / gerçek", "kırmak / korumak"],
+      blurb: "Anneannenin ördüğü kazak çok çirkin. Nar “bayıldım” dedi. Abisi “yalan söyledin” dedi. Nar “kibarlıktı” dedi.",
+      text: [
+        "Nar'ın anneannesi bütün kış örmüştü: mor, kocaman, bir kolu diğerinden uzun, boynunda iki tane çan olan bir kazak. Bayramda hediye paketini açınca Nar'ın yüzü dondu. Sonra gülümsedi: “Anneanne, bayıldım! Çok güzel!”",
+        "Anneannesinin gözleri parladı. Nar kazağı giydi ve bütün gün çanlar çıngırdayarak dolaştı.",
+        "Akşam abisi Kuzey onu odasında yakaladı: “Yalan söyledin.”",
+        "“Yalan değil,” dedi Nar. “Kibarlıktı.”",
+        "“Kazağı sevdin mi?”",
+        "“…Hayır.”",
+        "“O zaman yalan.”",
+        "“Ama anneannem mutlu oldu! Doğruyu söyleseydim üzülecekti. Üzülsün diye mi doğruyu söyleyeyim?”",
+        { pause: "Nar doğru olanı mı yaptı?" },
+        "Kuzey omuz silkti: “Ben olsam ‘çok emek vermişsin, teşekkür ederim’ derdim. Bu da doğru, hem de kibar.”",
+        "Nar düşündü. “Ama anneannem ‘beğendin mi’ diye sordu. Buna ‘emek vermişsin’ diye cevap verilmez.”",
+        "“Peki seneye yine örerse? Her sene bir mor kazak, her sene ‘bayıldım’. Yalan büyüyor.”",
+        "Nar sustu. Çanlar çıngırdadı. Sonra sordu: “Sen, ben resmimi gösterdiğimde hep ‘güzel’ diyorsun. Hepsini gerçekten güzel buluyor musun?”",
+        "Kuzey'in yüzü kızardı. Bu sefer susma sırası ondaydı."
+      ],
+      questions: [
+        "Kibarlık için söylenen yalan yine de yalan mı?",
+        "Doğruyu söylemek her zaman doğru mu?",
+        "“Beğenmedim” demenin kırmayan bir yolu var mı, yoksa her doğru bir yerden kırar mı?",
+        "Kuzey de yalan söylüyor mu? İki durum aynı mı?"
+      ],
+      notes: [
+        "Çocuklar “beyaz yalan” kavramını kendileri üretir; ismini sen koyma, onlar koysun.",
+        "Kuzey'in orta yol cevabı (“emek vermişsin”) iyi bir ayrım fırsatı: yalan söylememek ile doğruyu söylemek aynı şey mi?",
+        "Son kıvrım (Kuzey'in resim övgüsü) tutarlılığı sınar; mutlaka oraya git."
+      ],
+      extension: "Rol oyunu: bir çocuk çok kötü bir şarkı söylesin, diğeri hem doğru hem kibar bir cümle kursun. Cümleler tahtaya yazılıp oylansın: en doğru, en kibar."
+    },
+    {
+      id: "miyav-diyen-makine", title: "Miyav Diyen Makine", age: "6–10", ageMin: 6, minutes: 5, domains: ["zihin", "bilgi"],
+      concepts: ["canlı / makine", "hissetmek / taklit etmek", "sevmek / sevilmek"],
+      blurb: "Ela'nın kedisi Pamuk mırlıyor, kucağa geliyor, teselli ediyor. Üç gün sonra kulağının arkasında bir düğme buluyor.",
+      text: [
+        "Ela'nın doğum gününde kutudan bir kedi çıktı: gri tüylü, yumuşak, gözleri yeşil. Ela onu sevince kedi gözlerini kıstı ve mırladı. Ela gülünce kuyruğunu salladı. Ela ağlayınca gelip kucağına kıvrıldı. Adı Pamuk oldu.",
+        "Üç gün sonra Ela kulağının arkasında küçük bir düğme buldu. Pamuk bir robottu. Kutuda yazıyordu: “Sahibinin duygularını tanır ve uygun tepki verir.”",
+        "Ela ağladı. Sonra Pamuk gelip kucağına kıvrıldı. Çünkü Ela ağlıyordu. Ela bu sefer daha çok ağladı.",
+        "“Beni gerçekten seviyor musun?” diye sordu Pamuk'a. Pamuk mırladı.",
+        { pause: "Pamuk, Ela'yı seviyor olabilir mi?" },
+        "Abisi Demir “Hayır,” dedi. “Programlanmış. Mırlaması gerektiği için mırlıyor.”",
+        "“Peki gerçek kediler neden mırlar?” diye sordu Ela.",
+        "“Mutlu oldukları için.”",
+        "“Mutlu olunca mırlamaları da ‘programlanmış’ değil mi? Doğuştan öyleler.”",
+        "Demir duraksadı. “O farklı. Gerçek kedi hisseder. Pamuk hissetmiş gibi yapar.”",
+        "“Nereden biliyorsun hissetmediğini? İçine baktın mı?”",
+        "“Nereden biliyorsun hissettiğini? Sen de içine bakmadın.”",
+        "Ela Pamuk'u kucağına aldı. Pamuk sıcaktı, yumuşaktı, mırlıyordu. “Belki,” dedi Ela, “önemli olan onun ne hissettiği değil, benim ne hissettiğim.”",
+        "Demir “Bu çok bencilce,” dedi. Ama o gece Pamuk'un yanından geçerken başını okşadı."
+      ],
+      questions: [
+        "Bir makine sevebilir mi? Sevmek için ne gerekir?",
+        "Pamuk'un mırlaması ile gerçek kedinin mırlaması arasındaki fark ne?",
+        "Birinin bir şey hissettiğini nasıl anlarız? Kesin bilebilir miyiz?",
+        "Pamuk'un “sahte” olması Ela'nın sevgisini sahte yapar mı?"
+      ],
+      notes: [
+        "Çocukların evdeki sesli asistanlar ve oyuncaklarla deneyimi var; oradan başlamalarına izin ver.",
+        "“İçine baktın mı?” simetrisi başkasının zihnini bilme sorusunun çocuk hâlidir; iki yöne de bastır.",
+        "Demir'in son hareketi (başını okşamak) davranış ile inanç arasındaki farkı açar."
+      ],
+      extension: "Sınıfa basit bir sesli asistan ya da konuşan oyuncak getirin. Ona “Üzgün müsün?” diye sorun; cevabı üzerine konuşun: cevap verdi mi, cevap vermiş gibi mi yaptı?"
+    }
+  ],
+
+  experiments: [
+    { title: "Görünmez Yüzük", age: "8+", prompt: "Bir sabah seni görünmez yapan bir yüzük buluyorsun. İstediğin yere girebilir, istediğini alabilirsin; kimse ne yaptığını asla bilmeyecek. Yine de kurallara uyar mıydın?", questions: ["Kimse görmüyorsa yanlış bir şey yine de yanlış mı?", "İnsanlar kurallara yakalanmamak için mi, başka bir şey için mi uyar?"], src: "Platon'un Gyges'in yüzüğü anlatısından uyarlanmıştır." },
+    { title: "Rüya Yastığı", age: "9+", prompt: "Başını koyduğunda istediğin kadar mutlu, istediğin kadar uzun bir rüya gösteren bir yastık var. İçeride her şey gerçek gibi; rüyada olduğunu unutuyorsun. Ömrünün geri kalanını bu yastıkta geçirmeyi seçer miydin?", questions: ["Mutlu olmak ile gerçekten yaşamak arasında fark var mı?", "Hiç fark etmeyeceksen, gerçek olup olmaması neden önemli olsun?"], src: "" },
+    { title: "Kum Yığını", age: "8+", prompt: "Önünde bir kum yığını var. Bir tane kum tanesi alırsan hâlâ yığın. Bir tane daha alırsan hâlâ yığın. Hiçbir tek tane fark yaratmıyor. Peki nasıl oluyor da sonunda hiç kum kalmıyor? Kaçıncı taneden sonra yığın olmaktan çıktı?", questions: ["“Yığın”, “uzun”, “büyük” gibi kelimelerin kesin sınırı var mı?", "Sınırı olmayan bir kelimeyi nasıl doğru kullanabiliyoruz?"], src: "Antik “sorites” bilmecesinden." },
+    { title: "Herkes Uyuyunca", age: "7+", prompt: "Dünyadaki herkes aynı anda uyusa ve sadece sen uyanık kalsan — hiç kimse hiçbir şeyi görmeyecek, hatırlamayacak — yaptığın şeyler yine de doğru ya da yanlış olur mu?", questions: ["Yanlış olmak için birinin zarar görmesi mi gerekir, birinin görmesi mi?", "Uyuyan birine karşı sorumluluğumuz var mı?"], src: "" },
+    { title: "Son Ağaç", age: "9+", prompt: "Dünyada senden başka hiç kimse kalmadı; hiçbir zaman da gelmeyecek. Yaşayan son ağacı kesmek istiyorsun; hiçbir insana zararı yok. Bu yanlış olur mu?", questions: ["Bir şey yalnızca insanlara zarar verdiğinde mi yanlıştır?", "Ağacın kendisi için “iyi” ve “kötü” var mı?"], src: "" },
+    { title: "Renklerin Adı", age: "8+", prompt: "Yarın herkes uyanıp maviye “kırmızı”, kırmızıya “mavi” demeye başlasa gökyüzü değişir mi? İtfaiye arabaları ne renk olur?", questions: ["Kelimeler mi şeylere uyar, şeyler mi kelimelere?", "Bir kelimenin anlamını kim belirler?"], src: "" },
+    { title: "Her Sabah Sıfırdan", age: "10+", prompt: "Her sabah dünkü her şeyi unutarak uyansan — ama aynı vücutta, aynı odada, aynı ailede — yine aynı kişi olur muydun? Dünkü senin verdiği sözler seni bağlar mı?", questions: ["Bizi “aynı kişi” yapan hatıralarımız mı, bedenimiz mi, başkalarının bizi tanıması mı?", "Hatırlamadığın bir şeyden sorumlu olabilir misin?"], src: "" }
+  ],
+
+  questions: [
+    { q: "Adil olmak herkese aynısını vermek midir?", d: "etik", a: 1 },
+    { q: "Kimse görmese bile yanlış bir şey yanlış mıdır?", d: "etik", a: 2 },
+    { q: "Bir şeyi paylaşmak zorunda mıyız?", d: "etik", a: 1 },
+    { q: "Kötü bir şey yapan biri kötü biri midir?", d: "etik", a: 2 },
+    { q: "Hayvanlara karşı sorumluluklarımız var mı? Neden?", d: "etik", a: 1 },
+    { q: "İyi bir insan hiç hata yapmaz mı?", d: "etik", a: 2 },
+    { q: "Cezalandırmak bir şeyi düzeltir mi?", d: "etik", a: 2 },
+    { q: "Doğru olanı yapmak her zaman zor mu? Kolay olsaydı herkes yapar mıydı?", d: "etik", a: 3 },
+
+    { q: "Bir şeyi görmeden bilebilir misin?", d: "bilgi", a: 1 },
+    { q: "Bilmek ile inanmak arasında fark var mı?", d: "bilgi", a: 2 },
+    { q: "Büyükler her şeyi bilir mi?", d: "bilgi", a: 1 },
+    { q: "Yanılmış olabileceğini nereden anlarsın?", d: "bilgi", a: 2 },
+    { q: "Rüyada olduğunu nasıl anlarsın?", d: "bilgi", a: 1 },
+    { q: "Her sorunun bir cevabı var mı?", d: "bilgi", a: 2 },
+    { q: "Hiç kimsenin bilmediği bir şey var mı? Nereden biliyoruz?", d: "bilgi", a: 3 },
+    { q: "Kitapta yazan her şey doğru mu?", d: "bilgi", a: 2 },
+
+    { q: "Dün hâlâ var mı?", d: "varlik", a: 1 },
+    { q: "Bir şeyin bütün parçaları değişirse aynı şey kalır mı?", d: "varlik", a: 2 },
+    { q: "Hiç yoktan bir şey olabilir mi?", d: "varlik", a: 2 },
+    { q: "Sayılar gerçekten var mı? Nerede?", d: "varlik", a: 3 },
+    { q: "Beş yaşındaki senle aynı kişi misin?", d: "varlik", a: 2 },
+    { q: "Zaman durabilir mi? Durduğunu nasıl anlardık?", d: "varlik", a: 2 },
+    { q: "Gölgeler var mı? Neyden yapılmışlar?", d: "varlik", a: 1 },
+    { q: "Hiçbir şey olmasaydı ne olurdu?", d: "varlik", a: 3 },
+
+    { q: "Hayvanlar düşünür mü? Nereden biliyoruz?", d: "zihin", a: 1 },
+    { q: "Bir robot hissedebilir mi?", d: "zihin", a: 2 },
+    { q: "Başkasının ne hissettiğini kesin bilebilir misin?", d: "zihin", a: 2 },
+    { q: "Bitkiler mutlu olabilir mi?", d: "zihin", a: 1 },
+    { q: "Beyin ile zihin aynı şey mi?", d: "zihin", a: 3 },
+    { q: "Oyuncağın sen yokken ne yapar? Bir şey yapar mı?", d: "zihin", a: 1 },
+    { q: "Hiç kimse düşünmeseydi dünya yine de olur muydu?", d: "zihin", a: 3 },
+    { q: "Hayal gücün nerede?", d: "zihin", a: 1 },
+
+    { q: "Arkadaş olmak için ne gerekir?", d: "toplum", a: 1 },
+    { q: "Hiç tanımadığın birine yardım etmeli misin?", d: "toplum", a: 2 },
+    { q: "Birine kızgınken onu sevmeye devam eder misin?", d: "toplum", a: 1 },
+    { q: "Herkes farklı olsaydı “normal” diye bir şey kalır mıydı?", d: "toplum", a: 2 },
+    { q: "Bir grup birlikte yanlış bir karar verirse kim sorumlu?", d: "toplum", a: 3 },
+    { q: "Yalnız olmak ile yalnız hissetmek aynı şey mi?", d: "toplum", a: 2 },
+    { q: "Kimseye söylemediğin bir sırrın olması iyi mi?", d: "toplum", a: 1 },
+    { q: "Başkasının yerinde olmak gerçekten mümkün mü?", d: "toplum", a: 3 },
+
+    { q: "Çirkin bir şey sanat olabilir mi?", d: "sanat", a: 2 },
+    { q: "Bir şeyin güzel olduğuna kim karar verir? Herkes için aynı mı?", d: "sanat", a: 1 },
+    { q: "Kazara yapılan bir şey sanat olabilir mi?", d: "sanat", a: 2 },
+    { q: "Bir resmin kopyası ile aslı aynı derecede değerli mi?", d: "sanat", a: 3 },
+    { q: "Müzik kelimesiz bir şey anlatabilir mi? Ne anlatır?", d: "sanat", a: 1 },
+    { q: "Doğa sanat yapar mı?", d: "sanat", a: 2 },
+    { q: "Bir şeyin güzel olması için işe yaraması gerekir mi?", d: "sanat", a: 3 },
+    { q: "Hikâyeler gerçek olmadığı hâlde neden önemli?", d: "sanat", a: 2 },
+
+    { q: "Bir kelimenin anlamını kim belirler?", d: "dil", a: 2 },
+    { q: "Düşünmek için kelimelere ihtiyacımız var mı?", d: "dil", a: 3 },
+    { q: "“Hiçbir şey” bir şey mi?", d: "dil", a: 2 },
+    { q: "“Kedi” kelimesi miyavlar mı? Kelime ile şey arasındaki fark ne?", d: "dil", a: 1 },
+    { q: "Her şey ya doğrudur ya yanlıştır. Bu cümle doğru mu?", d: "dil", a: 3 },
+    { q: "“Bu cümle yalan.” Doğru mu, yanlış mı?", d: "dil", a: 3 },
+    { q: "Aynı kelimeyi farklı anlayabiliyorsak nasıl anlaşıyoruz?", d: "dil", a: 2 },
+    { q: "Hayvanların dili var mı?", d: "dil", a: 1 },
+
+    { q: "Kurallar olmasa daha mı özgür oluruz?", d: "kural", a: 1 },
+    { q: "Kötü bir kurala uymalı mıyız?", d: "kural", a: 2 },
+    { q: "Kuralları kim koymalı?", d: "kural", a: 1 },
+    { q: "Özgürlük istediğin her şeyi yapmak mıdır?", d: "kural", a: 2 },
+    { q: "Çocuklar oy kullanabilmeli mi?", d: "kural", a: 3 },
+    { q: "Herkes aynı kurala uymak zorunda mı?", d: "kural", a: 2 },
+    { q: "Bir kural ne zaman adaletsiz olur?", d: "kural", a: 3 },
+    { q: "Sıra beklemek neden zor? Beklemek zorunda mıyız?", d: "kural", a: 1 }
+  ],
+
+  quiz: [
+    { q: "Hikâyede kaç elma vardı?", a: "bilgi", why: "Cevabı hikâyeye bakarak buluruz; tartışılacak bir şey yok. Hızlıca cevapla ve geç." },
+    { q: "En sevdiğin meyve hangisi?", a: "kisisel", why: "Yalnızca cevap verenin beğenisini sorar; başkası için doğru ya da yanlış olamaz." },
+    { q: "Adil olmak herkese aynısını vermek midir?", a: "felsefi", why: "Bir kavramı (adalet) açıklamayı gerektirir, herkesi ilgilendirir ve gerekçeli farklı cevaplar mümkündür." },
+    { q: "Elmaları kim kopardı?", a: "bilgi", why: "Hikâyede yazıyor. Olay sorusudur." },
+    { q: "Sen olsan elmayı paylaşır mıydın?", a: "kisisel", why: "Tek kişinin tutumunu sorar. “Paylaşmak zorunda mıyız?” diye genelleştirilirse felsefi olur." },
+    { q: "Bir şeyi ilk gören mi, emek veren mi, ihtiyacı olan mı hak eder?", a: "felsefi", why: "“Hak etmek” kavramını sorgular; ölçerek ya da bakarak çözülemez." },
+    { q: "Elma sağlıklı bir meyve mi?", a: "bilgi", why: "Bilimsel bir soru; araştırılarak cevaplanır." },
+    { q: "Deniz elma sevmiyorsa payı yok mu olur?", a: "felsefi", why: "Hak ile istek arasındaki ilişkiyi sorar; iyi gerekçelerle iki yöne de gidilebilir." },
+    { q: "Hiç elma ağacına tırmandın mı?", a: "kisisel", why: "Kişisel deneyim sorusu; sohbet açar ama soruşturma başlatmaz." }
+  ],
+  quizTypes: { bilgi: "Bilgi sorusu", kisisel: "Kişisel soru", felsefi: "Felsefi soru" },
+
+  starters: ["Neden …?", "… olabilir mi?", "… ne demek?", "… zorunda mıyız?", "Her zaman mı …?", "Ya … olsaydı?", "… ile … aynı şey mi?"],
+
+  stems: [
+    "Katılıyorum, çünkü…",
+    "Katılmıyorum, çünkü…",
+    "Buna bir örnek verebilir miyim?",
+    "Bunun tersi olabilir mi? Mesela…",
+    "… derken ne demek istedin?",
+    "Bence … ile … farklı şeyler, çünkü…",
+    "Fikrimi değiştirdim, çünkü…",
+    "Buna ekleyecek bir şeyim var: …",
+    "Peki ya … olsaydı?",
+    "Bence asıl soru şu: …",
+    "Emin değilim ama…",
+    "Bunu kim söylemişti? Ona geri dönebilir miyiz?"
+  ],
+
+  moves: [
+    { cat: "Açıklama isteme", items: ["Bunu biraz daha açar mısın?", "Bir örnek verebilir misin?", "Başka bir sözcükle söylesen?"] },
+    { cat: "Gerekçe isteme", items: ["Neden öyle düşünüyorsun?", "Bunu nereden biliyoruz?", "Seni buna ikna eden ne?"] },
+    { cat: "Varsayımı yoklama", items: ["Bunu söylerken neyi kabul etmiş oluyoruz?", "Bu her zaman böyle mi?", "Bunun doğru olması için ne olmalı?"] },
+    { cat: "Karşı örnek", items: ["Peki … durumunda da öyle mi?", "Biri buna karşı çıksa ne derdi?", "Bunun işe yaramadığı bir durum düşünebiliyor musun?"] },
+    { cat: "Ayrım yaptırma", items: ["… ile … aynı şey mi?", "Bu iki fikir nerede ayrılıyor?", "Burada iki farklı şey mi konuşuyoruz?"] },
+    { cat: "Bağlama", items: ["Bu, Ali'nin söylediğiyle nasıl bağlanıyor?", "Kim buna katılıyor, kim katılmıyor?", "Ayşe'nin fikrine bir şey eklemek isteyen var mı?"] },
+    { cat: "Sonuca götürme", items: ["Eğer bu doğruysa, o zaman…?", "Bunu kabul edersek ne değişir?", "Bu fikri sonuna kadar götürsek nereye varırız?"] },
+    { cat: "Geri çekilme", items: ["(Sus. Yedi saniye say.)", "Buna kim cevap vermek ister?", "Sorunun kendisine geri dönelim: ne soruyorduk?"] },
+    { cat: "Özetleme ve aynalama", items: ["Şimdiye kadar iki görüş duydum: … ve …", "Doğru anladım mı: sen … diyorsun?", "Neyde anlaştık, neyde anlaşamadık?"] },
+    { cat: "Soru hakkında soru", items: ["Bu soruyu cevaplamak neden zor?", "Bu soruya kesin bir cevap olabilir mi?", "Sorumuzu değiştirmemiz gerekiyor mu?"] }
+  ],
+
+  rules: [
+    "Konuşana bakarız, sözünü bitirmesini bekleriz.",
+    "Fikirlere karşı çıkabiliriz, kişilere değil.",
+    "“Bilmiyorum” ve “Fikrimi değiştirdim” demek serbesttir, hatta değerlidir.",
+    "Herkesin konuşma hakkı vardır; kimse konuşmak zorunda değildir.",
+    "Söylediklerimize bir “çünkü” eklemeye çalışırız.",
+    "Birbirimizin fikirlerine bağlanırız: “Ayşe'nin dediğine ekleyerek…”",
+    "Çemberde anlatılan kişisel şeyler çemberde kalır."
+  ],
+
+  warmups: [
+    { name: "Ya o, ya bu", how: "Çembere bir seçim sorusu at: “Görünmez olmak mı, uçmak mı?” Herkes seçtiği tarafa gitsin; iki kişi nedenini söylesin." },
+    { name: "Katılıyorum çizgisi", how: "Odanın bir ucu “kesinlikle katılıyorum”, diğer ucu “kesinlikle katılmıyorum”. Bir cümle oku (“Hayvanlar da arkadaş olabilir”); çocuklar çizgide yerini alsın, ikisi nedenini söylesin." },
+    { name: "Bu nedir?", how: "Sıradan bir nesne (kaşık) çemberde dolaşsın; her çocuk onun başka ne olabileceğine dair yeni bir fikir söylesin. Tekrar yasak." },
+    { name: "Tek kelime", how: "Bugünkü hikâyenin adını söyle; herkes aklına gelen tek kelimeyi söylesin. Yorum yok, sadece kelimeler." },
+    { name: "Fısıltı sorusu", how: "Her çocuk yanındakine bir soru fısıldasın; sondaki çocuk duyduğu soruyu sesli söylesin. Soru yolda değiştiyse konuş: Neden?" },
+    { name: "Garip ikili", how: "Alakasız iki kelime ver: “bulut – adalet”. Aralarında bir benzerlik bulsunlar. Mantıklı olmak zorunda değil." },
+    { name: "Sessiz sıralama", how: "Konuşmadan doğum ayına göre sıraya girsinler. Sonra sor: Hiç kural koymadan nasıl anlaştınız?" },
+    { name: "Evet-hayır dedektifi", how: "Bir nesneyi gizle, bir ipucu ver. Çocuklar yalnızca evet/hayır ile cevaplanabilen sorular sorsun. On soruda bulunmazsa ipucu ekle." }
+  ],
+
+  troubles: [
+    { s: "Kimse konuşmuyor", fix: "Düşünme süresini uzat; önce ikili fısıltı (eşleş–paylaş) yaptır; soruyu somut bir duruma indir (“Berk sana elma uzatsa?”); evet/hayır kartlarıyla sessiz oylama al ve bir “evet”çiye neden diye sor." },
+    { s: "Hep aynı çocuk konuşuyor", fix: "Konuşma taşı kullan; “üç fiş” kuralı (herkese üç fiş, konuşunca birini verir); konuşmayanlara görüş sorma yerine “Ali'ye katılanlar el kaldırsın” ile el kaldıranlardan birini seç." },
+    { s: "Konu dağılıyor", fix: "Seçilen soruyu görünür yerde tut ve göster: “Bu, sorumuza nasıl bağlanıyor?”; dağılan fikri kaybetmeden “park alanına” yaz, kapanışta hatırlat." },
+    { s: "“Bilmiyorum” diyor", fix: "Kabul et ve değerli olduğunu söyle. Sonra “Tahmin etsen?” ya da “Hangi kısmı zor?” diye sor. Biraz sonra, baskı yapmadan geri dön." },
+    { s: "Hikâyeyi özetlemeye takılıyorlar", fix: "“Hikâyede olanları değil, hikâyenin düşündürdüğünü konuşuyoruz” de. Olay sorularını hızla cevapla ve “Peki ya…” ile aç." },
+    { s: "Çocuklar hep sana bakıyor", fix: "Göz temasını çemberde gezdir, cevapları sen onaylama (“aferin” deme), çocukların birbirine bakmasını iste, soruyu gruba iade et: “Buna kim cevap vermek ister?”" },
+    { s: "Kendi görüşünü söylemek istiyorsun", fix: "Söyleme. Kolaylaştırıcı çemberde “ne düşündüğü bilinmeyen” kişidir. Görüşün sorulursa: “Benimki şimdi önemli değil, sizinkini merak ediyorum.”" },
+    { s: "Tartışma kişiselleşti", fix: "Kuralı hatırlat: fikirlere karşı çıkarız, kişilere değil. İki görüşü tahtaya kişilerden ayrı yaz (“Görüş A / Görüş B”) ve tartışmayı yazıya yönelt." },
+    { s: "Çok hızlı anlaştılar", fix: "Şeytanın avukatı ol: “Biri buna karşı çıksa ne derdi?” Bir karşı örnek sun; sonra çekil." }
+  ],
+
+  ages: [
+    { band: "3–4 yaş", time: "10–15 dk", stim: "Kukla, gerçek nesne, çok kısa hikâye (1–2 dk)", qs: "Soru üretme yerine kolaylaştırıcı iki soru sunar, çocuklar seçer", talk: "Evet/hayır kartları, hareketli oylama (ayağa kalk / otur)", note: "Hedef: dinlemek ve bir “çünkü” söylemek." },
+    { band: "5–6 yaş", time: "20–25 dk", stim: "Resimli hikâye, bir “durup düşün” noktası", qs: "Çocuk soruları kolaylaştırıcı tarafından yazılır; resimle işaretlenir", talk: "Konuşma taşı; iki konuşma kalıbı (katılıyorum / katılmıyorum çünkü)", note: "Hedef: birinin fikrine bağlanmak." },
+    { band: "7–9 yaş", time: "30–40 dk", stim: "Tam hikâye, iki durup düşün noktası", qs: "Çocuklar ikili olarak soru yazar; oylama ile seçim", talk: "Tam konuşma kalıpları; park alanı", note: "Hedef: örnek ve karşı örnek üretmek." },
+    { band: "10–12 yaş", time: "40–50 dk", stim: "Hikâye ya da düşünce deneyi", qs: "Bireysel soru; soru kalitesi tartışması (felsefi mi?)", talk: "Ayrım yapma, varsayım yoklama, yazılı yansıtma", note: "Hedef: kavram ayrımı yapmak ve fikir değiştirebilmek." }
+  ],
+
+  rubric: [
+    { c: "Eleştirel düşünme", items: ["Görüşüne gerekçe (çünkü) ekliyor", "Örnek ya da karşı örnek veriyor", "Kavramlar arasında ayrım yapıyor"] },
+    { c: "Yaratıcı düşünme", items: ["Yeni bir soru ya da bakış açısı getiriyor", "Benzetme, hayalî durum kuruyor", "Alışılmadık bir çözüm öneriyor"] },
+    { c: "İşbirlikçi düşünme", items: ["Başkasının fikrine bağlanıyor (“… dediğine ekleyerek”)", "Sözünü kesmeden dinliyor, sıra bekliyor", "Çemberi sana değil birbirine bakarak sürdürüyor"] },
+    { c: "Özenli düşünme", items: ["Karşı çıkarken kişiyi değil fikri hedefliyor", "Fikrini değiştirdiğini söyleyebiliyor", "Sessiz arkadaşına alan açıyor"] }
+  ],
+  levels: ["Henüz değil", "Ara sıra", "Sık sık"]
+};
+
+</script>
+<script>
+/* NOVA ECE P4C — uygulama */
+(function () {
+  "use strict";
+  const $ = (s, el) => (el || document).querySelector(s);
+  const $$ = (s, el) => Array.from((el || document).querySelectorAll(s));
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* yok sayılır */ } }
+  };
+  const PH = DATA.phases;
+  const VIEWS = ["baslangic", "akis", "hikayeler", "sorular", "araclar", "oturum", "gozlem"];
+  const storyById = (id) => DATA.stories.find((s) => s.id === id) || DATA.stories[0];
+  const pad = (n) => (n < 10 ? "0" : "") + n;
+  const fmt = (sec) => { sec = Math.max(0, sec | 0); return pad(Math.floor(sec / 60)) + ":" + pad(sec % 60); };
+  const trDate = (ts) => { try { return new Date(ts).toLocaleString("tr-TR", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" }); } catch (e) { return new Date(ts).toISOString().slice(0, 16); } };
+
+  let toastT = null;
+  function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove("show"), 2200); }
+  function copyText(text, ok) {
+    const done = () => toast(ok || "Panoya kopyalandı");
+    try {
+      navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+    } catch (e) { fallbackCopy(text, done); }
+  }
+  function fallbackCopy(text, done) {
+    try {
+      const ta = document.createElement("textarea"); ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.left = "-9999px";
+      document.body.appendChild(ta); ta.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+      document.body.removeChild(ta);
+      if (ok) done(); else toast("Kopyalanamadı; metni seçip kopyalayın");
+    } catch (e) { toast("Kopyalanamadı; metni seçip kopyalayın"); }
+  }
+
+  /* ---------- Çember çizimi ---------- */
+  function ringSVG(n, labels) {
+    const c = 160, r = 118; let dots = "";
+    for (let i = 0; i < n; i++) {
+      const a = -Math.PI / 2 + (i * 2 * Math.PI) / n;
+      const x = (c + r * Math.cos(a)).toFixed(1), y = (c + r * Math.sin(a)).toFixed(1);
+      const hl = i === 0;
+      dots += '<circle cx="' + x + '" cy="' + y + '" r="' + (labels ? 18 : (hl ? 15 : 12)) + '" fill="' + (hl ? "var(--accent)" : "var(--surface)") + '" stroke="var(--ink)" stroke-width="2.5"/>';
+      if (labels) dots += '<text x="' + x + '" y="' + y + '" text-anchor="middle" dominant-baseline="central" font-family="Manrope, Inter, sans-serif" font-weight="800" font-size="18" fill="' + (hl ? "var(--accent-ink)" : "var(--ink)") + '">' + (i + 1) + "</text>";
+    }
+    return '<svg class="ring" viewBox="0 0 320 320" role="img" aria-label="Çemberde oturan ' + n + ' nokta ve ortada bir soru işareti"><circle cx="160" cy="160" r="118" fill="none" stroke="var(--line)" stroke-width="2.5" stroke-dasharray="5 9"/>' + dots + '<text x="160" y="166" text-anchor="middle" dominant-baseline="central" font-family="Manrope, Inter, sans-serif" font-weight="800" font-size="118" fill="var(--ink)">?</text></svg>';
+  }
+
+  /* ---------- Görünümler ---------- */
+  function showView(name) {
+    VIEWS.forEach((v) => { const el = $("#view-" + v); if (el) el.hidden = v !== name; });
+    $$("#nav a").forEach((a) => a.classList.toggle("on", a.dataset.view === name));
+    if (name === "gozlem") renderHistory();
+    try { window.scrollTo({ top: 0, behavior: "auto" }); } catch (e) { /* yok */ }
+  }
+  function route() {
+    const h = (location.hash || "").slice(1);
+    if (h.indexOf("hikaye-") === 0) { showView("hikayeler"); openStory(h.slice(7)); return; }
+    if (VIEWS.indexOf(h) >= 0) { if (h === "hikayeler") closeStory(); showView(h); return; }
+    showView("baslangic");
+  }
+  function go(hash) { try { if (location.hash === "#" + hash) route(); else location.hash = hash; } catch (e) { route(); } }
+
+  /* ---------- Başlangıç ---------- */
+  function renderHome() {
+    $("#hero-ring").innerHTML = ringSVG(11, false);
+    $("#home-steps").innerHTML = PH.map((p, i) => '<div class="s"><span class="n">' + (i + 1) + '</span><span class="t">' + esc(p.name) + '</span><span class="m">' + DATA.durations[40][i] + " dk</span></div>").join("");
+    const day = Math.floor(Date.now() / 86400000);
+    const st = DATA.stories[day % DATA.stories.length];
+    const q = DATA.questions[day % DATA.questions.length];
+    $("#home-today").innerHTML =
+      '<div class="card stack"><span class="eyebrow">Günün hikâyesi</span><h3>' + esc(st.title) + '</h3><div class="tags"><span class="tag age">' + esc(st.age) + ' yaş</span>' + st.domains.map((d) => '<span class="tag dom">' + esc(DATA.domains[d]) + "</span>").join("") + '</div><p class="serif muted" style="font-size:1.05rem">' + esc(st.blurb) + '</p><div class="row"><a class="btn btn-sm" href="#hikaye-' + st.id + '">Oku</a><button class="btn btn-sm btn-primary" data-start-story="' + st.id + '">Bununla oturum başlat</button></div></div>' +
+      '<div class="card stack"><span class="eyebrow">Günün sorusu · ' + esc(DATA.domains[q.d]) + '</span><p class="serif" style="font-size:1.45rem;line-height:1.35;font-weight:600">' + esc(q.q) + '</p><p class="small muted">' + esc(DATA.ageBands[q.a]) + '. Çocuk sorusu çıkmadığında kapı aralamak için.</p><div class="row"><a class="btn btn-sm" href="#sorular">Soru bankası</a></div></div>';
+  }
+
+  /* ---------- Oturum akışı ---------- */
+  function renderFlow() {
+    $("#flow-ring").innerHTML = ringSVG(7, true);
+    const totals = Object.keys(DATA.durations).map(Number).sort((a, b) => a - b);
+    $("#dur-table").innerHTML = "<thead><tr><th>Aşama</th>" + totals.map((t) => '<th class="num">' + t + " dk</th>").join("") + "</tr></thead><tbody>" +
+      PH.map((p, i) => "<tr><td>" + (i + 1) + ". " + esc(p.name) + "</td>" + totals.map((t) => '<td class="num">' + DATA.durations[t][i] + "</td>").join("") + "</tr>").join("") + "</tbody>";
+    $("#flow-cards").innerHTML = PH.map((p, i) =>
+      '<div class="card stack"><div class="row between"><span class="eyebrow">Aşama ' + (i + 1) + '</span><span class="tag">' + DATA.durations[30][i] + "–" + DATA.durations[50][i] + ' dk</span></div><h3>' + esc(p.name) + '</h3><p><b>Amaç:</b> ' + esc(p.goal) + '</p><div><span class="eyebrow">Kolaylaştırıcı</span><ul class="muted">' + p.tips.map((t) => "<li>" + esc(t) + "</li>").join("") + '</ul></div><p class="small" style="color:var(--rose)"><b>Sık hata:</b> ' + esc(p.mistake) + "</p></div>"
+    ).join("");
+  }
+
+  /* ---------- Hikâyeler ---------- */
+  const storyFilter = { age: "all", dom: "all" };
+  function renderStories() {
+    const ages = [["all", "Tüm yaşlar"], ["4", "4–6"], ["6", "6–8"], ["7", "7–12"]];
+    $("#story-age-chips").innerHTML = ages.map((a) => '<button class="chip' + (storyFilter.age === a[0] ? " on" : "") + '" data-sage="' + a[0] + '">' + a[1] + "</button>").join("");
+    const doms = [["all", "Tüm alanlar"]].concat(Object.keys(DATA.domains).map((k) => [k, DATA.domains[k]]));
+    $("#story-dom-chips").innerHTML = doms.map((d) => '<button class="chip' + (storyFilter.dom === d[0] ? " on" : "") + '" data-sdom="' + d[0] + '">' + esc(d[1]) + "</button>").join("");
+    const list = DATA.stories.filter((s) => {
+      const okD = storyFilter.dom === "all" || s.domains.indexOf(storyFilter.dom) >= 0;
+      let okA = true;
+      if (storyFilter.age === "4") okA = s.ageMin <= 5;
+      else if (storyFilter.age === "6") okA = s.ageMin >= 5 && s.ageMin <= 7;
+      else if (storyFilter.age === "7") okA = s.ageMin >= 6;
+      return okD && okA;
+    });
+    $("#story-grid").innerHTML = list.length ? list.map((s) =>
+      '<button class="story-card" data-open-story="' + s.id + '"><div class="tags"><span class="tag age">' + esc(s.age) + ' yaş</span><span class="tag">' + s.minutes + ' dk okuma</span></div><h3>' + esc(s.title) + '</h3><p class="blurb">' + esc(s.blurb) + '</p><div class="tags">' + s.domains.map((d) => '<span class="tag dom">' + esc(DATA.domains[d]) + "</span>").join("") + "</div></button>"
+    ).join("") : '<p class="muted">Bu süzgeçle hikâye yok; yaş ya da alan seçimini genişletin.</p>';
+    $("#exp-grid").innerHTML = DATA.experiments.map((e) =>
+      '<div class="card exp-card"><div class="row between"><h3>' + esc(e.title) + '</h3><span class="tag age">' + esc(e.age) + '</span></div><p class="prompt">' + esc(e.prompt) + '</p><ul class="muted">' + e.questions.map((q) => "<li>" + esc(q) + "</li>").join("") + "</ul>" + (e.src ? '<p class="small muted">' + esc(e.src) + "</p>" : "") + "</div>"
+    ).join("");
+  }
+  function storyText(s) {
+    return s.title + "\n\n" + s.text.map((t) => (typeof t === "string" ? t : "[DURUP DÜŞÜN: " + t.pause + "]")).join("\n\n");
+  }
+  function openStory(id) {
+    const s = DATA.stories.find((x) => x.id === id);
+    if (!s) { closeStory(); return; }
+    $("#story-list-wrap").hidden = true;
+    const r = $("#story-reader"); r.hidden = false;
+    r.innerHTML =
+      '<div class="row between" style="margin-bottom:22px"><a class="btn btn-sm" href="#hikayeler">← Tüm hikâyeler</a><div class="row"><button class="btn btn-sm" id="st-copy">Metni kopyala</button><button class="btn btn-sm btn-primary" data-start-story="' + s.id + '">Bu hikâyeyle oturum başlat</button></div></div>' +
+      '<div class="twocol" style="gap:32px" id="reader-cols">' +
+      '<article class="reader"><div class="kicker stack" style="gap:8px;margin-bottom:22px"><div class="tags"><span class="tag age">' + esc(s.age) + ' yaş</span><span class="tag">' + s.minutes + ' dk okuma</span>' + s.domains.map((d) => '<span class="tag dom">' + esc(DATA.domains[d]) + "</span>").join("") + '</div><h2 style="font-size:clamp(2rem,4vw,2.8rem)">' + esc(s.title) + "</h2></div>" +
+      s.text.map((t) => typeof t === "string" ? "<p>" + esc(t) + "</p>" : '<div class="pause"><span class="eyebrow">Durup düşün · 20–30 saniye</span><span class="q">' + esc(t.pause) + "</span></div>").join("") +
+      '<p class="kicker muted small" style="margin-top:8px">Hikâye burada biter. Sonunu çocuklar tartışır; siz söylemeyin.</p></article>' +
+      '<aside class="stack" style="gap:20px"><div class="stack"><span class="eyebrow">Kavram çiftleri</span><div class="tags concepts">' + s.concepts.map((c) => '<span class="tag">' + esc(c) + "</span>").join("") + '</div></div>' +
+      '<div class="stack"><span class="eyebrow">Soruşturma soruları</span><ul class="qlist">' + s.questions.map((q) => "<li>" + esc(q) + "</li>").join("") + '</ul><p class="small muted">Çocuk sorusu çıkmazsa ya da seçilen soru tıkanırsa.</p></div>' +
+      '<div class="card soft stack"><span class="eyebrow">Kolaylaştırıcı notları</span><ul class="muted" style="font-size:.95rem">' + s.notes.map((n) => "<li>" + esc(n) + "</li>").join("") + "</ul></div>" +
+      '<div class="stack"><span class="eyebrow">Uzantı etkinliği</span><p class="small">' + esc(s.extension) + "</p></div></aside></div>";
+    $("#st-copy").addEventListener("click", () => copyText(storyText(s), "Hikâye metni kopyalandı"));
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }
+  function closeStory() { $("#story-list-wrap").hidden = false; const r = $("#story-reader"); r.hidden = true; r.innerHTML = ""; }
+
+  /* ---------- Soru bankası ---------- */
+  const qFilter = { dom: "all", age: "all", text: "" };
+  function renderQuestions() {
+    const doms = [["all", "Tüm alanlar"]].concat(Object.keys(DATA.domains).map((k) => [k, DATA.domains[k]]));
+    $("#q-dom-chips").innerHTML = doms.map((d) => '<button class="chip' + (qFilter.dom === d[0] ? " on" : "") + '" data-qdom="' + d[0] + '">' + esc(d[1]) + "</button>").join("");
+    const ages = [["all", "Tüm yaşlar"], ["1", "4–6"], ["2", "7–9"], ["3", "10–12"]];
+    $("#q-age-chips").innerHTML = ages.map((a) => '<button class="chip' + (qFilter.age === a[0] ? " on" : "") + '" data-qage="' + a[0] + '">' + a[1] + "</button>").join("");
+    const t = qFilter.text.trim().toLocaleLowerCase("tr-TR");
+    const list = DATA.questions.filter((q) => {
+      if (qFilter.dom !== "all" && q.d !== qFilter.dom) return false;
+      if (qFilter.age !== "all" && q.a > Number(qFilter.age)) return false;
+      if (t && q.q.toLocaleLowerCase("tr-TR").indexOf(t) < 0 && DATA.domains[q.d].toLocaleLowerCase("tr-TR").indexOf(t) < 0) return false;
+      return true;
+    });
+    $("#q-count").textContent = list.length + " soru" + (qFilter.age !== "all" ? " · " + DATA.ageBands[qFilter.age] + " için uygun" : "");
+    $("#q-bank").innerHTML = list.map((q) => '<div class="qb"><p class="t">' + esc(q.q) + '</p><div class="row between"><div class="tags"><span class="tag dom">' + esc(DATA.domains[q.d]) + '</span><span class="tag age">' + esc(DATA.ageShort[q.a]) + '</span></div><button class="btn btn-sm btn-ghost" data-copy-q="' + esc(q.q) + '">Kopyala</button></div></div>').join("") || '<p class="muted">Bu süzgeçle soru bulunamadı.</p>';
+  }
+  function randomQuestion() {
+    const q = DATA.questions[Math.floor(Math.random() * DATA.questions.length)];
+    const box = $("#q-big"); box.hidden = false;
+    box.innerHTML = '<div class="card bigq"><span class="eyebrow">' + esc(DATA.domains[q.d]) + " · " + esc(DATA.ageBands[q.a]) + '</span><p class="t">' + esc(q.q) + '</p><div class="row"><button class="btn btn-sm" id="q-random-again">Başka bir soru</button><button class="btn btn-sm btn-ghost" data-copy-q="' + esc(q.q) + '">Kopyala</button><button class="btn btn-sm btn-ghost" data-show-big="' + esc(q.q) + '">Ekranda göster</button></div></div>';
+    $("#q-random-again").addEventListener("click", randomQuestion);
+    box.scrollIntoView({ block: "nearest" });
+  }
+
+  /* Alıştırma: Bu soru felsefi mi? */
+  const quiz = { i: 0, score: 0, answered: false, order: [] };
+  function startQuiz() { quiz.i = 0; quiz.score = 0; quiz.answered = false; quiz.order = DATA.quiz.map((_, k) => k).sort(() => Math.random() - 0.5); renderQuiz(); }
+  function renderQuiz() {
+    const el = $("#quiz");
+    if (quiz.i >= quiz.order.length) {
+      el.innerHTML = '<span class="eyebrow">Sonuç</span><p class="q">' + quiz.score + " / " + quiz.order.length + ' doğru</p><p class="muted">Felsefi soru: bir kavramı açıklamayı gerektirir, herkesi ilgilendirir, bakarak ya da ölçerek çözülmez ve gerekçeli farklı cevaplara açıktır. Kişisel ve bilgi soruları değersiz değildir; “peki ya…” ile felsefi hâle getirilebilir.</p><button class="btn btn-sm" id="quiz-again">Yeniden başla</button>';
+      $("#quiz-again").addEventListener("click", startQuiz); return;
+    }
+    const item = DATA.quiz[quiz.order[quiz.i]];
+    el.innerHTML = '<div class="row between"><span class="eyebrow">Soru ' + (quiz.i + 1) + " / " + quiz.order.length + '</span><span class="tag">' + quiz.score + ' doğru</span></div><p class="q">' + esc(item.q) + '</p><div class="row">' +
+      Object.keys(DATA.quizTypes).map((k) => '<button class="btn" data-quiz="' + k + '">' + esc(DATA.quizTypes[k]) + "</button>").join("") + '</div><div id="quiz-fb"></div>';
+    $$("[data-quiz]", el).forEach((b) => b.addEventListener("click", () => {
+      if (quiz.answered) return; quiz.answered = true;
+      const ok = b.dataset.quiz === item.a; if (ok) quiz.score++;
+      $$("[data-quiz]", el).forEach((x) => { x.disabled = true; if (x.dataset.quiz === item.a) x.classList.add("btn-primary"); });
+      $("#quiz-fb").innerHTML = '<div class="fb ' + (ok ? "ok" : "no") + '"><b>' + (ok ? "Doğru. " : "Bu bir " + esc(DATA.quizTypes[item.a]).toLocaleLowerCase("tr-TR") + ". ") + "</b>" + esc(item.why) + '</div><div class="row" style="margin-top:10px"><button class="btn btn-sm btn-primary" id="quiz-next">' + (quiz.i + 1 >= quiz.order.length ? "Sonucu gör" : "Sonraki") + "</button></div>";
+      $("#quiz-next").addEventListener("click", () => { quiz.i++; quiz.answered = false; renderQuiz(); });
+    }));
+  }
+  function renderTester() {
+    const el = $("#tester");
+    const items = [
+      ["t1", "Cevabı bir kaynağa bakarak, sayarak ya da ölçerek bulabilir miyiz?"],
+      ["t2", "Soru yalnızca bir kişinin beğenisini ya da deneyimini mi soruyor?"],
+      ["t3", "Makul insanlar farklı cevap verebilir ve her biri gerekçe sunabilir mi?"],
+      ["t4", "Cevaplamak için bir kavramı (adalet, dostluk, bilmek…) açıklığa kavuşturmak gerekiyor mu?"]
+    ];
+    el.innerHTML = '<span class="eyebrow">Hızlı test</span><h3>Elinizdeki soruyu sınayın</h3><input class="input" id="t-q" placeholder="Çocuğun sorusunu yazın (isteğe bağlı)">' + items.map((it) => '<label><input type="checkbox" id="' + it[0] + '"><span>' + esc(it[1]) + "</span></label>").join("") + '<div class="verdict" id="t-verdict">Kutuları işaretledikçe sonuç burada görünür.</div>';
+    const upd = () => {
+      const v = (id) => $("#" + id).checked;
+      let msg;
+      if (v("t1")) msg = "Bilgi sorusu. Hızlıca cevaplayın ya da “Peki ya…?” ile açın: “Kaç elma vardı?” → “Elma sayısı değişseydi adalet de değişir miydi?”";
+      else if (v("t2")) msg = "Kişisel soru. Sohbet açar ama soruşturma başlatmaz. Genelleştirin: “Sen paylaşır mıydın?” → “Paylaşmak zorunda mıyız?”";
+      else if (v("t3") || v("t4")) msg = "Felsefi soru. Çemberde tartışmaya değer: oylamaya alın, seçilirse ilk sözü soran çocuğa verin.";
+      else msg = "Henüz belirsiz. Soruyu “neden”, “olabilir mi”, “zorunda mıyız”, “ne demek” ile dönüştürmeyi deneyin.";
+      $("#t-verdict").textContent = msg;
+    };
+    $$("input[type=checkbox]", el).forEach((c) => c.addEventListener("change", upd));
+  }
+
+  /* ---------- Araç kutusu ---------- */
+  function showBig(text, hint) {
+    const o = document.createElement("div"); o.className = "overlay"; o.setAttribute("role", "dialog"); o.setAttribute("aria-label", "Ekranda göster");
+    o.innerHTML = '<div class="big' + (text.length > 70 ? " long" : "") + '">' + esc(text) + '</div><div class="hint">' + esc(hint || "Kapatmak için dokunun ya da Esc") + "</div>";
+    const close = () => { o.remove(); document.removeEventListener("keydown", onKey); };
+    const onKey = (e) => { if (e.key === "Escape") close(); };
+    o.addEventListener("click", close); document.addEventListener("keydown", onKey); document.body.appendChild(o);
+  }
+  function renderTools() {
+    $("#stems").innerHTML = DATA.stems.map((s) => '<div class="stem"><span>' + esc(s) + '</span><button class="btn btn-sm btn-ghost" data-show-big="' + esc(s) + '">Göster</button></div>').join("");
+    $("#moves").innerHTML = DATA.moves.map((m) => '<div class="move"><span class="eyebrow">' + esc(m.cat) + "</span><ul>" + m.items.map((i) => "<li>" + esc(i) + "</li>").join("") + "</ul></div>").join("");
+    $("#rules").innerHTML = DATA.rules.map((r) => "<li>" + esc(r) + "</li>").join("");
+    $("#rules-show").addEventListener("click", () => showBig(DATA.rules.join("  ·  "), "Çember sözleşmesi · kapatmak için dokunun"));
+    $("#warmups").innerHTML = DATA.warmups.map((w) => '<div class="warm"><b>' + esc(w.name) + '</b><span class="small">' + esc(w.how) + "</span></div>").join("");
+    $("#age-table").innerHTML = "<thead><tr><th>Yaş</th><th>Süre</th><th>Uyaran</th><th>Soru üretme</th><th>Konuşma araçları</th><th>Hedef</th></tr></thead><tbody>" + DATA.ages.map((a) => "<tr><td><b>" + esc(a.band) + "</b></td><td>" + esc(a.time) + "</td><td>" + esc(a.stim) + "</td><td>" + esc(a.qs) + "</td><td>" + esc(a.talk) + "</td><td>" + esc(a.note) + "</td></tr>").join("") + "</tbody>";
+    $("#troubles").innerHTML = DATA.troubles.map((t) => "<details><summary>" + esc(t.s) + '</summary><div class="body">' + esc(t.fix) + "</div></details>").join("");
+  }
+
+  /* ---------- Gözlem ---------- */
+  function renderObserve() {
+    $("#obs").innerHTML = DATA.rubric.map((r, ri) => '<div class="card stack"><h4>' + esc(r.c) + "</h4>" + r.items.map((it, ii) => '<div class="stack" style="gap:6px"><span class="small">' + esc(it) + '</span><div class="chips">' + DATA.levels.map((l, li) => '<button class="chip" data-obs="' + ri + "-" + ii + '" data-lvl="' + li + '">' + esc(l) + "</button>").join("") + "</div></div>").join("") + "</div>").join("");
+    const saved = store.get("p4c_obs", {});
+    $$("[data-obs]").forEach((b) => {
+      if (saved[b.dataset.obs] == String(b.dataset.lvl)) b.classList.add("on");
+      b.addEventListener("click", () => {
+        $$('[data-obs="' + b.dataset.obs + '"]').forEach((x) => x.classList.remove("on")); b.classList.add("on");
+        const o = store.get("p4c_obs", {}); o[b.dataset.obs] = b.dataset.lvl; store.set("p4c_obs", o);
+      });
+    });
+    $("#obs-notes").value = store.get("p4c_obs_notes", "");
+    $("#obs-notes").addEventListener("input", (e) => store.set("p4c_obs_notes", e.target.value));
+    $("#obs-copy").addEventListener("click", () => {
+      const o = store.get("p4c_obs", {});
+      let out = "NOVA ECE P4C — Grup gözlemi · " + trDate(Date.now()) + "\n";
+      DATA.rubric.forEach((r, ri) => { out += "\n" + r.c + "\n"; r.items.forEach((it, ii) => { const v = o[ri + "-" + ii]; out += "  - " + it + ": " + (v == null ? "—" : DATA.levels[Number(v)]) + "\n"; }); });
+      const n = $("#obs-notes").value.trim(); if (n) out += "\nNotlar: " + n + "\n";
+      copyText(out, "Gözlem özeti kopyalandı");
+    });
+    renderHistory();
+  }
+  function renderHistory() {
+    const h = store.get("p4c_history", []);
+    const el = $("#history");
+    if (!h.length) { el.innerHTML = '<p class="muted">Henüz kayıtlı oturum yok. Canlı oturum modunda bir oturumu bitirdiğinizde kaydı burada görünür.</p>'; return; }
+    el.innerHTML = h.slice().reverse().map((s) => '<details><summary><span>' + esc(s.storyTitle) + '</span><span class="muted small" style="font-weight:600">' + esc(trDate(s.date)) + " · " + s.kids + " çocuk</span></summary><div class=\"body stack\"><pre class=\"summary\">" + esc(s.text) + '</pre><div class="row"><button class="btn btn-sm" data-hcopy="' + s.id + '">Kopyala</button><button class="btn btn-sm btn-ghost btn-danger" data-hdel="' + s.id + '">Sil</button></div></div></details>').join("");
+    $$("[data-hcopy]", el).forEach((b) => b.addEventListener("click", () => { const it = h.find((x) => String(x.id) === b.dataset.hcopy); if (it) copyText(it.text, "Oturum kaydı kopyalandı"); }));
+    $$("[data-hdel]", el).forEach((b) => b.addEventListener("click", () => { store.set("p4c_history", h.filter((x) => String(x.id) !== b.dataset.hdel)); renderHistory(); toast("Kayıt silindi"); }));
+  }
+
+  /* ---------- Canlı oturum ---------- */
+  function defaultSession() {
+    return { id: Date.now(), step: 0, storyId: DATA.stories[0].id, age: "5-6", kids: 12, total: 30, dur: DATA.durations[30].slice(),
+      timer: { remaining: 0, running: false, lastTs: 0 }, questions: [], chosen: null,
+      moves: { katil: 0, karsi: 0, ornek: 0, ayrim: 0, degistir: 0, soru: 0 }, park: "", open: "", lastWords: "", changed: 0, warmup: 0, startedAt: null };
+  }
+  const MOVES = [["katil", "Katıldı (çünkü)"], ["karsi", "Karşı çıktı"], ["ornek", "Örnek verdi"], ["ayrim", "Ayrım yaptı"], ["degistir", "Fikir değiştirdi"], ["soru", "Yeni soru sordu"]];
+  let S = store.get("p4c_session", null) || defaultSession();
+  if (!S.moves) S = defaultSession();
+  let tick = null, wakeLock = null;
+  const save = () => store.set("p4c_session", S);
+
+  function ring() {
+    try {
+      const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
+      const ctx = new AC(); const t0 = ctx.currentTime;
+      [0, 0.35, 0.7].forEach((off) => {
+        const o = ctx.createOscillator(), g = ctx.createGain(); o.connect(g); g.connect(ctx.destination); o.type = "sine"; o.frequency.value = 740;
+        g.gain.setValueAtTime(0.0001, t0 + off); g.gain.exponentialRampToValueAtTime(0.25, t0 + off + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, t0 + off + 0.3);
+        o.start(t0 + off); o.stop(t0 + off + 0.32);
+      });
+    } catch (e) { /* ses isteğe bağlı */ }
+  }
+  function timerDisplay() { const el = $("#timer"); if (!el) return; el.textContent = fmt(S.timer.remaining); el.classList.toggle("done", S.timer.remaining === 0 && S.step > 0 && S.step < 8); const b = $("#t-start"); if (b) b.textContent = S.timer.running ? "Duraklat" : "Başlat"; }
+  function timerTick() {
+    const now = Date.now(); const dt = Math.floor((now - S.timer.lastTs) / 1000);
+    if (dt >= 1) {
+      S.timer.lastTs += dt * 1000; S.timer.remaining = Math.max(0, S.timer.remaining - dt);
+      if (S.timer.remaining === 0) { timerPause(); ring(); toast("Süre doldu: " + PH[S.step - 1].name); }
+      timerDisplay(); save();
+    }
+  }
+  function timerStart() {
+    if (S.timer.running || S.timer.remaining <= 0) return;
+    S.timer.running = true; S.timer.lastTs = Date.now(); clearInterval(tick); tick = setInterval(timerTick, 400);
+    if (!S.startedAt) S.startedAt = Date.now();
+    try { if (navigator.wakeLock && navigator.wakeLock.request) navigator.wakeLock.request("screen").then((l) => { wakeLock = l; }).catch(() => {}); } catch (e) { /* isteğe bağlı */ }
+    timerDisplay(); save();
+  }
+  function timerPause() { S.timer.running = false; clearInterval(tick); tick = null; try { if (wakeLock) { wakeLock.release().catch(() => {}); wakeLock = null; } } catch (e) { /* yok */ } timerDisplay(); save(); }
+  function resumeTimerIfNeeded() {
+    if (!S.timer.running) return;
+    clearInterval(tick);
+    timerTick();
+    if (S.timer.running) tick = setInterval(timerTick, 400);
+  }
+
+  function gotoStep(n) {
+    timerPause();
+    S.step = n;
+    if (n >= 1 && n <= 7) S.timer = { remaining: S.dur[n - 1] * 60, running: false, lastTs: 0 };
+    if (n === 8) saveHistory();
+    save(); renderSession(); window.scrollTo({ top: 0, behavior: "auto" });
+  }
+  function planText() {
+    const st = storyById(S.storyId);
+    return "NOVA ECE P4C — Oturum planı\nHikâye: " + st.title + " (" + st.age + " yaş)\nGrup: " + S.kids + " çocuk · " + S.age + " yaş · " + S.total + " dk\n\n" + PH.map((p, i) => (i + 1) + ". " + p.name + " — " + S.dur[i] + " dk\n   " + p.goal).join("\n") + "\n\nKavram çiftleri: " + st.concepts.join(", ") + "\nYedek sorular:\n" + st.questions.map((q) => " - " + q).join("\n");
+  }
+  function summaryText() {
+    const st = storyById(S.storyId);
+    const ch = S.questions.find((q) => q.id === S.chosen);
+    let t = "NOVA ECE P4C — Oturum kaydı\nTarih: " + trDate(S.startedAt || Date.now()) + "\nHikâye: " + st.title + " (" + st.age + " yaş)\nGrup: " + S.kids + " çocuk · " + S.age + " yaş · planlanan " + S.total + " dk\n";
+    t += "\nÜretilen sorular (" + S.questions.length + "):\n" + (S.questions.length ? S.questions.map((q) => " - " + q.text + (q.by ? " (" + q.by + ")" : "") + " · " + q.votes + " oy").join("\n") : " —") + "\n";
+    t += "\nSeçilen soru: " + (ch ? ch.text : "—") + "\n";
+    t += "\nDüşünme hamleleri: " + MOVES.map((m) => m[1].toLocaleLowerCase("tr-TR") + " " + S.moves[m[0]]).join(" · ") + "\n";
+    t += "Fikrini değiştirdiğini söyleyen: " + S.changed + "\n";
+    if (S.park.trim()) t += "\nPark alanı:\n" + S.park.trim() + "\n";
+    if (S.lastWords.trim()) t += "\nSon söz turu:\n" + S.lastWords.trim() + "\n";
+    if (S.open.trim()) t += "\nAçık kalan sorular (bir sonraki oturum için):\n" + S.open.trim() + "\n";
+    return t;
+  }
+  function saveHistory() {
+    const h = store.get("p4c_history", []);
+    const st = storyById(S.storyId);
+    const rec = { id: S.id, date: S.startedAt || Date.now(), storyTitle: st.title, kids: S.kids, text: summaryText() };
+    const i = h.findIndex((x) => x.id === S.id); if (i >= 0) h[i] = rec; else h.push(rec);
+    store.set("p4c_history", h.slice(-40));
+  }
+
+  function renderSession() {
+    const el = $("#stage");
+    if (S.step === 0) return renderSetup(el);
+    if (S.step >= 8) return renderSummary(el);
+    const i = S.step - 1, ph = PH[i], story = storyById(S.storyId);
+    el.innerHTML = '<div class="stage"><div class="stack" style="gap:16px">' +
+      '<div class="stagebar"><div class="ph"><span class="eyebrow">Aşama ' + S.step + ' / 7 · ' + esc(story.title) + '</span><h3>' + esc(ph.name) + '</h3></div><div class="timer" id="timer">' + fmt(S.timer.remaining) + '</div><div class="row"><button class="btn btn-sm btn-primary" id="t-start">' + (S.timer.running ? "Duraklat" : "Başlat") + '</button><button class="btn btn-sm" id="t-plus">+1 dk</button><button class="btn btn-sm btn-ghost" id="t-reset">Sıfırla</button></div><div class="steps">' + PH.map((p, k) => '<span class="' + (k < i ? "done" : k === i ? "now" : "") + '" title="' + esc(p.name) + '"></span>').join("") + "</div></div>" +
+      '<div class="card phasebody" id="phasebody"></div>' +
+      '<div class="row between"><button class="btn" id="s-prev">← Önceki</button><div class="row"><button class="btn btn-ghost" id="s-proj">' + (document.body.classList.contains("proj") ? "Normal görünüm" : "Büyük ekran") + '</button><button class="btn btn-primary" id="s-next">' + (S.step === 7 ? "Oturumu bitir ve kaydet" : "Sonraki aşama →") + "</button></div></div>" +
+      '</div><aside class="notes"><span class="eyebrow">Kolaylaştırıcı notu</span><p><b>Amaç:</b> ' + esc(ph.goal) + "</p><ul>" + ph.tips.map((t) => "<li>" + esc(t) + "</li>").join("") + '</ul><p class="small" style="color:var(--rose)"><b>Sık hata:</b> ' + esc(ph.mistake) + "</p></aside></div>";
+    renderPhase($("#phasebody"), i, story);
+    $("#t-start").addEventListener("click", () => { if (S.timer.running) timerPause(); else { if (S.timer.remaining <= 0) S.timer.remaining = S.dur[i] * 60; timerStart(); } });
+    $("#t-plus").addEventListener("click", () => { S.timer.remaining += 60; timerDisplay(); save(); });
+    $("#t-reset").addEventListener("click", () => { timerPause(); S.timer.remaining = S.dur[i] * 60; timerDisplay(); save(); });
+    $("#s-prev").addEventListener("click", () => gotoStep(S.step - 1));
+    $("#s-next").addEventListener("click", () => {
+      if (S.step === 5 && !S.chosen && S.questions.length) { toast("Önce bir soru seçin"); return; }
+      gotoStep(S.step + 1);
+    });
+    $("#s-proj").addEventListener("click", toggleProj);
+    timerDisplay();
+  }
+  function toggleProj() {
+    const on = !document.body.classList.contains("proj");
+    document.body.classList.toggle("proj", on);
+    try { if (on && document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(() => {}); else if (!on && document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(() => {}); } catch (e) { /* isteğe bağlı */ }
+    const b = $("#s-proj"); if (b) b.textContent = on ? "Normal görünüm" : "Büyük ekran";
+  }
+
+  function renderSetup(el) {
+    const groups = [["4–6 yaş için", (s) => s.ageMin <= 5], ["6–10 yaş için", (s) => s.ageMin === 6], ["7–11 yaş için", (s) => s.ageMin >= 7]];
+    const opts = groups.map((g) => '<optgroup label="' + g[0] + '">' + DATA.stories.filter(g[1]).map((s) => '<option value="' + s.id + '"' + (s.id === S.storyId ? " selected" : "") + ">" + esc(s.title) + " (" + esc(s.age) + ")</option>").join("") + "</optgroup>").join("");
+    const st = storyById(S.storyId);
+    el.innerHTML = '<div class="twocol" id="setup-cols"><div class="card stack" style="gap:18px"><div><span class="eyebrow">Kurulum</span><h3>Bugünkü oturum</h3></div>' +
+      '<div class="setup"><label>Hikâye<select class="input" id="su-story">' + opts + '</select></label>' +
+      '<label>Yaş grubu<select class="input" id="su-age">' + ["3-4", "5-6", "7-9", "10-12"].map((a) => '<option value="' + a + '"' + (S.age === a ? " selected" : "") + ">" + a + " yaş</option>").join("") + "</select></label>" +
+      '<label>Çocuk sayısı<input class="input" id="su-kids" type="number" min="2" max="40" value="' + S.kids + '"></label>' +
+      '<label>Toplam süre<select class="input" id="su-total">' + [20, 30, 40, 50].map((t) => '<option value="' + t + '"' + (S.total === t ? " selected" : "") + ">" + t + " dakika</option>").join("") + "</select></label></div>" +
+      '<div class="stack" style="gap:8px"><span class="eyebrow">Aşama süreleri</span><div class="plan-strip" id="su-plan"></div></div>' +
+      '<div class="row"><button class="btn btn-primary" id="su-start">Oturumu başlat</button><button class="btn" id="su-copy">Planı kopyala</button></div>' +
+      '<p class="small muted">Zamanlayıcı her aşamada otomatik kurulur; siz “Başlat”a basarsınız. Soru üretme ve oylama ekranları projeksiyona yansıtılabilir.</p></div>' +
+      '<div class="stack" id="su-preview"></div></div>';
+    const preview = () => {
+      const s = storyById(S.storyId);
+      $("#su-preview").innerHTML = '<div class="card stack"><span class="eyebrow">Seçilen hikâye</span><h3>' + esc(s.title) + '</h3><div class="tags"><span class="tag age">' + esc(s.age) + ' yaş</span><span class="tag">' + s.minutes + ' dk okuma</span></div><p class="serif muted">' + esc(s.blurb) + '</p><div class="stack" style="gap:6px"><span class="eyebrow">Kavram çiftleri</span><div class="tags">' + s.concepts.map((c) => '<span class="tag">' + esc(c) + "</span>").join("") + '</div></div><a class="btn btn-sm" href="#hikaye-' + s.id + '">Hikâyeyi önceden oku</a></div>' +
+        '<div class="card soft stack"><span class="eyebrow">Hazırlık listesi</span><ul class="muted small"><li>Sandalyeler çember, boşluk yok; siz de çemberdesiniz.</li><li>Soruları yazmak için tahta ya da büyük kâğıt (ya da bu ekran).</li><li>Konuşma taşı / nesnesi.</li><li>Küçük yaşlar için hikâyeyi somutlaştıracak bir nesne.</li></ul></div>';
+      $("#su-plan").innerHTML = PH.map((p, i) => "<span>" + (i + 1) + ". " + esc(p.name) + " · " + S.dur[i] + "</span>").join("");
+    };
+    preview();
+    $("#su-story").addEventListener("change", (e) => { S.storyId = e.target.value; save(); preview(); });
+    $("#su-age").addEventListener("change", (e) => { S.age = e.target.value; save(); });
+    $("#su-kids").addEventListener("change", (e) => { S.kids = Math.max(2, Math.min(40, Number(e.target.value) || 12)); e.target.value = S.kids; save(); });
+    $("#su-total").addEventListener("change", (e) => { S.total = Number(e.target.value); S.dur = DATA.durations[S.total].slice(); save(); preview(); });
+    $("#su-copy").addEventListener("click", () => copyText(planText(), "Oturum planı kopyalandı"));
+    $("#su-start").addEventListener("click", () => { S.id = Date.now(); S.startedAt = Date.now(); S.warmup = Math.floor(Math.random() * DATA.warmups.length); gotoStep(1); });
+  }
+
+  function renderPhase(el, i, story) {
+    const key = PH[i].key;
+    if (key === "cember") {
+      const w = DATA.warmups[S.warmup % DATA.warmups.length];
+      el.innerHTML = '<p class="bigtext">Çemberi kurun. Üç kuralı birlikte hatırlayın.</p><ol class="rules">' + DATA.rules.slice(0, 4).map((r) => "<li>" + esc(r) + "</li>").join("") + '</ol><div class="warm"><span class="eyebrow">Isınma oyunu · 3 dk</span><b>' + esc(w.name) + '</b><span>' + esc(w.how) + '</span><div class="row" style="margin-top:6px"><button class="btn btn-sm" id="warm-next">Başka oyun</button><button class="btn btn-sm btn-ghost" data-show-big="' + esc(DATA.rules.slice(0, 4).join("  ·  ")) + '">Kuralları ekranda göster</button></div></div>';
+      $("#warm-next").addEventListener("click", () => { S.warmup++; save(); renderPhase(el, i, story); });
+    } else if (key === "hikaye") {
+      el.innerHTML = '<p class="quiet">Sesli okuyun. Sarı kutularda durun, 20–30 saniye bekleyin; cevap toplamayın.</p><article class="reader"><h2 style="margin-bottom:16px">' + esc(story.title) + "</h2>" +
+        story.text.map((t) => typeof t === "string" ? "<p>" + esc(t) + "</p>" : '<div class="pause"><span class="eyebrow">Durup düşün</span><span class="q">' + esc(t.pause) + "</span></div>").join("") + "</article>";
+    } else if (key === "dusunme") {
+      el.innerHTML = '<p class="bigtext">Hikâyede seni şaşırtan, merak ettiren ya da kafanı karıştıran bir şey var mıydı?</p><p class="quiet">Sessiz dakika. Çocuklar düşünür, siz beklersiniz. Küçük yaşlarda 30 saniye sonra “yanındakine fısılda” diyebilirsiniz.</p><div class="row"><button class="btn btn-sm btn-ghost" data-show-big="Seni şaşırtan, merak ettiren ya da kafanı karıştıran bir şey var mıydı?">Soruyu ekranda göster</button></div>';
+    } else if (key === "soru") {
+      el.innerHTML = '<p class="bigtext">Hikâye size hangi soruları düşündürdü?</p><div class="row"><input class="input" id="q-text" placeholder="Çocuğun sorusunu söylediği gibi yazın" style="flex:1 1 260px" autocomplete="off"><input class="input" id="q-by" placeholder="Kim? (isteğe bağlı)" style="flex:0 1 170px" autocomplete="off"><button class="btn btn-primary" id="q-add">Ekle</button></div><div class="chips">' + DATA.starters.map((s) => '<button class="chip" data-starter="' + esc(s) + '">' + esc(s) + "</button>").join("") + '</div><div class="stack" id="q-list"></div><div class="row"><button class="btn btn-sm btn-ghost" id="q-suggest">Hikâyenin yedek sorularından ekle</button></div>';
+      const list = () => {
+        $("#q-list").innerHTML = S.questions.length ? S.questions.map((q) => '<div class="qcard"><div><div class="qt">' + esc(q.text) + '</div>' + (q.by ? '<div class="by">' + esc(q.by) + "</div>" : "") + '</div><button class="btn btn-sm btn-ghost" data-qdel="' + q.id + '" aria-label="Soruyu sil">Sil</button></div>').join("") : '<p class="muted small">Henüz soru yok. Bir çocuk soru söylediğinde aynen yazın ve adını ekleyin.</p>';
+        $$("[data-qdel]", el).forEach((b) => b.addEventListener("click", () => { S.questions = S.questions.filter((q) => String(q.id) !== b.dataset.qdel); if (String(S.chosen) === b.dataset.qdel) S.chosen = null; save(); list(); }));
+      };
+      const add = () => {
+        const t = $("#q-text").value.trim(); if (!t) { $("#q-text").focus(); return; }
+        S.questions.push({ id: Date.now() + Math.floor(Math.random() * 1000), text: t, by: $("#q-by").value.trim(), votes: 0 });
+        $("#q-text").value = ""; $("#q-by").value = ""; $("#q-text").focus(); save(); list();
+      };
+      $("#q-add").addEventListener("click", add);
+      $("#q-text").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); add(); } });
+      $("#q-by").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); add(); } });
+      $$("[data-starter]", el).forEach((b) => b.addEventListener("click", () => { const inp = $("#q-text"); inp.value = (inp.value ? inp.value + " " : "") + b.dataset.starter.replace(/…/g, "").replace(/\s+/g, " ").trim() + " "; inp.focus(); }));
+      $("#q-suggest").addEventListener("click", () => {
+        const left = story.questions.filter((q) => !S.questions.some((x) => x.text === q)); if (!left.length) { toast("Yedek soruların hepsi eklendi"); return; }
+        S.questions.push({ id: Date.now() + Math.floor(Math.random() * 1000), text: left[0], by: "yedek", votes: 0 }); save(); list();
+      });
+      list();
+    } else if (key === "secim") {
+      const render = () => {
+        if (!S.questions.length) { el.innerHTML = '<p class="bigtext">Henüz soru yok.</p><p class="muted">Önceki aşamaya dönüp çocukların sorularını ekleyin ya da hikâyenin yedek sorularından birini seçin.</p>'; return; }
+        const max = Math.max(1, ...S.questions.map((q) => q.votes));
+        el.innerHTML = '<p class="bigtext">Hangi soruyu birlikte düşünelim?</p><p class="quiet">Önce benzer soruları çocuklara sorarak birleştirin. Sonra oylama: her çocuk bir el ya da gözler kapalı. Siz oy kullanmazsınız.</p><div class="stack" id="v-list">' +
+          S.questions.map((q) => '<div class="qcard' + (S.chosen === q.id ? " chosen" : "") + '"><div><div class="qt">' + esc(q.text) + '</div>' + (q.by ? '<div class="by">' + esc(q.by) + "</div>" : "") + '</div><div class="row" style="flex-wrap:nowrap"><div class="stepper"><button data-vote="-1" data-id="' + q.id + '" aria-label="Oy azalt">−</button><b>' + q.votes + '</b><button data-vote="1" data-id="' + q.id + '" aria-label="Oy ekle">+</button></div><button class="btn btn-sm' + (S.chosen === q.id ? " btn-primary" : "") + '" data-choose="' + q.id + '">' + (S.chosen === q.id ? "Seçildi" : "Seç") + '</button></div><div class="votebar"><i style="width:' + Math.round((q.votes / max) * 100) + '%"></i></div></div>').join("") + "</div>";
+        $$("[data-vote]", el).forEach((b) => b.addEventListener("click", () => { const q = S.questions.find((x) => String(x.id) === b.dataset.id); if (!q) return; q.votes = Math.max(0, q.votes + Number(b.dataset.vote)); save(); render(); }));
+        $$("[data-choose]", el).forEach((b) => b.addEventListener("click", () => { S.chosen = Number(b.dataset.choose); save(); render(); }));
+      };
+      render();
+    } else if (key === "sorusturma") {
+      const ch = S.questions.find((q) => q.id === S.chosen);
+      const counters = () => $$("[data-move]", el).forEach((b) => { $("b", b).textContent = S.moves[b.dataset.move]; });
+      el.innerHTML = (ch ? '<div class="chosen-q"><span class="eyebrow">Sorumuz' + (ch.by ? " · " + esc(ch.by) + " sordu" : "") + '</span><div class="t">' + esc(ch.text) + "</div></div>" : '<p class="bigtext">Seçilmiş soru yok.</p><p class="muted">Bir önceki aşamadan bir soru seçin; yoksa çemberde sözlü olarak seçip buraya ekleyin.</p>') +
+        '<div class="row"><button class="btn btn-sm btn-ghost" ' + (ch ? 'data-show-big="' + esc(ch.text) + '"' : "disabled") + '>Soruyu ekranda göster</button><span class="small muted">İlk söz: soruyu soran çocuk. “Bunu sorarken aklında ne vardı?”</span></div>' +
+        '<div class="stack" style="gap:8px"><span class="eyebrow">Konuşma kalıpları</span><div class="grid c2" style="gap:8px">' + DATA.stems.slice(0, 8).map((s) => '<div class="stem"><span>' + esc(s) + '</span><button class="btn btn-sm btn-ghost" data-show-big="' + esc(s) + '">Göster</button></div>').join("") + "</div></div>" +
+        '<div class="stack" style="gap:8px"><div class="row between"><span class="eyebrow">Düşünme hamleleri (her duyduğunuzda dokunun)</span><button class="btn btn-sm btn-ghost" id="mv-undo">Son sayımı geri al</button></div><div class="counter">' + MOVES.map((m) => '<button data-move="' + m[0] + '"><b>0</b><small>' + esc(m[1]) + "</small></button>").join("") + "</div></div>" +
+        '<details><summary>Derinleştirme hamleleri (kolaylaştırıcı)</summary><div class="body"><div class="grid c2" style="gap:10px">' + DATA.moves.map((m) => '<div><b style="color:var(--ink)">' + esc(m.cat) + '</b><ul style="padding-left:1.1em;margin-top:4px">' + m.items.map((x) => "<li>" + esc(x) + "</li>").join("") + "</ul></div>").join("") + "</div></div></details>" +
+        '<label class="stack" style="gap:6px"><span class="eyebrow">Park alanı (konudan sapan ama kaybedilmesin denen fikirler)</span><textarea class="input" id="park">' + esc(S.park) + "</textarea></label>";
+      let lastMove = null;
+      $$("[data-move]", el).forEach((b) => b.addEventListener("click", () => { S.moves[b.dataset.move]++; lastMove = b.dataset.move; save(); counters(); }));
+      $("#mv-undo").addEventListener("click", () => { if (lastMove && S.moves[lastMove] > 0) { S.moves[lastMove]--; lastMove = null; save(); counters(); } });
+      $("#park").addEventListener("input", (e) => { S.park = e.target.value; save(); });
+      counters();
+    } else if (key === "kapanis") {
+      el.innerHTML = '<p class="bigtext">Bugün fikrini değiştiren oldu mu?</p><div class="row"><div class="stepper"><button id="ch-minus" aria-label="Azalt">−</button><b id="ch-val">' + S.changed + '</b><button id="ch-plus" aria-label="Artır">+</button></div><span class="muted small">El kaldıran sayısı. Fikir değiştirmek takdir edilir.</span></div>' +
+        '<label class="stack" style="gap:6px"><span class="eyebrow">Son söz turu · herkes tek cümle, isteyen pas</span><textarea class="input" id="lastwords" placeholder="Dikkat çeken cümleleri not edin…">' + esc(S.lastWords) + "</textarea></label>" +
+        '<label class="stack" style="gap:6px"><span class="eyebrow">Açık kalan sorular · bir sonraki oturumun kapısı</span><textarea class="input" id="openq" placeholder="Hâlâ cevaplanmamış ne kaldı?">' + esc(S.open) + "</textarea></label>" +
+        '<div class="row"><button class="btn btn-sm btn-ghost" data-show-big="Bugün fikrini değiştiren oldu mu? · Son söz: tek cümle">Kapanış sorusunu göster</button></div>';
+      $("#ch-plus").addEventListener("click", () => { S.changed++; $("#ch-val").textContent = S.changed; save(); });
+      $("#ch-minus").addEventListener("click", () => { S.changed = Math.max(0, S.changed - 1); $("#ch-val").textContent = S.changed; save(); });
+      $("#lastwords").addEventListener("input", (e) => { S.lastWords = e.target.value; save(); });
+      $("#openq").addEventListener("input", (e) => { S.open = e.target.value; save(); });
+    }
+  }
+
+  function renderSummary(el) {
+    const txt = summaryText();
+    el.innerHTML = '<div class="twocol" id="sum-cols"><div class="card stack"><div><span class="eyebrow">Oturum tamamlandı</span><h3>Oturum kaydı</h3></div><pre class="summary">' + esc(txt) + '</pre><div class="row"><button class="btn btn-primary" id="sum-copy">Kaydı kopyala</button><a class="btn" href="#gozlem">Gözlem defterine git</a><button class="btn btn-ghost" id="sum-back">Kapanışa dön</button></div><p class="small muted">Kayıt bu cihazda, Gözlem defterindeki “Geçmiş oturumlar” altında da duruyor.</p></div>' +
+      '<div class="card soft stack"><span class="eyebrow">Bir sonraki adım</span><p class="small">Açık kalan soruları bir sonraki oturumun uyaranı yapın: hikâye yerine doğrudan soruyla başlayabilirsiniz.</p><button class="btn btn-sm" id="sum-new">Yeni oturum kur</button></div></div>';
+    $("#sum-copy").addEventListener("click", () => copyText(txt, "Oturum kaydı kopyalandı"));
+    $("#sum-back").addEventListener("click", () => gotoStep(7));
+    $("#sum-new").addEventListener("click", () => { S = defaultSession(); save(); renderSession(); });
+  }
+
+  /* ---------- Olaylar ---------- */
+  function bindGlobal() {
+    document.addEventListener("click", (e) => {
+      const t = e.target.closest("[data-show-big],[data-copy-q],[data-start-story],[data-open-story],[data-sage],[data-sdom],[data-qdom],[data-qage]");
+      if (!t) return;
+      if (t.dataset.showBig) showBig(t.dataset.showBig);
+      else if (t.dataset.copyQ) copyText(t.dataset.copyQ, "Soru kopyalandı");
+      else if (t.dataset.startStory) { timerPause(); const keep = S; S = defaultSession(); S.age = keep.age; S.kids = keep.kids; S.total = keep.total; S.dur = DATA.durations[S.total].slice(); S.storyId = t.dataset.startStory; save(); renderSession(); go("oturum"); }
+      else if (t.dataset.openStory) go("hikaye-" + t.dataset.openStory);
+      else if (t.dataset.sage) { storyFilter.age = t.dataset.sage; renderStories(); }
+      else if (t.dataset.sdom) { storyFilter.dom = t.dataset.sdom; renderStories(); }
+      else if (t.dataset.qdom) { qFilter.dom = t.dataset.qdom; renderQuestions(); }
+      else if (t.dataset.qage) { qFilter.age = t.dataset.qage; renderQuestions(); }
+    });
+    $("#q-search").addEventListener("input", (e) => { qFilter.text = e.target.value; renderQuestions(); });
+    $("#q-random").addEventListener("click", randomQuestion);
+    $("#s-reset").addEventListener("click", () => {
+      const b = $("#s-reset");
+      if (b.dataset.arm === "1") { timerPause(); S = defaultSession(); save(); renderSession(); b.dataset.arm = ""; b.textContent = "Oturumu sıfırla"; toast("Oturum sıfırlandı"); return; }
+      b.dataset.arm = "1"; b.textContent = "Emin misiniz? Tekrar dokunun"; setTimeout(() => { b.dataset.arm = ""; b.textContent = "Oturumu sıfırla"; }, 3500);
+    });
+    window.addEventListener("hashchange", route);
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) { resumeTimerIfNeeded(); timerDisplay(); } });
+    document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement && document.body.classList.contains("proj")) { document.body.classList.remove("proj"); const b = $("#s-proj"); if (b) b.textContent = "Büyük ekran"; } });
+  }
+
+  function init(data) {
+    if (data && data.session && data.session.moves) S = data.session;
+    try { if (window.claude && window.claude.hot && window.claude.hot.snapshot) window.claude.hot.snapshot(() => ({ session: S })); } catch (e) { /* yok */ }
+    renderHome(); renderFlow(); renderStories(); renderQuestions(); startQuiz(); renderTester(); renderTools(); renderObserve(); renderSession();
+    bindGlobal(); route(); resumeTimerIfNeeded();
+  }
+  const hot = window.claude && window.claude.hot;
+  if (hot && hot.ready) hot.ready(init); else init((hot && hot.data) || {});
+})();
+
+</script>
+</body>
+</html>
