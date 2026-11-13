@@ -91,7 +91,7 @@ a{color:var(--ind-600)}
 body.menu-open .nav .logo svg{--lo:#F8FAFC!important;--ls:#FBBF24!important;--ln:#F8FAFC!important;--le:#818CF8!important}
 .menu-btn svg{display:block}
 .mobile-menu{display:none}
-@media(max-width:1280px){
+@media(max-width:1400px){
   .nav .links,.nav .actions .login,.nav .actions .lang{display:none}
   .menu-btn{display:grid}
   .nav .actions,.nav .links + .actions{margin-left:auto}  /* bağlantılar gizliyken de menü düğmesi sağda */
